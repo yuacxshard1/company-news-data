@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "34075a608d5785b0ae08f1c5cbf4396c663209b48efc575ad13799783785672e",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2025-09-12-managed-ecs-ec2-clusters-in-preview",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2025-09-12-managed-ecs-ec2-clusters-in-preview",
+  "title": "Managed ECS-EC2 Clusters in Preview - Flightcontrol Changelog | Productlane",
+  "summary": "",
+  "body_markdown": "## 🚀 Features\n\n\n-\n\n\n**Managed ECS-EC2 clusters in preview**\n\n\n-\n\n\nAWS has a long standing issue with the ECS agent randomly disconnecting, resulting in orphaned EC2 instances which can cause traffic or deployment degradation.\n\n\n-\n\n\nWe have attempted to solve this a few ways in the past, but there were still critical edge cases falling through.\n\n\n-\n\n\nSo we bit the bullet, and developed a robust, full featured ECS cluster management solution to solve this problem once and for all.\n\n\n-\n\n\nIt's currently in private preview. To get early access before we roll it out to everyone, contact support.\n\n\n-\n\n\n**Scaling API endpoint to manually scale servers up and down**\n\n\n-\n\n\nYou can use this to implement queue-length based autoscaling OR to scale staging and preview environments to 0 outside work hours\n\n\n-\n\n\n[Read the docs](https://www.flightcontrol.dev/docs/reference/http-api/services/update-scaling)\n\n\n-\n\n\n**Ability to disable autoscaling in service config**\n\n\n-\n\n\n[Read the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#autoscaling)\n\n\n-\n\n\n**List services API endpoint**\n\n\n-\n\n\n[Read the docs](https://www.flightcontrol.dev/docs/reference/http-api/services/get-services)\n\n\n## ⚙️ Improvements\n\n\n-\n\n\nAdd download button to runtime logs\n\n\n-\n\n\nScheduler UI improvements\n\n\n-\n\n\nAdded link to ECS service AWS resource card\n\n\n## 🐞 Bug Fixes\n\n\n-\n\n\nFix rollback case where no services were available for rollback\n\n\n-\n\n\nFix some deletion issues\n\n\n-\n\n\nFix a budget UI not working\n\n\n-\n\n\nFix some GitHub integration issues for some users",
+  "published_at": null,
+  "first_seen_at": "2026-08-09T22:19:16.006447+00:00",
+  "content_hash": "sha256:67aeb919c636bfa1ca19651877b6422be1331806b57443c398da04f798bcc1c6"
+}

@@ -1,0 +1,206 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "01619fe998d43fc362b1709940a5472b9348a37c542fb06b967de7dd167cc9ec",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Five practical approaches for connecting to platforms with no public API, ranked by what they actually cost you in production: latency, brittleness, and maintenance time.",
+      "title": "How to Connect Software Without an API"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "0dea4b0d4b5485acb4ab867e07ed086f900749ffa9ab73a4677b0758692a8e0f",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Every web app runs on HTTP requests its browser fires internally. A network request integration captures and replays those requests directly, without a browser, to build reliable integrations for platforms with no official API.",
+      "title": "What Is a Network Request Integration? How Apps Talk Without Official APIs"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "10fe1a5278c28f33c87cb72e6ddf4ace0e068366112b1175271d1142a9c5f652",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-24T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Custom automation builds integrations at the network layer — calling a platform's private HTTP endpoints directly, not driving its UI. The result is faster, more reliable automation that survives frontend changes and scales to production volumes.",
+      "title": "What Is Custom Automation? How to Automate Any Platform Without Browser-Based Tools"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "11024be46a25c06e1a7d205fb9c7f68ce7f7e55f463d674aaec3f68650c464df",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-14T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "High-throughput API integration is an architecture designed to handle thousands of concurrent API calls within defined latency constraints; it requires a fundamentally different approach than browser automation or RPA. Here is what the math looks like,...",
+      "title": "What Is High-Throughput API Integration? Scaling Beyond What RPA Can Handle"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "3108e563126a9195dbca876eb6681172e29755587bced4091b42a5366920f9ca",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Authentication is the #1 production integration failure mode. This post explains the three auth layers every integration must handle: initial login, session persistence, and re-auth, and how Integuru's auth auto-healing eliminates them.",
+      "title": "What Is an Authenticated API Integration? How Auth Flows Work at Production Scale"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "36e0c4c834fa69a6d4b2bc4410d3a2344952c4d1f1b49e103d8e2cc3286a2b96",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "When a platform publishes an official API, you use it. When it doesn't, you either build something fragile or you use a generated API — and those two paths have very different maintenance profiles in production.",
+      "title": "Native API vs. Generated API: Which Is Right for Your Integration Stack?"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "3a19ec1b64ad395ede8a93701800acd86253a9c7344ae2c8078fef63dd338af5",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "User-permissioned API access means Integuru connects to a platform using credentials the customer provides, acting on their behalf. The Plaid model applied to any platform. Here's what enterprise buyers need to know.",
+      "title": "User-Permissioned API Access: How Integuru Connects on Behalf of Real Accounts"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "406f9371ad453901f7bcad31d358fd4bd018f886b7ca37d2782715f292eff4ac",
+      "first_seen_at": "2026-07-24T00:14:53.521545+00:00",
+      "published_at": "2026-07-06T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "An unofficial API is the set of private HTTP endpoints a web platform uses internally to power its own frontend. Developers can call these endpoints directly to get structured data and automate workflows, even when no official API exists.",
+      "title": "What Is an Unofficial API?"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "442a4a1c4d5398e97f09599b4827e70ed3ed65982f32ac07b2eda81a782b50db",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Reverse-engineered API integration means accessing a platform's private HTTP endpoints directly, not through a browser. Here's what it actually involves, whether it's legally sound, and how reliable it is for production use.",
+      "title": "What Is a Reverse-Engineered API Integration? A Plain-Language Guide"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "59e7527353a580232a95c2488dfb115f761062bcfafddb16ed451ad5bb75f297",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-25T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Your team needs data or actions from a platform with no official API. Apify and Integuru both solve this problem, but at different layers of the web stack. A fair comparison across latency, reliability, auth complexity, and maintenance burden.",
+      "title": "Integuru vs. Apify: API Generation vs. Web Scraping for Production Integrations"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "5b6de1d91f434f2152933a2040b93cf444fc0f0a3d058edca09571815abb8e71",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A non-public API is the HTTP backend any authenticated web platform already has — just never published. This guide explains what non-public API integration means, how it differs from official API access, and why the real challenge is production mainten...",
+      "title": "Non-Public API Integration: How to Connect to Platforms That Don't Expose Endpoints"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "7b001cc0dc513467da8a03f7374f9e441e00a7a8dcdf115a0d73ca8c22f5762f",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Browser automation breaks differently inside an AI agent loop than in a test script. The latency ceiling, cascading errors, and concurrency overhead are structural. Here's what developers are doing instead, and why direct HTTP wins.",
+      "title": "Why Browser Automation Feels Fragile Inside an AI Agent Loop"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "7db867a378be482e3647a3ce9c9e1fc2a7f07338e5a20d7ee9e0e2a3061b5b4f",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A complete decision guide covering six methods for getting API access to platforms with no official API: from iPaaS connectors to network layer inspection to managed API generation with Integuru.",
+      "title": "The Developer's Guide to Getting API Access for Any Website"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "8dba9e46290783c7fd9673bcab0fa94d8dea11d54c3b366753acb9d9d5dd807b",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-24T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Integration reliability is more than uptime. Learn the four dimensions: uptime, latency, error rate, and auth stability, and the specific benchmarks production integrations must meet.",
+      "title": "What Is Integration Reliability? The Production Standard Explained"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "92400569495fa083e6a1a07c57340fad1b25a401cad76b07d93e1e55e2492413",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-12T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Seven criteria engineering leads and CTOs should apply before committing to an API generation service — covering reliability, latency, auth complexity, maintenance, edge cases, documentation, and pricing.",
+      "title": "How to Evaluate an API Generation Service for Production: A Buyer's Checklist"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "9befaaa44ad4214146fbebc0cfb208bf5440028d2f8f87bb78cebf501fa502f2",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A decision guide for engineering teams choosing between Zapier, Workato, Boomi, custom in-house builds, and managed custom integration for third-party platforms that may have no public API.",
+      "title": "Custom Integration vs. iPaaS: Choosing the Right Architecture for Third-Party Platforms"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "ada233dc6ec0eb528ff7c7b399b4a32fc340096be14f8b959d619014af8cd237",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Government portals and legacy enterprise systems have web interfaces that work; they just were never built for programmatic access. This playbook covers why these systems lack public APIs, why RPA fails on them, and how HTTP-native integration gives te...",
+      "title": "Integrating with Legacy Systems That Have No API: A Practical Playbook"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "b6dce1ec7a3683b39c9d72ce4747e4c918715b5a535442977347b7ce11817589",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Web scraping extracts data by parsing HTML. API integration calls backend endpoints directly. Here is what each approach actually does, where each one breaks, and how to choose between them for production use.",
+      "title": "What Is Web Scraping? And How It Differs from API Integration"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "fe63fb7f4a331d066a7b6685f9ee249f920b43bdbe144fe97fc5cd60627ff865",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "An internal API is what every web platform's frontend already calls. This guide explains how developers find these endpoints and use them for production integrations.",
+      "title": "What Is an Internal API Integration? How to Access a Platform's Own Endpoints"
+    },
+    {
+      "company_key": "yc-integuru",
+      "company_name": "Integuru",
+      "doc_id": "ffb9b9cde301e46368173d00fcf98b17ab79f0dc60522a9292fb45edcaf60620",
+      "first_seen_at": "2026-07-27T05:10:38.353575+00:00",
+      "published_at": "2026-07-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Custom API integrations connect your product to platforms that have no connector, no public API, or workflows that off-the-shelf tools can't reach. Here's what they are, when you need one, and what building them in-house actually costs.",
+      "title": "What Is a Custom API Integration? When Official APIs Are Not Enough"
+    }
+  ],
+  "company_key": "yc-integuru",
+  "month": "2026-07"
+}

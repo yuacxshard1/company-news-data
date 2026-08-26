@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d43a95500b87d4be748bcd7a554692376d45b6efdd8847643e060025e347bbeb",
+  "company_key": "yc-decentro",
+  "company_name": "Decentro",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.decentro.tech/changelog/flow-release-notes-388",
+  "canonical_url": "https://docs.decentro.tech/changelog/flow-release-notes-388",
+  "title": "Flow Release Notes | Version 3.8.8",
+  "summary": "Feature Name : Remaining Representation Attempts Count for Presentations Deployment Date: April 13th, 2026 We have enhanced the remaining_representation_attempts logic in Presentation Status API and callbacks to make it more accurate and aligned with NPCI rules. Representation attempts are now dynam...",
+  "body_markdown": "[Back to All](https://docs.decentro.tech/changelog)\n\n\nimproved\n\n\n**Feature Name :** Remaining Representation Attempts Count for Presentations\n**Deployment Date:** April 13th, 2026\n\n\nWe have enhanced the` remaining_representation_attempts` logic in Presentation Status API and callbacks to make it more accurate and aligned with NPCI rules.\n\n\n- Representation attempts are now dynamic and error-code driven\n- Only eligible failures will allow retries\n- Maximum allowed = **2 retries (1 initial + 2 attempts)**\n\n\n**Key Changes:**\n\n\n- For non-eligible error codes:` remaining_representation_attempts` = 0\n\n\n- No further presentations allowed\n- PDN marked as Completed\n\n\n- For eligible error codes:` remaining_representation_attempts` decreases with each retry\n\n\n- Up to 2 retries allowed\n- For instant presentations:` remaining_representation_attempts` = 0\n- No retries allowed when` remaining_representation_attempts` = 0\n\n\n- Same logic is applied across:\n\n\n- Presentation **Status API**\n- Presentation **callback payloads**\n\n\n**Impact:**\n\n\n- Eliminates unnecessary re-presentation attempts.\n- Improves accuracy of retry eligibility.\n- Helps merchants take correct actions based on failure reason.",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T01:33:54.013008+00:00",
+  "content_hash": "sha256:417e9f0eaff4f53704c5dc0c9b16c61aa844f9567b69964bd1814623184745f6"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "68b21ff55378dca03fd5b65adbfe8127b99788a41c471a935c0c7282f290a22e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
+  "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+  "body_markdown": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are available in Mexico (Central) and Asia Pacific (Melbourne), and R8gd instances are available in Europe (Zurich). These instances are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. They have up to 40% higher performance for I/O intensive database workloads, and up to 20% faster query results for I/O intensive real-time data analytics than comparable AWS Graviton3-based instances. These instances are built on the AWS Nitro System and are a great fit for applications that need access to high-speed, low latency local storage.\n\n\nEach instance is available in 12 different sizes. They provide up to 50 Gbps of network bandwidth and up to 40 Gbps of bandwidth to the Amazon Elastic Block Store (Amazon EBS). Additionally, customers can now adjust the network and Amazon EBS bandwidth on these instances by 25% using EC2 instance bandwidth weighting conﬁguration, providing greater ﬂexibility with the allocation of bandwidth resources to better optimize workloads. These instances offer Elastic Fabric Adapter (EFA) networking on 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes.\n\n\nC8gd instances are ideal for compute-intensive workloads such as high-performance web servers, batch processing, distributed analytics, ad serving, video encoding, and gaming servers. M8gd instances are well-suited for balanced workloads including application servers, microservices, enterprise applications, and small to medium databases. R8gd instances are ideal for memory-intensive workloads such as in-memory databases, real-time big data analytics, large in-memory caches, and scientific computing applications.\n\n\nTo learn more, see[Amazon C8gd Instances](https://aws.amazon.com/ec2/instance-types/c8g/) ,[Amazon M8gd Instances](https://aws.amazon.com/ec2/instance-types/m8g/) and[Amazon R8gd Instances](https://aws.amazon.com/ec2/instance-types/r8g/) . To explore how to migrate your workloads to Graviton-based instances, see[AWS Graviton Fast Start program](https://aws.amazon.com/ec2/graviton/fast-start/) and[Porting Advisor for Graviton](https://github.com/aws/porting-advisor-for-graviton) . To get started, see the[AWS Management Console](https://console.aws.amazon.com/) .",
+  "published_at": "2026-08-20T20:00:00+00:00",
+  "first_seen_at": "2026-08-21T18:36:37.720497+00:00",
+  "content_hash": "sha256:fd8f9b56fac0d7cd2bcfc3bfe8fdb822cb61bea03d6db806311ce251695b069b"
+}

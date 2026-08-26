@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-circuitlab",
+      "company_name": "CircuitLab",
+      "doc_id": "7fbef6f096865ec888140fe42cb6b1af307d4717e566e01788358d71c2fa021d",
+      "first_seen_at": "2026-07-24T22:19:16.775475+00:00",
+      "published_at": "2021-01-14T22:55:00+00:00",
+      "source_kind": "rss",
+      "summary": "comment » Today we’re launching six new digital combinational gates, now available in your CircuitLab toolbox. These pair well with our recent Quick Toggle feature allowing you to rapidly do digital simulations. Four new gates are binary adders: a full adder, half adder (no carry input), 4-bit adder, and 8-bit adder: These can be used for making counters or even an Arithmetic Logic Unit (ALU) of a small CPU. For example, check out this simulation where we use the 4-bit adder to create a counter which counts up from 0 to 15 before overflowing: Click to open the circuit above and try the simulation. Can you modify the circuit to increment by 3 instead? The other two new gates are wider muxes with 4 and 8 data inputs (and 2 and 3 control inputs, respectively): This allows you to more compactly express higher-bit-width multiplexers without needing to wire up trees of CircuitLab’s old 2x1 muxes. The new gates are available to all users immediately. This adds to CircuitLab’s existing digital simulation features, bringing us to 5 different types of flip-flops plus 21 different combinational logic gates.",
+      "title": "Digital Adders and Wider Muxes"
+    },
+    {
+      "company_key": "yc-circuitlab",
+      "company_name": "CircuitLab",
+      "doc_id": "c06829af721f5a0eb2612d23749892bba5c929c7b6e5a08638f5d07e25402e7c",
+      "first_seen_at": "2026-07-24T22:19:16.775475+00:00",
+      "published_at": "2021-01-06T20:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "comment » We're excited to announce the release of a new feature that makes exploring digital circuits much easier. Instead of swapping out the digital 1 and digital 0 element in your schematic, the new Quick Toggle feature allows you to switch between a 1 and a 0 digital input by simply highlighting the element and pressing spacebar . We will likely be bringing similar functionality to other elements to help you quickly explore how changing parts of your circuit affect the behavior. Circuits with the old digital elements will be automatically updated to the new elements when loaded, so you can simply open up your digital circuits and start designing!",
+      "title": "New Feature! Quick Toggle"
+    },
+    {
+      "company_key": "yc-circuitlab",
+      "company_name": "CircuitLab",
+      "doc_id": "c46e432976cf6caf9776bdf6d5e65c516c58c10a769dabeb42c2bc4fde726295",
+      "first_seen_at": "2026-07-24T22:19:16.775475+00:00",
+      "published_at": "2021-01-04T21:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "comment » CircuitLab has always made it easy to simulate the same circuit with variations of one or more parameters. For example, we can quickly compare the frequency response (Bode plot) of a RC low-pass filter with different capacitors by setting up the simulation with a Decade sweep over parameter C1.C from 1n to 1u : With 1 point per decade, this instructs the circuit simulator to build the circuit with four values for capacitor $C_1$ , specifically $1 \\ \\text{nF}, 10 \\ \\text{nF}, 100 \\ \\text{nF}, 1 \\ \\mu\\text{F}$ . The four responses are compared by plotting them in different colors on a single Bode plot. With old CircuitLab software prior to today, the result looked like this: While it works, you’ll notice in the plot legend that there are rounding errors in the values, such as when C1.C is 1.0000000000000042e-8 , when it should be precisely 1e-8 . That happens because the computer represents values as 64-bit floating point, leading to roughly 16 decimal digits of precision. Instead of simply rounding or truncating the display, we’ve fixed this by applying our extended numerical precision to parameter sweeps as well. See our earlier article Double-Double, Please! When 64-Bit Floating Point Isn’t Enough for more details about extended precision numerical routines. As of today, this issue has been fixed, and the capacitor values are calculated precisely: We hope this makes CircuitLab a more pleasant tool to use for investigating circuit behavior. Try the example simulation for yourself:",
+      "title": "Extended Numerical Precision for Parameter Sweeps"
+    },
+    {
+      "company_key": "yc-circuitlab",
+      "company_name": "CircuitLab",
+      "doc_id": "d0fad007de994aed69cb1cecb694aa1435c42d2738de2f81aa9efbc74f05f534",
+      "first_seen_at": "2026-07-24T22:19:16.775475+00:00",
+      "published_at": "2021-01-28T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "comment » We're happy to announce a new feature that will make playing with your circuits easier and faster. The new feature we're calling Live DC Simulation continuously watches for changes in your circuit and runs a DC Simulation in the background, much like the universe would do for you in real life. This allows you to hover your mouse over wires, elements, and element terminals and see their values in real time as you change your circuit. Mouse over wires and node names to see the voltage at that node: Mouse over element endpoints to see currents flowing into those terminals: Some circuit elements have custom useful information when you mouse over them. BJTs, for example, will show you the relative terminal voltages like Vbe and Vce, as well as currents Ib, Ic, and Ie: The new DC Solve Status Indicator at the bottom right of the CircuitLab window lets you know the current state of the Live DC Solver. The indicator will have one of three states: Green means your circuit is valid and live mouse-over values are available. Yellow indicates your circuit was too complex to solve in real time, but you can still go to the Simulate tab to simulate your circuit. Red means your circuit failed to simulate. This means your circuit is invalid: often it means you are missing a ground node, or you have unconnected elements. The Live DC Solve feature is a powerful tool to quickly probe your circuit and gain insight into what is going on at DC. Note that this idea only makes sense for steady state DC. If you wish to investigate the transient behavior of your circuit, you still need to think of the conditions you wish to explore, and set those in the Time Domain Simulation tab.",
+      "title": "Live DC Simulation!"
+    }
+  ],
+  "company_key": "yc-circuitlab",
+  "month": "2021-01"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "acf4f90f24923f7297dc217328e99f608782ce1633a7dea9cb260e461b0ef12f",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://resend.com/blog/introducing-the-batch-emails-api",
+  "canonical_url": "https://resend.com/blog/introducing-the-batch-emails-api",
+  "title": "Introducing the Batch Emails API",
+  "summary": "Process a high volume of emails at once with the new bulk endpoint.",
+  "body_markdown": "Today, we're reaching GA for Batch Emails. This new endpoint allows you to send up to **100 emails in a single API call** .\n\n\nWe know that many of our customers are sending multiple emails to multiple recipients at once. So, we wanted to make it simple for them to do so without writing custom code, hitting the rate limit, or using a third-party service.\n\n\nBefore, you would need to set up a queueing system to make that work. Now, we handle all the infrastructure and orchestration complexity so you can focus on your product.\n\n\nQueue System Architecture\n\n\n## Sending Batch Emails\n\n\nYou can use the various Resend SDKs to send batch emails.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nawait   resend  .  batch  .  send  (  [        {          from  :     'Acme <onboarding@resend.dev>'  ,          to  :     [  'foo@gmail.com'  ]  ,          subject  :     'hello world'  ,          html  :     '<h1>it works!</h1>'  ,        }  ,        {          from  :     'Acme <onboarding@resend.dev>'  ,          to  :     [  'bar@outlook.com'  ]  ,          subject  :     'world hello'  ,          html  :     '<p>it works!</p>'  ,        }  ,     ]  )  ;\n\n\n```\n\n\nYou can check the[Resend OpenAPI spec](https://github.com/resend/resend-openapi) or the[Postman collection](https://www.postman.com/resend/workspace/resend-api/collection/78558-536fcef8-4f87-42a5-ae1a-57f891ef1404) for all parameters.\n\n\nNote that the` attachments` field is not supported yet.\n\n\n## Get started\n\n\nWe hope this new endpoint makes it easier for you to send emails to multiple recipients, all while ensuring that every message is delivered to each contact individually.\n\n\nKeep in mind that the number of emails you can send in a single batch (currently 100) is customizable, so if you have specific needs, please[contact support](https://resend.com/contact) .\n\n\nYou can check the[documentation](https://resend.com/docs/api-reference/emails/send-batch-emails) for more details.",
+  "published_at": "2024-01-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:56.405079+00:00",
+  "content_hash": "sha256:3a692c0191cc730a8090739626e09f975d30956de2c8e5b10827cd20f8137daa"
+}

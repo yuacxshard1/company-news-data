@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "46c9748937bb00b11afa1f3186218296d32b30dc26bb7e63ffd72583820ec4a0",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/fails-to-autodiscover-rss-feed-despite-rel-alternate-header-link-nil-coalescing-blog/13815#post_1",
+  "canonical_url": "https://forum.newsblur.com/t/fails-to-autodiscover-rss-feed-despite-rel-alternate-header-link-nil-coalescing-blog/13815",
+  "title": "Fails to autodiscover RSS feed despite rel=alternate header link (Nil Coalescing Blog)",
+  "summary": "Heya, small bug report: the auto-add functionality fails on https://nilcoalescing.com/blog/ even though as far as I can tell they have a correct rel=”alternate” link in the header. I use the iOS client, where it just errors out saying no feed can be found; I just tried to reproduce on web and got a “Web Feed” but I think to understand that’s doing html analysis rather than just following an RSS feed. Cheers, Tikitu",
+  "body_markdown": "Heya, small bug report: the auto-add functionality fails on[https://nilcoalescing.com/blog/](https://nilcoalescing.com/blog/) even though as far as I can tell they have a correct rel=”alternate” link in the header. I use the iOS client, where it just errors out saying no feed can be found; I just tried to reproduce on web and got a “Web Feed” but I think to understand that’s doing html analysis rather than just following an RSS feed.\n\n\nCheers,\n\n\nTikitu",
+  "published_at": "2026-08-26T17:41:04+00:00",
+  "first_seen_at": "2026-08-26T20:35:38.699290+00:00",
+  "content_hash": "sha256:0b7aa8b78a79c069752f65c7a3ff2e79e0862c5e2d039bf4c96fb964154fafe6"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "67fce0390e29021f31408a1955bb95cbdf5e4660da0bf5ec37159a19d8c9f1ad",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediaconnect-router-latency-modes/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediaconnect-router-latency-modes/",
+  "title": "AWS Elemental MediaConnect Router now supports configurable recovery latency modes",
+  "summary": "Discover more about what's new at AWS with AWS Elemental MediaConnect Router now supports configurable recovery latency modes",
+  "body_markdown": "AWS Elemental MediaConnect Router now enables customers to configure latency settings, providing control over the internal connection latency between inputs and outputs within the router. Previously, the protocol latency inside the router was set automatically by the service and could not be adjusted.\n\n\nMediaConnect Router now offers two latency configuration options on router outputs: balanced mode and low-latency mode. The balanced mode maintains the existing behavior for general use cases, while the low-latency mode optimizes the internal connection recovery time for latency-sensitive workflows. The appropriate mode is configured per router output, allowing the same input to feed multiple outputs with different latency requirements. A new CloudWatch metric, RouteFabricRecoveryLatency, provides visibility into the configured recovery latency for each route.\n\n\nCustomers can configure and view the latency setting using the MediaConnect API or AWS Management Console and AWS CLI.\n\n\nConfigurable recovery latency is available in all regions where MediaConnect Router is currently deployed. To learn more about latency modes, visit the[AWS Elemental MediaConnect documentation](https://docs.aws.amazon.com/mediaconnect/latest/ug/creating-router-io.html) .",
+  "published_at": "2026-08-19T18:00:00+00:00",
+  "first_seen_at": "2026-08-20T18:21:10.269650+00:00",
+  "content_hash": "sha256:8d50370c1cf726a08354f068bb0ca6d87ace53e5b7acbd900dc4f98424f02ac9"
+}

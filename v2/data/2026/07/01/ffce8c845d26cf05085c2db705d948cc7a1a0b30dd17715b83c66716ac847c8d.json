@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ffce8c845d26cf05085c2db705d948cc7a1a0b30dd17715b83c66716ac847c8d",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/pipeline-local-dev",
+  "canonical_url": "https://www.windmill.dev/changelog/pipeline-local-dev",
+  "title": "Local development for data pipelines",
+  "summary": "Edit, preview and run data pipelines from local files without deploying. `wmill pipeline show/run --local` builds the graph from your working tree with the same parser the UI uses, `wmill pipeline dev` live-previews the graph in the browser on every save, and `wmill pipeline docs` writes a PIPELINE.md for coding agents.",
+  "body_markdown": "### [Local development for data pipelines](https://www.windmill.dev/changelog/pipeline-local-dev)\n\n\nData pipelines\n\n\nCLI\n\n\n[v1.745.0](https://github.com/windmill-labs/windmill/releases/tag/v1.745.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/pipelines#local-development)\n\n\nEdit, preview and run data pipelines from local files without deploying.` wmill pipeline show/run --local` builds the graph from your working tree with the same parser the UI uses,` wmill pipeline dev` live-previews the graph in the browser on every save, and` wmill pipeline docs` writes a PIPELINE.md for coding agents.\n\n\n#### New features\n\n\n- \\`wmill pipeline show <folder> --local\\` renders the pipeline graph from working-tree files, fully offline\n- \\`wmill pipeline run <folder> --local\\` runs the whole pipeline in topological order via previews, with \\`--from\\`/\\`--to\\`/\\`--dry-run\\` bounds\n- \\`wmill pipeline dev \\[folder\\]\\` watches the folder and live-reloads the browser graph view on every save, with run buttons, run forms and live activity\n- \\`wmill pipeline docs <folder>\\` writes PIPELINE.md (plus AGENTS.md/CLAUDE.md pointers) describing the graph and datatable schemas for an editor or agent\n- \\`--partition <value>\\` runs partitioned scripts on an explicit partition (time kinds default to the current UTC period locally) and doubles as a headless backfill\n- \\`--arg <script>:<param>=<value>\\` (repeatable) and \\`--upload <script>=<file>\\` parameterize scripts in the cascade",
+  "published_at": "2026-07-01T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+  "content_hash": "sha256:541c2036adabc1cfc11013d2bb2787c256bede87c2eefd399a9135a36abc14e6"
+}

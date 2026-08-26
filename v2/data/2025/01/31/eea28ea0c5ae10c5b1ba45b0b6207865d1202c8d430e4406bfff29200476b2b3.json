@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "eea28ea0c5ae10c5b1ba45b0b6207865d1202c8d430e4406bfff29200476b2b3",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/pivot-tables-in-mysql/",
+  "canonical_url": "https://www.basedash.com/blog/pivot-tables-in-mysql/",
+  "title": "Pivot Tables in MySQL",
+  "summary": "A pivot table in MySQL will transform rows into columns. It’s a solid way to generate reports. This post dives into how it works so you can display.",
+  "body_markdown": "A pivot table in MySQL will transform rows into columns. It’s a solid way to generate reports. This post dives into how it works so you can display cleaner data.\n\n\n## How to pivot a table in MySQL?\n\n\nYou can pivot in MySQL by using the` CASE` or` IF` statements within aggregation functions like` SUM()` or` AVG()` . This process turns unique values from a column into multiple columns in the output, effectively aggregating the data based on your conditions.\n\n\n### Example\n\n\nConsider a sales table with` product_id` ,` month` , and` sales_amount` columns. To create a report that shows each product’s total sales for each month on a single row, you would use the following query:\n\n\n```text\nSELECT\nproduct_id,\nSUM  (  CASE   WHEN   month   =   'January'   THEN   sales_amount   ELSE   0   END  )   AS   January,\nSUM  (  CASE   WHEN   month   =   'February'   THEN   sales_amount   ELSE   0   END  )   AS   February,\nSUM  (  CASE   WHEN   month   =   'March'   THEN   sales_amount   ELSE   0   END  )   AS   March\nFROM   sales\nGROUP BY   product_id;\n```\n\n\nThis query assigns the sales to the correct month by checking each row. It sums the` sales_amount` for that month, ensuring rows without sales in a month display 0 through the` ELSE 0` part of the` CASE` statement.\n\n\n## Dynamic pivot tables\n\n\nTo create a pivot table that automatically adjusts to new data, such as additional months or categories, without manual updates, you’ll need to use dynamic SQL. This method involves:\n\n\n1. Identifying unique values for column headers.\n2. Building a SQL string with these values as conditional statements.\n3. Executing the constructed SQL query.\n\n\nHere’s how to pivot dynamically using prepared statements in MySQL:\n\n\n```text\nSET   @sql   =   NULL  ;\nSELECT   GROUP_CONCAT(  DISTINCT\nCONCAT  (\n'SUM(CASE WHEN month = '''  ,\nmonth  ,\n''' THEN sales_amount ELSE 0 END) AS '  ,\nCONCAT  (  '`'  ,   month  ,   '`'  )\n)\n)   INTO   @sql\nFROM   sales;\n\n\nSET   @sql   =   CONCAT  (  'SELECT product_id, '  , @sql,   ' FROM sales GROUP BY product_id'  );\n\n\nPREPARE stmt   FROM   @sql;\nEXECUTE   stmt;\nDEALLOCATE   PREPARE stmt;\n```\n\n\nThis approach dynamically generates a SQL query by collating all unique months from the` sales` table into a conditional sum for each, then executing the SQL.",
+  "published_at": "2025-01-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:19:59.901198+00:00",
+  "content_hash": "sha256:03ce6ebf0b4b24c358091108a0dfe5b617b6a4f7bc049188182ec08f86000f59"
+}

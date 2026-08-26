@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "410a71faef7959198b2424ec726fafe26855780907951e874337a8228d9c6a0b",
+  "company_key": "yc-rocketsdr",
+  "company_name": "RocketSDR",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.rocketsdr.ai/blog/how-to-avoid-spam-cold-email-2026",
+  "canonical_url": "https://www.rocketsdr.ai/blog/how-to-avoid-spam-cold-email-2026",
+  "title": "How to Stop Cold Email from Hitting Spam (2026)",
+  "summary": "Your emails are going to spam. Here's why — and the step-by-step process to get back to inbox, based on managing deliverability across thousands of sending domains.",
+  "body_markdown": "### Why are my cold emails going to spam?\n\n\nIn order of likelihood: (1) missing or misconfigured DNS records (SPF/DKIM/DMARC), (2) sending from a new domain without warmup, (3) sending too many emails too fast, (4) high bounce rate from bad data, (5) content triggers. Check in this order — most people start with content but the problem is almost always infrastructure.\n\n\n### How do I check if my emails are going to spam?\n\n\nUse Mail Tester (mail-tester.com) to send a test email and get a score. Use GlockApps for ongoing monitoring across Gmail, Outlook, Yahoo, and corporate inboxes. Or check your sending platform's deliverability dashboard — RocketSDR's Email Health shows inbox placement per domain.\n\n\n### How long does it take to fix spam issues?\n\n\nDNS fixes: immediate effect within 24–48 hours. Domain reputation rebuild after a spam incident: 2–4 weeks with aggressive warmup. Blacklist removal: 1–7 days depending on the blacklist. Content changes: effect within 24 hours.\n\n\n### Can I fix spam issues without buying new domains?\n\n\nSometimes. If the issue is DNS misconfiguration, fix the records and wait 48 hours. If the domain is blacklisted or has sustained reputation damage, it's often faster and cheaper to rotate to a new domain than to rehabilitate the old one.",
+  "published_at": "2026-05-23T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T00:10:07.465354+00:00",
+  "content_hash": "sha256:25532304199be43bbac8127a51cbc1d429d75c9904f57fc87971fa26277ab1d8"
+}

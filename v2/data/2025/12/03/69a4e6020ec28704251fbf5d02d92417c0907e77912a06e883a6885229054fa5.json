@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "69a4e6020ec28704251fbf5d02d92417c0907e77912a06e883a6885229054fa5",
+  "company_key": "yc-blaxel",
+  "company_name": "Blaxel",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blaxel.ai/blog/introducing-huggingface-integration",
+  "canonical_url": "https://blaxel.ai/blog/introducing-huggingface-integration",
+  "title": "Introducing HuggingFace integration",
+  "summary": "Blaxel now integrates with HuggingFace, allowing you to connect to and deploy AI models directly through the platform.",
+  "body_markdown": "Our HuggingFace integration enables you to connect to serverless endpoints from HuggingFace—whether they're public, gated, or private—directly through your agents on Blaxel. But that's not all! This integration is bidirectional, meaning you can create new deployments on HuggingFace right from the Blaxel console.\n\n\n## Key Features That Make This Integration Shine\n\n\nUniversal Access: Connect to any public model from HuggingFace's Inference API (serverless)\n\n\nPrivate Model Support: Access private models from Inference Endpoints (dedicated) within your authorized organizations\n\n\nSeamless Deployment: Create and manage HuggingFace Inference Endpoints directly from the Blaxel console\n\n\nDedicated Endpoints: Get your own global Blaxel endpoint for each model integration\n\n\n## 🔧 Getting Started is Simple\n\n\nSetting up the integration is straightforward: just register a HuggingFace access token in your Blaxel workspace settings. The scope of this token determines what resources Blaxel can access on HuggingFace, including which public and private models to connect to.\n\n\nWhen creating a new deployment, you have complete control over:\n\n\nOrganization selection for endpoint deployment\n\n\nModel selection from your available options\n\n\nInstance type and size configuration\n\n\nCustom endpoint naming\n\n\n## Working with Gated Models\n\n\nNeed access to gated models? 🔐 No problem! Request access on HuggingFace first, accept any applicable terms and conditions, and you're good to go. Some models grant immediate access, while others may require manual approval.\n\n\n## 🎉 The Future of AI Development\n\n\nDeveloper experience is at the heart of everything we build at Blaxel. Our HuggingFace integration exemplifies this commitment, providing developers with powerful model deployment and management tools that make integrating AI capabilities faster and more reliable than ever before.\n\n\nOur integration-first approach sets a new standard for AI model deployment. By making HuggingFace's extensive model ecosystem easily accessible, we're reshaping how teams build and deploy AI applications. This is just the beginning of our journey to simplify AI integration.\n\n\nHave questions about our HuggingFace integration? We'd love to[hear from you](https://blaxel.ai/contact) ! Drop us a line and let us know how you're using this integration to enhance your AI workflows.",
+  "published_at": "2025-12-03T13:52:12+00:00",
+  "first_seen_at": "2026-07-20T23:20:26.598006+00:00",
+  "content_hash": "sha256:9303bb1bdc78126bcf596e9c8dd8d82b904ac9ef68610dc317698b3146fab05e"
+}

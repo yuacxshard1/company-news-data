@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a15b8c1380aade6922636dffcd8c1c786cfe63eecb5339ac4efd419d23464446",
+  "company_key": "yc-pluggy",
+  "company_name": "Pluggy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.pluggy.ai/changelog/atualiza%C3%A7%C3%B5es-de-produto-abril-25",
+  "canonical_url": "https://docs.pluggy.ai/changelog/atualiza%C3%A7%C3%B5es-de-produto-abril-25",
+  "title": "[Atualizações de Produto] Abril-25",
+  "summary": "Fique por dentro das novidades da Pluggy no mês de Abril! 🚀 Features Dados de comprovante (boleto pago) Agora, é possível visualizar dados de comprovante de boleto pago em mais uma instituição: Inter PJ Ao todo, retornamos dados de comprovante de pagamento de boleto (multa, juros e descontos) nas s…",
+  "body_markdown": "[Back to All](https://docs.pluggy.ai/changelog)\n\n\nFique por dentro das novidades da Pluggy no mês de Abril!\n\n\n#\n\n\n🚀 Features\n\n\n###\n\n\nDados de comprovante (boleto pago)\n\n\nAgora, é possível visualizar dados de comprovante de boleto pago em mais uma instituição:\n\n\n- Inter PJ\n\n\nAo todo, retornamos dados de comprovante de pagamento de boleto (multa, juros e descontos) nas seguintes instituições:\n\n\n- Itaú PJ\n- Bradesco PJ\n- Inter PJ\n\n\nMais detalhes em nossa[documentação](https://docs.pluggy.ai/docs/transactions#boleto-metadata)\n\n\n---\n\n\n#\n\n\n✨ Melhorias\n\n\n###\n\n\n🎲 Dados\n\n\n- Atualizamos em nossa Widget as instruções para conexão com Inter PF:\n\n\n- Itaú PJ: melhoria na performance do conector, o que representa uma redução de 15% no tempo de conexão.\n- Clear Investimentos: Devido a diversas instabilidades que inviabilizaram o uso, tivemos que encerrar o suporte ao conector Clear não regulado.\n\n\n- O conector continua disponível no acesso **regulado** ;\n- Mais informações sobre os conectores disponíveis, acesse nossa documentação:\n\n\n- [conectores \"regulado\"](https://docs.pluggy.ai/docs/open-finance-regulated#institutions-supported-by-open-finance)\n- [conetores \"não regulado\"](https://docs.pluggy.ai/docs/connectors-coverage)\n\n\n###\n\n\n💳 Pagamentos\n\n\n- Adicionamos novas instituições para fluxos de pagamento:\n\n\n- Dock\n- 99pay\n- Swap\n- Azimut\n- BMS Sociedade de Crédito Direto S/A\n- ModalMais trader\n- Listo\n- Iugu\n\n\n---\n\n\n#\n\n\n📈 Bugs\n\n\n###\n\n\n🎲 Dados\n\n\n- Itaú PJ: foram resolvidos problemas referentes a:\n\n\n- transações sem *payment data* e;\n- conexões que não estavam sendo atualizadas diariamente.\n\n\n- Bradesco PJ: corrigimos alguns erros no fluxo de recaptcha que estavam impactando as atualizações automáticas neste conector.\n\n\n###\n\n\n💳 Pagamentos\n\n\n- Resolvemos um bug o qual inviabilizava o cancelamento de agendamentos futuros.",
+  "published_at": null,
+  "first_seen_at": "2026-07-22T09:30:43.038391+00:00",
+  "content_hash": "sha256:99d72aabf07515f1d8bce1e163076ed0fa0aaf72d8b977b4218bb157b45528fc"
+}

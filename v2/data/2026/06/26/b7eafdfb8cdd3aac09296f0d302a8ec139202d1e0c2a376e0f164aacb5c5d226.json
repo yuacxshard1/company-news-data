@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b7eafdfb8cdd3aac09296f0d302a8ec139202d1e0c2a376e0f164aacb5c5d226",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/slite-agent-improvements",
+  "canonical_url": "https://slite.com/changelog/slite-agent-improvements",
+  "title": "Slite Agent improvements",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "**See pending approvals at a glance** — A new sidebar badge shows how many items are waiting on you, and you can jump straight to any one from its URL.\n\n\n**More accurate diffs** — Style-only changes, like bolding, now render correctly so you can see exactly what changed.\n\n\n**The agent can do more** — It can now rename docs, swap icons, and adjust layout width without touching the body. As always, these go through the standard approval flow.\n\n\n**Know when activity came from an agent** — Comments, activity log and doc revisions now show if an activity originated from the Slite Agent, an MCP or the API.\n\n\n### Public API: note ordering and HTML export options\n\n\nTwo additions to the public API:\n\n\n- ` listPosition` is now exposed on the` Note` shape, so you can sort siblings the same way the sidebar does.` getNoteChildren` also accepts` orderBy` (` title` |` listPosition` |` lastEditedAt` ) and` orderDirection` (` asc` |` desc` ) query params.\n- ` GET /v1/notes/{id}?format=html` now accepts a` css=inline|none` param. Use` none` to skip the ~2MB stylesheet when you supply your own CSS.\n\n\n### Other improvements\n\n\n- Mobile: several layout and rendering fixes across home, collections, and comments.\n- Find in doc now searches inside synced tiles.\n- Asana agent source fetching is now faster, paginated, and uses Asana's remote search API instead of local search.\n- Digest answers now output up to twice as many tokens, reducing cases where long answers were cut off.\n- Digests now send from a no-reply address to avoid reply confusion.\n\n\n### Fixes\n\n\n- MCP: archived collection rows are no longer returned in results.\n- MCP: OAuth authorization server metadata now correctly works for Gemini Enterprise and similar clients.\n- The approve button in the agent now works consistently.\n- Comment mentions no longer send before the mention is completed when using Tab + Space to select a user.\n- Comments on table cells now attach and display correctly on Mac.\n- AI-generated directory descriptions no longer tend to be generated in Spanish\n- Quick Improve with AI no longer throws an error when selecting text.\n- Digest delivery fixed: no more duplicate sends or missed recipients after pausing and re-enabling.\n- Agent history no longer shows a pending approval badge when no approvals are listed.\n- MCP backtick code span spacing is now handled correctly, removing the auto-padding that was adding unwanted spaces around inline code.\n- API note timestamps (` lastEditedAt` ,` updatedAt` ) now update correctly after edits.",
+  "published_at": "2026-06-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T13:26:38.265771+00:00",
+  "content_hash": "sha256:6c9eedd61c605a5aad4777b502f406e78d7ab02d2ee48498e5b27cd43fcfe4b5"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5168287977b7f923ffb5405c719c1656b9fbdb7eee6184d8a5484678f8a4b86f",
+  "company_key": "yc-synth-3",
+  "company_name": "Synth",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.usesynth.ai/blog/synth-tag-v1",
+  "canonical_url": "https://www.usesynth.ai/blog/synth-tag-v1",
+  "title": "Synth Tag: delegate research runs from your SDK",
+  "summary": "Synth Tag v1 is the beta SDK and MCP surface for delegating a task, steering the same run, and retrieving a terminal run receipt.",
+  "body_markdown": "## What Tag Is\n\n\nSynth Tag is a session-shaped delegate API on top of Managed Research.\n\n\nThe core loop is small:\n\n\n1. create a Tag session with a task\n2. receive a` session_id` and bound` run_id`\n3. send a steering message without restarting\n4. poll for a terminal receipt\n\n\nThat receipt is the important difference. Tag is not just a chat transcript: it returns the run id, terminal state, run URL, and artifact pointers or an explicit empty-artifact reason.\n\n\n## SDK Example\n\n\npython\n\n\n```text\nfrom   synth_ai   import   SynthClient\n\n\nclient   =   SynthClient()\n\n\nsession   =   client.research.tag.create_session(\n\"Investigate the failing benchmark and summarize the smallest fix.\"  ,\ndefinition_of_done  =  \"Return a root-cause note with evidence and next action.\"  ,\n)\n\n\nsession   =   client.research.tag.send_message(\nsession.session_id,\n\"Keep the final answer under 100 words and include the receipt.\"  ,\n)\n\n\nwhile   session.status.value   not   in   {  \"done\"  ,   \"failed\"  }:\nsession   =   client.research.tag.get_session(session.session_id)\n\n\nprint  (session.run_id)\nprint  (session.receipt.state)\nprint  (session.receipt.artifact_urls   or   session.receipt.artifact_empty_reason)\n```\n\n\n## MCP Tools\n\n\nTag also ships as three MCP tools for agent workflows:\n\n\n- ` tag_create_session`\n- ` tag_get_session`\n- ` tag_send_message`\n\n\nThe tools use` tag_*` names so a calling agent can choose task mode without mixing it up with lower-level Factory and run-control tools.\n\n\n## What It Is Not Yet\n\n\nThis beta is intentionally narrow:\n\n\n- not Slack or` @Synth` in channels\n- not access bundles or Claude Tag-style agent identity\n- not team memory, routines, or scheduled digests\n- not Factory automatic linking or Gardener/Seraph UX\n\n\nThose are later layers. v1 proves the delegate, steer, receipt loop first.\n\n\n## Tag vs Factory\n\n\nUse Tag when you have one task to delegate now. Use Research Factory when you need a durable program with Efforts, scheduling, decisions, and repeated runs.\n\n\nTag is task mode. Factory is program mode.\n\n\n## Release Proof\n\n\nThis release is backed by the production Tag smoke on backend` b00cd9d1f73153067c62a6807d533cb61aef7889` :\n\n\n- session` b5cd5bf9-c1a7-46db-a5a2-799ca1816c8b`\n- run` ba255a34-0da3-4007-8ac3-0c677d836d85`\n- receipt` state=done`\n- artifact` /smr/work-products/5eae8c7a-6bf4-54e8-93a5-96401fb237f7/content`\n- package` synth-ai\\[research\\]==0.12.0`\n\n\nThe returned artifact URL served the Synth Tag summary paragraph from the production API.",
+  "published_at": "2026-06-25T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T15:27:15.216799+00:00",
+  "content_hash": "sha256:f411adb057113f7350a9ad476f39939b568f96911a1bb9be51057c94f41b09bd"
+}

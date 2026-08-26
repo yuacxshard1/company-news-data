@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "aab6cb58120cdffd6c4f3c928ed7b7276714a16c6402cbeb7738a03369716eb2",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2026-04-13T16:44:18+00:00",
+      "source_kind": "rss",
+      "summary": "Hi team, I’m using OpenReplay Cloud and session replay itself works correctly, but the AI Summary panel keeps loading forever. I checked the network request and found the Summary AI endpoint returns HTTP 500. Details: project_id: XXX3 session_id: XXXXXXXXXXXXXX endpoint: https://api.openreplay.com/XXX3/sessions/3XXXXX/intelligent/summary observed behavior: replay works, but AI Summary stays in loading skeleton state network result: HTTP 500 timestamp: 2026-04-10 Notes: Session replay da...",
+      "title": "Summary AI returns 500 for intelligent/summary endpoint on OpenReplay Cloud"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "c3f82e3746da298e8667ef27cf1e8de6970b175f5e421386b99e333d288b99ab",
+      "first_seen_at": "2026-07-25T17:38:53.548823+00:00",
+      "published_at": "2026-04-25T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "On-device AI in the browser explained: Chrome built-in APIs, Transformers.js, ONNX Runtime Web, WebGPU, WebNN, and hybrid fallbacks.",
+      "title": "The State of On-Device AI in the Browser"
+    }
+  ],
+  "company_key": "yc-asayer",
+  "month": "2026-04"
+}

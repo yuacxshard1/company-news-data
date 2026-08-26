@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "716c783d5b16f2f7a3c5265f0fe49c3c228ab42a75b8cfc610d69af6cb2ad1ec",
+  "company_key": "yc-codewisp",
+  "company_name": "CodeWisp",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://codewisp.ai/blog/connect-your-codewisp-game-to-an-ai-agent-mcp",
+  "canonical_url": "https://codewisp.ai/blog/connect-your-codewisp-game-to-an-ai-agent-mcp",
+  "title": "Connect your CodeWisp game to an AI agent (MCP)",
+  "summary": "Your CodeWisp game now speaks MCP (Model Context Protocol). That means you can point an external AI agent — like Claude Desktop or Cursor — straight at a project and let it read, edit, validate, an…",
+  "body_markdown": "[Back to Blogs](https://codewisp.ai/blog)\n\n\n# Connect your CodeWisp game to an AI agent (MCP)\n\n\nYour CodeWisp game now speaks **MCP** (Model Context Protocol). That means you can point an external AI agent — like Claude Desktop or Cursor — straight at a project and let it read, edit, validate, and run your game, using the same tools the CodeWisp editor uses. Here’s how to set it up in about two minutes.\n\n\n###\n\n\nWhat your agent can do\n\n\nOnce connected, the agent gets seven tools scoped to a single project:\n\n\n- **read_project / list_files / read_file** — see your title and source files\n\n\n- **validate_project** — run quick static checks (syntax, lint, script tags)\n\n\n- **edit_project / write_file** — change the whole bundle or a single file\n\n\n- **run_project** — get a runnable HTML build of the game\n\n\nEvery edit the agent makes is saved to your project and shows up in the editor’s message panel as an agent operation, so you always see what changed.\n\n\n###\n\n\nStep 1 — Open the connect dialog\n\n\n1. Open your game in the CodeWisp editor.\n\n\n1. In the top bar, click **Connect AI agent** .\n\n\nThe dialog mints a **project-scoped token** and shows you an **Endpoint** URL plus ready-to-paste config for Claude Desktop and Cursor. The token acts as you, on that one project only.\n\n\n###\n\n\nStep 2 — Paste the config into your agent\n\n\n####\n\n\nClaude Desktop\n\n\nOpen **Settings → Developer → Edit Config** , then add the` codewisp` server (copy the exact values from the dialog):\n\n\nSave and **restart Claude Desktop** . The CodeWisp tools appear automatically.\n\n\n####\n\n\nCursor\n\n\nCopy the **Cursor config** from the dialog into` ~/.cursor/mcp.json` (same shape as above), then restart Cursor.\n\n\n###\n\n\nStep 3 — Try it\n\n\nAsk your agent something like:\n\n\n- “Read my CodeWisp project and summarize how it works.”\n\n\n- “Make the player move faster, then validate the project.”\n\n\n- “Add a pause screen and run it so I can see the HTML.”\n\n\nThe agent works on your real project — changes land in the editor immediately.\n\n\n###\n\n\nKeeping it secure\n\n\n- A token is **scoped to one project** and acts as you on that project only.\n\n\n- Need to cut off access? Open the same dialog and hit **Revoke & regenerate** — it invalidates every token issued for that project at once, and hands you a fresh one.\n\n\n- Tokens expire on their own, so old configs stop working automatically.\n\n\nThat’s it — your game is now editable by any MCP-capable AI agent, with you in control of access.",
+  "published_at": "2026-07-22T14:36:37.748+00:00",
+  "first_seen_at": "2026-07-26T11:57:45.914926+00:00",
+  "content_hash": "sha256:2b482992ffd93992914c026e512f0c36fbba84fd9de66d20288a3ae94439f10f"
+}

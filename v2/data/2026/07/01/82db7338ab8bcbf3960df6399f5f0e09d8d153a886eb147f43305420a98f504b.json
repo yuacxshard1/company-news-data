@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "82db7338ab8bcbf3960df6399f5f0e09d8d153a886eb147f43305420a98f504b",
+  "company_key": "yc-flower",
+  "company_name": "Flower",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flower.ai/blog/2026-07-01-announcing-flower-1.32.1-release",
+  "canonical_url": "https://flower.ai/blog/2026-07-01-announcing-flower-1.32.1-release",
+  "title": "Announcing Flower 1.32.1",
+  "summary": "The Flower Team is excited to announce the release of Flower 1.32.1 stable 🎉",
+  "body_markdown": "The Flower team is excited to announce the release of Flower 1.32.1 stable!\n\n\n**Flower is a friendly framework for collaborative AI and data science.** It makes novel approaches such as federated learning, federated evaluation, federated analytics, and fleet learning accessible to a wide audience of researchers and engineers.\n\n\n### Thanks to our contributors\n\n\nWe would like to give our special thanks to all the contributors who made the new version of Flower possible (in git shortlog\n\n\norder):\n\n\nChong Shen Ng\n\n\n, Daniel Nata Nugraha\n\n\n, Heng Pan\n\n\n, Javier\n\n\n, Micah Sheller\n\n\n### What's new?\n\n\n-\n\n\n**Fix flwr-simulation failing to exit** ([#7504](https://github.com/flwrlabs/flower/pull/7504) )\n\n\nCloses the gRPC channel on exit, preventing flwr-simulation\n\n\nfrom hanging in some cases.\n\n\n-\n\n\n**Improve agent reliability and security** ([#7505](https://github.com/flwrlabs/flower/pull/7505) ,[#7507](https://github.com/flwrlabs/flower/pull/7507) ,[#7509](https://github.com/flwrlabs/flower/pull/7509) )\n\n\nImproves agent reliability and security with several small enhancements and fixes.",
+  "published_at": "2026-07-01T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T20:31:29.302072+00:00",
+  "content_hash": "sha256:57ce6c4f33635461579bcfa667b7e504606cd72c7f99e5f996656b8aa29a8b2c"
+}

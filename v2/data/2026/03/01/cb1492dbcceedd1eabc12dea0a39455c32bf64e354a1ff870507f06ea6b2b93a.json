@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cb1492dbcceedd1eabc12dea0a39455c32bf64e354a1ff870507f06ea6b2b93a",
+  "company_key": "yc-pluggy",
+  "company_name": "Pluggy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.pluggy.ai/blog/pix-scheduler-automatizar-cobranca-recorrente-via-pix",
+  "canonical_url": "https://pluggy.ai/blog/pix-scheduler-automatizar-cobranca-recorrente-via-pix",
+  "title": "Pix Scheduler: automação de cobrança recorrente via Pix com ITP",
+  "summary": "A Pluggy lançou o Pix Scheduler, que automatiza o agendamento de cobranças recorrentes via Pix usando ITP — sem execução manual a cada ciclo.",
+  "body_markdown": "## O que é o Pix Scheduler e como funciona\n\n\nO Pix Scheduler é uma funcionalidade que automatiza o agendamento de cobranças recorrentes através do Pix Automático utilizando ITP (Iniciação de Transação de Pagamento).\n\n\n-\n\n\nAtive schedulerConfiguration.enabled: true na criação do Payment Request\n\n\n-\n\n\nApós autorização do cliente, o sistema agenda automaticamente os próximos ciclos\n\n\n-\n\n\nO agendamento respeita a janela permitida (D+2 a D+10)\n\n\n-\n\n\nNão é necessário chamar manualmente o endpoint /automatic-pix/schedule a cada período\n\n\n## Por que isso importa: do operacional manual à infraestrutura programável\n\n\nMuitas empresas ainda operacionalizam cobranças recorrentes de forma manual, dependendo de cron jobs monitorados, verificações mensais, ajustes manuais em caso de falha e acompanhamento constante do ciclo de cobrança.\n\n\n### Antes do Pix Scheduler\n\n\nExecução manual do endpoint de schedule a cada período, mesmo com cliente já autorizado.\n\n\n### Com o Pix Scheduler\n\n\nA recorrência torna-se parte da infraestrutura do produto, oferecendo:\n\n\n-\n\n\nAgendamento automático via API\n\n\n-\n\n\nRedução do risco operacional\n\n\n-\n\n\nAumento da previsibilidade de receita\n\n\n-\n\n\nTimes focados em tarefas de maior valor agregado\n\n\n## O mínimo esperado para crescer com previsibilidade e eficiência\n\n\nAutomatizar cobrança recorrente via Pix representa uma decisão estratégica. Tratar recorrência como infraestrutura programável fortalece o modelo de negócio e reduz fragilidade operacional.\n\n\nA funcionalidade já está disponível para implementação através da documentação oficial.",
+  "published_at": "2026-03-01T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T09:30:39.558676+00:00",
+  "content_hash": "sha256:ed9500220e59d39dea80a50cf8c6ecaa23a4216e755af4a6306453f0ff28be93"
+}

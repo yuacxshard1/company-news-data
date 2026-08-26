@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-runanywhere",
+      "company_name": "RunAnywhere",
+      "doc_id": "1f1a84a2293d228e0232acb030fa41bb8ac623d6aee1db230b69373dfbf063d6",
+      "first_seen_at": "2026-07-24T00:25:59.131595+00:00",
+      "published_at": "2026-02-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "FastVoice achieves 63ms first-audio latency — well under the 200ms perceptual threshold — by composing STT, LLM, and TTS into a single C++ pipeline on Apple Silicon. No cloud. No network. Just speed.",
+      "title": "FastVoice: 63ms First-Audio Latency for On-Device Voice AI on Apple Silicon"
+    },
+    {
+      "company_key": "yc-runanywhere",
+      "company_name": "RunAnywhere",
+      "doc_id": "5bb99711078a48bef5e103abe59a37e62360f540581e6dba6383111186c8ceaa",
+      "first_seen_at": "2026-07-22T12:25:05.894272+00:00",
+      "published_at": "2026-02-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "No server. No API key. No internet. Just a phone doing things on its own.",
+      "title": "I Built a Fully Offline AI Agent on Android. It Listens, Thinks, Acts, and Speaks Back."
+    },
+    {
+      "company_key": "yc-runanywhere",
+      "company_name": "RunAnywhere",
+      "doc_id": "774e5228431b5deb3488f279608207c93a0d7bd39c1a2153b23d2f494a9758c5",
+      "first_seen_at": "2026-07-24T00:25:59.131595+00:00",
+      "published_at": "2026-02-24T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We added hybrid retrieval (BM25 + vector search) to our on-device voice pipeline. Retrieval adds less than 4ms. The real cost is LLM prefill — but word-level flushing absorbs it. Sub-200ms first-audio on 5,016 chunks with zero cloud dependencies.",
+      "title": "FastVoice RAG: Sub-200ms Voice AI with Retrieval-Augmented Generation, Entirely On-Device"
+    },
+    {
+      "company_key": "yc-runanywhere",
+      "company_name": "RunAnywhere",
+      "doc_id": "ad82b083e48d63508a5fd5619678599ad394c6a737d4616cffb4b06e316ee5bb",
+      "first_seen_at": "2026-07-22T12:25:05.894272+00:00",
+      "published_at": "2026-02-19T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "And the rabbit hole that taught me more about Android internals than 3 years of app development.",
+      "title": "I Tried Running an LLM on a $150 Android Phone. Here's What Actually Happened."
+    },
+    {
+      "company_key": "yc-runanywhere",
+      "company_name": "RunAnywhere",
+      "doc_id": "cf3f0190e4a04ae087cf4eec238fae43214110ac8faf347cb212b7f29098a7c0",
+      "first_seen_at": "2026-07-22T12:25:05.894272+00:00",
+      "published_at": "2026-02-09T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Automate web tasks with natural language using a Chrome extension powered by on-device AI. No API keys, no data leaving your browser, complete privacy.",
+      "title": "On-Device Browser Agent: AI Web Automation Without the Cloud"
+    }
+  ],
+  "company_key": "yc-runanywhere",
+  "month": "2026-02"
+}

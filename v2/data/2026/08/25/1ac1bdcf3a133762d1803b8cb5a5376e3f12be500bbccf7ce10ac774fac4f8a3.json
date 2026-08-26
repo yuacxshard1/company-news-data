@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1ac1bdcf3a133762d1803b8cb5a5376e3f12be500bbccf7ce10ac774fac4f8a3",
+  "company_key": "yc-clearline",
+  "company_name": "Clearline",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.useclearline.com/blog/pillars/dealership-data-integrations",
+  "canonical_url": "https://www.useclearline.com/blog/pillars/dealership-data-integrations",
+  "title": "Dealership AI data and integrations",
+  "summary": "Guides to dealership AI integrations, CRM and DMS data, write-back, customer context, tool consolidation, and implementation readiness.",
+  "body_markdown": "## Integration depth determines workflow depth\n\n\nA conversational interface can answer a question with approved reference material, but completing dealership work usually requires system context. The difference between reading data, suggesting an action, and writing an outcome back should be explicit in every implementation plan.\n\n\nDealerships should document each source of truth, the fields a workflow may access, the actions it may take, and what happens when data is missing or conflicting.\n\n\n## Design for the manager who must audit the result\n\n\nUseful integrations do more than move data. They preserve ownership, show what happened, record the next action, and make exceptions visible. That gives managers enough context to coach the team and correct a workflow.\n\n\nThe safest implementation expands from read-only context to limited write-back only after permissions, field mappings, failure behavior, and reconciliation are tested.",
+  "published_at": null,
+  "first_seen_at": "2026-08-25T22:25:25.846448+00:00",
+  "content_hash": "sha256:65b083b508f6d1ea299cc46e25c5c5513176b1e2e654850134a6b139585e1307"
+}

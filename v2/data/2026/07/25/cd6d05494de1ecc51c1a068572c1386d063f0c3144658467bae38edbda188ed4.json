@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cd6d05494de1ecc51c1a068572c1386d063f0c3144658467bae38edbda188ed4",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/text-currency-formula-field-jestor/",
+  "canonical_url": "https://blog.jestor.com/text-currency-formula-field-jestor/",
+  "title": "How do you decide whether a piece of data should be a text field, a currency field, or a formula field?",
+  "summary": "See how to decide whether a piece of data should be a text field, a currency field, or a formula field in Jestor.",
+  "body_markdown": "In **[Jestor](https://jestor.com/?ref=blog.jestor.com)** , every field in a table has a specific type: text for free-form information, currency for financial values with automatic formatting, and formula for data calculated from other fields.\n\n\n## The impact of choosing the wrong field type\n\n\nWhen structuring a new table, it's common to wonder which field type to use for a given piece of data, especially when the value looks numeric but will never actually be summed.\n\n\nChoosing the wrong type compromises reports, indicators, and automations down the line, since each type behaves differently in filters, calculations, and display.\n\n\n## How to choose the right type for each piece of data\n\n\n1. Use text for any information that won't be used in a calculation or sum.\n2. Use currency whenever the data represents a financial value, even a simple one.\n3. Use formula when the value needs to be calculated from other fields.\n4. Set format, decimal places, and currency (dollar, real) right on the field.\n5. Avoid using text for numbers that might need summing or averaging in the future.\n\n\nField type When to use it Feeds automatic calculations?\n\n\nText Free-form information, like a name or a note No\n\n\nCurrency Financial values, with automatic formatting Yes\n\n\nFormula Data calculated from other fields Yes, updates on its own\n\n\n## Why choose Jestor?\n\n\n**[Jestor](https://jestor.com/?ref=blog.jestor.com)** lets you customize the display format of currency and formula fields — like choosing between dollar or real, setting decimal places, and applying color conditionals — the same style engine used on dashboard indicators.\n\n\n### Frequently Asked Questions\n\n\n**Can I change a field's type after it's created?** It depends on the case; some field types can be converted, but it's best to set the right type at creation to avoid data loss.\n\n\n**Can a formula field use data from another connected table?** Yes, as long as there's a connection between the tables, the formula can combine connected fields.\n\n\n**Do currency fields accept more than one currency in the same table?** Currency format is set per field, so you can have different fields for different currencies in the same table.\n\n\n## Reference Video\n\n\n## Get to know Jestor\n\n\nWith **[Jestor](https://jestor.com/?ref=blog.jestor.com)** , you can automate workflows, connect departments, and build internal systems your way — all without code and with **AI** support.\n\n\nGet to know[Jestor](https://jestor.com/?ref=blog.jestor.com) at jestor.com and see how to take your company's management to a new level of efficiency and integration.",
+  "published_at": "2026-07-25T03:31:01+00:00",
+  "first_seen_at": "2026-07-25T03:34:18.287744+00:00",
+  "content_hash": "sha256:633ad54b55e27edadbf11c8b5ee0a6441e167cba7cea0e35b50bec4d7696903a"
+}

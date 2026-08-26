@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4ff00268b6e1411701479f88f2ab8cefef6e576d06710bbb7ffff884982e1b85",
+  "company_key": "yc-prequel",
+  "company_name": "Prequel",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.prequel.co/blog/changelog-8-28-2023-role-based-auth-and-new-advanced-features/",
+  "canonical_url": "https://www.prequel.co/blog/changelog-8-28-2023-role-based-auth-and-new-advanced-features/",
+  "title": "Changelog 8/28/2023: Role-based auth and new advanced features",
+  "summary": "Prequel now supports role-based authentication (or \"identity federation\") for AWS or GCP destinations, including Redshift, Athena, S3, BigQuery, and Google Cloud Storage.",
+  "body_markdown": "## Role-based Authentication\n\n\nPrequel now supports role-based authentication for AWS or GCP destinations, including Redshift, Athena, S3, BigQuery, and Google Cloud Storage. This secure method allows customers to grant access directly to a given AWS IAM Role or GCP Service Account rather than sharing credentials. The platform will continue supporting credential-based authentication, and existing connections can be upgraded safely.\n\n\n## Frontend improvements\n\n\nWe’ve enhanced usability by adding the ability to sync and force refresh specific models on a per-destination basis, plus options to edit destination connection details directly in the interface.\n\n\n## Magic link improvements\n\n\nFor teams using magic links, two optional fields were added to the generation flow:\n\n\n- **Create as disabled** : Magic link submissions can create destinations as “disabled” for manual validation before backfill starts.\n- **Redirect after submit** : Users can be directed to a specified URI after submitting.\n\n\n## Advanced features\n\n\nSeveral power-user features rolled out over the summer:\n\n\n- **Backfill windows** : Configure maximum data batch sizes to process backfills in fixed chunks, minimizing resource bursts.\n- **Max concurrent transfers** : A throttling mechanism limits simultaneous transfers (default: 10).\n- **Broader source query support** : Custom query specification for reading source data, useful for partition pruning and predicate pushdown.\n\n\n## Bug fixes\n\n\n- Duplicate form submission prevention\n- Enhanced validation for error-prone fields like` host` ,` region` , and` bucket_name`\n- Improved SSH tunnel performance and connection stability",
+  "published_at": "2023-08-28T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T10:10:51.593417+00:00",
+  "content_hash": "sha256:cdde91f5036666afa93ed08e41301a7dad26850e81c103cc7050d2a36ca36126"
+}

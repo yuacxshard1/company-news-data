@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "778feb66e3c4034db3fa546d3eeb271d8540c9c0ed44b6b64bf5780ac0cb622e",
+  "company_key": "yc-polytomic",
+  "company_name": "Polytomic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.polytomic.com/blog-posts/introducing-per-table-warehouse-scheduling",
+  "canonical_url": "https://www.polytomic.com/blog-posts/introducing-per-table-warehouse-scheduling",
+  "title": "Introducing Per-Table Warehouse Scheduling",
+  "summary": "Read Introducing Per-Table Warehouse Scheduling on the Polytomic blog.",
+  "body_markdown": "When syncing to your data warehouse (which you can do with our[Bulk Syncs](https://docs.polytomic.com/docs/bulk-syncs?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6s6oA5nqZ04rS7PxmF7W6blklNr_vum_3TPv1DQgtT8S5HLkdHloevCB2yFbbSwif3G7F) feature), you can now specify multiple schedules for the same sync.\n\n\nThese extra schedules are maximally flexible. For example, when syncing to your data warehouse from any source (e.g. your production database, Salesforce, etc), you can now do the following:\n\n\n- Sync all tables on a daily schedule.\n- But also specify that two particular tables run every five minutes...\n- ...and run a full resync-and-rebuild every Sunday at midnight.\n\n\nYou can add extra schedules to your Bulk Sync by simply clicking a button in the new Advanced section under your default schedule. See documentation here:[https://docs.polytomic.com/docs/bulk-sync-multiple-schedules](https://docs.polytomic.com/docs/bulk-sync-multiple-schedules?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6s6oA5nqZ04rS7PxmF7W6blklNr_vum_3TPv1DQgtT8S5HLkdHloevCB2yFbbSwif3G7F) .\n\n\n### Polytomic Connect\n\n\nFor those using[Polytomic Connect](https://www.polytomic.com/connect?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6s6oA5nqZ04rS7PxmF7W6blklNr_vum_3TPv1DQgtT8S5HLkdHloevCB2yFbbSwif3G7F) , you need to upgrade to our` 2025-09-18` API to access this. This is a breaking upgrade that has two new arguments on the Bulk Sync configuration:` default_schedule` and` additional_schedules` (docs[here](https://apidocs.polytomic.com/2025-09-18/api-reference/bulk-sync/create?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6s6oA5nqZ04rS7PxmF7W6blklNr_vum_3TPv1DQgtT8S5HLkdHloevCB2yFbbSwif3G7F#request.body.default_schedule) ).\n\n\nAs always, questions and comments are welcome! Email support@polytomic.com anytime.\n\n\n[Back to blog](https://www.polytomic.com/blog)",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T19:31:15.738590+00:00",
+  "content_hash": "sha256:d6b001c4fab072bbaf60bd2f0fce7b6825c848da2ef8e0fe0cb6959411168a5c"
+}

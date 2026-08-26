@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "954840912a64a40f220db1564091be1625e2258a6aa1a2d0c5b03fdcf9f2e0b0",
+  "company_key": "yc-valuemate",
+  "company_name": "ValueMate",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.valuemate.ai/blog/decoding-the-new-urar-a-guide-to-the-uad-36-style-guide-codes",
+  "canonical_url": "https://www.valuemate.ai/blog/decoding-the-new-urar-a-guide-to-the-uad-36-style-guide-codes",
+  "title": "Decoding the New URAR: A Guide to the UAD 3.6 Style Guide Codes",
+  "summary": "A comprehensive reference for every style guide code in UAD 3.6, with examples and common pitfalls to avoid.",
+  "body_markdown": "The move toward UAD 3.6 and the redesigned URAR is more than just another update. It's a fundamental change in how we document and deliver our findings. Let's go a level deeper and look at the very architecture of the new report by dissecting the official \"Report Style Guide Supplement.\"\n\n\n### Beyond the Form: A Modular, Coded Structure\n\n\nThe new URAR is a dynamic report assembled from modular components, driven by the data collected for a specific property. This modularity is governed by a strict set of rules outlined in the Style Guide. Every label, every text box, and every table has a specific code to ensure the final report is perfectly machine-readable.\n\n\n### Decoding the Building Blocks\n\n\nHere are the most important codes you'll encounter:\n\n\n- **H1 and H2 (Headers):** H1 signifies a major section header like \"Assignment Information.\" H2 is a sub-header like \"Exterior Features.\"\n- **TXR-B (Text, Regular, Bold):** A standard data field label. When you see \"Property Valuation Method\" in the new report, that's a TXR-B element.\n- **TXC-I (Text, Commentary, Italic):** Instructional or commentary text blocks providing context or guidance.\n- **TCH and TB (Table Elements):** TCH is the Table Column Header and TB is the Table Body for data rows.\n\n\n### Interactive and Conditional Elements\n\n\n- **CK1 (Checkbox):** Checking a box like \"Condominium\" triggers other required fields to appear.\n- **TAB (Navigation Tab):** Represents major navigational tabs like \"Subject Property\" or \"Sales Contract.\"\n\n\n### A Practical Example: The Defects Section\n\n\nThe Apparent Defects section uses: 1. An H1 header 2. A TXC-I line of explanatory italicized text 3. A table with TCH headers (Feature, Location, etc.) and TB data rows 4. Two TXR-B fields: As Is Overall Condition Rating and Total Estimated Cost\n\n\nThis structured format ensures every piece of information is captured in a predictable, machine-readable way.\n\n\n### What This Means for Your Daily Workflow\n\n\nA comment placed in the wrong field or an incorrectly formatted data point won't be buried in a PDF; it will be an immediate data error. This is where technology like ValueMate can help by capturing data in a structured format from the moment of inspection, ensuring information flows correctly into the coded components of the new URAR.\n\n\nLearning the language of the new URAR is a crucial step in preparing for the transition. We are moving from being authors of a document to being assemblers of a precise data package.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T05:50:05.419224+00:00",
+  "content_hash": "sha256:65a6ab121a1f67f40a043e64442a3c996c08267ea94c6a47c5462c212d46b8cf"
+}

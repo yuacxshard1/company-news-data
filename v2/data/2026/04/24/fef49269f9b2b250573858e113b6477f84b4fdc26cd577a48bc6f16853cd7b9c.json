@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fef49269f9b2b250573858e113b6477f84b4fdc26cd577a48bc6f16853cd7b9c",
+  "company_key": "yc-emdash",
+  "company_name": "Emdash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://emdash.com/blog/emdash-v1-stable",
+  "canonical_url": "https://emdash.com/blog/emdash-v1-stable",
+  "title": "Emdash v1",
+  "summary": "The stable release of Emdash v1 for macOS, Windows, and Linux.",
+  "body_markdown": "Emdash v1 is now stable and the default download for macOS, Windows, and Linux.[Download it here](https://emdash.com/download) .\n\n\nEmdash is an open-source desktop app for running coding agents in parallel. Start a few tasks, give each agent its own Git worktree or remote environment, and keep control over what lands in your repo.\n\n\nThe focus of v1 was to make Emdash fast, calm, and reliable.\n\n\nWe opened the public beta last week. Since then, many of you tried it and sent feedback. Thank you!\n\n\n## What changed since v0.4\n\n\nThe biggest difference is in the overall performance of the app.\n\n\nTasks load faster and task switching no longer flickers. Terminals stay where you expect them to. Archive, delete, and restore flows feel immediate thanks to our fully rebuilt 'worktree engine'.\n\n\nEmdash now has a very reliable 'pull request engine'. When an agent commits, pushes, opens a PR, or changes files locally, Emdash catches this immediately. We put additional effort into the changes panel and diff viewer too; it has never been easier to understand what changed before you merge it.\n\n\n## Small things\n\n\nv1 also includes a long (!) list of smaller improvements. For the full list, see the[changelog](https://emdash.com/changelog) :\n\n\n- Terminal search with Cmd/Ctrl+F\n- Better hotkeys, including clearable shortcuts\n- Clearer task names, especially for tasks created from issues\n- More “Open in” targets, including Xcode, Windsurf, and Antigravity\n- Better settings feedback and fewer layout jumps\n- More consistent theming across Monaco and the diff viewer\n- Fixes for restore, archive, lifecycle scripts, MCP state, and selected-agent state\n\n\n## Remote development\n\n\nWe are spending a lot of time with teams that run coding agents on remote servers.\n\n\nEmdash was the first agentic development environment that supported remote projects over SSH. v1 gives us a cleaner base for remote development and for the next phase of Emdash Cloud.\n\n\nIf your team wants to run coding agents on your own infrastructure instead of developer laptops,[reach out](https://emdash.com/cloud) .\n\n\n## Upgrade\n\n\nv1 uses a new data model. During onboarding, you can import tasks from v0.4.x.\n\n\nYou can download Emdash v1[here](https://emdash.com/download) .\n\n\nOr read the[v1 changelog](https://emdash.com/changelog) for the full list of changes.",
+  "published_at": "2026-04-24T00:00:00+00:00",
+  "first_seen_at": "2026-08-09T21:48:51.711540+00:00",
+  "content_hash": "sha256:295b6a32ad2f5f033f1b62467a5c5159aecd0c2ccc42c41b985e554bd7968684"
+}

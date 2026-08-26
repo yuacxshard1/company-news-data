@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6060f59aea236b474992faef691c5d6388e41311282bae057c345548304babaf",
+  "company_key": "yc-lago",
+  "company_name": "Lago",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://getlago.com/blog/agent-sdk-bill-the-dollar-cost-of-llm-calls-margin-built-in",
+  "canonical_url": "https://getlago.com/blog/agent-sdk-bill-the-dollar-cost-of-llm-calls-margin-built-in",
+  "title": "Agent SDK: bill the dollar cost of LLM calls, margin built in",
+  "summary": "Bill LLM resale in dollars, not tokens. The Lago Agent SDK's price mode turns usage into cost automatically, using Lago-maintained price lists and your markup, no price file to build or maintain.",
+  "body_markdown": "Reselling LLM access used to mean building a pricing service.\n\n\nYour app knew how many tokens a customer used. Turning that usage into a dollar amount was your problem: fetch provider price lists, keep them current, calculate every call, apply your margin, and handle missing prices without losing usage.\n\n\nThat pricing layer is now built into the Lago Agent SDK.\n\n\n## One cost event per call\n\n\nThe Agent SDK already turns LLM token usage into billing events. Switch on **price mode** and it also prices each call.\n\n\nThe SDK looks up the model price, calculates the dollar cost from the token usage, applies your markup, and sends Lago one` llm_cost` event. That event is ready to bill through a dynamic charge.\n\n\nSet` markup: 1.2` , for example, and the customer pays your cost plus 20%.\n\n\nYour LLM costs stay centralized in Lago. You decide what to resell them for.\n\n\n## No price file to maintain\n\n\nPrices come from Lago-maintained public price lists:\n\n\n- OpenRouter for native OpenAI, Anthropic, Mistral, and Google Gemini models\n- The AWS Bedrock public price list for models called through Bedrock\n\n\nThe SDK refreshes prices in the background. You do not need provider API keys or a price file of your own.\n\n\n## Missing prices do not become missing revenue\n\n\nA new model or a cold cache should not make usage disappear.\n\n\nIf the SDK cannot find a price, it falls back to the normal token-count events and calls your error handler. The usage still reaches Lago, and your team gets a visible signal to investigate.\n\n\nPrice mode is opt-in. Token mode remains the default, so existing integrations do not change until you enable it.\n\n\nPrice mode is available in the open-source[Python SDK](https://github.com/getlago/lago-agent-sdk-python) and[JavaScript / TypeScript SDK](https://github.com/getlago/lago-agent-sdk-js) .\n\n\n[Read the documentation](https://getlago.com/docs/guide/ai-agents/agent-sdk#bill-in-tokens-or-in-dollars) ·[See the changelog](https://getlago.com/docs/changelog/product#agent-sdk-bill-the-dollar-cost-of-llm-calls-with-your-margin-built-in)",
+  "published_at": "2026-07-21T00:40:05+00:00",
+  "first_seen_at": "2026-07-25T11:29:02.565124+00:00",
+  "content_hash": "sha256:6019df2df66b21eef41c3f5eab717608cf81bf6375ad5b44dee1a11ac222267c"
+}

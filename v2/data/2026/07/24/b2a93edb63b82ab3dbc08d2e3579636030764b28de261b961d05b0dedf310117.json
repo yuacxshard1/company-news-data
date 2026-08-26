@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b2a93edb63b82ab3dbc08d2e3579636030764b28de261b961d05b0dedf310117",
+  "company_key": "yc-buildjet",
+  "company_name": "BuildJet",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://buildjet.com/for-github-actions/blog/we-are-shutting-down",
+  "canonical_url": "https://buildjet.com/for-github-actions/blog/we-are-shutting-down",
+  "title": "We're shutting down BuildJet for GitHub Actions",
+  "summary": "Blog",
+  "body_markdown": "We're announcing that **BuildJet for GitHub Actions is shutting down** . As of March 31st, 2026, runners using the BuildJet for GitHub Actions service will no longer be available. You will need to migrate to GitHub's hosted runners before this date.\n\n\n# Timeline\n\n\n**Effective today (February 6th, 2026)**\n\n\n- New signups are no longer accepted\n- All concurrency subscriptions are now free - your concurrencylimits remain unchanged\n- Pay-as-you-go usage billing continues as normal, until March 31st, 2026\n\n\n**March 31st, 2026**\n\n\n- BuildJet stops running jobs - migrate your workflows before this date\n\n\n# How to migrate# Runners\n\n\nUpdate your workflow files to use GitHub's hosted runners:\n\n\n```text\nyaml  1   jobs  :\n2       build  :\n-          runs-on  :   buildjet  -  2vcpu  -  ubuntu  -  2204\n+          runs-on  :   ubuntu  -  latest\n5         steps  :\n6           -     uses  :   actions/checkout@v4\n\n\n```\n\n\nFor ARM workflows, GitHub now offers native ARM runners:\n\n\n```text\nyaml  1   jobs  :\n2       build  :\n-          runs-on  :   buildjet  -  2vcpu  -  ubuntu  -  2204  -  arm\n+          runs-on  :   ubuntu  -  24.04  -  arm\n5         steps  :\n6           -     uses  :   actions/checkout@v4\n\n\n```\n\n\nFor teams requiring more powerful runners, see[GitHub-hosted runners](https://docs.github.com/en/actions/reference/runners/github-hosted-runners) for available options, or consider[larger runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-larger-runners) and self-hosted runners.\n\n\n# BuildJet Cache\n\n\nBuildJet Cache is interoperable with` actions/cache` . Simply swap the action:\n\n\n```text\nyaml  1   steps  :\n2       -     uses  :   actions/checkout@v4\n-        -     uses  :   buildjet/cache@v4\n+        -     uses  :   actions/cache@v4\n5         with  :\n6           path  :   ~/.npm\n7           key  :   $  {  {   runner.os   }  }  -  node  -  $  {  {   hashFiles('  **/package-lock.json')     }  }\n\n\n```\n\n\n# Why we're shutting down\n\n\nWhen we launched BuildJet, GitHub Actions had significant performance limitations that made CI/CD painfully slow for many teams. Since then, GitHub has made substantial improvements - faster hardware, larger runner options, and native ARM runner support. The gap we set out to fill has largely closed.\n\n\nWe've decided to focus our efforts elsewhere. Thank you to everyone who trusted BuildJet with their builds over the years.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T23:34:21.347694+00:00",
+  "content_hash": "sha256:14e24fa1e3a73fa84168e742fa574b3b8d7c9a62d2a59c26370a722823bcc85e"
+}

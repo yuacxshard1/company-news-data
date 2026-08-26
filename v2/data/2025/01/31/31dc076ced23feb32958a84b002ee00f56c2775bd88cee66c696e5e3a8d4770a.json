@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "31dc076ced23feb32958a84b002ee00f56c2775bd88cee66c696e5e3a8d4770a",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/standard-deviation-in-mysql/",
+  "canonical_url": "https://www.basedash.com/blog/standard-deviation-in-mysql/",
+  "title": "Standard Deviation in MySQL",
+  "summary": "MySQL offers several functions for statistical analysis. One of them is the standard deviation, which measures the amount of variation or dispersion in a.",
+  "body_markdown": "MySQL offers several functions for statistical analysis. One of them is the standard deviation, which measures the amount of variation or dispersion in a set of values. This guide explains how to calculate standard deviation in MySQL, covering both the population and sample standard deviations.\n\n\n## Understanding standard deviation in MySQL\n\n\n### What is standard deviation?\n\n\nStandard deviation quantifies the variation or spread of a set of data points. In MySQL, there are two types of standard deviations:\n\n\n- **Population Standard Deviation (` STDDEV_POP` )** : Used when considering the entire population.\n- **Sample Standard Deviation (` STDDEV_SAMP` )** : Used when analyzing a sample of the entire population.\n\n\n### When to use` STDDEV_POP` vs.` STDDEV_SAMP`\n\n\n- Use` STDDEV_POP` when your dataset represents the entire population.\n- Use` STDDEV_SAMP` for a subset or sample of the population.\n\n\n## Calculating standard deviation\n\n\n### Population standard deviation\n\n\n```text\nSELECT   STDDEV_POP(column_name)\nFROM   table_name;\n```\n\n\n### Sample standard deviation\n\n\n```text\nSELECT   STDDEV_SAMP(column_name)\nFROM   table_name;\n```\n\n\n### Example: Calculating standard deviation of salaries\n\n\n```text\n-- Population standard deviation\nSELECT   STDDEV_POP(salary)\nFROM   employees;\n\n\n-- Sample standard deviation\nSELECT   STDDEV_SAMP(salary)\nFROM   employees;\n```\n\n\n## Handling null values\n\n\nMySQL standard deviation functions ignore` NULL` values. To include` NULL` values in your calculation, replace them with a default value using the` COALESCE` function.\n\n\n```text\nSELECT   STDDEV_POP(  COALESCE  (column_name, default_value))\nFROM   table_name;\n```\n\n\n## Advanced usage: Grouping data\n\n\nTo calculate the standard deviation for grouped data, use the` GROUP BY` clause.\n\n\n```text\nSELECT   department, STDDEV_SAMP(salary)\nFROM   employees\nGROUP BY   department;\n```\n\n\n## Tips for optimizing standard deviation queries\n\n\n- **Indexing** : Ensure that the column used for standard deviation calculation is indexed, especially in large datasets.\n- **Filtering** : Apply filters using` WHERE` clauses to narrow down the dataset, reducing computation time.\n- **Avoiding full table scans** : Use` JOIN` clauses wisely to prevent full table scans, which can slow down the query.\n\n\nBy understanding and utilizing these functions, you can effectively perform statistical analysis on your data within MySQL. Remember, the choice between` STDDEV_POP` and` STDDEV_SAMP` depends on whether you’re analyzing a whole population or just a sample.",
+  "published_at": "2025-01-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:19:59.901198+00:00",
+  "content_hash": "sha256:431034e8cf2dc384f6fe2471069ca202d3a4d915d0a39ecd6e947e94d7b42e20"
+}

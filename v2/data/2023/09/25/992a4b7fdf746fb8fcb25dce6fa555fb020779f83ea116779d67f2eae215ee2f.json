@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "992a4b7fdf746fb8fcb25dce6fa555fb020779f83ea116779d67f2eae215ee2f",
+  "company_key": "yc-massdriver",
+  "company_name": "Massdriver",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.massdriver.cloud/blogs/massdriver-remains-unaffected-by-hashicorps-terraform-licensing-changes",
+  "canonical_url": "https://www.massdriver.cloud/blogs/massdriver-remains-unaffected-by-hashicorps-terraform-licensing-changes",
+  "title": "Massdriver Remains Unaffected by HashiCorp's Terraform Licensing Changes",
+  "summary": "Massdriver Remains Unaffected by HashiCorp's Terraform Licensing Changes",
+  "body_markdown": "HashiCorp recently announced a significant change in the licensing for some of their core products, like Terraform and Vault. They are shifting from an open-source MPL 2.0 license to a more restrictive Business Source License (BUSL) model.\n\n\nAt Massdriver, we want to assure our users and community that this licensing shift does NOT impact our platform or customers.\n\n\nHere’s why:\n\n\n- We compete with HashiCorp’s Waypoint product, but many of our official marketplace modules are written using Terraform. From the[license FAQ](https://www.hashicorp.com/license-faq#competitive-product-bsl-coverage) : “What the BSL license would not allow is hosting or embedding Terraform in order to compete with Terraform, or hosting or embedding Vault to compete with Vault.”\n- Our customers always have a choice in the provisioning engine. We allow customization and support tools beyond just Terraform. Teams aren’t locked into any single orchestration tool.\n- Our Terraform provisioner continues to run on older versions of Terraform under the original MPL 2.0 license. These versions will receive critical security backports through the[end of 2023.](https://www.hashicorp.com/license-faq#security-patch-backporting)\n- We are founding members of the[OpenTofu](https://opentofu.org/) project, the community-driven fork of Terraform. We are already working to enable OpenTofu support in our platform for customers who want an alternative to HashiCorp-led Terraform.\n\n\nAt Massdriver, open-source infrastructure software is critical for customer choice and preventing vendor lock-in. We are committed contributors to projects like OpenTofu that advance open ecosystems.\n\n\nAs HashiCorp drifts from its open-source roots, Massdriver remains dedicated to empowering engineers through open collaboration and simplifying cloud operations. We’ll keep listening to our customers and community and provide the flexible tools you need without restrictions.\n\n\nTry Massdriver today to simplify cloud management on your terms, not any single vendor’s. The future remains open!\n\n\n‍",
+  "published_at": "2023-09-25T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T10:43:35.035955+00:00",
+  "content_hash": "sha256:8c49a4d27db07482fcacf6418b379eaa6f113a17f8825737c179929797c66023"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "93ae12ad8efdd5c660c084a7b0a87f3ce746774f0f94b600b3b23a9f89bc2b64",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/smarter-conversations",
+  "canonical_url": "https://slite.com/changelog/smarter-conversations",
+  "title": "Smarter conversations",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "Since V2, we've been focused on making Super conversations feel smoother and data sources more reliable, while preparing our next major launches.\n\n\n### Slack improvements\n\n\n**Super steps in Slack bot** — You can now have visibility into what Super is doing while the answer is being generated.\n\n\nSources in slack answers are also now rendered as **clickable links** and we fixed crashes when answers exceeded the maximum size of Slack messages.\n\n\n### Reliable conversations\n\n\n**Chat titles in the sidebar** — Your history now shows readable titles like *\"Mobile redesign status\"* or *\"Issues assigned to me\"* .\n\n\n**Thread auto-summarization** — Long back-and-forth conversations used to hit context limits. Super now intelligently compresses older exchanges to keep your threads going.\n\n\n### Better Buttons & Extension\n\n\nContextual buttons now **work without need for specifying CSS selectors** . If you leave these complex fields blank, Super will extract the entire body by default.\n\n\nThe[Super Extension](https://chromewebstore.google.com/detail/superwork-ai-search-on-al/omlhdlhgiaabehoojbfbnicimdjbdonk) also extracts your page content more reliably.\n\n\n### Other Improvements\n\n\n- We rebuilt the Intercom integration with support for **multiple teams** and **near real-time indexation** via webhooks\n- Digests are now processed as background jobs, eliminating timeout-related delivery failures.\n- Website sources now display favicons and original URLs, and can be edited without removing and re-adding\n- Fixed formatting loss from Super Intercom buttons\n- Fixed questions with date references showing error banners\n- Fixed assistants pulling data from outside specified sources",
+  "published_at": "2026-01-14T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T13:26:38.265771+00:00",
+  "content_hash": "sha256:43d1becebe12e0f036b8779c7163cf0779261ee4b07e27641323ac4052f3369e"
+}

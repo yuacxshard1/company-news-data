@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dc61cde984ef6bddcfcc40a281b7199f11bafe3edaf58ce1c7d40f9edbe9030b",
+  "company_key": "yc-manufact",
+  "company_name": "Manufact (formerly mcp-use)",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://manufact.com/blog/distribute-mcp-server-across-directories",
+  "canonical_url": "https://manufact.com/blog/distribute-mcp-server-across-directories",
+  "title": "How to Distribute Your MCP Server Across ChatGPT, Claude, and Cursor",
+  "summary": "A practical overview of distributing an MCP server through ChatGPT Apps, Anthropic's Connectors Directory, and the Cursor Marketplace.",
+  "body_markdown": "Publishing an MCP server in ChatGPT, Claude, and Cursor makes it available where users already work. Each channel has its own submission process and review requirements.\n\n\n## Why marketplace distribution matters\n\n\nManual installation usually asks the user to paste a URL or edit a configuration file. A marketplace listing replaces that setup with a one-click connection.\n\n\nApp directories in ChatGPT, Claude, and Cursor.\n\n\n## Progressive discovery\n\n\nClaude uses progressive discovery to propose a connector when a request matches what it does, even before the user installs it. The user can connect from the conversation and continue the task.\n\n\nClaude proposes relevant connectors inside the conversation before the user has installed them.\n\n\nProgressive discovery makes listing content part of distribution. The connector name, description, categories, and tool definitions help the agent decide when it is relevant. If a competing connector is listed and yours is absent, the competitor can be proposed while your product cannot.\n\n\n## Choose a submission path\n\n\nThe[ChatGPT publishing guide](https://manufact.com/blog/publish-mcp-app-on-chatgpt) covers OpenAI's current submission requirements and review workflow.\n\n\nThe[Claude Connectors Directory guide](https://manufact.com/blog/submit-mcp-server-to-anthropic-directory) covers the organization admin portal, automated community review, updates, and pre-submission checks.\n\n\nPrepare reusable listing assets once: your description, logo, privacy policy, documentation, authentication instructions, and deployed MCP endpoint. Adapt them to each platform's form and review requirements.\n\n\n## What about the Cursor Marketplace?\n\n\nCursor accepts plugin submissions through its[Marketplace publisher form](https://cursor.com/marketplace/publish) . The current process starts with a publisher application and continues through manual review. Cursor has not published an MCP-specific quality checklist or a predictable review timeline comparable to ChatGPT and Claude.\n\n\nYou can submit an MCP plugin today, but plan for a manual review and an uncertain turnaround. We will publish a standalone guide when Cursor offers a more mature self-serve process and documents its MCP quality standards.\n\n\n### Need help getting listed on all three?\n\n\nWe'll review your server, run the available submission readiness checks, and help you prepare each listing and review package.\n\n\n[Book a call](https://manufact.com/book-call)",
+  "published_at": "2026-08-05T08:00:00+00:00",
+  "first_seen_at": "2026-08-05T23:51:05.616510+00:00",
+  "content_hash": "sha256:854bbfeec2b181ffbd7414e7c30ca8619e50e233798d55944356e7e3d1adfa3e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f43353c3926eefb375e519efdc77938d0f5454e6b2c841dfcecf206f6b2913a2",
+  "company_key": "yc-deepnote",
+  "company_name": "Deepnote",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://deepnote.com/changelog/2026-04-27",
+  "canonical_url": "https://deepnote.com/changelog/2026-04-27",
+  "title": "Run snapshots, Git sync, & AI usage visibility",
+  "summary": "See the latest product updates and improvements to Deepnote.",
+  "body_markdown": "## [April 27, 2026](https://deepnote.com/changelog/2026-04-27)\n\n\n###\n\n\n[Run snapshots, Git sync, & AI usage visibility](https://deepnote.com/changelog/2026-04-27#run-snapshots-git-sync--ai-usage-visibility)\n\n\n####\n\n\n[TL;DR](https://deepnote.com/changelog/2026-04-27#tldr)\n\n\n- **Run snapshots** - every notebook run now saves an immutable record of blocks, outputs, and execution metadata, so you can jump back to any past run in a click.\n- **Git sync** - connect a Deepnote project to a Git repo and keep them in sync automatically.\n- **AI usage visibility** - workspace admins can now see every AI action taken, who triggered it, and the tokens it used.\n\n\n##\n\n\n[Run snapshots](https://deepnote.com/changelog/2026-04-27#run-snapshots)\n\n\nEvery notebook run now automatically saves an immutable snapshot — a frozen record of all blocks, outputs, and execution metadata from the moment the run finished. Open any past run from the **Runs sidebar** , your project logs, or the **Logs & Analytics** modal.\n\n\nScheduled notebook broke overnight? A teammate's run produced an unexpected number? Want to see what a chart looked like last Tuesday? Until now, you'd re-run and hope. Now you've got the full historical record one click away, so debugging, auditing, and reviewing someone else's work just gets easier.\n\n\nFull details in[the docs](https://deepnote.com/docs/run-snapshots) .\n\n\n##\n\n\n[Git sync](https://deepnote.com/changelog/2026-04-27#git-sync)\n\n\nYou can now connect a Deepnote project to a Git repo and keep them in sync automatically. That means you can:\n\n\n- **Edit locally:** take a project from Deepnote Cloud to your machine, work on it, and push changes back.\n- **Put notebooks in your Git flow:** pull requests, code review, proper history.\n- **Actually review notebook diffs:** the` .deepnote` format is human-readable, so changes are finally reviewable.\n\n\nFull details in[the docs](https://deepnote.com/docs/deepnote-file-sync) .\n\n\n##\n\n\n[AI usage visibility](https://deepnote.com/changelog/2026-04-27#ai-usage-visibility)\n\n\nWorkspace admins can now see a full breakdown of AI activity in the **AI settings** page:\n\n\n- Every AI action taken in the workspace.\n- Which user triggered it, and from which notebook.\n- Token usage per request, including cached tokens.",
+  "published_at": "2026-04-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T16:01:08.376400+00:00",
+  "content_hash": "sha256:410c2ddaeee4185710987ceb42e6d7861e2e17e007fe8d4408f57d906d6866e2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cd83c189c4ba887786023f02a3beeba961aa878bc99a888bcb1f03b6e7ffc3ae",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/task-priority-auto-sort",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/task-priority-auto-sort",
+  "title": "Task Priority & Auto-Sort",
+  "summary": "Task Priority Mark which tasks are important. There are now two priority systems: one for your daily task list, and one for your backlog.",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nTask Priority\n\n\nMark which tasks are important.\n\n\nThere are now two priority systems: one for your daily task list, and one for your backlog. They serve different purposes, so they have different levels and different behavior.\n\n\nDaily priority\n\n\nDaily priorities reset each day by default so they stay intentional.\n\n\nBacklog priority\n\n\nBacklog priorities persist.\n\n\nAdjusting daily priority decay\n\n\nBy default, daily priority resets to \"normal\" the next day. The intent: a task you flagged as urgent for today shouldn't quietly stay urgent forever. If it rolls over and is still important tomorrow, you can re-flag it.\n\n\nYou can opt into rollover for specific levels in Settings → General → Priority rollover\n\n\n. Selected levels persist across days; unselected ones reset.\n\n\nRead more about task priority from the[help center](https://help.sunsama.com/docs/usage-guides/tasks/task-priority/) .\n\n\nAuto-Sort\n\n\nAuto-sort keeps your daily task list in a sensible order without you having to drag tasks around. When you create or change a task, Sunsama figures out where it should sit in the day's list and puts it there.\n\n\nWhen auto-sort runs\n\n\nAuto-sort repositions a task when:\n\n\n- The task is created\n- Its priority changes\n- Its planned time changes\n- A timer is started on it\n\n\nIt tries to move only the task that changed. In some situations, it might reposition other tasks as well to keep everything in chronological order.\n\n\nWhat auto-sort honors\n\n\n- Priority\n\n\n— higher-priority tasks land above lower-priority ones. See[Task Priority](https://roadmap.sunsama.com/docs/usage-guides/tasks/task-priority) .\n- Scheduled times\n\n\n— tasks with a fixed calendar time, and recurring tasks with rigid start times, stay in their chronological position\n- Your manual pins\n\n\n— if you've manually dragged a task against priority order (e.g. a no-priority task above an urgent one), Sunsama assumes that's intentional and won't move it\n- Running timer\n\n\n— if a timer is running on a task, that task stays pinned at the top\n\n\nTurning auto-sort on or off\n\n\nGo to Settings → General → Auto-sort tasks\n\n\nto enable or disable auto-sort entirely.\n\n\nRead more about auto-sort from the[help center](https://help.sunsama.com/docs/usage-guides/tasks/auto-sort/) .",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T02:45:30.397865+00:00",
+  "content_hash": "sha256:6464a6d44882452076c288d1accef36f699f80b6cd18a70491afc02b9b519642"
+}

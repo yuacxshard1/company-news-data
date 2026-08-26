@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "580df7d4edc989049d4e2a58559417fa620ae09e70da3700c995dd97f9c477f7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-servers-enhanced-ddos-protection",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-servers-enhanced-ddos-protection",
+  "title": "Amazon GameLift Servers enhanced DDoS Protection now available",
+  "summary": "Discover more about what's new at AWS with Amazon GameLift Servers enhanced DDoS Protection now available",
+  "body_markdown": "Amazon GameLift Servers now offers Enhanced DDoS Protection, a new layer of protection that defends game servers from common network and transport layer DDoS attacks with no configuration required.\n\n\nEnhanced DDoS Protection is active from the moment you start running game servers on Amazon GameLift Servers , with nothing to enable or opt in to.\n\n\nEnhanced DDoS Protection provides proactive, gaming-optimized traffic shaping mitigations tuned from experience protecting some of the world's largest games, defending against common volumetric attacks at layers 3 and 4 including UDP reflection, SYN floods, and other common DDoS attack vectors. This builds on the baseline network-level protection that AWS Shield Standard provides to all AWS services. For games that require stronger protection against sophisticated or targeted attacks, Amazon GameLift Servers[Player Gateway](https://docs.aws.amazon.com/gamelift/latest/developerguide/ddos-protection-player-gateway.html) provides our maximum level of DDoS defense through a relay-based network architecture. These layers work together, when you enable Player Gateway, your fleets continue to benefit from Enhanced DDoS Protection traffic shaping in addition to the relay-based protections.\n\n\nEnhanced DDoS Protection is available at no additional cost to Amazon GameLift Servers customers in all supported Amazon GameLift Servers Regions, except the China (Beijing) and China (Ningxia) Regions, and applies to fleets using Amazon GameLift Servers Server SDK 5 (SDKv5). Check out the Amazon GameLift Servers[documentation](https://docs.aws.amazon.com/gamelift/latest/developerguide/ddos-protection-intro.html) to learn more.",
+  "published_at": "2026-08-25T00:00:00+00:00",
+  "first_seen_at": "2026-08-26T08:11:56.423327+00:00",
+  "content_hash": "sha256:21b5c262260b7b0f7683b4f8202f1baed7d19ed666cb85baff0dd2efb380ae8c"
+}

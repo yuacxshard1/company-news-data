@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fc351c7bcfaaf2dc6e09a3106218e6dffd052c20d96b6039a8e550949f6770fc",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/30-9-2025",
+  "canonical_url": "https://browser-use.com/changelog/30-9-2025",
+  "title": "Stealth Browser Infrastructure",
+  "summary": "Bypass Cloudflare and anti-bot protection with our bare metal browser infrastructure",
+  "body_markdown": "### Features\n\n\n- **Persistent profiles** - Maintain cookies, local storage, and session data across browser instances\n- **Proxy support** - Route traffic through proxies to bypass geo-restrictions and bot detection\n- **File handling** - Download files directly through the API without manual intervention\n\n\n### Browser Sessions with SDK\n\n\nAccess raw browser instances via Chrome DevTools Protocol:\n\n\n```text\nfrom   browser_use_sdk   import   BrowserUse\n\n\nclient   =   BrowserUse(  api_key  =  \"bu_...\"  )\n\n\n# Basic browser session\nbrowser_session   =   client.browsers.create_browser_session(\ntimeout  =  30    # minutes\n)\n\n\n# With profile (inherit login state)\nprofile_browser   =   client.browsers.create_browser_session(\nprofile_id  =  \"profile_123\"  ,\nproxy_country_code  =  \"US\"  ,\ntimeout  =  60\n)\n\n\nprint  (  f  \"CDP URL:   {  browser_session.cdp_url  }  \"  )\nprint  (  f  \"Watch live:   {  browser_session.live_url  }  \"  )\n```\n\n\nFor more technical details, read the blog at[/posts/browser-infra](https://browser-use.com/posts/browser-infra) .",
+  "published_at": "2025-09-30T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:336e5a6ab2481c27661508da7eeacead33d975f82f94e036028ebc99ba6cd27e"
+}

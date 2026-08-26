@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2d41c3e97a2f5718999e7d6718434adb0376032956c9f3f6e0b8056158281205",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/2-9-2025",
+  "canonical_url": "https://browser-use.com/changelog/2-9-2025",
+  "title": "Cloud SDK",
+  "summary": "Typesafe Python and TypeScript SDKs for seamless cloud integration.",
+  "body_markdown": "You can control the cloud API using the typesafe SDK.\n\n\n```text\nfrom   browser_use_sdk   import   BrowserUse\n\n\nclient   =   BrowserUse(  api_key  =  \"bu_...\"  )\n\n\ntask   =   client.tasks.create_task(\ntask  =  \"Search for the top 10 Hacker News posts and return the title and url.\"  ,\nllm  =  \"browser-use-llm\"\n)\n\n\nresult   =   task.complete()\n\n\nresult.output\n```\n\n\nFor more information, check out[the documentation](https://docs.cloud.browser-use.com/) .",
+  "published_at": "2025-09-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:fdfe41385d354758c3c037df1f9f01ff14d79f1cb238a25e5610b8de9b18aff5"
+}

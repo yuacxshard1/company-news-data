@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "955023ce4e141c7004f245b3f132a0a603b83ea2b9851b24f3b87225e3db905b",
+  "company_key": "yc-dexter",
+  "company_name": "Dexter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://engineering.getdexter.co/2025/08/31/parallel-rails-dev-environments/",
+  "canonical_url": "https://engineering.getdexter.co/2025/08/31/parallel-rails-dev-environments/",
+  "title": "Running Multiple Rails Environments in Parallel",
+  "summary": "Engineering and product insights from the team at Dexter.",
+  "body_markdown": "# Running Multiple Rails Environments in Parallel\n\n\nAugust 31, 2025 · Vincent Garrigues\n\n\nAt Dexter, we use AI-powered coding assistants like Claude Code to handle well-defined coding tasks and quick prototypes. They give us a significant boost in productivity, but they’re slow, so it helps to run several of them in parallel.\n\n\nWhen you do that, you’ll have to keep multiple versions of the codebase checked out at once in separate folders` app/` ,` app-2/` ,` app-3/` … This leads to two common problems:\n\n\n- **Database conflicts** : all checkouts point to the same database.\n- **Port conflicts** : all try to run on port 3000.\n\n\nHere’s how to solve both in just a few lines of configuration.\n\n\n## 1. Avoiding database conflicts\n\n\nEven if you check out your app into multiple folders or worktrees, Rails will use the same development and test database names. If your agents run migrations in parallel, they’ll quickly step on each other.\n\n\nThe fix is to include the folder name in the database config. Update` config/database.yml` like this:\n\n\n```text\ndevelopment  :\n<<  :    *default\ndatabase  :    <%= Rails.root.basename.to_s %>_development\n\n\ntest  :\n<<  :    *default\ndatabase  :    <%= Rails.root.basename.to_s %>_test\n\n\n```\n\n\nNow each checkout gets its own database:\n\n\n- ` app/` →` app_development` ,` app_test`\n- ` app-2/` →` app-2_development` ,` app-2_test`\n- ` app-3/` →` app-3_development` ,` app-3_test`\n\n\nThis change only affects development and test environments, not production.\n\n\n## 2. Avoiding port conflicts\n\n\nBy default, each checkout will try to start the Rails server on port 3000. That doesn’t work if you’re running several instances at once.\n\n\nTo fix this, update your` bin/dev` to pick a port based on the folder name:\n\n\n```text\n#!/usr/bin/env ruby\n\n\nrequire    \"pathname\"\n\n\nif    match    =    Pathname  (  __dir__  ).  parent  .  basename  .  to_s  .  match  (  /(\\d+)$/  )\nENV  [  'PORT'  ]    =    (  3000    +    match  [  1  ].  to_i  ).  to_s\nend\n\n\nexec    \"./bin/rails\"  ,    \"server\"  ,    *  ARGV\n\n\n```\n\n\nHow it works:\n\n\n- Running` bin/dev` in` app/` starts the server on port 3000.\n- Running it in` app-2/` starts on port 3002.\n- Running it in` app-3/` starts on port 3003.\n\n\nThis way, you can run multiple servers simultaneously without conflicts.\n\n\n## Wrapping up\n\n\nWith these two tweaks:\n\n\n- Each checkout or worktree has its own isolated database.\n- Each checkout or worktree runs on its own port.\n\n\nThat means you can spin up multiple Rails environments in parallel, perfect for AI agents, and pretty handy for humans too.",
+  "published_at": "2025-08-30T22:00:00+00:00",
+  "first_seen_at": "2026-08-25T07:52:56.812471+00:00",
+  "content_hash": "sha256:180d0ae8527fe581da8f567f542e4bcae5c0b4a3960eb69f81ba9fc3bd1571ff"
+}

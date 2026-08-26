@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a5e12d6fb65eb41dde75bfb52940365b7f6d3db19088c84c7a0b88545d893b8b",
+  "company_key": "yc-iomete",
+  "company_name": "IOMETE",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://iomete.com/resources/blog/column-level-data-masking-scale",
+  "canonical_url": "https://iomete.com/resources/blog/column-level-data-masking-scale",
+  "title": "Column-Level Data Masking at Scale: Automating Tags Across Thousands of Columns",
+  "summary": "Manually configuring column-level masking table by table doesn't scale. Here's how tag-based policies let you classify once and enforce everywhere, across a data estate of any size, without surrendering infrastructure control.",
+  "body_markdown": "IOMETE's masking policies support several masking types that cover the most common regulatory requirements: full masking (replacing the entire value with a null or placeholder), partial masking (exposing the last 4 or first 4 characters, useful for credit card PANs and account numbers), hash masking (one-way transformation useful for pseudonymization), year-only date masking (returning only the year from a date field), and custom masking expressions (SQL expressions that apply arbitrary transformations for any pattern not covered by the built-in types).\n\n\nDifferent masking functions can be configured for the same classification tag depending on the user group. Clinical staff querying PHI-tagged columns might see actual values; data analysts working on aggregate reports might see year-only masked birth dates. Both behaviors are configured in a single tag-based policy with group-specific masking rules.",
+  "published_at": "2026-05-15T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T00:31:44.448316+00:00",
+  "content_hash": "sha256:3b6e79cd1326b74b9f0a8a11c584857926d7c22aa18e8f7e284714febb4443df"
+}

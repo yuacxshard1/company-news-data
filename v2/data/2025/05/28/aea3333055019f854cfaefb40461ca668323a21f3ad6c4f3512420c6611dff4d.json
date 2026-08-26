@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "aea3333055019f854cfaefb40461ca668323a21f3ad6c4f3512420c6611dff4d",
+  "company_key": "yc-sourcebot",
+  "company_name": "Sourcebot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sourcebot.dev/changelog/v4",
+  "canonical_url": "https://www.sourcebot.dev/changelog/v4",
+  "title": "Sourcebot v4 release",
+  "summary": "Code navigation, required authentication, faster search results, and more.",
+  "body_markdown": "Sourcebot v4 introduces code navigation, changes to authentication, search result performance improvements, and more!\n\n\n### Code Navigation\n\n\nSourcebot now lets you navigate across symbols in your code base with “go-to definition” and “find all references” support. This feature requires an enterprise license, feel free to[reach out](https://www.sourcebot.dev/contact) if you’d like a trial!\n\n\n### Authentication Changes\n\n\nBeginning in v4, authentication will be required in Sourcebot. The first account to register onto a Sourcebot deployment will be the owner, and all new accounts that register must be approved by the owner. Credential and email code registration is supported in core, with SSO/OAuth providers supported in enterprise. Check out our[auth docs](https://docs.sourcebot.dev/self-hosting/configuration/authentication) for more info, and[reach out](https://www.sourcebot.dev/contact) if you’d like a trial license!\n\n\n### Performance improvements\n\n\nWe’ve overhauled how code results are rendered, which results in significant performance improvements when scrolling through a large amount of search results.\n\n\n### Dynamic filter updates\n\n\nFilter by repository and language will now dynamically update, ensuring that the filter options accurately reflect the current filter state.\n\n\n### Filter panel visibility shortcut\n\n\nYou can now toggle the visibility of the filter panel with command+B\n\n\nUpgrading to v4 is super easy, check out our[upgrade guide](https://docs.sourcebot.dev/self-hosting/upgrade/v3-to-v4-guide) for more info.\n\n\nIf you have any feedback on the release or want to suggest additional changes, please check out our[discord](https://discord.com/invite/6Fhp27x7Pb) or[github discussions](https://github.com/sourcebot-dev/sourcebot/discussions) page. To request a trial license to try out our new enterprise features, reach out to us using our[contact form](https://www.sourcebot.dev/contact) .",
+  "published_at": "2025-05-28T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T14:19:52.577262+00:00",
+  "content_hash": "sha256:d59ed804fb5b09a0ba2d0ee78e9d9159d64100dd4b33ad15563a362f2b4bb725"
+}

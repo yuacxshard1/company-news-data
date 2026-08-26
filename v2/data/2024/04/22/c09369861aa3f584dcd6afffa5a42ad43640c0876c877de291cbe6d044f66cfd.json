@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c09369861aa3f584dcd6afffa5a42ad43640c0876c877de291cbe6d044f66cfd",
+  "company_key": "yc-athina-ai",
+  "company_name": "Athina AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.athina.ai/cookbook-how-to-set-up-langchain-tracing-on-athina-in-2-minutes",
+  "canonical_url": "https://blog.athina.ai/cookbook-how-to-set-up-langchain-tracing-on-athina-in-2-minutes",
+  "title": "Cookbook: How to set up Langchain tracing on Athina in 2 minutes",
+  "summary": "Tutorials, guides and deep dives into the best techniques and research for building reliable AI.",
+  "body_markdown": "Do not index\n\n\nOriginal Paper\n\n\nBlog URL\n\n\nAthina Tracing works with Langchain through Langchain Callbacks, a feature of the[Athina Logger](https://pypi.org/project/athina-logger/) SDK.\n\n\nThis SDK automatically generates detailed, nested traces for each Langchain application execution, which can then be used to set up monitoring, debugging, alerting and evaluations.\n\n\n###\n\n\nImportance of Tracing\n\n\nHere is what a Langchain trace looks like once it is logged to Athina. Try out our interactive demo below.\n\n\nFor developers working with Language Learning Models (LLMs), tracing and logging are crucial for:\n\n\n- Observability\n\n\n- Debugging\n\n\n- Performance monitoring\n\n\n- Ensuring applications run smoothly\n\n\nAthina's tracing capabilities enable automatic capture of detailed execution flows and data interactions, vital for optimizing and scaling applications.\n\n\n###\n\n\nHow It Works\n\n\nAthina's tracing mechanism involves attaching a callback handler to your Langchain application. This handler gathers detailed run information and transmits it to Athina's platform for viewing and analysis, with minimal codebase modifications required.\n\n\n###\n\n\nStep-by-Step Tutorial\n\n\nFollow these steps to set up Langchain tracing with Athina:\n\n\n####\n\n\nStep 1: Install Necessary Packages\n\n\nInstall Athina Logger SDK, Langchain, and Langchain OpenAI using pip:\n\n\n```text\npip install athina-logger langchain --upgrade\n```\n\n\n####\n\n\nStep 2: Set Up Athina API Key\n\n\nEnable logging with your Athina API Key:\n\n\n```text\nfrom athina_logger.api_key import AthinaApiKey\nimport os\n\n\nAthinaApiKey.set_api_key(os.getenv('ATHINA_API_KEY'))\n```\n\n\n####\n\n\nStep 3: Configure Langchain Callback Handler\n\n\nSet up the Langchain Callback Handler to trace every execution:\n\n\n```text\nfrom athina_logger.tracing.callback.langchain import LangchainCallbackHandler\nathina_handler = LangchainCallbackHandler()\n```\n\n\n####\n\n\nStep 4: Add the Athina callback handler to start logging Langchain traces\n\n\n```text\nchain = LLMChain(llm=ChatOpenAI(openai_api_key=OPENAI_KEY), prompt=chat_prompt)\n\n\n# THIS IS ALL YOU NEED TO ADD\nresponse = chain.invoke('AI', {'callbacks': [athina_handler]})\n```\n\n\nThat’s it! You’re all done 🎉\n\n\n###\n\n\nNeed Help?\n\n\nFor any inquiries or further assistance with tracing integration for your Langchain applications, contact us athello@athina.ai or visit[https://athina.ai](https://athina.ai/) . We’re here to support you!",
+  "published_at": "2024-04-22T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T17:13:32.301153+00:00",
+  "content_hash": "sha256:677648cf06aaa87bdd27572e3f307633c58160d1aa153507ee788f2515b9e522"
+}

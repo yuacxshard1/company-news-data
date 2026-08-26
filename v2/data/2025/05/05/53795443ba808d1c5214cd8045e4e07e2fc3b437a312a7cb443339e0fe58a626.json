@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "53795443ba808d1c5214cd8045e4e07e2fc3b437a312a7cb443339e0fe58a626",
+  "company_key": "yc-datasaur",
+  "company_name": "Datasaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://datasaur.ai/blog-posts/a-new-way-to-label-text-span-line-labeling",
+  "canonical_url": "https://datasaur.ai/blog-posts/a-new-way-to-label-text-span-line-labeling",
+  "title": "A New Way to Label Text: Span + Line Labeling",
+  "summary": "We’ve introduced a new mixed labeling type that supports labeling spans within a line while also categorizing entire lines separately. This allows you to configure questions for each line and still perform regular span labeling. Perfect for use cases that require dual-level granularity like transcripts, contracts, or forms.",
+  "body_markdown": "In many labeling tasks, one format doesn't fit all. Some projects require labeling full lines of text, while others need more precise span-level annotations. And sometimes, both are necessary — especially when dealing with varied content like transcripts, contracts, or customer service chats.\n\n\nTo make it easier to work with these mixed needs, we’ve introduced **Span + Line Labeling** .\n\n\nThis new labeling type combines two existing approaches:\n\n\n- **Line Labeling** , where you label the entire row or sentence.\n- **Span Labeling** , where you select specific words or phrases within that line.\n\n\nWith **Span + Line Labeling** , you don’t have to choose one or the other. You can label a whole line **and** highlight specific parts within it, all in the same project\n\n\n## When does this help?\n\n\nLet’s say you're analyzing a transcript. You might want to:\n\n\n- Label the **whole line** as a “question” or “statement,”\n- And also highlight a specific **name** or **location** mentioned in that line.\n\n\nThis approach gives you more flexibility without switching between tools or project types.\n\n\n## How to get started\n\n\nIf you’re already familiar with Span Labeling in Datasaur, this will feel familiar. Just select the **Span + Line Labeling** type when creating your project. You’ll be able to:\n\n\n- Apply line-level labels directly to a row,\n- And also use span-level tools to select text within that same row.\n\n\nYou can read the full details in our[documentation](https://docs.datasaur.ai/nlp-projects/lets-get-labeling/span-based/span-+-line-labeling) .\n\n\nWant help setting up your first project with this new type? Let us know and we’re happy to walk you through it.",
+  "published_at": "2025-05-05T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:27:49.393704+00:00",
+  "content_hash": "sha256:facb1519d5a2a7172a7915378fa362ab9bcb3995b6f326d5aedd99129b3bec36"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8bd39de2f084a420b8074f7e8d46649486f59b15eb4880282e290a7edaa27b37",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
+  "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
+  "summary": "Discover more about what's new at AWS with Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
+  "body_markdown": "[Amazon Elastic Container Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html) (Amazon ECS) now automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application availability without manual intervention.\n\n\nWith this launch, Amazon ECS continuously monitors agent connectivity across container instances. Infrastructure events such as EBS volume degradation, host thermal events, or network connectivity failures can sever the ECS agent's connection to the ECS control plane. Amazon ECS now surfaces a new type of container instance health change event (AGENT_CONNECTIVITY) for all compute options: AWS Fargate, Amazon ECS Managed Instances, and Amazon ECS on EC2. For ECS Managed Instances and AWS Fargate, ECS automatically performs recovery - automatically draining running tasks and launching replacement capacity while deregistering impaired instances. Customers running workloads on Amazon ECS on EC2, can use this health change event to drive instance replacement workflows.\n\n\nThis capability is available at no additional cost in all AWS Commercial and AWS GovCloud (US)[Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To learn more, see[Monitor Amazon ECS Container Instance Health](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/container-instance-health.html) .",
+  "published_at": "2026-08-24T22:42:00+00:00",
+  "first_seen_at": "2026-08-25T01:20:06.079937+00:00",
+  "content_hash": "sha256:39d3f9ab6e337e9af9777464583fe1948231a0a785ad77f94f40e8575fc3b432"
+}

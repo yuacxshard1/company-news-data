@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
+      "doc_id": "7b29f41bb166b2fc6b98226bdb48c86b2704841b6d899fb43eccd5b2ce5557e1",
+      "first_seen_at": "2026-07-24T06:51:45.842756+00:00",
+      "published_at": "2025-11-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A logic flaw in Avahi Simple Protocol Server ignored the configured client limit, allowing any user to open unlimited connections and exhaust memory and file descriptors, causing a system-wide denial of service for mDNS and DNS-SD.",
+      "title": "Avahi Simple Protocol Server DoS (CVE-2025-59529)"
+    },
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
+      "doc_id": "9e8e93878fda38cc33b2f67e1dc2f9004144fdb49779d6704d65c97be7b32a69",
+      "first_seen_at": "2026-07-24T06:51:45.842756+00:00",
+      "published_at": "2025-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Our audit of django-allauth uncovered seven vulnerabilities, including two that enable user impersonation and others affecting token handling, email verification, and HTTP configuration. We detail how our AI-assisted scanner exposed these logic-level issues, the patches applied, and what developers should do to secure their authentication flows.",
+      "title": "7 vulnerabilities in django-allauth enabling account impersonation and token abuse"
+    }
+  ],
+  "company_key": "yc-zeropath",
+  "month": "2025-11"
+}

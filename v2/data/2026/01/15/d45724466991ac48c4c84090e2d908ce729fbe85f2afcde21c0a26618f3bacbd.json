@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d45724466991ac48c4c84090e2d908ce729fbe85f2afcde21c0a26618f3bacbd",
+  "company_key": "yc-strand-ai",
+  "company_name": "Strand AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://strandai.com/blog/1000g-variantformer",
+  "canonical_url": "https://strandai.com/blog/1000g-variantformer",
+  "title": "VariantFormer × 1000 Genomes: Imputed Gene Expression for the Community",
+  "summary": "We ran CZI Biohub's VariantFormer on 538 new 1000 Genomes samples to generate free imputed RNA expression data — 37× faster on cheaper GPUs.",
+  "body_markdown": "# VariantFormer × 1000 Genomes: Imputed Gene Expression for the Community\n\n\nJanuary 2026 Oded & Yue\n\n\nWe started Strand AI to build modality transformation models for biology, tools that fill in the missing pieces across patient datasets so researchers can do better science.\n\n\nWhile we're developing our own models, we thought it'd be fun to run **VariantFormer** (CZI Biohub's 1.2B-parameter DNA-to-RNA model) on new data and give the results back to the community.\n\n\n## What we did\n\n\nWe took the **1000 Genomes Project expansion pack** , over 500 individuals that weren't in the original training set, and generated imputed RNA-seq expression for samples that never had expression measured.\n\n\nThat gave us imputed gene expression across **4,500 genes** , **45 tissues** , and **538 samples** .\n\n\nWe also tuned the inference pipeline to run **37× faster** on cheaper A100s instead of H100s. Way cheaper, still fast.\n\n\n## Explore the data\n\n\nWe built an interactive visualizer so you can poke around. Filter by tissue, gene, or population and explore expression patterns across the 1000 Genomes cohort.\n\n\nYou can[explore the data here](https://strandai.com/1000g-variantformer) or grab the full dataset download from the explorer.\n\n\n## Why we're sharing this\n\n\nOur main business is licensing multimodal biological datasets, but this one's free. It's a nice way to give back while showing what modality transformation can do.\n\n\nHave ideas for what models or datasets we should run next? Reach out at[\\[email protected\\]](https://strandai.com/cdn-cgi/l/email-protection#35535a405b5150474675464147545b51545c1b565a58) .\n\n\nThanks to the team at **Chan Zuckerberg Initiative / Biohub** and the **1000 Genomes Project** for the groundwork that made this possible.",
+  "published_at": "2026-01-15T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T15:01:43.907826+00:00",
+  "content_hash": "sha256:8ab02ec307df6f803956c9cdd1521e543776ff988d5d94790ee4474d19b3e057"
+}

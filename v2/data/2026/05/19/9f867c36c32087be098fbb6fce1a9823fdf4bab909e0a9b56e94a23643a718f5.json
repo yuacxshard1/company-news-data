@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9f867c36c32087be098fbb6fce1a9823fdf4bab909e0a9b56e94a23643a718f5",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/audit-logs-object-storage",
+  "canonical_url": "https://www.windmill.dev/changelog/audit-logs-object-storage",
+  "title": "Export audit logs to object storage",
+  "summary": "Continuously export audit logs as newline-delimited JSON to a dedicated logs/audit/ folder in instance object storage, for SIEM forwarding and archival.",
+  "body_markdown": "### [Export audit logs to object storage](https://www.windmill.dev/changelog/audit-logs-object-storage)\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\nAudit logs\n\n\n[v1.704.0](https://github.com/windmill-labs/windmill/releases/tag/v1.704.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/audit_logs#exporting-audit-logs-to-object-storage)\n\n\nContinuously export audit logs as newline-delimited JSON to a dedicated logs/audit/ folder in instance object storage, for SIEM forwarding and archival.\n\n\n#### New features\n\n\n- Opt-in export of audit logs to S3, Azure Blob or Google Cloud Storage\n- Newline-delimited JSON written to a dedicated logs/audit/ folder, partitioned by day\n- Incremental and runs in the background off the audit log hot path, with a single exporter under high availability\n- Exported files are never deleted from object storage, so database retention can be set much lower\n- Recommended setup to forward audit logs to a SIEM for long-term security analysis",
+  "published_at": "2026-05-19T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+  "content_hash": "sha256:afcde8c4329abcd4d01f6222def6fd138eaa9380adfb98802fea8a4e35dce94d"
+}

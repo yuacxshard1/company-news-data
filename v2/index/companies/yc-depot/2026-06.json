@@ -1,0 +1,106 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "20cbadea252847d4034688d54ccfd176ec3ff95521b5085437cd4da002f157f4",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The Depot CI dashboard shows you what ran, what failed, and where to look next. Follow recent workflow runs, browse activity by repository and workflow, and open any run to see exactly what happened.",
+      "title": "Depot CI run visibility in the dashboard"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "5aabd25249583a693e0aa10ae70aa5c544b275e11d5586993c69e2bd3326cfdc",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "You can now tell Depot CI ahead of time that a step might need a retry. Add retry to a known-flaky step and Depot reruns just that step, not the expensive work before it.",
+      "title": "Now available: Step retry in Depot CI"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "65cdbc521a4f311ae1e8dbe0deeb6b5f1a78b08a7dfb3dea0ed34dd1cab925a8",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-19T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Depot container builds can now generate SOCI (Seekable OCI) v2 index metadata at build time, so a compatible runtime can lazy-load your images and start large containers in seconds instead of waiting on a full pull.",
+      "title": "Now available: SOCI v2 support for Depot container builds"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "67f9913e416c4b1089748246c0fb6ebdead4981593bf310390243b773d86ee15",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Paranoid hardening has always been with us: aggressive kernel customizations for bug classes without a proven exploit, while Linux itself had a good-enough disclosure track record. Some of these hardenings became the default, some stayed controversial for a long time. AI-assisted vulnerability research made finding obscure vulnerabilities fast and cheap. So what does good enough even mean in this new era?",
+      "title": "Paranoia is baseline now: Security in the AI era"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "6d7e776def42b9756a3111a1b9c101b65900c332242fb9d51f74cae0406bbe96",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-09T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "macOS 26 (Tahoe) is now available for Depot GitHub Actions runners. The `depot-macos-26` label runs on Apple M4 hardware with Xcode 26 and the macOS 26 SDKs preinstalled.",
+      "title": "Now available: macOS 26 for GitHub Actions runners"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "972e8ef09479b3ab7f8c307bb01ade82c389d0458320c6d41cea43b991b06110",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI can produce code faster than you can review it, but you're still the one on call when it breaks. You need an AI-assisted workflow you trust: linter guardrails, reference tests the agent can copy, tight AGENTS.md files, and PRs small enough to review. The goal isn't to avoid AI, it's to stay in control of what it ships.",
+      "title": "Staying in control of your codebase in the AI era"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "a7f9e4b247630a74031b9ec9c90136c3db37b8c4eddcbfdb34e9ed653c524ada",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Speeding up CI isn't one heroic refactor, it's a hunt for the next bottleneck, and for most teams the first one is the test suite. Here's how to attack it with parallelism, sharding, prebuilt images, and a job-density rule that keeps wider sharding from quietly torching your bill.",
+      "title": "Accelerating your test suite in CI"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "bfbe16f1df51ff0d1b0d688a7a32f4d1cb8337b33fdc97d93c7896a94dbacbb9",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-16T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Durable Lambda functions break most of the tracing assumptions you carry over from regular code. They replay from the top every time they wake, so spans get emitted twice, parent spans lose their children, and queue wait time hides in the gaps. Here's how we restored end-to-end visibility into Depot CI's durable functions.",
+      "title": "Observing Lambda durable functions"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "c7fdf2d3679054c66d767c4bd0c23e8445341c63b0170b3e65e1fed4eee855e1",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The Depot CI API and CLI are now generally available, so everything you could do in the dashboard you can now do from your terminal or hand off to an agent.",
+      "title": "Now available: Depot CI API and CLI"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "cc7221739854aeca4dd11815076f31b0201bd72febb13b99e56a9cfd8b3322ed",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The same fast, isolated VMs that run Depot CI are now a programmable primitive you can drive from TypeScript. Boot a real microVM, run commands, and work with its filesystem, all from a few lines of code. The Sandbox SDK is in private beta.",
+      "title": "Now available: Depot Sandbox SDK"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2026-06"
+}

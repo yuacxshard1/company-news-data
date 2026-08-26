@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "75dbffdb92f1a1d7888dc3443149b862a67ef02ea8cdc86c68655034ff466985",
+  "company_key": "yc-manufact",
+  "company_name": "Manufact (formerly mcp-use)",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://manufact.com/blog/view-tools-in-mcp-apps",
+  "canonical_url": "https://manufact.com/blog/view-tools-in-mcp-apps",
+  "title": "View Tools in MCP Apps",
+  "summary": "An outline for a future post about updating a live MCP App view instead of creating a new view for every refinement.",
+  "body_markdown": "MCP Apps let agents go beyond text-only responses. They replace walls of text with rich interfaces people can use alongside their agent. That shift reshapes what an agent interface can be.\n\n\nThere is a catch. These apps are interactive for people but not yet for agents. For example, a user can pan a map or move an item on a canvas but the agent cannot make those changes to the view itself. To work around this limitation, most apps render a new View in the chat.\n\n\nTo show off this new feature, I decided to improve an existing MCP app. The Excalidraw app made waves at launch by giving your agent it's own canvas. The issue is that it couldn't reuse that same canvas.\n\n\nCheck out the code for both repos here!\n\n\n- [Excalidraw MCP App](https://github.com/excalidraw/excalidraw-mcp)\n- [Excalidraw v2](https://github.com/mcp-use/mcp-use/tree/main/libraries/typescript/packages/server/examples/views/excalidraw)\n\n\n## The Excalidraw App\n\n\nThe official Excalidraw app allows your agent to easily create drawings or diagrams. But on follow-ups, it renders a new view from the saved state causing your thread to be filled up with replacement canvases.\n\n\n## Introducing View Tools\n\n\nView tools solve this problem. A mounted View can declare it's own tools which allow the agent to interact directly within the Views themselves.\n\n\nYou define your tools and logic directly in your View code. Then, the View advertises a` tools\n\n\n.\n\n\nlistChanged\n\n\n`\n\n\nproperty.\n\n\n```text\n{\nmethod  :   \"ui/initialize\"  ,\nparams  : {\nappCapabilities  : {\ntools  : {\nlistChanged  :   true\n}\n}\n}\n}\n```\n\n\nThis capability tells the host that the app supports View tools. When it's sent, the View then sends over a` notifications\n\n\n/\n\n\ntools\n\n\n/\n\n\nlist_changed\n\n\n`\n\n\nand adds the tools to the model's context. Now the model can call the tool like any other, except this time, it gets routed directly to the View rather than the MCP Host itself.\n\n\nLoading diagram...\n\n\n## Improved Excalidraw: edit the mounted canvas\n\n\nSo, what does this look like in practice? I ported the Excalidraw app to mcp-use v2 which supports View tools.\n\n\nThe app declares a View tool called \"edit_drawing\" which lets the model is now able to edit the same canvas without starting over.\n\n\nView tools unlock a new era of agentic interfaces. Interfaces are now able to adapt on the fly directly to your needs.\n\n\nTry it now with[mcp-use v2](https://github.com/mcp-use/mcp-use) as well as our new[mcp-use inspector](https://inspector.manufact.com/) !",
+  "published_at": "2026-08-06T00:00:00+00:00",
+  "first_seen_at": "2026-08-10T17:26:43.638549+00:00",
+  "content_hash": "sha256:1d29bec8c81d81f82b1f60fcfde86be3c1455c2dcd0c74622f78dc0a203fc45f"
+}

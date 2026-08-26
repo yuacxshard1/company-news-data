@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2c123ae7d36c75f7b6b32a699b3b50a257890af312c1a7b5a76c77a19bacccf2",
+  "company_key": "yc-namecard-ai",
+  "company_name": "Namecard.ai",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://chainsigtweb3.medium.com/how-to-avoid-metamask-ip-tracing-a691d7b92f5e?source=rss-3653081c33fe------2",
+  "canonical_url": "https://chainsigtweb3.medium.com/how-to-avoid-metamask-ip-tracing-a691d7b92f5e",
+  "title": "How to avoid MetaMask IP tracing?",
+  "summary": "",
+  "body_markdown": "Philipp Katzenberger/Unsplash\n\n\nAs I’m sure you’ve heard, MetaMask is tracing all of our IP addresses.\n\n\nHere are two easy step-by-step guides to help you keep your information safe from the prying eyes of Big Brother.\n\n\n### Change to another wallet service provider.\n\n\nRestore your wallet with the Seed phrase generated when you sign up for MetaMask.\n\n\nWe used MetaMask and Exodus as an example. Please check the privacy policy before you migrate to another wallet service.\n\n\n1. Prepare your seed phrase from the MetaMask wallet.\n\n\nPlease don’t share your seed phrase with anyone.\n\n\n2. Install a new wallet extension/ app. Choose “I have a wallet” or “Import from another wallet” on the settings page.\n\n\n3. Input your seed phrase.\n\n\n4. Done!\n\n\nYou can access your address on MetaMask on Exodus now.\n\n\n*P.S. Make sure your new wallet supports the same blockchain network as MetaMask. During our test, we found glitches when we used the MetaMask seed phrase on the Phantom wallet.\n\n\n### Use a third-party RPC provider with MetaMask.\n\n\nAccording to the updated MetaMask privacy policy, MetaMask can only collect your IP addresses when you use Infura (the default) as the RPC provider for your wallet.\n\n\nWe used a third-party RPC provider Flashbots for this example guide. Please check the privacy policy of the third-party RPC provider you decide to use.\n\n\n1. Find your ideal RPC provider\n\n\nThis website is a good source for nodes and RPC providers:[https://ethereumnodes.com/](https://ethereumnodes.com/)\n\n\nSpecial thanks to website developer[David Mihal](https://twitter.com/dmihal) .\n\n\n2. Google the RPC provider you want to find their settings guide. Each RPC provider has unique settings, so be sure to consult the guides for the best results.\n\n\n3. Add a new network on your MetaMask\n\n\n4. Set up the new network. Ensure to input the correct RPC URL, Chain ID, and currency symbol.\n\n\n- Input “https://rpc.flashbots.net\" as the RPC URL to use Flashbots as your RPC provider.\n- Input “1” as the Chain ID to use the Ethereum blockchain network.\n- Input “ETH” as the currency symbol.\n\n\n5. Done!",
+  "published_at": "2022-11-28T04:09:35+00:00",
+  "first_seen_at": "2026-08-10T00:54:06.811990+00:00",
+  "content_hash": "sha256:13d0328df9f99cc7f93689c4f1602fdac4ef653faf081f1765b3fa9819926e5e"
+}

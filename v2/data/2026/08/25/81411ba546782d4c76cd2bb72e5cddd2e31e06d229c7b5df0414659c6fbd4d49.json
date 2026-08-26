@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "81411ba546782d4c76cd2bb72e5cddd2e31e06d229c7b5df0414659c6fbd4d49",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iot-core-influxdb/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iot-core-influxdb/",
+  "title": "AWS IoT Core now supports native InfluxDB routing for time-series data",
+  "summary": "Discover more about what's new at AWS with AWS IoT Core now supports native InfluxDB routing for time-series data",
+  "body_markdown": "[AWS IoT Core](https://aws.amazon.com/iot-core/) now supports[InfluxDB rule action](https://docs.aws.amazon.com/iot/latest/developerguide/influxdb-rule-action.html) that routes time-series data from your Internet of Things (IoT) devices directly to[InfluxDB](https://www.influxdata.com/products/timestream-for-influxdb/) databases, without writing custom device-side code or using intermediate cloud services. AWS IoT Core is a fully managed service that securely connects billions of IoT devices to the AWS cloud, and routes IoT device data to AWS and third-party services.\n\n\nThe new InfluxDB rule action automatically converts time-series data from your device to InfluxDB’s line protocol format and writes it to either an[Amazon Timestream](https://docs.aws.amazon.com/timestream/latest/developerguide/influxdb3.html) managed or a self-hosted InfluxDB cluster. The new rule action also supports the following two batching modes to help you optimize cost and throughput: device-side batching, where your devices send pre-batched payloads to AWS IoT Core; and server-side batching, where IoT rules engine aggregates individual messages before writing to InfluxDB. For example, a life sciences company can batch thousands of telemetry readings from scientific instruments at millisecond granularity and write directly to InfluxDB for monitoring, without building a custom data pipeline.\n\n\nTo get started, connect your IoT devices to AWS IoT Core and define an InfluxDB rule action specifying the destination database, along with authentication and batching parameters. The InfluxDB rule action is available in all AWS Global Regions where Amazon Timestream for InfluxDB is available. To learn more, visit the AWS IoT Core[developer guide](https://docs.aws.amazon.com/iot/latest/developerguide/influxdb-rule-action.html) .",
+  "published_at": "2026-08-25T19:42:00+00:00",
+  "first_seen_at": "2026-08-25T22:32:32.654169+00:00",
+  "content_hash": "sha256:902682fcb97995cbb1d85476676e1e538e19e57c6f6910936ded1693e37ea44b"
+}

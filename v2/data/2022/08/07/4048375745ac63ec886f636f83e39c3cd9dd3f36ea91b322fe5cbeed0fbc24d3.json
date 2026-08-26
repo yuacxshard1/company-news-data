@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4048375745ac63ec886f636f83e39c3cd9dd3f36ea91b322fe5cbeed0fbc24d3",
+  "company_key": "yc-elphinstone-inc",
+  "company_name": "Elphinstone, Inc.",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://elphinstone.com.pk/how-elphinstone-works-with-temporal/",
+  "canonical_url": "https://elphinstone.com.pk/how-elphinstone-works-with-temporal/",
+  "title": "How Elphinstone works with Temporal.",
+  "summary": "Temporal Orchestration (A Guide) Prerequisites Familiarity with Golang and Docker Containerization. Determinism (CS). Patience. Resources https://go.dev/tour/welcome/1 https://sagikazarmark.github.io/temporal-intro-workshop/#/ An Introduction Short TL;DR :- Orchestration is the process of scheduling asynchronous tasks execution, keeping track of their results and their failures. Temporal is the orchestrator here. We interface with the Temporal Server directly when we want to … How Elphinstone works with Temporal. Read More »",
+  "body_markdown": "# Temporal Orchestration (A Guide)\n\n\n## Prerequisites\n\n\nFamiliarity with Golang and Docker Containerization.\n\n\nDeterminism (CS).\n\n\nPatience.\n\n\n## Resources\n\n\n[https://go.dev/tour/welcome/1](https://go.dev/tour/welcome/1)\n\n\n[https://sagikazarmark.github.io/temporal-intro-workshop/#/](https://sagikazarmark.github.io/temporal-intro-workshop/#/)\n\n\n## An Introduction\n\n\nShort TL;DR :- Orchestration is the process of scheduling asynchronous tasks execution, keeping track of their results and their failures. Temporal is the orchestrator here. We interface with the Temporal Server directly when we want to execute some **Workflow** .\n\n\nA **Workflow** is a bunch of **Tasks** that is executed on some **Worker.**\n\n\nFor more information checkout the official[Temporal documentation](https://docs.temporal.io/)\n\n\nMostly we will be writing **Worker** programs in Golang (Best supported language for the use case).\n\n\n### Workers\n\n\nWorkers are programs written using the temporal SDK (GoLang). They communicate with the temporal server using gRPC protocol. Within the worker program are instructions to execute some **workflow.** Whenever ***Temporal Server*** receives a request to execute a workflow. It starts the execution on the worker program rather than executing the workflow on it’s own. The server keeps track of the state of execution and the worker actually performs the execution. Upon completion, it sends the result of the workflow back to Temporal.\n\n\n# Deployment\n\n\n[https://docs.temporal.io/blog/auto-setup/](https://docs.temporal.io/blog/auto-setup/)\n\n\n### Best Practices\n\n\n[https://github.com/temporalio/samples-go.git](https://github.com/temporalio/samples-go.git)\n\n\n---\n\n\n# Validation API\n\n\nThis is a microservice that enables us to verify our users through various checks as required by the SECP. It is built on GoLang and uses Mongodb for persistent data. The service is asynchronous and only interfaces with the Elphinstone Backend. It uses Temporal for orchestrating it’s tasks. Following are it’s functions :\n\n\n**Stifle validation.**\n\n\n**PMD verification.**\n\n\n**IBFT verification.**\n\n\n**NADRA verification.**",
+  "published_at": "2022-08-07T10:50:04+00:00",
+  "first_seen_at": "2026-08-25T01:01:53.974275+00:00",
+  "content_hash": "sha256:7f5c56fbda4021c093d0640c5c4a7cf6c65626db5596654898c268e8a4e86293"
+}

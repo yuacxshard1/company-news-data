@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "0bb18c1661b53e85322a5692f55d9a4ae984854659e05d80e3dbb91ec1194d06",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-06-17T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When an HTTP/1.x request reaches a grpcpass location, NGINX forwards client request headers by default. Before the fix, ngxhttpgrpccreaterequest() sized…",
+      "title": "gRPC forwarded headers can overflow the upstream HPACK request buffer (CVE-2026-42055)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "8b41cd05c264994506aa5ef6f8b998b21b7c87d459e400ac4d7f4137b4703fae",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-06-17T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When proxyhttpversion 2 sends a request to an HTTP/2 upstream, ngxhttpproxyv2createrequest() builds an HPACK-compressed request header block. Before the…",
+      "title": "HTTP/2 upstream proxy request encoder permits heap overflow with oversized raw headers (CVE-2026-42055)"
+    }
+  ],
+  "company_key": "yc-winfunc",
+  "month": "2026-06"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "87e48e37f499b746b3a657628e6b5b41d0fcffd32338553cbaf8bf9c9b93f944",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
+  "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 Auto Scaling now supports batch instance termination",
+  "body_markdown": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a batch, reducing the number of API calls needed to scale down your Auto Scaling groups.\n\n\nBatch termination is designed for workloads that need to rapidly scale down, such as AI/ML training jobs, container orchestrators, or event-driven architectures that spin up large fleets temporarily. All instances in a batch are validated atomically before termination begins, and existing Auto Scaling behaviors such as lifecycle hooks and load balancer connection draining are preserved for each instance in the batch.\n\n\nThis feature is available in all AWS Regions at no additional cost.\n\n\nTo learn more, visit[Amazon EC2 Auto Scaling User Guide](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scaling-manually.html) and[Amazon EC2 Auto Scaling API Reference Guide](https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API_TerminateInstanceInAutoScalingGroup.html) .",
+  "published_at": "2026-08-17T18:11:00+00:00",
+  "first_seen_at": "2026-08-17T19:26:36.697208+00:00",
+  "content_hash": "sha256:5c25dba23d7ec9172de989a20b761b6b709364515fde5f389e07700b2133af9d"
+}

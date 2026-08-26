@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "92abdfec3064b6823d633eb8fa4432a6feadd2178810d50bb25e4f79fd73fcc6",
+  "company_key": "yc-plane",
+  "company_name": "Plane",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://plane.com/blog/sandbox",
+  "canonical_url": "https://plane.com/blog/sandbox",
+  "title": "Sandbox: A safe way to build and test payroll and HR automations",
+  "summary": "Experiment with your automations using the full Plane API. Sandboxes are now included for every plan.",
+  "body_markdown": "Payroll and HR should work like infrastructure: programmable, API-first, built to fit your workflows instead of dictating them. But anyone who’s set up a payroll or HR automation knows the scariest part is running it the first time against real data. One bad loop and you’ve paid 40 contractors twice.\n\n\nThat’s why we built the new Plane sandbox, an isolated workspace where you can run anything against the full Plane API. Onboard contractors, send payments, push time entries, and more — without moving real money or affecting real people. Experiment confidently.\n\n\n## What the Plane API covers\n\n\nThe[Plane API](https://docs.plane.com/) is included for free for every plan level, with no extra usage fees. We believe your data is yours, and you (and your agents) should be able to freely access and work with it.\n\n\nWhat can you do with the API? Here are some common available tasks:\n\n\n-\n\n\nOnboard workers\n\n\n-\n\n\nSend payments and approve, decline, or pay payment requests\n\n\n-\n\n\nSubmit, approve, decline, or cancel time off and leave requests\n\n\n-\n\n\nCreate, update, and delete time entries\n\n\n-\n\n\nReceive real-time events from Plane via webhooks\n\n\nFor a full list of what you can do in the Plane API, see our[Working with the API](https://docs.plane.com/reference/introduction) documentation.\n\n\nIf there are any features you’re interested in that are not available, we’d love tohear from you . Our goal is to enable you and your agents to perform any action through the API that you can perform within the Plane platform, and we are constantly adding more features to Plane API.\n\n\n## How the sandbox works\n\n\n[Sandboxes](https://docs.plane.com/reference/sandboxes) are isolated workspaces you can use to test your Plane integration or try features without affecting real data. They act like regular workspaces in the UI and API, but with all side effects blocked.\n\n\n-\n\n\nIsolated data: You start with a clean workspace, without any live data copied into the sandbox\n\n\n-\n\n\nNon-billable: Sandbox activity doesn’t count toward billing\n\n\n-\n\n\nProtected side effects: Money movement, stateful providers (e.g., tracking of information), and outbound email delivery are disabled\n\n\n-\n\n\nTest credentials: Sandbox API keys can only access the sandbox they belong to\n\n\nSandboxes are available for admins. To create your sandbox, go to Developers > Sandboxes > Create sandbox. As with the API, sandboxes are included for free for every plan level.",
+  "published_at": "2026-07-10T20:37:44.169+00:00",
+  "first_seen_at": "2026-07-23T20:33:38.186399+00:00",
+  "content_hash": "sha256:ab24984e43f016bef0a53555f9a8a9bf8a7d790c0b767e12044ee9d6cdbefeef"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b494b61196d62c17f09550091162d678ac964ba5ccf28721c66fba1bd0249429",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/mysql-transpose-rows-to-columns/",
+  "canonical_url": "https://www.basedash.com/blog/mysql-transpose-rows-to-columns/",
+  "title": "MySQL: Transpose Rows to Columns",
+  "summary": "Transposing rows to columns in MySQL involves reshaping data so that rows become columns, often for improved readability and data analysis.",
+  "body_markdown": "Transposing rows to columns in MySQL involves reshaping data so that rows become columns, often for improved readability and data analysis. This guide explains how to achieve this using SQL queries, focusing on the use of conditional aggregation and the` CASE` statement.\n\n\n## Understanding the transpose operation\n\n\nTransposing data means converting rows into columns, creating a pivot table effect. This operation is useful when you want to compare data across different rows in a more horizontal format.\n\n\n## Sample dataset\n\n\nConsider a simple dataset in a table` sales_data` :\n\n\n```text\nCREATE   TABLE   sales_data   (\nyear   INT  ,\nproduct   VARCHAR  (  50  ),\nsales   INT\n);\n```\n\n\n## Using CASE and GROUP BY\n\n\nOne common approach to transposing rows to columns in MySQL is using the` CASE` statement with` GROUP BY` . This method works well for known and limited distinct values.\n\n\n### Transposing specific rows to columns\n\n\nHere’s how to transpose sales data for different products into separate columns:\n\n\n```text\nSELECT\nyear  ,\nSUM  (  CASE   WHEN   product   =   'Product A'   THEN   sales   ELSE   0   END  )   AS   ProductA_sales,\nSUM  (  CASE   WHEN   product   =   'Product B'   THEN   sales   ELSE   0   END  )   AS   ProductB_sales\nFROM\nsales_data\nGROUP BY\nyear  ;\n```\n\n\n### Dynamic column generation\n\n\nFor dynamic column generation based on unknown or numerous distinct values, a more complex approach involving prepared statements is required.\n\n\n## Using prepared statements for dynamic transposing\n\n\nDynamic transposing is a two-step process: first, dynamically creating a list of columns; second, constructing a query using this list.\n\n\n### Generating the column list\n\n\nExtract distinct values to be used as column names:\n\n\n```text\nSET   @sql   =   NULL  ;\nSELECT\nGROUP_CONCAT(  DISTINCT\nCONCAT  (\n'SUM(CASE WHEN product = '''  ,\nproduct,\n''' THEN sales ELSE 0 END) AS '  ,\nCONCAT  (  '`'  ,product,  '_sales`'  )\n)\n)   INTO   @sql\nFROM\nsales_data;\n```\n\n\n### Building the dynamic query\n\n\nConstruct and execute a dynamic query with the generated column list:\n\n\n```text\nSET   @sql   =   CONCAT  (  'SELECT year, '  , @sql,   ' FROM sales_data GROUP BY year'  );\n\n\nPREPARE stmt   FROM   @sql;\nEXECUTE   stmt;\nDEALLOCATE   PREPARE stmt;\n```\n\n\nIf this query pattern is part of recurring reporting,[Basedash](https://www.basedash.com/) helps you turn it into reusable, AI-native BI workflows: prompt-to-SQL, shared dashboards, and trusted answers that stay aligned with your data model.",
+  "published_at": "2025-01-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:19:59.901198+00:00",
+  "content_hash": "sha256:3c6409e0aa1a15a7975ae738d8add47ea95ae916044cbabfaca7a4c895cf3977"
+}

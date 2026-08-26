@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d9c28f64b5eea082bc41d72b037ca60e23578ffb0a27da00ee0b90d50225abc1",
+  "company_key": "yc-cotool",
+  "company_name": "Cotool",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.cotool.ai/research/sigma",
+  "canonical_url": "https://www.cotool.ai/research/sigma",
+  "title": "Sigma Detection Classification",
+  "summary": "Scale detection, response, and threat hunting beyond headcount. Build AI agents across your entire security stack. Improve coverage, cut MTTR, and eliminate manual & repetitive security work.",
+  "body_markdown": "### F1 Score\n\n\n**Claude Opus 4.5 achieved the highest hierarchical F1 score at 66%** , followed by Sonnet 4.5 at 60% and a cluster of models around 56-57% (Gemini 3.0 Pro, Gemini 3.0 Flash, GPT-5.2). Among open-weight models, **DeepSeek v3.2 led at 48% F1** .\n\n\n#### F1 Score by Model\n\n\nAnthropic\n\n\nGoogle\n\n\nOpenAI\n\n\nXai\n\n\nDeepseek\n\n\nMinimax\n\n\n### Precision vs Recall\n\n\nSince ground truth labels are community-contributed and often incomplete, recall is the more reliable metric. It measures coverage of human-intended labels, while precision is penalized when models correctly identify techniques the author simply forgot to tag. **Gemini 3.0 Flash achieved the highest recall at 71%** , followed by Opus 4.5 (69%) and Sonnet 4.5 (69%). Among open-weight models, **DeepSeek v3.2 led with 49% recall** .\n\n\n### Precision vs Recall\n\n\nTop-right is best (high precision and recall)\n\n\nanthropic\n\n\ngoogle\n\n\nopenai\n\n\nxai\n\n\ndeepseek\n\n\nminimax\n\n\nqwen\n\n\n### Cost Efficiency\n\n\n**Gemini 3.0 Flash offered the best frontier cost efficiency at ~$0.39/1000 samples** with 56% F1. Among open-weight models, **DeepSeek v3.2 was remarkably cheap at ~$0.08/1000 samples** with 48% F1, nearly 5x cheaper than Gemini Flash. For highest accuracy, Opus 4.5 cost ~$3.84/1000 samples for 66% F1.\n\n\n#### Cost per Task\n\n\nDeepseek\n\n\nGoogle\n\n\nMinimax\n\n\nAnthropic\n\n\nOpenAI\n\n\nQwen\n\n\n### Speed\n\n\n**Haiku 4.5 was the fastest frontier model at 0.75s** average per sample, followed by GPT-5.2 at 1.2s. Among open-weight models, **Qwen3 235B was fastest at 0.97s** , though with lower accuracy (38% F1). DeepSeek v3.2 offered a better speed/accuracy trade-off at 1.9s with 48% F1.\n\n\n#### Task Duration (avg)\n\n\nAnthropic\n\n\nQwen\n\n\nOpenAI\n\n\nDeepseek\n\n\nGoogle\n\n\nMinimax",
+  "published_at": null,
+  "first_seen_at": "2026-07-21T15:09:13.770553+00:00",
+  "content_hash": "sha256:00eebcd8243d416778ebd5f19cc4a23779d8693da24cb9900e8dcf0e556021d7"
+}

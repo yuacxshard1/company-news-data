@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "89830e654aeff40eb45c2a190ed2ac02caf4125d3cf88bbb79d879c3221ae592",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-virtual-server-module-8-0-1-released/136549",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-virtual-server-module-8-0-1-released/136549",
+  "title": "Virtualmin virtual-server module 8.0.1 released",
+  "summary": "Howdy all, We’ve rolled out Virtualmin virtual-server module 8.0.1 for all repos. This release provides smoother migration to the new Virtualmin 8 repo, whether it’s a manual repo upgrade or an upgrade from GPL to Pro. Changes since 8.0.0: Add ability to migrate Webmin monolithic to modular while keeping enabled modules for the new repository As always, if you run into any problems, let us know in a new topic.",
+  "body_markdown": "Repository-wise, this was a breaking change because after switching from the monolithic Webmin package to modular, an upgrade (like GPL → Pro) or a manual repo re-setup could end up installing only the Webmin core package, without the extra modules that used to come with the full Webmin package.\n\n\nThis update fixes that by detecting which Webmin modules were enabled before the switch and then installing the matching modular Webmin packages, so the same functionality remains available after the repository change.\n\n\nThe only known downside is that we don’t currently require the` webmin-at` package (should be installed manually), which the Virtualmin Support module uses. We can bring this dependency back later, once more users have upgraded to Virtualmin 8.0.1.\n\n\nOther than that, upgrading to the new repository should be safe, and we’re not aware of any other issues at this time.",
+  "published_at": "2026-02-06T09:44:37+00:00",
+  "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+  "content_hash": "sha256:6fbf1b3e5ed6e84448a71cc73ed014c1fc00c0e2c016b655f5c679097552d004"
+}

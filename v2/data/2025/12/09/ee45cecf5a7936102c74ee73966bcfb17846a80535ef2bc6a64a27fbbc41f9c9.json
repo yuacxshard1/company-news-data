@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ee45cecf5a7936102c74ee73966bcfb17846a80535ef2bc6a64a27fbbc41f9c9",
+  "company_key": "yc-nunu-ai",
+  "company_name": "nunu.ai",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://nunu.ai/blog/pr-bot",
+  "canonical_url": "https://nunu.ai/blog/pr-bot",
+  "title": "Introducing PR Testing Agents",
+  "summary": "End-to-end testing on real devices. Fully autonomous. Built for the AI-accelerated era of software development.",
+  "body_markdown": "Hi everyone!\n\n\nAI coding tools like Cursor and Claude Code let you ship features faster than ever. Timelines that used to take weeks now take days. At this pace, it feels like you should be able to ship something new every day.\n\n\nBut in reality, that rarely happens. Manual QA can’t keep up, and plenty of bugs still slip into production.\n\n\nThat’s why we’re introducing **PR Testing Agents** . Directly inside your GitHub Pull Request, you can tag the nunu Testing Agent to validate your new feature. It performs true end-to-end testing on the real build. Unlike Codex or other PR bots, this isn’t code analysis - it interacts with your actual product.\n\n\n## How does it work?\n\n\nWe deploy your build to a real device (Android or iPhone for apps, Windows VMs for desktop and web). The Agent connects on the OS level, reads the screen, and controls the device using primitive actions like taps, swipes, and clicks. Because it is fully vision-based, it experiences your app exactly like a human user would, ensuring real bugs don’t go unnoticed.\n\n\nThe Agent creates its own testing strategy. Your GitHub comment becomes a high-level instruction and it handles the rest on the fly.\n\n\nIf you want to give it more context about your app, you can attach extra materials like design docs, feature specs, or full documentation pages.\n\n\n# Real Example\n\n\n1. You open a Pull Request that adds support for profile picture uploads.\n\n\n2. Your teammate drops a simple “LGTM,” and Codex gives it a thumbs-up.\n\n\n3. To confirm it actually works on the build, you tag the nunu Testing Agent and let it run an E2E test right inside the PR.\n\n\n4. The nunu testing agent performs the test and finds that the Picture is actually not displaying! BUG!\n\n\n5. Yey, you have just prevented a buggy build from shipping!\n\n\nThis is a real example! See for yourself by checking out the[open-source demo repo](https://github.com/nunu-ai/minishop/pull/2) !\n\n\n# Next Steps\n\n\nTry it yourself! Get access[here](https://form.typeform.com/to/pDvj3Oxg) !\n\n\n[<< back to blog](https://nunu.ai/blog)",
+  "published_at": "2025-12-09T16:17:27.043+00:00",
+  "first_seen_at": "2026-07-22T22:59:24.636969+00:00",
+  "content_hash": "sha256:6b23afe931e57fa676aeb40b6189d683d74d09198c301df8c857a227a5cdfa27"
+}

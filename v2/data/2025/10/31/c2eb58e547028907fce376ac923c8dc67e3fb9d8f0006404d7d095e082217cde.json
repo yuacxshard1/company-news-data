@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c2eb58e547028907fce376ac923c8dc67e3fb9d8f0006404d7d095e082217cde",
+  "company_key": "yc-castle-2",
+  "company_name": "Castle",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.castle.io/changelog/fraudulent-email-domain-signal",
+  "canonical_url": "https://docs.castle.io/changelog/fraudulent-email-domain-signal",
+  "title": "Fraudulent Email Domain signal",
+  "summary": "Castle now detects email domains that have been confirmed as actively used in fraud and abuse campaigns. Unlike disposable email services (Mailinator, TempMail), these are domains registered specifically for fraud that appear legitimate but exist solely for bot signups and fake accounts. High confid…",
+  "body_markdown": "[Back to All](https://docs.castle.io/changelog)\n\n\nAdded\n\n\nCastle now detects email domains that have been confirmed as actively used in fraud and abuse campaigns. Unlike disposable email services (Mailinator, TempMail), these are domains registered specifically for fraud that appear legitimate but exist solely for bot signups and fake accounts.\n\n\n- **High confidence** : Flagged domains remain fraudulent. Permanent state like Disposable Email Domain.\n- **Research-backed** : Identified through Castle's network-wide behavioral analysis and manual review\n- **Attack-focused** : Catches coordinated campaigns, not just suspicious patterns\n\n\n###\n\n\nExample response\n\n\n```text\n{\n\"policy\": {\n\"action\": \"deny\",\n...\n},\n\"signals\": [\"fraudulent_email_domain\"],\n\"email\": {\n\"address\": \" [email protected]  \",\n\"domain\": \"nemomo.org\"\n...\n}\n...\n}\n```\n\n\n###\n\n\nBlock with confidence\n\n\nUse` Fraudulent email domain` in your Policies to confidently block confirmed fraud domains without false positives.\n\n\n###\n\n\nSpot attack patterns\n\n\nFilter by` Fraudulent email domain` in Explore to quickly identify and analyze coordinated fraud campaigns",
+  "published_at": "2025-10-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T12:42:16.969450+00:00",
+  "content_hash": "sha256:c7d336d4f51bedf32e0282c02737d8778f78e5f74cc56af43e15fb3d156c1b3b"
+}

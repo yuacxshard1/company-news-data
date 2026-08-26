@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2ee9b97185801bc2a03dc4ca5dcca02b624ed6de27e51b725e899b9963ff7afe",
+  "company_key": "yc-datasaur",
+  "company_name": "Datasaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://datasaur.ai/blog-posts/february-2026-updates-smarter-redaction-easier-search-and-faster-exports",
+  "canonical_url": "https://datasaur.ai/blog-posts/february-2026-updates-smarter-redaction-easier-search-and-faster-exports",
+  "title": "February 2026 Updates: Smarter Redaction, Easier Search, and Faster Exports",
+  "summary": "February updates bring improvements that make annotation workflows faster and easier, including smarter PII redaction, improved search for span labeling, and better export organization. New integrations and usability enhancements also help teams move from model training to deployment more quickly while simplifying large project management.",
+  "body_markdown": "# **February Updates: Smarter Redaction, Easier Search, and Faster Exports**\n\n\nThis month's updates focus on making everyday tasks faster and less repetitive. Whether you're protecting sensitive information, training models, or managing large annotation projects, these improvements should save you time and reduce friction.\n\n\n### Better PII Redaction for Row Project: Replace Text with Entity Labels\n\n\nWhen redacting sensitive information, you can now replace detected text with its entity type (like` \\[EMAIL\\]` or` \\[PHONE_NUMBER\\]` ) instead of generic asterisks. This keeps your redacted documents readable and preserves context, making it easier to review or analyze data while still protecting privacy.\n\n\n[Learn more](https://docs.datasaur.ai/workspace-management/workspace#mask-personally-identifiable-information-pii)\n\n\n### **Hugging Face Integration: Deploy Models After Training**\n\n\nAfter running Datasaur Dinamic, you can now automatically set up a dedicated inference endpoint on Hugging Face. This means your newly trained model is ready to use right away, without manual deployment steps, helping you move from training to production faster.\n\n\n### **Redesigned Search for Span Labeling: More Intuitive Navigation and Bulk Actions**\n\n\nThe Search extension has been redesigned to provide a more intuitive experience when finding and labeling data. The updated flow makes it easier to set up search conditions, review results, and apply labels in bulk, with a cleaner and more structured interface.\n\n\n### Navigate Long Guidelines with Anchor Links\n\n\nThe Labeling guidelines extension now supports anchor links, so you can add a table of contents to your markdown files and jump directly to specific sections. This is particularly helpful for projects with detailed or lengthy instructions, letting annotators find what they need without scrolling.\n\n\n### Smarter Default Names When Exporting Projects\n\n\nExporting projects now generates more useful file names automatically. Single project exports use the project name, while multi-project exports get a clear generic prefix. It's a small change, but it keeps your downloads organized without extra renaming.\n\n\nThese features are live now. Give them a try and let us know what you think!\n\n\n‍",
+  "published_at": "2026-03-10T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:27:49.393704+00:00",
+  "content_hash": "sha256:b0f7fdd91b2dccc2f44dcfa5612fe998027cd89351521cfb363efe360aa7f84a"
+}

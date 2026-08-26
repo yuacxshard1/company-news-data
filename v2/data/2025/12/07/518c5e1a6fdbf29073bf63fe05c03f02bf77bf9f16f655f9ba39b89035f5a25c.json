@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "518c5e1a6fdbf29073bf63fe05c03f02bf77bf9f16f655f9ba39b89035f5a25c",
+  "company_key": "yc-datasaur",
+  "company_name": "Datasaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://datasaur.ai/blog-posts/november-feature-updates-cleaner-span-editor-better-search-and-more-accurate-time-tracking",
+  "canonical_url": "https://datasaur.ai/blog-posts/november-feature-updates-cleaner-span-editor-better-search-and-more-accurate-time-tracking",
+  "title": "November Feature Updates: Cleaner Span Editor, Better Search, and More Accurate Time Tracking",
+  "summary": "This month’s release focuses on a tidier labeling workspace, tighter review controls, and more accurate time reporting, especially when AI assists the work.",
+  "body_markdown": "## Data Studio\n\n\n### Approval for Pre-Labeled Answers in Row Labeling\n\n\nPre-labeled answers only count toward a labeler’s work after they review and approve them. This improves accountability and avoids inflated metrics.\n\n\n[Learn more](https://docs.datasaur.ai/data-studio-projects/pre-labeled-project#require-approval-for-pre-labeled-label-setting)\n\n\n### Column Mapping: Now Supported for Grouped Attributes Questions\n\n\nYou can now map child questions inside a grouped attributes question to specific columns in the data table. This allows the question to prefill with the data you already have, so labelers don’t need to re-enter the same information manually.\n\n\n[Learn more](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/label-sets/refer-answer-to-table-column#configuring-for-nested-questions)\n\n\n### Bulk Delete or Reject Labels in Span Labeling Search\n\n\nBulk delete or reject labels directly from search results. Clean up in one pass without opening items one by one.\n\n\n[Learn more](https://docs.datasaur.ai/advanced/extensions/search#delete-search-result-labels)\n\n\n### Advanced Search: Filter by Label Status and Label Class\n\n\nNew Advanced Search filters for label status and label class help you jump straight to the items that need attention, such as unreviewed labels or a specific class.\n\n\n[Learn more](https://docs.datasaur.ai/advanced/extensions/search#filtering-search-results)\n\n\n### Effective Time Spent Adjustment\n\n\nTime tracking now includes wait time for AI-assisted actions. Reports better reflect the full effort when you use labeling AI features.\n\n\n[Learn more](https://docs.datasaur.ai/workspace-management/analytics)\n\n\n### Cleaner Labeling View in the Span Labeling Editor\n\n\nA collapsible toolbar and a default-collapsed extension sidebar now keep the Span Labeling Editor clear while you work.\n\n\nThe toolbar automatically appears when you sort or filter, then hides when not needed, giving you more vertical space to label comfortably.\n\n\n### Extension Sidebar Shortcut\n\n\nQuickly collapse or expand the extension without hunting for UI button\n\n\n- ‍ **Mac:**` Cmd + \\\\`\n- **Windows/Linux:**` Ctrl + \\\\`\n\n\nThese updates reduce clutter, speed up cleanup, and make your metrics match the real work being done.\n\n\n‍",
+  "published_at": "2025-12-07T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:27:49.393704+00:00",
+  "content_hash": "sha256:9e73cdb2e441636f842bc1badddfe2c7f17d15f452f934e82654eb23cc5cad0f"
+}

@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-directed-edge",
+      "company_name": "Directed Edge",
+      "doc_id": "861fe2146c6b34140f70bedf053d85fe178c3578981008bada12b9df3994484d",
+      "first_seen_at": "2026-07-27T01:55:50.875550+00:00",
+      "published_at": "2012-09-28T06:21:55+00:00",
+      "source_kind": "rss",
+      "summary": "So, we noticed recently that our Java and Python bindings were doing an extra round-trip to our servers for every request. We’ve just done updates to each of them that removes this. Per the HTTP spec, when a request uses HTTP BASIC authentication, as our API does, the client is supposed to first send a […]",
+      "title": "Bindings update that removes extra server round-trips"
+    },
+    {
+      "company_key": "yc-directed-edge",
+      "company_name": "Directed Edge",
+      "doc_id": "d480ba4b3245930acd8a73f7ecd96a20cac9ecc81acbcc38dfc6a731323c36bd",
+      "first_seen_at": "2026-07-27T01:55:50.875550+00:00",
+      "published_at": "2012-09-19T03:12:11+00:00",
+      "source_kind": "rss",
+      "summary": "Shopify app updates So, it’s been a gazillion years since we posted updates here, but there have been a number of things shaking out of the woodwork. First, we just did the biggest update to our Shopify app since we first launched it a couple years back. Â It features a new Bootstrap-ified configuration interface and […]",
+      "title": "Shopify app updates, new Ruby bindings beta, new web services features coming down the pipe"
+    }
+  ],
+  "company_key": "yc-directed-edge",
+  "month": "2012-09"
+}

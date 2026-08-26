@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "39414072497b75f6b4533369d6dfaeff5fbeeb7dc2edf32a3e16a9c30200161e",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/maintain-your-knowledge-with-ease",
+  "canonical_url": "https://slite.com/changelog/maintain-your-knowledge-with-ease",
+  "title": "Maintain your knowledge with ease",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "In the age of AI, trusted knowledge is the key to unlocking your team and AI workflows. That's what this update is all about.\n\n\n### API updates: Programmatic knowledge management\n\n\nNew endpoints give you and your agents full control over document lifecycle and trustworthiness:\n\n\n- ` PUT /notes/{noteId}/verify` - Mark documents as verified\n- ` PUT /notes/{noteId}/flag-as-outdated` - Flag outdated content\n- ` PUT /notes/{noteId}/owner` - Assign document ownership\n- ` PUT /notes/{noteId}/archived` - Archive/unarchive documents\n- ` GET /users` - List organization users\n- ` GET /groups` - List groups\n- ` /notes` and` /search-notes` now return` reviewState` for verification status\n\n\nThese endpoints let you automate knowledge maintenance and help AI agents distinguish trusted sources from stale content.\n\n\n### Close the loop on knowledge gaps\n\n\nWe largely improved the` Ask Insights` panel experience. When your team asks questions that Slite can't answer well, admins now have a streamlined workflow to fix the problem at its source.\n\n\n- Side-by-side view comparing original and updated answers\n- Edit source documents directly in a modal, then regenerate answers instantly\n- Refined access controls for Ask Insights\n\n\n### Groups management improvements\n\n\nFinding and organizing groups is now simpler:\n\n\n- Quick search by group name\n- Sort by creation date (newest or oldest)",
+  "published_at": "2025-10-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T13:26:38.265771+00:00",
+  "content_hash": "sha256:959af3eed2d18e143fa03c36e4959396c900be7218893ba4d4210e03bf19830f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7b600e74edddc438d7cee71084b586ff80bce68b438eff337e40d4781e3aa75f",
+  "company_key": "yc-vapi",
+  "company_name": "Vapi",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://vapi.ai/blog/now-run-outbound-call-campaigns-with-vapi",
+  "canonical_url": "https://vapi.ai/blog/now-run-outbound-call-campaigns-with-vapi",
+  "title": "Now Run Outbound Call Campaigns with Vapi - Vapi AI Blog",
+  "summary": "Read Now Run Outbound Call Campaigns with Vapi on the Vapi blog",
+  "body_markdown": "Running outbound call campaigns has always been a trade-off.\n\n\nYou can use API, but that means writing and maintaining scripts to loop through lists, manage call states, and handle failures.\n\n\nOr you can use a rigid, non-technical platform that doesn't let you build the custom logic you need.\n\n\nFor developers, this often means your time is spent on - writing a script to parse a CSV from the sales team, building a queue, and logging the results. It's necessary work, but it doesn't move your product forward.\n\n\nToday, we’re shipping a new outbound calling feature directly in the Vapi to eliminate that trade-off.\n\n\n## What’s New\n\n\nYou can now launch outbound call campaigns by uploading a CSV file.\n\n\nThe process is simple:\n\n\n1. Upload a CSV with phone numbers and any custom variables for your assistant.\n2. Assign the Vapi assistant or workflow you want to run.\n3. Configure and launch the campaign.\n\n\nVapi handles the queuing, execution, and logging. Your agent calls each number on the list and runs the exact logic you’ve designed.\n\n\n## Why It Matters\n\n\nThis moves outbound calling from a coding task to a simple workflow, freeing up engineering time and enabling faster iteration. This means you ops teams can run campaigns themselves, and you get full visibility into progress, outcomes, and results right from the dashboard.\n\n\n## How To Get Started\n\n\nWe designed this to be straightforward.\n\n\n1. **Navigate to the Outbound Tab:** In your Vapi Dashboard, you'll find a new \"Outbound\" section.\n2. **Select Your Phone Number** : Choose a verified number for reliable, high-volume calls.\n3. **Upload Your CSV:** Use our provided template for formatting numbers and variables.\n4. **Configure and Launch** : Select the assistant to use, map your variables, and start the campaign. You can monitor the status of each call directly from the dashboard.\n\n\nNote: You **cannot** use Vapi numbers to run an outbound campaign.\n\n\nCheckout our[Docs](https://docs.vapi.ai/outbound-campaigns/quickstart) for full details and the best practices.\n\n\n## What’s Next\n\n\nThis is the foundation for more advanced campaign management. We're already working on features like detailed campaign analytics, scheduling, and deeper CRM integrations for list-pulling.\n\n\nWhat's the first manual outbound process you can now automate?\n\n\nGive it a try in your dashboard. We're curious to see what you build.",
+  "published_at": "2025-06-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T05:51:02.715878+00:00",
+  "content_hash": "sha256:2d06731b3a6eb6ef03673d3b0fa8ec429d6ddd7604b0c9081d3bd4f254a5d179"
+}

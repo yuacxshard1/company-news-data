@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3a43f245b3a734e1fa3aa9609ab0926b1508353babe5dc496d90b78a53a6c9a2",
+  "company_key": "yc-assemblyai",
+  "company_name": "AssemblyAI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.assemblyai.com/blog/announcing-ruby-sdk?ref=changelog.assemblyai.com",
+  "canonical_url": "https://www.assemblyai.com/blog/announcing-ruby-sdk",
+  "title": "Introducing the AssemblyAI Ruby SDK",
+  "summary": "We are thrilled to release the AssemblyAI Ruby SDK. You can use the SDK to transcribe audio, use our audio intelligence model, and apply LLMs to your audio data using LeMUR.",
+  "body_markdown": "We have released new and improved models since this article was published. See[our docs](https://www.assemblyai.com/docs) for our most current model offerings.\n\n\nWe are thrilled to release[the AssemblyAI Ruby SDK](https://github.com/AssemblyAI/assemblyai-ruby-sdk) , making it easier to use the latest Voice AI models from AssemblyAI with Ruby. Use the SDK to transcribe audio, analyze audio using our audio intelligence models, and apply LLMs to your audio data using LeMUR.\n\n\nHere are a couple of examples showcasing the Ruby SDK.\n\n\n## 1. Transcribe an audio file\n\n\n` require 'assemblyai' client = AssemblyAI::Client.new(api_key: 'YOUR_API_KEY') transcript = client.transcripts.transcribe( audio_url: 'https://storage.googleapis.com/aai-docs-samples/nbc.mp3' ) abort transcript.error if transcript.status == AssemblyAI::Transcripts::TranscriptStatus::ERROR puts transcript.text`\n\n\nYou can also transcribe a local file, as shown here.\n\n\n` uploaded_file = client.files.upload(file: '/path/to/your/file') transcript = client.transcripts.transcribe( audio_url: uploaded_file.upload_url )`\n\n\nLearn how to transcribe audio files by following[the step-by-step instructions in our docs](https://www.assemblyai.com/docs/getting-started/transcribe-an-audio-file) .\n\n\n## 2. Use LeMUR to build LLM apps on voice data\n\n\n` response = client.lemur.task( transcript_ids: \\[transcript.id\\], prompt: 'Summarize this transcript.' ) puts response.response`\n\n\nLearn[how to use LLMs with audio data using LeMUR in our docs](https://www.assemblyai.com/docs/getting-started/apply-llms-to-audio-files) .\n\n\n## 3. Use audio intelligence models\n\n\n` transcript = client.transcripts.transcribe( audio_url: 'https://storage.googleapis.com/aai-docs-samples/nbc.mp3', sentiment_analysis: true ) abort transcript.error if transcript.status == AssemblyAI::Transcripts::TranscriptStatus::ERROR transcript.sentiment_analysis_results.each do |result| puts result.text puts result.sentiment puts result.confidence printf(\"%<start>d - %<end>d\\\\n\", start: result.start, end: result.end_) end`\n\n\nLearn more[about our audio intelligence models in our docs](https://www.assemblyai.com/docs/audio-intelligence) .\n\n\n## Get started with the Ruby SDK\n\n\nYou can find[installation instructions](https://github.com/AssemblyAI/assemblyai-ruby-sdk/tree/main?tab=readme-ov-file#quickstart) and more information in the[README of the Ruby SDK GitHub repository](https://github.com/AssemblyAI/assemblyai-ruby-sdk) .[File an issue](https://github.com/AssemblyAI/assemblyai-ruby-sdk/issues) or contact us with any feedback.",
+  "published_at": null,
+  "first_seen_at": "2026-07-21T08:04:01.744114+00:00",
+  "content_hash": "sha256:c6f868d8c95bd17ce37f56c15a0a67433c20d76eefa22d54ba30c6b58919a280"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4a4a47b24d72393085538e5a75c229bc5757669d7f5c380c581177deb8df482f",
+  "company_key": "yc-channel3",
+  "company_name": "Channel3",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://trychannel3.com/blog/add-product-recommendations-to-your-app",
+  "canonical_url": "https://trychannel3.com/blog/add-product-recommendations-to-your-app",
+  "title": "How to add product recommendations to your app",
+  "summary": "Integrate product recommendations into any app: step-by-step with filters, limits, and optional image search. Use the Channel3 SDK or API.",
+  "body_markdown": "Product recommendations can boost engagement and revenue — whether you're building a style app, a gift finder, or an AI assistant. This guide shows how to add recommendations using a single API: query by text or image, apply filters, and get results you can display or pass to an LLM.\n\n\n## Choose your entry point\n\n\n**Text search:** User types or says something like \"running shoes under $100.\" Call the search API with that query, optional filters (brand, price range, category), and a limit. You get back products with titles, images, prices, and links.\n\n\n**Image search:** User uploads a photo (e.g. \"find something like this\"). Send the image URL or base64 to the API and get visually or semantically similar products. Great for \"find similar\" or style-matching features.\n\n\n## Filters and options\n\n\nNarrow results by brand, gender, price min/max, and availability. You can also pass context (e.g. \"gift for new parent\") to improve relevance. Use the SDK's typed options or the REST API — both support the same parameters.\n\n\n## From API to UI\n\n\nOnce you have results, render them in a grid or list. Each product typically includes an image, title, price, and link. Use the affiliate link from the response so clicks and purchases are attributed to you. With Channel3, you get a single integration that works for web, mobile, and AI backends.",
+  "published_at": "2025-12-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T13:12:57.086694+00:00",
+  "content_hash": "sha256:952126b0d0b39f1778c9e31b03c54db17dffc90295e890323013653c731e4873"
+}

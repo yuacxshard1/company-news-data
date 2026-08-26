@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "07bc47c4debfe88313456f48796d9b955db401c3e3802dbda7416b9edb64c29e",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/chemical-descriptors-for-categorical-parameters",
+  "canonical_url": "https://www.reactwise.com/news/chemical-descriptors-for-categorical-parameters",
+  "title": "Chemical descriptors for categorical parameters",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "Six catalysts, eight ligands, four bases. 192 combinations - before you consider temperature, solvent, or loading.\n\n\nOptimization is often described in terms of continuous dials: temperature, equivalents, concentration. But some of the most important decisions in a reaction aren't dials at all. Which catalyst, which ligand, which base - these are discrete choices, and can multiply fast.\n\n\nContinuous parameters are easy to reason about because you can interpolate. Discrete choices offer no easy equivalent - there is nothing \"between\" two ligands, until you describe them with what they actually are.\n\n\nBy encoding each catalyst, ligand, and base with physicochemical descriptors, our model can reason between them: recognizing that two ligands with similar steric and electronic profiles behave similarly, and that an untested one sitting between them is worth testing. Our SHAP-based plots then make those drivers visible - showing which descriptors are improving results, so the logic behind a recommendation is chemically understandable.\n\n\nThat turns a dense list into a navigable space. Rather than running all 192 combinations, the optimizer proposes the discrete choices most likely to be informative or high-performing, learns from each result, and narrows in. Vera, our AI assistant, goes further - suggesting catalysts or ligands beyond your original screen whose descriptors place them in promising regions, candidates you might not have thought to try.\n\n\nIf your team is staring down a catalyst, ligand, and base screen and wondering which combinations are actually worth running, we'd be glad to talk it through on your chemistry.",
+  "published_at": "2026-08-26T00:00:00+00:00",
+  "first_seen_at": "2026-08-26T18:57:26.965356+00:00",
+  "content_hash": "sha256:ea7e237976286f3c4904a1027bb3f2910b402e8c596468535a9b950903ef2e5f"
+}

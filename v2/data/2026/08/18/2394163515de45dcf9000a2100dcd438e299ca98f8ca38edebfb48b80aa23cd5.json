@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2394163515de45dcf9000a2100dcd438e299ca98f8ca38edebfb48b80aa23cd5",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/another-axiom-gorilla-tag",
+  "canonical_url": "https://unity.com/blog/another-axiom-gorilla-tag",
+  "title": "Keeping a VR giant fresh: Gorilla Tag’s two-week live ops cadence",
+  "summary": "Learn how Another Axiom uses Unity to ship Gorilla Tag’s two-week live ops cadence across VR platforms.",
+  "body_markdown": "**What performance targets did you set per platform, and how did the[Unity Profiler](https://unity.com/features/profiling) help you track and hit them?**\n\n\nWe don’t set hard, explicit performance targets, because there’s so much variability in *Gorilla Tag* – room sizes range from one to twenty players, and players can be in different environments, taking all kinds of actions, and wearing any combination of cosmetics.\n\n\nInstead, what matters most is keeping frame rate as consistent as possible in VR. We target Quest 2 standalone as our primary performance benchmark, since it’s a large share of our playerbase. For us, that means trying to stay as close to a steady 90 fps as possible in reasonable gameplay situations, with some allowance for dips when a lot is happening on screen. That target is our North Star for performance and gameplay decisions.\n\n\nWe run the Unity Profiler on every release build, and many intermediary builds, monitoring draw calls, garbage collection, and memory usage. It’s critical for tracking down what’s eating your limited frame time. VR needs to hit that high 90 fps target consistently, rendering to both eyes, so your frame time budget is short. The Unity Profiler is what lets us dig into traces and find exactly what part of the game is costing us frames or causing hitches.",
+  "published_at": "2026-08-18T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:feeb93115a40db5f318e0579750ae15af7e0952faee139e32d35a64dbe1a3871"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7a42517a7173133c5ba5c56ffe3d871e6928c9649f59c64f853037f0d21d388c",
+  "company_key": "yc-convoy-2",
+  "company_name": "Convoy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getconvoy.io/changelog/google-sso-and-rbac",
+  "canonical_url": "https://www.getconvoy.io/changelog/google-sso-and-rbac",
+  "title": "Google SSO & Role-Based Access Control",
+  "summary": "Changelog update from Friday, October 31st, 2025",
+  "body_markdown": "We released two features this week: Google SSO and a complete rewrite of how permissions work.\n\n\n**Google SSO**\n\n\nGoogle Workspace users can sign into Convoy using their Google account, eliminating the need for separate passwords.\n\n\nClick \"Sign in with Google\" on the login page. The authentication flow redirects through Google and back to Convoy. First-time users will set up their organization name during the process. Existing accounts with the same email are automatically linked.\n\n\n**Role-Based Access Control**\n\n\nThe old permissions setup worked for smaller teams but started breaking down as teams grew. We rebuilt it with five roles:\n\n\n- **Instance Admin** — Controls everything across your Convoy instance\n- **Organization Admin** — Runs the organization and all its projects\n- **Billing Admin** — Handles billing only\n- **Project Admin** — One project's settings and resources\n- **Project Viewer** — View-only access to project data\n\n\nThis gives you granular control over who can access and modify resources in your Convoy instance.\n\n\nBoth features are available now. See the[Google SSO docs](https://www.getconvoy.io/docs/product-manual/google-sso) and[RBAC guide](https://www.getconvoy.io/docs/product-manual/rbac) for implementation details.",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T00:37:26.853065+00:00",
+  "content_hash": "sha256:da8cf21dfc848d9fa30fa0de51123dad4dc907952283c8ebe93cd1611f23b4d9"
+}

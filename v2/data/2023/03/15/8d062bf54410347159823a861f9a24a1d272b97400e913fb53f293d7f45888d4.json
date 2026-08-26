@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8d062bf54410347159823a861f9a24a1d272b97400e913fb53f293d7f45888d4",
+  "company_key": "weave-communications-inc-common-stock",
+  "company_name": "Weave Communications Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://engineering.getweave.com/talk/guts-of-git/",
+  "canonical_url": "https://engineering.getweave.com/talk/guts-of-git/",
+  "title": "Guts Of Git",
+  "summary": "An interactive, self-service workshop to help you get the most out of Git",
+  "body_markdown": "# Try it yourself:[https://guts-of-git.carson-anderson.com/](https://guts-of-git.carson-anderson.com/)\n\n\n- Source code:[https://github.com/carsonoid/workshop-guts-of-git](https://github.com/carsonoid/workshop-guts-of-git)\n\n\n# Summary\n\n\nThis workshop actually started as an internal talk here at Weave. The Weave engineering department has an ongoing commitment to education and that includes regular internal meetups. The driver for this talk was to ensure that all engineers at Weave actually understood one of the technologies they use the most: Git. While we all work hard to better understand our programming languages and other parts of our tech stack. Many developers often forget that source control and Git is one of the most important things they do.\n\n\nThe talk was so well received internally that it was submitted as a talk to[Salt Lake City DevOps Days](https://www.slcdevopsdays.org/) . It was selected by conference leaders but they asked if it could be re-worked into a 2 hour workshop. In order to facilitate an easy and smooth workshop experience, we used Hugo to generate and host the content so attendees could easily follow along.\n\n\nAfter being presented at the conference, the workshop was so well received that Carson was asked to present it again at the local[Utah Java Meetup](https://www.meetup.com/utah-java-users-group/events/292476251/) where the workshop content was presented again but in a shorter time frame and as a talk rather than a fully interactive workshop.\n\n\n# Key Takeaways\n\n\n- Git is a critical component of most developer’s jobs.\n- Almost everything in git is stored as a content-hashed object\n- There are two primary ways of updating and combining branches:\n\n\n- Using` git merge`\n\n\n- Pro: The history will remain unchanged\n- Con: Ugly commits stay in the history forever\n\n\n- Using` git rebase`\n\n\n- Pro: You can rewrite and change commits to keep a clean history\n- Con: You need to force push your changes since history has been changed\n\n\n- You should use[conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to add more consistency and value to your messages\n\n\n# Details\n\n\nThe full source code for the workshop web page can be found at:\n\n\n- [https://github.com/carsonoid/workshop-guts-of-git](https://github.com/carsonoid/workshop-guts-of-git)",
+  "published_at": "2023-03-15T19:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:19:36.973215+00:00",
+  "content_hash": "sha256:493b30b251cb5c815ca30510ba5af90c74eaad25c10d496a8543b473c259dba5"
+}

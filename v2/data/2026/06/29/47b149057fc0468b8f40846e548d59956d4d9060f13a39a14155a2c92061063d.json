@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "47b149057fc0468b8f40846e548d59956d4d9060f13a39a14155a2c92061063d",
+  "company_key": "yc-dover",
+  "company_name": "Dover",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.dover.com/blog/ats-integrations-explained",
+  "canonical_url": "https://www.dover.com/blog/ats-integrations-explained",
+  "title": "ATS Integration Systems (June 2026)",
+  "summary": "Guide to connecting your ATS with job boards, LinkedIn, scheduling tools, and HRIS systems for automated recruiting, June 2026.",
+  "body_markdown": "Each major ATS has built its own integration ecosystem.\n\n\n### Greenhouse\n\n\nGreenhouse has one of the more mature integration libraries, spanning background check providers, assessment tools, HRIS systems, and job boards. Its LinkedIn Recruiter System Connect partnership syncs candidate activity both ways, and the well-documented REST API keeps custom builds accessible for teams with engineering resources.\n\n\n### Workday\n\n\nWorkday is more complex. Its LinkedIn Recruiter System Connect runs at enterprise scale, syncing InMail activity, candidate stages, and application data, but heavy configuration makes integrations harder to set up and maintain, and smaller teams struggle to absorb the overhead.\n\n\n### Lever and Workable\n\n\nBoth sit in a middle tier with solid pre-built connectors for Indeed, LinkedIn, and background check vendors. Workable's API is accessible enough that many teams build[lightweight automations](https://www.dover.com/blog/best-applicant-tracking-systems-startups-top-6) with little engineering.\n\n\n### BambooHR and Zoho\n\n\nThese serve smaller organizations with ecosystems to match. BambooHR connects well with payroll and onboarding tools, while Zoho's LinkedIn integration covers job posting and basic applicant syncing, though teams expecting deep bidirectional sync often find it limited.\n\n\nATS\n\n\nLinkedIn Integration\n\n\nAPI Accessibility\n\n\nBest Fit\n\n\nGreenhouse\n\n\nRecruiter System Connect\n\n\nWell-documented REST API\n\n\nMid-market to enterprise\n\n\nWorkday\n\n\nRecruiter System Connect\n\n\nComplex, heavy config\n\n\nEnterprise\n\n\nLever\n\n\nStandard LinkedIn apply\n\n\nModerate\n\n\nGrowth-stage teams\n\n\nWorkable\n\n\nJob posting + apply\n\n\nDeveloper-friendly\n\n\nSMBs and startups\n\n\nBambooHR\n\n\nBasic apply\n\n\nLimited\n\n\nSmall businesses\n\n\nZoho Recruit\n\n\nJob posting + sync\n\n\nModerate\n\n\nSMBs",
+  "published_at": "2026-06-29T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T07:58:02.953466+00:00",
+  "content_hash": "sha256:5a21161b418d7cc114b7c5542ba08bb80f8e1e8c2dc310110a1247c813f83aff"
+}

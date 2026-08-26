@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8f3e450bcf0bef300bdd02000bb24f3c468c34da2ce8a1ee367f51ed70841ae8",
+  "company_key": "yc-apollo",
+  "company_name": "Apollo",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.apollographql.com/blog/apollo-changelog-february-13-2023",
+  "canonical_url": "https://www.apollographql.com/blog/apollo-changelog-february-13-2023",
+  "title": "Apollo Changelog: February 13, 2023",
+  "summary": "",
+  "body_markdown": "## Operation scripts in Apollo Studio\n\n\nBased on popular request, Apollo Studio now supports[Operations Scripts](https://www.apollographql.com/docs/graphos/explorer/connecting-authenticating/#operation-scripts) ! Operation scripts can be used for performing complex automations or for testing[sequence of operations](https://www.apollographql.com/docs/graphos/explorer/connecting-authenticating#chaining-operations) .\n\n\nHere’s a basic example that feeds the result of another mutation inside the variables for the current mutation:\n\n\n## Serverless supergraphs\n\n\nLast week we hosted another livestream on[our Discord server](https://discord.gg/graphos) about deploying a Typescript subgraphs on AWS Lambda using SAM. If you want to try it out, free to use[Michael’s template](https://github.com/michael-watson/aws-sam-apollo-server-ts) , and let us know how it goes on[Discord](https://discord.gg/graphos) , we’ll be happy to answer your questions!\n\n\n## Cache me if you can!\n\n\nWe published a short version of “Cache me if you can: Wayfair’s secret to snappier apps ”, watch it on[YouTube](https://www.youtube.com/watch?v=u7x4zrGU48A) ! We’re working on more Summit supercuts and you can subscribe to the[Apollo GraphQL channel](https://www.youtube.com/@ApolloGraphQL) to be notified when they’re ready.\n\n\n## Rapid roundup\n\n\n- [Rover 0.11.1](https://github.com/apollographql/rover/releases/tag/v0.11.1) is now available and includes a fix for a warning shown when running the latest version of Apollo Router.\n- [Apollo Router 1.10.2](https://github.com/apollographql/router/releases/tag/v1.10.2) was released including a fix for` @interfaceObject` and some maintenance changes.\n- [Apollo iOS 1.0.7](https://github.com/apollographql/apollo-ios/releases/tag/1.0.7) was released and includes a few bug fixes.\n\n\n## Community Spotlight\n\n\n- [Federation 2 support is available](https://github.com/JetBrains/js-graphql-intellij-plugin/issues/297#issuecomment-1421459265) in the official JetBrains GraphQL plugin!\n- The latest ATOM (A Touch Of Multiplatform) podcast featured an Apollo success story:[Learn how Meetup used Apollo Kotlin and everything Just Worked with Kotlin Multiplatform](https://www.youtube.com/watch?v=GtJBS7B3eyM)\n\n\nWritten by\n\n\nPatrick Arminio\n\n\n[Read more by Patrick Arminio](https://www.apollographql.com/blog/author/patrick)",
+  "published_at": "2023-02-13T17:26:00+00:00",
+  "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+  "content_hash": "sha256:1bf8ea9a32460ea35a8bb06c38038e3742ad3343b055642e1a4a17e7b77d8354"
+}

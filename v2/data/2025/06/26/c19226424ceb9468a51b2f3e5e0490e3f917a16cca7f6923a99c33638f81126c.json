@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c19226424ceb9468a51b2f3e5e0490e3f917a16cca7f6923a99c33638f81126c",
+  "company_key": "yc-porter",
+  "company_name": "Porter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.porter.run/changelog/tailscale-integration-cost-optimization-granularity-helicone-add-on",
+  "canonical_url": "https://www.porter.run/changelog/tailscale-integration-cost-optimization-granularity-helicone-add-on",
+  "title": "Tailscale Integration, Cost Optimization Granularity, Helicone Add-on, and Improved App Alerts",
+  "summary": "We've partnered with Tailscale (the best VPN service for secure networks) and Helicone, a YC company and AI gateway for various LLMs. We've also improved the Cost Optimization feature for users with reserved instances on AWS, and made some ease-of-use improvements to Environment Groups and alerts for applications.",
+  "body_markdown": "## **Tailscale Integration**\n\n\nWe’ve partnered with[Tailscale](https://tailscale.com/) to create an updated, official integration for Porter.\n\n\nSome benefits are finer-grained permissions through OAuth clients and automatic management of auth keys for your cluster, meaning no need for manual renewal.\n\n\n‍\n\n\n‍[Here](https://docs.porter.run/other/tailscale#tailscale-on-porter) are the docs.\n\n\n## **Cost Optimization with Reserved Instances**\n\n\nUsers with cost-optimized node groups can now restrict the instances that are selected to a subset of instance families.\n\n\n‍\n\n\nIf a user has reserved instances of a particular instance family, they can still take advantage of the dynamic optimization across the different EC2 sizes.\n\n\n## **Helicone Add-on**\n\n\n‍[Helicone](https://www.helicone.ai/) (YC W23) is now available as an add-on on Porter. Helicone is an advanced observability platform, providing a unified view of performance, cost, and user interaction metrics for various LLM providers.\n\n\n## **Validation for porter.yaml**\n\n\nUsers can run` porter apply validate -f porter.yaml` to check the syntax and structure of` porter.yaml` files prior to deploying.\n\n\n## **Environment Groups Update**\n\n\nThe Environment Group view now has a Versions tab that allows you to see the ten previous versions of your environment groups.\n\n\n‍\n\n\nThis will allow for easier recovery if environment group changes need to be reverted.\n\n\n## **Improved App Alerts**\n\n\nPreviously, users had to click into each individual application to be able to see the notification count.\n\n\nThe apps list view now has notification counts for the most recent revisions of each application.\n\n\n‍\n\n\nThis allows users to get a high level overview of which apps are experiencing failures, restarts, etc.",
+  "published_at": "2025-06-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T19:39:33.596384+00:00",
+  "content_hash": "sha256:51590a5b03f253059718f1e5d5f6abe272268a9174a5dc950fef78f228b7ad77"
+}

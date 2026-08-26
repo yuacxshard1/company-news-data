@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "69bb6449d8143874eb20a8be504fad94373e2c3fff10aa4fe924cbd433d6e60d",
+  "company_key": "yc-tensol",
+  "company_name": "Tensol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://tensol.ai/blog/ai-employees-vs-workflow-automation",
+  "canonical_url": "https://tensol.ai/blog/ai-employees-vs-workflow-automation",
+  "title": "AI Employees vs Workflow Automation: What's the Difference?",
+  "summary": "Tensol deploys autonomous AI agents that think, remember, and act proactively — not triggers and actions like Zapier or n8n. Here's why that matters.",
+  "body_markdown": "## The Fundamental Difference\n\n\nWorkflow automation tools like Zapier, Make, and n8n run **triggers and actions** : when X happens, do Y. They're deterministic pipelines. Powerful for simple tasks, but they can't think, remember, or act on their own.\n\n\nAI employees on Tensol are **autonomous agents** . They:\n\n\n- Monitor your tools 24/7 without being prompted\n- Detect patterns across multiple systems\n- Make judgment calls and take action\n- Remember every interaction with persistent memory\n- Learn from your feedback over time\n\n\n## When to Use Each\n\n\n### Workflow Automation (Zapier, n8n)\n\n\nBest for:\n\n\n- Simple, deterministic tasks (new row → send email)\n- High-volume, low-complexity operations\n- Tasks that never change\n\n\n### AI Employees (Tensol + OpenClaw)\n\n\nBest for:\n\n\n- Tasks requiring judgment (qualify this lead, triage this error)\n- Cross-system pattern detection (correlate Sentry errors with deploys and customer complaints)\n- Proactive monitoring (catch issues before anyone reports them)\n- Tasks requiring context and memory (remember what this customer discussed 3 months ago)\n\n\n## A Real Example\n\n\n**With Zapier:** \"When a new Sentry error is created, post it to #engineering Slack channel.\"\n\n\n**With Tensol:** At 4:17 AM on a Sunday, your AI employee notices Sentry errors climbing. Over 23 minutes, it autonomously correlates the spike with deploy #892, finds 3 customer complaints in Slack that nobody has read yet, estimates $12K in revenue impact from HubSpot, traces the bug to an exact line of code, creates a Linear ticket, drafts customer notifications, and prepares a one-command rollback — all without anyone asking.\n\n\nThe first is a pipe. The second is a colleague.\n\n\n## Why OpenClaw?\n\n\nOpenClaw is the open-source platform that powers Tensol's AI employees. With 220,000+ GitHub stars and support for 13+ messaging channels, it's the most capable AI assistant platform available.\n\n\nTensol deploys OpenClaw on managed infrastructure — isolated VMs, enterprise security, 100+ integrations via OAuth — so you get the power of autonomous AI agents without the DevOps burden.\n\n\n## Getting Started\n\n\nDeploy your first AI employee in 5 minutes:[tensol.ai](https://tensol.ai/)",
+  "published_at": "2026-02-28T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:37.920034+00:00",
+  "content_hash": "sha256:e3896007a453808e7e468ee274a7825e74994b876eb0ca283e4a44b97643650e"
+}

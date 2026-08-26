@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8c55f30b65850b5dbedc9f37b4c74e93384706d24f8ee137302e5083b3d80243",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/vercel-marketplace-integration",
+  "canonical_url": "https://resend.com/changelog/vercel-marketplace-integration",
+  "title": "Vercel Marketplace Integration",
+  "summary": "Sign up for Resend without leaving Vercel or the Vercel CLI.",
+  "body_markdown": "Today, we're excited to announce the Vercel Marketplace Integration. **Create and manage a Resend account** directly from the Vercel dashboard or the Vercel CLI.\n\n\nMany builders, creators, and developers today deploy projects on Vercel. The integration makes it easy to get started with Resend without leaving your Vercel workflow and centralizes your billing within Vercel.\n\n\nEmail for developers, now one click away.\n\n\n## What's new\n\n\n- Create a Resend account directly from the Vercel dashboard or the Vercel CLI\n- A Resend API key is added to your Vercel project's environment variables\n- DNS for Resend is automatically configured through Vercel\n- Billing is managed through Vercel\n\n\n## Prerequisites\n\n\nBefore you begin, you'll need two things:\n\n\n1. A Vercel account with a project.\n2. A domain purchased through Vercel.\n\n\n## How to get started\n\n\nThe integration connects Resend to an existing domain purchased through Vercel.\n\n\n### 1. Install the integration\n\n\nYou can install the integration from the Vercel dashboard or the Vercel CLI.\n\n\nTo install **from the dashboard** , navigate to the[Resend Integration page](https://vercel.com/marketplace/resend) .\n\n\nTo install using the **Vercel CLI** , run:\n\n\n```text\nvc i resend   -m     domain  =  example.com\n```\n\n\n### 2. Authorize the integration\n\n\nWalk through the authorization process:\n\n\n- Connect your Vercel domain.\n- Select your desired Resend plan.\n- Authorize the integration.\n\n\n### 3. Connect and verify\n\n\nThe integration can automatically add the required DNS records to start sending from your new Resend account. To direct the integration, follow these steps:\n\n\nFirst, connect the integration to a Vercel project.\n\n\nFinally, verify your domain within the Resend dashboard.\n\n\n## Empowering developers\n\n\nOur goal is to empower developers to ship quickly with confidence, taking care of the busy work so they can get back to building the projects they love.\n\n\nThis new integration makes it even easier for Vercel users to get started with Resend, and we can’t wait to see what you do with it.\n\n\nFor more help, view[our Vercel Marketplace Integration docs](https://resend.com/docs/guides/vercel-marketplace-integration) .",
+  "published_at": "2026-06-30T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T21:22:09.024444+00:00",
+  "content_hash": "sha256:7e006fe278b85900f0af6ceb1da26715f1c65d6d0397d905fa39ccc48e53c9cc"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e82f345571df100c02e965e3117acffa99237dcc1d67acfb2af108cef58b6a9d",
+  "company_key": "yc-stackup",
+  "company_name": "Stackup",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.stackup.fi/resources/what-is-eip-4337",
+  "canonical_url": "https://www.stackup.fi/resources/what-is-eip-4337",
+  "title": "What is ERC-4337?",
+  "summary": "Stackup explains how EIP-4337 account abstraction enables smart contract wallets with social logins, gasless transactions, one click multi-operations, and more!",
+  "body_markdown": "‍\n\n\nERC-4337 is an Ethereum standard that enables[Account Abstraction](https://www.stackup.fi/resources/what-is-account-abstraction) , allowing users to interact with the Ethereum network through smart contract wallets without needing to directly manage private keys or native ETH for gas fees.\n\n\n## **What are the components of ERC-4337?**\n\n\nThe ERC-4337 standard enables account abstraction by creating an alternative transaction pool (also called amempool) for account abstraction transactions. It has four main components: UserOperations, Bundlers, EntryPoint, and Contract Accounts.\n\n\n- **UserOperations** are pseudo-transaction objects that are used to execute actions through a smart contract wallet.\n- **Bundlers** package UserOperations and send them to the EntryPoint contract on the blockchain for verification and execution.\n- **EntryPoint** is a singleton smart contract that handles the verification and execution logic for transactions.\n- **Contract Accounts** are owned by a user and can be supplemented with features from other smart contracts like aggregators and paymasters.\n\n\n‍\n\n\n## **How ERC-4337 Enables Account Abstraction**\n\n\nThe alternative mempool, managed by Bundlers, gets past the restriction of most EVM blockchains that only an EOA (externally owned account with a private key) can initiate transactions.\n\n\nHere is the process is a diagram:\n\n\n# **How ERC-4337 Enables Account Abstraction**\n\n\nFirst, a user creates a UserOperation object and submits it to the mempool. The Bundler then receives the UserOperation and submits it to the EntryPoint for verification and execution. The EntryPoint verifies the UserOperation is valid by checking the Contract Account and if needed the Paymaster and Aggregator, and then sends the call data to the Wallet Contract for execution. Any unused gas fees are refunded to the Wallet Contract or a function is called on the Paymaster Contract to run any post-execution logic.\n\n\nThe ERC-4337 standard has the potential to revolutionize the way users interact with the Ethereum network and could make it easier for non-technical users to participate in the Ethereum ecosystem. However, it is important for all implementations of the ERC-4337 standard to be thoroughly audited to ensure security and reliability.",
+  "published_at": null,
+  "first_seen_at": "2026-07-27T05:25:45.190590+00:00",
+  "content_hash": "sha256:616fc919c08d113b723bce289b2f6a0f75f1cc75c76c23d10ae76ed36e9dba99"
+}

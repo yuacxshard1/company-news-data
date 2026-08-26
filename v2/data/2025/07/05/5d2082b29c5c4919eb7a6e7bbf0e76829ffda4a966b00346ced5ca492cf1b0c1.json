@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5d2082b29c5c4919eb7a6e7bbf0e76829ffda4a966b00346ced5ca492cf1b0c1",
+  "company_key": "yc-waypoint",
+  "company_name": "Waypoint",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.usewaypoint.com/changelog/receive-webhooks/",
+  "canonical_url": "https://www.usewaypoint.com/changelog/receive-webhooks/",
+  "title": "Send emails from third party webhooks",
+  "summary": "",
+  "body_markdown": "# Send emails from third party webhooks\n\n\nEarlier this year, we released[sending webhooks](https://www.usewaypoint.com/changelog/webhooks) based on delivery events.\n\n\nToday, we are introducing the opposite - **receiving webhooks events from third party services to send emails** .\n\n\nCommon event examples:\n\n\n- A successful payment on Stripe.\n- A new pull request on GitHub.\n- A new user account created on Auth0.\n- An new order on Shopify.\n- A shipping status change on Shippo.\n\n\nThis is done by creating a webhook endpoint URL on Waypoint to listen for third-party events and trigger associated[workflows](https://www.usewaypoint.com/docs/workflow-basics/) (and resulting dynamic emails).\n\n\n[View Stripe webhook example](https://www.usewaypoint.com/docs/trigger-workflows-via-webhooks/#example-stripe-webhook-event)",
+  "published_at": "2025-07-05T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T05:13:45.651737+00:00",
+  "content_hash": "sha256:e74f6ffd0089995004cb79a52b254b35cf2b59f7844e245386d79edc9130f4f9"
+}

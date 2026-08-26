@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-zep-ai",
+      "company_name": "Zep AI",
+      "doc_id": "3db247668b5ab8ce8ff4e2664a0ebf8a82c60be1bda2609d826f2e6d6b3cd809",
+      "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
+      "published_at": "2026-06-11T14:00:51+00:00",
+      "source_kind": "rss",
+      "summary": "Writer's \"Recalling Too Well\" paper says memory systems amplify sycophancy. Its own data traces the amplification to two design decisions — one in Writer's experiment itself, one in a competitor's memory product.",
+      "title": "Sycophancy is a design choice"
+    },
+    {
+      "company_key": "yc-zep-ai",
+      "company_name": "Zep AI",
+      "doc_id": "5f718fe2d51b5661470e89835bac15ad3c8fb1b0261943886eff276733e033c9",
+      "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
+      "published_at": "2026-06-24T17:55:24+00:00",
+      "source_kind": "rss",
+      "summary": "Agent memory has to refresh every turn, but putting it in the system prompt breaks prompt caching and re-bills the whole conversation each turn. Here is the one-message fix, and the token savings it led to in an experiment.",
+      "title": "Agent memory placement can cut your token bill up to 2x"
+    },
+    {
+      "company_key": "yc-zep-ai",
+      "company_name": "Zep AI",
+      "doc_id": "a13b5eebe0b95dad9891549b4e2b0a23e0888544fa50acb355bcd872337e076c",
+      "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
+      "published_at": "2026-06-04T15:20:25+00:00",
+      "source_kind": "rss",
+      "summary": "Today we're announcing Smart Context Assembly, an upgrade to how Zep's default Context Block is built: higher accuracy from fewer tokens, with no code changes.",
+      "title": "Smart Context Assembly: Fewer Tokens, Better Quality"
+    },
+    {
+      "company_key": "yc-zep-ai",
+      "company_name": "Zep AI",
+      "doc_id": "c29aa6acf2c58733d3b117b48d0ec0ffbb0e25645ab52d5e13bdbf8955146103",
+      "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
+      "published_at": "2026-06-18T14:58:36+00:00",
+      "source_kind": "rss",
+      "summary": "A production agent is a long-running, concurrent, I/O-bound process that spends most of its time waiting on a model, a tool, or a human. That shape fits Go's runtime. This post explains why, surveys the Go framework options, and shows how to build an agent without one.",
+      "title": "Building Agents in Go Without a Framework"
+    },
+    {
+      "company_key": "yc-zep-ai",
+      "company_name": "Zep AI",
+      "doc_id": "d3cd2344dade59e602233827da81309dec3b6518b8fa95fdaeb214d70a8b9964",
+      "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
+      "published_at": "2026-06-09T15:20:48+00:00",
+      "source_kind": "rss",
+      "summary": "Zep's Batch API loads large datasets into agent memory faster, in batches up to 50,000 items, with a progress dashboard and no impact on real-time ingestion.",
+      "title": "The Batch API: Load Large Datasets into Agent Memory"
+    },
+    {
+      "company_key": "yc-zep-ai",
+      "company_name": "Zep AI",
+      "doc_id": "d7a08352598836268c372cd711158f9ee9f9582d657bd4f90533c7fb9ebbab84",
+      "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
+      "published_at": "2026-06-30T19:30:00+00:00",
+      "source_kind": "rss",
+      "summary": "Your team's agents are split across surfaces: the desktop assistant, the coding tool, the agents you build in-house. Each keeps its own memory or none at all. The Memory MCP Server puts them on one governed user graph, gated by your enterprise single sign-on.",
+      "title": "Unified agent memory in any MCP client"
+    },
+    {
+      "company_key": "yc-zep-ai",
+      "company_name": "Zep AI",
+      "doc_id": "e53ab10592c5add6eeb12b8da8b9390d38c6ec54f61d0d1d4f546f7c5f14ec57",
+      "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
+      "published_at": "2026-06-23T15:15:19+00:00",
+      "source_kind": "rss",
+      "summary": "Some of the most capable agents in production keep their memory in plain markdown files, and for a single agent and a single user it is hard to beat. The pattern breaks in predictable places: at scale, as facts change and errors compound, and under concurrent agents.",
+      "title": "Markdown is not agent memory"
+    }
+  ],
+  "company_key": "yc-zep-ai",
+  "month": "2026-06"
+}

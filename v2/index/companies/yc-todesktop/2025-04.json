@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-todesktop",
+      "company_name": "ToDesktop",
+      "doc_id": "6d646b05ad45bfcfafcaf9ecefa65c6eb3297dbe879ffb6ec3a13ec217353589",
+      "first_seen_at": "2026-07-24T04:14:47.478048+00:00",
+      "published_at": "2025-04-08T10:12:00+00:00",
+      "source_kind": "html",
+      "summary": "We recently added [Debian APT repository support to ToDesktop](/electron/docs/guides/debian-apt-repository-support). We needed to dynamically sign Debian repo manifests with PGP without exposing PGP private keys to unnecessary risk or turning our system into a tangled mess. The solution? Cloudflare Workers service bindings. They let us isolate sensitive operations, keep our codebase clean, and get isolated visibility into what's happening. Here's how we made it work.",
+      "title": "Dynamically Signing Debian Repo Manifests with Worker Service Bindings"
+    }
+  ],
+  "company_key": "yc-todesktop",
+  "month": "2025-04"
+}

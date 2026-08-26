@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d0a25b73ce2b0c710216ae29156dd96ec67d40cf9a134e81c06953a46fbb1771",
+  "company_key": "yc-flair-labs",
+  "company_name": "Flair Labs",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flairlabs.ai/blog/voice-ai-and-tcpa",
+  "canonical_url": "https://flairlabs.ai/blog/voice-ai-and-tcpa",
+  "title": "Voice AI and the TCPA",
+  "summary": "Automated calls and texts live under the TCPA. Here's how we think about consent, contact windows, and opt-outs so outreach stays defensible.",
+  "body_markdown": "Any conversation about automated outreach in lending eventually arrives at the same place: the Telephone Consumer Protection Act. The TCPA governs how businesses can call and text consumers, and it treats automated dialing and prerecorded or artificial voices with particular care. Voice AI sits squarely inside that scope, which means the rules that apply to a dialer apply to us too.\n\n\nWe don't think of that as a constraint to work around. We think of it as the foundation the product has to stand on. If outreach isn't defensible, it isn't worth doing, no matter how good the conversation sounds.\n\n\n## Consent is the starting point, not the fine print\n\n\nThe TCPA centers on consent. Before an automated system reaches out, there has to be a clear basis for contacting that person — and the kind of consent required depends on the kind of message. Marketing outreach generally calls for a higher bar than a servicing or transactional message a borrower is already expecting.\n\n\nBecause consent state changes over time, it can't be a checkbox you tick once and forget. It has to travel with the contact, get checked before every interaction, and update the moment a borrower's preferences change. That's the design we build toward: consent is read at call time, not assumed.\n\n\n## Contact windows and quiet hours\n\n\nThe TCPA also limits when consumers can be contacted, and many states layer their own quiet-hour rules on top. An automated system that reaches everyone the instant a lead arrives is convenient until it places a call at the wrong hour in the wrong time zone. The right behavior is to respect calling windows automatically, by location, without anyone on the team having to remember to.\n\n\n## Opt-outs that actually stick\n\n\nWhen someone asks not to be contacted, that has to be honored — promptly, completely, and across every channel. An opt-out on a call should mean no follow-up text either. Honoring those requests reliably is partly a compliance obligation and partly just respect for the person on the other end.\n\n\nNone of this is exotic. It's the baseline any serious outreach program has to meet. The difference with voice AI is that the system can enforce these rules consistently, on every interaction, instead of relying on a busy team to remember them under pressure.\n\n\nThis is our view of how to operate responsibly under the TCPA — it isn't legal advice. Every lender should work with their own counsel and compliance team on the rules that apply to their business.",
+  "published_at": "2026-06-24T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T20:24:18.637293+00:00",
+  "content_hash": "sha256:61428464e6abf1cb1852e6a2ca90100fad65c721d4155140bda512a8d3403c34"
+}

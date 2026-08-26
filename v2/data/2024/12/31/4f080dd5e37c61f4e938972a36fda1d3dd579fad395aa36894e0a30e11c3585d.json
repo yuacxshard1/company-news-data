@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4f080dd5e37c61f4e938972a36fda1d3dd579fad395aa36894e0a30e11c3585d",
+  "company_key": "yc-tusk",
+  "company_name": "Tusk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.usetusk.ai/blog/december-2024-changelog",
+  "canonical_url": "https://blog.usetusk.ai/blog/december-2024-changelog",
+  "title": "December '24 Changelog",
+  "summary": "New features released in December 2024 –– improved net new tests, 3x faster codebase context retrieval, PHP and Go support, and more.",
+  "body_markdown": "# What's new in Tusk\n\n\nImproved format for Tusk's test generation output in GitHub\n\n\nOur goal in December was to build both reliability and speed into our AI test generation agent.\n\n\nAcross our customers, **69% of Tusk-generated test suites** were incorporated into PRs. Tusk's test generation run now takes between **4 to 8 minutes** , depending on the size of the PR.\n\n\nWe did this by boosting the quality of our net new tests (i.e., unit and integration tests written where there were **no existing tests** ) with better handling of context and filtering of test scenarios.\n\n\nWe also made Tusk's retrieval of codebase context (e.g., symbol definitions and usage) **3x faster** using the Language Server Protocol.\n\n\n## New releases\n\n\n- Improved ability to generate net new tests for PRs without existing tests\n- Increased speed of codebase context retrieval by 3x using the Language Server Protocol\n- Implemented AST to find symbol definition and usage\n- PHP and Go support\n- Consider code comments when determining expected behavior\n- Improved test file path localization\n- Support for multiple test execution configs per repo\n- Mark as helpful/unhelpful feature on Tusk GitHub check\n- Updated Tusk check output for clarity",
+  "published_at": "2024-12-31T09:32:14+00:00",
+  "first_seen_at": "2026-07-26T03:21:03.026732+00:00",
+  "content_hash": "sha256:3b82042f78a3a8cbe14b59e7cc936ae6282b8db56d463c885924a4bfeb04d5d2"
+}

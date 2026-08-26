@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "15b62b871f11321e53d134dc15e6d2f7dca7fcd1608505f2a8d7c368572ec6cf",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/duplicate-automation-api",
+  "canonical_url": "https://resend.com/changelog/duplicate-automation-api",
+  "title": "Duplicate Automation API",
+  "summary": "Duplicate an existing automation directly from the API.",
+  "body_markdown": "Most new automations start from one that already works. Previously, duplicating an Automation was only possible from the Dashboard.\n\n\nToday we're releasing a new API endpoint to[duplicate an automation](https://resend.com/docs/api-reference/automations/duplicate-automation) .\n\n\n## How it works\n\n\nPass the ID of an existing Automation and the API creates a copy:\n\n\n- The copy is named after the original with a` (Copy)` suffix.\n- All steps and connections are copied from the currently published version, or from the most recent version if none is published.\n- The copy starts as a **disabled draft** . Nothing runs until you review and publish it.\n\n\n## Duplicating an Automation\n\n\nTo duplicate an Automation, use the Automation's ID with the duplicate endpoint.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  automations  .  duplicate  (        'c9b16d4f-ba6c-4e2e-b044-6bf4404e57fd'  ,     )  ;\n\n\n```\n\n\nThe endpoint returns the ID of the new Automation:\n\n\n```text\n{        \"object\"  :     \"automation\"  ,        \"id\"  :     \"e169aa45-1ecf-4183-9955-b1499d5701d3\"     }\n```\n\n\nThe duplicate Automation API is part of a larger move to bring the full functionality of the dashboard into the API, CLI, and MCP, so you can build how you want.\n\n\nIf you have any questions, please reach out to us and we'll be happy to help.",
+  "published_at": "2026-08-26T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T21:40:07.509933+00:00",
+  "content_hash": "sha256:22113249dc81ce67628072e0f845dede14ff6b4dceb9fe0200b64a2d0128ccae"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "857ca13cb2255e8a0e6b6edc9e606806ce5ebaa240a3e0fb3a5780ae62b5ccb7",
+  "company_key": "yc-athina-ai",
+  "company_name": "Athina AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.athina.ai/the-impact-of-prompts-on-zero-shot-detection-of-ai-generated-text",
+  "canonical_url": "https://blog.athina.ai/the-impact-of-prompts-on-zero-shot-detection-of-ai-generated-text",
+  "title": "The Impact of Prompts on Zero-Shot Detection of AI-Generated Text",
+  "summary": "Tutorials, guides and deep dives into the best techniques and research for building reliable AI.",
+  "body_markdown": "Do not index\n\n\nOriginal Paper\n\n\nBlog URL\n\n\n**Original Paper:**[https://arxiv.org/html/2403.20127v1](https://arxiv.org/html/2403.20127v1)\n\n\n---\n\n\nAI has come a long way, with tools like GPT-3 making big waves. They're super useful, but there's a downside: they can create fake news or copy someone else's work. To stop this, experts have come up with ways to tell apart text written by humans from that written by AI.\n\n\nOne key tool in this fight is zero-shot detection, which doesn't need extra data to work. It just looks at the text's stats to make its call. But there's a catch: most of these tools don't consider the prompts (the instructions given to AI for writing), which can mess with their accuracy.\n\n\n####\n\n\nWhy Prompts Matter\n\n\n- Zero-shot detection uses different tricks to spot AI text, but ignoring prompts can lead to mistakes.\n\n\n- The study suggests that paying attention to prompts could make these tools sharper.\n\n\n####\n\n\nWhat's New\n\n\n- The research compares two approaches: one that looks at prompts (white-box) and one that doesn't (black-box).\n\n\n- Turns out, the white-box method, which considers prompts, is better at catching AI text.\n\n\n####\n\n\nOther Findings\n\n\n- The research also looked at how changing the amount of text or how much is swapped affects the results.\n\n\n- It found that too much tweaking doesn't always help.\n\n\n####\n\n\nExperiments and What They Show\n\n\n- The team tested their ideas using big and small AI models and found that, yes, including prompts does help a lot in telling AI and human texts apart.\n\n\n####\n\n\nDeep Dive\n\n\n- The study thinks differences in detection might not just be about prompts but how the AI writes based on certain settings.\n\n\n- It also points out that certain tasks might be harder to check for AI involvement.\n\n\n####\n\n\nBig Picture\n\n\n- Noticing the role of prompts is a big deal for better spotting AI-written text.\n\n\n- This opens up new paths for making sure AI is used the right way.\n\n\n####\n\n\nLooking Ahead\n\n\nAs AI keeps getting better, we need to refine our tools to keep up, ensuring they're used responsibly. Recognizing how prompts influence detection is a step in the right direction for safer AI use.",
+  "published_at": "2024-03-14T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T17:13:32.301153+00:00",
+  "content_hash": "sha256:76d0579d1415fe6ee9891db714b8567469c4c2963a0c2fa8c73983618d815b68"
+}

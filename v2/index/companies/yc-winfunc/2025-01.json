@@ -1,0 +1,66 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "4f57d459695d97ab17044647f698da517948011289fabb282b456de1f4d8956a",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2025-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Node.js permission model fails to enforce network restrictions for Unix Domain Socket (UDS) connections. With --permission enabled and without --allow-n…",
+      "title": "Permission model bypass via unchecked Unix Domain Socket connections (CVE-2026-21636)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "595fe18659aab9d7c624616cf98a9ae4e6376c009ed8b1ce197a79d83c89227b",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2025-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The multiSession plugin's /sign-out after-hook (packages/better-auth/src/plugins/multi-session/index.ts) blindly trusts every cookie whose name matches…",
+      "title": "Multi-session sign-out hook allows forged cookies to revoke arbitrary sessions"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "66dba196d2fb91f9ac26f930d7c385a704becb7cb186393d9cdc99b85be926e0",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2025-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "getDatabaseQueuesMetrics builds SQL statements with queueName interpolated directly into table identifiers and literals. The queueName value originates…",
+      "title": "SQL Injection via queueName in getDatabaseQueuesMetrics"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "d6dde0c531dc55798a51cfaebb3fa42b0e865701eae9a07f37971d8bad5ad8f0",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2025-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The helper endpoint responsible for updating user email addresses performs a sensitive account mutation without performing any authentication or authori…",
+      "title": "0-click Account Takeover and Admin Operations via helper endpoint authorization bypass"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "dc23537f9a33c585db11551a8d119c25b21151f7db9069be154979bc37c1e09a",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2025-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "FastMCP.customroute() allows developers to mount arbitrary HTTP handlers intended for sensitive use cases such as OAuth callbacks or admin APIs, but it…",
+      "title": "Authentication bypass on FastMCP custom routes"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "de5990798745fe7603c8857f3782fe295ee315f2ab25b4817c8f5fad924a79d7",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2025-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Bun.YAML.parse materialises YAML mappings by iterating every merge (<<) entry and blindly appending the referenced property list to the target object (s…",
+      "title": "Exponential merge keys in Bun&apos;s YAML implementation leads to DoS"
+    }
+  ],
+  "company_key": "yc-winfunc",
+  "month": "2025-01"
+}

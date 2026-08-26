@@ -1,0 +1,126 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "01858f0347a525bbeb6ea8ab2b07e811c26107813ec241f063ea20ddf0e9fc85",
+      "first_seen_at": "2026-08-13T22:41:52.669817+00:00",
+      "published_at": "2026-08-13T22:13:09+00:00",
+      "source_kind": "rss",
+      "summary": "We pointed Cascade, Escape's AI pentesting engine, at a production AI agent that a large organization runs internally. The agent had a guardrail built to catch prompt injection. Cascade got past it on the second try. The trick wasn't a smarter payload, just a different pretext, and the agent handed",
+      "title": "AI vs AI: How Cascade exploited an AI agent in production"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "039bc764d1cd4b54dd647db8d8eade3a2cd733bee2562662f7a18b286e5d9ecb",
+      "first_seen_at": "2026-08-20T13:07:22.537383+00:00",
+      "published_at": "2026-08-20T11:05:29+00:00",
+      "source_kind": "rss",
+      "summary": "After announcing our channel partner program last month, we are excited to now be working with eleven incredible partners, with more soon to join us! Escape's Channel Partner Program is built on a simple principle: a two-way relationship centered on the shared goal of helping security teams do more with",
+      "title": "Introducing Escape's Channel Partners"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "2c4474ac91f03260141e041d0e2e1083fd10669af3fcb0f3ada97f5bdacd1aa0",
+      "first_seen_at": "2026-08-26T12:15:31.421078+00:00",
+      "published_at": "2026-08-26T10:43:50+00:00",
+      "source_kind": "rss",
+      "summary": "LLM security testing for pentesters: map attacks to the OWASP LLM Top 10, break a vulnerable MCP server locally, and turn what you find into regression tests. Including solutions for enterprise scale.",
+      "title": "LLM security testing: how to pentest LLMs and MCP servers"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "3b5c09f92248b51da811bd3335803c40ecdef95240e04d6226be8e223554e40c",
+      "first_seen_at": "2026-08-21T09:24:52.041117+00:00",
+      "published_at": "2026-08-21T09:00:21+00:00",
+      "source_kind": "rss",
+      "summary": "Weeks apart, at two unrelated companies, Escape's AI pentesting agent found the same stored XSS. Both had shipped a customer-facing chat where the model emits Markdown and the frontend renders it with raw HTML enabled and no sanitizer, so anything the model can be made to say executes in the",
+      "title": "Escape found the same XSS in two AI chatboxes. The vulnerability was in the Markdown renderer."
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "9e8e5e4ab499c816c2adb83200a5b8aedd7793d950780f288eb1969b6ca6054c",
+      "first_seen_at": "2026-08-03T11:56:12.312504+00:00",
+      "published_at": "2026-08-03T11:24:22+00:00",
+      "source_kind": "rss",
+      "summary": "We've been approved for OpenAI's Trusted Access for Cyber preview. For years we've been building toward one idea: offensive security that runs continuously inside engineering, instead of arriving twice a year as a PDF nobody reads past the executive summary. Business-logic DAST first, then application-layer attack surface management, then Cascade,",
+      "title": "Escape joins OpenAI’s Trusted Access for Cyber (TAC) to advance AI-powered offensive security"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "9eafbafa2025339dcc3b509765e425813387d9cc0b0f7b275acbd5faa9aab2f8",
+      "first_seen_at": "2026-08-20T16:36:11.272970+00:00",
+      "published_at": "2026-08-20T14:12:46+00:00",
+      "source_kind": "rss",
+      "summary": "Escape is the best Horizon3.ai alternative for continuous AI pentesting across APIs, web apps, and complex authentication, including regression testing, developer-ready remediation, and platform pricing suited for rapidly scaling orgs.",
+      "title": "Horizon3.ai alternatives in 2026: Escape vs NodeZero and 4 more tools"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "b3c1c4134f77899f777bb0a2cbc89568ed093c3a6a826668b06c7d05afee74cd",
+      "first_seen_at": "2026-08-12T08:14:56.750616+00:00",
+      "published_at": "2026-08-06T07:39:00+00:00",
+      "source_kind": "rss",
+      "summary": "Penetration testing as a service made pentests easier to buy, but not continuous. See what PTaaS fixed and how to close your coverage gap.",
+      "title": "Penetration testing as a service (PTaaS), explained"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "b47c15f1a179d60e34258434e51bcf8d7fbd57642b29314c9dc185465ab294b2",
+      "first_seen_at": "2026-08-19T12:45:24.567373+00:00",
+      "published_at": "2026-08-19T10:27:42+00:00",
+      "source_kind": "rss",
+      "summary": "Compare the best Pentera alternatives in 2026 for network validation, application-layer pentesting, and BAS. Honest strengths, limits, and fit.",
+      "title": "Pentera Alternatives for Continuous Pentesting: 7 Competitors Compared In-Depth"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "c7444e67131b1010318115ac15a3272976f1984dcef39f35a7183523ef76bd1c",
+      "first_seen_at": "2026-08-12T08:14:56.750616+00:00",
+      "published_at": "2026-08-12T07:38:36+00:00",
+      "source_kind": "rss",
+      "summary": "Continuous penetration testing means testing once deeply, then re-running that depth on every build. See why annual pentests miss AI attackers.",
+      "title": "Continuous penetration testing: what it means when the testing never stops"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "d3ed32a69842ef2eeca9963d683b771c86b93f1238a615c44bc423757fd9fd65",
+      "first_seen_at": "2026-08-19T14:34:09.901817+00:00",
+      "published_at": "2026-08-19T14:12:03+00:00",
+      "source_kind": "rss",
+      "summary": "Escape vs Pentera compared. Both prove what is exploitable. They differ on where they look. See the distinction in a technical demo.",
+      "title": "Escape vs Pentera: how each one proves exploitability (2026)"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "da00a142c9a1dbc47abee9991e44f1bc3568325ebb3cf6b335e6866835990377",
+      "first_seen_at": "2026-08-12T10:25:43.379118+00:00",
+      "published_at": "2026-08-12T09:02:29+00:00",
+      "source_kind": "rss",
+      "summary": "Authenticated vulnerability scanning breaks on OAuth, MFA, and CAPTCHA. See how to hold a real session and test the surface behind your login.",
+      "title": "Authenticated scanning behind OAuth, MFA, and CAPTCHA"
+    },
+    {
+      "company_key": "yc-escape",
+      "company_name": "Escape",
+      "doc_id": "f4eb585025620b90156eb9be01ce36cc4c960ad31310e4f19b4bb13fcce9e6c3",
+      "first_seen_at": "2026-08-04T14:07:07.847578+00:00",
+      "published_at": "2026-08-04T12:41:28+00:00",
+      "source_kind": "rss",
+      "summary": "Good news doesn't arrive alone. This month we joined not one frontier AI program but two! Yesterday we shared that Escape joined OpenAI's Trusted Access for Cyber. Today we're a verified member of Anthropic's Cyber Verification Program. Both programs solve the same problem. The most useful security research is dual-use",
+      "title": "Escape joins Anthropic’s Cyber Verification Program to advance AI-powered offensive security"
+    }
+  ],
+  "company_key": "yc-escape",
+  "month": "2026-08"
+}

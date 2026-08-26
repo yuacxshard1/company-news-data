@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e4dd6156d27eb332765249264fa472776e5b2c93b425f99efb76be00bc85a53d",
+  "company_key": "yc-butter",
+  "company_name": "Butter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.butter.dev/changelog-0008",
+  "canonical_url": "https://blog.butter.dev/changelog-0008",
+  "title": "Changelog #0008",
+  "summary": "Butter changelog: Thanksgiving recipes at cookwithbutter.com, data engine upgrades, automatic template induction.",
+  "body_markdown": "Welcome to Butter’s eighth changelog! Just like grandma on Thanksgiving morning, we’ve spent a whole lot of time cooking.\n\n\nStarting with:\n\n\n## Gramma’s Recipe Book\n\n\nAs a Thanksgiving treat, we launched[cookwithbutter.com](https://cookwithbutter.com/) , which uses Butter’s LLM response caching to help generate, and cache, popular holiday cooking recipes.\n\n\nLook up popular pre-computed recipes, or try your own! Gramma wants all your favorite recipes, from standard[stuffing](https://cookwithbutter.com/?input=stuffing) to creative[butter, covered in butter, with a butter garnish](http://cookwithbutter.com/?input=butter%2C%20covered%20in%20butter%2C%20with%20a%20butter%20garnish) .\n\n\nThe remainder of our time has been focused on internal tech improvements, which are still in-progress so we’ll only briefly highlight them below:\n\n\n## Data Engine Rewrite\n\n\nPart necessity and part premature optimization, we’ve been rewriting our data backend to structure the cache tree in a much more efficient, S3-centric way.\n\n\nThis project, once completed, will include:\n\n\n-\n\n\nAs low as 0 round trips to S3 for serving hot-path responses.\n\n\n-\n\n\nTruly stateless servers able to horizontally replicate and achieve high availability.\n\n\n-\n\n\nThe ability to say we “rewrote in Rust” (meme).\n\n\n## Automatic Template Induction\n\n\nThe goal of[template-aware caching](https://blog.butter.dev/template-aware-caching) is to expand the generalizability of cache entries by converting literal text messages into a more powerful composition of templates and dynamic variables.\n\n\nCurrently, this is a manual process, where users must explicitly flag their dynamic content in the[butter-bindings](https://docs.butter.dev/concepts/bindings) request headers in order for those variables to be stripped into template placeholders. Powerful, but cumbersome, especially when agent intent isn’t known in at the time of programming.\n\n\nOur goal is to make the process automatic, using hints such as attention values to map out which parts of the context window are noise (ignored), which are dynamic (templated), and which are structural (cached).\n\n\nTwo days ago, thanks to hard work from teammate Raymond, we’ve got our first proof-of-concept working end to end:\n\n\nThat’s it for this week! We’re excited to get this above work out in a more public form so you can see the magic of it.\n\n\nUntil then, keep on cooking!",
+  "published_at": "2025-12-06T00:21:48+00:00",
+  "first_seen_at": "2026-07-24T22:18:01.434032+00:00",
+  "content_hash": "sha256:f304af677b639071953523d5027cbdd98278357d0bf41313433f8c61cf57ee30"
+}

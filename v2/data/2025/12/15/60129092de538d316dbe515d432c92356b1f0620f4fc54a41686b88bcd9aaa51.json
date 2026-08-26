@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "60129092de538d316dbe515d432c92356b1f0620f4fc54a41686b88bcd9aaa51",
+  "company_key": "yc-icepanel",
+  "company_name": "IcePanel",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://icepanel.io/blog/new-releases-nested-groups-connection-via",
+  "canonical_url": "https://icepanel.io/blog/new-releases-nested-groups-connection-via",
+  "title": "New — Nested Groups, Connection via, Duplicate objects, and more",
+  "summary": "Cool updates before the holidays.",
+  "body_markdown": "We shipped some exciting new updates before we wrap up the year. Over the past month, our team tackled highly requested features, improved core actions, and fixed many paper cuts. Our fingers need a bit of a rest. With your support, we made significant strides in 2025 to make IcePanel the best tool for software architecture.\n\n\nHappy holidays, and see you in 2026! ☃️\n\n\n## What’s new? ✨\n\n\n### Nested Groups 🪺\n\n\nCreate accurate deployment diagrams with nested Groups. Groups can now be nested 5 levels deep by changing the parent to another Group.\n\n\nWe also made a few other changes, including:\n\n\n- Automatically adding the Group to the diagram when it’s created in a diagram.\n- A new` Contains` field that shows objects 1 level below.\n- Group nesting structure in the Model Objects list.\n\n\n### Connection Via 🔀\n\n\nWe recommend modelling event-based flows by adding a technology on top of a connection, rather than using an object, to avoid the ‘hub-and-spoke’ design. We built on this practice with a new` Via` property on connections.\n\n\nCreate an object (for the topic or queue) and add it to the` Via` field on a connection. To get a global view of objects going in/out of the via object, select the object as the focus in the Dependencies view.\n\n\nYou can also filter by` Via` property in the Model Objects list and the Dependency view\n\n\n### Right-click menu > Duplicate objects 🧱\n\n\nYou can now right-click in several areas of the app, such as diagrams and list views. The right-click menu gives several quick actions depending on the context.\n\n\nLooking to create multiple variants or instances of the same object? Right-click the object, select ‘Duplicate object’, and give it a new name.\n\n\n### Simplified org and landscape nav 👥\n\n\nWe simplified the organization and landscape dropdown, while still providing easy access for switching landscapes or organizations.\n\n\n### Audit logs 📄\n\n\nScale customers now have access to audit logs. Find it in the Settings > Audit logs tab.\n\n\n## Share your thoughts 💭\n\n\nWe’re excited to put all these updates in your hands. Drop us an email if you have any feedback to share —mail@icepanel.io 📩\n\n\nHappy holidays & stay chill,\n\n\nThe IcePanel team 🧊",
+  "published_at": "2025-12-15T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T20:20:40.415620+00:00",
+  "content_hash": "sha256:357d6060ac71d3823d72913ddee56ad0fea240ee164bac684a21c0d64fa270f6"
+}

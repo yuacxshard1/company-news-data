@@ -1,0 +1,86 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "09bb7008fd6eef0877efa385e5b9f691ae56da0373a9a2b4c31f8a0331fd9101",
+      "first_seen_at": "2026-08-04T08:19:50.039352+00:00",
+      "published_at": "2026-08-04T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "v1.97 adds cost and usage benchmarks for the auto router, gives the LLM classifier a window of prior turns, and turns session affinity off by default. Across 5,600 live classifier calls, prior turns raised tier agreement on referential follow-ups from 14% to 78% at under a tenth of a cent per request, with no measurable latency change.",
+      "title": "Auto Router v1.97: usage benchmarks and better quality for lower cost"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "276277cc5225bd81481f710a6a8ae332bddf7d66c7bdcfb8c26d9927b5ebf2e2",
+      "first_seen_at": "2026-08-10T01:27:05.590590+00:00",
+      "published_at": "2026-08-08T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "On a 21 task subset of Terminal-Bench 2.0, an auto router matched Claude Opus-5 solve rate at 27% lower cost. Adding the last 3 user messages as classifier context raised relative quality 14% but cost 44% more; adding assistant replies made both worse.",
+      "title": "Auto Router: Opus level quality at up to 27% lower cost"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "3d39846e342a093cd9c3e90cc57af497b31aff6d35d35be117f0e4b92814dd50",
+      "first_seen_at": "2026-08-14T04:30:08.362666+00:00",
+      "published_at": "2026-08-13T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "day 0 support for Gemini 3.7 Flash on LiteLLM, with launch pricing tracked across Google AI Studio and Vertex AI.",
+      "title": "Day 0 support: Gemini 3.7 Flash"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "5faec41163d025a6e472812290e029a9c7b0ce9b699857c6dab2b35b41027932",
+      "first_seen_at": "2026-08-22T06:50:07.852118+00:00",
+      "published_at": "2026-08-18T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Shadow evaluations duplicate a sampled slice of one key's live traffic through an auto-router and have an LLM judge blindly compare the answers. On our own traffic the router matched or beat the current model on 88.1% of judged responses, measured before a single user-facing response changed.",
+      "title": "Shadow Evaluations: Test the Auto-Router on Your Own Production Traffic"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "7423472f1350e9399540bb0769debc586e83e3cbcdd374aeac6f35ab3741c8e4",
+      "first_seen_at": "2026-08-11T06:36:02.242818+00:00",
+      "published_at": "2026-08-10T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Join the LiteLLM August townhall on Thursday, 20 August at 7:30 AM PT to learn about LiteLLM's product updates and roadmap.",
+      "title": "August Townhall: Product + Roadmap Updates"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "cbaafb61f42f604ac1a2f820d644427c290e2510053223319f5d3e7ba64146fe",
+      "first_seen_at": "2026-08-12T09:20:53.877456+00:00",
+      "published_at": "2026-08-10T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A LiteLLM customer rolled the Auto Router out to 450+ users in production and shared four months of numbers: 272,876 requests, 7.08 billion tokens, and $12,249 saved against an all-flagship baseline.",
+      "title": "51% Cost Savings Reported From a Live Production Deployment"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "e582aa14e13e3da4f094ecbcc3997c447977fa6ecbb798150375fa36c4d95727",
+      "first_seen_at": "2026-08-05T11:09:10.905734+00:00",
+      "published_at": "2026-08-05T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Six changes to the Auto-Router: 1-click Anthropic and OpenAI presets, a one-line agent setup skill, Test Routing in the UI, a replaceable classifier prompt, customizable tiers, and configurable reminder markers.",
+      "title": "AutoRouter: 1 Click Deploy"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "f2bdfd3c3799c3cd7ef9778bd22c75e1ef11a5e2bb042be45af92e420acdc161",
+      "first_seen_at": "2026-08-06T15:02:31.954227+00:00",
+      "published_at": "2026-08-06T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A new Auto-Router Usage tab in Cost Optimization, per-request classifier cost reporting, preset matching against your own deployments, and two routing fixes.",
+      "title": "AutoRouter: Easy Visibility to Your Savings"
+    }
+  ],
+  "company_key": "yc-litellm",
+  "month": "2026-08"
+}

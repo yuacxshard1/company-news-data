@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9a1df30976acbbc90beefb96f3fd1c341ae97a598f1765ac569c38ea3f523c18",
+  "company_key": "yc-prohostai",
+  "company_name": "ProhostAI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.prohost.ai/blog/ai-maintenance-ticketing",
+  "canonical_url": "https://www.prohost.ai/blog/ai-maintenance-ticketing",
+  "title": "Automatically turn guest messages into actions with AI Tasks",
+  "summary": "An AI-powered system that transforms guest maintenance messages into automated, actionable tasks with rapid resolution.",
+  "body_markdown": "## The maintenance blind spot\n\n\n**ProhostAI turns guest messages and reviews into maintenance tickets automatically. Its AI spots issues like leaks, broken appliances, or bad smells, creates a task, and routes it to the right person — so small problems get fixed before they become bad reviews, without a host or VA manually tagging every message.**\n\n\nA dripping faucet costs pennies to fix but can spiral into a scathing review and a $150 credit. Most hosts rely on manual tagging or human VAs—that's brittle at scale.\n\n\n## How AI Tasks automates the boring bits\n\n\n1. **Intent classifier** spots maintenance verbs (\"leak,\" \"broken,\" \"smells\").\n2. **Entity extractor** pulls location (bathroom sink), urgency (via sentiment), and attachments (guest photo).\n3. **Ticket generator** pre-populates due date, assignee, and parts needed.\n4. **Auto assignment rules** automatically notify the relevant team member to resolve the tasks\n\n\nCohort study across 220 units: *mean time-to-repair* dropped from 52 h → **14 h** .\n\n\n## Workflow example\n\n\nGuest text: \"The balcony light's out—makes it hard to enjoy the sunset.\"\nAI created task:\n\n\n```text\naction: create_ticket\nproperty: #302 Marina View\ndescription: Replace balcony bulb\npriority: medium\nassignee: Maintenance‑Mike\n\n\n```\n\n\n## Pro tips\n\n\n- **Bulk rules** : auto-assign any \"plumbing\" tasks to your favorite handyman.\n- **Budget caps & other custom rules** : set specific guidelines for AI to follow when creating and routing tasks",
+  "published_at": "2025-06-30T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:54.827263+00:00",
+  "content_hash": "sha256:88deca7c2e2b714f54e44573d3e8ebe0beb4e0a5182f4922e9a7f0065b72f2e5"
+}

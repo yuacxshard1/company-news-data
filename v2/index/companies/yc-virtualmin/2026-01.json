@@ -1,0 +1,86 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "23464c7d57cd5b816d309f51e3d3a6b119fbdf9e2239015156e87640c756311b",
+      "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+      "published_at": "2026-01-26T11:43:17+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy all, We’ve rolled out WP Workbench 2.0.9 plugin for all Virtualmin Pro users. Changes since 2.0.8: Add error handling for a corrupt cache data file Fix not to trigger the add and delete domain API unless the script is supported Changes since 2.0.7: Fix to add config option to open links in the new tab",
+      "title": "WP Workbench version 2.0.9 released"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "4356e8973f8b6d97cdac7ea692a1b9164adbe93e799745bf27fcb22b83e583e3",
+      "first_seen_at": "2026-07-24T06:20:14.494022+00:00",
+      "published_at": "2026-01-21T18:41:04+00:00",
+      "source_kind": "atom",
+      "summary": "",
+      "title": "8.0.0"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "4529a6e769d7a95bfa5ce737adbaa0fad0f25ba0ffca11a994f15c9562ba6aff",
+      "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+      "published_at": "2026-01-10T20:35:09+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy all, Now that we’ve migrated to Route 53 (see other thread for that), Ilia is enabling Cloudfront on our website and new software repositories (all but forum and old software.virtualmin.com). This might break www.virtualmin.com and the new download.virtualmin.com websites. If it breaks, we probably already know about it, and are working on a fix. But, I figured I’d post about it, just in case. Cheers, Joe",
+      "title": "Our Websites Might Get Weird"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "5a22652642e6f48945dc0a53aa71b667c443f96e1229777dbe90ed0a0f8a0ca4",
+      "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+      "published_at": "2026-01-26T07:41:52+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy all, We’ve rolled out version 8 of the Virtualmin installer, along with several other updates to support the new version of the Virtualmin virtual-server 8.0.0 module. A few of the big new features that have been introduced since the 7.0 release back in July of 2022. Changes in Pro WP Workbench, a plugin for centralized management and automation of many WordPress installations Major cloud provider enhancements and additions for managing DNS and backups in the cloud, including several ...",
+      "title": "Virtualmin 8 released"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "869d77708d41ba342dad96e7bdad5249b94defe8e4109116e2aed9a763c8cee9",
+      "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+      "published_at": "2026-01-25T08:44:43+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy all, We’ve rolled out Virtualmin virtual-server module 8.0.0 for all repos. Note this is not the Virtualmin 8 installer, which will be rolled out in a few hours. The Virtualmin virtual-server module does not add support for any new distros to the current stable Virtualmin 7 installer, so the supported OS list has not changed and won’t change until the new installer is pushed. Changes since 7.50.1: Add support for systemd resource limits for Virtualmin Pro users Add support for SFTP ba...",
+      "title": "Virtualmin virtual-server module 8.0.0 released"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "b23ca03c3d62a8aa32112edda6233c4d10c28e5e66e71ee699acb06da9264002",
+      "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+      "published_at": "2026-01-26T11:48:14+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy all, We’ve rolled out Webmin 2.620 and Usermin 2.520 to all Virtualmin repos. Changes since 2.610 and 2.510: Add ability to use correct driver depending on the database in MySQL/MariaDB module Add improvements to BIND DNS module for better key management Add support for Ubuntu 26.04 development preview Add a config option to increase the RPC timeout Add support for EC SSL certificate and key in the ProFTPd module Add support for using gpart in FreeBSD disk management module Add support...",
+      "title": "Webmin 2.620 and Usermin 2.520 released"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "b8a1b33d653e74b6ab3b1e85524bc229bcf3f0316c670a555184aa47eeb2c606",
+      "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+      "published_at": "2026-01-27T17:08:23+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy all, We’ve rolled out Webmin 2.621 and Usermin 2.521 to all Virtualmin repos. Changes since 2.620 and 2.520: Fix to prevent NAT from dropping idle RPC sessions during long transfers Fix to improve the message when socket authentication is used in the MySQL/MariaDB module Fix to make upload tracking work correctly in all situations and on all systems Fix to correctly display the PHP version in the PHP Configuration module when managing packages Update Xterm.js to the latest version with...",
+      "title": "Webmin 2.621 and Usermin 2.521 released"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "d12573baa5e75dc4428b76a5550578334822fe5da88851c9b3f6012d695d66b4",
+      "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+      "published_at": "2026-01-10T20:17:25+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy all, Just a heads up. Ilia and I are messing around with DNS today, migrating to Route 53. Theoretically, we’re experts and we know what we’re doing, but realistically, we may have missed something and something will break. So, if anything goes offline, it’s DNS and we’ll probably fix it quickly. Since we’re migrating all zones to Route 53, all services have the potential to break. I doubt any of the obvious things will go wrong, but we might have to fight with email-related records. If...",
+      "title": "We're messing with DNS, something might break"
+    }
+  ],
+  "company_key": "yc-virtualmin",
+  "month": "2026-01"
+}

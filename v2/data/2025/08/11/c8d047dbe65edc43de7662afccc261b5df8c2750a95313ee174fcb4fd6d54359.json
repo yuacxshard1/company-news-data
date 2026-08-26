@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c8d047dbe65edc43de7662afccc261b5df8c2750a95313ee174fcb4fd6d54359",
+  "company_key": "yc-sync-2",
+  "company_name": "sync.",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://sync.so/blog/lipsync-at-scale-introducing-the-batch-api",
+  "canonical_url": "https://sync.so/blog/lipsync-at-scale-introducing-the-batch-api",
+  "title": "Lipsync at Scale: Introducing the Batch API",
+  "summary": "Run up to 500 AI lipsync generations in a single request. Built for video localization, multilingual campaigns, and any workflow that needs lip sync at scale.",
+  "body_markdown": "Today the sync. labs team is excited to announce the launch of our batch processing API endpoint. You can now run multiple AI lipsync generations in parallel, up to 500 lip sync jobs in a single request using a simple JSONL file.\n\n\nTeams trying to lip sync at scale have long struggled with this exact problem: efficiently syncing and testing hundreds of videos at once without standing up custom orchestration. With the new batch lipsync API, personalized video campaigns,[content localization](https://sync.so/blog/video-localization/) , multilingual marketing, AI dubbing pipelines, and any other workflow that needs lip sync at high volume can now be processed in one call. A/B test hundreds of video variants at once, or push a single campaign across hundreds of languages with ease.\n\n\nBatch processing works with all of our latest lipsync models, returns per-job status and webhook notifications, and is built for production-grade throughput, so you can move from prototype to scale without rewriting your pipeline.\n\n\nLearn more about this new capability and how to call it in our[batch processing API docs](https://sync.so/docs/api-reference/guides/batch-processing) .",
+  "published_at": "2025-08-11T17:54:14+00:00",
+  "first_seen_at": "2026-07-22T15:25:00.668099+00:00",
+  "content_hash": "sha256:d193be86022a8080559e4293ac9ae0cae7e762737dda5a3a8be04a16f0ae83ff"
+}

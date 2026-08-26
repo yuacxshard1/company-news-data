@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5c393ca14404ea98e666b650909bc6068a079e3168b485205f84fc57e9135c4f",
+  "company_key": "yc-asayer",
+  "company_name": "OpenReplay",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.openreplay.com/t/popup-child-window-not-recorded-in-openreplay-v16/556#post_1",
+  "canonical_url": "https://forum.openreplay.com/t/popup-child-window-not-recorded-in-openreplay-v16/556",
+  "title": "Popup (Child Window) Not Recorded in OpenReplay v16",
+  "summary": "Is popup window recording supported in OpenReplay v16 integrated in react? Summary: OpenReplay is not recording activity in a child window (popup). Only the parent window is captured. Current Behavior: Parent window is recorded when start() is called. Popup window is not recorded at all. Reason / Analysis: start(true) is executed in the parent window context, so tracking restarts only in the parent, not the popup. The popup runs in a separate JavaScript context and does not ini...",
+  "body_markdown": "[akhileshulhe](https://forum.openreplay.com/u/akhileshulhe)\n\n\nJanuary 15, 2026, 11:48am 1\n\n\nIs popup window recording supported in OpenReplay v16 integrated in react?\nSummary:\nOpenReplay is not recording activity in a child window (popup). Only the parent window is captured.\n\n\nCurrent Behavior:\n\n\n-\n\n\nParent window is recorded when` start()` is called.\n\n\n-\n\n\nPopup window is not recorded at all.\n\n\nReason / Analysis:\n\n\n-\n\n\n` start(true)` is executed in the parent window context, so tracking restarts only in the parent, not the popup.\n\n\n-\n\n\nThe popup runs in a separate JavaScript context and does not initialize its own OpenReplay tracker instance.\n\n\n-\n\n\nAttempting to initialize OpenReplay in the popup results in a “one tracker instance has been initialized already” error, suggesting a limitation in OpenReplay v16 regarding multiple tracker instances across windows.\n\n\n[mehdi](https://forum.openreplay.com/u/mehdi)\n\n\nJanuary 17, 2026, 12:35am 2\n\n\nDoes the popup contain an iFrame? Also can you share your tracker configuration?\n\n\n[akhileshulhe](https://forum.openreplay.com/u/akhileshulhe)\n\n\nJanuary 20, 2026, 4:48am 3\n\n\nNo, the popup doesn’t contain an iframe. It’s a separate DOM, a child window opened using` window.open` , while the state and overall logic are managed by the parent application.\n\n\n[mehdi](https://forum.openreplay.com/u/mehdi)\n\n\nJanuary 21, 2026, 1:02am 4\n\n\nIs your app publicly accessible so we can try to reproduce it?\n\n\n[akhileshulhe](https://forum.openreplay.com/u/akhileshulhe)\n\n\nJanuary 21, 2026, 5:51am 5\n\n\nUnfortunately, it’s not publicly accessible. it’s internal application\n\n\n[mehdi](https://forum.openreplay.com/u/mehdi)\n\n\nJanuary 21, 2026, 5:02pm 6\n\n\nTheoretically it should show up as a` tab` in the session replay. Did you disable tab tracking in the tracker constructor/options?\n\n\nIf you can join our[Slack](https://slack.openreplay.com/) , this way it’s quicker to chat and resolve the issue.",
+  "published_at": "2026-01-15T11:48:45+00:00",
+  "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+  "content_hash": "sha256:d2e68766dfe3cbd8d3d87dd61e6006ab46df329ea8e062063793f0d0878f18a0"
+}

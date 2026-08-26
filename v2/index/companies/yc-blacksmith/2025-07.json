@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-blacksmith",
+      "company_name": "Blacksmith",
+      "doc_id": "0b3e7429cf5f66479246acbc451d7b8b95b56860c8e61808d7f744684e21ffe3",
+      "first_seen_at": "2026-07-23T03:46:48.319296+00:00",
+      "published_at": "2025-07-02T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "When it comes to observability in CI, logs are still the main tool in a developer’s toolbox. Yet, the experience still sucks in GitHub Actions — until now.",
+      "title": "How we built a logging platform for GitHub Actions with ClickHouse"
+    },
+    {
+      "company_key": "yc-blacksmith",
+      "company_name": "Blacksmith",
+      "doc_id": "d56cc6b3db568553e6a606a91442d945097b776c90e9e9233c4c70ca37d68298",
+      "first_seen_at": "2026-07-23T03:46:48.319296+00:00",
+      "published_at": "2025-07-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We reverse engineered GitHub Actions cache internals to transparently route cache requests through our faster, colocated cache. This delivered up to 10x faster cache performance for some of our customers, with no code changes required and no need to maintain forks of upstream actions.",
+      "title": "Reverse engineering GitHub Actions cache to make it fast"
+    }
+  ],
+  "company_key": "yc-blacksmith",
+  "month": "2025-07"
+}

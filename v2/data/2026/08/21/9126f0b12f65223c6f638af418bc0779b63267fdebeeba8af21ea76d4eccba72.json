@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9126f0b12f65223c6f638af418bc0779b63267fdebeeba8af21ea76d4eccba72",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
+  "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+  "summary": "Discover more about what's new at AWS with AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+  "body_markdown": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades runtime to Apache Spark 4.1, Python 3.13, and Scala 2.13.\n\n\nWith Apache Iceberg v3, AWS Glue 6.0 adds the VARIANT data type with automatic shredding for faster reads on semi-structured data, deletion vectors for high-performance row-level updates, geometry and geography data types for spatial processing, and flexible schema evolution through UNKNOWN data type and DEFAULT column values. Glue 6.0 also introduces features that boost developer productivity and performance, such as Spark Declarative Pipelines that eliminate repetitive orchestration code, Real-Time Mode streaming for sub-second latencies, and Arrow-native Python UDFs for improved PySpark performance. These capabilities help you implement large-scale ETL, recurring batch workloads, streaming analytics, and AI application development using AWS Glue.\n\n\nAWS Glue 6.0 is available in all AWS Commercial, AWS GovCloud (US), and AWS China regions.\n\n\nTo get started, select Glue 6.0 from the version dropdown in the AWS Glue console or SageMaker Unified Studio when creating a new job, or migrate existing jobs using the[Spark Upgrade Agent](https://docs.aws.amazon.com/glue/latest/dg/upgrade-analysis.html) . To learn more, visit the[AWS Glue documentation](https://docs.aws.amazon.com/glue/latest/dg/migrating-version-60.html) and[AWS Glue pricing](https://aws.amazon.com/glue/pricing/) .",
+  "published_at": "2026-08-21T16:42:00+00:00",
+  "first_seen_at": "2026-08-21T21:39:22.919739+00:00",
+  "content_hash": "sha256:392095148de819a350b0d9f4cc982f8d950b1f8f023db43b309fc2af7318d0dd"
+}

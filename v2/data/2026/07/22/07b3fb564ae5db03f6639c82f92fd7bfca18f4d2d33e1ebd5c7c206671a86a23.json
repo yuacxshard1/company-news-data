@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "07b3fb564ae5db03f6639c82f92fd7bfca18f4d2d33e1ebd5c7c206671a86a23",
+  "company_key": "yc-seam",
+  "company_name": "Seam",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.seam.co/blog/hello-c-sdk",
+  "canonical_url": "https://www.seam.co/blog/hello-c-sdk",
+  "title": "Hello C# SDK!",
+  "summary": "Developers, developers, developers! Today we are releasing a beta version of our official C# SDK!",
+  "body_markdown": "Today we are releasing a beta version of our official C# SDK! You can find[official packages here](https://www.nuget.org/packages/Seam) .\n\n\n## Why Release SDKs?\n\n\nAt Seam, we spend countless hours designing the best possible developer experience for interacting with IoT devices. Importantly, we think being able to control devices directly in your language of choice by providing language-specific SDKs is better than using the HTTP API directly (although you still can!). We craft these SDKs to give you object & types, error handling, and casing/styling that matches your preferred language.\n\n\n## Rolling out C#\n\n\nWhen we launched our API in 2022, we initially only released Javascript and Python SDKs. Soon after, we introduced PHP and Ruby as more developers began asking for these languages.\n\n\nToday, we are releasing a beta of our C# SDK. This SDK comes with all the functions exposed by the Seam API and lets you control devices more effortlessly. For example, you can retrieve your devices with the following function call.\n\n\n```text\n1  using     Seam  .  Client  ;\n2\n3   var   seam   =     new     SeamClient  (  apiToken  :     \"YOUR_API_KEY\"  )  ;\n4\n5   var   myDevices   =   seam  .  Devices  .  List  (  )  ;\n6\n7  Console  .  WriteLine  (  \"First Device Name: \"     +   myDevices  [  0  ]  .  Properties  .  Name  )  ;\n8\n9   var   accessCode   =   seam  .  AccessCodes  .  Create  (  deviceId  :   myDevices  [  0  ]  .  DeviceId  ,     code  :     \"1234\"  )  ;\n```\n\n\nThis SDK is still in early beta and we expect to be moving rapidly toward a stable release in the near future. If you find bugs, inconsistencies, or issues, please let us know by emailingsupport@getseam.com .",
+  "published_at": null,
+  "first_seen_at": "2026-07-22T12:56:26.420023+00:00",
+  "content_hash": "sha256:10533cf6e6da7483f40ec78e386873fc1e7bc43fd0f8f369b411354d91ee8f40"
+}

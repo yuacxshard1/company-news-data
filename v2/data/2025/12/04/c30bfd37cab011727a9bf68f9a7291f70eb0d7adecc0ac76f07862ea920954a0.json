@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c30bfd37cab011727a9bf68f9a7291f70eb0d7adecc0ac76f07862ea920954a0",
+  "company_key": "yc-sid",
+  "company_name": "SID",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sid.ai/research/sid-1",
+  "canonical_url": "https://www.sid.ai/research/sid-1",
+  "title": "Introducing SID-1",
+  "summary": "SID-1 is our first model trained specifically for agentic retrieval. It outperforms embedding-only search and frontier models including GPT-5.1 and Gemini 3 Pro on recall across general knowledge, finance, science, legal, and email.",
+  "body_markdown": "# Introducing SID-1\n\n\nSID\n\n\nResearch\n\n\n|\n\n\nDecember 4, 2025\n\n\nSID-1 is our first model for agentic retrieval: 1.9x more likely to surface the right results than embedding-only search across general knowledge, finance, science, legal, and email. It is more accurate than agentic retrieval based on Gemini 3 Pro, Sonnet 4.5, and GPT-5.1 at its highest compute setting, while being 24x faster (144 vs 5.7 seconds).\n\n\nSID-1 (4x)\n\n\n0.84\n\n\n5.5s\n\n\n$0.0014\n\n\nGPT-5.1 (high)\n\n\n0.78\n\n\n131s\n\n\n$0.24\n\n\nSID-1\n\n\n0.77\n\n\n5.5s\n\n\n$0.00062\n\n\nGemini 3 Pro\n\n\n0.66\n\n\n156s\n\n\n$0.12\n\n\nSonnet 4.5\n\n\n0.64\n\n\n35s\n\n\n$0.54\n\n\nReranker @10\n\n\n0.45\n\n\n0.78s\n\n\n$0.00061\n\n\nVector only @10\n\n\n0.44\n\n\n0.15s\n\n\n$0.0000098\n\n\n0.2\n\n\n0.45\n\n\n0.65\n\n\n0.85\n\n\nRetrieval Performance\n\n\nRecall\n\n\n0\n\n\n60\n\n\n120\n\n\n180\n\n\nLatency\n\n\nSeconds per Question\n\n\n0\n\n\n0.2\n\n\n0.4\n\n\n0.6\n\n\nCost\n\n\nUSD per Question\n\n\nTraditional retrieval pipelines pre-program each step: query rewriting, searching, reranking. SID-1 retrieves like a human would: it searches, reads results, and refines its queries, taking as many steps as needed. We trained SID-1 on questions that take human researchers over an hour to solve.\n\n\nSID-1 is drop-in compatible with existing retrieval systems. It is designed to work as a subagent with larger LLMs like GPT-5 or Sonnet. Teams running embedding-only retrieval or RAG can typically integrate it in an afternoon.\n\n\nStep-change improvements in retrieval create new winners. Claude Code was better at finding the right file, unlocking larger code bases and driving massive adoption for Anthropic. Open Evidence made retrieving over medical research easier and took doctors by storm. Looking back further, relational was better than hierarchical for databases, creating Oracle. Better web search created Google. *[We're working closely with a small group of companies who want that edge now for their domains.](https://www.sid.ai/waitlist)*\n\n\nGiven we're compute-limited, we're rolling SID-1 out slowly. We're offering SID-1 through our API, AWS Bedrock, and as a self-hosted model. *If you're interested in SID-1, please sign up to our[waitlist](https://www.sid.ai/waitlist) or read the[technical report](https://www.sid.ai/research/sid-1-technical-report) for more details.*\n\n\nWe thank NVIDIA for their compute support.",
+  "published_at": "2025-12-04T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T23:59:57.623768+00:00",
+  "content_hash": "sha256:5ed1f0b4ce4ce0f9dd0eec2e596dd06e821e212fef2953a91defb2cd4625b4c2"
+}

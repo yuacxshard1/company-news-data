@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "01d34e00ce5440354e6ce6eece80f38ce1edee77140e498b6e132b943a75010c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
+  "title": "Mountpoint for Amazon S3 adds memory usage controls",
+  "summary": "Discover more about what's new at AWS with Mountpoint for Amazon S3 adds memory usage controls",
+  "body_markdown": "Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive applications, for example, in machine learning training or analytics workloads where applications share a memory budget.\n\n\nPreviously, Mountpoint’s memory usage could expand over time based on usage patterns, potentially causing performance or stability issues when competing with other memory-intensive applications. With this launch, you can define a memory target for Mountpoint to reserve memory for your applications. Alternatively, Mountpoint can automatically determine a safe default based on the environment it runs in. For example, when running in Amazon EKS, Mountpoint can automatically detect a container's assigned memory budget. Under memory pressure, Mountpoint slows down operations to stay within this budget, enabling you to run Mountpoint in containers with strict memory allocations.\n\n\nMountpoint is available in all AWS Regions. To upgrade to the latest version, visit the[Mountpoint GitHub repository](https://aws.amazon.com/s3/features/mountpoint/) . To learn more about Mountpoint, see the[overview page](https://github.com/awslabs/mountpoint-s3/blob/main/doc/CONFIGURATION.md) and the[configuration guide](https://github.com/awslabs/mountpoint-s3/blob/main/doc/CONFIGURATION.md) in the Mountpoint GitHub repository.",
+  "published_at": "2026-08-26T18:00:00+00:00",
+  "first_seen_at": "2026-08-26T21:21:40.443703+00:00",
+  "content_hash": "sha256:5eafe73d6832f436e30b2a2b689df97131740168550cbb66e110f80add9ab2ba"
+}

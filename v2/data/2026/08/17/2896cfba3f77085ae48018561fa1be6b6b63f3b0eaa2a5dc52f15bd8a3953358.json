@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2896cfba3f77085ae48018561fa1be6b6b63f3b0eaa2a5dc52f15bd8a3953358",
+  "company_key": "yc-stackai",
+  "company_name": "StackAI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.stackai.com/blog/bernard-aceituno-featured-in-cio.com-your-enterprise-isn-t-ready-for-enterprise-ai",
+  "canonical_url": "https://www.stackai.com/blog/bernard-aceituno-featured-in-cio.com-your-enterprise-isn-t-ready-for-enterprise-ai",
+  "title": "Bernard Aceituno featured in CIO.com: \"Your enterprise isn't ready for enterprise AI\"",
+  "summary": "Bernard Aceituno (StackAI) on CIO.com: why enterprise AI adoption is outpacing governance, and the 8 security layers CIOs need before scaling AI agents.",
+  "body_markdown": "In a new opinion piece for[CIO.com](https://www.cio.com/) , Bernard Aceituno (co-founder of StackAI and former AI research scientist at Meta) argues that the biggest barrier to scaling enterprise AI isn't adoption, but governance and security.\n\n\nAceituno points to a Databricks and Economist survey finding that 40% of respondents believed their organization's AI governance program is insufficient, and cites Microsoft's Data Security Index showing only 47% of organizations report implementing specific GenAI security controls.\n\n\n**The core argument: 8 layers of governance**\n\n\nDrawing on his experience advising CIOs, Aceituno lays out eight governance layers he believes every enterprise needs before scaling AI agents, including:\n\n\n1.\n\n\n**Roles and groups** — granular role-based access control mapped to real departments\n\n\n2.\n\n\n**Scope** — private, invisible folders and allowlists for sensitive agents\n\n\n3.\n\n\n**Change control** — version history, edit locks, and one-click rollback\n\n\n4.\n\n\n**Publication** — SSO, password protection, and origin restrictions before releasing agents company-wide\n\n\n5.\n\n\n**Org-wide policy** — mandatory SSO, approval workflows, and controls on which tools/connectors are allowed\n\n\n6.\n\n\n**Data access** — checking end-user permissions at runtime rather than inheriting broad service-account access\n\n\n7.\n\n\n**Observability** — exportable logs of who ran what, when, and with what data\n\n\n8.\n\n\n**Authentication** — SSO, MFA, and defaulting new users to least-privilege roles\n\n\n**On deployment models**\n\n\nThe piece also walks through four deployment postures (multi-tenant SaaS, dedicated single-tenant, bring-your-own-cloud, and on-premise), outlining the tradeoffs in setup time, control, and maintenance burden for each. Aceituno's take? Most organizations are well served by multi-tenant SaaS, while bring-your-own-cloud or on-prem make sense mainly for organizations with data sovereignty requirements and mature internal platform teams.\n\n\n**The takeaway**\n\n\nAceituno closes with a self-diagnostic for CIOs: pick your three highest-privilege AI agents and see if you can name who owns each one, what changed recently, what data they can reach, and where the logs live. If the answer is \"I'd have to ask around,\" he suggests that's a sign to slow down and do the governance work first. Read the full article[here](https://www.cio.com/article/4209896/your-enterprise-isnt-ready-for-enterprise-ai.html) .",
+  "published_at": "2026-08-17T00:00:00+00:00",
+  "first_seen_at": "2026-08-18T04:31:40.170606+00:00",
+  "content_hash": "sha256:d3cccb250e1b68c7874d3254e9cac504b5e32345eb6079d40878243928cfb89d"
+}

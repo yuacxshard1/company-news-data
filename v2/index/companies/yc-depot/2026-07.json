@@ -1,0 +1,96 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "2309b748e0b2605d50d33adb89692463c8eb87b6ba1c51932ff68dff5aef2494",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-07-20T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Formal verification never seemed worth it: writing a faithful TLA+ spec took too long. But now agents can write the spec from your code. We tried it on the rebuilt Depot Registry garbage collector, and the model checker found something our tests and reviews didn't: a race that could delete live data.",
+      "title": "Improving system safety with Temporal Logic of Actions (TLA+)"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "2f481d98796dfe08a899ec6bad4c73352a8853867017fd79461b69bbf128a730",
+      "first_seen_at": "2026-07-29T13:09:58.343982+00:00",
+      "published_at": "2026-07-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "GitHub isn't just falling short on performance and reliability. The whole collaboration paradigm is the wrong shape for how we build software now.",
+      "title": "GitHub is the wrong shape for this new world"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "4109ce614ae5ef832b59ca3bdffa5ccfab9514df7915fc16e61d51ea9c85716d",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-07-09T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Source control has become the bottleneck at the top of the delivery loop. So we built our own: a diskless git server backed by blob storage that scales horizontally, mirrors your GitHub repos, and plugs straight into Depot CI. It's now in private beta.",
+      "title": "Now available: Depot Code in private beta"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "45f45dfc91382b61f2d20d57c1fafd1b7c995bcc19c9e1810c4f380e4498ee71",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-07-17T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Depot is joining the Stripe Projects developer preview. Developers and their agents can now set up Depot from the terminal: create or link an organization, pick a plan, and get a token back that unlocks fast, reliable software delivery on Depot.",
+      "title": "Depot is now available in Stripe Projects"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "55fdb30ea9cbc9d067247cfce9c808508632b7eb835ac9dbcd5602b67d7793fc",
+      "first_seen_at": "2026-07-29T19:14:15.820819+00:00",
+      "published_at": "2026-07-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Report JUnit from your Depot CI or Depot GitHub Actions jobs to see failures in context. A single command runs your suite and uploads the report. Split suites by historical timing and they'll automatically rebalance over time.",
+      "title": "Now available: Test results in your CI jobs"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "cdc67c17872e1c29de7cdbccb2dfe617c0c50b853daca5ce260a0bda5ff314e2",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-07-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Depot Metal is our next-generation compute and storage platform. Depot CI and Sandboxes are now running on it, with benchmarks showing workloads 30% faster and more optimizations on the way. You don't have to do anything to get it.",
+      "title": "Announcing Depot Metal"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "cf1ad33315749fd32787af36fb3a60b50d962e1c882d4a6b31216ac8f99a4b9b",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A team process without a principle underneath it is a real problem. Here's why the \"why\" is worth protecting as you scale.",
+      "title": "Why your team processes suck"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "ef3ede9b3050f931c12f75d54d814540fce1ee7d56fa34a8e03ba36be8728031",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "To make recurring test failures easier to reason about we needed to include historical context. Here's how we derive a stable identity for each test and a fingerprint for each failure, so you can tell a brand-new problem from the same flaky test you've seen a dozen times.",
+      "title": "Failure fingerprints: Comparing test failures over time"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "fc4510c9d8b8fdc1c0ecbacd63e8fe905b2dca61db2fed7ac6ee8b10e913f8c2",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-07-15T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Keeping our AI assistant working well is a human responsibility at Depot. PostHog's AI engineering features turned our never-ending reviews into 30 minutes a week.",
+      "title": "How we use PostHog to keep our AI assistant on track"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2026-07"
+}

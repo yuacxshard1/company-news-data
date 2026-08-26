@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7a934c582086b37a55ff15444c2437c850facf363c7b42b7ebb004fc7beec5ea",
+  "company_key": "yc-loops",
+  "company_name": "Loops",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://loops.so/changelog/double-opt-in",
+  "canonical_url": "https://loops.so/changelog/double-opt-in",
+  "title": "Double opt-in",
+  "summary": "Double opt-in is now available in Loops, so new subscribers confirm their address before joining your list and your sender reputation stays clean.",
+  "body_markdown": "#### Release: **Double opt-in**\n\n\nGain consent for email sending in a single click with double opt-in. When enabled, new contacts added via a form or form endpoint will be required to confirm their subscription by email before they’re added to your audience.\n\n\nLoops handles the confirmation email, tracking, and audience updates for you, all you have to do is[opt-in](https://app.loops.so/settings?page=sending) .\n\n\nLearn more in the[docs](https://loops.so/docs/contacts/double-opt-in) or enable it in your account today.\n\n\n———\n\n\n#### Release: **Preference center preview**\n\n\nYou can now easily preview the **preference center** based on one or more mailing lists to easily simulate what a contact sees when they’re subscribed to specific lists.\n\n\nLearn more in the[docs](https://loops.so/docs/contacts/mailing-lists#preference-center)\n\n\n———\n\n\n### Improvement: **Reliable contact scaling**\n\n\nWe’ve been focused on making Loops more reliable for larger teams and higher volumes. Under the hood, we’ve made contact updates and related operations more efficient so you can push more data through Loops without slowing down day-to-day work.\n\n\nTogether, these changes make it easier to **scale reliably with Loops** as your team and audience grow to hundreds of millions of contacts and beyond.\n\n\n———\n\n\n### Improvement: **Better preview emails**\n\n\nWhen sending preview emails you now can toggle the **Add preview tag** setting to prepend` \\[PREVIEW\\]` to the subject line.\n\n\nThis makes it easier to identify preview sends vs production messages in your inbox. Turn it off when you want to see the exact live subject line, just like your subscribers will.\n\n\n———\n\n\n### Improvement: **Track dedicated sending IP’s via endpoint**\n\n\nFor teams that care deeply about deliverability and reputation, Loops now exposes your **dedicated sending IP’s** via an API endpoint.\n\n\nThis is the same dedicated IP pool we monitor against providers like Spamhaus. You can use it to integrate deliverability and reputation checks into your own monitoring and alerting.\n\n\nLearn more in the[docs](https://loops.so/docs/api-reference/dedicated-sending-ips) .\n\n\n———\n\n\n### Release: **Custom markdown element**\n\n\nUnder the hood, we now support c **ustom Markdown elements** with special tags like` loops-button` and` loops-columns` that render as full components in the editor.\n\n\nThat means you can paste Markdown that already includes structured elements (CTAs, simple two-column layouts while still getting the benefits of the visual editor, Components, and style controls.\n\n\nLearn more in the[docs](https://loops.so/docs/creating-emails/editor#custom-markdown-tags) .",
+  "published_at": "2025-11-20T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T13:13:35.252230+00:00",
+  "content_hash": "sha256:7df88973f2ea7ed8dbe3dd79541afe3d940145a52fb0adfe310d69d7eed9fd18"
+}

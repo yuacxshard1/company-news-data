@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4b1ddbe5358cf09ede8098c8d865aea54c80719969ca8cbe1954dbe301d70748",
+  "company_key": "yc-morphik",
+  "company_name": "Morphik",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://dev.morphik.ai/blog/gpt-vs-morphik-multimodal",
+  "canonical_url": "https://dev.morphik.ai/blog/gpt-vs-morphik-multimodal",
+  "title": "When Multimodal Models Go Blind",
+  "summary": "A technical exploration of why even natively multimodal LLMs struggle with diagram interpretation in documents",
+  "body_markdown": "## Here's the sequence for o4-mini-high:\n\n\nYou hand o4‑mini‑high a technical patent with an embedded IRR vs Frequency graph and ask:\n\n\n\"At what frequency does IRR peak?\"\n\n\nIt thinks for 30 seconds and instead of just reading the chart, it hits you with:\n\n\n\"Which page is that on?\"\n\n\nCue dramatic facepalm. 🤦\n\n\nEven after I grumbled \"Page 6,\" it pulled out the Python tool use gun (my favorite as well) proclaimed the peak was \"the highest point on the line.\" Technically wrong and hilariously sure of itself.\n\n\n## Here's the sequence for Morphik:\n\n\nWe treat each page like one giant image+text puzzle:\n\n\n1. Snap the whole page as an image (diagrams, tables, doodles included)\n2. Extract text blocks with their exact positions (headings, captions, footnotes)\n3. Blend vision & text embeddings into a multi-vector cocktail 🍹\n4. Retrieve the full region (text+diagram) as a unit—no more orphaned charts\n\n\nResult? The same question returns:\n\n\n\"IRR peaks at 0 MHz.\" Boom. 🎯",
+  "published_at": "2025-03-15T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T04:54:38.041510+00:00",
+  "content_hash": "sha256:55e354341258365a0d9abf3baa03bc80d354021877845d3fb7a747fbae45c6eb"
+}

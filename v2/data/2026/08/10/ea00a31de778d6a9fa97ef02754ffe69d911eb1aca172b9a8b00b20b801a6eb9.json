@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ea00a31de778d6a9fa97ef02754ffe69d911eb1aca172b9a8b00b20b801a6eb9",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-artifact-version-history",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-artifact-version-history",
+  "title": "Version history for AI session artifacts",
+  "summary": "Every revision of an AI session artifact is now saved as a version, labelled with a short note describing what changed. A picker in the artifact viewer header lets you read an earlier version, with a banner marking the view as stale and a button back to the latest. The AI can list and read past versions too, so you can ask it to restore earlier wording instead of rewriting it. History is capped per artifact, and larger documents keep fewer versions.",
+  "body_markdown": "### [Version history for AI session artifacts](https://www.windmill.dev/changelog/ai-artifact-version-history)\n\n\nAI Chat\n\n\nWindmill AI\n\n\n[v1.784.0](https://github.com/windmill-labs/windmill/releases/tag/v1.784.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_sessions#artifacts)\n\n\nEvery revision of an AI session artifact is now saved as a version, labelled with a short note describing what changed. A picker in the artifact viewer header lets you read an earlier version, with a banner marking the view as stale and a button back to the latest. The AI can list and read past versions too, so you can ask it to restore earlier wording instead of rewriting it. History is capped per artifact, and larger documents keep fewer versions.\n\n\n#### New features\n\n\n- Each content change to an artifact is saved as a version with a short change note written by the AI.\n- The artifact viewer header gains a version picker once an artifact has more than one version; viewing a past version shows a stale banner with a \"Back to latest\" button.\n- The AI can list artifact versions and read any of them, so it can restore earlier wording on request rather than rewriting from memory.\n- The artifacts list above the chat input shows an artifact version number once it has been revised.\n- History is bounded per artifact: up to 20 versions, fewer for large documents, so browser storage stays in check.",
+  "published_at": "2026-08-10T00:00:00+00:00",
+  "first_seen_at": "2026-08-14T15:49:25.757524+00:00",
+  "content_hash": "sha256:a7a339b4f5ce4078ff416c161935f7f38641be2780204fbbf525d0d2b848068c"
+}

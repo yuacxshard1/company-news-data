@@ -1,0 +1,45 @@
+{
+  "articles": [
+    {
+      "company_key": "adobe-inc-common-stock",
+      "company_name": "Adobe Inc.",
+      "doc_id": "15c1878f705cd3776fc27779e3dc5e2649bf19457845b891c2cba8976dccb91a",
+      "first_seen_at": "2026-07-20T03:31:41.472965+00:00",
+      "published_at": "2018-03-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Our guest developer post this week is by Davide Barranca, a Photoshop retoucher and developer based in Italy.",
+      "title": "Scripting For CC Apps Via CEP Panels"
+    },
+    {
+      "company_key": "advanced-energy-industries-inc-common-stock",
+      "company_name": "Advanced Energy Industries Inc.",
+      "doc_id": "40a8baf94b5856a7208c427b044fb90574c5300838d59b78ddb4be23dbf98b65",
+      "first_seen_at": "2026-07-20T23:21:13.689408+00:00",
+      "published_at": "2018-03-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "GENEVA, Ohio–(FOR IMMEDIATE RELEASE)–TEGAM, Inc., a world-wide leader in precision digital thermometers, announces the next generation in Handheld Thermometry: the 931B/932B Data Logging, Industrial, Digital Thermometers.",
+      "title": "TEGAM, Inc Announces New Datalogging Thermometers"
+    },
+    {
+      "company_key": "yc-estimote-inc",
+      "company_name": "Estimote, Inc.",
+      "doc_id": "5fb14679e9a2c1a401c618d1005b06ae2571b194e9b12731f7f3b4c7d52ee8dc",
+      "first_seen_at": "2026-07-27T09:08:36.947635+00:00",
+      "published_at": "2018-03-21T11:34:17+00:00",
+      "source_kind": "rss",
+      "summary": "Beacons are often used in workplaces to make working more efficient or enjoyable. It’s no different here at Estimote - we love tackling various issues with our own tech. We spend plenty of time in conference rooms, planning new features and iterating on existing ones. The habit of giving constant feedback is strongly embedded in our company culture. We do our best to give each other feedback on how we run meetings to make them more efficient and action-oriented. Often, though, there’s no time for that: once the meeting is finished, everyone disperses and moves on to the next task. Our leaders are then left hanging, wondering, “Did it go well? Could I have made it more concise? Was the agenda appropriate?” A few weeks ago during an internal hackathon, we built an Android app to address this problem. We integrated it with the latest Estimote Proximity API and Google Calendar’s API. Stay with us as we share a quick step-by-step guide below (code snippets included)! How does the app work? Our app asks you for feedback right as you are leaving the conference room. (Timing is key, right?). It sends a notification and takes you to a simple rating page. With a star rating system you can evaluate various aspects of the meeting and can also leave a note for the organizer! The app then prompts you to send the feedback to the facilitator’s inbox. For this use case, we placed one Proximity Beacon in every conference room and integrated with G Suites. (Everyone here, including our conference room, has its own calendar). Note: We considered the fact that one can just fetch data from the calendar and push notifications the moment a meeting is scheduled to end. But, what if a meeting ends five minutes earlier than anticipated? You would get the notification when you’re already on to the next task and probably discard it for later. And if a meeting is running late, it’s even worse! There is nothing more distracting than everyone getting simultaneous notifications just as you’re wrapping up. To know exactly when you exit the room, we use Proximity Beacons that trigger a notification precisely when you leave the defined area. Okay, back to the actual case study! 1. Ask for the necessary permissions For this particular case, you need: access to user’s calendar* access to Bluetooth so that the app is able to interact with beacons You can find a tutorial on asking for permissions available here. *For the purpose of building this use case, we assume that everyone has some calendar app, and also that their work calendar is synced. 2. Get the list of calendars To get the events, you need to get the right calendar first. Android doesn’t make it easy to figure out which calendar you should be fetching. So, the first thing we did was get the list of all phone calendars thanks to Google’s Calendar Provider. We logged the calendar id, display name, account name and owner. Remember to replace name@example.com etc with your desired data. private val PROJECTION_ID_INDEX = 0 private val PROJECTION_ACCOUNT_NAME_INDEX = 1 private val PROJECTION_DISPLAY_NAME_INDEX = 2 private val PROJECTION_OWNER_ACCOUNT_INDEX = 3 var cur: Cursor? = null val cr = contentResolver val uri = Calendars.CONTENT_URI val selection = (",
+      "title": "How we hacked our conference rooms to get more feedback [Case Study]"
+    },
+    {
+      "company_key": "protagonist-therapeutics-inc-common-stock",
+      "company_name": "Protagonist Therapeutics Inc.",
+      "doc_id": "fbee54c89b566b2a76bc05ee838a20428c36483f5f35bc9a98b6a38cef953a77",
+      "first_seen_at": "2026-07-20T04:36:52.058184+00:00",
+      "published_at": "2018-03-21T13:42:13+00:00",
+      "source_kind": "rss",
+      "summary": "Protagonist Therapeutics is a clinical-stage biopharmaceutical company with a proprietary technology platform focused on discovering and developing peptide-based new chemical entities (NCEs) that can potentially transform existing treatment paradigms in disease areas with significant unmet medical needs.",
+      "title": "Protagonist Therapeutics Inc at 28th Annual Oppenheimer Healthcare Conference"
+    }
+  ],
+  "date": "2018/03/21"
+}

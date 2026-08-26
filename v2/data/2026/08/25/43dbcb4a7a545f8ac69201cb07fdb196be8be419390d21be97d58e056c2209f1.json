@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "43dbcb4a7a545f8ac69201cb07fdb196be8be419390d21be97d58e056c2209f1",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/three-domains-on-the-free-tier",
+  "canonical_url": "https://resend.com/changelog/three-domains-on-the-free-tier",
+  "title": "More Domains on the Free Tier",
+  "summary": "The free tier now includes 3 verified domains, so you can build and send from more projects without upgrading.",
+  "body_markdown": "Since our beginning, the free tier included a single verified domain, a limitation that works for one project, but limits you even as you try to follow our best practices.\n\n\nToday, we're increasing the free tier to **three domains** . Every free team can now verify up to three domains, in any region, at no cost.\n\n\n## What you can build with it\n\n\n- **More side projects** : give each product its own domain without needing to upgrade.\n- **Separate sending subdomains** : keep transactional email on one domain and marketing on another to[protect your deliverability](https://resend.com/docs/knowledge-base/is-it-better-to-send-emails-from-a-subdomain-or-the-root-domain) .\n- **A real staging environment** : verify a staging domain and test changes safely before they reach your users.\n\n\n## Add your next domain\n\n\nYou can add a domain from the[Domains page](https://resend.com/domains) in the dashboard.\n\n\nOf course you can also add domains via the CLI, MCP, or[API as well](https://resend.com/docs/api-reference/domains/create-domain) .\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  domains  .  create  (  {     name  :     'example.com'     }  )  ;\n\n\n```\n\n\n## Conclusion\n\n\nThe new limit is live today for every free team. Your team's quotas are shared automatically across all domains.\n\n\n[View our pricing page](https://resend.com/pricing) for full details.",
+  "published_at": "2026-08-25T00:00:00+00:00",
+  "first_seen_at": "2026-08-24T17:14:34.489111+00:00",
+  "content_hash": "sha256:13b868ac8eec4aa81c767d5d1498f28ebfbdbf709778504fd04084a9ad110588"
+}

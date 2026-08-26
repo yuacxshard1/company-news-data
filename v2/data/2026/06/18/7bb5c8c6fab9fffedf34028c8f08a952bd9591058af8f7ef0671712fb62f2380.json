@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7bb5c8c6fab9fffedf34028c8f08a952bd9591058af8f7ef0671712fb62f2380",
+  "company_key": "grindr-inc-common-stock",
+  "company_name": "Grindr Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.grindr.com/blog/using-an-agent-as-a-judge-to-fix-ai-written-unit-tests",
+  "canonical_url": "https://www.grindr.com/blog/using-an-agent-as-a-judge-to-fix-ai-written-unit-tests",
+  "title": "Using an Agent‑as‑a‑Judge to Fix AI‑Written Unit Tests",
+  "summary": "Learn how an Agent-as-a-Judge workflow improved AI-written unit tests by automatically reviewing flaky tests, redundant assertions, and poor dependency injection patterns.",
+  "body_markdown": "## The Problem\n\n\nDoes Claude constantly write bad unit tests for you?\n\n\nIn our repo, Claude kept producing tests with the same recurring issues:\n\n\n- Using` Task.sleep` instead of` XCTestExpectation` , leading to flaky tests\n- Writing far too many tests (often the same test expressed 10 different ways)\n- Producing tautological tests that always pass but don't actually test anything\n- Ignoring good dependency‑injection patterns\n\n\nDespite trying all kinds of prompts, I couldn't get a Claude agent to reliably write solid unit tests. Reviewing its output started to feel very familiar — and very repetitive.\n\n\nEvery review cycle looked something like this:\n\n\n- \"Don't use` Task.sleep` — always prefer` XCTestExpectation` .\"\n- \"You don't need this many tests.\"\n- \"This test isn't actually asserting anything meaningful.\"\n\n\nClaude and I would do this dance for two or three iterations before the tests finally came out looking nice and clean 🧼\n\n\n## The Aha Moment\n\n\nThen it hit me: *I could automate myself out of this loop.*\n\n\nWhat I really needed wasn't a better prompt — it was a **second agent** .\n\n\nI created a **unit‑test‑reviewer agent** whose only job is to review generated tests and look for:\n\n\n- Flaky async patterns\n- Redundant or duplicate tests\n- Tautological assertions\n- Poor dependency‑injection practices\n\n\nThis agent doesn't rewrite tests. It simply reviews them and returns a **PASS** or **FAIL** , along with concrete reasons for any failure.\n\n\n## Wiring It Together with a Skill\n\n\nOnce I had the two agents, I just needed to connect them. I did this using a skill called` create-unit-tests` .\n\n\nHere's how the flow works:\n\n\n1. The *unit‑test‑writing agent* generates tests for the current changes\n2. The *unit‑test‑reviewing agent* reviews those tests\n3. If the review returns **PASS** → we're done ✅\n4. If the review returns **FAIL** → the failure reasons are fed back into step 1\n\n\nThis loop continues until the reviewing agent returns a PASS.\n\n\nCrucially, the feedback is always specific and consistent — the same things I used to comment on manually, every single time.\n\n\n## The Result\n\n\nHooking up two agents with a skill like this has been a huge win for the **quality** and **consistency** of the unit tests we write. It also saves me a lot of time as I no longer need to review the \"first pass\" of unit tests.\n\n\nNext up: applying this paradigm to other parts of our workflow where human review patterns are predictable and repeatable.\n\n\n‍",
+  "published_at": "2026-06-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T22:09:59.703208+00:00",
+  "content_hash": "sha256:602e5e383c4472b5955f742742f3feba723dd607414eae6877ab1eba2560cf69"
+}

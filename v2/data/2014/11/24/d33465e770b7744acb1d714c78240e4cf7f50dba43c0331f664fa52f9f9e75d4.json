@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d33465e770b7744acb1d714c78240e4cf7f50dba43c0331f664fa52f9f9e75d4",
+  "company_key": "yc-acunote",
+  "company_name": "Acunote",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.acunote.com/blog/2014/11/bitbucket-integration.html",
+  "canonical_url": "https://www.acunote.com/blog/2014/11/bitbucket-integration.html",
+  "title": "Bitbucket Integration",
+  "summary": "",
+  "body_markdown": "Acunote now integrates with Bitbucket in addition to GitHub, Subversion, and Perforce. With Bitbucket integration you can see commits pushed to Bitbucket repositories (both Git and Mercurial) in the Timeline, perform code review on commits and create code inspection tasks.\n\n\n## How to enable Bitbucket-Acunote integration\n\n\nIn Acunote:\n\n\n- go to **Edit Organization > Repositories** and copy your **Bitbucket POST Hook URL** to the clipboard\n\n\nIn Bitbucket:\n\n\n- visit the repository **Settings** page\n- select **Hooks** from the menu\n- select **POST** from the list of available hooks and click **Add hook**\n- paste the url you copied from Acunote into **URL** field\n- click on \"Save\"\n\n\nOnce hook is configured, new commits will start appearing automatically in the Acunote Timeline.\n\n\nNote that you need to do this configuration separately for each of Bitbucket repositories you want to integrate with Acunote.\n\n\n## Additional configuration for private Bitbucket repositories\n\n\nWhen you click on a commit in the timeline Acunote will fetch and show full details and diff for the commit. If your repository is public, no further configuration is required to do this. For private Bitbucket repositores Acunote also needs **Bitbucket username and password** .\n\n\nTo set this up in Acunote:\n\n\n- wait for first commit from Bitbucket to appear in Acunote Timeline\n- click on the commit to get to commit deatils\n- follow the **provide valid Bitbucket username and password** link to the repository details page\n- ( **alternately** you can go there from **Edit Organization > Repositories** page)\n- enter your Bitbucket username and password\n- refresh the commit details, you should now see the diff",
+  "published_at": "2014-11-24T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T14:19:11.091402+00:00",
+  "content_hash": "sha256:551fffd43251a0af3a1771123cb4769925f649d4fb42a254fd994746c84b8fc8"
+}

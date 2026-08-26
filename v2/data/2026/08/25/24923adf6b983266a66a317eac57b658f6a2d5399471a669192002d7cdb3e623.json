@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "24923adf6b983266a66a317eac57b658f6a2d5399471a669192002d7cdb3e623",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/",
+  "title": "AWS Lambda introduces managed runtimes in public preview for Node.js 26 and Python 3.15",
+  "summary": "Discover more about what's new at AWS with AWS Lambda introduces managed runtimes in public preview for Node.js 26 and Python 3.15",
+  "body_markdown": "Today, AWS Lambda introduces managed runtimes in public preview, starting with Node.js 26 and Python 3.15. This gives customers, partners and upstream language communities the opportunity to try upcoming managed runtimes before their general availability (GA) release and to share their feedback with the Lambda team.\n\n\nPreviously, Lambda managed runtimes were launched directly as GA releases. Since the runtimes could immediately be used by production workloads, the Lambda team couldn’t make changes post-GA that might impact existing functions. Managed runtimes in public preview give you a chance to test your workloads and report issues before GA—while breaking changes are still possible, so we can act on your feedback. Third-party observability providers, infrastructure-as-code tools and deployment frameworks also get time to validate compatibility before GA. Because public preview managed runtimes may receive breaking changes during the preview period, they are not covered by the[Lambda SLA](https://aws.amazon.com/lambda/sla/) or AWS Technical Support plans and should not be used for production workloads. Managed runtimes in public preview use the same runtime identifier as the eventual GA runtime, so your functions graduate automatically when the runtime reaches GA with no action required.\n\n\nTo get started, select \"Node.js 26 (Preview)\" or \"Python 3.15 (Preview)\" from the runtime dropdown in the Lambda console, or specify nodejs26.x or python3.15 as the runtime identifier in the AWS CLI, CloudFormation, AWS SAM, or AWS CDK.\n\n\nNode.js 26 and Python 3.15 managed runtimes in public preview are available in all AWS commercial Regions, AWS GovCloud (US) Regions, and China Regions. There is no additional cost—functions using preview runtimes are billed at standard Lambda rates. To learn more, see our[blog post](https://aws.amazon.com/blogs/compute/introducing-public-preview-runtimes-on-aws-lambda-starting-with-node-js-26-and-python-3-15/) . To share feedback, visit the dedicated GitHub issues for[Node.js 26](https://github.com/aws/aws-lambda-nodejs-runtime-interface-client/issues/198) and[Python 3.15](https://github.com/aws/aws-lambda-python-runtime-interface-client/issues/216) .",
+  "published_at": "2026-08-25T13:00:00+00:00",
+  "first_seen_at": "2026-08-25T22:32:32.654169+00:00",
+  "content_hash": "sha256:aba0f81e716f1e3444cabe006dd6ade188a519bc5963b7078c85688a61330fbb"
+}

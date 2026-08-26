@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d20cf486a59ac3ea5a8ca93d38e96ee47267f52c680f003f240157292bf8ef06",
+  "company_key": "yc-fondo",
+  "company_name": "Fondo",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://fondo.com/blog/start-pod-varun-argarwal",
+  "canonical_url": "https://fondo.com/blog/start-pod-varun-argarwal",
+  "title": "START: Varun Agarwal, Founder, Envariant \"Interpretability and reasoning infra for foundation models.\"",
+  "summary": "START: Varun Agarwal, Founder, Envariant \"Interpretability and reasoning infra for foundation models.\"",
+  "body_markdown": "[Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/start-varun-agarwal-founder-envariant-interpretability/id1790754910?i=1000784889801)[Listen on Spotify](https://open.spotify.com/episode/6JDTocVXX1P8AZDZt4vR1k?si=ca2d105b80bd484a)[Watch on YouTube](https://youtu.be/2TYlWoRA8k4?si=JxZYhU-kDG7wi4Zp)[Subscribe to START](https://tryfondo.beehiiv.com/subscribe)\n\n\n‍\n\n\nFine-tune a frontier LLM on addition and it handles one through five digits without breaking a sweat. Six digits, a friend of Varun's found performance collapsing to zero.\n\n\nThe model had learned addition up to the length it saw in training and nothing underneath it, no rule it could extend. Varun calls it a fatal flaw, one he expects to surface in deep tech and safety-critical applications, and rather than argue about it he'd rather hand builders a way to look inside and check.\n\n\nYou hand Envariant 50 examples where your model tells the truth and 50 where it hallucinates. It finds the surface inside the model where the difference lives, and from there you can amplify that behavior, suppress it, or trace what caused it. The same approach pulls out the principles a model has learned in a form a human can actually read, and generates the edge cases most likely to break them.\n\n\nWhich is the part that traces straight back to biology. Varun was building foundation models to design synthetic viral genomes: DNA in, DNA out, and no way to tell what the thing had worked out about virology along the way. Figuring out how to read that back out became the company.\n\n\n🎙️[Varun Agarwal](https://www.linkedin.com/in/varun-agarwal1/) , Founder, Envariant on Fondo START\n\n\n‍\n\n\n01:02 An interpretability SDK for foundation model builders\n\n\n01:34 \"It's just a matter of finding the right surface inside the model\"\n\n\n01:47 Detecting hallucinations by finding internal model representations\n\n\n03:00 Why scale and compute still dominate but are hitting walls\n\n\n03:42 The 6-digit addition collapse and what it means for AI reasoning\n\n\n05:02 Closing the gap from 95% demo to 99.99% production\n\n\n06:37 From designing synthetic viral genomes to founding Envariant\n\n\n07:15 Why we have a long way to go on AGI\n\n\nCheck out[envariant.ai](https://envariant.ai/)",
+  "published_at": "2026-08-21T00:00:00+00:00",
+  "first_seen_at": "2026-08-22T07:02:35.069784+00:00",
+  "content_hash": "sha256:5a81690a3a506a644786f923724306d7f64209c1493fab89abf4aa8841c93230"
+}

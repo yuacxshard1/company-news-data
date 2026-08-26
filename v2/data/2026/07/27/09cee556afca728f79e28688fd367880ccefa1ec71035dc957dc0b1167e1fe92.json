@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "09cee556afca728f79e28688fd367880ccefa1ec71035dc957dc0b1167e1fe92",
+  "company_key": "yc-mastra",
+  "company_name": "Mastra",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://mastra.ai/blog/announcing-mastra-factory",
+  "canonical_url": "https://mastra.ai/blog/announcing-mastra-factory",
+  "title": "Announcing Mastra Factory",
+  "summary": "From issue to production, run by agents.",
+  "body_markdown": "Software production is becoming a hierarchy of loops. Engineers move “down” into lower-level loops to debug reliability. They move “up” to design better processes. The highest-value human work is deciding which loops to create.\n\n\nSo today we’re launching[Mastra Factory](https://factory.mastra.ai/) , a system for agents to take software from issue into production.\n\n\nYour browser does not support the video tag.\n\n\nIn Mastra Factory, specialized agents triage issues, write and validate code, release changes, update documentation, and monitor production. Mastra provides the typed workflows, memory, scheduling, tools, and observability needed to keep the process governed and auditable.\n\n\nMastra Factory connects to GitHub, Linear, and Slack. An issue comes in, you open the factory UI, click start, and a coding agent begins working inside the system.\n\n\nMastra started as an agent framework. Then we shipped long-running agents. We became a harness framework. And now Mastra is also a factory framework.\n\n\n## What is a software factory?\n\n\nZooming out, there are roughly speaking four approaches to software factories:\n\n\n1. **Goal-driven** : One supervisor agent, with subagents, oriented towards a` /goal`\n2. **Staged automation** : Explicit stage gates around each part of the software development lifecycle with changes measurable and reversible\n3. **Learning infrastructure** : Org memory and prod outcomes improve each future run\n4. **Human workflow redesign** : Human processes are retooled around agent collaboration\n\n\nOur concept of a software factory leans towards (2) and (3). We built explicit gates around intake, triage, planning, building, review, and completion, with the option to implement full` /goal` mode via subagents, durable background agents, and shared state.\n\n\n## Our experience so far\n\n\nAs we’ve adopted the Factory, we’ve seen a number of improvements in how we work together. We were previously seeing bottlenecks around issue intake and PR review. We built skills helping us understand incoming PRs and issues, and a review agent giving us context on the codebase so reviews happened faster with more confidence. During reviews, notification signals keep us in the flow with less idle time.\n\n\nWe like working together. But before the Factory, we were getting lonely. We were pairing more with agents than each other. With the Factory, the shared cloud dashboard let us work together more, not less.\n\n\n## Get started\n\n\nInstall Factory with:\n\n\nTerminal\n\n\n```text\nnpm   create   factory\n```",
+  "published_at": "2026-07-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-27T16:27:30.844834+00:00",
+  "content_hash": "sha256:ce6a79cf896f0a594839b342666070675e7128a719bc6445359c4eddeb14c7b2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c23c00e77ff9cefc97630878bffced2a5c39e1cfa6e490c1d2390c6330c52345",
+  "company_key": "yc-cosmic",
+  "company_name": "Cosmic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://www.cosmicjs.com/blog/kimi-k3-available-in-cosmic",
+  "canonical_url": "https://www.cosmicjs.com/blog/kimi-k3-available-in-cosmic",
+  "title": "Kimi K3 Is Now Available in Cosmic",
+  "summary": "Kimi K3 from Moonshot AI is now live in Cosmic. Select it in the dashboard model dropdown or call it via the AI text generation API and SDK. Available today.",
+  "body_markdown": "Kimi K3 is now available in Cosmic, both in the dashboard and via the API. Select it from the model dropdown in your Agent or AI settings, or pass as the model parameter in any AI text generation call.\n\n\n## What Is Kimi K3?\n\n\n[Kimi K3](https://platform.kimi.ai/docs/guide/kimi-k3-quickstart) is Moonshot AI's latest open-source frontier model, designed for complex reasoning, coding, and long-context tasks. It joins Cosmic's growing roster of supported models alongside Claude, Gemini, and GPT, giving your team more flexibility to route tasks to the right model for the job.\n\n\n## Use It in the Dashboard\n\n\nHead to your Agent or AI settings inside the Cosmic dashboard and select *Kimi K3* from the model dropdown. No configuration, no API calls required. Pick it and start generating.\n\n\n## Use It via the API and SDK\n\n\nCosmic's AI text generation endpoint accepts a parameter. Pass to route your request through Kimi K3. A bucket write key is required for all AI operations.\n\n\n### JavaScript SDK\n\n\n```text\n\n\n```\n\n\n### REST API\n\n\n```text\n\n\n```\n\n\n### Streaming\n\n\nKimi K3 supports real-time streaming via the parameter:\n\n\n```text\n\n\n```\n\n\n## Why Model Choice Matters\n\n\nDifferent tasks call for different models. You might route long-form reasoning to Kimi K3, rapid generation to a fast Gemini Flash model, and complex editorial work to Claude Opus. Cosmic's model-agnostic API means you can route each task to the best available model without changing your content infrastructure.\n\n\nThe content stays in Cosmic. The model is a parameter.\n\n\n## Get Started\n\n\n- [Read the AI text generation docs](https://www.cosmicjs.com/docs/api/ai#generate-text)\n- [See all available models](https://www.cosmicjs.com/docs/api/ai#available-models)\n- [Start building for free](https://app.cosmicjs.com/signup)\n\n\nOr[book a 15-minute intro with Tony](https://calendly.com/tonyspiro/cosmic-intro) to see how Cosmic's AI capabilities fit your stack.\n\n\n### Build AI-powered content workflows with Cosmic\n\n\nYour content layer for AI agents. Structured, versioned, queryable, and analytics-ready out of the box.\n\n\n[Start for free](https://app.cosmicjs.com/signup?utm_source=cosmicjs.com&utm_medium=blog&utm_campaign=blog-content&utm_content=bottom-signup-cta)[Book a demo](https://calendly.com/tonyspiro/cosmic-intro?utm_source=cosmicjs.com&utm_medium=blog&utm_campaign=blog-content&utm_content=bottom-demo)[Log in](https://app.cosmicjs.com/login?utm_source=cosmicjs.com&utm_medium=blog&utm_campaign=blog-content&utm_content=bottom-login)",
+  "published_at": "2026-07-22T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T02:40:51.362684+00:00",
+  "content_hash": "sha256:c2fd7fc0a8eac49d9a649bc22cc6d8c2e4f9908f0b715d7cf61adfde64231db4"
+}

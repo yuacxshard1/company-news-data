@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "76bedc3119e82bf2f89633d1002b517f9db482c8176a4f62fa818d135e8bf847",
+  "company_key": "yc-salt-security",
+  "company_name": "Salt Security",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://salt.security/blog/even-google-says-you-cannot-do-ai-security-on-one-platform",
+  "canonical_url": "https://salt.security/blog/even-google-says-you-cannot-do-ai-security-on-one-platform",
+  "title": "Even Google says you cannot do AI security on one platform",
+  "summary": "Learn how every CISO should be thinking about enterprise AI security.",
+  "body_markdown": "## You need a security posture that holds across clouds, across SaaS, and across models\n\n\nThis is the line that should land hardest with anyone evaluating AI security right now. The Google Cloud COO told companies they cannot rely on a single-cloud answer. SaaS applications, partner systems, multiple models. Your agents will reach across all of it. Your security has to as well.\n\n\nThat is the definition of platform-independent agentic security. And it is exactly what every cloud-native AI security tool is structurally incapable of giving you, because each one sees only its own platform. Half a graph is not a graph. It is a guess.\n\n\n## The gap between the advice and the execution is real\n\n\nLoizos's framing in the TechCrunch piece is direct. The platform providers giving this advice are still working through it themselves. The implication for CISOs is uncomfortable but necessary. Your AI security strategy cannot wait for the providers giving the keynote advice to catch up to their own advice.\n\n\nYou need a layer you control. Platform-independent. Vendor-independent. Built specifically for the agentic environment your business is already operating in.\n\n\n## This is what the Agentic Security Graph is\n\n\nSalt built the[Agentic Security Graph](https://salt.security/agentic-ai) for exactly this moment. One consolidated view of every agent, every MCP server, every API, every third-party vendor, and every piece of sensitive data that those paths can reach. Risk and policy posture are mapped on top. In real time. Across clouds, across SaaS, across models.\n\n\nIt is the only view that shows you the path from the agent in production to the forgotten SharePoint server to the credit card data sitting on it. It is the only view that runs at machine speed because the attackers do. And it is the only view that is yours, not a single platform vendor's.\n\n\n## The board-level question\n\n\nDe Souza closed with the right framing. This is a board-level issue, not a security team issue. The board's question is simple. Can you draw the graph of your own agentic infrastructure today?\n\n\nIf the answer is no, you do not have an AI security strategy. You have hope.\n\n\nWe can show you the graph.[salt.security/agentic-assessment](https://salt.security/agentic-assessment)",
+  "published_at": "2026-05-28T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T12:39:58.305485+00:00",
+  "content_hash": "sha256:19bbfc2f10654caa821a7d674e06e8f8049fa1ec944904b0884df753dd305811"
+}

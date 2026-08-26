@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0ac84d859e3c4c59f4cbc0958918e97851c85c978d32bd8a1d0265e0303ccb40",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/",
+  "title": "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
+  "summary": "Discover more about what's new at AWS with AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
+  "body_markdown": "AWS Secrets Manager now extends its managed external secrets capability to include Cisco Security Platform API keys and Netskope API tokens, enabling you to automatically rotate these third-party credentials directly from the AWS console without writing any custom rotation code.\n\n\nFor Cisco Security Platform (Security Cloud Control), Secrets Manager rotates the API key's refresh token on your schedule, keeping the credential active and capturing the new refresh token Cisco periodically reissues. Following Cisco's standard OAuth pattern, your applications exchange the stored refresh token for short-lived access tokens on demand. For Netskope, Secrets Manager rotates RBACv3 service-account REST API tokens through Netskope's SCIM API and validates the newly generated token before completing rotation. Both integrations are self-authenticating — the stored credential authorizes its own rotation — so no separate administrator credential is required.\n\n\nThese integrations join existing managed external secrets support for BigID, Confluent Cloud, Datadog, GitLab, Jenkins, MongoDB Atlas, Okta, Paddle, Salesforce, Snowflake, and SonarQube.\n\n\nCisco Security Platform and Netskope managed external secrets are available in all AWS Regions where AWS Secrets Manager managed external secrets is supported. To learn more, visit the[AWS Secrets Manager managed external secrets documentation](https://docs.aws.amazon.com/secretsmanager/latest/userguide/managed-external-secrets.html) .",
+  "published_at": "2026-08-25T07:00:00+00:00",
+  "first_seen_at": "2026-08-25T22:32:32.654169+00:00",
+  "content_hash": "sha256:c7596a0a0c57dd4590c5c3ff0d16ef52d4f7a34235ae348afa6611ec2beaecc7"
+}

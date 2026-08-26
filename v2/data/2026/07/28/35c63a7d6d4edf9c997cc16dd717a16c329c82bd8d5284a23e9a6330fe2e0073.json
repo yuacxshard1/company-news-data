@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "35c63a7d6d4edf9c997cc16dd717a16c329c82bd8d5284a23e9a6330fe2e0073",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-july-24-2026",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-july-24-2026",
+  "title": "Weekly Product Changelog: July 24, 2026",
+  "summary": "Improved: Timer-aware subtask completion : Pressing C while a subtask's timer is running now completes that subtask instead of the whole parent task — press",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nImproved:\n\n\n- Timer-aware subtask completion\n\n\n: Pressing C\n\n\nwhile a subtask's timer is running now completes that subtask instead of the whole parent task — press again to complete the parent.\n- Microsoft Planner\n\n\n: Personal Teams, Loop, and Project-backed plans now show up in the Planner picker. Previously these were invisible in Sunsama even though you could see them in[planner.cloud.microsoft](http://planner.cloud.microsoft/) .\n- Search\n\n\n: Task search is now case and punctuation insensitive. Exact matches still rank highest.\n\n\nFixed:\n\n\n- Outlook email parsing\n\n\n: Outlook and mixed Outlook/Gmail email threads now split into individual messages instead of collapsing into one blob, so daily highlight summaries for Outlook accounts aren't empty or truncated anymore.\n- Editor\n\n\n: Typing right after a pasted link with a custom protocol (like a Shortcuts link) followed by a space no longer swallows what you type.\n- Asana panel\n\n\n: Fixed a bug where the Asana panel could show up blank on desktop (My Tasks and projects failing to load) even though the same account worked fine on web.\n- Gmail tasks\n\n\n: Tasks and subtasks created via Autoplan or MCP with a linked Gmail thread now open the correct email, and their Gmail icons are clickable again.\n- Ubuntu\n\n\n: Alt-drag task merging works again; it no longer silently drops the task in as a reorder instead of merging.\n- Jira\n\n\n: Tasks added via MCP with a linked Jira ticket now show the ticket ID on the card instead of \"-undefined.\"",
+  "published_at": null,
+  "first_seen_at": "2026-07-28T20:57:03.251341+00:00",
+  "content_hash": "sha256:9e0936048e5b04217185bb7cb6f8b4155b4f51b6597e357307bdd3630ec7ffb7"
+}

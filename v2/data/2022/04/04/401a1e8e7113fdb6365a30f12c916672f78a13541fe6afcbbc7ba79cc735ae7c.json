@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "401a1e8e7113fdb6365a30f12c916672f78a13541fe6afcbbc7ba79cc735ae7c",
+  "company_key": "yc-ashby",
+  "company_name": "Ashby",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.ashbyhq.com/blog/engineering/array-at",
+  "canonical_url": "https://www.ashbyhq.com/blog/engineering/array-at",
+  "title": "Type Safety with ES2022's Array.prototype.at",
+  "summary": "Building people software for high growth companies.",
+  "body_markdown": "ES2022 introduces` Array.prototype.at\n\n\n` and we've come to love using it.` Array.prototype.at\n\n\n` can replace using the standard index operator` \\[\\]\n\n\n` :\n\n\n```text\n1  const   arr:   number  [] = [];\n2\n3  arr[  0  ].toString();\n4\n5   // Same as above!\n6  arr.at(  0  ).toString();\n```\n\n\nIn the example above, even though index 0 may not have anything there, Typescript is happy to allow us to to call` toString()\n\n\n` . With` .at()\n\n\n` , we get a compiler error:\n\n\nTypescript's compiler error.\n\n\n` Array.prototype.at\n\n\n` is not officially supported in all versions of Node. Check[node.green](https://node.green/) to see if you can use it!",
+  "published_at": "2022-04-04T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T07:59:34.035471+00:00",
+  "content_hash": "sha256:339e67c1ba9181d6cd3b75f02fd1c4783a9152adfec8370fecb9cea92402d14e"
+}

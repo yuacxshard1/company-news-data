@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f234a6411565c200165227426f9e34fe3897e2c65105168d841d3c021def864a",
+  "company_key": "yc-verbiflow",
+  "company_name": "Verbiflow",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://verbiflow.com/blog/benchmark-agent-fanout-vs-sdk",
+  "canonical_url": "https://verbiflow.com/blog/benchmark-agent-fanout-vs-sdk",
+  "title": "We tested our SDK against 10 Claude subagents. Our SDK ran 1,165% faster.",
+  "summary": "Same task, same SDK calls, same AI model. Our SDK finished in 31 seconds with zero retries. 10 Claude subagents took 392 seconds and needed 4 retries.",
+  "body_markdown": "There are two reasonable ways to run batch outbound work from a coding agent. You can have Claude Code write one job using the Verbiflow SDK. Or you can have Claude Code send the work to 10 Claude subagents and let each one handle one company. We ran the same task both ways: find every security certification claimed on the trust pages of 10 well-known SaaS companies, with the same SDK, model, and task. Here’s what we saw.\n\n\n## Wall clock\n\n\nTotal time to extract certifications across 10 companies\n\n\nOur SDK\n\n\n31 s\n\n\n10 Claude subagents\n\n\n392 s\n\n\nThe SDK ran 1,165% faster: 31 seconds instead of 392. Same AI model, same SDK calls, same 10 companies.\n\n\n## Retries needed\n\n\nRetries needed before all 10 companies completed\n\n\nOur SDK\n\n\n0\n\n\n10 Claude subagents\n\n\n4\n\n\n3 of the 10 agents refused the first dispatch as “suspected prompt injection.” Same prompt, same workload as the 7 that ran it without issue.\n\n\nThe SDK kept the repeated work in one batch. The Claude subagents turned it into ten isolated runs, which added retries.\n\n\n## Same answer\n\n\nSecurity certifications found across all 10 companies\n\n\nOur SDK\n\n\n85\n\n\n10 Claude subagents\n\n\n87\n\n\nWithin run-to-run search noise. The 2-cert delta came from slightly better trust-page URLs for Figma and Snowflake in the Claude subagent run. Re-run the SDK job and the gap can flip directions.\n\n\n## What the test shows\n\n\nIf you are analyzing one company, asking an agent to do it directly is probably fine. The setup cost of building one job may not be worth it for a one-off task.\n\n\nOutbound work is rarely one company. Once the same operation needs to run across 10, 100, or 1,000 accounts, the tradeoff flips. You pay the setup cost once, and every additional company after that runs faster and with fewer failures.\n\n\nThe agent version treated 10 companies like 10 separate jobs. The SDK version treated them like one batch.\n\n\n## The principle\n\n\nThe SDK version still uses LLM calls for extraction, classification, and reasoning where needed. The difference is that those LLM calls run inside one structured job with concurrency, caching, retries, and shared state instead of inside 10 separate agent loops.\n\n\n> Use the agent to design the workflow. Use the SDK to run the repeated work, including the LLM steps.",
+  "published_at": "2026-06-09T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T18:39:30.762214+00:00",
+  "content_hash": "sha256:8e39bc2f219801d2f266302e844fd8c242f4c7512a04806766bd3e3c0a66cdd5"
+}

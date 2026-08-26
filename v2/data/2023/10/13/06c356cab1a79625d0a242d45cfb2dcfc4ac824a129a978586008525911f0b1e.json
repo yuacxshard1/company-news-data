@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "06c356cab1a79625d0a242d45cfb2dcfc4ac824a129a978586008525911f0b1e",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/blog/artillery-vs-code-extension",
+  "canonical_url": "https://www.artillery.io/blog/artillery-vs-code-extension",
+  "title": "Introducing the Artillery VS Code Extension",
+  "summary": "A new VS Code extension for Artillery designed to make it easier to write test scripts with features like context-aware autocomplete and inline documentation.",
+  "body_markdown": "October 13th, 2023[Announcement](https://www.artillery.io/blog/tag/announcement)\n\n\n# Introducing the Artillery VS Code Extension\n\n\nBernardo Guerreiro\n\n\nToday, we’re announcing the launch of a VS Code extension for Artillery designed to make it easier to write test scripts with features like context-aware autocomplete and inline documentation.\n\n\nYou can install the extension from the[VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Artilleryio.vscode-artillery) , or directly from VS Code by searching for “Artillery” in the Extensions tab.\n\n\n## Autocomplete\n\n\nPress` Control+Space` to see context-aware autocomplete suggestions, providing you with all available options at any point in your test script. This speeds up the process of writing new tests and reduces the chances of errors.\n\n\n## Inline documentation\n\n\nHover over any part or property of an Artillery test script to get short descriptions, examples, and links to the documentation to learn more.\n\n\n## Run tests\n\n\nThe extension also supports executing your tests locally with` artillery run` . This feature is designed for debugging simple test runs, removing the need to toggle between your terminal and editor.\n\n\n## Not a VS Code user?\n\n\nArtillery for VS Code is powered by a[JSON schema](https://json-schema.org/) definition under the hood. Many editors and IDEs support using a JSON schema definition to provide autocomplete for YAML files, for example:\n\n\n- [Webstorm](https://www.jetbrains.com/help/webstorm/json.html#ws_json_schema_add_custom)\n- [Emacs](https://emacs-lsp.github.io/lsp-mode/page/lsp-yaml/)\n- [Sublime](https://github.com/sublimelsp/LSP-yaml)\n\n\nYou can find the JSON schema at[https://www.artillery.io/schema.json](https://www.artillery.io/schema.json) .\n\n\n## Feedback\n\n\nWe hope this extension makes your life easier. We’d love to hear your feedback on how we can improve it. Please open an issue on GitHub at[https://github.com/artilleryio/vscode-artillery/issues](https://github.com/artilleryio/vscode-artillery/issues)",
+  "published_at": "2023-10-13T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T07:55:08.009846+00:00",
+  "content_hash": "sha256:450c2a448ada5ff9b0ab3ba953ecd2b845153f1569f1cecdb254d72f92195419"
+}

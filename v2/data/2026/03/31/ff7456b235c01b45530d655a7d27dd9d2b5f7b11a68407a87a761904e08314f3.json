@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ff7456b235c01b45530d655a7d27dd9d2b5f7b11a68407a87a761904e08314f3",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/improved-gpu-support",
+  "canonical_url": "https://www.buildbuddy.io/changelog/improved-gpu-support",
+  "title": "Improved GPU and device support for self-hosted executors",
+  "summary": "GPU support for self-hosted Linux executors is now easier to set up.",
+  "body_markdown": "[← Back to changelog](https://www.buildbuddy.io/changelog)\n\n\n# Improved GPU and device support for self-hosted executors\n\n\nMarch 31, 2026 ·\n\n\nBrandon Duffany\n\n\nGPU support for self-hosted Linux executors is now easier to set up.\n\n\nBuildBuddy's executor image now ships with GPU supporting tools (` nvidia-cdi-hook` ), and the executor now supports configuring CDI devices so executors can pass through vendor-provided GPU device configuration to child containers.\n\n\nSee the new setup docs for details:[GPU support for self-hosted executors](https://buildbuddy.io/docs/config-rbe#gpu-support) .",
+  "published_at": "2026-03-31T10:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+  "content_hash": "sha256:fa9847c9ce181f6acb63d4e9c31327d4cfb7d7fc5c1075af7b6991a2b7f60332"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2fda8c4a3ce416ab24393edb862adf9485b76e8d23949dcb6856b3f27bbf49da",
+  "company_key": "yc-openlayer",
+  "company_name": "Openlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.openlayer.com/changelog/test-bundles-new-tests-support-for-new-python-runtimes",
+  "canonical_url": "https://www.openlayer.com/changelog/test-bundles-new-tests-support-for-new-python-runtimes",
+  "title": "Test bundles, new tests, support for new Python runtimes",
+  "summary": "Native integrations with OpenAI, Anthropic, CoPilot, OTel, Snowflake, and more. Continuous CI/CD validation, production monitoring, security guardrails, and automated compliance aligned to EU AI Act and NIST.",
+  "body_markdown": "September 20, 2025\n\n\n[Test bundles, new tests, support for new Python runtimes](https://www.openlayer.com/changelog/test-bundles-new-tests-support-for-new-python-runtimes)\n\n\nWe’re very excited to introduce **test bundles** to the Openlayer platform! Easily create a set of tests related to use cases or policies of interest, such as the EU AI Act, OWASP, agentic workflows, data quality, and more. Comprehensive test bundles ensure you catch errors across all your key use cases before they slip through the cracks.\n\n\nAlong with test bundles, we’ve added some new tests to our library: groundedness for LLMs, toxicity score, checks for prompt injections, and checks to see if the outputs recommend a competitor company. You can create these tests today in the Openlayer app!\n\n\n## Features\n\n\n- •\n\n\nPlatform\n\n\nIntroduced new metrics and tests, such as toxicity, groundedness, and others\n- •\n\n\nPlatform\n\n\nReleased test bundles for the EU AI Act, OWASP, agentic workflows, data quality, and others\n- •\n\n\nCLI\n\n\nSupport for new Python runtimes for development mode\n\n\n## Improvements\n\n\n- •\n\n\nPlatform\n\n\nImproved the data polling and exception handling for the BigQuery integration\n- •\n\n\nUI/UX\n\n\nEnhanced navigation icons across the app, improving visual clarity and user experience.\n- •\n\n\nAPI\n\n\nImproved the handling of attributes from the latest version of the OpenTelemetry GenAI semantic conventions\n- •\n\n\nPlatform\n\n\nEnhanced secret management interface\n- •\n\n\nPlatform\n\n\nImproved the explanations for LLM-based metrics\n- •\n\n\nPlatform\n\n\nFiltering improvements, including filtering tests by priority, status, name, and others.\n- •\n\n\nCLI\n\n\nImprove date range parsing for the export command of the CLI\n- •\n\n\nSDKs\n\n\nTrace functionality refactoring for the Openlayer TypeScript SDK with improvements to various integrations, including the LangChain callback handler, and Bedrock Agents\n- •\n\n\nDocs\n\n\nImproved documentation for integrations like BigQuery, Oracle OCI, and others\n\n\n## Fixes\n\n\n- •\n\n\nSDKs\n\n\nPython SDK bug fixes for the tracing feature when the traced function yields generators\n- •\n\n\nPlatform\n\n\nSpeed up PII detection test\n- •\n\n\nSDKs\n\n\nBetter JSON serialization for platform data uploads",
+  "published_at": "2025-09-20T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T18:01:08.657570+00:00",
+  "content_hash": "sha256:b3eb582ac7fbabbec9f12c5d180a50919ef13e46fca721482854b6a3586c84cd"
+}

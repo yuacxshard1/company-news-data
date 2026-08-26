@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b23ca03c3d62a8aa32112edda6233c4d10c28e5e66e71ee699acb06da9264002",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/webmin-2-620-and-usermin-2-520-released/136400",
+  "canonical_url": "https://forum.virtualmin.com/t/webmin-2-620-and-usermin-2-520-released/136400",
+  "title": "Webmin 2.620 and Usermin 2.520 released",
+  "summary": "Howdy all, We’ve rolled out Webmin 2.620 and Usermin 2.520 to all Virtualmin repos. Changes since 2.610 and 2.510: Add ability to use correct driver depending on the database in MySQL/MariaDB module Add improvements to BIND DNS module for better key management Add support for Ubuntu 26.04 development preview Add a config option to increase the RPC timeout Add support for EC SSL certificate and key in the ProFTPd module Add support for using gpart in FreeBSD disk management module Add support...",
+  "body_markdown": "# [Webmin 2.620 and Usermin 2.520 released](https://forum.virtualmin.com/t/webmin-2-620-and-usermin-2-520-released/136400)\n\n\n[News](https://forum.virtualmin.com/c/news/5)\n\n\n[Ilia](https://forum.virtualmin.com/u/Ilia)\n\n\nJanuary 26, 2026, 11:48am 1\n\n\nHowdy all,\n\n\nWe’ve rolled out Webmin 2.620 and Usermin 2.520 to all Virtualmin repos.\n\n\nChanges since 2.610 and 2.510:\n\n\n- Add ability to use correct driver depending on the database in MySQL/MariaDB module\n- Add improvements to BIND DNS module for better key management\n- Add support for Ubuntu 26.04 development preview\n- Add a config option to increase the RPC timeout\n- Add support for EC SSL certificate and key in the ProFTPd module\n- Add support for using` gpart` in FreeBSD disk management module\n- Add support for Ed25519 public key in User and Groups module\n- Fix RPC session timeout during large file transfers\n- Fix selection and configuration of TLS certificate and key in the ProFTPd module\n- Update Authentic theme to the latest version with various improvements and fixes:\n\n\n- Add support for multiple scrollable tabs in the File Manager\n- Fix displaying of the right-side toolbar in File Manager when using Safari\n- Fix to print menu separator when no virtual servers are added yet in Virtualmin\n- Fix bugs in white palette\n- Fix exported file name in data tables\n\n\n3 Likes\n\n\n[system](https://forum.virtualmin.com/u/system) Closed\n\n\nFebruary 5, 2026, 11:48am 2\n\n\nThis topic was automatically closed 10 days after the last reply. New replies are no longer allowed.",
+  "published_at": "2026-01-26T11:48:14+00:00",
+  "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+  "content_hash": "sha256:800dec05ad1cc001ac3c0f45582d40ff1f4aae90b995048fd9e5a6202e64a144"
+}

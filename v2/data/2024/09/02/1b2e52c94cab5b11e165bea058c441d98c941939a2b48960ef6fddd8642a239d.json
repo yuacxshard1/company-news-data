@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1b2e52c94cab5b11e165bea058c441d98c941939a2b48960ef6fddd8642a239d",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/changelog/new-filters",
+  "canonical_url": "https://www.artillery.io/changelog/new-filters",
+  "title": "Load tests filter improvements",
+  "summary": "Introducing new ways to filter and organize your tests",
+  "body_markdown": "September 2nd, 2024[Dashboard](https://www.artillery.io/changelog/tag/dashboard)\n\n\n# Load tests filter improvements\n\n\nEdmundo Santos\n\n\nIntroducing a new way to filter and organize your tests. We have updated the UI to better surface all filters and added even more options to filter by, so it should be easy to find specific test runs.\n\n\n- New filters: test name, platform, user, tests with notes, and shared tests\n- UI is now fully keyboard accessible\n- Improve search functionality for test names and tags\n- Filters can be saved as **Views** for easy access and faster team collaboration\n\n\n## Comparison view improvements\n\n\n- Added new filters to Comparison view so you can quickly find tests to compare\n- Compare tests that have different names\n- Toggle what properties are displayed on the test list with the Display dropdown\n- Use **Views** to quickly get back to previous saved filters\n\n\n## Test config\n\n\nYou can now see the` target` and` phases` of your test right from the load test view — added in Artillery CLI v2.0.20.",
+  "published_at": "2024-09-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T17:13:32.020779+00:00",
+  "content_hash": "sha256:e89f12df33578f3f490c5e80b21968e6b633c58eadca8bc47397675b7dfe5e9b"
+}

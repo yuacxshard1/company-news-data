@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "516383163b6673675606c2685da3b8d55ffdef5ba4d14d8b480f7d1eba5a5040",
+  "company_key": "servicenow-inc-common-stock",
+  "company_name": "ServiceNow Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.servicenow.com/community/technology-blog/service-bridge-v2-1-february25-store-release-publish-catalog/ba-p/3152692",
+  "canonical_url": "https://www.servicenow.com/community/technology-blog/service-bridge-v2-1-february25-store-release-publish-catalog/ba-p/3152692",
+  "title": "Service Bridge v2.1: February25 Store Release - Publish catalog items as remote record producers",
+  "summary": "This time saving feature allows providers to publish local catalog items to Service Bridge as remote record producers. A provider can create a remote record producer from the following catalog classes. Catalog Item Record Producer Hardware Catalog Software Catalog The catalog item must meet the ...",
+  "body_markdown": "This time saving feature allows providers to publish local catalog items to Service Bridge as remote record producers.\n\n\nA provider can create a remote record producer from the following catalog classes.\n\n\n1. Catalog Item\n\n\n2. Record Producer\n\n\n3. Hardware Catalog\n\n\n4. Software Catalog\n\n\nThe catalog item must meet the following requirements.\n\n\n1. Must be in a published state\n\n\n2. Must be one of the supported classes\n\n\n3. Cannot already have been published to service bridge\n\n\nCatalog items can be published to Service Bridge individually or in bulk. When publishing catalog items in bulk, the default limit is 20 items. The limit can be changed by defining and setting the system property **sn_sb_pro.max_batch_size_covertable_catalog_items.**\n\n\nPublishing a catalog item to Service Bridge creates a copy of the item as a remote record producer. The remote record producer is associated with the original catalog item via the reference field **Created from cat item** .\n\n\n**Publish individual catalog item to Service Bridge**\n\n\n1. Navigate to the catalog to be published.\n2. Click the Publish to Service Bridge Related Link\n\n\n3. A remote record producer is created from the catalog item and navigation is directed to the newly created remote record producer.\n\n\n**Publish catalog items in bulk to Service Bridge**\n\n\n1. Navigate to a list of catalog items to be Published to Service Bridge.\n2. On the list, select the checkboxes for the catalog items to be Published to Service Bridge.\n3. In the **Actions on selected rows…** menu, click Publish to Service Bridge.\n\n\n4. Publishing to Service Bridge modal is displayed while in progress.\n\n\n5. On completion, the results are displayed.\n\n\n**After publishing to Service Bridge** , items need to be finalized prior to Publishing for synching to consumer instances. Finalization steps include.\n\n\n1. Adding a required flow\n2. Adding Consumer Criteria\n3. Adding Persona if required\n4. Verify and update remote record producer content and variables. Example reference variables may need to be changed to remote choices.",
+  "published_at": "2025-01-31T14:55:30+00:00",
+  "first_seen_at": "2026-07-20T04:36:33.238428+00:00",
+  "content_hash": "sha256:21f343712c11e53479e98c0bc17f683d9da40e97a7f2e3025063d44d01072268"
+}

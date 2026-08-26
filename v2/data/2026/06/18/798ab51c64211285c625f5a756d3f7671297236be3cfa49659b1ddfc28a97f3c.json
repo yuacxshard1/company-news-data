@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "798ab51c64211285c625f5a756d3f7671297236be3cfa49659b1ddfc28a97f3c",
+  "company_key": "yc-the-hog",
+  "company_name": "The Hog",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://thehog.ai/blog/structured-web-context-for-agents",
+  "canonical_url": "https://thehog.ai/blog/structured-web-context-for-agents",
+  "title": "Structured web context for AI agents",
+  "summary": "How to turn live web signals into reliable, structured intelligence for research and go-to-market workflows.",
+  "body_markdown": "Agents got smarter, but they still can't really *see* the live web. Drop a raw HTML page into a context window and you've spent thousands of tokens on navigation chrome, cookie banners, and markup before the model reaches a single useful fact. The fix isn't a bigger context window — it's **better context** .\n\n\n## The shape of good context\n\n\nGood agent context has three properties. It's **fresh** (minutes old, not months), **structured** (typed fields, not prose to re-parse), and **scoped** (only what the task needs). The Hog is built around delivering exactly that.\n\n\nHere's how a few common signals map to where they come from:\n\n\nField Source Freshness\n\n\nCompany Open web search Real-time\n\n\nHeadcount Enrichment Daily\n\n\nTech stack Page scrape + inference On request\n\n\nNews Monitored sources Streaming\n\n\n## A worked example\n\n\nSay your agent qualifies inbound leads. Instead of handing it a homepage, hand it a structured record:\n\n\n```text\nconst   company   =   await   hog.enrich.  company  ({ domain:   \"example.com\"   });\n\n\nif   (company.headcount   >   50   &&   company.hiring) {\nawait   routeToSales  (company);\n}\n```\n\n\nThe agent reasons over clean fields —` headcount` ,` hiring` ,` funding` — and never touches a line of HTML.\n\n\n## Keep the loop tight\n\n\nA few principles we've found hold up in production:\n\n\n1. **Fetch narrowly.** Ask for the fields the task needs, nothing more.\n2. **Cache aggressively.** Most context is reusable across runs within a session.\n3. **Monitor, don't poll.** Subscribe to changes instead of re-scraping on a timer.\n\n\n> The best agent context is the smallest set of fresh, structured facts that lets the model make the next decision.\n\n\nThat's the bar we hold every endpoint to.",
+  "published_at": "2026-06-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T16:24:44.963526+00:00",
+  "content_hash": "sha256:fd1bf14161da45de789e2145de98677913bc762040b0d8a3ae1c4431fba7ebca"
+}

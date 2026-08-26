@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "350586ba3369e84c56e5f5cb6bd02cbb7e8a9780904c6096b872b595c10a4b83",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-replicator-OAuth-support",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-replicator-OAuth-support",
+  "title": "MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for replication from external Apache Kafka clusters to Amazon MSK",
+  "summary": "Discover more about what's new at AWS with MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for replication from external Apache Kafka clusters to Amazon MSK",
+  "body_markdown": "Amazon MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers - to[Amazon MSK Provisioned clusters](https://docs.aws.amazon.com/msk/latest/developerguide/msk-provisioned.html) . With this capability, external Apache Kafka clusters configured with OAuth/OIDC authentication can now use MSK Replicator to migrate workloads to Amazon MSK, support disaster recovery by using MSK-based clusters as a failover or backup target and enable data distribution across hybrid and multi-cloud environments.\n\n\nMSK Replicator is a feature of Amazon MSK that automates data replication between Kafka clusters, eliminating the need to manage custom replication infrastructure or configure open-source tools. Previously, MSK Replicator supported SASL/SCRAM and mTLS authentication for connecting to external Apache Kafka clusters. With this launch, you can now also use OAuth 2.0 authentication with MSK Replicator to replicate data from external Kafka clusters to Amazon MSK. Unlike self-managed replication tools, MSK Replicator lets you retain your original Kafka topic names during replication while automatically avoiding infinite replication loops. It also synchronizes consumer group offsets bidirectionally, enabling you to move producers and consumers across clusters independently, in any order, without coordination constraints or the risk of data loss.\n\n\nThis new capability is supported in all AWS Regions where MSK Replicator is available. Visit the MSK Replicator[documentation](https://docs.aws.amazon.com/msk/latest/developerguide/msk-replicator.html) ,[product page](https://aws.amazon.com/msk/features/msk-replicator/) ,[pricing page](https://aws.amazon.com/msk/pricing/) , and this[AWS blog post](https://aws.amazon.com/blogs/big-data/migrate-third-party-and-self-managed-apache-kafka-clusters-to-amazon-msk-express-brokers-with-amazon-msk-replicator/) to learn more.",
+  "published_at": "2026-08-24T15:00:00+00:00",
+  "first_seen_at": "2026-08-25T19:05:11.569981+00:00",
+  "content_hash": "sha256:a0dcc2276f1fb718e12a92b06aa5d6444e3127a207d1644262874671c93087d4"
+}

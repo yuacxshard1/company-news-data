@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "company_key": "grab-holdings-limited-class-a-ordinary-shares",
+      "company_name": "Grab Holdings Limited",
+      "doc_id": "1720ae8766806e79be15aa1e7852a698d5111594b839ef186b590fbaec7e9fcc",
+      "first_seen_at": "2026-07-20T03:32:59.025945+00:00",
+      "published_at": "2026-06-19T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Artificial intelligence (AI) agents are evolving from chat interfaces into autonomous workloads, bringing new security risks. In Part 1, discover why Grab built Palana, a Kubernetes-native platform designed to run AI agents safely. We explore the core design principles behind treating isolation as the unit of trust and how Palana enables secure, self-service developer environments without compromising control.",
+      "title": "Palana (Part 1): Why Grab built a secure platform for autonomous AI Agents"
+    },
+    {
+      "company_key": "grab-holdings-limited-class-a-ordinary-shares",
+      "company_name": "Grab Holdings Limited",
+      "doc_id": "1a6b3fe5984b0cf91104268f9056fd101a6331591ccd206b3b4bb54f20049e48",
+      "first_seen_at": "2026-07-24T10:02:13.222946+00:00",
+      "published_at": "2026-06-09T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The new initiative expands on precinct dining campaigns with Enterprise Singapore (EnterpriseSG) to include nationwide delivery deals, merchant neighbourhood outreach and mentorships…",
+      "title": "New initiative ‘Grab Full House Mission’ to help Singapore’s F&B merchants drive growth online and offline | Grab SG"
+    },
+    {
+      "company_key": "grab-holdings-limited-class-a-ordinary-shares",
+      "company_name": "Grab Holdings Limited",
+      "doc_id": "1def4e6062efc0866e71b5f33becf83307857a61216c99c712db32ab12a3cd7a",
+      "first_seen_at": "2026-07-20T03:32:59.025945+00:00",
+      "published_at": "2026-06-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "How do you actually build a secure execution environment for artificial intelligence (AI) agents? In Part 2, we dive deep into Palana's architecture. Learn how Grab handles proxy-mediated secrets, large language model (LLM) routing, and strict network access under the hood. We also share our operational learnings on managing agent lifecycles, enforcing strict boundaries, and making useful AI autonomy safe and boring to operate.",
+      "title": "Palana (Part 2): Architecting isolation, identity, and auditability for AI agents"
+    },
+    {
+      "company_key": "grab-holdings-limited-class-a-ordinary-shares",
+      "company_name": "Grab Holdings Limited",
+      "doc_id": "8a799a1064558475a9fb40534fef392ae73aa8d850951b68ad070098fa91795f",
+      "first_seen_at": "2026-07-20T03:32:59.025945+00:00",
+      "published_at": "2026-06-22T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Grab is moving hundreds of services to Distroless images to cut CVEs but only if workloads still run cleanly. Learn how medium tests became the migration gate, where the scaffolding toil stalled the campaign, and how an agentic workflow (skills, MCP, guardrails) generated tests and Docker changes at fleet scale; with humans still approving every MR.",
+      "title": "Scaling out Distroless adoption With AI"
+    }
+  ],
+  "company_key": "grab-holdings-limited-class-a-ordinary-shares",
+  "month": "2026-06"
+}

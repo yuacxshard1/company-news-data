@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e56d96e79449f71fce594a550f2d134469a74c921b71c5eef55ea40b315d4294",
+  "company_key": "yc-ramain",
+  "company_name": "RamAIn",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://ramain.ai/resources/why-rpa-bots-break",
+  "canonical_url": "https://ramain.ai/resources/why-rpa-bots-break",
+  "title": "Why RPA Bots Break and What Self-Healing AI Agents Do Differently",
+  "summary": "What really happens when a payer, carrier, or lender portal updates, and how vision-based agents recover without a ticket cycle.",
+  "body_markdown": "\\[Replacement research\\]\n\n\nRPA bots do not usually break because teams wrote careless scripts. They break because the automation depends on assumptions that portals do not promise to keep: selectors, timing, labels, login flows, and exact page structure.\n\n\n## Most breaks start as small page changes\n\n\nA button moves. A table gets a new column. A modal appears after login. A payer adds one confirmation step before the download. None of those changes are dramatic to a human operator, but each can invalidate a scripted path.\n\n\nThe result is not just a failed run. It is manual triage, an IT ticket, a temporary workaround, and uncertainty about whether other runs quietly produced bad output.\n\n\n## Self-healing needs more than retry logic\n\n\nRetrying the same broken selector is not recovery. A self-healing agent needs to inspect the current screen, infer the intended action, and choose the next safe step based on context.\n\n\nThat is why visual grounding, browser state, screenshots, and run logs matter. They give the system enough evidence to distinguish a harmless UI shift from a meaningful process change.\n\n\n## Recovery should be visible to operations\n\n\nWhen an agent adapts, the operator should still be able to review what happened. Silent recovery is risky if nobody can tell which path was taken.\n\n\nRamain treats recovery as part of the run record: the agent can pause, ask for help, continue after a blocker, and leave a replayable trail for review.\n\n\nKey takeaway\n\n\nRPA breaks at the assumptions layer. UI agents reduce that fragility by reading the live browser state instead of depending only on fixed selectors.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T11:17:00.876485+00:00",
+  "content_hash": "sha256:1ac6c60f91366287d3bcecead0515a76e4deb7d441d1bf8e6dd3cd448ab88bb6"
+}

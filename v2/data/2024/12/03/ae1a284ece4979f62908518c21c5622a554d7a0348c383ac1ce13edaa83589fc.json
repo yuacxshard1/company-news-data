@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae1a284ece4979f62908518c21c5622a554d7a0348c383ac1ce13edaa83589fc",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/blog/announcing-playwright-test-reporter",
+  "canonical_url": "https://www.artillery.io/blog/announcing-playwright-test-reporter",
+  "title": "Announcing Playwright Test Runner reporting in Artillery Cloud",
+  "summary": "View Playwright HTML reports and monitor tests in real-time with Artillery Cloud",
+  "body_markdown": "December 3rd, 2024[Announcement](https://www.artillery.io/blog/tag/announcement)\n\n\n# Announcing Playwright Test Runner reporting in Artillery Cloud\n\n\nHassy Veldstra\n\n\nToday we are announcing support for Playwright Test Runner reporting in Artillery Cloud. With a two-line change in` playwright.config.ts` you will be able to:\n\n\n- Monitor Playwright tests in real-time\n- View HTML reports with screenshots and traces in Artillery Cloud\n- Integrate with GitHub Actions with PR comments for successful and failed test runs\n\n\n## Getting started\n\n\n1.\n\n\nSign up for an Artillery Cloud account on[https://app.artillery.io](https://app.artillery.io/) and get an API key\n\n\n2.\n\n\nInstall the Artillery Cloud reporter:\n\n\n```text\nnpm   install   -D   @artilleryio/playwright-reporter\n```\n\n\n```text\npnpm   add   -D   @artilleryio/playwright-reporter\n```\n\n\n```text\nyarn   add   --dev   @artilleryio/playwright-reporter\n```\n\n\n```text\nbun   add   --dev   @artilleryio/playwright-reporter\n```\n\n\n3.\n\n\nEnable the reporter in your` playwright.config.ts` file:\n\n\nplaywright.config.ts\n\n\n```text\nexport   default   defineConfig  ({\nreporter: [\n[  '@artilleryio/playwright-reporter'  , { name:   'My Test Suite'   }],\n],\n// ... rest of your config\n});\n```\n\n\n4.\n\n\nSet your Artillery Cloud API key\n\n\n```text\nexport   ARTILLERY_CLOUD_API_KEY  =  a9_your_api_key\n```\n\n\nYou can create an API key in Artillery Cloud here:[https://app.artillery.io/settings/api-keys](https://app.artillery.io/settings/api-keys)\n\n\nThen run your Playwright tests as normal, e.g. with:\n\n\n```text\nnpx   playwright   test\n```\n\n\nThe reporter will print a link for the test run to the console. You can track the progress of the test run in real-time in Artillery Cloud via that link.\n\n\nIf the test is running in GitHub Actions, the reporter will also post a comment on the PR with the link to the test run once it completes.\n\n\n## How much does this cost?\n\n\nThis feature is available to all users of Artillery Cloud, including those on the free Developer plan. You can record up to 100 test suite runs every month for free. Detailed pricing information is available on[https://app.artillery.io/settings/billing](https://app.artillery.io/settings/billing)\n\n\n## Learn more\n\n\nPlease see the documentation for the reporter on[https://www.artillery.io/docs/reference/extensions/playwright-reporter](https://www.artillery.io/docs/reference/extensions/playwright-reporter)",
+  "published_at": "2024-12-03T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T07:55:08.009846+00:00",
+  "content_hash": "sha256:776b5a84652f7fac0605d7fa687542558ffeccd2ee0838447da6ac2ebc67f513"
+}

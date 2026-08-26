@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c3c4db543c594222e15265b8c1d8b21849d4adbb08e3c94b2a16373f0c229425",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/changelog/artillery-cli-v2-0-32",
+  "canonical_url": "https://www.artillery.io/changelog/artillery-cli-v2-0-32",
+  "title": "Artillery CLI v2.0.32",
+  "summary": "",
+  "body_markdown": "May 19th, 2026[CLI](https://www.artillery.io/changelog/tag/cli)\n\n\n# Artillery CLI v2.0.32\n\n\n## New features\n\n\n### Playwright\n\n\n- Upgrade to Playwright v1.60.0\n\n\n## Fixes & improvements\n\n\n### Core\n\n\n- Fix issue where` http.timeout` was silently capped at 8 seconds for slow origins. Requests against backends that took more than 8 seconds to send the first response byte would fail with` ERR_SOCKET_TIMEOUT` regardless of the configured` http.timeout` value.\n- Fix issue where Artillery commands could fail at startup with` MODULE_NOT_FOUND` errors for` @smithy/node-config-provider` and` @smithy/config-resolver` .\n\n\n### AWS ECS/Fargate\n\n\n- Fix issue where tests that depend on external npm modules could run with fewer VUs than configured due to undetected worker startup errors.\n\n\n### Artillery Cloud\n\n\n- Fix regression where errors from trace upload requests were not surfaced in the CLI output.\n- Improve reliability of sending metrics and events to Artillery Cloud.\n\n\n## Other improvements & fixes\n\n\n- Improved dependency detection for tests that use external npm modules.\n\n\n### Dependencies\n\n\n- Update OpenTelemetry exporter dependencies\n- Various dependency upgrades\n\n\nFull release notes on GitHub:[https://github.com/artilleryio/artillery/releases/tag/artillery-2.0.32](https://github.com/artilleryio/artillery/releases/tag/artillery-2.0.32)",
+  "published_at": "2026-05-19T00:00:00+00:00",
+  "first_seen_at": "2026-08-15T01:51:45.174359+00:00",
+  "content_hash": "sha256:5a1852334c54ef34bd11d2d5f3b440e67ae90cdd8cbaf29ddc2064804ccf1b17"
+}

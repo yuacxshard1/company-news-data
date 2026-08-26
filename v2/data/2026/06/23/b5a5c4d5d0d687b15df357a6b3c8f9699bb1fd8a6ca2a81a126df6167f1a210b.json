@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b5a5c4d5d0d687b15df357a6b3c8f9699bb1fd8a6ca2a81a126df6167f1a210b",
+  "company_key": "yc-evidence",
+  "company_name": "Evidence",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://evidence.dev/blog/deploy-previews",
+  "canonical_url": "https://evidence.dev/blog/deploy-previews",
+  "title": "Deploy Previews",
+  "summary": "A simple feature reveals a lot about our world view.",
+  "body_markdown": "# Deploy Previews\n\n\n[Adam McAskill June 23, 2026 · 2 min read](https://www.linkedin.com/in/adam-mcaskill-74515720/)\n\n\nA comment on a pull request with a link and a timestamp.\n\n\nDeploy previews are a simple feature but they reveal a lot about our world view. So I wanted to spend a few words on these tiny links.\n\n\n## What is a deploy preview?\n\n\nWhen you open a pull request on an Evidence project, Evidence Studio replies in Github with a comment like this:\n\n\nFollowing that preview link shows you what your users *would* see if you merged the pull request.\n\n\nThese previews sit on their own dedicated url. Your users aren’t seeing them yet but you can get feedback and iterate before you publish. When you commit to the branch, the preview updates.\n\n\n## How are they used?\n\n\nTeams use previews to get feedback on things they’ve been working on *before* they publish them. Modifying a popular internal report or tweaking the footnote in a customer-facing analysis. Whatever the situation, these preview links are helpful when you need another set of eyes.\n\n\nBut, increasingly, these links are the first time any human will lay eyes on the proposed changes.\n\n\nCoding agents are taking over more and more of the work on Evidence projects. When they’re ready to get feedback on their work, they do it in the form of a PR, and a preview link gets appended.\n\n\n## They just… work\n\n\nWe use Linear as our issue tracker at Evidence. Linear surfaces Evidence deploy previews natively in their UI.\n\n\nThat’s not because we built a special integration with Linear. It’s because of how profoundly *normal* this pattern is in software development. A bot leaves a comment on a PR with a link that says “preview”. Linear already knows what that means.\n\n\nAnd that’s where these tiny links get to our worldview.\n\n\nThe Evidence workflow isn’t only legible to Linear. It’s legible to every tool designed to speed up software development. Claude Code, Cursor, Greptile, and whatever comes next.\n\n\nMarkdown, in a repo, under version control. With a mix of people and agents delivering units of work as pull requests. Legible.\n\n\nThere’s an explosion of innovation occurring in coding agents. But from the perspective of these agents most BI tools aren’t legible at all… they’re mostly invisible.",
+  "published_at": "2026-06-23T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T19:04:43.661863+00:00",
+  "content_hash": "sha256:182a7a30bdc9ef56185ca42bae5ab5805fa0e5e3827e0cd5aa8640856422216e"
+}

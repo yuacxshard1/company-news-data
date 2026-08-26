@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "63654951c1a01d6f9144c6a8bc885ad2e21e25bc96747212a6d95bd5611af548",
+  "company_key": "yc-diffusion-studio",
+  "company_name": "Diffusion Studio",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://diffusion.studio/changelog/text-to-lottie-skill-update-1",
+  "canonical_url": "https://diffusion.studio/changelog/text-to-lottie-skill-update-1/",
+  "title": "Text to Lottie skill update",
+  "summary": "Better design taste, stronger motion, chapterized animations, and fewer refinements needed from a single prompt.",
+  "body_markdown": "A big upgrade to the text-to-lottie skill. Better design taste, better motion, fewer random design decisions, and fewer refinements. Simple prompts now produce polished, production ready Lottie animations with Claude Code, Codex, or Cursor.\n\n\n```text\nnpx   skills   add   diffusionstudio/lottie\n```\n\n\n[GitHub - diffusionstudio/lottie: Generate production-ready Lottie animations with Claude Code or Codex github.com](https://github.com/diffusionstudio/lottie)\n\n\n## Better design taste\n\n\nThe skill now produces less generic output. Typography is cleaner, spacing is tighter, and layouts feel more intentional. When no brand is provided, the skill defaults to a premium contrast palette instead of generic gradients and random color choices. The result is output that looks designed, not generated.\n\n\n## Chapterized animations\n\n\nAnimations can now span multiple sequences with proper transitions between chapters. Each chapter has its own timing, composition, and motion, and the seams between them are handled automatically. This makes it possible to build longer, more structured animations from a single prompt.\n\n\n## Stronger motion\n\n\nMotion taste is one of the biggest improvements. Better staggering, better keyframe offsets, better timing, and better coordination between multiple animated properties and objects. The motion feels choreographed, not like everything moves at once. Easing anchors give the skill a vocabulary for describing motion behavior, so results are more consistent across different types of animations.\n\n\n0:00 / 0:00\n\n\n## More examples\n\n\nSimple prompts now produce better results across different use cases. Copy text from a post, ask the skill to animate it, and get a polished Lottie with proper layout and motion.\n\n\n0:00 / 0:00\n\n\n## Output comparison\n\n\nSame one shot prompt. The updated skill produces significantly different results. These two examples show how much the upgrade changed output quality.\n\n\nBefore\n\n\nAfter\n\n\n## What else is new\n\n\n- Skill routing and parallel agent orchestration for faster generation\n- Stronger design QA catches layout and spacing issues before output\n- Improved icon animations\n- Behavior based easing anchors for more consistent timing",
+  "published_at": "2026-06-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T16:21:29.490873+00:00",
+  "content_hash": "sha256:2a09433894267547d3930f12eb1b3a63551f01d987efb5baf88471ff08955933"
+}

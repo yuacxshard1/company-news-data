@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4cb5c7627c09b765f034f6946018a3ad7f2c5ebf3eb5101c195cb8087f34b706",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/time-stuck-kanban-phase-jestor/",
+  "canonical_url": "https://blog.jestor.com/time-stuck-kanban-phase-jestor/",
+  "title": "How Do You Measure the Time a Card Stays Stuck in Each Kanban Phase Using a Single-Select Field?",
+  "summary": "See how to measure the time a card stays stuck in each Kanban phase using a single-select field in Jestor.",
+  "body_markdown": "In **Jestor** , creating a single-select field (like status) and turning on log metrics makes the system automatically track how long each card stays stuck in each phase, and how long it takes to move between stages.\n\n\n### Why measuring this time matters\n\n\nWithout this metric, it's hard to pinpoint which stage of the process is causing bottlenecks. Measuring the time stuck per phase helps point exactly to where the flow is getting stuck, instead of relying on the team's subjective impression.\n\n\n### What log metrics show\n\n\n- How long a card stayed stuck in each specific phase\n- How long it takes to move between one stage and another\n- Aggregated data that helps identify recurring bottlenecks\n- A basis for deciding where to invest improvement effort in the process\n\n\n### How to turn on log metrics in Jestor\n\n\n1. Create or edit a single-select field, like \"status\"\n2. In the field's settings, find the log metrics option\n3. Turn it on to start tracking time per phase\n4. Check the data later on the Kanban or in linked reports\n\n\n### Process automation with real bottleneck data\n\n\nMeasuring time stuck per phase turns **process automation** into something data-driven, letting you prioritize improvements in Jestor based on where the process actually gets stuck, instead of just guessing.\n\n\n### Table Summary\n\n\nLog metric What it shows\n\n\n**Time stuck in phase** How long the card stayed in that stage\n\n\n**Move time** Time between one stage and the next\n\n\n### Video Tutorial: Step by Step\n\n\n*Video: Ep 12: Refining the Registry With Categories — video tutorial showing this feature in practice, right inside the Jestor interface.*\n\n\n## Frequently Asked Questions\n\n\n**Are log metrics turned on by default?** No, you need to turn them on manually in the single-select field's settings.\n\n\n**Does this feature work on any Kanban?** Yes, as long as the status field is a single-select type with logging turned on, on[jestor.com](https://jestor.com/?ref=blog.jestor.com) .\n\n\n**Does the measured time include weekends and holidays?** The metric tracks elapsed time between phase changes, following the field's standard behavior.\n\n\n## Get to Know Jestor\n\n\nWith Jestor, you can automate workflows, connect different areas, and build internal systems your way — all without code and with AI support. Check out Jestor at[jestor.com](https://jestor.com/?ref=blog.jestor.com) and discover how to take your company's management to a new level of efficiency and integration.",
+  "published_at": "2026-07-22T15:51:58+00:00",
+  "first_seen_at": "2026-07-22T15:56:08.729685+00:00",
+  "content_hash": "sha256:f55ab2f0ff7a8b88c12e49563d6ad9bfd93ea273e8d2df3fd4a66beb9b0f12f2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2a2cb7e79b14a81de4de9c49c7143f48b7945059ed3e7d8464b3e0c28c082f73",
+  "company_key": "yc-openlayer",
+  "company_name": "Openlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.openlayer.com/changelog/complete-design-system-overhaul-snowflake-integration",
+  "canonical_url": "https://www.openlayer.com/changelog/complete-design-system-overhaul-snowflake-integration",
+  "title": "Complete design system overhaul, Snowflake Integration",
+  "summary": "Native integrations with OpenAI, Anthropic, CoPilot, OTel, Snowflake, and more. Continuous CI/CD validation, production monitoring, security guardrails, and automated compliance aligned to EU AI Act and NIST.",
+  "body_markdown": "August 21, 2025\n\n\n[Complete design system overhaul, Snowflake Integration](https://www.openlayer.com/changelog/complete-design-system-overhaul-snowflake-integration)\n\n\nThis month, we’re excited to unveil our brand new UI! We’ve defined an improved design system, including updated and thoughtfully-crafted styles and components to give the product a fresh, engaging look and feel. The new design system supports both light and dark modes, so be sure to check out both and find the one that suits you.\n\n\nWith the new look, we’ve made a number of other experience improvements, including adding priority levels for tests, improving the navigation and information hierarchy, and adding more data visualizations throughout the product.\n\n\nWe can’t wait for you to try it out and hear your thoughts.\n\n\n## Features\n\n\n- •\n\n\nUI/UX\n\n\nBrand new UI that's faster, slicker and more enjoyable to use\n- •\n\n\nSDKs\n\n\nSupport tracing Bedrock models\n- •\n\n\nSDKs\n\n\nSupport tracing OpenAI Agents\n- •\n\n\nSDKs\n\n\nSupport tracing Pydantic AI systems\n- •\n\n\nSDKs\n\n\nSupport tracing LangGraph systems\n- •\n\n\nSecurity\n\n\nNew \"Member restricted\" role, which can perform member actions without viewing data source data\n- •\n\n\nIntegrations\n\n\nDirectly connect Snowflake tables to projects\n- •\n\n\nUI/UX\n\n\nView project, datasets and table dropdowns when connecting BigQuery tables\n- •\n\n\nPlatform\n\n\nAllow hosting Openlayer on subpaths in on-prem deployments\n- •\n\n\nPlatform\n\n\nAllow users to override LLM costs with custom costs\n- •\n\n\nEvals\n\n\nInclude standard deviation score in LLM-as-a-judge and Ragas test results\n- •\n\n\nEvals\n\n\nNew prompt injection test to detect adversarial attacks on LLM systems\n\n\n## Improvements\n\n\n- •\n\n\nPlatform\n\n\nRename \"inference pipelines\" to \"data sources\" to capture broader scope\n- •\n\n\nPlatform\n\n\nBetter skipped test messages for metrics that require ground truths\n- •\n\n\nAPI\n\n\nSpeed up endpoints that return record counts and last record date for data sources\n- •\n\n\nEvals\n\n\nShow per-row scores for metrics like semantic similarity, exact match in data tables\n\n\n## Fixes\n\n\n- •\n\n\nEvals\n\n\nTests that use both historical data and auto thresholds were erroring\n- •\n\n\nAPI\n\n\nSpeed up data source creation request\n- •\n\n\nPlatform\n\n\nRe-run tests that are stuck in running state\n- •\n\n\nAPI\n\n\nAllow streaming data with numpy arrays in the body",
+  "published_at": "2025-08-21T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T18:01:08.657570+00:00",
+  "content_hash": "sha256:99befd9f850f323572686ebe8da099b1190c5841fd85be5679b05abcfdfe20ba"
+}

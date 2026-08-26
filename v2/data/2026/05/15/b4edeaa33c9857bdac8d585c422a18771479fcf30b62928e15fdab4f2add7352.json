@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b4edeaa33c9857bdac8d585c422a18771479fcf30b62928e15fdab4f2add7352",
+  "company_key": "yc-terminal",
+  "company_name": "Terminal",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.withterminal.com/changelog#2026-05-15",
+  "canonical_url": "https://docs.withterminal.com/changelog",
+  "title": "2026-05-15",
+  "summary": "",
+  "body_markdown": "### Integration Updates\n\n\n- [Omnitracs XRS](https://docs.withterminal.com/providers/tsp/omnitracs-xrs) now supports[Trips](https://docs.withterminal.com/models/trip) ,` engine_runtime` in[Vehicle Stat Logs](https://docs.withterminal.com/models/vehicle-stat-log) , and[Trailers](https://docs.withterminal.com/models/trailer)\n- [GPS Trackit](https://docs.withterminal.com/providers/tsp/gps-trackit) now maps provider driver IDs onto[Vehicle Locations](https://docs.withterminal.com/models/vehicle-location) when available\n\n\n### Dashboard Updates\n\n\n- The[Terminal Dashboard](https://dashboard.withterminal.com/) now shows a dedicated \"Connection not found\" page for invalid or deleted connection IDs\n\n\n### Consent Flow Updates\n\n\n- Link templates now support regex validation for required` external_id` values, with validation enforced in both Link and` /link/complete`\n\n\n### Feature Updates\n\n\n- Added a read-only Viewer role with tighter role-based access controls across dashboard and API surfaces\n\n\n### API Updates\n\n\n- Added a public usage endpoint:[GET /usage](https://docs.withterminal.com/api-reference/usage/list-usage)\n- Added` connection.pending_deletion` and` connection.deleted` webhook lifecycle events, plus deleted-connection responses that preserve useful audit context\n\n\n### Documentation Updates\n\n\n- Documented the hosted Link` template` query parameter and default-template behavior\n- Updated provider metadata and docs for GPS Insight sample rate ranges and Transit ELD login URL guidance",
+  "published_at": "2026-05-15T13:39:47+00:00",
+  "first_seen_at": "2026-07-26T01:53:49.682680+00:00",
+  "content_hash": "sha256:033b82ca9318a3d0ec3683786eafb2f4e3ce688083bb92c469957ea68ddf6ba5"
+}

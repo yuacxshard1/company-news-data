@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "708749a0812c3afcb4595e804322581292545a46b5bfa1da210e0db024f15e83",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/ditmara-digital-twin-reference-architecture",
+  "canonical_url": "https://unity.com/blog/ditmara-digital-twin-reference-architecture",
+  "title": "Introducing Ditmara: A modular reference architecture for production-grade digital twins",
+  "summary": "Learn how Ditmara’s modular digital twin architecture helps teams map sensors, data pipelines, 3D engines, cloud services, and feedback loops.",
+  "body_markdown": "## **The six-layer architecture**\n\n\nDitmara organizes digital twin concerns into six vertical layers. Data flows upward from the physical world to the services layer; closed-loop feedback flows back down. A parallel MBSE Integration Layer runs alongside, connecting formal systems engineering models to the operational twin.\n\n\n### **Layer 1: Physical**\n\n\nThe boundary between physical and digital. IoT sensors, PLCs, SCADA, LiDAR, GPS, edge devices, and industrial protocols (MQTT, OPC UA, Modbus, PROFINET) all live here. This is where reality enters the system.\n\n\n### **Layer 2: Data ingestion**\n\n\nThe normalization and translation layer. CAD/BIM imports, PLM/PDM connectors, time-series databases, stream processors, MBSE bridges, and[GIS integration via Cesium](https://cesium.com/platform/cesium-for-unity/) (OGC 3D Tiles) or the[ArcGIS Maps SDK](https://developers.arcgis.com/unity/) for Unity/Unreal (for organizations operating within the Esri ecosystem). These are competing, not complementary, solutions. You choose based on where your geospatial data already lives.\n\n\n### **Layer 3: Core processing**\n\n\nThe real-time 3D engine. This is where Unity sits - rendering, simulating physics, running AI inference at runtime, and delivering[immersive XR experiences](https://unity.com/campaign/xr-for-industry) . The framework is engine-swappable by design, but Unity's High Precision Framework,[Physics Engine](https://docs.unity3d.com/6000.5/Documentation/Manual/PhysicsSection.html) , AI inference ([Unity Inference Engine](https://docs.unity3d.com/Packages/com.unity.ai.inference@2.2/manual/index.html) / ONNX), and XR capabilities make it a natural fit across the majority of digital twin use cases.\n\n\n### **Layer 4: Services**\n\n\nAnalytics, machine learning, operator training, and closed-loop command dispatch. This layer generates the actionable intelligence the twin exists to produce.\n\n\n### **Layer 5: Cloud infrastructure**\n\n\nHosting, DevOps, security, CI/CD. Runs on Azure, AWS, or on-premises. Manages version control and multi-platform distribution.\n\n\n### **Layer 6: Model-Based Systems Engineering (MBSE) integration**\n\n\nThe formal systems engineering bridge. SysML models define system architecture and requirements; the operational twin validates and refines those models through real-world data feedback. Every data artifact maintains full lineage from model to sensor to decision.",
+  "published_at": "2026-07-09T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:8d26fefee91bc7e45a73a2f293ea36c1032279e9001ef6b86725eab0bc0aa013"
+}

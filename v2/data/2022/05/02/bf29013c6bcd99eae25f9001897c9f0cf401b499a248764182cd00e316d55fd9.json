@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bf29013c6bcd99eae25f9001897c9f0cf401b499a248764182cd00e316d55fd9",
+  "company_key": "yc-fogbender",
+  "company_name": "Fogbender",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://fogbender.com/blog/fogbender-jira-integration",
+  "canonical_url": "https://fogbender.com/blog/fogbender-jira-integration",
+  "title": "How to configure the Fogbender Jira integration",
+  "summary": "How to configure the Fogbender Jira integration",
+  "body_markdown": "Once configured, the Fogbender Jira integration makes it possible to file Jira tickets directly from a conversations with a customer team.\n\n\nTo configure the integration, go to the Settings section of your Fogbender workspace:\n\n\nUnder Integrations, click the “ADD INTEGRATION” button and select “Jira” from the dropdown.\n\n\n1. **Jira URL →** For example, if your Jira issue dashboard is located at\n\n\n```text\nhttps://alan217.atlassian.net/jira/software/c/projects/AT0/issues/?filter=allissues\n```\n\n\nyour Jira URL is\n\n\n```text\nhttps://alan217.atlassian.net\n```\n\n\n2. **Jira user →** We recommend creating a new non-admin Jira account for this integration. One option is to create an email group such asjira@yourcompany.domain , and use this email for the new Jira account.\n\n\n3. **Project key →** For the Jira URL above, the project key is\n\n\n```text\nAT0\n```\n\n\n4. **API token →** Once the new Jira account is created, sign in with the new account and create an API token here:[https://id.atlassian.com/manage-profile/security/api-tokens](https://id.atlassian.com/manage-profile/security/api-tokens)\n\n\n5. **Webhook URL →** You need admin privileges to configure webhooks, so sign in with your admin Jira account and follow the URL in step 5.\n\n\nAdd` labels = fogbender` in the JQL query input and select all options under **Issue** and **Comment** .\n\n\nThen, click “Create” at the bottom of the page.",
+  "published_at": "2022-05-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T20:41:04.212025+00:00",
+  "content_hash": "sha256:db42156b6494a66b278e35d3a100e9157965a050a6023479b841ba73865798d9"
+}

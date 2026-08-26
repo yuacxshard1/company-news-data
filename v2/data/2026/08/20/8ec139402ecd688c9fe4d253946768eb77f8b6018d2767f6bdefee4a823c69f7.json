@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8ec139402ecd688c9fe4d253946768eb77f8b6018d2767f6bdefee4a823c69f7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
+  "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
+  "body_markdown": "[Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/) now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures sampled wait states and normalized SQL statements for all active cluster sessions. You can use it to diagnose performance issues with your clusters, and identify the queries consuming the most resources.\n\n\nAurora DSQL database insights metrics can be used to analyze your cluster performance using Amazon CloudWatch Database Insights, Amazon CloudWatch PromQL, and Aurora DSQL system diagnostics AI skill. The metric, captured at 1-minute interval, is available by default at no additional cost.\n\n\nThis feature is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Aurora DSQL is available. To learn more about Aurora DSQL database insights, read[the blog](https://aws.amazon.com/blogs/database/amazon-aurora-dsql-observability-concepts-and-usage-with-amazon-cloudwatch/) and see[getting started](https://docs.aws.amazon.com/aurora-dsql/latest/userguide/dsql-db-insights.html) . To learn more about CloudWatch Database Insights, see[pricing](https://aws.amazon.com/cloudwatch/pricing/) and[documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html) .",
+  "published_at": "2026-08-20T16:00:00+00:00",
+  "first_seen_at": "2026-08-22T00:16:56.002121+00:00",
+  "content_hash": "sha256:1b07e13978a1fbe3c043297adb82e6b463631acd5c25e0fc57e3ed77a6ad764b"
+}

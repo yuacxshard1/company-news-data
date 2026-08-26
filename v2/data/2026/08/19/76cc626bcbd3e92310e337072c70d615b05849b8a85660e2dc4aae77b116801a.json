@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "76cc626bcbd3e92310e337072c70d615b05849b8a85660e2dc4aae77b116801a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
+  "title": "Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
+  "body_markdown": "Amazon EC2 now supports creating Amazon Machine Images (AMIs) with local snapshots from instances running on AWS Outposts. This capability makes it easier for customers to create AMIs while storing snapshots directly on the Outpost to meet data residency requirements.\n\n\nCustomers can now create AMIs with snapshots stored either on the Outpost itself or in the parent AWS Region. When keeping data local, EC2 automatically determines the target Outpost from the instance's location — no need to manually specify an Outpost ARN. This also enables customers to integrate AMI creation into their existing backup and lifecycle workflows for instances on Outposts while ensuring data residency requirements are met.\n\n\nThis feature is available in all AWS Regions in which AWS Outposts supports local snapshot storage. To learn more, visit the[documentation](https://docs.aws.amazon.com/ebs/latest/userguide/snapshots-outposts.html) .",
+  "published_at": "2026-08-19T21:30:00+00:00",
+  "first_seen_at": "2026-08-20T18:21:10.269650+00:00",
+  "content_hash": "sha256:ce47dd6f613c0c0c6dab0c4464d781a38ba92fcf9e25a41a3970d1be57f9cb19"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b97c376922d19b759a011e95a0a7353ea9646ec87784c4e910051411dc7ad7da",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
+  "title": "Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
+  "body_markdown": "Amazon Elastic Compute Cloud (Amazon EC2) C8id and M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8id instances are now available in Asia Pacific (Sydney) and Canada (Central) and M8id instances are available in Asia Pacific (Mumbai) and Canada (Central).\n\n\nAmazon EC2 C8id and M8id instances offer 3 times more vCPUs, memory and local storage compared to previous sixth-generation instances. These instances deliver up to 43% higher compute performance and 3.3 times more memory bandwidth compared to previous sixth-generation C6id and M6id instances. They also deliver up to 46% higher performance for I/O intensive database workloads, and up to 30% faster query results for I/O intensive real-time data analytics compared to previous sixth generation instances.\n\n\n-\n\n\n**C8id instances** are ideal for compute-intensive workloads, including those that need access to high-speed, low-latency local storage like video encoding, image manipulation, and other forms of media processing.\n\n\n-\n\n\n**M8id instances** are best for workloads that require a balance of compute and memory resources along with high-speed, low-latency local block storage, including data logging, media processing, and medium-sized data stores.\n\n\nAdditionally, customers can now adjust the network and Amazon EBS bandwidth on these instances by 25% using EC2 instance bandwidth weighting conﬁguration, providing greater ﬂexibility with the allocation of bandwidth resources to better optimize workloads. These instances offer Elastic Fabric Adapter (EFA) networking on 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes.\n\n\nCustomers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information visit the[Amazon EC2 C8id](https://aws.amazon.com/ec2/instance-types/c8i/) and[Amazon EC2 M8id](https://aws.amazon.com/ec2/instance-types/m8i/) pages.",
+  "published_at": "2026-08-25T20:00:00+00:00",
+  "first_seen_at": "2026-08-26T17:36:22.759606+00:00",
+  "content_hash": "sha256:b00639a00727613d66901803b724ea95f6ee2dea3ba31909dfb2e9b469e77f94"
+}

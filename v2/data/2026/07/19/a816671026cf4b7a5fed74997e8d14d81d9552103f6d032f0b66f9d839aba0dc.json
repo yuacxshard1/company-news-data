@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a816671026cf4b7a5fed74997e8d14d81d9552103f6d032f0b66f9d839aba0dc",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/removed-user-inactive-preserves-history/",
+  "canonical_url": "https://blog.jestor.com/removed-user-inactive-preserves-history/",
+  "title": "Why does a removed user show as inactive instead of being deleted, and what does that preserve in the history?",
+  "summary": "Understand why a removed user shows as inactive instead of being deleted in Jestor, and what that preserves in the history.",
+  "body_markdown": "In **Jestor** , removing a user doesn't delete them from the system: their status changes to inactive, specifically to preserve the history of everything that person changed on records in the past.\n\n\n## Why this logic exists\n\n\nIf a user were completely deleted, the entire history of actions they performed — such as changes to cards, approvals, and record updates — would lose its reference to who did what. By keeping the user as inactive, Jestor guarantees that any entry in the history correctly continues to show that person was responsible for a given change, even though they no longer have access to the account.\n\n\nStatus What it means\n\n\n**Active** User with normal access to the account\n\n\n**Inactive** Removed user, no access, but with history preserved\n\n\n## How to check inactive users\n\n\n1. Go to the user management area.\n2. Use the status filter to view only inactive, active, or all users.\n3. Confirm that inactive users are exactly the ones removed earlier.\n4. Check the table's history to see actions performed by those users in the past.\n\n\n## Why choose Jestor\n\n\n- **Intact history** : no change loses its authorship reference, even after a user is removed.\n- **Clear management filters** : you can quickly view just the active ones, just the inactive ones, or everyone.\n- **Reorganized visuals** : the user management area also works in dark mode.\n\n\n### Can an inactive user access the account again?\n\n\nNo. Inactive status means the user was removed and no longer has access; only their action history remains recorded.\n\n\n### Can you see how many inactive users an account has?\n\n\nYes, the status filter lets you see exactly how many users are inactive, active, or any other status.\n\n\n### Does an inactive user still occupy a seat in the account?\n\n\nThe user management area shows the count of available seats, which helps track account usage as users are removed or added.\n\n\n## Reference video\n\n\nCheck out more hands-on tutorials on the Jestor YouTube channel.\n\n\n## Get to know Jestor\n\n\nWith Jestor, you can automate workflows, connect teams, and build internal systems your way — all without code and powered by AI.\n\n\nDiscover Jestor at[jestor.com](https://www.jestor.com/?ref=blog.jestor.com) and see how to take your company's operations to a new level of efficiency and control.",
+  "published_at": "2026-07-19T05:42:21+00:00",
+  "first_seen_at": "2026-07-20T23:23:58.972603+00:00",
+  "content_hash": "sha256:a205551dd8de38c4e3b8a16c46438a178e5f1836a0675f0ab6e3cdd14f8a7122"
+}

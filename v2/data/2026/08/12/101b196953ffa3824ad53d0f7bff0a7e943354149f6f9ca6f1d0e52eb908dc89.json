@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "101b196953ffa3824ad53d0f7bff0a7e943354149f6f9ca6f1d0e52eb908dc89",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/bulk-prepare-retry-on-transient-failure",
+  "canonical_url": "https://supabase.com/changelog/bulk-prepare-retry-on-transient-failure",
+  "title": "Fixed daily backups occasionally skipped due to a scheduling timeout",
+  "summary": "Fixed daily backups occasionally skipped due to a scheduling timeout",
+  "body_markdown": "The job that schedules daily backups checks which projects are due on a strict time budget. Under database replica lag, that check could exceed its budget, and with no retry in place the whole 10-minute scheduling window was silently dropped fleet-wide — any project due in that window missed its backup for the day.\n\n\nBackup scheduling now retries on failure, anchored to its original scheduled window so a retry can't skip or re-scan the wrong projects, reads eligibility from the primary database instead of a replica to avoid the lag that triggered the timeout, and no longer lets a project in an unroutable region crash the whole scheduling run. A companion fix (supabase/platform#36499) addresses the underlying slow query.",
+  "published_at": "2026-08-12T00:00:00+00:00",
+  "first_seen_at": "2026-08-20T13:52:16.216944+00:00",
+  "content_hash": "sha256:1319af76096a02e64ea88a7e41613db00116f64ff8c2ea0e820709e1c59fd0a4"
+}

@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-iomete",
+      "company_name": "IOMETE",
+      "doc_id": "9e43c0b946bf1c1f264c56b6d04211f48f3b1bb95714dd5e39815a476161713f",
+      "first_seen_at": "2026-08-06T15:15:58.169223+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How we built disaster recovery for IOMETE, the active/passive architecture, the gap Kubernetes-native state creates during failover, and the secret-sync and CRD-sync tooling we built to close it.",
+      "title": "How We Built Disaster Recovery for IOMETE Without Changing the Platform"
+    },
+    {
+      "company_key": "yc-iomete",
+      "company_name": "IOMETE",
+      "doc_id": "af1018098596e1dc28314b81a6ef7f059fb82ddc8d60d929c62b0c6530fb92b2",
+      "first_seen_at": "2026-08-07T20:29:46.398247+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What control plane and data plane mean in Kubernetes (API server, etcd, scheduler, kubelet, CNI, CRI, CSI), and how that same split shows up inside IOMETE, from its own microservices down to Spark pods and namespaces.",
+      "title": "Control Plane vs Data Plane in Kubernetes and IOMETE"
+    }
+  ],
+  "company_key": "yc-iomete",
+  "month": "2026-08"
+}

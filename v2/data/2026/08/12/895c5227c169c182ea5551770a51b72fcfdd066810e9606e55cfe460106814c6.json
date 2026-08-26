@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "895c5227c169c182ea5551770a51b72fcfdd066810e9606e55cfe460106814c6",
+  "company_key": "yc-simplifyd-systems",
+  "company_name": "Simplifyd Systems",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://simplifyd.com/blog/ship-a-static-site-without-a-dockerfile",
+  "canonical_url": "https://simplifyd.com/blog/ship-a-static-site-without-a-dockerfile",
+  "title": "Ship a static site without writing a Dockerfile",
+  "summary": "Static sites on Simplifyd are served straight from object storage. Here is the whole path from built assets to a custom domain with a certificate.",
+  "body_markdown": "Most front ends do not need a container. They need a bucket, a CDN edge and a certificate. But the standard cloud workflow still asks you to write a Dockerfile, pick a base image, configure nginx and keep all three patched — for a folder of files that never executes anything.\n\n\nSimplifyd has a static site service type that skips the whole detour. You create the service, publish your built assets, and they are served from object storage behind our edge.\n\n\n## Create the service\n\n\nFrom the console, create a service and choose Static site. There is no image to pick and no port to expose, because nothing is running — the bucket is the service.\n\n\n## Publish your files\n\n\nFiles are published inline through the API, so anything that can make an HTTP request can deploy. The CLI wraps it:\n\n\n```text\nnpm run build\nsimplifyd static publish ./dist\n```\n\n\nThat last command replaces the previous contents in place. There is no build step on our side to wait for and no window where half the old site is serving next to half the new one.\n\n\n## Or let an agent do it\n\n\nBecause publishing is a plain API call rather than a Docker build, an AI agent connected over MCP can deploy for you. Point Claude at your repo, connect the Simplifyd MCP server, and \"build this and publish it\" is a single instruction — no local Docker daemon, no registry login, no CI runner.\n\n\nThis was the actual reason we built inline publishing the way we did. An agent cannot run a Docker build inside a chat session, but it can absolutely send files to an endpoint.\n\n\n## Attach your domain\n\n\nCustom domains attach as bucket aliases and certificates are issued automatically. Point a CNAME at the address we give you and the certificate follows.\n\n\n> A static site should cost you one command and one DNS record. Everything past that is accidental complexity someone else decided you needed.\n\n\nIf you have been putting off moving a marketing site or a docs build because the container work was not worth it, this is the path that removes the excuse.",
+  "published_at": "2026-08-12T09:00:00+00:00",
+  "first_seen_at": "2026-08-25T08:17:01.984119+00:00",
+  "content_hash": "sha256:e49a828c752ff1ff2b75ecbd0ce9cf18ec8b755003934c411afb0d8260e4270e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c5aa809042a5aad4f627cd58b99afdb23004d9f6f01ff6a957bd1a021321f63a",
+  "company_key": "yc-cubic",
+  "company_name": "cubic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.cubic.dev/blog/skills-mcp-launch-week-03-day-4",
+  "canonical_url": "https://www.cubic.dev/blog/skills-mcp-launch-week-03-day-4",
+  "title": "cubic blog: Skills & MCP | Launch Week 03, Day 4",
+  "summary": "cubic, now inside your IDE for every coding agent.",
+  "body_markdown": "cubic has always reviewed your code after you pushed it, in Github.\n\n\nToday, we bring its power into your IDE.\n\n\n## How it works\n\n\nWith the new MCP and skills, your local coding agent can directly interact with cubic.\n\n\nPull architectural context from your cubic wiki before you plan. Surface your team's coding standards while you write. Run a local review before you push. Fetch and address GitHub review comments without leaving your editor.\n\n\nOne install, works across all coding agents.\n\n\n` npx @cubic-plugin/cubic-plugin install`\n\n\n## 9 MCP tools\n\n\nYour coding agent can now call cubic directly:\n\n\n-\n\n\n**Reviews Comments** — pull review comments without leaving your editor\n\n\n-\n\n\n**Wiki** — query AI-generated documentation about your codebase architecture\n\n\n-\n\n\n**Review Learnings** — surface your team's coding patterns and conventions\n\n\n-\n\n\n**Codebase Scans** — check scan results and drill into findings\n\n\nThese are not summaries. They are the same tools cubic uses internally, exposed as MCP endpoints your agent calls on demand.\n\n\n## 5 skills that give your agent superpowers\n\n\nSkills trigger based on what you are doing. You do not need to remember commands or configure triggers.\n\n\n**Skill**\n\n\n**Triggers when**\n\n\n**What it does**\n\n\n**check-pr-comments**\n\n\nYou mention PR comments or review feedback\n\n\nFetches unresolved cubic comments, fixes the real issues, commits, pushes, and resolves threads\n\n\n**run-review**\n\n\nYou say \"review my code\" or want a pre-commit check\n\n\nRuns a local cubic review via CLI and surfaces issues by priority\n\n\n**cubic-loop**\n\n\nYou say \"loop until clean\" or want to polish before merge\n\n\nReviews, fixes, re-reviews — repeats until clean or max iterations\n\n\n**codebase-context**\n\n\nYou ask how something works\n\n\nQueries cubic's AI-generated wiki for architectural context\n\n\n**review-patterns**\n\n\nYou are writing or reviewing code\n\n\nPulls your team's learned conventions so your code matches on the first try\n\n\nInstall cubic MCP and skills now with:\n\n\n` npx @cubic-plugin/cubic-plugin install`\n\n\nAvailable today on all cubic plans.[docs.cubic.dev/skills](https://docs.cubic.dev/skills)",
+  "published_at": "2026-04-16T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T06:53:38.364034+00:00",
+  "content_hash": "sha256:68006831e7a79a9e5ce0916977d42ccaa8828f757e5718288e912d37e618c685"
+}

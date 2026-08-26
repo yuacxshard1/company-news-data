@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7f05be37be49cc841db7e836078e557b69205868e8a3e330891390ed5c97275a",
+  "company_key": "yc-enode",
+  "company_name": "Enode",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://enode.com/blog/product-updates/high-resolution-vehicle-images-now-in-enode-api",
+  "canonical_url": "https://enode.com/blog/product-updates/high-resolution-vehicle-images-now-in-enode-api",
+  "title": "High-resolution vehicle images now in Enode API | Enode",
+  "summary": "The Enode API now includes an imageUrl field for every supported vehicle model — studio-quality images served via CDN with flexible sizing, format, and compression options.",
+  "body_markdown": "For many people, a car is more than just transportation. They research thoroughly before buying, choosing one that reflects who they are and what they value. Car brands understand this: open any of their apps as an owner, and your vehicle is displayed proudly and prominently.\n\n\nWe share this sentiment. Starting today, the Enode API includes an imageUrl for all vehicle objects. Every supported model comes with a studio-quality image, ready to display in your app.\n\n\n## Consistent by design\n\n\nAll images share a uniform, professional aesthetic: side profile, studio lighting, and a black finish, fitting for any app or interface. We offer one image per model, independent of individual user configurations.\n\n\n## Built for scale\n\n\nImages are served through a global CDN with flexible transformation options:\n\n\n- **Custom sizing:** Request any width from 1 to 2048 pixels\n- **Modern formats:** PNG, WebP, and AVIF\n- **Quality control:** Fine-tune compression for your performance requirements\n\n\nA single URL with query parameters gets you exactly what you’re after: https://cdn.images.enode.com/assets/{id}.webp?width=400&quality=85\n\n\n## Available now\n\n\nThe imageUrl field is now available for all supported vehicle models. It’s included in the GET /vehicles/{id} response and in webhook payloads, and it doesn’t require any migration or incur additional cost.\n\n\n## Looking ahead\n\n\nWe started with studio-rendered representations, and have since begun delivering personalized, real-world vehicle imagery based on end-user configurations — including color and rims. Expect this level of detail to expand across more makes and models going forward.\n\n\n→[API Reference](https://developers.enode.com/api/reference#getVehicle)",
+  "published_at": "2026-02-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T18:15:11.081738+00:00",
+  "content_hash": "sha256:2ceb433e64e65b520249f20b8835a340d44974aad6bc003bc964479e1ab8ec86"
+}

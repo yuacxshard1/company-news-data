@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ea9ca1d8b0a46b8b20c65d4b50e2993d5cc9a9f7d1ed40bbc4e9e9c03bad0fa4",
+  "company_key": "yc-sst",
+  "company_name": "SST",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://sst.dev/blog/issues-container-support",
+  "canonical_url": "https://sst.dev/blog/issues-container-support/",
+  "title": "Issues container support",
+  "summary": "Issues now reports errors from container applications.",
+  "body_markdown": "[Blog](https://sst.dev/blog)\n\n\n# Issues container support\n\n\n[Jay](https://x.com/jayair) March 4, 2025\n\n\n[Issues](https://sst.dev/docs/console#issues) now reports errors from Node.js container applications. Previously, only errors from Lambda functions were reported.\n\n\n---\n\n\n### Reporting errors\n\n\nFor the Console to automatically report errors, you need to` console.error` an error object.\n\n\nsrc/index.ts\n\n\n```text\nconsole  .  error  (  new     Error  (  \"  my-error  \"  ));\n```\n\n\nIn container applications, your code needs to also import the[SST JS SDK](https://sst.dev/docs/reference/sdk/) .\n\n\nsrc/index.ts\n\n\n```text\nimport     \"  sst  \"  ;\nconsole  .  error  (  new     Error  (  \"  my-error  \"  ));\n```\n\n\nThis applies a polyfill to the` console` object to prepend the log lines with a marker that allows Issues to detect errors.\n\n\nIf you are already importing the SDK, you won’t need to add an additional import.\n\n\n---\n\n\n### How it works\n\n\nIssues works by adding a log subscriber to the CloudWatch Log groups in your SST apps. This has a filter that matches anything that looks like an error.\n\n\nIn the case of Lambda functions, the Lambda runtime automatically adds a marker to the logs that the filter matches for. For containers, the SST SDK polyfills the` console` object to add the marker.\n\n\n[Learn more about Issues](https://sst.dev/docs/console#issues) .",
+  "published_at": "2025-03-04T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T01:49:09.857782+00:00",
+  "content_hash": "sha256:22baf8601f4ef1afaa062a1d34016e52b06dcb401ecfe37c541eae477d73f269"
+}

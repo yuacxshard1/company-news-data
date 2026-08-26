@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "aa7a6ce4014e0786df13c58bf41b5afb49add88d590bbf2212aa736b6e3d1d8b",
+  "company_key": "yc-finta",
+  "company_name": "Finta",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.finta.io/changelog/introducing-storage-mode",
+  "canonical_url": "https://www.finta.io/changelog/introducing-storage-mode",
+  "title": "Introducing Storage Mode",
+  "summary": "Finta can now keep a durable copy of your financial data — so your syncs stay resilient and your data is ready for the API and AI tools. By default, Finta ru...",
+  "body_markdown": "**Finta can now keep a durable copy of your financial data — so your syncs stay resilient and your data is ready for the API and AI tools.**\nBy default, Finta runs in pass-through mode: when a sync runs, we fetch your data from your bank or payment provider and push it straight to your destination, without holding onto anything in between. Storage mode changes that. Turn it on and Finta keeps a synced copy of your accounts, transactions, balances, and investments on our end.\n\n\n## What you can do\n\n\n- **Keep syncing through bank errors** — when a connection has an issue or a provider has an outage, your last-known data is already stored, so your destinations stay up to date.\n- **Unlock programmatic and AI access** — storage mode is the foundation for the Finta API and the new[Finta MCP](https://www.finta.io/changelog/finta-mcp-is-in-beta) , which let tools and AI assistants read your data instantly.\n- **Watch your backfill in real time** — flip it on and see each bank connection fill in, connection by connection.\n- **Stay in control** — turn it off whenever you want. When you do, we hard-delete every stored record. No soft deletes, no leftovers.\n\n\n## Get started\n\n\nTurn on storage mode from **Settings → Data** . Finta starts pulling in your history right away, and once the backfill finishes you're fully set up.\nRead the[storage mode guide](https://docs.finta.io/getting-started/storage-mode) for exactly what Finta stores and answers to common questions.\n\n\n[Finta MCP is in Beta June 12, 2026](https://www.finta.io/changelog/finta-mcp-is-in-beta)[Restore Archived Rules February 23, 2026](https://www.finta.io/changelog/restore-archived-rules)",
+  "published_at": "2026-06-05T12:00:00+00:00",
+  "first_seen_at": "2026-07-25T04:54:26.845641+00:00",
+  "content_hash": "sha256:f930207ca18ae33a3ee631214b9a625fef243f8b68d75859c61d5ca995fb2a4f"
+}

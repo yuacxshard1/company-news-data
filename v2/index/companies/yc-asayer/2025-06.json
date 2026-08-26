@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "0e68cf315b5aef8d06dc932c1002bd12e0a02357175f86b45ea08d1fe1db8466",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2025-06-18T18:17:12+00:00",
+      "source_kind": "rss",
+      "summary": "Is there a build guide for compiling/bundling the openreplay-assist.js script from the source? I have tried building the tracker and tracker-assist module but encountered several issues. When I try to build it using bun run build I get several compile errors, after some tweaking on the code I was able to run the build successfully. But the rollup config file inside the tracker directory only produces code with cjs and es format s. The tracker-assist plugin doesn’t even have a rollup config. ...",
+      "title": "How to build openreplay-assist.js from source?"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "2d1b3a1d3a8a6e5dfe9c50ba0c298ae1f54834767e3d80e44dda5ad869badf5f",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2025-06-24T17:59:38+00:00",
+      "source_kind": "rss",
+      "summary": "I read the official document and tried to setup the server for self hosted version of open replay. But i am getting errors due to which i couldn’t do it successfully. Can anyone help me please?",
+      "title": "How i can setup a server for self hosted version of open replay?"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "43a21d67c4de39bdea0c3e8f04c54e902f22c4c7dcb2caf8d782c2d20d351f81",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2025-06-24T18:00:44+00:00",
+      "source_kind": "rss",
+      "summary": "I have self hosted an openreplay instance on AWS, i have used an AWS Load Balancer to handle SSL. he DNS provider is cloudflare ( i am aware of the proxy-body-size bug and have changed it to 40m from a default value of 10m) Here is the output of openreplay -s This machine is AMD (x86_64) architecture. �[0;32m[INFO] Using KUBECONFIG /etc/rancher/k3s/k3s.yaml �[0m �[1;37m- Checking OpenReplay Components Status �[0m �[0;32m[INFO] OpenReplay Version �[0m v1.22.0 �[0;32m[INFO] Disk �[0m Filesyste...",
+      "title": "Self hosted spot keeps crashing"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "603669bcd6153c12099b07aec9b239dce55ab0916213411683f0191fd1950877",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2025-06-24T17:59:07+00:00",
+      "source_kind": "rss",
+      "summary": "In the above screenshot you’ll see the warning that the sourcemaps must be uploaded to openreplay. However, we’re uploading the sourcemaps via our CI/CD to our selfhosted openreplay server See the above image where the sourcemaps are uploaded to the self hosted openreplay server successfully.",
+      "title": "Self hosted openreplay unable to read the uploaded sourcemaps"
+    }
+  ],
+  "company_key": "yc-asayer",
+  "month": "2025-06"
+}

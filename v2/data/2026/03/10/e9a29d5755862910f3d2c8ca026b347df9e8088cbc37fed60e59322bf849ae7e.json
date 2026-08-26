@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e9a29d5755862910f3d2c8ca026b347df9e8088cbc37fed60e59322bf849ae7e",
+  "company_key": "yc-endla",
+  "company_name": "Endla",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://endla.com/stories/network-topology-processing/",
+  "canonical_url": "https://endla.com/stories/network-topology-processing/",
+  "title": "Network Topology Processing",
+  "summary": "Automatically rebuild and maintain pipeline topology from GIS with governed processing and quality controls.",
+  "body_markdown": "## The Challenge\n\n\nGIS processing into a usable format is manual, time-consuming, and error-prone.\n\n\n## Our Solution\n\n\nAutomated topology processing reduces engineering time and applies systematic rules for greater consistency across operations.\n\n\n## Build a Live Network Model Straight from Your GIS\n\n\nDeep Insight consumes your latest GIS services so the network model is never out of date. Each sync assigns fields, networks, and design phases automatically, stitching everything into a topology that is ready for modelling the moment designs change.\n\n\n- **Source Connectivity:** Connect GeoServer, ArcGIS, or file exports once for recurring syncs.\n- **Layer Mapping:** Map GIS layers to governed pipeline entities.\n- **Governed Phasing:** Keep design phases and alignments governed without redraws.\n\n\n## Proprietary Topology Processing Fixes Broken Geometry at Scale\n\n\nOverlapped, duplicate, and disconnected lines are resolved before the model lands in engineering workflows. The processor has delivered tens of thousands of corrections in a single run, so you start with geometry that behaves.\n\n\n- **Geometry Cleanup:** Deduplicate overlaps and coils that inflate flow paths.\n- **Chain Repair:** Insert validated connectors to repair broken chains.\n- **Gap Visibility:** Flag geometry gaps so data debt is measurable.\n- **Scale:** Process 100k+ automated fixes in one operator GIS.\n\n\n## Health Metrics Highlight Deltas and the Topology Editor Fixes Them Fast\n\n\nEvery batch ships with health scores so engineers see deltas instantly, then resolve edge cases in an intuitive topology editor. Corrections are captured for future syncs so fixes stick.\n\n\n- **Health Scoring:** Flag additions, removals, and reroutes for review.\n- **Connectivity Checks:** Confirm each field drains to the correct sink.\n- **Guided Editing:** Capture manual fixes without breaking sync logic.",
+  "published_at": "2026-03-10T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T08:41:52.802729+00:00",
+  "content_hash": "sha256:0483d574d24f4e8ad4212abceeabc1c9bb84321131b6d78dd6522a79bec178bc"
+}

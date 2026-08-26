@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d401acfd07978ac496de7b89c9f334d17454961b2834827e5856fff7dff3301c",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/27-10-2025",
+  "canonical_url": "https://browser-use.com/changelog/27-10-2025",
+  "title": "Profile Use",
+  "summary": "Cloud agents now access your local Chrome sessions, cookies, and login states.",
+  "body_markdown": "Sync your local Chrome profile to the cloud. Your agents can now use authenticated sessions, cookies, and preferences from your local browser.\n\n\n```text\nexport   BROWSER_USE_API_KEY  =  bu_ab1...\ncurl   -fsSL   https://browser-use.com/profile.sh   |   sh\n```",
+  "published_at": "2025-10-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:d9ffcd9c293b8f815b920b9369203854aa944e2e6c27d23f4d5047475a338cec"
+}

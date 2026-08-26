@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b8a1b33d653e74b6ab3b1e85524bc229bcf3f0316c670a555184aa47eeb2c606",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/webmin-2-621-and-usermin-2-521-released/136425",
+  "canonical_url": "https://forum.virtualmin.com/t/webmin-2-621-and-usermin-2-521-released/136425",
+  "title": "Webmin 2.621 and Usermin 2.521 released",
+  "summary": "Howdy all, We’ve rolled out Webmin 2.621 and Usermin 2.521 to all Virtualmin repos. Changes since 2.620 and 2.520: Fix to prevent NAT from dropping idle RPC sessions during long transfers Fix to improve the message when socket authentication is used in the MySQL/MariaDB module Fix to make upload tracking work correctly in all situations and on all systems Fix to correctly display the PHP version in the PHP Configuration module when managing packages Update Xterm.js to the latest version with...",
+  "body_markdown": "# [Webmin 2.621 and Usermin 2.521 released](https://forum.virtualmin.com/t/webmin-2-621-and-usermin-2-521-released/136425)\n\n\n[News](https://forum.virtualmin.com/c/news/5)\n\n\n[Ilia](https://forum.virtualmin.com/u/Ilia)\n\n\nJanuary 27, 2026, 5:08pm 1\n\n\nHowdy all,\n\n\nWe’ve rolled out Webmin 2.621 and Usermin 2.521 to all Virtualmin repos.\n\n\nChanges since 2.620 and 2.520:\n\n\n- Fix to prevent NAT from dropping idle RPC sessions during long transfers\n- Fix to improve the message when socket authentication is used in the MySQL/MariaDB module\n- Fix to make upload tracking work correctly in all situations and on all systems\n- Fix to correctly display the PHP version in the PHP Configuration module when managing packages\n- Update Xterm.js to the latest version with lots of improvements and fixes\n- Update Authentic theme to the latest version with various improvements and fixes:\n\n\n- Fix the support for the cloned Terminal module\n- Fix error handling for file uploads when the user is out of quota or the system is out of disk space in the File Manager module\n- Fix to stop loading full file into memory for upload check to prevent memory leak on large uploads in the File Manager module\n- Fix to permanently save the state of the navigation menu and right-side slider when toggled\n\n\n4 Likes\n\n\n[system](https://forum.virtualmin.com/u/system) Closed\n\n\nFebruary 6, 2026, 5:08pm 2\n\n\nThis topic was automatically closed 10 days after the last reply. New replies are no longer allowed.",
+  "published_at": "2026-01-27T17:08:23+00:00",
+  "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+  "content_hash": "sha256:3a92ef0722b7b3494e3e623de2bbc4a9d95a32a5c4a787f9b388953aa9db4571"
+}

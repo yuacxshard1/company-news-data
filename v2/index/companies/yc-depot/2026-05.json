@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "28c4845efde94032e2d0a1fe0056b9b1728495e3e29e5ed9ec7f3a2b20f122da",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-05-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The longer I worked on a problem with a coding agent, the dumber it felt. My context window was a junk drawer. Here's the multi-role loop I built so plans, builds, and reviews each get their own clean context.",
+      "title": "Context isolation in coding agent loops"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "379a48380d10d4ed4ff9c2952359edacf0b5c33e0c17ff7c6818f1bef3e5efd3",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-05-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Most CI jobs run as one long serial script even when half the work doesn't depend on the other half. You can run independent steps in parallel for faster CI. We'll compare two ways to do it: shell backgrounding and Depot CI's parallel steps.",
+      "title": "Speed up CI by running independent steps in parallel"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "6eb18ffbf8a873fef3ef85cd20479580b3a7a341d53c2d4ae11c891af7615b0b",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-05-27T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Sherlock can now analyze Depot CI workflows and jobs directly from the dashboard, using run context, attempts, step details, logs, summaries, and resource metrics to help you understand failures and slow jobs faster.",
+      "title": "Now available: Sherlock can analyze Depot CI workflows and jobs"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "6ecf5ab632253367b34ad2c479c8a4fc74b3c513cdb6de457dde5e22a52b8435",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-05-20T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We're excited to announce that Depot CI sandboxes now support nested virtualization which enables efficient Android Emulator usage.",
+      "title": "Now available: Nested virtualization support on Depot CI sandboxes"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "fa9d49c2de05106022ec18b7d9979868016ea23889b2fc6620640ae917e9055e",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-05-06T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Depot CI's VM scheduler is just-in-time: no pre-warming, no warm pool of standby VMs. We stacked optimizations to get microVM cold boots from 7 to 9 seconds down to under a second, and this post walks through each one.",
+      "title": "How we got microVMs booting in under a second"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2026-05"
+}

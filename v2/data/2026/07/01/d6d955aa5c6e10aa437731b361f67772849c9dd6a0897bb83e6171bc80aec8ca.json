@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d6d955aa5c6e10aa437731b361f67772849c9dd6a0897bb83e6171bc80aec8ca",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ansible-repo-ansible-cfg",
+  "canonical_url": "https://www.windmill.dev/changelog/ansible-repo-ansible-cfg",
+  "title": "Use a repo-provided ansible.cfg when delegating to a git repository",
+  "summary": "Ansible scripts that delegate to a git repository can set the new ansible_cfg field, a repo-relative path to an ansible.cfg that becomes the effective configuration via ANSIBLE_CONFIG, so repo settings like roles paths, inventory plugins and callbacks apply. Windmill only re-applies runtime-bound settings (temp directories, vault password) and prepends its own roles and collections install paths. Requires workers running with DISABLE_NSJAIL=true; without the field, Windmill's generated config takes precedence as before.",
+  "body_markdown": "### [Use a repo-provided ansible.cfg when delegating to a git repository](https://www.windmill.dev/changelog/ansible-repo-ansible-cfg)\n\n\nScript editor\n\n\nAnsible\n\n\n[v1.744.0](https://github.com/windmill-labs/windmill/releases/tag/v1.744.0)\n\n\n[Docs](https://www.windmill.dev/docs/getting_started/scripts_quickstart/ansible#using-the-repos-ansiblecfg)\n\n\nAnsible scripts that delegate to a git repository can set the new ansible_cfg field, a repo-relative path to an ansible.cfg that becomes the effective configuration via ANSIBLE_CONFIG, so repo settings like roles paths, inventory plugins and callbacks apply. Windmill only re-applies runtime-bound settings (temp directories, vault password) and prepends its own roles and collections install paths. Requires workers running with DISABLE_NSJAIL=true; without the field, Windmill's generated config takes precedence as before.\n\n\n#### New features\n\n\n- New optional ansible_cfg field in the delegate_to_git_repo block, taking a path relative to the cloned repo root\n- ANSIBLE_CONFIG points at the repo config so its roles paths, inventory plugins, callbacks, host_key_checking and ssh settings apply\n- Windmill layers back only runtime-bound settings: temp/home directories in the job dir and vault password/identities from the script metadata\n- Windmill-managed galaxy install locations are prepended to the roles_path and collections_path declared in the repo config\n- The field supports {{ argname }} placeholders like playbook, commit and inventories_location\n- The job fails with a clear error if the file is missing from the cloned repo; without the field, behavior is unchanged",
+  "published_at": "2026-07-01T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+  "content_hash": "sha256:4bd7d306afbf16766cd2f31c0d4efcaaa1d3bb9375b299ae797188721fd0f163"
+}

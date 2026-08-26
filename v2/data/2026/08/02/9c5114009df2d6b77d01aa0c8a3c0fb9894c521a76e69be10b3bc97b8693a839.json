@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9c5114009df2d6b77d01aa0c8a3c0fb9894c521a76e69be10b3bc97b8693a839",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/multi-step-approvals-jestor/",
+  "canonical_url": "https://blog.jestor.com/multi-step-approvals-jestor/",
+  "title": "Use Jestor to build multi-step approvals",
+  "summary": "See how to use Jestor to build multi-step approvals, with a clear hierarchy. Learn how to configure it.",
+  "body_markdown": "**Multi-step approvals** happen when more than one person needs to validate the same request in order — for example, a direct manager approves first, then finance confirms. **Jestor** organizes this with **Approvals** and a clear **approval hierarchy** by step.\n\n\n### When Does a Process Need Multiple Approval Steps?\n\n\nThis usually happens when the request amount is high, when it involves more than one cost center, or when company policy requires more than one person validating before execution.\n\n\n### How Do You Configure Multi-Step Approvals in Jestor?\n\n\n- Define the order of the approval hierarchy (who approves first, who approves next).\n- Configure **Approvals** so the **Approval Request** only advances after the previous step is validated.\n- Define what happens if an approver rejects it partway through.\n- Test the workflow with a real request before rolling it out to the whole team.\n\n\n### What Does Jestor Deliver for This Type of Workflow?\n\n\n- **Approvals** lets you configure more than one validation step for the same request, following the **approval hierarchy** the company defines.\n- **Approval Requests** only move to the next phase once the current step's approver confirms, with no step skipped.\n- The full approval history is recorded, with the date and owner of each step.\n\n\nStep Owner\n\n\n**1st approval** Direct manager\n\n\n**2nd approval** Finance or cost center\n\n\n**Final posting** Automatic, after all steps\n\n\n### Frequently Asked Questions\n\n\n### How Many Approval Steps Does Jestor Support?\n\n\nThere's no fixed limit — the hierarchy is configured according to the company's policy.\n\n\n### What Happens if an Approver Rejects Partway Through the Workflow?\n\n\nThe request stops at that step and the requester is notified, without advancing to the next approvals.\n\n\n### Is the History of Each Approval Recorded?\n\n\nYes, it records who approved, when, and at which step, for later reference.\n\n\nWith Jestor, you can automate workflows, connect teams, and build internal systems your way — all without code and powered by AI. Discover Jestor at jestor.com and see how to take your company's operations to a new level of efficiency and control.",
+  "published_at": "2026-08-02T00:02:43+00:00",
+  "first_seen_at": "2026-08-02T02:38:17.792045+00:00",
+  "content_hash": "sha256:41be6b0d15c17880b7689250e37dfc5a1b5b89968e0aa699939c686a7846e59b"
+}

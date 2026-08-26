@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1d2990af18daac0649a946cd7ddfa9690f1e3c57802578e075e7bcb41a11a366",
+  "company_key": "yc-the-context-company",
+  "company_name": "The Context Company",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.thecontextcompany.com/blog/tcc-mcp-and-api-server",
+  "canonical_url": "https://www.thecontextcompany.com/blog/tcc-mcp-and-api-server",
+  "title": "Launching The Context Company MCP and API Server",
+  "summary": "Production agent data should be available from the same place where teams fix agents.",
+  "body_markdown": "Today we are launching The Context Company MCP and API server.\n\n\nThe idea is direct: production context should be available from the same place where teams fix agents.\n\n\nWhen a coding agent is asked to improve an AI agent, it usually starts with whatever a human pasted into the prompt: a dashboard screenshot, a few trace links, a short summary, and a guess about what mattered.\n\n\nThat workflow loses too much context.\n\n\n## Bring production evidence into development\n\n\nWith TCC MCP, teams can ask production questions from their development workflow:\n\n\n- What failed in production this week?\n- Which tool calls are creating bad outcomes?\n- Where are users repeating the same request?\n- Which accounts are seeing the same unresolved workflow?\n- Which traces should become evals?\n- Did the last release change this behavior?\n\n\nThose questions are much more useful when the answer can point to the actual production runs behind it. A coding agent should be able to reason from source examples instead of a pasted summary.\n\n\n## What the server exposes\n\n\nThe API exposes the underlying data: runs, traces, sessions, topics, feedback, metadata, costs, organizations, and recurring patterns.\n\n\nMCP makes that data usable by coding agents and developer tools. The API makes it usable in internal systems, scheduled jobs, and custom review workflows.\n\n\nThis matters because the best fix usually needs both sides of the story. The team needs the production evidence and the code path that shaped it.\n\n\n## Where MCP becomes useful\n\n\nThe useful moment is after a production pattern appears and before the code changes.\n\n\nA developer or coding agent can pull representative sessions, inspect the traces, and connect the behavior back to the prompt, tool, route, retrieval path, or model call that shaped it. The production evidence travels into the same environment where the fix is being made.\n\n\nThat is where MCP becomes interesting. It lets the tool doing the work ask better production questions while it is already working on the code.\n\n\nThe MCP and API server is a step toward that workflow.",
+  "published_at": "2026-03-17T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T02:09:01.567080+00:00",
+  "content_hash": "sha256:50f364c32aecb1240d3e8647d47bd4760fdd2e640a0653070c36d47fbda29f0c"
+}

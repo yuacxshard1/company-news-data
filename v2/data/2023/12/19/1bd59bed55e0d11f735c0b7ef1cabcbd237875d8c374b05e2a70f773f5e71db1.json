@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1bd59bed55e0d11f735c0b7ef1cabcbd237875d8c374b05e2a70f773f5e71db1",
+  "company_key": "yc-waypoint",
+  "company_name": "Waypoint",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.usewaypoint.com/blog/an-email-template-builder-with-a-liquidjs-export",
+  "canonical_url": "https://www.usewaypoint.com/blog/an-email-template-builder-with-a-liquidjs-export",
+  "title": "An email template builder with a LiquidJS export",
+  "summary": "By Jordan Isip (co-founder)",
+  "body_markdown": "Access to 'raw' templates are now available from our API for teams that prefer to store templates in their own codebase. This means teams can build email templates visually and then use the API to download the LiquidJS template that can be run from within their own application.\n\n\n## Why teams might use this\n\n\nSome software teams prefer to build email templates within their codebase. This could be due working with highly sensitive data (eg. HIPAA compliance), legacy templates, or simply because it's the process the devs prefer.\n\n\nIn any case, building these email templates in code is still a pain so devs often turn to using a template builder. The problem with other builders is that it takes an additional step to convert it from static HTML content to a template with a ready-to-process templating system for variables, loops, conditionals and more.\n\n\nWaypoint simplifies this process by allowing teams to programmatically grab 'raw' templates from Waypoint that include the LiquidJS templating.\n\n\n## Example\n\n\nAs an example, here is a[template](https://www.usewaypoint.com/templates/post-metrics) built on Waypoint's template builder with LiquidJS set in the template for variables (` {{report.metric.value}}` ):\n\n\n*Template visually built on Waypoint*\n\n\nUsing the[API to download the template](https://www.usewaypoint.com/) , we can access the raw subject line and raw body.\n\n\n**Raw subject line**\n\n\n```text\n\n\n```\n\n\n**Raw body** (snippet shown)\n\n\n```text\n<  div    style  = \"font-size: 48px; font-weight: bold; padding: 16px 24px 0px 24px; text-align: center; max-width: 100%; box-sizing: border-box;\"  >\n<  p    style  = \"margin-top: 0px; margin-bottom: 0px;\"  >\n{  {  report  . metric  . value  }  }\n</  p  >\n</  div  >\n```\n\n\n### Conclusion\n\n\nIf your team manages email templates from your codebase and could benefit from an visual email template builder, be sure to check out Waypoint.\n\n\nFurther reading:\n\n\n-\n\n\n[Downloading templates via Waypoint API](https://www.usewaypoint.com/)\n\n\n-\n\n\n[Waypoint template gallery](https://www.usewaypoint.com/templates)\n\n\n-\n\n\n[Waypoint template basics](https://www.usewaypoint.com/)",
+  "published_at": "2023-12-19T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T19:31:17.685303+00:00",
+  "content_hash": "sha256:0579c55d48ae04469910c8a1c1169fbd4e0737db5355e578c038772b61ce3c16"
+}

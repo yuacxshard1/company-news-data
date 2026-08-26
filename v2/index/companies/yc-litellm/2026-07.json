@@ -1,0 +1,126 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "1a8e3bebd711f1852535ac91d84382491528bdfd96805ce5e92125f67a26da25",
+      "first_seen_at": "2026-07-22T02:33:29.495129+00:00",
+      "published_at": "2026-07-09T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Join the LiteLLM July townhall on Thursday, 23 July at 7:30 AM PT to learn about LiteLLM's product updates and roadmap.",
+      "title": "July Townhall: Product + Roadmap Updates"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "2ca1dffa5895b114492eb37cd0fa7688c704fb2934ea9d84e4af1b55b41059b3",
+      "first_seen_at": "2026-08-01T12:42:00.497478+00:00",
+      "published_at": "2026-07-31T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The most common objection to auto-routing is that switching models throws away your prompt cache. We measured it across five datasets, including real gateway traffic with the provider's own cache accounting, and the answer is no.",
+      "title": "Cut 69% Costs Stacking Auto-Routing on Prompt Caching"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "4d4fd5e7d7ce81421a97f6d7365cceabb24121d71e113252ec644378797b676f",
+      "first_seen_at": "2026-07-25T02:55:20.351253+00:00",
+      "published_at": "2026-07-24T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Day 0 support for Claude Opus 5 on the LiteLLM AI Gateway. Use it across Anthropic, Azure, Vertex AI, and Bedrock.",
+      "title": "Day 0 Support: Claude Opus 5"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "52ec074ccfaca43d86690f20e0930ffdcd383082da3beac7640eed9362f03db9",
+      "first_seen_at": "2026-07-25T16:04:52.001508+00:00",
+      "published_at": "2026-07-24T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A recap of the July LiteLLM town hall: 38 security fixes, 317 bug fixes, 140 feature commits, new Rust gateway benchmarks, and the launch of Autorouter V2.",
+      "title": "July Townhall Updates: 38 Security Fixes, 317 Bug Fixes, and Autorouter V2"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "6a7886df786f0d91a80f79e60a00d3b7dee25d2675b71c05a8e0575b70ba5461",
+      "first_seen_at": "2026-07-28T08:13:03.513694+00:00",
+      "published_at": "2026-07-27T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Two independent evaluations of a four-tier Auto Router config against an all-frontier baseline: 8,619 graded prompts, 14,000 simulated real conversations, and what the cost and quality numbers actually depend on.",
+      "title": "Cut 75% Claude Code cost with near frontier model quality"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "94e3680e2c7627e25a661fb7ddba41f39ac5d804d052dfb29b6a7806f6451faa",
+      "first_seen_at": "2026-07-22T02:33:29.495129+00:00",
+      "published_at": "2026-07-13T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Auto Router v2 folds LiteLLM's complexity, semantic, and adaptive routers into a single router with an LLM classifier, keyword tiers, multi-model pools, and adaptive Thompson sampling.",
+      "title": "Auto Router v2: one router for complexity, semantic, and adaptive routing"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "98a20ebe2f6a9e4877b4a6847671c9a59cbe6a1f63fecdf67945526cfa39e3bd",
+      "first_seen_at": "2026-07-22T02:33:29.495129+00:00",
+      "published_at": "2026-07-04T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Practical levers a platform admin can pull on the LiteLLM proxy to reduce Claude Code spend without asking developers to change a thing.",
+      "title": "5 ways to cut Claude Code costs with LiteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "9e38176c9735c4915342e61a584437dcfeb931a7b6fc4d3a06b7c27c94b24994",
+      "first_seen_at": "2026-07-22T02:33:29.495129+00:00",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Day 0 support for the GPT-5.6 family (Sol, Terra, and Luna) on LiteLLM.",
+      "title": "Day 0 Support: GPT-5.6 (Sol, Terra, Luna)"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "d102002275bd88b35d167d6838d310cb77e310d0db4aa5aac7bd4999509e55bf",
+      "first_seen_at": "2026-07-22T14:33:34.852652+00:00",
+      "published_at": "2026-07-22T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "AIGatewayBench measures the overhead an AI gateway adds on top of the upstream model, isolated against a deterministic mock, across LiteLLM (Rust), LiteLLM (Python v1), Portkey, and Bifrost. The LiteLLM Rust gateway has the lowest overhead and memory footprint of the four.",
+      "title": "Benchmarking the LiteLLM Rust AI Gateway: Overhead, Memory, and Cost"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "ebe2f0af9fb563c6e8d4cfeb57d9966a146bf8db7067a246f079d22f45965c69",
+      "first_seen_at": "2026-07-22T02:33:29.495129+00:00",
+      "published_at": "2026-07-13T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Date: July 4 to July 10, 2026",
+      "title": "Incident Report: Prompt Cache Invalidation for Claude Code on Bedrock Invoke"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "fc2645e163209230ba6e3f537126910b6463a08eee30350db62a2b639e8a2c60",
+      "first_seen_at": "2026-07-22T02:33:29.495129+00:00",
+      "published_at": "2026-07-17T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Router plugins are now live on LiteLLM. Configure a plugin pipeline to determine which models to pick for a given input. Plugins can be chained as well",
+      "title": "Announcing Router Plugins: Customize Routing Signals"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "fe409330b634acf4d9a5180c86ec6b940867bdef983a06e4fa2c1a0518d37914",
+      "first_seen_at": "2026-07-22T02:33:29.495129+00:00",
+      "published_at": "2026-07-11T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A two-week product quality update. We addressed two major issues (MCP credential resolution and pass-through memory) and shipped 134 bug fixes in total. Plus our next goal: 95% end-to-end test coverage.",
+      "title": "July stability update: hardening MCP auth and cutting pass-through memory"
+    }
+  ],
+  "company_key": "yc-litellm",
+  "month": "2026-07"
+}

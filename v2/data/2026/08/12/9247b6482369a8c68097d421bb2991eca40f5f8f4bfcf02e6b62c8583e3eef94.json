@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9247b6482369a8c68097d421bb2991eca40f5f8f4bfcf02e6b62c8583e3eef94",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/bitrig-builds-apps-with-supabase",
+  "canonical_url": "https://bitrig.com/blog/bitrig-builds-apps-with-supabase",
+  "title": "Bitrig Can Now Build Apps with Supabase Backends",
+  "summary": "Some apps call for a relational database, your own user accounts, and sever-side functions. Now Bitrig can build that too.",
+  "body_markdown": "Last week, we added support for building[CloudKit backends](https://bitrig.com/blog/bitrig-builds-apps-with-cloudkit) with Bitrig.\n\n\nFor many apps, CloudKit is exactly what you want: store your data in iCloud, keep it in sync across devices, and even share it between users.\n\n\nBut some apps call for more.\n\n\nSometimes you need a relational database. You need your own user accounts. You need to respond to webhooks.\n\n\nFor those apps, you want a more traditional backend.\n\n\nToday, Bitrig can build that too:\n\n\n**Bitrig can now build apps backed by Supabase.**\n\n\nThat means:\n\n\n-\n\n\n**Create Your Database.** Start from scratch or connect an existing Supabase project. Bitrig designs your Postgres schema, applies migrations, and writes your Swift models and queries.\n\n\n-\n\n\n**Add Authentication.** Let users sign in through popular social providers, by email, or anonymously. We've taught Bitrig to handle the entire Sign in with Apple setup for you.\n\n\n-\n\n\n**Secure Your Data.** Bitrig sets up database permissions and Row Level Security so users can access only the data they’re supposed to, then checks your backend for security and performance problems before you ship.\n\n\n-\n\n\n**Run Code on the Server.** Build and deploy Supabase Edge Functions to respond to webhooks, run scheduled jobs, and call third-party APIs without exposing your API keys and secrets.\n\n\n-\n\n\n**Prepare for App Review.** Bitrig sets up reviewer access for login-gated apps and inspects your Supabase backend to help fill out your app’s Privacy Nutrition Label.\n\n\nSupabase gives every project a hosted Postgres database, along with authentication, file storage, realtime updates, and server-side functions. Supabase is free to get started and[affordable](https://supabase.com/pricing) to scale up if your app takes off.\n\n\nIf you’re building a personal journal app whose data should follow someone from their iPhone to their Mac, CloudKit is probably a great fit.\n\n\nIf you’re building a running club app with users, clubs, memberships, invitations, comments, and leaderboards, Supabase makes a lot more sense.\n\n\nThat used to mean jumping between your app code, server code, and developer dashboards to keep everything in sync.\n\n\nNow, you can just[open Bitrig](https://bitrig.com/download) and tell it what you want to build.",
+  "published_at": "2026-08-12T00:00:00+00:00",
+  "first_seen_at": "2026-08-13T04:07:02.044586+00:00",
+  "content_hash": "sha256:0f2ec917b26932f1b92cd57e262ca8882cf583153570c5b755a0f0973e5d4191"
+}

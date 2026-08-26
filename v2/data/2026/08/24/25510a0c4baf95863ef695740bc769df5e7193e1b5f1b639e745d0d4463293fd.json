@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "25510a0c4baf95863ef695740bc769df5e7193e1b5f1b639e745d0d4463293fd",
+  "company_key": "yc-overshoot",
+  "company_name": "Overshoot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.overshoot.ai/blogs/clip-vs-siglip",
+  "canonical_url": "https://www.overshoot.ai/blogs/clip-vs-siglip",
+  "title": "CLIP vs SigLIP: How Different Objectives Shape Vision Encoders",
+  "summary": "CLIP and SigLIP share similar encoder architectures but learn different objectives — softmax competition across a batch versus independent sigmoid matching.",
+  "body_markdown": "## The First Step in a VLM\n\n\nBefore vision-language models can perform tasks such as classification or video question answering, the image or video being passed to the model has to be converted into a representation that the model can \"understand\" or process.\n\n\nTo do this, many VLMs use a pretrained vision encoder.\n\n\nAlthough the underlying architecture of modern vision encoders is primarily Transformer-based, the actual objective the model is learning can vary significantly.\n\n\n## What Are Encoders?\n\n\nA vision encoder is responsible for converting images into a numerical representation that VLMs can understand.\n\n\nTypically, most vision encoders today are built on Transformer architecture, in which the model divides an image into patches and transforms each of those patches into a vectorized visual embedding.\n\n\nAfter this, many VLMs pass the embeddings to a projector, usually a linear layer or MLP, to map the vision encoder’s output into the representation space expected by the LLM.\n\n\nIf most vision encoders share the same model design, what actually makes them different? Rather than model architecture, the significance is in how they are trained.\n\n\n## CLIP\n\n\nCLIP, or Contrastive Language-Image Pre-training, learns to understand images through pairs of images and text ([Radford et al., 2021](https://arxiv.org/pdf/2103.00020) ). Its objective is to match similar images and captions by \"pulling them closer together,\" while simultaneously repelling incorrect image-caption pairs.\n\n\nTraining mainly relies on a \"two tower\" system. CLIP uses a vision encoder, such as a ViT, alongside a text encoder, and jointly pretrains both on image-text pairs using a contrastive objective. The model passes an image through the ViT and produces an associated vector embedding, while the caption is passed to the text encoder to get a corresponding text embedding.\n\n\nGiven these pairings, the model therefore creates a similarity matrix which compares every image embedding with every text embedding.\n\n\nEach cell within this matrix contains a cosine similarity between the image and text pairing. Mathematically, cosine similarity is the dot product of two vectors divided by the product of their lengths. More simply, it measures the cosine of the angle between two vectors in a high-dimensional embedding space. Vectors that are more semantically aligned will be \"closer together,\" have a more acute angle between them, and consequently have a higher cosine similarity.",
+  "published_at": "2026-08-24T00:00:00+00:00",
+  "first_seen_at": "2026-08-24T23:27:07.518333+00:00",
+  "content_hash": "sha256:e20fed8d7b66d410abda83a581bc750348fa63aa6bf14163689282b32d755bcd"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "533827fea08e360667b615cb1033ee2da24d64269f788208ed45b0fbc6645c41",
+  "company_key": "yc-loops",
+  "company_name": "Loops",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://loops.so/changelog/cli-skills-array-support",
+  "canonical_url": "https://loops.so/changelog/cli-skills-array-support",
+  "title": "CLI, Skills and Array support",
+  "summary": "The first version of the Loops CLI ships alongside three new skills and array support, so you can manage email work from your terminal.",
+  "body_markdown": "In this release, we’re introducing our CLI, Arrays, and Skills, and sharing what we’re working on next. If you missed it, we also launched a new[home page](https://loops.so/) .\n\n\n### **CLI**\n\n\nWe just released the first version of our CLI.\n\n\nIt is currently[open source](https://github.com/Loops-so/cli) and has parity with our current API. You (or your agent) can now send transactional emails, update contacts and more from your terminal.\n\n\nThis is the first step in making Loops drivable via API. You can dive right in through the docs or send your agent to this[markdown variant](https://loops.so/docs/cli.md) of the CLI docs.\n\n\n### **Arrays**\n\n\nOur new[Arrays feature](https://loops.so/docs/creating-emails/editor/arrays) allows you to send multiple items in a single payload. This is perfect for invoices, order updates, or any email that requires a varying number of items per order.\n\n\n### **Skills**\n\n\nWe have just released[Skills for Loops](https://loops.so/agents/skills) . Currently, you may install all applicable skills or install them individually, you can also use the best practices skill independently from Loops.\n\n\nYou can now tell your agent to wire up Loops in an app it’s building, trigger a welcome email when a user signs up, or manage a mailing list from a scheduled job and it will use the SDK, the HTTP API, or the CLI depending on where the code lives.\n\n\n**API**\n\n\n```text\n\n\n```\n\n\nWork with contacts, lists, events, and transactional email through the Loops API and SDKs.\n\n\n**CLI**\n\n\n```text\n\n\n```\n\n\nInstall, authenticate, and run Loops workflows from the terminal.\n\n\n**Best practices**\n\n\n```text\n\n\n```\n\n\nImprove email quality, deliverability, and message type decisions.\n\n\n### **Shipping soon**\n\n\nComing soon, we’ll be launching **Goals** in alpha to help track conversion data associated with email sending, along with a **Content API** for Campaigns.\n\n\nThis will let you work with Campaigns over the API. You will be able to create them from scratch, update content and styles, and use Claude or Codex to update your emails.\n\n\nSoon after, we’ll be rolling out API support for our Loop Builder as well as Transactional emails. If you’d like early access, please reply to this email.\n\n\n### **Everything else**\n\n\nWe also released new[subscription events for Stripe](https://loops.so/docs/integrations/stripe#supported-events) , a[suppression list endpoint](https://loops.so/docs/contacts/suppression) , dozens of bug fixes, zoom in the Loop builder, fully refactored the existing Components feature, a revised design for sending preview emails and a new[/agents](https://loops.so/agents) page to showcase new and upcoming releases.",
+  "published_at": "2026-04-16T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T13:13:35.252230+00:00",
+  "content_hash": "sha256:8244bd8e4ecf5d579e68a8266406a4f96fe67ca65533c6f225c151f6e7a045be"
+}

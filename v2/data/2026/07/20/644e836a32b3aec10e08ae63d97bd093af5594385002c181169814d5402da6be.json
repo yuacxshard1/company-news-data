@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "644e836a32b3aec10e08ae63d97bd093af5594385002c181169814d5402da6be",
+  "company_key": "yc-tracecat",
+  "company_name": "Tracecat",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.0.0-beta.51-rc.9",
+  "canonical_url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.0.0-beta.51-rc.9",
+  "title": "Tracecat 1.0.0-beta.51-rc.9",
+  "summary": "",
+  "body_markdown": "## Integrations\n\n\n- FOR UPDATE lock during oauth refresh flow ([#3047](https://github.com/TracecatHQ/tracecat/pull/3047) )\n- pin stdio catalog integrations ([#3053](https://github.com/TracecatHQ/tracecat/pull/3053) )\n- support optional oauth_resource override for mcp ([#3081](https://github.com/TracecatHQ/tracecat/pull/3081) )\n- correct SentinelOne template contracts ([#3084](https://github.com/TracecatHQ/tracecat/pull/3084) )\n\n\n## Agents\n\n\n- include pending approval as streamable status ([#2983](https://github.com/TracecatHQ/tracecat/pull/2983) )\n\n\n## Performance improvements\n\n\n- cap bulk case action request concurrency ([#3091](https://github.com/TracecatHQ/tracecat/pull/3091) )\n\n\n## Enhancements\n\n\n- add payload copy button ([#3090](https://github.com/TracecatHQ/tracecat/pull/3090) )\n\n\n## Bug fixes\n\n\n- fix Okta SAML audience restriction ([#3079](https://github.com/TracecatHQ/tracecat/pull/3079) )\n\n\n## Documentation\n\n\n- clarify case Markdown and agent MCP support ([#3087](https://github.com/TracecatHQ/tracecat/pull/3087) )\n\n\n## Other\n\n\n- register refresh_token grant and request offline_a… ([#3069](https://github.com/TracecatHQ/tracecat/pull/3069) )\n- prefer fd for file searches ([#3092](https://github.com/TracecatHQ/tracecat/pull/3092) )\n- keep pull actions visible after preview ([#3086](https://github.com/TracecatHQ/tracecat/pull/3086) )\n\n\n**Full changelog** :[1.0.0-beta.51-rc.8...1.0.0-beta.51-rc.9](https://github.com/TracecatHQ/tracecat/compare/1.0.0-beta.51-rc.8...1.0.0-beta.51-rc.9)",
+  "published_at": "2026-07-20T19:38:35+00:00",
+  "first_seen_at": "2026-08-10T04:11:45.938952+00:00",
+  "content_hash": "sha256:ca28e4db6c8fae475ba07e0413a6a6699bdbed0908d2fd284da87f610250d555"
+}

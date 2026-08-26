@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7f9d5876dbd9c72baf2d6b22a200f6e75a8f0e3431ca76e5ffd94e46f9325884",
+  "company_key": "yc-polytomic",
+  "company_name": "Polytomic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.polytomic.com/blog-posts/announcing-warehouse-table-filters",
+  "canonical_url": "https://www.polytomic.com/blog-posts/announcing-warehouse-table-filters",
+  "title": "Announcing warehouse table filters",
+  "summary": "Read Announcing warehouse table filters on the Polytomic blog.",
+  "body_markdown": "Today we are releasing table filters for warehouse syncs.\n\n\nWhen syncing to your data warehouse, there are situations where you might only want a subset of rows from your source system. For example:\n\n\n- A small set of event types from a multi-billion-row event stream.\n\n\n- The last two years of history from a 12-year-old Salesforce instance.\n\n\n- Tickets with certain attributes created within the last three years from a ten-year-old Zendesk instance.\n\n\nNow, when syncing to your data warehouse using our Bulk Syncs feature, you'll be able to specify any number of filter conditions on any number of source objects and any number of source fields, all in the same sync. This works for all[sources](https://www.polytomic.com/integrations) : whether CDC SQL database streams, SaaS apps, spreadsheets, or cloud storage like S3.\n\n\nFilters can be applied to the common data types:\n\n\n- Strings (equals, does not equal, matches-one-of, does-not-match, does not equal, ends with, starts with, etc).\n\n\n- Numbers (greater than, less than, equals, etc).\n\n\n- Dates (before, after, etc).\n\n\n- Booleans (is true, is false, etc).\n\n\nOnce set, Polytomic will only sync data to your warehouse that matches your filter conditions, thus cutting unnecessary storage and transfer time.\n\n\nDocumentation on how to to set table filters is located here:[https://docs.polytomic.com/docs/bulk-sync-table-filters](https://docs.polytomic.com/docs/bulk-sync-table-filters) . As always, email us atsupport@polytomic.com with any questions!\n\n\n[Back to blog](https://www.polytomic.com/blog)",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T19:31:15.738590+00:00",
+  "content_hash": "sha256:e10ff05915264226eba667decd65c054f3d0580206db60c5a6de78ea75c014eb"
+}

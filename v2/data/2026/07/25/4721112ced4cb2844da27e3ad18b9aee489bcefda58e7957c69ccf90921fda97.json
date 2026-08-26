@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4721112ced4cb2844da27e3ad18b9aee489bcefda58e7957c69ccf90921fda97",
+  "company_key": "yc-polytomic",
+  "company_name": "Polytomic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.polytomic.com/blog-posts/bidirectional-syncing-with-apache-parquet",
+  "canonical_url": "https://www.polytomic.com/blog-posts/bidirectional-syncing-with-apache-parquet",
+  "title": "Bidirectional syncing with Apache Parquet",
+  "summary": "Read Bidirectional syncing with Apache Parquet on the Polytomic blog.",
+  "body_markdown": "Starting today, Polytomic supports syncing both to and from[Parquet](https://parquet.apache.org/) files across all three major cloud storage providers:\n\n\n- Amazon S3\n- Azure Blob Storage\n- Google Cloud Storage\n\n\n## Bidirectional syncing with Parquet\n\n\nParquet's profile has been rising due to the increasing popularity of[data lakehouse](https://en.wikipedia.org/wiki/Data_lake#Data_lakehouses) architectures. Polytomic's support for Parquet is thus comprehensive, supporting **bidirectional syncing** with Parquet and any other system:\n\n\n- Sync from your CRMs, SaaS applications, data warehouses, databases, spreadsheets, and arbitrary APIs to Parquet files on any cloud storage provider.\n- Sync from your Parquet files to CRMs, SaaS applications, data warehouses, databases, spreadsheets, and arbitrary webhooks.\n\n\n## Multi-file archive support\n\n\nPolytomic's Parquet support extends to supporting multi-file archives. That is, if a table's data is split across multiple Parquet files, Polytomic has the ability to treat all those files as one table.\n\n\nFor example, if you're syncing from Parquet, all you have to do is select the **Multiple files** option in your Polytomic model editor:\n\n\n## Documentation\n\n\nMore details on Parquet support can be found in our documentation:[https://docs.polytomic.com/docs/parquet](https://docs.polytomic.com/docs/parquet) .\n\n\nAs always, please email us atsupport@polytomic.com with any questions.\n\n\n[Back to blog](https://www.polytomic.com/blog)",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T19:31:15.738590+00:00",
+  "content_hash": "sha256:9f15af9006aa79b31ede2d5b0d71371e258b25d3eb8bc44a8b69d589885df53b"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "81546b7718c00f449ab90b847f87172b16978081a14d7781f0fa7a32b423e16f",
+  "company_key": "yc-sst",
+  "company_name": "SST",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://sst.dev/blog/container-spot-capacity",
+  "canonical_url": "https://sst.dev/blog/container-spot-capacity/",
+  "title": "Container Spot capacity",
+  "summary": "We are adding support for using the Fargate Spot capacity provider for services.",
+  "body_markdown": "We are adding support for using Spot instances when you create a Fargate service with the[Cluster](https://sst.dev/docs/component/aws/cluster) component through the[capacity](https://sst.dev/docs/component/aws/cluster#capacity) prop. Spot instances can be around 50% cheaper and we talk about how they work here.\n\n\n[Play](https://youtube.com/watch?v=2RrAZiTZoeA)\n\n\n## Background\n\n\nYou can create container services with ECS and Fargate in SST with the[Cluster](https://sst.dev/docs/component/aws/cluster) component.\n\n\nYou are charged per hour of vCPU and GB of memory used. With our base config, this works out to around $12 per month.\n\n\nSpot instances are spare capacity that AWS has and it’s available at a discounted rate, around $6 per month.\n\n\n---\n\n\n## Spot\n\n\nYou can enable this using the new[capacity](https://sst.dev/docs/component/aws/cluster#capacity) prop.\n\n\nsst.config.ts\n\n\n```text\nconst   cluster   =   new     sst  .  aws  .  Cluster  (  \"  MyCluster  \"  , {   vpc   }  );\nnew   sst  .  aws  .  Service  (  \"  MyService  \"  , {         cluster,         loadBalancer: {           ports: [{ listen:   \"  80/http  \"   }],         },         capacity:   \"  spot  \"  ,    });\n```\n\n\nYou can also configure the % of regular Fargate vs Spot capacity you want to use.\n\n\nsst.config.ts\n\n\n```text\ncapacity: {         fargate: { weight:   1   },         spot: { weight:   1   }    }\n```\n\n\nLearn more about the[capacity](https://sst.dev/docs/component/aws/cluster#capacity) prop.\n\n\n---\n\n\n#### Caveats\n\n\nThere are a couple of caveats.\n\n\n1. AWS may reclaim this capacity and turn off your service after a two-minute warning. This is rare, but it can happen.\n2. If there’s no spare capacity, you’ll get an error.\n\n\nThis makes Fargate Spot a good option for dev or PR environments.\n\n\nsst.config.ts\n\n\n```text\ncapacity: $app  .  stage     ===     \"  production  \"     ?     undefined     :     \"  spot  \"  ;\n```\n\n\n---\n\n\n## Get started\n\n\nGet started by checking out the[Fargate Spot capacity example](https://sst.dev/docs/examples/#aws-cluster-spot-capacity) .\n\n\nYou can also check out our container service quick starts.\n\n\n- [Bun](https://sst.dev/docs/start/aws/bun)\n- [Deno](https://sst.dev/docs/start/aws/deno)\n- [NestJS](https://sst.dev/docs/start/aws/nestjs)\n- [Express](https://sst.dev/docs/start/aws/express)\n\n\nThese will help you get started with building container services.",
+  "published_at": "2025-01-13T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T01:49:09.857782+00:00",
+  "content_hash": "sha256:c6453fa1c4e84da2ed9ed4c01b31426c0f3a6d0ea8bc19477859d8a16402576a"
+}

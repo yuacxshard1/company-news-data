@@ -1,0 +1,66 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-kaelio",
+      "company_name": "Kaelio",
+      "doc_id": "0311635ebf2d66e1cb86411f5c9f12bb9820f2da8f89efd0d6213a5f9708913e",
+      "first_seen_at": "2026-07-22T01:08:24.751270+00:00",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Reconciling contradictory metric definitions across dbt, Looker, and Metabase, and how ktx flags them instead of silently selecting one.",
+      "title": "When dbt, Looker, and Metabase disagree on \"revenue\""
+    },
+    {
+      "company_key": "yc-kaelio",
+      "company_name": "Kaelio",
+      "doc_id": "1d6544862427adccb37ae2b726102f50b31f2f34850c46ca8c40cf22fd77cc04",
+      "first_seen_at": "2026-07-22T01:08:24.751270+00:00",
+      "published_at": "2026-06-04T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Fan and chasm traps, and how ktx compiles intent into safe SQL over a reviewed join graph.",
+      "title": "Why your data agent keeps writing SQL that double-counts"
+    },
+    {
+      "company_key": "yc-kaelio",
+      "company_name": "Kaelio",
+      "doc_id": "5db72d046565e3fb75521e5ef5cfc92a04852f07073e38bbcb99563908a5ae58",
+      "first_seen_at": "2026-07-22T01:08:24.751270+00:00",
+      "published_at": "2026-06-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Statistical foreign-key inference, validated against real data. How ktx builds the join graph agents rely on.",
+      "title": "Finding the joins your warehouse never declared"
+    },
+    {
+      "company_key": "yc-kaelio",
+      "company_name": "Kaelio",
+      "doc_id": "9284c0b7a251974e4cb3725148d80f0e32fdabf2a9864297048755e7176fb705",
+      "first_seen_at": "2026-07-24T01:10:57.591835+00:00",
+      "published_at": "2026-06-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Anthropic published how its data team automated close to 100% of business analytics at 95%+ accuracy. The four-layer architecture they describe is the same one we had already open-sourced as ktx, an independent, Apache-2.0 context engine for data agents.",
+      "title": "We Built the Open-Source Version of Anthropic's Internal Data Analytics Engine"
+    },
+    {
+      "company_key": "yc-kaelio",
+      "company_name": "Kaelio",
+      "doc_id": "d81a3880a0387d3954442913f7592670d569287d383c5459a5240d780b959332",
+      "first_seen_at": "2026-07-24T01:10:57.591835+00:00",
+      "published_at": "2026-06-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "GenAI didn't create new data governance problems. It made the existing ones harder to ignore and added a new one: context. Why agentic analytics needs a governed context layer that sits alongside your whole stack, not just inside the warehouse.",
+      "title": "Who Governs the Agents? Why AI Analytics Needs a Context Layer Outside Your Warehouse"
+    },
+    {
+      "company_key": "yc-kaelio",
+      "company_name": "Kaelio",
+      "doc_id": "f916a599a0ec3cc1458928b457e09e2b2880366217e9dd7e1e9dbcb2f0380f24",
+      "first_seen_at": "2026-07-24T01:10:57.591835+00:00",
+      "published_at": "2026-06-04T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A context layer puts your warehouse schema, joins, metric definitions, and business knowledge in one reviewable place so data agents query governed context instead of guessing field names. A look at how it works, and at ktx, the open-source context layer.",
+      "title": "Beyond the Semantic Layer: Building a Context Layer for the Agentic Era"
+    }
+  ],
+  "company_key": "yc-kaelio",
+  "month": "2026-06"
+}

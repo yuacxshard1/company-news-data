@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2d1225a5b0cf670574e8bffebef759fd072f9c8fe6f06e1398e7ff0b99ac121a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
+  "title": "Amazon SES now supports open and click tracking override parameters",
+  "summary": "Discover more about what's new at AWS with Amazon SES now supports open and click tracking override parameters",
+  "body_markdown": "Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on an individual API call, rather than managing tracking preferences through separate configuration sets.\n\n\nPreviously, controlling tracking behavior required maintaining a distinct configuration set for each combination of open- and click-tracking settings. With this new capability, you specify the tracking preference directly in the send request, reducing configuration overhead and simplifying how you honor recipient-level tracking consent. This is useful for senders that must respect per-recipient consent choices to meet data protection requirements such as GDPR and CNIL guidance.\n\n\nThe tracking overrides apply per request and take precedence over the tracking behavior defined in the associated configuration set, giving you fine-grained control without changing your existing configuration set structure. There is no additional cost to use this feature.\n\n\nThis capability is available in all AWS Regions where Amazon SES is available.\n\n\nTo learn more, see the documentation on open and click tracking in the[Amazon SES Developer Guide .](https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendEmail.html)",
+  "published_at": "2026-08-21T07:00:00+00:00",
+  "first_seen_at": "2026-08-21T21:39:22.919739+00:00",
+  "content_hash": "sha256:90721a5b93d04276f2d4f5554f582898af75708570dab4117149edc87cebd050"
+}

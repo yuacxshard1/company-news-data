@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "23178c05482c43618345e54aaf2e092e09729f0205662a5417eaf27d94b215c7",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/bitrig-works-with-xcode-projects-from-github",
+  "canonical_url": "https://bitrig.com/blog/bitrig-works-with-xcode-projects-from-github",
+  "title": "Bitrig Now Works with Xcode Projects from GitHub",
+  "summary": "Connect your GitHub account and import your existing Xcode projects. Bitrig builds, tests, and runs your app, commits your changes, and syncs with GitHub.",
+  "body_markdown": "I’ve always been drawn to working on products I use myself. It’s rewarding to spend the day improving something, then turn around and get to use it for yourself.\n\n\nFor a while now, I’ve been wanting to use Bitrig to build Bitrig.\n\n\nOver the last two months, we’ve made a lot of progress toward that goal, re-architecting Bitrig to sit on top of a professional-grade development stack:\n\n\n-\n\n\nThe full Xcode toolchain, so you can build with the SDKs for all of Apple’s major platforms.\n\n\n-\n\n\nXcode Simulator previews, so what you see matches what your users get on TestFlight and the App Store.\n\n\n-\n\n\nClaude Code, so Bitrig can build your project, inspect issues, and search documentation on your behalf.\n\n\n-\n\n\nVersion History backed by Git, so you can browse and restore previous versions of your project with confidence.\n\n\nBut there was still one thing holding me back.\n\n\nToday, we’re fixing it:\n\n\n## Bitrig can now work with existing Xcode projects from GitHub.\n\n\nBitrig is no longer just a place to start something new. You can now import existing repositories, make changes to your projects, and contribute them back through the GitHub workflow your team already uses.\n\n\nHere’s what’s new:\n\n\n-\n\n\n**Bring your own Xcode project.** Bitrig can build, test, and run your existing schemes and targets, show an app preview, edit code across files, and update project settings.\n\n\n-\n\n\n**Connect your GitHub account.** Browse your repositories and import your existing codebase into Bitrig. For each new conversation, Bitrig creates a branch, commits your changes, syncs with GitHub, and helps you open a pull request.\n\n\nThis opens up new ways of working with Bitrig.\n\n\nIf you’re a designer, don’t recreate your team’s app in a separate environment. Explore your ideas directly in the production codebase.\n\n\nIf you’re a product manager, don’t just file a bug report for the next issue you hit. Make the fix yourself and open a pull request.\n\n\nIf you’re an engineer, don’t wait until you get back to your desk to start your next feature. Build and test it on the go with Bitrig Remote.\n\n\nThat’s the kind of work I’ve been wanting to do with Bitrig.\n\n\nNow we can.",
+  "published_at": "2026-05-06T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T21:05:48.161048+00:00",
+  "content_hash": "sha256:05077ad5c05ea447577b7a3d5c2ea956ffbc5765f4ebf9e584cb41ebb405b5cc"
+}

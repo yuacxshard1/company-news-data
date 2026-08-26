@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c1d3418be797d183f174eb8b7803845ab1282959a5feba93ddbbb7ab9a11b015",
+  "company_key": "yc-unlayer",
+  "company_name": "Unlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.unlayer.com/changelog/1-468-0-44p14I1l",
+  "canonical_url": "https://docs.unlayer.com/changelog/1-468-0-44p14I1l",
+  "title": "1.468.0",
+  "summary": "The following fixes and features are available on the stable channel: Features & Improvements Enabled AI image generation for Launch plan customers. Added a template validation endpoint and improved compatibility with older designs by upgra",
+  "body_markdown": "The following fixes and features are available on the[stable](https://docs.unlayer.com/builder/latest/version-management#production-environment) channel:\n\n\n## Features & Improvements\n\n\n-\n\n\nEnabled AI image generation for Launch plan customers.\n\n\n-\n\n\nAdded a template validation endpoint and improved compatibility with older designs by upgrading legacy links, font weights, and synced block values.\n\n\n-\n\n\nImproved performance with faster embedded startup, smaller bundles, faster editing, selection, toolbars, and previews, plus more reliable authentication and sessions.\n\n\n## Bug Fixes\n\n\n-\n\n\nFixed distorted images in Outlook Classic when using merge tags as the image source.\n\n\n-\n\n\nFixed image dimension metadata that caused distorted rendering in exported emails created through the API.\n\n\n-\n\n\nFixed blank iframe content in image and PDF exports and hardened secure-origin rendering.\n\n\n-\n\n\nFixed AI credit exhaustion settings not being respected.\n\n\n-\n\n\nRestored Magic Image for entitled users and enforced access gating.\n\n\n-\n\n\nFixed images rendering with distorted proportions in Outlook 365.",
+  "published_at": "2026-08-20T17:30:00+00:00",
+  "first_seen_at": "2026-08-20T20:41:47.623260+00:00",
+  "content_hash": "sha256:38e645d4c4dc993117860e45c7b3b306bff486a2f49526cbb1b3797aaa0ba6ac"
+}

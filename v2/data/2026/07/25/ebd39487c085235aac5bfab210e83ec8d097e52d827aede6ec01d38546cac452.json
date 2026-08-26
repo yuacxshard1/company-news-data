@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ebd39487c085235aac5bfab210e83ec8d097e52d827aede6ec01d38546cac452",
+  "company_key": "yc-convoy-2",
+  "company_name": "Convoy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getconvoy.io/changelog/org-feature-flags-oauth2-billing",
+  "canonical_url": "https://www.getconvoy.io/changelog/org-feature-flags-oauth2-billing",
+  "title": "Organization Feature Flags, OAuth2 Endpoint Auth & Billing",
+  "summary": "Changelog update from Friday, December 12th, 2025",
+  "body_markdown": "We shipped four features this week: organization-level feature flags, OAuth2 authentication for endpoints, a billing module, and better test infrastructure.\n\n\n**Organization Feature Flags**\n\n\nFeature flags used to be all-or-nothing across your entire Convoy instance. You can now manage feature flags at the organization level. Go to **Settings → Early Adopter Features** to enable features like OAuth2 token exchange and mTLS for your organization. Instance admins can also override feature flags for specific organizations from the admin panel.\n\n\n**OAuth2 Authentication for Endpoints**\n\n\nSome endpoints require OAuth2 authentication. Endpoints now support OAuth2 client credentials authentication with shared secret or JWT client assertion. Configure your OAuth2 settings in the endpoint form, and Convoy handles token exchange automatically. This feature requires an enterprise license and the OAuth Token Exchange early adopter feature flag enabled.\n\n\n**Billing Module**\n\n\nWe added a billing module that calculates usage from your Convoy data. View monthly usage, manage subscriptions, handle invoices, and set up payment methods, all from the Convoy dashboard. Go to **Settings → Usage and Billing** to get started. This feature requires a billing module license and billing admin or organization admin role.\n\n\n**E2E Test Infrastructure**\n\n\nWe rebuilt our end-to-end test infrastructure to make it more reliable and easier to maintain. Tests now use Docker containers for Redis and PostgreSQL, making them faster and more consistent across environments.\n\n\n**Other Improvements**\n\n\n- **UI refresh** : We refreshed the dashboard UI with a cleaner design and better navigation\n- **Batch tracking** : Track progress when retrying multiple event deliveries at once\n- **Admin UI** : Instance admins can manage feature flags and circuit breaker configurations from a dedicated admin panel\n- **Job IDs** : All queue jobs now use ULID-based job IDs for better tracking\n\n\nAll features are available now. See the[endpoints documentation](https://www.getconvoy.io/docs/product-manual/endpoints) for OAuth2 configuration details.",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T00:37:26.853065+00:00",
+  "content_hash": "sha256:1e6504ff6eb387a590648e6746768624231f6b86faca11531aabc5a8c94d1eb2"
+}

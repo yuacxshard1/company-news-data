@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "19745f7c16d350e1e9e35f255fdb32b42ca9cf66f76937638e3aafcb2d202ce9",
+  "company_key": "yc-porter",
+  "company_name": "Porter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.porter.run/changelog/new-application-create-flow-revamped-datastore-create-and-update-flow-multiple-node-groups-and-temporal-based-autoscaling",
+  "canonical_url": "https://www.porter.run/changelog/new-application-create-flow-revamped-datastore-create-and-update-flow-multiple-node-groups-and-temporal-based-autoscaling",
+  "title": "New Application Create Flow, Revamped Datastore Create and Update Flow, Multiple Node Groups, and Temporal-based Autoscaling",
+  "summary": "We've introduced new application and datastore create flows, the ability to create multiple node groups, and Temporal-based autoscaling.",
+  "body_markdown": "## Application Create Flow v2\n\n\nUsers can now deploy multiple applications in one repository at the same time. Porter will now detect users’ stack when building with Github repositories.\n\n\n## Revamped Datastore Create and Update Flow\n\n\n**‍** Users can now update their Porter-managed datastores from the dashboard. Additional support added for Elasticache metrics, all PostgreSQL versions, and snapshot/clone validation.\n\n\n## New Dedicated Settings Page\n\n\n**‍** This page includes updated notifications options, including a[PagerDuty](https://www.pagerduty.com/) integration,[Slack](https://slack.com/) , and email notifications for application CI and runtime alerts.\n\n\n## Preview Environments Update\n\n\n**‍** Users can now dynamically create URLs based on branch names or PR numbers.\n\n\n## Disk Updates\n\n\nUsers can configure disk sizes per node group and will receive alerts when applications are impacted by disk pressure.\n\n\n## Creating Node Groups\n\n\nUsers can now create multiple node groups - example use cases for additional node groups include GPUs, spot instance for interruptible workloads, running nodes in a public subnet to reduce NAT gateway costs, and isolating compute demands across development, staging, and productions workloads running in the same cluster.\n\n\n## Cluster Selector Update\n\n\n**‍** Clusters are now alphabetically sorted by default, and scrollable. Users can also keyword search for clusters.\n\n\n## Temporal-based Autoscaling\n\n\n**‍** Porter can now monitor your[Temporal](https://temporal.io/) task queues and automatically adjust worker count. More info in the docs[here](https://docs.porter.run/configure/temporal-autoscaling) .",
+  "published_at": "2025-12-24T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T19:39:33.596384+00:00",
+  "content_hash": "sha256:7265d006cffe10f0a103b16605224b03920333cf8acea1925fe77f3fa57cc6f4"
+}

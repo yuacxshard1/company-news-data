@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4631188aa26f8a69ecff1a4760aca786ca68cda16048ce3d5c05f508e64f092b",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/slite-mcp-server",
+  "canonical_url": "https://slite.com/changelog/slite-mcp-server",
+  "title": "Slite MCP Server",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "Connect AI assistants like Claude and ChatGPT directly to your Slite workspace. Search docs, create notes, and update content through natural language—all while respecting your existing permissions.\n\n\nOur MCP server follows the authenticated remote[MCP spec](https://modelcontextprotocol.io/specification/2025-03-26) , so it's centrally hosted and uses OAuth for secure authentication. No API keys or config files to manage.\n\n\nConnect via` https://api.slite.com/mcp` in Claude, ChatGPT, and other MCP-compatible clients.\n\n\n**Available tools include:**\n\n\n- Search and retrieve docs with advanced filtering\n- Create and update notes with full formatting support\n- Access your recently edited and visited docs\n- Find users, groups, and channels\n- Modify specific blocks within docs\n\n\n[Learn how to set up ↗](https://slite.slite.page/p/77mvFqJWG1tduF/Slite-MCP)\n\n\n### Rich Text in Hints and Quotes\n\n\nYou can now add rich content inside hints and quotes, including bullet points, images, sketches, titles, and almost any formatting you'd use in regular content. This makes these blocks much more powerful for organizing complex information.\n\n\n### Images in Comments\n\n\nComments now support images! You can paste, drag and drop, or use the image button in the comment toolbar to add visual context to your feedback and discussions.\n\n\n### Improvements\n\n\n- **Collections/Board View:** Increased contrast, full-height columns, improved view picker UX, and table/board selector now shows as tabs\n- **Mermaid Diagrams:** Better editing experience with auto-closing of subgraphs and improved rendering\n- **Diagram to Sketch Conversion:** Convert Mermaid flowcharts to Excalidraw sketches\n- **Find & Replace:** Performance optimizations and support for adding Markdown formatting during replacement\n- **Code Blocks:** Improved Python syntax highlighting with better multi-line string and comment support\n- **Protected Documents:** Clearer UI when attempting to edit protected content\n- **Archived Docs:** More visible banner indicating archived status\n\n\n### Fixes\n\n\n- Fixed Linear task tiles rendering as blank on mobile\n- Fixed keyboard shortcuts applying formatting in protected table cells\n- Fixed code block decorations with fast typing\n- Fixed Find & Replace scrolling to top when closing\n- Fixed expand arrow showing for empty channels in sidebar",
+  "published_at": "2026-02-16T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T13:26:38.265771+00:00",
+  "content_hash": "sha256:662cc3c9387f7bd3a05353f9351ecffcb327a82a340676481c11a29cf4048213"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9f273b672347a9ea0a96659e2e2db87942909f37d4468b0dfcb0481323cdf2bd",
+  "company_key": "yc-mintlify",
+  "company_name": "Mintlify",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.mintlify.com/blog/mintlify-index",
+  "canonical_url": "https://www.mintlify.com/blog/mintlify-index",
+  "title": "Introducing Mintlify Index",
+  "summary": "Mintlify Index aggregates the docs of over 5000 Mintlify-powered documentation sites into a natural language retrieval layer for coding agents.",
+  "body_markdown": "Mintlify Index aggregates the docs of over 5000 Mintlify-powered documentation sites into a natural language retrieval layer for coding agents.\n\n\nThe architecture begins by filtering agent queries into two categories:\n\n\n1. Queries that reference docs in the Mintlify-powered ecosystem, which then undergo an internally optimized retrieval process.\n2. All other queries, which are routed to a standard external provider.\n\n\n```text\nDeveloper gives an agent an implementation task\n↓\nAgent calls search or context\n↓\nMintlify Index routes each query\n├─ product in Mintlify's hosted corpus → all public Mintlify-powered docs\n└─ other query                         → web search\n↓\nIndex returns ranked sources or token-budgeted context\n↓\nAgent can call contents to inspect a selected source\n↓\nAgent uses the evidence to answer or plan the change\n\n\n```\n\n\nEach search or context request routes the query to a retrieval source. Queries about products in Mintlify’s hosted corpus use eligible public documentation when those docs are likely to answer the request. Other queries route to a leading third party web search tool. If the selected source fails or returns no results, Index will also fall back to the other.\n\n\nAn agent can retrieve evidence in two ways. Context returns an assembled, token-budgeted bundle of ranked excerpts and source URLs. For more control, search returns ranked source metadata and optional matching text. The agent can then pass a Mintlify URL or document ID to contents to retrieve the selected page. With a follow-up query and length limit, contents can return the most relevant section. Index supplies the evidence, afterwhich the agent remains responsible for producing and validating the answer or implementation.\n\n\nWe then ran an experiment comparing Mintlify Index with Context7, a popular docs-retrieval service for coding agents. Across 150 implementation-planning tasks on 50 products hosted on Mintlify, a blinded pairwise judge preferred the plans produced with Mintlify Index in 96 tasks, nearly two-thirds.\n\n\nNot only did the Mintlify Index group produce higher-quality results, but they also completed tasks 48% faster end-to-end, with 10% higher factual correctness, 10% better citation support, and 17% fewer critical errors.\n\n\nIn pursuit of our mission to optimize the interaction between agents and knowledge, this experiment showed us the potential benefits of a customized retrieval system only made possible by the ecosystem of Mintlify docs.\n\n\nWe’re launching a beta version of Mintlify Index today, and will use what we learn to continually optimize the affordability, accuracy, and speed.\n\n\nThis is only the beginning.",
+  "published_at": "2026-08-06T00:00:00+00:00",
+  "first_seen_at": "2026-08-06T23:08:03.600772+00:00",
+  "content_hash": "sha256:55aa59dfbcaf59d025abe8829f5672aa4d4c9ba5ddb5e808e32229271fcbf9b0"
+}

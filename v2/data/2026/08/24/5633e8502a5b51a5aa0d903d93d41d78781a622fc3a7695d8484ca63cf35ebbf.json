@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5633e8502a5b51a5aa0d903d93d41d78781a622fc3a7695d8484ca63cf35ebbf",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://supabase.com/blog/enterprise-managed-auth-for-the-supabase-mcp-server",
+  "canonical_url": "https://supabase.com/blog/enterprise-managed-auth-for-the-supabase-mcp-server",
+  "title": "Enterprise-managed auth for the Supabase MCP server",
+  "summary": "Enterprise IT admins can now manage access to Supabase in Claude centrally through Okta, scoped to each person's existing permissions.",
+  "body_markdown": "Enterprise-managed auth for the Supabase MCP server is now generally available on Supabase Team and Enterprise plans. Built with[Anthropic](https://claude.com/blog/enterprise-managed-auth) and[Okta](https://www.okta.com/newsroom/press-releases/okta-becomes-a-featured-identity-provider-powering-secure-ai-agent-connections-for-claude-enterprise/) , it moves access control for Supabase in Claude to your identity provider, so IT admins can grant, restrict, and revoke that access for the whole organization from one place.\n\n\nBefore, each person connecting Claude to Supabase approved their own OAuth consent, and only organization owners could authorize the connection at all. Now an admin authorizes the Supabase connector once, and every employee who signs in to Claude finds Supabase ready to use, scoped to the projects and permissions they already have.\n\n\n## Access that follows each person's role#\n\n\nAccess is tied to the individual employee rather than the organization owner, so what someone can do through Claude matches what they can already do in Supabase:\n\n\n- Developers and read-only members get working Supabase MCP access with the role they already have\n- Every query and management action runs with that person's existing role and permissions in Supabase, nothing more than they'd already have signing in directly\n\n\n## Manage Supabase in Claude like any other app#\n\n\nYour security team already runs onboarding, offboarding, and access reviews through your identity provider, and those workflows now cover Supabase in Claude:\n\n\n- Restrict Supabase MCP access to an Okta group instead of approving each connection by hand\n- Offboard someone in Okta and their Supabase access in Claude goes with it\n- Point a security review of AI tool usage at one centrally enforced policy instead of individual grants\n\n\nEnterprise-managed auth joins SSO, project-scoped roles, and SOC 2 and HIPAA compliance as part of how enterprises run Supabase. And this is just the start, with SCIM-based provisioning for the platform on the roadmap.\n\n\n## Get started#\n\n\nEnterprise-managed auth is available today for organizations on a Supabase Team or Enterprise plan with Okta SSO enabled and a Claude Team or Enterprise plan.\n\n\n- [Get started with enterprise-managed auth](https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication)",
+  "published_at": "2026-08-24T07:00:00+00:00",
+  "first_seen_at": "2026-08-24T20:17:17.316936+00:00",
+  "content_hash": "sha256:1fe30e2763a9e0453fad72d2443fb796c46e82a85a793a3be734a422759f0984"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d63f98f35795e31bfd3b1e77829f0851e3f48a92450ea2e94717b18a76f61c2d",
+  "company_key": "yc-simplifyd-systems",
+  "company_name": "Simplifyd Systems",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://simplifyd.com/blog/postgres-that-does-not-need-a-dba",
+  "canonical_url": "https://simplifyd.com/blog/postgres-that-does-not-need-a-dba",
+  "title": "The Postgres features teams actually ask for",
+  "summary": "Extra databases, extra users, tunable parameters and real backups — the four things that turn a managed Postgres from a demo into somewhere you keep production data.",
+  "body_markdown": "A managed Postgres that only gives you one database and one superuser is a demo. It works right up to the first time you need a read-only user for your analytics tool, and then you are opening a support ticket.\n\n\nHere is what a Postgres service on Simplifyd actually gives you.\n\n\n## More than one database\n\n\nYou can create additional databases on the same instance. Small teams run several services against one Postgres long before splitting it is worth the cost, and pretending otherwise just pushes people into sharing a single database across unrelated schemas.\n\n\n## Users with real boundaries\n\n\nCreate additional users with their own credentials. The obvious case is a read-only account for a BI tool or a nightly export — something that should never be holding your application superuser password.\n\n\n## Parameters you can tune\n\n\nPostgres ships conservative defaults tuned for a machine that no longer exists. You can adjust parameters on your instance rather than filing a ticket and waiting.\n\n\n## Backups you can trigger\n\n\nAutomatic backups run on a schedule, and you can take one on demand — before a migration, before a risky deploy, before anything you would rather be able to undo.\n\n\n```text\nsimplifyd postgres backup create --service my-db\n```\n\n\n## Why this list\n\n\nNone of these are exotic. They are the four things every team asks for within a month of putting real data somewhere, and the four things that most cheap managed offerings hold back for a higher tier.\n\n\n> The test of a managed database is not the first day. It is the day you need a second user and find out whether that was in the plan.",
+  "published_at": "2026-06-24T09:00:00+00:00",
+  "first_seen_at": "2026-08-25T08:17:01.984119+00:00",
+  "content_hash": "sha256:22485e37ccec9c4690dd4222a4363dc6d1f44703ce7c1c60b0238388d41d21ad"
+}

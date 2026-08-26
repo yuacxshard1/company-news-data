@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fdfbbc31ddbec596b81d999a672fbaab4174d525023b1919076ca909b3369fb0",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
+  "title": "AWS Batch now supports Amazon ECS Managed Instances",
+  "summary": "Discover more about what's new at AWS with AWS Batch now supports Amazon ECS Managed Instances",
+  "body_markdown": "AWS Batch now supports Amazon ECS Managed Instances (ECS MI) as a new compute option, enabling you to run GPU-accelerated and compute-intensive batch workloads on AWS-managed infrastructure. With AWS Batch on ECS MI you can now access GPU-accelerated instances while AWS handles AMI updates, security patching, and instance lifecycle automatically, eliminating the operational overhead of customer-managed Amazon EC2 infrastructure.\n\n\nTo get started, create an AWS Batch on ECS MI compute environment using the AWS Batch *CreateComputeEnvironment* API or the AWS Batch Management Console. You can specify your allowed instance types and networking configuration in the *managedInstancesProvider* block, associate the compute environment with a job queue, and submit jobs using On-Demand, Spot, or reserved capacity.\n\n\nAWS Batch on ECS Managed Instances is supported in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AWS Batch is available. For more information, see the[AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/ecs_managed_instances.html) .",
+  "published_at": "2026-08-25T19:36:00+00:00",
+  "first_seen_at": "2026-08-25T22:32:32.654169+00:00",
+  "content_hash": "sha256:9a77cca7bcd3c08232b8107a5aa3eb349bd11862d44ff3b86374681717fe1086"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9c91f576d5527a77755d48ea04deea186cd5f4898bd175340a9c461ad6d5556f",
+  "company_key": "yc-loops",
+  "company_name": "Loops",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://loops.so/engineering/gmail-does-not-like-youtube",
+  "canonical_url": "https://loops.so/engineering/gmail-does-not-like-youtube",
+  "title": "Gmail doesn’t like YouTube",
+  "summary": "Gmail flags shortened youtu.be links in tracked emails as phishing. How we isolated the issue and what senders can do to stay out of spam.",
+  "body_markdown": "Recently some of our users have reported that their emails to Gmail contacts are landing in spam with a very scary banner:\n\n\nGiven the sporadic nature of the reporting, our initial suspicion was that someone was abusing our link tracking feature. We provide unique redirect links in marketing emails to log clicks before sending users to the intended destination. But after checking our system, we found no signs of such abuse.\n\n\nAfter checking the specific reported emails, we found they all used shortened YouTube share links (like[http://youtu.be/dQw4w9WgXcQ](http://youtu.be/dQw4w9WgXcQ) ) instead of the full link (like[https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=dQw4w9WgXcQ) ).\n\n\nBingo! That was the clue we needed, so we ran some more tests:\n\n\nLink\n\n\nTracking\n\n\nPlacement\n\n\nWarning\n\n\n[google.com](http://google.com/)\n\n\nN\n\n\nInbox\n\n\nNo\n\n\n[google.com](http://google.com/)\n\n\nY\n\n\nInbox\n\n\nNo\n\n\n[youtu.be](http://youtu.be/)\n\n\nN\n\n\nInbox\n\n\nNo\n\n\n[youtu.be](http://youtu.be/)\n\n\nY\n\n\nSpam\n\n\nYes\n\n\n[youtube.com](http://youtube.com/)\n\n\nN\n\n\nInbox\n\n\nNo\n\n\n[youtube.com](http://youtube.com/)\n\n\nY\n\n\nInbox\n\n\nNo\n\n\nWe now understood the issue: double-wrapped YouTube links were causing the problem. So to avoid triggering Gmail’s spam filters: either disable link tracking on YouTube share links, or use the full YouTube link instead.\n\n\nWe also received reports that the share link alone was causing mail to land in spam.\n\n\nTo prevent further deliverability problems, we’ve added a warning[to Guardian](https://loops.so/docs/deliverability/youtube-links-warning#shortened-youtube-links-warning) to catch shortened YouTube links.",
+  "published_at": "2026-01-07T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T09:57:10.497635+00:00",
+  "content_hash": "sha256:132095cf162790ffc9a30762964ba83aa8e4628e5685337140fd6fa679160dc8"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3ac35a8f1bde3d0e936dfdc7300b1654e4d621e3be85b3f3ee8d38183251941b",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/subreddits-no-longer-showing-up-as-story-tags/13766#post_3",
+  "canonical_url": "https://forum.newsblur.com/t/subreddits-no-longer-showing-up-as-story-tags/13766",
+  "title": "Subreddits no longer showing up as story tags",
+  "summary": "… making all my filters fail ☹ Reddit’s “r/example” story tags are no longer working. For example, the RSS tag <category term=\"worldnews\" label=\"r/worldnews\"/> no longer shows r/worldnews as a story tag Using old.reddit.com for the feeds Help? Please? – Chris 🙂",
+  "body_markdown": "[chris79](https://forum.newsblur.com/u/chris79)\n\n\nJuly 3, 2026, 6:33pm 1\n\n\n… making all my filters fail\n\n\nReddit’s “r/example” story tags are no longer working. For example, the RSS tag` <category term=\"worldnews\" label=\"r/worldnews\"/>` no longer shows` r/worldnews` as a story tag\n\n\nUsing` old.reddit.com` for the feeds\n\n\nHelp? Please?\n– Chris\n\n\n[samuelclay](https://forum.newsblur.com/u/samuelclay)\n\n\nJuly 3, 2026, 7:42pm 2\n\n\nFixed, the Reddit API fetched stories now include the subreddit as a story tag again, so filters like world news should work.\n\n\nHere’s the commit:[https://github.com/samuelclay/NewsBlur/commit/3df609772b4b32103aa7158de7df247fe6d1dac7](https://github.com/samuelclay/NewsBlur/commit/3df609772b4b32103aa7158de7df247fe6d1dac7)\n\n\n[chris79](https://forum.newsblur.com/u/chris79)\n\n\nJuly 4, 2026, 1:52am 3\n\n\nThanks so much, man!\n\n\n– Chris\n\n\n1 Like",
+  "published_at": "2026-07-04T01:52:12+00:00",
+  "first_seen_at": "2026-07-25T16:10:32.307561+00:00",
+  "content_hash": "sha256:99d2993b0ebee2c43deaf1558b319c54a049c8e06ac95ca8086693efb3e585c5"
+}

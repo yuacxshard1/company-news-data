@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "acfad3fe2e162fc0bf1d7028bc3860ed0d628e7ec0b57403f38224d8eed3cfc6",
+  "company_key": "yc-waypoint",
+  "company_name": "Waypoint",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.usewaypoint.com/changelog/api-endpoint-email-message-timeline-events/",
+  "canonical_url": "https://www.usewaypoint.com/changelog/api-endpoint-email-message-timeline-events/",
+  "title": "API endpoint: email message timeline events",
+  "summary": "",
+  "body_markdown": "Our new[email message events API endpoint](https://www.usewaypoint.com/docs/api-reference#list-email-events) gives teams the ability to access the full timeline of events on an individual email message. These events include when the message was created, every open, click, bounce, or any other event found in our[email event message logs](https://www.usewaypoint.com/docs/email-event-logs) .\n\n\nThis is especially helpful for teams that want to show this timeline of events to their own customers. For example, a CRM software platform may want to show these delivery events to help their customers better understand deliverability.\n\n\nGET\n\n\n` /v1/email_messages/EMAIL_MESSAGE_ID/events`",
+  "published_at": "2024-10-09T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T05:13:45.651737+00:00",
+  "content_hash": "sha256:979d81190441d135089a3c7c2a7bbc127bf5363045a5c0db2a027d2b005a848a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9d9f7584fe1a651a50500a782becfb33562af6d46a052d8dd8e502fb7fa566e1",
+  "company_key": "yc-apollo",
+  "company_name": "Apollo",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.apollographql.com/blog/introducing-schema-change-notifications-with-apollo-graph-manager-b0f2ef13ce9d",
+  "canonical_url": "https://www.apollographql.com/blog/introducing-schema-change-notifications-with-apollo-graph-manager-b0f2ef13ce9d",
+  "title": "Introducing Schema Change Notifications with Apollo Graph Manager",
+  "summary": "",
+  "body_markdown": "One of the biggest benefits of a GraphQL-powered data layer is the ability to maintain a single schema that continuously evolves to reflect your collection of products and features.\n\n\nAs your schema evolves, it’s essential to keep your teams informed whenever you introduce new capabilities or deprecate existing ones. To help with that, **we’re delighted to announce an exciting new feature in Apollo Graph Manager: schema change notifications!** 🚀\n\n\nWith schema change notifications, you can configure[Graph Manager](https://www.apollographql.com/docs/graph-manager/) to notify you via Slack **any time an update is made to your registered schema** .\n\n\n## Setting it up\n\n\nSetting up schema change notifications takes just a couple of quick steps:\n\n\n### 1. Register your schema\n\n\nIf you aren’t already registering your schema with Graph Manager, check out the[schema registry docs](https://www.apollographql.com/docs/graph-manager/schema-registry/) . And if you’re *brand new* to Graph Manager,[get started here!](https://www.apollographql.com/docs/graph-manager/getting-started/)\n\n\n### 2. Enable notifications\n\n\nOn your graph’s **Integrations** page in Graph Manager, click **Configure** :\n\n\nThe Integrations page in Apollo Graph Manager\n\n\nFrom here, you can specify a Slack webhook URL, along with the name of the channel you want to send notifications to:\n\n\nSpecifying a channel name and webhook URL\n\n\nNext, select the[variant](https://www.apollographql.com/docs/graph-manager/schema-registry/#managing-environments-with-variants) of your graph you want to receive notifications for and click **Done** :\n\n\nSelecting a graph variant\n\n\nThat’s it! You’re all set and ready to go. The next time anyone pushes a schema change to the specified graph variant, you’ll get a Slack notification like the one at the top of this post.\n\n\n## Do even more with Slack\n\n\nSchema change notifications aren’t the only feature of Graph Manager’s Slack integration! To learn more about daily metrics reports and threshold-based alerting,[check out the docs](https://www.apollographql.com/docs/graph-manager/slack-integration/) .\n\n\n---\n\n\n## Thank you!\n\n\nWe appreciate your feedback and would ❤️ to hear from you[on Twitter](https://twitter.com/apollographql) ! Let us know how you’re liking schema change notifications, and don’t hesitate to give us a shout you if there are any other features you’d like to see in[Graph Manager](https://www.apollographql.com/docs/graph-manager/?referrer=blog) .\n\n\nWritten by\n\n\nCaydie Tran\n\n\n[Read more by Caydie Tran](https://www.apollographql.com/blog/author/caydie)",
+  "published_at": "2020-04-09T18:55:00+00:00",
+  "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+  "content_hash": "sha256:deb10115d0d1c941554d5369cf657f1c0a1e3867901c90e8cc6a65c3b98540f7"
+}

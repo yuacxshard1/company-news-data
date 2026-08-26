@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "206db15bf22f6b464b2cf1baca4f8bf75d40b59ec557b677413454977a7cb481",
+  "company_key": "yc-tusk",
+  "company_name": "Tusk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.usetusk.ai/blog/january-2025-changelog",
+  "canonical_url": "https://blog.usetusk.ai/blog/january-2025-changelog",
+  "title": "January '25 Changelog",
+  "summary": "New features released in January 2025 –– GitLab support, Ruby-based testing frameworks, Jira and Linear integrations, and more.",
+  "body_markdown": "# What's new in Tusk\n\n\nHappy New Year from the Tusk team!\n\n\nThis January, we've added **GitLab** support, **Ruby-based** testing frameworks, as well as integrations with **Jira and Linear** for business context.\n\n\nWe've improved the reliability and accuracy of our test generation agent. Customers can now also provide **custom instructions** to Tusk via our UI so that it generates tests in line with their testing guidelines.\n\n\n## New releases\n\n\n- GitLab support\n- Ruby-based testing frameworks support\n- Jira and Linear integration for extracting business context from tickets\n- Better handling of monorepos with large number of packages\n- Improved agent self-iteration on test code when encountering errors\n- Improved agent filtering on important test cases\n- Gathering additional symbol context from codebase when generating test cases\n- Improved classification of PRs to reduce noise from Tusk Tester\n- Show potential fix when Tusk detects a bug in a PR\n- Tusk UI - Customization page for providing testing guidelines to the agent\n- Tusk UI - Viewing test generation output",
+  "published_at": "2025-01-31T09:32:14+00:00",
+  "first_seen_at": "2026-07-26T03:21:03.026732+00:00",
+  "content_hash": "sha256:78de67582b7a3e620989a006a22757d6310d4472e4cb85c0273024eb32066188"
+}

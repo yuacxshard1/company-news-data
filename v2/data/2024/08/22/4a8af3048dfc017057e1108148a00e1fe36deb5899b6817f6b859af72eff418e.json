@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4a8af3048dfc017057e1108148a00e1fe36deb5899b6817f6b859af72eff418e",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://resend.com/blog/deliverability-insights",
+  "canonical_url": "https://resend.com/blog/deliverability-insights",
+  "title": "Deliverability Insights",
+  "summary": "Improve email deliverability by identifying issues and applying best practices.",
+  "body_markdown": "Deliverability is a shared responsibility between the email provider and the sender.\n\n\nBut not everyone is an email expert, and that's okay. The fact is that by following best practices, you can improve your chances of landing in the inbox instead of the spam folder.\n\n\nThat's why we created Deliverability Insights.\n\n\n## How we got here\n\n\nAs we've helped companies of all sizes improve their deliverability, we realized a pattern in our advice. We often recommended the same best practices over and over. Knowing these best practices requires you to be an email expert or read different articles on deliverability, which can be overwhelming.\n\n\nWe first created an internal tool to help our support team when there were deliverability questions. This tool helped diagnose common deliverability issues and helped customers reach the inbox instead of spam. We realized this was too important to keep it as an internal tool, and now we're making it a built-in feature.\n\n\n## How to use it\n\n\nThere's an *Insights* tab when you view an email in Resend now. This will check your email in multiple ways to ensure it has the best chance to reach the inbox.\n\n\nWe break these insights into three categories:\n\n\n### 1. Needs attention\n\n\nThese are changes that will align your email with industry best practices such as:\n\n\n- Keep email body size small\n- DMARC record is valid\n- Link URLs match sending domain\n- Include plain text version\n- Don't use \"no-reply\"\n\n\n### 2. Possible improvements\n\n\nThese are optimizations that could improve your deliverability like:\n\n\n- Disable click tracking\n- Disable open tracking\n- Use a subdomain\n\n\n### 3. Doing great\n\n\nIf a check passes, you'll get a nice green check. This means you're following best practices and are one step closer to ensuring your emails land in the inbox.\n\n\n## What's next\n\n\nThis is the first step in bringing more recommendations into the product.\n\n\nWhile in Beta, Deliverability Insights are available for free to all plans. We hope this helps all new and old senders improve their deliverability.\n\n\nWe plan to add more insights, including additional best practices, so you can be confident your messages are reaching users.",
+  "published_at": "2024-08-22T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:56.405079+00:00",
+  "content_hash": "sha256:c29eac7ae082a620e5336203a31beddb75a5f614226b256eff44435bd52146d2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "56408a02b72c437d2c6e35bb67699a5f184d653f8ce2fb5a4aa35abf16508b55",
+  "company_key": "yc-pulse-3",
+  "company_name": "Pulse",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.runpulse.com/blog/split-endpoint-is-now-generally-available",
+  "canonical_url": "https://www.runpulse.com/blog/split-endpoint-is-now-generally-available",
+  "title": "Split Endpoint Is Now Generally Available",
+  "summary": "Define and isolate the exact pages that matter before extraction, reducing noise and improving accuracy across your document pipelines. | Pulse AI",
+  "body_markdown": "Most document extraction pipelines fail quietly.\n\n\nNot because the model is wrong. Not because the schema is poorly designed. Because the wrong pages went in to begin with.\n\n\nWhen you run extraction against an entire document, you're asking your model to find signal across cover pages, appendices, boilerplate, legal disclaimers, and blank filler. It doesn't know which pages matter. The output reflects that uncertainty, and teams spend hours cleaning up downstream what was actually a problem upstream.\n\n\nThis is the scoping problem. And it's more common than most teams realize.\n\n\n## **The Fix Is Upstream**\n\n\nAfter processing over a billion pages for enterprise clients, the pattern became clear: accuracy problems that look like model problems are usually scoping problems. The extraction itself is often fine. The issue is that the model is working with too much, and the wrong things.\n\n\nSplit is our answer to this. It lets you define which pages of a document are relevant before anything gets extracted. Instead of running your schema against the full document, you're running it against exactly the pages that contain the data you care about.\n\n\nClean inputs produce clean outputs. It sounds simple because it is, and that's the point.\n\n\n## **What Split Does**\n\n\nSplit gives you a dedicated endpoint to identify and isolate the relevant page ranges within a document before your extraction schema runs. You define the scope. Extraction runs within it.\n\n\nThe downstream effects are meaningful: higher accuracy on the data that matters, less noise in your outputs, and significantly less time spent on manual cleanup. For teams processing documents at scale, that compounds quickly.\n\n\n## **Already Running in Production**\n\n\nSplit has been live with enterprise clients for the past year. It's been a quiet workhorse in pipelines processing complex financial documents, where precision matters and there's no tolerance for noisy outputs.\n\n\nToday we're making it available to everyone on the Pulse platform.\n\n\nIf your extraction pipeline is producing outputs that feel messier than they should, the schema probably isn't the problem. Start one step earlier.\n\n\n## **Available now in the Pulse platform.**\n\n\n*Want to see Split work on your documents?*[Chat with our team here](https://www.runpulse.com/contact-sales) .",
+  "published_at": null,
+  "first_seen_at": "2026-07-23T21:33:19.979240+00:00",
+  "content_hash": "sha256:db8187ad28b2da7be163524cb2b3b6527b3d2761165026deb8593e998ea1b456"
+}

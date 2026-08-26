@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d0630b558a464f407b8493614aa5c630e6957568abfeab755ecbb90388e98fab",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/15-10-2025",
+  "canonical_url": "https://browser-use.com/changelog/15-10-2025",
+  "title": "Code Use",
+  "summary": "Generate Python/JS code for high-volume data extraction tasks.",
+  "body_markdown": "` CodeAgent` writes Python and JavaScript for native browser interaction via CDP. Custom LLM trained for code generation only.\n\n\n```text\nfrom   browser_use   import   CodeAgent, ChatBrowserUse\n\n\nagent   =   CodeAgent(\ntask  =  task,\nllm  =  ChatBrowserUse(),   # requires our LLM\n)\nawait   agent.run()\n```\n\n\nUse cases:\n\n\n- Extract 1000 products, filter by price\n- Get 2000 GitHub stargazers with metadata\n- Scrape projects, filter by stars, export CSV\n\n\nAvailable in 0.9.0 (OSS). Grab the API key from[cloud](https://cloud.browser-use.com/new-api-key) .",
+  "published_at": "2025-10-15T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:32fed901a94315d0f741f40863437b36bd64cf8c1c4e807736ee10d55bf3991f"
+}

@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-ionworks",
+      "company_name": "Ionworks",
+      "doc_id": "0bdd2e0e1673f74a38c3f13b1dd7ec34bcfb47e29c80dd25ea865f8a11f7649e",
+      "first_seen_at": "2026-07-22T00:33:30.651124+00:00",
+      "published_at": "2026-06-25T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A class of degradation fit that took about 16 hours per forward run in the literature, and over 72 hours at 10 °C, runs in 34 seconds on the Ionworks pipeline. The biggest single win was not model order. It was fixing unbounded memory growth.",
+      "title": "What actually makes degradation parameterization fast"
+    },
+    {
+      "company_key": "yc-ionworks",
+      "company_name": "Ionworks",
+      "doc_id": "1dc66887a4da9100ce85596ca7505f749f6d8dc58f524a4a1e353876a9f80fec",
+      "first_seen_at": "2026-07-22T00:33:30.651124+00:00",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Charge a cell slowly and its thickness can rise, dip, then rise again, all while current flows one way. The cause is geometric: a graphite anode that expands in piecewise staging steps, stacked against a cathode that contracts at a steady rate. Each electrode is monotonic in its own lithiation. The cell sees their sum, and the sum reverses wherever the cathode contraction beats the local anode expansion rate.",
+      "title": "Why do batteries expand non-monotonically?"
+    },
+    {
+      "company_key": "yc-ionworks",
+      "company_name": "Ionworks",
+      "doc_id": "7fedbe36516e496b2aa95631b7260bc60ab5e1ae19e8cdbda7681866d5bff8e7",
+      "first_seen_at": "2026-07-22T00:33:30.651124+00:00",
+      "published_at": "2026-06-25T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Capacity fade is a projection of several aging mechanisms at once. Fitting it directly lets the optimizer reach the right answer for the wrong reasons. Fitting the degradation modes instead, following the case made by Li et al. (2025), recovers physically meaningful mechanism rates you can read and carry to untested conditions.",
+      "title": "Why we fit degradation modes, not capacity"
+    }
+  ],
+  "company_key": "yc-ionworks",
+  "month": "2026-06"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8919805439bd7ab7c00338ce5a7954b27feb075ad69d509952559b493ae0f6c3",
+  "company_key": "yc-icepanel",
+  "company_name": "IcePanel",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://icepanel.io/blog/2025-12-02-seezo-integration-with-icepanel",
+  "canonical_url": "https://icepanel.io/blog/2025-12-02-seezo-integration-with-icepanel",
+  "title": "New — Seezo integration with IcePanel 🧊",
+  "summary": "LLM security assessments with IcePanel",
+  "body_markdown": "Security teams have relied on static diagrams as the foundation for activities like threat modelling and audits. Teams would furiously spend hours and weeks consolidating product specs, architecture docs, and tasks in project management tools to produce artifacts like data flow diagrams.\n\n\nThis worked with the old way of building monolithic systems with slower deployment cycles. However, with the shift to modern practices like microservices, cloud, and CI/CD, diagrams now get out of date almost instantly after they’re done.\n\n\n## What is Seezo?\n\n\n[Seezo](https://seezo.io/) solves this problem with a context-first (LLM) approach. With a strong baseline of security context, Seezo extracts information from unstructured data (docs, JIRA epics, diagrams) to analyze systems instantly. This workflow enables AppSec teams to evaluate designs with faster feedback cycles continuously. Security becomes something teams can think about upfront, instead of as an afterthought.\n\n\n## How does the IcePanel integration work?\n\n\nSeezo now integrates with IcePanel, allowing you to add diagrams in an assessment. As your model remains continuously up to date in IcePanel, assessments will always pull the latest context.\n\n\nCompared to traditional diagramming tools, IcePanel’s structured model allows teams to capture their architecture views comprehensively in a single place. Context is everything when it comes to LLMs, which means Seezo can produce more accurate results with the latest information.\n\n\n---\n\n\nWant to get started with Seezo using IcePanel? Follow these steps.\n\n\n## Setup Instructions\n\n\nTo get started:\n\n\n1. Sign up for a[Seezo](https://seezo.io/) account\n2. In IcePanel, navigate to Settings > API keys\n3. Create an API key (Read)\n4. Copy the API token\n5. Go to Seezo and navigate to Config > IcePanel\n6. Paste the API token and save\n\n\nOnce you’re all setup:\n\n\n1. Create a new assessment and click on the IcePanel button\n2. Copy a share link in IcePanel of the diagram you want added.\n3. Paste the share link in Seezo and start the assessment. Seezo will also include children diagrams in the assessment.\n\n\n## Share your thoughts 💭\n\n\nIcePanel works with[Seezo](https://seezo.io/) today. Give it a try and share your feedback —mail@icepanel.io 📩\n\n\nStay chill,\n\n\nThe IcePanel team 🧊",
+  "published_at": "2025-12-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T23:29:04.459524+00:00",
+  "content_hash": "sha256:7f637a7d25add91e131d3a3dc7770b91c3e62ad23b0b1e3297e6f7890cb4fe0e"
+}

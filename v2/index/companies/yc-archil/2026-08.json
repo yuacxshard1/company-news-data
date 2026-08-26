@@ -1,0 +1,436 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "0340c57fe8976149465585b388f6d5c379298edfdeceafcff5e4fd8d407e72e6",
+      "first_seen_at": "2026-08-26T19:53:52.332951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Block devices, file systems, and why remote file storage has always been slow. A ground-up look at what a file system actually is, and how Archil makes a shared one fast enough to run git clone on.",
+      "title": "Understanding file storage"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "081dac5b8cc568e481610c504fe92a0d221498ee7acafc68ebcf4e1fe0141a29",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "How to design a storage strategy for AI systems, from large-scale training datasets to inference and AI agents.",
+      "title": "Choosing the Right Storage for AI and ML Workloads"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "0a0db4dd93745ff6ef6a4217793cd9e2d056e5328e1a3ba4ca98ac8ce772e87c",
+      "first_seen_at": "2026-08-26T19:53:52.332951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Every cloud workload -- databases, sandboxes, CI, analytics -- is built from the same three parts. Why a single write-ahead log on S3, speaking POSIX, can collapse all of them into one storage system.",
+      "title": "Building the last WAL on S3"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "1733a9c8c807de243e0c13a2011cf156f04718930ea75740c728f20b9b502664",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Compare AWS EBS vs EFS vs S3—and learn how Archil bridges them by turning S3 into a high-performance, mountable file system that delivers local-disk speed with cloud-scale flexibility.",
+      "title": "Amazon EBS vs EFS: Where Does an S3-Compatible Option Fit In?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "1cb0688434d70b528b72922a0a1a253a2afa9856cee5fbf40f8b4651affd8ea9",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "AWS S3 Files lets you mount an S3 bucket as a file system. The idea is right. But building it on NFS creates a cascade of problems — in latency, scalability, and pricing — that no amount of engineering can fix.",
+      "title": "S3 Files: the right product on the wrong foundation"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "1d5232050133ec48c4a51226fb045c1bbc570d829e676a84f95c4f8debdf70b6",
+      "first_seen_at": "2026-08-26T19:53:52.332951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Not all \"persistent disks\" are created equal. What it actually means for data to be safe, what your infrastructure provider could be doing behind an fsync, and the question you should be asking before you trust them with a database.",
+      "title": "Be careful which \"persistent\" disks you trust"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "1e1ffd348c52ed796bd9522d47d9e4f79521ff3e28ac57a1d27356b00a116b61",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "One of the most interesting things that used to happen to me when I was working at AWS was hearing from customers who told me that they 'preferred to use S3 because it was faster than EFS'. This was...",
+      "title": "Is S3 faster than a file system?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "24b55f87f5696db39643178ed88f228df4982a3bd1f319b8232e13dc53431bbe",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Compares s3fs and Goofys, two tools for mounting S3 as a local filesystem, and explains how their metadata handling, caching strategies, and API usage impact performance, consistency, and cost. Helps teams understand when filesystem-on-S3 layers are sufficient—and when object-native approaches are a better fit for large-scale data workloads.",
+      "title": "GoofyFS vs s3fs?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "2c73657b7d5cb9849f6efffd1d803cd099462ed4e957cc96439beb5065ae4413",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Set up Jupyter on AWS EC2 with S3 and Archil to build a high-performance, cloud-native analytics environment—mount S3 as a local file system for instant, code-free data access and faster analysis.",
+      "title": "Tutorial: Jupyter Notebooks on Archil"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "2ce987736fe9330760cee737db90d46eb6fa002f7942af6ea0aa66e6d8a35c11",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "They say that in the future, everyone will have their own sandbox company for 15 minutes. Let's make that simpler, here's exactly how I built our compute platform to handle millions of sandbox...",
+      "title": "Launching a million sandboxes per second in constant time"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "31ffe31313d2bb06bfab1d520b79ce04012c43948329eb091bd8d17e3b33376f",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Learn how to host and scale your WordPress site on AWS using Archil—mount S3 as a local file system for faster performance, simple deployment, and cost-efficient cloud storage without the complexity.",
+      "title": "Tutorial: Archil with Wordpress"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "3583aab858f9146aac113c9aadc338056ce5f9ecc7b427fe51112b2c04039a82",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Introducing serverless execution: run bash on Archil file systems directly, without provisioning compute or moving data. Live today in all AWS regions.",
+      "title": "Bash is the SQL for file systems"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "440134a91920741222469102ad0eefa2a204a247182711aed21895cfe40e6629",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Learn the key differences between data lakes, data warehouses, and hybrid solutions—and how to choose the right architecture for analytics, scalability, and real-time insights.",
+      "title": "Data Lakes vs. Data Warehouses: Which Model Fits Your Use Case?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "449957d3590896c62443d82417bf984d735d5f547b770b89d2234565bbdb2dd7",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "When I started Archil in 2024, I was coming from a world of networked, disaggregated storage products. My primary goal was to build a system for file storage (which has super powers like...",
+      "title": "Should storage be local or remote?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "44cce23beba5e5b74fc6cf6e018a09a4e0c00d411b0a16db9e2e25bdb02032bf",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Compares JuiceFS and ObjectiveFS, two POSIX-compatible filesystems built on object storage, focusing on their architectural tradeoffs, metadata handling, operational overhead, and consistency models. Helps teams decide whether they prefer an open, operator-managed system or a fully managed filesystem with stronger built-in guarantees and simpler operations.",
+      "title": "JuiceFS vs ObjectiveFS"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "48d7b1f924f3d2bd8ea46ba0a827799b9f961b3bb2962c15f0f0a1d913e079ea",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Archil now supports just-bash, a new way to interact with your data.",
+      "title": "Archil now supports mounting from just-bash"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "54ae554f7a347a3092269b0569cca65470a9da63a2f62fac9202bc44cc85541e",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Agents today mirror the software development world of the late 2000s before the secrets from Google, Amazon, and Facebook on scaling engineering teams and services became common knowledge. Today,...",
+      "title": "Agents share environments, not data"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "5621ff030f0095bb8d26451d9cabda36e2f679d517fca71bc4d563ff5b660171",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "DeepSeek 3FS is an open-source distributed file system built specifically for large, read-heavy AI workloads. It delivers strong consistency and fast random reads, but comes with slower writes and significant operational complexity, making it a good fit only for teams running AI at serious scale.",
+      "title": "When should I be using DeepSeek 3FS for AI?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "5f93c12ff8ef61d19254f3b4400ca892cda5b013fe812e1ec32116d82267262b",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Explains what ObjectiveFS is and how it delivers a fully POSIX-compatible shared filesystem on top of object storage. Covers its architecture, consistency model, performance characteristics, and where it fits best for teams that need scalable, cloud-backed file storage without running a storage cluster.",
+      "title": "What is ObjectiveFS?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "61780b4caaf17d6d2e34b3623b4270dd5c26222ac6093e24fcba450e18df4db2",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Storage architecture can make or break your AI pipeline. From data ingestion to model training and serving, each phase has different performance and cost requirements. This post breaks down storage tiers, tradeoffs, and practical strategies for optimizing performance without blowing up your cloud bill.",
+      "title": "Storage in the AI Pipeline: From Ingestion to Training"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "64b2fb843fa4cd569ca03363210012878412a3f41629331572eb858837a03de8",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Learn what POSIX compliance means, how it differs from object storage, and why S3 is not POSIX-compliant. Covers the practical impact on application behavior, common migration pitfalls, and which cloud file storage options support true POSIX semantics for workloads that need them.",
+      "title": "Is S3 POSIX compliant?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "68134643611935bc91d578a261802e15b213200e1c6fba5a6e2674c6a8c7a767",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Optimize Amazon S3 performance with key prefix scaling, S3 Transfer Acceleration, and multi-part uploads to achieve faster throughput, lower latency, and global reliability at any scale.",
+      "title": "Scaling S3: Navigating request Rates, throughput, scaling, and S3TA"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "784877060cb8684a01c7eeb32b2776d478a11bde726285803a181956e360822e",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Serverless is the 'MCP' of the hosting world. Just like we moved from MCP to file systems, the industry will move from serverless platforms back to the virtual server as the de-facto hosting strategy in the agent era. Here's why.",
+      "title": "Agents were built for the $5 VPS"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "81cbb36ac331bf692173da8f814eef892e3c9a6897584a89a7837a0798c6cba2",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "A tactical guide to cutting AWS costs fast—combining 10 proven AWS tools with Archil’s S3-backed, infinite local disk to shrink infrastructure spend, extend runway, and boost efficiency without slowing product velocity.",
+      "title": "12 AWS Products for Slashing Costs"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "a6ead7a60a85b312caa55b5c8ad9e0cecf10bb0c85797ea13823a13e7ec2c57e",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "We've raised an $11M Series A to connect AI to data — a persistent file system for agent context, with the compute to work on it built in.",
+      "title": "Archil raises $11M to connect AI to data"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b2c14789ad9cb63f770eb52bbf921081ce66889e7a375574d6a9dcd0e477b881",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Compares Goofys and ObjectiveFS, two ways to mount object storage as a filesystem, and explains how their goals differ. Highlights the tradeoff between lightweight S3 adapters optimized for simplicity and speed versus fully featured POSIX-style filesystems built for consistency, shared access, and multi-machine workloads.",
+      "title": "GoofyFS vs ObjectiveFS"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b3f706a1a9b7a24444a4d7257d6abf46cff7746d66bb87fa29b1973aed3aac76",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Archil (formerly Regatta Storage) has raised $6.7M to replace legacy cloud storage like EBS with infinite, shareable volumes that instantly connect to S3.",
+      "title": "Archil: from a file system to a data company"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b41d251281c3f61c3a27530008109287575bbf676a7e5fe6e213f6ff18dfb425",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Compare Amazon S3 Express One Zone and caching solutions like Archil—discover when to use high-performance S3 storage vs. dynamic, cost-efficient caching for ultra-low-latency workloads.",
+      "title": "Cache Layers vs Storage Classes for Performance"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b79a9efaa102a57e07757fd70552bab8dcbfc103115bacfe0f677abce9d555bb",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "One thing that customers are most surprised by when they move to Archil is that their sandbox costs usually go to $0 by moving to Serverless execution. This is great for them, but also a little...",
+      "title": "Are Archil's sandboxes as free as Cloudflare egress?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b99b00fd291ba4c7ae70e0b2892436d52e238ec4e71ddf0e513aab831e4f6dfb",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "The industry has discovered that the file system is a surprisingly effective interface to give AI access to data. Here's why file systems are becoming the universal context layer for AI agents.",
+      "title": "Why file systems are here to stay"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "bc057678b922b965ebb6f0f5e6fd5a26d4016c43c1ff157fb0c350108d38bf7a",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Yesterday, @ankrgyl, the CEO of Braintrust, remarked that it felt like sandboxes were the convergence of servers and serverless. He should be correct here, it is the case that sandboxes kind of feel...",
+      "title": "Where are the serverless sandboxes?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "c1dd06dcf7d80fa63c863b9596e4c98d1ad435d460659f92450af2973fba1baa",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "There are a lot of reasons why object storage solutions like S3 became so popular for cloud application development in the past 20 years with 'low-cost' and 'ubiquity' being two. I think there's a...",
+      "title": "Building file system transactions for agents"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "c44c8513867b1d5217d870d7371de94212eb74180eb4dc57ffcb674d51064997",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "This guide compares AWS EFS and its cloud storage alternatives—Azure Files, GCP Filestore, Oracle, and Archil—highlighting differences in scalability, performance, and cost to help teams choose the best managed NFS solution for their workloads.",
+      "title": "How do I do EFS on Other Clouds?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "d0a59cdef1cce093ddc5747f76d0a4dea68a68d18b1dbab418d96a0345491d15",
+      "first_seen_at": "2026-08-26T19:53:52.332951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Archil is one of the few storage services that actually stores customer data rather than delegating it to S3. Durability math, correlated failure, erasure coding, and copysets -- what it takes to not lose your data.",
+      "title": "How to store data safely"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "d868d7bd9fefd0ee159b9591eab3e61fe370990fd89428bb232d386b6c55486c",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Let's start by thinking about the Ship of Theseus, which asks the question 'if you replace every plank in a ship, at what point does it become a different ship?'. This is kind of hard to answer, but...",
+      "title": "The file system is the sandbox"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "db00394429db36d6ee40593caf916b380d2e266029d49c94d82847380df7bea3",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Learn why tools like s3fs struggle to make S3 behave like a true file system—and how Archil delivers a faster, reliable, POSIX-like alternative built for modern, cloud-native performance.",
+      "title": "Mounting S3 Buckets with s3fs: Pros, Cons, and Faster Options"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "dc7aefaf466196ba0f608706ee2c38c835766bf4eb44c074a26c1f35a6a3cf0f",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Stop wasting time with aws s3 sync — learn how Archil lets you mount Amazon S3 as a live, POSIX file system for instant access, faster performance, and lower costs.",
+      "title": "Stop Syncing and Start Mounting: A Smarter Alternative to aws s3 sync"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "e227244671d007c44f8539e65c80a69d8966524a0fe030ba3e45c56254d8cafe",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Discover how Amazon S3 Vectors brings vector-native storage to the cloud—and how Archil complements it by delivering local-speed, real-time access to vector data for next-generation AI workflows.",
+      "title": "What are S3 Vectors, and Where Does Archil Fit In?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "e5f633b5fc02796fc6625e3638a3e5245c3659f91222ec6c834c640478701132",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "This isn't surprising to you, but I believe there's a reason why none of the 'vercel for agents' companies have won yet: none of these technologies have innovated in how to manage stateful...",
+      "title": "Who will build Vercel for agents?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "eabe3344196326b9719754849507d296357e0feb62426ba7915011ade53fa90b",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Regatta Storage has rebranded as Archil, reflecting our expanded focus beyond storage to comprehensive data management.",
+      "title": "Introducing Archil"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "eec425d5db23e4de67b3be5c4e9e2174f65e273ecf565b8adfc605339e91bda2",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Understand AWS EBS volume types, pricing, and cost-optimization strategies—learn how to choose the right storage class, manage performance, and reduce your AWS bill effectively.",
+      "title": "AWS EBS Made Simple: Picking the Right Storage Without Overspending"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "f5bb3d8de7e60db8143b58f951f8f2eda368eb4a667f7c32bb39b713a998baac",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "New Archil integrations for the Vercel AI SDK, eve, Mastra, and LangChain. One function exposes a persistent, shared, compute-enabled filesystem to your agents.",
+      "title": "Context that agents understand"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "f8bcb933899b521b911d1ba3f60b5ecf9294ba3f43929b9fbaeb850582902858",
+      "first_seen_at": "2026-08-09T19:14:48.524951+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "A few weeks ago, we spoke about how the file system is the most important state management primitive of the AI era. As a result, the file system needs to evolve for this new reality. The first way...",
+      "title": "The file system is the agent"
+    }
+  ],
+  "company_key": "yc-archil",
+  "month": "2026-08"
+}

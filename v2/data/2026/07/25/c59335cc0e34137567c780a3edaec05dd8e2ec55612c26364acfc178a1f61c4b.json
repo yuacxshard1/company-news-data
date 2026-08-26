@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c59335cc0e34137567c780a3edaec05dd8e2ec55612c26364acfc178a1f61c4b",
+  "company_key": "yc-polytomic",
+  "company_name": "Polytomic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.polytomic.com/blog-posts/announcing-table-and-column-output-name-overrides-for-data-warehouses",
+  "canonical_url": "https://www.polytomic.com/blog-posts/announcing-table-and-column-output-name-overrides-for-data-warehouses",
+  "title": "Announcing table and column output name overrides for data warehouses",
+  "summary": "Read Announcing table and column output name overrides for data warehouses on the Polytomic blog.",
+  "body_markdown": "Polytomic supports ELT, ETL, and CDC streaming workloads to data warehouses. Yet source databases and applications have all sorts of naming conventions, so which one should the resulting tables and columns in your warehouse have?\n\n\nWhen it comes to naming, consistency is key. Arguments about` snake_case` versus` camelCase` are dwarfed by the maddening special-casing in queries to handle a mix of` updated_at` ,` updatedAt` , and` updatedat` .\n\n\nTo address this, Polytomic automatically normalizes all names for you using a[documented](https://docs.polytomic.com/docs/bulk-sync-naming-conventions#default-name-normalization) convention.\n\n\nBut exceptions in preferences abound, so today we released options that give you full control of the resulting table and column names, no matter your preferences:\n\n\n1. By default, Polytomic will automatically normalize names for you per the above convention.\n\n\n2. However, you now get an option to turn this off per-sync if you don't want any normalization:\n\n\n3. For even more fine-grained control, you also have the ability to specify your own custom output names for specific tables and columns of your choice:\n\n\nWith these changes, you now have complete freedom to decide how Polytomic names the tables and columns it writes to your data warehouse. You can see more in our documentation here:[https://docs.polytomic.com/docs/bulk-sync-naming-conventions](https://docs.polytomic.com/docs/bulk-sync-naming-conventions) .\n\n\n‍\n\n\n[Back to blog](https://www.polytomic.com/blog)",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T19:31:15.738590+00:00",
+  "content_hash": "sha256:df20156e16e3f0762d558c26e673592f23513595044feef0a338e09e135e2d31"
+}

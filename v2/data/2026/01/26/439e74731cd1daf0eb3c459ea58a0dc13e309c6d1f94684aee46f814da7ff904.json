@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "439e74731cd1daf0eb3c459ea58a0dc13e309c6d1f94684aee46f814da7ff904",
+  "company_key": "yc-mocha",
+  "company_name": "Mocha",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://getmocha.com/discuss-mode-upgrade",
+  "canonical_url": "https://getmocha.com/discuss-mode-upgrade",
+  "title": "Discuss Mode Just Got a Major Upgrade",
+  "summary": "We upgraded Discuss mode with the same smart model as code mode, live app investigation, and full context sharing. Planning just got way more powerful.",
+  "body_markdown": "We've been thinking a lot about planning lately. Turns out, **how you plan your app matters just as much as how you build it** . So we gave Discuss mode a serious upgrade.\n\n\nIt's live now for everyone. Same place you've always found it.\n\n\n## What's New?\n\n\n### Same Brain, More Power\n\n\nDiscuss mode used to run on a lighter, faster model. That made sense when it was just for quick questions. But planning and debugging deserve better.\n\n\nNow it runs on the same smart model as code mode. You get the full thinking power when you're working through complex ideas or tracking down bugs.\n\n\n### It Can Actually See Your App\n\n\nThis one's a game-changer. Before, Discuss mode could only look at your code. Now it takes screenshots and reads logs to investigate issues in real-time.\n\n\nWhen something breaks, it looks at what's *actually* happening — not just what *should* be happening. No more guessing based on code alone.\n\n\n### Full Context Sharing\n\n\nThis is the big one.\n\n\nDiscuss mode now sees everything the Mocha agent was doing behind the scenes: which files it read, what errors it hit, what it was thinking. So when the agent finishes a turn and you're confused, you can ask \"what went wrong there?\" and get a real answer.\n\n\nWorks in reverse too. Switch back to code mode and Mocha remembers what you investigated together — not just what was said in chat. Your debugging session becomes context for the fix.\n\n\n### Multi-Turn Follow-Ups\n\n\nDiscuss mode can now take multiple turns on its own, following threads and digging deeper instead of giving you one response and stopping. It'll keep investigating until it has something useful to say.\n\n\n## The Tradeoff\n\n\nDiscuss mode now uses dynamic credits (like regular mode) instead of the old flat 3 credits per message. It's smarter, which means it costs more to run.\n\n\nBut here's the thing: better planning leads to fewer mistakes in code mode. You might spend a few extra credits thinking through an approach, then save way more by not having Mocha build the wrong thing three times.\n\n\n## Try It Out\n\n\nNext time you're stuck or planning something complex, switch to Discuss mode and talk it through. Ask it to investigate a bug. Have it review what Mocha did.\n\n\nWe think you'll notice the difference.\n\n\nBuild away ☕!",
+  "published_at": "2026-01-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T11:28:42.148680+00:00",
+  "content_hash": "sha256:95ba61438fa8d6049db42fdbeb2cd52782f5972e4a24112d36ab51ac22530ed1"
+}

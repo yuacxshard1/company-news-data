@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0e91e012ebabb352ac070c5ba6567be4bb4174323a793ccbdb60eb438cd80be5",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/changelog/performance-trends-http",
+  "canonical_url": "https://www.artillery.io/changelog/performance-trends-http",
+  "title": "Performance trends for HTTP tests",
+  "summary": "See trends across multiple runs of a load test in the new Performance Trends view in Artillery Cloud.",
+  "body_markdown": "June 4th, 2025[Dashboard](https://www.artillery.io/changelog/tag/dashboard)\n\n\n# Performance trends for HTTP tests\n\n\nYou can now see trends across multiple runs of a load test in the new **Performance Trends** view in Artillery Cloud.\n\n\nPerformance Trends view provides a summary of test health, and changes across key metrics in a test:\n\n\n- The number of virtual users (VUs), with a breakdown for successful/failed VUs\n- Pass/fail breakdown of[ensure checks](https://www.artillery.io/docs/reference/extensions/ensure) , if defined\n- HTTP request rate and throughput\n- HTTP response time (p95 and p99)\n- Test duration\n\n\nTrends are calculated automatically for all load test runs, and are grouped by test name.\n\n\nTo see trends for a load test, you need to have at least 10 distinct runs of that test in the previous 90 days.\n\n\nPerformance Trends are available to all users on Team, Business, and Enterprise plans. There is no additional cost for using Performance Trends.",
+  "published_at": "2025-06-04T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T17:13:32.020779+00:00",
+  "content_hash": "sha256:4f3f48fcd5a5041d3cd5c5049a1b94c2886a6ad6265e546cfb37e86b58e6d6e0"
+}

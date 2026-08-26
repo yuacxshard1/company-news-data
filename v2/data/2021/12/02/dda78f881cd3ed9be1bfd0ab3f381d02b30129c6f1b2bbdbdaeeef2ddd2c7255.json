@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dda78f881cd3ed9be1bfd0ab3f381d02b30129c6f1b2bbdbdaeeef2ddd2c7255",
+  "company_key": "yc-sails-co",
+  "company_name": "Sails Co.",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.sailscasts.com/simulate-latency/",
+  "canonical_url": "https://blog.sailscasts.com/simulate-latency/",
+  "title": "How to simulate latency in a Sails action",
+  "summary": "Having trouble testing your loading state when making a request to your local Sails API from your local frontend? Here is how to simulate latency...",
+  "body_markdown": "I was going through my timeline on Twitter and came across this[tweet](https://twitter.com/themsaid/status/1466019633488609283) by Mohamed Said on how he simulates latency in his local APIs.\n\n\n> Local frontends fetches data very quickly from local APIs. Which makes you miss the loading state. - Mohamed Said\n\n\nSeeing the above tweet I recalled that Sails actually made provision for such a scenario and provides us with a property in our[actions2](https://blog.sailscasts.com/migrating-your-sails-actions-to-actions2/) actions to do just that.\n\n\n## The simulateLatency property\n\n\nSails made it super easy to simulate latency in your actions2 actions. To do so pass in the number of milliseconds you want to simulate the latency for i.e how long you want the latency on that action to be, to a top-level` simulateLatency` property in your actions options.\n\n\n```text\n// api/controllers/user/signin.js\nmodule  .  exports   =   {\nfriendlyName:   'Signin'  ,\ndescription:   'Signs in a user'  ,\n\n\n// Simulate latency for 1000 milliseconds\nsimulateLatency:   1000\n\n\ninputs: {},\n\n\nexits: {},\n\n\nfn:   async   () {}\n}\n```\n\n\nIn the above example action, I omitted the rest of the action to focus on the` simulateLatency` property.\n\n\n## Conclusion\n\n\nAlright! So now you have seen how not to miss loading state in your local frontend when making a request to a local Sails API. Happy deploying 🚀",
+  "published_at": "2021-12-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T22:05:07.405322+00:00",
+  "content_hash": "sha256:f9835457d28d9db09fa58d62736d2af82271d2b044813b21e40e375a5bee8a4e"
+}

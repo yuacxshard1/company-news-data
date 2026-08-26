@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "96dfdc587290a65dea46854d39bc2a27aa686dd215748f349748d40bcd5d9076",
+  "company_key": "yc-tensol",
+  "company_name": "Tensol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://tensol.ai/blog/deploy-openclaw-for-business",
+  "canonical_url": "https://tensol.ai/blog/deploy-openclaw-for-business",
+  "title": "How to Deploy OpenClaw for Your Business in 5 Minutes",
+  "summary": "Step-by-step guide to deploying OpenClaw as a managed AI employee on Tensol. No terminal, no Docker, no DevOps — just connect your tools and go.",
+  "body_markdown": "## Why Deploy OpenClaw on Tensol?\n\n\nOpenClaw is the open-source AI assistant platform with 220,000+ GitHub stars. It runs 24/7, connects to 13+ messaging channels, and supports 100+ integrations via OAuth.\n\n\nBut self-hosting OpenClaw means managing servers, updates, security patches, and VM isolation. Tensol handles all of that — each customer gets their own dedicated VM running the full OpenClaw stack.\n\n\n## Step 1: Sign Up\n\n\nHead to[app.tensol.ai](https://app.tensol.ai/) and create your account. No credit card required.\n\n\n## Step 2: Connect Your Tools\n\n\nClick through OAuth flows for the tools your team uses:\n\n\n- **Slack** — monitor channels, post alerts, answer questions\n- **GitHub** — track PRs, monitor deploys, review code\n- **Sentry** — watch error rates, correlate with deploys\n- **HubSpot** — update CRM, track deals, log calls\n- **Linear** — create tickets, track issues, manage sprints\n\n\nOne click per integration. Your AI employee gets the same access as a real team member.\n\n\n## Step 3: Configure What to Watch\n\n\nTell your agent what matters:\n\n\n- P0 errors in production → alert the CTO immediately\n- Stale deals over $50K → ping the sales manager\n- Customer complaints in Slack → escalate to support lead\n- New signups → qualify and route to the right rep\n\n\n## Step 4: Deploy\n\n\nHit deploy. Your OpenClaw agent starts running on its own dedicated VM with AES-256 encryption, full audit trail, and 99.9% uptime SLA.\n\n\nThe entire process takes under 5 minutes.\n\n\n## What Happens Next\n\n\nYour AI employee works 24/7 from day one:\n\n\n- **Monitors** every connected tool continuously\n- **Detects** patterns across systems (errors + deploys + customer complaints)\n- **Acts** autonomously — creates tickets, drafts emails, alerts the right people\n- **Remembers** every interaction with persistent memory across months\n- **Learns** from your overrides and feedback over time\n\n\n## Enterprise Security\n\n\nEvery Tensol deployment includes:\n\n\n- Isolated VM per customer — no shared resources\n- AES-256 encryption at rest and in transit\n- API keys never exposed to the AI agent\n- Full audit trail of every action\n- GDPR and CCPA compliant\n- 99.9% uptime SLA\n\n\n## Getting Help\n\n\n- **Book a demo** :[tensol.ai/demo](https://tensol.ai/demo)\n- **Browse skills** :[clawhub.ai](https://clawhub.ai/) — 13,000+ community skills\n- **Documentation** :[docs.openclaw.ai](https://docs.openclaw.ai/)",
+  "published_at": "2026-03-01T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:37.920034+00:00",
+  "content_hash": "sha256:bd473caafd49b4e2c3ffc745bfb117dcd6eba0da511ce3e97e45e4141ae74c9f"
+}

@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "056251864993bbf85cabc9fc180f4761533a54ceccde88fbfc67d3383df9fd06",
+      "first_seen_at": "2026-08-17T20:10:48.552705+00:00",
+      "published_at": "2026-08-17T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Launching today in early beta, Origin code hosting features a Depot app to run your existing GitHub Actions workflows on Depot CI for better performance and reliability without GitHub.",
+      "title": "Depot CI is now available in Origin"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "1f47c2573c33d45abd4dcc29ea68eb41dc90dfc12e20043ab16d7fa1422910b8",
+      "first_seen_at": "2026-08-04T16:25:42.347718+00:00",
+      "published_at": "2026-08-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Most of a large container's startup goes to pulling and decompressing files it never reads to boot. SOCI makes the image seekable so the runtime loads only the bytes it needs, and Depot writes that index during the build, so the image can lazy-load the instant it's pushed.",
+      "title": "Why SOCI belongs in the build"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "29d949b837c214668114af82234d9791b044e3aa2ae1498dc98e89e28ea9ddab",
+      "first_seen_at": "2026-08-11T14:43:00.617637+00:00",
+      "published_at": "2026-08-11T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Agents can investigate, plan, and implement faster than I can, but reading a final diff is not the same as understanding why the system works the way it does. I own how the system behaves in production, so I want to keep building my intuition about it.",
+      "title": "How I delegate the work, not my judgment"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "8cffda56752e921700b9c8e415b010e3d8bb536286cef3ce3a1ed29cf7836455",
+      "first_seen_at": "2026-08-13T18:26:53.553735+00:00",
+      "published_at": "2026-08-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Our microVMs launch in under a second, and assembling their block devices in parallel put LVM's roughly 100ms volume group-wide lock directly in the critical path. We kept the kernel's device-mapper, wrote our own control plane and gave up crash safety our ephemeral workloads never needed, making allocation roughly 100x faster.",
+      "title": "Why I reimplemented LVM (with worse guarantees)"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "b10b5cd8bedf0422165eba3fe62366b50aad1c3dd17a5a67366a01a619521798",
+      "first_seen_at": "2026-08-26T21:55:24.929531+00:00",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Taking the Sandbox TTI benchmarks one step further for fun.",
+      "title": "Introducing the Fibonacci Benchmark™"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2026-08"
+}

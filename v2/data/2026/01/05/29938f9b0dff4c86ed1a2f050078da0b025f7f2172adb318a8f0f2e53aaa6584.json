@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "29938f9b0dff4c86ed1a2f050078da0b025f7f2172adb318a8f0f2e53aaa6584",
+  "company_key": "yc-datasaur",
+  "company_name": "Datasaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://datasaur.ai/blog-posts/december-feature-updates-more-flexible-rows-hybrid-labeling-and-expanded-evaluation-metrics",
+  "canonical_url": "https://datasaur.ai/blog-posts/december-feature-updates-more-flexible-rows-hybrid-labeling-and-expanded-evaluation-metrics",
+  "title": "December Feature Updates: More Flexible Rows, Hybrid Labeling, and Expanded Evaluation Metrics",
+  "summary": "This release brings more control to structured data workflows, new flexibility in how you label data, and broader support for evaluating span projects. Here’s what’s new.",
+  "body_markdown": "## Data Studio\n\n\n### New Mixed Labeling Type: Row + Document Labeling\n\n\nWe’re introducing Row + Document Labeling, a new project type that combines row-level and document-level labeling in a single workflow.\n\n\nThis setup is useful when you need structured answers per row while also capturing context or decisions that apply to the entire document without splitting work across multiple projects.\n\n\n[Learn more](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/mixed-label-sets#row--document-labeling)\n\n\n### Delete Rows in Row Labeling\n\n\nYou can now delete rows directly within Row Labeling projects. This makes it easier to remove incorrect, duplicated, or no-longer-relevant data without leaving the project or re-uploading files.\n\n\n[Learn more](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/row-and-document-based#delete-rows)\n\n\n### **Evaluation Metrics: Now Supporting Span Labeling**\n\n\nEvaluation Metrics now support Span Labeling projects. This allows you to measure agreement and performance for span-based tasks using the same evaluation framework, making it easier to compare quality across different labeling types.\n\n\n[Learn more](https://docs.datasaur.ai/workspace-management/analytics/evaluation-metrics)\n\n\n### Custom Report Builder: Saving the Last Report\n\n\nIt now remembers the last report you generated and automatically displays it if it’s still saved in your browser storage. This eliminates the need to repeatedly reconfigure the same report every time you open the page.\n\n\n[Learn more](https://docs.datasaur.ai/workspace-management/analytics/custom-report-builder)\n\n\nThese updates give you more control over your data, more flexibility in project setup, and broader visibility into labeling quality. They’re now live and ready to use.\n\n\n‍",
+  "published_at": "2026-01-05T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:27:49.393704+00:00",
+  "content_hash": "sha256:dc9ed36fcfff9ae7dc413e0695ca60e7adfacc6a04f876b2c6d7e11bd5c4f231"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a041b7ecb3e62c5fee51ffa14b16d4b8f00d22180227e1c92d79a3c9289c6e46",
+  "company_key": "yc-tusk",
+  "company_name": "Tusk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.usetusk.ai/resources/september-2025-changelog",
+  "canonical_url": "https://www.usetusk.ai/resources/september-2025-changelog",
+  "title": "September 2025 Changelog",
+  "summary": "Discover what's new in Tusk's September 2025 update: auto-generated API tests, GitHub/GitLab login, advanced user roles, Java & Go coverage support, and more developer productivity features.",
+  "body_markdown": "## Release Notes\n\n\nWe’ve released[Tusk Drift](https://www.usetusk.ai/tusk-drift?utm_source=tuskblog) , our API test automation product, in private beta. Developers can use our new SDK and CLI to record real-world traffic and replay them as API tests locally or in CI.\n\n\nBehind the scenes, we've expanded language support with Java and Go coverage providers, added the ability to log in with GitHub and GitLab, and improved CI workflow error handling.\n\n\n‍\n\n\n‍\n\n\n## Major Features\n\n\n- **Tusk Drift (Private Beta)** : Released Node.js SDK and CLI tool for Tusk Drift. Developers can now generate API test suites from traces recorded from real application behavior.\n- **GitHub / GitLab Log-In** : Allow users to create a Tusk account with GitHub and GitLab log-in and associate it with an organization\n- **User Roles** : Introduced admin/member role management, giving admins granular control over organization-wide permissions and preferences\n- **Java / Go Coverage Support** : Added JUnit (with JaCoCo) and native Go test coverage analysis, expanding coverage support for PR check and CoverBot\n\n\n## Testing Improvements\n\n\n- **Improved Language Server Integration** : Refactored language server integration for resiliency and to better support new languages\n- **Coverage Timeout Extensions** : Increased GitHub Actions coverage timeout to prevent test generation from stopping early for complex repos\n- **Dashboard Table Filters** : Added advanced filters to Usage Insights table, allowing users to filter PRs by columns\n\n\n## DevEx Enhancements\n\n\n- **Clearer Workflow Verification** : Improved GitHub Actions workflow error handling with specific error types and actionable guidance for faster debugging\n- **Dark Mode** : Introduced dark mode theme for UI\n- **Timestamp Display** : Added creation timestamps to Test Run pages, making it easy to differentiate between multiple runs on the same PR",
+  "published_at": "2025-10-03T18:22:04.210+00:00",
+  "first_seen_at": "2026-07-26T03:20:25.565537+00:00",
+  "content_hash": "sha256:ae930dd3a727b6053dbf737a3e173dbc4546b2a6bb1cb4cf7633d69e758b83c8"
+}

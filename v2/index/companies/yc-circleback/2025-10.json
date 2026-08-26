@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-circleback",
+      "company_name": "Circleback",
+      "doc_id": "c0c7e39759027b3f5e577729873f632ee5642ffb35f726dc0883ef0981bb69ef",
+      "first_seen_at": "2026-07-24T01:33:40.934837+00:00",
+      "published_at": "2025-10-09T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We were afraid to deploy during business hours. Not because of bad code, but because our connection pooler couldn't handle the spike. Every deploy to Vercel spun up a flood of new serverless functions, each one grabbing a database connection. The pooler would buckle, users would see errors, and we'd wait a few minutes for things to settle. For a startup that needs to ship fast, \"don't deploy during peak hours\" is not a viable strategy.",
+      "title": "How we fixed Postgres connection pooling on serverless with PgDog"
+    }
+  ],
+  "company_key": "yc-circleback",
+  "month": "2025-10"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e9e9dc0da76aeadc250d0826bdfffa2b865feaed128d6e7f5ca8e08097ff880c",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/add-push-notifications",
+  "canonical_url": "https://bitrig.com/blog/add-push-notifications",
+  "title": "Bitrig Can Now Add Push Notifications to Your Apps",
+  "summary": "Bitrig automates your app’s entire push notification setup, from Xcode to your backend.",
+  "body_markdown": "In the last two releases, we made it easy to add a[CloudKit](https://bitrig.com/blog/bitrig-builds-apps-with-cloudkit) or[Supabase](https://bitrig.com/blog/bitrig-builds-apps-with-supabase) backend.\n\n\nNow your app can keep data in sync across devices, let people collaborate, manage user accounts, run code on a server, and respond to events even when it isn’t open.\n\n\nBut when something changes outside your app, you still need a way to tell your users about it. That’s what push notifications are for.\n\n\nSomeone commented on your post. An item was added to your grocery list. Your order is ready for pickup.\n\n\nThe notification itself is simple, but setting it up is tedious.\n\n\nYou need to configure the right Xcode capabilities, prompt the user for permission, register each device with APNs and your backend, account for APNs’ development and production environments, create and store an Apple push key, and write the server code that sends each notification.\n\n\nIt’s exactly the kind of fragmented busywork that breaks your flow.\n\n\nToday, that changes:\n\n\n**Bitrig can now automate your app’s entire push notification setup, from Xcode to your backend.**\n\n\nThat means:\n\n\n-\n\n\n**Send from CloudKit.** Bitrig creates rules that define which CloudKit changes should trigger a notification, and CloudKit handles delivery. No push key or notification server to run.\n\n\n-\n\n\n**Send from your custom backend.** With Supabase or another backend, Bitrig stores device tokens, creates the sending code, wires up the events that should trigger a push, and puts the required Apple credentials directly into your backend’s secrets.\n\n\n-\n\n\n**Keep your app up to date.** Use pushes to update Live Activities, refresh widgets and Apple Watch complications, or fetch new data in the background before someone opens your app.\n\n\n-\n\n\n**Test the whole path.** Bitrig handles development and production correctly, so you can test notifications in the simulator, on devices, through TestFlight, and on the App Store.\n\n\nEach part of push notification support can be pieced together by hand. But it’s easy to lose your momentum bouncing between your app, Apple’s developer websites, and your backend dashboard, trying to make sure every capability, token, environment, identifier, and secret lines up.\n\n\nBitrig takes care of wiring it all together, end to end.\n\n\n[Open Bitrig](https://bitrig.com/download) and add push notifications to your app today.",
+  "published_at": "2026-08-18T00:00:00+00:00",
+  "first_seen_at": "2026-08-19T05:59:10.313468+00:00",
+  "content_hash": "sha256:00109a7dc20c5802feeabe2754ee1add12d4dc687d52a6f99824e6160271ff09"
+}

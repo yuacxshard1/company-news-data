@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b257d91111ab8de0c1f264508124527b31b25dd024d2f39658a73539d25b4c1a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
+  "title": "SageMaker MLflow now supports customer managed keys",
+  "summary": "Discover more about what's new at AWS with SageMaker MLflow now supports customer managed keys",
+  "body_markdown": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS).\n\n\nThis enhancement allows organizations with strict security and compliance requirements to manage their own encryption keys. With customer-managed keys, you gain enhanced security control and comprehensive audit capabilities through AWS CloudTrail integration. You can encrypt your data with your own KMS keys, trace all data access for security auditing.\n\n\nCustomer-managed keys must be created in the same AWS account and region as your MLflow App, and only symmetric AWS KMS keys are supported.\n\n\nThis feature is generally available in all AWS Regions[where MLflow App is available](https://docs.aws.amazon.com/sagemaker/latest/dg/mlflow.html#mlflow-regions) . To learn more, visit the[SageMaker MLflow detail page](https://docs.aws.amazon.com/sagemaker/latest/dg/mlflow-kms.html) .",
+  "published_at": "2026-08-24T19:26:00+00:00",
+  "first_seen_at": "2026-08-24T22:35:36.534172+00:00",
+  "content_hash": "sha256:1eeb78ca0aee2cee771669bfd6f6112910cd529d448fb1179e354a9a8c68874c"
+}

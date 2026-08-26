@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ca3e6b5e114ddb9d16f9c0422a9f217b93b10dd6e98798c58893048410f7e3d7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-catalog-federation-iceberg-govcloud/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-catalog-federation-iceberg-govcloud/",
+  "title": "AWS Glue now supports catalog federation for remote Apache Iceberg catalogs in AWS GovCloud (US) regions",
+  "summary": "Discover more about what's new at AWS with AWS Glue now supports catalog federation for remote Apache Iceberg catalogs in AWS GovCloud (US) regions",
+  "body_markdown": "AWS Glue now supports catalog federation for remote Iceberg REST catalogs in AWS GovCloud (US) Regions. This capability provides direct and secure access to Iceberg tables, stored in Amazon S3 and cataloged in remote catalogs, using AWS analytics engines.\n\n\nWith catalog federation, you can federate to Iceberg tables in remote catalogs using your preferred AWS analytics engines, without moving or copying tables. It synchronizes metadata real-time between AWS Glue Data Catalog and the remote catalog when data teams query Iceberg tables, which means that query results are always up-to-date with latest metadata. You can now choose the best price-performance for your workloads when analyzing remote Iceberg tables using your preferred AWS analytics engines, while maintaining consistent security controls when discovering or querying data. Catalog federation is supported by a wide variety of analytics engines, including Amazon Redshift, Amazon EMR, Amazon Athena, AWS Glue, and third-party engines like Apache Spark.\n\n\nCatalog federation uses AWS Lake Formation for access controls, allowing you to use fine-grained access controls, cross-account sharing, and trusted identity propagation when sharing remote catalog tables with other data consumers. Catalog federation integrates with catalog implementations that support the Iceberg REST specifications.\n\n\nCatalog federation is available in Lake Formation console and using AWS Glue and Lake Formation SDKs and APIs. This feature is generally available AWS GovCloud (US-East) and AWS GovCloud (US-West) regions. To learn more, visit the[documentation](https://docs.aws.amazon.com/lake-formation/latest/dg/catalog-federation.html) .",
+  "published_at": "2026-08-24T20:50:00+00:00",
+  "first_seen_at": "2026-08-26T21:21:40.443703+00:00",
+  "content_hash": "sha256:6a46919835f2f13ad0999393fe396fc197cd352ea67da5da326e7b14fca56a07"
+}

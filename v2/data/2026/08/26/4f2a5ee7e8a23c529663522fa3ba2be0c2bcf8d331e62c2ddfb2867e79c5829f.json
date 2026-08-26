@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4f2a5ee7e8a23c529663522fa3ba2be0c2bcf8d331e62c2ddfb2867e79c5829f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
+  "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine additional AWS Regions",
+  "summary": "Discover more about what's new at AWS with AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine additional AWS Regions",
+  "body_markdown": "AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta, Melbourne, Osaka), Europe (Spain, Stockholm, Zurich), Africa (Cape Town), and Israel (Tel Aviv).\n\n\nWith cross-Region copy now available in these Regions, you can copy DocumentDB backups into and out of them using backup plans or on-demand copy jobs. This helps you meet disaster recovery, business continuity, and compliance requirements. You can also copy DocumentDB backups to a logically air-gapped vault in these Regions to store immutable, isolated backups that are locked by default and encrypted using AWS owned or customer-managed keys. Share vaults for recovery using AWS Resource Access Manager (RAM) and protect vault access during account compromise with Multi-party approval, reducing recovery time from a data loss event.\n\n\nTo get started, visit the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. For a complete list of supported Regions and features, visit the[AWS Backup documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region) . To learn more about logically air-gapped vaults, visit the[product page](https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html) and[pricing page](https://aws.amazon.com/backup/pricing/) .",
+  "published_at": "2026-08-26T10:00:00+00:00",
+  "first_seen_at": "2026-08-26T21:21:40.443703+00:00",
+  "content_hash": "sha256:7ac82eb0160514bcac75c77fd67a01049979f700191f237a05bd0931853449f0"
+}

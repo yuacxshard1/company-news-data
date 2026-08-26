@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2132afbe4576a44f64d70e7e57b82d63ce15a882134ea4bd90df171b12c11e4b",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/domain-claim",
+  "canonical_url": "https://resend.com/changelog/domain-claim",
+  "title": "Domain Claim",
+  "summary": "Verify ownership of a domain in use by another Resend team and transfer it to yours.",
+  "body_markdown": "It's common to move domains between Resend teams.\n\n\n- Test projects move to work accounts\n- Teams consolidate multiple accounts\n- Agencies hand off a domain to a new managed team\n\n\nStarting today, you can move any domain you own between Resend teams using Domain Claim to verify ownership and transfer it.\n\n\n## How it works\n\n\nIf you[add a domain already used by another team](https://resend.com/domains) , the dashboard will notify you.\n\n\nIf the original account has recent sending activity with the domain in question, you will need to[contact support to release the domain](https://resend.com/support) to prevent any issues.\n\n\nTo prove you own the domain, add the TXT record to your DNS, or do it in one click via DomainConnect for supported registrars. Return to the dashboard and click **I've added the records** .\n\n\nResend verifies the domain ownership, releases the domain from the previous team, and shows you the records to add to your DNS for sending or receiving.\n\n\nTo add the released domain to your team, add the displayed SPF and DKIM records to your DNS and click **I've added the records** .\n\n\nOnce verification is complete, the domain will be available to send and/or receive emails on your team.\n\n\n## What's next\n\n\nTo get started,[add a domain today](https://resend.com/domains) .\n\n\nOur future plans include expanding Domain Claim to the API and SDKs. At that time, we will also add support for the CLI, MCP, and other agentic tooling.",
+  "published_at": "2026-06-04T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T21:22:09.024444+00:00",
+  "content_hash": "sha256:b787865a49d9792b4381a64c8bafa8b4a722d17400c128544d98b3bbd983e10a"
+}

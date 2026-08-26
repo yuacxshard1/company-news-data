@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b38916f7bf53eb537a0b0b4fdce2d9265dd939333af13e995c0ffd9524ad7b89",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2026-01-20-ai-skill-and-config-validate-cli",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2026-01-20-ai-skill-and-config-validate-cli",
+  "title": "AI Skill and Config Validate CLI - Flightcontrol Changelog | Productlane",
+  "summary": "",
+  "body_markdown": "## 🚀 Features\n\n\n-\n\n\nAI Skill\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/ai-agents#skills)\n\n\n-\n\n\n` ecsStopTimeoutSecs` config option to all ECS based services\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#ecs-stop-timeout)\n\n\n-\n\n\nCLI to validate` flightcontrol.json`\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/validate-config)\n\n\n-\n\n\nGet job execution API endpoint\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/reference/http-api/scheduler/get-job-execution)\n\n\n-\n\n\nBring your own subnets now supported for preview environments\n\n\n-\n\n\nNew docs:\n\n\n-\n\n\n[How to fix random 502 errors](https://www.flightcontrol.dev/docs/troubleshooting/load-balancer-502-keepalive-timeout)\n\n\n-\n\n\n[Block load balancer access](https://www.flightcontrol.dev/docs/guides/aws/allow-only-cloudfront-to-alb)\n\n\n## ⚙️ Improvements\n\n\n-\n\n\nAbility to override image repository in create deployment API\n\n\n-\n\n\nEnable encryption to instance root volumes for all ECS EC2\n\n\n-\n\n\nBetter handling of install failures for EC2 builders\n\n\n-\n\n\nImprove deletion\n\n\n-\n\n\nAdd` createdAt` and` updatedAt` to get services API endpoint\n\n\n-\n\n\nImprove ECS error messages\n\n\n## 🐞 Bug Fixes\n\n\n-\n\n\nFix log view on short screens\n\n\n-\n\n\nFix cloudmap namespaces not being cleaned up\n\n\n-\n\n\nFix issue with preview environment domains\n\n\n-\n\n\nFix shell escaping issues for env vars in EC2 builders\n\n\n-\n\n\nFix issue connecting Github account\n\n\n-\n\n\nFix user can’t accept invite if they have no existing organization access\n\n\n-\n\n\nFix API error being swallowed",
+  "published_at": null,
+  "first_seen_at": "2026-08-09T22:19:16.006447+00:00",
+  "content_hash": "sha256:f58f207c50bb1619605c29f4403d997688133497064ec3d5d3b2b5550ccff4cd"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4741074ad8935912593a7ae41010c18b6a2a6f91086e2eae4d714de9ecdbcba9",
+  "company_key": "yc-protonet",
+  "company_name": "Protonet",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://support.protonet.info/de/news/soul-stable-124-loest-die-aktuelle-letsencrypt-zertifikat-problematik/",
+  "canonical_url": "https://support.protonet.info/de/news/soul-stable-124-loest-die-aktuelle-letsencrypt-zertifikat-problematik/",
+  "title": "SOUL-Stable/124 löst die aktuelle Letsencrypt Zertifikat Problematik.",
+  "summary": "Wenn deine Box betroffen ist, installiere bitte SOUL-Stable/124 und stoße die Letsencrypt Zertifikat Verlängerung manuell an. Dafür muss du dich in deine Box per SSH anmelden, hier erfährst du wie…",
+  "body_markdown": "Wenn deine Box betroffen ist, installiere bitte **SOUL-Stable/124**\n\n\nund stoße die Letsencrypt Zertifikat Verlängerung manuell an.\n\n\nDafür muss du dich in deine Box per SSH anmelden, hier erfährst du wie du das machen kannst:\n\n\n[https://support.protonet.info/de/faq/cat-faq/videos/#video-ssh-zugriff-auf-protonet-server](https://support.protonet.info/de/faq/cat-faq/videos/#video-ssh-zugriff-auf-protonet-server)\n\n\nDanach einfach:\n\n\n```text\nletsencrypt\n```\n\n\ntippen und mit Enter bestätigen.\n\n\nSollte das nicht klappen, melde dich bitte bei uns per Email ansupport@protonet.com",
+  "published_at": "2021-03-17T21:32:25+00:00",
+  "first_seen_at": "2026-07-27T11:22:23.562771+00:00",
+  "content_hash": "sha256:45b983137f40ca2b8073a464b7ae3ce4a3a33f2ff57c8c06bc8734ba7f638d72"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ac70b5a8b7a71ef285ccdd2eeb57c77d0449fefe717363afa57f401ca27f91ae",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/46834-realtime-broadcast-now-supports-binary-payloads",
+  "canonical_url": "https://supabase.com/changelog/46834-realtime-broadcast-now-supports-binary-payloads",
+  "title": "Realtime Broadcast now supports binary payloads",
+  "summary": "Realtime Broadcast now supports binary payloads",
+  "body_markdown": "Realtime Broadcast can now send and receive binary payloads in addition to JSON. This lets you broadcast compact binary data without the overhead of JSON encoding.\n\n\nBinary payloads are supported across every way you send a Broadcast message: the client libraries (over WebSocket), the REST API, and directly from your database.\n\n\n## When to use binary payloads#\n\n\nBinary shines whenever your data is numeric, high-frequency or densely packed. In these cases JSON's textual encoding adds significant overhead.\n\n\n- **Sensor and telemetry streams.** Connected devices emit steady streams of numeric readings. These can be temperature, accelerometer values, GPS coordinates, battery levels, etc. They can be packed into fixed-width binary fields, where a reading that takes 20–30 characters as JSON text fits in just a few bytes across thousands of devices.\n- **Screenshot and presentation streaming.** A presenter or support agent shares a live view by broadcasting periodic image frames (JPEG/PNG) to viewers. Each frame is transient and inherently binary, so there's no need for durable storage and no reason to pay the base64 tax. Just send the image bytes straight to everyone watching.\n\n\n## Usage#\n\n\n### Client libraries (WebSocket)#\n\n\nPass an` ArrayBuffer` /` ArrayBufferView` (` Uint8Array` for example) or the equivalent in non-JS SDKs as the payload.\n\n\n### REST API#\n\n\nSingle-message endpoint where` Content-Type` selects` application/json` vs` application/octet-stream` .` channel.httpSend()` from JS.\n\n\n### Database#\n\n\n` realtime.send_binary()` with a bytea payload.\n\n\n## Minimum versions#\n\n\n- WebSocket (supabase-js):` 2.91.0`\n- WebSocket (supabase-swift):` 2.44.0`\n- REST API through` httpSend` (supabase-js):` 2.107.0`\n- Realtime server version:` 2.103.2`\n\n\nWe are in the process of adding support to binary payloads across all SDKs.\n\n\n⚠️ Binary payloads sent to clients on older SDK versions (or SDKs that don't support binary payloads) are silently dropped.\n\n\nMore information can generally be found in the[Broadcast](https://supabase.com/docs/guides/realtime/broadcast) page of the Realtime guides.",
+  "published_at": "2026-06-11T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T02:46:08.732472+00:00",
+  "content_hash": "sha256:6ff4524e6738c72b89bad92a0741231c6a376f441b3cab3d747125d61d312e5d"
+}

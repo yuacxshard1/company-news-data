@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "eb3f197806d7165601d3c8f58b2621e1b90e5c1f03ef925a3aaf2377e2f95e83",
+  "company_key": "yc-apollo",
+  "company_name": "Apollo",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.apollographql.com/blog/graphql-roles-and-protected-variants",
+  "canonical_url": "https://www.apollographql.com/blog/graphql-roles-and-protected-variants",
+  "title": "Graph Roles and Protected Variants Are Now Available in Studio",
+  "summary": "",
+  "body_markdown": "tldr; you can now apply the[user roles that we released last fall](https://www.apollographql.com/blog/user-roles-are-now-available-in-apollo-studio/) at a much more granular level.\n\n\nHappy New Year, everyone! Today, we are excited to share a significant expansion of the roles and permissions controls available in Studio. With these updates, you can confidently on-board more teams to your graph by ensuring that everyone has just the level of access they need. Building off[the five user roles we introduced last fall](https://www.apollographql.com/blog/user-roles-are-now-available-in-apollo-studio/) :\n\n\n- We have added a sixth role option, **Graph Admin** , that you can assign to users in your organization. Graph Admins will be able to act as full administrators for every graph in your organization but can’t manage your organization’s users, billing, or settings.\n- Users can now be assigned **graph-level roles** , which can override their role in the organization for any individual graph.\n- You can now mark graphs in your organization **hidden** from the rest of your org’s members by default.\n- **The API keys you create for your graphs can be assigned roles** , letting you differentiate between read-only keys and admin keys.\n- **Variants in your graph can now be marked as protected** , limiting mutations to only users or keys with admin-level access.\n\n\nWe hope that these new access controls and protections will cover your needs and eagerly welcome you to share your feedback with us in our[Studio community repository](https://github.com/apollographql/apollo-studio-community) . Today’s release is a major step forward in your ability to manage your Studio account as your organization’s graph evolves.\n\n\nThese features are part of the Studio Enterprise plan. Please[reach out to us](https://www.apollographql.com/contact-sales/) if you are interested in this features and would like to talk to us.\n\n\nThanks for being a member of our community and coming on this journey with us. Stay safe and healthy, and as always, happy querying!\n\n\nWritten by\n\n\nDanielle Man\n\n\n[Read more by Danielle Man](https://www.apollographql.com/blog/author/dman)",
+  "published_at": "2021-01-27T08:27:09+00:00",
+  "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+  "content_hash": "sha256:2e4a6dfd993bbc649c15a606d7f7b8affda24c979f9036286157890411340c5d"
+}

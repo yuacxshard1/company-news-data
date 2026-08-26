@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "049dacd98a489623170a8bea8295e52ed8abfab06f928a877bfc647e82a2e0b2",
+  "company_key": "yc-cubic",
+  "company_name": "cubic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.cubic.dev/blog/coding-agents-out-of-beta",
+  "canonical_url": "https://www.cubic.dev/blog/coding-agents-out-of-beta",
+  "title": "cubic blog: Coding agents | Launch week 03, Day 3",
+  "summary": "Fix issues with coding agents",
+  "body_markdown": "We’ve been building a faster way for teams to act on code review feedback.\n\n\nStarting today, cubic lets you fix review comments directly from GitHub using background coding agents. Instead of switching tools or breaking your flow, you can resolve issues as soon as they appear, whether you’re reviewing a PR or already back to building.\n\n\nYou open a PR, and a few minutes later cubic flags issues. If you trust the feedback, you should be able to fix it immediately.\n\n\n### Fix issues directly from your browser\n\n\nUnder every cubic issue in GitHub, you’ll now see a “⁠Fix with cubic” button.\n\n\nClick it, and cubic spins up a background coding agent to resolve the issue for you.\n\n\n### Fix everything at once\n\n\nYou do not have to go issue by issue.\n\n\ncubic also posts a summary of all issues in the PR, with a link to fix everything in one go.\n\n\n### Works on all comments - not just bots\n\n\nThis is not limited to comments from cubic.\n\n\nIf a teammate leaves feedback on a pull request, you can ask cubic to handle that too. Just comment something like:\n\n\n⁠` @cubic-dev-ai please fix this`\n\n\nThat will trigger a coding agent to work on the change.\n\n\n### No broken builds\n\n\nBefore opening a fix, the background agent runs tests, linting, and type checks to make sure the change passes CI.\n\n\nLearn more[in the docs](https://docs.cubic.dev/ai-review/claudecode-fix#using-the-fix-button-in-cubic) .",
+  "published_at": "2026-04-14T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T06:53:38.364034+00:00",
+  "content_hash": "sha256:f2272f067748f1b3e52f4a407a505e061facd7535c97fa4779937dc25bee105b"
+}

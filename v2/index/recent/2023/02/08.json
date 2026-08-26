@@ -1,0 +1,195 @@
+{
+  "articles": [
+    {
+      "company_key": "teledyne-technologies-incorporated-common-stock",
+      "company_name": "Teledyne Technologies Incorporated",
+      "doc_id": "00c7eddfba4844190846339990c59162fabdc5566c4f2c611b93fe06a4312384",
+      "first_seen_at": "2026-07-20T04:36:13.437201+00:00",
+      "published_at": "2023-02-08T14:49:00+00:00",
+      "source_kind": "rss",
+      "summary": "Figure 1. The new SDAIII-PCIE6 option offers three methods for removing oscilloscope noise from PCIe 6.0 Compliance Pattern measurements as required by the standard. The new SDAIII-PAMx and SDAIII-PCIE6 options for Teledyne LeCroy oscilloscopes enable you to quickly make new PCIe 6.0 noise measurements SNDR and RLM with the oscilloscope baseline noise removed, as required by the standard. Here's a brief description of the three, proprietary noise removal methods from which you can choose. Manual Method Manual uses the specified amount of oscilloscope noise for the 𝜎 scope variable in the SNDRnr formula (described in the last post). This method is useful if you have previously measured your oscilloscope baseline noise and know what value to enter. Baseline Method Baseline saves a reference of the input terminated into 50 𝝮, which is then compared to the unterminated input to determine the oscilloscope's intrinsic noise floor. The calculated oscilloscope noise is then computed into the SNDRnr measurement results. To use this method, you will save a Single acquisition of the unequalized Q0 signal, then connect the signal to a pair of 50 𝝮 terminators and measure again. Attenuator Method The Attenuator method is the most accurate noise compensation method, since a signal is being applied to the oscilloscope for both reference and measurement. It compares the SNR of a full-scale signal to the SNR of an attenuated signal (at the same full-scale input range) to calculate the oscilloscope's noise contribution to the SNDR as per the formula: 𝜎 FS ² = 𝜎 scope ² + 𝜎 signal ² 𝜎 Att ² = 𝜎 scope ² + ( 𝜎 signal ² / K ² ) 𝜎 scope ² = (K ² 𝜎 Att ² – 𝜎 FS ² / K ² – 1) where K is the attenuation value. The 𝜎 scope value is computed into the SNDRnr measurement results. To use the Attenuator method, you will take a baseline measurement without attenuation, then connect a pair of 6 dB or 10 dB attenuators between the oscilloscope and DUT and measure again. For the full step-by-step instructions, download our application note, Making New PCIe 6.0 Compliance Pattern Measurements with Your Oscilloscope . Reference waveforms must be saved on the same day you make measurements, using the exact same equipment. When you change any part of your setup, or start a new test session, choose Delete Reference and repeat the procedure to save it before proceeding with measurements. Also see: New PCIe 6.0 Compliance Pattern Measurements Get Ready for PCIe 6.0 Base Tx Testing--Compliance, Jitter and Eye Diagrams",
+      "title": "Removing Oscilloscope Noise from PCIe 6.0 Compliance Pattern Measurements"
+    },
+    {
+      "company_key": "yc-biobot-analytics",
+      "company_name": "Biobot Analytics",
+      "doc_id": "0678977b1c1bbc67ac5685a363d6cc9be334022b9f58bceae7a31152f88cfeed",
+      "first_seen_at": "2026-07-24T19:09:37.089584+00:00",
+      "published_at": "2023-02-08T22:00:05+00:00",
+      "source_kind": "rss",
+      "summary": "Written by Biobot Analytics & published on February 08, 2023 by PR Newswire Cambridge, Mass. – Feb 08, 2023 – The U.S. Centers for Disease Control and Prevention (CDC) has extended its partnership with Biobot Analytics through the National Wastewater Surveillance System (NWSS) to bring COVID-19 and mpox (formerly monkeypox) wastewater analysis to communities across […]",
+      "title": "U.S. Centers for Disease Control to extend National Wastewater Surveillance System contract with Biobot Analytics"
+    },
+    {
+      "company_key": "similarweb-ltd-ordinary-shares",
+      "company_name": "Similarweb Ltd.",
+      "doc_id": "158eee21b837ded15b8db9522c6277d283c92576550fcc5c6b58450430b5d450",
+      "first_seen_at": "2026-07-20T23:19:16.581763+00:00",
+      "published_at": "2023-02-08T08:40:39+00:00",
+      "source_kind": "rss",
+      "summary": "tl;dr in order to save your airflow’s scheduler CPU: 1. Use imports only where you need it. Separate code to files and reduce many…",
+      "title": "How we healed our AWS MWAA (aka airflow) env"
+    },
+    {
+      "company_key": "yc-posthog",
+      "company_name": "PostHog",
+      "doc_id": "1c560e5c8baf234c018e10508cc66a42e8eb2dd3fff6b15912af6c207dc9b375",
+      "first_seen_at": "2026-07-20T23:20:52.157750+00:00",
+      "published_at": "2023-02-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We no longer support paid, open-source deployments and it is no longer possible to buy licenses for self-hosted versions - we instead recommend…",
+      "title": "Sunsetting Kubernetes support for PostHog"
+    },
+    {
+      "company_key": "selective-insurance-group-inc-common-stock",
+      "company_name": "Selective Insurance Group Inc.",
+      "doc_id": "5041371b7fc3d0115740f1401da936563da3c55e6866558b1f9b80e308ea3f9e",
+      "first_seen_at": "2026-07-29T18:30:54.564050+00:00",
+      "published_at": "2023-02-08T14:05:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "SELECTIVE INSURANCE ENHANCES MANAGEMENT LIABILITY COVERAGE SUITE FOR NOT-FOR-PROFIT ORGANIZATIONS AND PRIVATE COMPANIES"
+    },
+    {
+      "company_key": "yc-bodysim-by-well-principled",
+      "company_name": "BODYSIM by Well Principled",
+      "doc_id": "5380b5aa57e032a97c706e3d1d1ae041020a8b3f8104c48d8e4a759c743a661e",
+      "first_seen_at": "2026-07-26T23:53:59.787640+00:00",
+      "published_at": "2023-02-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A.I Software Redefined",
+      "title": "Be Right for the Right Reasons: Getting to Causality"
+    },
+    {
+      "company_key": "range-resources-corporation-common-stock",
+      "company_name": "Range Resources Corporation",
+      "doc_id": "755ce6dfedc404445dde3629c3deae2fc427a77de6f4cf4abb3926f5b26a62c0",
+      "first_seen_at": "2026-07-25T01:14:33.578834+00:00",
+      "published_at": "2023-02-08T21:42:24+00:00",
+      "source_kind": "rss",
+      "summary": "The post Range Announces Proved Reserves appeared first on Range Resources .",
+      "title": "Range Announces Proved Reserves"
+    },
+    {
+      "company_key": "domino-s-pizza-inc-common-stock",
+      "company_name": "Domino's Pizza Inc",
+      "doc_id": "894525443a0ff75e3799c4b7221bd600d50e314965d27ef04a839516bb4b9d1f",
+      "first_seen_at": "2026-07-21T01:23:20.782241+00:00",
+      "published_at": "2023-02-08T20:38:43+00:00",
+      "source_kind": "rss",
+      "summary": "Domino’s and St. Jude Children’s Research Hospital® Domino’s proudly supports St. Jude by raising funds and awareness in stores and online. St. Jude is changing the way the world understands, treats and defeats childhood cancer and other life-threatening diseases. Domino’s is grateful for the opportunity to",
+      "title": "St. Jude"
+    },
+    {
+      "company_key": "yc-supabase",
+      "company_name": "Supabase",
+      "doc_id": "946ea8834b0a39a52f493ba2ff01dd4d3e3f93ad193017d6319fbfc8a0499754",
+      "first_seen_at": "2026-07-20T23:24:12.344578+00:00",
+      "published_at": "2023-02-08T07:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "New Postgres extensions, pg_graphql updates, changes to Edge Functions, and more!",
+      "title": "Supabase Beta January 2023"
+    },
+    {
+      "company_key": "yc-authzed",
+      "company_name": "authzed",
+      "doc_id": "950aec1d84e9ce2bc69ae3a43cad5853cb196db66a45304734f9f27cb6ff0ead",
+      "first_seen_at": "2026-07-20T23:20:06.042051+00:00",
+      "published_at": "2023-02-08T00:00:00+00:00",
+      "source_kind": "atom",
+      "summary": "The first update of the year",
+      "title": "Product Update: January"
+    },
+    {
+      "company_key": "astec-industries-inc-common-stock",
+      "company_name": "Astec Industries Inc.",
+      "doc_id": "a5f2da3cd2ca63b8a06a3d944c8a67545076e4cc5b7dba04898ebe50675a28a6",
+      "first_seen_at": "2026-07-25T01:07:00.168474+00:00",
+      "published_at": "2023-02-08T03:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Astec’s Jesse Cochran Is Building His Career and a Winning Team Culture",
+      "title": "Astec’s Jesse Cochran Is Building His Career and a Winning Team Culture"
+    },
+    {
+      "company_key": "yc-athina-ai",
+      "company_name": "Athina AI",
+      "doc_id": "b315fefb42c358d05eaa13ce01f15fff6e9db66ff236295ab5828d8ce073ba75",
+      "first_seen_at": "2026-07-24T17:13:32.301153+00:00",
+      "published_at": "2023-02-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Tutorials, guides and deep dives into the best techniques and research for building reliable AI.",
+      "title": "Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based Learning"
+    },
+    {
+      "company_key": "yc-codecrafters",
+      "company_name": "CodeCrafters",
+      "doc_id": "b6f220ae148e09d9543f5ef1cbba717474195f324119533dde45faf3ac1f95b0",
+      "first_seen_at": "2026-07-21T14:04:10.550467+00:00",
+      "published_at": "2023-02-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Your CodeCrafters progress, on your GitHub profile. Dynamic repo banners that auto-update as you build Redis, Git, or SQLite from scratch.",
+      "title": "Introducing Repo Banners"
+    },
+    {
+      "company_key": "guidewire-software-inc-common-stock",
+      "company_name": "Guidewire Software Inc.",
+      "doc_id": "ca25f51fe3ec49ff58a33cc921ab6b71e62f7f5a982acf26452effb34d6f1fd8",
+      "first_seen_at": "2026-07-20T23:21:28.205325+00:00",
+      "published_at": "2023-02-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Guidewire Basecamp, our graduate and intern program, lets you chart your own course from day one. Our graduates have room to grow, make mistakes, and learn new skills every step of the way.",
+      "title": "Guidewire Basecamp: Navigating My Career Journey"
+    },
+    {
+      "company_key": "yc-povio",
+      "company_name": "Povio",
+      "doc_id": "d14629d39ba6da18144978671f5df0c605d2cd17638fa35af7b0c6d40eaab131",
+      "first_seen_at": "2026-07-25T19:42:06.178862+00:00",
+      "published_at": "2023-02-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Discover all about the internship journey at Povio, learn about the application process and find out why this kind of experience can be a big boost to your career.",
+      "title": "From Zero to Hero (Kind Of): Our Internship at Povio"
+    },
+    {
+      "company_key": "mawson-infrastructure-group-inc-common-stock",
+      "company_name": "Mawson Infrastructure Group Inc.",
+      "doc_id": "d3a6e849b142c6f55580cef65492c05903a9d9f5b61233601e4b6cdf93a4c951",
+      "first_seen_at": "2026-07-25T03:22:07.630495+00:00",
+      "published_at": "2023-02-08T06:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Mawson has broken ground on the 120 MW Bitcoin mining facility in Sharon, PA. First 12 MW available in early Q2, 2023.",
+      "title": "Mawson Infrastructure Group Inc Breaks Ground on Sharon, PA 120 MW Bitcoin Mining Facility"
+    },
+    {
+      "company_key": "yc-apollo-io",
+      "company_name": "Apollo.io",
+      "doc_id": "e7fa7dc9207e7115bbd71e7c775bbfbab44dc0588740cb1336d94973f5a4601b",
+      "first_seen_at": "2026-07-24T16:55:43.497861+00:00",
+      "published_at": "2023-02-08T15:22:00+00:00",
+      "source_kind": "html",
+      "summary": "/PRNewswire/ -- Today, Apollo.io, the world's leading B2B sales intelligence and engagement platform, announces the appointment of Shek Viswanathan as their...",
+      "title": "Apollo.io Announces Shek Viswanathan as Chief Product Officer Amidst Record January Revenue Numbers and Expanded Product Vision"
+    },
+    {
+      "company_key": "range-resources-corporation-common-stock",
+      "company_name": "Range Resources Corporation",
+      "doc_id": "ef0bdaf0328453868d6e6959d867b8334c0b2d69b62aee07c1597ba036dce225",
+      "first_seen_at": "2026-07-25T01:14:33.578834+00:00",
+      "published_at": "2023-02-08T21:41:01+00:00",
+      "source_kind": "rss",
+      "summary": "The post Range Announces Fourth Quarter Production and Pricing appeared first on Range Resources .",
+      "title": "Range Announces Fourth Quarter Production and Pricing"
+    },
+    {
+      "company_key": "yc-plivo",
+      "company_name": "Plivo",
+      "doc_id": "fdb8a86d7afcc0c0a93b57d0a77ca4f81e0e2d3d5f214df8c4166f82075c1401",
+      "first_seen_at": "2026-07-20T23:20:51.132542+00:00",
+      "published_at": "2023-02-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "2022 was a year of massive regulatory change in the telecom industry around the world. Here are some specifics.",
+      "title": "Keeping Up with Changes in International Messaging"
+    }
+  ],
+  "date": "2023/02/08"
+}

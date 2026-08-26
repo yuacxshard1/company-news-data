@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2b25582dbb5902a3cb22996f50bad10f263a1ba1c8fae15c5a56517dd3dc550e",
+  "company_key": "yc-ramain",
+  "company_name": "RamAIn",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://ramain.ai/resources/event-triggers",
+  "canonical_url": "https://ramain.ai/resources/event-triggers",
+  "title": "Event triggers: starting workflows from email, API, and humans",
+  "summary": "How Ramain publishes workflows that can start from workspace inbox events, API keys, direct launches, and human-operated runs.",
+  "body_markdown": "\\[Workflow launch\\]\n\n\nA useful workflow should not require a user to open the builder every time. Ramain supports workflows that can start from email triggers, API calls, direct user launches, and human-run sessions.\n\n\n## Email triggers are workflow records\n\n\nWorkflow triggers are stored as client-scoped records with workflow id, type, name, enabled state, configuration, creator, and timestamps. Enabled email triggers can be listed across clients for inbox matching.\n\n\nWhen an email trigger matches, Ramain records an email trigger run with extracted inputs, extraction result, run id, status, reply status, error state, and completion time.\n\n\n## APIs use scoped keys\n\n\nPublished workflows can also be exposed through API keys. Keys have prefixes, hashed token storage, scopes such as workflows:run and runs:read, expiration, revocation, and last-used tracking.\n\n\nThat lets an external system launch a workflow without granting broad access to the portal.\n\n\n## The same workflow can have many starts\n\n\nA workflow can be launched by an operator from the workbench, triggered by inbound email, or called as an API endpoint. The trigger changes how inputs arrive, not what the browser workflow knows how to do.\n\n\nThis is the difference between a demo automation and an operational primitive.\n\n\nKey takeaway\n\n\nTriggers turn a workflow into an operational endpoint. The same automation can be launched by a human, an inbox, or another system.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T11:17:00.876485+00:00",
+  "content_hash": "sha256:e4d55cf9f10bc1bafe33d9e936b1bd2d069c8c7d94842a8d84c2b4f38e58474a"
+}

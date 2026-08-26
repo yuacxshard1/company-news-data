@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9124f27b48f082e25ef593f061e1f2a51a76e3e9fe5d16cdc885331f781068f8",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/47197-log-connections-is-to-be-turned-off-by-default-for-new-projects-and-existing-free-pro-projects",
+  "canonical_url": "https://supabase.com/changelog/47197-log-connections-is-to-be-turned-off-by-default-for-new-projects-and-existing-free-pro-projects",
+  "title": "log_connections is to be turned off by default for new projects and existing Free/Pro projects",
+  "summary": "log_connections is to be turned off by default for new projects and existing Free/Pro projects",
+  "body_markdown": "We are changing the default value of the Postgres` log_connections` setting from on to off for new projects, and will be migrating all Free and Pro projects to the new default configuration. This reduces log volume and noise, and aligns with industry-standard defaults (RDS, GCP Cloud SQL also default to off). We will be exposing this configuration to all users via dashboard and API for better log management, with` log_connnections` and` log_disconnections` now available via the[Update postgres config API route](https://supabase.com/docs/reference/api/v1-update-postgres-config) and will take effect from 9 July onwards.\n\n\n### Who's affected#\n\n\n- **New projects** (all tiers) created after 9 July will have` log_connections=off` by default.\n- **Existing Teams + Enterprise customers (including HIPAA add-on customers)** - Configuration is unchanged\n- **Existing Free / Pro customers** -` log_connections` will be turned off from 9 July. This configuration can be re-enabled below\n\n\n### How to re-enable#\n\n\nYou can re-enable` log_connections` via the dashboard under Database > Settings. It can also be re-enabled programmatically via the Management API via the[Update postgres config API route](https://supabase.com/docs/reference/api/v1-update-postgres-config) . Changes will only take effect from 9 July onwards.\n\n\nLearn more about PostgreSQL logging settings in our[logging documentation](https://supabase.com/docs/guides/platform/postgres-connection-logging) .",
+  "published_at": "2026-06-22T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T02:46:08.732472+00:00",
+  "content_hash": "sha256:dd7937dd61f6535332bf914dd1bf2e49d6891788486289f2ea50d757f35257f9"
+}

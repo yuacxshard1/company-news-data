@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0c0f473472f08757b926c8591ff46725e344d062da1e097e112401a6032fc6e7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
+  "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+  "body_markdown": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront distributions.\n\n\nCustomers use Amazon S3 MRAP with CloudFront to serve content from a single global endpoint that automatically routes to the closest available replicated bucket across regions during a cache miss, improving performance and resilience for globally distributed users. Previously, customers had to compute and forward their own Asymmetric Signature Version 4 (SigV4a) Authorization header using a custom Lambda@Edge Function. Now, CloudFront natively signs requests to S3 MRAP origins. Customers get faster cache-miss fills from the nearest region and restricted, OAC-secured MRAP access without custom Authorization header computation.\n\n\nCloudFront OAC support for Amazon S3 MRAP origins is available worldwide, except in the CloudFront China region. To get started, use the CloudFront Console, SDK, CLI, or CloudFormation to enable OAC when configuring your Amazon S3 MRAP endpoint with CloudFront. For more information, refer to the[CloudFront Developer Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3-mrap.html) . There are no additional fees associated with this feature",
+  "published_at": "2026-08-20T18:30:00+00:00",
+  "first_seen_at": "2026-08-20T20:55:36.190057+00:00",
+  "content_hash": "sha256:aaf9c4a4fe9e1d73defddb73d44806fb55a3e15c5b5d400a8ad8b6017b973afa"
+}

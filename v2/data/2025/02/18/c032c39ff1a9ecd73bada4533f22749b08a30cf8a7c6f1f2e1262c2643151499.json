@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c032c39ff1a9ecd73bada4533f22749b08a30cf8a7c6f1f2e1262c2643151499",
+  "company_key": "yc-sst",
+  "company_name": "SST",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://sst.dev/blog/new-console-logs-ui",
+  "canonical_url": "https://sst.dev/blog/new-console-logs-ui/",
+  "title": "New Console Logs UI",
+  "summary": "We've updated how you view your application logs in the SST Console.",
+  "body_markdown": "[Blog](https://sst.dev/blog)\n\n\n# New Console Logs UI\n\n\n[Jay](https://x.com/jayair) February 18, 2025\n\n\nWe recently updated the logs UI in the SST Console. We’ve added the ability to **search** , view **log streams** , and just made it **faster** .\n\n\nIn the Console, you can view logs from your functions, containers, or any other CloudWatch log groups. We added the ability to:\n\n\n- **Search these logs** for any string. You can also set a search filter and tail the logs. This helps you debug any issues by triggering your app and watching for the generated logs\n- **View log streams** . From the search results, you can jump to the log stream that the log message is coming from. Typically, for very active log groups, you’ll see logs from multiple log streams interleaved together. When you view a specific log stream, you can drill down and just view the logs from that specific invocation or request.\n- **Faster logs** . We’ve also used one of the newer CloudWatch APIs that makes fetching these logs from your account a lot faster.\n\n\n---\n\n\nCheck out the[new logs](https://sst.dev/docs/console#logs) in the Console.",
+  "published_at": "2025-02-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T01:49:09.857782+00:00",
+  "content_hash": "sha256:fe9354c41a92b58feaebf0c814037f837892b840176dbd57fb43bb28893f3518"
+}

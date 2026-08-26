@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9146ad00c335d082f082c2d1fc385785b4f1e1d0895acb1b119c2fb4b28d66ef",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/16-12-2025",
+  "canonical_url": "https://browser-use.com/changelog/16-12-2025",
+  "title": "Our First Open-Source LLM",
+  "summary": "30B params, 3B active. 200 tasks per $1.",
+  "body_markdown": "BU-30B-A3B-Preview is here.\n\n\n- **30B total parameters** with only **3B active** at inference time\n- **200 tasks per $1** — 4x more cost-efficient than BU 1.0\n\n\nTry it out on the library or on our cloud:\n\n\n```text\nfrom   browser_use   import   Agent\nfrom   browser_use.llm   import   ChatBrowserUse\n\n\n# Initialize with the new model\nllm   =   ChatBrowserUse(  model  =  \"bu-30b-a3b-preview\"  )\n\n\nagent   =   Agent(\ntask  =  \"Your task here\"  ,\nllm  =  llm\n)\n\n\nresult   =   await   agent.run()\n```\n\n\nDownload from[Hugging Face](https://huggingface.co/browser-use/bu-30b-a3b-preview) .",
+  "published_at": "2025-12-16T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:dc8cd990e3a29650971c4923c5597d6958686857275960ebd488318c7efe8b5e"
+}

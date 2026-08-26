@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c91a5f855cdb3480632b18aa3d8aa73ca813fbcd4f926f79399dd9ad5eef7443",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/secret-env-overrides",
+  "canonical_url": "https://www.buildbuddy.io/changelog/secret-env-overrides",
+  "title": "Improved handling of short-lived secrets in remote execution",
+  "summary": "BuildBuddy has supported passing short-lived secrets to remote actions via the env-overrides platform property, which redacts values from action cache entries. The new secret-env-overrides and secret-env-overrides-base64 properties extend this protection by also redacting values from workflow logs.",
+  "body_markdown": "BuildBuddy has supported passing short-lived secrets to remote actions via the` env-overrides` platform property, which redacts values from action cache entries. The new` secret-env-overrides` and` secret-env-overrides-base64` properties extend this protection by also **redacting values from workflow logs** .\n\n\nPass secrets via remote exec headers so they're injected at invocation time without affecting the action hash:\n\n\n```text\nbazel build //my:target   \\         --remote_exec_header  =  x-buildbuddy-platform.secret-env-overrides  =  API_KEY  =  sk-abc123,OTHER_KEY  =  val\n```\n\n\nFor values containing commas or special characters, base64-encode each` KEY=VALUE` pair:\n\n\n```text\nbazel build //my:target   \\         --remote_exec_header  =  x-buildbuddy-platform.secret-env-overrides-base64  =  $(  echo     -n     'CREDS={\"token\": \"abc\"}'     |   base64  )\n```\n\n\nSee the[Secrets docs](https://www.buildbuddy.io/docs/secrets) and[RBE platform properties reference](https://www.buildbuddy.io/docs/rbe-platforms) for more details.",
+  "published_at": "2026-04-10T10:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+  "content_hash": "sha256:8041351520c83f5510579c3e3b32772a6995c66519231c6febe7d66eddd1d2f3"
+}

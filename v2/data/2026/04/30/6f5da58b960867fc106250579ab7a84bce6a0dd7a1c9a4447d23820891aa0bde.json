@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6f5da58b960867fc106250579ab7a84bce6a0dd7a1c9a4447d23820891aa0bde",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/digests-just-got-a-major-upgrade",
+  "canonical_url": "https://slite.com/changelog/digests-just-got-a-major-upgrade",
+  "title": "Digests just got a major upgrade",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "Digests used to send a single global report to everyone, based on the intersection of permissions. Now they're personalized per recipient, scoped to what each person actually has access to.\n\n\n- You can now chain steps together to gather, summarize, and format data in one run.\n- The new engine handles far larger volumes than before. For example, it can now process up to 3,000 Intercom conversations per run, up from ~150–200.\n- Every scheduled run is saved to your Super history, so recipients can revisit past reports and ask follow-up questions to dig deeper into the data.\n- The digest editor has moved into the main Super workflow editor, giving you one place to build both assistants and digests.\n\n\n### Transparent data source permissions\n\n\nWe've rolled out a cleaner permission system for data sources. You can see exactly who has access to what, and restrict sources that were previously accessible to all members (Files, Custom sources, HubSpot, Git...).\n\n\nPS - **Sources mirroring permissions** — like Google Drive, Slack, or Linear — work as before: Super matches each user to their account in the connected tool, so people only see what they have access to there.\n\n\n### Other improvements\n\n\n- **User management redesign** — The settings screen has been redesigned with a cleaner layout, fixed pagination and ordering, the ability to sort users by Super seat, new filters (including login method), live seat count, group membership display, and improved archiving UX.\n- **Mobile history fix** — Super history answers now render at the correct font size on iOS Safari and Chrome mobile. Previously, text was being incorrectly enlarged when opening past answers.\n\n\n### Bug fixes\n\n\n- Tables in Super answers were being cropped — fixed so table content displays correctly in the message renderer.\n- Fixed Intercom source IP validation to properly handle client IP headers.\n- Fixed Zoom webhook synchronization date handling to ensure new transcripts are reliably indexed after the initial sync.",
+  "published_at": "2026-04-30T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T13:26:38.265771+00:00",
+  "content_hash": "sha256:a0fd203f80ed93b7d369694acc19b2c8eee8c6fcb8303337408f4d2128a746e7"
+}

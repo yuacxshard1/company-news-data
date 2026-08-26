@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d60fbc36caa3013278f33c8ddc33d0fa3dafdba9c848573102f6847481adbc2f",
+  "company_key": "yc-webiny",
+  "company_name": "Webiny",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.webiny.com/blog/webiny-v6-an-ai-programmable-cms-built-for-complexity",
+  "canonical_url": "https://www.webiny.com/blog/webiny-v6-an-ai-programmable-cms-built-for-complexity",
+  "title": "Webiny v6: The AI-Programmable Self-Hosted CMS | Webiny",
+  "summary": "Webiny v6 launches as an AI-programmable CMS with a built-in MCP server, single-package project structure, Website Builder, Webiny SDK, and more.",
+  "body_markdown": "We've been building Webiny for developers working on hard problems. Multi-tenant platforms. Content infrastructure for large organizations. SaaS products that need to embed content management without building it from scratch. Complex editorial operations spanning multiple teams, brands, and markets.\n\n\nv6 is the largest release we've shipped. Not because we added the most features — because we made a set of interconnected decisions that change what it means to build on top of Webiny. This post walks through what changed, why it changed, and what it means for teams already running v5.\n\n\nHere's the short version if you're not reading the whole thing:\n\n\n- **AI-programmable via a local MCP server** — AI agents now have deep, expert-level knowledge of Webiny's architecture and best practices, running entirely in your environment. No data leaves your infrastructure.\n- **Single-package project structure** — the monorepo is gone. One entry point, one pattern, dramatically simpler codebases that new developers can orient in without a senior guide.\n- **Website Builder replaces Page Builder** — your framework renders the pages, your infrastructure hosts them. CSR, SSR, and ISR all supported. Custom components registered with a single prompt. Comes with a Next.js starter kit.\n- **Headless CMS: field-level permissions and layout components** — control view/edit access per field, and structure content models with sections, tabs, and conditional visibility rules.\n- **Webiny SDK** — stop writing GraphQL queries by hand. The SDK handles it with proper TypeScript types and significantly less boilerplate.\n- **Tenant Manager with programmatic API** — create, install, configure, and disable tenants via API. The feature that makes Webiny viable as a SaaS backend.\n- **Overhauled Publishing Workflows** — simpler for editors and reviewers, fewer support requests landing in developer inboxes.\n- **New UI built on shadcn and Tailwind** — predictable, customizable, and no longer looks like legacy enterprise software.\n- **Learn Webiny course** — a structured path from zero to productive, replacing the \"dig through reference docs and hope\" experience.\n\n\n---\n\n\n## The Positioning Shift: What \"AI-Programmable\" Actually Means",
+  "published_at": "2026-04-07T13:31:46.827+00:00",
+  "first_seen_at": "2026-07-22T19:34:09.199841+00:00",
+  "content_hash": "sha256:289289cc4ece8c73d354a5c185f1ebedfefbb2b4071cf73a16b8c15ad6e24c1f"
+}

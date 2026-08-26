@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c5cd060f225bdd8d9bb7b4f21adf95a3c41487765a4ae6d48615a6ac47f59ac5",
+  "company_key": "yc-rebolt",
+  "company_name": "Rebolt",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.rebolt.ai/blog/ai-prompting-screenshots",
+  "canonical_url": "https://rebolt.ai/blog/ai-prompting-screenshots",
+  "title": "The missing piece from AI prompting guides: Screenshots",
+  "summary": "The missing piece from AI prompting guides: Screenshots",
+  "body_markdown": "I went from getting mediocre results from AI after starting to do one thing. I’ll tell you the main tricks so you don’t have to waste a day reading the 80th propting guide.\n\n\nPrompting is about context, nothing else. The primary goal is to maximize the information density of relevant data.\n\n\nScreenshots are incredibly information-dense if done well.\n\n\n## Why screenshots are awesome?\n\n\nText is prone to misinterpretation. When you say \"make the button bigger,\" the AI might not understand:\n\n\n- How much bigger?\n- Bigger in width, height, or both?\n- What style should it maintain?\n- Should I make the font bigger as well?\n\n\nA screenshot with a prompt \"make the button like this\" eliminates all this ambiguity.\n\n\n## How to take good screenshots?\n\n\nFirst, you will need a good screenshot tool:\n\n\n- For Mac:[CleanShot X](https://cleanshot.com/) is delightful\n- For Windows: The default \"Snipping tool\" does the job\n\n\n### Just show the relevant part\n\n\nIf you want to change the navigation menu based on the one you like, don't screenshot your full screen, but just the navigation itself.\n\n\nAttaching the whole screen is confusing, as it can have multiple navigations (i.e., the OS, browser, or website), and depending on the prompt, focus on the wrong one.\n\n\n### Draw a lot\n\n\nNotice how you didn't look at the article being written, I've made sure to highlight what you needed to see, AIs work the same way.\n\n\n- Circle elements you want modified\n- Draw arrows pointing to specific areas\n- Add text labels explaining what each part should do\n- Use different colors to categorize different types of changes\n\n\n### Do before and after\n\n\nIf you're looking for specific changes, make separate screenshots showing the current state and your desired outcome. This eliminates ambiguity about what exactly needs to change.\n\n\n### Show the user journey\n\n\nFor complex interfaces, take a series of screenshots showing the user flow. This helps AI understand the context and relationships between different screens or states.\n\n\n### Include relevant context\n\n\nSometimes you need to show slightly more than just the target element. Include enough surroundings so the AI understands where this element fits in the overall design or functionality.\n\n\nTL;DR: An image is worth a thousand words.\n\n\nHit me up on[X at @jvrsanch](https://x.com/jvrsanch) if you want a CleanShot X discount.",
+  "published_at": "2025-09-03T16:23:00+00:00",
+  "first_seen_at": "2026-07-25T20:37:49.758446+00:00",
+  "content_hash": "sha256:598098a39c3093ccc002b7099cfe8dcac6e0d62fa8df75ad43a7f635111e5041"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "75fec5850127c005239bc70222faaeffd74d933f9d309112f360df624017ddb8",
+  "company_key": "yc-ramain",
+  "company_name": "RamAIn",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://ramain.ai/resources/captcha-and-blocker-handling",
+  "canonical_url": "https://ramain.ai/resources/captcha-and-blocker-handling",
+  "title": "CAPTCHA and blocker handling: keeping browser agents recoverable",
+  "summary": "How Ramain combines managed browser capabilities, OTP polling, human handoff, and recovery states when a portal blocks automation.",
+  "body_markdown": "\\[Recovery and escalation\\]\n\n\nPortal blockers are not one problem. They include CAPTCHA, MFA, OTP codes, popups, human review points, and ambiguous browser states. Ramain handles them as recoverable workflow events rather than treating every blocker as a failed automation.\n\n\n## The first layer is the browser provider\n\n\nManaged cloud browsers can be launched with CAPTCHA-solving capabilities. This handles common page-level challenges before the workflow has to escalate.\n\n\nIf the portal requires user-specific input, the workflow system has explicit capabilities for OTP polling, human-in-the-loop browser handoff, and agent prompts.\n\n\n## Escalation is part of the graph\n\n\nThe workflow editor includes block capabilities for OTP and human review. An Email Poll Agent can retrieve emailed codes, while a Human Review Agent can pause and ask a person to operate or confirm the live browser.\n\n\nThat means blockers are modeled as durable workflow nodes instead of being buried inside brittle exception handling.\n\n\n## What gets logged\n\n\nRun statuses distinguish waiting, recovering, fallback, completed, recovered, failed, and terminated states. OTP progress and review decisions are carried into the UI so the operator can see why a run paused.\n\n\nThe goal is not to pretend every portal can be fully automated. The goal is to keep the workflow honest and recoverable.\n\n\nKey takeaway\n\n\nRamain treats blockers as workflow states. Some can be handled automatically, and the rest can pause for the right human or OTP input without losing the run.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T11:17:00.876485+00:00",
+  "content_hash": "sha256:e099973760719f7e6fe8636480ff9cac30e2c6898bef25671f115bb358e9e4d2"
+}

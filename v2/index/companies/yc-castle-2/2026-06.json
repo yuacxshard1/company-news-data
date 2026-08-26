@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-castle-2",
+      "company_name": "Castle",
+      "doc_id": "6339510b2dbf28fa4eb81e74f29886655680e73d089df789dc109f17b6cb9a95",
+      "first_seen_at": "2026-07-27T11:16:58.513640+00:00",
+      "published_at": "2026-06-02T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Castle already provides the email.domain event field, reflecting the full domain from the email address. With this release, we're adding email.registered_domain , which reduces any subdomain to its registered part using the public suffix list. Fraudulent domains often rotate across subdomains ( a.do…",
+      "title": "New event field: `email.registered_domain`"
+    },
+    {
+      "company_key": "yc-castle-2",
+      "company_name": "Castle",
+      "doc_id": "a7ff4cfb3cd8914d7db785db5213a05fa762ff6c39ba85ff2c2053f74cabd816",
+      "first_seen_at": "2026-07-27T11:16:58.513640+00:00",
+      "published_at": "2026-06-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "You can now export your team members list to a CSV file directly from the Team settings page. This is useful for access reviews, compliance audits, or keeping an offline record of who has access to your Castle account. The export includes all visible columns: member since, name, email, user role, 2F…",
+      "title": "Export team members to CSV"
+    },
+    {
+      "company_key": "yc-castle-2",
+      "company_name": "Castle",
+      "doc_id": "f9eed777330f06e8ff6aa52f39e0b9b41838a0ab4f2fc74646bbc3f57d1d49bd",
+      "first_seen_at": "2026-07-27T11:16:58.513640+00:00",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Recently we launched Residential Proxy detection and richer IP tunnel intelligence . Now we're extending that same foundation to VPNs. VPN use isn't proof of fraud on its own, but together with other indicators like a high risk score or a new device, it's a strong sign of an attacker trying to cover…",
+      "title": "Detect VPN traffic with new IP intelligence"
+    }
+  ],
+  "company_key": "yc-castle-2",
+  "month": "2026-06"
+}

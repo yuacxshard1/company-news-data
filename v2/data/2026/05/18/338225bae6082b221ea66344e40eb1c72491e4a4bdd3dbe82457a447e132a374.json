@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "338225bae6082b221ea66344e40eb1c72491e4a4bdd3dbe82457a447e132a374",
+  "company_key": "yc-diffusion-studio",
+  "company_name": "Diffusion Studio",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://diffusion.studio/changelog/text-animations",
+  "canonical_url": "https://diffusion.studio/changelog/text-animations/",
+  "title": "Text animations",
+  "summary": "Text animations, keyframe improvements for colors and gradients, smarter color input, resizable timeline, and more.",
+  "body_markdown": "Text in Diffusion Studio just got a lot more expressive. This update introduces text animations, expanded keyframe support, and a set of editor improvements that make motion work faster and more precise.\n\n\n## Text animations\n\n\nThree new text-specific animations are available: Appear word, Appear character, and Scramble. Each one gives you fine control over how text enters a scene, whether you want words revealing one at a time, characters typing in sequentially, or a scramble animation that resolves into your final copy.\n\n\nThese join the full animation library, which includes Fade, Slide, Scale, Spin, Twist, and Blur animations. All of them are now stable and work reliably with the new text animations system. Apply them from the animations panel, combine them, and preview instantly on the canvas.\n\n\n## Keyframes for colors and gradients\n\n\nKeyframes now support colors, gradient stops, and effects. You can animate gradient colors, stop positions, and blend between states over time. Most properties across the editor are now keyframeable, which opens up a much wider range of motion design workflows without leaving Diffusion Studio.\n\n\n## Color input improvements\n\n\nThe color input is smarter. Type a color name like “red”, “blue”, or “white” and it resolves to the right value. Hex input handling is also improved, so partial or shorthand values are normalized automatically.\n\n\n## Resizable timeline\n\n\nThe timeline panel is now freely resizable. Drag to expand it when you need more room for keyframe editing or complex multi-track layouts. Pair it with compact track height to fit more tracks in view for bigger projects or detailed motion work.\n\n\n## What else is new\n\n\n- Drawing rectangles, scenes, and text on the canvas is improved\n- Timeline and playhead interactions have UX refinements\n- Tooltips are now available on icon buttons across the sidebar and timeline\n- Improved frame rate handling for smoother playback and export\n- Export quality and stability improvements\n- Bug fixes and performance improvements",
+  "published_at": "2026-05-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T16:21:29.490873+00:00",
+  "content_hash": "sha256:311af400bb708b857aab63d9480b7f11d9f336d9e61dc464e9f701d6bd71d317"
+}

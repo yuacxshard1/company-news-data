@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ad9f1ea8f52e69592d42ccf629ce8adb804d9b6fbbf56179cda4e52dcc88c9d6",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/help-center-ai-search",
+  "canonical_url": "https://slite.com/changelog/help-center-ai-search",
+  "title": "Help Center AI search",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "AI-powered search is now live on the Help Center. Ask a question in natural language at[slite.com/help](http://slite.com/help) and get a direct, sourced answer generated from our documentation instead of a list of articles.\n\n\n### Agent badges & cleaner diffs\n\n\nDoc history now shows which agent made each edit. Every change is attributed to its author (Slite Agent, Claude, or ChatGPT), and per-author change bars have been redesigned for clearer, more readable diffs.\n\n\n### Other improvements\n\n\n- Out-of-credits experience improved: the error now appears above the Ask input (no more phantom \"Analysing query\" flash), your question is restored, and admins see a \"Top up credits\" button.\n- Automated run failure notifications: when an agent run or digest fails due to missing credits, the scheduler is now notified instead of a silent failure.\n- Desktop app: Cmd+T opens a new tab, Cmd+Shift+T reopens the last closed tab\n- Workspace admins can now manage doc roles on read-only docs.\n\n\n### Fixes\n\n\n- Clicking a source in the Ask modal now opens the actual file, PDFs and uploaded files open correctly instead of a broken Slite doc URL.\n- Improved filters in the user management panel now show which filters are active, including defaults.\n- MCP tools no longer time out on most agent queries — the previous 60-second limit was causing widespread failures and has been fixed.\n- Removed the broken \"Share to Slack\" button from the share modal.",
+  "published_at": "2026-08-06T00:00:00+00:00",
+  "first_seen_at": "2026-08-07T03:01:16.051845+00:00",
+  "content_hash": "sha256:f6938214332180c3be8d7921c6d833ffdcd84de234503f3aa35ee1536308341b"
+}

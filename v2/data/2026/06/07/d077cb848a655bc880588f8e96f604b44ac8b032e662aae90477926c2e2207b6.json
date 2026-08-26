@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d077cb848a655bc880588f8e96f604b44ac8b032e662aae90477926c2e2207b6",
+  "company_key": "yc-evidence",
+  "company_name": "Evidence",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://evidence.dev/blog/native-warehouse-support",
+  "canonical_url": "https://evidence.dev/blog/native-warehouse-support",
+  "title": "Native Warehouse Support in Evidence Studio",
+  "summary": "Evidence Studio now runs directly on your data warehouse, starting with Snowflake, Microsoft Fabric, and BigQuery.",
+  "body_markdown": "# Native Warehouse Support in Evidence Studio\n\n\n*Evidence Studio now runs directly on your data warehouse.*\n\n\n[Adam McAskill June 7, 2026 · 3 min read](https://www.linkedin.com/in/adam-mcaskill-74515720/)\n\n\nToday, we’re launching native support for Snowflake, Microsoft Fabric, and BigQuery in Evidence Studio.\n\n\nEvidence can now compile reports into warehouse-specific SQL and run those queries directly in your warehouse.\n\n\nWe’ve been working closely with several customers on this release, and we’re excited to share it more broadly.\n\n\nFor teams with Snowflake, Fabric, or BigQuery at the centre of their data stack, this is now our recommended architecture.\n\n\nFor teams without a data warehouse, or teams running on a data lake or a more complex collection of source systems, we continue to recommend our managed ClickHouse query engine.\n\n\n## Support for dbt Environments\n\n\nOne of the most common patterns we see with our customers is to version control their Evidence project alongside their dbt project in the same repo.\n\n\nThey use the same coding agent to work on both the reporting and the modelling layers of their data stack, and they often coordinate changes across both in the same PR.\n\n\nNative warehouse support improves this workflow significantly. Evidence can switch between dbt target environments while reports are being developed, enabling you to understand how changes to dbt models affect the reports that depend on them before those changes reach production.\n\n\n## Native Row Level Security\n\n\nCustomers all told us the same thing: where possible, they want row and column level access policies managed natively in the warehouse. Each warehouse is different, but where possible Evidence pushes down the necessary user information to enforce row level security policies using the native policies in each of the warehouses we support.\n\n\n## More Warehouses Coming\n\n\nWe’re launching with Snowflake, Microsoft Fabric, and BigQuery, but more warehouses are coming soon.\n\n\nIf there’s a warehouse you’d like us to support next, we’d love to hear from you.",
+  "published_at": "2026-06-07T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T19:04:43.661863+00:00",
+  "content_hash": "sha256:4ee9413e295c2f846b4cd882f239e37d7da2790311c795cd56257a30375945c8"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "62556ac8349b0281baf196dd5d88585603e6895f07621f09155567d4f722b89e",
+  "company_key": "yc-apollo",
+  "company_name": "Apollo",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.apollographql.com/blog/how-to-query-on-click",
+  "canonical_url": "https://www.apollographql.com/blog/how-to-query-on-click",
+  "title": "Apollo Client [React]— How to Query on Click",
+  "summary": "",
+  "body_markdown": "Sometimes, you don’t want to fetch data right away- but instead, you’d like to fetch data manually in response to some sort of event, like a button click!\n\n\nIn this quick article, I’ll show you how to use the` useLazyQuery` hook to manually trigger client-side GraphQL queries.\n\n\n## Project setup & demo\n\n\nWe’re using Apollo Client 3 with React Hooks, and[Trevor Blades](https://twitter.com/trevorblades) ’[Countries API](https://github.com/trevorblades/countries) .\n\n\nYou can find the entirety of the code in a Codesandbox here:[https://codesandbox.io/s/apollo-client-uselazyquery-example-6ui35](https://codesandbox.io/s/apollo-client-uselazyquery-example-6ui35)\n\n\n## Fetching data in response to a click event\n\n\nHere’s the relevant code sample, we import` useLazyQuery` from` @apollo/client` , write a` GET_COUNTRIES` query, and define the` getCountries` function that we use to invoke the query.\n\n\n```text\n// src/Countries.js\nimport React from \"react\";\nimport { useLazyQuery } from \"@apollo/client\";\nimport gql from \"graphql-tag\";\n\n\nconst GET_COUNTRIES = gql`\n{\ncountries {\ncode\nname\n}\n}\n`;\n\n\nexport function DelayedCountries() {\nconst [\ngetCountries,\n{ loading, data }\n] = useLazyQuery(GET_COUNTRIES);\n\n\nif (loading) return <p>Loading ...</p>;\nif (data && data.countries) {\nconsole.log(data.countries);\n}\n\n\nreturn (\n<div>\n<button onClick={() => getCountries()}>\nClick me to print all countries!\n</button>\n{data &&\ndata.countries &&\ndata.countries.map((c, i) => <div key={i}>{c.name}</div>)\n</div>\n);\n}\n```\n\n\nWhen the page first loads, it should look pretty empty as shown below.\n\n\nA page with a button that, when pressed, will invoke a query.\n\n\nBut when you click the button, it should run the` GET_COUNTRIES` query and populate the` data` variable with a` countries` object containing the result of our query.\n\n\nWe can see that it worked because we’re presented with all the country names!\n\n\nA mapped list of countries fetched after calling the GET_COUNTRIES query in response to a button click.\n\n\nThat’s it! That’s how to execute queries manually with` @apollo/client` .\n\n\n—\n\n\nFor a more detailed explanation on how to use` useLazyQuery` , check out[the docs](https://www.apollographql.com/docs/react/data/queries/#executing-queries-manually) on[Executing Queries Manually](https://www.apollographql.com/docs/react/data/queries/#executing-queries-manually) .\n\n\nWritten by\n\n\nKhalil Stemmler\n\n\n[Read more by Khalil Stemmler](https://www.apollographql.com/blog/author/khalil)",
+  "published_at": "2020-02-24T18:54:00+00:00",
+  "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+  "content_hash": "sha256:00be8df896a4c146e2e58e58e6d10fa13896d63ba1bf2ae92dfef2386b710925"
+}

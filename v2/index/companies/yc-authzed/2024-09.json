@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-authzed",
+      "company_name": "authzed",
+      "doc_id": "00dc70c82279c94cbb4937c15bd03e781dcfccf2235099441bdc0da774a1e4c0",
+      "first_seen_at": "2026-07-20T23:20:06.042051+00:00",
+      "published_at": "2024-09-05T12:21:00+00:00",
+      "source_kind": "atom",
+      "summary": "Both SpiceDB and Zanzibar combine performance, scalability, and correctness into one manageable, global authorization solution. Strong consistency is key to ensuring correctness, but caching is necessary for performance. Consistency and caching are often diametrically opposed so how do SpiceDB and Zanzibar solve this problem? With a few key realizations around staleness, when consistency is necessary and how the two interact.",
+      "title": "Consistency is the Key to Performance and Safety"
+    },
+    {
+      "company_key": "yc-authzed",
+      "company_name": "authzed",
+      "doc_id": "5461a1df5ebd9e8f3042a0ccaea80cfc3a1277b828565ffa0151a8733b3acc94",
+      "first_seen_at": "2026-07-20T23:20:06.042051+00:00",
+      "published_at": "2024-09-30T17:41:00+00:00",
+      "source_kind": "atom",
+      "summary": "SpiceDB v1.36.0 introduces a new feature: relationship integrity. It ensures that all relationships written to the backing datastore are signed by a key only known to SpiceDB, protecting your SpiceDB permissions system from modifications to their relationship data.",
+      "title": "Relationship integrity"
+    },
+    {
+      "company_key": "yc-authzed",
+      "company_name": "authzed",
+      "doc_id": "e37431ff245d329e5d3c934431e0081bf661dbae6c9e1c53f13c7abff9be99d0",
+      "first_seen_at": "2026-07-20T23:20:06.042051+00:00",
+      "published_at": "2024-09-23T17:09:00+00:00",
+      "source_kind": "atom",
+      "summary": "Learn what Casbin is, pros and cons and discover the trade-offs between using embedding an authorization library (Casbin), vs a centralized system. Compare Casbin and SpiceDB for effective open-source permission management.",
+      "title": "Open source authorization: Comparing Casbin and SpiceDB"
+    }
+  ],
+  "company_key": "yc-authzed",
+  "month": "2024-09"
+}

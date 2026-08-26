@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6146eb61e0fd7c02d1b63d478ea7a28af1834dd0363ae5e242aaa4c184aa4e1a",
+  "company_key": "yc-asayer",
+  "company_name": "OpenReplay",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.openreplay.com/t/clickhouse-cleanup-query/559#post_1",
+  "canonical_url": "https://forum.openreplay.com/t/clickhouse-cleanup-query/559",
+  "title": "Clickhouse cleanup query",
+  "summary": "Hi, we have an installation of Openreplay on AWS, ubuntu, single instance, version v1.25.0. We have all the componentes running with no issues but we started noticing the Clickhouse storage is growing too fast, but as the cleanup command only runs in postgres and s3/minio, the size of Clickhouse storage is not reduced after running the cleanup. Could you please provide a query to perform cleanup of data on Clickhouse? I can join the clickhouse pod with a clickhouse client if needed to run the...",
+  "body_markdown": "[juangh15](https://forum.openreplay.com/u/juangh15)\n\n\nMarch 7, 2026, 12:03am 1\n\n\nHi, we have an installation of Openreplay on AWS, ubuntu, single instance, version v1.25.0.\n\n\nWe have all the componentes running with no issues but we started noticing the Clickhouse storage is growing too fast, but as the cleanup command only runs in postgres and s3/minio, the size of Clickhouse storage is not reduced after running the cleanup.\n\n\nCould you please provide a query to perform cleanup of data on Clickhouse?\n\n\nI can join the clickhouse pod with a clickhouse client if needed to run the query.\n\n\nThanks in advance!\n\n\n[mccrackend](https://forum.openreplay.com/u/mccrackend)\n\n\nMarch 23, 2026, 2:00pm 2\n\n\nI have the same question and self hosting setup, except running in GCP. I’m trying to find any documentation about how we’re to manage clickhouse data but not seeing it mentioned in the docs anywhere yet.",
+  "published_at": "2026-03-07T00:03:53+00:00",
+  "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+  "content_hash": "sha256:f4885c5ddbc6e22de221e87fa24a5975bae26edfe0e25b966771e7f445ba6064"
+}

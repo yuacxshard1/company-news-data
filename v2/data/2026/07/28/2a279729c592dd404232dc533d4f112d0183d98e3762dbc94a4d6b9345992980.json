@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2a279729c592dd404232dc533d4f112d0183d98e3762dbc94a4d6b9345992980",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/deploying-and-optimizing-ug-for-meta-quest",
+  "canonical_url": "https://unity.com/blog/deploying-and-optimizing-ug-for-meta-quest",
+  "title": "Deploying and optimizing UG for Meta Quest",
+  "summary": "Learn how Continuum XR used Unity to build and optimize UG for Meta Quest with scalable networking, rapid deployment workflows, and VR performance tuning.",
+  "body_markdown": "**How did you structure your build pipeline in Unity to support efficient VR deployment?**\n\n\n**MM:** The team uses[Unity Version Control](https://unity.com/features/version-control) so members can work on branches concurrently and manage their own changes. We use main, live, dev, beta, and feature branches. Unity Version Control keeps the team in sync and makes it easy to push and pull changes.\n\n\nFor builds and deployments, we use[Unity Hub](https://unity.com/developer-tools?clickref=1110l3YmE5Br&utm_source=partnerize&utm_medium=affiliate&utm_campaign=unity_affiliate&gad_source=1&gad_campaignid=22879082069&gbraid=0AAAABA_3EmtPXKahZuFf8_08bVDvH2Juo&gclid=Cj0KCQjw2_TQBhCnARIsAF3-Xhw4mcZmPy_AVOFlLHTKOaQKln-7EuklYhkZRO0rfCAI0Dwq-eTNVX8aAg7iEALw_wcB) to build Android Package Kits (APK) and Meta Quest Developer Hub to deploy them in minutes. From there, we promote or demote builds and release them to players or alpha testers.\n\n\n**Conrad Dugger:** At launch, especially as *UG* gained traction, we needed visibility into what was happening at scale. The Editor could not simulate every scenario, so we uploaded debug symbols and used a Mixpanel dashboard to monitor errors continuously. We still check it daily and after every patch to make sure issues do not return. This helps us resolve issues before they affect players.\n\n\n**MM:** We can access crash symbols directly through Meta, so we did not need a custom solution. Unity lets us build and upload them to Meta in the same or a separate step. For errors and exceptions that crash symbols do not capture, we built custom tools that rate-limit uploads per player and include full stack traces.\n\n\nWe review those reports alongside user history to pinpoint what users were doing before an event occurred. Mixpanel aggregates events so teams can build queries, flows, and visualizations, helping us spot and fix issues quickly.",
+  "published_at": "2026-07-28T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:082baeb2b4e4b1f3272a72c8c8ff1e829f6b2bdf45604a2a9ee08c8ee59ddd7d"
+}

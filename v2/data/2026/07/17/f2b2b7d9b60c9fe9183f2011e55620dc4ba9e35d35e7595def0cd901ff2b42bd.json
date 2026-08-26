@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f2b2b7d9b60c9fe9183f2011e55620dc4ba9e35d35e7595def0cd901ff2b42bd",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/17-7-2026",
+  "canonical_url": "https://browser-use.com/changelog/17-7-2026",
+  "title": "Browser Harness API, New Models & Lower Top-Up Minimum",
+  "summary": "The Browser Harness agent API is now public, plus new models across the platform and a lower pay-as-you-go minimum.",
+  "body_markdown": "## Browser Harness API\n\n\nThe Browser Harness (v4) agent API is now part of our public API surface — listed in the OpenAPI spec, docs, and SDK codegen.\n\n\n- Run and session` status` fields are now typed enums instead of raw strings.\n- ` GET /runs` ,` GET /sessions` , and the run event log now use cursor-based pagination instead of offset paging.\n- Follow-up messages are now queued per session at` /sessions/{id}/queue` , with an` interrupt` flag to cancel the active run and apply a message immediately.\n- ` GET /runs/{id}/messages` is now` GET /runs/{id}/events` .\n- Per-run spend caps are now configurable instead of a fixed $5 default:\n\n\n```text\ncurl   https://api.browser-use.com/api/v4/runs   \\\n-H   \"X-Browser-Use-API-Key:   $BROWSER_USE_API_KEY  \"   \\\n-H   \"Content-Type: application/json\"   \\\n-d   '{\"task\": \"...\", \"maxCostUsd\": 25}'\n```\n\n\n## New Models\n\n\n- **Grok 4.5** (xAI) replaces GLM 5.2 in the Browser Harness model picker.\n- **Kimi K3** (Moonshot) is now available in Browser Harness.\n- **Claude Fable 5** is available via the API on Browser Harness.\n- **GLM** and **MiniMax** are now available natively on Computer Use and Browser Use.\n\n\n## Pricing\n\n\nPay-as-you-go minimum top-up lowered from **$25 to $5** , so it's easier to try Browser Use Cloud without committing to a larger purchase.\n\n\n## Fixes\n\n\n- Cancelled runs could briefly flip back to \"completed\" after the cancellation landed — run status is now sticky once it reaches a terminal state.\n- Runs cut off by the output limit were sometimes reported as producing no response, or incorrectly marked successful — they're now reported as truncated.\n- Automated (API and scheduled) runs on V3 now wait for CAPTCHA auto-solve instead of giving up early.",
+  "published_at": "2026-07-17T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:43223aad760d1fed654200ca02f704c9cecfb93a9ba42a02ee9b78b113bb4723"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c2a7b5f4f906eb832acd18398cf5936c88f9e7ca84caa65a0bc22d75a67dc33b",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://supabase.com/blog/supabase-alpha-june-2020",
+  "canonical_url": "https://supabase.com/blog/supabase-alpha-june-2020",
+  "title": "Supabase Alpha June 2020",
+  "summary": "Four months of building",
+  "body_markdown": "We're now 4 months into building[Supabase](https://supabase.com/) , which means another major update. Here's a few things we think you'll love in this release.\n\n\n### 4 minute demo#\n\n\nWatch a full demo:\n\n\n### View relational data#\n\n\nWe're sometimes asked how we will make Postgres as simple as Firebase, since Postgres is a relational database. This month we're making our first steps to prove that relational databases can be even easier to use than document stores. We're releasing an excel-like editing interface which can drill down into your relational data.\n\n\n### Manage JSON data#\n\n\nPostgres is an amazing database, giving the flexibility of a document store with the power of a RDBMS. If you use` JSON` data in Postgres, then we want to make that easy too. Supabase detects when your column is` JSON` or` JSONB` , and provides an easy way to edit and view your data. More improvements coming soon for this feature!\n\n\n### Choose your region#\n\n\nIf you noticed a bit of latency on Supabase, it's because your projects were previously set up in Singapore. It was always our intention that you'd be able to choose your database region, and this month we've delivered it. In the next releases we'll even allow you to go multi-region, instantly replicating your database close to your customers.\n\n\n### Backups#\n\n\nA guiding principle at Supabase is zero lock-in. So this month we are exposing your daily database backups on the dashboard, giving you a simple way to migrate off Supabase. We have a lot more to build in this space (` WAL-G!` ), so watch this space.\n\n\n### Kaizen#\n\n\nWe have a number of small improvements:\n\n\n- Improved SQL editor - with better syntax highlighting\n- Improved API docs - with more code snippets\n- UX improvements - with a simplified and consistent UX\n\n\n### Hiring#\n\n\n- This month we[welcome Steve Chavez to the team](https://supabase.com/blog/supabase-steve-chavez) . Steve is a maintainer of PostgREST, one of the core tools which makes Supabase possible.\n- We're hiring a part-time designer or UX expert. See more[here](https://news.ycombinator.com/item?id=23708351) .\n\n\n### Get started#\n\n\n- Start using Supabase today:[supabase.com/dashboard](https://supabase.com/dashboard)\n- Make sure to[star us on GitHub](https://github.com/supabase/supabase)\n- Follow us[on Twitter](https://twitter.com/supabase)\n- Become a[sponsor](https://github.com/sponsors/supabase)",
+  "published_at": "2020-07-01T07:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:24:12.344578+00:00",
+  "content_hash": "sha256:1448d020478a90e4961b53d31d42e7ffb379ae257f0e86f26e8fdc6e5d2e5bf3"
+}

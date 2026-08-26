@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9d2f57d5547c505db835b0d586cc340bab3e8055498b7c2c92b2a5826730c0e4",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/azure-ai-foundry",
+  "canonical_url": "https://www.windmill.dev/changelog/azure-ai-foundry",
+  "title": "Azure AI Foundry support for Windmill AI",
+  "summary": "Azure AI Foundry is now natively supported as an AI provider in Windmill, exposing the broader Foundry catalog (OpenAI models plus Llama, DeepSeek, Mistral, Phi and more) over an OpenAI-compatible API in both AI chat and AI agent steps.",
+  "body_markdown": "### [Azure AI Foundry support for Windmill AI](https://www.windmill.dev/changelog/azure-ai-foundry)\n\n\nAI\n\n\nAI Chat\n\n\nAI agents\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_generation/#models)\n\n\nAzure AI Foundry is now natively supported as an AI provider in Windmill, exposing the broader Foundry catalog (OpenAI models plus Llama, DeepSeek, Mistral, Phi and more) over an OpenAI-compatible API in both AI chat and AI agent steps.\n\n\n#### New features\n\n\n- Azure AI Foundry now available as a native AI provider via the azure_foundry resource type\n- Access to the broader Foundry model catalog beyond Azure OpenAI: Llama, DeepSeek, Mistral, Phi and more\n- Uses the same Azure authentication (api-key header) and base URL configuration as Azure OpenAI\n- Available in both AI chat (copilot) and AI agent flow steps",
+  "published_at": "2026-07-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+  "content_hash": "sha256:d7cc542d4050f7628fed67e90798bcea161710bbbaa1b42e08fd13490cb734ca"
+}

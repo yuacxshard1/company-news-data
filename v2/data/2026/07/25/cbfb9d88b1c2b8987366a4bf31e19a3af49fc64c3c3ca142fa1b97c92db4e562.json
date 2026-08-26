@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cbfb9d88b1c2b8987366a4bf31e19a3af49fc64c3c3ca142fa1b97c92db4e562",
+  "company_key": "yc-convoy-2",
+  "company_name": "Convoy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getconvoy.io/changelog/reliability-observability-data-layer-improvements",
+  "canonical_url": "https://www.getconvoy.io/changelog/reliability-observability-data-layer-improvements",
+  "title": "Reliability, Observability & Data Layer Improvements",
+  "summary": "Changelog update from Friday, January 30th, 2026",
+  "body_markdown": "We shipped bug fixes, better observability, and a refactored data layer for the Core Gateway.\n\n\n**Fixes & observability**\n\n\nEndpoints in **Paused** or **Inactive** state now activate correctly, and OSS default-user login no longer requires a license. We fixed filter evaluation for boolean values in arrays and a startup bug where the worker blocked the agent server. For Sentry, we've updated the configuration to use the default **Environment** field.\n\n\n**Data layer improvements**\n\n\nWe refactored the data layer to use[SQLC](https://sqlc.dev/) for type-safe SQL across API keys, configuration, delivery attempts, organisations, portal links, projects, sources, and filters. Behaviour is unchanged and no config or API changes are required on your side.\n\n\nUpgrade for the fixes and observability improvements.",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T00:37:26.853065+00:00",
+  "content_hash": "sha256:5bc6c8d87891e081a5736f2f3165b7b13d723db6340a16b5a55ee7f7894fdd2c"
+}

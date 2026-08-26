@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7f59f53bd6914b30645fdcd085bf2f83981b2c993707ae1813f3d908dfcb8daf",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/how-to-style-console-log-messages/",
+  "canonical_url": "https://www.basedash.com/blog/how-to-style-console-log-messages/",
+  "title": "How to style console log messages",
+  "summary": "Discover how Basedash, Linear, and Facebook spice up console.log output using ‘%c’ placeholders. Learn to apply custom fonts, colors, ASCII art, and more to…",
+  "body_markdown": "We recently added a little easter egg to Basedash which shows ASCII art of our logo, and a short message with links in the browser console.\n\n\nBasedash\n\n\nI’ve seen a few other products do something similar, including Linear and Facebook:\n\n\nLinear\n\n\nFacebook\n\n\nOne thing you might notice is that both of these examples apply styling to the console messages. Linear uses a monospace font (which is necessary for ASCII art to display properly), and Facebook changes the text size and color.\n\n\nHere’s how you can do the same:\n\n\n## Applying styling to console.log messages\n\n\nFirst, start with a standard` console.log` statement:\n\n\n```text\nconsole.log(  'Basedash is rad'  );\n```\n\n\nThen, add` %c` to the start of your string:\n\n\n```text\nconsole.log(  '%cBasedash is rad'  );\n```\n\n\nFinally, add a second parameter with some CSS:\n\n\n```text\nconsole.log(  '%cBasedash is rad'  ,   'color: red; font-size: 20px;'  );\n```\n\n\nThe CSS from the second parameter is applied to everything after the` %c` . Most CSS properties that affect text work—you can see the[full list on MDN](https://developer.mozilla.org/en-US/docs/Web/API/console#styling_console_output) .\n\n\nYou can also add multiple` %c` tags to apply different styles to different parts of your message. Each` %c` tag adds its own parameter to the` console.log` function call, like so:\n\n\n```text\nconsole.log(  '%cBasedash is %crad'  ,   'color: red',   'color: green'  );\n```\n\n\nRad!\n\n\nSome other ideas to try:\n\n\n- Embed an image with` background-image`\n- Change the` font-family` to match the rest of your website\n- Add a 3D effect with` box-shadow`\n- Italicize text with` font-style`\n\n\nCheck out the full MDN docs on[styling console output here](https://developer.mozilla.org/en-US/docs/Web/API/console#styling_console_output) .",
+  "published_at": "2022-01-05T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:19:59.901198+00:00",
+  "content_hash": "sha256:8d1d6c114c15321c466ee463dc6bfb983e4c07a28473c44df8f88180c237715a"
+}

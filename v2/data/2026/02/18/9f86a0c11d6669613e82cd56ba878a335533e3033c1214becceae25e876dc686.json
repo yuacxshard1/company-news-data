@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9f86a0c11d6669613e82cd56ba878a335533e3033c1214becceae25e876dc686",
+  "company_key": "yc-autumn",
+  "company_name": "Autumn",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://useautumn.com/blog/we-re-making-some-api-changes",
+  "canonical_url": "https://useautumn.com/blog/we-re-making-some-api-changes",
+  "title": "We're making some API changes",
+  "summary": "A bit of context about what will be changing in the new version of the Autumn API and SDK.",
+  "body_markdown": "Over the last year we learned a lot about how you use Autumn. We have noticed which pain points come up repeatedly and where users face limitations. Our v2 SDK will soon be released in beta, which we think offers a more intuitive and flexible experience as you build on Autumn.\n\n\n**There will be no breaking API changes:** everything is versioned on our end and your current version will continue to be supported.\n\n\n### What’s changing?\n\n\n**New objects / types.**\n\n\nOur customer and plan objects are changing to better suit our abstraction:\n\n\n-\n\n\nAny reference to` product` is now` plan` to better reflect our abstraction\n\n\n-\n\n\nCustomer products are now split into` subscriptions` and` purchases` for easier access\n\n\n-\n\n\nFeatures that a customer has access to will now be under a` balances` object\n\n\n-\n\n\nSubscription status can now only be one of` active` ,` scheduled` or` expired` - with additional params to determine trialing, canceled and past due states\n\n\n-\n\n\nTypes are more consistent (eg, consolidation of` one_off` and` lifetime` intervals)\n\n\n**Attach is being split**\n\n\nToday, the` attach` function is used for any operation that changes subscription state — checkouts, upgrades, downgrades, quantity updates, trial updates etc. This has become unpredictable to work with for you guys, and almost impossible for us to maintain. Adding functionality in one flow almost always breaks another.\n\n\nWe’re splitting this into 2 functions:` attach` will be used for operations that result in a plan change (checkout, upgrades etc), and` update` will be used for operations that update an existing customer subscription (cancelations, quantity adjustments, trial adjustments).\n\n\nWe know API changes are annoying, but we're biting the bullet now to set ourselves up for better stability in the long run. Again, your existing integrations will not break and we will continue to support the current version. For those of you that want to upgrade, we’ll be providing a short prompt/skill for Claude that can migrate your code for you.\n\n\nAs part of this, we’ve refactored a lot of code, which has allowed us to release a lot of new functionality and configurabilty. More details on that soon. Thank you all for helping make Autumn better ❤️‍🔥",
+  "published_at": "2026-02-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T08:43:21.090032+00:00",
+  "content_hash": "sha256:d00c8fe5306d0f871799fda3325edd432caf4590fda5de92f4f4938df39b4fd3"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6959e72dcb9a1114f3e22cf5069fab5b71e59ad91785f890fa3bc31f44d102c8",
+  "company_key": "yc-asayer",
+  "company_name": "OpenReplay",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.openreplay.com/t/open-replay-icons-issue/555#post_1",
+  "canonical_url": "https://forum.openreplay.com/t/open-replay-icons-issue/555",
+  "title": "Open replay icons issue",
+  "summary": "Issue: Icons are not rendering correctly in OpenReplay session replays and appear as crossed-out boxes, even though they display properly in the live React application. Cause: The icon font CSS is imported from node_modules and references font files using relative paths (e.g., ./webfont.woff2). While these paths resolve correctly at runtime in the application, the OpenReplay replay iframe cannot access node_modules paths.",
+  "body_markdown": "[akhileshulhe](https://forum.openreplay.com/u/akhileshulhe)\n\n\nJanuary 15, 2026, 11:40am 1\n\n\n**Issue:**\nIcons are not rendering correctly in OpenReplay session replays and appear as crossed-out boxes, even though they display properly in the live React application.\n\n\n**Cause:**\nThe icon font CSS is imported from` node_modules` and references font files using relative paths (e.g.,` ./webfont.woff2` ). While these paths resolve correctly at runtime in the application, the OpenReplay replay iframe cannot access` node_modules` paths.\n\n\n[mehdi](https://forum.openreplay.com/u/mehdi)\n\n\nJanuary 17, 2026, 12:35am 2\n\n\nWhat tracker version are you using?\n\n\n[akhileshulhe](https://forum.openreplay.com/u/akhileshulhe)\n\n\nJanuary 20, 2026, 4:44am 3\n\n\nit’s version 16 (“ @openreplay\n\n\n/tracker”: “^16.4.10”,)\n\n\n[mehdi](https://forum.openreplay.com/u/mehdi)\n\n\nJanuary 27, 2026, 11:34pm 4\n\n\nAre you recording sessions in localhost? Have you tried after deploying?",
+  "published_at": "2026-01-15T11:40:43+00:00",
+  "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+  "content_hash": "sha256:dee5ec8c92cf6aff924adf01a6c109aee351e3ed79575ae4da73b3c0861f7f26"
+}

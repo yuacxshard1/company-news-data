@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4b7c24878b3754c71a07de2972f15ad22e365c4a31db520a19ac12ed6a64f395",
+  "company_key": "yc-authzed",
+  "company_name": "authzed",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://authzed.com/changelog/november-2025-release",
+  "canonical_url": "https://authzed.com/changelog/november-2025-release",
+  "title": "AuthZed November 2025 Release",
+  "summary": "Remove authorization bottlenecks, empower your team to innovate and expand with best-in-class performance at any scale.",
+  "body_markdown": "This release includes schema enhancements for SpiceDB, new Materialize API capabilities in the Python client, and dashboard improvements for AuthZed Cloud.\n\n\n### [SpiceDB v1.46.2](https://github.com/authzed/spicedb/releases/tag/v1.46.2)\n\n\n#### Schema V2 Library Enhancements\n\n\nThe Schema V2 library now includes:\n\n\n- Configurable flattening options for permission schemas\n- Enhanced support for arrow operations (` ->` ) including conditional traversals (` .any()` and` .all()` )\n- New utility functions for schema traversal and format conversion\n\n\nThese additions support developers building schema analysis and transformation tools.\n\n\n### [authzed-py v1.24.0](https://github.com/authzed/authzed-py/releases/tag/v1.24.0)\n\n\n#### Materialize API Support\n\n\nThis release adds support for the Materialize API, which helps maintain a real-time copy of permissions data in your own database systems.\n\n\nWhen displaying lists or tables of accessible resources, checking permissions individually can be slow. The Materialize API addresses this by synchronizing permission relationships to your local systems.\n\n\nThe implementation includes:\n\n\n- Initial data loading with efficient backfill capabilities\n- Real-time synchronization as permissions change\n- Support for both synchronous and asynchronous Python code with automatic runtime detection\n- Local development client for testing without secure connections\n- Cursor-based pagination for large datasets\n- Quickstart guide with examples\n\n\n### AuthZed Cloud\n\n\n#### Dashboard Enhancements\n\n\n- Performance charts now available in the dashboard for datastore monitoring\n- Version management includes direct links to documentation for each release\n\n\n#### Bug Fixes\n\n\nVarious visual and functional improvements.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T17:47:31.723915+00:00",
+  "content_hash": "sha256:5ded5f40acf45e581dc7358a0b3736db5d1f03448b93d666544a837083a75a4d"
+}

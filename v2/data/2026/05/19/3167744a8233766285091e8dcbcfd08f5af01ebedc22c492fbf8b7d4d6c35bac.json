@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3167744a8233766285091e8dcbcfd08f5af01ebedc22c492fbf8b7d4d6c35bac",
+  "company_key": "yc-chonkie",
+  "company_name": "Chonkie",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://github.com/feyninc/chonkie/releases/tag/v1.6.7",
+  "canonical_url": "https://github.com/feyninc/chonkie/releases/tag/v1.6.7",
+  "title": "v1.6.7",
+  "summary": "",
+  "body_markdown": "# Chonkie v1.6.7 ✨\n\n\n## MistralOCR support\n\n\nExtract text from images with the new MistralOCR integration:\n\n\n```text\nfrom    chonkie    import    MistralOCR\nocr    =    MistralOCR  ()\nout    =    ocr  ( \"image.jpg\"  )\nprint  ( out  . content  )\n```\n\n\n## What's Changed\n\n\n- chore(deps): bump langsmith from 0.7.31 to 0.8.0 by[@dependabot](https://github.com/dependabot) \\[bot\\] in[#590](https://github.com/feyninc/chonkie/pull/590)\n- Fix: initial CodeChunker languages downloaded by[@chonk-lain](https://github.com/chonk-lain) in[#591](https://github.com/feyninc/chonkie/pull/591)\n- Add justified method for the overlap option by[@anaslimem](https://github.com/anaslimem) in[#562](https://github.com/feyninc/chonkie/pull/562)\n- feat: add MistralOCR by[@chonk-lain](https://github.com/chonk-lain) in[#593](https://github.com/feyninc/chonkie/pull/593)\n- chore: bump version by[@chonk-lain](https://github.com/chonk-lain) in[#594](https://github.com/feyninc/chonkie/pull/594)\n\n\n**Full Changelog** :[v1.6.6...v1.6.7](https://github.com/feyninc/chonkie/compare/v1.6.6...v1.6.7)",
+  "published_at": "2026-05-19T04:50:43+00:00",
+  "first_seen_at": "2026-07-24T22:18:14.501867+00:00",
+  "content_hash": "sha256:148719494e7503eff3af400f0f09f7c4949ddcc0bd5b6c4d8b591b79e1e0996b"
+}

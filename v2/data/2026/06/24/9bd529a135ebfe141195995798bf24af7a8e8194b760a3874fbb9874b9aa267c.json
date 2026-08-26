@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9bd529a135ebfe141195995798bf24af7a8e8194b760a3874fbb9874b9aa267c",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/a-model-trained-only-on-what-worked-has-an-incomplete-view-of-the-reaction",
+  "canonical_url": "https://www.reactwise.com/news/a-model-trained-only-on-what-worked-has-an-incomplete-view-of-the-reaction",
+  "title": "A model trained only on what worked has an incomplete view of the reaction.",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "A model trained only on what worked has an incomplete view of the reaction.\n\n\nIn most labs, low-yield reactions are treated as dead ends. The conditions that went nowhere are recorded inconsistently, or never written down at all. But a model doesn't only learn from success - Bayesian optimization builds a picture of the entire response surface, and negative results are what define its edges. By balancing exploration and exploitation in this way, the model suggestions can appear odd to a trained chemist but are crucial; they show where performance falls away and which regions aren't worth revisiting.\n\n\nThis is why we treat negative results as data, not waste. In our HTE lab, we deliberately generate and retain the full range of outcomes across the reaction classes most relevant to process chemistry - Buchwald-Hartwig, Suzuki, and amide couplings. The 25,000+ data points we've generated include the conditions that didn't work, because those are part of what makes the resulting models reliable.\n\n\nIt's also what makes MemoryBO effective at warm-starting new campaigns - carrying forward the dead ends so teams don't spend early experiments rediscovering them.\n\n\nAnd with HTE Data on Demand, teams can request these datasets directly rather than building that foundation from scratch.\n\n\nThe reactions that don't make it into the final report are just as important. The question is whether your workflow is set up to remember it.\n\n\n‍",
+  "published_at": "2026-06-24T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T10:59:50.628827+00:00",
+  "content_hash": "sha256:355752763ec74e9743a1617505aa79071a4d33e642857e3d19ac2fe1a272ea4f"
+}

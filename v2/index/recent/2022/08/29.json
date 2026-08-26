@@ -1,0 +1,135 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-linkana",
+      "company_name": "Linkana",
+      "doc_id": "016f605596f0923cb5d7e5a3c80beb27410a98c494ac485104640420545a865d",
+      "first_seen_at": "2026-07-20T23:20:31.551042+00:00",
+      "published_at": "2022-08-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Linkana Beyond, Fórum Comprar, Procurement Summit, entre outros. Confira dicas de eventos de gestão de comprar que acontecerão este ano",
+      "title": "Eventos de gestão de compras: 6 que acontecerão ainda em 2022"
+    },
+    {
+      "company_key": "teledyne-technologies-incorporated-common-stock",
+      "company_name": "Teledyne Technologies Incorporated",
+      "doc_id": "1dd3721e8c6b66aeb9a6659dd19cee0285a93b1695c2b270d2afc61921a78b55",
+      "first_seen_at": "2026-07-20T04:36:13.437201+00:00",
+      "published_at": "2022-08-29T12:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Figure 1: The High-voltage Probe Selection Guide color codes better or worse probe selections based on your answers to three, simple questions. Click any image to enlarge. Probing high-voltage (HV) circuits for analysis with an oscilloscope presents unique challenges due to the potential for injury or equipment damage, as well as the demands of the materials used in HV semiconductors. HV floating measurements are extremely dangerous and difficult to make. Conventional passive probes are not the answer, but isolated and high-voltage differential probes are options. Yet, with many possible choices in these categories, how can you decide which is actually the best HV oscilloscope probe for your application? Teledyne LeCroy offers this new, easy way to help you select a high-voltage oscilloscope probe based on your specific application—the High-voltage Probe Selection Guide—available on the Teledyne LeCroy website at: teledynelecroy.com/powerprobes The Three, Most Basic Questions When you go to the High-voltage Probe Selection Guide, you will be asked three, basic questions that determine the rightness or wrongness of any probe for a given application. What Is the DC Bus Voltage? The DC bus voltage will determine the maximum voltage rating required for the probe to be used in the measurement. For AC line signals, this is the peak-to-peak voltage of the AC line. In a switched mode power device, the bus voltage is most often either the full wave rectified peak voltage AC line or the amplitude of the pulse width modulated (PWM) signals from the driver/inverter circuits. What Is the Semiconductor Device Material? Silicon (Si), Silicon Carbide (SiC) and Gallium Nitride (GaN) are all popular materials for semiconductor devices, each with its unique requirement on rise times for the switching signals: Si devices typically cannot handle rise times faster 10 ns Rise times on SiC devices are 3 to 5 ns or slower Rise times on GaN devices are on the order of 1 to 3 ns The larger the voltage swing, the slower the rise times get to help keep EMI in check. To measure fast rise times, as well as some harmonics, the probe needs to have sufficient bandwidth. For example, to measure gate drive signals on a GaN device, the probe bandwidth required might be closer to 1 GHz, whereas to measure output signals on the same GaN device, the bandwidth required could be 700 MHz or even as low as 350 MHz. What Are the Applications? The High-voltage Probe Selection Guide asks you the intended measurement application, offering a choice of power semiconductor test, floating sensor or system inputs /outputs measurements. This high-level categorization determines the relative importance of many possible probe specifications, including the voltage range, bandwidth, attenuation and isolation. Power semiconductor testing refers to measurements made on individual devices. This includes capturing MOSFET/IGBT gate drive and output signals, then analyzing them. Analysis includes dead time verification and switching loss measurements. Depending on which semiconductor device is being tested, ideal probe features could include wide voltage range, offset capability, very good CMRR and higher bandwidth. Floating sensor measurements include probing series or shunt resistors, current or temperature sensors, or discrete components. This type of application usually determines the isolation requirements of the probe, as the signals involved are generally small with large voltage offsets. System input/output measurements include the line-side AC voltage, DC/DC converter high- or low-voltage inputs or outputs, DC bus or link, and inverter drive PWM outputs. Wide voltage range and common mode are typical features associated with probes for this application. Using the High-voltage Probe Selection Guide Open the High-voltage Probe Selection Guide, answer the three basic questions, and you will get a recommendation for a high-voltage probe with notes on our reasoning behind the choice. The selection guide rates the appropriateness of each probe using a simple, color-coded scheme: Black: The probe should absolutely not be used for this application, as damage to the probe, oscilloscope or device under test (DUT) may occur, or harm may come to the operator. Red: The probe may be safe to use for this application, but it will probably not provide a good measurement result. Yellow: There are some compromises in performance of the probe in this application, though some users may find the probe works fine for them. Green: This is the perfect probe. There are few issues with its use, and it has been optimized in price and performance for the application. Sometimes, it may be the only safe choice. The principal reason for the code is shown right on the screen, with more more information behind the \"i\" button. Figure 2. HV probe selections for measuring a 260 Vdc GaN transistor. Figure 2 shows the selections for probing a 260 Vdc GaN transistor: Single-ended passive probes (Black) should absolutely not be used for any measurement of this device, because it poses a safety hazard due to the floating nature of the signal. A high-voltage differential probe (Yellow) may be used with caution , but there may be performance trade offs due to circuit loading, and it may not have sufficient bandwidth for higher speed GaN signals. The best option (Green) is the single-ended fiber-optic isolated probe, the DL-ISO , because only it has the isolation, CMRR and bandwidth required for GaN device measurements. In a future post, we'll go over more of the reasoning behind this selection when we discuss probing requirements for GaN power semiconductor measurements. There are many considerations to selecting the best high-voltage probe. The High-voltage Probe Selection Guide on the Teledyne LeCroy website is the starting point for choosing the best high-voltage probe for your application. Based on your needs, it provides usefully documented recommendations for any of the Teledyne LeCroy high-voltage probe offerings. To try the High-voltage Probe Selection Guide, visit: teledynelecroy.com/powerprobes",
+      "title": "How to Choose the Best High-voltage Oscilloscope Probe in 5 Minutes"
+    },
+    {
+      "company_key": "xometry-inc-class-a-common-stock",
+      "company_name": "Xometry Inc.",
+      "doc_id": "4502a5a42629f36c64da9beac26e351cc4d4c16d8cbf0c463eedc2b4f85f6082",
+      "first_seen_at": "2026-07-20T23:17:15.190216+00:00",
+      "published_at": "2022-08-29T16:24:10+00:00",
+      "source_kind": "rss",
+      "summary": "IMTS is just a few short weeks away, and we can’t wait to see you there! Learn how you can catch Xometry at the upcoming conference!",
+      "title": "Xometry is Coming to IMTS 2022: Mark Your Calendars!"
+    },
+    {
+      "company_key": "yc-sapling-ai",
+      "company_name": "Sapling.ai",
+      "doc_id": "47a7a3766cfe2b9d5f6d2c35e78d8a09acb0d7fac2a18bdf606053542fd70810",
+      "first_seen_at": "2026-07-25T22:15:25.567776+00:00",
+      "published_at": "2022-08-29T07:41:41+00:00",
+      "source_kind": "rss",
+      "summary": "An overview of the regulations around HIPAA. Checklists, suggestions, and tools for software companies to become compliant.",
+      "title": "An Overview of HIPAA Compliance"
+    },
+    {
+      "company_key": "teradata-corporation-common-stock",
+      "company_name": "Teradata Corporation",
+      "doc_id": "58ec24c18e299f82491b5ee439b248940a19df89ba5f06a9592057b233c748a5",
+      "first_seen_at": "2026-07-25T01:06:58.521780+00:00",
+      "published_at": "2022-08-29T07:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Based on an entirely new cloud-native architecture, Teradata VantageCloud Lake brings the performance and low total cost of ownership of Vantage to the full spectrum of workloads, including ad hoc, exploratory, and departmental.",
+      "title": "Teradata Announces VantageCloud Lake for Driving Analytical Innovation at Scale"
+    },
+    {
+      "company_key": "teradata-corporation-common-stock",
+      "company_name": "Teradata Corporation",
+      "doc_id": "5f45a6927a8c30f03b13237150a620e770944cd827b0d20e3d3afd703f135e21",
+      "first_seen_at": "2026-07-25T01:06:58.521780+00:00",
+      "published_at": "2022-08-29T07:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "ClearScape Analytics operationalizes AI/ML at scale with the most robust in-database functionality of any analytics offering today to solve organizations’ most complex problems. Learn more.",
+      "title": "Teradata Announces ClearScape Analytics: The Most Powerful, Open, and Connected Cloud Analytics Available in the Industry"
+    },
+    {
+      "company_key": "protagonist-therapeutics-inc-common-stock",
+      "company_name": "Protagonist Therapeutics Inc.",
+      "doc_id": "80d838adf5ee8ef64d8b478b4267cd6cd304a0fd6c57be2cd53719c7c6db6e5d",
+      "first_seen_at": "2026-07-20T04:36:52.058184+00:00",
+      "published_at": "2022-08-29T12:24:52+00:00",
+      "source_kind": "rss",
+      "summary": "Protagonist Therapeutics is a clinical-stage biopharmaceutical company with a proprietary technology platform focused on discovering and developing peptide-based new chemical entities (NCEs) that can potentially transform existing treatment paradigms in disease areas with significant unmet medical needs.",
+      "title": "California Life Sciences Cancer Moonshot"
+    },
+    {
+      "company_key": "yc-posthog",
+      "company_name": "PostHog",
+      "doc_id": "8bf9251087b0d9d20934d71c2e3f5002de950db75a056113198f8e5e0f223bb1",
+      "first_seen_at": "2026-07-20T23:20:52.157750+00:00",
+      "published_at": "2022-08-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "PostHog 1.39.0 introduces a new beta for you to try, a new display chart and big improvements to our client libraries.",
+      "title": "Array 1.39.0: Betas, persons, events and libraries"
+    },
+    {
+      "company_key": "yc-fightcamp",
+      "company_name": "FightCamp",
+      "doc_id": "92f68bc2638230932a5fce7da21c0cacbe0aefdf5e560473c4bfbb7d921fea0f",
+      "first_seen_at": "2026-07-25T04:32:59.274712+00:00",
+      "published_at": "2022-08-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "FightCamp is giving you tips on how to make the most of your fall workouts this year. Hint, it all starts off with a successful Labor Day Weekend.",
+      "title": "Labor Day Fitness - Fall Workout Tips"
+    },
+    {
+      "company_key": "yc-chatwoot",
+      "company_name": "Chatwoot",
+      "doc_id": "c848061eaf90284d12ca345733e43be4362cc31de07d4eb139a4979658c03b23",
+      "first_seen_at": "2026-07-21T13:15:56.789660+00:00",
+      "published_at": "2022-08-29T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Compare 11 types of customer service, including email, live chat, self-service, chatbots, phone, messaging, and AI-assisted support.",
+      "title": "11 types of customer service (and how to pick the right one)"
+    },
+    {
+      "company_key": "doximity-inc-class-a-common-stock",
+      "company_name": "Doximity Inc.",
+      "doc_id": "d8fc8addc293e6139c5b52ece49b2f333b55ec1b9236ae46e6f4bd9eb4afb007",
+      "first_seen_at": "2026-07-25T01:15:21.586776+00:00",
+      "published_at": "2022-08-29T10:10:00+00:00",
+      "source_kind": "rss",
+      "summary": "Building A Solid Workflow For Your Graph Data Pipeline",
+      "title": "Integrating Neo4j Into Your Stack"
+    },
+    {
+      "company_key": "yc-plivo",
+      "company_name": "Plivo",
+      "doc_id": "de89f62621ff215382cf0962d1973d26a642429743c2929b9e24b40b7c67eabb",
+      "first_seen_at": "2026-07-20T23:20:51.132542+00:00",
+      "published_at": "2022-08-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Learn how to secure Plivo webhook URLs in Python with signature validation, using hash-based message authentication codes to verify incoming requests.",
+      "title": "How to Secure Plivo Webhook URLs in Python"
+    },
+    {
+      "company_key": "yc-apollo",
+      "company_name": "Apollo",
+      "doc_id": "ec43931dd19c632c39694ac46f41f7dda6f54b8323b43a49ff653b605cb016ba",
+      "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+      "published_at": "2022-08-29T09:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Schema-First vs Code-Only GraphQL"
+    }
+  ],
+  "date": "2022/08/29"
+}

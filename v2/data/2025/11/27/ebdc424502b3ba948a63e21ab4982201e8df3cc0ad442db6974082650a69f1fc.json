@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ebdc424502b3ba948a63e21ab4982201e8df3cc0ad442db6974082650a69f1fc",
+  "company_key": "yc-boundary",
+  "company_name": "Boundary",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://boundaryml.com/blog/llms-do-not-understand-numbers",
+  "canonical_url": "https://boundaryml.com/blog/llms-do-not-understand-numbers",
+  "title": "LLMs do not understand numbers",
+  "summary": "Don't ask it to add a confidence score. Don't add it to sum up items on a receipt. Don't ask it to confirm how many rows there are in a PDF.",
+  "body_markdown": "Stop writing prompts assuming that LLMs understand numbers:\n\n\n- ❌\n\n\ndon't ask it to add a \"confidence score\" to its response\n- ❌\n\n\ndon't ask it to sum up the items on a receipt\n- ❌\n\n\ndon't ask it to confirm how many rows there are in a PDF\n\n\nWe've known for a long time that LLMs[are bad at any task that involves understanding the semantics of numbers](https://loeber.substack.com/p/21-everything-we-know-about-llms) , which means that they're bad at addition, multiplication, counting, and any task that assumes they're good at those tasks.\n\n\nIt's easy to assume that LLMs *do* understand numbers, because if you prompt it on something simple, like \"count the R's in strawberry\", a state of the art model like[gpt-5.1 will give you the right answer](https://chatgpt.com/share/6928b415-b8b4-800a-a229-f47ca790a3d1) .\n\n\nBut if you ask gpt-5.1 to do a less trivial counting task, though, it will[try to refuse](https://chatgpt.com/share/691ac9b7-47a0-800a-a9a7-c0302f463168) :\n\n\n> The provided snippet is far too large to **accurately** count functions, types, and imports by hand without risk of giving you an incorrect result.\n\n\nIf you insist that gpt-5.1 go through with the task, you can get an answer out of it, but its[answer will be wrong](https://chatgpt.com/share/691ac5ac-70c0-800a-a829-e14c965f7f67) :\n\n\n```text\n{\n\"fn_count\": 82,\n\"fn_names\": [<array with 68 elements>],\n\"type_count\": 8,\n\"type_names\": [<array with 8 elements>],\n\"import_count\": 54,\n\"import_names\": [<array with 55 elements>]\n}\n\n\n```\n\n\nNote also, that gpt-5.1's attempt to refuse to count is not an inherent reflection of intrinsic LLM behavior, but OpenAI's training decisions: because ChatGPT users so frequently assume that LLMs can count, OpenAI has intentionally trained their flagship model to build associations between \"counting task\" and \"refusal\" that were not originally present in the underlying training data, to provide a more useful intelligence-in-a-box product to its users. (Ironically, I suspect this actually reinforces the model's weaknesses around numeric semantic understanding.)",
+  "published_at": "2025-11-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T21:11:53.929220+00:00",
+  "content_hash": "sha256:b0944c59e8e6743f7e4158a5ec78f5bce0ddab6b4bd3afb7bb19c8514818c5aa"
+}

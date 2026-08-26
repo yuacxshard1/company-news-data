@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "81fa2fac2e416a954452c0fc9f3b187f613df904bebb5f53cd7868e8b0cf1c7e",
+  "company_key": "yc-decentro",
+  "company_name": "Decentro",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.decentro.tech/changelog/flow-release-notes-390-1",
+  "canonical_url": "https://docs.decentro.tech/changelog/flow-release-notes-390-1",
+  "title": "Flow Release Notes | Version 3.9.0",
+  "summary": "This release notes contain changes related to UPI Collections V3 . UPI Collections V3 Release Date: 25th May 2026 Feature 1 - Merchant UI Template Enhancements (Shorten Link / QR Page) To make the payer experience more intuitive and information-rich, new UI components and styling enhancements have b...",
+  "body_markdown": "[Back to All](https://docs.decentro.tech/changelog)\n\n\nadded\n\n\nThis release notes contain changes related to **UPI Collections V3** .\n\n\n###\n\n\nUPI Collections V3\n\n\n**Release Date:** 25th May 2026\n\n\n**Feature 1 -** Merchant UI Template Enhancements (Shorten Link / QR Page)\n\n\nTo make the payer experience more intuitive and information-rich, new UI components and styling enhancements have been introduced on the payment page.\n\n\n**What’s changed?**\n\n\n- Merchant Logo Support\n\n\n- Merchant logo will now be displayed on the payment page, if provided.\n\n\n- Purpose Message\n\n\n- The` purpose_message` passed during Payment Link creation will now be displayed on the payment page.\n\n\n- Payment Attempt Number\n\n\n- For auto-retry use cases, the current payment attempt number will now be displayed.\n- Example: Payment Attempt 2\n- Rendered below the expiry timer.\n\n\n- Cautionary Message\n\n\n- A hardcoded payer warning has been introduced to reduce payment failures caused by screenshots:\n` Please SCAN and PAY & Payments initiated via screenshots will lead to failures.`\n\n\n**Feature 2 -** Intent Link Merchant Name Standardisation\n\n\nTo improve consistency between merchant information propagated by Decentro and the merchant details displayed by TPAPs/NPCI, the intent link generation logic has been updated.\n\n\n- **What’s changed?**\n\n\n- The payee name parameter in intent links will now use the merchant's **legal/full name** instead of bank account name.\n- The same legal name will be propagated in the TPAP while making payments.\n- Applicable across:\n\n\n- Payment Links (PL)\n- QR\n- RPD\n- Autopay – Register Mandate\n\n\n- No action required from merchants.",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T01:33:54.013008+00:00",
+  "content_hash": "sha256:fee4c7a22e700775e4db8c2b5ef44ce2bc890638917433e5e9d586900d8e2acf"
+}

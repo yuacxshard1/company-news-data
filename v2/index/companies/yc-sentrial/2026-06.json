@@ -1,0 +1,96 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "317987eb2f50fd3d6775ba1b3a0df0516e33cc7471ff1197c692ead2e99a540e",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-01T21:00:20.838+00:00",
+      "source_kind": "html",
+      "summary": "We tested six LLM observability platforms against real multi-step agent failures. Most tools look fine until your agent breaks silently at 2am and you can't tell why.",
+      "title": "LLM Observability Platforms in 2026: Ranked by Debugging Depth"
+    },
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "34617813b9a8485e42bf78d52dba8d171d4812d5d321b13898831f87a1a859ac",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-12T07:19:57.292+00:00",
+      "source_kind": "html",
+      "summary": "We ran Langfuse against the four failure modes that actually break production AI agents. Strong on tracing, real gaps on everything after.",
+      "title": "Langfuse Is Good at Tracing. Here's Where It Stops."
+    },
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "3cfb7206722016d2d024237d015243faae3089ab32668582a50af9a82984fb7c",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-01T21:55:38.810+00:00",
+      "source_kind": "html",
+      "summary": "We ran both platforms against real production agent data. Here's what we found about tracing depth, failure detection, and which tool actually gets you from alert to fix.",
+      "title": "Arize vs Sentrial: What Actually Matters for Production Agents"
+    },
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "4e2893cea55dcce4c68fc3339fd08d5bee4726fe477ea92d7f941c426d72702f",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-01T21:00:16.754+00:00",
+      "source_kind": "html",
+      "summary": "We analyzed 12 million production agent logs and 78% of failures were silent. Here's what that means for how you choose between Braintrust and Sentrial.",
+      "title": "Braintrust vs Sentrial: Pre-Release Evals Won't Catch Production Failures"
+    },
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "5ffe765504270bc068cca01af074532543d4509f9dd04b2555d70b3eb3c744f7",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-01T21:55:52.612+00:00",
+      "source_kind": "html",
+      "summary": "We compared seven Braintrust alternatives on the criteria that matter once agents are live: session tracing, classifier coverage, real-time alerting, and full log coverage. Here's what we found.",
+      "title": "Braintrust Alternatives That Actually Cover Production Agents"
+    },
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "8fccc4d40af19d17d1f8497ca57842569b1c4c6362e7b12a0b00474cafcd62e0",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-12T07:40:40.231+00:00",
+      "source_kind": "html",
+      "summary": "Both Datadog and Dynatrace handle infrastructure monitoring well. But if you're running production AI agents, they share a blind spot that neither vendor is talking about loudly enough.",
+      "title": "Datadog vs Dynatrace Can't Tell You When Your AI Agent Is Wrong"
+    },
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "98b664b426c02a86a7f18c79dbc4613a38eaf5efe29655884f61a4a6b28037e1",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-01T21:55:48.245+00:00",
+      "source_kind": "html",
+      "summary": "Most startups find out their AI agent broke from a support ticket, not a dashboard. Here's what real production monitoring looks like and where standard observability stacks miss it.",
+      "title": "What Production AI Agent Monitoring Actually Requires in 2026"
+    },
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "ef663c5f11ad3471d55802618e7776d18bfb92ad634165e0405ef11cbf344836",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-12T07:30:06.189+00:00",
+      "source_kind": "html",
+      "summary": "We compared Dynatrace alternatives across two very different use cases: infra/APM teams and engineering teams running production AI agents. Here's what we found.",
+      "title": "Dynatrace Alternatives in 2026 That Actually Fit Your Use Case"
+    },
+    {
+      "company_key": "yc-sentrial",
+      "company_name": "Sentrial",
+      "doc_id": "f7bbf6af4860397d7d2bce5f3a4413d8c0d95500e6e103c2912c9d9f0948969a",
+      "first_seen_at": "2026-07-25T23:34:43.014509+00:00",
+      "published_at": "2026-06-01T21:00:12.377+00:00",
+      "source_kind": "html",
+      "summary": "We compared Sentrial and Langfuse across tracing, automated evals, alerting, and debugging. Here's what the data tells engineering teams running production agents.",
+      "title": "Sentrial vs Langfuse: What We Actually Found in Production"
+    }
+  ],
+  "company_key": "yc-sentrial",
+  "month": "2026-06"
+}

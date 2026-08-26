@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "863be787fc081e4834d8558c6c989181555f7928f1a3061c403d8732896a3064",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/scheduled-workflows",
+  "canonical_url": "https://www.buildbuddy.io/changelog/scheduled-workflows",
+  "title": "Schedule Workflows with cron expressions",
+  "summary": "You can now run BuildBuddy Workflows on a recurring schedule using standard cron expressions. This is useful for nightly builds, periodic integration tests, or any job that should run independently of code pushes or pull requests.",
+  "body_markdown": "You can now run BuildBuddy Workflows on a recurring schedule using standard cron expressions. This is useful for nightly builds, periodic integration tests, or any job that should run independently of code pushes or pull requests.\n\n\nTo schedule an action, add a` schedule` trigger with one or more cron expressions under` triggers` :\n\n\nbuildbuddy.yaml\n\n\n```text\nactions  :         -     name  :     \"Nightly tests\"           triggers  :             schedule  :               crons  :                 -     \"0 2 * * *\"     # 2:00 AM UTC every day           steps  :             -     run  :     \"bazel test //...\"\n```\n\n\nScheduled runs always execute against the latest commit on your repo's default branch. All cron times are interpreted as UTC, and the minimum supported interval between triggers is 15 minutes.\n\n\nSee the[Workflows configuration docs](https://www.buildbuddy.io/docs/workflows-config#scheduling-workflows-with-cron-expressions) for format details and more examples.",
+  "published_at": "2026-05-28T10:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+  "content_hash": "sha256:8e56e8dfc5059c374751269493d087348f85e2f9a5e34827668917b1c78f4426"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e5c2ebb0664a4ec0ec08af3571923b0f55139551e8e0e00899b6fe7fc80be99a",
+  "company_key": "yc-simplifyd-systems",
+  "company_name": "Simplifyd Systems",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://simplifyd.com/blog/why-a-cloud-built-here",
+  "canonical_url": "https://simplifyd.com/blog/why-a-cloud-built-here",
+  "title": "Why we built a cloud here",
+  "summary": "Every millisecond your users wait is a round trip to another continent. We think infrastructure for African products should sit on the same continent as the people using them.",
+  "body_markdown": "If you build for users in Lagos, Nairobi or Accra and deploy to a region in Northern Virginia or Frankfurt, every request your users make crosses an ocean twice. That is not a configuration mistake — it is the default that most tooling quietly makes for you.\n\n\nIt shows up as latency you cannot optimise away in code. You can shave milliseconds off a query all week and lose them again on the way to the database.\n\n\n## Physics is not a tuning problem\n\n\nYou can cache aggressively at the edge, and you should. But the moment a request needs to write something, or read something a cache cannot serve, it goes back to wherever your database lives. No CDN fixes a write path.\n\n\nPutting the whole stack — app, Postgres, Redis, Kafka, object storage — in the same place as your users is the only version of this that works.\n\n\n## Paying in the currency you earn in\n\n\nThe second problem has nothing to do with speed. Cloud bills arrive in dollars, on a card, at whatever the rate happens to be that month. For a business earning in naira, that turns a fixed infrastructure cost into a currency position nobody asked for.\n\n\nWe bill in naira and take local payment methods. Your infrastructure cost stops moving for reasons that have nothing to do with your infrastructure.\n\n\n## What we are building\n\n\n-\n\n\nManaged Postgres, Redis and Kafka, with the defaults that fail quietly at small scale already fixed\n\n\n-\n\n\nS3-compatible object storage that existing tooling talks to without changes\n\n\n-\n\n\nStatic sites, container deploys, and networking that includes real TCP and UDP proxying\n\n\n-\n\n\nAn MCP server, so AI coding agents can deploy to us directly\n\n\n> Building for this market should not mean accepting worse latency, or a bill denominated in someone else’s currency.\n\n\nIf you are running something here and paying an ocean of latency for it, we would like to hear what you are running.",
+  "published_at": "2026-05-28T09:00:00+00:00",
+  "first_seen_at": "2026-08-25T08:17:01.984119+00:00",
+  "content_hash": "sha256:9218ffb3fabe7c63a55bf4d14d7823f6dd8d46798b14593cc8f6cb643a150a6e"
+}

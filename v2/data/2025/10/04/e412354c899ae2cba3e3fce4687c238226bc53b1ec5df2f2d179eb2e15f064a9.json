@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e412354c899ae2cba3e3fce4687c238226bc53b1ec5df2f2d179eb2e15f064a9",
+  "company_key": "yc-datasaur",
+  "company_name": "Datasaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://datasaur.ai/blog-posts/september-feature-updates-new-mixed-labeling-type-smarter-reviews-and-flexible-edits",
+  "canonical_url": "https://datasaur.ai/blog-posts/september-feature-updates-new-mixed-labeling-type-smarter-reviews-and-flexible-edits",
+  "title": "September Feature Updates: New Mixed Labeling Type, Smarter Reviews, and Flexible Edits",
+  "summary": "We’ve rolled out a new set of features designed to make your labeling projects more flexible, transparent, and efficient. From combining labeling types into a single project to giving reviewers more visibility, here’s what’s new.",
+  "body_markdown": "## Data Studio\n\n\n### Span + Line + Document Labeling: All-in-One Project Type\n\n\nYou can now combine span, line, and document labeling in a single project. This hybrid setup is especially useful for complex documents like contracts, transcripts, or research papers where you may need to label at multiple levels. With this new project type, you can manage everything in one place without having to configure multiple projects just to annotate the exact same data.\n\n\n[Learn more](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/mixed-label-sets#span--line--document-labeling)\n\n\n### No Restart Needed: Update Questions Mid-Project\n\n\nIn Document, Line, and Row Labeling projects, you can now adjust question settings more easily, even after they’ve been created. Specifically, you can:\n\n\n- Change the question type.\n- Switch between required and optional.\n- Toggle between single and multiple answers.\n- Update options for option-based questions.\n\n\nThese improvements make it simpler to refine your labeling schema mid-project, without the need to rebuild or restart.\n\n\n[Learn more](https://docs.datasaur.ai/advanced/extensions/document-and-row-labeling#editing-question)\n\n\n### Fill the Gaps: Insert Rows in Labeler Mode\n\n\nRow Labeling projects now support inserting rows in both Labeler and Reviewer modes. Previously limited to Reviewers, Labelers can now also add missing data or fix alignment issues directly during labeling, reducing back-and-forth and keeping datasets complete.\n\n\n### **Review in Bulk: Multiple Row Selection**\n\n\nIn Row Labeling projects, multiple row selection is now available in both Labeler and Reviewer modes. Previously, this feature was limited to Labeler Mode, but with Reviewer support added, you can now efficiently review, approve, or edit several rows at once, making bulk actions faster and more consistent across workflows.\n\n\n### Reviewer Insights: Track Who Labeled Bounding Boxes\n\n\nReviewer Mode in Bounding Box Labeling now shows the specific user who created each bounding box. This gives reviewers clear visibility into who applied the labels, making it easier to validate work, resolve discrepancies, and ensure accountability across the review process.\n\n\nThese features are now live, try them out and see how they can help you work faster, stay organized, and keep your projects consistent.\n\n\n‍",
+  "published_at": "2025-10-04T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:27:49.393704+00:00",
+  "content_hash": "sha256:91a13155169ce7cdd648ecf7f06b882796f22912219e305f879faa493c4ce020"
+}

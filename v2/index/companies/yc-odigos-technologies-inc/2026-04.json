@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-odigos-technologies-inc",
+      "company_name": "Odigos Technologies Inc.",
+      "doc_id": "0cac6884eca1cc6b416591475ecc46eb67a0d461dbdd8529b592068d20020aac",
+      "first_seen_at": "2026-07-25T17:02:44.020335+00:00",
+      "published_at": "2026-04-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Python services calling LLM providers in production typically show up in traces as a generic outgoing HTTP call to api.openai.com. No model, no tokens, no finish reason. Odigos has bundled seven OpenTelemetry GenAI instrumentations into the Python auto-instrumentation distro so those spans show up automatically, with no code changes.",
+      "title": "LLM Calls Are the New Blind Spot"
+    },
+    {
+      "company_key": "yc-odigos-technologies-inc",
+      "company_name": "Odigos Technologies Inc.",
+      "doc_id": "113386b62eebb901ea9d4213e1b9f5101123bd37abf82f6eca737be0b0024670",
+      "first_seen_at": "2026-07-25T17:02:44.020335+00:00",
+      "published_at": "2026-04-03T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Using Odigos to capture end-to-end distributed traces in messaging frameworks to help debug application issues",
+      "title": "Tracing Messaging Systems with Odigos"
+    },
+    {
+      "company_key": "yc-odigos-technologies-inc",
+      "company_name": "Odigos Technologies Inc.",
+      "doc_id": "f9c81a617c162e1516800acbd279fc7e275aed63cc1b19241669f86f7b3d630d",
+      "first_seen_at": "2026-07-25T17:02:44.020335+00:00",
+      "published_at": "2026-04-09T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI-powered incident analysis sounds compelling until you do the math. A 1M-token context window holds roughly 5,000 OpenTelemetry spans. A real incident generates 9 million. This post breaks down the arithmetic and explains why the bottleneck isn't the model, it's the instrumentation, sampling, and retention pipeline that feeds it.",
+      "title": "Your Incident Doesn't Fit in 1M Tokens"
+    }
+  ],
+  "company_key": "yc-odigos-technologies-inc",
+  "month": "2026-04"
+}

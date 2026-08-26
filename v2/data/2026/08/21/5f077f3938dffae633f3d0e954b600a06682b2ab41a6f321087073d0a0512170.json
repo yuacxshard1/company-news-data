@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5f077f3938dffae633f3d0e954b600a06682b2ab41a6f321087073d0a0512170",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
+  "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
+  "summary": "Discover more about what's new at AWS with Amazon EKS Capability for Argo CD now supports custom configuration",
+  "body_markdown": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and you can now tune it to fit how your teams work. You can define custom health checks for your Custom Resources, customize the Argo CD UI banner content, adjust how the capability watches and compares the resources it manages, and more. You configure these settings the same way you do in upstream Argo CD, and AWS applies them to your managed capability.\n\n\nWith this launch, cluster administrators now have more control over how Argo CD reports application health. By default, Argo CD has no built-in health logic for Custom Resources, so an Application can report as healthy while its resources are still provisioning, and sync waves can advance before those resources are ready. With a custom health check, you define this logic yourself. For example, a health check for a database resource can hold an Application at progressing until the database is ready. The capability also includes built-in health checks for AWS Controllers for Kubernetes (ACK) and kro (Kube Resource Orchestrator) resources, so these report accurate health with no additional configuration.\n\n\nYou can configure the EKS Capability for Argo CD in all AWS Regions where the capability is available. To learn more, see[Amazon EKS](https://aws.amazon.com/eks/) and[Configure Argo CD settings](https://docs.aws.amazon.com/eks/latest/userguide/argocd-configure-settings.html) in the Amazon EKS User Guide.\n\n\n####",
+  "published_at": "2026-08-21T17:00:00+00:00",
+  "first_seen_at": "2026-08-22T00:16:56.002121+00:00",
+  "content_hash": "sha256:101955b85d45b20f31e90bfb3967625ea29420dd09a6badef7c9bc6c42a48344"
+}

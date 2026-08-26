@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7bb099957c9034f06810bcad7420114f0870971f06da97c83e3fad6e0f8f1a39",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
+  "title": "Amazon Timestream for InfluxDB now supports customer managed keys",
+  "summary": "Discover more about what's new at AWS with Amazon Timestream for InfluxDB now supports customer managed keys",
+  "body_markdown": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and InfluxDB 3 clusters. Customers select a symmetric AWS KMS key when creating a database resource.\n\n\nTimestream for InfluxDB uses the selected key to encrypt the underlying database storage for InfluxDB 2 and InfluxDB 3 resources. The key must be in the same AWS account and AWS Region as the database resource. Customers specify the key during resource creation. The key cannot be changed after the resource is created.\n\n\nCustomer managed key support is available through the AWS Management Console, AWS Command Line Interface (AWS CLI), and Timestream for InfluxDB application programming interface (API). The feature is available in all AWS Regions where Timestream for InfluxDB is available. There is no additional Timestream for InfluxDB charge for using customer managed keys. Standard AWS KMS charges apply.\n\n\nSupport for Customer managed keys is available in all AWS[Regions](https://docs.aws.amazon.com/general/latest/gr/timestream.html) where Amazon Timestream for InfluxDB is available. To get started, open the Amazon Timestream console. For more information, see the[Amazon Timestream for InfluxDB documentation](https://docs.aws.amazon.com/timestream/) and[pricing page](https://aws.amazon.com/timestream/pricing/) .",
+  "published_at": "2026-08-20T20:00:00+00:00",
+  "first_seen_at": "2026-08-20T23:34:13.671767+00:00",
+  "content_hash": "sha256:25ba3cdbc843cf5a2568cec1f5bde357111c4508a8e8c912b94fc1c5390c7a66"
+}

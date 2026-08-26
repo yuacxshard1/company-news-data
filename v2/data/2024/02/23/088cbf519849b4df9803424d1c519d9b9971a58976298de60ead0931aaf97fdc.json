@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "088cbf519849b4df9803424d1c519d9b9971a58976298de60ead0931aaf97fdc",
+  "company_key": "yc-openbuilder",
+  "company_name": "OpenBuilder",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.easycode.ai/blog/get-best-ai-answer",
+  "canonical_url": "https://www.easycode.ai/blog/get-best-ai-answer",
+  "title": "How to Get the Best Answer from AI",
+  "summary": "Specialized IDE for building web apps with Supabase and NextJS with built-in backends.",
+  "body_markdown": "**2 things can improve the quality of the AI answer:**\n\n\n1. Provide specific (file level) context to the AI\n\n\n1. Provide specific requirements and instructions\n\n\nAs an example, we will turn into a potentially bad prompt into a better prompt for a hypothetical e-commerce project.\n\n\n**❌ Initial Prompt**\n\n\n> Add discounts to products.\n\n\n- the context is not specific.\n\n\n- the requirements aren’t clear.\n\n\n---\n\n\n**✅ Final Prompt**\n\n\n> ` /Implement`\n>\n>\n> Add the ability to apply discounts to products that are in cart. Make sure that: - discounts are in percentages - discounts cannot be more than 100% - only one discount can be applied to a product\n>\n>\n> ` @shopping.js`\n>\n>\n> ,\n>\n>\n> ` @shopping-service.js`\n>\n>\n> ,\n>\n>\n> ` @shopping-repository.js`\n>\n>\n> ,\n>\n>\n> ` @Cart.js`\n\n\n- the context is specific.\n\n\n- the requirements are clear.\n\n\n## Specify context\n\n\nUse the\n\n\n` '@'`\n\n\nsystem to tell AI\n\n\n**exactly which files**\n\n\nto consider as context. This produces the highest quality of answers, but requires you to know which files are relevant.\n\n\n**Improved Prompt**\n\n\n> ` /Implement`\n>\n>\n> Add discounts to products.\n>\n>\n> ` @shopping.js`\n>\n>\n> ,\n>\n>\n> ` @shopping-service.js`\n>\n>\n> ,\n>\n>\n> ` @shopping-repository.js`\n>\n>\n> ,\n>\n>\n> ` @Cart.js`\n\n\n✅ the context is specific.\n\n\n❌ the requirements aren’t clear.\n\n\n**But what if you don’t know which files to include yet?**\n\n\nUse\n\n\n` /Explain`\n\n\nand\n\n\n` /Plan`\n\n\nto quickly research which files are relevant.\n\n\n### Understand codebase (skip if you know the codebase already)\n\n\nYou may first want to understand how products and carts interact with each other.\n\n\n> ` /Explain`\n>\n>\n> How does product get added to cart?\n\n\n### Determine solution plan (skip if you already know how to do it)\n\n\nEasyCode can offer suggestions on which files to change, and what changes to make.\n\n\n> ` /Plan`\n>\n>\n> Add the ability to apply discounts to products that are in cart.\n\n\n## Specify requirements\n\n\nProvide as much requirements upfront as possible. Imagine you are giving the task to another developer, the more clear you communicate what you want in the beginning, the less back-and-forth there will be.\n\n\n> ` /Implement`\n>\n>\n>\n>\n> ` @shopping.js`\n>\n>\n> ,\n>\n>\n> ` @shopping-service.js`\n>\n>\n> ,\n>\n>\n> ` @shopping-repository.js`\n>\n>\n> ,\n>\n>\n> ` @Cart.js`\n\n\n✅ the context is specific.\n\n\n✅ the requirements are clear.",
+  "published_at": "2024-02-23T00:00:00+00:00",
+  "first_seen_at": "2026-07-27T10:56:15.564414+00:00",
+  "content_hash": "sha256:47e85fedc8f8ffdcb92c8c966d9dc4d05baf70ff68bd89dd80a512249835ff61"
+}

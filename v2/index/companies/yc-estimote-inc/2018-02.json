@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-estimote-inc",
+      "company_name": "Estimote, Inc.",
+      "doc_id": "c4287dade387a5f40afb24ecf6146a55fd4e7ab7b32f776de3602928113f5ffd",
+      "first_seen_at": "2026-07-27T09:08:36.947635+00:00",
+      "published_at": "2018-02-14T13:06:23+00:00",
+      "source_kind": "rss",
+      "summary": "In 2016, we introduced the Beacon Storage API allowing developers the opportunity to store small amounts of data within the built-in memory of each Estimote Location Beacon. This feature lets you share data with nearby customers, and display text or images coming directly from the beacon. It’s a perfect solution where internet connectivity is spotty and you don’t need to store a lot of data. An alternative is to have your app either include that data, or fetch it remotely from the cloud. That means either hard-coding the info in the app—which doesn’t scale—or relying on an external service to store it. We’re constantly looking to improve the experience for our developers, shorten the development time, and make maintaining apps a breeze. Today we’re helping with that: introducing our Estimote Cloud Attachments API. If you haven’t used external cloud services (e.g. Firebase or Deployd) or your own backend before, you can use this API to associate your own data with a beacon, and then use this contextual information to enhance the experience for your users. Embedding Cloud Attachments API service could also decrease the complexity of your application — fewer dependencies are always better. It can also save you time by maintaining smaller number of external services. Another advantage of using Cloud Attachments API is that you don’t need to hardcode data in your app anymore. It helps with maintenance and updates. Here is a snippet of code showing how to use attachments: // create an attachment curl -X POST 'https://cloud.estimote.com/v3/attachments' \\ -u YOUR_APP_ID:YOUR_APP_TOKEN -H",
+      "title": "Estimote Cloud Attachments API: store context in the cloud, less in your app!"
+    }
+  ],
+  "company_key": "yc-estimote-inc",
+  "month": "2018-02"
+}

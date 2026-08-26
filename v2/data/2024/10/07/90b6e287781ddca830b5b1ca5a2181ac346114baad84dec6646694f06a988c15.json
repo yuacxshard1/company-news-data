@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "90b6e287781ddca830b5b1ca5a2181ac346114baad84dec6646694f06a988c15",
+  "company_key": "yc-loops",
+  "company_name": "Loops",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://loops.so/changelog/columns",
+  "canonical_url": "https://loops.so/changelog/columns",
+  "title": "Columns arrive at Loops",
+  "summary": "Column support arrives in Loops, so you can build side-by-side layouts in the email editor for richer, more structured email designs.",
+  "body_markdown": "Chris from Loops here. This month we’re releasing a big feature request, Column support! Columns allow multiple images, text, buttons and more to be placed side by side, helping you create more dynamic and well-designed emails 🎨\n\n\n### **Columns have arrived**\n\n\nWe did it! Column support is now rolled out in the editor.\n\n\nAnd it’s very cool. You can control the **gap spacing** and the **width** of columns in the editor with a click and drag.\n\n\nWe also added support for stacking the columns on mobile or maintaining the columns side by side.\n\n\n[Check out the docs](https://loops.so/docs/creating-emails/editor#columns) for more on our implementation or just[try the template below](https://app.loops.so/templates?templateId=cm1qt7ct4000008mi67bk1l8m) with columns fully built-out.\n\n\n### **Improving deliverability with large institutions**\n\n\nAs Loops has continued to scale, we’ve faced various deliverability challenges and love solving them, because when we fix an issue for **one** customer, it benefits **all** our users.\n\n\nRecently, we made changes to improve compliance with an older type of email gatekeeping around strict spam filters and legacy email protocols.\n\n\nThese are somewhat common at large corporations, and as a result of that effort we reworked how emails are composed on the backend.\n\n\nFor the technical details, our Senior Engineer Sam outlined the process we went through to improve deliverability across the Loops platform[in this article](https://loops.so/updates/a-deep-dive-into-rspamd) .\n\n\n### **Other improvements**\n\n\n1.\n\n\nNames are now supported in Webhook integrations (Stripe and Clerk).\n\n\n2.\n\n\nWe now support Mailing Lists in our Census integration.\n\n\n3.\n\n\nFixed overflowing preview email modal with many emails.\n\n\n4.\n\n\nIf an email has preview text added, the email will now open with the sending details fully expanded.",
+  "published_at": "2024-10-07T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T13:13:35.252230+00:00",
+  "content_hash": "sha256:60353d84c7f3e6f08023bf02a2d7c70b0a07c58d05dff0f5bfc38a369f293d75"
+}

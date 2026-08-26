@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "985df7b8f0258e20880495a1899541dc17934bdd05651d8a60cd6919b78d9170",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/building-westeros-for-mobile-in-game-of-thrones-dragonfire",
+  "canonical_url": "https://unity.com/blog/building-westeros-for-mobile-in-game-of-thrones-dragonfire",
+  "title": "Building Westeros for mobile in Game of Thrones: Dragonfire",
+  "summary": "Explore how Warner Bros. Games Boston optimized Game of Thrones: Dragonfire for mobile with scalable multiplayer, faster load times, and Unity tools.",
+  "body_markdown": "**How did you identify your biggest load-time bottlenecks during development?**\n\n\n**AY:** To tackle load times, we used a few approaches. To get an overall sense of where our bottlenecks were, we set up custom profiling events for each stage of our loading process, which were written out to a CSV file. We aggregated values across multiple sessions to identify which stages were hot spots. We also transformed these into Chrome Trace Events and OpenTelemetry traces so we could better visualize how the stages were loading in parallel.\n\n\nFrom there, we dug in on a specific stage. The[Unity Profiler](https://docs.unity3d.com/6000.4/Documentation/Manual/Profiler.html) ’s CPU module gave us deeper insight into inefficient code that we could clean up. In some cases, recording multiple profiles and using the[Unity Profile Analyzer](https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.3/manual/index.html) helped us evaluate how tuning some loading values improved (or degraded) the load times.\n\n\nThe CPU Profiler regularly came in handy when exploring frames with large hitches, diving into what caused frame rate drops and helping us find better techniques.\n\n\nBeyond loading, the Rendering module helped us dig in on inefficiencies in rendering once we were in-game, and[RenderDoc](https://docs.unity3d.com/6000.4/Documentation/Manual/RenderDocIntegration.html) was another tool we leveraged when we needed to perform a deeper analysis on a runtime issue.\n\n\nFinally, to keep sessions going, we had to ensure our memory consumption stayed under control. We identified unnecessary asset and object loads through[Memory Profiler](https://docs.unity3d.com/Packages/com.unity.memoryprofiler@1.1/manual/index.html) snapshots, particularly around the map and marches, which in turn lowered the loading requirements to get into the game.",
+  "published_at": "2026-06-05T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:6912ea4c296694e6e50fd12ffd3d0532997724cfd4585e29daea2eba7a2b80a9"
+}

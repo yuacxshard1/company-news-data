@@ -1,0 +1,116 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "06391cce3c31c9e19b552ba30b882d1dd5c75b1c748c4ab9b474682a6dcd2087",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-01T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "For organizations facing a significant renewal, planning a new facility, or actively evaluating an exit from the historian architecture, this path is a complete replacement: InfluxDB for time series, and Litmus Edge or Highbyte for industrial connectivity.",
+      "title": "6 Signs Your Historian Renewal Should Be a Modernization Conversation"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "124e475a979cef452f964bde7c224d9b3a587894feaa2473ebf6bfa4de0c118d",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-24T06:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Telegraf Enterprise is now generally available. It combines Telegraf Controller, a centralized management console for Telegraf, with official support from InfluxData. Open source Telegraf remains unchanged.",
+      "title": "Telegraf Enterprise Now Generally Available: Manage Telegraf Fleets at Scale"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "19d48cbd3f27da25544d181f1df8e9dca584f76b33479744103fff659d532e6d",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-12T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Getting InfluxDB 3 up and running is a pretty lightweight process with the installation script . Getting time series data into it is the next step, and for exploration, basic testing, or scenarios where you don’t have a stream of time series data ready to write, that can be a point of friction. That hurdle is particularly high when you want to test the rest of the system around the data you’d be writing: dashboards, alerts, replication, network connectivity, edge devices, server sizing, or Processing Engine workflows—you don’t always have the ability to start writing production data into a freshly-installed database, or you may not have that data yet. Two new InfluxDB 3 plugins help with exactly that: the Bird Tracking Simulator and the Signal Generator. Both are scheduled plugins that generate data directly to InfluxDB 3, making it easy to start writing realistic sample data with a single trigger. The Bird Tracking Simulator creates synthetic bird telemetry, while the Signal Generator creates configurable waveform data for sensor-like or metric-like use cases. Why generate sample data this way? A lot of InfluxDB workflows are easier to understand once data is actively moving through the system:a dashboard is easier to build when the line and the most recent datapoint keep changing, an alert is easier to validate when values cross a threshold, edge replication is easier to test when writes are arriving continuously, and a small server or single-board computer is easier to evaluate when you can watch how it behaves under a steady stream of points. These plugins are meant to make that first step simple. Create a database, create a trigger, and InfluxDB 3 starts generating data on a schedule. From there, you can query it, visualize it, replicate it, downsample it, or use it as input for other Processing Engine plugins. Bird Tracking Simulator The Bird Tracking Simulator generates a stream of synthetic bird telemetry. On its first run, it creates a persistent flock of named birds, assigns each bird a variety of tags, such as species, name, and range, and stores the flock in the Processing Engine cache. Each scheduled execution of the plugin advances the flock by updating a number of measurements, including speed, heading, latitude, and longitude, with the birds going on random walks within a predefined range for each species. The shape of the data is useful for a few reasons. It has multiple entities, tags, and geospatial fields. It changes over time in a way that is easy to inspect visually. That makes it a good fit for testing dashboards, map panels, edge replication, and basic query patterns that group or filter by tags. The plugin writes to the bird_tracking measurement. Its configuration is also intentionally small, specified with simple trigger arguments: bird_count controls how many persistent birds are tracked, and points_per_bird controls how many movement points each bird emits per scheduled run. The defaults are 25 birds and 1 point per bird. The number of data points the plugin generates is a simple product of these two options and the trigger specification for how often the plugin runs. The plugin requires Faker , so install that first: influxdb3 install package Faker Then create a database and a scheduled trigger: influxdb3 create database sample_data influxdb3 create trigger \\ --database sample_data \\ --path \"gh:influxdata/bird_data_simulator/bird_data_simulator.py\" \\ --trigger-spec \"every:10s\" \\ --trigger-arguments bird_count=10,points_per_bird=10 \\ bird_tracking_demo After the trigger has run a few times, query the generated data: influxdb3 query \\ --database sample_data \\ \"SELECT * FROM bird_tracking ORDER BY time DESC LIMIT 5\" For a denser stream, increase the flock size, increase the points per bird, or adjust the trigger interval. That gives you a simple way to create a steady stream of entity-oriented time series data. You can use it to populate dashboards, test writes across a network, or quickly confirm that a new InfluxDB 3 setup is receiving, storing, and querying data as expected. Signal Generator The Signal Generator achieves many of the same things, but by generating numeric signals rather than named entities. The default preset produces a signal centered around 30, with a slow sine trend, Gaussian noise, and occasional spikes. It uses only the Python standard library, supports configurable measurement names, field names, tags, and point resolution, and can compose multiple waveform types together. Supported waveform types include sine, square, triangle, sawtooth, noise, and spike. That makes it useful for testing dashboards, threshold checks, alerting behavior, anomaly detection, and any workflow that requires a predictable yet non-static stream of numeric values. A line with trend, noise, and the occasional spike gives you something closer to the patterns you usually care about when working with time series data. The simplest version uses the default preset: influxdb3 create database signals influxdb3 create trigger \\ --database signals \\ --path \"gh:influxdata/signal_generator/signal_generator.py\" \\ --trigger-spec \"every:10s\" \\ signal_basic Once the trigger has run, query the latest generated values: influxdb3 query \\ --database signals \\ \"SELECT time, value FROM signal ORDER BY time DESC LIMIT 10\" You can also aggregate the generated signal over time: influxdb3 query \\ --database signals \\ \"SELECT time_bucket(time, INTERVAL '1 minute') AS minute, AVG(value) AS avg_value, MIN(value) AS min_value, MAX(value) AS max_value FROM signal WHERE time > now() - INTERVAL '1 hour' GROUP BY minute ORDER BY minute DESC\" For custom waveforms, the plugin can be configured with JSON arguments through InfluxDB 3 Explorer or the Processing Engine API. That lets you define signals for different measurements, fields, and tags, or stack waveforms together to create the shape you want. For example, you might create one signal that looks like a temperature sensor, another that behaves like CPU utilization, and another that emits occasional spikes to test an alerting path. Because each trigger can have its own configuration, you can build out a small set of synthetic streams that exercise different parts of your system. Lightweight data generation for InfluxDB 3 The Bird Tracking Simulator and Signal Generator are small plugins, but they solve a useful problem: they make it easy to get fresh time series data flowing through InfluxDB 3 with very little setup, allowing you to test your deployment and ensure data is flowing to and from every system downstream of your InfluxDB instance. Use the Bird Tracking Simulator when you want moving, entity-oriented telemetry with tags and location fields. Use the Signal Generator when you want numeric signal data for dashboards, alerts, thresholds, and processing workflows. Check out the plugins in the InfluxDB 3 plugin repository , try them on the hardware you already have, and use them as a quick way to exercise InfluxDB 3, the Processing Engine, and the systems connected to them.",
+      "title": "Generate Synthetic Time Series Data in InfluxDB 3"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "296135038f58e097472ab2cd14519239a52e701ff649cdb80bdb8100d3cc4cf6",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-17T12:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "InfluxDB 3.10 expands that beta to include enterprise features that give teams more control as they scale and manage larger workloads in InfluxDB 3.",
+      "title": "What’s New in InfluxDB 3.10: Performance Beta Expanded with New Enterprise Features"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "3684eba2c43ab81afcce366f5d4f3b48034b802973105be303827c2416100e94",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-04T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The new River-based plugins for InfluxDB 3 are built for the InfluxDB 3 Processing Engine and leverage River, a Python library for online machine learning.",
+      "title": "Anomaly Detection and Forecasting That Learns From Every Write in InfluxDB"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "46de621be7ad0ed994be3c6b544831bb5cf4d1029d84747a88afcd36a771d8d7",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-25T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "In this blog, we will go over why the Mumu team migrated from Prometheus, rebuilt their monitoring stack on InfluxDB 3, and how the migration went.",
+      "title": "How Mumu Migrated From Prometheus to InfluxDB and Tripled Their Metric Coverage"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "65f697b1d6eb7a586e76bcafcbcdb16dc0158954af1b717b69120570141c4ef8",
+      "first_seen_at": "2026-07-21T23:50:03.450269+00:00",
+      "published_at": "2026-06-24T06:00:00+00:00",
+      "source_kind": "html",
+      "summary": "InfluxData, creator of the leading time series database InfluxDB, today announced the general availability of Telegraf Enterprise, a new offering that gives organizations centralized control over large-scale Telegraf deployments.",
+      "title": "InfluxData Announces General Availability of Telegraf® Enterprise to Operate Telemetry Fleets at Scale"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "89b87d258efc86736130804302d31d1517c741fdacccc7521b55ae124b8a09a2",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-30T07:30:00+00:00",
+      "source_kind": "rss",
+      "summary": "InfluxDB 3 Explorer 1.9 makes it easier to work with your existing queries. Whether you’re migrating Flux queries to SQL or if you’ve been writing in InfluxQL for years, this helps bring your existing queries forward instead of starting from scratch.",
+      "title": "What's New in InfluxDB 3 Explorer 1.9: Flux-to-SQL Conversion, InfluxQL Support, and More"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "91a2acf67b248cc844b77cac9d1e31e504d0e300a62444ca1a4cd00633a2b6ed",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-09T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "In this tutorial, we'll build a working predictive maintenance plugin from scratch. We'll install InfluxDB 3 Core, load a public dataset, write a Python plugin to estimate Remaining Useful Life (RUL), and have it raise maintenance alerts automatically.",
+      "title": "Building a Predictive Maintenance Plugin with the InfluxDB 3 Processing Engine"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "b17d0be8ebb4919995a839ddffc2a877db18e4b650a7365b98c9d7c55f4b177f",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-19T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "By combining scalable telemetry storage with built-in processing capabilities, it helps satellite teams support real-time monitoring, accelerate analysis, and automate workflows that keep mission operations running smoothly.",
+      "title": "Why Relational Databases Fail Satellite Telemetry"
+    },
+    {
+      "company_key": "yc-influxdata",
+      "company_name": "InfluxData",
+      "doc_id": "fb684ebaf8932d41e41cef95fd556d60794b1df922f4b3da0bdcd5ae49b2cd9c",
+      "first_seen_at": "2026-07-20T23:23:58.693982+00:00",
+      "published_at": "2026-06-11T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "With InfluxDB 3, satellite teams can bring high-volume operational signals from spacecraft, ground systems, and infrastructure into a shared time series architecture.",
+      "title": "Satellite Telemetry, ITAR, and Data Residency: Building Architecture for Speed and Control"
+    }
+  ],
+  "company_key": "yc-influxdata",
+  "month": "2026-06"
+}

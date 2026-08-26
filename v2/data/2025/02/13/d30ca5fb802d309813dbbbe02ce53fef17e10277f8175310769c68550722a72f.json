@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d30ca5fb802d309813dbbbe02ce53fef17e10277f8175310769c68550722a72f",
+  "company_key": "yc-rune",
+  "company_name": "Rune",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://developers.rune.ai/blog/release-notes-january",
+  "canonical_url": "https://developers.rune.ai/blog/release-notes-january",
+  "title": "New Updates! January 2025",
+  "summary": "Release notes for the Rune platform",
+  "body_markdown": "## 🛠️ App Improvements​\n\n\n- Added a fun and simple sound effect for gaining gems in the app, from daily rewards to quests 💎🔊\n- 🎨 Introduced dynamic gradient height behind titles in game preview tiles to make game titles easier to read!\n- Upgraded all login flow assets to be even sharper and more polished ✨\n- Removed nonfunctional arrows from room info on the Room Details screen for a cleaner look!\n- 🔢 Enabled one-time code autofill in keyboard suggestions for a smoother login experience.\n\n\n## 🪲Bug Fixes​\n\n\n- Fixed an issue causing weirdly small button text sizes by rerendering scalable text 🔤\n- Prevented a bug where users weren’t showing up on cold-boot by ensuring we load and persist local users 👥\n- Averted signed-in users with no wifi to a new no wifi screen so there’s no confusion and users can reinitialize the app then be returned directly to their previous screen! 📶\n- 🔍Found and fixed a few more crashes related to unsafe casting of errors to objects.\n- Added missing onScrollToIndexFailed handlers to prevent crashes 🚫📜\n- Stopped a crash issue when the link email code error wasn't an object by removing unsafe casts.\n- Resolve the problem where scrolling to the bottom wasn’t possible on searchable list screens when the keyboard was open ⌨️\n- Upgraded our login flow health reporting for enhanced bug-busting in the future 📊\n- Addressed an issue where gamers were occasionally added to a room twice on incoming calls by waiting for the user token 📞\n- 🕒🔒Investigated and prevented failures during account activations by accommodating the longer time spent in sign-in state for first-time activations.\n- Removed a 5-second delay before friend’s rooms are joinable which was causing problems where an incoming call was flashing briefly before the call interface rendered.\n- ✅ Tweaked guest verification to behave more reliably when singing in takes longer than usual.\n- Thwarted a race condition that could trap users in onboarding by ensuring the overlay loads at the right time 🚀\n- Prevented a rare problem where gamers could get stuck right after entering their verification codes 🔐\n- 👾🚫Blocked unnecessary gremlin screen from appearing when logging out and immediately logging back in!\n\n\nSubscribe to our newsletter for more game dev blog posts\n\n\nWe'll share your email with Substack ⓘ Substack's embed form isn't very pretty, so we made our own. But we need to let you know we'll subscribe you on your behalf. Thanks in advance!",
+  "published_at": "2025-02-13T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T23:32:13.637334+00:00",
+  "content_hash": "sha256:c3b27f6fb3e0910ef2da1c776971c37bbed94a952a617e6cd2931e2648e56854"
+}

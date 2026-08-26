@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f11ea135528cc9f374182b23d39d01d7242efb020131598cfd91b8715de411e4",
+  "company_key": "yc-flower",
+  "company_name": "Flower",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flower.ai/blog/2026-02-09-announcing-flower-1.26.1-release",
+  "canonical_url": "https://flower.ai/blog/2026-02-09-announcing-flower-1.26.1-release",
+  "title": "Announcing Flower 1.26.1",
+  "summary": "The Flower Team is excited to announce the release of Flower 1.26.1 stable 🎉",
+  "body_markdown": "The Flower team is excited to announce the release of Flower 1.26.1 stable!\n\n\n**Flower is a friendly framework for collaborative AI and data science.** It makes novel approaches such as federated learning, federated evaluation, federated analytics, and fleet learning accessible to a wide audience of researchers and engineers.\n\n\n### Thanks to our contributors\n\n\nWe would like to give our special thanks to all the contributors who made the new version of Flower possible (in git shortlog\n\n\norder):\n\n\nCharles Beauville\n\n\n, Chong Shen Ng\n\n\n, Daniel J. Beutel\n\n\n, Heng Pan\n\n\n, Javier\n\n\n, Taner Topal\n\n\n### What's new?\n\n\n-\n\n\n**Fix client resource handling in local simulations** ([#6536](https://github.com/flwrlabs/flower/pull/6536) )\n\n\nFix an issue in local simulations where backend configuration is not correctly propagated, causing virtual client resource settings such as CPU and GPU allocations in the Flower Configuration to be ignored.\n\n\n-\n\n\n**Update framework documentation** ([#6528](https://github.com/flwrlabs/flower/pull/6528) ,[#6530](https://github.com/flwrlabs/flower/pull/6530) )\n\n\n-\n\n\n**General improvements** ([#6526](https://github.com/flwrlabs/flower/pull/6526) ,[#6493](https://github.com/flwrlabs/flower/pull/6493) ,[#6534](https://github.com/flwrlabs/flower/pull/6534) ,[#6531](https://github.com/flwrlabs/flower/pull/6531) ,[#6523](https://github.com/flwrlabs/flower/pull/6523) ,[#6529](https://github.com/flwrlabs/flower/pull/6529) ,[#6501](https://github.com/flwrlabs/flower/pull/6501) )",
+  "published_at": "2026-02-09T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T20:31:29.302072+00:00",
+  "content_hash": "sha256:80e48d6c2a0cb727e463044d16cd172aee2025bde7e7e1ee183bdef213c69c50"
+}

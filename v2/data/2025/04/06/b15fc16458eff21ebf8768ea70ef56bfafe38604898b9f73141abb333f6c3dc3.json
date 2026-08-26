@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b15fc16458eff21ebf8768ea70ef56bfafe38604898b9f73141abb333f6c3dc3",
+  "company_key": "yc-boundary",
+  "company_name": "Boundary",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://boundaryml.com/blog/llama-4-function-calling",
+  "canonical_url": "https://boundaryml.com/blog/llama-4-function-calling",
+  "title": "Structured outputs with Llama 4",
+  "summary": "How to do tool-calling or function-calling with Llama 4",
+  "body_markdown": "Meta's[Llama 4](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) is the newest release of the Llama series. It touts native multi-modality and a Mixture of Experts (MoE) architecture and can be used for tool-calling / function-calling.\n\n\nLet's look at an example of how to use it with our prompting framework,[BAML](https://boundaryml.com/) , which lets you write prompts for structured extraction using a simple syntax.\n\n\n### Solving a reasoning problem with a schema\n\n\nImagine we are trying to figure out the employee hierarchy chart for a company with this:\n\n\n```text\nGeorge is the CEO of the company. Kelly is the VP of Sales. Asif is the global head of product development. Mohammed manages the shopping cart experience. Tim manages sales in South. Stefan is responsible for sales in the f100 company. Carol is in charge of user experience\"\n\n\n```\n\n\nHere is an interactive example that you can run to see how Llama 4 can solve this reasoning problem!\n\n\nYou can run this in python like this:\n\n\n```text\nfrom baml_client import b\nresponse = b.ExtractHierarchy(message=\"\"\"\nGeorge is the CEO of the company.\nKelly is the VP of Sales. Asif is the global head of product development.\nMohammed manages the shopping cart experience.\nTim manages sales in South.\nStefan is responsible for sales in the f100 company.\nCarol is in charge of user experience\"\"\")\n\n\nprint(response) # fully type-safe and validated!\n\n\n```\n\n\n### Tool calling with Llama 4 and BAML\n\n\nIn BAML you can also use several tools. Here's another example\n\n\nYou can call this in python like this (we also support other languages!):\n\n\n```text\nfrom baml_client import b\nfrom baml_client.types import ProductSearch, ScheduleAppointment\nresponse = b.ChooseOneTool(user_message=\"Find me running shoes under $100 in the sports category\")\nprint(response)\n\n\nif isinstance(response, ItemSearch):\nprint(f\"Item Search called:\")\nprint(f\"Query: {response.query}\")\nprint(f\"Max Price: ${response.maxPrice}\")\nprint(f\"Category: {response.category}\")\nelif isinstance(response, BookAppointment):\nprint(f\"Book Appointment called:\")\nprint(f\"Customer: {response.clientName}\")\nprint(f\"Service: {response.serviceRequested}\")\nprint(f\"Date: {response.datePreferred}\")\nprint(f\"Duration: {response.timeDuration} minutes\")\n\n\n```\n\n\nBAML is fully open-source and free to use, and it works with many other languages (Ruby, TS, Python, etc).\n\n\nCheck out the[docs](https://docs.boundaryml.com/) for more!",
+  "published_at": "2025-04-06T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T21:11:53.929220+00:00",
+  "content_hash": "sha256:7629e7e653c764cca7f3fafb6681dfd2858115cc4894300e5dcb06cf0cf3b243"
+}

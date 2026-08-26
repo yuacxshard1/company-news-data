@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f9eed777330f06e8ff6aa52f39e0b9b41838a0ab4f2fc74646bbc3f57d1d49bd",
+  "company_key": "yc-castle-2",
+  "company_name": "Castle",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.castle.io/changelog/detect-vpn-traffic-with-new-ip-intelligence",
+  "canonical_url": "https://docs.castle.io/changelog/detect-vpn-traffic-with-new-ip-intelligence",
+  "title": "Detect VPN traffic with new IP intelligence",
+  "summary": "Recently we launched Residential Proxy detection and richer IP tunnel intelligence . Now we're extending that same foundation to VPNs. VPN use isn't proof of fraud on its own, but together with other indicators like a high risk score or a new device, it's a strong sign of an attacker trying to cover…",
+  "body_markdown": "[Back to All](https://docs.castle.io/changelog)\n\n\nAdded\n\n\nRecently we launched[Residential Proxy detection and richer IP tunnel intelligence](https://docs.castle.io/changelog/detect-residential-proxies-with-new-ip-intelligence) . Now we're extending that same foundation to VPNs. VPN use isn't proof of fraud on its own, but together with other indicators like a high risk score or a new device, it's a strong sign of an attacker trying to cover their tracks.\n\n\nThe new` vpn_access` signal triggers when a request comes from an IP recently seen on a known VPN provider's network. It's visible and filterable in the Dashboard, and exposed in the API response signals.\n\n\nLike with proxies, VPNs show up in the` ip.tunnels` payload, with the provider as` operator` and a` last_seen_at` timestamp for when we last confirmed VPN activity on that IP. We already cover a large share of the most popular providers, and we're adding more over time.\n\n\nCheck out this and all the other signals in our[documentation](https://docs.castle.io/docs/signals-reference) .\n\n\nExample API response:\n\n\n```text\n{\n\"ip\": {\n\"address\": \"185.253.162.22\",\n\"connection\": \"datacenter\",\n\"tunnels\": [\n{\n\"type\": \"proxy\",\n\"operator\": \"Private Internet Access\",\n\"proxy_type\": \"vpn\",\n\"last_seen_at\": \"2026-06-16T18:00:00Z\"\n}\n],\n// ...\n},\n\"signals\": {\n\"vpn_access\": {}\n}\n}\n```",
+  "published_at": "2026-06-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-27T11:16:58.513640+00:00",
+  "content_hash": "sha256:878bb5f35b4d5169249ae9bb6d3a50f4528346b5929c256518da7d6064915446"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "97bf47037e7eac66ca915c4959be08e03f3f428a3a23c36743b021ff96656033",
+  "company_key": "yc-datasaur",
+  "company_name": "Datasaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://datasaur.ai/blog-posts/january-2026-feature-updates-smarter-reviews-better-search-and-expanded-machine-learning-support",
+  "canonical_url": "https://datasaur.ai/blog-posts/january-2026-feature-updates-smarter-reviews-better-search-and-expanded-machine-learning-support",
+  "title": "January 2026 Feature Updates: Smarter Reviews, Better Search, and Expanded Machine Learning Support",
+  "summary": "January’s release: data review faster and more transparent with smarter search, clearer review signals, and better control over pre-labeled data. We’ve also expanded ML-assisted labeling with Amazon Bedrock support for greater flexibility.",
+  "body_markdown": "# January Feature Updates: Smarter Reviews, Better Search, and Expanded Machine Learning Support\n\n\nReviewing data shouldn’t feel like detective work. This release brings clearer signals, smarter search, and more control over machine-generated labels so you can spot issues faster and focus on what actually needs review.\n\n\n### More Control Over Pre-Labeled Data: Review and Approve Labels in Bulk\n\n\nWhen “Require approval for pre-labeled labels” is enabled, users can now view a dedicated list of pre-labeled labels and accept or reject them individually or in bulk via the Labels extension, keeping quality checks fast and explicit even when working with large volumes of pre-labeled data.\n\n\n[Learn more](https://docs.datasaur.ai/data-studio-projects/pre-labeled-project#labeler-workflow-and-outcomes)\n\n\n### Smarter Search in Span Labeling: Filter by Label Status\n\n\nThe Search Extension in Span Labeling now includes additional filtering options, allowing users to refine search results by label status and quickly narrow in on labels that need review or verification.\n\n\n[Learn more](https://docs.datasaur.ai/advanced/extensions/search#filtering-search-results)\n\n\n### More Flexibility in ML–assisted Labeling: Amazon Bedrock Support\n\n\nML–assisted labeling now supports Amazon Bedrock as an LLM provider, giving teams more flexibility to choose models that align with their infrastructure, compliance, or cost requirements.\n\n\n### Faster Navigation: Search Your Joined Workspaces\n\n\nThe joined workspace list now includes a search function, making it easier to find and switch between workspaces, especially for users who collaborate across multiple teams or projects.\n\n\n### Clearer Reviews: Visible Answer Count for Multiple-Answer Questions\n\n\nMultiple-answer questions now display a visible answer count, making it easy to see how many answers exist at a glance.\n\n\n### Refined Span Labeling Experience: Clearer Selection and Improved Readability\n\n\nSpan Labeling UI improvements include clearer visual feedback when right-clicking to select a line and updated label information tooltip colors, making selections more obvious and label details easier to read during labeling or review sessions.\n\n\nMost of this release is about clarity: clearer reviews and more precise search. Alongside that, Amazon Bedrock joins as a new Machine Learning provider for ML-assisted labeling.",
+  "published_at": "2026-02-03T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:27:49.393704+00:00",
+  "content_hash": "sha256:9becd00116c96b883f2ffa34099cff2490aa8044329444ed0e7c19f2dd55cbb9"
+}

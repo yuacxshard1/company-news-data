@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d0e97dd51c3ee832a449d56d135be9ebbb340f47f51d7f6d3aeb7b95f3e123f0",
+  "company_key": "yc-terra-api",
+  "company_name": "Terra API",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://tryterra.co/research/can-wearables-detect-menopause",
+  "canonical_url": "https://tryterra.co/research/can-wearables-detect-menopause",
+  "title": "Menopause Shows Up in Your HRV Before It Shows Up on the Calendar | Terra",
+  "summary": "What nightly HRV, sleep, and skin temperature reveal about perimenopause and menopause.",
+  "body_markdown": "## Symptoms\n\n\nOne of the most frequent symptoms that women report are hot flashes. Hot flashes are a brief and sudden sensation of heat, flushing and sweating during which the skin temperature can rise up to 3 °C degrees over your usual temperature\\[2\\]. Nocturnal hot flashes were found to be 5-15% more likely to be reported on nights were alcohol was consumed or the user exercised late. All of these effects were significant (p < 0.05).\n\n\nSleep quality is also affected during perimenopause and menopause. On average women spend less time in deep sleep and experience more wakeup events.\n\n\n***Figure 2:** Deep sleep and wakeup events violin plot distribution before, during perimenopause and after menopause. Deep sleep duration drops and wakeup events increase with menopause.*\n\n\n## Detecting Menopause Through Wearables\n\n\nAt Terra we have carried out analyses on the menstrual cycle by modeling it as a continuous luteal-follicular trajectory. This sinusoid-looking projection of the cycle has shown to flag irregularities in birth control users. Perimenopause, has a distinct signal in night-time HRV but does not show up as a disruption in this model. However, menopause has a clear disruption to the cycle.\n\n\n***Figure 3:** Menstrual cycle sinusoidal model. Top panel shows a normal cyclic control user, middle panel is a user with perimenopause with a still cyclical pattern, and bottom panel shows high disruption during menopause.*\n\n\nThis anomaly-detection model built on the sinusoidal representation of the menstrual cycle is causal, as opposed to the autocorrelation analysis, and therefore can be exploited for real-time menopause detection via wearables.\n\n\n### References\n\n\n1. NHS. (2026, May 26). *Menopause and perimenopause* .[https://www.nhs.uk/conditions/menopause-and-perimenopause/](https://www.nhs.uk/conditions/menopause-and-perimenopause/)\n2. Mayo Clinic. (2025, March 3). *Hot flashes* .[https://www.mayoclinic.org/diseases-conditions/hot-flashes/symptoms-causes/syc-20352790](https://www.mayoclinic.org/diseases-conditions/hot-flashes/symptoms-causes/syc-20352790)",
+  "published_at": "2026-08-25T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T16:32:28.225382+00:00",
+  "content_hash": "sha256:fbc79423d92c61daf821ee7b0127135a5286379efd79d1b6562e11d05ef467ce"
+}

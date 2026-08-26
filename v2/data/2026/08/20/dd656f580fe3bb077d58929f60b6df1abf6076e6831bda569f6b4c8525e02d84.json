@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dd656f580fe3bb077d58929f60b6df1abf6076e6831bda569f6b4c8525e02d84",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+  "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+  "summary": "Discover more about what's new at AWS with Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+  "body_markdown": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguards. Each Amazon EKS cluster has its own CA that allows encrypted connections to the cluster's Kubernetes API, and now you can rotate the CA before it expires to ensure your cluster remains operational and secure.\n\n\nAmazon EKS clusters created since launch in 2018 have CAs with a 10-year validity period, and clusters from that era are now approaching the point where CA rotation activities should begin. CA rotation in Amazon EKS is a shared responsibility. Amazon EKS manages the rotation lifecycle and automatically updates AWS-managed components to trust the successor CA. Customers are responsible for replacing their worker nodes and updating external clients to trust the successor CA before it is activated. EKS Auto Mode instances and AWS Fargate nodes are updated automatically by AWS, but customers are still responsible for updating any external clients that connect to the cluster's API server. Amazon EKS provides automated safeguards to support customers through this process, including advance notifications before CA expiration, automatic appending of a successor CA if one is not created by the customer, and automatic activation if the customer does not activate on their own schedule. A rollback capability allows customers to revert to the previous CA to resolve any issues that may arise with their updates during the transition to the successor CA.\n\n\nAmazon EKS CA rotation is available at no additional cost in all commercial AWS Regions. To get started with CA rotation, you can use the AWS CLI, EKS APIs, CloudFormation, and the AWS console. For more information, see the[Amazon EKS documentation](https://docs.aws.amazon.com/eks/latest/userguide/certificate-authority-rotation.html) and[Deep dive into Amazon EKS certificate authority rotation](https://aws.amazon.com/blogs/containers/deep-dive-into-amazon-eks-certificate-authority-rotation/) .",
+  "published_at": "2026-08-20T18:30:00+00:00",
+  "first_seen_at": "2026-08-20T20:55:36.190057+00:00",
+  "content_hash": "sha256:d309e3fde0e1757c6611c4dae317a05089f5368f43f02aab09905f54a0864704"
+}

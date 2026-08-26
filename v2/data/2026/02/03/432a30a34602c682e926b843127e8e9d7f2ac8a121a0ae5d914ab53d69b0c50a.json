@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "432a30a34602c682e926b843127e8e9d7f2ac8a121a0ae5d914ab53d69b0c50a",
+  "company_key": "yc-wafer",
+  "company_name": "Wafer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.wafer.ai/blog/cuda-compiler",
+  "canonical_url": "https://www.wafer.ai/blog/cuda-compiler",
+  "title": "Cloud Compiler Analyzer (PTX/SASS) Inside Your IDE",
+  "summary": "The fastest open source LLMs for enterprise.",
+  "body_markdown": "## TLDR\n\n\n- Launching our Cloud Compiler: Analyze CUDA remotely to show PTX/SASS directly from VS Code or Cursor\n- No local CUDA toolkit or GPU required\n- PyTorch and CUTLASS headers included\n- 12+ GPU architectures supported (sm_80 to sm_120a)\n- Enterprise onboarding available\n\n\n## The Problem\n\n\nAs @gau.nernst mentioned, if you’re doing kernel optimization, you need to see what the compiler actually produced. PTX shows you the intermediate representation. SASS shows you the machine instructions hitting the GPU.\n\n\nBut getting there is annoying. Godbolt is great for quick experiments, but it doesn’t have PyTorch or CUTLASS headers. Setting up a local CUDA toolkit just to inspect assembly is overkill. And copying code back and forth between your editor and a browser breaks your flow.\n\n\nYou want to change a line, see the assembly, iterate. Fast.\n\n\n## What We Built\n\n\nWafer now includes cloud CUDA compilation. You can write CUDA in your editor, do Command + Shift + P, and type: “Compile CUDA” and get PTX and SASS back. No local CUDA install required. No GPU required either.\n\n\nThe compiler button appears in your editor title bar when you’re editing a` .cu` file. Click it, pick your target architecture, and see the output. That’s it.\n\n\nWe support 12+ GPU architectures: sm_80 (Ampere) through sm_120a (Blackwell). Whatever you’re targeting, we’ve got it.\n\n\n## Built-in Headers\n\n\nWe include PyTorch headers and CUTLASS by default.\n\n\nYou can` #include <ATen/ATen.h>` or pull in CUTLASS 4.3.5 and compile against them directly.\n\n\nCustom nvcc flags work too. Want` -O3` ?` --maxrregcount=32` ?` -lineinfo` for debugging? Pass them through.\n\n\n## Try Out Today\n\n\nIf you’d like to use this on your codebase, talk to us and we’ll help you get set up.\n\n\n- [Book a Demo](https://cal.com/wafer/20min)\n- [Contact the team](https://www.wafer.ai/cdn-cgi/l/email-protection#3058597047515655421e5159)\n\n\n## Give Us Feedback\n\n\nIf there’s something else that would make your kernel development faster, let us know.\n\n\nReach out at[\\[email protected\\]](https://www.wafer.ai/cdn-cgi/l/email-protection#244c4d6453454241560a454d) or find us on[Twitter/X](https://x.com/wafer_ai) .",
+  "published_at": "2026-02-03T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
+  "content_hash": "sha256:68ed27763739620cae847bf4fd27e04ec08666ff5b5e8b19a37469ce051acda1"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "145c0920f146a0dc641e8896f521d3fd51a1af6f40187b1af1d4ce06ac878e8f",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/build-with-apple-betas",
+  "canonical_url": "https://bitrig.com/blog/build-with-apple-betas",
+  "title": "Bitrig Now Lets You Build with Apple’s New Betas",
+  "summary": "Bitrig can now build with the beta Xcode and SDKs announced at WWDC. Install the beta alongside your stable Xcode and start exploring what’s newly possible.",
+  "body_markdown": "Every year at WWDC, Apple developers enter beta season.\n\n\nThe SDKs land. Sessions go live. Everyone starts downloading the new Xcode, trying APIs, and figuring out what’s newly possible.\n\n\nIt’s one of the best parts of building for Apple platforms.\n\n\nToday, you can join in the fun:\n\n\n## Bitrig can now build with the beta Xcode and SDKs announced at WWDC.\n\n\nThat means you can start exploring new on-device model capabilities with Foundation Models, Siri AI integrations through App Intents, the latest SwiftUI APIs, and brand-new frameworks like MusicUnderstanding and Suggested Actions.\n\n\nIf this is your first time building with Apple’s developer betas, it’s important to know that an Xcode beta is not a replacement for your stable Xcode. Most developers keep both installed: the stable Xcode for shipping, and the beta Xcode for experimenting.\n\n\nThis release has you covered:\n\n\n-\n\n\n**Choose your Xcode.** Install the new Xcode beta alongside your stable Xcode, then choose which one Bitrig should use to build and preview your app.\n\n\n-\n\n\n**Manage your simulator runtimes.** Choose which OS version to use for the App Preview, install the runtimes recommended for your selected Xcode, and clean up duplicate runtime disk images left behind by beta installs.\n\n\n-\n\n\n**Build with the new beta SDKs.** Choose the new Xcode beta, and Bitrig tells the agent which SDKs are available, so it can help you adopt new APIs across iOS, iPadOS, macOS, and watchOS.\n\n\nWhen you install the Xcode beta, Bitrig will automatically find it and start using it. To switch back to your stable Xcode, open Settings > App Preview and choose a different Xcode.\n\n\nA few things to keep in mind:\n\n\n-\n\n\nTo run the Xcode beta, you generally need the latest stable version of macOS. You don’t need to install the macOS beta unless you want to test your Mac apps against the new beta OS.\n\n\n-\n\n\nBe thoughtful about installing beta OS releases on your primary devices. Downgrading is not always simple, so only upgrade a device if you’re comfortable running the beta on it for the summer.\n\n\n-\n\n\nApps submitted to the App Store generally need to be built with the current release versions of Xcode and macOS. If you need to keep shipping this summer, keep your stable Xcode installed and think carefully before upgrading your primary Mac to the macOS beta.\n\n\nI hope you upgrade to the latest Bitrig, install the beta Xcode, and join us in exploring what’s next for Apple platforms.\n\n\nHappy beta season!",
+  "published_at": "2026-06-09T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T21:05:48.161048+00:00",
+  "content_hash": "sha256:18717585db903104339c80d6f08749d00380c224d75231fbba76da4fae9e2060"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6e3af632d362b606075971da31cbc7237e4ce88cc385c75377095ea82452a59d",
+  "company_key": "yc-joindex",
+  "company_name": "Dex",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.joindex.com/blog/automations",
+  "canonical_url": "https://www.joindex.com/blog/automations",
+  "title": "Introducing Automations",
+  "summary": "Dex turns your browser into a single AI workspace — one brain that knows your tasks, your context, and how to move your work forward.",
+  "body_markdown": "Automations are agents that run in the background. You describe what you want done, set a condition, and Dex will run it automatically.\n\n\n## How it works\n\n\nWrite a description of what you want in the Dex sidebar. Dex interprets it and creates a condition and an action for you to review. Once you confirm, the automation is live.\n\n\nConditions can be time-based (every morning, end of day, weekly) or event-based (a meeting ending, a new email, a contact being added). When the condition is met, the action runs as a regular Dex prompt, which means it can do anything Dex can normally do: browse the web, read and send emails, use tools across your stack, and more.\n\n\nActive automations show up in the[Control Panel](https://www.joindex.com/blog/meet-taskos#control-panel) . You can configure and manage them from the[Automations Dashboard](https://app.joindex.com/dashboard/automations) .\n\n\n## What people are building\n\n\n- **Pre-call briefs:** Before every meeting scheduled in Google Calendar, get a report on who you're talking to, recent interactions, notes, and relevant context.\n\n\n- **Post-meeting follow-ups:** When a meeting on your Google Calendar ends, draft a follow-up email to each attendee in your voice and post a summary to a Slack channel.\n\n\n- **Inbox triage:** Every morning at 8am, go through your Gmail inbox. Flag anything that needs a reply, draft responses for routine messages, and archive the rest.\n\n\n- **CRM sync:** At 6pm, pull every email, call, and meeting from the day and log them as activities in HubSpot.\n\n\nThese are just what we've seen so far. Automations are general-purpose, so if you can describe it, Dex can run it.\n\n\n## Permissioning\n\n\nEach automation has an \"always confirm\" setting. When on, the automation will pause before taking any action and wait for your approval. You can find pending actions in the chat log and confirm or reject them there. When off, the automation carries out actions on its own without waiting.\n\n\n## Rollout\n\n\nAutomations are now in beta for Pro users. If your extension isn't updating, head tochrome://extensions and click the update button in the top-left corner.\n\n\nEvent-based conditions currently support Gmail and Google Calendar, with more apps on the way.\n\n\nJoin our[Discord](https://discord.gg/TYzCjwsTnT) to share feedback and shape what we build next!",
+  "published_at": null,
+  "first_seen_at": "2026-07-21T16:11:25.745021+00:00",
+  "content_hash": "sha256:636be29727a7a1d92526d43147ddd9e3bf5d811a45d99c86e22d6c4400ee427b"
+}

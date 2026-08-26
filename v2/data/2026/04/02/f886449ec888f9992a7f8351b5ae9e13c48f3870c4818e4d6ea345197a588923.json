@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f886449ec888f9992a7f8351b5ae9e13c48f3870c4818e4d6ea345197a588923",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/python-sdk-async-support",
+  "canonical_url": "https://resend.com/changelog/python-sdk-async-support",
+  "title": "Async Support for the Python SDK",
+  "summary": "Send emails asynchronously in Python using the new async methods powered by httpx.",
+  "body_markdown": "The Python SDK now supports async out of the box. If you are building with FastAPI, async Django, or any other async Python framework, you can now send emails without blocking your event loop.\n\n\n## Installation\n\n\nInstall the SDK with the` async` extra to pull in` httpx` :\n\n\n```text\npip   install     \"resend[async]\"\n```\n\n\n## Sending an email asynchronously\n\n\nEvery method in the SDK has an` _async` counterpart. Await it like any other coroutine:\n\n\n```text\nimport   asyncio    import   resend\nresend  .  api_key   =     \"re_your_api_key\"\nasync     def     main  (  )  :        params  :   resend  .  Emails  .  SendParams   =     {              \"from\"  :     \"onboarding@resend.dev\"  ,              \"to\"  :     [  \"delivered@resend.dev\"  ]  ,              \"subject\"  :     \"Hello from async Python\"  ,              \"html\"  :     \"<strong>it works!</strong>\"  ,          }\nemail   =     await   resend  .  Emails  .  send_async  (  params  )          print  (  email  )\nasyncio  .  run  (  main  (  )  )\n```\n\n\n## Batch sending\n\n\nThe same pattern applies to batch sends:\n\n\n```text\nemails   =     await   resend  .  Batch  .  send_async  (  [  params1  ,   params2  ]  )\n```\n\n\n## Custom timeout\n\n\nIf you need to configure the underlying HTTP client, you can swap in your own instance:\n\n\n```text\nresend  .  default_async_http_client   =   resend  .  HTTPXClient  (  timeout  =  60  )\n```\n\n\n## No breaking changes\n\n\nThe existing sync API is unchanged —` resend.Emails.send(params)` continues to work exactly as before. Async is opt-in: if` httpx` is not installed, calling an` _async` method raises a` ResendError` with code` AsyncClientNotConfigured` .\n\n\nAll SDK modules have async counterparts:` Emails` ,` Batch` ,` ApiKeys` ,` Audiences` ,` Broadcasts` ,` Contacts` , and` Domains` .\n\n\nCheck out the[Python SDK on GitHub](https://github.com/resend/resend-python) if you want to follow along or open an issue.",
+  "published_at": "2026-04-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T21:22:09.024444+00:00",
+  "content_hash": "sha256:55c8fb875753ff347df677a50e610bb3192496c0e45ff7bd6b21d86ef32e81f4"
+}

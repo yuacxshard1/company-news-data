@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f932660bafee163b69efeab479de7d78d8ceb5db91727de7782864b7807c4717",
+  "company_key": "yc-agentmail",
+  "company_name": "AgentMail",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.agentmail.to/blog/how-aisdr-runs-autonomous-sdr-agents-at-scale-with-agentmail",
+  "canonical_url": "https://www.agentmail.to/blog/how-aisdr-runs-autonomous-sdr-agents-at-scale-with-agentmail",
+  "title": "How AISDR runs autonomous SDR agents at scale with AgentMail",
+  "summary": "AISDR is a fully autonomous AI SDR. Hundreds of AgentMail inboxes in production, thousands of emails per week, no human in the loop.",
+  "body_markdown": "**Company:**[AISDR](https://aisdr.com/) , an AI SDR agent that finds in-market buyers using real-time signals and books meetings\n\n\n**Problem:** Programmatic inbox provisioning at scale, without a human in the loop\n\n\n**Result:** Hundreds of AgentMail inboxes in production, sending thousands of emails per week\n\n\n**Stack:** AgentMail + AISDR\n\n\n## What AISDR Is\n\n\nAISDR is an AI SDR agent that focuses on lead quality over volume. It finds people across the web in real time using buying signals, researches each prospect, and reaches out across email and LinkedIn with messages that read like a real rep wrote them. Replies are qualified by the agent, and meetings get booked when prospects are ready to talk.\n\n\nThe deliberate, research-first approach is how AISDR differentiates from AI outreach tools optimized for volume. Their public messaging is direct about it: outbound fails the moment relevance becomes optional.\n\n\n## The Problem\n\n\nFor an AI SDR operating at scale, the email infrastructure has to handle two things. Outbound at volume that stays deliverable. And inbound threading so prospect replies route to the right conversation and the agent can respond in-thread.\n\n\nThe central constraint for AISDR was inbox provisioning. They needed automatic inbox creation without a human in the loop.\n\n\n## Why AgentMail\n\n\nAISDR went with AgentMail because the platform covered every feature their flow needed. Programmatic inboxes, send and receive, webhooks for real-time inbound, IMAP and SMTP.\n\n\n> \"AgentMail is a YC company. It has simple documentation with all needed features for our flow.\"\n>\n>\n> Dmytro Omelian, AISDR\n\n\nAISDR started on the basic tier and upgraded the following month after hitting the limit faster than expected.\n\n\n> \"Support was great. We started with basic tier and moved to the next tier next month since we hit the limit faster than expected (which is good) :)\"\n>\n>\n> Dmytro Omelian, AISDR\n\n\n## In Production\n\n\nToday, AISDR runs hundreds of AgentMail inboxes, sending thousands of emails per week.\n\n\n**Products used:**\n\n\n- Programmatic inboxes\n- Send and Receive messages\n- Webhooks\n- IMAP and SMTP support\n\n\nBuilding something similar?[console.agentmail.to/sign-up](https://console.agentmail.to/sign-up)\n\n\nAgentMail gives your agents real inboxes. Create inboxes via API. Send and receive Emails with 0 complexity. Free to start.\n\n\n[Get Started](https://console.agentmail.to/)[Read the Docs](https://docs.agentmail.to/)",
+  "published_at": "2026-05-14T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T05:07:06.081239+00:00",
+  "content_hash": "sha256:8206c54846bc68948dbe65bd889b6dc065fd85cbc37da4bdaf8d5b0866ae0a3a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f052d7e9ee6046dc826205d37e6e1a4f28b0580943af19800eadf3842f955d05",
+  "company_key": "yc-sourcebot",
+  "company_name": "Sourcebot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sourcebot.dev/changelog/share-links",
+  "canonical_url": "https://www.sourcebot.dev/changelog/share-links",
+  "title": "Share links",
+  "summary": "This week we added share links, allowing you to easily share regions of code with your team.",
+  "body_markdown": "After finding some code using search, it can be handy to share it with your team to callout a bug, request feedback, roast someone etc.\n\n\nTo address this, we've added 'share links' to easily link to a selection of code.\n\n\nHighlighting a section of code in the preview window will surface the \"Share selection\" button. Clicking it will create a link to the file with the selection highlighted.\n\n\nYou can then share this link with your team. Checkout the snippet in the screenshot using[this link](https://sourcebot.dev/search/browse/github.com/sourcebot-dev/sourcebot@HEAD/-/blob/packages/web/src/app/search/page.tsx?highlightRange=46%3A5%2C59%3A41) 🔗 🤠\n\n\n### Sync raw .git repositories\n\n\nWe also added support for any .git repository, regardless if it's hosted in a supported code host. To configure, use the` git` type in the` config.json` .",
+  "published_at": "2025-01-10T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T14:19:52.577262+00:00",
+  "content_hash": "sha256:6bddce5d8db3221ff4b20280adae46eb27e2a641b41317159c6cec5f2c047ebb"
+}

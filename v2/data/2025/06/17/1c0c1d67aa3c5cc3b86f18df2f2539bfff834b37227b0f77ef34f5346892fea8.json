@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1c0c1d67aa3c5cc3b86f18df2f2539bfff834b37227b0f77ef34f5346892fea8",
+  "company_key": "yc-alex",
+  "company_name": "Alex",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.alexcodes.app/blog/vibe-cloning-cal-ai",
+  "canonical_url": "https://www.alexcodes.app/blog/vibe-cloning-cal-ai",
+  "title": "Vibe-Cloning Cal AI In A Couple Hours With Alex",
+  "summary": "Alex is the ultimate tool for iOS and Swift app development, empowering developers with AI for Xcode to streamline workflows, tackle complex coding challenges, and boost productivity. Discover what makes it an essential asset for modern app creation.",
+  "body_markdown": "(written by the intern)\n\n\n[Cal AI](https://calai.app/) 's pretty cool. It's an app that uses AI to estimate the calories and macronutrients (carbs, fat, and protein) in your meals—just take a photo and it figures out the amounts and logs them for you.\n\n\nI'm too lazy to estimate my meal's calories every time, I'd rather have AI do it.\n\n\nOnly issue is that Cal AI's kinda expensive ($9.99 per month or $29.99 per year).\n\n\nI estimated the API cost of a month of meal tracking with gpt-4o (accounting for system prompt, structured output prompt length, image input cost, and output cost) and it came out to $0.38.\n\n\nSo...clone time.\n\n\nI'm also too lazy to write this clone myself, so I had Alex do it.\n\n\nAfter opening Alex and Xcode,\n\n\nI started with this prompt:\n\n\no3 one-shot most of it, but there were a few errors. I was also too lazy to fix those errors, so I just clicked\n\n\nin Alex and had Sonnet 4 do it for me. After some more prompts:\n\n\nand clicking that button a few more times, I ended up with this:\n\n\nWorks great, **26.3 times cheaper than Cal AI.**\n\n\nI didn't write a single line of code.\n\n\nIf you want to try it, here's a complete prompt for o3 or Sonnet 4:\n\n\n> Clone Cal AI (calorie, not calendar). Be fully functional. Track calories, carbs, fat, and protein. Allow for manual amount adding, but focus on the camera AI feature. Stick to system UI design. Follow best practices.\n>\n>\n> Use the OpenAI API with SwiftOpenAI. Search up SwiftOpenAI, and implement structured output as shown in the GitHub README.\n>\n>\n> Use SwiftData for storage of logs.\n\n\n**Download Alex and give it a shot! 👆**\n\n\nYou can also check out the source code[here](https://www.alexcodes.app/blog/%22https://github.com/AlexSideBar/VibeCalAI%22) .",
+  "published_at": "2025-06-17T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T05:43:46.556958+00:00",
+  "content_hash": "sha256:3b345ae6eab771d896ac9fb10c70a4b79e51bcfeb3668c1a18b39fa2a69f4b5f"
+}

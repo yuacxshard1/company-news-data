@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f205cb66f587bd7fdceee6b7dca39d350215eda8e67af650ce3790f2dd4cf0ed",
+  "company_key": "yc-codebuff",
+  "company_name": "Codebuff",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://news.codebuff.com/p/codebuff-launch-week-day-4-init",
+  "canonical_url": "https://news.codebuff.com/p/codebuff-launch-week-day-4-init",
+  "title": "Codebuff Launch Week — Day 4: Init",
+  "summary": "Type \"init\" inside codebuff to generate a knowledge file and (new!) a codebuff.json to manage dev processes",
+  "body_markdown": "# Codebuff Launch Week — Day 4: Init\n\n\n### Type \"init\" inside codebuff to generate a knowledge file and (new!) a codebuff.json to manage dev processes\n\n\n[Codebuff](https://substack.com/@codebuff)\n\n\nApr 25, 2025\n\n\nHey y’all! Today I’m pumped to share a really useful new command to set up your future projects with Codebuff.\n\n\nOpen codebuff, type “init”, and hit enter!\n\n\n(You can also run\n\n\n**codebuff --init** for the same effect!)\n\n\nThis command will send Codebuff off to examine your project and generate two files:\n\n\n-\n\n\n**[knowledge.md](https://www.codebuff.com/docs/tips#knowledge-files)** — the classic file to store project knowledge, preferences, and common commands in an unstructured format\n\n\n-\n\n\n**[codebuff.json](https://www.codebuff.com/docs/advanced#configuration)** — codebuff’s new config file! This can contain background processes that codebuff should manage\n\n\nIt’s super useful to have Codebuff create these automatically. It works even if you already have a knowledge.md file.\n\n\nOver time, we can tweak this generation to incorporate best practices for Codebuff!\n\n\n#### Knowledge files\n\n\nFor those new to knowledge files\n\n\n[(check out our docs!)](https://www.codebuff.com/docs/tips#knowledge-files) , this is a great place to note down any weird bits about your project so codebuff doesn’t get confused. These files will always be added to context (if in the root level of your project).\n\n\nAdditionally, Codebuff will automatically update this file when you correct it with some info or preference it deems important enough to save.\n\n\n#### Codebuff.json (new!)\n\n\nThis is the most exciting new piece in today’s release!\n\n\nYou can use this file to specify startup processes, which codebuff will manage for you.\n\n\nCodebuff will automatically:\n\n\n-\n\n\nStart these processes & kill them when you exit\n\n\n-\n\n\nReceive new logs from these processes, which can help debug errors!\n\n\nInstead of opening multiple terminal windows and switching back and forth, now you can just have codebuff run them all.\n\n\nAnd, it’s an absolute superpower for the coding agent to be able to monitor the output of all these processes and incorporate any insights from them to help you solve problems.\n\n\nI’m incredibly excited by this release, which takes a step toward our vision of coding agents managing local development for you.\n\n\nTry it out for yourself, and let us know how it goes!\n\n\n---\n\n\nThat’s all for today. But do check back tomorrow!\n\n\nWe’ve saved a real doozy for the 5th and final day of Codebuff Launch Week.\n\n\nCheers,\n\n\nJames",
+  "published_at": "2025-04-25T00:19:05+00:00",
+  "first_seen_at": "2026-07-27T08:33:23.704221+00:00",
+  "content_hash": "sha256:70aca5686c0f5751569a5d604920933ad61202c25dc237d28ea0b24c2f7d291d"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "90debaed8a88c30269a7ca575b9a299dba8235c7de57a77fdf2073e1a7c85fe4",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/tempo-parado-fase-kanban-jestor/",
+  "canonical_url": "https://blog.jestor.com/tempo-parado-fase-kanban-jestor/",
+  "title": "Como medir o tempo parado em cada fase de um Kanban usando um campo de opção única?",
+  "summary": "Veja como medir o tempo parado em cada fase de um Kanban usando um campo de opção única no Jestor.",
+  "body_markdown": "No **Jestor** , ao criar um campo de opção única (como status) e ativar as métricas de log, o sistema passa a registrar automaticamente quanto tempo cada card fica parado em cada fase e o tempo de movimentação entre estágios.\n\n\n### Por que medir esse tempo é importante\n\n\nSem essa métrica, é difícil identificar em qual etapa do processo os gargalos estão acontecendo. Medir o tempo parado por fase ajuda a apontar exatamente onde o fluxo está travando, em vez de depender de percepção subjetiva do time.\n\n\n### O que as métricas de log mostram\n\n\n- Tempo que o card ficou parado em cada fase específica\n- Tempo de movimentação entre um estágio e outro\n- Dados agregados que ajudam a identificar gargalos recorrentes\n- Base para decisões sobre onde investir esforço de melhoria no processo\n\n\n### Como ativar as métricas de log no Jestor\n\n\n1. Crie ou edite um campo de opção única, como \"status\"\n2. Nas configurações do campo, localize a opção de métricas de log\n3. Ative essa opção para começar a registrar o tempo por fase\n4. Consulte os dados posteriormente no **Kanban** ou em relatórios vinculados\n\n\n### Automação de processos com dados reais de gargalo\n\n\nMedir o tempo parado por fase transforma a **automação de processos** em algo orientado a dados, permitindo priorizar melhorias no **Jestor** com base em onde o processo realmente trava, e não apenas em suposição.\n\n\n### Resumo em tabela\n\n\nMétrica de log O que mostra\n\n\n**Tempo parado na fase** Quanto tempo o card ficou naquele estágio\n\n\n**Tempo de movimentação** Tempo entre a troca de um estágio para outro\n\n\n### Vídeo Tutorial: Passo a Passo\n\n\n*Vídeo: Ep 12: Refinando o Cadastro com Categorias — tutorial em vídeo mostrando na prática o recurso descrito neste artigo, direto na interface do **Jestor** .*\n\n\n## Perguntas Frequentes\n\n\n**As métricas de log ficam ativadas por padrão?** Não, é preciso ativar manualmente nas configurações do campo de opção única.\n\n\n**Esse recurso funciona em qualquer Kanban?** Sim, desde que o campo de status seja do tipo opção única com o log ativado no[jestor.com](https://jestor.com/?ref=blog.jestor.com) .\n\n\n**O tempo medido inclui finais de semana e feriados?** A métrica registra o tempo corrido entre as mudanças de fase, conforme o comportamento padrão do campo.\n\n\n## Conheça o Jestor\n\n\nCom o **Jestor** , é possível automatizar fluxos, conectar áreas e criar sistemas internos do seu jeito — tudo sem código e com o suporte da **IA** . Conheça o Jestor em[jestor.com](https://jestor.com/?ref=blog.jestor.com) e descubra como levar a gestão da sua empresa a um novo nível de eficiência e integração.",
+  "published_at": "2026-07-22T01:58:38+00:00",
+  "first_seen_at": "2026-07-22T02:48:39.600163+00:00",
+  "content_hash": "sha256:903212fa86da4d34c4c49c96483f28d0967144d2100bb4294378d10678c5075d"
+}

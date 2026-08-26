@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "451db2d1b3815adc3e7e75c2d4116f5565cd62791321ed5ddde8fd95710f2f3b",
+  "company_key": "yc-datasaur",
+  "company_name": "Datasaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://datasaur.ai/blog-posts/july-feature-updates-labeling-agent-smarter-search-and-editable-rows",
+  "canonical_url": "https://datasaur.ai/blog-posts/july-feature-updates-labeling-agent-smarter-search-and-editable-rows",
+  "title": "July Feature Updates: Labeling Agent, Smarter Search, and Editable Rows",
+  "summary": "This July, we’ve introduced several updates to improve both the speed and precision of your labeling workflow, whether you're reviewing documents, training models, or managing structured data. From sorting lines by metadata to letting AI lend a hand, here’s what’s new.",
+  "body_markdown": "## Data Studio\n\n\n### Labeling Agent: Assigning Models as a Labeler in a Project\n\n\nThe new Labeling Agent allows you to assign a model to generate label suggestions automatically, based on the project’s instructions and file content. The agent handles the initial round of labeling, and human reviewers can step in to validate or refine the results, speeding up workflows.\n\n\n[Learn more](https://docs.datasaur.ai/agent/labeling-agent-beta)\n\n\n### **Flexible Edits: Insert Rows in Reviewer Mode**\n\n\nIn Row Labeling projects, Reviewers can now insert new rows directly into the dataset, making it easier to add missing data or fix alignment issues.\n\n\n[Learn more](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/row-and-document-based#insert-new-rows)\n\n\n### Sort Smarter: Organize Lines by Metadata in Span Labeling\n\n\nYou can now sort lines in Span Labeling projects based on metadata attached to each line like timestamps, source IDs, or any custom field. This is especially useful when working with structured documents such as transcripts or logs, helping you stay organized and focus on what matters most.\n\n\n[Learn more](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/span-based#sort-lines-by-metadata-fields)\n\n\n### Targeted Review: Search by Who Labeled or Reviewed in Span Labeling\n\n\nThe Search Extension in Span Labeling now enables reviewers to filter labels based on who applied or reviewed them. This makes it easier to focus on results from a specific labeler, double-check another reviewer’s work, or audit model-generated labels, helping ensure higher accuracy and accountability across the projects.\n\n\n[Learn more](https://docs.datasaur.ai/advanced/extensions/search#configure-conditions-via-logic-builder)\n\n\n### **Reusable Search: Save and Reuse Search Queries in Span Labeling**\n\n\nThe Search Extension now lets you save your search conditions for quick reuse. No need to reconfigure complex conditions each time, simply load your saved search and jump straight to the results. It’s a faster, more efficient way to navigate and manage your data.\n\n\n[Learn more](https://docs.datasaur.ai/advanced/extensions/search#saved-search)\n\n\nThese features are now live, try them out and see how they can simplify and speed up your annotation workflows!",
+  "published_at": "2025-07-28T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:27:49.393704+00:00",
+  "content_hash": "sha256:8e36ec5b1546630dd4dce7d38054e7957fd29b3e6bc5a0233ce957f0bd10975e"
+}

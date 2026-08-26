@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2aa4da0f705c7b0b8de5e498067735b8b369d48295f875fd4f257cbb14ab1179",
+  "company_key": "yc-porter",
+  "company_name": "Porter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.porter.run/changelog/helm-chart-add-ons-deepseek-r1-and-path-based-routing",
+  "canonical_url": "https://www.porter.run/changelog/helm-chart-add-ons-deepseek-r1-and-path-based-routing",
+  "title": "Helm Chart Add-ons, Deepseek-R1, and Path-based Routing",
+  "summary": "To kick off the new year, we've added support for some highly-requested features, like installing any helm chart available on public repositories.",
+  "body_markdown": "## **Helm Chart Add-ons**\n\n\nUnder the Add-ons tab, users can now install any helm chart available on public repositories.\n\n\n## **Inference Tab Update**\n\n\nAll Hugging Face models that run on vLLM are now supported, including DeepSeek-R1.\n\n\n## **Resource Sliders Upgrade**\n\n\nWe’ve improved the Resources tab - sliders now show much more accurate maximum allocatable resource values and provide some details on compute overhead.\n\n\n## **Path-based Routing**\n\n\nPorter.yaml now allows for path-based routing within a service, so specific URL paths can route to specified container ports. Check out the docs[here](https://docs.porter.run/deploy/configuration-as-code/services/web-service) .",
+  "published_at": "2025-01-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T19:39:33.596384+00:00",
+  "content_hash": "sha256:ab56af8e48133230d1ec2301429715cd9263f787f41d8ddd1a91005a0fa66745"
+}

@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-clipboard",
+      "company_name": "Clipboard",
+      "doc_id": "4c44b3c409f7b7b4cf33c38ed357a06bfcead547e3521b78b201f94f3b12fc2e",
+      "first_seen_at": "2026-07-24T01:50:39.766093+00:00",
+      "published_at": "2026-07-07T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A few months ago an average Merge Queue run took 16-22 minutes. Now it's 6-8. The savings came from finding places where the workflow was waiting on a managed service to do nothing: internal stabilization periods, consistency checks we didn't need, single-threaded cache downloads.",
+      "title": "From 20 Minutes to 7: Hunting the Hidden Waits in Our Merge Queue"
+    }
+  ],
+  "company_key": "yc-clipboard",
+  "month": "2026-07"
+}

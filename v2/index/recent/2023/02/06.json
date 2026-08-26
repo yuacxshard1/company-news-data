@@ -1,0 +1,195 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-athina-ai",
+      "company_name": "Athina AI",
+      "doc_id": "0ede75544856589c4d42c03bc7e8d11a053e043f9b6a9d50910721ded3698e1f",
+      "first_seen_at": "2026-07-24T17:13:32.301153+00:00",
+      "published_at": "2023-02-06T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Tutorials, guides and deep dives into the best techniques and research for building reliable AI.",
+      "title": "Chain of Hindsight Aligns Language Models with Feedback"
+    },
+    {
+      "company_key": "yc-signadot",
+      "company_name": "Signadot",
+      "doc_id": "15ac6a1313fe64a09c8f1e7caa4afdf420822cd0094a6566ea2328ef889d1bfe",
+      "first_seen_at": "2026-07-20T23:20:42.188410+00:00",
+      "published_at": "2023-02-06T11:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Discover how Signadot Sandboxes can revolutionize your feature testing process. This tutorial walks you through adding a new feature to a microservice, testing it in isolation, and integrating it with other services. Experience a seamless, efficient workflow that leaves your baseline staging environment untouched.",
+      "title": "Tutorial: Preview Environments for Features Across Multiple Microservices"
+    },
+    {
+      "company_key": "teledyne-technologies-incorporated-common-stock",
+      "company_name": "Teledyne Technologies Incorporated",
+      "doc_id": "23b53cc0edaf8a4cc1d5ff7e584ff20453408251a83e6027a657a59d08f38a37",
+      "first_seen_at": "2026-07-20T04:36:13.437201+00:00",
+      "published_at": "2023-02-06T13:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "PCI Express® 6.0 features significant changes from PCIe® 5.0. In particular, PCIe 6.0 achieves its 64-GT/s data rate, double that of PCIe 5.0, by moving from non-return-to-zero (NRZ) signaling to four-level pulse-amplitude-modulation (PAM4) signaling. Consequently, PCIe 6.0 requires some new test methodologies and patterns, including a new PAM4 Compliance Pattern that finds use in multiple measurements. Figure 1. The new PCIe 6.0 Compliance Pattern signal. Click any image to enlarge. The new Compliance Pattern is used for calculating signal to noise and distortion ratio (SNDR), as well as ps21TX (the package insertion loss) and the transmitter ratio of level mismatch (RLM). In addition, it is used to measure transmitter equalization coefficients. What's in the Compliance Pattern Signal The new Compliance Pattern signal (shown in Figure 1 above) contains low-frequency patterns, such as strings of 64 0s, 1s, 2s and 3s, enabling a long run of each of the voltage levels found in PAM4. It also contains a big section of pseudorandom binary sequence (PRBS) data using PAM4. Section 1 contains a long run of 2s and 1s. Section 2 is the big section containing PRBS data. Section 3 contains a long run of 3s and 0s followed by a clock pattern. Section 4 contains another long run of 3s and 0s. More PRBS data follows section 4, and the Compliance Pattern signal repeats itself. One or more of these sections in the Compliance Pattern signal can assist in the calculation of SNDR and other parameters. SNDR Measurement Figure 2. SNDR equation variables. SNDR refers to the Signal to Noise and Distortion Ratio. Figure 2 shows the breakdown of the SDNR equation in terms of the variables P max (the signal strength), 𝜎 n (noise) and 𝜎 e (distortion). Figure 3. P max measurement. The P max component of SNDR is calculated by using a pulse response, which is an extracted linear model of the transmitter signal. The pulse response is measured at the transmitter to describe the behavior of the transmitter as a filter if you apply the filter to a 1-UI pulse. P max is the maximum amplitude of the extracted pulse response (Figure 3), and it can be affected by various factors such as the channel bandwidth. Figure 4. Noise variable 𝜎 n measurement. The noise component of the signal, notated 𝜎 n , is measured on the 61st UI of the 64-UI-long runs of 0s, 1s, 2s and 3s in the Compliance Pattern signal (Figure 4). The 61st UI is chosen for this measurement because, in theory, the signal has had plenty of time to settle down to its equilibrium state by the time the 61st UI arrives. Figure 5. Distortion variable 𝜎 e measurement. The last component of the SNDR equation is 𝜎 e , which is the distortion variable. It is a measure of how much the average signal deviates from the extracted pulse-response shape and is measured on the PRBS section of the compliance-pattern signal. In Figure 5, you can see three traces in the top grid. The red trace is the ideal pattern; the blue trace, which is overlapping the red trace, represents the average of the captured pattern; and the green trace is the difference between the average and ideal patterns, which is equal to the distortion 𝜎 e . Combining all three components returns the SNDR measurement, but the basic SNDR equation of Figure 2 is missing an important variable—the oscilloscope noise ( 𝜎 scope ). The oscilloscope noise impacts the SNDR of a real-life device, and it must be considered if you want to have an accurate SNDR measurement for your device. Figure 6 shows the equation for SNDR with the oscilloscope noise removed (SNDR NR ). Figure 6. SNDR NR equation with oscilloscope noise removed. Teledyne LeCroy's PCIe 6.0 Base Transmitter compliance test solution implements several noise-removal methodologies. The bottom of Figure 6 shows two measurements that were made on a Teledyne LeCroy LabMaster oscilloscope. The first is the SNDR without oscilloscope noise removed, and the second is the SNDRNR measurement with the oscilloscope noise removed. RLM Measurement Figure 7. V 0 , V 1 , V 2 and V 3 signal levels for calculating the transmitter RLM. Transmitter linearity is defined as a function of the mean signal levels V 0 , V 1 , V 2 and V 3 transmitted for PAM4 two-bit symbols, as shown in Figure 7. Transmitter RLM is defined by the following equations involving V 0 , V 1 , V 2 and V 3 : V mid = (V 0 + V 3 ) / 2 ES 1 = (V 1 – V mid ) / (V 0 – V mid ) ES 2 = (V 2 – V mid ) / (V 3 – V mid ) RLM = min((3 x ES 1 ), (3 x ES 2 ), (2 – (3 x ES 1 )), (2 – (3 x ES 2 ))) RLM is measured using the same section of the Compliance Pattern signal used for 𝜎 n for the SNDR measurement, which is the 64-UI-long runs of 0s, 1s, 2s and 3s. The RLM measurement is straightforward. The goal is to have evenly spaced transition levels and to have RLM equal to 1. ps21 TX Measurement Figure 8. ps21 TX measurement. A key voltage measurement to make for PCIe 6.0 Base transmitter testing is the ps21 TX measurement—the effective transmitter package loss. This measurement was also defined in the PCIe 5.0 Base specifications, so it's not a new measurement for PCIe 6.0. The package loss is measured by comparing the 64 0s and 64 1s voltage swing against a 1, 0, 1, 0 clock pattern. The ps21 TX measurement is conducted with no transmitter equalization, and it is made by averaging over 500 repetitions of the Compliance Pattern signal to reduce noise. The measurement is illustrated in Figure 8, where V111 is the amplitude of a low-frequency signal and V101 is the amplitude of a high-frequency signal. The ps21 TX measurement is then defined as follows: ps21 TX = 20 × log 10 (V 101 / V 111 ) Adding the SDAIII-PAMx and SDAIII-PCIE6 options to Teledyne LeCroy oscilloscopes provides all the software tools needed to easily make the new Compliance Pattern measurements to the PCIe standard, including the required oscilloscope noise removal. We'll discuss the noise removal methods in our next post. Download our application note, Making New PCIe 6.0 Compliance Pattern Measurements with Your Oscilloscope . Also see: Get Ready for PCIe 6.0 Base Tx Testing--Compliance, Jitter and Eye Diagrams",
+      "title": "New PCIe 6.0 Compliance Pattern Measurements"
+    },
+    {
+      "company_key": "yc-plivo",
+      "company_name": "Plivo",
+      "doc_id": "29a2f86ffaa7fe6f4e0fa4f553ba6d54ab9c10cf63afebab38173aac5081f989",
+      "first_seen_at": "2026-07-20T23:20:51.132542+00:00",
+      "published_at": "2023-02-06T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "What are the STIR/SHAKEN protocols and standards for authenticating caller ID, and what do they mean for businesses that automate voice calling?",
+      "title": "STIR/SHAKEN: Everything You Need to Know About Trusted Calling"
+    },
+    {
+      "company_key": "yc-kivo-health",
+      "company_name": "Kivo Health",
+      "doc_id": "2b699bdae47e7fe42adcb6d63e9831a4916c59433f3abaab702ba066bf2b79bb",
+      "first_seen_at": "2026-07-22T01:33:29.272164+00:00",
+      "published_at": "2023-02-06T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "",
+      "title": "Kivo Health Launches, Backed by YCombinator"
+    },
+    {
+      "company_key": "yc-onboard-io",
+      "company_name": "Onboard.io",
+      "doc_id": "40fd62416b92f5e2194e96a3b418f3fcd4ed21d1052984f95d4b7ff9b90197ca",
+      "first_seen_at": "2026-07-22T07:14:30.527567+00:00",
+      "published_at": "2023-02-06T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn how to become the best director of customer success that you can possibly be",
+      "title": "How To Become The Best Director Of Customer Success You Can Be"
+    },
+    {
+      "company_key": "digi-international-inc-common-stock",
+      "company_name": "Digi International Inc.",
+      "doc_id": "464d0315970bb2d0751cbd9fe060c72944c44bfd3c3f1c09784840dd67e632fb",
+      "first_seen_at": "2026-07-20T23:16:59.671268+00:00",
+      "published_at": "2023-02-06T05:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Opengear Launches CM8100 10G Product Family to Enable Smart Out-of-Band for Hyperscalers"
+    },
+    {
+      "company_key": "yc-supabase",
+      "company_name": "Supabase",
+      "doc_id": "4772eba74f34c3ecd7c846050426f4d81b28bbf4619b205c8724997966b4450b",
+      "first_seen_at": "2026-07-20T23:24:12.344578+00:00",
+      "published_at": "2023-02-06T07:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "An example of how to build an AI-powered search engine using OpenAI's embeddings and PostgreSQL.",
+      "title": "Storing OpenAI embeddings in Postgres with pgvector"
+    },
+    {
+      "company_key": "yc-apollo",
+      "company_name": "Apollo",
+      "doc_id": "64d87515a4480f24abbf9b84d12b22d7d9daa53176cfb2c2c86a55c6ad21f7f9",
+      "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+      "published_at": "2023-02-06T17:38:08+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Apollo Changelog: Feb 6, 2023"
+    },
+    {
+      "company_key": "yc-resend",
+      "company_name": "Resend",
+      "doc_id": "6adf253223527e53d1cc8b15ccd87c783f5f1ea5eb9152e62de043d7ea2082cc",
+      "first_seen_at": "2026-07-20T23:20:56.405079+00:00",
+      "published_at": "2023-02-06T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Thoughts on the importance of choosing a strong brand name, challenges of finding an available domain, and tips on how to better negotiate and acquire a domain.",
+      "title": "Why I spent $25,000 on a domain (or how to pick a startup name)"
+    },
+    {
+      "company_key": "personalis-inc-common-stock",
+      "company_name": "Personalis Inc.",
+      "doc_id": "71e8a727e607a07dc9714a330b4d9c76c6a0f1574c7669a14c977ae75e2842bd",
+      "first_seen_at": "2026-07-20T23:22:21.339580+00:00",
+      "published_at": "2023-02-06T20:24:41+00:00",
+      "source_kind": "rss",
+      "summary": "Our partnership with Moderna represents a nexus point where multiple technological and scientific advancements meet. The post Realizing the Promise of Personalized Cancer Vaccines appeared first on Personalis .",
+      "title": "Realizing the Promise of Personalized Cancer Vaccines"
+    },
+    {
+      "company_key": "yc-artillery",
+      "company_name": "Artillery",
+      "doc_id": "72e33cde0cee860f5638bf8b96cd31e2436963f2655568e36ae88f615d17c8cb",
+      "first_seen_at": "2026-07-21T07:55:08.009846+00:00",
+      "published_at": "2023-02-06T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "At Artillery we believe that you should load test in production. It’s not rocket science, its dangers can be mitigated, and the benefits are worth a bit of extra work",
+      "title": "What’s stopping you from load testing in production?"
+    },
+    {
+      "company_key": "teradata-corporation-common-stock",
+      "company_name": "Teradata Corporation",
+      "doc_id": "9092e4918c9406f2a0d46c9a521ed16c568e421b1b205f85f07066451365b2fc",
+      "first_seen_at": "2026-07-25T01:06:58.521780+00:00",
+      "published_at": "2023-02-06T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "In the new and expanded role, Richard Petley will lead sales teams in EMEA and APJ.",
+      "title": "Teradata Appoints Richard Petley as EVP, Go-to-Market, International"
+    },
+    {
+      "company_key": "yc-plivo",
+      "company_name": "Plivo",
+      "doc_id": "aaf97d8b2fcef37a15109c80fd92adaf32c209ea51172ae348ea0476702a4c53",
+      "first_seen_at": "2026-07-20T23:20:51.132542+00:00",
+      "published_at": "2023-02-06T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Governments can use high-volume outbound SMS services to communicate effectively with a large volume of people at once. Know all about the benefits, use cases and best practices of community text messaging at Plivo.",
+      "title": "How Government Agencies Can Use SMS for the Public Good"
+    },
+    {
+      "company_key": "fitlife-brands-inc-common-stock",
+      "company_name": "FitLife Brands Inc.",
+      "doc_id": "af3e9f1c26ddd86fa16b9b487a8984e9736c63463690bffd35a6f93ce861ecc4",
+      "first_seen_at": "2026-07-25T05:05:30.159967+00:00",
+      "published_at": "2023-02-06T04:10:29+00:00",
+      "source_kind": "atom",
+      "summary": "",
+      "title": "7 Core Principles To Help with Weight Loss (Don't ignore these)"
+    },
+    {
+      "company_key": "belive-holdings-ordinary-share",
+      "company_name": "BeLive Holdings Ordinary Share",
+      "doc_id": "c114e7695f696d565ef15ab6d526b9397ac492dc74901547bd5356f19f9b2094",
+      "first_seen_at": "2026-07-23T22:07:03.112461+00:00",
+      "published_at": "2023-02-06T05:40:47+00:00",
+      "source_kind": "rss",
+      "summary": "IMDA’s accreditation programme establishes credentials for promising infocomm media companies. Read more at straitstimes.com. Read more at straitstimes.com.",
+      "title": "S’pore Infocomm Media Start-ups Venture Overseas with IMDA’s Aid"
+    },
+    {
+      "company_key": "yc-bios-health",
+      "company_name": "BIOS Health",
+      "doc_id": "df4958b8f5ce7e1d0b2bee9674c566158a0626be2ebcdc813af7856d32ecdcc7",
+      "first_seen_at": "2026-07-26T23:42:44.540403+00:00",
+      "published_at": "2023-02-06T10:20:12.660+00:00",
+      "source_kind": "html",
+      "summary": "Originally, BIOS Health began life as Cambridge Bio-Augmentation Systems (CBAS). However, as the technology and the company grew, we realised that we had the potential to make a much more powerful impact on the future of healthcare, and a change of name and direction were necessary. Susie Lee, our Data Scientist and RHP Delivery Lead has witnessed many exciting developments over the last four years at BIOS Health and shares some of her experiences.Tell us about your role and main responsibilitie",
+      "title": "CAREER SPOTLIGHT: SUSIE LEE"
+    },
+    {
+      "company_key": "wabash-national-corporation-common-stock",
+      "company_name": "Wabash National Corporation",
+      "doc_id": "fe26d7d9e3a51a0f4059a2e6cc97f54c36878d3d43c7b7acd0573301ef1035a0",
+      "first_seen_at": "2026-07-25T01:06:56.076758+00:00",
+      "published_at": "2023-02-06T21:10:00+00:00",
+      "source_kind": "rss",
+      "summary": "LAFAYETTE, Ind. – Feb. 6, 2023 – Wabash (NYSE: WNC), the visionary leader of connected solutions for the transportation, logistics and distribution industries, today announced it was named to the Forbes list of America’s Best Small Companies 2023. The company ranked 100 out of more than 1,000 companies evaluated.“We’re honored to be re...",
+      "title": "Wabash Recognized on Forbes List of America’s Best Small Companies 2023"
+    },
+    {
+      "company_key": "yc-okteto",
+      "company_name": "Okteto",
+      "doc_id": "ffcc98eb5d048f014b4f1f375b32ffc64f95b015a6d5360eadcc1d0f26ebde42",
+      "first_seen_at": "2026-07-20T23:20:32.770894+00:00",
+      "published_at": "2023-02-06T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Empower developers to innovate and deliver cloud-native applications faster than ever.",
+      "title": "The Build vs. Buy Software Guide to Development Platforms"
+    }
+  ],
+  "date": "2023/02/06"
+}

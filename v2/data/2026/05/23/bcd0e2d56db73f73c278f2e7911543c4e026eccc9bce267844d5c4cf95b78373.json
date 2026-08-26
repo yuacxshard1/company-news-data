@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bcd0e2d56db73f73c278f2e7911543c4e026eccc9bce267844d5c4cf95b78373",
+  "company_key": "yc-amal-invest",
+  "company_name": "Amal Invest",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://amalinvest.com/changelog/2026-05",
+  "canonical_url": "https://amalinvest.com/changelog/2026-05",
+  "title": "A new trading engine",
+  "summary": "The trading layer was rewritten so every dollar is auditable. Plus chart timeframes, CSV export, and fixes for the bumps the rewrite caused.",
+  "body_markdown": "# A new trading engine\n\n\nMay 23, 2026\n\n\n---\n\n\n### New\n\n\n#### Chart timeframes\n\n\nPortfolio and per-fund charts now have 3M, 6M, 1Y, and 2Y selectors. Previously everything was locked to 3 months. Ranges are cached in your session, so switching is instant, and the default view got slightly faster too.\n\n\n#### Export fund history as CSV\n\n\nFrom any fund detail dropdown: invested amount vs portfolio value, sampled twice a month from inception, with gain and loss per row. Uses the same engine that handles splits, mergers, and dividends, so the numbers match the app. Requested by Atif.\n\n\n#### Dashboard access with a disconnected broker\n\n\nIf you disconnect your broker, you can still see your historical positions and realized P&L (useful for Zakat) instead of getting bounced to onboarding. A banner explains what you're looking at and how to reconnect.\n\n\n### Improved\n\n\n#### Trading lifecycle v2\n\n\n\"What does this user own and what did they pay for it\" used to be answered by replaying every closed broker order on every page load. Fragile: one missed fill and the numbers could drift. That's now four separate records: what you asked for, what we sent to the broker, what actually filled, and what you hold. The dashboard reads positions directly, portfolio operations are locked so background jobs can't fight over the same fund, and every dollar is auditable end to end.\n\n\nAlso under the hood: the dashboard moved to a new UI stack, Node 24, and Turbopack production builds.\n\n\n### Fixed\n\n\nA rewrite this size caused some real bumps after the May 9 deploy. All fixed and reconciled:\n\n\n- Portfolio order fills weren't being recorded for about 65 users between May 9 and 11, so dashboards showed $0 while the broker had actually filled the orders. We paused the queue, shipped a fallback for the fill id missing from Alpaca's orders response, and backfilled everyone affected\n- Pre-v2 individual stock buys weren't migrated forward and disappeared from the Stocks list. Backfilled\n- A reconciliation worker could hang for over 24 hours on a single Alpaca call. Now bounded by a 60 second timeout\n- Automatic liquidations now require a database-backed authorization record before any sell goes out, so stale queue jobs can't re-trigger them\n- The withdraw keyboard now shows up on mobile Safari, and the amount step no longer steals focus from the dialog title\n- Dust rows with near-zero quantity no longer pollute filtered holdings, warrants no longer create duplicate preview orders, and deleted slices are hidden",
+  "published_at": "2026-05-23T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T06:14:08.584317+00:00",
+  "content_hash": "sha256:b89e5f2ef5d672e5d7e8d1be5b2aaf17e1a65d2ca3572cfda9115aa059a0d8a8"
+}

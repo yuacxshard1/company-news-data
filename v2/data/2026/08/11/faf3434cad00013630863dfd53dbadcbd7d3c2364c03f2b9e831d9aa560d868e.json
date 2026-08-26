@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "faf3434cad00013630863dfd53dbadcbd7d3c2364c03f2b9e831d9aa560d868e",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-august-7-2026",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-august-7-2026",
+  "title": "Weekly product changelog, August 7, 2026",
+  "summary": "Added: Two-factor authentication : Add an extra layer of security to your account. Turn it on from Settings → Account, scan a QR code with your authenticator",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nAdded:\n\n\n- Two-factor authentication\n\n\n: Add an extra layer of security to your account. Turn it on from Settings → Account, scan a QR code with your authenticator app of choice, and you're enrolled. Backup codes are provided in case you lose access to your device.\n\n\nImproved:\n\n\n- Clicking the focus bar now just brings the Sunsama window forward, instead of also forcing focus mode on whatever task was in the bar.\n- Daily highlights email time no longer drifts. Dragging the shutdown line for a single day only changes that day's draft time.\n- Microsoft Planner's group picker now shows every group in your organization, not just the first 100, and groups you're actually a member of sort to the top.\n- Changing a task's planned time no longer bumps it up or down the list by priority; it stays put and only shifts to keep the day in chronological order.\n- Completing a task now syncs everywhere. Checking off a task linked to Google Tasks, Microsoft To Do, or Microsoft Planner updates the source item no matter where you complete it: mobile, Sunny, MCP, or the app.\n\n\nFixed:\n\n\n- Recurring tasks no longer skip an occurrence when you change the repeat frequency after moving the task to a new day.\n- [Monday.com](http://monday.com/) board loading no longer hangs indefinitely on a failed connection.\n- The global \"add task\" shortcut (Ctrl+Shift+A → Ctrl+Enter) now correctly switches Focus Mode to the new task.\n- Tasks created from Gmail via MCP now include a link back to the source email.\n- \"Hide declined events\" now works for Outlook and iCloud calendars, not just Google.\n- Microsoft Planner no longer shows a stale plan selection after switching groups.",
+  "published_at": null,
+  "first_seen_at": "2026-08-11T17:58:27.872482+00:00",
+  "content_hash": "sha256:ce3c199b23d454dfe8d21d5facc246e953b3ea21d90715f3dc5d4c8f34e4aa18"
+}

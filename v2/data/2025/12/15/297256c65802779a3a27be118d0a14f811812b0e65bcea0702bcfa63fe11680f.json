@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "297256c65802779a3a27be118d0a14f811812b0e65bcea0702bcfa63fe11680f",
+  "company_key": "yc-palitronica-inc",
+  "company_name": "Palitronica Inc",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.palitronica.com/post/hardware-and-software-validation-for-scaleable-suas-production",
+  "canonical_url": "https://www.palitronica.com/post/hardware-and-software-validation-for-scaleable-suas-production",
+  "title": "Hardware and Software Validation for Scaleable sUAS Production",
+  "summary": "Silent supplier changes, hidden defects, and undocumented software drift are some of the biggest causes of field failures and RMAs in scaled drone programs. The Anvil Checkpoint gives drone manufacturers an objective way to verify whether received COTS electronics are truly equivalent to what was previously qualified.",
+  "body_markdown": "Silent supplier changes, hidden defects, and undocumented software drift are some of the biggest causes of field failures and RMAs in scaled drone programs. Most incoming inspection methods were never designed to catch them.\n\n\n##\n\n\nThe problem electronics manufacturers don’t like to admit\n\n\nCOTS suppliers can change internal hardware layouts, components, or software configurations without notification. Part numbers stay the same. Functional tests still pass. Contracts offer little protection.\n\n\n[Download the PDF](https://79bfac32-ca95-4cf0-b8fe-1dc1089d6183.usrfiles.com/ugd/79bfac_5927a7a68c834ba498d5a42408f2c32e.pdf)\n\n\nThe result is uncertainty:\n\n\n-\n\n\nAre these parts actually the same ones we qualified?\n\n\n-\n\n\nDid something change that will only fail in flight?\n\n\n-\n\n\nCan we ship with confidence, or are we taking a risk?\n\n\nThis is a known industry issue,\n\n\n[including with authorized sellers and trusted suppliers](https://www.palitronica.com/post/authorized-seller-secure-supplier-how-we-uncovered-a-silent-hardware-risk) .\n\n\n##\n\n\nA different approach to validation\n\n\nThe Anvil Checkpoint gives drone manufacturers an objective way to validate whether received COTS electronics are truly equivalent to what was previously qualified.\n\n\nIt does this without:\n\n\n-\n\n\nSupplier schematics or firmware access\n\n\n-\n\n\nReverse engineering\n\n\n-\n\n\nAssumptions based on labels or documentation\n\n\nInstead, the Anvil Checkpoint uses physics-based RF measurements and AI to detect meaningful internal differences through standard ports.\n\n\n###\n\n\nDownload the Hardware and Software Validation for Scaleable sUAS Production information sheet.\n\n\nLearn how drone manufacturers are verifying COTS integrity without slowing production or relying on supplier disclosures.",
+  "published_at": "2025-12-15T21:40:09+00:00",
+  "first_seen_at": "2026-07-20T23:20:49.337712+00:00",
+  "content_hash": "sha256:f477e38bc1840adc2d3c00cb7361ee74d6d60f6d9bb69f8783e6e8ab9dfe1b8c"
+}

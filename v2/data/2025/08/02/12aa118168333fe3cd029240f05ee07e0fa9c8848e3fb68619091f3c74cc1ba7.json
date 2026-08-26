@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "12aa118168333fe3cd029240f05ee07e0fa9c8848e3fb68619091f3c74cc1ba7",
+  "company_key": "yc-stably-ai",
+  "company_name": "Stably AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.stably.ai/blog/test-2fa-using-stably",
+  "canonical_url": "https://www.stably.ai/blog/test-2fa-using-stably",
+  "title": "Test 2FA Using Stably",
+  "summary": "2FA flows are critical—but traditionally painful to test. You need an inbox, you need to extract the OTP or magic link, and you need tests that can run cleanly in CI without flakiness. Stably makes this trivial.",
+  "body_markdown": "For Engineering Managers, Senior Engineers, and CTOs, 2FA flows are critical—but traditionally painful to test. You need an inbox, you need to extract the OTP or magic link, and you need tests that can run cleanly in CI without flakiness.\n\n\nStably makes this trivial.\n\n\n## 2FA Testing With the Stably No-Code Editor\n\n\nIf you use the Stably no-code editor, everything is built-in out of the box:\n\n\n1.\n\n\n**You add a \"Setup Email Inbox\" step.**\n\n\n2.\n\n\n**Stably generates a unique, isolated test inbox.**\n\n\n3.\n\n\n**Your app sends the OTP or magic link to that inbox.**\n\n\n4.\n\n\n**Stably automatically captures the email and extracts the code/link into a variable.**\n\n\n5.\n\n\n**The next step in your test flows uses that variable to complete login.**\n\n\nNo IMAP scripts. No Gmail workarounds. No brittle parsing.\n\n\nIt just works.\n\n\n## Coming Soon: Inbox Support in the Stably SDK\n\n\nIf your team prefers writing Playwright or TypeScript tests directly, the Stably SDK will soon support the exact same inbox capability:\n\n\n```text\nconst inbox = await stably.createInbox();\nconst otp = await stably.waitForOtp(inbox);\n\n\n```\n\n\nThis means:\n\n\n- **Deterministic email capture**\n- **Structured OTP/magic-link extraction**\n- **Parallel-safe inboxes**\n- **Identical behavior to the no-code editor**\n\n\nAll inside your codebase—no custom infrastructure needed.\n\n\n## Why This Matters for Engineering Teams\n\n\n### Zero flakiness\n\n\nDeterministic inbox + code extraction means your 2FA tests are reliable every time.\n\n\n### Easy parallelization\n\n\nEvery test gets its own inbox—no conflicts, no race conditions.\n\n\n### Security coverage\n\n\nTest expired codes, resends, lockouts, and edge cases with confidence.\n\n\n### Compliance-friendly\n\n\nReliable audit trail of login flows for security reviews.\n\n\n### Best practices by default\n\n\nIdempotence, no dependencies, parallel-safe tests—automatically applied by Stably's Test Creation Agent.\n\n\nYour authentication flow stays stable even when your product moves fast.\n\n\n## Get Started Today\n\n\nThe no-code editor is available now. The SDK support is coming soon.\n\n\nReady to make 2FA testing painless? Try Stably and see how we've solved one of testing's most notorious pain points.",
+  "published_at": "2025-08-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T02:44:25.851186+00:00",
+  "content_hash": "sha256:36aadc46808c7ae1a4c21cf8dc3556e60a8ea9365e2a25ff9ce4bde88c31daf0"
+}

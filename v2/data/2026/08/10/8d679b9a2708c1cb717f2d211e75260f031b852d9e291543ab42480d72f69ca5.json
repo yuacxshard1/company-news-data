@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8d679b9a2708c1cb717f2d211e75260f031b852d9e291543ab42480d72f69ca5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
+  "title": "AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
+  "summary": "Discover more about what's new at AWS with AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
+  "body_markdown": "AWS Elastic Disaster Recovery (AWS DRS) now preserves UEFI boot mode when recovering Linux source servers that boot with UEFI firmware. Previously, DRS launched these Linux servers in legacy BIOS mode, which could require extra configuration after recovery. Now your recovered Linux instances launch with the same UEFI boot mode as your source servers. This means your recovery instances more closely match your source environment, so applications that depend on UEFI boot behavior come back exactly as you expect — with no additional post-recovery steps. Boot mode preservation is automatic, with nothing to configure.\n\n\nThis capability is available in all AWS Regions where AWS DRS is offered, at no additional cost. To learn more, visit the[AWS Elastic Disaster Recovery User Guide](https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html) .",
+  "published_at": "2026-08-10T13:00:00+00:00",
+  "first_seen_at": "2026-08-10T14:36:01.988627+00:00",
+  "content_hash": "sha256:55a37c0a8dba81cfdb110c16fb69440a12444cdd5c0c64a14e3af666079fe7ee"
+}

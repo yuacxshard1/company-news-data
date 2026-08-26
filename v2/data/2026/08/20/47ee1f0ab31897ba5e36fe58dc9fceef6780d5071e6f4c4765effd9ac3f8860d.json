@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "47ee1f0ab31897ba5e36fe58dc9fceef6780d5071e6f4c4765effd9ac3f8860d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
+  "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
+  "summary": "Discover more about what's new at AWS with AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
+  "body_markdown": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to 1,000 prefixes each for IPv4 and IPv6 on your VIFs on dedicated and hosted connections.\n\n\nPreviously, Direct Connect VIFs accepted a maximum of 100 route prefixes advertised from your on-premises network to AWS on a private or transit VIF. If you had a larger or growing network, you had to architect around this ceiling, for example, by summarizing routes or segmenting across multiple VIFs or connections. With inbound prefix controls, you can allocate up to 1,000 prefixes to a single VIF and advertise your routes directly.\n\n\nInbound prefix controls introduce new prefix capacity pools at the dedicated connection level and at the Direct Connect gateway (DXGW) level. When you create or update a VIF, you allocate a specific number of prefixes to it, and that allocation draws from the dedicated connection's pool and the DXGW's pool when you attach it. This lets you right-size prefix capacity per workload—for example, a large allocation for a transit VIF carrying many routes and a smaller allocation for a private VIF on the same connection. Connection pool sizes scale with connection speed, and link aggregation group (LAG) pools scale with the number of member connections.\n\n\nYou can configure prefix allocations using the AWS Direct Connect console or CLI/API. Inbound prefix controls are available at no additional cost in all commercial AWS Regions where AWS Direct Connect is available, AWS GovCloud Regions (US-East and US-West), as well as the Amazon Web Services China (Beijing) Region, operated by Sinnet, and the Amazon Web Services China (Ningxia) Region, operated by NWCD.\n\n\nTo learn more, see[Inbound prefix controls for AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/prefix-controls.html) in the AWS Direct Connect User Guide.",
+  "published_at": "2026-08-20T15:00:00+00:00",
+  "first_seen_at": "2026-08-20T18:21:10.269650+00:00",
+  "content_hash": "sha256:50c708b6e158687889312fdbffbf19d4c4e94ab946a8fdc6c98e1bcd13ee5cb3"
+}

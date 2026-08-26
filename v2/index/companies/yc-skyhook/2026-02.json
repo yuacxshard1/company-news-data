@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-skyhook",
+      "company_name": "Skyhook",
+      "doc_id": "208eada039818ac411166717c9f17315dfe26e7d7e2c4c1d836d27be1ee7da83",
+      "first_seen_at": "2026-07-26T00:39:47.906327+00:00",
+      "published_at": "2026-02-01T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How we cut dashboard latency by 80% and reduced data staleness from 25 seconds to under 3 by switching from pull to push.",
+      "title": "Zero-Latency Kubernetes: How We Built a Push-Based Sync Architecture"
+    },
+    {
+      "company_key": "yc-skyhook",
+      "company_name": "Skyhook",
+      "doc_id": "987e56c8c5f3d83d856056e58abc3c535193daa44ad5ecd3916edff80acf6149",
+      "first_seen_at": "2026-07-26T00:39:47.906327+00:00",
+      "published_at": "2026-02-01T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Instead of calling LLMs at runtime, we used AI to generate deterministic rules that execute in milliseconds. The Reverse ML pattern for fast, auditable codebase classification.",
+      "title": "Reverse ML: Using AI to Write Rules, Not Run Them"
+    },
+    {
+      "company_key": "yc-skyhook",
+      "company_name": "Skyhook",
+      "doc_id": "d45732cba034fa825bf83fc8a77ae9d8616b23985b42792aa4e1a4a6291379f5",
+      "first_seen_at": "2026-07-26T00:39:47.906327+00:00",
+      "published_at": "2026-02-01T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How we went from per-request Kubernetes API calls to in-memory lookups using client-go's SharedInformer pattern - and the memory optimizations that made it practical.",
+      "title": "50-100x Faster: Building an In-Memory Kubernetes Resource Cache with SharedInformers"
+    }
+  ],
+  "company_key": "yc-skyhook",
+  "month": "2026-02"
+}

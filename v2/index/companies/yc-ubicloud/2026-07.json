@@ -1,0 +1,196 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "0bd5a58b14a463b79b2ce08eabba33deb38afae4a576fd8daf95ecd41d632374",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Burstable VMs run on a fraction of CPU and burst to a higher level of CPU usage to support occasional usage spikes. To implement them, we leveraged Control Groups v2 (cgroups v2), a Linux kernel feature that helps manage resource usage. We thought our open-source implementation of burstable VMs might be interesting enough to write about. We also learned a lot about Linux cgroups in the process!",
+      "title": "Building Burstables: cpu slicing with cgroups"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "110820581646893a65bf26957ec2c5992879af648742ec1b2d03ed6213ed5c6c",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Deep Research is an AI-powered solution that automates multi-step research processes, mimicking the work of a seasoned research analyst. OpenAI and Google already released their proprietary deep research products. In this blog, we’ll show you how to your own deep research agent using only open source.",
+      "title": "Dewey.py: Rebuilding Deep Research with Open Models"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "124cff88f7ab379289de3719f4b52993350059b111d613f5cddbbc92b35286e5",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Scanned documents and images are everywhere. Extracting structured data from them has always been an essential yet complex, multi-step task.",
+      "title": "End-to-End OCR with Vision Language Models"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "21088cda239f25ad51d5981c8d8cc4e4f0ad2c22f8970e1f19f0d80ef146538b",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "VMs are much harder to understand these days. Linux provides many building blocks for virtualization, but only a select few kernel engineers know how to stitch them together. So, we compiled our understanding into this blog that describes four reference architectures - Red Hat, AWS Firecracker, Ubicloud, and AWS Nitro.",
+      "title": "Cloud virtualization: Red Hat, AWS Firecracker, and Ubicloud internals"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "3652858f878fbca06c5c6629be98a1abcedd726b0e128e3b488cb7b938a5be87",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "In this blog post, we will explain how strict memory overcommit protects your database from catastrophic OOM (out of memory) kills. We will also share how a one character kernel bug forced us to temporarily disable this setting. Finally, we will explain our heuristic for determining the right memory overcommit limit. Hopefully, this will help you find the right setting for your workloads.",
+      "title": "PostgreSQL and the OOM Killer: Why We Use Strict Memory Overcommit"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "50775e9429487323aec9846217bb753167c3e11958f5f8b5809d6fd10d065d50",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Since we set our prices in 2024, we saw a notable increase in our infrastructure costs. As a result, we’re increasing prices for most cloud services by 26%. New deployments will see this price increase on May 1, 2026. Existing resources will be charged at the new rate starting June 1, 2026.",
+      "title": "Ubicloud Price Adjustment"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "5f9f9ca334307fa59ba357864c9fea39ba9d963398a503605b065b038aa40079",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "We evaluated server performance for AMD EPYC and Ryzen (gaming) CPUs. In our benchmarks, we saw clear performance gains across VMs, managed PostgreSQL, and GitHub Actions runners.",
+      "title": "Does MHz still matter?"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "9180dff142e8bfcf8c094a8615bbfdeae0b8adc783e3bb72e433f8e7b6543d35",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "This blog post covers how we virtualized NVIDIA HGX B200 GPUs using open-source software. It talks about VFIO passthrough, QEMU PCI topology fixes, large BAR boot stalls, and Fabric Manager partitions.",
+      "title": "Virtualizing NVidia HGX B200 GPUs with Open Source"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "9c30f30d9c4b4699d06dc22abd9b60e21f39755eec7d8e62122f26c531d68cf5",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Cloud storage was built around the limits of old hardware. With NVMe SSDs being faster, cheaper, and more reliable, it's time to rethink PostgreSQL storage.",
+      "title": "PostgreSQL Performance: Local vs. Network-Attached Storage"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "9d74b7c0be147ca9fb6b875a833cf8b6e1c4d715e9fa08efdfdaf62616ed2fe1",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "We're excited to announce our partnership with ClickHouse: Managed PostgreSQL as part of the ClickHouse cloud platform, powered by Ubicloud PostgreSQL. ClickHouse customers can now use Postgres for their transactional workloads, tightly integrated with ClickHouse's analytics engine.",
+      "title": "ClickHouse PostgreSQL powered by Ubicloud"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "a18f688a2b5c8dc1c58e476e63a04348eee5116e3a30679baa8326beec4b71d5",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "AI Dev Tools are useful now, especially for writing tests, prototyping, and repetitive tasks. They are not magic, but excellent helpers. For complex code or debugging, human input is still better. Providing better context, scoping the task well, and reusing past information are key to getting the most out of them. Context management, persistence, and large language models keep improving. Soon, they may be essential.",
+      "title": "AI Coding: A Sober Review"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "af26f0267a3c7c08b6533223ba960d76b0d6083cb75b456a0a09b853d5d1ffd1",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "We are happy to announce that we are bringing in a new family of VMs - Burstable, that cost as low as $0.01 per hour / $6.65 per month. Those small instances are best suited for small websites, SaaS applications, AI agents, development and test workloads.",
+      "title": "Ubicloud Burstable VMs starting at $0.01 per hour"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "ba87ac56515eb93b11a400cb6595a2c71e98384001234caa2a9b6f4c625692bf",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "vLLM is an open-source inference engine that serves large language models. We deploy vLLM across GPUs and load open weight models like Llama 4 into it. vLLM sits at the intersection of AI and systems programming, so we thought that diving into its details might interest our readers.",
+      "title": "Life of an inference request (vLLM V1): How LLMs are served efficiently at scale"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "be16d51dbd0e9f0db503ca2260e3e8fd054b0ce61a9fd87c84ef6b71a64a2892",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "We are excited to announce Ubicloud Premium Github Runners. Premium Runners come with fast gaming CPUs, increased cache storage, and seamless integration. We designed it for teams demanding top-tier performance in their CI/CD pipelines.",
+      "title": "Ubicloud Premium Runners: 2x Faster Builds, 10x Larger Cache"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "c2f5cc3c2692d426f7a7b87b0b54f4e7eeab7870af6e38662801c09dbb9448c0",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Keeping the documentation up to date is one of the hardest problems with documenting. Whenever you make a change to the product, you need to check if you also need to update the documentation. This gets tricky when a change impacts several parts of the documentation. It's even harder if the sections needing updates aren't clear. Screenshots serve as a clear example of this problem. If the application's look changes, then all related screenshots need updating. This is why you see outdated screenshots when reviewing technical documentation.",
+      "title": "How to Keep Documentation Screenshots Up-to-date Using Ruby"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "d0dfac682955eec987e7f62b2a65e478aad2322eb0d23e8b09dc2735e3e93faf",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Traditionally, a command line interface parses the arguments given by the user, determines the API endpoints, and then submits requests to those endpoints. The program then takes the responses from those endpoints and formats them for display to the user. With Ubicloud's approach, the client doesn't parse any arguments. Instead, it just sends all arguments to a single endpoint, which we’ll call the gateway. The gateway endpoint handles requests and responses.",
+      "title": "Ubicloud's Thin CLIent approach to command line interfaces"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "d4cf123652cfd4e4588005a39bd1b5a37a8067a1d12416c7ebeb8e3bcdbbe7e6",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Every time I log into a server or push code to GitHub, a small USB key on my laptop flashes. I have to touch it to continue. That extra tap blocks a class of attacks that’s far more common now than twenty years ago: malware stealing or abusing your SSH keys.",
+      "title": "Hardware Touch, Stronger SSH"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "d73c88cb74d915acb4cc84d62b0727d5b7979644d5385c8884a09b46c27a9df5",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "About a year ago, Hetzner launched the AX162 server line. It offered better price / performance than its predecessor, AX161. We were very excited to adopt it, but we soon encountered serious reliability issues. We observed that the new servers had 16 times higher annual failure rates.",
+      "title": "Debugging Hetzner: Uncovering failures with powerstat, sensors, and dmidecode"
+    },
+    {
+      "company_key": "yc-ubicloud",
+      "company_name": "Ubicloud",
+      "doc_id": "e75073cb4b9c49bb5298112426710e629bb5f4917a99e09001513a6c5b6db0bd",
+      "first_seen_at": "2026-07-24T05:09:51.579811+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Today, we are excited to announce a major upgrade to Ubicloud Postgres. The following features are now available as part of our managed service: Read Replicas, Scale Up/Down, Multi-AZ High Availability (HA), Connection Pooling, Managed Maintenance Window, Metrics, and External APIs.",
+      "title": "Ubicloud PostgreSQL: New Features, Higher Performance"
+    }
+  ],
+  "company_key": "yc-ubicloud",
+  "month": "2026-07"
+}

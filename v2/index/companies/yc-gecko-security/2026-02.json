@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-gecko-security",
+      "company_name": "Gecko Security",
+      "doc_id": "413dfd5e2d209daee56705c5d0ecbbcad027ebd8963dcf4275a13128b864a150",
+      "first_seen_at": "2026-07-21T21:22:16.875303+00:00",
+      "published_at": "2026-02-04T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Path traversal vulnerability in n8n's Webhook node allows attackers to write files to arbitrary locations on remote servers connected via SSH.",
+      "title": "CVE-2026-25055: n8n Arbitrary File Write on Remote Systems via SSH Node"
+    },
+    {
+      "company_key": "yc-gecko-security",
+      "company_name": "Gecko Security",
+      "doc_id": "6d22f3e4c8b017d56091dc26943300b415497f346ffd054ed97c038bb8218840",
+      "first_seen_at": "2026-07-21T21:22:16.875303+00:00",
+      "published_at": "2026-02-04T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Authentication bypass in n8n's StripeTrigger node allows unauthenticated attackers to forge arbitrary Stripe webhooks without knowing the signing secret.",
+      "title": "CVE-2026-21894: n8n Missing Stripe-Signature Verification Allows Forged Webhooks"
+    }
+  ],
+  "company_key": "yc-gecko-security",
+  "month": "2026-02"
+}

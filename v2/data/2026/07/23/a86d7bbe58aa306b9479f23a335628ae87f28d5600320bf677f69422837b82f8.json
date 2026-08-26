@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a86d7bbe58aa306b9479f23a335628ae87f28d5600320bf677f69422837b82f8",
+  "company_key": "yc-flick",
+  "company_name": "Flick",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flick.art/blog/img2img-consistent-character/stable-diffusion",
+  "canonical_url": "https://flick.art/blog/img2img-consistent-character/stable-diffusion",
+  "title": "How to Keep a Character Consistent in Stable Diffusion",
+  "summary": "Stable Diffusion has the deepest toolkit for character consistency. Train an SDXL LoRA for a fully repeatable identity, or use IPAdapter FaceID and InstantID for a fast, training-free face from a single reference.",
+  "body_markdown": "## HOW IT WORKS\n\n\n1.\n\n\n---\n\n\nSTEP 1\n\n\nCHOOSE YOUR PATH\n\n\nFor a fully repeatable identity, plan a LoRA. For a fast face from one image, use IPAdapter FaceID or InstantID on SDXL.\n\n\n2.\n\n\n---\n\n\nSTEP 2\n\n\nTRAIN A LORA OR LOAD AN ADAPTER\n\n\nTrain an SDXL LoRA on 20 to 50 images with a unique trigger token, or wire an IPAdapter FaceID node and feed it your reference face.\n\n\n3.\n\n\n---\n\n\nSTEP 3\n\n\nLOCK POSE WITH CONTROLNET\n\n\nAdd a ControlNet OpenPose node so the pose and composition stay fixed while you change the scene around the character.\n\n\n4.\n\n\n---\n\n\nSTEP 4\n\n\nGENERATE AND REFINE\n\n\nCall the trigger token or reuse the reference in each prompt. A face-restore or detailer pass tightens the likeness shot to shot.\n\n\n5.\n\n\n---\n\n\nSTEP 5\n\n\nBRING IT TO LIFE IN FLICK\n\n\nStable Diffusion makes stills only. Drop your locked character into Flick and animate it with Veo 3, Kling, or Seedance.",
+  "published_at": null,
+  "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+  "content_hash": "sha256:1a3c1d634072d34d3c6aafff4bd9bff170ba938cb600c18e92c145eeadcdcff1"
+}

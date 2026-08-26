@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cc987bc99057f7f857a5d2aaada20e13a95f1348b47f423fbca2940546cfc8a3",
+  "company_key": "roblox-corporation-class-a-common-stock",
+  "company_name": "Roblox Corporation",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://about.roblox.com/zh-hant/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model",
+  "canonical_url": "https://about.roblox.com/zh-hant/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model",
+  "title": "加速創作，由 Roblox 的 Cube 基礎模型驅動",
+  "summary": "超越 3D 創作",
+  "body_markdown": "分享\n\n\n[產品](https://about.roblox.com/zh-hant/newsroom?filter=%E7%94%A2%E5%93%81)[工程](https://about.roblox.com/zh-hant/newsroom?filter=%E5%B7%A5%E7%A8%8B)\n\n\n# 加速創作，由 Roblox 的 Cube 基礎模型驅動\n\n\n超越 3D 創作\n\n\n發佈者\n\n\n安帕姆·辛格，工程資深副總裁\n\n\n發佈日期\n\n\n2026年2月4日\n\n\n- Roblox 宣布推出由我們的 Cube 基礎模型驅動的 4D 生成技術，該技術透過增添互動性維度，生成具備實用功能的 3D 物件，使其能以玩家預期的方式運作。\n- 4D 生成技術將開啟嶄新的遊戲玩法與玩家互動模式，同時為創作者在 Roblox Studio 中提供強大的新功能。\n- 4D 生成技術與 Cube 背後的技術，最終將讓任何創作者都能透過自然語言提示，生成完整的場景，包括資產、環境、程式碼、動畫等。\n\n\n我們打造了[Cube 基礎模型](https://about.roblox.com/newsroom/2025/03/introducing-roblox-cube) ，用以驅動 3D 物件生成等創作工具，並最終實現全場景生成等更複雜的任務。今天，我們宣布了這條道路上的下一步：[4D](https://www.youtube.com/live/PVlCHE9pc50?t=3390s) 生成的測試版發布。這項技術為我們的 Cube 模型增添了關鍵的功能性元素，超越了靜態 3D 物件的範疇，讓創作者和玩家能夠生成具備完整功能的物件。 一旦創作者在體驗中啟用 4D 生成功能，玩家便能透過簡單的文字提示生成一輛具備完整功能的汽車，坐進車內並駕駛它四處遊走。該系統運用稱為「模式（schemas）」的規則集，將特定物件分解為各個部件，再加入行為機制使其栩栩如生。藉由 4D 生成技術，創作者能開創嶄新的遊戲玩法，並讓玩家將自身的創意融入體驗之中。\n\n\n## 開發者如何運用 4D 生成技術\n\n\n開發者 Laksh 一直在他的遊戲[《Wish Master](https://www.roblox.com/games/113627622022152/Wish-Master) 》中測試 Cube 和 4D 生成功能，在該遊戲中，玩家可以許下任何願望，並在遊戲中看到它化為現實。玩家們生成了能行駛的汽車、能飛行的飛機，甚至還有會飛的龍。「大約六、七個月前，我正在嘗試[Studio 的 AI 助理](https://create.roblox.com/docs/assistant/guide) ，發現它真的非常令人印象深刻，」Laksh 解釋道。 「我當時就想，若能為玩家打造類似的功能供他們在遊戲中使用，那將是多麼棒的事。」\n\n\n賦予玩家隨心所欲創造的自由，也帶來了若干挑戰。「玩家會要求一些不存在的事物，或是用我們未曾預料的方式表達願望，」Laksh 表示。「我們一直在持續改進系統，以更精準地解讀玩家的真實意圖。玩家的反饋非常熱烈。正因為擁有自由創作的空間，他們會嘗試各種事物，並真心享受這個過程。」\n\n\n如今，玩家可透過《Wish Master》的基礎、進階及 4D 生成選項，創造各式各樣的物件。拉克什與團隊對《Wish Master》懷抱宏大藍圖，包含一套用於服裝生成的全新 AI 模型、建造模式，以及玩家對戰模式。 在搶先體驗期間，玩家透過 4D 生成功能共創造了超過 16 萬個物件。拉克什表示團隊已觀察到一項趨勢：「使用 4D 生成功能的玩家，在《Wish Master》中的平均遊玩時間增加了 64%。」\n\n\n## 4D Generation 的運作方式\n\n\n在測試版期間，我們專注於體驗內建模。我們推出兩個模式來測試系統：Car-5，一個由車身和四個輪子組成的五部分多網格汽車；以及 Body-1，它能生成任何單一網格物件。 我們正積極朝著最終願景邁進，即建立一個開放詞彙表的模式系統，讓使用者能創建任何模式。我們預期很快就能納入涵蓋現實世界數千種物體的模式。\n\n\n在後端，模式定義了使模型具備功能所需的網格輸出。例如，Car-5 模式確保生成的汽車擁有五個獨立的 MeshParts，分別命名為車身、左前輪、右前輪、左後輪和右後輪。現在，使用者不再僅能生成單一且無法活動的網格，而是可以透過腳本生成輪子能旋轉和轉向的汽車模型。\n\n\n透過模式生成幾何體後，下一步便是添加功能。由於使用者會即時生成物件，因此附加行為的腳本必須適應各種形狀與尺寸。4D 創作包含一個步驟，會將腳本重新對應至生成的物件的獨特尺寸，以確保各部件能如預期般運作。\n\n\n## 未來展望\n\n\n我們展望一個未來，屆時創作者和使用者將能夠基於任何架構，生成他們想要的任何類型 4D 物件與行為。我們非常期待能很快將這項技術交到使用者手中。\n\n\n我們正在探索其他途徑來推動創作的進化，其中包括我們最雄心勃勃的研究計畫：即時夢境。我們認為，世界模型在 Roblox 上開啟全新體驗類型方面蘊藏著巨大的機會。Roblox 執行長 David Baszucki 最近在《Roblox Today》上分享了我們即時夢境研究的早期示範。\n\n\nRoblox 創作領域的下一個新紀元，在於我們持續透過人工智慧驅動創作平台的進化，讓創作者能透過自然語言提示，生成沉浸式環境、進行迭代、除錯，並與團隊協作。只要能想像，就應該能將其化為現實。",
+  "published_at": "2026-02-04T17:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:12:33.124755+00:00",
+  "content_hash": "sha256:32329cc74937a88540053044d6d27f370fb04039d1ed3d52fd89a50586a5af61"
+}

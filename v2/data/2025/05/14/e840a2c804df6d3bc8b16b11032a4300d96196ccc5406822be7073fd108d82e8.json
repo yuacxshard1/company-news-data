@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e840a2c804df6d3bc8b16b11032a4300d96196ccc5406822be7073fd108d82e8",
+  "company_key": "yc-sourcebot",
+  "company_name": "Sourcebot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sourcebot.dev/blog/sourcebot-vs-opengrok",
+  "canonical_url": "https://www.sourcebot.dev/blog/sourcebot-vs-opengrok",
+  "title": "Sourcebot vs OpenGrok",
+  "summary": "An in-depth comparison of the code search capabilities of Sourcebot and OpenGrok.",
+  "body_markdown": "# Sourcebot vs OpenGrok\n\n\nIf you notice anything on this page that is inaccurate, please reach out to us atteam@sourcebot.dev\n\n\nYou can try out Sourcebot with our[public demo](https://demo.sourcebot.dev/~)\n\n\n## How is Sourcebot different?\n\n\n### Simpler installation and maintenance\n\n\nOpenGrok\n\n\n-\n\n\n[Setup](https://github.com/oracle/opengrok/wiki/How-to-setup-OpenGrok) requires you to manually install several dependencies (Java, ctags, Python, etc), clone the repo, manually deploy a web application using Tomcat, and then manually clone and index all of the repos you want to search through\n\n\n-\n\n\nNo automatic reindexing, you need to setup your own cron job\n\n\n-\n\n\nBranches must be cloned and indexed manually\n\n\n-\n\n\nEvery new repo you want to search through must be manually cloned and indexed\n\n\n-\n\n\nKnown issues with handling large repositories\n\n\nSourcebot\n\n\n-\n\n\n[Setup](https://docs.sourcebot.dev/self-hosting/overview) by defining a config JSON file and running a docker container. Automatically clones and indexes the repos in the config and spins up a webapp for you to begin searching immediately\n\n\n-\n\n\nFetches updates and reindexes repos automatically\n\n\n-\n\n\nBranches are easily defined in the config file and automatically cloned and indexed\n\n\n-\n\n\nNew repos are indexed by adding them to the config file\n\n\n-\n\n\nEasily handles thousands of repos of all sizes\n\n\n### Modern UI\n\n\nOpenGrok\n\n\n-\n\n\nLegacy UI built in Java\n\n\n-\n\n\nRequires you to specify which project(s) you want to search in\n\n\n-\n\n\nNo information on which repos or languages were hit\n\n\n-\n\n\nAuth must be configured manually\n\n\nSourcebot\n\n\n-\n\n\nModern UI built with next.js\n\n\n-\n\n\nNo need to specify which projects you want to search across\n\n\n-\n\n\nBuilt-in file viewer while navigating search results\n\n\n-\n\n\nBuilt-in auth layer\n\n\n-\n\n\nAbility to highlight and create a permalink to code snippets\n\n\n-\n\n\nAbility to filter results by repository and/or language\n\n\n### Product comparison\n\n\nSourcebot OpenGrok\n\n\nFree to deploy ✅ ✅\n\n\nSelf hostable ✅ ✅\n\n\nRegex search ✅ Only wildcards\n\n\nBlame/history support coming soon ✅\n\n\nSearch based go-to definition ✅ ✅\n\n\nAutomatic repo indexing support ✅ ❌\n\n\nModern UI ✅ ❌\n\n\nActive feature roadmap ✅ ❌\n\n\nFilter by repo/language ✅ ❌\n\n\nAutomatic branch indexing support ✅ ❌\n\n\nBuilt-in authentication ✅ ❌\n\n\nPermalink code snippets ✅ ❌",
+  "published_at": "2025-05-14T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T14:19:49.815269+00:00",
+  "content_hash": "sha256:3b609d9aa446c7d9dbdab38d7285c88f9540ef7536a31927c25bf95ee54abbe6"
+}

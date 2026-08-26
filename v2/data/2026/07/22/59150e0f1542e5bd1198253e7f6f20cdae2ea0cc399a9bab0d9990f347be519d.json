@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "59150e0f1542e5bd1198253e7f6f20cdae2ea0cc399a9bab0d9990f347be519d",
+  "company_key": "yc-pluggy",
+  "company_name": "Pluggy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.pluggy.ai/changelog/atualiza%C3%A7%C3%B5es-de-produto-mar%C3%A7o-25",
+  "canonical_url": "https://docs.pluggy.ai/changelog/atualiza%C3%A7%C3%B5es-de-produto-mar%C3%A7o-25",
+  "title": "[Atualizações de Produto] Março-25",
+  "summary": "Fique por dentro das novidades da Pluggy no mês de Março! 📡 Novos Conectores Open Finance 🌟 EQI Investimentos Interessado? Fale com nossa equipe! ✨ Melhorias 🎲 Dados Ajustes visando a estabilização do conector Sicoob PJ 💳 Pagamentos Adicionamos informações de juros e multa em nossa api de emissã…",
+  "body_markdown": "[Back to All](https://docs.pluggy.ai/changelog)\n\n\nFique por dentro das novidades da Pluggy no mês de Março!\n\n\n#\n\n\n📡 **Novos Conectores Open Finance**\n\n\n###\n\n\n🌟 EQI Investimentos\n\n\n**Interessado? Fale com nossa equipe!**\n\n\n---\n\n\n#\n\n\n✨ Melhorias\n\n\n###\n\n\n🎲 Dados\n\n\n- Ajustes visando a estabilização do conector Sicoob PJ\n\n\n###\n\n\n💳 Pagamentos\n\n\n- Adicionamos informações de *juros* e *multa* em nossa api de emissão de boletos (feature disponível apenas para Inter PJ. Mais detalhes em nossa[documentação](https://docs.pluggy.ai/docs/boleto-management-api) .\n- Maior clareza dos erros retornados em nossa API de pagamentos.\n- Melhorias diversas em nossa[documentação](https://docs.pluggy.ai/docs/payments-overview-1) de pagamentos.\n- Por questões regulatórias, agora os dados de conta do recebedor não serão mais exibidos por completo. Essa alteração ocorre no objeto accounts do endpoint` /recipient` , o qual terá os dados exibidos com máscara.\n\n\n- Dados a serem mascarados:\n\n\n- agência,\n- número da conta,\n- tipo da conta,\n- cpf completo,\n- data de abertura da conta.\n\n\n- Exemplo de como será retornada essa informação mascarada:\n\n\n- ` \"account\": { \"type\": \"****\" \"number\": \"******112\", \"branch\": \"**1\" }`\n\n\n---\n\n\n#\n\n\n📈 Bugs\n\n\n###\n\n\n🎲 Dados\n\n\n- Resolvemos casos de transações deletadas em Itaú PF, Itaú PJ, Bradesco PJ.\n- Resolvemos diversos casos de investimentos não retornados na XP.\n- Consertamos um erro do Open Finance onde algumas transações de cartão de crédito estavam consolidadas, porém sem vínculo com nenhuma fatura.",
+  "published_at": null,
+  "first_seen_at": "2026-07-22T09:30:43.038391+00:00",
+  "content_hash": "sha256:be71dffe56d9f3562b355c5619964212e2b61fa5045249e5c46deaa5b01a4b4a"
+}

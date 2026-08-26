@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "78fc76e06459fe59f4ca4d5a01a6e98d2a9142248cf1c39a2894ffba257328a8",
+  "company_key": "yc-tusk",
+  "company_name": "Tusk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.usetusk.ai/blog/april-2025-changelog",
+  "canonical_url": "https://blog.usetusk.ai/blog/april-2025-changelog",
+  "title": "April '25 Changelog",
+  "summary": "New features released in April 2025 –– self-service onboarding, 25% reduction in run latency, AI test generation summary, improved UI/UX for reviewing tests, and more.",
+  "body_markdown": "# What's new in Tusk\n\n\nThe big news this April is that we've released our[self-serve onboarding flow](https://docs.usetusk.ai/automated-tests/self-serve) so that teams can set Tusk up and start seeing unit test generation in their repo within 10 minutes.\n\n\nYou can now enjoy faster test generation with Tusk. We've reduced run latency by 25% with **caching for LLM requests** and better test concurrency controls.\n\n\nThe latency reduction is complemented by our new **Strict Mode** feature that focuses test generation specifically on code changes in your PR, saving time and improving relevance.\n\n\nWe've also added **AI-powered test generation summaries** in Tusk's PR comment, giving you more immediate insights into test results and potential issues in your code.\n\n\n## Release notes\n\n\n🚀 **Major Features**\n\n\n- **Self-Serve Onboarding** - Released end-to-end self-serve workflow to set up Tusk test environments\n- **Strict Mode for Focused Test Generation** - Added new mode that restricts Tusk's test generation only to changes introduced in PRs\n- **Support for Frameworks Without Unique Test Files** - Added configuration to support test frameworks like JUnit that require test file paths and class names to match\n- **Model Selection Optimizations** - Optimized model usage across Tusk's workflow for faster and more accurate test generation\n- **AI Test Generation Summary** - Added AI-powered summaries in Tusk's PR comment to highlight test results and key issues with the PR\n\n\n💫 **Performance Improvements**\n\n\n- **LLM Request Caching** - Added caching for LLM requests to reduce test generation latency\n- **Task Timeout Increase** - Extended testing sandbox manager timeout to better handle large projects\n- **Improved Error Handling** - Better error propagation and logging for workflow issues\n\n\n🎨 **UI/UX Enhancements**\n\n\n- **Progress Bar** - Added detailed progress tracking for Tusk's test generation in the PR for better visibility\n- **Hiding Tests From View** - Added ability to hide/unhide tests in the testing commit check page for cleaner review\n- **Improved Context Handling** - Better error handling for large PRs and dependencies\n\n\n---\n\n\nTRY TUSK NOW\n\n\n## AI test generation with codebase context for quality-obsessed teams.\n\n\nCover your blind spots, catch verified critical bugs, merge PRs 25% faster with peace of mind.",
+  "published_at": "2025-04-30T09:32:14+00:00",
+  "first_seen_at": "2026-07-26T03:21:03.026732+00:00",
+  "content_hash": "sha256:387ea56eb07dedbc2843859b0d0d01cdb945b74353d1558b266bfbe3734114f2"
+}

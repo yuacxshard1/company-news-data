@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-wave",
+      "company_name": "Wave",
+      "doc_id": "a635ac221a00f20895d31763374dfcb759b0bdf55ea368ca12e4b625bdb90788",
+      "first_seen_at": "2026-07-24T06:52:44.556575+00:00",
+      "published_at": "2019-07-26T20:58:47+00:00",
+      "source_kind": "rss",
+      "summary": "By far the biggest code improvement we made to Wave was to split our codebase in half. Our first product was building faster and cheaper money transfer to Africa, by delivering funds directly to M-Pesa and similar systems. That business grew incredibly quickly, but eventually hit a wall: most countries in Africa didn’t have a system like M-Pesa. We realized that this roadblock was actually an opportunity. Instead of just international money transfer, why not build our own mobile money systems in the countries that didn’t have them yet?",
+      "title": "How we split our codebase down the middle"
+    },
+    {
+      "company_key": "yc-wave",
+      "company_name": "Wave",
+      "doc_id": "e42808ca353d55642c6e1d0e7ad30437bbe6103441401a1e0f9f13f94544c8cd",
+      "first_seen_at": "2026-07-24T06:52:44.556575+00:00",
+      "published_at": "2019-07-29T16:08:29+00:00",
+      "source_kind": "rss",
+      "summary": "We built our first Android app in 2014. Like most 2014-era Android apps, it was a mess of fat Activities, heavily-nested callbacks, and spaghetti dataflow. Fortunately, since then Google has iterated a lot on their Android best practices, and we’ve iterated a lot on our apps, giving us plenty of chances to make things better. During the most recent time we rebuilt our agent app, we looked at the new androidx libraries and decided that they almost met our needs–but they left a few crucial gaps that still made writing Android apps more painful than it should be.",
+      "title": "Our Android framework"
+    }
+  ],
+  "company_key": "yc-wave",
+  "month": "2019-07"
+}

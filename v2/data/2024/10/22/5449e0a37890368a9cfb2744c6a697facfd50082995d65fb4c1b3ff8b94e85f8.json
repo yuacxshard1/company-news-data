@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5449e0a37890368a9cfb2744c6a697facfd50082995d65fb4c1b3ff8b94e85f8",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/changelog/artillery-cli-v2-0-21",
+  "canonical_url": "https://www.artillery.io/changelog/artillery-cli-v2-0-21",
+  "title": "Artillery CLI v2.0.21",
+  "summary": "Bug fixes and feature enhancements for CLI and Fargate.",
+  "body_markdown": "October 22nd, 2024[CLI](https://www.artillery.io/changelog/tag/cli)\n\n\n# Artillery CLI v2.0.21\n\n\nHassy Veldstra\n\n\n## Core & CLI\n\n\n- Add` --env-file` flag as an alternative for` --dotenv` flag. This makes it consistent with the[Node.js --env-file flag](https://nodejs.org/dist/latest-v20.x/docs/api/cli.html#--env-fileconfig) . The` --dotenv` flag will be deprecated in a future release ([#3376](https://github.com/artilleryio/artillery/pull/3376) )\n- Add tracking of response times by HTTP status code. A new set of metrics (e.g.` http.response_time.2xx` or` http.response_time.5xx` ) is now reported to provide more granular view of response times in a test ([#3326](https://github.com/artilleryio/artillery/pull/3326) )\n- Fix an issue that caused incorrect “multiple batches of metics” warnings when running tests with` pause` phases ([#3331](https://github.com/artilleryio/artillery/pull/3331) )\n\n\n## Playwright\n\n\n- Upgrade Playwright to v1.48.0\n\n\n## Azure\n\n\n- Fix: Make values loaded from an env file with` --dotenv` /` --env-file` flag available to workers containers (rather than just the Artillery process running inside the worker) ([#3376](https://github.com/artilleryio/artillery/pull/3376) )\n- Stagger startup of containers in large load tests to prevent rate limit errors from Azure services ([#3371](https://github.com/artilleryio/artillery/pull/3371) )\n\n\n## OpenTelemetry\n\n\n- Add support for setting resource-level attributes ([#3335](https://github.com/artilleryio/artillery/pull/3335) )\n\n\n## Artillery Cloud\n\n\n- Send CI related information to Artillery Cloud. This makes the following information available in Artillery Cloud:\n\n\n- Whether a test run was triggered in CI or not, and which CI service was used\n- For tests triggered in GitHub Actions - provide a link back to the job run on GitHub Actions\n\n\n## Dependencies\n\n\n- Upgrade` json-plus` to address a critical security vulnerability ([#3369](https://github.com/artilleryio/artillery/pull/3369) )",
+  "published_at": "2024-10-22T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T17:13:32.020779+00:00",
+  "content_hash": "sha256:9a82edcb06fab01b7ecfe724733eb0c3ad7b38a02ba185582bb7a824f2a30064"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ec6db850284efd4e295c8b15470059f00075a8a40045e03ec667eb423ba63392",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
+  "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
+  "summary": "Discover more about what's new at AWS with IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
+  "body_markdown": "[AWS Identity and Access Management (IAM) Roles Anywhere](https://aws.amazon.com/iam/roles-anywhere/) now provides a plugin for the[AWS SDK for Java v2](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html) that enables workloads running outside of AWS to obtain temporary AWS credentials directly within the Java application process. The plugin runs in the same Java Virtual Machine (JVM) as your application, removing the need to run the IAM Roles Anywhere credential helper as a separate process or configure credential_process in your AWS profile.\n\n\nYou configure the plugin on your AWS SDK for Java v2 service client builder to automatically resolve temporary credentials without writing credential-fetching logic. The plugin handles calling CreateSession and automatically refreshing credentials before they expire. It supports RSA, Elliptic Curve (EC), and ML-DSA key types and requires Java 8 or higher. There is no additional charge for using the plugin.\n\n\nIAM Roles Anywhere is available in all[AWS Regions](https://docs.aws.amazon.com/general/latest/gr/rolesanywhere.html) , including the AWS GovCloud (US) Regions, AWS European Sovereign Cloud (Germany) Region, and China Regions. To get started with the Java plugin, see the[IAM Roles Anywhere Java plugin documentation](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/java-plugin.html) . For the current version, release notes, and signature verification instructions, see the[plugin's page](https://central.sonatype.com/artifact/software.amazon.rolesanywhere.plugin/roles-anywhere-java) on the Maven Central website and the[roles-anywhere-java repository](https://github.com/aws-sdk-plugin/roles-anywhere-java) on GitHub.",
+  "published_at": "2026-08-25T13:18:00+00:00",
+  "first_seen_at": "2026-08-25T22:32:32.654169+00:00",
+  "content_hash": "sha256:a212cb640957caee5dbcc4472aee81ba4b2000656f28894a19fb39345b7193ec"
+}

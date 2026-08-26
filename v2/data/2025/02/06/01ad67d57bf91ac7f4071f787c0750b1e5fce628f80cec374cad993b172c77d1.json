@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "01ad67d57bf91ac7f4071f787c0750b1e5fce628f80cec374cad993b172c77d1",
+  "company_key": "yc-prequel",
+  "company_name": "Prequel",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.prequel.co/blog/share-vector-and-geography-data-with-your-customers/",
+  "canonical_url": "https://www.prequel.co/blog/share-vector-and-geography-data-with-your-customers/",
+  "title": "New: Share vector and geography data with your customers",
+  "summary": "Any company that uses APIs or ETL tools to share vector or geographic data with customers can now use our Data Export Platform to drastically increase transfer throughput.",
+  "body_markdown": "Today, some of the most innovative technology companies use Prequel to share trillions of rows of data with customers ranging from Fortune 500 companies to the biggest names in AI.\n\n\nThey use Prequel to share integers, strings, JSON, floats, bits, and more—eleven data types in all. Today, we’re adding two more: vector and geographic (GIS) data. Vector is a default primitive data type used in AI systems and LLMs, while geography is used to represent spatial relationships and locations.\n\n\nAny company that uses APIs or ETL tools to share vector or geographic data with customers can now use our Data Export Platform to drastically increase transfer throughput while lowering costs, reducing setup time, and eliminating errors caused by scraping.\n\n\nThe new data types can be shared across the[10 data platforms that support them today](https://docs.prequel.co/docs/data-types) , including Snowflake, BigQuery, Redshift, and Postgres. To ensure compatibility, Prequel automatically translates data types to match each platform’s naming conventions.\n\n\nFor instance, because BigQuery supports vectors as` array` and Snowflake uses` array(double precision)` , Prequel translates vector data moving from BigQuery to Snowflake as` array(double precision)` .\n\n\n## How Prequel works\n\n\nPrequel is a complete data export platform. It includes everything that technology companies need to build, manage, and scale customer data exports, including an embeddable customer experience, transfer monitoring, multi-tenant filtering, and schema evolution.\n\n\nCompanies can set up Prequel in as little as one day. Their customers can sign up in-app, select the data they want to receive, and choose how often they want their data updated, from every 15 minutes to once daily.\n\n\nPrequel supports every major database, data warehouse, and object storage service. Click here to[see a demo](https://www.prequel.co/demo) or[schedule a time to talk to sales](https://www.prequel.co/request-product-demo) .",
+  "published_at": "2025-02-06T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T10:10:51.593417+00:00",
+  "content_hash": "sha256:709daf7c13d64452251a2acb0f335ac6b379fb38ce2acdde15d3658b258edd82"
+}

@@ -1,0 +1,115 @@
+{
+  "articles": [
+    {
+      "company_key": "digi-international-inc-common-stock",
+      "company_name": "Digi International Inc.",
+      "doc_id": "0172f665f0ce59601d34a64a6b1513a0d63aefd13207dbff93378c3a18e0511c",
+      "first_seen_at": "2026-07-20T23:16:59.671268+00:00",
+      "published_at": "2020-05-13T05:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The Safetemps 10-second health screening solution enables data-driven insights for enterprises",
+      "title": "SmartSense by Digi Introduces Digital Health Screening Solution to Bolster Employee Safety as Businesses Reopen"
+    },
+    {
+      "company_key": "ameresco-inc-class-a-common-stock",
+      "company_name": "Ameresco Inc.",
+      "doc_id": "1ba2571c3f816b16c3ff11472c230b8e2efbbaf5f7bd6cf8c26692e70a77791b",
+      "first_seen_at": "2026-07-25T01:11:39.541007+00:00",
+      "published_at": "2020-05-13T11:27:00+00:00",
+      "source_kind": "rss",
+      "summary": "Ameresco Announces Commercial Operations of its First Wind Farm in County Kerry, Ireland",
+      "title": "Commercial Operations Announced at Ameresco's First Wind Farm in County Kerry, Ireland"
+    },
+    {
+      "company_key": "yc-posthog",
+      "company_name": "PostHog",
+      "doc_id": "26a00e9a3bc2aeb1fe0a90050d5e163fd337c8f2f234baac1b9a8157de4e8a29",
+      "first_seen_at": "2026-07-20T23:20:52.157750+00:00",
+      "published_at": "2020-05-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Another week, another PostHog Array. We're steadily working towards parity with other tools. This week's highlights include a new website, multiple…",
+      "title": "Array 1.5.0"
+    },
+    {
+      "company_key": "stifel-financial-corporation-common-stock",
+      "company_name": "Stifel Financial Corporation",
+      "doc_id": "2b96fba48aa16a0f61632f62fc8624ae4baa429148e3b03eb3b47e7a52b14727",
+      "first_seen_at": "2026-07-20T03:32:36.708871+00:00",
+      "published_at": "2020-05-13T03:26:50+00:00",
+      "source_kind": "rss",
+      "summary": "STIFEL ANNOUNCES PRICING OF $200 MILLION OF NON-CUMULATIVE PERPETUAL PREFERRED STOCK",
+      "title": "STIFEL ANNOUNCES PRICING OF $200 MILLION OF NON-CUMULATIVE PERPETUAL PREFERRED STOCK"
+    },
+    {
+      "company_key": "yc-pushbullet",
+      "company_name": "Pushbullet",
+      "doc_id": "2b98c5c78d46e9a648546cad94cc000074a0558d442b3a22f5d1517e210508e3",
+      "first_seen_at": "2026-07-25T20:08:48.518680+00:00",
+      "published_at": "2020-05-13T05:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We at Pushbullet have received some bad news from Google. It appears our extension will be removed from the Chrome Web Store if we don’t make required changes within 14 days. Not good! The bigger problem? Google hasn’t told us what those required changes are. Here’s the full text of the email if you’d like to read it for yourself. The Pushbullet Chrome extension has been on the Chrome Web store for over 6 years, currently has over 1,000,000 users, and has a 4.5 star average rating. See for yourself here. We are very proud of this. In addition to the large number of users and excellent rating, our extension is also frequently featured by Chrome Web Store team which we really appreciate! Here’s us in the Work From Home collection. Considering all of the work we’ve done over the years to make an exceptional Chrome extension that this worthy of being featured by the Chrome Web Store team, it was shocking to read we are less than 14 days away from being removed from the Web Store. The Pushbullet extension is our most-installed app for desktop. It being removed may very well be the end of Pushbullet altogether. This is a big deal for us. 14 days and counting. What do we have to go on to guess the required changes to not get kicked off the Chrome Web Store? Fortunately, Google has given us a hint of what changes we need to make. Here’s what the email said: Your item did not comply with the following section of our Program Policies: \"User Data Privacy\" Your product violates the \"Use of Permissions\" section of the policy, which requires that you: Request access to the narrowest permissions necessary to implement your product’s features or services. If more than one permission could be used to implement a feature, you must request those with the least access to data or functionality. Don't attempt to \"future proof\" your product by requesting a permission that might benefit services or features that have not yet been implemented. We appear to violate the “Use of Permissions” section of the Chrome Web Store policy. That’s not good! Based on my interpretation of bullet points listed, I believe Google wants us to find ways to reduce the permissions our extension requests. Ok, fair enough. I’ll accept that challenge. It’s not clear what permissions Google wants us to remove (or how many, or anything like that) but lets make a good-faith effort to reduce the permissions our extension requests! What permissions does our extension request? Our extension requires these permissions: tabs , activeTab , contextMenu , cookies , notifications , idle , https://*/* , and http://*/* . We also optionally request these permissions if a user wants to enable certain features: background , clipboardRead , clipboardWrite . So, can we cut any of these permissions? First, let’s start off by prioritizing. I believe the Chrome team are most concerned with the required permissions (these are all granted at install). Optional permissions are requested later and must be manually granted by the user. Since the optional permissions are specifically approved by a user, they seem pretty tame. Let’s focus on reducing the required permissions! As I looked at the permissions and what our extension actually needs to operate, I noticed a great opportunity to reduce our permissions requests. We do not need to request access to data on https://*/* and http://*/* . Instead, we can simply request data access for https://*.pushbullet.com/* , http://*.pushbullet.com/* , and http://localhost/* . This is a huge reduction in the private data our extension could theoretically access. A big win! The other opportunity is the tabs permission. This permission lets extensions see what tabs are open. Pushbullet uses this permission to avoid opening new tabs for websites that are already open when mirrored notifications are clicked. This is a small sacrifice to make to let go of a big permission. Let’s let it go! What permissions are required now? Our extension will now only require: activeTab , contextMenu , cookies , notifications , idle , https://*.pushbullet.com/* , http://*.pushbullet.com/* , and http://localhost/* . This is a huge reduction in the level of access Pushbullet requires to operate! A big success. Let’s get it submitted to the Chrome Web Store! Submitted and rejected. Around 24 hours after submitting the updated extension, it was rejected. Unfortunately, it appears the changes we’ve made are not the changes Google requires. Google has provided no further guidance on what changes they require. The reason for rejection was exactly the same as our original notice. I also replied to the email asking for further guidance but have not received any response. I obviously don’t expect one but it was no harm to try. 7 days left now. Where do we go from here? I’ve tried coming up with a few theories of other changes we could make to potentially get past whatever is blocking our extension. Here are my current theories: Change the http(s)://*.pushbullet.com/* data permissions to http(s)://www.pushbullet.com . This shouldn’t really matter since it is our own first-party domain after all, but perhaps reducing the scope would help? Remove the clipboardRead and clipboardWrite permissions. These permissions are optional and only requested if a user enables Universal copy & paste . However, perhaps Chrome is unwilling to allow extensions to request these permissions now? Google did kill clipboard managers on Android recently after all. This will mean removing the feature from our extension. Why not just keep trying submissions with changes that might help until it passes review? I think I don’t have any choice to do this, but it isn’t without risk. I fear Google’s automated system will think I am trying to find a way around the rules and permaban my entire Google account. Their policy does specifically state: This may also result in the suspension of related Google services associated with your Google account. Giving it another try, stay tuned for updates. Later today I am going to give another submission a try with the 2 changes I listed above. Follow our blog and @pushbullet for updates! What do you think of all of this? I’m eager to hear what people think so far. Am I missing something obvious? Do you have a good suggestion I may not have thought of? Do you have a friend that works on Chrome? Please share! I have made a post on the Pushbullet subreddit for us to discuss this here.",
+      "title": "Let's Guess What Google Requires In 14 Days Or They Kill Our Extension"
+    },
+    {
+      "company_key": "technipfmc-plc-ordinary-share",
+      "company_name": "TechnipFMC plc Ordinary Share",
+      "doc_id": "54fe169af29be0a1cbd8b91ff4107a2ec99acebeb03fcaf1084203c1c8368ebd",
+      "first_seen_at": "2026-07-25T01:08:54.270037+00:00",
+      "published_at": "2020-05-13T06:54:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "TechnipFMC’s Badger Licensing offers innovative process to produce antiseptic"
+    },
+    {
+      "company_key": "yc-apollo",
+      "company_name": "Apollo",
+      "doc_id": "5ca55f81d53c4df6dcfa1e5021736b5d4cdfe2c221b8cc436aefeed2e13ca1b0",
+      "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+      "published_at": "2020-05-13T08:48:59+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Dispatch This: Using Apollo Client 3 as a State Management Solution"
+    },
+    {
+      "company_key": "our-bond-inc-common-stock",
+      "company_name": "Our Bond Inc.",
+      "doc_id": "79e3f26d1e61790a8a28a92f826ffdfe46e4a9406fb4b7c0c0f763728b2db78d",
+      "first_seen_at": "2026-07-25T18:23:18.202579+00:00",
+      "published_at": "2020-05-13T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Personal security for everyone in every situation. Whether you're uneasy or in danger, Bond is only a tap away. Our technology, services and Personal Security Agents are available 24/7.",
+      "title": "Free Premium Service for our Healthcare Heroes"
+    },
+    {
+      "company_key": "landstar-system-inc-common-stock",
+      "company_name": "Landstar System Inc.",
+      "doc_id": "bac77a6584afe44cef4f11e888342390d35b55445951ce089354448beb1da68c",
+      "first_seen_at": "2026-07-25T11:27:28.552406+00:00",
+      "published_at": "2020-05-13T15:17:39+00:00",
+      "source_kind": "rss",
+      "summary": "Each month, deserving independent business capacity owners (BCOs) and independent agents earn Star of Quality awards, recognizing their extra efforts and individual dedication to service.",
+      "title": "The March & April 2020 Star of Quality Awards"
+    },
+    {
+      "company_key": "digi-international-inc-common-stock",
+      "company_name": "Digi International Inc.",
+      "doc_id": "c722ebcc5e1eb16349fc063d7dce1a759ed4ab99e1503e0f474303604b9f6e29",
+      "first_seen_at": "2026-07-25T01:12:11.073636+00:00",
+      "published_at": "2020-05-13T06:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "IoT developers have access to a wide variety of cloud platforms, embedded devices, sensors, and connectivity options. One of the most popular methods today is...",
+      "title": "Cellular Design Considerations for an Optimal IoT Strategy"
+    },
+    {
+      "company_key": "stifel-financial-corporation-common-stock",
+      "company_name": "Stifel Financial Corporation",
+      "doc_id": "de48f4498b5d3323b1b2d20562b74a0190c9fda8b00badf3ae02165826cb3b7b",
+      "first_seen_at": "2026-07-20T03:32:36.708871+00:00",
+      "published_at": "2020-05-13T22:37:49+00:00",
+      "source_kind": "rss",
+      "summary": "STIFEL ANNOUNCES PRICING OF $400 MILLION OF SENIOR NOTES",
+      "title": "STIFEL ANNOUNCES PRICING OF $400 MILLION OF SENIOR NOTES"
+    }
+  ],
+  "date": "2020/05/13"
+}

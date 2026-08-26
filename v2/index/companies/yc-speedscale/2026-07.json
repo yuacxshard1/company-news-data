@@ -1,0 +1,86 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "09fe25490646f87e64a8f2b977f27f8420a857663d4e798639905ce7e1ee4934",
+      "first_seen_at": "2026-07-27T19:24:32.239548+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The best model isn't the smartest — it's whichever should get the next unit of work. Notes from NVIDIA on routing, local models, and the AI factory.",
+      "title": "The Best Model Is a Routing Decision"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "3710d2948a49dcf0254e0dd023c420284c734506f508b7abd712c01063dcb548",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-07-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Our v2 release looked clean in HTTP tests until we diffed the SQL workload — an N+1 loop, a startup migration, and 70 ms of extra DB time hiding in plain sight. Here's how to compare two releases without database access.",
+      "title": "The API tests passed. The database didn't."
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "4bd4e15980a7777759890e23ea5717bc50bd62a99b20badd1108dd511229e96d",
+      "first_seen_at": "2026-07-23T21:10:15.882494+00:00",
+      "published_at": "2026-07-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Testing AI applications with invented traffic looks fine until real users arrive. Then come the retries, the fallback models, and the token bill.",
+      "title": "Imaginary Test Data. Real Token Bill."
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "695256652d27e2508f462ee6aaf8dee53b6b1d73471eee8b70fed6a376008cd1",
+      "first_seen_at": "2026-08-01T01:39:12.021391+00:00",
+      "published_at": "2026-07-31T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Use Grafana Pyroscope and proxymock with an AI coding agent to find a Go CPU hotspot, preserve API behavior, and verify the performance fix.",
+      "title": "Flamegraphs Find It. Replay Proves It."
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "8663beee05f99b59ac8a83cf0bf730ef0a9ec4b5a4b78b46588c0a34c8732d22",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The trace was sampled out. I found the bug anyway — by filtering recorded traffic on the customer's email instead of a trace ID. Here's how to follow one request across four services with no trace IDs and no OpenTelemetry.",
+      "title": "Trace without traces"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "8c5f3ef9d6985c236b595189795e395bd26fca81233d7430cd3b48919c3ad78f",
+      "first_seen_at": "2026-07-29T18:02:56.371078+00:00",
+      "published_at": "2026-07-28T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "How our nettap eBPF agent produced garbage HTTP bodies from kernel iov_iter scatter-gather buffers, and the CO-RE plus task-local storage fix that made it correct.",
+      "title": "eBPF: Preventing Garbage HTTP Payloads When Reading Kernel Scatter-Gather Buffers"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "a257b79ede541511e81781386bc5d0f43e7a3e5222733d4dda45cb698eaac5f4",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-07-09T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI pushed throughput up 59%, yet median delivery got worse. The bottleneck moved to validation. How replaying production traffic in CI closes the gap.",
+      "title": "AI writes code in seconds, but delivery still takes days"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "afa80eac1eda38653c60a0b2f23253581ef3c20fa9c56b0b8959ecd6f73bf0ef",
+      "first_seen_at": "2026-07-24T16:31:08.962245+00:00",
+      "published_at": "2026-07-24T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A production bug survived two confident fixes and green tests. Replaying the captured request exposed the missing state and proved the real fix.",
+      "title": "Two confident fixes missed this production bug"
+    }
+  ],
+  "company_key": "yc-speedscale",
+  "month": "2026-07"
+}

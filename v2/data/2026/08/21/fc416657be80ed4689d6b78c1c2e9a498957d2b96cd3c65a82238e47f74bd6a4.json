@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fc416657be80ed4689d6b78c1c2e9a498957d2b96cd3c65a82238e47f74bd6a4",
+  "company_key": "yc-font-awesome",
+  "company_name": "Font Awesome",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://blog.fontawesome.com/web-awesome-3-12/",
+  "canonical_url": "https://blog.fontawesome.com/web-awesome-3-12/",
+  "title": "WA 3.12: Figma Design Kit 3.0, Dropdown Links, Plus Tooltip Fixes",
+  "summary": "News and information from Font Awesome – the internet’s favorite icon set; mixed with musings and nerdery from the team behind it.",
+  "body_markdown": "🎨 **Figma Design Kit 3.0**\n\n\nThe Official Figma Design Kit has hit its 3.0 version. We’ve added ten new components, closing the gap between Figma and the library:\n\n\n- Accordion\n- Checkbox Group\n- Date Input\n- Date Picker\n- File Input\n- Known Date\n- OTP Input\n- Time Input\n- Toast\n- Video\n\n\nAdditional variables, slots, and sizing options have been added as well. The full list of updates can be found[here](https://webawesome.com/docs/resources/figma#version-history) .\n\n\n🔗 **Links in <wa-dropdown-item>**\n\n\n` <wa-dropdown-item>` now accepts` href` ,` target` ,` rel` , and` download` , which gives it the ability to act like a real link.` ⌘/Ctrl` will still open the link in a new tab (except in Safari). Items with a submenu ignore` href` , there’s also a new` link` custom state.\n\n\n💬 **Tooltip Fixes**\n\n\n` <wa-tooltip>` now respects a canceled` wa-hide` event and stays open. Tooltips with trigger=”email” will no longer close on Escape.\n\n\n🧰 **There’s Always More**\n\n\nThere’s also a bunch fixes, namely focus ring on` <wa-switch>` ,` <wa-select>` ‘s clear button click target,` <wa-input>` password toggle,` <wa-dropdown>` ‘s` aria-posinset/aria-setsize` ,` <wa-data-grid>` filtering and layout and more.\n\n\nThe full list of fixes can be found on the[changelog](https://webawesome.com/docs/resources/changelog) .",
+  "published_at": "2026-08-21T23:03:27+00:00",
+  "first_seen_at": "2026-08-21T23:17:57.007351+00:00",
+  "content_hash": "sha256:a46e8aea2350760258a7e0a2213c73e69c9dcb5e9fcf1250eab728467fbb01fa"
+}

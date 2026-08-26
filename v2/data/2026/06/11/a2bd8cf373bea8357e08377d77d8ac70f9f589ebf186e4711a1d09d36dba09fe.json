@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a2bd8cf373bea8357e08377d77d8ac70f9f589ebf186e4711a1d09d36dba09fe",
+  "company_key": "yc-simplifyd-systems",
+  "company_name": "Simplifyd Systems",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://simplifyd.com/changelog/postgres-databases-and-users",
+  "canonical_url": "https://simplifyd.com/changelog/postgres-databases-and-users",
+  "title": "Additional Postgres databases and users",
+  "summary": "One Postgres service can now host several databases and roles, each with its own credentials.",
+  "body_markdown": "[Home](https://simplifyd.com/) /\n\n\n[Changelog](https://simplifyd.com/changelog) /\n\n\nAdditional Postgres databases and users\n\n\nInstead of running a service per database, add extra databases and users to an existing Postgres service. Each user gets a generated password, surfaced as a ready-to-use connection string in the dashboard.\n\n\nOwnership and grants are reconciled continuously, so a role you remove in the console is removed on the cluster too.",
+  "published_at": "2026-06-11T09:00:00+00:00",
+  "first_seen_at": "2026-08-25T08:17:01.984119+00:00",
+  "content_hash": "sha256:2eb4359ce5762bbad899f718f263d92234e7c26f3b6928934d1a42b0fce71606"
+}

@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "5c393ca14404ea98e666b650909bc6068a079e3168b485205f84fc57e9135c4f",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2026-01-15T11:48:45+00:00",
+      "source_kind": "rss",
+      "summary": "Is popup window recording supported in OpenReplay v16 integrated in react? Summary: OpenReplay is not recording activity in a child window (popup). Only the parent window is captured. Current Behavior: Parent window is recorded when start() is called. Popup window is not recorded at all. Reason / Analysis: start(true) is executed in the parent window context, so tracking restarts only in the parent, not the popup. The popup runs in a separate JavaScript context and does not ini...",
+      "title": "Popup (Child Window) Not Recorded in OpenReplay v16"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "5fefcb94c56960684a9b0dac006be90e0c68da57cd824c63aaad449447eecd2a",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2026-01-23T06:12:02+00:00",
+      "source_kind": "rss",
+      "summary": "Hi team, I’m experiencing an issue with OpenReplay session recordings in my WordPress application (hosted on ESC with Docker). The session content is being captured, but the recordings show only plain HTML—none of the CSS styles are applied. Has anyone encountered this problem before, or does anyone know how to get OpenReplay to record and display sessions with the correct styling? Any tips or troubleshooting steps would be greatly appreciated! Thank you!",
+      "title": "WordPress application – Styles are not recording on OpenReplay"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "6959e72dcb9a1114f3e22cf5069fab5b71e59ad91785f890fa3bc31f44d102c8",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2026-01-15T11:40:43+00:00",
+      "source_kind": "rss",
+      "summary": "Issue: Icons are not rendering correctly in OpenReplay session replays and appear as crossed-out boxes, even though they display properly in the live React application. Cause: The icon font CSS is imported from node_modules and references font files using relative paths (e.g., ./webfont.woff2). While these paths resolve correctly at runtime in the application, the OpenReplay replay iframe cannot access node_modules paths.",
+      "title": "Open replay icons issue"
+    }
+  ],
+  "company_key": "yc-asayer",
+  "month": "2026-01"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bbba13c9e9e93ef4b6260bbd60eaf2f83de314a78ef592f928b3b04b3b663e84",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-session-artifacts",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-session-artifacts",
+  "title": "Markdown artifacts in AI sessions",
+  "summary": "In AI sessions, the assistant can now save longer structured output like plans, specs and design write-ups as markdown artifacts that persist for the whole session. Artifacts open in the session preview panel with Copy, Download as .md and a Preview / View source toggle, and are listed in the new status line above the chat input that gathers the session's drafts, artifacts and jobs. They are stored locally in your browser, restored when you reopen the session and removed when the session is deleted.",
+  "body_markdown": "### [Markdown artifacts in AI sessions](https://www.windmill.dev/changelog/ai-session-artifacts)\n\n\nAI Chat\n\n\nWindmill AI\n\n\n[v1.761.0](https://github.com/windmill-labs/windmill/releases/tag/v1.761.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_sessions#artifacts)\n\n\nIn AI sessions, the assistant can now save longer structured output like plans, specs and design write-ups as markdown artifacts that persist for the whole session. Artifacts open in the session preview panel with Copy, Download as .md and a Preview / View source toggle, and are listed in the new status line above the chat input that gathers the session's drafts, artifacts and jobs. They are stored locally in your browser, restored when you reopen the session and removed when the session is deleted.\n\n\n#### New features\n\n\n- The AI can create markdown artifacts (plans, specs, design write-ups) in sessions and revise them in place instead of duplicating them.\n- Artifacts open in the session preview panel rendered as markdown, with Copy, Download as .md and a Preview / View source toggle.\n- The session composer now gathers drafts, artifacts and jobs into a single status line above the input; the artifacts entry lists each artifact with open, download and delete actions.\n- Artifacts are session-scoped and stored locally in your browser: restored when you reopen the session, removed when the session is deleted.",
+  "published_at": "2026-07-16T00:00:00+00:00",
+  "first_seen_at": "2026-08-14T15:49:25.757524+00:00",
+  "content_hash": "sha256:d95e0722bbef7adcc70c5dfbe17095757332f02c02ffa152b891cf3fa5ce291c"
+}

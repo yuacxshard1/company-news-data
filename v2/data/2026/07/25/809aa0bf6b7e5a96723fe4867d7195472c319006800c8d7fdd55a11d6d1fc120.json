@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "809aa0bf6b7e5a96723fe4867d7195472c319006800c8d7fdd55a11d6d1fc120",
+  "company_key": "yc-humanlayer",
+  "company_name": "HumanLayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.humanlayer.dev/blog/stop-claude-from-ignoring-your-claude-md",
+  "canonical_url": "https://www.humanlayer.dev/blog/stop-claude-from-ignoring-your-claude-md",
+  "title": "Getting Claude to Actually Read Your CLAUDE.md",
+  "summary": "Using conditional XML blocks to make Claude pay attention to the right instructions at the right time.",
+  "body_markdown": "Claude Code wraps your CLAUDE.md in a` <system_reminder>` that explicitly tells the model the contents \"may or may not be relevant.\" The longer your file gets, the more Claude seems to treat individual sections as optional.\n\n\nWe[wrote before](https://www.humanlayer.dev/blog/writing-a-good-claude-md) about keeping these files concise and avoiding stuff that belongs in a linter. But even after trimming things down, I kept running into cases where Claude would ignore testing instructions while writing tests, or skip our API conventions when building endpoints.\n\n\n## ## Conditional` <important if>` blocks\n\n\nWhat's been working for me: wrapping sections in` <important if=\"condition\">` tags.\n\n\n```text\n<important if=\"you are writing or modifying tests\">\n- Use `createTestApp()` helper for integration tests\n- Mock database with `dbMock` from `packages/db/test`\n- Test fixtures live in `__fixtures__/` directories\n</important>\n```\n\n\nWe don't have a rigorous explanation for why this helps. My guess is that the explicit condition gives Claude a clearer signal about when to apply the instructions, rather than leaving it to decide relevance on its own. Whatever the mechanism, we've seen noticeably better adherence on tasks where only some sections of my CLAUDE.md should apply.\n\n\nA few things I've learned:\n\n\n**Don't wrap everything.** Project identity, directory structure, and tech stack are relevant to basically every task. The conditional blocks are for testing setup or deployment procedures that only matter sometimes.\n\n\n**Make conditions specific.**` <important if=\"you are writing code\">` matches almost everything and defeats the purpose. I try to make each condition narrow enough that it only fires when I actually want those rules applied.\n\n\n## ## A skill to automate this\n\n\nI did a lot of restructuring CLAUDE.md files by hand, so I made a Claude Code skill that does the rewrite. It pulls out the foundational stuff, wraps domain-specific sections in conditional blocks, and cleans up some common problems (stale code snippets, style rules that should be in a linter, vague instructions that don't actually help).\n\n\nIt's not perfect—you'll probably want to review what it produces—but it's a decent starting point.\n\n\n## ## Try it\n\n\n```text\nnpx skills add humanlayer/skills --skill improve-claude-md\n```\n\n\nThen in your project:\n\n\n```text\n/improve-claude-md\n```\n\n\nIt reads your existing CLAUDE.md and outputs a rewritten version. Source is at[github.com/humanlayer/skills](https://github.com/humanlayer/skills/tree/main/plugins/improve-claude-md) .",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T08:50:39.103220+00:00",
+  "content_hash": "sha256:40fb6c4782de08315e557346ac06dbbeb07a825277e83bda60664ff98857c10f"
+}

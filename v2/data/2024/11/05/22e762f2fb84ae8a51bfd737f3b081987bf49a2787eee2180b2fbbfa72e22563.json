@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "22e762f2fb84ae8a51bfd737f3b081987bf49a2787eee2180b2fbbfa72e22563",
+  "company_key": "yc-dittofeed",
+  "company_name": "Dittofeed",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.dittofeed.com/post/release-v0-18-0",
+  "canonical_url": "https://www.dittofeed.com/post/release-v0-18-0",
+  "title": "Release v0.18.0",
+  "summary": "",
+  "body_markdown": "Hi all, Dittofeed v0.18.0 is an absolutely huge release! We’ve included a number of additions which have the potential to majorly impact the way you use Dittofeed.\n\n\nThe biggest part of this release is our new notion-like low code email editor! This has been a long time coming, and requested by many of our users.\n\n\nTo learn more details about this release, keep reading!\n\n\nIf you like this project, we'd really appreciate a star on GitHub! You can find our repository at[https://github.com/dittofeed/dittofeed](https://github.com/dittofeed/dittofeed) .\n\n\n## Release Highlights\n\n\n### New: Low-code Email Editor\n\n\nDittofeed has release a low code email editor. The low code editor makes it easy to compose primarily text based emails. This editor features a Notion-inspired “/” command interface for inserting new blocks.\n\n\nLow-code email template editor\n\n\nThis feature has been requested by many teams and has been a long time coming. We’re excited to get feedback on the feature, improve on it, and see what teams use it to build!\n\n\n### Improved: Journey Statuses\n\n\nThe Journeys table now displays the status of the journey on each row (running, paused).\n\n\nJourney status\n\n\n‍\n\n\n### New: Copy Journeys and Segments Settings\n\n\nWe’ve added a new settings menu, that includes commands you can use to copy sample` curl` commands you can to use recreate journeys and segments.\n\n\nSettings drop-down with curl command copy\n\n\n‍\n\n\n### New:` unsubscribe_url` Liquid Tag\n\n\nWe now support an` unsubscribe_url` tag in addition to an` unsubscribe_link` tag, which allows you to customize styling of your unsubscribe links in your templates.\n\n\n[https://docs.dittofeed.com/resources/subscription-groups#adding-unsubscribe-links-to-emails](https://docs.dittofeed.com/resources/subscription-groups#adding-unsubscribe-links-to-emails)\n\n\n### Fix: Admin API Endpoints, Segments and Templates\n\n\nWe fixed the admin API’s for the` GET /api/admin/content/templates` and` GET /api/admin/segments` to retrieve templates and segments respectively.\n\n\n### Fix: Bug Fix In Process Assignments Pipeline\n\n\nWe fixed a bug in the pagination of process assignments pipeline that could cause assignments not to be processed when under a heavy load.\n\n\n## Wrap Up\n\n\nThis deployment is a big deal for Dittofeed. We’re excited for people to try out our low code email editor and let us know what they think.\n\n\nAlso, a big thank you to our new contributor:\n\n\n- [lyamone](https://github.com/lyamone)\n\n\nUntil next time!\n\n\n‍",
+  "published_at": "2024-11-05T00:00:00+00:00",
+  "first_seen_at": "2026-07-27T01:53:28.118221+00:00",
+  "content_hash": "sha256:d1c477ede2e302a3ddcb887137d28aec15c49f292c93860329643dbe2df859d3"
+}

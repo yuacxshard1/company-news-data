@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "97cec31d0e75c39b584b46af78f464031d38b2bc0294a9589d5495b1d6162ee2",
+  "company_key": "yc-blaxel",
+  "company_name": "Blaxel",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blaxel.ai/blog/how-to-build-a-voice-agent",
+  "canonical_url": "https://blaxel.ai/blog/how-to-build-a-voice-agent",
+  "title": "How to build a voice agent",
+  "summary": "We have built a voice agent on Blaxel and made it available as a template!",
+  "body_markdown": "## Voice Agents: The Next Revolution in AI Accessibility 🎤\n\n\nVoice agents represent a significant step forward in making AI more accessible and user-friendly.\n\n\nUnlike traditional text-based interactions, voice agents open up new possibilities for hands-free operation, greater accessibility, and more human-like conversations. Their usefulness doesn’t just stop at scenarios where typing is limited, we believe a vast majority of existing web and mobile user experiences could be upgraded to support voice-based inputs. Typically, an inbox & calendar application could support voice for an AI assistant that improves writing and schedules meeting.\n\n\nBy allowing people to communicate with AI systems through natural speech —both for input and output— voice agents create a more intuitive interaction experience across a lot of industries, from E-commerce to software development.\n\n\n## How Our Voice Agent Template Works\n\n\nPowering our new template is[OpenAI's Realtime API](https://platform.openai.com/docs/guides/realtime) , which delivers the low latency needed for seamless voice interactions and supports various input and output formats. The template features a[LangGraph ReAct agent](https://v03.api.js.langchain.com/functions/langchain.agents.createReactAgent.html) at its foundation, providing the reasoning capabilities needed to take actions based on user input.\n\n\nWhat makes this template special:\n\n\nReal-time audio streaming using WebSockets for bidirectional communication\n\n\nTool-calling capabilities via pre-built or custom Blaxel Functions\n\n\nVery-low-latency infrastructure for human-like conversational flow\n\n\nSupport for both batch and real-time audio processing\n\n\n## Get Started in Minutes\n\n\nBlaxel helps you build your first voice agent in record time. With[our template](https://github.com/beamlit/templates/tree/main/agents/typescript/2-voice) , you can start prototyping right away without wrestling with complex infrastructure or integration challenges.\n\n\nSimply use our template to jumpstart your development process and focus on what matters most - creating amazing voice experiences for your users.\n\n\n## Ready to Build the Future of Voice Interaction?\n\n\nHead over to our template gallery and get started with voice agents today. We can't wait to see what you'll build!\n\n\nHave questions or want to share what you're building? Drop us a line - we'd love to hear from you!",
+  "published_at": "2025-12-03T13:52:14+00:00",
+  "first_seen_at": "2026-07-20T23:20:26.598006+00:00",
+  "content_hash": "sha256:842b5ec9a874df2f28f087ce8605d7b30d9fb49ec8b7b2e64e20b2cba3f2b376"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "285b61d1a70962090ab3103c0f04e7241fc3ea2d03baa31a587c6326e7bd4807",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/optimizing-battery-life-in-monster-walk",
+  "canonical_url": "https://unity.com/blog/optimizing-battery-life-in-monster-walk",
+  "title": "Optimizing battery life in Monster Walk",
+  "summary": "Discover how the developers of Monster Walk, launched in October 2025 on iOS and Android, used Unity to bridge fitness and gaming by turning real-world steps into gameplay. In this video, Talofa Games CEO Jenny Xu explains the technical challenges and development decisions behind creating a seamless, background experience, including how the team uses Unity hooks for OnApplicationFocus and OnApplicationPause to save game state.",
+  "body_markdown": "**CONSOLIDATING STEP DATA STREAMS**\n\n\nBecause we've used Unity, it really helped to make it easy to connect to both the Android and iOS native plugins. And we're dealing with Android Health Connect, Google Fit, Garmin, all these sources of data coming into our game. And we have to consolidate all of that and tell the player how many steps we think they've taken between the last time they came into the game and when they opened it next.\n\n\nLuckily, Unity does provide us an ability to tap into native APIs. So like, we even created our own step counter at some point because we couldn't assume they'd have Health Connect. We couldn't assume they had Google Fit. Maybe they had nothing. And we created this native plugin that attached to Unity that all works seamlessly, and it would count steps in the background, even if the app was closed.\n\n\nSo, we had to build almost like a three-layer solution within our Unity project to support that. And, at the same time, not take up too much battery life or be constantly in the background so players would just want to uninstall.\n\n\nAnd same thing as well when it came to balancing all of the data we were getting. Because Apple, you have Apple Health, you have native foreground steps, like when the app is open and the phone is shaking, maybe the player is taking a step, but also Apple Health is also tracking a step at the time.\n\n\nSo, how do you consolidate the redundant data? How do you make it not feel too rewarding, not too punishing? Finding that sweet spot, being able to meet the player where they're at in terms of what device model they had and making that feel magical, that was the hardest technical challenge.",
+  "published_at": "2026-06-02T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:928d63dd46176274cfb74a485a7fea47e4e5ff156b15b34af2022c9d2b57a545"
+}

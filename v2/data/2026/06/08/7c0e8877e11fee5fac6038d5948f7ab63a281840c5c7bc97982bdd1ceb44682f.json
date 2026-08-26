@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7c0e8877e11fee5fac6038d5948f7ab63a281840c5c7bc97982bdd1ceb44682f",
+  "company_key": "yc-commodityai",
+  "company_name": "CommodityAI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.commodityai.com/posts/automating-deal-capture",
+  "canonical_url": "https://www.commodityai.com/posts/automating-deal-capture",
+  "title": "From inbox to CTRM: automating deal capture without ripping out your stack",
+  "summary": "Deal capture automation fails when it demands new systems. The pragmatic path: agents that read what traders already send and write to what ops already uses.",
+  "body_markdown": "Most attempts to automate deal capture start from the wrong end: a new screen for traders to fill in. Traders, reasonably, keep doing deals the way deals get done — over chat, phone, and email — and the new screen becomes one more place where data goes stale.\n\n\nThe alternative is to automate the reading, not the writing. The deal already exists in the broker recap, the chat transcript, the confirmation email. What ops needs is for those artifacts to become structured records without anyone re-keying them.\n\n\n## The capture pipeline\n\n\n- Ingest: agents watch the channels where deals actually arrive — shared inboxes, Teams, WhatsApp.\n- Extract: commercial terms come out of the unstructured text into a schema that matches your CTRM.\n- Validate: every field is checked against business rules — counterparty, tolerance, price basis, period.\n- Sync: clean records post downstream; exceptions become tasks with the source document attached.\n\n\n## Why schema alignment matters more than accuracy claims\n\n\nExtraction accuracy is table stakes; the hard part is producing output your systems accept without manual repair. That means respecting your commodity codes, your counterparty master, your units and period conventions. Atlas keeps that mapping as context, so a \"SB\" in a recap lands as the right sugar contract, not a guess.\n\n\nTeams that adopt capture this way keep their existing workflow exactly as it is — the change is that the record appears in the CTRM minutes after the recap lands, with an audit trail from source to system.",
+  "published_at": "2026-06-08T09:00:00+00:00",
+  "first_seen_at": "2026-07-24T06:14:02.324494+00:00",
+  "content_hash": "sha256:2aa391de068240c4da9b3dd657c0ea1528fd272880ddc3eece552ba4efc8b6da"
+}

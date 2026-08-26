@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bdd6c612249ab14f4c1646f3d7253f0a6bd4201b315021cf89d5bd3feb5471a0",
+  "company_key": "yc-strand-ai",
+  "company_name": "Strand AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://strandai.com/blog/tcga-coad-open-predictions",
+  "canonical_url": "https://strandai.com/blog/tcga-coad-open-predictions",
+  "title": "Open Lattice predictions on TCGA-COAD",
+  "summary": "Live Lattice predictions on public TCGA colorectal H&E slides, interactive in the browser. No sign-in.",
+  "body_markdown": "# Open Lattice predictions on TCGA-COAD\n\n\nAugust 2026 Oded Falik\n\n\nVirtual staining is usually shown as a figure. A cropped patch, one marker, a chosen field of view. You cannot pan away from it.\n\n\nSo we published the slides instead.\n\n\nBelow is a live Lattice prediction on a public TCGA colorectal (COAD) H&E slide. It is model output, not a physical stain. Drag to pan, scroll to zoom from whole-slide down to individual cells, and use the marker panel to toggle predicted protein channels over the same tissue. No sign-in, nothing staged ahead of you.\n\n\nLoading interactive slide...\n\n\nA live Lattice prediction on a public TCGA-COAD H&E. Split view shows H&E on the left and predicted marker channels on the right, with synced pan and zoom.\n\n\n## What you are looking at\n\n\nThe input is one standard H&E image. No serial section, no additional tissue, no stain.\n\n\nThe output is a set of spatially resolved protein maps at the resolution of the underlying image, which is why you can zoom to individual cells instead of to a coarse heatmap. Toggling a marker changes which predicted channel is composited over the tissue.\n\n\nSplit view is the best way to read it. H&E on the left, prediction on the right, same coordinates and same zoom. Put a structure under the cursor and watch what the model does with it.\n\n\n## Why colorectal, and why public\n\n\nTCGA is public, so anyone can pull the same input slide we did. Colorectal is our largest tissue category, and it is one of the indications partners ask about most.\n\n\nLattice is pan-cancer. Our training data spans a wide range of tissue types, with stomach, breast, lung, reproductive and pancreatic tissue all well represented alongside colon and rectum. This slide shows you the resolution and the behaviour. The breadth is the part you get on your own cohort.\n\n\n## Run it on your own slides\n\n\nSend us H&E you already have. We return predicted spatial proteomics, the analysis, and a written readout.\n\n\n[Run Lattice on your own H&E](https://app.strandai.com/sign-in)\n\n\nResearch use only (RUO). Not for use in clinical or diagnostic procedures.",
+  "published_at": "2026-08-15T00:00:00+00:00",
+  "first_seen_at": "2026-08-20T00:58:37.799173+00:00",
+  "content_hash": "sha256:fba635f0c164419fdc0b21576aa9898961f52adaa0d0e2e7269b6ec8fa8e2b08"
+}

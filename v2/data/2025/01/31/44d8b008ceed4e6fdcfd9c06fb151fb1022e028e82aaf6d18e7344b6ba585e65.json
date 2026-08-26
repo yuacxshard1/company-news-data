@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "44d8b008ceed4e6fdcfd9c06fb151fb1022e028e82aaf6d18e7344b6ba585e65",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/postgres-view-vs-materialized-view-choosing-the-right-one/",
+  "canonical_url": "https://www.basedash.com/blog/postgres-view-vs-materialized-view-choosing-the-right-one/",
+  "title": "Postgres: View vs Materialized View - Choosing the Right One",
+  "summary": "Postgres offers two distinct types of views: standard views and materialized views. Standard views operate as virtual tables that reflect real-time data.",
+  "body_markdown": "Postgres offers two distinct types of views: standard views and materialized views. Standard views operate as virtual tables that reflect real-time data, whereas materialized views store query results physically and need periodic refreshes. This distinction is crucial for optimizing database performance and ensuring data integrity. It’s essential to choose the right type of view based on your specific requirements for data freshness and query performance. Let’s explore these considerations in detail, aiding in choosing the optimal view type for your specific needs.\n\n\n## What are standard views in PostgreSQL?\n\n\nIn Postgres, a standard view acts as a virtual table, directly reflecting the latest data. This ensures that every query against the view executes the underlying SQL statement in real time, simplifying complex queries and maintaining data consistency. Here’s how you can create a standard view:\n\n\n```text\nCREATE   VIEW   example_view   AS\nSELECT   column1, column2\nFROM   some_table\nWHERE   condition   =   true;\n```\n\n\nChoose standard views for scenarios requiring up-to-the-minute data without significantly impacting database performance.\n\n\n## What are materialized views in PostgreSQL?\n\n\nUnlike standard views, materialized views in Postgres cache the query result as a physical table. This caching significantly speeds up query times for complex operations since the database doesn’t need to re-execute the original SQL query with each access. However, remember to refresh the view to update its data:\n\n\n```text\nCREATE   MATERIALIZED VIEW example_materialized_view   AS\nSELECT   column1, column2\nFROM   some_table\nWHERE   condition   =   true;\n```\n\n\nTo refresh this materialized view, use the following command:\n\n\n```text\nREFRESH MATERIALIZED VIEW example_materialized_view;\n```\n\n\nMaterialized views are ideal for complex, data-heavy queries where it’s acceptable for the information to be slightly outdated.\n\n\n## Choosing between standard and materialized views\n\n\nYour choice between standard and materialized views should align with your data access needs and query performance requirements:\n\n\n- Opt for **standard views** when you need immediate access to the most current data.\n- Choose **materialized views** for complex queries where improved performance outweighs the need for the latest data.\n\n\nMaking the correct choice between these two view types can significantly enhance your Postgres database’s efficiency and effectiveness.",
+  "published_at": "2025-01-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:19:59.901198+00:00",
+  "content_hash": "sha256:cc2a9a7ee73138846015dd2485011673045720e427949552f8bbeb5091c399f4"
+}

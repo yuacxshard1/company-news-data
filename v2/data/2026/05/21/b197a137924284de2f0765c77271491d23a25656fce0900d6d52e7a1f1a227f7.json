@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b197a137924284de2f0765c77271491d23a25656fce0900d6d52e7a1f1a227f7",
+  "company_key": "yc-saphira-ai",
+  "company_name": "Saphira AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.saphira.ai/blog/nobody-owns-the-assurance-graph",
+  "canonical_url": "https://www.saphira.ai/blog/nobody-owns-the-assurance-graph",
+  "title": "Nobody Owns the Assurance Graph",
+  "summary": "Read our latest blog post on Saphira",
+  "body_markdown": "## Opening\n\n\nModern engineering organizations use dozens of tools:\n\n\n- DOORS\n- Jira\n- Polarion\n- simulation systems\n- PLM systems\n- test infrastructure\n- telemetry platforms\n- architecture tooling\n\n\nEach tool manages individual artifacts. Nobody manages the relationships.\n\n\n## Core Thesis\n\n\nThe future of safety-critical engineering is the assurance graph.\n\n\n## What Is the Assurance Graph?\n\n\nA continuously synchronized graph connecting:\n\n\n- hazards\n- requirements\n- architecture\n- controls\n- code\n- tests\n- incidents\n- telemetry\n- operational assumptions\n- safety arguments\n\n\n## Why Existing Systems Fail\n\n\nRequirements systems manage requirements. Test systems manage tests. Ticketing systems manage changes.\n\n\nBut no system continuously reasons across:\n\n\n- dependency relationships\n- assumption propagation\n- evidence invalidation\n- operational impact\n\n\n## Why This Matters\n\n\nMost critical failures under change are graph failures.\n\n\nExamples:\n\n\n- software timing changes invalidate braking assumptions\n- perception stack updates invalidate scenario coverage\n- supplier firmware changes invalidate safety arguments\n\n\n## The Shift\n\n\nThe safety case becomes:\n\n\n- generated state\n- a projection of the graph\n- continuously synchronized\n\n\nNot a manually assembled PDF.\n\n\n## Closing\n\n\nThe next decade of safety engineering will belong to systems that understand relationships, not just artifacts.",
+  "published_at": "2026-05-21T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T12:44:10.119683+00:00",
+  "content_hash": "sha256:0163813b986c483038514488311dd93a9010796b7a5b698d7400e0642f51e096"
+}

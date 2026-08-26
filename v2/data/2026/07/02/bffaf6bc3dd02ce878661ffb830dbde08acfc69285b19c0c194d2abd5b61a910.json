@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bffaf6bc3dd02ce878661ffb830dbde08acfc69285b19c0c194d2abd5b61a910",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/adapting-causa-into-the-dusk-for-mobile",
+  "canonical_url": "https://unity.com/blog/adapting-causa-into-the-dusk-for-mobile",
+  "title": "Adapting Causa: Into the Dusk for mobile with Unity 6.3",
+  "summary": "In this video, the Niebla Games team explains how they worked with Unity to bring Causa: Into the Dusk, first launched on PC in 2021, to Google Play Pass, which is coming soon. They share how they migrated from Unity 2019 to Unity 6.3, upgraded from the Built-in Render Pipeline to the Universal Render Pipeline (URP) for higher and more consistent frame rates, scaled across devices with Unity Device Simulator, optimized with the latest Unity Profiler, and reduced build size using Unity’s Sprite Atlas system and Atlas Analyzer.",
+  "body_markdown": "**IMPROVING PERFORMANCE ACROSS DEVICES**\n\n\nThe experience of porting the game from PC to mobile was quite smooth in general. The most challenging part was optimization. We had to ensure that the game runs smoothly on a wide range of devices.\n\n\nWhen updating to Unity 6.3, we had access to improved tools for optimization. For example, we used the latest version of the Unity Profiler so we were able to identify performance bottlenecks and areas of improvement.\n\n\nAlso, we had to make sure that we were able to reduce the build size, and this meant working on and adjusting all the assets in the game, the textures, and making sure that players could have a good experience when finding and downloading the game.\n\n\nWe used to build our Sprite Atlases manually, and now we use the Unity Sprite Atlas System. This helps us organize and adjust our assets. Also, we are using the Unity Atlas Analyzer, so we are able to identify issues and clean up the assets in our Atlas in a much more efficient way. This has worked very well for us to reach a wide range of mobile devices.\n\n\n***Check out more stories from Unity developers on the***[Unity Blog](https://unity.com/blog) ***and***[Resource Hub](https://unity.com/resources) .",
+  "published_at": "2026-07-02T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:e71a80b67d37192bcf27f3288c320a492e8bcdd790fa84a120257c1ae06707b5"
+}

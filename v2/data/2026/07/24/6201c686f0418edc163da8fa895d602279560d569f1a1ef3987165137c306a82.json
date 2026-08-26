@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6201c686f0418edc163da8fa895d602279560d569f1a1ef3987165137c306a82",
+  "company_key": "yc-atlas-2",
+  "company_name": "Atlas",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://atlas.so/changelog/2025-03-11",
+  "canonical_url": "https://atlas.so/changelog/2025-03-11",
+  "title": "change-log-2025-03-11-1",
+  "summary": "Give your customers superhuman support",
+  "body_markdown": "[Back](https://atlas.so/changelog)\n\n\nMar 11th, 2025\n\n\n📩 Smarter Ticketing for Email & SMS\n\n\nWe’ve rolled out two powerful updates to make ticket management in Atlas even smarter— **Auto Forward Detection** and **New SMS Settings** .\n\n\n### Auto forward detection\n\n\n---\n\n\nEver had a teammate forward a customer’s email to support, only for the ticket to get assigned to the wrong person? We’ve fixed that!\n\n\nWhen a customer email is forwarded to your support inbox, Atlas will now automatically detect the original sender and set them as the customer. This prevents misrouted tickets and ensures the right person is assigned every time.\n\n\n**How it works:**\n\n\n- If an internal team member forwards a customer email to Atlas, the system auto-recognizes the original sender as the customer.\n- You’ll see an activity note in the ticket confirming that the customer was auto-switched.\n- The forwarding team member will be CC’d automatically, so they stay in the loop.\n\n\n### New SMS ticketing controls\n\n\n---\n\n\nYou now have greater control over how incoming SMS messages are handled when a customer’s last ticket is closed. Admins can now choose to:\n\n\n- Create a new ticket (default behavior)\n- Reopen the last ticket\n- Reopen the last ticket only if within a set timeframe\n\n\nYou can configure these settings in **App Config > SMS**\n\n\n---\n\n\nBoth features are **enabled by default** and available now. Try them out and let us know what you think!",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T17:37:07.485625+00:00",
+  "content_hash": "sha256:b5e91030f4af862b55c79d089722a986b00fa1f155475aa3f324cc1b9dd34160"
+}

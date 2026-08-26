@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2b097bc53e600c7bb86a602563f184cd9435aef8179b3dd49fa051886591ff91",
+  "company_key": "yc-helixdb",
+  "company_name": "HelixDB",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.helix-db.com/database/helix-db/start-here/release-notes#march-2026",
+  "canonical_url": "https://docs.helix-db.com/database/helix-db/start-here/release-notes",
+  "title": "HelixDB Enterprise v1.0.0",
+  "summary": "HelixDB Documentation",
+  "body_markdown": "Reference\n\n\n> For the complete documentation index optimized for AI agents, see[llms.txt](https://docs.helix-db.com/llms.txt) .\n\n\n​\n\n\n- **Open-source database** — the engine moved out of` helix-hyperscale` into the public, modular` helix-db` workspace.\n- **New query planner** — a dedicated logical and physical planning layer optimizes the typed operation-tree AST before execution.\n- **[Embedded database](https://docs.helix-db.com/database/helix-db/start-here/local-development/embedded-database)** — run the same engine and queries in process with memory, disk, or object storage.\n- **[Vector prefiltering](https://docs.helix-db.com/database/helix-db/query-guides/filtering#vector-prefiltering)** — traverse and filter an exact candidate set before vector ranking, so results cannot escape graph or permission boundaries.\n\n\n​\n\n\n- **[Row bindings](https://docs.helix-db.com/database/helix-db/query-guides/advanced)** —` bind` +` projectBindings` /` projectDistinctBindings` correlate values captured at different hops of a single traversal.\n- **Python SDK** — new zero-dependency synchronous SDK (` helix-db` , imported as` helixdb` ).\n- **CLI 3.0.6** —` --path` flag on` helix add` .\n\n\n​\n\n\n- **Go SDK**\n- **Better cache metrics for better query insights**\n- **Query plan improvements**\n- **` helix chef` command for local bootstrap**\n- **CLI DX improvements**\n\n\n​\n\n\n- **Local docker deployment**\n- **Query plan improvements**\n- **Query insights, metrics and suggestions**\n- **Stability and reliability improvements**\n- **Better memory usage and caching**\n\n\n​\n\n\n## ​\n\n\nLaunch 🚀\n\n\n- Graph database with vector search and full-text search\n- Fully ACID\n- Queries via Rust DSL\n- Backed by object storage\n- Multi-tenancy included by default",
+  "published_at": "2026-08-06T16:31:21+00:00",
+  "first_seen_at": "2026-08-09T23:01:51.910754+00:00",
+  "content_hash": "sha256:4ce27070f323871c7d6ff47985f99c39529e54308d50bd57ee812ef8ec4eb7f3"
+}

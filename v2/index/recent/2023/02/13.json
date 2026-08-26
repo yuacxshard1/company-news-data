@@ -1,0 +1,165 @@
+{
+  "articles": [
+    {
+      "company_key": "teledyne-technologies-incorporated-common-stock",
+      "company_name": "Teledyne Technologies Incorporated",
+      "doc_id": "08f1521eaf8263aaedbd9b513a56f2381e7b140478682ba2494a307fcd048182",
+      "first_seen_at": "2026-07-20T04:36:13.437201+00:00",
+      "published_at": "2023-02-13T13:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Figure 1. Transmitter equalization test results for preset Q1. PCI Express® 6.0 achieves its 64-GT/s data rate, double that of PCIe® 5.0, by moving from non-return-to-zero (NRZ) signaling to four-level pulse-amplitude-modulation (PAM4) signaling. This results in the need for more complex algorithms for voltage and timing measurements. The latest release of SDAIII software for Teledyne LeCroy oscilloscopes lets you easily measure response at different transmitter equalization presets to confirm that Tx EQ is achieving the specified levels prior to taking your DUT for compliance testing. The Tx EQ measurement feature works with NRZ signals and, if you have the additional SDAIII-PAMx option, with PAM3 and PAM4 signals, too. Transmitter Equalization Coefficients and Presets Measurement In PCIe 6.0, transmitter equalization measurements are performed on the new PAM4 Compliance Pattern signal using the AC method that was first introduced in PCIe 5.0. During the measurement (Figure 2), the device under test (DUT) transmits the Compliance Pattern with the corresponding TX equalization coefficients. An oscilloscope captures this equalized Compliance Pattern, and post-processing software extracts the equalized pulse-response waveform. The DUT also transmits the Compliance Pattern with no TX equalization, which the oscilloscope captures, and the post-processing software applies TX equalization coefficients to construct an equalized pulse-response waveform. This process results in TX preset coefficients that represent the best-fit TX equalization coefficients in order to minimize the mean square error between the measured equalized pulse-response waveform and the reconstructed equalized pulse-response waveform. Figure 1. Methodology for measuring Tx equalization coefficients and presets from the PCI Express Base Specification Revision 6.0, 16 December 2021, Figure 8-7 on page 1326. Courtesy of PCI-SIG. The 11 presets in PCIe 6.0 (Figure 3) are now annotated as Q0 through Q10, and their preshoots are proportionally higher compared to the PCIe 5.0 preshoots—in particular, presets 5 (Q4) through 9 (Q8). Figure 2. Tx Preset Ratios and Corresponding Coefficient Values for 64.0 GT/s from the PCI Express Base Specification Revision 6.0, 16 December 2021, Table 8-2 page on 1325. Courtesy of PCI-SIG. Figure 1 above shows an eye diagram of the Compliance Pattern using preset Q1 transmitter equalization coefficients, with the grid to the right of the eye diagram showing the pulse response for Q1 in magenta. The pulse response for Q0 without equalization, in yellow, is used as a reference to find Q1's best-fit transmitter equalization coefficients for C -2 , C -1 , C 0 and C +1 . Using SDAIII Software to Measure Transmitter Equalization The SDAIII software provides capabilities to measure Tx EQ and confirm that the preset values measured on the DUT conform to those in the specification. The general process is to: Configure the DUT to output the Compliance Pattern signal using preset Q0 with no equalization and acquire the Q0 differential signal. In the SDAIII software, display the pulse of the acquired signal and save it as a Reference waveform. You’ll now see two, “identical” waveforms on the display—one the Pulse in green and the other the saved PulseRef in yellow. Configure the DUT to output the Compliance Pattern using the next preset to be tested (e.g., Q1) and acquire the signal using the same settings as you did for the Q0 signal. Once the acquisition is processed, you should now see the signal with the new preset as the green Pulse waveform (see Figure 3). Measurements for that preset appear on the TxEQ table. Review the on screen table of TxEQ measurements and compare the values to Figure 2. Each should fall within the limits set forth in Table 8-2. For the full step-by-step instructions, download our application note, Making PCIe 6.0 Transmitter Equalization Measurements with Your Oscilloscope . You must change the saved PulseRef waveform for measurements made on different days or using different equipment. In that case, click Delete Pulse Response Ref and repeat the entire procedure above. Measuring Custom Presets The Tx EQ measurement tools can be used to test signals with custom presets following the same procedure as described above, saving the first acquisition with no equalization as the PulseRef. Generating Step-Response Waveforms Optionally, you can view the Pulse and the PulseRef as step-response waveforms simply by selecting the checkboxes Show Step Response and Show Ref Step. The step-response waveforms are color-coded green and yellow the same as the pulse-response waveforms. Figure 4. View the acquired signal as a step or pulse response waveform. Also see: Removing Oscilloscope Noise from PCIe 6.0 Compliance Pattern Measurements New PCIe 6.0 Compliance Pattern Measurements Get Ready for PCIe 6.0 Base Tx Testing--Compliance, Jitter and Eye Diagrams",
+      "title": "Making New PCIe 6.0 Transmitter Equalization Measurements with Your Oscilloscope"
+    },
+    {
+      "company_key": "yc-spotless-materials",
+      "company_name": "spotLESS Materials",
+      "doc_id": "15e3466d51c6b74aefac697ae2916f9a0af2720f8739455e11c510a2f6e4cdc2",
+      "first_seen_at": "2026-07-26T00:03:15.518146+00:00",
+      "published_at": "2023-02-13T15:30:00+00:00",
+      "source_kind": "atom",
+      "summary": "Carnivorous Plant inspires Super Cleanser (Fleischfressende Pflanze inspiriert zu Superreiniger) Pitcher plants are lazy carnivores: they let insects slip on their slippery surface and slide straight into their mouths. Now the trick is used for cleaning sanitary facilities. Good Impact | February 13, 2023",
+      "title": "Carnivorous Plant inspires Super Cleanser (Fleischfressende Pflanze inspiriert zu Superreiniger)"
+    },
+    {
+      "company_key": "yc-reach",
+      "company_name": "Reach",
+      "doc_id": "192cbba152b2bf96e677421fcf56980246cdacdbee7f2e3101f79e9bc697ba8a",
+      "first_seen_at": "2026-07-28T22:00:19.033769+00:00",
+      "published_at": "2023-02-13T15:19:49+00:00",
+      "source_kind": "rss",
+      "summary": "Important challenges and opportunities for wireless technologies will take center stage this year as IT managers look to plan network upgrades, expansions, and new installations.",
+      "title": "Wireless Worth Watching in 2023"
+    },
+    {
+      "company_key": "wabash-national-corporation-common-stock",
+      "company_name": "Wabash National Corporation",
+      "doc_id": "1ce653d601f54e16ff5c2a9e0dc6be9e5918b72b595086a3676fb3f2cbf09ac5",
+      "first_seen_at": "2026-07-25T01:06:56.076758+00:00",
+      "published_at": "2023-02-13T14:11:00+00:00",
+      "source_kind": "rss",
+      "summary": "LAFAYETTE, Ind. – Feb. 13, 2023 – Wabash (NYSE: WNC), the visionary leader of connected solutions for the transportation, logistics and distribution industries, will participate in LINK: The Retail Supply Chain Conference, hosted by the Retail Industry Leaders Association, February 19-22, 2023, in Orlando, Fla.LINK 2023 is an event for retai...",
+      "title": "Wabash Brings Sustainability-Focused Solutions to LINK: The Retail Supply Chain Conference"
+    },
+    {
+      "company_key": "yc-tizeti",
+      "company_name": "Tizeti",
+      "doc_id": "4a911304e1c88fa58aeb16bd595136ac634bb547cb31b8b08ef4cf3e4852c03f",
+      "first_seen_at": "2026-07-25T01:53:22.996724+00:00",
+      "published_at": "2023-02-13T00:51:52+00:00",
+      "source_kind": "rss",
+      "summary": "In line with its commitment to widening digital inclusion in Africa with affordable broadband connectivity, particularly to the continent’s underserved populations, Tizeti, West Africa’s pioneer solar-based internet service provider is launching its 4G LTE network in ten new states in Nigeria. These states include Delta, Akwa Ibom, Cross River, Abia, Anambra, Imo, Enugu, Abuja, Kano, and Kaduna, where the demand […]",
+      "title": "Tizeti expands internet access to 10 additional Nigerian states, starts mass recruitment"
+    },
+    {
+      "company_key": "domino-s-pizza-inc-common-stock",
+      "company_name": "Domino's Pizza Inc",
+      "doc_id": "5e71530894c781ecbdbc9f83f1a799967fb8d6f983429fa1086a96976aa2e1cb",
+      "first_seen_at": "2026-07-21T01:23:20.782241+00:00",
+      "published_at": "2023-02-13T20:10:46+00:00",
+      "source_kind": "rss",
+      "summary": "Domino’s Team Members Reflect on Black History Month In celebration of Black History Month, Domino’s employee resource group, BLISS (Black Leaders Innovating, Strategizing and Succeeding), asked members to share a little bit about themselves, and what the month means to them. Published: Feb. 13, 2023 Share Tweet “To",
+      "title": "Black History Month 2023"
+    },
+    {
+      "company_key": "ironwood-pharmaceuticals-inc-class-a-common-stock",
+      "company_name": "Ironwood Pharmaceuticals Inc.",
+      "doc_id": "61468b98ac382af3b5c1877e1f7ae897067a99ef0badb2972be9ef7ff752d781",
+      "first_seen_at": "2026-08-18T10:31:29.990145+00:00",
+      "published_at": "2023-02-13T12:30:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Ironwood Pharmaceuticals Announces FDA Filing Acceptance and Priority Review of Supplemental New Drug Application for LINZESS® (linaclotide) for Functional Constipation in Children and Adolescents Ages 6-17 Years-Old"
+    },
+    {
+      "company_key": "semrush-holdings-inc-class-a-common-stock",
+      "company_name": "SEMrush Holdings Inc.",
+      "doc_id": "6c3afd8d9c0246fa8750875bb04bf3187658909d5bc1460e8dc7646b12d8df7d",
+      "first_seen_at": "2026-07-22T13:04:29.490069+00:00",
+      "published_at": "2023-02-13T16:05:00+00:00",
+      "source_kind": "html",
+      "summary": "ChatGPT ist ein mächtiges Text-Werkzeug. Aber die KI-Texte sind ein Risiko für das Ranking von Webseiten. Wir erklären Einsatzbereiche für die Suchmaschinenoptimierung. Dabei nennen wir die Vorteile und Nachteile des Tools sowie Alternativen.",
+      "title": "ChatGPT: Chancen und Risiken für die Suchmaschinenoptimierung (SEO)"
+    },
+    {
+      "company_key": "teradata-corporation-common-stock",
+      "company_name": "Teradata Corporation",
+      "doc_id": "71d75afb722ad59d12d26630d6137836e2dd503e856209f46b28f5a1083bf706",
+      "first_seen_at": "2026-07-25T01:06:58.521780+00:00",
+      "published_at": "2023-02-13T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Teradata Reports Fourth Quarter and Full Year 2022 Financial Results"
+    },
+    {
+      "company_key": "yc-apollo",
+      "company_name": "Apollo",
+      "doc_id": "8f3e450bcf0bef300bdd02000bb24f3c468c34da2ce8a1ee367f51ed70841ae8",
+      "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+      "published_at": "2023-02-13T17:26:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Apollo Changelog: February 13, 2023"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "9b36d2d55e10d677d09679193e329bcf01554b6aa1bf370d539d0222b9774634",
+      "first_seen_at": "2026-07-20T23:20:31.088886+00:00",
+      "published_at": "2023-02-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Learn how to manage Kubernetes secrets.",
+      "title": "A better way to manage Kubernetes secrets"
+    },
+    {
+      "company_key": "yc-liv-labs-inc",
+      "company_name": "Liv Labs",
+      "doc_id": "af807d3c963da401295083bc9c02ab65999d5e64e8af2b261cc5365d01c2566f",
+      "first_seen_at": "2026-07-22T02:37:31.431850+00:00",
+      "published_at": "2023-02-13T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "",
+      "title": "First Study Participant Enrolled in Clinical Trial of Self-Managed SUI Pessary"
+    },
+    {
+      "company_key": "domino-s-pizza-inc-common-stock",
+      "company_name": "Domino's Pizza Inc",
+      "doc_id": "b37c4e396961a2b946a936834778c34ebfd60d96e864ae488aba458dadde007c",
+      "first_seen_at": "2026-07-21T01:23:20.782241+00:00",
+      "published_at": "2023-02-13T20:09:32+00:00",
+      "source_kind": "rss",
+      "summary": "Domino’s Loaded Tots are golden brown potato tots which are topped to perfection and oven baked. Order Now After much speculation and anticipation, Domino’s newest menu item, Loaded Tots, is now available in stores across the country! How would we describe it? Loaded Tots are all the best",
+      "title": "Loaded Tots Story"
+    },
+    {
+      "company_key": "elastic-n-v-ordinary-shares",
+      "company_name": "Elastic N.V.",
+      "doc_id": "d9a937b3491388151177b38193932d76bc45f1cce7bbd91fd7aed167e244b815",
+      "first_seen_at": "2026-07-25T01:11:00.469605+00:00",
+      "published_at": "2023-02-13T23:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Financial institutions have vast amounts of data about their customers, but many of them struggle to use that data to their advantage. Elastic and Google Cloud enable institutions to manage this infor...",
+      "title": "How to build comprehensive customer financial profiles with Elastic Cloud and Google Cloud"
+    },
+    {
+      "company_key": "yc-posthog",
+      "company_name": "PostHog",
+      "doc_id": "f9892041291a46f482cf45c07184893536851c1a95f95325aa04efec57485587",
+      "first_seen_at": "2026-07-20T23:20:52.157750+00:00",
+      "published_at": "2023-02-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Welcome to HogMail, our newsletter featuring the best of the PostHog blog, tutorials, product guides, and curated articles on building great products…",
+      "title": "HogMail #21: Avoiding the \"Product Death Cycle\""
+    },
+    {
+      "company_key": "culp-inc-common-stock",
+      "company_name": "Culp Inc.",
+      "doc_id": "f9f75977639643308d63098fa69834e64c4b392bf0cc62c1aa71a616b062321c",
+      "first_seen_at": "2026-07-25T00:03:03.639431+00:00",
+      "published_at": "2023-02-13T17:47:00+00:00",
+      "source_kind": "rss",
+      "summary": "Pat Rosser worked for Culp Home Fashions from 2011 to 2014 as Director of Operations, and served as the division’s VP of Operations from 2014 to 2020.",
+      "title": "Pat Rosser Joins Culp as Vice President of Global Operations for Culp Home Fashions"
+    }
+  ],
+  "date": "2023/02/13"
+}

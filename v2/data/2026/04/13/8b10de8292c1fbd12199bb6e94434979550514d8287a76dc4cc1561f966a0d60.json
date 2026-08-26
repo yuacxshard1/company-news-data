@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8b10de8292c1fbd12199bb6e94434979550514d8287a76dc4cc1561f966a0d60",
+  "company_key": "yc-stagewise",
+  "company_name": "stagewise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://stagewise.io/news/release-week-april-6-12",
+  "canonical_url": "https://stagewise.io/news/release-week-april-6-12",
+  "title": "Release Week: April 6–12 · stagewise Newsroom",
+  "summary": "Last week’s stagewise updates focussed on everyday product improvements: `/preview` for quick experiments, safer agent deletion, a more responsive UI, and better Windows reliability.",
+  "body_markdown": "## What Shipped Last Week\n\n\n### ` /preview` for fast mockups and experiments\n\n\nThe most useful addition this week is **` /preview`** . You can ask the agent to generate a small app that shows a mockup, pulls in data from the page you’re looking at, or tests an idea before you touch the real codebase. It’s a quick way to explore directions in context instead of describing them abstractly.\n\n\nThese previews are basically *throwaway mini-websites* the agent builds on the fly. You can iterate on them, use them to decide what should become a real change, and discard them when they’ve done their job.\n\n\n### Avoiding accidental agent deletion\n\n\nWe also fixed a sharp edge in the product: deleting an agent used to happen immediately. That was too easy to trigger by mistake, especially when the cost is losing the conversation with it.\n\n\nNow there’s a **confirmation dialog** before deletion. Small change, obvious in hindsight, and much better.\n\n\n### Performance improvements across the app\n\n\nA lot of the work this week went into **responsiveness** . We’ve been tightening up the UI so the app feels quicker when you move around, interact with agents, and work through longer sessions.\n\n\nThis kind of work usually doesn’t make for dramatic release notes. It does make the product feel less sticky and less fragile, which matters more.\n\n\n### Windows path and tooling fixes\n\n\nWe also fixed a set of Windows issues in the agent tooling. Some Windows users were running into path resolution problems in the sandbox and related tools, which could break tasks that depended on correct file handling.\n\n\nThose fixes should make Windows workflows *much more reliable* , especially when the agent needs to move across files, tools, and generated outputs.\n\n\n## What the Week Adds Up To\n\n\nThis was a week of making stagewise easier to trust: quicker ways to try ideas, fewer destructive mistakes, a faster UI, and fewer platform-specific failures.",
+  "published_at": "2026-04-13T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T14:44:14.475585+00:00",
+  "content_hash": "sha256:c847a2e72ff02473cd69100e6573de4b240cb63383b0d70c481669081f0b9e18"
+}

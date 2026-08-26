@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "838264a29b3b802d9e31f8e4b76b2c7b0660fd37448c35052cb0cc485c5451bb",
+  "company_key": "yc-the-hog",
+  "company_name": "The Hog",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://thehog.ai/blog/introducing-the-hog-api",
+  "canonical_url": "https://thehog.ai/blog/introducing-the-hog-api",
+  "title": "Introducing the The Hog API",
+  "summary": "One API to give your AI agents fresh, structured context across people, companies, social, and the open web.",
+  "body_markdown": "Agents have gotten remarkably good at reasoning. What they still lack is a clean, real-time view of the web — the kind of context a human researcher would gather before making a decision. Today we're opening up **The Hog** : one API to search, scrape, enrich, and monitor the live web, with output that's ready for an agent to consume.\n\n\n## Why we built it\n\n\nEvery team building agents ends up rebuilding the same fragile stack: a scraper that breaks weekly, a parsing layer held together with regex, and a queue of proxies nobody wants to own. We wanted that whole layer to disappear behind a single endpoint.\n\n\n- **Search** the open web and get structured results, not raw HTML\n- **Scrape** any page and receive clean, agent-ready markdown\n- **Enrich** people and companies from a name or a domain\n- **Monitor** sources and get notified when something changes\n\n\n## A first request\n\n\nPoint your agent at one endpoint and start turning live signals into structured intelligence:\n\n\n```text\nconst   res   =   await   fetch  (  \"https://api.thehog.ai/v1/search\"  , {\nmethod:   \"POST\"  ,\nheaders: {\nAuthorization:   `Bearer ${  process  .  env  .  HOG_API_KEY  }`  ,\n\"Content-Type\"  :   \"application/json\"  ,\n},\nbody:   JSON  .  stringify  ({\nquery:   \"series B fintech companies hiring in the EU\"  ,\nlimit:   10  ,\n}),\n});\n\n\nconst   {   results   }   =   await   res.  json  ();\n```\n\n\nEvery response is normalized, deduplicated, and typed — so your agent spends its tokens reasoning, not parsing.\n\n\n> Less parsing. More reasoning. That's the whole idea.\n\n\n## What's next\n\n\nThis is the first slice of a much larger surface. Enrichment and monitoring are rolling out over the coming weeks. If you're building something that needs the freshest possible context, we'd love to have you in the early cohort.",
+  "published_at": "2026-06-12T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T16:24:44.963526+00:00",
+  "content_hash": "sha256:9cf99184018c4798c9ce445d408230fd416744688bef7e9e5da8beea532269bf"
+}

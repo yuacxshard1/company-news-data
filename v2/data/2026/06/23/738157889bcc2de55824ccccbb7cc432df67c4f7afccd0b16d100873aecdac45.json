@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "738157889bcc2de55824ccccbb7cc432df67c4f7afccd0b16d100873aecdac45",
+  "company_key": "yc-unlayer",
+  "company_name": "Unlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.unlayer.com/changelog/1-423-0-7rGin1Z4",
+  "canonical_url": "https://docs.unlayer.com/changelog/1-423-0-7rGin1Z4",
+  "title": "1.423.0",
+  "summary": "The following fixes and features are available on the stable channel: Features & Improvements Text Editor : Updated text editor for the Table tool and Rich Text Editor. See docs . Bug Fixes Fix built-in tool icon overrides not loading when",
+  "body_markdown": "The following fixes and features are available on the[stable](https://docs.unlayer.com/builder/latest/version-management#production-environment) channel:\n\n\n## Features & Improvements\n\n\n-\n\n\n**Text Editor** : Updated text editor for the Table tool and Rich Text Editor. See[docs](https://docs.unlayer.com/builder/latest/migration/from-1-382-0-to-latest) .\n\n\n## Bug Fixes\n\n\n-\n\n\nFix built-in tool icon overrides not loading when passed via init config\n\n\n-\n\n\nFix custom toolbar buttons in the Paragraph/Header/Button editors rendering without their configured icons\n\n\n-\n\n\nFix carousel image links missing from body chunks in Web mode and incomplete in Email mode\n\n\n-\n\n\n**Paragraph** :\n\n\n-\n\n\nFix IME composition replacing characters when started mid-text\n\n\n-\n\n\nFix color picker autocompleting hex input\n\n\n-\n\n\nFix` textEditor.fontSize` config being ignored\n\n\n-\n\n\nFix stale merge tag name showing when in focus",
+  "published_at": "2026-06-23T18:03:00+00:00",
+  "first_seen_at": "2026-08-10T04:27:59.075255+00:00",
+  "content_hash": "sha256:61b65905dce8284eb29b5546345d9a372c01ad0f209fc08da7cb78f237d79cc4"
+}

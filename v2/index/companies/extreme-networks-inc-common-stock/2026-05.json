@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "extreme-networks-inc-common-stock",
+      "company_name": "Extreme Networks Inc.",
+      "doc_id": "11c62b4e91dcb0a8bb6e72e69d668bd353603428e67ff71991ff4a58af446035",
+      "first_seen_at": "2026-07-20T04:35:47.988677+00:00",
+      "published_at": "2026-05-29T17:43:16+00:00",
+      "source_kind": "rss",
+      "summary": "A race condition in the shared Extreme Platform ONE IAM Gateway API-key authentication path could, under specific high-concurrency traffic conditions, intermittently allow requests authenticated with an Extreme Platform ONE/IAM-issued API key to receive response data for another tenant. The issue was observed through ExtremeCloud IQ/XIQ API endpoints and validated against both XIQ/XAPI and Extreme Platform ONE/Common Services API paths. XIQ-native tokens and standard OAuth/Bearer JWT authentication were not affected. Extreme Networks thanks Sebastian Koller of Iteas IT Services GmbH for the responsible disclosure of this issue. Products not listed in the Impact Details section have not been evaluated. Furthermore, products that have exceeded any software maintenance time periods are also not evaluated and will not be published. Please consult End of Sale and End of Service Life - Extreme Networks for the EOL notices related to the product under question.",
+      "title": "SA-2026-048 - ExtremeCloud IQ Cross-Tenant Data Exposure via Extreme Platform One Authentication Race Condition (CVE-2026-9831)"
+    },
+    {
+      "company_key": "extreme-networks-inc-common-stock",
+      "company_name": "Extreme Networks Inc.",
+      "doc_id": "5bfbe79c9f32b77bbdf8133df3e6f4efccf8d113c98a7bb793d88ad6fa19d6a4",
+      "first_seen_at": "2026-07-20T04:35:47.988677+00:00",
+      "published_at": "2026-05-28T13:30:02+00:00",
+      "source_kind": "rss",
+      "summary": "Out-of-bounds read/write flaw in OpenSSL’s RFC 3211 KEK unwrap function, affecting CMS decryption with password-based encryption. Malicious inputs could trigger denial of service or, in rare cases, code execution. Products not listed in the Impact Details section have not been evaluated. Furthermore, products that have exceeded any software maintenance time periods are also not evaluated and will not be published. Please consult End of Sale and End of Service Life - Extreme Networks for the EOL notices related to the product under question.",
+      "title": "SA-2025-116 - OpenSSL OOB Read Write Flaw (CVE-2025-9230)"
+    }
+  ],
+  "company_key": "extreme-networks-inc-common-stock",
+  "month": "2026-05"
+}

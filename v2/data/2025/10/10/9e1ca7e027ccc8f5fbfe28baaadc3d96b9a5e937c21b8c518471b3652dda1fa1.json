@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9e1ca7e027ccc8f5fbfe28baaadc3d96b9a5e937c21b8c518471b3652dda1fa1",
+  "company_key": "yc-butter",
+  "company_name": "Butter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.butter.dev/changelog-0001",
+  "canonical_url": "https://blog.butter.dev/changelog-0001",
+  "title": "Changelog #0001",
+  "summary": "Brotli compression support, UI fixes, uptime monitoring",
+  "body_markdown": "Hi everyone! Welcome to our first of many weekly changelogs, set to run every Friday. Follow along for weekly updates and improvements.\n\n\nThis week was primarily focused on ensuring compatibility with upstream providers (OpenAI, for the time being) and downstream agent frameworks.\n\n\n## Features\n\n\n### Brotli compression support\n\n\nAdded support to handle large compressed responses from OpenAI.\n\n\n### Transparent forwarding\n\n\nAll requests to unsupported endpoints, such as Responses or Encodings, are now transparently forwarded without involving the cache. This allows popular agent libraries pointed at Butter proxy to operate as expected, with caching only on the Chat Completions requests.\n\n\n### Request pagination\n\n\nDashboard home-page loads are now much faster for users with moderate request traffic.\n\n\n## Security & Uptime\n\n\n-\n\n\nData access controls improved on UI backend\n\n\n-\n\n\nUptime monitors and alerts configured\n\n\n## Fixes\n\n\n-\n\n\nVarious UI rendering/flickering bugs\n\n\n-\n\n\nStale-segfault bug in proxy\n\n\n-\n\n\nBroken links in cache graph UI\n\n\n-\n\n\nMobile reactivity improved*\n\n\n- *with a message that says “use desktop please”",
+  "published_at": "2025-10-10T07:00:00+00:00",
+  "first_seen_at": "2026-07-24T22:18:01.434032+00:00",
+  "content_hash": "sha256:ddf10223085fee3839375aef29a7ecf87838e76b0bf6d949458679851d036a22"
+}

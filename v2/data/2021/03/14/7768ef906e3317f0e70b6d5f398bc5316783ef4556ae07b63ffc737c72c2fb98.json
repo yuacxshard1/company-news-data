@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7768ef906e3317f0e70b6d5f398bc5316783ef4556ae07b63ffc737c72c2fb98",
+  "company_key": "yc-sails-co",
+  "company_name": "Sails Co.",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.sailscasts.com/sails-v1-4-2/",
+  "canonical_url": "https://blog.sailscasts.com/sails-v1-4-2/",
+  "title": "Sails 1.4.2 release",
+  "summary": "Sails 1.4.2 release fixes the cyclic dependency warning in Node versions >= 14",
+  "body_markdown": "A patch release of Sails -[v1.4.2](https://github.com/balderdashy/sails/releases/tag/v1.4.2) was cut out recently. This release merges a PR which fixes a Node warning you may have experience if you are runnning Sails on Node 14 or higher.\n\n\n## Getting this release\n\n\nIn order to upgrade to this release, you will need to do the following:\n\n\n### Upgrade the Sails CLI\n\n\nYou need to upgrade the Sails CLI so new Sails projects you generate via the CLI will have the latest version of Sails and it’s dependencies. Simply run the below command in your terminal:\n\n\n```text\nnpm i -g sails\n```\n\n\nThen run:\n\n\n```text\nsails -v\n```\n\n\nThis should output:\n\n\n```text\n1.4.2\n```\n\n\n### Upgrading existing Sails project\n\n\nMost likely you have an existing Sails project you’d like to upgrade to this release.\n\n\nTo do this, you will need to ugrade the` sails` dependency to version` 1.4.2` and the` sails-hook-orm` to version` 3.0.2` . Do this by running:\n\n\n```text\nnpm i  [email protected]    [email protected]\n```\n\n\nAnother way is to simply remove the entries for` sails` and` sails-hook-orm` in your` package.json` and run:\n\n\n```text\nnpm i sails sails-hook-orm --save\n```\n\n\nOr you can simply do:\n\n\n```text\nnpm i sails@latest sails-hook-orm@latest\n```\n\n\nTo get the latest major versions of both` sails` and` sails-hook-orm`\n\n\n### Upgraded\n\n\nNow if you’ve done the above upgrading steps you can run` sails lift` in Node version >= 14 without the Circular dependency warning.\n\n\nHappy Sailing…",
+  "published_at": "2021-03-14T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T22:05:07.405322+00:00",
+  "content_hash": "sha256:bc27a4b5573570073f898af68ac728b972309451df6db2d30ef27a2f236acba2"
+}

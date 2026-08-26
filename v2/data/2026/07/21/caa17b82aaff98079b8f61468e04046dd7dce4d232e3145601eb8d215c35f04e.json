@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "caa17b82aaff98079b8f61468e04046dd7dce4d232e3145601eb8d215c35f04e",
+  "company_key": "yc-cotool",
+  "company_name": "Cotool",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.cotool.ai/research/cybench",
+  "canonical_url": "https://www.cotool.ai/research/cybench",
+  "title": "Cybench (Defensive Subset)",
+  "summary": "Scale detection, response, and threat hunting beyond headcount. Build AI agents across your entire security stack. Improve coverage, cut MTTR, and eliminate manual & repetitive security work.",
+  "body_markdown": "### Accuracy\n\n\n**Three models tied for highest accuracy at 61%** : Claude Opus 4.5, GPT-5.2, and GPT-5.2 Codex. Gemini 3.0 Pro followed at 44%, with Gemini 3.0 Flash at 39%. Claude Sonnet 4.5 achieved 33%, while open-weight models lagged behind with Qwen3 Coder and Claude Haiku 4.5 tied at 28%.\n\n\n#### Accuracy by Model\n\n\nAnthropic\n\n\nOpenAI\n\n\nGoogle\n\n\nQwen\n\n\nZhipu\n\n\nMinimax\n\n\n### Cost Efficiency\n\n\n**GPT-5.2 offered the best value at ~$2.62/task for 61% accuracy** . Claude Opus 4.5 was most expensive at ~$9.71/task for the same 61% accuracy, nearly 4x the cost of GPT-5.2. Qwen3 Coder provided budget-friendly open-weight performance at ~$0.42/task.\n\n\n#### Cost per Task\n\n\nMinimax\n\n\nQwen\n\n\nZhipu\n\n\nGoogle\n\n\nAnthropic\n\n\nOpenAI\n\n\n### Speed\n\n\n**Claude Haiku 4.5 was fastest at 244s average** with 28% accuracy. Among top performers, Claude Opus 4.5 was fastest at 570s, followed by Gemini 3.0 Pro at 758s. GPT-5.2 models were slowest at 1193-1269s, reflecting their thorough analysis approach.\n\n\n#### Task Duration (avg)\n\n\nAnthropic\n\n\nMinimax\n\n\nQwen\n\n\nZhipu\n\n\nGoogle\n\n\nOpenAI\n\n\n### Reliability\n\n\n**Seven models achieved 100% task completion** : Claude Opus 4.5, Claude Sonnet 4.5, GPT-5.2, GPT-5.2 Codex, Gemini 3.0 Pro, and MiniMax M2.1. Models with some failures included Gemini 3.0 Flash (94%), Claude Haiku 4.5 (94%), GLM-4.7 (94%), and Qwen3 Coder (89%).\n\n\n#### Task Completion Rate\n\n\nAnthropic\n\n\nOpenAI\n\n\nGoogle\n\n\nMinimax\n\n\nZhipu\n\n\nQwen",
+  "published_at": null,
+  "first_seen_at": "2026-07-21T15:09:13.770553+00:00",
+  "content_hash": "sha256:93e96e441bab3ce42acb55cfe921ccb6bd407ab764af4c4ce7b33de1cd6b32d0"
+}

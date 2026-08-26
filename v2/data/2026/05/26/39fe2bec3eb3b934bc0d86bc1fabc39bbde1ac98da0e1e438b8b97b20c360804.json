@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "39fe2bec3eb3b934bc0d86bc1fabc39bbde1ac98da0e1e438b8b97b20c360804",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/resend-claude-code-plugin",
+  "canonical_url": "https://resend.com/changelog/resend-claude-code-plugin",
+  "title": "Official Resend plugin for Claude Code",
+  "summary": "Install the MCP server and every Resend skill directly from the official Claude Code plugins.",
+  "body_markdown": "The best agent experience requires context provided by tooling like MCP servers, skills, and CLIs. Historically, getting the most out of Claude Code with Resend required installing the MCP server and every skill separately.\n\n\nToday, we're excited to announce the[official Claude Code plugin for Resend](https://claude.com/plugins/resend) .\n\n\nThe plugin bundles the[MCP server](https://resend.com/docs/mcp-server) and every Resend Skill into a single install.\n\n\n## How to use it\n\n\nTo install the plugin, open Claude Code and run the` /plugin` command. Type` resend` to search for the plugin and install it.\n\n\nAlternatively, run the following command in your terminal:\n\n\n```text\nclaude plugin   install   resend@claude-plugins-official\n```\n\n\nAdd your Resend API key to your Claude Code environment to authenticate.\n\n\n```text\n{        \"env\"  :     {          \"RESEND_API_KEY\"  :     \"re_xxxxxxxxx\"        }     }\n```\n\n\n## Email expertise, on by default\n\n\nOnce installed, Claude Code activates the right skill automatically:\n\n\n- **` resend`** for the SDK and platform APIs\n- **` react-email`** for building templates as React components\n- **` email-best-practices`** for SPF, DKIM, DMARC, compliance, and deliverability\n- **` agent-email-inbox`** for safely processing inbound email with an agent\n- **` resend-cli`** for shell and CI workflows\n\n\nThe MCP server (or[Resend CLI](https://resend.com/cli) ) can help Claude Code perform actions like sending emails, managing templates, and processing inbound email. And skills ensure the tooling follows best practices in a token-efficient way.\n\n\n## Conclusion\n\n\nWe're excited to see how this connection makes it easier to build with Resend and Claude Code. See the plugin page at[claude.com/plugins/resend](https://claude.com/plugins/resend) for everything Resend brings to your agent.",
+  "published_at": "2026-05-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T21:22:09.024444+00:00",
+  "content_hash": "sha256:d5a8b959a938acc7a6d92c6f63bc4c324d68b4ba799f64b23c3b475c030cdb2a"
+}

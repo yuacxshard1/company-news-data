@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "04743bc26ba7dd0acbc72a95049b607f04c437df7ea95bf9d308036f449712da",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/changelog/artillery-cli-v2-0-25",
+  "canonical_url": "https://www.artillery.io/changelog/artillery-cli-v2-0-25",
+  "title": "Artillery CLI v2.0.25",
+  "summary": "Maintenance release with bug fixes and routine dependency upgrades",
+  "body_markdown": "September 18th, 2025[CLI](https://www.artillery.io/changelog/tag/cli)\n\n\n# Artillery CLI v2.0.25\n\n\n### New features\n\n\n- Stash API is now available. Stash API provides a persistent key-value store for use in your Artillery tests to share data between VUs, and offers Redis-compatible features like working with key-value pairs, lists, counters, and more. Learn more in the[Stash API docs](https://www.artillery.io/docs/reference/stash)\n\n\n### Playwright\n\n\n- Upgrade to Playwright v1.55.0\n\n\n### Fixes & Improvements\n\n\n- Fix: Prioritize dependencies set via` package.json` over automatically-detected dependencies. This fixes issues where` latest` versions of dependencies could be installed rather than those specified in` package.json`\n- Fix: Avoid promisifying async “function” steps. This removes Node.js warnings when when an` async` function is used for a` function` step\n- Fix: Use China partition-aware ARNs and principals for tests on AWS Lambda/Fargate\n- Routine updates to dependencies to address security reports\n- Remove dependency on PostHog SDK\n- Migrate to AWS SDK v3. This is an internal change that does not affect any user-visible functionality\n\n\nFull release notes on GitHub:[https://github.com/artilleryio/artillery/releases/tag/artillery-2.0.25](https://github.com/artilleryio/artillery/releases/tag/artillery-2.0.25)",
+  "published_at": "2025-09-18T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T17:13:32.020779+00:00",
+  "content_hash": "sha256:76d1e55ec29d92f07c7df1d225996ba6ba88c8e60b7db0f1316200462d44104c"
+}

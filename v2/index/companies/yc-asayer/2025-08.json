@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "156d7d3d7afd96825c42085b739f6479af9a66ad7704c0c52ff78be68d8fbffa",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2025-08-22T18:31:03+00:00",
+      "source_kind": "rss",
+      "summary": "I have deployed a selfhosted version of openreplay on ec2, we ran into storage issue, therefore carefully went tghrough documentations, after adding all the required detailes in openreplay -e, the pods crashed, and does not work.",
+      "title": "Self Hosted Crashed after adding S3"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "31cea83b8764f054620993294a84dad68477d4633e276c779fe44cfe02ebd253",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2025-08-17T13:13:57+00:00",
+      "source_kind": "rss",
+      "summary": "I installed openreplay with a domain name that I’d now like to change. I see openreplay -–edit allows me to change the domain name, but doing so doesn’t seem to propagate to the wide variety of Ingress/Deployment resources that are still using the old name. Do I have to update all of these one by one? Is there a better way to change the domain name on an existing deployment?",
+      "title": "Changing the domain name for an existing deployment"
+    }
+  ],
+  "company_key": "yc-asayer",
+  "month": "2025-08"
+}

@@ -1,0 +1,95 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-plivo",
+      "company_name": "Plivo",
+      "doc_id": "0f452ad5d0435a120e62eaabf720799b8a5bdb02dd15cabc2d2a6d1dd1229214",
+      "first_seen_at": "2026-07-20T23:20:51.132542+00:00",
+      "published_at": "2022-06-10T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Learn how CNAM mapping works and how to specify a caller ID name for your business in the Plivo console, so customers know who is calling before they answer.",
+      "title": "CNAM Mapping Made Simple"
+    },
+    {
+      "company_key": "yc-benchling",
+      "company_name": "Benchling",
+      "doc_id": "52877fe8139a7ae51962be5a178454397dc9cf4eb635ebfefe4a277a0f7bd92e",
+      "first_seen_at": "2026-07-20T03:30:03.260200+00:00",
+      "published_at": "2022-06-10T07:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Introducing Workflows, offering collaboration by design"
+    },
+    {
+      "company_key": "yc-sapling-ai",
+      "company_name": "Sapling.ai",
+      "doc_id": "7c57e386b3cbe0117c10345782082bb7114fd138a068fd5c54c57d9dfb2eb798",
+      "first_seen_at": "2026-07-25T22:15:25.567776+00:00",
+      "published_at": "2022-06-10T06:39:34+00:00",
+      "source_kind": "rss",
+      "summary": "This article ranks 5 of the most popular CMS for developers. Considers open source, self-hosted, and drag-and-drop options.",
+      "title": "5 Best CMS for Developers (2022)"
+    },
+    {
+      "company_key": "yc-hannah-life-technologies",
+      "company_name": "twoplus fertility",
+      "doc_id": "8b3dd79f4a1723300fa3c68bd3726979bd5c5e71bcca14d302ff1a48c2c1fa20",
+      "first_seen_at": "2026-07-25T01:09:10.378171+00:00",
+      "published_at": "2022-06-10T04:00:01+00:00",
+      "source_kind": "atom",
+      "summary": "Does a pregnancy via IVF enjoy the same coverage as a natural pregnancy in Singapore? Here’s what you need to know and the plans around. Read more.",
+      "title": "Best Insurance For Fertility Treatments In SG | twoplus fertility"
+    },
+    {
+      "company_key": "yc-fightcamp",
+      "company_name": "FightCamp",
+      "doc_id": "991850bb65c763605ebdbe1bb9d28af0005f2e3a9923e81622f5676e6631821d",
+      "first_seen_at": "2026-07-25T04:32:59.274712+00:00",
+      "published_at": "2022-06-10T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "FightCamp’s friendly competitive leaderboards and incredible member community will help you take your workouts up a notch.",
+      "title": "How Leaderboards Push You Further"
+    },
+    {
+      "company_key": "digi-international-inc-common-stock",
+      "company_name": "Digi International Inc.",
+      "doc_id": "c5a115e54bdbe7796e93d4ba56922fc2aed629f217f82f2ee5f8231ffe5c13c9",
+      "first_seen_at": "2026-07-25T01:12:11.073636+00:00",
+      "published_at": "2022-06-10T06:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Most people in the IoT space have heard the term “digital twin” or “digital twin modeling” in recent years. But what is a digital twin exactly? In simplest terms,...",
+      "title": "What Is a Digital Twin?"
+    },
+    {
+      "company_key": "yc-posthog",
+      "company_name": "PostHog",
+      "doc_id": "df62c0b3a80ef5e0b4e15592eb0d887c8e9fbecd2d648fe8a63fbc03afa04d3a",
+      "first_seen_at": "2026-07-20T23:20:52.157750+00:00",
+      "published_at": "2022-06-10T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The longer your strategy gets, the more useless it becomes. That's why, at PostHog, we communicate strategy as 'Nail X', where X is the thing we need…",
+      "title": "Our new objective: Nail Self Serve"
+    },
+    {
+      "company_key": "sps-commerce-inc-common-stock",
+      "company_name": "SPS Commerce Inc.",
+      "doc_id": "e7407ae4c5048c7a2eb37adfad2f2c3b4f70158ffba077a2f4b615909cef9a19",
+      "first_seen_at": "2026-07-20T23:19:01.810458+00:00",
+      "published_at": "2022-06-10T15:26:17+00:00",
+      "source_kind": "rss",
+      "summary": "At SPS Commerce we are moving all our APIs into Kubernetes. There are many reasons for this change, but one of the more fun reasons is the ability to use a tool like Jaeger . Jaeger is a distributed tracing tool, useful for seeing how your APIs and services all work together to process one request. A lot of the initial setup of this infrastructure was performed by our wonderful SRE team. As an application team that maintains a Django REST Framework application, there wasn’t a lot of additional work required to start seeing the advantages of tracing. We added and configured the OpenTelemetry Django , Requests , and Psychopg2 instrumentors to generate spans representing different operations within our application. These instrumentors capture interactions between our application and its dependencies, and they plug into the application with very little changes or configuration required. Then we configured a Zipkins exporter to send those spans to our platform’s shared collector. After opening the Jaeger UI and filtering down to only traces including our application, we started browsing through the traces, just exploring the tool. Very quickly a few endpoints began to stand out due to their high response times and high number of spans required to complete a single request. Here is an example trace of one of the problematic endpoints, drilled down into the database spans: This is a complicated endpoint, joining together data from multiple tables, but no endpoint should be making this many calls to the database to generate a single response. As most Django developers have likely found out: inefficient use of the Django ORM can have catastrophic effects. A brief investigation uncovered code that iterated through a queryset, and for each entry in the queryset it made an individual call to the database to retrieve a different object. Then to make matters worse, those objects were then passed to a serializer that included a nested serializer for one of their related objects! The result was for users who had associations with many of these objects, or with objects that were particularly complex or nested, a single call to this endpoint could generate more than one hundred calls to the database! By using the very helpful django_assert_num_queries pytest fixture, we were able to write a test that measured the number of queries this endpoint made and could easily reproduce the issue. After some simple refactoring and a well-placed call to prefetch_related_objects() , we were able to reduce that endpoint down to a manageable handful of queries. The drop in response times after we deployed the fix pretty clearly reflect the improvement: We have only just begun to scratch the surface of what we can do with Jaeger. But already, the introspection and visibility it provides have been incredibly helpful. As more and more of our APIs migrate onto our Kuberenetes platform, the benefits will only grow. Matt Kokotovich, Principal Engineer",
+      "title": "How we used Jaeger to improve the performance of an application"
+    },
+    {
+      "company_key": "yc-topline-pro",
+      "company_name": "Topline Pro",
+      "doc_id": "ee203cd6924373a9547647674d24b0d92b299f016e27885923f143c526aafd94",
+      "first_seen_at": "2026-07-22T16:57:55.721107+00:00",
+      "published_at": "2022-06-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "If you're a business owner who provides pressure washing services, you know that contracts can be hard to come by. It can be tough to differentiate yourself from the competition and even tougher to convince potential clients that you're the best choice for the job. In this article, we'll discuss some tips and strategies on how to get clients for pressure washing.",
+      "title": "The Definitive Guide To Getting More Pressure Washing Contracts"
+    }
+  ],
+  "date": "2022/06/10"
+}

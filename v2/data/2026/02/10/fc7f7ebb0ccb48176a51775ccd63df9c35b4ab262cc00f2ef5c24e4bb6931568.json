@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fc7f7ebb0ccb48176a51775ccd63df9c35b4ab262cc00f2ef5c24e4bb6931568",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://supabase.com/blog/hydra-joins-supabase",
+  "canonical_url": "https://supabase.com/blog/hydra-joins-supabase",
+  "title": "Hydra joins Supabase",
+  "summary": "The Hydra team, maintainers of pg_duckdb, is joining Supabase to focus on Postgres + Analytics and Open Warehouse Architecture.",
+  "body_markdown": "Today we're welcoming[Joe](https://x.com/JoeSciarrino) , the co-creator of Hydra, to the Supabase team. He is joining us to build Supabase Warehouse: an open data warehouse architecture for developers.\n\n\n## Hydra + pg_duckdb#\n\n\nHydra co-developed[pg_duckdb](https://github.com/duckdb/pg_duckdb) , a popular open source (MIT-licensed) extension that accelerates analytics queries on Postgres by over 600x.\n\n\n### Analytics on Postgres#\n\n\nJoe's work on Hydra pioneered the modern lakebase architecture before most even considered it possible.\n\n\nLast year, Supabase started looking at warehousing, announcing Analytics Buckets to store data in Iceberg format in S3. This year, Hydra and` pg_duckdb` will make it easier than ever to get fast analytics on large data volumes in Postgres.\n\n\nJoe will oversee our Open Warehouse Architecture initiative and help push our Postgres + Analytics roadmap forward.\n\n\n### Open Warehouse Architecture#\n\n\nWe're building an open warehouse architecture that keeps Postgres at the center while unlocking modern analytics workflows.\n\n\nThis effort includes:\n\n\n- A tighter integration between Postgres and object storage.\n- Serverless analytics workflows that feel native to Supabase.\n- A foundation for open table formats and analytics-first tooling.\n\n\n### Next Steps for Hydra#\n\n\nEverything will stay open source. We'll help[MotherDuck](https://motherduck.com/) with` pg_duckdb` contributions and take over the maintenance of Hydra's existing repos. We will work in the open as we develop the Open Warehouse Architecture and the broader Postgres + Analytics vision.\n\n\n## Join us to build the Open Warehouse#\n\n\nWe are assembling a team to build the Open Warehouse Architecture on Supabase. If you are a C++ programmer or storage engineer and want to get involved,[apply online](https://supabase.com/careers) .",
+  "published_at": "2026-02-10T07:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:24:12.344578+00:00",
+  "content_hash": "sha256:e6a2db412aff408eca2b36ab32911f3d69b2665c5a5038d2610f82a984682ece"
+}

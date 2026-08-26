@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-trigger-dev",
+      "company_name": "Trigger.dev",
+      "doc_id": "3a7030c79656a62aaf51b783a8fab119bd41cc5f818d164bcd2a77ab9fd53ea9",
+      "first_seen_at": "2026-07-22T17:13:09.827889+00:00",
+      "published_at": "2026-03-27T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How we took our warm start service from 2,099 req/s on Node + SQLite to 10,700 req/s on a compiled Bun binary, and found a subtle memory leak that only exists in Bun's HTTP model.",
+      "title": "Why we replaced Node.js with Bun for 5x throughput"
+    },
+    {
+      "company_key": "yc-trigger-dev",
+      "company_name": "Trigger.dev",
+      "doc_id": "45fa3118b40a30385993f8ff995111aafe4e659027f99777fc34efa71cdd5c18",
+      "first_seen_at": "2026-07-22T17:13:09.827889+00:00",
+      "published_at": "2026-03-12T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Go beyond the chat interface. 10 lesser-known Claude Code patterns: session forking, parallel worktrees, multi-agent orchestration, and headless CI/CD.",
+      "title": "10 Claude Code Tips You Didn't Know"
+    },
+    {
+      "company_key": "yc-trigger-dev",
+      "company_name": "Trigger.dev",
+      "doc_id": "d307f9333285c1f730d3a67efd1d8906f34b0b8750b16e9e35267f190964ec23",
+      "first_seen_at": "2026-07-22T17:13:09.827889+00:00",
+      "published_at": "2026-03-05T16:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A deep dive into TRQL — the SQL-like language behind Query. How we parse, validate, and compile queries to secure, tenant-safe ClickHouse SQL.",
+      "title": "How we give every user SQL access to a shared ClickHouse cluster"
+    }
+  ],
+  "company_key": "yc-trigger-dev",
+  "month": "2026-03"
+}

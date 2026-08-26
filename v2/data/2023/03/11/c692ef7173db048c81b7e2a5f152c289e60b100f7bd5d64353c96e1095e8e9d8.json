@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c692ef7173db048c81b7e2a5f152c289e60b100f7bd5d64353c96e1095e8e9d8",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://resend.com/blog/open-and-click-tracking",
+  "canonical_url": "https://resend.com/blog/open-and-click-tracking",
+  "title": "Open and Click Tracking",
+  "summary": "Track engagement and tune your sending approach with Resend's open and click tracking.",
+  "body_markdown": "> \"How are my emails doing?\"\n>\n>\n> \"Is anyone engaging with my CTA?\"\n>\n>\n> \"How many users saw my announcement?\"\n\n\nThese are the questions that come when you start sending emails at scale.\n\n\nToday, Resend helps you not just answer, but take action on those questions.\n\n\n## More than curiosity\n\n\nWe believe open and click tracking offers practical and actionable insights to better engage with your users.\n\n\nUltimately, opens and clicks show you which customers are the most interested in receiving the messages you send.\n\n\nBy knowing this you can:\n\n\n- Measure results of your emails\n- Have a better understanding of your audience\n- Transform these insights into action by refining your email templates\n\n\nClick and Opened Events in Resend Dashboard\n\n\n## How open tracking works\n\n\nWhen open tracking is enabled, we insert a 1 pixel by 1 pixel transparent GIF image at the bottom of each message.\n\n\nEach email includes a unique link to this image file; when the image is opened, we can tell exactly which message was opened and by which user.\n\n\n> \"If you're a developer or working on a startup, you're going to love Resend's approach to emailing.\"\n>\n>\n> Joe DeMaria\n>\n>\n> Co-founder & CEO of SpecCheck\n\n\n## How click tracking works\n\n\nWhen click tracking is enabled, we set up a redirect for each link in the message. When your user clicks a link, they are routed to a Resend server and then immediately forwarded to the address you provided. This handoff is imperceptible to the recipient in normal circumstances.\n\n\nAs with open tracking, each of these redirect links is unique, allowing you to easily determine which person clicked which link at what time.\n\n\n> \"We were up and running with Resend in no time. It was seamless to integrate into our existing workflow and gave us a tremendous amount of visibility into our email capabilities. Simple to say, it was a no-brainer.\"\n>\n>\n> Ty Sharp\n>\n>\n> Co-founder & CEO of InBuild\n\n\n## Perfectly paired with Webhooks\n\n\n[We announced Webhooks](https://resend.com/blog/webhooks) earlier this week, perfect timing for open and click tracking.\n\n\nCreating a webhook stream of your tracking events gives you a live pulse of your contact list so you can take action immediately.\n\n\nClick and Opened Events in Resend Dashboard\n\n\nYou can also feed these data points into an external storage system to provide more context alongside your other user events.\n\n\nClick webhook event\n\n\n## How to enable tracking\n\n\nTracking is configured on the domain level.\n\n\nYou can enable tracking today by navigating to Domains, selecting the domain you want to enable and looking for the \"Configuration\" section.\n\n\nEnable Open/Click tracking",
+  "published_at": "2023-03-11T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:56.405079+00:00",
+  "content_hash": "sha256:713abada36fadc16dde7af9d8f4b44f1b74f16d682458922dd3dfe80825ac42e"
+}

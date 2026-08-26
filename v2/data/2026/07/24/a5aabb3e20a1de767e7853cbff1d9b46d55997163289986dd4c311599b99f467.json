@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a5aabb3e20a1de767e7853cbff1d9b46d55997163289986dd4c311599b99f467",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-june-19-2026",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-june-19-2026",
+  "title": "Weekly Product Changelog: June 19, 2026",
+  "summary": "Added : Notes & comments indicator — Task cards now show a small icon when they have notes or comments attached, so you can see which tasks have additional",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nAdded\n\n\n:\n\n\n- Notes & comments indicator\n\n\n— Task cards now show a small icon when they have notes or comments attached, so you can see which tasks have additional context without opening each one. Visible on the kanban board, backlog, and mobile.\n\n\nImproved\n\n\n:\n\n\n- AI channel recommendations for calendar events: Imported calendar events now get automatic channel assignments from AI channel recommendations, matching the behavior you'd expect from other integrations.\n- Sunsama MCP: edit and append task notes: The Sunsama MCP server now supports editing and appending to task notes via edit_task_notes and append_task_notes tools, and task creation tools now accept Markdown for notes.\n\n\nFixed\n\n\n:\n\n\n- Sunny stripping legitimate URLs: Fixed an issue where Sunny was incorrectly removing valid links from AI responses. URLs in Sunny's replies now also render as clickable links.\n- Duplicate tasks in Todoist filter views: Subtasks no longer appear twice in the Todoist Today and Next 7 Days filter views.\n- Teams meeting-chat backlinks: The \"Go to original Teams message\" link on tasks created from Teams meeting chats now navigates correctly instead of briefly flashing and redirecting.\n- Weekly review date picker for non-Monday week start: The date picker in Weekly Review and Weekly Planning now shows the correct week for users whose week starts on Sunday or Saturday.\n- Outlook subtask sync errors: Fixed a data issue where corrupted Outlook subtask identifiers could cause the task list to fail to load.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T02:45:30.397865+00:00",
+  "content_hash": "sha256:df48e5ff525ca3e4e4bdc47808bd48819e810e47bcee5cc1c47ec0cb240e4506"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "786f9f4895a56bc50157b5952e1e87ab0563e8d48ac562633a85a05d5860c9b5",
+  "company_key": "yc-lumen-payments",
+  "company_name": "Lumen Payments",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://getlumen.dev/blog/stripe-open-source",
+  "canonical_url": "https://getlumen.dev/blog/stripe-open-source",
+  "title": "Stripe Open Source Alternative",
+  "summary": "Open source alternative to Stripe Billing.",
+  "body_markdown": "Billing gets messy fast: free trials, seats for teams, orgs, usage, credits. Stripe Billing helps at the start, but it becomes complex and costly. We built **Lumen Payments** as an open source alternative that gives you control, is easier to integrate, and costs less. It also handles AI usage and credit models in a clean way.\n\n\n---\n\n\n## Comparison: Lumen Payments vs Stripe Billing\n\n\nFeature Lumen Payments Stripe Billing\n\n\nOpen source Yes No\n\n\nSelf-hosting Yes (free) No\n\n\nPricing fee on billing No 0.7% of processed volume\n\n\nSeats & orgs Built-in Custom work\n\n\nAI usage & credits Native Complex setup\n\n\nTime to integrate Hours Days\n\n\n---\n\n\n## Why it’s easier\n\n\n- Fewer steps, clear examples, minimal webhooks.\n- Works locally with one command and seed data.\n- You can extend flows in code instead of fighting a dashboard.\n\n\n---\n\n\n## Cost\n\n\n- Stripe Billingadds 0.7% on top of payment fees.\n- **Lumen self-host** : no billing fee.\n- **Lumen cloud** : significantly cheaper than Stripe Billing.\n\n\n---\n\n\n## AI usage and credits\n\n\nTrack tokens or calls, price by model, use credit wallets per user or org, define rollover rules in code, and keep an audit trail. Fixes and backfills are simple.\n\n\n---\n\n\n## Who should use Lumen\n\n\n- SaaS with trials, seats, orgs\n- AI products with usage and credits\n- Teams that want control and lower costs\n\n\n---\n\n\n## FAQ\n\n\nIs there an open source alternative to Stripe Billing?\n\n\nYes, **Lumen Payments** .\n\n\nIs Lumen cheaper than Stripe Billing?\n\n\nYes. No 0.7% fee; self-host is free; cloud is still cheaper.\n\n\nDoes Lumen support trials, seats, orgs, usage, and credits?\n\n\nYes.\n\n\nIs it easier to integrate than Stripe, Paddle, or Adyen?\n\n\nYes.\n\n\nWe built Lumen to be a[developer-first, open source billing platform](https://getlumen.dev/) that you can self-host or run in our managed cloud.\n\n\n#### Ramon Garate\n\n\nFounder of Lumen",
+  "published_at": "2025-09-24T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T02:53:16.718446+00:00",
+  "content_hash": "sha256:f10e6ddd863085b4731cee17f7465b34489ec2a0a3512c372bbc4e94bec7939a"
+}

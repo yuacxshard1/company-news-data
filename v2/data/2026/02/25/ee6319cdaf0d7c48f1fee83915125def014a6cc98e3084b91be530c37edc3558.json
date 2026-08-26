@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ee6319cdaf0d7c48f1fee83915125def014a6cc98e3084b91be530c37edc3558",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/25-2-2026",
+  "canonical_url": "https://browser-use.com/changelog/25-2-2026",
+  "title": "BU Agent API & SDK 3.0",
+  "summary": "New experimental agent API. New SDK with breaking changes.",
+  "body_markdown": "### BU Agent API (Experimental)\n\n\nA completely new experimental agent built from scratch. Think **Claude Code for the browser** : web scraping, data extraction, file manipulation, and complex multi-step workflows.\n\n\n*\"Here's a CSV with 50 people. For each person, find their LinkedIn profile, extract their current title and company, and return an enriched CSV.\"* — the BU Agent handles the entire pipeline in a single task.\n\n\n```text\nfrom   browser_use_sdk.v3   import   AsyncBrowserUse\n\n\nclient   =   AsyncBrowserUse()\nresult   =   await   client.run(  \"Find the top 3 trending repos on GitHub today\"  )\nprint  (result.output)\n```\n\n\n### SDK 3.0\n\n\nNew version of the SDK (` 3.0.x` ) with breaking changes. Please upgrade — the new` client.run()` API is much cleaner. All existing functionality — sessions, profiles, browser control, structured output, streaming, files, skills — is still there.\n\n\n[Documentation](https://docs.cloud.browser-use.com/new-features/api-v3) ·[GitHub](https://github.com/browser-use/sdk)",
+  "published_at": "2026-02-25T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:33ae90c621f2e6ec1580e77815f2eb21418615d831a6421f141bc4752d74a758"
+}

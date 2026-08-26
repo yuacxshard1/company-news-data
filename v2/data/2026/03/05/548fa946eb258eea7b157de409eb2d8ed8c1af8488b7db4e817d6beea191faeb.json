@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "548fa946eb258eea7b157de409eb2d8ed8c1af8488b7db4e817d6beea191faeb",
+  "company_key": "yc-greptile",
+  "company_name": "Greptile",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.greptile.com/blog/greptile-v4",
+  "canonical_url": "https://www.greptile.com/blog/greptile-v4",
+  "title": "Greptile v4 + New Pricing",
+  "summary": "Announcing Greptile Agent v4 with 74% more addressed comments, 68% more positive replies, and new $30/dev/month pricing with 50 reviews included.",
+  "body_markdown": "Today we're releasing Greptile Agent v4, our best code review agent yet. It's better than v3 at catching tricky bugs, and also has a far lower false positive rate.\n\n\n## v3 vs v4 performance\n\n\nWe have been A/B testing v4 for the last month across many customers. After hundreds of thousands of PRs reviewed, we have some interesting real-life data on how v4 compares against v3:\n\n\n1. **Addressed comments per PR** went from 0.92 to 1.60, a **74% increase** . \"Addressed\" is determined by an LLM.\n2. **Percentage of Greptile comments addressed** by the author increased from 30% to 43%.\n3. Developers often reply to Greptile's comments. **Positive replies** (\"nice catch\" or \"fixed\") increased by **68%** from 0.31 per pull request to 0.52 per pull request.\n4. **Upvote reactions** on comments increased by **60%** , from 0.05 to 0.08 per pull request.\n\n\nMetric v3 v4 Change\n\n\nAddressed comments per PR\n\n\n(determined by LLM-as-judge)\n\n\n0.92 1.60 +74%\n\n\n% of comments addressed 30% 43% +44%\n\n\nPositive replies per PR 0.31 0.52 +68%\n\n\nUpvote reactions per PR 0.05 0.08 +60%\n\n\n## Pricing\n\n\nWe're modifying our pricing to a base + usage model, similar to most other AI coding tools. The pricing is **$30/developer/month** , which includes **50 reviews/month** , after which reviews cost **$1 each** .\n\n\nLess than 10% of active users will exceed the included usage. Existing users will remain on the existing pricing until the next billing month.\n\n\nBetter coding agents have led to a drastic increase in the number of commits reviewed by Greptile. This new pricing model allows us to focus solely on providing an uncompromising AI code review experience.",
+  "published_at": "2026-03-05T12:00:00+00:00",
+  "first_seen_at": "2026-07-21T22:07:23.426026+00:00",
+  "content_hash": "sha256:d57a7128e19bef97949818ca9f08196185c0d4937db69567552e994e49d01010"
+}

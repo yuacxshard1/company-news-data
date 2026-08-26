@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8102431b908050436955c6ced6fca542d8daa0155c471696bf91deda76236594",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads",
+  "title": "Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
+  "body_markdown": "Amazon Bedrock AgentCore memory now accepts a JSON payload type on the CreateEvent API, so agents can extract and consolidate long-term memories from structured data as well as from multi-turn conversations. Developers can pass behavioral events, activity logs, system events, and other JSON data (up to 100 KB per payload) straight into the extraction pipeline. There is no need to reshape it into synthetic conversation messages first.\n\n\nThe extraction pipeline treats a JSON payload the same way it treats a conversation, generating long-term memories across all four extraction strategies: semantic, user preference, summarization, and episodic.\n\n\nNon-conversational JSON payload ingestion is available today in all regions where AgentCore Memory is supported. It is fully compatible with existing features. To get started, just add json payloads to your[events](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/short-term-create-event.html) .",
+  "published_at": "2026-08-20T20:00:00+00:00",
+  "first_seen_at": "2026-08-24T19:20:39.792996+00:00",
+  "content_hash": "sha256:41fc3f9f7f63fb6efbf93b767b81c0a9dd546393067a9b394e8b0de726de563d"
+}

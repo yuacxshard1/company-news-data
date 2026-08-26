@@ -1,0 +1,176 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "3035c283ff908fc964a7a8fa6a025d71a6ccedcc19d5126eed8ad901df7269a8",
+      "first_seen_at": "2026-08-18T22:07:45.985966+00:00",
+      "published_at": "2026-08-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How to test AMD in outbound voice agents: simulate voicemail, IVR, and iOS 26 Call Screening pickups, and score live calls without blowing your dial minutes.",
+      "title": "Testing voicemail detection in outbound voice agents"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "4ab4d9806cfe227d7632c4fd5b7c99166bf9ee4fbb6d0df8b740ba8346350d69",
+      "first_seen_at": "2026-08-10T18:21:25.466299+00:00",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "On August 5, grok-voice-latest silently rolled to Think Fast 2.0. If you didn't test, you shipped a different agent to production. Here's the playbook.",
+      "title": "Your voice model's \"latest\" tag just rolled"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "57213cd55a23017ea0cd669384bf032d96bb512bdbd2293bbfa76345b76efb86",
+      "first_seen_at": "2026-08-26T00:12:19.917830+00:00",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A QA playbook for voice AI agents handling first notice of loss: scenarios, audio-native metrics, surge testing, and regression on real storm calls.",
+      "title": "Testing voice agents for FNOL claims intake"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "598892fbca212176a35cc2d2c6118bd55413df8f3e2128d016e848882646f255",
+      "first_seen_at": "2026-08-13T15:53:26.284965+00:00",
+      "published_at": "2026-08-13T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Voice agents are moving from stateless calls to multi-call relationships. Here's how to QA cross-session memory before it burns a returning caller.",
+      "title": "Testing voice agents that remember"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "5ffbf20396b555f782ef579dbb8dd349e1648786e4cf68e1af8f3d634eb675d4",
+      "first_seen_at": "2026-08-06T14:05:25.772588+00:00",
+      "published_at": "2026-08-06T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Code-switching breaks voice agents at three layers: recognition, model, and synthesis. Here is how to test for it before it hits production.",
+      "title": "Testing voice agents against code-switching callers"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "918e602a2eab619a8dc368435a6ea3c5c71ca5f1a584712f9bd11b91d1d61e16",
+      "first_seen_at": "2026-08-14T19:12:07.564919+00:00",
+      "published_at": "2026-08-14T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Model swaps like GPT-Realtime-2.1 change your voice agent's behavior without a code push. A technical playbook for regression-testing them before callers notice.",
+      "title": "Model swaps are the new deploy"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "91d1cb06033b4557e33b5438f80a9a7b4a94a9eac721c3c9767ecb82943a7132",
+      "first_seen_at": "2026-08-12T10:31:07.248745+00:00",
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Voice agents now call remote MCP servers directly. Here are the new failure modes that only surface over a phone line, and how to test for them before launch.",
+      "title": "Testing voice agents that call remote MCP servers"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "92effc20b370dab10551ba55ba1a31dae8dbc6581f8e6a8b18a5fd0fe6a122e8",
+      "first_seen_at": "2026-08-17T14:24:04.114340+00:00",
+      "published_at": "2026-08-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Your voice agent handled the call cleanly. Your CRM got a summary with the wrong DOB. Here's the QA plan for the write-back layer voice teams skip.",
+      "title": "Testing voice agent post-call write-backs"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "95690fe2986f32fb040029ee857b5e988692796522f655cb190e1afd1caf4225",
+      "first_seen_at": "2026-08-05T10:15:28.316611+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Retail voice agents are now closing sales, not just handling WISMO. Here is the QA playbook for the revenue-critical failures that testing has to catch.",
+      "title": "Testing voice agents that sell: a QA playbook for the retail sales floor"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "aee3af084768cb2e24cd5fb263a95c09d719a2d8080a35e9828e22bd842363f4",
+      "first_seen_at": "2026-08-21T22:01:05.250429+00:00",
+      "published_at": "2026-08-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "After the Aug 13 Otter.AI ruling, call recording consent is a testable requirement for voice AI agents. Here's the QA playbook, and where sample-based review breaks.",
+      "title": "Recording consent is the disclosure your voice agent keeps failing"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "b77f621efee22ca9157108a2b88ff960f49e1c26ba5ef807c7ba9bbf91461c34",
+      "first_seen_at": "2026-08-03T17:48:41.318555+00:00",
+      "published_at": "2026-08-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Containment rate is a vanity KPI voice agents can game. Design your pre-launch test suite around the escalations you want to happen, not the ones you want to prevent.",
+      "title": "Containment rate isn't a launch metric. Test for the escalations you want to happen."
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "baa76a914a9c37d604acc2e4c586b2272a50907fb619a7f4c221768da72258e6",
+      "first_seen_at": "2026-08-20T18:05:22.653714+00:00",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A protocol-level guide to testing keypad input in voice agents: RFC 2833 vs SIP INFO vs in-band, timeouts, mixed voice-plus-keypad flows, and CI coverage.",
+      "title": "Testing inbound DTMF in voice AI agents"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "c64b15f071a477c3b095d3522e4aa2beffe624baf2c15901cbc717d07f20570f",
+      "first_seen_at": "2026-08-24T19:36:59.961877+00:00",
+      "published_at": "2026-08-24T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Filler audio hides tool-call latency until it starts firing three times in a row or clipping the caller. How to test the \"let me check on that\" you rely on.",
+      "title": "Testing filler phrases in voice AI agents"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "d02a504ed4e56f6074d4a409f744ddc17eb509b9e431023d0ba81406be4c92ec",
+      "first_seen_at": "2026-08-19T12:48:12.522755+00:00",
+      "published_at": "2026-08-19T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Patient access voice agents are moving from pilot to infrastructure. A QA playbook for scheduling, intake, eligibility, and safe escalation.",
+      "title": "Testing voice agents for patient access"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "de6217b5a1aff04598b42f6d4ebd833a52479ad6206c13c3b1f8a9dd75f38042",
+      "first_seen_at": "2026-08-04T20:51:50.087453+00:00",
+      "published_at": "2026-08-04T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "DTMF timing, menu detection, and modality switches are where outbound voice agents fail. Here's how to build a simulation suite that catches it before launch.",
+      "title": "Testing outbound voice agents that navigate phone trees"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "ebfce3f4a32f0f68e4d0076764d8026eaebb61f813ea7c0e083fac0aec7b78bb",
+      "first_seen_at": "2026-08-07T18:37:50.432930+00:00",
+      "published_at": "2026-08-07T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Google's agent now dials businesses on behalf of homeowners. When your voice agent picks up, the caller is another AI. Here's what to test before it does.",
+      "title": "Testing voice agents for AI callers"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "fd82a72bdab76919cee61eac9f0e3ffd3251a187fcc6dfd2aca9f4fa6837ec74",
+      "first_seen_at": "2026-08-11T21:21:45.043968+00:00",
+      "published_at": "2026-08-11T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "PCI-compliant voice payments are now table stakes. Here's the pre-launch test suite, the live-call metrics, and the failure modes that hide inside \"successful\" calls.",
+      "title": "Testing voice agents that take payments over the phone"
+    }
+  ],
+  "company_key": "yc-roark",
+  "month": "2026-08"
+}

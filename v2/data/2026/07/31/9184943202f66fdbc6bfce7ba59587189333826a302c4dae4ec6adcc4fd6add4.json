@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9184943202f66fdbc6bfce7ba59587189333826a302c4dae4ec6adcc4fd6add4",
+  "company_key": "yc-manufact",
+  "company_name": "Manufact (formerly mcp-use)",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://manufact.com/blog/predictleads-mcp-marketplace-review",
+  "canonical_url": "https://manufact.com/blog/predictleads-mcp-marketplace-review",
+  "title": "How PredictLeads Avoided Weeks of MCP Marketplace Review",
+  "summary": "PredictLeads used Manufact's pre-submission checks to catch missing output schemas and oversized responses before review, avoiding weeks of blind resubmission.",
+  "body_markdown": "## Background\n\n\n[PredictLeads](https://predictleads.com/) sells company intelligence with structured data on 120M+ companies: news, hiring signals, firmographics, and more. They were building an MCP server so agents in Claude and ChatGPT could pull that data directly.\n\n\nOpenAI and Anthropic review submissions by hand, and neither tells you much when it rejects your MCP submission. A rejection lands in a queue with little detail, you guess at the cause, fix, and wait again. For teams, each blind round trip consumes weeks of time.\n\n\nPredictLeads needed a way to know if their server was actually ready before submitting. Every tool worked: call it, get data back, no errors. But for a product built on rich, detailed data, it hid a real risk. Responses that looked fine in testing could be more than a model could actually handle in production.\n\n\n## What the checks found\n\n\nUsing Manufact's[pre-submission checks](https://manufact.com/platform/publishing-checks) , the team found two problems that a normal test never did.\n\n\nFirst, many tools declared no output schema. This meant clients like ChatGPT had nothing to validate results against, and nothing to reason about follow-up calls with. The tools passed every call and were still not ready.\n\n\nSecond, several tools returned responses too large for ChatGPT to actually use. If you call the tool and a valid response comes back, a normal check passes. Manufact also runs an end-to-end test, where a model actually consumes the tool's response and judges whether it can do anything with it. That's the test that caught this: the call worked, but the model couldn't read what came back, and in the app it simply fails.\n\n\nThe gap showed up before a reviewer ever saw it. Without it, this would've been a server that looked healthy on every call but broke the moment an agent tried to use it! Weeks of blind resubmission and waiting time avoided.\n\n\n## The Result\n\n\nPredictLeads is approved and their MCP is now live!\n\n\n## The Takeaway?\n\n\nWorking tools are not a readiness signal. A tool call succeeding tells you nothing about whether a model can use the result once in the app store. And on marketplaces that review by hand, every defect you find before submitting can be weeks of time you gain back to focus more on your core product.\n\n\nCongrats and thanks to the Predictleads team for building with us!\n\n\nThinking of shipping your own MCP server? Deploy your first server in under 60 seconds at[manufact.com](https://manufact.com/) , or[book a demo](https://manufact.com/book-call) and we'll help you map the fastest path to production agent traffic!",
+  "published_at": "2026-07-31T00:00:00+00:00",
+  "first_seen_at": "2026-08-04T07:33:32.289519+00:00",
+  "content_hash": "sha256:4d0b27655ff630d43a3a05336226d4d3d9d59efdd33894a8d56a1074c8dcbca7"
+}

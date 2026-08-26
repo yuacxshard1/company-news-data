@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e241723d3f7e86372d9d009266c663e7d2c2153a8ac926ee11b04ad54ebd34de",
+  "company_key": "yc-unlayer",
+  "company_name": "Unlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.unlayer.com/changelog/12180-stable",
+  "canonical_url": "https://docs.unlayer.com/changelog/12180-stable",
+  "title": "1.218.0",
+  "summary": "The following fixes and features are available on the stable channel: Features & Improvements Themes API: Added API support for setting up custom editor themes beyond custom JS/CSS. You can pass a theme object in the initial config or call",
+  "body_markdown": "The following fixes and features are available on the **stable** channel:\n\n\n## Features & Improvements\n\n\n-\n\n\n**Themes API:** Added API support for setting up custom editor themes beyond custom JS/CSS. You can pass a theme object in the initial config or call the *setTheme* method.[Learn More](https://docs.unlayer.com/builder/1.218.0/appearance/themes#custom-themes) .\n\n\n-\n\n\n**Carousel for Web Pages:** Added support for a carousel component in web pages, allowing users to display multiple images or content slides interactively.\n\n\n-\n\n\n**Menu Tool onClick Support:** Add support for onClick in the Menu Tool for Web and Popup display modes.\n\n\n-\n\n\n**Locked Rows:** Support marking Rows, Columns and Content as Locked, preventing any change to be made on them.[Learn More](https://docs.unlayer.com/builder/1.218.0/templates/permissions) .\n\n\n## Bug Fixes\n\n\n-\n\n\n**$ Replacement Fix:** Fixed an issue where the $ symbol was incorrectly being replaced with \"px\" when *inlineStyles: true* was enabled.\n\n\n-\n\n\n**Custom Font Weight Fix:** Resolved an issue where custom font weights defined in object format were not applied correctly.\n\n\n-\n\n\n**Hide on Desktop:** Fixed an issue where the css got broken when *inlineStyle: true* was enabled\n\n\n-\n\n\n**Form Tool Missing in Builder** : Fix form tool not showing up in the list of available tools for some users\n\n\n-\n\n\n**Inconsistent white spaces:** Improve how white spaces are handled in the Text tool\n\n\n-\n\n\n**Countdown Timer Improvements:** Allow you to duplicate a template and edit the new Timer without affecting the Timer from the previous template\n\n\n-\n\n\n**Inbox Previews:** Ensure Inbox Previews correctly uses the *previewHtml* callback for rendering.\n\n\n-\n\n\n**Safe HTML with Merge Tags:** Fixed an issue where the merge tags moved around in the HTML structure when safeHTML was set to true.\n\n\n-\n\n\n**Image Quality Fix:** Fixed an issue where images uploaded to the Unlayer's servers were being displayed with low resolution on MacBooks with Retina Display.\n\n\n-\n\n\n**Menu Tool Export Error:** Fix undefined variable error that was happening in a few cases for the Menu tool on email mode, particularly when dropping a saved block or setting the separator option.",
+  "published_at": "2025-03-06T22:57:13+00:00",
+  "first_seen_at": "2026-08-10T04:27:59.075255+00:00",
+  "content_hash": "sha256:746f9815c5cebc9c54b5c29c92f70527735632e03c42d24c4452732b78f0de7c"
+}

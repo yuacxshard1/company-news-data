@@ -1,0 +1,126 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "2dbd8b328d42d588e6bd575c027a2bf47d7a5d5c30ef06b35e43b36a0b2d6947",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Metrics, logs, and traces were built for humans and cheap storage. AI inverts both assumptions, and the next maturity level is a deterministic replay sandbox.",
+      "title": "The Three Pillars Were Built for Humans"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "2e06ff0849974523ba4b5476c1ad6f51c6e57768f686d54631faaca93c21fcbc",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-19T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Using 'production-similar' data in pre-production is a major security risk. Learn why traditional masking fails, where hidden PII hides, and how to fix it.",
+      "title": "Beware of PII in Testing Data: The Security Iceberg and Where PII Actually Hides"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "31aa27a0e356d3c8bd16015d76d90c1f66288aaf107fcb61f9b909acefef9d92",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Capture production traffic and store it in your own Elasticsearch with Speedscale BYOC. Pull it locally with es-gather.py and reproduce bugs with proxymock.",
+      "title": "Logs told me something broke. Traffic showed me what."
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "43a709385e5cfaf8808fe58acb7f19e52f10a6273ba42fd87bfc2d828a79e85b",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-10T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "MSA clauses and contractual guarantees aren't an architecture. If your production traffic leaves your cloud, you're trusting a policy, not a system.",
+      "title": "We won't train on your data is not a security architecture"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "4d0d16e63575d1efa1d31cee1bb5a2f2b990ba9e58167ac9074840fff80d0fbb",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Replay an authenticated flow and the protected calls fail with 403. Here is how proxymock recommendations fix the expired bearer token in one click.",
+      "title": "Fixing 403 auth errors when you replay traffic"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "4d63396e828e2b8bb9987f3aa325196c06a0a9f536a76408817b275c6388f069",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Production traffic is the most complete record of what your system does, and most teams throw it away. One capture powers reproduce, validate, and sandbox.",
+      "title": "Capture once, test forever"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "9638f8ce6d758a186416807fba3aa9d6bc7b8e7c149cc0859e19aa1c3bd3feae",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "I tested 100 bugs across 240 microservices the model has never seen. Alert only: 51% pass rate, wrong service 34% of the time. Traffic captures: 77%.",
+      "title": "Your AI agent is fixing the wrong service"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "a9e788f42d5725a6645bb4e1e5ad6949a0a85f3210d447238f183449fc91e43e",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Skip hand-writing WireMock stubs. Speedscale records your real request and response traffic and exports it straight to WireMock mappings.",
+      "title": "Build WireMock mappings fast from real traffic"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "bf3e1a4d293b29a77247ca95fbb22c659e8db969cd8a9289ec0e3cf26cdf50a8",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-16T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Logs, metrics, and traces are a lossy compression of production. Five things you can do with a traffic data lake that observability can't.",
+      "title": "Five things your logs will never tell you"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "f2c77ae1bf768b37dfbd0127c20769e2bfba74a5933e6b36848e49dc742c2d42",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Spring Boot upgrades silently change JSON contracts and autoconfiguration. Use traffic replay to catch every regression before production.",
+      "title": "Validate Spring Boot Upgrades with Traffic Replay"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "f30f3e9320610884022be6cc025c773d70b43034d51cad151cfa2d67154f43a4",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A second run of our AI bug-fixing benchmark shows where captured traffic lifts agents toward 90%, why service maps barely help, and which bugs still fail.",
+      "title": "Which Bugs AI Agents Fix Better With Traffic"
+    },
+    {
+      "company_key": "yc-speedscale",
+      "company_name": "Speedscale",
+      "doc_id": "fef31eba945c67faee97175cc944d11acc0d9e6a1721a52e2db6a6fbadb73d89",
+      "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
+      "published_at": "2026-06-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI-generated code breaks traditional mocking. Here's how BYOC capture and replay with proxymock keeps verification grounded in real production traffic.",
+      "title": "The AI Code Explosion: Why Your Mocking Strategy is Breaking Down"
+    }
+  ],
+  "company_key": "yc-speedscale",
+  "month": "2026-06"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "60ef8b566b4d59d0a38fec27ced955a33bf45668e6d90f363a4e0373d5b83f66",
+  "company_key": "yc-zeroentropy",
+  "company_name": "ZeroEntropy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.zeroentropy.dev/articles/latency-performance-assessment-of-zerank-2/",
+  "canonical_url": "https://zeroentropy.dev/articles/latency-performance-assessment-of-zerank-2/",
+  "title": "Latency Performance Assessment of zerank-2",
+  "summary": "In this blog, we go over the latency performance of ZeroEntropy's latest reranker model zerank-2.",
+  "body_markdown": "TL;DR\n\n\nzerank-2 delivers consistent, low-latency performance under realistic production conditions. In our testing, 97.3% of requests completed under 500ms with zero failures. This document presents our latency measurements and explains how to properly benchmark[reranker](https://www.zeroentropy.dev/concepts/reranker/) performance.\n\n\n## Why Proper Latency Testing Matters\n\n\nProduction[RAG](https://www.zeroentropy.dev/concepts/rag/) pipelines depend on the reranker staying off the user-facing critical path. When evaluating reranker latency, it’s critical that your testing reflects actual production usage patterns. Real user traffic doesn’t arrive at uniform intervals. It comes in bursts and clusters — exactly the dynamic that drives[tail latency](https://www.zeroentropy.dev/concepts/latency-tail/) . Testing with sequential requests or artificial patterns will give you misleading results that don’t predict real-world performance.\n\n\nOur tests use Poisson arrival patterns because they model the random, bursty nature of production traffic. This approach reveals how systems behave under realistic load conditions, including queueing effects,[throughput](https://www.zeroentropy.dev/concepts/throughput/) , and concurrent request handling.\n\n\n## Testing Methodology\n\n\nAll tests conducted using:\n\n\n- Poisson arrival patterns at 1-10 requests/second\n- 60-second test duration\n- 50 documents per request\n- Payload size ≤2KB per document\n\n\n## Performance Results\n\n\n### ZeRank-2 Latency Distribution\n\n\nLatency Threshold Requests Exceeding Threshold\n\n\n>75ms 100.0%\n\n\n>100ms 100.0%\n\n\n>150ms 50.5%\n\n\n>200ms 21.2%\n\n\n>250ms 11.3%\n\n\n>500ms 2.7%\n\n\n>750ms 1.4%\n\n\n>1s 0.9%\n\n\n>3s 0.0%\n\n\n>5s 0.0%\n\n\n>10s 0.0%\n\n\n>30s 0.0%\n\n\n**Failed** **0.0%**\n\n\n### Comparative Performance\n\n\nAgainst other industry[cross-encoder rerankers](https://www.zeroentropy.dev/concepts/cross-encoder/) :\n\n\nThreshold zerank-2 Cohere rerank-3.5 Jina reranker m0 Voyage rerank-2.5\n\n\n>150ms 50.5% 34.3% 100.0% 80.5%\n\n\n>500ms 2.7% 14.3% 70.8% 10.9%\n\n\n>1s 0.9% 11.6% 57.4% 9.7%\n\n\n>10s 0.0% 6.4% 55.7% 9.2%\n\n\n**Failed** **0.0%** **0.0%** **55.7%** **9.2%**\n\n\n## Key Metrics\n\n\n- **Zero failures** across all test conditions\n- **97.3%** of requests completed under 500ms\n- **99.1%** of requests completed under 1 second\n- **100%** of requests completed under 3 seconds\n\n\nzerank-2 maintains consistent performance across the entire latency distribution, with no requests exceeding 3 seconds.",
+  "published_at": "2025-12-09T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T21:03:20.034441+00:00",
+  "content_hash": "sha256:3121c249b35049d08a77f7c6bb0ac50c98261ea424493e97e248b397f7153d88"
+}

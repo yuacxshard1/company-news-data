@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b3173316eaa817a3cb19ee308d377615065a27d7dbd8c085735e1d36cfd0afed",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/27-1-2026",
+  "canonical_url": "https://browser-use.com/changelog/27-1-2026",
+  "title": "Browser Use Model - BU 2.0",
+  "summary": "+12% accuracy. Same speed. No tradeoffs.",
+  "body_markdown": "BU 2.0 is here.\n\n\n- **+12% accuracy** over BU 1.0 (74.7% → 83.3%)\n- **Similar speed** — ~62s average task duration\n- **Matches Claude Opus 4.5** accuracy while being **40% faster**\n\n\n### Benchmark Results\n\n\nModel Accuracy Avg Task Duration\n\n\n**BU 2.0** **83.3%** **62s**\n\n\nBU 1.0 74.7% 58s\n\n\nClaude Opus 4.5 82.3% 104s\n\n\nGemini 3 Pro 81.7% 143s\n\n\nGPT-5.2 70.9% 196s\n\n\n### Pricing\n\n\nModel Input Cached Output\n\n\nbu-1-0 / bu-latest $0.20/1M $0.02/1M $2.00/1M\n\n\n**bu-2-0** $0.60/1M $0.06/1M $3.50/1M\n\n\n### Quick Start\n\n\n```text\nimport   asyncio\nfrom   browser_use   import   Agent\nfrom   browser_use.llm   import   ChatBrowserUse\n\n\nasync   def   main  ():\n# Use the new bu-2-0 model\nllm   =   ChatBrowserUse(  model  =  \"bu-2-0\"  )\n\n\nagent   =   Agent(\ntask  =  \"Your task here\"  ,\nllm  =  llm\n)\n\n\nresult   =   await   agent.run()\nreturn   result\n\n\nasyncio.run(main())\n```\n\n\nGet your API key at[cloud.browser-use.com](https://cloud.browser-use.com/new-api-key) .",
+  "published_at": "2026-01-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:52a607cb9d004cded246f51ef10b0f361fc98d888bec0eb05ba7db5b3e959c77"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0538d29486a5af2ccba245e3661853f5001d1880c027303440e2ad36e80d026f",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2025-08-06-cost-budgets-for-preview-environments-scale-to-zero",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2025-08-06-cost-budgets-for-preview-environments-scale-to-zero",
+  "title": "Cost Budgets for Preview Environments & Scale to Zero - Flightcontrol Changelog | Productlane",
+  "summary": "",
+  "body_markdown": "## 🚀 Features\n\n\n-\n\n\nAdd scale to 0 and ability to pause services by allowing` minInstances` and` maxInstances` to be set to` 0`\n\n\n-\n\n\nCost budgets for preview environments\n\n\n-\n\n\nSupport for **Mysql v8.4** and **MariaDB v10.11 and v11.4**\n\n\n-\n\n\nSelf-serve ability to delete your entire Flightcontrol organization and user account\n\n\n## ⚙️ Improvements\n\n\n-\n\n\nBetter orphaned EC2 instance management for ECS+EC2 service types\n\n\n-\n\n\nImprove select git repo authentication flow and repo loading performance\n\n\n-\n\n\nUpdate static site edge lambdas\n\n\n-\n\n\nAutomatically update Github repo name in Flightcontrol when changed in Github\n\n\n-\n\n\nImprove a number of error messages\n\n\n## 🐞 Bug Fixes\n\n\n-\n\n\nFix ECS AWS console link for Network Services\n\n\n-\n\n\nFix access denied error in an edge case for image registries\n\n\n-\n\n\nMisc fixes and improvements",
+  "published_at": null,
+  "first_seen_at": "2026-08-09T22:19:16.006447+00:00",
+  "content_hash": "sha256:ebc8d2dbed9fa81beb81ab059200749d3ae4b0cd31089693b58b1f124ca50876"
+}

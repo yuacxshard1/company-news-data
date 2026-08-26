@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1d94bca2250730d39eb66838050ce7f398c53ea7e3359902caa063d9c525ef29",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-may-15-2026",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-may-15-2026",
+  "title": "Weekly Product Changelog: May 15, 2026",
+  "summary": "Added: Task Priority: Set priorities with a single keystroke and filter your daily view to focus on what matters most. Read more about how it works here .",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nAdded:\n\n\n- Task Priority: Set priorities with a single keystroke and filter your daily view to focus on what matters most. Read more about how it works[here](https://roadmap.sunsama.com/changelog/task-priority-auto-sort) .\n- Linear: Hide done tasks: New \"Hide done\" toggle in the Linear integration panel filters out completed issues from your list.\n- MCP improvements: Sunny can now see integration source details on imported tasks (GitHub repo, Linear issue number, Jira key, etc.), and a new get_task_by_id tool lets you fetch any task directly by its Sunsama ID.\n- Disable spellcheck: New user toggle in Settings > Display to turn off spell-check across all text editors.\n\n\nImproved:\n\n\n- Import priority from integrations: Tasks imported from Linear, Todoist, Jira, Asana, and other sources now carry their priority signal into Sunsama.\n- Auto-sort on integration import: Tasks added via the integration panel now respect your auto-sort preference and land in their correct sorted position.\n- Auto-sort on day change: Moving a task to a different day via keyboard shortcuts (D / S), right-click reschedule, the date picker, PlanDay, or the mobile long-press menu now triggers auto-sort on the destination day.\n\n\nFixed:\n\n\n- Various auto-sort bug fixes: Several gaps where auto-sort didn't run when it should have been addressed across import and day-change workflows.\n- Fixed a tablet log in issue\n- Menu bar event order: Upcoming events in the Mac menu bar are now sorted chronologically.\n- Toggl: full channel name visible on hover.\n- Workload counter: snoozed tasks with subtasks handled correctly in today's workload counter for time remaining\n- Fixed an issue with recurring tasks start time changing to midnight.\n- Desktop: Dock icon raises main window\n- Desktop: Focus bar respects \"focus mode disabled\" setting on break start\n- Desktop: Pomodoro sounds restored: Session-end and break-end sounds were silently dropped during a recent focus bar refactor and are now back.\n- Desktop: Focus bar z-order on Windows: Focus bar no longer loses its always-on-top position after running for a while.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T02:45:30.397865+00:00",
+  "content_hash": "sha256:5e95ab10f7a136514fefdbb093516d5fe9d53927317d689eed320b4d48d7e2d1"
+}

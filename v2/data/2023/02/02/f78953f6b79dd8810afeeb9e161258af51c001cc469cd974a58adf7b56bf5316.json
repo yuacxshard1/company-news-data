@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f78953f6b79dd8810afeeb9e161258af51c001cc469cd974a58adf7b56bf5316",
+  "company_key": "yc-sails-co",
+  "company_name": "Sails Co.",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.sailscasts.com/rate-limiting-in-sails/",
+  "canonical_url": "https://blog.sailscasts.com/rate-limiting-in-sails/",
+  "title": "Rate limiting in Sails",
+  "summary": "Rate limiting helps you control the rate of incoming requests to an API. In this article we go over how to set up rate limiting in Sails",
+  "body_markdown": "I recently had to implement rate limiting on the[Conference API](https://github.com/sailscasts/conference-api) - a[Sailscasts community](https://sailscasts.com/chat) project.\n\n\nThe whole idea of rate limiting is to limit the number of requests coming to a particular API in a certain time window.\n\n\nThe Conference API is written with Sails.js and when researching on how to implement rate limiting, I stumbled on the` express-rate-limit` package which handles rate limiting for Express and since Sails is based on Express, I saw an opportunity to wrap this package in a Sails hook to fine-tune the experience of using the package for Sails developers.\n\n\n## sails-hook-rate-limit\n\n\nThe result of that fine-tuning is[sails-hook-rate-limit](https://github.com/sailscastshq/sails-hook-rate-limit) . This hook simplifies setting up rate limiting in a Sails application by wrapping the` express-rate-limit` package thereby providing a nicer DX for setting up rate limiting in Sails.\n\n\n## Installation\n\n\nTo use this hook in your Sails project, run the below command in your terminal\n\n\n```text\nnpm   i   sails-hook-rate-limit   --save\n```\n\n\nAnd that’s all you need to setup rate limiting in your Sails API!\n\n\n## Setup\n\n\nBy default,` sails-hook-rate-limit` set some basic configs that you may or may not want to override.\n\n\nFor example, it sets the` windowMs` to` 10 minutes` , the max request per window to` 100` , set` express-rate-limit` to use standard headers i.e` RateLimit-*` and disables legacy headers i.e` X-RateLimit-*`\n\n\nTo override these values and more config options, create` config/rate-limit.js` and export a` rateLimit` object like so:\n\n\n```text\nmodule  .  exports  .rateLimit   =   {\n// config goes here\n}\n```\n\n\nIn this config object you can pass in any configuration property that` express-rate-limit` expects. See the[configuration docs](https://github.com/express-rate-limit/express-rate-limit#configuration) of` express-rate-limit` for those properties.\n\n\nFor example let’s say I want to override the default` 10 minutes` window to` 20 minutes` , I will pass the following to` config/rate-limit.js` object.\n\n\n```text\nmodule  .  exports  .rateLimit   =   {\nwindowMs:   20   *   60   *   1000   // 20 minutes\n}\n```\n\n\n## Conclusion\n\n\nRate limiting is frequently used to control the frequency of requests to an API and in this article we covered how to set up rate limiting in your Sails APIs by using the` sails-hook-rate-limit` Sails hook.",
+  "published_at": "2023-02-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T22:05:07.405322+00:00",
+  "content_hash": "sha256:c9b468341cd7bb708fc3d56135291d0a685f4b16b11ad8761d58a71390ea2343"
+}

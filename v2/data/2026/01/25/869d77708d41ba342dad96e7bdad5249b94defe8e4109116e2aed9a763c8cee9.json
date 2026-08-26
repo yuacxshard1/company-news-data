@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "869d77708d41ba342dad96e7bdad5249b94defe8e4109116e2aed9a763c8cee9",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-virtual-server-module-8-0-0-released/136390",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-virtual-server-module-8-0-0-released/136390",
+  "title": "Virtualmin virtual-server module 8.0.0 released",
+  "summary": "Howdy all, We’ve rolled out Virtualmin virtual-server module 8.0.0 for all repos. Note this is not the Virtualmin 8 installer, which will be rolled out in a few hours. The Virtualmin virtual-server module does not add support for any new distros to the current stable Virtualmin 7 installer, so the supported OS list has not changed and won’t change until the new installer is pushed. Changes since 7.50.1: Add support for systemd resource limits for Virtualmin Pro users Add support for SFTP ba...",
+  "body_markdown": "Howdy all,\n\n\nWe’ve rolled out Virtualmin virtual-server module 8.0.0 for all repos. Note this is *not* the Virtualmin 8 installer, which will be rolled out in a few hours.\n\n\nThe Virtualmin virtual-server module does not add support for any new distros to the current stable Virtualmin 7 installer, so the supported OS list has not changed and won’t change until the new installer is pushed.\n\n\nChanges since 7.50.1:\n\n\n- Add support for systemd resource limits for Virtualmin Pro users\n- Add support for SFTP backups and restores, including the ability to purge SFTP backups\n- Add support for paginated display of large user lists\n- Add backup signing improvements, including the ability to skip signing when necessary\n- Add option to forward the original HTTP hostname when proxying requests\n- Add phpMyAdmin integration (if installed) when editing databases for virtual servers\n- Add a row showing when and why a domain was disabled in the virtual server summary\n- Add improvements to ACME service notifications\n- Add reseller access to edit PHP-FPM configs\n- Add improvements to handling of remote/cloud DNS hosting\n- Fix validation of A and AAAA DNS records when using` modify-dns` CLI\n- Fix reliability of remote backups during long-running tasks using Webmin RPC\n- Fix several DKIM-related issues\n- Fix handling of EC SSL certificates\n- Update the repo setup script and workflow to match the newer packaging/CI layout\n\n\nAs always, if you run into any problems, let us know in a *new* topic.",
+  "published_at": "2026-01-25T08:44:43+00:00",
+  "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+  "content_hash": "sha256:ab45dddda952d75503d28b09d4864da59b6c78d254d8271dabb3c61c27577ebc"
+}

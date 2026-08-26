@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "54b5902acd5737491697f8ba9cbda5a44f7386c0b03e9b533f94852cf38cbe41",
+  "company_key": "yc-iomete",
+  "company_name": "IOMETE",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://iomete.com/resources/blog/iceberg-maintenance-operations",
+  "canonical_url": "https://iomete.com/resources/blog/iceberg-maintenance-operations",
+  "title": "Apache Iceberg Table Maintenance: What Iceberg Ships and What It Doesn't",
+  "summary": "Apache Iceberg's four maintenance procedures explained: what each does at the file level, the tuning parameters most teams miss, and where the DIY path breaks down.",
+  "body_markdown": "The default value of` Integer.MAX_VALUE` means compaction does not trigger based on delete-file accumulation alone. Out of the box, rewrites are driven almost entirely by file size thresholds.\n\n\nOn high-write Merge-on-Read (MoR) tables, this can become a major operational issue. Delete files continue accumulating while reads gradually become more expensive, often without obvious visibility until query latency noticeably degrades.",
+  "published_at": "2026-05-25T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T00:31:44.448316+00:00",
+  "content_hash": "sha256:ac65bc537fdc199d40bd2c9847f7c866970f539701de3e7a3223c92bcab7de7d"
+}

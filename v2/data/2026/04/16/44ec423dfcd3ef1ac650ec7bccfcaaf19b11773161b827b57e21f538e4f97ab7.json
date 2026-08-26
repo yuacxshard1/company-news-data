@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "44ec423dfcd3ef1ac650ec7bccfcaaf19b11773161b827b57e21f538e4f97ab7",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://resend.com/blog/introducing-custom-tracking-domain",
+  "canonical_url": "https://resend.com/blog/introducing-custom-tracking-domain",
+  "title": "Custom Tracking Domains",
+  "summary": "Use your own domain for tracking links to improve deliverability and brand consistency.",
+  "body_markdown": "Tracking can give you a clear picture of how your emails are performing.\n\n\nBut email tracking typically relies on shared domains, meaning reputation is shared as well. If others using your domain are not sending emails responsibly, it can impact your deliverability.\n\n\nToday, we're launching[custom tracking domains](https://resend.com/domains) , free for all Resend users.\n\n\n## How it works\n\n\nTo get started, go to[Domains](https://resend.com/domains) and select the **Configure** tab for your domain.\n\n\nAdd the required record to your DNS settings and Resend will automatically route all tracking through your custom domain.\n\n\nBoth features are configured at the domain level, and both are disabled by default.\n\n\n## Two types of tracking\n\n\nOn Resend, you can enable two different types of tracking:\n\n\n### 1. Click tracking\n\n\nWhen you enable click tracking, Resend sets up a **redirect for each link** in your email. When a recipient clicks, the action is recorded and they are immediately forwarded to the original URL.\n\n\n### 2. Open tracking\n\n\nWhen you enable open tracking, Resend **embeds a 1x1 pixel transparent image** in your emails. When a recipient's mail client downloads it, Resend records an open event.\n\n\n## Why a custom domain matters\n\n\nInbox providers like to see consistency between your sending domain and the content of your emails.\n\n\nWhen tracking links pass through a domain you own, rather than a shared one, inbox providers notice. And that alignment is better for deliverability.\n\n\nIt also means your recipients never see an unfamiliar domain in the links they click.\n\n\n## Set up custom tracking via the API\n\n\nOf course, you can also enable custom tracking when creating a domain via the API.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  domains  .  create  (  {        name  :     'example.com'  ,        openTracking  :     true  ,        clickTracking  :     true  ,        trackingSubdomain  :     'links'  ,     }  )  ;\n\n\n```\n\n\nYou can also verify the[tracking domain via the API](https://resend.com/docs/api-reference/domains/verify-domain) .\n\n\n## Pair with webhooks\n\n\nCustom tracking is most powerful when combined with[webhooks](https://resend.com/docs/webhooks/introduction) . Every open and click fires an event in real time, so you can:\n\n\n- Measure performance\n- Segment your audience\n- Refine your emails\n\n\n## Get started today\n\n\nCustom tracking domains are free for all Resend users.\n\n\nVisit the[custom tracking domain docs](https://resend.com/docs/dashboard/domains/tracking#custom-tracking-domain) to get started.",
+  "published_at": "2026-04-16T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:56.405079+00:00",
+  "content_hash": "sha256:7688c43eb66fe4de62201e54263296ac679e04ee33c555fd3e53cece8a3c4d3d"
+}

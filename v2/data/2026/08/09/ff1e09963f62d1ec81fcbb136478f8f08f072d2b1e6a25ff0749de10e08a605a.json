@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ff1e09963f62d1ec81fcbb136478f8f08f072d2b1e6a25ff0749de10e08a605a",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2026-04-02-significant-ecs-customization-options",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2026-04-02-significant-ecs-customization-options",
+  "title": "Significant ECS customization options - Flightcontrol Changelog | Productlane",
+  "summary": "",
+  "body_markdown": "## 🚀 Features\n\n\n-\n\n\nAdd custom Task definition fields\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#task-definition-base)\n\n\n-\n\n\nCustom AMI for ECS EC2 instances\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#target) for` target.ami`\n\n\n-\n\n\nEBS volume configuration for EC2 clusters\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#target) for` target.storage`\n\n\n-\n\n\nAdd` notesLink` config to all service types to display custom URL in service side pane\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code)\n\n\n-\n\n\nNew ECS container health check config\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#ecs-container-health-check)\n\n\n-\n\n\nAdd get job execution API endpoint\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/reference/http-api/scheduler/get-job-execution)\n\n\n-\n\n\nAdd ability to override image repository in create deployment API\n\n\n-\n\n\n(except for protected environments)\n\n\n## ⚙️ Improvements\n\n\n-\n\n\nDeployments can now be cancelled during the deploy phase\n\n\n-\n\n\nAdd task definition version and link on ECS deploy step accordion\n\n\n-\n\n\nAdd` createdAt` &` updatedAt` to get services API endpoint\n\n\n-\n\n\nEnabled encryption for ECS EC2 instance volumes\n\n\n## 🐞 Bug Fixes\n\n\n-\n\n\nMany bug fixes",
+  "published_at": null,
+  "first_seen_at": "2026-08-09T22:19:16.006447+00:00",
+  "content_hash": "sha256:fda1270cb527197782047064bde50c88766726a3cfc3d809c2c80d3fc9651d65"
+}

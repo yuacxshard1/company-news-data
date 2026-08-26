@@ -1,0 +1,226 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "00e0a98351e693a653afa54f4bb5aba680ad02b898969de83d5f86d210b6cca7",
+      "first_seen_at": "2026-08-03T14:00:49.178645+00:00",
+      "published_at": "2026-07-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Before we shipped a single line of AI Sessions, we had already spent months supervising AI coding agents on our own codebase, through Webmux, the open-source dashboard we built for ourselves. Here is how that daily use shaped the product.",
+      "title": "How building AI Sessions was shaped by our own experience with Webmux"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "02e91312ed38375620dc88d8cd9bb3b723d411709d2a87072fb2f2a9315f14ca",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "New managed history strategy on `// materialize` keeps every version of every row (slowly changing dimension type 2). A change closes the prior version and opens a new one, with managed `valid_from`/`valid_to`/`is_current` columns, an auto-maintained `<table>_current` view, and support for effective-dated ASOF joins. Data tests and schema capture keep working, unlike hand-written `materialize manual` SQL.",
+      "title": "SCD2 history strategy for DuckLake materialization"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "047dfe19bc390dba8398d54eeefba198896cb6d2f8191597d6784d5e1be5ce5f",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Workspace forks are now available on app.windmill.dev for workspaces on a paid plan. A fork inherits its parent (root) workspace's premium status and usage limits, and its executions are metered into the parent's billing. Free-tier workspaces cannot fork, and the number of forks is capped at 5 per paid developer seat of the root workspace.",
+      "title": "Workspace forks on Windmill Cloud"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "3c60e332fe0017f2f48d8d3ef97e1bf5e9ea813a13d790daabb0ea5691b60b23",
+      "first_seen_at": "2026-07-31T17:41:07.360869+00:00",
+      "published_at": "2026-07-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Compare & Deploy now accepts an arbitrary target workspace, not just the parent. Pick it from the destination badge in the merge header, compute a full diff over both workspaces, and deploy the items you select one way into the target. Requires being an admin of both workspaces. The Deployment UI settings tab is now part of Dev workspace.",
+      "title": "Compare & Deploy into any workspace"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "3d9ddd27fed908b030708abc7cf10a40816aa89bff9997cf3c8e124cb8a0bdde",
+      "first_seen_at": "2026-07-25T10:27:53.432388+00:00",
+      "published_at": "2026-07-25T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The BigQuery and Snowflake script languages are no longer gated behind an Enterprise license. Both are now selectable in the script editor, the flow step picker and the app inline script picker on every edition, including self-hosted community instances, and both executors ship in the standard community builds. Oracle DB and MS SQL remain Enterprise-only runtimes.",
+      "title": "BigQuery and Snowflake available in the community edition"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "4680d34aa7e6339b63a931655ade64382a4297d9687602c04d3c3f468fc115c7",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The `// freshness <window>` annotation on pipeline scripts now shows a live fresh/stale verdict on the pipeline graph, emerald when the last successful run completed within the window and amber when it is stale or has never run. On Enterprise Edition, a freshness watchdog re-runs stale unpartitioned scripts automatically with exponential backoff capped at the window; watchdog runs skip the downstream cascade, are attributed to pseudo-user freshness-<path> with the new freshness trigger kind, and can be disabled instance-wide with DISABLE_FRESHNESS_WATCHDOG.",
+      "title": "Asset freshness with fresh/stale badge and automatic watchdog"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "4f9011619c7c7fec6a85623a33b0f11fceda0436b6d77030752babb5e33ed2f6",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-05T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Consumer scripts referencing materialized DuckLake tables are now validated against the captured producer schemas at save time. Missing columns, dropped lineage sources and mismatched relationship types surface as warnings (never errors) after deploy, as live editor squiggles, and column names autocomplete with their types when typing `.` after a `ducklake://` reference on annotation lines. Producers can declare a deliberately unstable schema with `on_schema_change=ignore` on the `// materialize` line to collapse downstream warnings into a single note.",
+      "title": "Schema contracts for pipeline consumers"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "5c3dedaa6cf7cb2a46f6634606123ab7f6a19dc13d35f8e08136ade3544beb18",
+      "first_seen_at": "2026-07-27T09:58:44.512719+00:00",
+      "published_at": "2026-07-22T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI sessions are now in beta and enabled by default. Each session ties an AI chat to a workspace or fork with a live preview panel; the AI builds scripts, flows and apps as drafts you review in a unified diff drawer and deploy. Run many sessions in parallel; a banner switches back to the legacy chat.",
+      "title": "AI sessions (beta)"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "62f255e632fa5207da7f7196c94f6da7ae9c804b86d44a407b9b79523fb785ad",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-05T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Workspace forks now get an isolated data environment per DuckLake by default. Materializing pipelines in a fork write to a fork-scoped metadata schema and bucket prefix instead of the parent's tables, and tables the fork has not materialized yet are read from the parent through read-only defer views, so one node can be iterated on without rebuilding upstream. The fork-creation dialog adds a per-lake Isolated / Shared with parent choice, the pipeline graph shows deferred vs fork chips on DuckLake assets, and deleting a fork can drop its forked namespaces.",
+      "title": "Fork data environments for DuckLake materialization"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "64815e12362d7d38c6582426a8e2aaa45e1832798e29e78a935ab13a5267ff84",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Share SQL logic across a workspace with macro libraries. A DuckDB script annotated `// macros` publishes engine-native CREATE MACRO definitions on deploy; any DuckDB script that calls a registered macro gets the definitions injected at run time, with no import or compile step. Includes editor autocomplete, a workspace macros explorer, and library nodes in the pipeline graph.",
+      "title": "Workspace DuckDB macro libraries"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "7ff83193f0e86d741f8c4721465c4fb72ecdf1769c049aad073407bf6d41bcf7",
+      "first_seen_at": "2026-07-27T09:58:44.512719+00:00",
+      "published_at": "2026-07-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Text files can now be attached to individual AI chat messages via picker, drag and drop, or paste. They show as chips in the input box and are sent with the next message. Content is read on demand by the AI through file tools instead of being inlined, so it is never resent with the conversation history.",
+      "title": "Attach text files to AI chat messages"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "964ef4e74ecc6d36de5cb142c24ce44520551fc481b6f7c8911777dcc3fd468c",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The Community Edition 50MB per-file upload cap on workspace object storage is replaced by a 10GiB total storage quota per workspace. Files of any individual size can be uploaded up to the quota, usage is shown in the workspace settings under S3 Storage with a recount button, and reads and deletes are never blocked even when over quota. Enterprise Edition remains unlimited.",
+      "title": "10GiB workspace storage quota replaces 50MB upload cap on Community Edition"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "9bdfbfa8942d6ab71ac035ebb81b7341764ed14a1949d1e416f33a21b212ea6e",
+      "first_seen_at": "2026-08-03T23:21:06.717996+00:00",
+      "published_at": "2026-07-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The workspace-level \"deploy to\" setting is gone. A workspace now deploys into its parent - the workspace it was forked from, or the prod workspace its dev workspace is paired with - so the deployment target has a single definition instead of two that could disagree. There is nothing to do on upgrade to Windmill 1.776.0, since a staging workspace that was the only one deploying into prod simply becomes prod's dev workspace. Only two shapes need a look, and both are named in the migration logs. Job tags became lineage-aware at the same time, so $workspace in a tag resolves to the nearest ancestor workers are actually provisioned for.",
+      "title": "One deployment target, derived from the workspace lineage"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "9d2f57d5547c505db835b0d586cc340bab3e8055498b7c2c92b2a5826730c0e4",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Azure AI Foundry is now natively supported as an AI provider in Windmill, exposing the broader Foundry catalog (OpenAI models plus Llama, DeepSeek, Mistral, Phi and more) over an OpenAI-compatible API in both AI chat and AI agent steps.",
+      "title": "Azure AI Foundry support for Windmill AI"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "a03a71c878acbc1a8b80d27b52b0f3bf0c0689ef5c07cb66a8320dd36ca01c47",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "On a partitioned DuckLake asset, the Backfill button opens a range picker that previews which partitions are missing, failed or materialized, then re-runs the producing script once per partition with an explicit partition argument. Runs are sequential and idempotent, a failed partition does not stop the rest, and progress streams in the dialog and drawer header. Range backfill is an Enterprise feature; single-partition runs stay available in all editions.",
+      "title": "Backfill a range of partitions from the asset drawer"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "ae2020df1cdbdbf277444f854617bf649e4147e7c1181b83d012f813827e6ead",
+      "first_seen_at": "2026-07-27T09:58:44.512719+00:00",
+      "published_at": "2026-07-20T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When the AI chat searches the web (OpenAI and Anthropic providers), the tool card now shows the search query as it is typed and expands with the list of consulted sources (favicon, page title and link) as each search completes. Sources are kept with the conversation history.",
+      "title": "Web search sources in AI chat"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "bbba13c9e9e93ef4b6260bbd60eaf2f83de314a78ef592f928b3b04b3b663e84",
+      "first_seen_at": "2026-08-14T15:49:25.757524+00:00",
+      "published_at": "2026-07-16T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "In AI sessions, the assistant can now save longer structured output like plans, specs and design write-ups as markdown artifacts that persist for the whole session. Artifacts open in the session preview panel with Copy, Download as .md and a Preview / View source toggle, and are listed in the new status line above the chat input that gathers the session's drafts, artifacts and jobs. They are stored locally in your browser, restored when you reopen the session and removed when the session is deleted.",
+      "title": "Markdown artifacts in AI sessions"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "cd6ae63747dc964804b63bd5b11d456583896af79519f44f5db62fcdc8982f71",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-16T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The Git to Windmill direction of git sync now works fully in-app, making the documented GitHub Actions optional. Enable 'Automatically deploy changes from Git' on a repository and new commits to the tracked branch deploy into the workspace, instantly via webhooks for GitHub App repositories (with polling as a safety net) or by polling about every minute for token repositories. Windmill can also open pull requests for promotion and fork deploy branches, post a 'Windmill diff' check and managed comment on pull requests showing what merging would deploy, post a deploy status check on synced commits, and automatically deploy fork branch changes into fork workspaces from a single parent-level toggle.",
+      "title": "Automatic git-to-Windmill sync"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "d141c75c5d88e07f81cf0845bd6dd27a1e5de40daaefae01d5a96b58f428011b",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Ducklakes can now run scheduled maintenance to keep growth in check - snapshot expiry with a configurable retention window (default 7 days), compaction of adjacent small parquet files, and orphaned file cleanup. Configured per lake in the workspace Ducklake settings with a cron cadence (default daily at 03h UTC) and executed as observable jobs whose run history is the audit trail. Enterprise feature.",
+      "title": "Scheduled Ducklake maintenance"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "d6d955aa5c6e10aa437731b361f67772849c9dd6a0897bb83e6171bc80aec8ca",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Ansible scripts that delegate to a git repository can set the new ansible_cfg field, a repo-relative path to an ansible.cfg that becomes the effective configuration via ANSIBLE_CONFIG, so repo settings like roles paths, inventory plugins and callbacks apply. Windmill only re-applies runtime-bound settings (temp directories, vault password) and prepends its own roles and collections install paths. Requires workers running with DISABLE_NSJAIL=true; without the field, Windmill's generated config takes precedence as before.",
+      "title": "Use a repo-provided ansible.cfg when delegating to a git repository"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "d923c8e95e51020256e9c5534d44147ec083bdb9b2413d1cf84f1ebf9f04573b",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI agent steps can now use extended thinking, configured with a model-adaptive reasoning effort dropdown in the provider/model picker. Supported on Anthropic Claude, OpenAI o-series and GPT-5, Azure OpenAI, Google AI Gemini, AWS Bedrock Claude, OpenRouter, DeepSeek, and Mistral, with an explicit off option. Reasoning tokens are billed, and thinking is streamed into a collapsible Thinking box in chat mode.",
+      "title": "Reasoning effort for AI agent steps"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "ffce8c845d26cf05085c2db705d948cc7a1a0b30dd17715b83c66716ac847c8d",
+      "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+      "published_at": "2026-07-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Edit, preview and run data pipelines from local files without deploying. `wmill pipeline show/run --local` builds the graph from your working tree with the same parser the UI uses, `wmill pipeline dev` live-previews the graph in the browser on every save, and `wmill pipeline docs` writes a PIPELINE.md for coding agents.",
+      "title": "Local development for data pipelines"
+    }
+  ],
+  "company_key": "yc-windmill",
+  "month": "2026-07"
+}

@@ -1,0 +1,225 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-fightcamp",
+      "company_name": "FightCamp",
+      "doc_id": "017247830c0bdefccc8df7c2e209cfb81253ca9fd6969cc6e8f744467463741e",
+      "first_seen_at": "2026-07-25T04:32:59.274712+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "It’s crucial for fighters to last in the ring. FightCamp is switching up roadwork with these cardio activities to build up your endurance for fights.",
+      "title": "Shake Up Cardio | Unique Ways Boxers Build Fight Endurance"
+    },
+    {
+      "company_key": "yc-fogbender",
+      "company_name": "Fogbender",
+      "doc_id": "03a480a1291a985d62c658350d0a1bf9e5dc93877c03cd0bdb49e59bb83d57b0",
+      "first_seen_at": "2026-07-21T20:41:04.212025+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Generating Fogbender chatbot prompt instructions with ChatGPT",
+      "title": "Generating bot prompt instructions with ChatGPT"
+    },
+    {
+      "company_key": "stifel-financial-corporation-common-stock",
+      "company_name": "Stifel Financial Corporation",
+      "doc_id": "04d269260e7985ade82d45c78b6b89947f5a96b2ac2997338670353b438648f8",
+      "first_seen_at": "2026-07-20T03:32:36.708871+00:00",
+      "published_at": "2023-01-23T14:05:00+00:00",
+      "source_kind": "rss",
+      "summary": "EATON PARTNERS ACTS AS EXCLUSIVE PLACEMENT AGENT FOR STERLING INVESTMENT PARTNERS IV, L.P.",
+      "title": "EATON PARTNERS ACTS AS EXCLUSIVE PLACEMENT AGENT FOR STERLING INVESTMENT PARTNERS IV, L.P."
+    },
+    {
+      "company_key": "teledyne-technologies-incorporated-common-stock",
+      "company_name": "Teledyne Technologies Incorporated",
+      "doc_id": "0ab5976a08ba563d876ddea8e1faf9c11573ab783b5fe36c222fbaa6ab80f5e6",
+      "first_seen_at": "2026-07-20T04:36:13.437201+00:00",
+      "published_at": "2023-01-23T13:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Figure 6. Measuring the inductively coupled noise on the victim trace adjacent to the aggressor signal with no gap and separated by a gap. The inductively coupled noise is reduced by about 40% on the victim trace separated by a gap. This is a small impact. The following is excerpted from Professor Eric Bogatin's article in the Signal Integrity Journal, The Case for Split Ground Planes . Reprinted by permission of Signal Integrity Journal. This section continues from the discussion on Return Current at Low Frequency . . . . Inductively Coupled Noise In a plane, at frequencies below about 10 kHz, return currents will not flow under the signal path, but will spread out in the return plane. Above 10 kHz, the return currents are localized under the signal paths. When we have two adjacent signal paths that are over a wide, continuous plane, they will show inductive cross talk at high frequency. Even with minimal overlap of the return currents, there is still loop mutual inductance between the two signal-return paths. This inductive noise is driven by the changing current, the dI/dt, in the aggressor signal-return path, which will get smaller at lower frequency. An aggressor signal with a transient, short rise time current edge, will result in a noise signature on an adjacent victim line with a derivative of the aggressor current. The inductive noise would only appear synchronous with the switching current edge. This is why we call this sort of inductively generated noise “switching noise” since it only occurs when signals switch transition levels. As the current change drops off, with a lower slope, the inductive cross talk drops off until it is below a measurement threshold. This behavior was demonstrated in a simple board. In a two-layer board, we constructed six parallel, identical microstrip traces. One was the aggressor. Its far end was shorted to ground. A 2 kHz square wave of 120 mA peak to peak current was transmitted down the aggressor. The rise time was about 9 nsec, but the current was at a constant value for the rest of the period. There were two victim traces symmetrically on either side of the aggressor. Between the aggressor and one of the victim lines, a gap in the return plane was cut. This isolated the return currents from the aggressor. They were unconstrained to one victim line, be eliminated from flowing under the other victim trace. We expect to see switching noise on the adjacent victim trace that lasts only during the 9 nsec of the rise time. The rest of the period should show no switching noise. The measured switching noise on the two victim traces shows the impact from the gap in the return plane. Figure 6 shows the measurement set up of the two configurations and the measured inductively coupled cross talk on the two victim traces. We see the signature of the switching noise as the derivative of the current edge. From the measured peak crosstalk, on the order of 5 mV in this example, the rise time, and the current peak, we can estimate the loop mutual inductance between the aggressor and the victim. With no gap, this is about 0.4 nH of loop mutual inductance. On the other side of the gap, it is reduced to about 0.25 nH. The gap redistributed the return currents and did reduce the loop mutual inductance to the victim trace on the other side of the gap. But it was by a small amount. Low Frequency Resistive Coupled Cross Talk At low frequency, when the return currents spread out, they will create a voltage drop distribution in the return plane due to the resistance in the plane. With a typical resistance in the return path on the order of 1 mohm, and currents on the order of 100 mA, this is a voltage drop between one region of the return plane and another on the order of 100 uohms, for example. This voltage drop due to the low frequency, DC currents on the plane, would appear as a voltage difference between the signal and local return plane on the victim path. It would show up at low frequency and last into DC. However, the magnitude of the resistively coupled noise might be orders of magnitude lower than the inductively coupled noise. If there were a parallel gap in the return plane between the aggressor and victim traces, the impact on the inductive cross talk would be small. However, the parallel gap would prevent DC currents from the aggressor’s return current from flowing under the victim trace and would eliminate the already small resistively coupled cross talk. Figure 7. The measured voltage noise on the victim trace with a scale of 20 uV/div. The raw measurement in one acquisition shows the oscilloscope amplifier noise which is reduced with 250 acquisitions averaged together. Note the switching noise which occurs at the edges of the square wave is just visible on this time base scale. The resistive cross talk can be measured during the part of the square wave when the current is constant. Figure 7 shows the same measurement of the voltage on the victim trace with no gap between it and the aggressor signal, during the entire square wave of current, but on a much higher resolution voltage scale. This is a very difficult measurement because the resistively coupled cross talk is so small. With no averaging, the cross talk is smaller than the 100 uV rms amplifier noise of the Teledyne LeCroy WavePro HD, 12-bit scope. To reduce the random noise, we have to average consecutive acquisitions, triggering the scope with the function generator’s square wave. The random noise decreases with the square root of the number of averages, but the cross talk synchronous with the function generator, stays the same. We see the very clear DC signature of the resistively coupled noise on the victim trace. Its magnitude is about 120 uV peak to peak. The small offset of about 20 uV is the DC offset of the scope’ amplifier. This 120 uV of resistively coupled noise for a peak-to-peak current of 120 mA corresponds to a coupled resistance in the ground plane of about 120 uV/120 mA = 1 mohm of resistance, or the resistance in about 2 squares of ground plane for this board. This 120 uV of resistive noise is due to the overlap of the return currents of the two conductors, roughly 1 inch apart, with 120 mA of aggressor current, passing through the 1 mohm of overlapping plane resistance. This is the cross-talk noise which we would want to eliminate with a split ground plane. Also see: Return Current at Low Frequency Signal Return Paths Transmission Lines for Oscilloscope Users, Part 1 Go Back to School on Signal Integrity",
+      "title": "Inductively Coupled Noise and Resistively Coupled Noise: A Signal and Power Integrity Tutorial"
+    },
+    {
+      "company_key": "sps-commerce-inc-common-stock",
+      "company_name": "SPS Commerce Inc.",
+      "doc_id": "152ce990e12b501468b1a580a7ae9eeae6d4a8ed213f437565acd320cd3ce6c2",
+      "first_seen_at": "2026-07-20T23:19:01.810458+00:00",
+      "published_at": "2023-01-23T16:24:09+00:00",
+      "source_kind": "rss",
+      "summary": "Open source has become the de facto way to build software not only in tech, but across diverse industries. As companies use open source code to build their own commercial products and services, they also see the strategic value of contributing back to those projects. Since at least 2017 SPS has seen the benefits of contributing back to the open source community in ways large and small. Recently with the acceptance of Add ClientMetadata to SRP auth flow #90 to the aws-sdk-net-extensions-cognito repository another step has been made to contribute back to the community and share additional features out to all consumers of this extension. The .NET extension for Cognito supports developers using the C# programming language who also use the AWS Cognito service to easily make calls to the API. The repository puts it best: Amazon.Extensions.CognitoAuthentication simplifies the authentication process of Amazon Cognito User Pools for .NET developers. It allows you to use various authentication methods for Amazon Cognito User Pools with only a few short method calls, and makes the process intuitive. One aspect of calling Cognito which wasn’t covered in the extension was the ability to provide Client Metadata to a custom token generation lambda function. Because the lambda token generation function needs to have a very short runtime it is inadvisable to reach out to a database in order to add custom scopes or other information. Additionally, some information may be sensitive or not stored in a database and can or should only be passed by an API call. For this and other reasons the Cognito API provides a Client Metadata object as part of the Initiate Auth request. For some software used at SPS, information which was available in the API needed to be passed to Initiate Auth and consumed in the pre-token generation lambda to be sent to the end user. A pull request was opened and accepted, so now as of Amazon.Extensions.CognitoAuthentication 2.2.4 it is possible to pass “ClientMetadata” along. We hope that this contribution will be of great assistance to the community of C# Cognito users and enable more users of the Cognito service to take advantage of customizing their Cognito tokens! -Jonathan DeMarks, Principal Cloud Engineer",
+      "title": "Giving back to the AWS community"
+    },
+    {
+      "company_key": "yc-namecard-ai",
+      "company_name": "Namecard.ai",
+      "doc_id": "2a7215b5fcc2e1d869b60247a466c0260e6b4743feca24e6dbdcb24fa968ceac",
+      "first_seen_at": "2026-08-10T00:54:06.811990+00:00",
+      "published_at": "2023-01-23T06:09:27+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "[News Media-Security Boulevard] Y Combinator’s Summer 2022 Cybersecurity, Privacy, and Trust…"
+    },
+    {
+      "company_key": "amprius-technologies-inc-common-stock",
+      "company_name": "Amprius Technologies Inc.",
+      "doc_id": "46536420d0628d66d0c791a38670d4592183d4cf4b6ce164023e63f8de4fba2a",
+      "first_seen_at": "2026-07-20T03:32:00.771834+00:00",
+      "published_at": "2023-01-23T21:43:16+00:00",
+      "source_kind": "rss",
+      "summary": "Electric planes have great potential to help cut down on environmental cost with fewer emissions. Learn more about what the future holds.",
+      "title": "The Future of Commercial Electric Planes"
+    },
+    {
+      "company_key": "yc-athina-ai",
+      "company_name": "Athina AI",
+      "doc_id": "4a5a4d19f6df288cb79bd31d412c80cbff45ad41d84a99b9a2fc2478eeb27542",
+      "first_seen_at": "2026-07-24T17:13:32.301153+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Tutorials, guides and deep dives into the best techniques and research for building reliable AI.",
+      "title": "Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "4ce49bd68a2ac7836dce7c80c19af5e34ea77ecbe91416cd17f3578472921957",
+      "first_seen_at": "2026-07-27T01:01:37.873246+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Set up MFA in AWS step by step: configure virtual and hardware MFA devices for root and IAM users to prevent unauthorized account access.",
+      "title": "How to setup Multi Factor Authentication (MFA) devices in AWS?"
+    },
+    {
+      "company_key": "yc-fightcamp",
+      "company_name": "FightCamp",
+      "doc_id": "5528a6ecba726d26f52d68555f4c7db2e6c70a3b0dda9830c96942d87ff13567",
+      "first_seen_at": "2026-07-25T04:32:59.274712+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Working out with a buddy improves your workouts, mental health, and even your friendship. FightCamp’s here to help you get a friend in on your fitness journey.",
+      "title": "Getting Accountability Buddies to Join You in FightCamp"
+    },
+    {
+      "company_key": "inventrust-properties-corp-common-stock",
+      "company_name": "InvenTrust Properties Corp.",
+      "doc_id": "66f0ca8116a886bc2a2528a6fd8d185e49c296800780afe74ff97e827d059568",
+      "first_seen_at": "2026-07-25T09:50:02.769299+00:00",
+      "published_at": "2023-01-23T21:52:00+00:00",
+      "source_kind": "rss",
+      "summary": "InvenTrust Properties Corp. (“InvenTrust” or the “Company”) (NYSE: IVT) today announced the tax reporting information for the 2022 distributions on its common stock. The tax reporting information as it will be reported on the Form 1099-DIV, on a per share basis, is as follows: Record Date Distribution Payable Date Total Distribution Per Share Ordinary Dividend Per Share Return of Capital Per Share Qualified Dividend Per Share Sec. 199A Dividend Per Share Sec. 897 Ordinary Dividend Per Share 12/30/2021 1/14/2022 $ 0.205200 $ 0.191321 $ 0.013879 - $ 0.191321 $ 0.006489 3/31/2022 4/15/2022 $ 0.205200 $ 0.191321 $ 0.013879 - $ 0.191321 $ 0.006489 6/30/2022 7/15/2022 $ 0.205200 $ 0.191321 $ 0.013879 $ 0.191321 $ 0.006489 9/30/2022 10/14/2022 $ 0.205200 $ 0.191321 $ 0.013879 - $ 0.1",
+      "title": "InvenTrust Properties Corp. Announces Tax Reporting Information For 2022 Distributions"
+    },
+    {
+      "company_key": "yc-linkana",
+      "company_name": "Linkana",
+      "doc_id": "71d7a5c4d22326b763952ceaa2bbf77cc758899da5d0fea787a028ee683a6aed",
+      "first_seen_at": "2026-07-20T23:20:31.551042+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Aprenda como aplicar as práticas de ESG na indústria e saiba quais são os principais desafios que o setor enfrenta para se tornar sustentável.",
+      "title": "ESG na indústria: o que é e quais desafios devem ser enfrentados?"
+    },
+    {
+      "company_key": "yc-recurse-center",
+      "company_name": "Recurse Center",
+      "doc_id": "72ad6740b9ec5e7b62f45fa8a383d51a4b3c383a0b0f45942436bd02eb619f43",
+      "first_seen_at": "2026-07-20T23:20:55.368514+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "This post is about how to think through whether a sabbatical is right for you, when you should take one, and what taking your sabbatical at RC can offer you.",
+      "title": "Sabbaticals for the rest of us"
+    },
+    {
+      "company_key": "yc-okteto",
+      "company_name": "Okteto",
+      "doc_id": "7bc3b2a9a3c40bc588c77b266fabae4082d7f09efb44eec7950807207e412a6e",
+      "first_seen_at": "2026-07-20T23:20:32.770894+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Building a Cloud Development Platform Is Hard to Maintain",
+      "title": "5 Internal Software Development Platform Challenges"
+    },
+    {
+      "company_key": "yc-posthog",
+      "company_name": "PostHog",
+      "doc_id": "7e14f45e8686e31acbaa0d79e6f8738f993b581469196f33929ad695e99df91f",
+      "first_seen_at": "2026-07-20T23:20:52.157750+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Google recently confirmed the sunsetting Google Optimize, its A/B testing platform. In a statement on its website, Google said: \"Google Optimize and…",
+      "title": "The best Google Optimize alternatives for apps and websites"
+    },
+    {
+      "company_key": "yc-apollo",
+      "company_name": "Apollo",
+      "doc_id": "8ad49c1c8b34770ea0828f56767719b5e3975e1fae3d521a04c3a84a791b70f2",
+      "first_seen_at": "2026-07-25T01:09:11.312803+00:00",
+      "published_at": "2023-01-23T17:14:30+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Apollo Changelog: Jan 23, 2023"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "8d714804fde3b63a494d91a9bf326b68ece6726015fed23ee0317ee97e022a54",
+      "first_seen_at": "2026-07-27T01:01:37.873246+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Step-by-step guide to creating a CNAME for Google Cloud Functions using load balancers, serverless NEGs, and path matchers for custom domains.",
+      "title": "Creating CNAME for Google Cloud Functions"
+    },
+    {
+      "company_key": "selective-insurance-group-inc-common-stock",
+      "company_name": "Selective Insurance Group Inc.",
+      "doc_id": "caa5aeb3b0b1ec7cca08ced77e87e1bbdc2ae4ebdabb3d761ccceea8e22b418c",
+      "first_seen_at": "2026-07-29T18:30:54.564050+00:00",
+      "published_at": "2023-01-23T20:15:00+00:00",
+      "source_kind": "rss",
+      "summary": "",
+      "title": "Selective Insurance Group, Inc. Announces Preliminary Fourth Quarter 2022 Results, Including Catastrophe Loss Estimates"
+    },
+    {
+      "company_key": "teradata-corporation-common-stock",
+      "company_name": "Teradata Corporation",
+      "doc_id": "d103a1d34a61e9b90bb3175f7bb77a2b8bd5696ec807a9cc37f870ed59c037e2",
+      "first_seen_at": "2026-07-25T01:06:58.521780+00:00",
+      "published_at": "2023-01-23T08:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Teradata Corporation announced that it will release its 2022 fiscal fourth quarter and full year financial results before the market opens on Monday, February 13, 2023. Learn more.",
+      "title": "Teradata Announces Date for Release of Fiscal Fourth Quarter and Full Year 2022 Financial Results"
+    },
+    {
+      "company_key": "yc-wave",
+      "company_name": "Wave",
+      "doc_id": "e4f7b7d77145f518e00b428bf25766ce204825bf71da855225abf104fa1029da",
+      "first_seen_at": "2026-07-24T06:52:44.556575+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When I first started having responsibilities beyond writing code, managing my time suddenly became much harder. I felt like I spent most of my time wading through a sea of things to do and couldn’t get to the important long term work that I most wanted to do. To figure out where all my time went, I started tracking it using Toggl, which was the slickest app I found for starting/stopping task-specific timers, tagging tasks into “projects” and producing reports.",
+      "title": "How time tracking helped me be a better manager"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "f0a8b35379d8e25b00698c394f7a60f51497c81dd3c4c6854f24e0d09e5acf09",
+      "first_seen_at": "2026-07-27T01:01:37.873246+00:00",
+      "published_at": "2023-01-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Step-by-step guide to creating a CNAME for Google Cloud Run services using load balancers, serverless NEGs, and path matchers for custom domains.",
+      "title": "Creating CNAME for Google Cloud Run Service Functions"
+    },
+    {
+      "company_key": "range-resources-corporation-common-stock",
+      "company_name": "Range Resources Corporation",
+      "doc_id": "fe3140543fc15b20de2783d645a183af12c352b30245d9142b750225dd2e7013",
+      "first_seen_at": "2026-07-25T01:14:33.578834+00:00",
+      "published_at": "2023-01-23T18:36:47+00:00",
+      "source_kind": "rss",
+      "summary": "Range has been named one of America’s Most Just Companies, according to a 2023 report released by JUST Capital and CNBC. According to a statement ...",
+      "title": "Range Resources Named One of America’s Most JUST Companies"
+    }
+  ],
+  "date": "2023/01/23"
+}

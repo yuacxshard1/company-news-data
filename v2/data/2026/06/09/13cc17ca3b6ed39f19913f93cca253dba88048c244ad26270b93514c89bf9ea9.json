@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "13cc17ca3b6ed39f19913f93cca253dba88048c244ad26270b93514c89bf9ea9",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/editor-emoji-picker",
+  "canonical_url": "https://resend.com/changelog/editor-emoji-picker",
+  "title": "Editor Emoji Picker",
+  "summary": "The Broadcast and Template editors now include an emoji picker.",
+  "body_markdown": "One of our engineers recently asked if we could add emojis to emails built in our editors.\n\n\nSince our editor is extensible, we were able to add an emoji picker to our[Broadcast](https://resend.com/features/broadcasts) and[Template](https://resend.com/features/templates) email editors.\n\n\n## How to use\n\n\nType` :` followed by an emoji name to add any emoji from a searchable list.\n\n\n## Build your own email editor\n\n\nWe open sourced our[React Email editor](https://resend.com/blog/react-email-6) so you can build custom experiences in your own applications. Importantly, the editor includes a default core that is[extensible via custom components](https://react.email/docs/editor/advanced/extensions) .\n\n\nWe've used this same architecture to add our emoji extension.\n\n\nThe composable API exposes` EmailNode` so you can build any custom block your users need: uploading images to a CDN, embedding social posts, rendering charts inline in an email. Each custom node defines both its HTML representation and its React Email output via` renderToReactEmail` .\n\n\n```text\nimport     {     EmailNode     }     from     '@react-email/editor/core'  ;     import     {   mergeAttributes   }     from     '@tiptap/core'  ;\nconst     Callout     =     EmailNode  .  create  (  {      name  :     'callout'  ,      group  :     'block'  ,      content  :     'inline*'  ,\nparseHTML  (  )     {          return     [  {   tag  :     'div[data-callout]'     }  ]  ;        }  ,\nrenderHTML  (  {     HTMLAttributes     }  )     {          return     [            'div'  ,            mergeAttributes  (  HTMLAttributes  ,     {     'data-callout'  :     ''     }  )  ,            0  ,          ]  ;        }  ,\nrenderToReactEmail  (  {   children  ,   style   }  )     {          return     (            <  div     style  =  {  {     ...  style  ,   padding  :     '12px 16px'  ,   backgroundColor  :     '#f4f4f5'     }  }  >              {  children  }            </  div  >          )  ;        }  ,     }  )  ;\n```\n\n\nFor more help, view[editor examples](https://react.email/editor/examples) or read the[full editor documentation](https://react.email/docs/editor/overview) .",
+  "published_at": "2026-06-09T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T21:22:09.024444+00:00",
+  "content_hash": "sha256:8ee89d14637ced6c3073322bffc2d0895c17eff0e1ff9b03b8b22572fec04084"
+}

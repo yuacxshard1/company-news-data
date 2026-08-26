@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6d566fb16566f528dffb72fd00bde11b174671fcd5ed978018eee135addfb5de",
+  "company_key": "yc-the-context-company",
+  "company_name": "The Context Company",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.thecontextcompany.com/blog/monitoring-for-production-ai-agents",
+  "canonical_url": "https://www.thecontextcompany.com/blog/monitoring-for-production-ai-agents",
+  "title": "Launching Monitoring for Production AI Agents",
+  "summary": "Most teams can see whether their agent ran. They still need to know where users got stuck.",
+  "body_markdown": "Today we are launching Monitoring for production AI agents.\n\n\nThe problem is simple: most teams can see that their agent ran, but they cannot see whether it actually helped the user.\n\n\nAn agent can return a normal response while missing the user's goal. A tool can succeed while the final answer uses the result incorrectly. A user can repeat the same request three times, give up, and leave no clean error behind.\n\n\nMonitoring is built for those moments.\n\n\n## What Monitoring watches\n\n\nIt watches production conversations for the signals that usually matter after launch:\n\n\n- Silent failures where the run looks healthy but the user outcome is bad.\n- Repeated asks that show confusion, demand, or missing functionality.\n- Tool calls, loops, retries, and cost paths that need review.\n- Frustration, abandonment, negative feedback, and unresolved tasks.\n- Account-level patterns worth reviewing before a customer conversation.\n\n\nThese are the issues that disappear when monitoring only looks for exceptions, latency, and provider errors. The run can be technically successful while the customer still fails to complete the task.\n\n\n## The unit of review is the pattern\n\n\nA single bad run is useful. A recurring pattern is what changes the team's priorities.\n\n\nWhen TCC surfaces a pattern, the team can open the sessions and traces behind it, see which users and organizations were affected, and decide whether the issue is a prompt problem, a tool problem, a product gap, a confusing workflow, or a customer-success risk.\n\n\nThat distinction matters because the same symptom can point to different work. A user repeating a request might mean the agent ignored context. It might mean the product does not support the workflow yet. It might mean the customer needs a human follow-up.\n\n\nMonitoring should keep those possibilities attached to the evidence.\n\n\n## Watch what changes after the fix\n\n\nThe review should not end when someone files a ticket.\n\n\nAfter the team changes a prompt, tool, retrieval path, product flow, or customer process, the same production pattern should be watched again. Did users stop repeating themselves? Did the loop disappear? Did the account recover? Did cost move back down?\n\n\nThat is the shape of monitoring we care about. Production behavior should change what the team does next, and then show whether the change worked.",
+  "published_at": "2026-03-03T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T02:09:01.567080+00:00",
+  "content_hash": "sha256:1177800fd84650f3d557eb9339b3c7e9d179dae892ba387c87b8c627cec490a6"
+}

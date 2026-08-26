@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a03a71c878acbc1a8b80d27b52b0f3bf0c0689ef5c07cb66a8320dd36ca01c47",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/partition-backfill",
+  "canonical_url": "https://www.windmill.dev/changelog/partition-backfill",
+  "title": "Backfill a range of partitions from the asset drawer",
+  "summary": "On a partitioned DuckLake asset, the Backfill button opens a range picker that previews which partitions are missing, failed or materialized, then re-runs the producing script once per partition with an explicit partition argument. Runs are sequential and idempotent, a failed partition does not stop the rest, and progress streams in the dialog and drawer header. Range backfill is an Enterprise feature; single-partition runs stay available in all editions.",
+  "body_markdown": "### [Backfill a range of partitions from the asset drawer](https://www.windmill.dev/changelog/partition-backfill)\n\n\nData pipelines\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\n[v1.746.0](https://github.com/windmill-labs/windmill/releases/tag/v1.746.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/pipelines/materialization#partition-status-and-backfill)\n\n\nOn a partitioned DuckLake asset, the Backfill button opens a range picker that previews which partitions are missing, failed or materialized, then re-runs the producing script once per partition with an explicit partition argument. Runs are sequential and idempotent, a failed partition does not stop the rest, and progress streams in the dialog and drawer header. Range backfill is an Enterprise feature; single-partition runs stay available in all editions.\n\n\n#### New features\n\n\n- Backfill button on the partition-status grid of a materialized ducklake:// asset opens a from/to range picker\n- The preview classifies every partition in range as missing, failed or materialized; a toggle (default on) restricts the run to missing and failed partitions\n- One deployed run per partition with an explicit partition argument, sequential to avoid catalog commit contention; each run is idempotent\n- A failed partition does not stop the rest; progress streams in the dialog and, when closed, in the drawer header while the grid refreshes per slice\n- Cancel stops after the in-flight partition and cancels its job\n- Headless alternative: wmill pipeline run <folder> --partition <value>",
+  "published_at": "2026-07-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+  "content_hash": "sha256:54b6e48b4fe87cd972c88af6a1beb0cd6f4043a8d47540ef6ec0161861494594"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ab3ee06d6bb1351c1e347e28a805ba474ddf569ae83a9d4dd9050e44475011d1",
+  "company_key": "yc-momentic",
+  "company_name": "Momentic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://momentic.ai/blog/mobile",
+  "canonical_url": "https://momentic.ai/blog/mobile",
+  "title": "Introducing Mobile",
+  "summary": "See how Momentic brings AI-driven testing to iOS and Android apps with a unified mobile workflow.",
+  "body_markdown": "When we set out to build Momentic, we wanted web E2E testing that was easy to author and maintain. Since then, top engineering teams use Momentic to raise their quality bar. We run hundreds of millions of interactions every month across thousands of screens.\n\n\nBut web is only half the story.\n\n\n## Why we built it\n\n\nMobile teams feel the same pain, often worse:\n\n\n- Supporting both iOS and Android meant maintaining duplicate sets of resource IDs and accessibility IDs\n- UI changes would frequently break tests because IDs got out of date\n- Emulators are resource intensive and take a long time to start\n- WebView heavy apps would require constant context switching between native and browser contexts\n- Flakiness due to keyboard not closing, timing issues, drag-and-drop, network variability⁠, the list goes on and on\n\n\nThis is why we’re introducing **Mobile** , bringing the natural language tests that our customers know and love, to iOS and Android apps.\n\n\nWith Mobile, you can write the same natural language tests and run them on high-speed emulators for iOS and Android, commit them to your repo, and execute them anywhere you want.\n\n\n## Technical highlights\n\n\nWe spent a lot of time on working on this. Here are bits that we’re particularly proud of:\n\n\n1. 1s emulator cold starts\n2. 1s app installs\n3. 200ms cached interactions\n4. Seamless context switching between native and WebViews (think auto-iframe)\n5. No instrumentation needed\n6. Embedded interactive preview\n7. 1-click APK upload\n\n\nWe’re engineers building for engineers, we have zero tolerance for sluggish tests. Your feedback loop needs to be instant.\n\n\n## Building the AI-native testing platform\n\n\nThe world is larger than just the web. With this new product, Momentic expands from pages to apps.\n\n\nAuthor once in natural language and run across iOS, Android, and web. Instant feedback, stable tests, quality that you can trust.\n\n\n## Getting started\n\n\nMobile can be used on its own or alongside the rest of the Momentic platform. You can take advantage of[Quarantine](https://momentic.ai/blog/quarantine) ,[Copilot](https://momentic.ai/blog/copilot-mcp) ,[Failure recovery](https://momentic.ai/blog/failure-recovery) , and our extensive infrastructure that hundreds of world-class teams depend on.\n\n\nTired of Appium or XCUITest?[We’d love to help.](https://momentic.ai/sales)",
+  "published_at": "2025-08-22T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T04:45:46.439360+00:00",
+  "content_hash": "sha256:cf8aa76f60cd06d60fba672d57b51fc98c0e66e032d8adff53987dd5fdb6b391"
+}

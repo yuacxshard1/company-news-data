@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "43a21d67c4de39bdea0c3e8f04c54e902f22c4c7dcb2caf8d782c2d20d351f81",
+  "company_key": "yc-asayer",
+  "company_name": "OpenReplay",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.openreplay.com/t/self-hosted-spot-keeps-crashing/513#post_2",
+  "canonical_url": "https://forum.openreplay.com/t/self-hosted-spot-keeps-crashing/513",
+  "title": "Self hosted spot keeps crashing",
+  "summary": "I have self hosted an openreplay instance on AWS, i have used an AWS Load Balancer to handle SSL. he DNS provider is cloudflare ( i am aware of the proxy-body-size bug and have changed it to 40m from a default value of 10m) Here is the output of openreplay -s This machine is AMD (x86_64) architecture. �[0;32m[INFO] Using KUBECONFIG /etc/rancher/k3s/k3s.yaml �[0m �[1;37m- Checking OpenReplay Components Status �[0m �[0;32m[INFO] OpenReplay Version �[0m v1.22.0 �[0;32m[INFO] Disk �[0m Filesyste...",
+  "body_markdown": "I’ve tried pretty much everything.\n\n\nCloud: AWS (16gb, 4cpu, 50GB storage)\nUbuntu: First I tried on Ubuntu 24, then after seeing the note in docs, I created a new VM with Ubuntu 22 but to no avail.\nSession replay, etc. all other services remain operational. But the moment I save the Spot for the very first time spot-openreplay-xxxxxxxxxxx pod enters crashloop. I’ve tried; Install to Ubuntu, Install using Kubernetes, and cloned github repo and tried to run it without provided helm charts. Was not able to resolve the issue.\n\n\nToday I accidentally saw this forum post in hope of someone also facing the very same issue. Otherwise, I was pretty much fed up and thinking of switching to PostHog.",
+  "published_at": "2025-06-24T18:00:44+00:00",
+  "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+  "content_hash": "sha256:f296dadf64d4d616f3d0527a143e6598d933dc908c04d8d8a5916bc02e5fb53f"
+}

@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "46972359e1279c73a697ec9d739e9093fdd34368403d913fe833804880ebe1e6",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2025-10-22T09:41:57+00:00",
+      "source_kind": "rss",
+      "summary": "how to deploy to hostinger vps indetails without domain",
+      "title": "How to deploy in hostinger vps without domain just ip steps"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "eae159f4fdb22f47c63b6a8a1943c93ef3cbb830fb95c102da96bc83bd121948",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2025-10-27T12:47:03+00:00",
+      "source_kind": "rss",
+      "summary": "Hi everyone, We’re running a self-hosted OpenReplay setup and noticed that there is a requests table present in both PostgreSQL and ClickHouse. The issue we’re facing is that the requests table in PostgreSQL keeps growing very quickly, which raises some storage concerns. To better understand its role, we ran a small test: We generated a new session, Then manually deleted all data from the requests table in PostgreSQL, After that, we were still able to view the full session, including...",
+      "title": "Clarification about requests table usage in PostgreSQL vs ClickHouse (self-hosted setup)"
+    }
+  ],
+  "company_key": "yc-asayer",
+  "month": "2025-10"
+}

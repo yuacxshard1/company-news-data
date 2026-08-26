@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4cf251ec8cd8beb9972b4afffc2666eed499582d823132cfb33f387717c62828",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/blog/load-testing-on-azure",
+  "canonical_url": "https://www.artillery.io/blog/load-testing-on-azure",
+  "title": "Load testing on Azure with Artillery",
+  "summary": "Artillery launches support for running distributed load tests on Azure with Azure Container Instances",
+  "body_markdown": "August 7th, 2024[Announcement](https://www.artillery.io/blog/tag/announcement)\n\n\n# Load testing on Azure with Artillery\n\n\nHassy Veldstra\n\n\nToday, we’re announcing Azure support in Artillery. It’s been one of the most requested features from prospective users, and we’re excited to finally make it available.\n\n\nArtillery can now run distributed load tests on Azure, using your organization’s Azure subscription. Azure Container Instances (ACI) are used to execute the load test, and Artillery will create all resources it needs on-the-fly and remove them at the end of the test. There is no long-lived infrastructure that needs to be created or managed in order to run load tests.\n\n\n## Features\n\n\n- Serverless with no infrastructure to create or manage\n- Run tests from 47 different Azure regions (full list:[https://docs.art/azure#supported-regions](https://docs.art/azure#supported-regions) )\n- Use with Artillery Cloud ([https://app.artillery.io](https://app.artillery.io/) ) for real-time reporting, custom charts, Playwright traces, and more\n- Use Artillery’s features like CSV payloads, custom JS/TypeScript code, and plugins (including custom plugins) as normal\n\n\n## Which services does Artillery use on Azure?\n\n\nArtillery uses the following services to run load tests on Azure:\n\n\n- Azure Container Instances\n- Azure Blob Storage\n- Azure Queue Storage\n\n\nAll resources are created dynamically on-the-fly and removed at the end of the test. There is no long-lived infrastructure to be created or managed by the user.\n\n\n## How much does this cost?\n\n\nThis feature is available to all users at no charge for non-production and/or evaluation use. Running Artillery tests on Azure for non-evaluation, continuous and/or production purposes requires a commercial license.\n\n\nMore information on licensing:[https://docs.art/azure#licensing](https://docs.art/azure#licensing) .\n\n\n## How do I get started?\n\n\nPlease see the guide on[https://docs.art/azure](https://docs.art/azure) .",
+  "published_at": "2024-08-07T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T07:55:08.009846+00:00",
+  "content_hash": "sha256:5bd7ca5a9333d9e60fa7f03287f84d506a6d9c7e9d3cc146801792755eddd7ea"
+}

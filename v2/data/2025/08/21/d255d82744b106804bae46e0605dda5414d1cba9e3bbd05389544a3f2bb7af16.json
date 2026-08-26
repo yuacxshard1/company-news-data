@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d255d82744b106804bae46e0605dda5414d1cba9e3bbd05389544a3f2bb7af16",
+  "company_key": "yc-momentic",
+  "company_name": "Momentic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://momentic.ai/blog/failure-recovery",
+  "canonical_url": "https://momentic.ai/blog/failure-recovery",
+  "title": "Introducing Failure recovery",
+  "summary": "Meet Failure Recovery, built to keep transient issues from failing otherwise healthy tests.",
+  "body_markdown": "Keep your tests high-signal. Failure recovery enables Momentic tests to automatically recover from transient UI and network issues so only real regressions reach your team.\n\n\n## Why we built it\n\n\nEnd-to-end tests often fail for reasons you do not control: latency spikes, third-party banners, or a surprise marketing modal. Nothing in your product is actually broken, yet CI turns red and your engineers get inundated with noise.\n\n\nFailure recovery filters out this noise by letting our autonomous agent get a failing test back on track without changing the original intent.\n\n\n## How it works\n\n\n- **Agentic auto-recovery.** When a step fails, Momentic analyzes the browser state, understands the original intent, performs the minimal fix, then retries the original action and assertion.\n- **Custom instructions.** Add guidance like “If a marketing dialog appears, close it and continue” to define what counts as recoverable in your app.\n\n\nFailure recovery configurations\n\n\n## Common use cases\n\n\n- Intermittent popups or cookie banners that block clicks.\n- Slow or flaky network moments that require a short wait and retry.\n- Third-party overlays that temporarily intercept input.\n\n\n## Building the AI-native testing platform\n\n\nReal world applications are dynamic and so should be your tests.\n\n\nSoftware changes every day. Selectors shift, copy gets tweaked, entire screens are refactored.\n\n\nMomentic's AI-native platform treats tests as intent, not brittle scripts.\n\n\nYou describe the outcome you want. Our agents plan, act, recover from noise, and keep tests aligned with what you actually care about.\n\n\n## Getting started\n\n\nOpen **Test options -> Failure recovery** , turn it on, and add any custom instructions. You can start running reliable, higher-signal suites today.\n\n\nIf you’re tired of flaky tests,[book a demo](https://momentic.ai/sales) to get started with Momentic.",
+  "published_at": "2025-08-21T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T04:45:46.439360+00:00",
+  "content_hash": "sha256:aa44346db58ce39ed096835f8758d17cbe3ff9fa76dfe8b7e3ea4201364ee121"
+}

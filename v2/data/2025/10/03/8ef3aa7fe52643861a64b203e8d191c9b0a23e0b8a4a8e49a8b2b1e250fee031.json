@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8ef3aa7fe52643861a64b203e8d191c9b0a23e0b8a4a8e49a8b2b1e250fee031",
+  "company_key": "yc-tusk",
+  "company_name": "Tusk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.usetusk.ai/resources/july-2025-changelog",
+  "canonical_url": "https://www.usetusk.ai/resources/july-2025-changelog",
+  "title": "July 2025 Changelog",
+  "summary": "Tusk's July 2025 updates: AI test maintenance, 90% faster test environment setup, Analytics API, and bug detection mode for quick code review.",
+  "body_markdown": "## Release Notes\n\n\nIn July, we introduced the ability for Tusk to maintain existing test files by addressing syntax errors, missing imports, and failing tests. We also boosted CoverBot's capabilities with coverage-guided test generation to ensure higher test coverage.\n\n\nEnterprise customers with multiple squads can now configure directory-specific testing guidelines for different parts of their monorepos. They also enjoy self-serve access to Tusk usage analytics through our new[Analytics API](https://docs.usetusk.ai/analytics-api/overview) .\n\n\nEvery developer wants their tools to be fast. Which is why we've also introduced a bug detection mode for quickly surfacing only failing tests, made committing all passing tests instantaneous, and slashed test environment setup times by up to 90% for complex repos.\n\n\nEnable \"Only generate failing tests\" for bug detection mode\n\n\n### Major Features\n\n\n- **‍** ‍ **AI Test Maintenance:** Tusk now intelligently self-heals errors in existing test files for modified symbols in a PR, reducing the occurrence of blocked deployments.\n- ‍ **Coverage-Guided Test Generation:** CoverBot now uses code coverage feedback to automatically generate additional tests for uncovered lines, ensuring higher test coverage. **‍**\n\n\n- **Accelerated Test Execution:** Introduced snapshot-based test execution environments that reduce setup time by up to 90% for complex repositories, resulting in faster test execution at scale.\n\n\n- **Analytics API:** Access Tusk usage analytics via REST API endpoints for smooth integration with internal dashboards and reporting systems. **‍**\n\n\n### Testing Improvements\n\n\n- **Bug Detection Mode:** New testing mode that focuses exclusively on surfacing failing tests, providing targeted bug detection for teams not optimizing for coverage.\n- **Faster Commits:** Committing or creating a PR with all Tusk passing tests selected now happens instantaneously.\n\n\n- **Squad-Level Testing Guidelines:** Define different testing guidelines for subdirectories, allowing individual squads to maintain their own testing standards within the same repo.\n\n\n### DevEx Enhancements\n\n\n- ‍ **CoverBot UI:** Redesigned UI for scheduling and managing automated test backfills, including timezone-aware scheduling and improved configuration management. **‍**\n- **Test Generation UI/UX:** Revamped empty and loading states in Tusk UI, made test-level feedback popover editable, among other polish items. **‍**\n- **Trial Management:** Increased visibility of trial management features (e.g., banners/CTAs, billing page), making it easier for teams to manage their subscription status.",
+  "published_at": "2025-10-03T18:30:13.058+00:00",
+  "first_seen_at": "2026-07-26T03:20:25.565537+00:00",
+  "content_hash": "sha256:140b305585549a4ee2bb2aa3f5516a7cec0cd49f7d426ca4618d2b6fd7d84f5a"
+}

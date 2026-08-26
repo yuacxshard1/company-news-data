@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-circuitlab",
+      "company_name": "CircuitLab",
+      "doc_id": "88b1556c0db1b8797a8a1e577ee1da84aed56f0fb6f5cbcbdd3d221d72438854",
+      "first_seen_at": "2026-07-24T22:19:16.775475+00:00",
+      "published_at": "2020-08-10T16:30:00+00:00",
+      "source_kind": "rss",
+      "summary": "comment » We’re introducing a new component to the CircuitLab toolbox: the ideal diode . We’ve had semiconductor PN junction diodes since we’ve launched, which show the exponential current-voltage relationship and accurately model real-world diodes. In contrast, the ideal diode is more like a simulated on-off switch: the I-V curve would be piecewise linear. It acts like it’s open-circuit when reverse biased, and short-circuit when forward biased. You can simply drag the ideal diode from the toolbox into your circuit, and optionally double-click to configure its parameters. Here’s an example using four ideal diodes to build a full-wave rectifier: Click to open and simulate the circuit above. Observe how the 4 diodes turn on and off at different times in the AC cycle. Here’s an simulation comparing the regular PN Junction Diode with the ideal diode: Click to open and simulate the circuit above. Note that D2 (a PN junction diode) gives us a gentle knee as it transitions from off to on, as real diodes do. D2’s curve is smooth in the calculus sense: its derivative is continuous. In contrast, ideal diodes D1 and D3 show an abrupt (piecewise-linear) knee when they change from off to on. These are not smooth in the calculus sense: their derivatives are discontinuous. Use the PN junction diode when: Intending to accurately simulate real-world devices Simulation runtime is not a constraint Use the ideal diode when: Learning about signal rectification (where PN junction complexity is unnecessary) Simulating signal clamping behaviors (where hard clamping is acceptable) Simulating switching power supplies: buck, boost converters, etc. (where simulation performance is a constraint) Other cases where much faster-running simulations are preferred to accurate diode modeling Both diode models, as well as Zener Diodes, photodiodes, and LEDs, are nows available in the CircuitLab toolbox:",
+      "title": "Ideal Diodes in CircuitLab"
+    },
+    {
+      "company_key": "yc-circuitlab",
+      "company_name": "CircuitLab",
+      "doc_id": "c02adeab4c484b795a51aa431cfbe2ad0625f94eb3cd9523c80fb0bf4b97ce09",
+      "first_seen_at": "2026-07-24T22:19:16.775475+00:00",
+      "published_at": "2020-08-13T16:30:00+00:00",
+      "source_kind": "rss",
+      "summary": "comment » We’ve just made it much easier to simulate a step response in CircuitLab. Finding a circuit’s unit step response in the time domain is one of the most common operations for anyone learning about or designing analog filters and amplifiers. It’s always been possible to simulate step responses in CircuitLab using a combination of a voltage source and a switch , but we’ve now bundled this behavior into a signal component: the Voltage Step Source and the corresponding Current Step Source . Here’s a simple example comparing voltage step responses between a series RC circuit and a parallel RL circuit: Click to open and simulate the circuit above. Can you predict the shape of V(RC) and V(RL) before you run the simulation? Here’s a more advanced example showing how an op-amp non-inverting amplifier can exhibit stability problems, including ringing and overshoot, even with small amounts of parasitic (undesired) capacitance at the feedback node: Click to open and simulate the circuit above. How long does it take for the output to settle down after the input step? Is there a capacitance level beyond which this amplifier is basically useless? Note that the step only happens in a transient simulation. A DC simulation (or DC Sweep) always happens before the step. This lets the simulator find the old, pre-step steady-state operating point first, before it models the transient change to a new post-step steady-state . These new step source components are both available in the “Voltage Signal Sources” and “Current Signal Sources” sections of the CircuitLab toolbox, right between the configurable function generator source and the CSV input source: After inserting a step source, you can double-click it to configure its amplitude and provide a delay. Conveniently, by default, a step source provides a unit step at t=0.",
+      "title": "Voltage and Current Step Sources in CircuitLab"
+    }
+  ],
+  "company_key": "yc-circuitlab",
+  "month": "2020-08"
+}

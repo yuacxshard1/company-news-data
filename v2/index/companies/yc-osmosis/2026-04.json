@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-osmosis",
+      "company_name": "Osmosis",
+      "doc_id": "3bfbd8833508f99bafa164a517a5293dffa4588a1501f83f9258c2bd2a84dc0d",
+      "first_seen_at": "2026-07-25T18:22:44.798253+00:00",
+      "published_at": "2026-04-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "SFT followed by GRPO is the standard post-training recipe for reasoning models. You collect labeled data, fine-tune, then run reinforcement learning with a reward signal. But there's a design decision that's unexplored: how much of your GRPO data should overlap with your SFT data?",
+      "title": "Testing Data Overlap Between SFT and GRPO on Autoformalization"
+    },
+    {
+      "company_key": "yc-osmosis",
+      "company_name": "Osmosis",
+      "doc_id": "d575894036b57bf52a0d8f93f7ee019c439a525dc38954cfa171f2db35cffbdd",
+      "first_seen_at": "2026-07-25T18:22:44.798253+00:00",
+      "published_at": "2026-04-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "In order to train large MoE models with RL, you need two systems: a training cluster and an inference cluster. Our stack pairs Megatron-LM with SGLang for this purpose. We wanted to share the process of how we added support for LoRA within our training stack - specifically for the Qwen3.5 MoE models.",
+      "title": "Unlocking LoRA MoE RL for Qwen3.5"
+    }
+  ],
+  "company_key": "yc-osmosis",
+  "month": "2026-04"
+}

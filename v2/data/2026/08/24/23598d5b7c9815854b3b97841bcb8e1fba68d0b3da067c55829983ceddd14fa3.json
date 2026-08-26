@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "23598d5b7c9815854b3b97841bcb8e1fba68d0b3da067c55829983ceddd14fa3",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/internalized-visual-thinking",
+  "canonical_url": "https://machinelearning.apple.com/research/internalized-visual-thinking",
+  "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
+  "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2608.15869)\n\n\nMultimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an intuitive mechanism for visual foresight but introduces substantial inference overhead, which is particularly problematic for proactive video reasoning. We ask whether models can learn to think visually during training while reasoning directly at inference. We introduce Internalized Visual Thinking (IVT), a post-training framework that jointly optimizes textual prediction and next-embedding prediction over unlabeled videos. Given a partially observed video, IVT predicts latent representations of future frames together with the target textual answer, encouraging the model to capture motion, object transitions, interactions, and latent intent. At inference, IVT generates the answer directly without synthesizing or re-encoding future frames. We conduct controlled studies across target representations, decoder designs, prediction horizons, data mixtures, training curricula, and predictive objectives. IVT improves over text-only post-training across all six evaluation settings while retaining the same efficient inference pathway. Compared with Visual CoT, IVT achieves comparable or better performance and reduces end-to-end latency by more than 5×. Our findings suggest that explicit pixel-space generation at inference time, as used in Visual CoT, may not be necessary for proactive video reasoning. Predictive world modeling can be internalized during training to produce multimodal reasoners that are both more accurate and substantially more efficient.",
+  "published_at": null,
+  "first_seen_at": "2026-08-24T19:31:45.648523+00:00",
+  "content_hash": "sha256:e21a69525ad6e4461bad381fda8404f164d55f255d2c8b4ead6ec7dc84d0bf8f"
+}

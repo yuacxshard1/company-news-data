@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "343e6b6d075702ed8f8465edad4af8e006d7977ae85d8fa3cfedd0615a044b50",
+  "company_key": "yc-porter",
+  "company_name": "Porter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.porter.run/changelog/audit-logs-custom-autoscaling-persistence-for-the-grafana-add-on-gpu-jobs-improved-deployments",
+  "canonical_url": "https://www.porter.run/changelog/audit-logs-custom-autoscaling-persistence-for-the-grafana-add-on-gpu-jobs-improved-deployments",
+  "title": "Audit Logs, Custom Autoscaling, Persistence for the Grafana Add-on, GPU Jobs, and Improved Deployments",
+  "summary": "As we wrap up the year, we're excited to share some updates that enhance security, performance, and developer experience.",
+  "body_markdown": "## **Audit Logs**\n\n\nPorter admin users can now view audit logs for changes made by users and the Porter team under the Project Settings sidebar tab.\n\n\nCurrently, audit logs track changes made to applications, clusters, and environment variables (including Doppler and Infisical integrations), and monitor when the` porter datastore connect` command is run.\n\n\n## **Custom Autoscaling**\n\n\nUsers can now self-serve autoscaling based on custom metrics, like Sidekiq queue length. Let us know if you’d like this feature enabled for your project!\n\n\nFirst, configure the metrics exporter under the Advanced tab, specifying the host and the path. Once the user's application exporting the metric is deployed, that metric will be available for selection. More information can be found in our docs[here](https://docs.porter.run/observability/custom-metrics-and-autoscaling) .\n\n\n## **Spot Instances for GCP**\n\n\nSpot instances are now available when selecting a node group to deploy to on GCP.\n\n\nSpot instances are not recommended for production applications as they can be interrupted based on availability by GCP.\n\n\n## **Persistence for Grafana on AWS**\n\n\nWe’ve added the ability to configure persistence through RDS storage for the Grafana add-on when hosted on AWS. This allows for significant cost savings compared to Datadog, without sacrificing the reliability of your metrics.\n\n\n## **GPU Jobs**\n\n\nYou can now schedule jobs on GPU instances. This is available across AWS/Azure/GCP.\n\n\n## **Improved Deployments**\n\n\n- Rebuilding is no longer required if a pre-deploy fails!\n\n\n‍\n\n\n- If you're using Docker BuildKit and have` DOCKER_BUILDKIT:1` set as an environment variable in your GitHub Actions file, you could achieve up to an additional 3x improvement in build speeds when using Docker build caching.\n\n\n‍\n\n\n- When configuring resource allocation for your applications, you can utilize input fields in addition to the sliders.\n\n\n- Users can now preview and confirm app configuration changes before hitting deploy.",
+  "published_at": "2025-12-16T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T19:39:33.596384+00:00",
+  "content_hash": "sha256:5b145b11e1b23a3e0d04a8484d6f2d98aa048c487442a79fa23717cac39074aa"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "98b00f683d6a32503569ef86cac13236fe3369b3b9b76026e05d436454a0edf1",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/dev-workspaces",
+  "canonical_url": "https://www.windmill.dev/changelog/dev-workspaces",
+  "title": "Dev workspaces paired with a lockable prod workspace",
+  "summary": "Pair a persistent dev workspace with a prod workspace that can be locked so changes only reach it through promotion. Edit safely in dev, mark resources and variables workspace-specific to keep separate values per environment, and promote manually from Compare & Deploy.",
+  "body_markdown": "### [Dev workspaces paired with a lockable prod workspace](https://www.windmill.dev/changelog/dev-workspaces)\n\n\nWorkspace\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\n[Docs](https://www.windmill.dev/docs/advanced/dev_workspaces)\n\n\nPair a persistent dev workspace with a prod workspace that can be locked so changes only reach it through promotion. Edit safely in dev, mark resources and variables workspace-specific to keep separate values per environment, and promote manually from Compare & Deploy.\n\n\n#### New features\n\n\n- Persistent dev workspace with a plain, git-branch-safe workspace ID (no wm-fork- prefix)\n- Lock the paired prod workspace against direct deploys and forking (reuses protection rulesets)\n- On a locked prod, Edit redirects to the dev workspace with an \"Edit in <dev>\" affordance\n- Attach or detach an existing workspace as dev from the Dev workspace settings tab\n- Mark resources and variables workspace-specific from Compare & Deploy to keep separate values per environment\n- Strictly create-only \"Create in <other>\" seeds a missing copy (including secrets) without overwriting\n- AI chat session picker badges and steers toward the dev workspace on a locked prod",
+  "published_at": "2026-06-30T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+  "content_hash": "sha256:589ff02fa65e04f42e0aacf1c2f73a62608bb5085651cacfb655a266f1129a08"
+}

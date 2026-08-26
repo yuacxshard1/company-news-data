@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-rivet",
+      "company_name": "Rivet",
+      "doc_id": "187467078b305438203934690a5fac64c76a7c8744ea753600e8e80e18b7f062",
+      "first_seen_at": "2026-07-31T19:11:06.802677+00:00",
+      "published_at": "2026-07-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Sandboxes reserve a container per agent while the agent sits idle waiting on inference. That's the same mistake Lambda made, and isolates already solved it.",
+      "title": "Sandboxes vs WebAssembly → Lambda vs Workers, Round Two"
+    },
+    {
+      "company_key": "yc-rivet",
+      "company_name": "Rivet",
+      "doc_id": "c8f7765e99989b3c2f3898cc68d268457f43b8cd9162e04ebe214c2383976928",
+      "first_seen_at": "2026-07-31T19:11:06.802677+00:00",
+      "published_at": "2026-07-31T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How Rivet keeps SQLite writes fast and durable while cold data offloads to object storage.",
+      "title": "How We Built the First Zero-Disk, S3-Tiered Storage Engine for SQLite"
+    },
+    {
+      "company_key": "yc-rivet",
+      "company_name": "Rivet",
+      "doc_id": "d3b48fc75377b52bf4ec40940ae9ac42a99e0308cfe6dfb9d441fb78b1bc9877",
+      "first_seen_at": "2026-07-27T17:45:46.047781+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Why the agent harness shouldn't run inside the sandbox, and how to run it in your own backend instead.",
+      "title": "Run Your Harness Outside the Sandbox: Why and How"
+    }
+  ],
+  "company_key": "yc-rivet",
+  "month": "2026-07"
+}

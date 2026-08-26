@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "df23578a5d0b86305272ab486cc149cfe295bbac8c00aef6def237195d16b7e9",
+  "company_key": "yc-loops",
+  "company_name": "Loops",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://loops.so/changelog/llm-translation",
+  "canonical_url": "https://loops.so/changelog/llm-translation",
+  "title": "LLM Translation",
+  "summary": "Translate emails with LLM-powered translation in Loops, making it faster to send campaigns and lifecycle messages in your readers' language.",
+  "body_markdown": "### LLM translation\n\n\nTranslation is now available in the Loop Builder. Create your Loop as you typically would, then click a target language to generate a translated branch next to it.\n\n\nWe also handle specific use cases like retaining your UTM parameters during translation, and dynamic data that you may not want translated. There is no additional charge for translations on Loops.\n\n\nTranslations run through a GPT-5 flavor and are still in beta, so please review before sending.\n\n\n[Read more](https://loops.so/docs/creating-emails/translating-emails-with-ai#translating-emails)\n\n\n### Automatic events for incoming webhooks\n\n\nAfter setting up an integration with Stripe, Supabase, or Clerk, you will automatically see enabled events flow in without any additional setup on your part. Now you can kick off complex behavioral loops in just a few clicks.\n\n\n[Read more](https://loops.so/docs/integrations/incoming-webhooks#supported-platforms)\n\n\n### Converging paths\n\n\nConverging paths are now available, so experiments and branches can now merge back into a single path after they have been added to a Loop.\n\n\nBefore this, once you branched, you couldn’t extend the Loop on one unified path. This change makes more complex and nuanced loops possible for your team.\n\n\n[Read more](https://loops.so/docs/loop-builder/branching-loops#converging-branches)\n\n\n—————\n\n\n### Upcoming: Faster loading for large audiences\n\n\nLoading and updating large audiences will be faster and more resilient, especially for bulk updates. Teams with audiences over >1m contacts will see the most benefits in the near future.\n\n\n—————\n\n\nAdditionally, we merged 43 meaningful feature changes, fixes, and improvements. A couple of my favorites include adding duplicate support for columns, adding a filter bar on the home screen and[automatically flagging deliverability issues](https://loops.so/docs/deliverability/youtube-links-warning#shortened-youtube-links-warning) with YouTube short links.",
+  "published_at": "2026-01-13T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T13:13:35.252230+00:00",
+  "content_hash": "sha256:75042bd47e04fbfb81b51c41cd1d4401e72468ecd3df43b41e66c2f45005de47"
+}

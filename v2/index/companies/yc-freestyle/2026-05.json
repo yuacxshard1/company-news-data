@@ -1,0 +1,106 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "28aaefa5e9b70391efbf59a3c44b7d6069938fd85e9861ae8e638ddaa04a0a0a",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A practical guide to running AI evaluations and agent evals on Freestyle VMs: ephemeral microVMs per test case, full traces, and burst parallelism.",
+      "title": "How to Run AI Evaluations on Freestyle"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "3fd417a7c92f24e7b5ed0773fb48c9d71b004643efc7270e6e369613522fbb25",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A practical guide to running long-running agents on Freestyle VMs: persistent sessions, suspend and resume, snapshots, live forking, and stateful microVMs for AI agents.",
+      "title": "How to Deploy Long-Running Agents on Freestyle"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "44a3e1011e1e7e4c43085e8f0fa6a7a23076a72158acf0d8ae5622567a193cd0",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Version control for AI agents means branchable, reviewable, auditable state for AI-generated code, docs, assets, and workflows. Freestyle Git gives agent platforms real Git repos through an API.",
+      "title": "Version Control for AI Agents"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "6035c271c09e027fd7d47df10d977a93dc27d78b5568246ad7c2712bb7e2f09d",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Git agents are AI agents that use Git as their workspace, memory, and review layer. Here is how Git agents should branch, commit, diff, rollback, and ship with Freestyle Git.",
+      "title": "Git Agents"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "7c892c94163abef4f42472a5f85ddead6ee7d89b3d8254fa6c384b44ca3c0717",
+      "first_seen_at": "2026-07-21T20:54:28.432730+00:00",
+      "published_at": "2026-05-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Sandboxes are usually designed around what we think agents will need. VMs are designed around what agents actually do: use computers.",
+      "title": "Why AI sandboxes Suck"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "95d5ba768576a987f317d9e1f85f334140f5171db6aa44600dc921dbbfd7ad1c",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The best way to handle an agent's filesystem is Git: normal files for the agent, and commits, branches, diffs, rollback, permissions, and review for your product.",
+      "title": "The best filesystem for AI agents is Git"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "b94192e0237a1a8b65c401a2ecad39636d9b2545bc0612ed414a4503f09405f4",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-04T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Git is not just commit, push, and pull. It already ships with debugging, parallel workspaces, rollback, patch review, and agent-friendly history tools.",
+      "title": "8 Things You Didn't Know Git Already Did"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "e8898ab1e166f23730ae6c4e6f491951af1e9d37ba06119c66d37ed86d306d09",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How to run reinforcement learning for AI agents on Freestyle VMs: cache a golden environment, fan out parallel rollouts, collect trajectories, train at scale.",
+      "title": "How to Do Reinforcement Learning on Freestyle"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "ec03f297df25226d6f9f0c4d58e695560e166e5d1a40338cfc05c357ed1109ae",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A practical guide to building deep research agents on Freestyle VMs: snapshot findings, live-fork agent state, and run parallel exploration without redoing work.",
+      "title": "How to Build Deep Research Agents on Freestyle"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "f0b080ce76331fded7928dc8c592595965e083e61025cdc94283f11564fae493",
+      "first_seen_at": "2026-07-25T13:26:33.334256+00:00",
+      "published_at": "2026-05-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A practical guide to building a code interpreter for AI agents on Freestyle VMs: sandboxed code execution, snapshotting, live forking, and suspend/resume sessions.",
+      "title": "How to Build a Code Interpreter on Freestyle"
+    }
+  ],
+  "company_key": "yc-freestyle",
+  "month": "2026-05"
+}

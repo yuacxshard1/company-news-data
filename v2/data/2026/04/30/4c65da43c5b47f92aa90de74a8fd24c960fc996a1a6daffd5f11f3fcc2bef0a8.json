@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4c65da43c5b47f92aa90de74a8fd24c960fc996a1a6daffd5f11f3fcc2bef0a8",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/chart-component",
+  "canonical_url": "https://resend.com/changelog/chart-component",
+  "title": "New Chart Component",
+  "summary": "Embed bar, line, and area charts directly in your emails.",
+  "body_markdown": "Numbers buried in a paragraph are easy to skim past. A trend line is hard to ignore.\n\n\nData is easier to understand when it's visual. That's why we've added a new Chart component to the email editor, available in both[Broadcasts](https://resend.com/features/broadcasts) and[Templates](https://resend.com/features/templates) .\n\n\nYou can now embed bar, line, and area charts directly in your emails.\n\n\n## How it works\n\n\nInsert a chart using the slash command menu (` /chart` ) or from the component toolbar. Once added, configure it from the inspector sidebar:\n\n\n- **Chart type** : choose between bar, line, and area charts\n- **Title** : add a label (also serves as the image alt text for accessibility)\n- **Data** : enter values using a spreadsheet-style table or paste raw JSON\n- **Series** : rename series and customize colors for each data set\n\n\nAs you add data, the editor generates the chart as an image that gets embedded in your email. While the chart will auto-generate on a schedule, you can click **Render chart** to update the image immediately.\n\n\n## Theming\n\n\nYou can choose a theme for your chart from the inspector sidebar.\n\n\n## Data sources\n\n\nYou can enter data using a spreadsheet-style table or paste raw JSON.\n\n\n```text\n[        {          \"date\"  :     \"Feb '26\"  ,          \"downloads\"  :     8942400        }  ,        {          \"date\"  :     \"Mar '26\"  ,          \"downloads\"  :     16492000        }  ,        {          \"date\"  :     \"Apr '26\"  ,          \"downloads\"  :     16036000        }     ]\n```\n\n\n## Built for the realities of email\n\n\nEvery email client runs its own rendering engine, so it's unwise to rely on anything beyond basic HTML.\n\n\nThe editor renders your data as images to ensure it looks the same in every email client. What you see in the editor is exactly what your subscribers see, whether they open in Gmail, Outlook, Apple Mail, or anywhere else.\n\n\n## What's next\n\n\nWe want to continue improving the component based on user feedback. If you have suggestions or run into any issues, reach out to us on[support](https://resend.com/support) .",
+  "published_at": "2026-04-30T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T21:22:09.024444+00:00",
+  "content_hash": "sha256:c6944f9277458d2c8371c5f7927198c8954202e04cdd5e60261b5ad18fd495f5"
+}

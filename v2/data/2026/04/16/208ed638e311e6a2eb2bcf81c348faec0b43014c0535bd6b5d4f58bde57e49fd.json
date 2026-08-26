@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "208ed638e311e6a2eb2bcf81c348faec0b43014c0535bd6b5d4f58bde57e49fd",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/salesforce-as-a-source",
+  "canonical_url": "https://slite.com/changelog/salesforce-as-a-source",
+  "title": "Salesforce as a source",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "You can now connect **Salesforce** to Super and ask questions across your CRM in plain language — deal status, account history, pipeline, contacts, and much more. Super queries Salesforce in real-time; no data is stored in Super, so your permissions and audit logs stay exactly where they are.\n\n\n[Connect Salesforce →](https://slite.slite.page/p/MH_cPxOlPHjbh4/Salesforce)\n\n\n### Assistant workflow editor improvements\n\n\nBuilding and editing assistants just got a lot simpler. Steps are now expanded by default so nothing is hidden, step names are inferred automatically from your instructions so you don't have to name them manually, and the welcome message, kickstart buttons, and context box are now clearly separated — making it much easier to see and configure what your assistant actually does. All existing assistants have been migrated automatically.\n\n\n### Slack auto-sync\n\n\nSuper now **automatically syncs new public Slack channels** as they're created. For private channels, any team member can invite` @Super` directly, no admin needed.\n\n\nTo enable it: **Super → Data Sources → Slack → ⋯ → Edit Settings → Toggle on Auto-sync**\n\n\n> Note: Auto-sync applies to new messages going forward. Past messages still need to be imported manually.\n\n\n### Super member onboarding\n\n\nNew members joining your Super workspace now get a **role-based onboarding** carousel on their first visit. It figures out what they do, Support, Sales, Product, Engineering, shows them the most relevant workflows, and ends with a pre-filled query so they get a real answer immediately. They also get a personalized setup email based on which integrations they pick (Slack, browser extension, Claude MCP, ChatGPT). Making it ridiculously simple for members who join a workspace that's already set up.\n\n\n### Other improvements\n\n\n- **Notion source improvements** — Better markdown rendering for Notion content and fixed pagination for large Notion workspaces\n- **Linear team listing no longer cached** — Newly created Linear teams now appear immediately in the data source panel\n\n\n### Bug fixes\n\n\n- Fixed bot messages (posted via API without a` text` field) not being indexed from Slack channels\n- Fixed markdown rendering bug where brackets in source titles were breaking answer display\n- Fixed Salesforce not appearing in source filters after being connected",
+  "published_at": "2026-04-16T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T13:26:38.265771+00:00",
+  "content_hash": "sha256:245a142851ad0a93394e00b2f4525ebac4a618d0a0d8c4c22bcef85d1e86c280"
+}

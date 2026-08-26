@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1c09531cc9ceca39fdc8138e0af195a9834dc85cbdc04b73a72c4fb6f0bb29f1",
+  "company_key": "yc-zelos-cloud",
+  "company_name": "Zelos Cloud",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.zeloscloud.io/26.0.4/reference/release-notes/sdk/",
+  "canonical_url": "https://docs.zeloscloud.io/26.0.4/reference/release-notes/sdk/",
+  "title": "SDK - Zelos Documentation",
+  "summary": "None",
+  "body_markdown": "# SDK\n\n\n0.0.9\n\n\n### Added¶\n\n\n- ` FolderPickerWidget` for Actions, enabling folder selection in extension UIs\n- ` pyarrow` as a direct dependency — no longer needs to be installed separately for TraceReader\n\n\n### Fixed¶\n\n\n- NaN and Infinity float values are now properly stored as null and read back as` None` instead of causing serialization errors\n\n\n0.0.8\n\n\n### Added¶\n\n\n- **TraceReader API:** Read` .trz` trace files for offline analysis, debugging, and post-processing.[Read more](https://docs.zeloscloud.io/sdk/how-to/read-files/) .\n\n\n- Query specific signals and time ranges from trace files\n- Discover available fields hierarchically (sources → events → fields)\n- List data segments and metadata\n- Full PyArrow integration for efficient data processing\n\n\n- **Trace File Utilities:**\n\n\n- Hook to open existing trace files (useful for merging WAL and TRZ after ungraceful exit)\n\n\n0.0.7\n\n\n### Added¶\n\n\n- Added value-table support to` TraceSourceCacheLast`\n- Additional widgets and validation hooks for Actions\n\n\n### Fixed¶\n\n\n- Addressed lingering lint warnings across pytest helpers and ensured artifact directories are configurable in automated runs.\n\n\n0.0.6\n\n\n### Added¶\n\n\n- Action decorators now capture a` field_type` , enabling richer, type-aware rendering in the Zelos App without custom widgets.\n- Action parameters default to` required=True` , surfacing missing inputs during validation instead of at execution time.\n\n\n### Improved¶\n\n\n- Updated examples and tests to exercise the stricter defaults so extension authors can adopt the new metadata with confidence.\n\n\n0.0.5\n\n\n### Added¶\n\n\n- **Zelos Actions:** A powerful new way to script interactions with your devices and services.\n\n\n- Define actions with simple Python functions and decorators.\n- Automatic discovery and registration of actions.\n- Support for various field types for action inputs, including` object` .\n- Note: Only available in the python release of the SDK\n\n\n### Changed¶\n\n\n- **Dependencies:** Removed the` setuptools` dependency.\n\n\n### Fixed¶\n\n\n- **Zelos Trace:**\n\n\n- Resolved a deadlock that could occur in async contexts.\n- Fixed an issue that could prevent querying data if a` TraceSegmentStart` message was missed.\n- Fixed URL handling in the` TracePublishClient` .",
+  "published_at": null,
+  "first_seen_at": "2026-07-27T06:12:43.410034+00:00",
+  "content_hash": "sha256:8cc10d8e8968946e1e33d30d5ed5557c9305ba6e40443e538e4f1fcb93b85731"
+}

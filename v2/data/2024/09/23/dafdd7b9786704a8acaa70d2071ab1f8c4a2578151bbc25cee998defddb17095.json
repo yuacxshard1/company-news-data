@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dafdd7b9786704a8acaa70d2071ab1f8c4a2578151bbc25cee998defddb17095",
+  "company_key": "yc-tamarind-bio",
+  "company_name": "Tamarind Bio",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://tamarindbio.substack.com/p/experiment-quality-relative-binding",
+  "canonical_url": "https://tamarindbio.substack.com/p/experiment-quality-relative-binding",
+  "title": "Experiment Quality Relative Binding Free Energy (RBFE) Calculation with Tamarind Bio",
+  "summary": "No-code RBFE calculation in only a few hours, validated experimentally for a TYK2-ligand system.",
+  "body_markdown": "# Experiment Quality Relative Binding Free Energy (RBFE) Calculation with Tamarind Bio\n\n\n### No-code RBFE calculation in only a few hours, validated experimentally for a TYK2-ligand system.\n\n\n[Deniz Kavi](https://substack.com/@denizkavi)\n\n\nSep 23, 2024\n\n\nAccurate computational prediction of protein-ligand binding affinities is a useful task in hit-to-lead and lead optimization processes. Relative Binding Free Energy maps well to these scenarios as an accurate and time-efficient method to test virtual ligands against a target to prioritize compounds for synthesis. At Tamarind, we use our RBFE tool, based on\n\n\n[OpenFE](https://github.com/OpenFreeEnergy/openfe) , to prioritize hits in our virtual screening workflow.\n\n\n**TYK2 Case Study with Experimental Results**\n\n\nBelow we’ll walk through what happens under the hood when using the Tamarind RBFE tool for a set of ligands against TYK2. As a user, the experience will be uploading a protein structure and a list of compounds!\n\n\nBinding energy is the change in the free energy associated with the binding of a ligand to a protein. However, since it is highly computationally challenging to model the transition of a ligand to a protein-ligand complex, we can model bond and atom changes of the complex to compute which small changes produce the highest affinities instead. Since we have multiple ligands to test, we can form a network of the relation between ligands, computing free energy changes when transforming from ligand A to B.\n\n\nWe run our 9 ligands of interest using the Tamarind interface and receive a relative ranking of each against others below. The ddG values match the experimental results well!\n\n\nThe whole RBFE computation process takes 1-5 hours for one “edge” on a cutting edge GPU, i.e. one pair in the perturbation network of 9 ligands. Through Tamarind’s high performance computing infrastructure. the entire process finishes in 4 hours, instead 45 hours when running on a single machine.\n\n\n**About Tamarind Bio**\n\n\nTamarind is a user-friendly web application and programmatic API for in silico drug discovery tools. Get in touch to learn more about our Absolute Binding Free Energy workflow, and our virtual screening services: info@tamarind.bio or book a call with me\n\n\n[here](https://calendly.com/founders-cji/tamarind-bio) .\n\n\nThanks for reading the Tamarind Bio Blog! Subscribe for free to receive new posts.\n\n\nA guest post by\n\n\n[Deniz Kavi](https://substack.com/@denizkavi?utm_campaign=guest_post_bio&utm_medium=web)\n\n\nCo-founder at Tamarind Bio\n\n\n[Subscribe to Deniz](https://denizkavi.substack.com/subscribe?)",
+  "published_at": "2024-09-23T01:32:10+00:00",
+  "first_seen_at": "2026-07-24T03:17:16.497895+00:00",
+  "content_hash": "sha256:5c41ac766900ffbe3051636b4b693aa048059b55ed901ee5cfc2f5a52d74e7c6"
+}

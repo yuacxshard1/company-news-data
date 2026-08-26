@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "70272db23852d683baf7bd5a208f679053233f09089996350c6ac993d56419af",
+  "company_key": "yc-raycast",
+  "company_name": "Raycast",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.raycast.com/changelog/ios/1-2-13",
+  "canonical_url": "https://www.raycast.com/changelog/ios/1-2-13",
+  "title": "v 1.2.13",
+  "summary": "View what's new in Raycast v1.2.13",
+  "body_markdown": "[v1.2.13](https://www.raycast.com/changelog/ios/1-2-13) May 29, 2026\n\n\nBring Your Own Key (BYOK) seamlessly integrates your existing AI provider accounts with Raycast's intuitive interface. With BYOK you can now use Raycast AI with your own API keys for Anthropic, Google, OpenAI and OpenRouter. This allows you to send as many AI messages as you want at your own cost without a Pro subscription.\n\n\nSnippet Expansion finally comes to iOS. Use your favorite keyword across the Raycast app to quickly insert a snippet.\n\n\n## ✨ New\n\n\n- **AI** : Use Raycast AI with your own API keys for Anthropic, Google, OpenAI and OpenRouter\n- **AI** : Added quote attachment support\n- **AI** : Cell selection for tables in chat\n- **Snippets:** Inline snippet expansion across Raycast app (AI Chat, Notes etc)\n- **Team:** Added support for moving Quicklinks and Snippets between personal and team spaces\n- **Notes** : Added a setting for automatic ticked items sorting in todo lists\n- **Notes** : Added toolbar button for horizontal rule\n- **Search** : Added search by acronym\n- **Shortcuts** : Improved Open App intent parameter selection to only include commands and favorites\n- **Shortcuts** : Added Open Quicklink and Get Snippet intents\n- **Shortcuts** : Added intents grouping and descriptions for better UX\n\n\n## 💎 Improvements\n\n\n- **AI:** Improved loading for loading a chat\n- **AI:** Improved loading for loading chat list\n\n\n## 🐞 Fixes\n\n\n- **Dictation** : Fixed an issue with the session timer cancelling active dictation\n- **AI** : Fixed empty lists while changing tabs when search is on\n- **AI** : Fixed restoring reasoning effort if no model was selected in home view composer\n- **AI** : Fixed broken file/text attachments when reopening a chat created on the same app lifecycle\n- **AI** : Fixed UI not responding while attaching a recently taken photo which was taking longer to appear\n- **AI:** Fixed a few formatting issues in chat\n- **AI:** Sorted out large inset when searching in AI tab\n- **AI:** Fixed pagination issue in chat where offset would jump when scrolling\n- **AI:** Fixed an issue where loaded chat wouldn’t always start at bottom\n- **Misc** : Fixed multiple UI views not updating after appearance change\n- **Home** : Fixed pull down to search when tapping in recents section\n- **Home** : Prevent pull to search accidentally triggering when scrolling up in home view\n- **Search** : Fixed incorrect scroll position in search view when search is triggered on tap\n- **Keyboard** : Fixed recents section being empty on initial launch on iPads",
+  "published_at": "2026-05-29T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T10:55:09.462259+00:00",
+  "content_hash": "sha256:da68525b85c22ed66d149a5b5d4829f5584d083514fc22740e8b105560e2be96"
+}

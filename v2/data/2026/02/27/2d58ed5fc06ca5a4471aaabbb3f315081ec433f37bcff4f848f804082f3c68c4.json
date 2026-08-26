@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2d58ed5fc06ca5a4471aaabbb3f315081ec433f37bcff4f848f804082f3c68c4",
+  "company_key": "yc-tensol",
+  "company_name": "Tensol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://tensol.ai/blog/openclaw-sentry-integration-guide",
+  "canonical_url": "https://tensol.ai/blog/openclaw-sentry-integration-guide",
+  "title": "OpenClaw + Sentry: Proactive Error Monitoring with AI",
+  "summary": "How to set up your OpenClaw agent to monitor Sentry errors, correlate with deploys, and alert your team — autonomously, 24/7.",
+  "body_markdown": "## Why Connect Sentry to Your AI Employee?\n\n\nMost teams check Sentry manually — once a day, maybe at standup. P0 errors can go unnoticed for hours. By the time someone sees it, customers have already been affected.\n\n\nAn OpenClaw AI employee on Tensol monitors your Sentry projects 24/7. When it detects an error spike, it doesn't just alert you — it investigates.\n\n\n## What the Agent Does Autonomously\n\n\nWhen a Sentry error pattern is detected, your OpenClaw agent:\n\n\n1. **Correlates with recent deploys** — checks GitHub for commits in the last hour\n2. **Cross-references customer complaints** — scans Slack channels for related reports\n3. **Estimates impact** — pulls revenue data from HubSpot for affected accounts\n4. **Traces root cause** — uses git blame to identify the exact code change\n5. **Takes action** — creates a Linear ticket, drafts customer notification, prepares rollback\n\n\nAll of this happens in minutes, without anyone asking.\n\n\n## Real Customer Story\n\n\nOurFirm, a legal tech company paying $300/month, had their AI employee catch a payment processing bug at 4:17 AM on a Sunday. The agent correlated 47 Sentry errors with deploy #892, found 3 enterprise customers affected (~$12K blocked), and had a full incident report ready before the on-call engineer woke up.\n\n\nTheir own monitoring wouldn't have caught it for another 4 hours.\n\n\n## How to Set It Up\n\n\n### 1. Connect Sentry via OAuth\n\n\nIn your Tensol dashboard, click **Integrations → Sentry** and authorize access to your projects. One click.\n\n\n### 2. Configure Alert Rules\n\n\nTell your agent what to watch for:\n\n\n- Error rate spikes above baseline\n- New error types in production\n- Specific error patterns (auth failures, payment errors)\n- Regression detection after deploys\n\n\n### 3. Set Escalation Policies\n\n\nDefine who gets notified and how:\n\n\n- P0 (production down) → alert CTO + on-call immediately\n- P1 (degraded performance) → alert engineering lead\n- P2 (minor issues) → batch into daily digest\n\n\n### 4. Deploy\n\n\nYour agent starts monitoring immediately. It runs 24/7 on a dedicated VM with full audit logging.\n\n\n## Beyond Alerting\n\n\nThe key difference from tools like PagerDuty or OpsGenie is that your OpenClaw agent doesn't just alert — it **investigates and acts** . It has persistent memory of your codebase, deploy history, and customer relationships. When it finds a problem, it already has the context to understand its impact.\n\n\n## Getting Started\n\n\nDeploy OpenClaw with Sentry integration in 5 minutes:[tensol.ai](https://tensol.ai/)\n\n\nBrowse engineering skills on ClawHub:[clawhub.ai](https://clawhub.ai/)",
+  "published_at": "2026-02-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:37.920034+00:00",
+  "content_hash": "sha256:de2b1c1bc6a02a425816d2f39feea7040d15dedc06f0096e386123caa5d267de"
+}

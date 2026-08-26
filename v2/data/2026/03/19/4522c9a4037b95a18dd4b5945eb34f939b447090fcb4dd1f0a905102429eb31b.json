@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4522c9a4037b95a18dd4b5945eb34f939b447090fcb4dd1f0a905102429eb31b",
+  "company_key": "yc-castle-2",
+  "company_name": "Castle",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.castle.io/changelog/ios-sdk-400-released",
+  "canonical_url": "https://docs.castle.io/changelog/ios-sdk-400-released",
+  "title": "IOS SDK 4.0.0 Release",
+  "summary": "Version 4.0.0 is a major update to the Castle iOS SDK. This release includes several improvements detailed below. Please review the breaking changes below before upgrading. What's new Expanded device signals : Additional device signals collected for broader detection coverage. SDK protection : Added…",
+  "body_markdown": "[Back to All](https://docs.castle.io/changelog)\n\n\nImproved\n\n\nVersion 4.0.0 is a major update to the Castle iOS SDK. This release includes several improvements detailed below. Please review the breaking changes below before upgrading.\n\n\n###\n\n\nWhat's new\n\n\n- **Expanded device signals** : Additional device signals collected for broader detection coverage.\n- **SDK protection** : Added obfuscation to protect SDK internals from reverse engineering.\n- **Swift-native** : Legacy Objective C parts of the SDK have been rewritten in Swift for improved stability and performance.\n- **Async configuration** : New async variant of configure (configureAsync) that can be safely called from any thread or Swift Task.\n\n\n##\n\n\nBreaking changes\n\n\n- ` import Castle` has changed to` import CastleSDK`\n- ` Castle.configure()` now throws instead of asserting on invalid configuration\n- New` Castle.configureAsync()` for async configuration call\n- ` createRequestToken()` returns` nil` instead of an empty string when the SDK is not initialized\n- Minimum supported iOS version is now iOS 13\n\n\n##\n\n\nResources\n\n\n- [GitHub Release](https://github.com/castle/castle-ios/releases/tag/4.0.0)\n- [iOS SDK v4 Migration Guide](https://docs.castle.io/docs/ios-sdk-migrating-from-v3-to-v4)\n- The release package includes Jazzy-generated API documentation with detailed technical reference for all public APIs.",
+  "published_at": "2026-03-19T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T12:42:16.969450+00:00",
+  "content_hash": "sha256:f3ca77a25309b25771caaf2894fa1431b5491bbd9325b69be65cc72490b2885c"
+}

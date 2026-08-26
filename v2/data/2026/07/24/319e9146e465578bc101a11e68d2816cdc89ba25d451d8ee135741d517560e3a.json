@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "319e9146e465578bc101a11e68d2816cdc89ba25d451d8ee135741d517560e3a",
+  "company_key": "yc-ollama",
+  "company_name": "Ollama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://ollama.com/blog/codex",
+  "canonical_url": "https://ollama.com/blog/codex",
+  "title": "OpenAI Codex with Ollama",
+  "summary": "Open models can be used with OpenAI's Codex CLI through Ollama. Codex can read, modify, and execute code in your working directory using models such as gpt-oss:20b, gpt-oss:120b, or other open-weight alternatives.",
+  "body_markdown": "Open models can be used with OpenAI’s Codex CLI through Ollama. Codex can read, modify, and execute code in your working directory using models such as` gpt-oss:20b` ,` gpt-oss:120b` , or other open-weight alternatives.\n\n\n### Get started\n\n\nInstall Codex CLI:\n\n\n```text\nnpm install -g @openai/codex\n\n\n```\n\n\nStart Codex with the` --oss` flag:\n\n\n```text\ncodex --oss\n\n\n```\n\n\nBy default, Codex will use the local` gpt-oss:20b` model.\n\n\n**Note:** Codex requires a large context window. We recommend at least 32K tokens. See the[documentation](https://docs.ollama.com/context-length) for how to adjust context length in Ollama.\n\n\n### Changing models\n\n\nYou can switch to a different model using the` -m` flag:\n\n\n```text\ncodex --oss -m gpt-oss:120b\n\n\n```\n\n\n### Cloud models\n\n\nAll models on Ollama Cloud work with Codex.\n\n\n```text\ncodex --oss -m gpt-oss:120b-cloud\n\n\n```\n\n\n### Learn more\n\n\nFor more detailed setup instructions and configuration options, see the[Codex integration guide](https://docs.ollama.com/integrations/codex) .",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T07:14:45.991039+00:00",
+  "content_hash": "sha256:c7f124b37a1d062a11f3d1f7d807bc2d767a280fc44e13e15510b429c7e842b5"
+}

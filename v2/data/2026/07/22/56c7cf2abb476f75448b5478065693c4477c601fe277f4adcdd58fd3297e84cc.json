@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "56c7cf2abb476f75448b5478065693c4477c601fe277f4adcdd58fd3297e84cc",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/codex-plugin",
+  "canonical_url": "https://resend.com/changelog/codex-plugin",
+  "title": "Resend Plugin for Codex",
+  "summary": "Install the MCP server and every Resend skill directly from the official Codex plugin marketplace.",
+  "body_markdown": "The best agent experience requires context provided by tooling like MCP servers, skills, and CLIs. Historically, getting the most out of Codex with Resend meant installing the MCP server and every skill separately.\n\n\nToday, we're excited to announce the[official Resend plugin for Codex and ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6a3c407853888191beddc2151c2b6f8b?open_in_codex) .\n\n\nThe plugin bundles the[MCP server](https://resend.com/docs/mcp-server) and every[Resend Skill](https://resend.com/docs/resend-skill) into a single install.\n\n\n## What you can do with it\n\n\n- **Send from a conversation** : send a transactional email without leaving Codex.\n- **Debug deliverability** : pull up logs, inspect a bounce, or check why an email failed.\n- **Manage Contacts and Segments** : add contacts, build segments, and clean up email lists in plain language.\n- **Run Broadcasts** : draft, schedule, and send a broadcast to an audience.\n- **Check Domains and API Keys** : verify domain status, review DNS records, and rotate API keys.\n\n\n## How to use it\n\n\nTo set up the Resend connector:\n\n\n1. Go to **Plugins** and search for Resend.\n2. Click **Connect** .\n3. Sign in with your Resend account and grant the permissions Codex requests.\n\n\nIt offers the same[MCP experience](https://resend.com/changelog/remote-mcp-server) but with more security, better management, and improved DX.\n\n\n## Manage connector access\n\n\nYou can view or revoke its OAuth permissions anytime from your Resend account's Team settings.\n\n\n## Email expertise, on by default\n\n\nOnce installed, Codex activates the right skill automatically:\n\n\n- **` resend`** for the SDK and platform APIs\n- **` react-email`** for building templates as React components\n- **` email-best-practices`** for SPF, DKIM, DMARC, compliance, and deliverability\n- **` agent-email-inbox`** for safely processing inbound email with an agent\n- **` resend-cli`** for shell and CI workflows\n\n\nThe MCP server (or[Resend CLI](https://resend.com/cli) ) lets Codex perform actions like sending emails, managing templates, and processing inbound email. Skills ensure the tooling follows best practices in a token-efficient way.\n\n\n## Conclusion\n\n\nWe're excited to see how this connection makes it easier to build with Resend and Codex. Head to the[Codex page](https://resend.com/codex) for everything Resend brings to your agent.\n\n\nIf you have any questions, please reach out to us and we'll be happy to help.",
+  "published_at": "2026-07-22T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T21:22:09.024444+00:00",
+  "content_hash": "sha256:4f26a58d29c8b9e3158493e19eea4eb1c6cbcf24e5eff39979ac67fd8d9bc11f"
+}

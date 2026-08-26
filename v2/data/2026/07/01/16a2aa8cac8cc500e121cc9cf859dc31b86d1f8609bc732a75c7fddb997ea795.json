@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "16a2aa8cac8cc500e121cc9cf859dc31b86d1f8609bc732a75c7fddb997ea795",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/a-model-that-doesnt-know-a-solvents-boiling-point-will-happily-recommend-conditions-above-it",
+  "canonical_url": "https://www.reactwise.com/news/a-model-that-doesnt-know-a-solvents-boiling-point-will-happily-recommend-conditions-above-it",
+  "title": "A model that doesn't know a solvent's boiling point will happily recommend conditions above it",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "A model that doesn't know a solvent's boiling point will happily recommend conditions above it.\n\n\nMost optimization discussions focus on the objective - yield, impurity, selectivity. But every real campaign is bounded by constraints: the accessible temperature range of a solvent, the values a reactor or pump can actually be set to, reagent compatibilities, and how experiments have to be grouped on a plate.\n\n\nA model that ignores these will recommend conditions that look excellent in theory, but can't be executed at the bench - slowly eroding trust in the tool.\n\n\nWe build these constraints into the optimization itself, so every recommendation is one you can actually run.\n\n\nTemperature is bounded by the solvent: the platform won't propose conditions outside a solvent's accessible range, so a screen across several solvents respects each solvent's limits.\n\n\nContinuous inputs can be discretized to values you can actually dial in, and where parameters depend on one another, both linear constraints, such as stoichiometry or total volume, and conditional \"if X, then Y\" constraints, such as restricting the compatible solvents once a base is chosen, are honored throughout.\n\n\nThe feasible space is defined up front, and the optimizer searches within it - rather than proposing points just to be rejected.",
+  "published_at": "2026-07-01T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T10:59:50.628827+00:00",
+  "content_hash": "sha256:b66c941a17ebce99b3903fbea7282cde896b78b106d2e3c6b06867dbfd9dc917"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "08061c39b8df237db20532addf10ef9a6de214654036e528e5c18f1dee003ddf",
+  "company_key": "yc-dexter",
+  "company_name": "Dexter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://engineering.getdexter.co/2025/12/15/one-command-dev-environments/",
+  "canonical_url": "https://engineering.getdexter.co/2025/12/15/one-command-dev-environments/",
+  "title": "One Command Dev Environments",
+  "summary": "Engineering and product insights from the team at Dexter.",
+  "body_markdown": "# One Command Dev Environments\n\n\nDecember 15, 2025 · Vincent Garrigues\n\n\nAt Dexter, we use Codex and Claude Code a lot, both in the terminal and in the cloud. And it’s not just engineers writing code. My cofounders regularly spin up the app locally to tweak features or demo new prototypes.\n\n\nThe problem? Getting anyone to run your app locally is always a mess. You need the right version of Node, Python, Ruby, Postgres, Redis, and whatever else your stack depends on. You end up teaching people how to install brew, nvm, uv, bundler, and so on. Total time sink.\n\n\nI used to tell teammates to just “ask Codex to fix it.” It works, but it also leaves everyone’s local environment in worse shape than before.\n\n\n## A better way\n\n\nTurns out, a great dev environment isn’t rocket science. You just need a bit of Docker and Bash.\n\n\nNow, to start our app, you just run:\n\n\n```text\n$ dx/run\n\n\n```\n\n\nThat command builds a dev container, starts Docker Compose, and launches the app — consistently. On laptops, in CI, in the cloud, or even inside an agent’s container. It just works.\n\n\n## Why this matters\n\n\nIt’s a huge time saver. No more “works on my machine.” Everyone gets the same environment, whether they’re an engineer, a founder demoing a prototype, or a coding agent running in a container.\n\n\nIf you’re curious about building something similar, I highly recommend the book[DevBox](https://devbox.computer/) .",
+  "published_at": "2025-12-14T23:00:00+00:00",
+  "first_seen_at": "2026-08-25T07:52:56.812471+00:00",
+  "content_hash": "sha256:b5d82ff3aecea2f8172d6e49135eb5a27567c00b682616150830ac8b63f14eff"
+}

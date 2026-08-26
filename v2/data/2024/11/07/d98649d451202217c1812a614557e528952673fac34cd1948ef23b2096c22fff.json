@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d98649d451202217c1812a614557e528952673fac34cd1948ef23b2096c22fff",
+  "company_key": "weave-communications-inc-common-stock",
+  "company_name": "Weave Communications Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://engineering.getweave.com/talk/fcfs-in-go/",
+  "canonical_url": "https://engineering.getweave.com/talk/fcfs-in-go/",
+  "title": "Stop Sleeping On First Class Functions In Go",
+  "summary": "Promoting a very useful and often uder-utilized feature of Go",
+  "body_markdown": "# Stop Sleeping On First Class Functions In Go\n\n\nGo has so many great features that draw us in: Channels, Goroutines, static compilation, a simple syntax, etc. But there is one feature that Go supports which needs more love: first class functions. This feature is not unique to Go, and with all the other shiny features to talk about, I think it is all too often overlooked and underutilized.\n\n\nFirst class functions (functions as variables) and closures (capturing data in those functions) are two incredibly powerful features that are built right into Go. But even seasoned Go developers often forget these features. We need to fix this!\n\n\nWe are going to go over several cases where these two features massively improve code usability and readability:\n\n\n- Dependency Injection\n- Passing functions as arguments to make our code testable\n- Cleaning up Go templates\n- Reducing complexity in templates with closures\n- Hiding channel usage\n- Stop passing channels, pass functions\n- Building an execution pipeline\n- Making ordered operations easy and extensible\n\n\n## Where\n\n\nGo West 2024\n\n\n## When\n\n\n## Watch it",
+  "published_at": "2024-11-07T18:26:46+00:00",
+  "first_seen_at": "2026-07-20T23:19:36.973215+00:00",
+  "content_hash": "sha256:1a9860b03e52692e675b6ba22271281684f0fa0c67591dc524a4a2cb08717b40"
+}

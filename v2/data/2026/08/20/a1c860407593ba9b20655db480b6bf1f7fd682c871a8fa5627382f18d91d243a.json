@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a1c860407593ba9b20655db480b6bf1f7fd682c871a8fa5627382f18d91d243a",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/youtube-and-reddit-fetch-failed-without-api-keys/13807#post_1",
+  "canonical_url": "https://forum.newsblur.com/t/youtube-and-reddit-fetch-failed-without-api-keys/13807",
+  "title": "Youtube and Reddit fetch failed without API keys",
+  "summary": "Selfhosted web, debian 12, 6.18 kernel. Up to date with the repo. All mentioned connections are over Tor. Other RSS links work. All youtube RSS links always down for “YouTube fetch failed (404)“ reason, even though exact same link is accessible with curl request or from browser. Website URL always fetched with code 200 as it should. The feed is imported, although I’m unable to add /feeds/videos.xml?channel_id=…. RSS link for reasons unkonwn. Reddit RSS shows same behavior: RSS link being acces...",
+  "body_markdown": "Selfhosted web, debian 12, 6.18 kernel. Up to date with the repo. All mentioned connections are over Tor. Other RSS links work.\nAll youtube RSS links always down for “YouTube fetch failed (404)“ reason, even though exact same link is accessible with curl request or from browser. Website URL always fetched with code 200 as it should. The feed is imported, although I’m unable to add /feeds/videos.xml?channel_id=…. RSS link for reasons unkonwn.\nReddit RSS shows same behavior: RSS link being accessible from web but 404 in Newsblur. I connect both issues because it’s known that Newsblur is fetching Youtube feeds via API and not actual RSS link, Reddit too.\n\n\nThe[https://github.com/samuelclay/NewsBlur/blob/main/utils/youtube_fetcher.py](https://github.com/samuelclay/NewsBlur/blob/main/utils/youtube_fetcher.py) probably implies the need for Youtube API key. Does it really? What if I would like to fetch feed anonymously and Youtube allows that?\nreddit_fetcher.py pretty much the same situation, with just patience for occasional 429 needed.\n\n\nForcing Newsblur to actually fetch the URLs can fix the problem - it that possible?\n\n\nExample URLs (just to make sure):\n` https://www.youtube.com/feeds/videos.xml?channel_id=UCTH6s1SMIQicvyd8OLBYMtQ` (404 in Newsblur, 200 in curl or browser)\n` https://www.youtube.com/channel/UCTH6s1SMIQicvyd8OLBYMtQ` (200)\nExample Reddit link:` https://www.reddit.com/r/BCI/top/.rss?t=year` (404 in Newsblur, 200 or sporadically 429 in curl or browser because tor)\n\n\nP.S. Wouldn’t be able to post this on github issues since it shadowbans tor and/or temporary emails.",
+  "published_at": "2026-08-20T18:32:15+00:00",
+  "first_seen_at": "2026-08-20T20:19:51.565606+00:00",
+  "content_hash": "sha256:89365c4ff7b944b7be1151f52470b44aaac357090f81995c5ab431a482b97295"
+}

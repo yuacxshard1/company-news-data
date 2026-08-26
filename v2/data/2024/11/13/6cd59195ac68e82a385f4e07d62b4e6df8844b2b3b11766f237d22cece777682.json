@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6cd59195ac68e82a385f4e07d62b4e6df8844b2b3b11766f237d22cece777682",
+  "company_key": "yc-nullstone",
+  "company_name": "Nullstone",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.nullstone.io/blog-posts/gitops-launch-week-day-3",
+  "canonical_url": "https://www.nullstone.io/blog-posts/gitops-launch-week-day-3",
+  "title": "GitOps Launch Week, Day 3",
+  "summary": "",
+  "body_markdown": "## Overview\n\n\nAt Nullstone, we believe developers should be able to submit a single pull request that contains everything needed to deliver a feature or bug fix. No manual configuration in another system. No manual steps at deploy time. Instead, fully automated and identical across environments.\n\n\nAll week, we’re launching Nullstone GitOps to achieving this goal. Nullstone GitOps is not just an infrastructure management tool and is not a replacement for ArgoCD/FluxCD. Stay tuned all week to learn more.\n\n\n## Test IaC locally\n\n\nWe noticed that our early adopters of GitOps struggled with the initial learning curve of IaC files. We saw the same symptoms of teams setting up their CI/CD pipelines; the git commit log is littered with “fix iac” or “try again” (and eventually an expletive).\n\n\nThat’s why we introduced a new CLI command \\`nullstone iac test\\`. This command performs validation and reports what will change on your local computer *before* you pushing your changes to Nullstone.\n\n\n\\[How to install the Nullstone CLI\\](https://docs.nullstone.io/getting-started/cli/install-configure.html)\n\n\nRead more about the command at \\[\\`nullstone iac test\\`\\](https://docs.nullstone.io/getting-started/cli/docs.html#iac-test).\n\n\n## Export to IaC\n\n\nWe noticed another interesting trend among developers. The Nullstone portal serves as an excellent tool for discovery; however, developers want to stay in their code/repo to ship products. This came in a few areas: understanding Nullstone concepts, learning new cloud concepts, and learning the Nullstone IaC format.\n\n\nAs a result, we added a feature to alleviate migration (and translation) from the Nullstone UI to IaC files. Navigate to an app in any environment and switch to the “Overview” tab. There are buttons, “Full Configuration” and “Overrides”, that will emit yaml files that can be copied into your repository. This gives developers the ability to design infrastructure through a guided portal experience. Once in the desired state, the IaC can be exported to continue operating in a Git workflow.\n\n\nWe have also added this functionality to a CLI command \\`nullstone iac generate\\`. This command emits an IaC file containing the same configuration as the selected Nullstone workspace.\n\n\nRead more about the command at \\[\\`nullstone iac generate\\`\\](https://docs.nullstone.io/getting-started/cli/docs.html#iac-generate).\n\n\n‍",
+  "published_at": "2024-11-13T00:00:00+00:00",
+  "first_seen_at": "2026-07-27T04:02:46.708969+00:00",
+  "content_hash": "sha256:07ff8a35e1ffc69825d1cdc7b71611c1c3f1d031259673f3709e2b729ef8025d"
+}

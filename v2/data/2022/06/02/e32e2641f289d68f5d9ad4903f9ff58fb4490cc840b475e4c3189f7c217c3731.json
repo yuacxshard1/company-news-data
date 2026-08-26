@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e32e2641f289d68f5d9ad4903f9ff58fb4490cc840b475e4c3189f7c217c3731",
+  "company_key": "elastic-n-v-ordinary-shares",
+  "company_name": "Elastic N.V.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.elastic.co/security-labs/blog/detection-and-response-for-the-actively-exploited-proxyshell-vulnerabilities",
+  "canonical_url": "https://www.elastic.co/security-labs/blog/detection-and-response-for-the-actively-exploited-proxyshell-vulnerabilities",
+  "title": "Detection and response for the actively exploited ProxyShell vulnerabilities",
+  "summary": "In the last week, Elastic Security has observed the exploitation of Microsoft Exchange vulnerabilities associated with ProxyShell. Review the post to find newly released details about this activity.",
+  "body_markdown": "On August 21, 2021, the Cybersecurity and Infrastructure Security Agency (CISA) released an urgent[notice](https://us-cert.cisa.gov/ncas/current-activity/2021/08/21/urgent-protect-against-active-exploitation-proxyshell) related to the exploitation of ProxyShell vulnerabilities ([CVE-2021-31207](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-31207) ,[CVE-2021-34473](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34473) ,[CVE-2021-34523](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34523) ). By chaining these vulnerabilities together, threat actors are compromising unpatched Microsoft Exchange servers and gaining footholds into enterprise networks.[Security vendors](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lockfile-ransomware-new-petitpotam-windows) and[researchers](https://twitter.com/KyleHanslovan/status/1428804893423382532?s=20) are also observing these attacks tied to post-exploitation behavior such as deploying ransomware to victim environments.\n\n\nElastic Security identified indicators of compromise (IoCs) indicating similar activity as reported by the industry. The details of this activity can be found in our Discuss forum, highlighting our perspective of what we have observed in our own telemetry.\n\n\nPlease visit the[Discuss forum](https://discuss.elastic.co/t/detection-and-response-for-proxyshell-activity/282407) for full details on our identified IoCs.",
+  "published_at": "2022-06-02T00:00:00+00:00",
+  "first_seen_at": "2026-08-26T18:24:13.750804+00:00",
+  "content_hash": "sha256:6893b39112a4d3029fdf99998e5c427f7535531522e13ffbf17d7642e520a412"
+}

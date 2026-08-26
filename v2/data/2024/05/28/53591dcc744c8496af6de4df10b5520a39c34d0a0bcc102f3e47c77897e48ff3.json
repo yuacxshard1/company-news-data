@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "53591dcc744c8496af6de4df10b5520a39c34d0a0bcc102f3e47c77897e48ff3",
+  "company_key": "yc-fogbender",
+  "company_name": "Fogbender",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://fogbender.com/blog/postgrex-ssl-with-supabase",
+  "canonical_url": "https://fogbender.com/blog/postgrex-ssl-with-supabase",
+  "title": "SSL for Postgrex and Supabase in Elixir",
+  "summary": "Configuring Postgrex to work with SSL-protected Supabase Postgres database",
+  "body_markdown": "As sometimes happens, I needed to create a Postgrex connection to a Supabase Postgres instance (hosted on[supabase.com](https://supabase.com/) ) from Elixir. After failing to get it working quickly, I embarked on a super annoying journey I’d love to help others avoid, so I thought I’d write the key findings down.\n\n\nTo find your connection parameters in Supabase, look for Project Settings / Configuration / Database / Connection Parameters.\n\n\nAs a separate minor challenge, I had to get my Supabase certificate from an application configuration variable (fed in via[Doppler](https://www.doppler.com/) ) to a file. To do this, I used the` Application.put_env` approach:\n\n\napplication.ex\n\n\n```text\ncase   MyApp.  env  (  :db_ssl_crt  )   do            nil     ->              :ok\npem   ->               {  :ok  , path}   =   Briefly.  create  ()               File.  write!  (path, pem)               Application.  put_env  (  :my_app  ,   :cacertfile_path  , path)          end\n```\n\n\nThe certificate is written to a temporary file with[Briefly](https://github.com/CargoSense/briefly) . Note that Briefly will close the temporary file as soon as the temp file creator process exits—in our case, it’s the application process, which means the path to the certificate will remain available as long as the application is running.\n\n\n```text\ndef     db  ()   do           ssl   =     case   MyApp.  env  (  :cacertfile_path  )   do            nil     ->               []\npath   ->               [  ssl:     true  ,                ssl_opts:   [                  verify:     :verify_peer  ,                  cacertfile:   path,                  server_name_indication:   String.  to_charlist  (MyApp.  env  (  :db_host  )),                  customize_hostname_check:   [                    match_fun:     :public_key  .  pkix_verify_hostname_match_fun  (  :https  )                   ]                 ]               ]          end\nopts   =   [            hostname:   MyApp.  env  (  :db_host  ),            port:   MyApp.  env  (  :db_port  ),            username:   MyApp.  env  (  :db_user  ),            database:   MyApp.  env  (  :db_name  ),            password:   MyApp.  env  (  :db_pass  )           ]   ++   ssl\nPostgrex.  start_link  (opts)        end\n```",
+  "published_at": "2024-05-28T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T20:41:04.212025+00:00",
+  "content_hash": "sha256:1d3808391ef47d4997be246dffa623da5cec891cd5e73d9d4dc0be2227cd6bf7"
+}

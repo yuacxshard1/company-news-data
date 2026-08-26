@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2fe04318916a08e1da5403772bb22338ef0800f16a8f838a0596c7fcf7b0dcd9",
+  "company_key": "yc-loops",
+  "company_name": "Loops",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://loops.so/changelog/new-stripe-events",
+  "canonical_url": "https://loops.so/changelog/new-stripe-events",
+  "title": "New Stripe Events | Loops",
+  "summary": "Stripe events in Loops now reach further into the customer lifecycle, with triggers for new subscriptions, quotes, and async checkouts.",
+  "body_markdown": "Loops now supports a broader set of Stripe triggers across quotes, subscriptions, and async checkout outcomes. That means you can connect more billing moments to lifecycle messaging instead of waiting for a narrow set of checkout-only events.\n\n\nFor example, you can now send a follow-up when a quote is accepted, start onboarding when a subscription is created, or confirm a purchase when an async checkout payment succeeds. If you want to wire these flows up, start with the[Stripe Integration](https://loops.so/docs/integrations/stripe) .",
+  "published_at": "2026-03-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T13:13:35.252230+00:00",
+  "content_hash": "sha256:d292c5878997e9e157d8bf9c15b97cc41313cb84d90285b8851a6dbe80eb50ba"
+}

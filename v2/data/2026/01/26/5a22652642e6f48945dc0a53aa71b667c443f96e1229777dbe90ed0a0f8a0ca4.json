@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5a22652642e6f48945dc0a53aa71b667c443f96e1229777dbe90ed0a0f8a0ca4",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-8-released/136398",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-8-released/136398",
+  "title": "Virtualmin 8 released",
+  "summary": "Howdy all, We’ve rolled out version 8 of the Virtualmin installer, along with several other updates to support the new version of the Virtualmin virtual-server 8.0.0 module. A few of the big new features that have been introduced since the 7.0 release back in July of 2022. Changes in Pro WP Workbench, a plugin for centralized management and automation of many WordPress installations Major cloud provider enhancements and additions for managing DNS and backups in the cloud, including several ...",
+  "body_markdown": "Howdy all,\n\n\nWe’ve rolled out version 8 of the Virtualmin installer, along with several other updates to support the new version of the Virtualmin virtual-server 8.0.0 module.\n\n\nA few of the big new features that have been introduced since the 7.0 release back in July of 2022.\n\n\nChanges in Pro\n\n\n- [WP Workbench](https://www.virtualmin.com/docs/plugins/wp-workbench/) , a plugin for centralized management and automation of many WordPress installations\n- Major cloud provider enhancements and additions for managing DNS and backups in the cloud, including several new DNS providers and support for most S3-compatible storage providers, as well as managing Cloudflare DNS and proxy features\n- systemd/cgroups resource limits for users (still in development, but usable, and a great improvement over the previous` limits.conf` resource limits support)\n- Jailkit enhancements to ease management and configuration of jails\n- Add support for multiple ACME-compatible SSL providers, including ZeroSSL, Sectigo and many others\n\n\nChanges in GPL and Pro\n\n\n- Support for the latest versions of our supported Linux distributions (EL 10 and Debian 13, and we expect Ubuntu 26.04 to be an easy lift when it is released)\n- Modern integrated password recovery (no` virtualmin-password-recovery` module needed, plain text passwords not required)\n- WebSockets-based terminal to provide a real interactive terminal in Webmin and Virtualmin\n- Many CLI enhancements and additions including` --json` flag for JSON output\n- Many new translations, and expansion of existing translations\n- Many new features for managing PHP packages, configuration, and versions\n- Hundreds of bugfixes and minor enhancements and additions\n\n\nThis is also a major refactoring of our software repo infrastructure, which may still have issues that we haven’t shaken out.\n\n\nAs always, if you run into any problems let us know in a *new* topic.\n\n\nCheers,\nJoe",
+  "published_at": "2026-01-26T07:41:52+00:00",
+  "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+  "content_hash": "sha256:e591242c950d30bc1573ccc3108d6ba145ca5d79b6c27916ccc4513a44f7e044"
+}

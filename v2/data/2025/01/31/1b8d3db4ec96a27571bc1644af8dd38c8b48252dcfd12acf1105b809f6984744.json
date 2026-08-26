@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1b8d3db4ec96a27571bc1644af8dd38c8b48252dcfd12acf1105b809f6984744",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/how-to-do-an-unpivot-in-mysql/",
+  "canonical_url": "https://www.basedash.com/blog/how-to-do-an-unpivot-in-mysql/",
+  "title": "How to Do an Unpivot in MySQL",
+  "summary": "Unpivoting in MySQL involves transforming columns into rows, effectively normalizing data that was previously denormalized.",
+  "body_markdown": "Unpivoting in MySQL involves transforming columns into rows, effectively normalizing data that was previously denormalized. This guide demonstrates how to perform an unpivot operation in MySQL, converting columnar data into a more query-friendly row format.\n\n\n## Understanding the unpivot operation\n\n\nIn MySQL, unpivoting is not a direct, single-command process as it is in some other SQL databases. Instead, it requires a combination of SQL operations to achieve the same result. The goal is to transform data from a wide format (with many columns) to a long format (with more rows and fewer columns).\n\n\n## Preparing your data\n\n\nConsider a table named` sales_data` with the following structure:\n\n\n```text\n| product_id | Jan_sales | Feb_sales | Mar_sales |\n|  ------------|-----------|-----------|-----------|\n|   1            |   150         |   200         |   250         |\n|   2            |   300         |   350         |   400         |\n```\n\n\nOur aim is to unpivot the monthly sales columns into a format with two columns:` month` and` sales` .\n\n\n## Creating the unpivot query\n\n\nThe following query uses a combination of` UNION ALL` and` SELECT` statements to unpivot the data:\n\n\n```text\nSELECT   product_id,   'Jan'   as   month  , Jan_sales   as   sales   FROM   sales_data\nUNION ALL\nSELECT   product_id,   'Feb'  , Feb_sales   FROM   sales_data\nUNION ALL\nSELECT   product_id,   'Mar'  , Mar_sales   FROM   sales_data;\n```\n\n\nThis query produces an output like:\n\n\n```text\n| product_id |   month   | sales |\n|  ------------|-------|-------|\n|   1            | Jan   |   150     |\n|   1            | Feb   |   200     |\n|   1            | Mar   |   250     |\n|   2            | Jan   |   300     |\n|   2            | Feb   |   350     |\n|   2            | Mar   |   400     |\n```\n\n\n## Handling large numbers of columns\n\n\nIf your table has a large number of columns, manually writing a` UNION` for each one can be impractical. In such cases, consider automating this process with a dynamic SQL query or using an external tool to generate the query for you.\n\n\n## Enhancing query efficiency\n\n\n- Index relevant columns to speed up the query, especially if the original table is large.\n- Use` UNION ALL` instead of` UNION` to avoid the overhead of removing duplicate rows, assuming your data does not have duplicates.\n\n\nIf this query pattern is part of recurring reporting,[Basedash](https://www.basedash.com/) helps you turn it into reusable, AI-native BI workflows: prompt-to-SQL, shared dashboards, and trusted answers that stay aligned with your data model.",
+  "published_at": "2025-01-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:19:59.901198+00:00",
+  "content_hash": "sha256:ba03149fe1e8e60f3d379ce6fa47aee4002e042f605b88e78995202244bd58c1"
+}

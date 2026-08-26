@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9257ac698e766d1f1810e45df293ca7b2ec7e73d397a6effce83cb705fd265ea",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2026-06-09-per-project-environment-notifications-ecs-storage-and-more",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2026-06-09-per-project-environment-notifications-ecs-storage-and-more",
+  "title": "Per-project & environment Notifications, ECS Storage, and More - Flightcontrol Changelog | Productlane",
+  "summary": "",
+  "body_markdown": "## 🚀 Features\n\n\n-\n\n\nAdd Notification settings on Project and Environment levels, so they can have different Slack channels and settings\n\n\n-\n\n\nThey are under Project and Environment settings pages\n\n\n-\n\n\nECS EC2 Storage support\n\n\n-\n\n\n[See the docs for](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#target)` target.storage`\n\n\n-\n\n\nFirelens configurable image\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#logging)\n\n\n-\n\n\nAdd optional` notesLink` field to service configuration and forms\n\n\n-\n\n\nGives you a way to add a link to internal docs, etc from Flightcontrol\n\n\n-\n\n\n[See the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code#service-configuration)\n\n\n## ⚙️ Improvements\n\n\n-\n\n\nAdd task definition revision tag to ECS based service deploy view\n\n\n-\n\n\nForce dashboard desktop width on mobile devices\n\n\n-\n\n\nAdd KMS permissions to builders\n\n\n-\n\n\nEnhance deploy hook error handling and response structure\n\n\n-\n\n\nFix performance issue with branch selector for repos with thousands of branches\n\n\n## 🐞 Bug Fixes\n\n\n-\n\n\nVarious deletion fixes\n\n\n-\n\n\nVarious fixes",
+  "published_at": null,
+  "first_seen_at": "2026-08-09T22:19:16.006447+00:00",
+  "content_hash": "sha256:6bfe0ac0ebad8cf8260ca24aefaafc0d2e678c012544073f33bd0d4d69bab2fd"
+}

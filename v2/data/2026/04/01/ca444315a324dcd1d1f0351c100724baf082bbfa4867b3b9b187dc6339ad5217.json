@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ca444315a324dcd1d1f0351c100724baf082bbfa4867b3b9b187dc6339ad5217",
+  "company_key": "yc-atonomo",
+  "company_name": "Atonomo",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.codecanary.ai/blog/codecanary-uses-codecanary-to-improve-itself",
+  "canonical_url": "https://www.codecanary.ai/blog/codecanary-uses-codecanary-to-improve-itself",
+  "title": "CodeCanary uses CodeCanary to improve itself",
+  "summary": "How CodeCanary detected and fixed an onboarding bug in its own product while we slept.",
+  "body_markdown": "CodeCanary, our AI product engineer, is also *our* product engineer. We use CodeCanary to find bugs, monitor our onboarding conversion, and identify high value leads. This has led to CodeCanary[improving itself](https://www.codecanary.ai/blog/recursive-self-improvement-is-possible-for-apps) by fixing bugs in its own onboarding while we (literally) were sleeping.\n\n\n## How does CodeCanary work?\n\n\nCodeCanary is an agent that lives in Slack and uses your product analytics, session replays, and your codebase to:\n\n\n1. Detect and fix bugs\n2. Identify conversion bottlenecks and implement A/B tests\n3. Track the behavior of high value leads and customers\n4. Answer any other question that involves your product analytics, either ad-hoc or on a schedule\n\n\nYou can configure how any of these automations run—from the frequency, to the sensitivity, to the type of patterns you want to watch for.\n\n\n## CodeCanary fixed CodeCanary while we slept\n\n\n### We created a bug in our onboarding\n\n\nWhen you onboard to CodeCanary you create the automations that determine what the agent alerts you to and what it fixes. Once you go through the process of creating an automation, you are prompted to create an account.\n\n\nLittle did we know that when you authenticated you lost all your progress from that automation and were sent back to step 1. A user then experienced this bug, and was captured in a session replay.\n\n\n[CodeCanary watches all session replays for bugs using an LLM](https://www.codecanary.ai/blog/watching-session-replays-with-ai) , which lets it spot bugs before we even knew about it.\n\n\n### CodeCanary fixed the bug\n\n\nWe configured CodeCanary to watch our session replays for bugs and submit a PR if it thinks it's found one. At 3:37 AM, while Brendan and I were fast asleep, CodeCanary was watching bugs and spotted the progress reset.\n\n\nAfter finding the bug, it proposed a fix and sent a PR.\n\n\nWhen we woke up we saw the PR, shipped it, and our onboarding was a bit better for effectively no work.\n\n\n## How can I use CodeCanary?\n\n\nIf you use PostHog you can[start using CodeCanary in less than 5 minutes](https://www.codecanary.ai/onboarding) .",
+  "published_at": "2026-04-01T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T08:26:03.097679+00:00",
+  "content_hash": "sha256:b59d36f5a248f4c3c28467bac546c02b2b0e3ff104832fa80049894bedca6260"
+}

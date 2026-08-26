@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "84ead60c569654b77dc42d8b92a631f75ec868101db9b13f883d43700a85de13",
+  "company_key": "yc-decisional-ai",
+  "company_name": "Decisional AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.decisional.com/blog/production-ready-rag",
+  "canonical_url": "https://www.decisional.com/blog/production-ready-rag",
+  "title": "Production Ready RAG for AI Agents",
+  "summary": "The future of document workflow automation isn't about better retrieval-it's about agents that think, reason, and complete work. RAG isn't dead; it's just beginning to show what's possible.",
+  "body_markdown": "The future of document workflow automation isn't about better retrieval—it's about agents that think, reason, and complete work. RAG isn't dead; it's just beginning to show what's possible.\n\n\n## Search vs Research\n\n\nThere was a predictable pattern in 2023 onwards for RAG systems: chunk documents, embed them, search for relevant pieces, generate responses. This approach fails spectacularly in production.\n\n\nTraditional RAG \"searches for answers.\" Agentic RAG \"conducts research.\" This fundamental shift represents the next generation of document workflow automation.\n\n\n## Production Challenges\n\n\nBuilding RAG for production means dealing with messy documents: invoices, contracts, quotes, and financial documents at scale.\n\n\n- **Variable formats** : No two documents are exactly alike\n- **Missing information** : Fields that should be there often aren't\n- **Ambiguous content** : Context matters for interpretation\n- **Scale requirements** : Thousands of documents, not dozens\n\n\n## Agentic RAG\n\n\nAt Decisional, we moved from RAG to Agentic RAG, where you run an LLM in a loop until it feels it has answered the question. The performance felt mind blowing and allowing the Agent to do runtime reasoning made our system have sub 1% hallucination rates.\n\n\nOur agents handle everything from initial extraction to payment scheduling, achieving 100% automation where traditional tools manage maybe 60%.\n\n\n## The Cost Reality\n\n\nAgentic automation costs $0.10-$1.00 per complex query, especially for specialized workflows like accounts payable AI or finops tools. The math works when you account for exception handling and human time to fix partial automation.\n\n\n## Transparency Matters\n\n\nStreaming the agent's thought process is crucial in building confidence. Users will forgive longer process times if they understand what is happening, but black box systems won't be forgiven.\n\n\nRAG isn't dead; it's just beginning to show what's possible when treated as a complex reasoning challenge rather than a search problem.",
+  "published_at": "2025-10-15T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T04:01:29.236634+00:00",
+  "content_hash": "sha256:39527f5d4aec92df9284b83102012ca0e58281ce05cb0d9d7298b822b4dd5f23"
+}

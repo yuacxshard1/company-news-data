@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-osmosis",
+      "company_name": "Osmosis",
+      "doc_id": "4e3dd382e939dff7b4c8455d8f5e7653e343674db61681daa90fb8e73be3b379",
+      "first_seen_at": "2026-07-25T18:22:44.798253+00:00",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Long-context RL training has become increasingly popular as open source models have continued improving, and companies have adopted more agentic use cases that require multi-turn tool use.",
+      "title": "Cutting Memory in Long-Context RL with Fused Logprobs"
+    },
+    {
+      "company_key": "yc-osmosis",
+      "company_name": "Osmosis",
+      "doc_id": "868a5672ad7ee9165337b33539db1b17e0d9c13691b5d80e06ace6ab818190c1",
+      "first_seen_at": "2026-07-25T18:22:44.798253+00:00",
+      "published_at": "2026-06-02T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What if we could share the same base model between policies, and just fine-tune different LoRA adapters in a single batch? This is cleaner and solves scalability: we can keep one base model, route tokens to different LoRA adapters, and have the training/inference stack treat LoRA adapters as cheap concurrent policies rather than separate model replicas.",
+      "title": "Training Thousands of LoRA Adapters at Once"
+    }
+  ],
+  "company_key": "yc-osmosis",
+  "month": "2026-06"
+}

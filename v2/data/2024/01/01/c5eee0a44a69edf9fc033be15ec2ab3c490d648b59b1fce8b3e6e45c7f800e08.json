@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c5eee0a44a69edf9fc033be15ec2ab3c490d648b59b1fce8b3e6e45c7f800e08",
+  "company_key": "yc-sieveai",
+  "company_name": "sieve",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.usesieve.com/blog/ESG-data-collection",
+  "canonical_url": "https://usesieve.com/blog/ESG-data-collection",
+  "title": "ESG data collection",
+  "summary": "See how sieve saved a top ESG investor weeks of work collecting and verifying ESG data pulled from financial filings",
+  "body_markdown": "## Context\n\n\nRyan is a data scientist at a leading ESG-focused fund. To improve their selection methodology, the research team wanted to gather new data on companies' environmental, social, and governance (ESG) metrics. The team evaluated traditional data vendors, but found the cost, quality, and licensing terms to be unacceptable, so they decided to build in-house.\n\n\n## Issues\n\n\nAs a data scientist, Ryan's initial approach was to use frontier LLM models (e.g., Claude, OpenAI) to extract data from financial filings. However, the models were not able to extract the data they needed from the financial filings to the necessary degree of accuracy. Ryan spent weeks manually checking the data between source documents and LLM outputs to confirm correctness. This process was time-consuming and error-prone. He had to make a tradeoff between how thoroughly he checked the data, and how much of the data he could get to. In every batch, he'd check the first few documents rigorously, really looking closely at the source document. Of course, this level of fine-grained review would not scale to all the companies in their coverage universe. From then on, he'd skim the documents, and then would skim every tenth document. This made the process more scalable, but clearly less comprehensive. Ryan and his team wanted a scalable solution that wouldn't burden them with manual review.\n\n\n## sieve solution\n\n\nWe built a set of scripts for Ryan that let him configure the companies and metrics he cared about, and used the sieve API to retrieve the data asynchronously. Behind the scenes, sieve finds the right document, uses AI to extract the requested data points, and forwards the data to a team of human reviewers. After careful human review to ensure accuracy, the data is returned to Ryan via the API. This was a blessing to Ryan and his team, since it gave them more time to focus on research, and improved the quality of the data they operated on.\n\n\n### Stop manually verifying LLM outputs?\n\n\nEliminate weeks of manual validation work. Let sieve provide guaranteed-accurate ESG data extraction without burdening your team with review.\n\n\nContact us athello@usesieve.com to discuss your use case.",
+  "published_at": "2024-01-01T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T00:04:09.595708+00:00",
+  "content_hash": "sha256:1a31c6eb72eb16de2135fd5360ca4b4e2d8c527b4486950bd146e09c2ffefe7b"
+}

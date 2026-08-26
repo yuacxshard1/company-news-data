@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8b22e5a1393b77398d57f7f40121d0e5100f942f08de9a4c91e54f663e653d70",
+  "company_key": "weave-communications-inc-common-stock",
+  "company_name": "Weave Communications Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://engineering.getweave.com/talk/half-mesh-half-mess/",
+  "canonical_url": "https://engineering.getweave.com/talk/half-mesh-half-mess/",
+  "title": "Have Half The Service Mesh With Half The Mess",
+  "summary": "How can we build service-mesh like features without all the overhead?",
+  "body_markdown": "# Have Half The Service Mesh With Half The Mess\n\n\nPresented at Cloud Native Rejekts 2024\n\n\n---\n\n\nHave you ever wanted to enjoy the benefits of a service mesh but didn’t want to deal with all the overhead? Projects Linkerd, Knative, and Istio are all highly capable and advanced platforms! But they come with non-trivial installation and management burdens.\n\n\nWhat if you could leverage some of the features and power of a service mesh without the overhead? Good news: you can! This talk will show you how you can run two different, ultra-lightweight solutions to provide some of the powerful service mesh features you love without all the mess. Agenda:\n\n\n```text\nThe basics of xDS\nUsing a ConfigMap and a sidecar to get service mesh features without a control plane\nRunning a custom lightweight xDS control plane and smart gRPC clients to get service mesh features without a sidecar\n\n\n```\n\n\nIn short: How you can get the features you want with a sidecar and no control plane; or a control plane with no sidecar. Like chocolate and peanut butter: they go great together, but are also great on their own!\n\n\n## Where\n\n\nSalt Lake City Utah\n\n\n## Watch it",
+  "published_at": "2024-11-11T18:26:46+00:00",
+  "first_seen_at": "2026-07-20T23:19:36.973215+00:00",
+  "content_hash": "sha256:1b57e51ea817c6d4abe6d801cd181dc0402be3f59a6ec7af61756c2aabdea36d"
+}

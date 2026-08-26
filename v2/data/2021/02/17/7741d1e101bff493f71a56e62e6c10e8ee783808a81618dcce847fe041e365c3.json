@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7741d1e101bff493f71a56e62e6c10e8ee783808a81618dcce847fe041e365c3",
+  "company_key": "yc-helicarrier-prev-buycoins",
+  "company_name": "Helicarrier (prev Buycoins)",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://medium.com/buycoins/how-deposits-withdrawals-now-work-54f5b8ae2c9a?source=rss----a1998267490c---4",
+  "canonical_url": "https://medium.com/buycoins/how-deposits-withdrawals-now-work-54f5b8ae2c9a",
+  "title": "How deposits & withdrawals now work",
+  "summary": "",
+  "body_markdown": "On the 5th of February 2021 the Central Bank of Nigeria circulated a letter to all Deposit Money Banks (DMBs), Non-Bank Financial Institutions (NBFs), and Other Financial Institutions (OFIs) in Nigeria. The letter, in summary, prohibited these institutions from working with cryptocurrency exchanges.\n\n\n### What does this mean for BuyCoins?\n\n\nWe no longer have **any** accounts or integrations with **any bank, payment processor, wallet etc** . As such, we can no longer directly accept deposits or process withdrawals in Nigeria.\n\n\n### Introducing P2P (peer-to-peer) deposits & withdrawals\n\n\nWe make this work by matching user deposits to user withdrawal requests. Here’s a simple example to elucidate:\n\n\n1. User A wants to deposit N5000.\n2. User B wants to withdraw N5000.\n3. We match these two requests.\n4. The depositor (User A) is directed to make a transfer to User B using a payment method of their choice.\n5. Upon confirmation of receipt of payment, we debit the withdrawer’s (User B) BuyCoins[NGNT](https://ngnt.org/) balance and credit the depositor.\n\n\nThat’s all there is to it!\n\n\nYou can read more about how to actually do this from our[help docs](http://help.buycoins.africa/article/vcj7qvln09-how-to-deposit-money-to-your-naira-account) .\n\n\nFurthermore, we’re rolling out this P2P deposit/withdrawal flow to users in batches and you’ll get an email notification when turned on for you.\n\n\nLastly, it is important to note the following:\n\n\n- We do not accept or disburse any Naira payments.\n- We are not at all affiliated with any of the payment methods users may choose to send & receive these P2P transfers. In accordance with the CBN circular, we no longer have any accounts or integrations with any bank, payment processor or wallet.\n\n\n---\n\n\n[How deposits & withdrawals now work](https://medium.com/buycoins/how-deposits-withdrawals-now-work-54f5b8ae2c9a) was originally published in[Helicarrier](https://medium.com/buycoins) on Medium, where people are continuing the conversation by highlighting and responding to this story.",
+  "published_at": "2021-02-17T17:59:52+00:00",
+  "first_seen_at": "2026-08-25T04:21:25.401001+00:00",
+  "content_hash": "sha256:05f74ed3585fb45f4537b541fefe58bb131bd9a657dfc70166a8cea99ca04e43"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "db3b95478b90b75b25cf8ae6bcb4b9d747ed30a5a643054a6535d7ca12f94046",
+  "company_key": "yc-blindpay",
+  "company_name": "BlindPay",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blindpay.com/blog/mcp",
+  "canonical_url": "https://blindpay.com/blog/mcp",
+  "title": "Talk to Your Payment API",
+  "summary": "BlindPay MCP Server: Connect AI coding assistants to global payment infrastructure. Execute payments, manage customers, and process transactions using natural language instead of API calls.",
+  "body_markdown": "The BlindPay MCP Server connects AI coding assistants to BlindPay's global payment infrastructure, allowing developers to interact with payment APIs using natural language instead of manual API calls.\n\n\n## Overview\n\n\nThe BlindPay MCP (Model Context Protocol) acts as a bridge between your AI coding assistants and BlindPay's payment infrastructure. Instead of writing integration code or navigating dashboards, you can ask your AI assistant to execute payment operations directly.\n\n\nThis means you can handle cross-border payments, manage customers and process transactions without leaving your code editor or memorizing API documentation.\n\n\n## Capabilities\n\n\nThe MCP server provides access to BlindPay's core functionality:\n\n\n- **Quote generation** for international transfers\n- **Customer management** for individuals and businesses\n- **Payout processing** across multiple blockchains\n- **Virtual account creation** for receiving payments\n- **Webhook configuration** for payment notifications\n- **Real-time FX rates** for currency conversions\n\n\nAll operations are executed through conversational requests to your AI assistant.\n\n\n## Example Usage\n\n\n**Traditional API call:**\n\n\nBash\n\n\n**With the MCP server:**\n\n\n> \"Get me a quote for sending 1000 USDC to a bank account in Brazil\"\n\n\nThe AI assistant interprets the request and executes the appropriate API calls.\n\n\n## Setup\n\n\nConfiguration requires three steps:\n\n\n1. Get your API key from the BlindPay dashboard\n2. Add the MCP server configuration to your AI assistant\n3. And you're ready to begin making requests in natural language\n\n\n## Documentation\n\n\nComplete setup instructions and API reference documentation are available in the[README on GitHub](https://github.com/blindpaylabs/blindpay-mcp) .",
+  "published_at": "2026-01-13T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T23:51:50.435678+00:00",
+  "content_hash": "sha256:3bd32bb66d6631c0fbebae5c9fb9a2099cc030d949afd4a007d2013e1eb14736"
+}

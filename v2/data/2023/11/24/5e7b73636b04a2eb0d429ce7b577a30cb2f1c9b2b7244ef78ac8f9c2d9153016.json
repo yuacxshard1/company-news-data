@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5e7b73636b04a2eb0d429ce7b577a30cb2f1c9b2b7244ef78ac8f9c2d9153016",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/blog/introducing-opentelemetry-support",
+  "canonical_url": "https://www.artillery.io/blog/introducing-opentelemetry-support",
+  "title": "Introducing OpenTelemetry support",
+  "summary": "Metrics and traces from Artillery tests can now be sent to any monitoring and observability platform that supports OpenTelemetry.",
+  "body_markdown": "November 24th, 2023[Announcement](https://www.artillery.io/blog/tag/announcement)\n\n\n# Introducing OpenTelemetry support\n\n\nInes Fazlic\n\n\nToday, we’re announcing native[OpenTelemetry](https://opentelemetry.io/) support for Artillery. Metrics and traces from Artillery tests can now be sent to any monitoring and observability platform that supports OpenTelemetry.\n\n\n## Why OpenTelemetry?\n\n\nOpenTelemetry, an open-source observability framework and toolkit for distributed services, is quickly becoming an industry standard for observability. It provides a flexible standardized way of instrumenting, generating, collecting and exporting telemetry data to a variety of destinations. A list of vendors that support OpenTelemetry is available on[https://opentelemetry.io/ecosystem/vendors/](https://opentelemetry.io/ecosystem/vendors/) .\n\n\n## Using OpenTelemetry in Artillery\n\n\nOpenTelemetry support is available in Artillery v2.0.0-37 or later, via the official` publish-metrics` plugin.\n\n\n### Example\n\n\nIn this example configuration we use Artillery to send metrics and traces to[New Relic](https://newrelic.com/) via OpenTelemetry.\n\n\n```text\nconfig  :\ntarget  :   \"http://asciiart.artillery.io:8080\"\nphases  :\n-   duration  :   60\narrivalRate  :   10\nplugins  :\npublish-metrics  :\n# The values for the \"endpoint\" setting are from NewRelic’s docs:\n# https://docs.newrelic.com/docs/more-integrations/open-source-telemetry-integrations/opentelemetry/get-started/opentelemetry-set-up-your-app/#note-endpoints\n-   type  :   \"open-telemetry\"\nserviceName  :   \"asciiart\"\nmetrics  :\nendpoint  :   \"https://otlp.eu01.nr-data.net/v1/metrics\"\nheaders  :\napi-key  :   \"{{ $env.API_KEY }}\"\nattributes  :\nenvironment  :   \"test\"\ntool  :   \"Artillery\"\ntype  :   \"Load test\"\n\n\ntraces  :\nendpoint  :   \"https://otlp.eu01.nr-data.net/v1/traces\"\nheaders  :\napi-key  :   \"{{ $env.API_KEY }}\"\nattributes  :\nenvironment  :   \"test\"\ntool  :   \"Artillery\nscenarios:\n- name: \"Load some ASCII animals\"\nflow  :\n-   get  :\nurl  :   \"/dino\"\n-   get  :\nurl  :   \"/pony\"\n-   get  :\nurl  :   \"/armadillo\"\n```\n\n\nMetrics and traces from the test will be sent to New Relic:\n\n\n## Learn more\n\n\n- [OpenTelemetry plugin documentation](https://www.artillery.io/docs/observability/opentelemetry)",
+  "published_at": "2023-11-24T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T07:55:08.009846+00:00",
+  "content_hash": "sha256:f7c6625690861715278dec887641df837c40ef42a4fb754c235e7e1db7da015a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "76cffa639b76bbe2303ad6edd3cb6799e87735913a076ced3901e54776a15875",
+  "company_key": "yc-deepnote",
+  "company_name": "Deepnote",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://deepnote.com/changelog/2026-03-09",
+  "canonical_url": "https://deepnote.com/changelog/2026-03-09",
+  "title": "Convert more file formats to Deepnote projects and vice versa",
+  "summary": "See the latest product updates and improvements to Deepnote.",
+  "body_markdown": "## [March 9, 2026](https://deepnote.com/changelog/2026-03-09)\n\n\n###\n\n\n[Interoperability with more notebook formats](https://deepnote.com/changelog/2026-03-09#interoperability-with-more-notebook-formats)\n\n\n###\n\n\n[Convert more file formats to Deepnote projects and vice versa](https://deepnote.com/changelog/2026-03-09#convert-more-file-formats-to-deepnote-projects-and-vice-versa)\n\n\nThe Deepnote convert CLI previously supported **bi-directional conversion** between **Deepnote projects and Jupyter notebooks** . Based on popular demand, we shipped[bidirectional,](https://github.com/deepnote/deepnote/tree/main/packages/convert)[lossless notebook conversions](https://github.com/deepnote/deepnote/tree/main/packages/convert) between Deepnote, Jupyter, Quarto, Percent, and Marimo.\n\n\nWe’ve also included a smarter CLI with automatic format detection and a new` -- format` flag to make the work more seamless. This helps increase interoperability across projects and reduce lock-in, in the true spirit of open-source!\n\n\nThat means you can move work both ways:\n\n\n- Bring your previous projects back into Deepnote without losing momentum, and enjoy the extended functionality Deepnote offers!\n- Convert a Deepnote project into any of the above notebook formats when you need to share, archive, or run elsewhere\n\n\nYou can now also **export projects and notebooks directly from the VS Code extension** .\n\n\nWe will continue working on .deepnote format portability to better integrate it with the ecosystem - let us know if you have any suggestions!",
+  "published_at": "2026-03-09T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T16:01:08.376400+00:00",
+  "content_hash": "sha256:f2918d8931436b137d47a502bac673b4d9415add1aa1027843c40e9a48c9630e"
+}

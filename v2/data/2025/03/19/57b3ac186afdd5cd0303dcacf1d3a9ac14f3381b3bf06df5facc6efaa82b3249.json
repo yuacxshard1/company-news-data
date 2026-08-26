@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "57b3ac186afdd5cd0303dcacf1d3a9ac14f3381b3bf06df5facc6efaa82b3249",
+  "company_key": "yc-warpbuild",
+  "company_name": "WarpBuild",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.warpbuild.com/blog/docker-builders-arm64",
+  "canonical_url": "https://warpbuild.com/blog/docker-builders-arm64",
+  "title": "Cached Docker Builders - ARM64 support",
+  "summary": "ARM64 support for cached docker builders for multi-arch builds, for the world's fastest docker builds.",
+  "body_markdown": "WarpBuild recently announced support for new docker container builders combine high performance processors with directly attached SSDs to deliver the fastest docker builds in the world. Now, we are excited to announce ARM64 support for these builders to enable multi-arch builds.\n\n\n## What does this mean?\n\n\nThis means that you can now build and push your docker images for` linux/amd64` and` linux/arm64` architectures from a single build.\n\n\n## Caching\n\n\nSimilar to the x86_64 builders, the ARM64 builders support caching of the build context, base image, and dependencies. This means that you can now build and push your docker images for` linux/amd64` and` linux/arm64` architectures from a single build.\n\n\nCaches are automatically managed by the builder and no additional configuration is required. Remove the` cache-from` and` cache-to` steps from your` build-push-action` step as the builder will handle it for you.\n\n\nThis leads to build times that are 2-3x faster than the x86_64 builders with emulation for` linux/arm64` builds.\n\n\n## 🚀 Try it out\n\n\nCreate a builder profile in the WarpBuild dashboard and add the following to your GitHub actions workflow before your` build-push-action` step:\n\n\n```text\n-   name  :   Configure WarpBuild Docker Builders\nuses  :   Warpbuilds/docker-configure@v1\nwith  :\nprofile-name  :   \"super-fast-builder\"\n\n\n-   name  :   Build and push\nuses  :   docker/build-push-action@v6\nwith  :\ncontext  :   .\nfile  :   Dockerfile\nplatforms  :   linux/amd64,linux/arm64   # Provide the platforms you want to build for\npush  :   true\ntags  :   ${{ steps.docker_build.outputs.image }}\n```\n\n\nTry out WarpBuild's new docker builders\n\n\n- [Documentation](https://www.warpbuild.com/docs/ci/docker-builders) .\n- [Get started](https://app.warpbuild.com/) .\n\n\n---",
+  "published_at": "2025-03-19T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T19:23:06.881853+00:00",
+  "content_hash": "sha256:c32d0cfd2d63d0db634abca59c4c0af6d54be54987fcd7541894c33554c2cc60"
+}

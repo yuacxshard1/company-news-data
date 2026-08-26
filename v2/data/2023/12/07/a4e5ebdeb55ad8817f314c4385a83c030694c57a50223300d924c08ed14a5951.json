@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a4e5ebdeb55ad8817f314c4385a83c030694c57a50223300d924c08ed14a5951",
+  "company_key": "yc-sails-co",
+  "company_name": "Sails Co.",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.sailscasts.com/sails-mongo-v2-1-0/",
+  "canonical_url": "https://blog.sailscasts.com/sails-mongo-v2-1-0/",
+  "title": "sails-mongo 2.1.0",
+  "summary": "sails-mongo 2.1.0 is out, this minor release brings an upgrade of the MongoDB driver used in the adapter from version 3.7.3 to 6.3.0.",
+  "body_markdown": "In this` sails-mongo` release, a much requested update was merged via this[PR](https://github.com/balderdashy/sails-mongo/pull/499) , upgrading the MongoDB driver version from` 3.7.3` to` 6.3.0` .\n\n\nBefore this update, Sails developers using MongoDB in their applications were unable to leverage the latest and greatest of MongoDB features.\n\n\nThis release brings about a noteworthy change by replacing callbacks with Promises in the internals of` sails-mongo` when interacting with the APIs provided by the MongoDB driver.\n\n\nAlso see the[full changelog](https://github.com/balderdashy/sails-mongo/releases/tag/v2.1.0) on GitHub.\n\n\n## ✅ Upgrading\n\n\nTo upgrade to **sails-mongo 2.1.0** , run:\n\n\n```text\nnpm   i   sails-mongo@latest\n```\n\n\n### Updating your code\n\n\nWhen interacting with the MongoDB client provided by` sails-mongo` in your Sails applications, it is essential to transition from callbacks to promises. This can be achieved through either` .then()` calls or using the` async/await` syntax.\n\n\nTo minimize alterations to your existing codebase, we suggest employing an Immediately Invoked Function Expression ([IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) ) to encapsulate the Promise’s` .then()` and` .catch()` methods. This way, your callbacks can stay unaltered. The following example is extracted from the test in` sails-mongo` .\n\n\n### Before ❌\n\n\n```text\nit  (  'should find a record w/ a numeric ID'  ,   function  (  done  ) {\nmodels.user._adapter.datastores.test.manager.  collection  (  'user'  ).  insertOne  ({_id:   123  , name:   'bob'  },   function  (  err  ) {\nif   (err) {  return   done  (err);}\nmodels.user.  findOne  ({id:   123  }).  exec  (  function  (  err  ,   record  ) {\nif   (err) {  return   done  (err);}\nassert.  equal  (record.id,   123  );\nassert.  equal  (record.name,   'bob'  );\nreturn   done  ();\n});\n});\n});\n```\n\n\n### After ✅\n\n\n```text\nit  (  'should find a record w/ a numeric ID'  ,   function  (  done  ) {\n(  function  (  iifeDone  ) {models.user._adapter.datastores.test.manager.  collection  (  'user'  ).  insertOne  ({_id:   123  , name:   'bob'  }).  then  (  function  (){   iifeDone  ();}).  catch  (  function  (  err  ) {   iifeDone  (err);});})(  function  (  err  ) {\nif   (err) {  return   done  (err);}\nif   (err) {  return   done  (err);}\nassert.  equal  (record.id,   123  );\nassert.  equal  (record.name,   'bob'  );\nreturn   done  ();\n});\n});\n});\n```",
+  "published_at": "2023-12-07T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T22:05:07.405322+00:00",
+  "content_hash": "sha256:509f8abe316f6d09e873512cb6b20ac7947fa2588e6c4855c174ef391a6a92fd"
+}

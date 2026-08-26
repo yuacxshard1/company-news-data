@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "76e6886e7ec2a94d691b87791cb6eb6fc6e7dd358562aff947b8ba1df2e5cbeb",
+  "company_key": "yc-vogent",
+  "company_name": "Vogent",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://blog.vogent.ai/posts/build-ultrarealistic-voice-agents-with-sesame",
+  "canonical_url": "https://blog.vogent.ai/posts/build-ultrarealistic-voice-agents-with-sesame",
+  "title": "Build Ultrarealistic Voice Agents with Sesame",
+  "summary": "Build out realtime, low-latency, ultra-realistic voice agents using a custom, optimized version of Sesame's CSM-1B voice model on Vogent.",
+  "body_markdown": "We're excited to announce that Vogent now supports ultra-realistic voices from Sesame's CSM-1B model. This wasn't a simple integration; our team re-architected Sesame's voice model from the ground-up to make it *super low-latency* and *available at no additional cost* . In our testing, Vogent's CSM-1B implementation generates audio within 200-400 milliseconds, which is faster than even the fastest text-to-speech vendors on the market. Furthermore, as Vogent hosts the rearchitected model, the Sesame voices are available at **no additional charge** , and are included in **HIPAA-compliant workspaces** .\n\n\n## Accessing Sesame Voices\n\n\nTo use a Sesame voice, choose a voice with the **Sesame** badge in the **Voice** dropdown on your agent's **Config** page.\n\n\nVogent's Sesame inference is based in the US, which is where latency benchmarks were measured. There may be additional latency for users outside the country.\n\n\n## Private Beta Features\n\n\n### Voice Cloning\n\n\nVogent also supports creating Sesame voice clones. This feature is in beta -- to access, emailjagath@vogent.ai with the subject line **Sesame Voice Clone** , and we'll enable it in your workspace.\n\n\n### Text-to-speech API\n\n\nWe're also releasing our low-latency CSM-1B implementation as a TTS API. The API is in private beta, and will release soon. For early access, emailjagath@vogent.ai with the subject line **Sesame TTS API** , and we'll provide you with endpoints and keys.",
+  "published_at": "2025-04-06T18:27:42.788+00:00",
+  "first_seen_at": "2026-07-22T19:07:51.499791+00:00",
+  "content_hash": "sha256:d377821b9e0e03e29382a1e196151b8078a4c06575fdf9279e0202053f86c927"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5fefcb94c56960684a9b0dac006be90e0c68da57cd824c63aaad449447eecd2a",
+  "company_key": "yc-asayer",
+  "company_name": "OpenReplay",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.openreplay.com/t/wordpress-application-styles-are-not-recording-on-openreplay/557#post_1",
+  "canonical_url": "https://forum.openreplay.com/t/wordpress-application-styles-are-not-recording-on-openreplay/557",
+  "title": "WordPress application – Styles are not recording on OpenReplay",
+  "summary": "Hi team, I’m experiencing an issue with OpenReplay session recordings in my WordPress application (hosted on ESC with Docker). The session content is being captured, but the recordings show only plain HTML—none of the CSS styles are applied. Has anyone encountered this problem before, or does anyone know how to get OpenReplay to record and display sessions with the correct styling? Any tips or troubleshooting steps would be greatly appreciated! Thank you!",
+  "body_markdown": "[rituKale](https://forum.openreplay.com/u/rituKale)\n\n\nJanuary 23, 2026, 6:12am 1\n\n\nHi team,\n\n\nI’m experiencing an issue with OpenReplay session recordings in my WordPress application (hosted on ESC with Docker). The session content is being captured, but the recordings show only plain HTML—none of the CSS styles are applied.\n\n\nHas anyone encountered this problem before, or does anyone know how to get OpenReplay to record and display sessions with the correct styling?\nAny tips or troubleshooting steps would be greatly appreciated!\n\n\nThank you!\n\n\n[mehdi](https://forum.openreplay.com/u/mehdi)\n\n\nJanuary 25, 2026, 6:03pm 2\n\n\nThat means the css files are not accessible for the OpenReplay VM/instance. This happens sometimes when they’re behind a CDN (like CloudFlare) and in that case, make sure to whitelist the IP of your OpenReplay VM.\n\n\nAlternatively, you can simply add the` inlineCss: 3` option to your tracker. This way, you force stylesheets to captured with each session (rather than cached by the VM).",
+  "published_at": "2026-01-23T06:12:02+00:00",
+  "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+  "content_hash": "sha256:5872812d62e2d0abdf0043816ca54cc128406002548af6b5749794da0b86fd2a"
+}

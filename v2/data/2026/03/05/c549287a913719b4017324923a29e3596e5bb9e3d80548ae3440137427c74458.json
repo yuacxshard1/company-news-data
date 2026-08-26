@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c549287a913719b4017324923a29e3596e5bb9e3d80548ae3440137427c74458",
+  "company_key": "yc-sourceress",
+  "company_name": "Sourceress",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://imbue.com/blog/vet",
+  "canonical_url": "https://imbue.com/blog/vet",
+  "title": "Vet: Prevent coding agents from making mistakes",
+  "summary": "",
+  "body_markdown": "One line. That’s all it takes to set up and run Vet, a fast and local code review tool built by our team. It’s concise where other tools are verbose, and it catches more relevant issues.\n\n\n` curl -fsSL https://raw.githubusercontent.com/imbue-ai/vet/main/install-skill.sh | bash`\n\n\nWhen you’re using an agent to write code, you ask for a feature, the agent hits a wall, and silently swaps in fake data instead of telling you. You ask it to write tests, it tells you they pass, but it never ran them. You may not notice until later, or you may not notice at all. With the Vet skill your agent will run Vet after writing code, finding the issue for the agent to remedy.\n\n\nVet verifies your coding agent’s work by considering your conversation history to ensure the agent’s actions align with your requests.\n\n\nIt can review entire PRs, too. Vet’s reviews detect logic errors, unhandled edge cases, and deviations from stated goals with high precision.\n\n\nHere’s a short video introduction:\n\n\nSetting up Vet takes one line because it uses your existing API keys. It’s open source, works with local models, and has zero telemetry. Run from the CLI, CI, or as an agent skill.\n\n\nGet started on[GitHub](https://github.com/imbue-ai/vet) | Build with us on[Discord](https://discord.gg/sBAVvHPUTE)",
+  "published_at": "2026-03-05T00:00:00+00:00",
+  "first_seen_at": "2026-07-26T01:22:31.918155+00:00",
+  "content_hash": "sha256:4d3894cb0d4f1986c838119a43e311466654aa63af35ebf7976e0325f2e484e5"
+}

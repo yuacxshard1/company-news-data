@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "00f121456d976d3b7a7756039b0efd1ccb447f2179514831994296d6b8b7a4d2",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/cancel-broadcast-api",
+  "canonical_url": "https://resend.com/changelog/cancel-broadcast-api",
+  "title": "Cancel Broadcast API",
+  "summary": "Cancel scheduled or queued Broadcasts directly from the API.",
+  "body_markdown": "Today we're releasing a new API endpoint to[cancel a Broadcast](https://resend.com/docs/api-reference/broadcasts/cancel-broadcast) .\n\n\nThe Broadcast API lets you programmatically[create](https://resend.com/docs/api-reference/broadcasts/create-broadcast) ,[update](https://resend.com/docs/api-reference/broadcasts/update-broadcast) ,[schedule](https://resend.com/docs/api-reference/broadcasts/send-broadcast) , and[send](https://resend.com/docs/api-reference/broadcasts/send-broadcast) Broadcasts through code. Programmatic control over Broadcasts enables workflows like:\n\n\n- trigger Broadcasts from the CLI\n- build your newsletter platform in-app\n- create clients to build and send newsletters\n- enable agent-led marketing flows through MCP\n\n\nSometimes things go wrong: you discover a typo or a wrong link mid-send. While you can cancel a Broadcast from the dashboard, starting today you can cancel the Broadcast programmatically using the API, too.\n\n\n## How it works\n\n\nCanceling has **different behavior** depending on the status of the Broadcast. You can cancel a Broadcast when it has either been` scheduled` , before any emails are sent, or` queued` , once emails start sending.\n\n\nWhen you cancel a Broadcast, here's what happens based on its status:\n\n\n- **` scheduled` ->` draft`** : no emails are sent, you can update the Broadcast and reschedule it to be sent.\n- **` queued` ->` canceled`** : emails that have already been sent are not affected, but any emails still in the queue will no longer be sent.\n\n\n## Canceling a Broadcast\n\n\nWhen you[create](https://resend.com/docs/api-reference/broadcasts/create-broadcast) or[send a Broadcast](https://resend.com/docs/api-reference/broadcasts/send-broadcast) the API returns an ID. You can also get a Broadcast's ID by[listing broadcasts](https://resend.com/docs/api-reference/broadcasts/list-broadcasts) .\n\n\nTo cancel a Broadcast, use the Broadcast's ID with the cancel endpoint.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  broadcasts  .  cancel  (        '559ac32e-9ef5-46fb-82a1-b76b840c0f7b'  ,     )  ;\n\n\n```\n\n\nThe cancel Broadcast API is part of a larger move to bring the full functionality of the dashboard into the API, so you can build how you want. Build full Broadcast functionality into your own app, use it from the CLI, or delegate it to your agent through the[MCP server](https://resend.com/docs/mcp-server) . Stay tuned for more.",
+  "published_at": "2026-08-18T00:00:00+00:00",
+  "first_seen_at": "2026-08-18T20:48:26.603854+00:00",
+  "content_hash": "sha256:d2b28067b228646f8723f095893f3da9b27783fbee681170c313768bf6ca6d3f"
+}

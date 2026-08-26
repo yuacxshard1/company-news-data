@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dc0525d87fd5820112a23f3dc9be8f403f28b8c70d1265f53c67ca0e2e1af584",
+  "company_key": "yc-tusk",
+  "company_name": "Tusk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.usetusk.ai/blog/may-2025-changelog",
+  "canonical_url": "https://blog.usetusk.ai/blog/may-2025-changelog",
+  "title": "May '25 Changelog",
+  "summary": "New features released in May 2025 –– auto-generation of Tusk GitHub workflow for simpler setup, halved test generation latency, unified repo management, new analytics dashboard, and more.",
+  "body_markdown": "# What's new in Tusk\n\n\nTusk now auto-generates its GitHub workflows from your existing stack and CI configurations, removing setup barriers that previously slowed down self-serve onboarding.\n\n\nWe've introduced a repo configuration that, when enabled, triggers full test file creation only on incorporation, allowing developers to see Tusk's test scenarios on their PR/MRs 3-5 mins sooner.\n\n\nTusk now also has enterprise-grade features like unified repository management and a new analytics dashboard to provide engineering leaders visibility into test generation effectiveness and team productivity metrics at the level of the PR/MR, user, and repo.\n\n\nBottom line: faster customer onboarding and more personalized developer experience while giving managers the data they need to optimize team performance.\n\n\n## Release notes\n\n\n🚀 **Major Features**\n\n\n- **Intelligent Workflow Setup** - Auto-generate Tusk GitHub workflows from existing stack and CI configurations to eliminate setup friction\n- **Fast Test Generation** - See Tusk's test results quicker by deferring full test file generation until the tests are incorporated\n- **Unified Repository Management** - New \"Repositories\" page for syncing repos, creating test environments, enabling repo configurations, and adding repo secrets\n- **Analytics Dashboard** - New \"Home\" page with test generation analytics, PR-level insights, and user activity\n\n\n💫 **Performance Improvements**\n\n\n- **Reduced Run Latency** - Halved latency for applicable repos by introducing per-sandbox file limits that improve multi-file processing and RAM-based operations for large repositories\n- **Improved Fallbacks** - Implemented safeguards to increase test incorporation reliability\n- **Test Quality Improvements** - Implemented solutions to use mocks better and prevent re-implementation of source functions in tests\n\n\n🎨 **DevEx Enhancements**\n\n\n- **Branch Coverage Tracking** - Automated reporting for Jest/Mocha frameworks\n- **File Mentions** - @-mention files in custom instructions to provide localized context\n- **Test Diff Visualization** - Clearer display of diffs in test code for a single scenario\n- **Ability to Pause Run** - Pause Tusk's test generation run by adding the` Tusk - Pause For Current PR` label to a PR (GitHub only for now)\n\n\n---\n\n\nTRY TUSK NOW\n\n\n## AI test generation with codebase context for quality-obsessed teams.\n\n\nCover your blind spots, catch verified critical bugs, merge PRs 25% faster with peace of mind.",
+  "published_at": "2025-05-31T09:32:14+00:00",
+  "first_seen_at": "2026-07-26T03:21:03.026732+00:00",
+  "content_hash": "sha256:371c1e51f5f0d19df4ed5855e1be2ede5390e3edfc3ee7f14c6b4c53a12e2bad"
+}

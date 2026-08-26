@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "162a3e7df926f084d8e06f64343859b8df24163a6abcae5942252db67b4c49a1",
+  "company_key": "yc-tusk",
+  "company_name": "Tusk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.usetusk.ai/blog/introducing-our-figma-integration",
+  "canonical_url": "https://blog.usetusk.ai/blog/introducing-our-figma-integration",
+  "title": "Introducing our Figma Integration",
+  "summary": "Tusk now integrates with Figma to allow you to reference your design mock-ups when generating code for your UI tickets.",
+  "body_markdown": "# Tusk's Figma Integration\n\n\nI'm not at Figma Config but I *am* in Figma configuring things around. Excited to announce that we've released Tusk's much-awaited Figma integration 🎨✨\n\n\nYour browser does not support the video tag.\n\n\n## How It Works\n\n\nMost cross-functional product squads today create frontend tickets with a link to their Figma design. We've heard our customers say that they want Tusk to reference their mock-ups when generating code without having to copy-and-paste images into their ticket descriptions.\n\n\nAdd a Figma link to your ticket and Tusk will use your design mock-ups as context to figure out which existing component to use/modify. If the agent can't find an existing component in the repo, it will generate a custom component.\n\n\n## Getting Started\n\n\n1. Connect your Figma account to Tusk via the Settings page in our web app\n2. While creating an issue, copy the link from a Figma frame to your clipboard\n3. Paste the Figma link into your issue description\n4. Add the “Tusk” label to the issue\n5. Tusk will automatically extract the image context from the Figma frame when reasoning",
+  "published_at": "2024-06-27T15:32:14+00:00",
+  "first_seen_at": "2026-07-26T03:21:03.026732+00:00",
+  "content_hash": "sha256:7b3a9d613b4bf9e95e751ab734b69daf82777f9ab135ee92d4bad3e1bc70d2ee"
+}

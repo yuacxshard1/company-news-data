@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "91442b37f6053cc5d3528eb1411e3b368c37c372419e32715bbd78a41e4bf4ab",
+  "company_key": "yc-photoroom",
+  "company_name": "Photoroom",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.photoroom.com/inside-photoroom/mutagen-tutorial",
+  "canonical_url": "https://www.photoroom.com/inside-photoroom/mutagen-tutorial",
+  "title": "Mutagen tutorial: syncing files easily with a remote server",
+  "summary": "Ever wished for seamless file syncing between your laptop and a remote server? With Mutagen, it's possible! Install Mutagen on your local machine, start syncing with a simple command, and monitor it effortlessly. Handle sync conflicts easily and customize syncing preferences using a config file for smoother workflow integration.",
+  "body_markdown": "What if you could enjoy the computing power of a remote server in the comfort of your laptop? In this article, I'll show you how to use[Mutagen](https://mutagen.io/documentation/synchronization) to enable **bidirectional sync between your local computer and a remote server** . Every time you edit a file on either computer, it'll be synced to the other.\n\n\nTo get this running, **we only need to install Mutagen on our local machine** . Installations instructions are[available here](https://mutagen.io/documentation/introduction/installation) , for Mac OS for instance:\n\n\n```text\nbrew install mutagen-io/mutagen/mutagen\n```\n\n\n## Starting a sync\n\n\nTo start a sync, simply run:\n\n\n```text\nmutagen sync create --name=backend ~/Documents/backend  [email protected]  :/home/user/backend\n```\n\n\nTo monitor sync constantly you can use:\n\n\n```text\nmutagen sync monitor\n```\n\n\nSync conflicts can occur from time to time. To resolve them simply delete the file from the host or the target. You can list conflicts by running\n\n\n```text\nmutagen sync list\n```\n\n\n## Creating a config file\n\n\nBy default, Mutagen will sync everything. While you can run it with arguments, I'd suggest using a config file. Create a file in` ~/.mutagen.yml` and add the following content:\n\n\n```text\nsync:\ndefaults:\nignore:\nvcs: true\npaths:\n- \"node_modules\"\n- \"*.ckpt\"\n- \".DS_Store\"\n- \"__pycache__\"\n- \".idea\"\n- \".ipynb_checkpoints\"\n```\n\n\nThis way, you'll be able to handle version control on your local machine and you'll avoid sync conflicts with git files.",
+  "published_at": null,
+  "first_seen_at": "2026-07-23T22:00:21.557706+00:00",
+  "content_hash": "sha256:4af07e649e56a0e604edb2b7068663d49ac454af503b02d868360ff0f04e7602"
+}

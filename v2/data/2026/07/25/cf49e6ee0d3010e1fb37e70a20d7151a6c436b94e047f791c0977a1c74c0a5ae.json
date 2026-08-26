@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cf49e6ee0d3010e1fb37e70a20d7151a6c436b94e047f791c0977a1c74c0a5ae",
+  "company_key": "yc-decentro",
+  "company_name": "Decentro",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.decentro.tech/changelog/flow-release-notes-392",
+  "canonical_url": "https://docs.decentro.tech/changelog/flow-release-notes-392",
+  "title": "Flow Release Notes | Version 3.9.2",
+  "summary": "This release notes contains updates related to UPI Collections v3 products. UPI Collections v3 Release date - 12-06-2026 Enhancements - Payment Link Experience Enhancement - Android We've enhanced the Payment Link experience to improve compatibility across Android devices and browsers. What's changi...",
+  "body_markdown": "[Back to All](https://docs.decentro.tech/changelog)\n\n\nimproved\n\n\nThis release notes contains updates related to **UPI Collections v3** products.\n\n\n##\n\n\nUPI Collections v3\n\n\n**Release date -** 12-06-2026\n\n\n**Enhancements** - Payment Link Experience Enhancement - Android\n\n\nWe've enhanced the Payment Link experience to improve compatibility across Android devices and browsers.\n\n\n**What's changing?**\n\n\n- Added a new \"Any UPI App\" CTA on the payment page.\n- In scenarios where Android browsers redirect intent links to Chrome instead of directly opening a UPI application, customers can now use this CTA to seamlessly continue their payment using any installed UPI app.\n\n\n**Benefits**\n\n\n- Improved payment experience across Android devices and OEM browsers.\n- Reduced instances of users getting stuck during the UPI redirection flow.\n- Better payment completion rates through an additional fallback payment option.\n\n\nNo integration changes are required from merchants. The enhancement will be available automatically on the hosted payment page experience.",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T01:33:54.013008+00:00",
+  "content_hash": "sha256:59aa9a120bbe996c1d7fb31bafc1dfd6d87d20c7d54faf15f76ef3ec78af38fa"
+}

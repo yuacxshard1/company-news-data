@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cca253fbd2aeea01fa8657fc8778f9bde78c05b478fea1cc9e549c2473ad2d9c",
+  "company_key": "yc-decentro",
+  "company_name": "Decentro",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.decentro.tech/changelog/fabric-release-notes-version-68",
+  "canonical_url": "https://docs.decentro.tech/changelog/fabric-release-notes-version-68",
+  "title": "Fabric Release Notes | Version 6.8",
+  "summary": "Summary Release introduces a unified CKYC Dashboard with an Overview page, enabling real-time KYC search (PAN, Aadhaar, Mobile, CKYC ID), activity tracking, and drop-off analysis. It improves onboarding efficiency, reduces manual effort, and enhances visibility while ensuring compliance through PII ...",
+  "body_markdown": "[Back to All](https://docs.decentro.tech/changelog)\n\n\nadded\n\n\n**Summary**\n\n\nRelease introduces a unified CKYC Dashboard with an Overview page, enabling real-time KYC search (PAN, Aadhaar, Mobile, CKYC ID), activity tracking, and drop-off analysis. It improves onboarding efficiency, reduces manual effort, and enhances visibility while ensuring compliance through PII masking, audit logging, and data purging controls.\n\n\n###\n\n\nI. CKYC Dashboard – Overview, Search & Drop-off Analysis\n\n\n**Description**\nEnhanced CKYC Dashboard with a centralized Overview page and integrated Search capability to enable real-time KYC record retrieval and monitoring from a single interface.\n\n\n**Key Highlights**\n\n\n- New Overview page with recent Search and Download activity logs\n- CKYC Search via Dashboard. Supported OVD IDs: PAN, Aadhaar, Mobile, CKYC Reference ID and CKYC Number\n- Masked PII display (PAN, Aadhaar, Mobile) with strict data purging policies\n- Drop-off Analysis with Issues dashboard (Overview, Search, Download, Upload)\n- Day-wise error trends with drill-down to failed cases\n- Standardized error handling and audit logging\n\n\n**Benefit**\nReduces manual effort, improves onboarding TAT, enhances visibility into CKYC activity, and ensures compliance through secure, audit-ready operations.\n\n\n**Action for Clients**\nTo pull and deploy the image` nor.26-03-26.a`",
+  "published_at": null,
+  "first_seen_at": "2026-07-25T01:33:54.013008+00:00",
+  "content_hash": "sha256:fdf5572e837ccbcbf0718e3195be9084e8ad089a232dbd5730d06501b501c15b"
+}

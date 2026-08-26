@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9e91663d1df851258eea7f13bd0f059bb6e0a5171c1625bd37c85549c3296d1c",
+  "company_key": "yc-ollama",
+  "company_name": "Ollama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://ollama.com/blog/openclaw",
+  "canonical_url": "https://ollama.com/blog/openclaw",
+  "title": "OpenClaw",
+  "summary": "OpenClaw is a personal AI assistant that connects your messaging apps to local AI coding agents, all running on your own device.",
+  "body_markdown": "[OpenClaw](https://openclaw.ai/) is a personal AI assistant that bridges your favorite messaging platforms to AI coding agents through a centralized gateway. It runs locally on your own devices, keeping your conversations and code private.\n\n\nOpenClaw integrates with WhatsApp, Telegram, Slack, Discord, iMessage, and other messaging services, allowing you to interact with AI coding agents from anywhere.\n\n\n## Get started\n\n\nStart by installing[OpenClaw](https://docs.openclaw.ai/)\n\n\n```text\ncurl -fsSL https://openclaw.ai/install.sh | bash\n\n\n```\n\n\n**Windows**\n\n\n```text\niwr -useb https://openclaw.ai/install.ps1 | iex\n\n\n```\n\n\n## Running with Ollama\n\n\nOnce installed, you can launch OpenClaw directly with Ollama to connect local/cloud models:\n\n\n```text\nollama launch openclaw\n\n\n```\n\n\nIf you want to configure OpenClaw without immediately starting the service:\n\n\n```text\nollama launch openclaw --config\n\n\n```\n\n\nThe gateway will auto-reload if it’s already running.\n\n\n##\n\n\n## Recommended models\n\n\nOpenClaw requires a larger context length to complete tasks. It is recommended to use a context length of at least 64k tokens.\n\n\nHere are some models that work well with OpenClaw:\n\n\nModel Description\n\n\n[qwen3-coder](https://ollama.com/library/qwen3-coder) Optimized for coding tasks\n\n\n[glm-4.7](https://ollama.com/library/glm-4.7) Strong general-purpose model\n\n\n[glm-4.7-flash](https://ollama.com/library/glm-4.7-flash) Balanced performance and speed\n\n\n[gpt-oss:20b](https://ollama.com/library/gpt-oss:20b) Balanced performance and speed\n\n\n[gpt-oss:120b](https://ollama.com/library/gpt-oss:120b) Improved capability\n\n\nOllama’s cloud models are available for free to start. Search for models on[ollama.com](https://ollama.com/search) .\n\n\nModel Description\n\n\n[kimi-k2.5](https://ollama.com/library/kimi-k2.5) Powerful 1T parameter model for agentic tasks\n\n\n[minimax-m2.1](https://ollama.com/library/minimax-m2.1) Excellent multilingual capabilities\n\n\n[glm-4.7](https://ollama.com/library/glm-4.7) Strong general-purpose model\n\n\n[gpt-oss:120b](https://ollama.com/library/gpt-oss:120b) Improved capability\n\n\nPlease see more models on[ollama.com](https://ollama.com/search) .\n\n\n## Example screen captures\n\n\nConnecting to WhatsApp\n\n\n## Note\n\n\nOpenClaw was previously known as Clawdbot and Moltbot. The` clawdbot` command still works as an alias.",
+  "published_at": null,
+  "first_seen_at": "2026-07-22T07:08:30.130278+00:00",
+  "content_hash": "sha256:c10366cdc222463c48437e971138bc195c805cc94cb5e74312490622c87a200c"
+}

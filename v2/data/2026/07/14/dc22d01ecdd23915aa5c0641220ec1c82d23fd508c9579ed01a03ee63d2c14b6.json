@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dc22d01ecdd23915aa5c0641220ec1c82d23fd508c9579ed01a03ee63d2c14b6",
+  "company_key": "yc-prembly",
+  "company_name": "Prembly (formerly Identitypass)",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.prembly.com/bvn-verification-watchlist-status-update/",
+  "canonical_url": "https://blog.prembly.com/bvn-verification-watchlist-status-update/",
+  "title": "BVN Verification Update: New Watchlist Response Fields",
+  "summary": "Prembly has enhanced its BVN Verification endpoint with two new response fields that provide greater visibility into watchlist screening results. <p>The post BVN Verification Update: New Watchlist Response Fields first appeared on Prembly .</p>",
+  "body_markdown": "Prembly has introduced an enhancement to its BVN Verification endpoint to provide greater visibility into watchlist screening results.\n\n\nAs part of our ongoing commitment to improving identity verification and compliance workflows, we’ve added two new response fields that provide clearer insight into the watchlist status of a verified BVN. This additional context helps you better interpret verification results, supporting more informed risk assessments during customer onboarding and ongoing monitoring.\n\n\nWith this update, the endpoint now returns two additional response fields that help you better understand whether a verified BVN is associated with a watchlist.\n\n\n## **What’s New?**\n\n\nThe following fields have been added to the BVN Verification response:\n\n\n- **watchListed –** Indicates whether the verified BVN is associated with a watchlist (true or false).\n- **watchListMessage –** Returns a descriptive message providing additional context about the watchlist screening result.\n\n\n## **Why This Matters**\n\n\nThese new response fields make it easier for your team to interpret watchlist screening outcomes directly from the verification response, enabling faster and more informed risk and compliance decisions.\n\n\nBy including watchlist status and a descriptive message as part of the verification response, your team can streamline customer screening, automate decision-making where appropriate, and reduce the need for additional manual checks. This provides greater transparency into verification outcomes while supporting more efficient onboarding and compliance workflows.\n\n\n## **Do You Need to Make Any Changes?**\n\n\nNo changes are required to your existing integration. The new response fields are now included in the BVN Verification endpoint response and will not affect your current implementation. If you’d like to display or process watchlist information in your application, you can begin consuming these fields immediately.\n\n\n<p>The post[BVN Verification Update: New Watchlist Response Fields](https://blog.prembly.com/bvn-verification-watchlist-status-update/) first appeared on[Prembly](https://blog.prembly.com/) .</p>",
+  "published_at": "2026-07-14T14:41:19+00:00",
+  "first_seen_at": "2026-07-25T19:45:51.668136+00:00",
+  "content_hash": "sha256:5462e989a9796db603782fea4fc8a33f6bb2bfd1d9447b1abb6fcfe85d7f572e"
+}

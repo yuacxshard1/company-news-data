@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "695ddc0728713774e1d38c2f85f1db447b283b8d7d3358bbb096c6d1e2cb9d3c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+  "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+  "body_markdown": "[Amazon Relational Database Service (RDS) for PostgreSQL](https://aws.amazon.com/rds/postgresql/) now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior versions of PostgreSQL, and to benefit from the bug fixes and improvements added by the PostgreSQL community.\n\n\nYou can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations[Upgrade Rollout Policy](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDS.Maintenance.AMVU.UpgradeRollout.html) to orchestrate multiple upgrades in phases, validating on lower-priority environments before upgrading your most critical ones. You can also use Amazon RDS Blue/Green deployments to minimize downtime for minor version upgrades. For more information, see[Upgrading RDS for PostgreSQL DB engine](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html) .\n\n\nAmazon RDS for PostgreSQL makes it simple to set up, operate, and scale PostgreSQL deployments in the cloud. See[Amazon RDS for PostgreSQL Pricing](https://aws.amazon.com/rds/postgresql/pricing/) for pricing details and regional availability. Create or update a fully managed Amazon RDS database in the[Amazon RDS Management Console](https://console.aws.amazon.com/rds/) or by using the AWS Command Line Interface (CLI).",
+  "published_at": "2026-08-25T16:00:00+00:00",
+  "first_seen_at": "2026-08-25T19:05:11.569981+00:00",
+  "content_hash": "sha256:cc62e649edcb6271398746572b269ef75f57637d0d1c2c5dbe8ba14f85d55ad9"
+}

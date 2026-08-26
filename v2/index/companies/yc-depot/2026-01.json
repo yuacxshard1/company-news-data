@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "34ae758dfedde700df8ff33dd03a91af40c5b097372ae6a48f583f1826f0a15a",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "2025 was a big year for Depot. We helped accelerate over 100 million builds and helped incredible engineering teams save years of build time. Here's a look at the numbers and what we learned this year.",
+      "title": "What we learned accelerating 100 million builds in 2025"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "3746a995c75c5abd4c39134d35fdcbcaced58dcca397f6ac1bd98a5be18ab340",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-01-22T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Slow Docker builds are annoying and disrupt your flow. This guide shows practical techniques to optimize your Dockerfile, from simple instruction reordering to advanced caching strategies, with real measurements from a production-like Node.js application.",
+      "title": "Optimize your Dockerfile for 5x faster builds"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "37c96ec1cafddab70170a40effe1e94cce0d3199c6706328bde607296098ec3e",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-01-14T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "I pegged every CPU in our ClickHouse cluster during my second week. The fix was quick, but it triggered the three fears that actually make engineering suck: looking dumb, underperforming, and wasting people's time.",
+      "title": "The 3 fears that make engineering suck"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "a121bc48cd3d1a72c8b6ccbac946b072a01079456698c46c0bca5b5a7fecfe04",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-01-05T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We ran iOS builds across different EBS disk configurations on EC2 macOS instances to find the optimal setup. We discovered that simply throwing more IOPS at the problem doesn't work the way you'd expect.",
+      "title": "What we learned optimizing EC2 macOS build performance"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "bd3bd23ffb40e3838344e10be360ba74d61cd6ad2d8534511d39ff42858e9e32",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-01-27T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Optimizing GitHub Actions without telemetry is guesswork. We built CI telemetry into Depot to surface real metrics for every job, like CPU, memory, and logs. Here's how we wired it together with OpenTelemetry and scaled it with ClickHouse.",
+      "title": "We instrumented GitHub Actions. Here's what GitHub won't show you."
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2026-01"
+}

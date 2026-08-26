@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "1b09b2010e09dd4752b1b988394bcd41421f7d3bd92b9eda91dcdf425c9222aa",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-05-18T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Mattermost's remote-cluster API already treated token and remotetoken as sensitive fields: list, create, accept, and get handlers called RemoteCluster.S…",
+      "title": "Remote cluster PATCH response leaked authentication tokens (CVE-2026-7184)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "1fcd3ff1da95e63b7bc947ef4ea3ce3e1c39b04585161257e4e8a6a458921e90",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-05-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Mattermost group syncables let LDAP groups be linked to teams or channels and can optionally mark synchronized group members as scheme admins. Before th…",
+      "title": "Group syncable scheme_admin authorization bypass (CVE-2026-7387)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "529066a6329aafa196db1073b9e783584f4a586cfcdb82f933c4a5b1fc350b57",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "How do I enhance cloud security with AI? Learn where AI improves cloud security, where it creates risk, and how to build a practical AI cloud security roadmap.",
+      "title": "How Do I Enhance Cloud Security With AI? A Practical Overview"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "9aaedfa9b6f40bd8a5d1a65543ba4272d23d5982393a88185b8831deef6c0801",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-05-22T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A regex rewrite such as rewrite ^/((.))$ http://127.0.0.1:18081/$1$2 redirect; can make $1 and $2 cover the same attacker-controlled URI bytes. In NGINX…",
+      "title": "rewrite overlapping captures heap overflow (CVE-2026-9256)"
+    }
+  ],
+  "company_key": "yc-winfunc",
+  "month": "2026-05"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "53349c5547b7e7817b456a2ab83b1b7f27f13dccaa0b8ad36072d70221d272ee",
+  "company_key": "yc-unlayer",
+  "company_name": "Unlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.unlayer.com/changelog/12780",
+  "canonical_url": "https://docs.unlayer.com/changelog/12780",
+  "title": "1.278.0",
+  "summary": "The following fixes and features are available on the stable channel: Features & Improvements Header and Footer : Add header and footer support to multiple editors Collapsed Property Groups by default : Allow property groups to be collapsed",
+  "body_markdown": "The following fixes and features are available on the **stable** channel:\n\n\n## Features & Improvements\n\n\n-\n\n\n**Header and Footer** : Add header and footer support to multiple editors\n\n\n-\n\n\n**Collapsed Property Groups by default** : Allow property groups to be collapsed by default in custom tools ([See docs](https://docs.unlayer.com/builder/tools/custom/create#property-group) )\n\n\n-\n\n\n**Link Editor** : Improve input handling for URLs with spaces\n\n\n-\n\n\n**Disable Merge Tags Autocomplete:** Ability to disable the Merge Tags Autocomplete Menu Trigger by passing \"null\" to the config ([See docs](https://docs.unlayer.com/builder/latest/dynamic-content/merge-tags#autocomplete-menu-trigger) )\n\n\n-\n\n\n**Blocks** : Improve loading feedback when a block is created, deleted, or updated\n\n\n-\n\n\n**Translations:** Add some missing translations\n\n\n-\n\n\n**Accessibility** : Apply ARIA labels to exported HTML of some built-in tools\n\n\n## Bug Fixes\n\n\n-\n\n\n**Fix Image Special Characters Support:** Fix support for uploading and searching images with special characters in the filename\n\n\n-\n\n\n**Fix Merge Tags Autocomplete:** Fix shortcut \"{\" not triggering the Merge Tags Autocomplete Menu when the \"mergeTags\" callback was set\n\n\n-\n\n\n**Merge Tags** : Fix merge tags with spaces getting encoded in text links\n\n\n-\n\n\n**React flushSync:** Fix Preview modal support for calling React flushSync method inside tool exporters",
+  "published_at": "2025-07-28T21:42:24+00:00",
+  "first_seen_at": "2026-08-10T04:27:59.075255+00:00",
+  "content_hash": "sha256:1660a6116988040741cbf759630611cc8317da44a03aec97d5da2a95225c595b"
+}

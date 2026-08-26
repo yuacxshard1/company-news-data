@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bb5f20882a06c3eb8e6d6da61c1bc61cb222978435445e32d61cdaf6e3a66ba7",
+  "company_key": "yc-trim",
+  "company_name": "Trim",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://trimresearch.com/a-transformer-for-physics-models/",
+  "canonical_url": "https://trimresearch.com/a-transformer-for-physics-models/",
+  "title": "A Transformer for Physics Models",
+  "summary": "A Transformer for Physics Models",
+  "body_markdown": "# A Transformer for Physics Models\n\n\n*10 Jul, 2025*\n\n\nTraditional physics solvers are held back by the way computation balloons as you add resolution and dimensions.\n\n\nSimulating a **64x64** grid requires **4096** operations while a still modest **128x128** grid requires **16,384** operations.\n\n\nIn 3D this problem is even worse as 643=262,144 and 1283=2,097,152.\n\n\nSimulating a meaningfully sized physical system requires massive simplifications and training AI physics models with traditional transformer architecture is only possible with regrettably small grid sizes and time lengths.\n\n\nThe Trim Transformer was built to train generative AI physics models. Its multi-linear attention computes\n\n\nAttn(𝑄,𝐾,𝑉)=𝑄𝐾⊤𝑉\n\n\nin 𝑂(nd²) time, replacing the quadratic cost of soft-max attention with attention that stays linear in sequence length.\n\n\nSo the Trim Transformer simulates a **64x64** grid in **128** operations, a **128x128** grid in **256** operations, and a **128x128x128** 3D simulation in only **384** operations. Whew!\n\n\nAn exponential reduction in compute unlocks a new world of modeling complex, high-dimensional systems such as\n\n\n- Detailed molecular bonding for medicine research\n- Global climate and weather modeling\n- Semiconductor and battery material design\n- Nuclear fusion plasma modeling\n- Gravitational waves and quantum mechanical systems\n- Low latency autonomous vehicle pathing\n\n\nThe implementation mirrors` torch.nn.TransformerEncoder` , so swapping it into an existing PyTorch pipeline is a one-line change.\n\n\n## Example: Navier-Stokes\n\n\nBelow are some benchmark plots demonstrating model performance and resource usage on the Navier-Stokes dataset from[Fourier Neural Operator](https://arxiv.org/abs/2010.08895) :\n\n\nThe Trim Transformer achives more than *90%* reduction in memory usage compared to a standard PyTorch transformer using softmax attention and *3.5x* faster time per epoch while maintaining very similar validation loss. As grid size and sequence length increase these gains become even more drastic.\n\n\nYou can install the Trim Transformer with\n\n\n```text\npip    install    trim-transformer\n\n\n```\n\n\nor find it on[GitHub](https://github.com/eg-trim/trim-transformer) .\n\n\nWe'll be showcasing a variety of use cases over the next few weeks so sign up to stay in the loop.",
+  "published_at": "2025-07-10T03:49:00+00:00",
+  "first_seen_at": "2026-07-25T01:53:24.000887+00:00",
+  "content_hash": "sha256:ebcdfdfba8386f4c15c2f21862523a4105c7c7b293ae7cdde919d5878ac37a5e"
+}

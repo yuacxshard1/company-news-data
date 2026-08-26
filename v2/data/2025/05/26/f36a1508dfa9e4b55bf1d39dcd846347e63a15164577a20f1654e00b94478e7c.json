@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f36a1508dfa9e4b55bf1d39dcd846347e63a15164577a20f1654e00b94478e7c",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/changelog/new-playwright-report",
+  "canonical_url": "https://www.artillery.io/changelog/new-playwright-report",
+  "title": "Playwright Test Runner reporting",
+  "summary": "Real-time reporting, performance metrics, shared tests, and more",
+  "body_markdown": "May 26th, 2025[Dashboard](https://www.artillery.io/changelog/tag/dashboard)\n\n\n# Playwright Test Runner reporting\n\n\nEdmundo Santos\n\n\nWe’ve rebuilt Playwright Test Runner reporting in Artillery Cloud from the ground up with a focus on performance and usability.\n\n\n## Real-time reporting\n\n\nPlaywright test reports now update in real-time as a test is running, and you can start investigating test failures as soon as they happen.\n\n\nTraces, screenshots, and other attachments are available for each test case immediately, and can be viewed directly in the report.\n\n\n## Share reports\n\n\nYou can create a sharing URL with the **Share** button to share reports with people outside of your Artillery Cloud organization.\n\n\n## Track Web Vitals metrics (optional)\n\n\n[Web Vitals](https://web.dev/articles/vitals) metrics can be captured and reported for every page in your tests automatically.\n\n\nThis feature needs to be enabled in your tests - see the[@artilleryio/playwright-reporter docs](https://www.npmjs.com/package/@artilleryio/playwright-reporter/v/1.1.3#performance-tracking) for more informaion.\n\n\n## ”Copy prompt” support\n\n\nPlaywright v1.51.0 and later automatically attaches a prompt with useful context for every failing test case. You can copy that prompt with the “Copy prompt” button in the report and in the trace viewer.\n\n\nThis feature requires Playwright v1.52 or later.\n\n\n## ` captureGitInfo` support\n\n\nThe report will show the details of the Git commit if` captureGitInfo: { commit: true }` is enabled in your` playwright.config.ts` file (see[Playwright docs](https://playwright.dev/docs/api/class-testconfig#test-config-capture-git-info) for details).",
+  "published_at": "2025-05-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T17:13:32.020779+00:00",
+  "content_hash": "sha256:a18d3e9286c2ea379ff65d17c6eff1586c126b2a475d09d1ef7f21f4c5f4cc4e"
+}

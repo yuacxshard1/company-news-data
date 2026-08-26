@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2c8707a255d7f7d4cffd95d05cf54d5c0ac10b0b4e7035d3a7f034ab1fa6e065",
+  "company_key": "yc-paradedb",
+  "company_name": "ParadeDB",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.paradedb.com/blog/railway",
+  "canonical_url": "https://www.paradedb.com/blog/railway",
+  "title": "ParadeDB is Officially on Railway",
+  "summary": "Deploy ParadeDB on Railway with one click. Full-text search, vector search, and hybrid search over Postgres — now available on your favorite cloud platform.",
+  "body_markdown": "# ParadeDB is Officially on Railway\n\n\nBy Ming Ying on April 14, 2026\n\n\nWe're excited to announce that[Railway](https://railway.com/) now supports ParadeDB as an official integration. This means one-click deployment of ParadeDB onto Railway, allowing you to go from zero to a running ParadeDB instance in under a minute.\n\n\n## Why Railway?\n\n\nRailway is one of the leading platforms for deploying AI applications, databases, and backend services. Its developer experience is exceptional: push-to-deploy, automatic environment variables, and a clean dashboard for managing services.\n\n\n## Deploy ParadeDB in One Click\n\n\nClick the button below to deploy ParadeDB on Railway. Railway will spin up a Docker container running the latest ParadeDB image with sensible defaults.\n\n\nOnce deployed, Railway automatically configures the following environment variables for you:\n\n\nVariable Default\n\n\n` POSTGRES_USER`` postgres`\n\n\n` POSTGRES_PASSWORD` Auto-generated\n\n\n` POSTGRES_DB`` paradedb`\n\n\n` PGPORT`` 5432`\n\n\n` DATABASE_URL` Private connection string\n\n\n` DATABASE_PUBLIC_URL` Public connection string\n\n\n## Connect to Your Instance\n\n\nAfter deployment, navigate to the **Variables** tab in your Railway service dashboard to find your connection strings.\n\n\nTo connect from another Railway service on the same project, use the private connection string:\n\n\n```text\npsql  $DATABASE_URL\n\n\n```\n\n\nTo connect from your local machine, use the public connection string:\n\n\n```text\npsql  $DATABASE_PUBLIC_URL\n\n\n```\n\n\n## Try a Quick Search Query\n\n\nOnce connected, you can immediately start using ParadeDB's search features. Load the sample table, create a BM25 index, and run a full-text search:\n\n\n```text\nCALL   paradedb.create_bm25_test_table(\nschema_name  =  >    'public'  ,\ntable_name  =  >    'mock_items'\n);\n\n\nCREATE   INDEX search_idx  ON   mock_items\nUSING   bm25 (id, description, category, rating, in_stock, created_at, metadata, weight_range)\nWITH   (key_field =  'id'  );\n\n\nSELECT   description, pdb.score(id)\nFROM   mock_items\nWHERE   description  ||  |    'running shoes'    AND   rating  >    2\nORDER    BY   score  DESC\nLIMIT  5  ;\n\n\n```\n\n\n## What's Next\n\n\nTo learn more about deploying ParadeDB on Railway, visit our[documentation](https://docs.paradedb.com/deploy/cloud-platforms/railway) .",
+  "published_at": "2026-04-14T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:48.722459+00:00",
+  "content_hash": "sha256:b76d9b7ac99da8e67efc660108ac0ce75ed32392c8a7b083cd70910b53d74219"
+}

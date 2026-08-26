@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8806b1306fbfe9683aac159c46b0f1855052a2c7576a80bc1d0fcccb1bdebdf4",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/10-8-2026",
+  "canonical_url": "https://browser-use.com/changelog/10-8-2026",
+  "title": "Session Sharing, Usage Analytics & X402 Pricing",
+  "summary": "Sessions get sharing and management upgrades, a redesigned Usage page, and cheaper X402 top-ups.",
+  "body_markdown": "## Sessions\n\n\n- Delete and rename sessions directly from the sidebar.\n- Share a session via a public link at` /share/v4` .\n- Leave thumbs up/down feedback on individual run outputs.\n\n\n## X402 API\n\n\n- Pay-what-you-want top-ups, from $0.01 up to $100.\n- Managing a session you already opened — polling, reading messages, stopping, deleting, sending follow-ups — is now free. Payment is only required to open a new browser.\n\n\n## Usage\n\n\nUsage and analytics moved to a single redesigned page, with Agents, Browsers, and LLM Gateway views.\n\n\n## Model Improvements\n\n\n- Reasoning output now shows consistently across all model providers, streamed in as it's generated.\n- Per-run cost caps now scale per model (up to $100) instead of a flat $25, so pricier models aren't starved of usable runs.\n\n\n## Fixes\n\n\n- Streaming stalls that could hard-fail a run with no output now retry automatically.\n- The Files tab no longer appears empty for workspaces with many files.\n- Recording tabs are closable, and recordings live in a dedicated Recordings folder in Files.\n- Email attachments received via AgentMail are retrievable again.\n- 401 errors on the API now link to API key signup instead of a dead end.\n- The first-party app gets the same defaults as web chat — cost caps, recording, and skills.",
+  "published_at": "2026-08-10T00:00:00+00:00",
+  "first_seen_at": "2026-08-14T04:57:39.353244+00:00",
+  "content_hash": "sha256:633cab034c174661ae926c7f9711202557f91a4afcb974495fc0601c68596dd8"
+}

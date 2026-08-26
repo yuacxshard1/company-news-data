@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b8927bd01893efbc5ba1b7d633a0d259207f8ba2ea42256a5c7139284ab3bfd3",
+  "company_key": "yc-same",
+  "company_name": "Same",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://old.million.dev/blog/behind-the-block",
+  "canonical_url": "https://million.dev/blog/behind-the-block.en-US",
+  "title": "Behind the block() | Million.js",
+  "summary": "So how does block() really work with React?",
+  "body_markdown": "### React renders` <\n\n\nLoader\n\n\n/>\n\n\n`\n\n\ncomponent\n\n\nInitially, React is responsible for rendering the` <\n\n\nLoader\n\n\n/>\n\n\n`\n\n\ncomponent. This process involves creating the necessary DOM elements and applying any initial properties or styles. During this phase, React is managing the lifecycle and state of the component, allowing for rich features such as state management, lifecycle methods, and more.\n\n\n### React mounts` <\n\n\nLoader\n\n\n/>\n\n\n`\n\n\nand puts the DOM element in the ref\n\n\nFollowing the rendering process, React then mounts the` <\n\n\nLoader\n\n\n/>\n\n\n`\n\n\ncomponent. This involves inserting the component into the DOM and making it visible to the user. At this point, React also updates the ref with the DOM element. A ref in React is a way to hold local state that doesn't invoke rendering, and in this case, it's being used to store a reference to the DOM element.\n\n\n### Million.js renders` <\n\n\nApp\n\n\n/>\n\n\n`\n\n\ninto the ref\n\n\nFinally, the ref is handed over to Million.js, a fast, lightweight virtual DOM. Using the DOM reference stored in the ref, Million.js renders the` <\n\n\nApp\n\n\n/>\n\n\n`\n\n\ncomponent directly into this element. This allows Million.js to manage the` <\n\n\nApp\n\n\n/>\n\n\n`\n\n\ncomponent separately from React, leading to potential performance benefits and isolation of responsibilities.",
+  "published_at": "2023-06-01T00:00:00+00:00",
+  "first_seen_at": "2026-08-10T02:52:25.226434+00:00",
+  "content_hash": "sha256:fb1efb916e1ab3b466d52fa5211326473b743998099379f03d1ffe16f956a927"
+}

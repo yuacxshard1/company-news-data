@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-camelai",
+      "company_name": "camelAI",
+      "doc_id": "9662b3a409ebba504feb2206a399272174ac785178885ff0bd7874448978fb7d",
+      "first_seen_at": "2026-07-24T00:13:37.473099+00:00",
+      "published_at": "2026-07-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We recently launched a free tier powered by a self-hosted DeepSeek V4 Flash. Here's how we picked the model and hardware together, adapted an open source vLLM recipe, and made the KV cache — not raw compute — the thing that let the economics work.",
+      "title": "How we self-host DeepSeek V4 Flash on AWS spot instances"
+    },
+    {
+      "company_key": "yc-camelai",
+      "company_name": "camelAI",
+      "doc_id": "dd024ddf4da5774e81a6407c7a0afc942ca08b425ac15c69b7baaf167ac84749",
+      "first_seen_at": "2026-07-28T06:34:13.357383+00:00",
+      "published_at": "2026-07-28T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We moved camelAI’s coding agent off always-on VMs and into Cloudflare Durable Objects, with SQLite and R2 for files and JavaScript Code Mode instead of bash. Here’s the three-step redesign that made it possible.",
+      "title": "Our coding agent runs in a Cloudflare Durable Object, not a VM"
+    }
+  ],
+  "company_key": "yc-camelai",
+  "month": "2026-07"
+}

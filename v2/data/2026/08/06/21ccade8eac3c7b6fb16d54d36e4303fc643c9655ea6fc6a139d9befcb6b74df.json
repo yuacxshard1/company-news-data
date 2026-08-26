@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "21ccade8eac3c7b6fb16d54d36e4303fc643c9655ea6fc6a139d9befcb6b74df",
+  "company_key": "yc-castle-2",
+  "company_name": "Castle",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.castle.io/changelog/ip-intelligence-api",
+  "canonical_url": "https://docs.castle.io/changelog/ip-intelligence-api",
+  "title": "IP Intelligence API",
+  "summary": "Get a complete picture of every IP and its recent connections. Know their types, proxy or VPN operators, even when a residential address hides a proxy exit.",
+  "body_markdown": "[Back to All](https://docs.castle.io/changelog)\n\n\nAdded\n\n\nOver the past months, we shipped[residential proxy detection](https://docs.castle.io/changelog/detect-residential-proxies-with-new-ip-intelligence) and[VPN detection](https://docs.castle.io/changelog/detect-vpn-traffic-with-new-ip-intelligence) as signals on the Risk API. The data behind those signals is now a product of its own. Instead of sending an event and reading the signals on the response, you can query an IP directly and get the raw intelligence back:\n\n\n- ` GET /v1/ips/{value}` looks up a single IP in real time\n- ` POST /v1/ips/query` resolves many at once\n- ` GET /v1/ips/downloads/{dataset}/{window}.{format}.gz` gives you precomputed snapshots\n\n\nFor any IP, you get the autonomous system it belongs to, a coarse location, and the proxy and VPN tunnels Castle has recently observed on it. Each tunnel carries the` operator` running it, a` tier` for VPN providers, and a` last_seen_at` timestamp for when we last confirmed activity on that network.\n\n\nUse lookups to enrich your own systems and feed your own risk logic. Download full datasets to use Castle's data for bulk enrichment or offline analysis.\n\n\nFull details are in the[documentation](https://docs.castle.io/docs/ip-intelligence-api) .\n\n\nExample request:\n\n\n```text\ncurl -sSf -u \":$CASTLE_API_SECRET\" \\\nhttps://api.castle.io/v1/ips/1.0.105.13\n```\n\n\n```text\n{\n\"address\": \"1.0.105.13\",\n\"type\": \"ipv4\",\n\"asn\": 18144,\n\"location\": {\n\"continent_code\": \"AS\",\n\"country_code\": \"JP\"\n},\n\"tunnels\": [\n{\n\"type\": \"proxy\",\n\"operator\": \"FloppyData residential\",\n\"tier\": null,\n\"last_seen_at\": \"2026-06-25T21:38:40.000Z\",\n\"proxy_type\": \"residential\"\n},\n{\n\"type\": \"proxy\",\n\"operator\": \"AnyIP residential\",\n\"tier\": null,\n\"last_seen_at\": \"2026-06-21T22:55:42.000Z\",\n\"proxy_type\": \"residential\"\n}\n]\n}\n\n\n```",
+  "published_at": "2026-08-06T00:00:00+00:00",
+  "first_seen_at": "2026-08-06T17:50:10.642270+00:00",
+  "content_hash": "sha256:9816321c7f1b2cc7ce47f7ad078422f7778c03d847f3306ac9105f5b27127503"
+}

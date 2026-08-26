@@ -1,0 +1,66 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "07632e4f2d6c32294564ef1979195c8330122323fb3f3ddea92f80a1780a6851",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-07-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "GitHub Actions are great when they just work, but a single failing job can bring everything to a halt. Sometimes the error is obvious, other times it feels like the runner is failing for reasons that have nothing to do with your code. This guide walks through practical ways to debug those failures so you can get builds running smoothly again.",
+      "title": "A practical guide to debugging GitHub Actions"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "0dd55c30a29894890a6293a182232a176030ec70bd943c094f7c6c6d2aafa3b0",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-07-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We're excited to roll out the general availability of container build autoscaling for all container build projects in Depot. This feature allows you to automatically scale out your container builds to multiple BuildKit builders based on how many concurrent builds you want processing on a single builder.",
+      "title": "Now available: Build autoscaling for everyone"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "3250f033cf7046bdd32bbaeb3263c965617c72db52c09e6223e65528470f0ec4",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-07-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "GitHub Job Details are now live in the Depot app. See exactly how your GitHub Actions workflows performed with detailed visibility into job execution, resource usage, and debugging data all in one place.",
+      "title": "Introducing GitHub Job Details: Observability for your CI/CD pipeline"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "7ec7385c4f65406e9a3db4d6b4a5d13e140454c6bc751723bce02eb1399c1e9f",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-07-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Cache mounts let you preserve partial build state between Docker builds, making incremental rebuilds faster when layer cache misses. Here's how to use them effectively, avoid common pitfalls, and make them work reliably in CI environments.",
+      "title": "How to use cache mounts to speed up Docker builds"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "abc466f8af11561da8a1801d5e4a4cf10eb9680c4bd77580a564377f700da797",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-07-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We're excited to launch Claude Code sessions in Depot. This enables seamless collaboration between AI coding agents and your team by allowing anyone in your organization to pick up and resume Claude sessions.",
+      "title": "Now available: Claude Code sessions in Depot"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "f1fba464dc4539ab2835fc4828492f2ee6e8b7af401823fb9897d74db9fedc56",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-07-16T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Maintaining forks of rapidly-evolving upstream repositories is a productivity killer. At Depot, we were spending hours each week manually updating ARM64 patches and reviewing dozens of commits just to keep our GitHub Actions runner images in sync. Here's how we used Claude Code to automate the entire process, turning a weekly time sink into a hands-off CI workflow.",
+      "title": "How we automated GitHub Actions Runner updates with Claude"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2025-07"
+}

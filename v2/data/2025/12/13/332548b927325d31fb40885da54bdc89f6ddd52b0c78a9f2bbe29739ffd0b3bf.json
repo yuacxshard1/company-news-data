@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "332548b927325d31fb40885da54bdc89f6ddd52b0c78a9f2bbe29739ffd0b3bf",
+  "company_key": "yc-butter",
+  "company_name": "Butter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.butter.dev/changelog-0009",
+  "canonical_url": "https://blog.butter.dev/changelog-0009",
+  "title": "Changelog #0009",
+  "summary": "Internal progress, preparing automated template induction for production, and a shoutout to our favorite tools.",
+  "body_markdown": "Happy Friday!\n\n\nNothing user-facing to report in this week’s changelog, so hang tight.\n\n\nWe continue to invest in internal tooling: evals, infra rewrite, and prepping last week’s[automatic template induction POC](https://blog.butter.dev/changelog-0008#heading-automatic-template-induction) for production.\n\n\nFor fun, here’s a shout-out for some of the tools we’ve been using and loving:\n\n\n-\n\n\n[Bun](http://bun.sh/) for runtime and tests.\n\n\n-\n\n\n[E2B](http://e2b.dev/) for TS sandboxing.\n\n\n-\n\n\n[Braintrust](http://braintrust.dev/) for evals.\n\n\n-\n\n\n[Vercel](https://ai-sdk.dev/docs/introduction) AI SDK for structured generation.\n\n\n-\n\n\nAnd of course,[Butter](http://butter.dev/) for caching tests and evals - it’s really sped up our iteration cycles to have LLM requests return 20x faster.\n\n\nStay tuned next week for more updates!",
+  "published_at": "2025-12-13T05:14:17+00:00",
+  "first_seen_at": "2026-07-24T22:18:01.434032+00:00",
+  "content_hash": "sha256:d8363cc1d0849ae740b4d4120f7d1c5cda04b858c93adec6408a69873e76023d"
+}

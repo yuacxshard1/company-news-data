@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ff1d9ace03b43c6953aae22714d0c3955bfe9699462b06cb8ce3777bd14eec16",
+  "company_key": "yc-juxta",
+  "company_name": "Juxta",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.juxta.com/blog/exploring-ronin",
+  "canonical_url": "https://www.juxta.com/blog/exploring-ronin",
+  "title": "Exploring RoNIN",
+  "summary": "RoNIN uses smartphone IMU sensors to track human movement in GPS-denied locations including indoors and underground.",
+  "body_markdown": "RoNIN leverages smartphone sensors to enable navigation in environments where GPS fails. Traditional navigation struggles indoors and visual tracking drains batteries, while inertial measurement unit sensors offer an energy-efficient alternative that functions everywhere.\n\n\n### A comprehensive dataset\n\n\nThe research team combined standard smartphones with specialized ground truth capture equipment to build a dataset spanning over 40 hours of natural motion data across multiple buildings and human subjects, one of the most extensive inertial navigation benchmarks available.\n\n\n### How it works\n\n\nRoNIN employs deep learning to process gyroscope and accelerometer data, extracting movement patterns, and introduces novel coordinate frame definitions and improved loss functions to enhance prediction accuracy.\n\n\n### Results and limitations\n\n\nRoNIN remains accurate even when device placement changes mid-navigation, achieving positional accuracy within five meters across most measured intervals, though it shows limitations with uncommon motions underrepresented in training data. The work lays groundwork for applications in virtual reality, autonomous vehicles, robotics, and drone navigation.",
+  "published_at": "2026-01-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T01:07:02.599327+00:00",
+  "content_hash": "sha256:da5431d91a70d99f7bdc03a4c221d600d71e6d680560d44f7f8bacbed436a916"
+}

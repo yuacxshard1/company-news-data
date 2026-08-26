@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5f89bf3bcf5a7f467ace7ee0b69629b2fe2864dd46464e4b49c79b6d99585214",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/growing-global-game-revenue-with-unity-iap",
+  "canonical_url": "https://unity.com/blog/growing-global-game-revenue-with-unity-iap",
+  "title": "Growing global game revenue with Unity IAP",
+  "summary": "In this video, Unity’s Rambod Kermanizadeh, along with SciPlay’s Forrest Stowe and Timothy Moore, discusses how the latest advancements in Unity’s in-app purchase (IAP) product help developers reclaim their margins, navigate complex regional regulations, and streamline the player experience. This video explores how moving beyond traditional platform walled gardens and adopting a direct-to-consumer strategy can change your game's economy.",
+  "body_markdown": "**RAMBOD KERMANIZADEH:** The flexibility of using IAP effectively lets people have more leverage over their negotiations with third party payment processors. Where, now, if one becomes better than another, they can get better rates, we can enable them over time to essentially just change providers by flipping a feature flag on the backend without needing to update their game client.\n\n\nYou know, as the walled gardens around these platforms break down, they no longer are subjected to this 30% platform tax that they're paying. And really, you know, they can get anywhere between 20% to 25% of the margin back.\n\n\nIn its current iteration, Unity IAP is effectively a wrapper around the platform SDKs. So, instead of developers having to integrate the native SDKs from the mobile platform stores, they integrate our IAP product, which then gives them one C-sharp layer that they can do the purchasing through those platforms. And the benefit is for developers, they don't have to have branching code paths, messing around with these native SDKs and a bunch of different versions of their game for the different platforms. So this way they can have one version and deploy to all the platforms that we support without having to deal with all half-half.\n\n\nWe're really expanding the reach of the product offering where we're adding things like cross-platform entitlement management, skew management, and the things that actually help studios run their in-game economies more than just purchasing.\n\n\nThe thing I'm super excited about is the web shop and more direct-to-consumer space with alternative transaction processors, where we're really taking that same abstraction layer philosophy and bringing that to these third-party transaction processors. This is where they get a C-sharp API for developers to integrate that standardize across all of them, as well as web hooks on the backend. These are also going to be standardized to just make that integration easier and fundamentally let studios really just pick and choose and mix and match multiple providers all at once, really giving them choice and control.\n\n\nWe partner with Stripe, who's a programmable financial services company, as well Coda, that's a leading web shop partner to game publishers.",
+  "published_at": "2026-06-12T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:791236f9ec404dc20a2b2c9d836bd546de334243212edf1a1bb94c461d7842e3"
+}

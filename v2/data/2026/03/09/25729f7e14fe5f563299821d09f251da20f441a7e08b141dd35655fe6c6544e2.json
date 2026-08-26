@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "25729f7e14fe5f563299821d09f251da20f441a7e08b141dd35655fe6c6544e2",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/compare-actions",
+  "canonical_url": "https://www.buildbuddy.io/changelog/compare-actions",
+  "title": "Compare actions: compare two actions side-by-side",
+  "summary": "The compare actions view allows you to diff two actions side-by-side.",
+  "body_markdown": "[← Back to changelog](https://www.buildbuddy.io/changelog)\n\n\n# Compare actions: compare two actions side-by-side\n\n\nMarch 9, 2026 ·\n\n\nSiggi Simonarson\n\n\nThe compare actions view allows you to diff two actions side-by-side.\n\n\nThis can help pinpoint why two seemingly similar actions produced different results or didn't result in a cache hit.\n\n\nTo compare actions:\n\n\n1. From an invocation link, you can find the desired action either in the` Cache` or` Remote Execution` tabs.\n2. Click through to the Action Details view.\n3. Click **Compare -> Select for comparison** in the top right corner.\n4. Find the other action you want to compare it against.\n5. Click **Compare -> Compare with selected** in the top right corner of the second action.\n\n\nbazel\n\n\ndebugging\n\n\nfeatured",
+  "published_at": "2026-03-09T08:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+  "content_hash": "sha256:d448d5461be70c15c498f2dea7f789f38df8fcb51202484020107787173c1430"
+}

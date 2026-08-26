@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "102903eae22bf64249ef5625e034fadc7e8296b36ea2761643063257d6dbed98",
+  "company_key": "yc-protonet",
+  "company_name": "Protonet",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://support.protonet.info/en/news/soul-2-20-4/",
+  "canonical_url": "https://support.protonet.info/en/news/soul-2-20-4/",
+  "title": "Soul 2.20.4 – Important security updates and improvements",
+  "summary": "Soul 2.20.4 - Important security updates and improvements (stable/102 & soul3/1511) - 13.07.2017 You receive an error message to contact Support during this update attempt ? Since software updates are only available…",
+  "body_markdown": "**Soul 2.20.4 – Important security updates and improvements (stable/102 & soul3/1511) – 13.07.2017**\n\n\n**You receive an error message to contact Support during this update attempt**\n\n\n**?**\n\n\nSince software updates are only available for customers with a valid support contract or as part of SOUL+, please send a short message tosupport@protonet.com in the event of the error message “Please contact Support”. We will then provide access to the update.\n\n\n**News and improvements**\n\n\n- The reliability on sending email notifications via the standard service of Protonet was significantly improved.\n- Update of the “Samba” service to solve the security gap:[CVE-2017-7494 – ” A remote code execution flaw”](https://www.samba.org/samba/security/CVE-2017-7494.html) or also known as Sambacry (only affects servers running version stable/xxx).\n- Actions in the system settings are no longer acknowledged with a red error message even though the changes were actually implemented or actions were executed (only affects servers running version soul3/15xx)\n\n\n**General information regarding the update process**\n\n\nPlease note that\n\n\n- downloading updates may take some time depending on the size of the SOUL update you need and your own Internet connection\n- servers are automatically being restarted to activate the update, thus all network connections in Finder / Explorer will be disconnected.\n- Rebooting of a Protonet server can take up to 15 minutes\n\n\nWe therefore recommend to run the update during a period of time that normally requires minimal server access or to announce the timeout in advance.\n\n\nIf after waiting a reasonable amount of time after the update, the server is not yet available. Please refer to our network connection troubleshooting checklist before consulting the Support team:\n[I’M HAVING TROUBLE CONNECTING TO THE PROTONET SOLUTION. WHAT SHOULD I DO?](https://support.protonet.info/en/faq/cat-faq/faq/#cant-reach-a-protonet-solution)",
+  "published_at": null,
+  "first_seen_at": "2026-07-27T11:22:05.436870+00:00",
+  "content_hash": "sha256:866d181a793945034cc6fd7915eb2aa872579331db049562644efcb580d0a4ee"
+}

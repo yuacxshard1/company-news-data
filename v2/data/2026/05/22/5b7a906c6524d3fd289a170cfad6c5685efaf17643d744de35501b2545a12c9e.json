@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5b7a906c6524d3fd289a170cfad6c5685efaf17643d744de35501b2545a12c9e",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/optimizing-godforge-200-heroes-million-polygon-worlds",
+  "canonical_url": "https://unity.com/blog/optimizing-godforge-200-heroes-million-polygon-worlds",
+  "title": "Optimizing Godforge: 200+ heroes, million-polygon worlds",
+  "summary": "In this video, the Fateless team share how working in Unity helped them successfully reduce memory usage from 4 GB to 1.3 GB and achieve a 57% increase in frame rate.",
+  "body_markdown": "**SCALING PERFORMANCE OVER TIME**\n\n\n**HISHAM SALEH:** As we are growing and developing the game, it's not like a six-month project. This has been a long process. So the optimization targets and the target devices over time has actually shifted, and that's just an expectation.\n\n\nWe always want to be able to support as many mobile devices as we possibly can. We wanted to make sure that we had a beautiful PC build and so we've focused on making sure that the team knows here's the bottom, here's a benchmark of what you need to be able to achieve. And then we want to make it look as good as possible on the lowest and then on the mobile highest as a focus for this. Unity built a lot of tools for us to be able to do that.\n\n\n**SIMON LOCKERBY:** That's really helped us future-proof because the tooling which came in from the Unity team. It helped us identify when large meshes are going in or duplicate meshes were going into the build, to make sure that we were using atlases right from the get-go, and all of these systems that have been put in place just means that we're able to control the future size of the build, future download speeds, frame rates, all that type of thing.\n\n\n**HISHAM SALEH:** If I look at what we were really focused on, you know, these environments, these even characters, and what we're seeing onscreen. If you've got millions of polygons, which I think, not quite millions, but maybe a million polygons in a scene, and you're trying to load everything all at once, it's not going to load very fast.\n\n\nSo, occlusion calling really made it so we were able to do all the things that we wanted to do, everything could look really cool, but it could also load fast, and so the players would come in, they'd play the battle, and instead of it being, I don't even know, sometimes it was five or six seconds or something, it was ridiculous into, you know, it loads pretty snappy on a really great device and maybe like one secondor two seconds at a very maximum on the lowest end devices.",
+  "published_at": "2026-05-22T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:f10fac7018707db5e82d8c623adcd6d2d6211a96d9714be6ce79f118c63ac98e"
+}

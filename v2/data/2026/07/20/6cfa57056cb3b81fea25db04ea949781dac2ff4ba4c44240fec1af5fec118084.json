@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6cfa57056cb3b81fea25db04ea949781dac2ff4ba4c44240fec1af5fec118084",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/blog/audit-log-enhancements-ai-commands-on-premise-custom-certificates/",
+  "canonical_url": "https://testrigor.com/blog/audit-log-enhancements-ai-commands-on-premise-custom-certificates/",
+  "title": "Audit Log Enhancements, AI commands, On-premise Custom Certificates",
+  "summary": "Audit Log Enhancements With the latest update, more actions are being logged on the audit logs. This will provide better insights to the actions that are occurring within the company. These are the following actions that are now being registered: PersonalAccessTokenCreated PersonalAccessTokenRevoked CollaboratorInvited InvitationResent InvitationDeleted InvitationDeclined InvitationAccepted CollaboratorRoleChanged CollaboratorEnabled CollaboratorDisabled SsoAutoJoinChanged Login AI Command Changes ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## Audit Log Enhancements\n\n\nWith the latest update, more actions are being logged on the audit logs. This will provide better insights to the actions that are occurring within the company. These are the following actions that are now being registered:\n\n\n- ` PersonalAccessTokenCreated`\n- ` PersonalAccessTokenRevoked`\n- ` CollaboratorInvited`\n- ` InvitationResent`\n- ` InvitationDeleted`\n- ` InvitationDeclined`\n- ` InvitationAccepted`\n- ` CollaboratorRoleChanged`\n- ` CollaboratorEnabled`\n- ` CollaboratorDisabled`\n- ` SsoAutoJoinChanged`\n- ` Login`\n\n\n## AI Command Changes\n\n\nOur team has introduced changes that modifies the behaviour of click and grab commands that utilise AI, which will use the full context of the command being issued. Commands that contain “using AI” and fail will contain a more detailed explanation of why they failed:\n\n\n## On-premise Custom Certificates\n\n\nUsers that utilize the on-premise version of testRigor will now be able to upload custom certificates in order to perform validations regarding certifications.",
+  "published_at": "2026-07-20T21:00:30+00:00",
+  "first_seen_at": "2026-07-20T23:24:14.091130+00:00",
+  "content_hash": "sha256:97f136e78fbb521971a9e594d48cfcf1e1614e11242510256f881472bebb066f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "37ad16a9a7accd2a4d99e6b201e82017b2d4b18b4ab171b8b22c3bc0cecab4d0",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-virtual-server-7-50-1-released/135958",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-virtual-server-7-50-1-released/135958",
+  "title": "Virtualmin virtual-server 7.50.1 released",
+  "summary": "Howdy all, We rolled out Virtualmin virtual-server module version 7.50.1 with important bug fixes. Changes since 7.50.0: Fix to correctly add new virtual hosts in Apache config to prevent wrong site being served Fix DNS NS record update correctly when renaming domain Fix to set a custom DNS address for a subdomain only if it really differs from the primary one Fix mail alias domains to manage users expectedly Fix to correctly show current IPv6 address in the form when changing it Fix the def...",
+  "body_markdown": "[Ilia](https://forum.virtualmin.com/u/Ilia)\n\n\nDecember 5, 2025, 9:00pm 1\n\n\nHowdy all,\n\n\nWe rolled out Virtualmin virtual-server module version 7.50.1 with important bug fixes.\n\n\nChanges since 7.50.0:\n\n\n- Fix to correctly add new virtual hosts in Apache config to prevent wrong site being served\n- Fix DNS NS record update correctly when renaming domain\n- Fix to set a custom DNS address for a subdomain only if it really differs from the primary one\n- Fix mail alias domains to manage users expectedly\n- Fix to correctly show current IPv6 address in the form when changing it\n- Fix the default BIND to listen on port 53 unless already configured\n- Fix redirect all requests to SSL site option work correctly\n- Fix support to manage PHP 8.5 versions\n\n\n---\n\n\nIf you run into any problems or have questions, open a new topic.\n\n\nCheers,\nIlia\n\n\n8 Likes\n\n\n[africabloe](https://forum.virtualmin.com/u/africabloe)\n\n\nDecember 6, 2025, 3:16am 2\n\n\nThank you very much for Virtualmin and for all the contribution of your team.\nThe fact that virtualmin-gpl is free is very important for many people who do not have the financial means to pay for such great services.\nIf I can help at some point in some way I would be happy to do so.\nI consider Virtualmin dozens of times better than cpanel and plesk and the forum you have is also the same.\n\n\n6 Likes\n\n\n[KitchM](https://forum.virtualmin.com/u/KitchM)\n\n\nDecember 9, 2025, 2:27pm 3\n\n\nCould not have said it better myself.\n\n\n[system](https://forum.virtualmin.com/u/system) Closed\n\n\nDecember 19, 2025, 2:28pm 4\n\n\nThis topic was automatically closed 10 days after the last reply. New replies are no longer allowed.",
+  "published_at": "2025-12-05T21:00:58+00:00",
+  "first_seen_at": "2026-07-28T18:40:24.886262+00:00",
+  "content_hash": "sha256:0f5f9c2fbf35f5c827a306e5127fd9ce37e16dac786fc37ded6537166f751fb1"
+}

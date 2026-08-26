@@ -1,0 +1,146 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "094e7f5259675cda2c858f8918a5abe5382bd35d7703b62f4fd3810b687aa941",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "In the SCGI module, ngxhttpscgicreaterequest() historically derived CONTENTLENGTH by summing the currently buffered request-body chain (r-upstream-reque…",
+      "title": "SCGI unbuffered mode sent truncated CONTENT_LENGTH causing backend desync"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "1478a848547c611b7d318f0813b21349d9126232ef3e62481b2d43971da796a4",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The server-side React Flight reply decoder treats $K<id tokens as nested FormData and reconstructs them by scanning the backing request form and copying…",
+      "title": "RSC reply decoder DoS via $K FormData amplification (CVE-2026-23864)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "175e00eea7e0c7c8d4cb0dbe5839caeed1044ccc842510574f976b322e6f9da2",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When proxyhttpversion 2 selected the HTTP/2 upstream proxy path and proxysetbody generated a custom request body, ngxhttpproxyv2createrequest() appended…",
+      "title": "HTTP/2 upstream frame injection via oversized proxy_set_body (CVE-2026-42926)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "25c5fda09c1fc84b8753367c09dcd183f6c8631bbab4c163b49594ff5cb122b5",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "DoLogin parses the HTTP User-Agent header while creating a session and stores platform, OS, browser name, and browser version on the session. The versio…",
+      "title": "User-Agent version parser panic during session creation (CVE-2026-25783)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "44eae6b20f6fad9ba9b061f3f3225497871fb7621f23156a3a6222a81a2639b7",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Mattermost validates password length when passwords are created or changed, but affected login comparison paths did not consistently apply the same maxi…",
+      "title": "Oversized password login DoS in legacy password comparison (CVE-2026-24458)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "8b211ad66fc1e64ee986700bc946f1749b1cd060514702bff52d93cc3ef48aa2",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The NGINX HTTP DAV module's ngxhttpdavcopymovehandler() parsed the client-controlled Destination header and mapped both the request URI and destination…",
+      "title": "WebDAV COPY/MOVE path overlap corrupts files and collections"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "954936920ad55ba4e683dae15b93f0eefc20ad72930d4b464762b528ce5efdc2",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Mattermost's shared HTTP service protects untrusted outbound requests by resolving the target host and passing each IP through allowIP, which calls IsRe…",
+      "title": "SSRF protection bypass via IPv4-mapped IPv6 literals (CVE-2026-2455)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "9c4938ab53270b3afe5bef2793ccdb18daf98056db213cdf4ceda525e0266ecb",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Mattermost enforces FileSettings.MaxFileSize on uploaded files, but the document extraction service previously did not apply that same limit to each dec…",
+      "title": "Zip bomb memory exhaustion in recursive document extraction (CVE-2026-3114)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "a3d4e1af0b6b028eaa31dd533ccb35cc0d07d9b2fe8277582aac6a165090e51c",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The GET /api/v4/groups/{groupid} handler computed ViewUsersRestrictions for the session user and passed those restrictions into App.GetGroup. GetGroup c…",
+      "title": "Group member IDs leaked because GetGroup bypassed view restrictions (CVE-2026-3115)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "d39ccd309d06db1d0b24e94c59bc95e3607dc80e1e1a3bd3ad75b9bceaac0bc3",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Mattermost's mmctl plain-text output path accumulated values from API responses and templates in printer.Lines, then wrote each line directly to stdout…",
+      "title": "mmctl terminal escape injection via unsanitized server-controlled output (CVE-2026-3108)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "d4a6ebf9f80863a5a7c01e6c8512de5969268d36e571c2a01e06a0ef9df9e846",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When a stream listener is configured with both sslverifyclient on and sslocsp on, nginx performs the OCSP request and learns that the presented client c…",
+      "title": "stream accepts revoked client certificates despite ssl_ocsp on (CVE-2026-28755)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "d8612dcf30988e555ac13668e84e87bb0289d9ccca01436b092f94c2aa8bff59",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "mmctl export download and related export download flows write potentially sensitive export archives to the administrator's local filesystem. The shared…",
+      "title": "mmctl export downloads created world-readable local files (CVE-2026-3113)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "e6db98269a102bae4d817135a41fca840ea6928953e64a1d1ba2acf465ae6eb7",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The /mute slash command accepts an optional channel handle, strips the leading , and looks up the named channel with Store().Channel().GetByName(channel…",
+      "title": "Private channel enumeration through /mute error messages (CVE-2026-21386)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "ec680882e300e9b818083c1484df74c6bf404458d097a92166d9f2c041e6894c",
+      "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The HTTP/1.1 request parser in actix-http accepted requests containing both Content-Length and Transfer-Encoding: chunked. During header conversion, Mes…",
+      "title": "HTTP/1.1 CL.TE request smuggling in actix-http (GHSA-xhj4-vrgc-hr34)"
+    }
+  ],
+  "company_key": "yc-winfunc",
+  "month": "2026-01"
+}

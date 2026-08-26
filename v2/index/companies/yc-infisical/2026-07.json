@@ -1,0 +1,116 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "1babdbc641e9227af3a264926ce46e8ab8dedfebe999c9823e64d46cb7374131",
+      "first_seen_at": "2026-07-21T23:48:38.169985+00:00",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "AWS Secrets Manager and AWS KMS both protect sensitive values, but they solve different problems. Here's how they differ and when to use each.",
+      "title": "AWS Secrets Manager vs. KMS: Understanding the Difference"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "1d64f232c34475ffee2f4566e0a531e41210c9cf32a6a33175c08f3eb41fa6b6",
+      "first_seen_at": "2026-07-21T23:48:38.169985+00:00",
+      "published_at": "2026-07-09T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We built a support agent on Vercel's eve and routed its credentials through Agent Vault, so its .env held only placeholders, nothing an attacker could steal.",
+      "title": "How We Secured a Vercel eve Agent by Giving It Zero Credentials"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "31740c3438310051cdc2fcee9cafd4faae5db0ece5dcbb004e310d4b3494f649",
+      "first_seen_at": "2026-07-31T19:10:17.136731+00:00",
+      "published_at": "2026-07-30T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Infisical Agent Proxy is the commercial successor to Agent Vault, a secrets broker that lets AI agents use credentials without ever holding the real values.",
+      "title": "Agent Proxy: Secure Credential Injection for Agents"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "5c3bde4acc766670f0ebcdaa1b9eaf24777eddaf195779bc84995076ea6026da",
+      "first_seen_at": "2026-07-27T17:35:13.078878+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "python-dotenv still works for solo projects, but .env files leak, do not scale across teams, and lack rotation and audit trails. Here is what replaces them.",
+      "title": "Should You Still Use python-dotenv in 2026?"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "87b1e5dc71bd2e60cacae4a4cea5bda48606d362ebabc70178b073a10ba38570",
+      "first_seen_at": "2026-07-28T06:15:29.255453+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "ArgoCD has no native way to keep secrets out of Git. Compare Sealed Secrets, SOPS, and external secrets operators, and see where each one breaks down.",
+      "title": "Managing Secrets in ArgoCD Without Fighting It"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "9a2768690fbfe9f6a59126a211d0a541d5594dc69b62f42508d5a04cb35e8409",
+      "first_seen_at": "2026-07-21T23:48:38.169985+00:00",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Secrets Manager and Parameter Store both store values securely, but rotation, access control, and price scale very differently. Here's how to choose.",
+      "title": "AWS Secrets Manager vs. Parameter Store: Which Should You Use?"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "a312cb1b72f6abdf066d2083730813b42904294a94e9846d7da3709d3c164f9a",
+      "first_seen_at": "2026-07-21T23:48:38.169985+00:00",
+      "published_at": "2026-07-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Terraform's state file stores every secret it touches in plaintext. Learn how ephemeral resources, OIDC in CI, dynamic secrets, and rotation keep real values out of state and Git for good.",
+      "title": "A Guide to Terraform Secrets Management: Keeping Secrets Secure in Infrastructure as Code"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "a9773c797662a530a085780044cc599fffdca5f7726a465cec7064bfc357b634",
+      "first_seen_at": "2026-07-31T19:10:17.136731+00:00",
+      "published_at": "2026-07-30T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A hands-on guide to managing secrets in Docker across BuildKit image builds, standalone containers, Compose, Swarm, and CI/CD, using Infisical to keep credentials out of image layers and plaintext.",
+      "title": "Docker Secrets Management: A Complete Guide to Builds, Compose, and Swarm"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "d524b582a0dd207940aadab0dae9e0bb3cef6cb9b7a9af199dcda72b01cad65d",
+      "first_seen_at": "2026-07-25T01:10:11.205759+00:00",
+      "published_at": "2026-07-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Secure, fast access to production infrastructure, without standing credentials or a fleet of agents to maintain.",
+      "title": "Introducing Infisical PAM: Secure, Fast Access to Production Infrastructure"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "d907b0230d5a1d52415402b4e17276abc3c21ffd13d30c3fe5c0177af0cad301",
+      "first_seen_at": "2026-07-21T23:48:38.169985+00:00",
+      "published_at": "2026-07-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Searching for Infisical alternatives? Here are ours: medieval scrolls, sticky notes, nihilism, and hiring the two-time memory world champion.",
+      "title": "Best Infisical Alternatives in 2026"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "f3482bc52d42563aa9e11ab4320968670df161c4600f4800d6a001dbabca8b51",
+      "first_seen_at": "2026-07-25T01:10:11.205759+00:00",
+      "published_at": "2026-07-24T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What KMIP is, how it works, and how Infisical implements it as a dedicated, KMIP-capable key management system.",
+      "title": "KMIP: How It Works, When You Need It, and How Infisical Implements It"
+    }
+  ],
+  "company_key": "yc-infisical",
+  "month": "2026-07"
+}

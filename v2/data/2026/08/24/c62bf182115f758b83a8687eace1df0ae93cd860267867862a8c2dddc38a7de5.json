@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c62bf182115f758b83a8687eace1df0ae93cd860267867862a8c2dddc38a7de5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
+  "title": "AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
+  "summary": "Discover more about what's new at AWS with AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
+  "body_markdown": "AWS ParallelCluster 3.16 is now generally available with a new on-node diagnostics tool, cluster stability improvements, and an updated HPC and AI/ML software stack.\n\n\n**pcluster-diag** is a diagnostics tool built into the ParallelCluster AMIs that lets you run diagnostic checks on any cluster node with a single command, and get a structured report that makes it easier to identify issues. This release also hardens the cluster lifecycle with more resilient cluster creation, updates, and image builds. The software stack is refreshed, with updated NVIDIA driver, CUDA, EFA installer, and Slurm versions. To get started with pcluster-diag, see[Troubleshooting with pcluster-diag](https://docs.aws.amazon.com/parallelcluster/latest/ug/troubleshooting-v3-pcluster-diag.html) . For more details, review the AWS ParallelCluster 3.16.0[release notes](https://github.com/aws/aws-parallelcluster/releases/tag/v3.16.0) .\n\n\nAWS ParallelCluster is an open-source cluster management tool that makes it possible for R&D customers and IT administrators to operate high-performance computing (HPC) clusters on AWS. ParallelCluster is designed to automatically and securely provision cloud resources into elastically-scaling HPC clusters capable of running scientific and engineering workloads at scale on AWS. ParallelCluster is available at no additional charge in the AWS Regions listed[here](https://docs.aws.amazon.com/parallelcluster/latest/ug/supported-regions.html) , and you pay only for the AWS resources needed to run your applications.\n\n\nTo learn more about launching HPC clusters on AWS, visit the ParallelCluster[User Guide](https://docs.aws.amazon.com/parallelcluster/latest/ug/tutorials-v3.html) . To start using ParallelCluster, see the installation instructions for ParallelCluster[UI](https://docs.aws.amazon.com/parallelcluster/latest/ug/install-pcui-v3.html) and[CLI](https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3-parallelcluster.html) .",
+  "published_at": "2026-08-24T14:00:00+00:00",
+  "first_seen_at": "2026-08-24T19:20:39.792996+00:00",
+  "content_hash": "sha256:cad267380a82c485f6fe943d789e48068f06508126b27167c701d909cc36e123"
+}

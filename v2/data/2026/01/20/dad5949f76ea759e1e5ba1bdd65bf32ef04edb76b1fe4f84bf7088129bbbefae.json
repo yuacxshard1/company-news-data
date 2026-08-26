@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dad5949f76ea759e1e5ba1bdd65bf32ef04edb76b1fe4f84bf7088129bbbefae",
+  "company_key": "yc-sourcebot",
+  "company_name": "Sourcebot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sourcebot.dev/changelog/file-explorer-perf",
+  "canonical_url": "https://www.sourcebot.dev/changelog/file-explorer-perf",
+  "title": "File explorer improvements",
+  "summary": "File explorer load time for 100k+ file repos cut from 10-20s to under a second.",
+  "body_markdown": "[← All posts](https://www.sourcebot.dev/changelog) Jan 20, 2026\n\n\n# File explorer improvements\n\n\nWe’ve spent some time optimizing the file explorer performance for large (100k+ files) repositories. Previously, the file explorer could take 10-20 seconds to load. We’ve trimmed that time down to **less than a second.**\n\n\n**Before:**\n\n\n**After:**",
+  "published_at": "2026-01-20T00:00:00+00:00",
+  "first_seen_at": "2026-07-22T14:19:52.577262+00:00",
+  "content_hash": "sha256:1e6ac942f50c264ab2784788ab59ab5c5edd6e6ecd6140ce0357f7d98bd29e46"
+}

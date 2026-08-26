@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2059a1c5352e78ee2affc014a5d2b4f756b97b16319825cfd1e854c05665d944",
+  "company_key": "yc-convoy-2",
+  "company_name": "Convoy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getconvoy.io/changelog/partition-admin",
+  "canonical_url": "https://www.getconvoy.io/changelog/partition-admin",
+  "title": "Partition Admin",
+  "summary": "Changelog update from Friday, August 14th, 2026",
+  "body_markdown": "Here's what shipped in 26.7.1 and 26.7.2.\n\n\n**Partition your big tables from the dashboard**\n\n\nRetention tables can be converted from **Admin → Table partitions** , no CLI needed. Convoy keeps accepting events while it works: what you already have becomes one block of history, and new events go into their own day from there on. Convert one table at a time. The CLI still works if you prefer it. Licensed instances only.\n\n\n**Breaking:** if you partitioned with the CLI before this release, retention was quietly skipping those partitions, so old data outlived the policy you set. They are managed now, and anything older than` CONVOY_RETENTION_POLICY` goes on the next maintenance run. Check that setting before you upgrade.\n\n\n**Dynamic events**\n\n\nIf your project uses URL templates, dynamic events that match none of them are still rejected. Turn on **Allow Unmatched Dynamic Event URLs** when the same project also receives plain URLs.\n\n\n**Breaking:** the setting behind **Verify Dynamic Events Before Accepting** was renamed. Create and update project now reject` sync_dynamic_event_ack` with a` 400` pointing you at` verify_dynamic_events` .` CONVOY_SYNC_DYNAMIC_EVENT_ACK_TIMEOUT` is no longer read either, and Convoy warns on stderr if you still have it set. Use` CONVOY_VERIFY_DYNAMIC_EVENTS_TIMEOUT` instead. The default wait is 30 seconds.\n\n\n**Dashboard**\n\n\nPick a specific event type on a subscription and All events unchecks itself. Unchecking a type keeps its filter and turns it off, instead of throwing it away. Alert toasts match the rest of the dashboard.\n\n\nConvert a retention table from Admin if you have been waiting on the CLI.",
+  "published_at": null,
+  "first_seen_at": "2026-08-22T21:50:47.823281+00:00",
+  "content_hash": "sha256:c46030db51466730b531af4a7126c84292ffd22b00b332769afef90e33a11455"
+}

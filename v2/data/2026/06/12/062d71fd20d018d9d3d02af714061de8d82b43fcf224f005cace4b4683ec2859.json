@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "062d71fd20d018d9d3d02af714061de8d82b43fcf224f005cace4b4683ec2859",
+  "company_key": "yc-porter",
+  "company_name": "Porter",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.porter.run/changelog/api-audit-logs-cli-and-browser-session-management-short-lived-cloud-credentials-and-secure-cloud-access-for-workloads",
+  "canonical_url": "https://www.porter.run/changelog/api-audit-logs-cli-and-browser-session-management-short-lived-cloud-credentials-and-secure-cloud-access-for-workloads",
+  "title": "API Audit Logs, CLI and Browser Session Management, Short-lived Cloud Credentials, and Secure Cloud Access for Workloads",
+  "summary": "We’re releasing some security improvements around how users access Porter and how Porter accesses your cloud accounts. We have also overhauled our API audit logs.",
+  "body_markdown": "## **API Audit Logs 2.0**\n\n\nA queryable record of all project-wide activity against the Porter API (including from the dashboard). Results can be filtered based on user, time, action, and resource. This is now the default view under the “Security” tab.\n\n\nAPI audit logs are now available.\n\n\n## ‍\n\n\n## ‍ **CLI and Browser Session Management**\n\n\nThe Porter CLI now authenticates with short-lived sessions. You can also monitor and revoke all active browser/CLI sessions from one place. Admins can manage these sessions team-wide.\n\n\n*Action required:* users on older versions of the CLI should upgrade to the latest version (` brew upgrade porter` , or` /bin/bash -c \"$(curl -fsSL <https://install.porter.run>)\"` ).\n\n\nDashboard and CLI sessions can be monitored and revoked.\n\n\n## **Short-lived Cloud Credentials**\n\n\nPorter now accesses your cloud through session-based, auto-expiring tokens instead of long-lived access keys. This is already live for AWS and GCP. Support for Azure will be released shortly and all customers using Azure will be notified.\n\n\n## **Secure Cloud Access for Workloads**\n\n\n**‍** Your applications can now receive scoped cloud permissions natively, with no persistent access keys to provision or rotate. More information is available in our[docs](https://docs.porter.run/applications/configure/secure-cloud-access) .",
+  "published_at": "2026-06-12T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T19:39:33.596384+00:00",
+  "content_hash": "sha256:aa65dfafdfd6042ba8e63d0a1f86d90bae6445f36f487c6e51b03d79bf07833f"
+}

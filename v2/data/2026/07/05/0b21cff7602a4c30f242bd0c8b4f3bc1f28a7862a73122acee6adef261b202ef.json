@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b21cff7602a4c30f242bd0c8b4f3bc1f28a7862a73122acee6adef261b202ef",
+  "company_key": "yc-diffusion-studio",
+  "company_name": "Diffusion Studio",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://diffusion.studio/changelog/text-to-lottie-text-edit",
+  "canonical_url": "https://diffusion.studio/changelog/text-to-lottie-text-edit/",
+  "title": "Native font support and text editing",
+  "summary": "Native font rendering, editable text slots, instant canvas updates, and reusable Lottie templates.",
+  "body_markdown": "Text-to-lottie now supports native text rendering and editable text slots. Scenes can include real fonts, text slots appear in the properties panel, and edits update the canvas instantly on commit. Exports bundle fonts alongside the Lottie JSON.\n\n\n```text\nnpx   skills   add   diffusionstudio/lottie\n```\n\n\n[GitHub - diffusionstudio/lottie: Generate production-ready Lottie animations with Claude Code or Codex github.com](https://github.com/diffusionstudio/lottie)\n\n\n## Native text and editing\n\n\nThe player renders font-backed Lottie text natively. Text slots show up in the properties panel with their current values. Change the text and the canvas updates instantly. Colors and numbers work the same way.\n\n\nOne control can drive multiple slots at once using grouped targets. Repeated text like brand names, dates, or CTAs stays in sync from a single field. Grouped slots are hidden from the panel so they do not clutter the UI.\n\n\n0:00 / 0:00\n\n\n## Templates\n\n\nGenerate a Lottie template once, then reuse it by changing the content from the properties panel. Swap the headline, description, colors, and export a new version without regenerating the animation.\n\n\n0:00 / 0:00\n\n\nSame brand, different composition. Existing scenes give the skill context to produce new ones that stay consistent.\n\n\n0:00 / 0:00\n\n\n## What else is new\n\n\n- Multiline text wrapping using box text for longer copy\n- Unicode safe text persistence for accented characters, symbols, and special characters\n- Ordered slot controls in the properties panel\n- Bug fixes",
+  "published_at": "2026-07-05T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T16:21:29.490873+00:00",
+  "content_hash": "sha256:acbeddc78a1f98f2501833557940a0e47886053c20d5c88fc4ca288743b22258"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e317d338037faae44def741fdfecb8e3be731a631326e11bba00eee51bc14b8f",
+  "company_key": "yc-rastro",
+  "company_name": "Rastro",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.rastro.ai/resources/playbooks/etim-classification-workflow",
+  "canonical_url": "https://www.rastro.ai/resources/playbooks/etim-classification-workflow",
+  "title": "ETIM Classification Workflow for Distributors",
+  "summary": "Step-by-step guide to classifying electrical distributor catalogs with ETIM. Covers data prep, class selection, feature mapping, and quality assurance.",
+  "body_markdown": "ETIM classification gives every product in your catalog a standardized class and set of technical features. Five stages: audit your data, pick classes, map attributes, run automated classification, validate. With the right tooling, 10,000 SKUs takes under a week.\n\n\n## Why ETIM matters for distributors\n\n\nYou've got tens of thousands of SKUs. Without a shared classification standard, that data is locked in whatever format each supplier sent it in. Customers can't compare products across suppliers. Your team copies specs by hand.\n\n\nETIM gives you a common language. Each product gets a class (EC001049 for miniature circuit breakers, for example) and standardized features: rated current, poles, breaking capacity. That structure makes automated data exchange, cross-supplier search, and real product comparison possible.\n\n\n## The five-stage workflow\n\n\n## What good output looks like\n\n\nA properly classified record has an ETIM class code and version, all mandatory features filled in, and optional features populated where the source data exists. Automated assignments should carry confidence scores. And every value needs an audit trail back to its source.\n\n\n## Common pitfalls\n\n\n1.\n\n\n**Starting with the wrong ETIM version.** Always confirm which version your trading partners expect. ETIM 7, 8, and 9 have different class and feature sets.\n\n\n2.\n\n\n**Classifying at the wrong product level.** ETIM classes apply to individual products, not product families. A single circuit breaker family may span multiple classes if the variants differ significantly.\n\n\n3.\n\n\n**Ignoring feature units.** ETIM features have defined value types and units. A rated current of \"16\" without the unit \"A\" is incomplete.\n\n\n## After classification\n\n\nOnce your catalog is classified, you can generate BMEcat exports, feed structured data into your PIM, and turn on ETIM-based parametric search on your webshop. The classification also makes it much easier to onboard new suppliers, since you can map their data to the same feature set instead of starting from scratch every time.",
+  "published_at": "2026-03-10T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T09:25:54.680175+00:00",
+  "content_hash": "sha256:ece12513973ba4b162958f3d0f5e08f1d867a6fda7d4ec453f6a64f8f02e17d8"
+}

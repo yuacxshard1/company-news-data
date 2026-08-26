@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3243426e6fc9561f0b6fc65944ede911be861d989d2227377edfd645ddb0bad1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-july-2026-release-update",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-july-2026-release-update",
+  "title": "Amazon RDS for Oracle now supports July 2026 Release Update",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Oracle now supports July 2026 Release Update",
+  "body_markdown": "[Amazon Relational Database Service (Amazon RDS) for Oracle](https://aws.amazon.com/rds/oracle/) now supports the[Oracle July 2026 Release Update](https://www.oracle.com/security-alerts/cpujul2026.html#AppendixDB) (RU) for Oracle Database versions 19c, 21c and 26ai. We recommend upgrading to the July 2026 RU as it includes security updates for Oracle database products.\n\n\nStarting with July 2026 releases, the naming format for an RU in Oracle Database 19c changes to <version>.ru-<YYYY-MM>.mrp-<YYYY-MM>.r<N>. For example, the RDS for Oracle July 2026 quarterly RU for Oracle Database 19c is named 19.0.0.0.ru-2026-07.mrp-2026-07.r1. When Oracle releases a monthly Critical Security Patch Update (CSPU) for Oracle Database 19c and 26ai, Amazon RDS will make it available as an MRP version that bundles the CSPU with additional Oracle-recommended fixes. Oracle Database 21c RUs retain their existing naming format. For details, see[Release updates and monthly recommended patches](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Minor.html#RUs-and-MRPs) .\n\n\nYou can apply the July 2026 RU from the Amazon RDS Management Console, or by using the AWS SDK or CLI. To automatically apply updates to your database instance during your maintenance window, enable Automatic Minor Version Upgrade.\n\n\nYou can also use AWS Organizations upgrade rollout policy to stagger automatic minor version upgrades for your Amazon RDS database instances. This feature allows you to automatically apply updates to non-production environments, validate the updates, and then automatically apply the same update to production environments. For additional details about using AWS Organizations upgrade rollout policy for automatic minor version upgrades, refer to[Amazon RDS for Oracle documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Minor.html#oracle-minor-version-upgrade-rollout) .",
+  "published_at": "2026-08-25T07:24:00+00:00",
+  "first_seen_at": "2026-08-25T19:05:11.569981+00:00",
+  "content_hash": "sha256:53e9eb08db6e0668e4581dac9d5a07998606c6c2357c1d947f57619e7a1aa1aa"
+}

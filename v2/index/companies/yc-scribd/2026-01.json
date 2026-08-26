@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-scribd",
+      "company_name": "Scribd",
+      "doc_id": "102440f43fed60a0016a767ccbad40acff7d84fc4196365f7c7c864832bb25fc",
+      "first_seen_at": "2026-07-25T22:26:02.289998+00:00",
+      "published_at": "2026-01-06T00:00:00+00:00",
+      "source_kind": "atom",
+      "summary": "Scribd deploys a lot of code from GitHub to AWS using GitHub Actions, which means many of our Actions need to access AWS resources. Managing AWS API keys and tokens for different IAM users is time-consuming, brittle, and insecure. Managing key-distribution between AWS and GitHub also makes it difficult to track which keys go where, when they should be rotated, and what permissions those keys have. Fortunately AWS supports creating OpenID Connect identity providers which is an ideal tool handle this kind of cross-cloud authentication in a more maintainable way.",
+      "title": "Don’t hardcode IAM credentials in GitHub!"
+    },
+    {
+      "company_key": "yc-scribd",
+      "company_name": "Scribd",
+      "doc_id": "320d984389c6f06882512df6a173ca6a63fd349980c67cec15f73e3936a8ea5b",
+      "first_seen_at": "2026-07-25T22:26:01.324176+00:00",
+      "published_at": "2026-01-20T00:00:00+00:00",
+      "source_kind": "atom",
+      "summary": "Child safety is a non‑negotiable responsibility for any platform that hosts user‑generated content. Over the last year, we designed and deployed a production system that detects known Child Sexual Abuse Material (CSAM) using PhotoDNA perceptual hashes, integrates with the National Center for Missing and Exploted Children’s (NCMEC) reporting system, and scales efficiently across our ingestion surfaces. This post explains the problem we set out to solve, how PhotoDNA hashing works, the online child-protection ecosystem (NCMEC, Tech Coalition, Project Lantern), our architecture and operational model, cost considerations, and key learnings.",
+      "title": "Deploying a Cost-Effective, Scalable PhotoDNA System for CSAM Detection"
+    },
+    {
+      "company_key": "yc-scribd",
+      "company_name": "Scribd",
+      "doc_id": "a8dd31ff768ae0b4382e23b88520f896915ed4c76f53f90ef9a7b95460857e77",
+      "first_seen_at": "2026-07-25T22:26:02.289998+00:00",
+      "published_at": "2026-01-12T00:00:00+00:00",
+      "source_kind": "atom",
+      "summary": "Scribd and Slideshare have been using AWS S3 for almost twenty years and store hundreds of billions of objects making storage management quite a challenge. My focus at Scribd has generally been around data and storage but only in the past twelve months have I started to really focus on one of our hardest technology problems: cost-effective storage and availability for the hundreds of billions of objects that represent our content library.",
+      "title": "Supercharging S3 Intelligent Tiering with Content Crush"
+    }
+  ],
+  "company_key": "yc-scribd",
+  "month": "2026-01"
+}

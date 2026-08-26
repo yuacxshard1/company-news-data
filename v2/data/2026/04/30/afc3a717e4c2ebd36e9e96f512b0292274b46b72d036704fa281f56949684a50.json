@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "afc3a717e4c2ebd36e9e96f512b0292274b46b72d036704fa281f56949684a50",
+  "company_key": "yc-notte",
+  "company_name": "Notte",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.notte.cc/blog/diana-browser-automation",
+  "canonical_url": "https://www.notte.cc/blog/diana-browser-automation",
+  "title": "How Get Diana Uses Notte to Automate Tools That Don't Have APIs",
+  "summary": "Diana, a Slack-based AI assistant backed by Y Combinator and General Catalyst, uses Notte's browser infrastructure to act inside the thousands of tools that don't have a public API.",
+  "body_markdown": "Thousands of tools don't have a public API, and for platforms that need to act inside them on a user's behalf, that's a dead end. Unless you go through the browser.\n\n\nDiana is a Slack-based AI assistant platform backed by Y Combinator and General Catalyst. Their product connects to thousands of tools. For tools without a public API, Diana logs in through a browser on behalf of the user.\n\n\nFor their browser infrastructure, they've partnered with Notte.\n\n\n### **How it works**\n\n\nA user asks Diana to perform an action in a tool that has no API. Diana spins up a Notte browser session, authenticates through the browser, and completes the task. The user can watch the session live through a secure, shareable viewer link.\n\n\n> \"Most of the tools our users need to automate weren't built with APIs in mind. The browser is the only universal interface that exists for all of them, so that's where we had to operate.\"\n>\n>\n> — Upeka Bee, CEO,[Diana](https://w.getdiana.com/)\n\n\n### **Secure Session Sharing**\n\n\nDiana needed their end users to watch live sessions without exposing credentials. Notte's session viewer now uses JWT-scoped tokens: short-lived, scoped to a single session, with a 4-hour expiry. This means no API keys in the URL, and no cross-session access.\n\n\n> \"The live session viewer isn't just a technical feature but a transparency guarantee. The user stays in the loop and stays in control. This is a significant matter when you're asking someone to let an AI act on their behalf.\"\n>\n>\n> — Upeka Bee, CEO,[Diana](https://www.getdiana.com/)\n\n\n### **Result**\n\n\nDiana launched browser logins today as part of their platform, giving their users access to tools that have never been automatable before.\n\n\nDetails on their launch at[getdiana.com](https://getdiana.com/) .",
+  "published_at": "2026-04-30T17:00:00+00:00",
+  "first_seen_at": "2026-07-22T06:23:42.732156+00:00",
+  "content_hash": "sha256:f993b85127ad400187ab33079d83ce884741b9af2b6efa2126fc19b3a7522df3"
+}

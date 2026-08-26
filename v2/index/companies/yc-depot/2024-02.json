@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "dd7d1ddefbcc45688f9476e2b9ea25e0891c5ccf6865e2a69adf4afd63fd3727",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2024-02-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We're excited to announce that we've released a set of Dagger Functions for Depot. You can use them to offload any build or bake operation to Depot and use the built image in your own Dagger code via our ephemeral registry.",
+      "title": "Now available: Dagger Functions for Depot"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "df3dbb7cd2d1368c23987f7a1406ac651255a4be005bd7192fc39ca2d5acd379",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2024-02-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "This article explains how BuildKit works in depth, why it's faster than Docker's previous build engine, and what it looks like under the hood.",
+      "title": "BuildKit in depth: Docker's build engine explained"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "e663a8f1695d19bde1bba4a6f55c00d46330897b0b7a87599ebb87c46bed5e92",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2024-02-19T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Building multiple Docker images sequentially wastes time and duplicates work. `docker buildx bake` lets you define all your builds in one file and run them in parallel, with BuildKit automatically deduplicating shared dependencies.",
+      "title": "Buildx bake deep dive: Bake all your images with one command"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2024-02"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c7050f9cee4122f1fe03551bba583d42fe15b849de788dae02d5ce700794a779",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/headroom-integration",
+  "canonical_url": "https://docs.litellm.ai/blog/headroom-integration",
+  "title": "LiteLLM × Headroom: Use 60-95% fewer tokens with Claude Code",
+  "summary": "Cut input tokens on Claude Code and other LLM traffic by attaching Headroom as a pre_call guardrail on LiteLLM.",
+  "body_markdown": "[Headroom](https://headroomlabs-ai.github.io/headroom/) now runs as a native guardrail on the LiteLLM proxy, compressing tool outputs, RAG payloads, database results, and file reads before they reach the model.\n\n\nLong-context agents burn most of their input budget on repeated tool output, retrieved chunks, and stale scratch state. Headroom intelligently rewrites that content so the model sees the same information at a fraction of the tokens.\n\n\nIf the model needs the full context, LiteLLM will also pass a 'retrieve_headroom' tool to the model, to retrieve the full context from Headroom.\n\n\n## How is it deployed?​\n\n\nHeadroom runs as a sidecar to LiteLLM. Client traffic still hits the LiteLLM gateway; LiteLLM invokes Headroom during the` pre_call` step, swaps in the compressed messages, and forwards the payload upstream. Clients and the LLM provider never talk to Headroom directly.\n\n\nThe benefit of this is two-fold\n\n\n- **Convenience:** Users get 1 api base regardless of if they use prompt compression or not.\n- **Reliability:** If Headroom goes down, your LLM calls are unaffected.\n\n\nCompression works on both` /v1/chat/completions` and` /v1/messages` (Anthropic format), which makes the Claude Code rollout a one-liner for the admin: attach` headroom-compression` to a virtual key, hand it to the developer, and every request they make through` ANTHROPIC_BASE_URL` gets compressed automatically. No client-side change, no code diff.\n\n\nTurn it on per key, per request, or globally via` default_on: true` . Confirm it ran by checking the` x-litellm-applied-guardrails` response header or the Guardrails panel in the Logs UI.\n\n\n**Get started:**[Headroom guardrail setup guide](https://docs.litellm.ai/docs/proxy/headroom) (requires LiteLLM v1.92.x or later; for testing ahead of the stable cut, grab the[v1.92.0-dev.1](https://github.com/BerriAI/litellm/releases/tag/v1.92.0-dev.1) dev release)\n\n\n**Discussion:**[GitHub discussion #31816](https://github.com/BerriAI/litellm/discussions/31816)",
+  "published_at": "2026-06-30T10:00:00+00:00",
+  "first_seen_at": "2026-07-22T02:33:29.495129+00:00",
+  "content_hash": "sha256:0eed1a05ad262193a507a19506757e01be0688b74e8c4b013d5924fb2e992ea4"
+}

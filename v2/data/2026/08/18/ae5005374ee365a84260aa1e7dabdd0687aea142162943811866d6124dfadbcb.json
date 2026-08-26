@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae5005374ee365a84260aa1e7dabdd0687aea142162943811866d6124dfadbcb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
+  "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
+  "summary": "Discover more about what's new at AWS with AgentCore payments is now generally available in Amazon Bedrock AgentCore",
+  "body_markdown": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, and content with just a few lines of code. AgentCore payments provides the security, guardrails, and observability enterprises need to deploy transacting agents in production at scale.\n\n\nAgentCore payments integrates with Coinbase and Stripe Privy wallets for microtransactions, provides payment orchestration across protocols, enforces configurable payment limits at the infrastructure layer, and delivers end-to-end observability through AgentCore Observability. At general availability, AgentCore payments includes Quick Create for Coinbase credential provisioning directly within the AgentCore console, a curated Coinbase Bazar MCP server of pay-per-use x402 endpoints via AgentCore gateway, support for the Machine Payment Protocol (MPP), and the \"upto\" scheme in the x402 protocol for pay-per-inference and dynamic pricing use cases.\n\n\nDevelopers can get started using coding assistant skills such as Claude Code, Kiro, and Codex, AgentCore CLI, or AWS Management Console - follow this[link](https://github.com/awslabs/agentcore-samples/tree/main/01-features/08-agents-that-transact) .\n\n\nAgentCore payments is available in the regions listed[here](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-regions.html) . To learn more, visit the[AgentCore payments documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/payments.html) or the[AWS News Blog](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/) .\n\n\nTo learn about pricing, visit[AgentCore pricing](https://aws.amazon.com/bedrock/agentcore/pricing/) .",
+  "published_at": "2026-08-18T19:15:00+00:00",
+  "first_seen_at": "2026-08-18T22:19:11.708664+00:00",
+  "content_hash": "sha256:abf9b7c8cb097852a9345a7557ec2389233ab36556360df96cd5cde38049b674"
+}

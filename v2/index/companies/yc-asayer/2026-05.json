@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "0fa8331d0e625ebd874d0f700bb88daab9dd9e5cd950a86529161c8bc8be84de",
+      "first_seen_at": "2026-07-25T17:38:53.548823+00:00",
+      "published_at": "2026-05-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "JavaScript bundlers in 2026: how Webpack, Vite, Turbopack, Rspack, esbuild, Rollup, and Parcel compare for modern frontend builds.",
+      "title": "The Current State of JavaScript Bundlers"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "6f09cdca0e88e99ffdce240edb065b4d01fb99641043907e4d5b6b1bd423033e",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2026-05-06T15:28:30+00:00",
+      "source_kind": "rss",
+      "summary": "Hi has anyone tried combined openReplay session replay with live support or co-browsing tools ? we are exploring tools to help users in real time while also replay/session context curious with what stack or approach others are using we are also exploring Red5 for real time streaming approaches still evaluation how it fits in the usecase",
+      "title": "OpenReplay with live support/co-browsing?"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "b64effb4082abba5971b5b9ba2ef2b064ad4e04cd824929ad3578aca75842971",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2026-05-12T09:27:16+00:00",
+      "source_kind": "rss",
+      "summary": "Today, the OpenReplay installation using the following instructions: sudo wget https://raw.githubusercontent.com/openreplay/openreplay/main/scripts/helmcharts/openreplay-cli -O /bin/openreplay sudo chmod +x /bin/openreplay openreplay -i DOMAIN_NAME is consistently failing. The database migration step does not complete: [INFO] Using KUBECONFIG /etc/rancher/k3s/k3s.yaml app databases-migrate-2hfpk › postgres-check app databases-migrate-2hfpk › git app databases-migrate-2hfpk postgres-...",
+      "title": "Installing is always failed today"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "ddcd59bdc286b12998483ee5b2d4754742a9b2f9a6e8da725baed2f73ef5c960",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2026-05-13T05:59:28+00:00",
+      "source_kind": "rss",
+      "summary": "At the moment, I’ve run into another issue with the OpenReplay installation. It has simply stopped installing using the official instructions from the website. It gets stuck while configuring openreplay-ingress-nginx-controller and cannot assign an external IP to it sudo wget https://raw.githubusercontent.com/openreplay/openreplay/main/scripts/helmcharts/openreplay-cli -O /bin/openreplay sudo chmod +x /bin/openreplay openreplay -i ss.mysite.com It will hang for a long time at that step, re...",
+      "title": "Issue with openreplay-ingress-nginx-controller while installation"
+    }
+  ],
+  "company_key": "yc-asayer",
+  "month": "2026-05"
+}

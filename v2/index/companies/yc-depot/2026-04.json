@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "2eb02254def7ed9f871fee6a63d0caac996d7e671964936773f552812a2fd3ed",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-04-16T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Depot Registry v2 is a ground-up rewrite of our container registry. The original design worked well as an ephemeral build store, but it had limitations around tags and repository naming. V2 solves those limitations and adds support for using it as a primary registry.",
+      "title": "Now available: OCI-compliant Depot Registry"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "6fba2ecbb2ae8f4a067d90a91f71b1c1b64c206e77f32940da4e2267d6acf03f",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-04-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Depot CI's orchestrator runs on AWS Lambda durable functions. The orchestrator checkpoints state, suspends between events, and never burns compute while waiting. Here's how we designed the run-workflow-job hierarchy and the callback-driven orchestration loop that powers it.",
+      "title": "Building Depot CI with Lambda durable functions"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "8d151279abc1420ff801f1c7af35012125346a3f99b612c8a0f853ff8b2f15fb",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-04-22T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "With agents writing the initial fuzz harness, the hardest part of getting fuzzing into CI is basically gone. This is the setup I landed on: cargo fuzz, a GitHub Actions matrix job to fan work across multiple runners, and Actions cache to keep the corpus growing between runs.",
+      "title": "How I run distributed Rust fuzzing in GitHub Actions"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "a791f51839db8762ec7b6f8be72edd45d3bf1ccb3528e1c6965b1e8fd6387f32",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-04-09T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Depot CI runs GitHub Actions workflows on Depot infrastructure, and migrating is pretty seamless. Here's a walkthrough of moving an app's CI over, from installing the CLI to digging into logs.",
+      "title": "Migrating my workflows from GitHub Actions to Depot CI"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2026-04"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dd20004a70f6918a5090637e24734806d85dcc3ae311339ce77a1819e700282f",
+  "company_key": "yc-commodityai",
+  "company_name": "CommodityAI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.commodityai.com/posts/reconciling-shipping-documents",
+  "canonical_url": "https://www.commodityai.com/posts/reconciling-shipping-documents",
+  "title": "A practical guide to reconciling shipping documents with AI",
+  "summary": "BLs, weight tickets, certificates, invoices — reconciliation is where documentation errors get caught or get expensive. A field guide to doing it with agents.",
+  "body_markdown": "Reconciliation is the unglamorous heart of physical commodity operations. A single grain cargo can generate dozens of documents — bills of lading, weight certificates, quality certificates, statements of fact, invoices — and every pair of them is an opportunity for figures to disagree.\n\n\n## The three-way check\n\n\nIn practice almost every reconciliation reduces to a three-way comparison: what the contract says, what the documents say, and what the systems say. Agents make this tractable by extracting all three into one structure and diffing them field by field — quantities against tolerance, dates against laycan, parties against the contract, prices against the price basis.\n\n\n## Designing for exceptions, not perfection\n\n\nThe goal is not a system that never raises a hand. It is a system that raises its hand precisely. A useful reconciliation agent separates three situations:\n\n\n- Clean matches, which post straight through with the evidence attached.\n- Known variances — within tolerance, expected at this stage — which post with a note.\n- True breaks, which become tasks for the operator with both versions side by side.\n\n\nOperators stop being proofreaders and become adjudicators. The work that remains is the work that genuinely needs judgment.\n\n\n## What to measure\n\n\nTeams that succeed with this track two numbers from day one: the straight-through rate (documents that needed no human touch) and the time-to-break (how quickly a true discrepancy reached a human). The first measures efficiency; the second measures risk.",
+  "published_at": "2026-06-05T09:00:00+00:00",
+  "first_seen_at": "2026-07-24T06:14:02.324494+00:00",
+  "content_hash": "sha256:6d0efb91158c8f73922866c2afa8a6aedf17aef18e34134ab6dc1b8b24a25b6f"
+}

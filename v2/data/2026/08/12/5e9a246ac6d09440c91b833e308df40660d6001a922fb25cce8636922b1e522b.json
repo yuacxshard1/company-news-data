@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5e9a246ac6d09440c91b833e308df40660d6001a922fb25cce8636922b1e522b",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/bb-explain-profile",
+  "canonical_url": "https://www.buildbuddy.io/changelog/bb-explain-profile",
+  "title": "Analyze slow builds with bb explain profile",
+  "summary": "You can now use the bb CLI to analyze a Bazel timing profile with an AI coding agent using bb explain profile.",
+  "body_markdown": "You can now use the` bb` CLI to analyze a Bazel timing profile with an AI coding agent using` bb explain profile` .\n\n\nThe command downloads the timing profile for an invocation and returns a detailed report with actionable recommendations for speeding up the build.\n\n\nThe command accepts an invocation ID or URL:\n\n\n```text\nbb explain profile   <  INVOCATION_ID  >     bb explain profile https://app.buildbuddy.io/invocation/  <  INVOCATION_ID  >\n```\n\n\nThe command supports interpreting the timing profile with` --agent=codex` or` --agent=claude` . If available, it uses your locally authenticated Claude Code or Codex subscription. Otherwise you can set the environment variable` ANTHROPIC_API_KEY` or` OPENAI_API_KEY` to authorize API requests. You can also specify` --model` and` --effort` to control the agent's behavior.\n\n\n```text\nbb explain profile   --agent  =  codex   --model  =  gpt-5.4   --effort  =  high   <  INVOCATION_ID  >\n```",
+  "published_at": "2026-08-12T10:00:00+00:00",
+  "first_seen_at": "2026-08-13T21:05:38.102607+00:00",
+  "content_hash": "sha256:75703e08216e11f5566ca9074bf207beee0ad54064fa73dea9b6cb232c8aaed4"
+}

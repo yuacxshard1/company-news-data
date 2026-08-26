@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ecfd409cc8a68ddb97b475d68e1a358cdd6ba188c303bf3a68a4ef8af69f9e3f",
+  "company_key": "yc-dittofeed",
+  "company_name": "Dittofeed",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.dittofeed.com/post/release-v0-22-0",
+  "canonical_url": "https://www.dittofeed.com/post/release-v0-22-0",
+  "title": "Release v0.22.0",
+  "summary": "",
+  "body_markdown": "Hello everyone, **v0.22.0** is an important release for Dittofeed, our open-source customer engagement platform.\n\n\nWe’ve opened up dittofeed-ee, from a few select customers, to the broader public. This extension to Dittofeed includes support for multi-tenancy, with the ability to host multiple workspaces on the same Dittofeed instance.\n\n\nWe’ve also made major improvements to the UX of our users table along with various bug fixes and improvements.\n\n\nIf you haven’t already, you get started messaging your users with Dittofeed Cloud by visiting our[dashboard](https://app.dittofeed.com/dashboard) !\n\n\n## Release Highlights\n\n\n### 1. New: dittofeed-ee\n\n\ndittofeed-ee is a closed source extension to Dittofeed that supports multi-tenancy. Multi-tenancy, via the` multi-tenant` auth mode, enables multiple workspaces to be hosted from the same instance of Dittofeed. It also supports authenticating dashboard members separately.\n\n\nThis feature has been in a closed beta with several of our long-time self-hosting users, and we’re releasing it publicly for the first time!\n\n\nIf you’re interested in trying it out, contact us atsupport@dittofeed.com and we’ll send you an access token!\n\n\nSee our docs for more information:\n\n\n[https://docs.dittofeed.com/deployment/self-hosted/auth-modes/multi-tenant](https://docs.dittofeed.com/deployment/self-hosted/auth-modes/multi-tenant)\n\n\n‍\n\n\n### 2. Improved: Users Table UX\n\n\nIn this release we’ve made several substantial UX improvements to the users tables through the application. This includes:\n\n\n##### • Improved performance\n\n\n##### • Additional filtering, by subscription group\n\n\n##### • Bug fixes for pagination\n\n\n##### • Refresh and auto-refresh buttons\n\n\n‍\n\n\nUsers Table UX\n\n\n‍\n\n\n### 3. Fix: Journey Builder\n\n\nWe made a fix to our journey builder which could prevent journey edits from being persisted under some configurations.\n\n\n‍\n\n\n### 4. Fix: Postmark Error Handling\n\n\nWe made improvements to our Postmark error handling, which could previously mark emails as successfully sent under some conditions. Specifically, when postmark responds with a 200 status, but presents an error code, we should mark an error, and not retry.\n\n\n‍\n\n\n## Wrap Up\n\n\nThat’s all folks! This release brings some exciting new features and improvements, with dittofeed-ee and our new users table.\n\n\nIf you want to try dittofeed-ee for multi-tenancy, shoot us an email atsupport@dittofeed.com . If you want to try out Dittofeed Cloud, you can start sending messages in the[dashboard](https://app.dittofeed.com/dashboard) !\n\n\n‍\n\n\n‍\n\n\n‍",
+  "published_at": "2025-03-24T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:44:36.904212+00:00",
+  "content_hash": "sha256:b58b976a352865ca2c35fdabf3b900662d45bb10f097e8ee16f7ba59b34f137b"
+}

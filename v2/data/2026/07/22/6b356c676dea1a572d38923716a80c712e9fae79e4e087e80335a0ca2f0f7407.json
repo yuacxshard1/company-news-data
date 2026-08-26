@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6b356c676dea1a572d38923716a80c712e9fae79e4e087e80335a0ca2f0f7407",
+  "company_key": "yc-pluggy",
+  "company_name": "Pluggy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.pluggy.ai/changelog/atualiza%C3%A7%C3%B5es-de-produto-setembro",
+  "canonical_url": "https://docs.pluggy.ai/changelog/atualiza%C3%A7%C3%B5es-de-produto-setembro",
+  "title": "Atualizações de Produto | Setembro",
+  "summary": "Outubro foi um mês cheio de avanços no ecossistema Pluggy! 🌟 Tivemos melhorias importantes em conectores Open Finance, otimizações de performance e novos recursos que tornam as integrações mais estáveis, precisas e fáceis de usar. Entre os destaques estão ajustes em mensagens de aviso de cartões de…",
+  "body_markdown": "[Back to All](https://docs.pluggy.ai/changelog)\n\n\n> Outubro foi um mês cheio de avanços no ecossistema Pluggy! 🌟\n>\n>\n> Tivemos melhorias importantes em conectores Open Finance, otimizações de performance e novos recursos que tornam as integrações mais estáveis, precisas e fáceis de usar.\n> Entre os destaques estão ajustes em mensagens de aviso de cartões de crédito, correções de lógica em transações e saldos, suporte a deep links no OAuth e novos conectores disponíveis em BETA.\n> Abaixo, você confere o resumo das principais atualizações que chegaram para deixar sua integração com a Pluggy ainda mais confiável. 👇\n\n\n###\n\n\n\\[OF\\] Credit Card Warning\n\n\n→ Avisos de cartão sem consentimento/indisponível sempre visíveis.\n→ Mensagem separada por tipo: no consent ou unavailable.\n\n\n###\n\n\n\\[Santander OF\\] Pagination Fix\n\n\n→ Paginação ajustada: contagem correta mesmo com page-size=100.\n→ Limite adaptativo (500 páginas / 200 k transações).\n\n\n###\n\n\n\\[OF\\] Avoid Duplicates\n\n\n→ Adicionados Nubank PF/PJ à whitelist de bloqueio de duplicidade (CPF/CNPJ).\n→ Lista de instituições revisada e documentada.\n\n\n###\n\n\n\\[Sandbox\\] Múltipla Alçada\n\n\n→ Fluxo funcional no widget; permite teste com múltiplos CPFs.\n→ statusDetail indica quando a conta precisa de autorização.\n\n\n###\n\n\n\\[OF\\] Credit Card Future Transactions\n\n\n→ Corrigido status incorreto de transações futuras.\n→ Remove billId se billPostDate > data atual → marca como PENDING.\n\n\n###\n\n\n\\[OF\\] Closing Balance\n\n\n→ closingBalance = availableBalance + blockedBalance.\n→ Agora reflete corretamente o saldo contábil.\n\n\n###\n\n\n\\[API\\] Deep Links OAuth\n\n\n→ oauthRedirectUri agora aceita deep links.\n→ Facilita autenticação e retorno direto em apps mobile.\n\n\n###\n\n\n\\[OF\\] New Connectors (BETA)\n\n\n→ Dock PF – Accounts, Transactions, Identity\n→ QI SCD PF – Accounts, Transactions, Loans, Identity\n→ QI SCD PJ – Accounts, Transactions, Loans, Identity\n\n\n[Veja a versão detalhada aqui.](https://docs.pluggy.ai/changelog/atualiza%C3%A7%C3%B5es-de-produto-detalhada-setembro#/)",
+  "published_at": null,
+  "first_seen_at": "2026-07-22T09:30:43.038391+00:00",
+  "content_hash": "sha256:03cfaa00cd26747d0fe0aa29a81bffc7057ce7ac49cec4ac34f8291f96df69a8"
+}

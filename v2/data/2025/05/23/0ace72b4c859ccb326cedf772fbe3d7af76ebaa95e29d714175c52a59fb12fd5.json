@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0ace72b4c859ccb326cedf772fbe3d7af76ebaa95e29d714175c52a59fb12fd5",
+  "company_key": "yc-rune",
+  "company_name": "Rune",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://developers.rune.ai/blog/release-notes-april-2025",
+  "canonical_url": "https://developers.rune.ai/blog/release-notes-april-2025",
+  "title": "New Updates! April 2025",
+  "summary": "Release notes for the Rune platform",
+  "body_markdown": "## 🛠️ App Improvements​\n\n\n- Enhanced the login screen to display the invited realm when the app is opened from a realm invite link 🌐📨\n- 🤝 Improved onboarding from a friend link—new users auto-add their friend when creating a realm, and existing users see a fresh splash screen.\n- 🗣️⏱️ Deployed new room card variations in realms and DMs to clearly show who’s in the room and how long they’ve been talking!\n- Made the delete account screen more compact and styled it to support auto graphic resizing, while removing scroll to better support accessibility settings.\n- Updated the leave group button to appear disabled for group owners, with an alert explaining why they can’t leave if clicked 🚫👑\n- Refreshed the join room and join realm buttons with a bold new look to align with our current designs ✨\n- Officially rolled out the use of “realms” across the app, instead of “groups”!\n- 🏁 Introduced default realm names during onboarding to make getting started even easier!\n- 💬🌟 Refreshed the Friends tab to be “Chats” with updated styling and a clearer “No Friends” prompt to create a realm!\n\n\n## 🪲 Bug Fixes​\n\n\n- Fixed spacing between room cards in the room list to tighten up the layout and remove excess gaps 📏\n- Polished onboarding with fixes for realm creation prompts, alerts for friend links while in rooms, and smoother swipe-back from realm chat 🎯\n- Implemented several fixes, including QR screen titles, improved layout for editing realm names, better realm link navigation, and support for long realm names in details.\n- Adjusted room card avatar styling to prevent crowding when many users are in the room 👥\n- Fixed stories and bottom sheet avatar functionality so now tapping correctly opens the user’s profile page!\n- Prevented an app crash by adding safeguards to unprotected route references in the code.\n- Removed multiple navigation calls and switched to a different history reset method to help prevent another app crash 🔄📱\n- Enabled automatic refreshing of groupmates when users are added, removed, or join, ensuring the most up-to-date room info.\n- Fixed a cold boot issue where push notification taps didn’t work due to a login state bug—now handled correctly when already signed in 🔔\n\n\nSubscribe to our newsletter for more game dev blog posts\n\n\nWe'll share your email with Substack ⓘ Substack's embed form isn't very pretty, so we made our own. But we need to let you know we'll subscribe you on your behalf. Thanks in advance!",
+  "published_at": "2025-05-23T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T23:32:13.637334+00:00",
+  "content_hash": "sha256:a681616ce4a4dd492ea2c22900ef0bc0c0219b6a0f091f205cd44398bb794c30"
+}

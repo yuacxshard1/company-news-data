@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fe86ebb36f4544230dd53855d322a2d3a236d639722197ff47da1be6af8e37a4",
+  "company_key": "yc-castle-2",
+  "company_name": "Castle",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.castle.io/changelog/webhook-api-key-selection",
+  "canonical_url": "https://docs.castle.io/changelog/webhook-api-key-selection",
+  "title": "Webhook API Key selection",
+  "summary": "Castle now lets you choose which API Secret is used for webhook signing. This makes it easier to isolate integrations and rotate secrets independently. Available on Enterprise plans. If you don’t make a selection, webhooks will continue using the API Secret that was previously in use.",
+  "body_markdown": "[Back to All](https://docs.castle.io/changelog)\n\n\nAdded\n\n\nCastle now lets you choose which API Secret is used for webhook signing. This makes it easier to isolate integrations and rotate secrets independently.\n\n\nAvailable on Enterprise plans.\n\n\nIf you don’t make a selection, webhooks will continue using the API Secret that was previously in use.",
+  "published_at": "2026-01-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T12:42:16.969450+00:00",
+  "content_hash": "sha256:c57e04734e3418408af7975164ce5b08f8529217551590bbfd1cbb0b1e2b196e"
+}

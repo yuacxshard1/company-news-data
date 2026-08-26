@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "15e173b3e7d0453794c72783a5ef642e820b37d7a02369274a96c4717c0abe3f",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2026-01-14-advanced-autoscaling-and-bring-your-own-subnets",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2026-01-14-advanced-autoscaling-and-bring-your-own-subnets",
+  "title": "Advanced autoscaling and bring your own subnets - Flightcontrol Changelog | Productlane",
+  "summary": "",
+  "body_markdown": "Aside from the below, we are hard at work getting the major new version ready for early access testing!\n\n\n## 🚀 Features\n\n\n-\n\n\n**Protected Environments**\n\n\n-\n\n\nNow you can enable delete protection under environment settings in the dashboard\n\n\n-\n\n\nAlso restricts actions for users with the new **Restricted Developer** role\n\n\n-\n\n\n**New Restricted Developer RBAC role**\n\n\n-\n\n\nSame as Developer, **except in protected environments** they cannot view env var values or connection strings, cannot edit environment config, cannot add or delete services, cannot add or delete domains, but can change service config, add & update env var values, and deploy.\n\n\n-\n\n\n**Fine grained autoscaling config**\n\n\n-\n\n\nAdd following fields:\n\n\n-\n\n\n` scaleInCooldownTimerSecs` (falls back to deprecated` cooldownTimerSecs` if not present)\n\n\n-\n\n\n` scaleOutCooldownTimerSecs` (falls back to deprecated` cooldownTimerSecs` if not present)\n\n\n-\n\n\n` scaleInProtectionCPU`\n\n\n-\n\n\n` scaleInProtectionMemory`\n\n\n-\n\n\n` scaleInProtectionRequests`\n\n\n-\n\n\n[Read the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code/web#autoscaling)\n\n\n-\n\n\n**Use your own VPC subnets**\n\n\n-\n\n\nPreviously we would create new subnets in your VPC\n\n\n-\n\n\nNow you can connect your existing subnets\n\n\n-\n\n\n[Read the docs](https://www.flightcontrol.dev/docs/guides/flightcontrol/using-code#option-2-use-existing-subnets)\n\n\n## 🐞 Bug Fixes\n\n\n-\n\n\nFix various ECS-EC2 deployment issues\n\n\n-\n\n\nFix blue/green deployment issues\n\n\n-\n\n\nFix port form error not showing on network server\n\n\n-\n\n\nMisc fixes and improvements",
+  "published_at": null,
+  "first_seen_at": "2026-08-09T22:19:16.006447+00:00",
+  "content_hash": "sha256:0eb97174c105fb3ab94e569267f522bec49c0f7f0881d9588b59e52f1d616324"
+}

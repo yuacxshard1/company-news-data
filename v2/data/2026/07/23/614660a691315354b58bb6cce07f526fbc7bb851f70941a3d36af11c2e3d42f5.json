@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "614660a691315354b58bb6cce07f526fbc7bb851f70941a3d36af11c2e3d42f5",
+  "company_key": "yc-floweq",
+  "company_name": "FlowEQ",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.floweq.com/blog/export-and-import-your-flows",
+  "canonical_url": "https://www.floweq.com/blog/export-and-import-your-flows",
+  "title": "Export and Import your Flows",
+  "summary": "",
+  "body_markdown": "If you have BrightReps running in two instances, staging and production, you know how important it is to have your flows well duplicated to maintain integrity. Before, that used to be a more manual process, but now you can export flows from one instance, and reimport them in another.\n\n\nNote: Some CRMs, like Zendesk for example, have global unique IDs for their ticket fields. If you had set up your BrightReps staging instance with your Zendesk staging instance, your ticket field IDs won't work from your BrightReps production instance. After import is complete, you will need to edit the flow to point any Zendesk Update Ticket Fields stepstypes towards your new Zendesk production instance field IDs.\n\n\n**How to export a flow**\n\n\n1. Open the flow you wish to export.\n2. Click the dropdown on the **Publish Changes** button, then select **Export Flow as File**\n3. Click on the download link in the next modal.\n4. A text file will be downloaded to your computer - that's your flow!\n\n\n‍\n\n\nHow to export your flows\n\n\n‍ **How to import a flow**\n\n\n1. From Flow Manager, click **** the **Create Flow** button at the top\n2. **Drag the text file into the box at the bottom,** or click **Select File to Upload** then select the text file from there.\n3. There is no step 3! Your flow will now appear in Flow Manager\n\n\nHow to import your flows\n\n\n‍",
+  "published_at": null,
+  "first_seen_at": "2026-07-23T09:48:12.201585+00:00",
+  "content_hash": "sha256:02e7910a41f47a27c720ef46aab8447265061555942a2ed4817af161bad558ff"
+}

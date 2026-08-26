@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "22dd95c36f9022f05c8c68853e765a85212d799f4e89833141d4310b68e9cbc4",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-june-12-2026",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-june-12-2026",
+  "title": "Weekly Product Changelog: June 12, 2026",
+  "summary": "Fixed: ClickUp automation toggles: Toggles in ClickUp integration settings (Due date sync, Mark as complete, Assign to me, etc.",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nFixed:\n\n\n- ClickUp automation toggles: Toggles in ClickUp integration settings (Due date sync, Mark as complete, Assign to me, etc.) were unresponsive for some accounts.\n- ClickUp task import: Pasting a ClickUp task link in the new URL format (with workspace ID in the path) was failing to import.\n- Notion task import: Pasting Notion's new[app.notion.com/p/](http://app.notion.com/p/) ... links created a plain website task instead of a linked Notion task.\n- Notion panel crash: Opening the Notion integration panel before your workspace data finished loading could crash the panel.\n- Sunny's tone: Sunny no longer slips into terms of endearment.\n- Recurring tasks via Sunny: Asking Sunny to create or edit a recurring task with an end date or limited number of occurrences now gives a clear message instead of failing unexpectedly.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T02:45:30.397865+00:00",
+  "content_hash": "sha256:39743c07f737cb14a0c2684444e722ef3d88ed8878ca44cb33edadc731364967"
+}

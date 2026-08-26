@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1318ab3b1223573caa70686e2371a9f1e6cb032bbfbca37f0594ca6e9aefb4de",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/mcp-read-and-resolve-comment-threads",
+  "canonical_url": "https://slite.com/changelog/mcp-read-and-resolve-comment-threads",
+  "title": "MCP: Read and resolve comment threads",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "Slite's MCP integration now exposes comment threads on documents. Any MCP client — Claude, Cursor, your own agent — can now:\n\n\n- **List all threads** on a note, with full comment history, participants, and resolved state\n- **Fetch a specific thread** by ID, or by note + thread ID together\n- **Resolve or unresolve** a thread programmatically\n\n\nThis opens up powerful agentic workflows: an AI can now read the discussion context on a design doc, triage open threads, or mark resolved ones as done — without any human having to open the document first.\n\n\n### Find in Collections\n\n\nCmd+F now matches text inside collection cells — for both embedded collections and standalone collection docs. Results are interleaved with regular text matches in document order, so next/previous navigation walks the full page top-to-bottom. Note: Replace is text-only; collection matches are navigated but not replaceable.\n\n\n### Other improvements\n\n\n- **Visual polish across the editor:** inline code has a higher border radius, hints have a softer style with a light border, and tabs components have been redesigned. Links inside inline comments are now clickable, and deleted content in comments shows strikethrough.\n- **Better comment experience:** Comment layout is more dense, the inline mark for resolved comments is now visible in the editor, and the resolved/open tab bar is now sticky.\n- **Subdoc creation on shared docs:** users with write access on a \"Shared with me\" doc can now create subdocuments directly from that doc, without needing access to the parent channel.\n- **Billing: incomplete subscription banner:** if your workspace has an incomplete Stripe subscription, a banner now appears on the billing screen with a direct \"Complete payment\" action.\n- **Verification events now appear in doc history:** Verification changes now show up in the document history timeline, so you can see exactly when a doc was confirmed accurate and by whom.\n\n\n### Fixes\n\n\n- Long team or user group names now truncate with an ellipsis in the verification owner menu and the Knowledge Management Panel owner filter — no more overflow.\n- The public share settings panel now stays open when a document is already publicly shared, so the sharing state is always visible.\n- Going back after a search no longer re-triggers navigation to the same search query.\n- Links opened from the in-app changelog now open in a new tab on the desktop app.",
+  "published_at": "2026-04-23T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T13:26:38.265771+00:00",
+  "content_hash": "sha256:ffa0d3e81230d3694e87c18faa3ed89f3f736e061b1874fd90f0c91babe93714"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "53c9ad4d5000943e34f1a39aed49e92bc7bcd7c9175f47d2269dc0a9c4614eac",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/19-9-2025",
+  "canonical_url": "https://browser-use.com/changelog/19-9-2025",
+  "title": "Actor Use",
+  "summary": "Our CDP-based alternative to Playwright/Puppeteer—built for AI-driven automation",
+  "body_markdown": "Combine precise element interactions with AI-driven automation in a single workflow.\n\n\n```text\nfrom   browser_use   import   Browser, Agent\nfrom   browser_use.llm.openai   import   ChatOpenAI\n\n\nasync   def   main  ():\nllm   =   ChatOpenAI(  api_key  =  \"your-api-key\"  )\nbrowser   =   Browser()\nawait   browser.start()\n\n\n# 1. Actor: Precise navigation and element interactions\npage   =   await   browser.new_page(  \"https://github.com/login\"  )\nemail_input   =   await   page.must_get_element_by_prompt(  \"username field\"  ,   llm  =  llm)\nawait   email_input.fill(  \"your-username\"  )\n\n\n# 2. Agent: AI-driven complex tasks\nagent   =   Agent(  browser  =  browser,   llm  =  llm)\nawait   agent.run(  \"Complete login and navigate to my repositories\"  )\n\n\nawait   browser.stop()\n```",
+  "published_at": "2025-09-19T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:cddfab21925d31ec4671d253ad1bdbbc4dbcaa3fb1e5a0db849d836f151b2f38"
+}

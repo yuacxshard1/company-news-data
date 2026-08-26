@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0cc87bfdafa495ef75bd714654932229247f616ef1dfcaf66ba838e73d4ad144",
+  "company_key": "yc-text-blaze",
+  "company_name": "Text Blaze",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blaze.today/blog/free-dot-phrases-templates/",
+  "canonical_url": "https://blaze.today/blog/free-dot-phrases-templates/",
+  "title": "25 Dot Phrase Templates & Tips in 2026",
+  "summary": "A step-by-step guide for creating and using dot phrase templates for medical professionals.",
+  "body_markdown": "Patient name: {formtext: name=name} | Date:{time: ddd, DD MMMM YYYY} **Subjective symptoms:** {note}\n\n\n- Include symptom dimensions, chronological narrative of patient’s complains, information obtained from other sources (always identify source if not the patient).\n- Pertinent past medical history.\n- Pertinent review of systems, for example, “Patient has not had any stiffness or loss of motion of other joints.”\n- Current medications (list with daily dosages).{endnote}\n\n\nThe patient is a {formtext: name=age; cols=5} y/o {formmenu: male; female} complaining of {formtext:name=` chief complaint` } for the last {formtext: cols=5} {formmenu: days; weeks; months; years; hours; minutes}.\n\n\n{formparagraph: cols=50}\n\n\n**Objective findings:** {note} The physical exam and laboratory data section:\n\n\n- Vital signs.\n- Physical exam.\n- All pertinent labs, x-rays, etc. completed at the visit.\n\n\n{endnote}{formparagraph: cols=50}\n\n\n**Assessment/Problem List** {note}\n\n\n-\n\n\nAssessment: A one sentence description of the patient and major problem.\n\n\n-\n\n\nProblem list: A numerical list of problems identified.\n\n\n-\n\n\nAll listed problems need to be supported by findings in subjective and objective areas above.\n\n\n-\n\n\nTry to take the assessment of the major problem to the highest level of diagnosis that you can, for example, “low back sprain caused by radiculitis involving left 5th LS nerve root.”\n\n\n-\n\n\nProvide at least 2 differential diagnoses for the major new problem identified in your note.\n\n\n{endnote}{formparagraph: cols=50}\n\n\n**Plan of treatment:** {note}\n\n\n- Your plan for the patient based on the problems you’ve identified.\n- Develop a diagnostic and treatment plan for each differential diagnosis.\n- Your diagnostic plan may include tests, procedures, other laboratory studies, consultations, etc.\n- Your treatment plan should include: patient education, pharmacotherapy if any, other therapeutic procedures. You must also address plans for follow-up (nextscheduled visit, etc.)\n\n\n{endnote}{formparagraph: cols=50}",
+  "published_at": "2025-01-02T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:34.723875+00:00",
+  "content_hash": "sha256:734eb6b35629ada5c2af2d8b4c1ca834de1097ca42c242a93c1396777329bb61"
+}

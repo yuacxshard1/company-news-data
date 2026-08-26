@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "db2cf5fb150052d0b2973938b7d2b221191af3aed2170f186a540eb4db433869",
+  "company_key": "yc-doe",
+  "company_name": "Doe",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://doe.so/blog/openclaw-but-enterprise-ready",
+  "canonical_url": "https://doe.so/blog/openclaw-but-enterprise-ready",
+  "title": "OpenClaw's Vision, Enterprise-Ready",
+  "summary": "OpenClaw proved AI agents should work for you. Doe takes that idea and makes it ready for real teams, with a one-minute setup.",
+  "body_markdown": "OpenClaw crossed 182,000 GitHub stars this month, proving that people want AI that isn't just a chatbot but actually takes action on their behalf.\n\n\nThe concept is simple: an agent that runs on your own machine, connects to the tools you already use, and actually does things for you instead of just answering questions.\n\n\nWe built Doe around the same idea, but we were built with security and scalability from the get-go.\n\n\n## Where Teams Hit a Wall\n\n\nThe self-hosted model works great until you need to put it in front of a real team.\n\n\n- **Security is entirely on you.** API keys sit in config files with no audit trail. Every new integration is another surface you're responsible for locking down, and there are no built-in access controls to help.\n\n\n- **It doesn't scale.** What runs fine on one Mac Mini falls apart when twenty people need concurrent access. There's no multi-tenancy and no way to grow the infrastructure without doing it yourself.\n\n\n- **Maintenance is constant.** Plugin conflicts and breaking changes from LLM providers pile up. Someone on your team ends up debugging infrastructure instead of doing their actual job.\n\n\nFor a personal project, none of this matters. For a company running real operations, it quickly becomes a liability.\n\n\n## Doe: Same Vision, Built for Teams\n\n\nDoe gives you the same autonomous agent experience. It connects to your CRM, databases, spreadsheets, and communication tools, and completes multi-step work without hand-holding. The difference is what's underneath.\n\n\n**Security is built in, not bolted on.** End-to-end encryption, SOC 2 compliance, role-based access, and full audit logs. Your data stays isolated and every action is traceable.\n\n\n**It scales without you thinking about it.** One analyst or an entire operations team. Doe handles concurrent workloads across your organization without anyone provisioning a server.\n\n\n**Nothing to maintain.** Updates ship automatically, integrations just work, and you never have to touch a Docker container or config file again.\n\n\n## Get Started in One Minute\n\n\nDoe works in under sixty seconds. No server provisioning, no YAML.\n\n\nOpenClaw has shown what AI agents could be. Doe makes it something your whole team can actually rely on.",
+  "published_at": "2026-02-23T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T16:44:00.145230+00:00",
+  "content_hash": "sha256:f2547a0a10a8db4715ab17b9536fcc8c7c977ddcc6b2442bbf6a59c933eb2bc1"
+}

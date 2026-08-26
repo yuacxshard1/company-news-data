@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bf7577cc4bdb4414c0ad8d5124b303da8a28cc0d184cd58481db340858247103",
+  "company_key": "yc-reprompt",
+  "company_name": "Reprompt",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://repromptai.com/blog/search-and-ask-api",
+  "canonical_url": "https://repromptai.com/blog/search-and-ask-api",
+  "title": "Introducing Search and Ask APIs",
+  "summary": "Two small web primitives for agents: raw search results or a fast answer with citations.",
+  "body_markdown": "Search is probably the most requested feature from Reprompt customers building agents.\n\n\nThe request is usually simple: give the agent access to the web without making us adopt another search payload, scraping system, or research framework.\n\n\nWe built two endpoints because there are two different jobs hiding inside that request.\n\n\n## Search\n\n\n` POST /v1/search` returns ranked web results: title, URL, snippet, and position. Reprompt resolves the organization from the authenticated API key.\n\n\n```text\n{\n\"query\": \"Where is the visitor entrance to the Empire State Building?\"\n}\n\n\n```\n\n\n```text\n{\n\"query\": \"Where is the visitor entrance to the Empire State Building?\",\n\"results\": [\n{\n\"position\": 1,\n\"title\": \"FAQs: Tickets, Hours, & Directions\",\n\"url\": \"https://www.esbnyc.com/visit/faq\",\n\"snippet\": \"The Observatory entrance is located at 20 West 34th Street.\"\n}\n]\n}\n\n\n```\n\n\nThis is the endpoint for agents that already have their own reasoning loop. Search gets the web into a stable shape. The agent can rerank it, filter it, cite it, or pass it to another model.\n\n\n## Ask\n\n\n` POST /v1/ask` takes the same input and returns a short answer with inline citations.\n\n\n```text\n{\n\"query\": \"Where is the visitor entrance to the Empire State Building?\",\n\"answer\": \"The visitor entrance is at 20 West 34th Street in Manhattan. [1]\",\n\"sources\": [\n{\n\"position\": 1,\n\"title\": \"FAQs: Tickets, Hours, & Directions\",\n\"url\": \"https://www.esbnyc.com/visit/faq\"\n}\n]\n}\n\n\n```\n\n\nAsk performs one search and one fast model call. It is useful when the agent—or the person using it—needs an answer rather than a result set.\n\n\nThis is not deep research. There is no planner, browser loop, or ten-minute report. Ask is meant to be a quick, bounded web primitive.\n\n\n## Same input, same price\n\n\nBoth endpoints accept one plain query object. Both cost **$5 per 1,000 requests** . Ask has no separate token surcharge.\n\n\nWe use this Search/Ask split internally because it makes tool selection boring. If the agent needs evidence, call Search. If it needs a grounded explanation, call Ask.\n\n\nSearch and Ask are available in Reprompt v1.\n\n\n[Read the API documentation.](https://docs.repromptai.com/guides/search-and-ask)",
+  "published_at": "2026-07-27T00:00:00+00:00",
+  "first_seen_at": "2026-07-28T00:12:22.152508+00:00",
+  "content_hash": "sha256:82ae38dadb8d615cdd6339e2a4d12ece91a75a4b83a0ae1da5bfb86a65846fad"
+}

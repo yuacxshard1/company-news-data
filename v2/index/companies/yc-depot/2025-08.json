@@ -1,0 +1,66 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "22e19a8cc4bd1fff79142c2e8437495007d1c89a00c2e420d3503f10d21aae6c",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-08-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Build a specialized container building system using Depot's low-level Go SDK to transform tar archives into container images. This advanced walkthrough demonstrates the three-step build flow: registering builds, acquiring ephemeral BuildKit machines, and configuring custom build solutions.",
+      "title": "From Go code to container image with Depot API"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "59ad63c1bb12e631ba2ca778f505ce09a1f7f0a4b81b9b69d02644abdcf648cf",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-08-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Self hosting CI runners sounds great. You get control, flexibility, and the promise of lower cost. But most teams that try it end up burned out and buried in maintenance. Between flaky APIs, surprise cloud bills, and endless patching, the tradeoffs add up fast. Here's what actually happens when you go it alone and why some teams decide not to.",
+      "title": "The hidden cost of self hosting CI runners"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "8e8d72abeef9f8876da010c1d325778c268a40a5803dac83d2861bebc92f3a55",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-08-15T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "GitHub Actions Runners power every job you run, whether on GitHub-hosted machines or your own hardware. But the way they work and the APIs they talk to have been changing. In this first part of our deep dive, we unpack the Listener process, how it's evolved from Azure DevOps roots, and what those changes mean for anyone running or accelerating Actions with Depot.",
+      "title": "GitHub Actions Runner architecture: The listener"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "98e259f1d1ea8b7152b89c168a2e96644952e3f9b337ddd8216b872ff76a7d22",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-08-22T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Monorepos promise faster development and better visibility across your stack. But they also introduce scaling problems most teams do not see coming. This post breaks down the tradeoffs, the tooling challenges, and when a monorepo actually makes sense.",
+      "title": "Monorepos: Worth the hype?"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "c0482b78d72355be04ea04758f2a48f8a9b70364bdc9b454193bad610e09e64c",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-08-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We've brought remote agent sandboxes to Depot, starting with remote Claude Code agents. Run AI coding sessions in persistent cloud sandboxes with full filesystem context, Git integration, and session sharing across your entire team. No more starting from scratch in async environments.",
+      "title": "Now available: Remote agent sandboxes on Depot"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "f0ef4cbe6ccf3f14f15c5f84bff2d594d15c01d346cad0cee52cbf5a85575fd1",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-08-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Building Rust projects in CI can be painfully slow, but with the right optimizations, you can dramatically reduce build times. We tested various techniques on the Zed codebase and achieved a 35% speedup over our already-optimized baseline, cutting build times from 27 minutes to just 16 minutes.",
+      "title": "Guide to faster Rust builds in CI"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2025-08"
+}

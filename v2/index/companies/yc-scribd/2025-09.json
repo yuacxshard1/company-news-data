@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-scribd",
+      "company_name": "Scribd",
+      "doc_id": "cfcc7b3e8cb2e859d6c5aa48c9d2a6e33661a7a8f74dc6cc0abcb6ee5172a6bf",
+      "first_seen_at": "2026-07-25T22:26:02.289998+00:00",
+      "published_at": "2025-09-22T00:00:00+00:00",
+      "source_kind": "atom",
+      "summary": "We designed and implemented a scalable, cost-optimized backup system for S3 data warehouses that runs automatically on a monthly schedule. The system handles petabytes of data across multiple databases and uses a hybrid approach: AWS Lambda for small workloads and ECS Fargate for larger ones. At its core, the pipeline performs incremental backups — copying only new or changed parquet files while always preserving delta logs — dramatically reducing costs and runtime compared to full backups. Data is validated through S3 Inventory manifests, processed in parallel, and stored in Glacier for long-term retention. To avoid data loss and reduce storage costs, we also implemented a safe deletion workflow. Files older than 90 days, successfully backed up, and no longer present in the source are tagged for lifecycle-based cleanup instead of being deleted immediately. This approach ensures reliability, efficiency, and safety: backups scale seamlessly from small to massive datasets, compute resources are right-sized, and storage is continuously optimized.",
+      "title": "Building a Scalable Data Lake Backup System with AWS"
+    }
+  ],
+  "company_key": "yc-scribd",
+  "month": "2025-09"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "63b126884e2397046655114024993a043f2a061d74580e89a5c0ea2c07f612ba",
+  "company_key": "yc-voiceos",
+  "company_name": "VoiceOS",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.voiceos.com/blog/agentic-android-os-mcp",
+  "canonical_url": "https://www.voiceos.com/blog/agentic-android-os-mcp",
+  "title": "Your Android Phone Is Now an MCP Server",
+  "summary": "AGI Inc turned a stock Android phone into something an agent can drive. It sees the screen, taps, and types, inside every app you are already logged into. Here is what that unlocks, and what it means for the computer on your desk.",
+  "body_markdown": "## No integrations, and what that trades away\n\n\nThe usual way to give an agent access to an app is an integration. Somebody writes a connector, the app publishes an API, tokens get exchanged, and one more app joins the list. It works, it is slow, and the list is always far shorter than the number of apps on your phone.\n\n\nDriving the screen skips the queue entirely. If you can log in, the agent can use it. Here is the difference laid out plainly.\n\n\nIntegration first\n\n\nScreen first\n\n\nCoverage\n\n\nOnly apps that shipped an API, and only the parts of them that API chose to expose.\n\n\nAnything you can open and log into, including apps with no public API at all.\n\n\nTime to support a new app\n\n\nWeeks or months of connector work, plus whatever the app's review process adds on top.\n\n\nNone. A new app is just another screen to read.\n\n\nFailure mode\n\n\nClean errors. The call either succeeds or it does not.\n\n\nMessier. A moved button, an unexpected popup, or a slow load can send the agent down the wrong path.\n\n\nWhat the agent can reach\n\n\nExactly the scopes you granted, and nothing beyond them.\n\n\nEverything visible inside a session you are already signed into, which is powerful and demands care.\n\n\nThat last row is the honest cost. Screen level access is broad by nature, and broad access deserves thought before you hand a live session to an autonomous loop. The answer is not to give up the reach. It is to put a human confirmation in front of anything that sends, buys, or deletes.",
+  "published_at": "2026-08-07T09:00:00+00:00",
+  "first_seen_at": "2026-08-09T20:16:46.701209+00:00",
+  "content_hash": "sha256:bbf0a7224966232e668ad896af3cace524d53f1594c18229975079d7d478d987"
+}

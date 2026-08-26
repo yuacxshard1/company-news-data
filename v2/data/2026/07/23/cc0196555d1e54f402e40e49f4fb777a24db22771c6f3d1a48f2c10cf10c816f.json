@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cc0196555d1e54f402e40e49f4fb777a24db22771c6f3d1a48f2c10cf10c816f",
+  "company_key": "yc-flick",
+  "company_name": "Flick",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flick.art/blog/img2img-consistent-character/gpt-image",
+  "canonical_url": "https://flick.art/blog/img2img-consistent-character/gpt-image",
+  "title": "How to Keep a Character Consistent in GPT Image",
+  "summary": "GPT Image has no saved-character feature, so consistency comes from method: keep every generation in one chat thread, re-feed your reference image, and re-anchor on the best output. It holds a look across a session but drifts over time.",
+  "body_markdown": "## HOW IT WORKS\n\n\n1.\n\n\n---\n\n\nSTEP 1\n\n\nLOCK A REFERENCE IMAGE\n\n\nGenerate or upload one clear image of your character. This is the design every later prompt points back to.\n\n\n2.\n\n\n---\n\n\nSTEP 2\n\n\nWORK IN ONE THREAD\n\n\nKeep all generations in a single chat thread so the model retains context about the character between prompts.\n\n\n3.\n\n\n---\n\n\nSTEP 3\n\n\nRE-FEED THE REFERENCE EACH TIME\n\n\nFor every new image, point to the reference and say to use the exact same character, same face and outfit.\n\n\n4.\n\n\n---\n\n\nSTEP 4\n\n\nRE-ANCHOR AND DESCRIBE DETAILS\n\n\nFeed the best output back as the new reference and spell out the identity details the model tends to drop, like accessories and colors.\n\n\n5.\n\n\n---\n\n\nSTEP 5\n\n\nBRING IT TO LIFE IN FLICK\n\n\nGPT Image makes stills only. Drop your locked character into Flick and animate it with Veo 3, Kling, or Seedance.",
+  "published_at": null,
+  "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+  "content_hash": "sha256:4aa4db162fa30b5cdc49a457d0943bc8759041782a8311353fec0fa5d4b7aba5"
+}

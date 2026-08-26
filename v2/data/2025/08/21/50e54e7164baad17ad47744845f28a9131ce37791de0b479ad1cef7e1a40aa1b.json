@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "50e54e7164baad17ad47744845f28a9131ce37791de0b479ad1cef7e1a40aa1b",
+  "company_key": "yc-camfer",
+  "company_name": "camfer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://camfer.dev/blog/flare/",
+  "canonical_url": "https://camfer.dev/blog/flare/",
+  "title": "FLARE: Fast Low-rank Attention Routing Engine",
+  "summary": "Scaling self-attention with fixed-length latent sequences",
+  "body_markdown": "Wanted to highlight some awesome work done by[Vedant Puri](https://vpuri3.github.io/) et al. in collaboration with camfer!\n\n\n[FLARE](https://huggingface.co/papers/2508.12594) is a novel self-attention mechanism that learns a low-rank token mixing mechanism by routing attention through fixed-length latent sequences. This reduces the attention-block time complexity to linear scale, meaning we can learn on long sequences like point clouds!\n\n\nFLARE can be implemented with standard SDPA kernels and scales to meshes with one million points (over 200× faster than vanilla attention!). In torch, this is as simple as:\n\n\n```text\nimport   torch.nn.functional   as   F\ndef   flare_multihead_mixer  (q, k, v):\n\"\"\"\nArguments:\nq: Query tensor [H, M, D]\nk: Key tensor [B, H, N, D]\nv: Value tensor [B, H, N, D]\nReturns:\ny: Output tensor [B, H, N, D]\n\"\"\"\nz   =   F.scaled_dot_product_attention(q, k, v,   scale  =  1.0  )\ny   =   F.scaled_dot_product_attention(k, q, z,   scale  =  1.0  )\nreturn   y\n```\n\n\nBy projecting the input sequence of length` N` , then unprojecting back up, we get a low-rank form of attention with rank at most` M` . And since FLARE allocates a distinct slice of the latent tokens to each head, we get` num_heads` distinct projection matrices that can specialize in their routing patterns.\n\n\nWe’re excited to see how models built on FLARE perform when applied to downstream tasks, such as generating embeddings for LLM point-cloud understanding.\n\n\nCode can be found at[https://github.com/vpuri3/FLARE.py](https://github.com/vpuri3/FLARE.py) .\n\n\nIf this line of work is interesting, please reach out directly tohiring@camfer.dev ! Or see open roles[here](https://camfer.dev/careers/) !",
+  "published_at": "2025-08-21T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T23:30:43.881527+00:00",
+  "content_hash": "sha256:21c80804452829855c50340c40d5534cdb934308376b2cf176ecc3f191be8b0d"
+}

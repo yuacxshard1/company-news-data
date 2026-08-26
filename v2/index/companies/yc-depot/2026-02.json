@@ -1,0 +1,66 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "21ba771ca765768e253586ff34a119beb3e86a974775a698a1a60487b77777f9",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-02-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI can help write your feature in 20 minutes. But if your CI pipeline also takes 20 minutes, you've just traded one bottleneck for another. The bottleneck in software development has shifted from writing code to integrating it, and our workflows haven't caught up.",
+      "title": "The bottleneck has shifted from writing code to integrating it"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "78202efd01f752a6b38126d56588124e2a7c5bda67f493e7d559b2ff9c80d8d5",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-02-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We had a standby pool algorithm with over a dozen tunable parameters and no good way to test changes without risking real customer latency. So we built a simulator fed with real job data, ran hyperparameter optimization on it, and found a configuration that was faster and cheaper.",
+      "title": "How simulations reduce the guesswork in our infrastructure decisions"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "78ecdf9eb61701225267b863afb49681a5d4d69dd17ea612fc2423f4bc4f5b29",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-02-12T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "I used an LLM to refactor a 1500-line mess into clean, organized code. I realized months later that agents were the only ones working in it. They didn't need the clean code. They didn't need my empathy. My intuitions as an engineer just don't work anymore.",
+      "title": "My intuition doesn't work anymore"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "7c58f1408ce65e3b767b030945472f08612d5c798dfa684d6fba97d50b00a29e",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-02-18T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "microVMs are everywhere in 2026, especially for CI and sandboxes. But when you're building a platform, choosing between QEMU microvm and cloud-hypervisor isn't obvious. We compare API support, GPU passthrough, snapshotting, live migration, and hotplugging.",
+      "title": "The differences between QEMU microvm and Cloud Hypervisor"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "820c82b2d8e3dff7b1eb2febea2e77f31fa6f82e6db06d554093ae971fefc861",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-02-05T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We built a fun Spotify Wrapped-style recap for Depot customers. Handling a year of data and making big numbers relatable was easy compared to teaching AI that \"0.1 of a marathon\" isn't exactly celebratory.",
+      "title": "How we built Depot Wrapped 2025"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "a149e1c47c36d2692773d1917d2ce777a9603f976bfc9b8a6be835f79e95be7c",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2026-02-24T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The better the context you can give an agent, the better the results. Today we're publishing Depot skills: four structured skill files that give agents everything they need to use Depot correctly, installable with a single command.",
+      "title": "Now available: Depot skills"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2026-02"
+}

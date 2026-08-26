@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "53f50ba2b980ffa3407af3e1eb06092776665194dc2475cbb2f25e2f1f0edcde",
+  "company_key": "yc-valuemate",
+  "company_name": "ValueMate",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.valuemate.ai/blog/a-practical-guide-to-calculating-gla-with-new-upd-and-ansi-standards",
+  "canonical_url": "https://www.valuemate.ai/blog/a-practical-guide-to-calculating-gla-with-new-upd-and-ansi-standards",
+  "title": "A Practical Guide to Calculating GLA with New UPD and ANSI Standards",
+  "summary": "Step-by-step guidance for measuring and reporting Gross Living Area under the latest UPD and ANSI measurement requirements.",
+  "body_markdown": "We've spent a lot of time discussing the big-picture shifts, like the retirement of form numbers. But the real test of a new standard happens on the ground, measuring tape in hand, trying to make sense of a tricky floor plan.\n\n\nToday, let's zoom in on how the new UPD requires us to apply ANSI standards for calculating and reporting Gross Living Area (GLA).\n\n\n### The Foundation: A New Blueprint Legend\n\n\nThe GSEs have given us a standardized \"blueprint legend\" that classifies every part of a home:\n\n\n- **Unit Type:** Primary dwelling, Accessory unit, or Garage\n- **Grade Level:** Above Grade, Below Grade, or both\n- **Finish Level:** Finished Area, Unfinished, or Non-Standard Finished Area\n- **Attachment Type:** Attached, Detached, or N/A\n- **Access to Primary Dwelling:** Yes or No\n\n\n### Scenario 1: The Partially Finished Basement\n\n\nA 1,500-square-foot basement where 1,200 sq. ft. is a finished recreation room and 300 sq. ft. is storage and utility. Under the UPD: Total Area is 1,500 sq. ft., Finished Area is 1,200 sq. ft. The 300 sq. ft. is accounted for mathematically.\n\n\n### Scenario 2: The Challenge of Low Ceilings\n\n\nA finished basement room with a ceiling height of only 6 feet, 8 inches due to ductwork. According to ANSI Z765-2021, areas must have at least 7-foot ceilings to count as finished. The UPD introduces the Non-Standard Finished Area field:\n\n\n- Finished Area: 900 sq. ft.\n- Non-Standard Finished Area: 600 sq. ft.\n\n\nThis separation ensures GLA accuracy while still accounting for additional finished space.\n\n\n### Scenario 3: Sloping Ceilings and the 50% Rule\n\n\nAt least 50% of finished square footage in a room must have a ceiling height of at least 7 feet. If it doesn't, none of the area can be included in GLA.\n\n\nFor a 1,000 sq. ft. second level where the majority has ceilings less than 7 feet: - Finished Area: 0 sq. ft. - Non-Standard Finished Area: 1,000 sq. ft.\n\n\n### Scenario 4: Differentiating ADUs\n\n\nAn attached ADU is reported as a second \"Unit\" within the same primary \"Structure.\" A fully detached ADU is reported as an entirely separate \"Structure.\"\n\n\n### Why This Granularity Matters\n\n\nThis move toward highly specific data points for GLA calculation solves long-standing problems of data ambiguity. Tools that can help automate these calculations, like LiDAR scanning and floor plan generation in ValueMate, can be invaluable in ensuring compliance and reducing manual error.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T05:50:05.419224+00:00",
+  "content_hash": "sha256:1e79deaaba4354d4652cca9cabf83da5a5241b8590900d436fa170f87ae4894b"
+}

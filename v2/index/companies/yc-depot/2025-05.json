@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "114d5992b86607bced841ae9064cdd4060c72ea657e0a550d5be6f5ae76a64e0",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-05-12T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We had a major outage on May 8th that took our core provisioning system for builds offline for several hours. This was a major incident that disrupted thousands of builds across Depot. We wanted to share some insights into what happened, how we fixed it, and what we're doing to prevent it in the future.",
+      "title": "Knowledge share: Insights from our major outage on May 8th"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "1e4ce207c3b5f53c0b071b03580d402954987c1440717e7049e98ecdbe5bfb22",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-05-15T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We at Depot like making shit fast, whether that's Docker image builds, Github Actions runners, Bazel caching, Turborepo, or even our own infrastructure. Recently, we've been working to make EC2 instances boot faster.",
+      "title": "Accelerating builds: Improving EC2 boot time from 4s to 2.8s"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "ababd0ea88a863180248ad55d6a7022b56cbcf73196ff7e917e43600eae80d2e",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-05-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The Depot API lets you build and push containers straight from your Go code. No Docker CLI. No scripts. Just fast, native builds triggered by a few lines of Go.",
+      "title": "From Go Code to Container Image with Depot API"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "cdba7e04f2ca75715d32eb22ef077a2f27b96a59241f0d69133d43e49e64a330",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-05-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We’re excited to announce Gocache v2, a major step forward in build caching for Go developers. Gocache v2 dramatically reduces build times by efficiently bundling and caching compile and test artifacts, and it’s now available in Depot Cache.",
+      "title": "Now available: Gocache v2 for improved Golang build performance"
+    },
+    {
+      "company_key": "yc-depot",
+      "company_name": "Depot",
+      "doc_id": "cf855614582a1c866d02afe9c0d2b76638cc9943e9406c7e4b568c953f84943b",
+      "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
+      "published_at": "2025-05-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A crash course into the new ability to run Claude Code agents in GitHub Actions and how to make them faster with Depot runners.",
+      "title": "Faster Claude Code agents in GitHub Actions"
+    }
+  ],
+  "company_key": "yc-depot",
+  "month": "2025-05"
+}

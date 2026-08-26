@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d0ac3d966a7f77d367e2882ecc7c57105b321fb3315f22a4b278f6aa375cf580",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/changelog/artillery-cli-v2-0-28",
+  "canonical_url": "https://www.artillery.io/changelog/artillery-cli-v2-0-28",
+  "title": "Artillery CLI v2.0.28",
+  "summary": "",
+  "body_markdown": "January 23rd, 2026[CLI](https://www.artillery.io/changelog/tag/cli)\n\n\n# Artillery CLI v2.0.28\n\n\n## New features\n\n\n- Add query string normalization to reduce the number of distinct metrics in Playwright tests. Two new configuration options are now available:\n\n\n- ` stripQueryString` (defaults to` false` ): Remove query strings from URLs\n- ` normalizeQueryString` (defaults to` true` ): Normalize query string values to reduce metric cardinality. Converts numeric values like` /page?id=123` to` /page?id=NUMBER`\n\n\n## Fixes & improvements\n\n\n- Fix issue on Azure ACI where tests that track many distinct metrics could fail or report incomplete results\n- Fix issue on AWS Fargate where` --scenario-name` flag was ignored, causing all scenarios to run instead of just the specified scenario\n- Upgrade to Playwright v1.57.0\n- Routine dependency upgrades across all packages\n\n\nFull release notes on GitHub:[https://github.com/artilleryio/artillery/releases/tag/artillery-2.0.28](https://github.com/artilleryio/artillery/releases/tag/artillery-2.0.28)",
+  "published_at": "2026-01-23T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T17:13:32.020779+00:00",
+  "content_hash": "sha256:ea6fcc2586c7bb54075d29af87a6fc32ac28c9909f5d8a246f76960b68d6ddc4"
+}

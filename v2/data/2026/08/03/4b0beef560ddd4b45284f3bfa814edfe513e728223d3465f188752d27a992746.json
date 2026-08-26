@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4b0beef560ddd4b45284f3bfa814edfe513e728223d3465f188752d27a992746",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-config-new-resource-types",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-config-new-resource-types",
+  "title": "AWS Config now supports 15 new resource types",
+  "summary": "Discover more about what's new at AWS with AWS Config now supports 15 new resource types",
+  "body_markdown": "# AWS Config now supports 15 new resource types\n\n\nPosted on: Aug 3, 2026\n\n\nAWS Config now supports 15 additional AWS resource types across key services including Amazon Bedrock, Amazon OpenSearch Serverless, and Amazon SageMaker. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.\n\n\nWith this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.\n\n\nYou can now use AWS Config to monitor the following newly supported resource types in all[AWS Regions](https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html) where the resources are available:\n\n\nResource Types:\n\n\nAWS::AppSync::DomainName AWS::OpenSearchServerless::AccessPolicy\n\n\nAWS::Bedrock::AutomatedReasoningPolicy AWS::OpenSearchServerless::LifecyclePolicy\n\n\nAWS::Bedrock::AutomatedReasoningPolicyVersion AWS::SageMaker::ImageVersion\n\n\nAWS::Bedrock::Blueprint AWS::SageMaker::InferenceComponent\n\n\nAWS::Bedrock::DataAutomationProject AWS::SageMaker::PartnerApp\n\n\nAWS::BedrockAgentCore::ApiKeyCredentialProvider AWS::SageMaker::Project\n\n\nAWS::Connect::UserHierarchyGroup AWS::SageMaker::Space\n\n\nAWS::Glue::Trigger",
+  "published_at": "2026-08-03T15:00:00+00:00",
+  "first_seen_at": "2026-08-03T21:24:28.279899+00:00",
+  "content_hash": "sha256:83fb588f441970eb2d7926d2902d33ef5ebee57efd9ed5f7afa2405f7206bb89"
+}

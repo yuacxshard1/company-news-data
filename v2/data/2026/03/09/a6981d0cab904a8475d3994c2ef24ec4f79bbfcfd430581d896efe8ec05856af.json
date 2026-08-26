@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a6981d0cab904a8475d3994c2ef24ec4f79bbfcfd430581d896efe8ec05856af",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/compare-invocations",
+  "canonical_url": "https://www.buildbuddy.io/changelog/compare-invocations",
+  "title": "Compare invocations: compare two builds side-by-side",
+  "summary": "The compare invocations view allows you to diff two invocations side-by-side.",
+  "body_markdown": "[← Back to changelog](https://www.buildbuddy.io/changelog)\n\n\n# Compare invocations: compare two builds side-by-side\n\n\nMarch 9, 2026 ·\n\n\nSiggi Simonarson\n\n\nThe compare invocations view allows you to diff two invocations side-by-side.\n\n\nIt can help debug why two builds produced different results by showing exactly what changed: different flags, startup options, cache/remote execution settings, status, and more.\n\n\nTo compare invocations:\n\n\n1. From one invocation link, select **Compare -> Select for comparison** in the top right corner.\n2. From another invocation link, select **Compare -> Compare with selected** .\n3. For even more details on differences between the two invocations, click the **Run bb explain** button on the compare invocations page.\n\n\nbazel\n\n\ndebugging\n\n\nfeatured",
+  "published_at": "2026-03-09T09:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+  "content_hash": "sha256:c04853aec1924fc01359a56dc7a719cea2f62ba6b37022ee7cd7c0757c6dc041"
+}

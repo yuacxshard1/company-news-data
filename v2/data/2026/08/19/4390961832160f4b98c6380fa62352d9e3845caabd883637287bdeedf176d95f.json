@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4390961832160f4b98c6380fa62352d9e3845caabd883637287bdeedf176d95f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac/",
+  "title": "Amazon DynamoDB Streams now supports attribute-based access control",
+  "summary": "Discover more about what's new at AWS with Amazon DynamoDB Streams now supports attribute-based access control",
+  "body_markdown": "Amazon DynamoDB Streams now supports attribute-based access control (ABAC), enabling you to use tag-based conditions in your Identity and Access Management (IAM) policies to control access to your data streams. ABAC is an authorization strategy that simplifies access management by allowing you to enforce different access levels for multiple teams and applications using fewer IAM policies. This capability is built for teams that manage DynamoDB Streams access across multiple applications and environments and need finer-grained, scalable access control.\n\n\nWith ABAC for DynamoDB Streams, you can attach up to 50 tags to each stream and use these tags in IAM policy conditions to grant or deny access to specific actions. For example, you can allow users to read records only from streams tagged with \"environment:production\" while restricting access to other environments. Stream tags are managed independently from their parent table tags, giving you flexibility to implement environment segregation, team-based isolation, and compliance requirements without creating numerous individual IAM policies.\n\n\nABAC for DynamoDB Streams is in all commercial AWS Regions and AWS GovCloud (US) Regions where Amazon DynamoDB Streams is available. There is no additional cost to use ABAC for DynamoDB Streams. To learn more, visit the[Amazon DynamoDB](https://aws.amazon.com/dynamodb) page and see the[Amazon DynamoDB Streams ABAC](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/abac-streams.html) .",
+  "published_at": "2026-08-19T21:03:00+00:00",
+  "first_seen_at": "2026-08-20T20:55:36.190057+00:00",
+  "content_hash": "sha256:65136a035a1a6b06f2fc751c104fb3cec5e3071f8581a4640289fde044ada5dd"
+}

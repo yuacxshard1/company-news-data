@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "630789bb764e96d77d012684ef61f0866deac49eeafe8c89367c4be67c1fcd0a",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/sandboxed-container-runtime",
+  "canonical_url": "https://www.windmill.dev/changelog/sandboxed-container-runtime",
+  "title": "Sandboxed daemonless container runtime",
+  "summary": "Bash scripts can now run any container image with the `# sandbox <image>` annotation. The image rootfs is pulled with crane and run chrooted inside the job's own nsjail, so it is daemonless, needs no Docker socket or dind sidecar, and is safe to run for untrusted multi-tenant code. Docker scripts are now allowed on Windmill Cloud.",
+  "body_markdown": "### [Sandboxed daemonless container runtime](https://www.windmill.dev/changelog/sandboxed-container-runtime)\n\n\nScripts\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\n[v1.719.0](https://github.com/windmill-labs/windmill/releases/tag/v1.719.0)\n\n\n[Docs](https://www.windmill.dev/docs/advanced/docker)\n\n\nBash scripts can now run any container image with the` # sandbox <image>` annotation. The image rootfs is pulled with crane and run chrooted inside the job's own nsjail, so it is daemonless, needs no Docker socket or dind sidecar, and is safe to run for untrusted multi-tenant code. Docker scripts are now allowed on Windmill Cloud.\n\n\n#### New features\n\n\n- Run any container image from a bash script with \\`# sandbox <image>\\` — the body runs inside the image, sandboxed.\n- Daemonless: image rootfs is pulled with crane and run chrooted in the job nsjail, no Docker socket or dind sidecar.\n- Inherits the job confinement: no host filesystem, the jail own /proc, unprivileged worker uid, the job network.\n- Instance settings for pull policy, per-image and cache size caps, default registry, and private-registry auth.\n- Now available on Windmill Cloud since containers run sandboxed.",
+  "published_at": "2026-06-05T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T01:07:57.288074+00:00",
+  "content_hash": "sha256:f468d7f4aefe526de7614e9cd15c9f6ffa9ea7ffa0eff5f252fba3660aa9c080"
+}

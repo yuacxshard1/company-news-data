@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "66265fa7db5dacf1a69ebdd2f6c4fb32b7f25bc576cd6aab3010aeac91661b22",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/hand-tracking-tools-for-unity-xr",
+  "canonical_url": "https://unity.com/blog/hand-tracking-tools-for-unity-xr",
+  "title": "The Future of XR Is Hands-First — And Unity's Tools Are Ready",
+  "summary": "Build hands-first XR in Unity: record real hand poses as reusable gestures with XR Hand Capture, and test hand tracking right in the Editor — no headset required.",
+  "body_markdown": "Hand tracking has been a supported input type in XR for several years, but most projects still treat it as secondary, added after the core experience is built around controllers. For a growing set of experiences, that priority no longer makes sense. Games built around gestures, physical manipulation, or direct object interaction are inherently better expressed through hands: more natural, more intuitive, and impossible to replicate with a controller.\n\n\nGetting there has historically meant overcoming two key tooling challenges: building reliable custom hand gestures required significant scripting work, and iterating on hand interactions was difficult without a headset physically nearby. Two additions across Unity's XR packages address both of these directly. XR Hand Capture in the XR Hands package lets you record real hand poses on-device and import them into Unity as reusable gesture assets. Hands Simulation, added to the XR Interaction Simulator in XR Interaction (XRI) Toolkit, brings full hand tracking development experience to the Unity Editor so you can iterate without a headset.\n\n\nThis post covers how both features work, when to use them, and how to integrate them into an existing project.",
+  "published_at": "2026-06-11T00:00:00+00:00",
+  "first_seen_at": "2026-08-25T18:40:32.035794+00:00",
+  "content_hash": "sha256:34e8d23c7677c5c499eb7a1cd51f5c76720e9415fc17048b379ce9973684b7ef"
+}

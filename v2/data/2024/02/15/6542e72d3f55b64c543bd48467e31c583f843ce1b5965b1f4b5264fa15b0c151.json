@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6542e72d3f55b64c543bd48467e31c583f843ce1b5965b1f4b5264fa15b0c151",
+  "company_key": "yc-openlayer",
+  "company_name": "Openlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.openlayer.com/changelog/more-tests-around-latency-metrics",
+  "canonical_url": "https://www.openlayer.com/changelog/more-tests-around-latency-metrics",
+  "title": "More tests around latency metrics",
+  "summary": "Native integrations with OpenAI, Anthropic, CoPilot, OTel, Snowflake, and more. Continuous CI/CD validation, production monitoring, security guardrails, and automated compliance aligned to EU AI Act and NIST.",
+  "body_markdown": "February 15, 2024\n\n\n[More tests around latency metrics](https://www.openlayer.com/changelog/more-tests-around-latency-metrics)\n\n\nWe’ve added more ways to test latency. Beyond just mean, max, and total, you can now make test latency with minimum, median, 90th percentile, and 99th percentile metrics. Just head over to the Performance page and the new test types are there.\n\n\nYou can also create more granular data tests by applying subpopulation filters to run the tests on specific clusters of your data. Just add filters in the Data Integrity or Data Consistency pages, and the subpopulation will be applied.\n\n\n## Features\n\n\n- •\n\n\nEvals\n\n\nAbility to apply subpopulation filters to data tests (Min Latenc, Median Latency, 90th Percentile Latency, 95th Percentile Latency, 99th Percentile Latency)\n- •\n\n\nSDKs\n\n\nSupport for logging and testing runs of the OpenAI Assistants API with our Python and TypeScript clients\n\n\n## Improvements\n\n\n- •\n\n\nAPI\n\n\nUpdated OpenAI model pricing\n- •\n\n\nTemplates\n\n\nSupport for OpenAI assistants with example notebook\n- •\n\n\nPerformance\n\n\nImproved performance for monitoring projects\n- •\n\n\nUI/UX\n\n\nRequests are updated every 5 seconds live on the page\n- •\n\n\nUI/UX\n\n\nAbility to search projects by name in the project overview\n- •\n\n\nUI/UX\n\n\nYou can now view rows per evaluation window in test modals\n- •\n\n\nUI/UX\n\n\nDate picker for selecting data range in test modal\n- •\n\n\nUI/UX\n\n\nShow only the failing rows for tests\n- •\n\n\nUI/UX\n\n\nAllow opening rows to the side in test modal tables\n- •\n\n\nUI/UX\n\n\nEnable collapsing the metadata pane in test modals\n- •\n\n\nUI/UX\n\n\nSkipped test results now render the value from the last successful evaluation in monitoring\n\n\n## Fixes\n\n\n- •\n\n\nIntegrations\n\n\nLangchain version bug is fixed\n- •\n\n\nUI/UX\n\n\nMetric score and explanations did not appear in data tables in development mode\n- •\n\n\nUI/UX\n\n\nRequest table layout was broken\n- •\n\n\nUI/UX\n\n\nNow able to navigate to subsequent pages in requests page\n- •\n\n\nUI/UX\n\n\nFixed bug with opening request metadata\n- •\n\n\nPerformance\n\n\nRequests and inference pipeline occasionally did not load\n- •\n\n\nPerformance\n\n\nSome LLM metrics had null scores in development mode\n- •\n\n\nUI/UX\n\n\nThere was a redundant navigation tab bar in monitoring test modals\n- •\n\n\nPerformance\n\n\nMonitoring tests with no results loaded infinitely",
+  "published_at": "2024-02-15T00:00:00+00:00",
+  "first_seen_at": "2026-07-25T18:01:08.657570+00:00",
+  "content_hash": "sha256:f972463441abc453aeea4b18b86b94f9dc440e7a87a1068d87d9e2978bae4b3b"
+}

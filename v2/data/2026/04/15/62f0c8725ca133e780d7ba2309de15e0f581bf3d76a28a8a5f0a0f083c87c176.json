@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "62f0c8725ca133e780d7ba2309de15e0f581bf3d76a28a8a5f0a0f083c87c176",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/buildbuddy-mcp-server",
+  "canonical_url": "https://www.buildbuddy.io/changelog/buildbuddy-mcp-server",
+  "title": "BuildBuddy MCP server",
+  "summary": "BuildBuddy now exposes an MCP endpoint for coding agents and other",
+  "body_markdown": "BuildBuddy now exposes an MCP endpoint for coding agents and other MCP-capable clients.\n\n\nMCP provides a way to let agents explore BuildBuddy data for mostly read-only workflows like build and test metadata, logs, artifacts, target statuses, and more.\n\n\nYou can connect agents like Codex, Claude Code, and Gemini CLI to:\n\n\n```text\nhttps://YOUR-BUILDBUDDY-ORGANIZATION.buildbuddy.io/mcp\n```\n\n\nAuthenticate with:\n\n\n```text\nAuthorization: Bearer <api-key>\n```\n\n\nSee the new[BuildBuddy MCP Server docs](https://www.buildbuddy.io/docs/enterprise-mcp) for setup instructions and configuration examples.",
+  "published_at": "2026-04-15T10:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+  "content_hash": "sha256:e3ce101ae06fc92877dc5cb39871312068906101008271589db7099f3147b0ee"
+}

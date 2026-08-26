@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "01fb01b2a49a3c12a53220a371a4308aa742ab87ef545db3274ced589962db88",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/46320-breaking-change-in-pg-graphql-1-6-0-graphql-introspection-disabled-by-default",
+  "canonical_url": "https://supabase.com/changelog/46320-breaking-change-in-pg-graphql-1-6-0-graphql-introspection-disabled-by-default",
+  "title": "Breaking change in pg_graphql 1.6.0 — GraphQL introspection disabled by default",
+  "summary": "Breaking change in pg_graphql 1.6.0 — GraphQL introspection disabled by default",
+  "body_markdown": "> **Edit 2026-06-13:** Rollout date pushed from 2026-06-15 to 2026-06-29 to allow additional AMI build verification. No other changes to the rollout plan.\n\n\nStarting with pg_graphql **1.6.0** (shipping in new Supabase projects from **2026-06-29** ), GraphQL introspection is **disabled by default** .\n\n\n## Who is affected#\n\n\n- **New projects** created on or after 2026-06-29 will run pg_graphql 1.6.0+ and have introspection disabled by default.\n- **Existing projects** are not affected unless and until you upgrade pg_graphql to 1.6.0+ (e.g. by upgrading your project's Postgres version). Older projects keep their current behaviour.\n\n\n## What's changing#\n\n\nPreviously,` __schema` and` __type` queries worked without any configuration. From 1.6.0, they return an error unless you explicitly opt in:\n\n\n`\n_10\n\n\n{ \"errors\": \\[{ \"message\": \"Unknown field \\\\\"__schema\\\\\" on type Query\" }\\] }\n\n\n`\n\n\nIf your project uses any of the following, you'll need to opt in before relying on introspection:\n\n\n- **Supabase Studio GraphQL explorer** (GraphiQL) — uses introspection to display your schema and provide autocomplete\n- **External GraphiQL or GraphQL Playground**\n- **Apollo DevTools**\n- **Relay compiler**\n- **Code generators** (e.g.` graphql-codegen` )\n- Any tool that calls` __schema` or` __type` directly\n\n\n**Regular data queries are not affected.**` accountCollection` ,` insertIntoAccountCollection` , etc. continue to work normally regardless of this setting.\n\n\n## How to opt in#\n\n\nRun this SQL once per schema you want to expose introspection on:\n\n\n`\n_10\n\n\ncomment on schema public is e'@graphql({\"introspection\": true})';\n\n\n`\n\n\nIf you already have a comment on your schema (e.g. for` inflect_names` ), combine the keys:\n\n\n`\n_10\n\n\ncomment on schema public is e'@graphql({\"inflect_names\": true, \"introspection\": true})';\n\n\n`\n\n\n## Why this change#\n\n\nIntrospection exposes your full API surface — all types, fields, and relationships — to anyone who can reach the endpoint. Disabling it by default reduces the risk of API enumeration and makes it easier to keep private schemas private.\n\n\n## Further reading#\n\n\n- [Configuration docs — Introspection](https://supabase.github.io/pg_graphql/configuration/#introspection)\n- [pg_graphql changelog](https://supabase.github.io/pg_graphql/changelog/)",
+  "published_at": "2026-06-29T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T02:46:08.732472+00:00",
+  "content_hash": "sha256:b30ef618cbdd39ea0962f0227f6b0dd32bbac0168b5c8ab52016cc3487b90513"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8acc12cb01ededea7f06bd3590f2f22f260128fde43f80afce4b633749b2c6e0",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/22-3-2026",
+  "canonical_url": "https://browser-use.com/changelog/22-3-2026",
+  "title": "CLI 2.0 + Weekly Update",
+  "summary": "CLI 2.0, stealth upgrades, new onboarding.",
+  "body_markdown": "## CLI 2.0\n\n\nBrowser Use now runs directly from your terminal. Works with Claude Code, Cursor, or any AI coding tool. Syncs your real browser profile — cookies, sessions, everything.\n\n\nUpdate: the current CLI is[Browser Use CLI 3.0](https://browser-use.com/changelog/1-7-2026) . Use` browser-use` or` uvx browser-use` instead of the legacy CLI package:\n\n\n```text\nuvx   browser-use\n```\n\n\nFor agent setup, paste this prompt into Claude Code, Codex, or another coding agent:\n\n\n```text\nInstall or upgrade browser-use to the latest stable version with uv using Python 3.12, register the skill from `browser-use skill`, and connect it to my browser. Follow https://github.com/browser-use/browser-use if setup or connection fails.\n```\n\n\n## New Onboarding\n\n\nRedesigned first-run flow. Codegen component gets you from first task to working code in one click. **5 free tasks** , no credit card required.\n\n\n## Stealth Upgrades\n\n\n- Chromium 146 deployed\n- hCaptcha solver added\n- reCAPTCHA accuracy improved\n- [Published open-source stealth benchmark (80 antibot sites)](https://browser-use.com/posts/stealth-benchmark)\n\n\n## API V3 is now SOTA on Online-Mind2Web\n\n\nMore on this coming soon 👀",
+  "published_at": "2026-03-22T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
+  "content_hash": "sha256:9af382df4344057e8fd5bd8bb7c881d9131095e28aee7ed8a25ca42fba764e1e"
+}

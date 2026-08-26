@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
+      "doc_id": "6146eb61e0fd7c02d1b63d478ea7a28af1834dd0363ae5e242aaa4c184aa4e1a",
+      "first_seen_at": "2026-08-17T14:12:50.872421+00:00",
+      "published_at": "2026-03-07T00:03:53+00:00",
+      "source_kind": "rss",
+      "summary": "Hi, we have an installation of Openreplay on AWS, ubuntu, single instance, version v1.25.0. We have all the componentes running with no issues but we started noticing the Clickhouse storage is growing too fast, but as the cleanup command only runs in postgres and s3/minio, the size of Clickhouse storage is not reduced after running the cleanup. Could you please provide a query to perform cleanup of data on Clickhouse? I can join the clickhouse pod with a clickhouse client if needed to run the...",
+      "title": "Clickhouse cleanup query"
+    }
+  ],
+  "company_key": "yc-asayer",
+  "month": "2026-03"
+}

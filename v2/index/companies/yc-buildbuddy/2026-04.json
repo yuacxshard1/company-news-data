@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-buildbuddy",
+      "company_name": "BuildBuddy",
+      "doc_id": "62f0c8725ca133e780d7ba2309de15e0f581bf3d76a28a8a5f0a0f083c87c176",
+      "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+      "published_at": "2026-04-15T10:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "BuildBuddy now exposes an MCP endpoint for coding agents and other",
+      "title": "BuildBuddy MCP server"
+    },
+    {
+      "company_key": "yc-buildbuddy",
+      "company_name": "BuildBuddy",
+      "doc_id": "9bdd45b1f6e840516e6fb188ce378fce2afc8b87c13a214a49bd806b02185560",
+      "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+      "published_at": "2026-04-23T10:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "We're excited to announce end-to-end content-defined chunking (CDC) support for Bazel remote caching in BuildBuddy.",
+      "title": "End-to-end CDC support"
+    },
+    {
+      "company_key": "yc-buildbuddy",
+      "company_name": "BuildBuddy",
+      "doc_id": "9fa60e8c48197861ca1931f6512c9df4ec33fd05114712b4e56e2dfaccd8e4ad",
+      "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+      "published_at": "2026-04-21T10:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "In addition to build logs, you can now use the bb CLI to stream bazel run executable output to our servers and view live-updating run logs from the UI.",
+      "title": "Run log streaming"
+    },
+    {
+      "company_key": "yc-buildbuddy",
+      "company_name": "BuildBuddy",
+      "doc_id": "c91a5f855cdb3480632b18aa3d8aa73ca813fbcd4f926f79399dd9ad5eef7443",
+      "first_seen_at": "2026-07-20T23:20:16.628240+00:00",
+      "published_at": "2026-04-10T10:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "BuildBuddy has supported passing short-lived secrets to remote actions via the env-overrides platform property, which redacts values from action cache entries. The new secret-env-overrides and secret-env-overrides-base64 properties extend this protection by also redacting values from workflow logs.",
+      "title": "Improved handling of short-lived secrets in remote execution"
+    }
+  ],
+  "company_key": "yc-buildbuddy",
+  "month": "2026-04"
+}

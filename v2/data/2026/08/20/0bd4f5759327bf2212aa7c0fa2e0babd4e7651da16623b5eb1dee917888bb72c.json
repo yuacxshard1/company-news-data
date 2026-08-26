@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0bd4f5759327bf2212aa7c0fa2e0babd4e7651da16623b5eb1dee917888bb72c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/",
+  "title": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
+  "body_markdown": "[Amazon Redshift](https://aws.amazon.com/redshift/) , starting with[patch P203](https://docs.aws.amazon.com/redshift/latest/mgmt/cluster-versions.html#cluster-version-203) , supports concurrency scaling for refreshes of Amazon Kinesis Data Streams (KDS)-connected streaming materialized views (MVs).\n\n\nAmazon Web Services (AWS) Redshift Streaming Ingestion enables low-latency, high-speed data ingestion from Amazon KDS to Amazon Redshift data warehouses. The data lands in a Redshift streaming materialized view, providing fast access to external data, lowering data-access time, and reducing storage costs. Users can configure streaming ingestion for their Amazon Redshift cluster or Redshift Serverless workgroup using SQL commands. Once set up, each streaming materialized-view refresh can ingest hundreds of megabytes of data per second. If you have concurrency scaling enabled, your streaming workloads will now automatically scale by freeing-up your main Amazon Redshift cluster or workgroup to run other higher priority workloads.\n\n\nYou can start using this new capability immediately in all AWS regions where Amazon Redshift is available to scale your workload and build resilient analytics applications with predictable Service Level Agreements. To get started, refer to the[Concurrency Scaling](https://docs.aws.amazon.com/redshift/latest/dg/concurrency-scaling.html) ,[Materialized Views](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-overview.html) and[streaming ingestion](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-streaming-ingestion.html) sections of the Amazon Redshift[documentation](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-overview.html) .",
+  "published_at": "2026-08-20T20:00:00+00:00",
+  "first_seen_at": "2026-08-24T16:12:34.097692+00:00",
+  "content_hash": "sha256:69f4cdefcf681e26e56cc8b9b14cc629c030ba165be34f175623fb4c0ab4529d"
+}

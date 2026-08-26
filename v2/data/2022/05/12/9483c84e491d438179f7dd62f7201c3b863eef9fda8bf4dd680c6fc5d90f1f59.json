@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9483c84e491d438179f7dd62f7201c3b863eef9fda8bf4dd680c6fc5d90f1f59",
+  "company_key": "yc-artillery",
+  "company_name": "Artillery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.artillery.io/blog/kubectl-artillery-plugin-demo",
+  "canonical_url": "https://www.artillery.io/blog/kubectl-artillery-plugin-demo",
+  "title": "Kubectl Artillery Plugin demo",
+  "summary": "Our new kubectl-artillery plugin helps developers and testers boostrap Artillery testing on Kubernetes.",
+  "body_markdown": "May 12th, 2022[How to](https://www.artillery.io/blog/tag/howto)\n\n\n# Kubectl Artillery Plugin demo\n\n\nEzo Saleh\n\n\nOur new[kubectl-artillery](https://github.com/artilleryio/kubectl-artillery) plugin helps developers and testers boostrap Artillery testing on Kubernetes.\n\n\nSee it in action in the video below. This video walks through:\n\n\n- The[k8s-testing-with-kubectl-artillery](https://github.com/artilleryio/artillery-examples/tree/main/k8s-testing-with-kubectl-artillery) example.\n- Scaffolding Artillery test-scripts from running Kubernetes services.\n- Generating tests that target Kubernetes services.\n- Running the generated tests.\n\n\nTo use the plugin we assume you have[kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) installed and some familiarity with Kubernetes in general.\n\n\nInstall the plugin by following the[instructions here](https://github.com/artilleryio/kubectl-artillery#installation) for your target OS.\n\n\nHere’s an example of installing it on macOS (Darwin) amd64:\n\n\n```text\ncurl -L -o kubectl-artillery.tar.gz https://github.com/artilleryio/kubectl-artillery/releases/download/v0.2.2/kubectl-artillery_0.2.2_darwin_amd64_2022-05-11T16.49.36Z.tar.gz\ntar -xvf kubectl-artillery.tar.gz\nsudo mv kubectl-artillery /usr/local/bin\n```\n\n\nCloud native testing for the win! 🔌☁️",
+  "published_at": "2022-05-12T00:00:00+00:00",
+  "first_seen_at": "2026-07-21T22:43:25.559968+00:00",
+  "content_hash": "sha256:15f8f54d7b37191d7e67eb564aec4b1a71340f5fc5aa1b83d8956660889fa999"
+}

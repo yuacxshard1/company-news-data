@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1a6770b12b60b1c46d2b6cae7bfac3ea25741c568e3fcb20656988ea81b3a7cf",
+  "company_key": "yc-ramain",
+  "company_name": "RamAIn",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://ramain.ai/resources/mortgage-wholesale-portal-problem",
+  "canonical_url": "https://ramain.ai/resources/mortgage-wholesale-portal-problem",
+  "title": "The Mortgage Industry's Wholesale-Portal Problem Is Not a Tech Problem",
+  "summary": "Why LOS integrations have not solved wholesale portal work, and why software that operates portals directly changes the math.",
+  "body_markdown": "\\[Industry operations\\]\n\n\nThe wholesale-portal problem in mortgage is not a lack of technology. It is a coordination problem across systems that were never designed to behave like one product.\n\n\n## LOS integrations do not remove portal work\n\n\nLoan teams may have a modern LOS, document tools, CRM workflows, and pricing systems, yet still spend hours checking investor portals, uploading files, downloading conditions, and reconciling statuses.\n\n\nThat is because the portal is often where the counterparty's process actually lives. The LOS can store the file, but the lender portal still controls the next operational step.\n\n\n## The manual work is fragmented by lender\n\n\nEach wholesaler has its own login, labels, required uploads, condition formats, and exception rules. A universal backend integration is rarely realistic across the whole lender mix.\n\n\nThe cost shows up as processor time, missed updates, slow condition clearing, and inconsistent borrower communication.\n\n\n## Portal automation changes the coordination layer\n\n\nA UI agent can monitor the portal queue, move documents, pull conditions, and update internal systems without waiting for every lender to expose a clean API.\n\n\nThe point is not to replace the LOS. It is to automate the browser layer that still sits between the LOS and the wholesaler's process.\n\n\nMortgage takeaway\n\n\nThe portal problem persists because the work is distributed across counterparties. Browser agents target that coordination layer directly.",
+  "published_at": null,
+  "first_seen_at": "2026-07-24T11:17:00.876485+00:00",
+  "content_hash": "sha256:0fc19cad1081d1cf956c65dc3fe3e3be2d5a0fc2c2d7886909f4910d64e11a8b"
+}

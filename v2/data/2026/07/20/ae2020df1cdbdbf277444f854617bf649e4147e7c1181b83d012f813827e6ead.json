@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae2020df1cdbdbf277444f854617bf649e4147e7c1181b83d012f813827e6ead",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-chat-web-search-sources",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-chat-web-search-sources",
+  "title": "Web search sources in AI chat",
+  "summary": "When the AI chat searches the web (OpenAI and Anthropic providers), the tool card now shows the search query as it is typed and expands with the list of consulted sources (favicon, page title and link) as each search completes. Sources are kept with the conversation history.",
+  "body_markdown": "### [Web search sources in AI chat](https://www.windmill.dev/changelog/ai-chat-web-search-sources)\n\n\nAI\n\n\n[v1.764.0](https://github.com/windmill-labs/windmill/releases/tag/v1.764.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_generation#web-search)\n\n\nWhen the AI chat searches the web (OpenAI and Anthropic providers), the tool card now shows the search query as it is typed and expands with the list of consulted sources (favicon, page title and link) as each search completes. Sources are kept with the conversation history.\n\n\n#### New features\n\n\n- The web search tool card shows the search query live in its label while the model types it.\n- The card auto-expands with the list of consulted pages (favicon, title and link) as soon as each search completes, while the model continues its answer.\n- Sources persist with the conversation history.",
+  "published_at": "2026-07-20T00:00:00+00:00",
+  "first_seen_at": "2026-07-27T09:58:44.512719+00:00",
+  "content_hash": "sha256:6d5eb76f0bf88800c34e0b82de59708d7f9154f2cdf44bd2264fcf1a00f8e067"
+}

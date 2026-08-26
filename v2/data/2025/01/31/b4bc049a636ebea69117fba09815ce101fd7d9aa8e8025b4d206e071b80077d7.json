@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b4bc049a636ebea69117fba09815ce101fd7d9aa8e8025b4d206e071b80077d7",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/how-to-get-yesterdays-date-in-mysql/",
+  "canonical_url": "https://www.basedash.com/blog/how-to-get-yesterdays-date-in-mysql/",
+  "title": "How to Get Yesterday's Date in MySQL",
+  "summary": "Retrieving yesterday's date in MySQL requires you to use the CURDATE() or NOW() functions combined with the INTERVAL keyword.",
+  "body_markdown": "Retrieving yesterday’s date in MySQL requires you to use the` CURDATE()` or` NOW()` functions combined with the` INTERVAL` keyword. This guide will show you how to calculate and manipulate dates in MySQL, focusing on obtaining yesterday’s date in different formats.\n\n\n## Understanding date functions in MySQL\n\n\nMySQL provides several functions for date and time operations. The two commonly used for getting the current date are` CURDATE()` and` NOW()` .` CURDATE()` returns the current date without time, while` NOW()` returns both date and time.\n\n\n### Example: Current date and time\n\n\n```text\nSELECT CURDATE() as CurrentDate, NOW() as CurrentDateTime;\n```\n\n\n## Getting yesterday’s date\n\n\nTo get yesterday’s date, subtract one day from the current date. Use the` INTERVAL` keyword with` CURDATE()` or` NOW()` .\n\n\n### Example: Yesterday’s date\n\n\n```text\nSELECT CURDATE() - INTERVAL 1 DAY as YesterdayDate;\n```\n\n\n## Formatting yesterday’s date\n\n\nMySQL’s` DATE_FORMAT()` function allows formatting the date output. For instance, to get yesterday’s date in a specific format, combine` DATE_FORMAT()` with the date calculation.\n\n\n### Example: Formatted yesterday’s date\n\n\n```text\nSELECT DATE_FORMAT(CURDATE() - INTERVAL 1 DAY, '%Y-%m-%d') as FormattedYesterdayDate;\n```\n\n\n## Use cases in queries\n\n\nRetrieving records based on yesterday’s date is a common use case. For example, to find all entries from a` logs` table that occurred yesterday:\n\n\n### Example: Filtering data by yesterday’s date\n\n\n```text\nSELECT *\nFROM logs\nWHERE DATE(log_date) = CURDATE() - INTERVAL 1 DAY;\n```\n\n\n## Working with time zones\n\n\nWhen working with time zones, use` CONVERT_TZ()` in conjunction with date functions. This ensures the date calculations respect the desired time zone.\n\n\n### Example: Yesterday’s date in a specific time zone\n\n\n```text\nSELECT CONVERT_TZ(CURDATE(), '+00:00', 'America/New_York') - INTERVAL 1 DAY as YesterdayDateInNY;\n```\n\n\n## Conclusion\n\n\nManipulating dates in MySQL is straightforward with functions like` CURDATE()` and` DATE_FORMAT()` . Remember to consider time zones in your calculations for accurate results. This guide should help you efficiently work with dates in MySQL, particularly in retrieving and formatting yesterday’s date.",
+  "published_at": "2025-01-31T00:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:19:59.901198+00:00",
+  "content_hash": "sha256:42ee498a59de9ddbf156e4e8cc38ddaf7b7512ac3f48bb494aa6f0d2d3096bbc"
+}

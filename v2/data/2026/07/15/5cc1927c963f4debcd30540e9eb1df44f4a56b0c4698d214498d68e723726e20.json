@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5cc1927c963f4debcd30540e9eb1df44f4a56b0c4698d214498d68e723726e20",
+  "company_key": "standard-motor-products-inc-common-stock",
+  "company_name": "Standard Motor Products Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://www.smpengineeredsolutions.com/blog/key-differences-between-centralized-and-distributed-control-systems-in-vehicle-design/",
+  "canonical_url": "https://www.smpengineeredsolutions.com/blog/key-differences-between-centralized-and-distributed-control-systems-in-vehicle-design/",
+  "title": "Key Differences Between Centralized and Distributed Control Systems in Vehicle Design",
+  "summary": "Learn about the key differences between centralized and distributed systems in vehicle designs and some key consideration",
+  "body_markdown": "Distributed CAN modules reduce downtime in mobile equipment systems by eliminating single points of failure, enabling fault isolation, and improving overall system reliability.\n\n\nThe difference between centralized and distributed control systems in vehicle design are how they control power and manage operations across multiple modules. This provides faster response time, greater efficiency and enhanced fault tolerance. We will dive deeper into each contrast and when to implement them into your next project.\n\n\n## Key Difference\n\n\nThe main differences between the two architectures determine everything from a vehicle’s safety and overall functions.\n\n\n**Wiring Complexity and Weight**\n\n\nCentralized: This requires wire across the entire system to connect all sensors and actuators to the central hub. The heavy wiring harness reduces fuel efficiency and range.\n\n\nDistributed: Localized modules connected to devices will communicate back to the main system like a data bus, while reducing weight.\n\n\n**Tolerance and Safety**\n\n\nCentralized: Operates with a single point of failure\n\n\nDistributed: Highly fault-tolerant for any localized controller fails, while the rest of the vehicle remains completely operational.\n\n\n**Power and Scalability**\n\n\nCentralized: Scales well for software updates and processing massive data.\n\n\nDistributed: Processing burdens are shared.\n\n\n**Response Time**\n\n\nCentralized: Slower for micro-second\n\n\nDistributed: Higher response time for real-time applications.\n\n\n## Key Design Considerations\n\n\n**CAN J1939 Communication**\n\n\noffers high-speed communication for faster execution of vital processes and faster analysis of microprocessor unit messages, especially in large vehicles used in transportation, agriculture and industrial settings.\n\n\n**Modular architecture**\n\n\nsupports specialized hardware modules that communicate via CAN bus and provides easier system scaling.\n\n\n**Diagnostic**\n\n\nProper architecture ensures healthy system health and performance.\n\n\n## Summary of Suitability\n\n\nDepending on the specific use of vehicle design, both centralize and decentralized control modules provides their own power system reliability.",
+  "published_at": "2026-07-15T17:57:34+00:00",
+  "first_seen_at": "2026-07-20T23:18:25.487845+00:00",
+  "content_hash": "sha256:f68b807eda71f4ce3dc6016150c6b4c7f8186667567cdddc4e37e01d04425b00"
+}

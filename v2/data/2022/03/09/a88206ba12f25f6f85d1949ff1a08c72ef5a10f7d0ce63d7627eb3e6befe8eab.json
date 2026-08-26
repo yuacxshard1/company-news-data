@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a88206ba12f25f6f85d1949ff1a08c72ef5a10f7d0ce63d7627eb3e6befe8eab",
+  "company_key": "yc-wave",
+  "company_name": "Wave",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.wave.com/en/blog/simple-architecture/",
+  "canonical_url": "https://www.wave.com/en/blog/simple-architecture/",
+  "title": "Some benefits of simple software architectures",
+  "summary": "Wave is a $1.7B company with 70 engineers1 whose product is a CRUD app that adds and subtracts numbers. In keeping with this, our architecture is a standard CRUD app architecture, a Python monolith on top of Postgres. Starting with a simple architecture and solving problems in simple ways where possible has allowed us to scale to this size while engineers mostly focus on work that delivers value to users.",
+  "body_markdown": "---\n\n\n1.\n\n\nIf you want to compute a ratio, we had closer to 40 engineers when we last fundraised and were valued at $1.7B.↩︎\n\n\n2.\n\n\nThere are business models for which this wouldn’t be true, e.g., if we were an ad supported social media company, the level of traffic we’d need to support our company as it grows would be large enough that we’d incur a significant financial cost if we didn’t[spend a significant fraction of our engineering time on optimization and cost reduction work](https://danluu.com/sounds-easy/) . But, as a company that charges real money for a significant fraction of interactions with an app, our computational load per unit of revenue is very low compared to a social media company and it’s likely that this will be a minor concern for us until we’re well over an order of magnitude larger than we are now; it’s not even clear that this would be a major concern if we were two orders of magnitude larger, although it would definitely be a concern at three orders of magnitude growth.↩︎\n\n\n3.\n\n\nDespite the classic advice about how one shouldn’t compete on price, we (among many other things) do compete on price and therefore must care about costs. We’ve driven down the cost of mobile money in Africa and[our competitors have had to slash their prices to match our prices, which we view as positive value for the world](https://www.wave.com/en/blog/world/)↩︎",
+  "published_at": "2022-03-09T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T06:52:44.556575+00:00",
+  "content_hash": "sha256:ddc137f22fb7781d1a80ac53f70eb2b692703fbcd76e4c10d58a0bda767b4738"
+}

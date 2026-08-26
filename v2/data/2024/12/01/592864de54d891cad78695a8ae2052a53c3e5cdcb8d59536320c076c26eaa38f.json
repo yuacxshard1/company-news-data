@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "592864de54d891cad78695a8ae2052a53c3e5cdcb8d59536320c076c26eaa38f",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://supabase.com/blog/orioledb-launch",
+  "canonical_url": "https://supabase.com/blog/orioledb-launch",
+  "title": "OrioleDB Public Alpha",
+  "summary": "Launching OrioleDB Public Alpha",
+  "body_markdown": "# OrioleDB Public Alpha#\n\n\nToday, we're releasing the Public Alpha of[OrioleDB](https://www.orioledb.com/) on the Supabase platform.\n\n\n### What’s OrioleDB?#\n\n\nOrioleDB is a **storage extension** which uses Postgres' pluggable storage system. It’s designed to be a drop-in replacement for Postgres’ default Heap storage.\n\n\nYou can read more about OrioleDB[here](https://www.orioledb.com/blog/orioledb-beta7-benchmarks) and learn why you might choose it over the default Postgres storage engine.\n\n\n### Limitations#\n\n\nThis initial release is a Public Alpha and you should *not* use it for Production workloads. The release comes with several limitations:\n\n\n- The release is restricted to Free organizations. You will not be able to upgrade OrioleDB projects to larger instance sizes. If you want to run OrioleDB on a larger instance we suggest following the[Getting Started](https://www.orioledb.com/docs/usage/getting-started) guide on OrioleDB’s official website.\n- Index support is restricted to the Postgres default B-Tree index type. Other indexs like GIN/GiST/BRIN/Hash, and pgvector's HNSW/IVFFlat are not supported.\n\n\n### Should you use it today?#\n\n\nAt this stage, the goal of adding OrioleDB to the platform is to make it easier for testers to give feedback. If you’re running Production workloads, stick to the standard options available.\n\n\n### Getting started and more info#\n\n\nTo get started today, go to[database.new](http://database.new/) and choose “Postgres with OrioleDB” under the \"Advanced Configuration\" section when launching a new database.\n\n\nIf you want to learn more about OrioleDB and their vision for the future, check out the[blog post the OrioleDB team released today](https://www.orioledb.com/blog/orioledb-beta7-benchmarks) .",
+  "published_at": "2024-12-01T07:00:00+00:00",
+  "first_seen_at": "2026-07-20T23:24:12.344578+00:00",
+  "content_hash": "sha256:a6c7a8170348dbf7c92f05a11aead8dbcd214dc7b4a2409091a7cbf911f40494"
+}
