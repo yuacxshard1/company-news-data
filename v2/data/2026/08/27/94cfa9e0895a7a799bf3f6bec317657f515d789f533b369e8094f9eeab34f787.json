@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "94cfa9e0895a7a799bf3f6bec317657f515d789f533b369e8094f9eeab34f787",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/idea-prune-pipeline",
+  "canonical_url": "https://machinelearning.apple.com/research/idea-prune-pipeline",
+  "title": "IDEA Prune: An Integrated Enlarge-and-Prune Pipeline in Generative Language Model Pretraining",
+  "summary": "Recent advancements in large language models have intensified the need for efficient and deployable models within limited inference budgets…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2503.05920)\n\n\nRecent advancements in large language models have intensified the need for efficient and deployable models within limited inference budgets. Structured pruning pipelines have shown promise in token efficiency compared to training target-size models from scratch. In this paper, we advocate incorporating enlarged model pretraining, which is often ignored in previous works, into pruning. We study the enlarge-and-prune pipeline as an integrated system to address two critical questions: whether it is worth pretraining an enlarged model even when the model is never deployed, and how to optimize the entire pipeline for better pruned models. We propose an integrated enlarge-and-prune pipeline, which combines enlarge model training, pruning, and recovery under a single cosine annealing learning rate schedule. This approach is further complemented by a novel iterative structured pruning method for gradual parameter removal. The proposed method helps to mitigate the knowledge loss caused by the rising learning rate in naive enlarge-and-prune pipelines and enable effective redistribution of model capacity among surviving neurons, facilitating smooth compression and enhanced performance. We conduct comprehensive experiments on compressing 2.8B models to 1.3B with up to 2T tokens in pretraining. It demonstrates the integrated approach not only provides insights into the token efficiency of enlarged model pretraining but also achieves superior performance of pruned models.\n\n\n- † Georgia Institute of Technology\n- ‡ University of Texas at Austin\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-08-27T04:03:07.742315+00:00",
+  "content_hash": "sha256:512ad9a5de747fce7076f36860b4dc26858f7eb99ccd444e46d447e595904205"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d08b537a6bf22563575642e142613eb18ff385b5958d5901a7708a09acec8bbd",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
+  "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
+  "summary": "Discover more about what's new at AWS with AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
+  "body_markdown": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region.\n\n\n[AWS Glue](https://aws.amazon.com/glue/) is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, bringing performance and security enhancements. This release also updates support for open table format libraries, including Apache Hudi 1.0.2, Apache Iceberg 1.10.0, and Delta Lake 3.3.2. Additionally, AWS Glue 5.1 introduces support for Apache Iceberg format version 3.0, adding default column values, deletion vectors for merge-on-read tables, multi-argument transforms, and row lineage tracking. This release extends[AWS Lake Formation](https://aws.amazon.com/lake-formation/) fine-grained access control to write operations - both DML and DDL - for Spark DataFrames and Spark SQL. Previously, this capability was limited to read operations only. AWS Glue 5.1 also adds full-table access control in Apache Spark for Apache Hudi and Delta Lake tables, providing more comprehensive security options for your data.\n\n\nWith this expansion, AWS Glue 5.1 is now available all AWS commercial and AWS GovCloud (US) Regions.\n\n\nYou can get started with AWS Glue 5.1 using AWS APIs, AWS CLI, AWS SDK, or AWS Glue Studio. To learn more, visit the AWS Glue[product page](https://aws.amazon.com/glue/) and our[documentation](https://docs.aws.amazon.com/glue/latest/dg/release-notes.html) .",
+  "published_at": "2026-08-26T16:26:00+00:00",
+  "first_seen_at": "2026-08-27T03:38:11.762145+00:00",
+  "content_hash": "sha256:770b1f6db0650004c074dfdd943e7b591aecf4e4035aa2b58d5b7098ec18e7a2"
+}
