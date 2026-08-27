@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "223e3f016f4a221bff3225c3def50ccf903c4c3fc43bbebf521d5be29ce90f2d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+  "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
+  "summary": "Discover more about what's new at AWS with AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
+  "body_markdown": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a specific order.\n\n\nRecovery Plans let you group servers into sequential steps with configurable wait times between them, so your application recovers predictably and consistently every time. You can run plans in a non-disruptive drill mode to validate your procedures, add approval steps where you want a person in the loop, and monitor progress in real time. This automation reduces recovery time and eliminates common errors that occur when coordinating server launch order during high-stress disaster scenarios.\n\n\nRecovery Plans are available in all AWS Regions where AWS DRS is offered, at no additional cost beyond standard DRS usage. To learn more, visit the[AWS Elastic Disaster Recovery User Guide](https://docs.aws.amazon.com/drs/latest/userguide/recovery-plans.html) .",
+  "published_at": "2026-08-27T18:00:00+00:00",
+  "first_seen_at": "2026-08-27T19:11:38.770305+00:00",
+  "content_hash": "sha256:c7bc54e5c78ef1e870ba00769343d7c3c8827e90d5ee6558f8d06ffb3f885dad"
+}

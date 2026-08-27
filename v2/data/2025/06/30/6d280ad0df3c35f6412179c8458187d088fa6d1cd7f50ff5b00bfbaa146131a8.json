@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6d280ad0df3c35f6412179c8458187d088fa6d1cd7f50ff5b00bfbaa146131a8",
+  "company_key": "yc-convictional",
+  "company_name": "Convictional",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://convictional.com/posts/leading-machines-not-people/",
+  "canonical_url": "https://convictional.com/posts/leading-machines-not-people/",
+  "title": "Leading Machines, Not People",
+  "summary": "Announcing Convictional's collaborative email product that addresses the erosion of workplace communication caused by chat tools and AI spam.",
+  "body_markdown": "#\n\n\nThings are changing for software engineers, we’re all becoming tech leads of coding agents. It’s changing to be about knowing how to guide, when to step in, and being smart with risk. As the tech lead at Convictional, I wanted to think through what I think those skills are right now, and what I’ve learned working with coding agents so far.\n\n\nNote that I'm specifically calling out this role as \"tech lead\" (and not \"manager\") because it's not healthy to think of agents like people. You don't have to worry about their feelings. You can micromanage them without consequence. And most importantly, they can't absorb ongoing context the way you can (for now). So how do we complement coding agents?\n\n\n**Communication** - Best defined as \"coordinated action\", this has been and forever will be the ultimate skill. How well can you tell the agents what the team wants done? How well can you articulate what the agents have done for the team?\n\n\n**Architecture** - A tricky thing is they make big decisions without you realizing it. They're making architectural decisions. Calling out their assumptions and aligning them is critical to the ongoing maintenance of their work. You should be able to envision the pieces and PRs before sending an agent to do the work. If not, spike until you do and then throw it away.\n\n\n**Context** - Agents can't absorb and retain context the way a human can. What approaches have you and others tried? What assumptions have been made? And most importantly, what does the team need? The question to ask is “what are we really solving?”.\n\n\n**Review** - Another forever-skill, but increasingly something to get better at because of the output volume from coding agents. Not just the requested change (usability, design, performance) but also the technical side (reading/auditing code and architecture).\n\n\n**Project management** - I saved maybe the most important one for last. You need to be able to break down work into small pieces you can easily ship. Manage the sequencing. Recognize \"done\" to the team's quality bar. Agents will code to infinity, breaking the work down might be the most important thing here. Too much work in progress is death to speed.\n\n\nMore or less, these are all forms of dealing with risk. Embrace it, and move faster and more confidently. We're leads and editors for what the agents do. Everyone with access to a computer can and should vibe-code experiments and proofs of concept of all sizes. It’s an incredible way to learn. The difference between vibe-coding and engineering? The engineer is responsible for the outcomes and impact going forward.",
+  "published_at": "2025-06-30T00:00:00+00:00",
+  "first_seen_at": "2026-08-27T19:10:43.088382+00:00",
+  "content_hash": "sha256:b50c8052183c0b8d2ab68a7bc13baefec590b954e6e187607095425539f9920e"
+}
