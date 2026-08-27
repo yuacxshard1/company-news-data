@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-25T21:41:44.227724+00:00",
       "published_at": "2026-06-23T12:00:00+00:00",
       "source_kind": "html",
-      "summary": "Revyl grounds mobile tests on the rendered screen, not the accessibility tree. Here's why we went vision-only, where the tree falls short, and how the loop works.",
+      "summary": "Revyl grounds mobile tests on the rendered screen, with an Android hierarchy guard for natural-language taps. Here's why the loop stays vision-first.",
       "title": "Why Revyl Tests by Sight"
     }
   ],

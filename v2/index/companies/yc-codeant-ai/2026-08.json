@@ -13,12 +13,32 @@
     {
       "company_key": "yc-codeant-ai",
       "company_name": "CodeAnt AI",
+      "doc_id": "5a9b770f1345c966d23168971ab28ce5ffdaa1aede126472108a604ab93f3165",
+      "first_seen_at": "2026-08-27T20:34:14.459789+00:00",
+      "published_at": "2026-08-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "CodeAnt AI found a parent-directory TOCTOU in Claude Code on macOS, sandboxed repo code redirects the host Edit tool to overwrite files outside the workspace.",
+      "title": "Claude Code Security Flaw: Sandboxed Code Overwrites Host Files"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
       "doc_id": "6a6627f694cbb63e4dabafa6bb5d47c551105ae81bda36a794731f70fbf92079",
       "first_seen_at": "2026-08-18T15:24:47.352463+00:00",
       "published_at": "2026-08-17T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Claude Code reinterpreted glob metacharacters in a literal workspace path while generating its macOS Seatbelt policy, allowing a sandboxed command to write protected configuration into a sibling project and trigger a SessionStart hook on its next launch.",
       "title": "Claude Code Sandbox Escape on macOS"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
+      "doc_id": "b15942e7110997140f9d29509302d20de77b6dfc2711f48c193b7731563ec730",
+      "first_seen_at": "2026-08-27T20:34:14.459789+00:00",
+      "published_at": "2026-08-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "CodeAnt AI Security Research found an event-identity rebinding flaw in Claude Code Action, a triage-role collaborator can move an authorized run's trigger boundary and inject post-authorization input into a repo-writing job.",
+      "title": "Claude Code Action Bug: Security Flaw Lets Triage Roles Inject Data"
     },
     {
       "company_key": "yc-codeant-ai",

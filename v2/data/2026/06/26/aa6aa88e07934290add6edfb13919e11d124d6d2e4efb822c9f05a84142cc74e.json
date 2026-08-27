@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "aa6aa88e07934290add6edfb13919e11d124d6d2e4efb822c9f05a84142cc74e",
+  "company_key": "yc-flick",
+  "company_name": "Flick",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flick.art/blog/img2img-consistent-character/veo-3",
+  "canonical_url": "https://flick.art/blog/img2img-consistent-character/veo-3",
+  "title": "How to Keep a Character Consistent in Veo 3",
+  "summary": "Veo 3.1 holds a character through Ingredients to Video: supply up to three reference images, prompt the action, and reuse the references on every shot.",
+  "body_markdown": "## HOW IT WORKS\n\n\n1.\n\n\n---\n\n\nSTEP 1\n\n\nLOCK YOUR CHARACTER FIRST\n\n\nVeo 3.1 in Flick animates a starting image, it does not read character references itself. So build a reusable character first: generate it with a reference-capable model like Nano Banana Pro, or lock it as a Character in Flick.\n\n\nMade in Flick\n2.\n\n\n---\n\n\nSTEP 2\n\n\nANIMATE THE STILL WITH VEO 3.1\n\n\nOpen Veo 3.1 in Flick and set your character still as the start frame, then generate image to video. Veo animates that exact frame, so the identity carries straight into the clip.\n\n\nMade in Flick\n3.\n\n\n---\n\n\nSTEP 3\n\n\nPROMPT THE ACTION, NOT THE FACE\n\n\nDescribe the scene and what the character does. The start frame fixes the look, so prompt the motion and setting, not the identity.\n\n\nMade in Flick\n4.\n\n\n---\n\n\nSTEP 4\n\n\nREUSE THE SAME STILL EACH SHOT\n\n\nFor every new shot, start from the same character still, or bracket the motion with first and last frames. Veo has no memory between generations, so the shared still is what keeps the character consistent.\n\n\nMade in Flick\n5.\n\n\n---\n\n\nSTEP 5\n\n\nEXTEND INTO A SEQUENCE\n\n\nUse scene extension or first and last frame to chain clips into a longer take, carrying the same still across the cut.\n\n\nMade in Flick",
+  "published_at": "2026-06-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+  "content_hash": "sha256:d0d677cde4c7e280dfde06ca9db0323e9de4c874cdf426fbf914d82d39939fab"
+}

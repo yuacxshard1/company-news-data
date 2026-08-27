@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9e76b2e842f2f8fd3f31b7165445831d42520b30dd3f17eedf2a59c7dc2863e1",
+  "company_key": "yc-flick",
+  "company_name": "Flick",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flick.art/blog/img2img-consistent-character/flux",
+  "canonical_url": "https://flick.art/blog/img2img-consistent-character/flux",
+  "title": "How to Keep a Character Consistent in Flux",
+  "summary": "Flux holds a character best with Flux Kontext, an in-context model that keeps a subject across edits with no training. Train a Flux LoRA to repeat it.",
+  "body_markdown": "## HOW IT WORKS\n\n\n1.\n\n\n---\n\n\nSTEP 1\n\n\nSTART FROM ONE CLEAN CHARACTER IMAGE\n\n\nGenerate or choose a clear image of your character. With Kontext, this single image is the subject you preserve.\n\n\n2.\n\n\n---\n\n\nSTEP 2\n\n\nEDIT IN CONTEXT WITH KONTEXT\n\n\nLoad Flux Kontext, provide the character image plus an instruction like a new pose or scene. Kontext keeps the subject while changing the setting.\n\n\n3.\n\n\n---\n\n\nSTEP 3\n\n\nTRAIN A LORA FOR FULL REPEATABILITY\n\n\nFor a character you reuse constantly, train a Flux LoRA on 15 to 30 varied images and a unique trigger token, then call it in any prompt.\n\n\n4.\n\n\n---\n\n\nSTEP 4\n\n\nTIGHTEN THE FACE WITH PULID\n\n\nWhen the face is small or drifting, add PuLID to preserve the specific identity on top of your prompt or LoRA.\n\n\n5.\n\n\n---\n\n\nSTEP 5\n\n\nBRING IT TO LIFE IN FLICK\n\n\nFlux makes stills only. Drop your locked character into Flick and animate it with Veo 3, Kling, or Seedance so it carries into video.",
+  "published_at": "2026-06-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+  "content_hash": "sha256:17330f2633ec7e3f85ef982834b368d40380fe4aac807caa3768dce9b230a249"
+}

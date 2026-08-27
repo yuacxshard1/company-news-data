@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d2d454cb81324c6aa67b46c3ee18e33d84c25d6f097f9094a6b0effbbb127506",
+  "company_key": "yc-flick",
+  "company_name": "Flick",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flick.art/blog/img2img-consistent-character/comfyui",
+  "canonical_url": "https://flick.art/blog/img2img-consistent-character/comfyui",
+  "title": "How to Keep a Character Consistent in ComfyUI",
+  "summary": "ComfyUI holds a character without training: an IPAdapter FaceID node for identity, ControlNet for pose, and a FaceDetailer pass to sharpen the face.",
+  "body_markdown": "## HOW IT WORKS\n\n\n1.\n\n\n---\n\n\nSTEP 1\n\n\nLOAD AN SDXL CHECKPOINT\n\n\nStart from a photoreal SDXL checkpoint like RealVisXL or Juggernaut; they hold anatomy and identity far better than SD 1.5 for character work. Run DPM++ 2M Karras at 25 to 30 steps and keep the base at 1024, since IPAdapter and InstantID were trained at SDXL scale and drift at smaller sizes.\n\n\n2.\n\n\n---\n\n\nSTEP 2\n\n\nADD AN IPADAPTER FACEID NODE\n\n\nWire in an IPAdapter FaceID Plus v2 node, load the CLIP-Vision and FaceID LoRA it expects, and feed it one clean reference face. Hold the weight around 0.7 to 0.8: lower and the prompt takes over and the face drifts, higher and identity locks but the expression stiffens. Stack InstantID beside it when the face has to hold at hard angles.\n\n\n3.\n\n\n---\n\n\nSTEP 3\n\n\nLOCK POSE WITH CONTROLNET\n\n\nFeed a pose skeleton into a ControlNet OpenPose node so the body and framing stay fixed while only the setting changes. Add a Depth or Canny ControlNet at low weight (0.3 to 0.5) to also hold composition, but keep total ControlNet strength under about 1.0 so it does not fight the IPAdapter.\n\n\n4.\n\n\n---\n\n\nSTEP 4\n\n\nREFINE WITH FACEDETAILER\n\n\nRoute the output through a FaceDetailer node (Impact Pack) to crop, re-diffuse, and re-anchor the face at full resolution, fixing the melting eyes and mouth SDXL gives you at distance. Keep the same reference and a fixed seed across generations, and hold FaceDetailer denoise around 0.4 so it sharpens without inventing a new face.\n\n\n5.\n\n\n---\n\n\nSTEP 5\n\n\nBRING IT TO LIFE IN FLICK\n\n\nComfyUI stops at stills, and the graph, the custom nodes, and the GPU are yours to maintain. Drop your locked character into Flick and animate it with Veo 3, Kling, or Seedance, and Character Reference carries the same face into video with no adapter stack to wire.",
+  "published_at": "2026-06-26T00:00:00+00:00",
+  "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+  "content_hash": "sha256:e9b11fa269edbf8452645072ffaea8b666e74b50c2e98833cc88dd04d43322c2"
+}

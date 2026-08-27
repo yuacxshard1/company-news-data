@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "20720d6e983f97482997adb2193331a3ad68fc0d71a98ef0f2b4425cf777ea53",
+  "company_key": "yc-embrace",
+  "company_name": "Embrace",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://embrace.io/blog/first-input-delay/",
+  "canonical_url": "https://embrace.io/blog/first-input-delay/",
+  "title": "First Input Delay shows how quickly your site responds to user interaction",
+  "summary": "Learn how First Input Delay (FID) measures how quickly your site responds to user interactions and why responsiveness matters for a better user experience.",
+  "body_markdown": "We’re excited to announce the availability of the First Input Delay metric as part of\n\n\n[LUX](https://www.speedcurve.com/features/lux/) , SpeedCurve’s RUM product.\n\n\n[First Input Delay](https://developers.google.com/web/updates/2018/05/first-input-delay)\n\n\n(FID) was developed by Google to capture how quickly websites respond to user interaction. It’s fairly simple to implement: We add event handlers for click, mousedown, keydown, pointerdown, and touchstart. When the user first interacts with the page in one of those ways, we measure the time between when the event happened and when the event handler was actually called. That delta is FID.\n\n\nFor many websites, FID is typically quick. In the\n\n\n[FID chart for WebPageTest](https://www.speedcurve.com/webpagetest/lux-perf/?ld=5&lde=1&lds=1&stat=median&share=uga4v95goqtuwzip0h1yus236zp92f)\n\n\n(shown above), we see the median FID value is only 3 milliseconds. But the 95th percentile value is 30ms. (Click on the chart to interact with the live dashboard.) That’s coming close to the 50ms interval that defines a\n\n\n[Long Task](https://www.w3.org/TR/longtasks/) when responsiveness starts feeling sluggish. To help correlate these issues we show the\n\n\n[Long Tasks chart](https://www.speedcurve.com/webpagetest/lux-perf/?ld=5&lde=1&lds=1&stat=median&share=uga4v95goqtuwzip0h1yus236zp92f)\n\n\nright below the FID chart. Along with FID we show our interaction metrics which reveal how long it takes before the user clicks, keys, or scrolls.\n\n\nFID, Long Tasks, and interaction metrics combine to provide insight on how JavaScript on your page hogs the CPU and impacts the user experience. FID is only available in RUM (since synthetic tests don’t have users that interact). If you’re not already using RUM, start a\n\n\n[free trial of LUX](https://www.speedcurve.com/)\n\n\nto see these metrics from your website.\n\n\nAuthor\n\n\n[Embrace](https://embrace.io/author/embrace/)\n\n\nRelated Content\n\n\npagespeed\n\n\n27 August 2026\n\n\n• 5 min read\n\n\n### [Why you need to know your site’s performance plateau (and how to find it)](https://embrace.io/blog/web-performance-plateau/)\n\n\npagespeed\n\n\n27 August 2026\n\n\n• 3 min read\n\n\n### [Correlation charts: Connect the dots between site speed and business success](https://embrace.io/blog/site-speed-business-correlation/)\n\n\npagespeed\n\n\n27 August 2026\n\n\n• 2 min read\n\n\n### [How to find (and fix!) INP interactions on your pages](https://embrace.io/blog/interaction-to-next-paint-find-ix-elements/)",
+  "published_at": "2026-08-27T18:57:13+00:00",
+  "first_seen_at": "2026-08-27T21:48:44.072266+00:00",
+  "content_hash": "sha256:0b0655706a6323e0d112cc3ec6f54c23ed5334124d28ceb71b984d9578edb707"
+}

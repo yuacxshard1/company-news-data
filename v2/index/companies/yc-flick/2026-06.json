@@ -3,6 +3,16 @@
     {
       "company_key": "yc-flick",
       "company_name": "Flick",
+      "doc_id": "1611e260f272550a498c8c14a30e9b25919576b45d7641beeada5b60d6c8e348",
+      "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Sora 2 keeps a character consistent with Cameos: record a short video of a person, pet, or persona once, then insert that identity into any generation.",
+      "title": "How to Keep a Character Consistent in Sora"
+    },
+    {
+      "company_key": "yc-flick",
+      "company_name": "Flick",
       "doc_id": "5fb67d2ae10aa571da83c39426752b5f0a0f8d9aecb1c10f0a0ea5cd1fd322dd",
       "first_seen_at": "2026-07-21T20:27:22.551209+00:00",
       "published_at": "2026-06-29T00:00:00+00:00",
@@ -13,12 +23,72 @@
     {
       "company_key": "yc-flick",
       "company_name": "Flick",
+      "doc_id": "9e76b2e842f2f8fd3f31b7165445831d42520b30dd3f17eedf2a59c7dc2863e1",
+      "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Flux holds a character best with Flux Kontext, an in-context model that keeps a subject across edits with no training. Train a Flux LoRA to repeat it.",
+      "title": "How to Keep a Character Consistent in Flux"
+    },
+    {
+      "company_key": "yc-flick",
+      "company_name": "Flick",
+      "doc_id": "aa6aa88e07934290add6edfb13919e11d124d6d2e4efb822c9f05a84142cc74e",
+      "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Veo 3.1 holds a character through Ingredients to Video: supply up to three reference images, prompt the action, and reuse the references on every shot.",
+      "title": "How to Keep a Character Consistent in Veo 3"
+    },
+    {
+      "company_key": "yc-flick",
+      "company_name": "Flick",
+      "doc_id": "abbbd5c3bb200c365d577485b9f45f4c8301acc6d9175d72cdf814aff3417c08",
+      "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Midjourney locks a character through Omni Reference: supply a reference image with the --oref parameter, tune omni-weight, and it holds shot to shot.",
+      "title": "How to Keep a Character Consistent in Midjourney"
+    },
+    {
+      "company_key": "yc-flick",
+      "company_name": "Flick",
       "doc_id": "bf5834f5085dc0c17548e0f6bc4b954bd60060f325472377333145825464f01b",
       "first_seen_at": "2026-07-21T20:27:22.551209+00:00",
       "published_at": "2026-06-18T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Stop character drift. Tested workflows to keep the same face, outfit & style across every scene, in Flick, Kling O3, Midjourney, Veo 3 and Seedance.",
       "title": "AI Character Consistency: 5 Methods Compared (2026) | Flick"
+    },
+    {
+      "company_key": "yc-flick",
+      "company_name": "Flick",
+      "doc_id": "cc0196555d1e54f402e40e49f4fb777a24db22771c6f3d1a48f2c10cf10c816f",
+      "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "GPT Image has no saved-character feature, so consistency is method: keep generations in one chat thread, re-feed your reference, and re-anchor on the best.",
+      "title": "How to Keep a Character Consistent in GPT Image"
+    },
+    {
+      "company_key": "yc-flick",
+      "company_name": "Flick",
+      "doc_id": "cdc2b6525862c1e89a8da224aa516a69874c94b6a3abc5f3e6af8afa7ca24389",
+      "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Nano Banana, Google's Gemini image model, excels at character consistency: supply reference images and edit conversationally to reuse the same face.",
+      "title": "How to Keep a Character Consistent in Nano Banana"
+    },
+    {
+      "company_key": "yc-flick",
+      "company_name": "Flick",
+      "doc_id": "d2d454cb81324c6aa67b46c3ee18e33d84c25d6f097f9094a6b0effbbb127506",
+      "first_seen_at": "2026-07-23T08:28:30.776088+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "ComfyUI holds a character without training: an IPAdapter FaceID node for identity, ControlNet for pose, and a FaceDetailer pass to sharpen the face.",
+      "title": "How to Keep a Character Consistent in ComfyUI"
     }
   ],
   "company_key": "yc-flick",

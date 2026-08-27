@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-20T23:23:40.519323+00:00",
       "published_at": "2026-06-11T00:00:00+00:00",
       "source_kind": "atom",
-      "summary": "An AI agent recently hijacked a developer's Fedora account, submitted bogus PRs, and got questionable code merged into a Linux installer. Here's what the incident reveals about agent scope — and how Cosmic is designed to prevent exactly this kind of blast radius.",
+      "summary": "An AI agent recently hijacked a developer's Fedora account, submitted bogus PRs, and got questionable code merged into a Linux installer. Here is what the incident reveals about agent scope, and which boundaries Cosmic actually enforces.",
       "title": "When AI Agents Go Wrong: How Cosmic Keeps Them Scoped"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-20T23:23:40.519323+00:00",
       "published_at": "2026-06-30T00:00:00+00:00",
       "source_kind": "atom",
-      "summary": "Claude Sonnet 5 is faster and cheaper than Opus 4.8 on most coding tasks. Here are the real benchmarks, pricing, context window, and a plain-language verdict for developers.",
+      "summary": "Claude Sonnet 5 benchmarks, pricing at $2/$10 per million tokens, and the new tokenizer, plus how it compares to Opus 5. Verified against Anthropic, Aug 2026.",
       "title": "Claude Sonnet 5: Benchmarks, Pricing, and What Developers Need to Know (2026)"
     },
     {
@@ -267,7 +267,7 @@
       "first_seen_at": "2026-07-20T23:23:40.519323+00:00",
       "published_at": "2026-06-11T00:00:00+00:00",
       "source_kind": "atom",
-      "summary": "Claude Code, OpenAI Codex, and Cursor compared on real projects. Full breakdown of speed, cost, context handling, and which tool actually ships better code in 2026.",
+      "summary": "Claude Code, OpenAI Codex, and Cursor compared on pricing, model choice, cloud agents, and MCP support. Vendor pricing verified August 20, 2026.",
       "title": "Claude Code vs Codex vs Cursor: The Best AI Coding Tool in 2026"
     },
     {
@@ -287,7 +287,7 @@
       "first_seen_at": "2026-07-20T23:23:40.519323+00:00",
       "published_at": "2026-06-11T00:00:00+00:00",
       "source_kind": "atom",
-      "summary": "MCP server searches have crossed 60,000/month and are still climbing. This is the definitive guide: what an MCP server is, how the protocol works, how to build one from scratch with TypeScript, and how Cosmic's native MCP server fits into production agent workflows.",
+      "summary": "An MCP server is a process that exposes tools, resources, and prompts to AI clients via a standard protocol. Learn how it works, build one in TypeScript, and connect it to Claude, Cursor, and Claude Code in under 5 minutes.",
       "title": "What Is an MCP Server? How It Works, and How to Build One (2026)"
     },
     {
@@ -317,7 +317,7 @@
       "first_seen_at": "2026-07-20T23:23:40.519323+00:00",
       "published_at": "2026-06-09T00:00:00+00:00",
       "source_kind": "atom",
-      "summary": "Claude Fable 5 benchmarks, pricing, context window, and a plain-language verdict. Here's what changed from previous Claude versions and whether it's worth switching for your dev workflow.",
+      "summary": "Claude Fable 5 benchmarks, $10/$50 per million token pricing, and safety classifiers, plus how it compares to Opus 4.8 and the newer Opus 5 lineup.",
       "title": "Claude Fable 5: Benchmarks, Pricing, and What Developers Need to Know (2026)"
     },
     {
@@ -567,7 +567,7 @@
       "first_seen_at": "2026-07-20T23:23:40.519323+00:00",
       "published_at": "2026-06-17T00:00:00+00:00",
       "source_kind": "atom",
-      "summary": "Sonnet 4.6 vs Opus 4.8: see exactly which model wins on speed, cost, and quality. Includes a 60-second decision framework and real API cost breakdowns for developers.",
+      "summary": "Sonnet or Opus? A practical routing guide: which Claude model fits which task, when escalating to Opus actually pays off, and the rule we run in production.",
       "title": "Claude Sonnet vs Opus: Which to Use in 2026"
     },
     {
@@ -607,7 +607,7 @@
       "first_seen_at": "2026-07-20T23:23:40.519323+00:00",
       "published_at": "2026-06-05T00:00:00+00:00",
       "source_kind": "atom",
-      "summary": "Everything developers need to know about MCP servers in 2026: what they are, how the protocol works, the mcp.json schema definition, how to create and host your own server, and the most useful servers to connect today.",
+      "summary": "Everything you need to build, configure, and host an MCP server in 2026. Covers the mcp.json schema definition, mcpServers key requirements, which headless CMS has the best MCP server, and new MCP tools released this year.",
       "title": "MCP Server: The Complete Guide for Developers (2026)"
     },
     {
