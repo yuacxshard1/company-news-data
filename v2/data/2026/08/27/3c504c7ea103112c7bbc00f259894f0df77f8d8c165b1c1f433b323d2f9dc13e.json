@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3c504c7ea103112c7bbc00f259894f0df77f8d8c165b1c1f433b323d2f9dc13e",
+  "company_key": "yc-convoy-2",
+  "company_name": "Convoy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getconvoy.io/changelog/event-counts-discarded-chips-and-retention",
+  "canonical_url": "https://www.getconvoy.io/changelog/event-counts-discarded-chips-and-retention",
+  "title": "Event Counts, Discarded Chips & Retention",
+  "summary": "Changelog update from Sunday, August 23rd, 2026",
+  "body_markdown": "Here's what shipped in 26.7.4.\n\n\n**Events sent is the number of events**\n\n\nThe 26.7.3 dashboard totals still counted Events sent from deliveries, and that number sat in cache for an hour. Successful and Failed moved with the live rollup. Events sent did not, so one event with two deliveries looked like two events sent.\n\n\nIt now counts event rows. The three cards stay on the same clock, and a fan-out no longer inflates the first one. Today's numbers can still sit up to a minute behind. After you upgrade, older event days fill in as Convoy walks back through your history.\n\n\n**Discarded is a skip, not a failure**\n\n\nA discarded delivery is a terminal skip. It used to share the red Failure chip. It now sits on a muted chip, the same family as Scheduled and Retry. Failure stays red.\n\n\nThe Events log route column says **Matched** when a subscription picked the event up, and **Unmatched** when none did. It no longer says Delivered for a match.\n\n\n**Retention follows the period you set**\n\n\nChanging` CONVOY_RETENTION_POLICY` after the first boot used to leave the stored window alone, so later drops kept using the old period. Convoy now rewrites that window when it registers the tables, and adopted-partition drops read the same row.\n\n\nYou still need a process restart, or the nightly job, after you change the period.\n\n\n**Index rebuilds wait out the daily counts job**\n\n\nThe 26.7.3 rebuilds used one short timeout for both \"is the table free?\" and \"are other transactions finished?\". The minute rollup holds a transaction for tens of seconds, so a rebuild only succeeded in the gap between runs.\n\n\nThe table lock still has to clear in a few seconds. The build itself can wait for that rollup to finish. If it cannot, the error names the blocker instead of looking like a generic lock timeout.\n\n\n**Smaller fixes**\n\n\n- One event reads **Event sent** , one success reads **Successful delivery** , one failure reads **Failed delivery**\n- The missing-number dash on the delivery cards, including the portal, is the same width as the dashes in the tables\n\n\nOpen Events and check that Events sent matches the events you ingested.",
+  "published_at": null,
+  "first_seen_at": "2026-08-27T14:06:11.754342+00:00",
+  "content_hash": "sha256:4ea71258b43f4e485cc61c8790fd015489bf3e6004f808ac601d993aae2f3538"
+}
