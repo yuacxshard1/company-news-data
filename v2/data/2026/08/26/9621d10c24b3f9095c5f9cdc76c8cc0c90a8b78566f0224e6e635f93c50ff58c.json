@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9621d10c24b3f9095c5f9cdc76c8cc0c90a8b78566f0224e6e635f93c50ff58c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
+  "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
+  "summary": "Discover more about what's new at AWS with Amazon Cognito adds admin API operation to reset user TOTP configurations",
+  "body_markdown": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP device, administrators can remove the device association, allowing the user to enroll a new device on their next sign-in.\n\n\nThis removes the need to recreate accounts to recover locked-out users if they lose access to their TOTP device. Customers can maintain MFA enforcement while providing a recovery path.\n\n\nThis new capability is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon Cognito is available. To get started, access the[AdminDeleteSoftwareToken](https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_AdminDeleteSoftwareToken.html) API using the AWS CLI, SDKs, or APIs. See the[developer guide](https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-mfa-totp.html#user-pool-settings-mfa-totp-remove) for instructions.",
+  "published_at": "2026-08-26T22:00:00+00:00",
+  "first_seen_at": "2026-08-27T00:31:59.985946+00:00",
+  "content_hash": "sha256:df689cafb1be5a101996023823bcc4241dca820096f74a228560216c0363fcb6"
+}

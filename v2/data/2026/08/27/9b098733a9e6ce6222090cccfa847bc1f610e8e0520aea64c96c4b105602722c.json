@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9b098733a9e6ce6222090cccfa847bc1f610e8e0520aea64c96c4b105602722c",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/three-misconceptions-about-bayesian-optimization",
+  "canonical_url": "https://www.reactwise.com/news/three-misconceptions-about-bayesian-optimization",
+  "title": "Three misconceptions about Bayesian optimization",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "**Three misconceptions about Bayesian optimization**\n\n\nThe underlying method of BO didn't come from chemistry. It came from gold mining.\n\n\nIn the 1950s, a South African mining engineer Danie Krige had a practical problem: where do you drill next?\n\n\nEach borehole was expensive, ore grade varied unpredictably, and you could only afford a handful. His answer was to estimate grade everywhere from the few places already measured, using the fact that nearby samples are correlated.\n\n\nThat is a Gaussian process. The part that turns it into a decision, where to drill next, came later from Jonas Mockus.\n\n\nMost misconceptions about BO disappear once you hold onto that picture.\n\n\n**1. It's not a one-shot answer**\n\n\nKrige didn't drill once. He drilled, updated the map, drilled again. BO works the same way. It proposes, you run, it updates. The first round is rarely impressive and isn't meant to be. What you get is a system that balances drilling where the map looks promising against drilling where the map is blank. If you drop the exploration, you only ever improve on what you already know. You find a good result, not the best one.\n\n\n**2. Not all implementations are equal**\n\n\nKrige's model only worked because he could say which boreholes were near each other. Distance was what let one sample inform another. Chemistry has no built-in distance. If your ligands are encoded categorically every one is learned from scratch. Encode them with chemical descriptors and information transfers between them. Same algorithm, different performance.\n\n\n**3. Not every campaign has to start from zero**\n\n\nNo geologist opens a new survey pretending the last one never happened. Multitask BO applies the same logic: a new campaign learns from previous ones, and the speedup can be substantial. The caveat is that it needs prior data that is genuinely related and stored in a form that can be reused. Unrelated data doesn't help, and badly captured data misleads. Which makes this a data infrastructure problem more than an algorithms problem.\n\n\nNone of it is magic. It's a method for deciding where to sample next when sampling is expensive. Exactly Krige's problem, and still ours.\n\n\n‍",
+  "published_at": "2026-08-27T00:00:00+00:00",
+  "first_seen_at": "2026-08-26T04:17:08.868697+00:00",
+  "content_hash": "sha256:9ebeb086e061dba458049e69b65206ffdebeaa139eb3d105b263f13ce25fc160"
+}
