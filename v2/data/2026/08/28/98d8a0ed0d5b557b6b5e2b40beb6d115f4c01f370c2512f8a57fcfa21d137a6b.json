@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "98d8a0ed0d5b557b6b5e2b40beb6d115f4c01f370c2512f8a57fcfa21d137a6b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+  "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+  "body_markdown": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to[Aurora MySQL 3](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.Updates.30Updates.html) and[MySQL 8.0.45](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-45.html) release notes.\n\n\nYou can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable[automatic minor version upgrades](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.AMVU.html) and use the AWS Organizations[Upgrade Rollout Policy](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Maintenance.AMVU.UpgradeRollout.html) to orchestrate upgrades across your clusters in phases. You can perform minor version upgrades in-place or via snapshot restore. This release is supported in all[AWS Regions](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.RegionsAndAvailabilityZones.html#Aurora.Overview.Availability.MySQL) where Aurora MySQL is available.\n\n\n[Amazon Aurora](https://aws.amazon.com/rds/aurora/) is designed for high performance and availability at global scale with full MySQL compatibility. It provides scale-to-zero serverless compute, Aurora Global Database for multi-Region resilience, Aurora I/O-Optimized for improved price performance on I/O-intensive workloads, and built-in security and continuous backups. To get started, take a look at Aurora’s[getting started page](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html) .",
+  "published_at": "2026-08-28T16:00:00+00:00",
+  "first_seen_at": "2026-08-28T18:28:24.423072+00:00",
+  "content_hash": "sha256:6290b0947289d7ceff41ccc7e482903ad64c9fecd2d35af0a6db1034293b1202"
+}
