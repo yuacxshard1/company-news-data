@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6a12935065a3db38bceeff2c56379e9b4364ae6fcc7e9a842e4db927440a6be2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/",
+  "title": "Amazon FSx for NetApp ONTAP now supports copying backups across AWS Regions and accounts",
+  "summary": "Discover more about what's new at AWS with Amazon FSx for NetApp ONTAP now supports copying backups across AWS Regions and accounts",
+  "body_markdown": "Amazon FSx for NetApp ONTAP, a fully managed shared storage service built on NetApp's popular ONTAP file system, now supports copying backups within and across AWS Regions, and across trusted accounts in your AWS organization. You can now provide an additional layer of protection for your data by storing secondary backup copies in a different Region or account than your primary copies, making it easier to meet your business continuity, data protection, and compliance requirements.\n\n\nAmazon FSx offers secure, highly durable, and incremental backups designed to support your data retention, archival, and compliance needs. Backups are point-in-time offline copies of your volumes, stored redundantly across multiple Availability Zones in the same Region as your file system. Previously, you could create and restore backups in the same Region and account as your file system. Starting today, you can copy backup data to multiple Regions and accounts for enhanced resilience, data isolation, and operational flexibility.\n\n\nYou can copy new and existing backups in[all AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon FSx for NetApp ONTAP is available. To learn more, visit the[FSx for NetApp ONTAP user guide](https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/getting-started.html) and the[Amazon FSx for NetApp ONTAP product page](https://aws.amazon.com/fsx/netapp-ontap/) .",
+  "published_at": "2026-08-27T17:37:00+00:00",
+  "first_seen_at": "2026-08-27T22:28:23.328139+00:00",
+  "content_hash": "sha256:20cd746e80e29c09db70ace2f75296a23dc6233a479e7edcd42a33e5e5946796"
+}

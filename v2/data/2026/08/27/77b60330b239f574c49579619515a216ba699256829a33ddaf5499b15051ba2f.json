@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "77b60330b239f574c49579619515a216ba699256829a33ddaf5499b15051ba2f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
+  "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
+  "body_markdown": "[Amazon Redshift](https://aws.amazon.com/redshift/) now integrates with the[Agent Toolkit for AWS](https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/) , enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and date lakes directly from AI agents such as Claude Code, Kiro, and Cursor. The integration pairs the[AWS MCP (Model Context Protocol) server](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/mcp-server.html) , which provides authenticated AWS API execution on your behalf — with[Redshift skills](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/redshift-guide) : curated packages of tested procedures and reference material that help AI agents complete Redshift tasks more effectively.\n\n\nThe[Redshift skills](https://github.com/aws/agent-toolkit-for-aws/tree/1799aae50f30a8e97bab4faf38f2eadbd665028b/skills/specialized-skills/analytics-skills/redshift-guide) cover SQL syntax references to reduce query generation errors, metadata discovery to explore schemas and data without writing SQL by hand, data loading patterns, materialized view best practices, function and data type guidance, and extensions such as Qualify, Pivot, and Super. It also guides end-to-end data warehouse migrations to Amazon Redshift, including discovery, schema and SQL conversion, data movement, validation, and performance comparison. We will continue to expand these skills with additional capabilities over time.\n\n\nThe skills work with provisioned clusters and[Serverless](https://aws.amazon.com/redshift/redshift-serverless/) workgroups, require no changes to existing infrastructure, and are available at no additional charge in all AWS Regions where Amazon Redshift and the AWS MCP Server are offered.\n\n\nTo get started, install the[aws-data-analytics plugin](https://github.com/aws/agent-toolkit-for-aws/tree/1799aae50f30a8e97bab4faf38f2eadbd665028b/plugins/aws-data-analytics) in your agent, which bundles the MCP Server configuration and Redshift skills in a single step. Agents with MCP Server access can also discover and load skills at runtime without pre-installation. For setup instructions, see the[Agent Toolkit documentation](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/quick-start.html) or the[Amazon Redshift skills documentation](https://docs.aws.amazon.com/redshift/latest/mgmt/agent-skills.html) .",
+  "published_at": "2026-08-27T20:07:00+00:00",
+  "first_seen_at": "2026-08-27T22:28:23.328139+00:00",
+  "content_hash": "sha256:a695f228ab95711974ec45c7dc90f8ff2769c6d75c6222b14e60342aea43825e"
+}
