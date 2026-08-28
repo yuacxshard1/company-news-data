@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4dded1037ca30fc8c635b4298c20508e6e07fe055b9f499645e9163d4cb2294a",
+  "company_key": "commvault-systems-inc-common-stock",
+  "company_name": "Commvault Systems Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.commvault.com/blogs/cloud-backup-and-recovery-explained",
+  "canonical_url": "https://www.commvault.com/blogs/cloud-backup-and-recovery-explained",
+  "title": "Cloud Backup and Recovery Best Practices for Cyber Resilience | Blog | Commvault",
+  "summary": "See how cloud backup and recovery helps detect threats, protect clean recovery points, validate integrity, and restore operations after an incident.",
+  "body_markdown": "---\n\n\n### Stage 4: Restore critical operations in the right order\n\n\nA restore plan starts with the organization’s minimum viable operating state. That means identifying the people, systems, applications, data, and communication channels the business needs to function at a basic level during a disruption.\n\n\nFor some organizations, that may start with identity services and employee communications. For others, it may prioritize customer-facing applications, payment systems, clinical systems, manufacturing operations, or logistics platforms. The order should reflect business impact, not just technical convenience.\n\n\nDependencies are where many recovery plans become more complicated. An application may be listed as “critical,” but it still depends on identity, DNS, network connectivity, databases, storage, encryption keys, APIs, and monitoring. If those pieces are not restored in the right state, the application may come back online but remain unusable. That is why recovery teams need dependency mapping before an incident, not during one.\n\n\nRunbooks and orchestrated workflows help turn those decisions into repeatable steps. They can define who approves the restore, which environment should be used, which checks must happen before production access is restored, and when the next tier of systems can come online. This matters when security, infrastructure, application, cloud, and business teams are all working at the same time.\n\n\nRestoration also needs checkpoints. After each major workload comes back, teams should confirm that users can authenticate, data is available, integrations are working, and monitoring is in place. Those checks help catch problems before recovery expands to the next tier of systems.\n\n\nSpeed still matters, but control matters just as much. A fast restore can create more work if the wrong data comes back, if access controls are missing, or if an application returns without the systems it needs to run. The stronger approach is to restore in phases, confirm that each critical service is working, and then continue expanding recovery as the environment stabilizes.",
+  "published_at": "2026-08-25T12:05:34+00:00",
+  "first_seen_at": "2026-08-28T05:51:26.118371+00:00",
+  "content_hash": "sha256:e927d9eb84e316ff2fc122e334321336f5a1a07c2284014829c9d62893fe8ee9"
+}
