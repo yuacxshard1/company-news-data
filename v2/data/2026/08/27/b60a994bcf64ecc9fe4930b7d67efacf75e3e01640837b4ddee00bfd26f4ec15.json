@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b60a994bcf64ecc9fe4930b7d67efacf75e3e01640837b4ddee00bfd26f4ec15",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-fsx-netapp-cross-account-region/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-fsx-netapp-cross-account-region/",
+  "title": "AWS Backup adds cross-Region and cross-account backup support for Amazon FSx for NetApp ONTAP",
+  "summary": "Discover more about what's new at AWS with AWS Backup adds cross-Region and cross-account backup support for Amazon FSx for NetApp ONTAP",
+  "body_markdown": "AWS Backup now supports copying Amazon FSx for NetApp ONTAP backups across AWS Regions and accounts. You can copy your FSx for NetApp ONTAP backups to another AWS Region, another AWS account, or both, using policy-based backup plans or on-demand copy jobs.\n\n\nCopying backups to a separate Region helps you meet cross-Region disaster recovery and business continuity goals, while copying to a separate account helps protect your backups from accidental deletion, operational error, or account compromise. AWS Backup manages these copies centrally, and you can automate them across your organization using AWS Organizations.\n\n\nThis capability is available in all commercial AWS Regions where both Amazon FSx for NetApp ONTAP and AWS Backup are available. To get started, visit the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. For a complete list of supported Regions and features, visit the[AWS Backup documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#supported-services-by-region) . To learn more, visit the[product page](https://aws.amazon.com/backup/) and[pricing page](https://aws.amazon.com/backup/pricing/) .",
+  "published_at": "2026-08-27T17:25:00+00:00",
+  "first_seen_at": "2026-08-28T01:40:52.692838+00:00",
+  "content_hash": "sha256:bba52a0e8da914d6c73729fad3365691f9f94047a7edad2f99f712e93bf9ef78"
+}

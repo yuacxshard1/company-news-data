@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "de0eecbf595a0464e4d17047fb3fa1fcd2ea883fcfcfb04c35f3d334ab84c96b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records",
+  "title": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
+  "body_markdown": "[Amazon Redshift](https://aws.amazon.com/redshift/) now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS. This means you can stream significantly larger payloads directly into Amazon Redshift without splitting records, simplifying your ingestion pipelines and unlocking new use cases for high-volume, large-record workloads.\n\n\nAmazon Redshift support for 10MiB record size in Amazon KDS streams is now available in all commercial AWS regions where Amazon Redshift is available. For more information on direct streaming ingestion into Amazon Redshift, see the[Amazon Redshift streaming documentation](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-streaming-ingestion.html) . For more information on 10MiB record support in Amazon KDS, see the[Amazon KDS documentation](https://docs.aws.amazon.com/streams/latest/dev/large-records.html) .",
+  "published_at": "2026-08-27T21:41:00+00:00",
+  "first_seen_at": "2026-08-28T01:40:52.692838+00:00",
+  "content_hash": "sha256:96dbf7085081813854465d8ba9be4b82ca5dd3db3b7f0e3f782b6aeb1c8d6d64"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9a977729802af7becc0490c9b50a96b8d5b3f24bfb162baf893748252e540a67",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/",
+  "title": "Amazon Aurora DSQL now supports foreign key constraints",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora DSQL now supports foreign key constraints",
+  "body_markdown": "[Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/) now lets you add foreign key constraints to new and existing tables. Aurora DSQL is a serverless, distributed SQL database with PostgreSQL compatibility and active-active multi-Region availability.\n\n\nYou can now express your application's rules about how tables reference each other as FOREIGN KEY constraints in your Aurora DSQL cluster. Declare, for example, that a customer's primary address must reference an existing row in your address table. Aurora DSQL then refuses any write that would leave that customer pointing at an address that no longer exists. You choose what happens when a referenced row is deleted or updated, with the options NO ACTION, RESTRICT, CASCADE, SET NULL, and SET DEFAULT.\n\n\nThis feature is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Aurora DSQL is available. To learn more, see[working with foreign key constraints](https://docs.aws.amazon.com/aurora-dsql/latest/userguide/working-with-foreign-key-constraints.html) and the[CREATE TABLE foreign key syntax](https://docs.aws.amazon.com/aurora-dsql/latest/userguide/create-table-syntax-support.html#create-table-foreign-keys) in the Aurora DSQL User Guide.",
+  "published_at": "2026-08-27T07:00:00+00:00",
+  "first_seen_at": "2026-08-28T01:40:52.692838+00:00",
+  "content_hash": "sha256:fc2d8cef56e824171ac5d46abf204d8cbf2515c7106e9796d3cd4e2630a1f1fc"
+}
