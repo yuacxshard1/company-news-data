@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6f63844eb1f13edf43211e4cf62da0a7ab5731a74e546ee677f9a9b834c282c8",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/share-email-api",
+  "canonical_url": "https://resend.com/changelog/share-email-api",
+  "title": "Share Email API",
+  "summary": "Create a shareable link to view a sent or received email directly from the API.",
+  "body_markdown": "Today we're releasing a new API endpoint to[share an email](https://resend.com/docs/api-reference/emails/share-email) . It returns a link to a read-only **view of any sent or received email, viewable by anyone with the link.**\n\n\nShare any email with someone outside of your team, like when a:\n\n\n- **client** wants confirmation an email was sent\n- **teammate** without dashboard access needs to see an email\n- **support tool** needs a quick preview\n\n\nYou can already[create a shareable link from the dashboard](https://resend.com/docs/dashboard/emails/manage-emails#share-email-link) , and now also from code.\n\n\n## What you can build with it\n\n\n- **Support tooling** : attach a live email preview to a ticket.\n- **Customer-facing history** : let users open a \"view this email\" link from your app.\n- **Agent workflows** : ask your agent to surface the email when reporting on a send.\n- **Debugging with your team** : share a link to see the email when investigating issues.\n\n\n## Creating a share link\n\n\nUse the ID of any sent or received email. The API returns the full share URL.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  emails  .  share  (        '49a3999c-0ce1-4ea6-ab68-afcd6dc2e794'  ,        {     expiresIn  :     '2 hours'     }  ,     )  ;\n\n\n```\n\n\nThe response includes the link, ready to hand off:\n\n\n```text\n{        \"object\"  :     \"email\"  ,        \"id\"  :     \"49a3999c-0ce1-4ea6-ab68-afcd6dc2e794\"  ,           \"url\"  :     \"https://resend.com/shared?token=eyJhbGciOiJIUzI1NiJ9...\"     }\n```\n\n\n## How expiration works\n\n\nShare links are temporary by design. Anyone with the link can view the email while it's still active, but links always expire.\n\n\n- **` expires_in`** accepts a human-readable duration like` 10m` ,` 2 hours` , or` 1 day` .\n- If you don't pass it, the link lasts **48 hours** , which is also the maximum.\n- Invalid or over-limit durations return a validation error.\n\n\n## Conclusion\n\n\nThe share email API is part of a larger move to bring the full functionality of the dashboard into the API. You can also create share links from the[Resend CLI](https://resend.com/docs/cli) or delegate it to your agent through the[MCP server](https://resend.com/docs/mcp-server) .",
+  "published_at": "2026-08-28T00:00:00+00:00",
+  "first_seen_at": "2026-08-28T19:41:31.265652+00:00",
+  "content_hash": "sha256:299e1faea948cc5a68e7ca4f28c90350171856710bc55d80defeeb751c194a64"
+}
