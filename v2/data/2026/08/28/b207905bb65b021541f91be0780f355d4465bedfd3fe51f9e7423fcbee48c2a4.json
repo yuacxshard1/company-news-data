@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b207905bb65b021541f91be0780f355d4465bedfd3fe51f9e7423fcbee48c2a4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
+  "title": "Amazon CloudWatch agent adds support for journald logs",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch agent adds support for journald logs",
+  "body_markdown": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal on Linux instances and send them to Amazon CloudWatch Logs, without first writing those logs to files on disk.\n\n\nMany modern Linux distributions, including Amazon Linux 2023, use systemd journal as the primary logging system and no longer write traditional text log files such as /var/log/messages by default. Previously, collecting these logs with the CloudWatch agent required additional configuration to export the journal to files on disk. With this launch, the CloudWatch agent reads journald entries natively, preserving the structured metadata that journald captures, such as the systemd unit, priority, and process information. You can filter log entries using systemd units, journal priority levels, and journal field matches, and you can apply regular expression filters before logs are published to CloudWatch Logs. This helps you reduce noise and control log volume and costs.\n\n\nSupport for journald in the CloudWatch agent is available in all AWS Commercial Regions and GovCloud(US) regions. Standard Amazon CloudWatch Logs pricing applies for ingested logs. For more information, see[Amazon CloudWatch Pricing page](https://aws.amazon.com/cloudwatch/pricing/) .\n\n\nTo get started, update to the latest version of the CloudWatch agent and add a journald section to your agent configuration file. To learn more, see[Manually create or edit the CloudWatch agent configuration file](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Agent-Configuration-File-Details.html) in the Amazon CloudWatch User Guide.",
+  "published_at": "2026-08-28T16:00:00+00:00",
+  "first_seen_at": "2026-08-28T21:25:08.640559+00:00",
+  "content_hash": "sha256:76692fdbc550fe15c3678ddfcff8f63c56b5bda4857b914952ed6eae187eb479"
+}

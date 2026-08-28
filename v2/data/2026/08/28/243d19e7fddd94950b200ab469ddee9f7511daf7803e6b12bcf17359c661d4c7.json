@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "243d19e7fddd94950b200ab469ddee9f7511daf7803e6b12bcf17359c661d4c7",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios",
+  "canonical_url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios",
+  "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
+  "summary": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2608.26133)\n\n\nEvaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turns. Constructing such scenarios by hand demands deep domain expertise, does not scale across tool ecosystems, and produces static benchmarks that cannot track evolving APIs. We observe that tool specifications—function names, natural-language descriptions, and typed parameter schemas—already encode sufficient semantic information to synthesize realistic evaluation scenarios without manual curation or live tool execution. Agent Seer builds off this latent information: from a single Model Context Protocol (MCP) specification, with no examples, no live tool access, and no domain-specific tuning. This pipeline enriches raw schemas, generates graded scenarios with synthetic tool outputs, and expands them into mock-data-grounded multi-turn dialogues that exhibit strong tool-calling correctness and conversational coherence. Evaluation quality is measured by applying this pipeline on seven MCP specifications spanning diverse domains and tool-suite sizes and measuring the tool-calling correctness and conversational coherence. The pipeline achieves strong quality across all domains, with complete tool coverage on small and medium specifications. Two findings emerge within this analysis: parameter schema complexity is the strongest correlate of quality variation—tool-suite size plays a smaller, orthogonal role—and argument value accuracy is the dominant failure mode among imperfect scenarios, a sub-dimension invisible to coarse-grained name-match metrics.",
+  "published_at": null,
+  "first_seen_at": "2026-08-28T22:03:39.652069+00:00",
+  "content_hash": "sha256:c3832c3cc3c3488c37af189d22fce071e9c05c5b6faa636b40805954f46082ae"
+}
