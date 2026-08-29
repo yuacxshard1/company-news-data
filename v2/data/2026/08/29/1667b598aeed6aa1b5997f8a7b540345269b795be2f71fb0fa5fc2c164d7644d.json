@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1667b598aeed6aa1b5997f8a7b540345269b795be2f71fb0fa5fc2c164d7644d",
+  "company_key": "yc-convoy-2",
+  "company_name": "Convoy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getconvoy.io/changelog/admin-configurations-retention-split-event-uids",
+  "canonical_url": "https://www.getconvoy.io/changelog/admin-configurations-retention-split-event-uids",
+  "title": "Admin Configurations, Retention Split & Event Uids",
+  "summary": "Changelog update from Thursday, August 27th, 2026",
+  "body_markdown": "We shipped two releases this week, 26.7.5 and 26.7.6, that make instance settings easier to manage and events easier to track.\n\n\n**Manage instance settings from the dashboard**\n\n\nWe brought Configurations back to Admin. You can manage signups, analytics, retention, webhook archiving, and storage in one place.\n\n\nEnvironment values still win by default. When you're ready for the dashboard to take over, turn on **Admin Managed** , save, then restart the server and agent. Upgrading won't make that choice for you.\n\n\nIf you edit something and leave before saving, Convoy warns you first. Cancel the prompt and your changes stay where you left them.\n\n\n**Keep and archive webhook data independently**\n\n\nThe old retention configuration mixed two different jobs. Convoy now gives each one its own setting.\n\n\n**Retention** controls how long partitioned webhook data stays in Postgres. **Webhook Archiving** controls whether Convoy exports that data to cold storage. You can change one without turning on the other.\n\n\nArchiving stays off by default and needs a configured storage policy. Existing` retention_policy` JSON and the old retention environment variables still load, so you can upgrade before moving to the new names.\n\n\n**Use the event ID from event creation**\n\n\nCreate, broadcast, fan-out, and dynamic event endpoints now return the event ID as` data.uid` in the` 201` response.\n\n\nThe event is still queued, but you no longer need another lookup to learn its ID. Use it to fetch the event or list its deliveries.\n\n\n**Find deliveries faster**\n\n\nSearch Event Deliveries by a full delivery or event ID, an event-type prefix, or part of an endpoint name. Status filters no longer slow down the next page on larger projects, and batch retry uses the same search.\n\n\nThe event-type filter now matches the value shown in the table.\n\n\n**Smaller fixes**\n\n\n- Cloud checkout now returns` 403` until you verify your email\n- Partition conversions and index rebuilds have separate history lists under Admin\n- Delivery tables scroll on smaller screens instead of squeezing every column\n\n\nOpen **Admin → Configurations** after you upgrade and choose whether environment files or the dashboard should own your instance settings.",
+  "published_at": null,
+  "first_seen_at": "2026-08-29T22:02:39.607524+00:00",
+  "content_hash": "sha256:3dfdd2f13781b5af52cc27a8f99a7d52d5bc4e8dca342034cf860c2f8591f656"
+}
