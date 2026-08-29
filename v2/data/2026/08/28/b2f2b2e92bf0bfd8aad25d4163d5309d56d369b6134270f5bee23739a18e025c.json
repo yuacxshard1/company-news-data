@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b2f2b2e92bf0bfd8aad25d4163d5309d56d369b6134270f5bee23739a18e025c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
+  "title": "Amazon Bedrock AgentCore Memory now supports fine-grained access control",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock AgentCore Memory now supports fine-grained access control",
+  "body_markdown": "Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom authorization logic.\n\n\nWith FGAC, you can front your Memory resource with an AgentCore Gateway configured for OAuth (JWT) authentication and attach Cedar policies that restrict access based on the authenticated caller's identity. You can enforce that each user only accesses their own actor's data, restrict memory records to namespaces derived from the user's token claims, and allow or deny specific Memory operations per caller. This lets you move access control enforcement from application code to the infrastructure layer using cryptographic proof of identity. FGAC for Memory is built on the AgentCore Memory connector, a managed gateway connector that wires a gateway target to the Memory data plane and exposes 12 Memory operations as Cedar actions with their request attributes available for policy conditions.\n\n\nTo get started, see[Fine-grained access control for Memory](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/memory-gateway-fgac.html) in the Amazon Bedrock AgentCore Developer Guide.",
+  "published_at": "2026-08-28T20:00:00+00:00",
+  "first_seen_at": "2026-08-29T00:22:17.915738+00:00",
+  "content_hash": "sha256:0ae681f0ba07e98ea69b161ec514a0a326f7a97455d0ef831f18b40ab3c91478"
+}
