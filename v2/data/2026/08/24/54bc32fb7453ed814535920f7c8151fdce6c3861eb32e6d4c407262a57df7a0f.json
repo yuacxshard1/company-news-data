@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "54bc32fb7453ed814535920f7c8151fdce6c3861eb32e6d4c407262a57df7a0f",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/24-8-2026",
+  "canonical_url": "https://browser-use.com/changelog/24-8-2026",
+  "title": "Faster Sessions, BYOK Pricing Fix & Reliability Updates",
+  "summary": "Session loads are faster and more stable, BYOK cache reads are no longer overcharged, and several reliability fixes landed.",
+  "body_markdown": "## Performance\n\n\n- Opening a v4 session now takes a single request instead of several, and the page no longer jumps around while it loads.\n\n\n## Pricing\n\n\n- Fixed a billing bug where BYOK cache reads were priced at the full input rate instead of the discounted cache rate. BYOK now costs the same as the managed path.\n\n\n## Reliability\n\n\n- Shared session transcripts now stream in pages instead of blocking on very large transcripts.\n- A session tab left open in the background now recovers automatically once you return to it, instead of staying stuck.\n- Fixed several mobile layout issues that could block sending or stopping a run from a phone.\n\n\n## Dashboard\n\n\n- Recent sessions in the sidebar no longer disappear behind the Configuration panel.\n\n\n## API & SDK\n\n\n- Fixed a bug where the legacy MCP server could fail to start a session when no proxy country was set.",
+  "published_at": "2026-08-24T00:00:00+00:00",
+  "first_seen_at": "2026-08-30T14:53:08.983581+00:00",
+  "content_hash": "sha256:8e69e03e28d3d6361b40cc66f75fa1ed4f41b08fb8ba2640d8c157043da0c960"
+}
