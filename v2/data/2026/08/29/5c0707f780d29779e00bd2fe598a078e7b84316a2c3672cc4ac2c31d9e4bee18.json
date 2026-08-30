@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5c0707f780d29779e00bd2fe598a078e7b84316a2c3672cc4ac2c31d9e4bee18",
+  "company_key": "yc-opalite-health",
+  "company_name": "Opalite Health",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opalitehealth.com/blog/chatgpt-medical-translation-hipaa-facts",
+  "canonical_url": "https://opalitehealth.com/blog/chatgpt-medical-translation-hipaa-facts",
+  "title": "ChatGPT for Medical Translation: HIPAA Facts",
+  "summary": "Understand ChatGPT HIPAA limits for medical translation, including BAA rules, PHI risks, accuracy gaps, and Opalite. August 2026.",
+  "body_markdown": "###\n\n\nNo. Standard ChatGPT, including Free, Plus, Team, and self-serve Business tiers, cannot lawfully process protected health information because OpenAI will not sign a Business Associate Agreement for those products. ChatGPT Enterprise and the OpenAI API do support BAAs, but a signed BAA is the legal entry ticket, not a clinical quality guarantee; your organization still owns data retention configuration, access controls, staff training, and audit logging.\n\n\n###\n\n\nChatGPT Enterprise with a BAA can handle a narrow band of staff-facing tasks like translated FAQs or internal drafts, but it has no native concept of negation errors, dosing language, or dialect variation across patient populations. Opalite is trained on real clinical conversations, runs automated safety checks through Opalite Guardian on every session, and launches directly from Epic, Cerner, and other leading EHR workflows in under five seconds, covering the live spoken encounter that a general-purpose chat interface cannot reach.\n\n\n###\n\n\nOpalite strips patient-sensitive information on-device before any cloud transmission, so no PHI is stored in the cloud. Customer data lives on US-hosted private servers, transcript retention defaults to three months and is configurable, and Opalite supports Business Associate Agreements with covered entities.\n\n\n###\n\n\nA medical translator works with written text; a medical interpreter handles spoken, real-time conversation between a provider and a patient. The distinction matters for compliance because live spoken encounters carry a narrower window to catch errors, require real-time safety guardrails instead of pre-release quality checks, and represent the majority of clinical touchpoints where communication breakdowns cause direct harm.\n\n\n###\n\n\nDe-identification removes names, dates, and identifiers, which can bring static education content outside HIPAA's scope, but it does not solve the clinical accuracy problem. Research in the Journal of Medical AI found ChatGPT produced a high number of errors translating patient instructions and concluded it should not replace a professional translator; a de-identified prompt does nothing to reduce negation errors, dosing language collapse, or dialect mismatches that can cause direct patient harm.",
+  "published_at": "2026-08-29T16:16:30.903+00:00",
+  "first_seen_at": "2026-08-30T05:33:28.987153+00:00",
+  "content_hash": "sha256:7edca80dea198c3b0384b2438b6ee4be0f05f8818934b1d402512cba3b9e58d0"
+}
