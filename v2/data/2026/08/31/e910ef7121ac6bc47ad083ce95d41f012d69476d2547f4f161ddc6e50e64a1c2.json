@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e910ef7121ac6bc47ad083ce95d41f012d69476d2547f4f161ddc6e50e64a1c2",
+  "company_key": "yc-dot",
+  "company_name": "Dot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getdot.ai/blog/your-ai-analyst-will-be-worse-next-month",
+  "canonical_url": "https://www.getdot.ai/blog/your-ai-analyst-will-be-worse-next-month",
+  "title": "Your AI Analyst Will Be Worse Next Month",
+  "summary": "Anthropic went from 95% accuracy to 65% in a single month. Nothing broke. The business moved and the context stood still.",
+  "body_markdown": "**Anthropic got their internal data agent to 95% accuracy. One month later it was at 65%. Nothing broke and the model did not change. Schemas moved, definitions moved, and the context the agent depends on quietly stopped being true.**\n\n\nEvery rollout guide documents how to reach reliability. Almost none documents how to keep it. This is the missing chapter.\n\n\n## Accuracy is a rate, not a property\n\n\n95% was never a fact about the agent. It was a fact about a moment: how well one body of written-down meaning matched one state of the warehouse on one day. Change either side and the number moves without anyone touching the agent.\n\n\nSo the question that matters is not how accurate your agent is. It is how fast accuracy decays and how quickly you notice. A system at 85% that recovers in a day beats a system that hit 95% in April and has not been measured since.\n\n\n## Twenty minutes a week keeps it alive\n\n\nAnthropic's full answer is to treat context as code. Roughly 90% of their data-model pull requests now ship with a matching context change, checked in CI. Change what a table means, change what the agent was told it means, in the same review.\n\n\nThe version that costs almost nothing and gets you most of the way is twenty minutes a week with one named owner. Work the conversations users flagged or abandoned. Read what new users asked first, because first questions expose what your documentation assumes and never says. Prune the context nobody uses. Then re-run your test questions and see whether the number moved. Twenty minutes is not enough to fix everything. It is enough to notice, and drift only does damage while nobody is looking.\n\n\n## The failure mode is that nobody owns it\n\n\nWhen a rollout dies, the postmortem blames the data model. In our experience it is almost never the data model. It is that no single person's name was on the work. Everyone agrees the agent should stay accurate. Nobody's Thursday has twenty minutes in it. The answers get slightly worse, one at a time, and by the time somebody says out loud that it used to be better, the trust is gone and winning it back is a much bigger project.\n\n\nPut the twenty minutes in someone's calendar on the day you go live, not on the day someone complains. It is the smallest intervention available, and it decides whether month six looks like month one. This is the half of the work we wrote[the playbook](https://www.getdot.ai/blog/ai-data-analyst-playbook) around, and it is the stage everyone skips.\n\n\n*If this excites you, we'd love to hear from you.*[Get in touch](https://www.getdot.ai/) *.*",
+  "published_at": "2026-08-31T00:00:00+00:00",
+  "first_seen_at": "2026-08-30T00:30:27.399429+00:00",
+  "content_hash": "sha256:923fdd7444910e8ed58381385f92f45656a8781f419205ee23ff1a3b6ba8d3b8"
+}
