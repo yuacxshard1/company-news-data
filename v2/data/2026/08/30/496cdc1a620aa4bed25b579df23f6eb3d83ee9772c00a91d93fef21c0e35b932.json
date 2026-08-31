@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "496cdc1a620aa4bed25b579df23f6eb3d83ee9772c00a91d93fef21c0e35b932",
+  "company_key": "yc-afterquery",
+  "company_name": "AfterQuery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.afterquery.com/blog/building-a-frontier-legal-evaluation-in-partnership-with-legora",
+  "canonical_url": "https://www.afterquery.com/blog/building-a-frontier-legal-evaluation-in-partnership-with-legora",
+  "title": "Building a Frontier Legal Evaluation in Partnership with Legora",
+  "summary": "How AfterQuery and Legora built the Benchmark for Agentic Reasoning (BAR): 5,161 cases across 28 practice areas and 11,075 source documents, testing whether agents can complete end-to-end legal work inside Legora’s custom harness.",
+  "body_markdown": "AfterQuery’s research team worked with Legora to build a frontier legal benchmark. The result was the[Benchmark for Agentic Reasoning (BAR)](https://legora.com/bar) , which tests whether agents can complete end-to-end legal work inside Legora’s custom harness.\n\n\nBAR includes 5,161 cases across 28 practice areas and 11,075 source documents. Legora also published one expert-validated synthetic case developed jointly with AfterQuery, giving researchers a complete view of how the private benchmark’s tasks and scoring work.\n\n\n## Defining the Benchmark\n\n\nAfterQuery and Legora began by defining what the evaluation needed to reveal to Legora’s team. The teams selected the legal workflows, set the level of realism, defined what agents would see and produce, and established what qualified as a strong answer.\n\n\nWith matters and source documents created alongside participating law firms, the teams turned the underlying legal work into repeatable agent tasks. Each task specified the evidence available to the model, the work product it needed to deliver, and the standards used to score it. This kept BAR grounded in realistic matters while making it consistent enough to run across thousands of cases.\n\n\n## Building the Evaluation Together\n\n\nAfterQuery and Legora worked closely throughout task design and validation. AfterQuery ran the tasks and shared failure cases with Legora’s team, whose feedback helped distinguish meaningful legal errors from reasonable differences in judgment. The resulting findings shaped the source materials, expected outputs, rubrics, and judges until both teams were confident that the benchmark reflected the work Legora expected its agents to perform.\n\n\nThat process gave Legora a benchmark its research and product teams could trust. It also gave both teams a shared way to review failures and decide what to improve.\n\n\n## Using BAR to improve the product\n\n\nBAR now helps Legora tell whether a failure comes from the model or the harness and decide what to improve next. In one month, harness changes informed by BAR increased output quality by 5% across the same production models.\n\n\nTo learn more about how AfterQuery can build a custom evaluation set for your business, contactresearch@afterquery.com .\n\n\nAfterQuery is an applied research lab curating data solutions to accelerate foundation model development.",
+  "published_at": "2026-08-30T00:00:00+00:00",
+  "first_seen_at": "2026-08-31T03:23:30.520889+00:00",
+  "content_hash": "sha256:5bd73c3db5a19723cc74457eb65151368f717f627d84033cfd966b8907550736"
+}
