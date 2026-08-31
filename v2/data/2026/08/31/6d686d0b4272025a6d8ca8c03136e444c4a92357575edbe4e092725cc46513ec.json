@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6d686d0b4272025a6d8ca8c03136e444c4a92357575edbe4e092725cc46513ec",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/update-api-key-name",
+  "canonical_url": "https://resend.com/changelog/update-api-key-name",
+  "title": "Update API Key Name",
+  "summary": "Rename an existing API key from the API without regenerating its token.",
+  "body_markdown": "Today we're introducing[PATCH /api-keys/:id](https://resend.com/docs/api-reference/api-keys/update-api-key) to **rename an API key in place** . The token stays the same, and so do the key's permission and domain restriction.\n\n\n## What you can build with it\n\n\n- **Provisioning workflows** : keep key names in sync when a project gets renamed.\n- **Naming convention cleanups** : rename every key from a script without rotating secrets.\n- **Platform integrations** : let your users rename the keys your app provisions for them.\n\n\n## Renaming a key\n\n\nSend the new name (up to 50 characters) with the ID of the key you want to rename.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  apiKeys  .  update  (        'b6d24b8e-af0b-4c3c-be0c-359bbd97381e'  ,        {     name  :     'Production'     }  ,     )  ;\n\n\n```\n\n\nThe response confirms the rename:\n\n\n```text\n{        \"object\"  :     \"api_key\"  ,        \"id\"  :     \"b6d24b8e-af0b-4c3c-be0c-359bbd97381e\"     }\n```\n\n\nThis endpoint only updates the name. To change a key's permission or domain restriction, edit the key in the[Resend Dashboard](https://resend.com/api-keys) .\n\n\n## Conclusion\n\n\nRenaming keys is also available in the[Resend CLI](https://resend.com/docs/cli) and through the[MCP server](https://resend.com/docs/mcp-server) , so your agents can tidy up key names too.",
+  "published_at": "2026-08-31T00:00:00+00:00",
+  "first_seen_at": "2026-08-31T19:55:14.387381+00:00",
+  "content_hash": "sha256:fdbf04b52ab02e07bb18c492904d0ef0d282dd68537d76583adbc04d433798d6"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8ed4a9f47952a13ba09dc42b395f709b0d474fe0d7533242c9a439e514c7671a",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/cursor-plugin",
+  "canonical_url": "https://resend.com/changelog/cursor-plugin",
+  "title": "Official Resend plugin for Cursor",
+  "summary": "Install the MCP server and every Resend skill directly from the Cursor Marketplace.",
+  "body_markdown": "The best agent experience requires context provided by tooling like MCP servers, skills, and CLIs. Historically, getting the most out of Cursor with Resend meant installing the MCP server and every skill separately.\n\n\nToday, we're excited to announce the[official Resend plugin for Cursor](https://cursor.com/marketplace/resend) .\n\n\nThe plugin bundles the[MCP server](https://resend.com/docs/mcp-server) and every[Resend Skill](https://resend.com/docs/resend-skill) into a single install.\n\n\n## What you can do with it\n\n\n- **Send from a conversation** : send a transactional email without leaving Cursor.\n- **Debug deliverability** : pull up logs, inspect a bounce, or check why an email failed.\n- **Manage Contacts and Segments** : add contacts, build segments, and clean up email lists in plain language.\n- **Run Broadcasts** : draft, schedule, and send a broadcast to an audience.\n- **Check Domains and API Keys** : verify domain status, review DNS records, and rotate API keys.\n\n\n## How to use it\n\n\nTo install the plugin, open Cursor and run:\n\n\n```text\n/add-plugin resend\n```\n\n\nYou can also browse the[Cursor Marketplace](https://cursor.com/marketplace/resend) , or open **Customize** in the sidebar, search for Resend, and select **Install** .\n\n\nAfter install, sign in with your Resend account when Cursor prompts you to authenticate the MCP server.\n\n\n## Email expertise, on by default\n\n\nOnce installed, Cursor activates the right skill automatically:\n\n\n- **` resend`** for the SDK and platform APIs\n- **` react-email`** for building templates as React components\n- **` email-best-practices`** for SPF, DKIM, DMARC, compliance, and deliverability\n- **` agent-email-inbox`** for safely processing inbound email with an agent\n- **` resend-cli`** for shell and CI workflows\n\n\nThe MCP server (or[Resend CLI](https://resend.com/cli) ) lets Cursor perform actions like sending emails, managing templates, and processing inbound email. Skills ensure the tooling follows best practices in a token-efficient way.\n\n\n## Conclusion\n\n\nWe're excited to see how this connection makes it easier to build with Resend and Cursor. Head to the[Cursor page](https://resend.com/cursor) for everything Resend brings to your agent.\n\n\nIf you have any questions, please reach out to us and we'll be happy to help.",
+  "published_at": "2026-08-26T00:00:00+00:00",
+  "first_seen_at": "2026-08-31T19:55:14.387381+00:00",
+  "content_hash": "sha256:99a09e75027a18bd2f09e184b8d563b65063f058b53c9d136f2dbba5d986f18a"
+}

@@ -6,12 +6,12 @@
   "category_key": "uncategorized",
   "category_name": "Uncategorized",
   "source_kind": "rss",
-  "url": "https://forum.newsblur.com/t/codex-mcp-oauth-fails-on-both-mcp-url-variants-cli-reports-premium-archive-as-free/13801#post_1",
+  "url": "https://forum.newsblur.com/t/codex-mcp-oauth-fails-on-both-mcp-url-variants-cli-reports-premium-archive-as-free/13801#post_2",
   "canonical_url": "https://forum.newsblur.com/t/codex-mcp-oauth-fails-on-both-mcp-url-variants-cli-reports-premium-archive-as-free/13801",
   "title": "Codex MCP OAuth fails on both /mcp URL variants; CLI reports Premium Archive as Free",
   "summary": "I am a Premium Archive subscriber, but cannot authenticate NewsBlur MCP with Codex on macOS. With this Codex configuration: [mcp_servers.newsblur] url = \"https://newsblur.com/mcp\" I get: Error: Metadata error: Protected resource metadata resource mismatch: reference 'https://newsblur.com/mcp', permitted 'https://newsblur.com/mcp/' With the trailing slash: [mcp_servers.newsblur] url = \"https://newsblur.com/mcp/\" I get: Error: Authorization server issuer mismatch: expected https://newsblur...",
   "body_markdown": "I am a Premium Archive subscriber, but cannot authenticate NewsBlur MCP with Codex on macOS.\n\n\nWith this Codex configuration:\n\n\n```text\n[mcp_servers.newsblur]\nurl = \"https://newsblur.com/mcp\"\n\n\n```\n\n\nI get:\n\n\n```text\nError: Metadata error: Protected resource metadata resource mismatch:\nreference 'https://newsblur.com/mcp',\npermitted 'https://newsblur.com/mcp/'\n\n\n```\n\n\nWith the trailing slash:\n\n\n```text\n[mcp_servers.newsblur]\nurl = \"https://newsblur.com/mcp/\"\n\n\n```\n\n\nI get:\n\n\n```text\nError: Authorization server issuer mismatch:\nexpected https://newsblur.com/mcp,\nreceived https://newsblur.com/mcp/\n\n\n```\n\n\nI logged out and retried, with the same results.\n\n\nIt looks as if the protected-resource metadata and OAuth authorization-server metadata use inconsistent canonical URLs (` /mcp` vs.` /mcp/` ). Codex validates these URLs strictly, so neither documented URL variant works.\n\n\nThere may also be a related CLI issue.` newsblur auth status` reports` Tier: Free` , although this is the correct account and it has an active Premium Archive subscription. The CLI can retrieve my folder list, so authentication itself succeeded.\n\n\nCould you check both the MCP OAuth metadata URL consistency and the subscription tier returned to the CLI/OAuth client?",
-  "published_at": "2026-08-11T16:50:52+00:00",
+  "published_at": "2026-08-11T22:17:12+00:00",
   "first_seen_at": "2026-08-11T19:14:06.915799+00:00",
   "content_hash": "sha256:6c3974f4488b999f5f85bad56e9aa0aa0a3392f64fb3c53176a9cf11500af0a4"
 }
