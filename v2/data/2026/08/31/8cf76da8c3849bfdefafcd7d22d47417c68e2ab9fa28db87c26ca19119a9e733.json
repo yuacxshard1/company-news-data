@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8cf76da8c3849bfdefafcd7d22d47417c68e2ab9fa28db87c26ca19119a9e733",
+  "company_key": "yc-asayer",
+  "company_name": "OpenReplay",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.openreplay.com/t/css-issues-in-some-recordings/570#post_1",
+  "canonical_url": "https://forum.openreplay.com/t/css-issues-in-some-recordings/570",
+  "title": "CSS Issues in some recordings",
+  "summary": "Hey! We have an issue. Some of our recordings don’t load CSS at all seemingly. There is no recorded error and there’s also no network error for the openreplay at all. This impacts a lot of sessions but not all (roughly 20%). Packages: “@openreplay/tracker”: “18.1.2”, “@openreplay/tracker-assist”: “11.0.20”, “@openreplay/tracker-graphql”: “4.1.0”, Our assets are publicly available. They are served from CF. Openreplay config: OpenReplay = new Tracker({ ingestPoint: ingestPoint, proje...",
+  "body_markdown": "Hey!\n\n\nWe have an issue. Some of our recordings don’t load CSS at all seemingly. There is no recorded error and there’s also no network error for the openreplay at all. This impacts a lot of sessions but not all (roughly 20%).\n\n\nPackages:\n“ @openreplay\n\n\n/tracker”: “18.1.2”,\n\n\n“ @openreplay\n\n\n/tracker-assist”: “11.0.20”,\n\n\n“ @openreplay\n\n\n/tracker-graphql”: “4.1.0”,\n\n\nOur assets are publicly available. They are served from CF.\n\n\nOpenreplay config:\nOpenReplay = new Tracker({\n\n\n```text\ningestPoint: ingestPoint,\n\n\nprojectKey: config.openReplay.projectKey,\n\n\ndomSanitizer: (node: Element) => {\n\n\nif (node instanceof HTMLCanvasElement) {\n\n\ntry {\n\n\nconst ctx = node.getContext(\"2d\")\n\n\nctx?.getImageData(0, 0, 1, 1)\n\n\nreturn SanitizeLevel.Plain\n\n\n} catch (\\_err) {\n\n\nreturn SanitizeLevel.Hidden\n\n\n}\n\n\n}\n\n\nreturn SanitizeLevel.Plain\n\n\n},\n\n\nobscureTextNumbers: false,\n\n\nobscureInputDates: false,\n\n\nobscureInputEmails: true,\n\n\nobscureInputNumbers: false,\n\n\nobscureTextEmails: true,\n\n\nnetwork: {\n\n\nfailuresOnly: false,\n\n\nignoreHeaders: false,\n\n\nsessionTokenHeader: false,\n\n\ncapturePayload: true,\n\n\ncaptureInIframes: true\n\n\n},\n\n\ninlineCss: 3,\n\n\ncss: {\n\n\nscanInMemoryCSS: true\n\n\n},\n\n\nrevID: window.buildNumber,\n\n\ndisableStringDict: true\n\n\n})\n\n\nOpenReplay.coldStart({ metadata: { environment: getEnv() } })\n\n\n```\n\n\nThe CSS related settings were applied as a try to fix it. It did help with some things (font missmatch etc) but it did not solve it fully.\n\n\nWhat could cause this? Why only for certain recordings? Can it be browser related?\nPlease let me know if we can do anything with it",
+  "published_at": "2026-08-31T07:33:30+00:00",
+  "first_seen_at": "2026-08-31T09:54:21.315273+00:00",
+  "content_hash": "sha256:94cf3dd38c764e2cab6c917fbc0de1b34ee858a2b4c5d83d80d3b82ea997aa3b"
+}

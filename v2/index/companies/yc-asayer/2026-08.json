@@ -363,6 +363,16 @@
     {
       "company_key": "yc-asayer",
       "company_name": "OpenReplay",
+      "doc_id": "8cf76da8c3849bfdefafcd7d22d47417c68e2ab9fa28db87c26ca19119a9e733",
+      "first_seen_at": "2026-08-31T09:54:21.315273+00:00",
+      "published_at": "2026-08-31T07:33:30+00:00",
+      "source_kind": "rss",
+      "summary": "Hey! We have an issue. Some of our recordings don’t load CSS at all seemingly. There is no recorded error and there’s also no network error for the openreplay at all. This impacts a lot of sessions but not all (roughly 20%). Packages: “@openreplay/tracker”: “18.1.2”, “@openreplay/tracker-assist”: “11.0.20”, “@openreplay/tracker-graphql”: “4.1.0”, Our assets are publicly available. They are served from CF. Openreplay config: OpenReplay = new Tracker({ ingestPoint: ingestPoint, proje...",
+      "title": "CSS Issues in some recordings"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
       "doc_id": "909d249f86cb948f327bd5fcb2decef038f4a63f93c2cdd8fb63f1d4e9943910",
       "first_seen_at": "2026-08-12T05:07:29.970247+00:00",
       "published_at": "2026-08-12T00:00:00+00:00",
