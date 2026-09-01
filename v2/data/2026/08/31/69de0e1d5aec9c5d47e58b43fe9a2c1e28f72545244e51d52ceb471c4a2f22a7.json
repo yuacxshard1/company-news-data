@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "69de0e1d5aec9c5d47e58b43fe9a2c1e28f72545244e51d52ceb471c4a2f22a7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
+  "title": "Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
+  "summary": "Discover more about what's new at AWS with Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
+  "body_markdown": "Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the longest-available matching agent whether that agent is in US East (N. Virginia) or US West (Oregon), while managers view analytics and search contacts across both regions as a unified contact center.\n\n\nBecause both regions now carry live traffic at all times, neither sits idle as an untested standby. Your full configuration and any integrations are exercised continuously in both regions, providing confidence that either environment is ready to absorb the full workload whenever you need it. You retain full control over how traffic is distributed, and can shift new contacts and agents to a single region at any time.\n\n\nGlobal routing is supported in[all AWS regional pairings where Amazon Connect Global Resiliency is available](https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#gr_region) : US East (N. Virginia) and US West (Oregon), EU (Frankfurt) and EU (London), Asia Pacific (Osaka) and Asia Pacific (Tokyo). To obtain access to this feature, contact your AWS account team or an AWS representative. To learn more, visit the[Amazon Connect website](https://aws.amazon.com/connect/) or see[Set up Amazon Connect Global Resiliency](https://docs.aws.amazon.com/connect/latest/adminguide/setup-connect-global-resiliency.html) in the Amazon Connect Administrator Guide.",
+  "published_at": "2026-08-31T19:25:00+00:00",
+  "first_seen_at": "2026-09-01T06:20:28.626249+00:00",
+  "content_hash": "sha256:41de7ecc8ddea15accb795118f5e6bc3390763be21d0f3c69273a22974bd6c94"
+}
