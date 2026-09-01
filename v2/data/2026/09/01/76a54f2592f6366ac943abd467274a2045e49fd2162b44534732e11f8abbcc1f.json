@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "76a54f2592f6366ac943abd467274a2045e49fd2162b44534732e11f8abbcc1f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
+  "title": "Amazon CloudWatch now supports warm-up periods for alarms",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch now supports warm-up periods for alarms",
+  "body_markdown": "Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data while a new resource or service starts up and begins publishing metrics. For example, a team that provisions a new microservice and its alarms together through a CI/CD pipeline can attach a warm-up period so alarms do not page the on-call engineer while the service is still starting up and has not yet published metrics.\n\n\nPreviously, when you created an alarm before the underlying metric was reporting data, CloudWatch evaluated the alarm right away using its \"treat missing data\" setting. For resources that take time to begin emitting metrics, such as a newly deployed application or service, this could cause the alarm to transition state and run actions on missing data during startup, triggering unnecessary notifications. A warm-up period fixes this by giving you two ways to hold off evaluation during startup: wait a fixed duration you set before evaluation begins, or let CloudWatch start evaluating automatically as soon as the metric actually has enough data to fill the alarm's evaluation window.\n\n\nYou set the warm-up period with the WarmUpConfiguration parameter when you create or update an alarm. Specify a warm-up duration from 1 to 2,880 minutes (2 days). By default, the alarm ends warm-up early and begins evaluating as soon as enough data fills its evaluation window. Additionally, you can optionally require the alarm to wait the full duration before evaluating.\n\n\nWarm-up periods are available in all AWS Regions where Amazon CloudWatch is offered at no additional charge beyond standard CloudWatch alarm pricing.\n\n\nTo get started, see[Alarm warm-up periods](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/alarm-warm-up.html) and[Create an alarm that uses a warm-up period](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Create_WarmUp_Alarm.html) in the Amazon CloudWatch User Guide.",
+  "published_at": "2026-09-01T08:00:00+00:00",
+  "first_seen_at": "2026-09-01T14:51:18.391823+00:00",
+  "content_hash": "sha256:274ab14e74c1e6bbf7e2517a2a1686fd12c1c27f7ec8aac8e0263932cd923f84"
+}

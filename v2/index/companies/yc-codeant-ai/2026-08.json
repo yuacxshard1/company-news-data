@@ -3,12 +3,62 @@
     {
       "company_key": "yc-codeant-ai",
       "company_name": "CodeAnt AI",
+      "doc_id": "0252bd7ae2b617940f6dcaa0b693851c102f9b9d6e0668075f4e6d83f2757429",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "mass assignment bug (CVE-2026-71504, CVSS 8.3) let a low-privilege Dolibarr account reset the admin's password. See the exploit chain and the fix.",
+      "title": "CVE-2026-71504: Mass Assignment Bug Resets Admin Password"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
+      "doc_id": "06555f367a969ff6afdfd7d1368f40296873e1c228bd96a0eef6214bbad620b3",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A reflected XSS bug in Dolibarr (CVE-2026-71503, CVSS 9.3) lets attackers mint a hidden admin account from one link. See how it works and how to fix it.",
+      "title": "CVE-2026-71503: How a Single Reflected XSS Bug Mints a Rogue Admin in Dolibarr"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
       "doc_id": "17dec2441f1be8ac9cf5d1f5bb7f6ea59b54113c344d926346a6f16f85baea52",
       "first_seen_at": "2026-08-24T21:47:42.507916+00:00",
       "published_at": "2026-08-23T00:00:00+00:00",
       "source_kind": "html",
       "summary": "We found 9 exploitable Dolibarr vulnerabilities, from IDOR and mass assignment to XSS and password hash disclosure. See what API pentesting proved.",
       "title": "API Penetration Testing: 9 Dolibarr Security Findings"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
+      "doc_id": "1831f304cd1875bdb1bc90c0ee9b71ce5aa0ea97ebf198affb337cfa3d498f3d",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A redaction bug (CVE-2026-71511, CVSS 6.5) left Dolibarr's members API exposing every member's password hash to any account that could read member records.",
+      "title": "CVE-2026-71511: Redaction Bug Exposes Password Hashes"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
+      "doc_id": "1ed9a89b1ed832349940415febfb54ecadd23d95f75c10644060fb985d4e8f15",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "An access-control bug (CVE-2026-71509, CVSS 6.5) let Dolibarr employees approve their own expense claims and their team's, bypassing separation of duties.",
+      "title": "CVE-2026-71509: Employees Can Approve Their Own Expenses"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
+      "doc_id": "3f8309ce0097e8df242fb031f9dfdf7a85e4946c9fa6315980b44a4c84a5d6b6",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-24T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A BOLA bug (CVE-2026-71507, CVSS 6.5) let low-privilege Dolibarr accounts rewrite supplier bank details and redirect real payment batches.",
+      "title": "CVE-2026-71507: BOLA Bug Redirects Supplier Payments"
     },
     {
       "company_key": "yc-codeant-ai",
@@ -33,6 +83,36 @@
     {
       "company_key": "yc-codeant-ai",
       "company_name": "CodeAnt AI",
+      "doc_id": "732754377d2834a1f55771a14bae78a0969f5b9c723dbde7e5a4f95ed4cd96b9",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A blind authorization flaw (CVE-2026-71510, CVSS 6.5) let attackers infer hidden Dolibarr salaries and password hashes through yes/no search queries.",
+      "title": "CVE-2026-71510: Blind Search Leaks Dolibarr Salaries Copy"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
+      "doc_id": "90760c6ecbe4e055e50ed8d000ed5a05d719b8705cb7b571692b732a4f786f23",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-24T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A wrong-permission bug (CVE-2026-71506, CVSS 6.5) let low-privilege Dolibarr accounts delete real payments, turning paid invoices back into phantom debt.",
+      "title": "CVE-2026-71506: Wrong-Permission Bug Deletes Payments"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
+      "doc_id": "977f3c9593760cc98cf4a2f53e1d641694b267fc4dd93296081239401d1b758d",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A mass assignment bug (CVE-2026-71508, CVSS 6.5) let Dolibarr employees rewrite their own salary through a profile update, hidden from the API response.",
+      "title": "CVE-2026-71508: Mass Assignment Bug Rewrites Salary"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
       "doc_id": "985d8b5b623c9ad8a7627122c5502330753af1bf477b67ac6978436a7f5c757b",
       "first_seen_at": "2026-08-31T07:53:36.862652+00:00",
       "published_at": "2026-08-27T00:00:00+00:00",
@@ -49,6 +129,16 @@
       "source_kind": "html",
       "summary": "See how AI code review detects SSRF and authorization bypasses by tracing data flow, validation logic, and security context across real Apache Superset code.",
       "title": "AI Code Review for Security: Finding SSRF and Auth Bypasses"
+    },
+    {
+      "company_key": "yc-codeant-ai",
+      "company_name": "CodeAnt AI",
+      "doc_id": "f9e700835abc887196a122f741d4090d4bb31fc7c30977ff319c7059cb270be6",
+      "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
+      "published_at": "2026-08-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A BOLA bug (CVE-2026-71505, CVSS 8.1) let low-privilege Dolibarr accounts reset any company's portal password and read their private invoices.",
+      "title": "CVE-2026-71505: BOLA Bug Exposes Dolibarr Invoices"
     }
   ],
   "company_key": "yc-codeant-ai",

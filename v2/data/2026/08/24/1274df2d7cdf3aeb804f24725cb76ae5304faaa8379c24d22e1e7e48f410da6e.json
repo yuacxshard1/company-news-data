@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1274df2d7cdf3aeb804f24725cb76ae5304faaa8379c24d22e1e7e48f410da6e",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-agent-evals",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-agent-evals",
+  "title": "AI agent evals (beta)",
+  "summary": "Reusable AI agents can now be measured against a dataset of cases. Evals open from the agent card in the flow editor or from the ai_agent row on the resources page, and let you curate cases, score every answer with AI judges or code scorers, and compare two runs cell by cell. A run measures one state of the agent - what is deployed, an earlier version, or the unsaved edits in the step - fixed once when the run starts, and is kept so the next run has something to be compared against.",
+  "body_markdown": "### [AI agent evals (beta)](https://www.windmill.dev/changelog/ai-agent-evals)\n\n\nAI\n\n\nFlow editor\n\n\n[v1.796.0](https://github.com/windmill-labs/windmill/releases/tag/v1.796.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_agent_evals)\n\n\nReusable AI agents can now be measured against a dataset of cases. Evals open from the agent card in the flow editor or from the ai_agent row on the resources page, and let you curate cases, score every answer with AI judges or code scorers, and compare two runs cell by cell. A run measures one state of the agent - what is deployed, an earlier version, or the unsaved edits in the step - fixed once when the run starts, and is kept so the next run has something to be compared against.\n\n\n#### New features\n\n\n- Datasets of cases (a question and an expected answer) belong to a reusable ai_agent resource, so they outlive the flow step and two runs of the same agent are comparable.\n- Scorers are ordinary runnables: an AI judge handed the whole run, or a script created from a template. Each returns a number between 0 and 1, with an optional pass threshold that is applied when a score is read.\n- A scorer sees the whole trajectory: the case, the answer, every tool call with its arguments, result, error and duration, the tools that were called with their schemas, and the run metrics.\n- Run against the latest deployed agent, a pinned past version, or the unsaved edits the flow step is holding; the configuration is read once when the run starts, so every case runs the same one.\n- A run is one flow job that outlives the tab that started it: a parallel loop over the cases, each answered and then scored by one branch per scorer.\n- The run history lists every run of an agent with a score badge per scorer, and opening one gives a table of cases by scorer with per-cell and per-column deltas against any other run of that dataset.",
+  "published_at": "2026-08-24T00:00:00+00:00",
+  "first_seen_at": "2026-09-01T13:05:11.213937+00:00",
+  "content_hash": "sha256:8248f22916e58093e6a14ff6705aa61e11b24f53800863f8cc69ed68105ca9d7"
+}
