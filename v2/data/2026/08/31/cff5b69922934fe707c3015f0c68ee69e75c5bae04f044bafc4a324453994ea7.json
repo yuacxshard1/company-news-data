@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cff5b69922934fe707c3015f0c68ee69e75c5bae04f044bafc4a324453994ea7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-connect-restart/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-connect-restart/",
+  "title": "Amazon MSK Connect now supports restarting connectors",
+  "summary": "Discover more about what's new at AWS with Amazon MSK Connect now supports restarting connectors",
+  "body_markdown": "[Amazon MSK Connect](https://aws.amazon.com/msk/features/msk-connect/) (Amazon Managed Streaming for Apache Kafka Connect) supports restarting newly created connectors and their tasks, enabling fast recovery for streaming data pipelines.\n\n\nAmazon MSK Connect is a fully managed service that allows you to deploy, monitor, and scale Apache Kafka Connect connectors with Amazon MSK (Managed Streaming for Apache Kafka). Previously, recovering from failures required deleting and recreating the connector, resulting in downtime and operational overhead. With this feature, you can restart your connector and all its tasks, or selectively restart only the failed tasks, making recovery seamless. You can also restart connectors that have no failed tasks to recover from transient issues or to pick up changes in external systems or dependencies.\n\n\nThis restart capability is available at no additional cost through the Amazon MSK Console, AWS CLI, AWS SDK, and AWS CDK in all AWS Regions where Amazon MSK Connect is available. To learn more, visit the[Amazon MSK Connect documentation](https://docs.aws.amazon.com/msk/latest/developerguide/mskconnect.html) . To get started, visit the[Amazon MSK Console](https://console.aws.amazon.com/msk) .",
+  "published_at": "2026-08-31T15:00:00+00:00",
+  "first_seen_at": "2026-09-01T02:44:34.818484+00:00",
+  "content_hash": "sha256:cffaef1a144d3ab9cc472f7d49620be15650c8686f641b32b6eb419af3a8d92e"
+}

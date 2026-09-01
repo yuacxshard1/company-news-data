@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a53b640200754ba0f7ed80a4ddb4c3403dd1845163218a1a89b2fc90b873b6fd",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/",
+  "title": "Partner Revenue Measurement expands service coverage for User Agent string capability",
+  "summary": "Discover more about what's new at AWS with Partner Revenue Measurement expands service coverage for User Agent string capability",
+  "body_markdown": "Partner Revenue Measurement[User Agent string](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/user-agent-string.html) now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption patterns. Previously, the User Agent string capability measured AWS service consumption across select services. With this expansion, Partners can now measure attributed revenue across additional applicable AWS services that log control plane activity in AWS CloudTrail, significantly increasing the visibility Partners have into the revenue their solutions drive.\n\n\nPartners who have already embedded a user agent (format APN_1.1/pc_<AWS Marketplace product-code>$) in their applications automatically benefit from the expanded coverage with no additional implementation needed. The additional service consumption measured through this expansion is now visible in the[Attributed Revenue Dashboard](https://aws.amazon.com/about-aws/whats-new/2026/04/attributed-revenue-dashboard-launch/) , accessible through Partner Analytics in AWS Partner Central on the AWS Console. This User Agent string method complements Partner Revenue Measurement's[Resource Tagging](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/resource-tagging.html) and[AWS Marketplace Metering](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/marketplace-metering.html) integration capabilities.\n\n\nPartner Revenue Measurement is generally available in all commercial regions. To learn more about User Agent string implementation or other Partner Revenue Measurement capabilities, review the[onboarding guide](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html) and[services supported](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/user-agent-included-services.html) .",
+  "published_at": "2026-08-31T22:00:00+00:00",
+  "first_seen_at": "2026-09-01T02:44:34.818484+00:00",
+  "content_hash": "sha256:d660adb0a7660aa97bbee5701fdb661bf06889e0fd321bdaf95ed9e7e47615fe"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6d05813d8e6b8c57dfb08dde041a8496524f47d2b42fc6931ac2091514ad0cb1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-general-purpose-s3-buckets",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-general-purpose-s3-buckets",
+  "title": "Amazon Kinesis Data Streams announces data delivery to general purpose Amazon S3 buckets",
+  "summary": "Discover more about what's new at AWS with Amazon Kinesis Data Streams announces data delivery to general purpose Amazon S3 buckets",
+  "body_markdown": "Amazon Kinesis Data Streams now delivers streaming data directly to general purpose Amazon S3 buckets, providing the easiest way to ingest and deliver streaming data to S3 without building or managing delivery pipelines. S3 general purpose delivery reduces data delivery costs by up to 60% compared to self-managed alternatives.\n\n\nAmazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. Customers commonly deliver streaming data to Amazon S3 for downstream batch analytics, log delivery, compliance retention, and replay. To do this today, customers either chain multiple serverless services together, adding cost and configuration complexity, or build custom consumer applications on self-managed compute, handling scaling, retries, and operating infrastructure that grows costly as workloads increase. With S3 general purpose delivery, customers configure delivery in a few clicks from the console or via APIs, with no additional services to chain, no custom applications, no self-managed compute, and no operational overhead. Kinesis Data Streams automatically handles scaling, retries, and delivery reliability, and delivers in minutes.\n\n\nS3 general purpose delivery supports On Demand Advantage (ODA) and On Demand Standard (ODS) capacity modes with usage-based pricing, no setup fees or minimum commitments. You are only charged for successfully delivered data. S3 general purpose delivery is available in all AWS Regions where Amazon Kinesis Data Streams is available, including AWS GovCloud (US) and China regions. To get started, see the[Amazon Kinesis Data Streams User Guide](https://docs.aws.amazon.com/streams/latest/dev/) and the[pricing page](https://aws.amazon.com/kinesis/data-streams/pricing/) .",
+  "published_at": "2026-08-29T06:47:00+00:00",
+  "first_seen_at": "2026-09-01T02:44:34.818484+00:00",
+  "content_hash": "sha256:11959e04688bc06089a937f5df69ea24c63a6e2988f5f417ada2080775f82487"
+}

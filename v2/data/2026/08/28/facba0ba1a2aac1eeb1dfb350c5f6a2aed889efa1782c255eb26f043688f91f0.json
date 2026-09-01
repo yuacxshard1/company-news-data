@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "facba0ba1a2aac1eeb1dfb350c5f6a2aed889efa1782c255eb26f043688f91f0",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-s3-tables",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-s3-tables",
+  "title": "Amazon Kinesis Data Streams announces streaming tables, delivering data to Apache Iceberg tables on Amazon S3 Tables",
+  "summary": "Discover more about what's new at AWS with Amazon Kinesis Data Streams announces streaming tables, delivering data to Apache Iceberg tables on Amazon S3 Tables",
+  "body_markdown": "Amazon Kinesis Data Streams introduces streaming tables, a new fully serverless capability that continuously delivers data from Kinesis streams to Amazon S3 Tables in Apache Iceberg format. Streaming tables eliminate the need to build and operate self-managed Iceberg delivery pipelines, reducing data delivery costs by up to 50%. Intelligent inline compaction eliminates the small file problem and keeps query performance predictable, reducing downstream query costs by up to 30%.\n\n\nAmazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. Customers increasingly want to deliver streaming data to Apache Iceberg tables to power near real time analytics and AI/ML feature pipelines using the freshest data. To do this today, customers build and manage custom pipelines, handle format conversions, and manage compute infrastructure, adding to their costs. High volume streaming ingestion also creates many small Parquet files that degrade downstream query performance and increase storage costs. With streaming tables, customers simply create a streaming table, a fully serverless capability that continuously delivers data from a Kinesis stream to Amazon S3 Tables. Intelligent inline compaction eliminates the performance impact of small files and keeps query performance predictable without sacrificing data freshness. Kinesis Data Streams automatically handles scaling, retries, compaction, and delivery reliability, and delivers in minutes, no custom applications, no self-managed compute, and no operational overhead. Customers configure streaming tables in a few clicks from the console as an integrated experience or via APIs.\n\n\nStreaming tables support On Demand Advantage (ODA) and On Demand Standard (ODS) capacity modes with usage-based pricing, no setup fees or minimum commitments. You are only charged for successfully delivered data. Streaming tables are available in all AWS Regions where Amazon Kinesis Data Streams is available, including AWS GovCloud (US) and China regions. To get started, see the[Amazon Kinesis Data Streams User Guide](https://docs.aws.amazon.com/streams/latest/dev/) and the[pricing page](https://aws.amazon.com/kinesis/data-streams/pricing/) .",
+  "published_at": "2026-08-28T23:34:00+00:00",
+  "first_seen_at": "2026-09-01T02:44:34.818484+00:00",
+  "content_hash": "sha256:d1514da35cd9471cb2c5790d3934dea943f91107e4324311dd48ec31ce1d65ba"
+}
