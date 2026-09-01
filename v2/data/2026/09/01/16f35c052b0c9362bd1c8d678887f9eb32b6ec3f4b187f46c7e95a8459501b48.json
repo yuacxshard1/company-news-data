@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "16f35c052b0c9362bd1c8d678887f9eb32b6ec3f4b187f46c7e95a8459501b48",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
+  "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
+  "summary": "Discover more about what's new at AWS with Amazon MWAA supports Apache Airflow version 3.3.1",
+  "body_markdown": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it easier to set up and operate end-to-end data pipelines in the cloud.\n\n\nApache Airflow 3.3 introduces stateful tasks and multi-language support. With the new Task and Asset State Store, tasks can now persist durable state across retries and reruns, enabling cursor tracking and crash-safe reconnection to long-running jobs. The Language Task SDK (experimental) lets teams write task logic in Java or Go while keeping orchestration in Python. Additional improvements include expanded asset partitioning, pluggable retry policies, and bulk actions for DAG runs and task instances. Apache Airflow 3.3.1 also delivers stability, security, and UI improvements on top of these capabilities.\n\n\nYou can launch a new Apache Airflow 3.3.1 environment on Amazon MWAA, or upgrade from 3.2 or later, with a few clicks in the[AWS Management Console](https://console.aws.amazon.com/mwaa/home) in all currently supported[Amazon MWAA regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To learn more about Apache Airflow 3.3.1, visit the[Amazon MWAA documentation](https://docs.aws.amazon.com/mwaa/latest/userguide/what-is-mwaa.html) and the[Apache Airflow 3.3.1 change log](https://airflow.apache.org/docs/apache-airflow/3.3.1/release_notes.html#airflow-3-3-1-2026-08-12) in the Apache Airflow documentation.\n\n\n*Apache, Apache Airflow, and Airflow are either registered trademarks or trademarks of the[Apache Software Foundation](https://www.apache.org/) in the United States and/or other countries.*",
+  "published_at": "2026-09-01T15:00:00+00:00",
+  "first_seen_at": "2026-09-01T19:04:11.398188+00:00",
+  "content_hash": "sha256:d475f785908ebee1d6a69fd7265d25024c8f0f53d70ec9c6c347b5cd9a7aef2b"
+}

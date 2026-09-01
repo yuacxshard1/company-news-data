@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ce535f6124f2f67f03bd12f317c3df2cece442a3af85bc85930c21a37f60fd63",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/releases/release-notes-test-run-filtering-expanded-test-cases-ios-improvements/",
+  "canonical_url": "https://testrigor.com/releases/release-notes-test-run-filtering-expanded-test-cases-ios-improvements/",
+  "title": "Release Notes: Test Run Filtering, Expanded Test Cases & iOS Improvements",
+  "summary": "Test suite run page improvements Since our latest update, users will be able to filter by test case status (Failed, Passed, etc) by clicking on the status shown on the overall results page of a test suite run. New option for getting the visibility of native elements (iOS) Our team has released a new option ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## Test suite run page improvements\n\n\nSince our latest update, users will be able to filter by test case status (Failed, Passed, etc) by clicking on the status shown on the overall results page of a test suite run.\n\n\n## New option for getting the visibility of native elements (iOS)\n\n\nOur team has released a new option that modifies how we get the visibility of native elements on iOS “Use coordinates, verify with XCUI”, which works as a middlepoint between the two already existing options. To find this setting, head over to the Speed optimization tab -> Getting visibility of native elements approach.\n\n\n## Expanded test cases\n\n\nIf we go to the edit page of a specific test case we will now have the option to see its expanded steps (without any reusable rules being applied to it).\n\n\nIf we have a test case that uses reusable rules:\n\n\nWe will see the following expanded steps when using the option to visualize the expanded steps:\n\n\n## Shift-tabbing through command parameters\n\n\nWhen autocompleting commands that use parameters, we will now be able to shift-tab through them. Which will help populate params faster when typing steps manually.",
+  "published_at": "2026-09-01T17:12:24+00:00",
+  "first_seen_at": "2026-09-01T20:33:02.570986+00:00",
+  "content_hash": "sha256:c7fd7b07f0f537af11e927e384bcd203a1124c550add656834a402274e409911"
+}

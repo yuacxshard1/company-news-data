@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "839389fb054c059c9fed5012b53c047c8cacd79933c3f9b6d81443cff4bb5266",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediatailor-analytics-dashboard",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediatailor-analytics-dashboard",
+  "title": "AWS Elemental MediaTailor introduces in-console analytics dashboard for ad monetization and streaming performance",
+  "summary": "Discover more about what's new at AWS with AWS Elemental MediaTailor introduces in-console analytics dashboard for ad monetization and streaming performance",
+  "body_markdown": "AWS Elemental MediaTailor now includes an analytics dashboard built directly into the AWS Management Console, giving publishers a global and multi-region view of ad monetization and streaming performance — with the ability to compare across regions and drill into individual playback configurations.\n\n\nThe dashboard surfaces key business metrics including fill rate, ad impression rate, video completion rate, and impression recovery data — showing publishers exactly how many billable impressions they are recovering through MediaTailor's server-side beacon retry logic.\n\n\nThe analytics dashboard is available in all AWS Regions where AWS Elemental MediaTailor is available. The dashboard uses Amazon CloudWatch, which provides a free tier of usage. Some dashboard components use ListMetrics API calls, and pricing applies for usage beyond the free tier. See[Amazon CloudWatch pricing](https://aws.amazon.com/cloudwatch/pricing/) for details. Additional streaming metrics, reporting dimensions, and visualizations will be added in subsequent releases to the dashboard.\n\n\nTo learn more, see[Monitoring ad insertion performance with the analytics dashboard](https://docs.aws.amazon.com/mediatailor/latest/ug/analytics-dashboard.html) in the AWS Elemental MediaTailor User Guide.",
+  "published_at": "2026-08-31T21:35:00+00:00",
+  "first_seen_at": "2026-09-01T19:04:11.398188+00:00",
+  "content_hash": "sha256:57e3bf56348bcae07602891b861775ae626f45bdc9bf6c35f9ed3c8834965443"
+}
