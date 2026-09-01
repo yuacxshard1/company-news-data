@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "24b55f87f5696db39643178ed88f228df4982a3bd1f319b8232e13dc53431bbe",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": "2025-12-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Compares s3fs and Goofys, two tools for mounting S3 as a local filesystem, and explains how their metadata handling, caching strategies, and API usage impact performance, consistency, and cost. Helps teams understand when filesystem-on-S3 layers are sufficient—and when object-native approaches are a better fit for large-scale data workloads.",
+      "title": "GoofyFS vs s3fs?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "44cce23beba5e5b74fc6cf6e018a09a4e0c00d411b0a16db9e2e25bdb02032bf",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": "2025-12-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Compares JuiceFS and ObjectiveFS, two POSIX-compatible filesystems built on object storage, focusing on their architectural tradeoffs, metadata handling, operational overhead, and consistency models. Helps teams decide whether they prefer an open, operator-managed system or a fully managed filesystem with stronger built-in guarantees and simpler operations.",
+      "title": "JuiceFS vs ObjectiveFS"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b2c14789ad9cb63f770eb52bbf921081ce66889e7a375574d6a9dcd0e477b881",
+      "first_seen_at": "2026-08-09T19:14:46.011593+00:00",
+      "published_at": "2025-12-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Compares Goofys and ObjectiveFS, two ways to mount object storage as a filesystem, and explains how their goals differ. Highlights the tradeoff between lightweight S3 adapters optimized for simplicity and speed versus fully featured POSIX-style filesystems built for consistency, shared access, and multi-machine workloads.",
+      "title": "GoofyFS vs ObjectiveFS"
+    }
+  ],
+  "company_key": "yc-archil",
+  "month": "2025-12"
+}

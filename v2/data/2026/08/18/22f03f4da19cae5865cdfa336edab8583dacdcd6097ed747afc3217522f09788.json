@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "22f03f4da19cae5865cdfa336edab8583dacdcd6097ed747afc3217522f09788",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/bbrc",
+  "canonical_url": "https://www.buildbuddy.io/changelog/bbrc",
+  "title": "Configure the BuildBuddy CLI with .bbrc",
+  "summary": "You can now save BuildBuddy CLI options in a .bbrc file. It uses the same",
+  "body_markdown": "You can now save BuildBuddy CLI options in a` .bbrc` file. It uses the same section and named-config syntax as a` .bazelrc` , but it configures` bb` rather than Bazel.\n\n\nFor example, this` .bbrc` enables streamed logs for every` bb run` and uses Linux runners for` bb remote` :\n\n\n.bbrc\n\n\n```text\nrun   --stream_run_logs     remote   --os  =  linux\n```\n\n\n```text\n# Runs: bb run --stream_run_logs //app     bb run //app        # Runs: bb remote --os=linux test //...     bb remote   test   //  ..  .\n```\n\n\nYou can also define named configs and select them with` --bb_config` :\n\n\n.bbrc\n\n\n```text\nremote:linux   --os  =  linux    remote:linux   --arch  =  amd64\n```\n\n\n```text\nbb remote   --bb_config  =  linux   test   //  ..  .\n```\n\n\nThe CLI automatically reads` .bbrc` from the workspace root and your home directory.\n\n\nOnly BuildBuddy CLI flags are allowed in` .bbrc` ; regular Bazel options still belong in` .bazelrc` .\n\n\nSee the[.bbrc documentation](https://www.buildbuddy.io/docs/cli-config) for more details.",
+  "published_at": "2026-08-18T10:00:00+00:00",
+  "first_seen_at": "2026-09-01T18:29:11.076412+00:00",
+  "content_hash": "sha256:1d42a7af4bb88643d6dbb5c8fa9e5fdf33bd75d1b20bcbaf7dddb87d98b5fc9c"
+}
