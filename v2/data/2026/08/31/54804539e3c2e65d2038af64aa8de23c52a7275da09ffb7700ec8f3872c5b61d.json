@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "54804539e3c2e65d2038af64aa8de23c52a7275da09ffb7700ec8f3872c5b61d",
+  "company_key": "yc-luel",
+  "company_name": "Luel",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.luel.ai/blog/luel-speech-is-now-available",
+  "canonical_url": "https://www.luel.ai/blog/luel-speech-is-now-available",
+  "title": "Luel Speech is now available for public access",
+  "summary": "Specialist production audio for unrepresented languages: eight voices across Tibetan, Darija, Masri and Dzongkha, in the Studio or over the API.",
+  "body_markdown": "## The voices\n\n\nTwo per language, each built from its own native-speaker corpus rather than a multilingual checkpoint borrowed from the language next door.\n\n\n- **Dolma** and **Tenzin** —[Ü-Tsang Tibetan](https://www.luel.ai/lab/models/tibetan-tts) , 48 kHz\n- **Salma** and **Anir** —[Moroccan Darija](https://www.luel.ai/lab/models/moroccan-darija-tts) , 24 kHz\n- **Cleopatra** and **Mana** —[Egyptian Arabic (Masri)](https://www.luel.ai/lab/models/masri-egyptian-tts) , 24 kHz\n- **Pema** and **Jigme** —[Dzongkha](https://www.luel.ai/lab/models/dzongkha-emotive-tts) , 48 kHz\n\n\nAsk for a slug that is not on that list and the call is refused rather than substituted. You never get a different voice than the one you named.\n\n\n## The Luel Speech API\n\n\nEvery voice above, over one endpoint and one key. The official TypeScript SDK is` @luel/speech` .\n\n\n```text\nnpm   install   @luel/speech\n```\n\n\nName a voice, send the script it reads, and audio comes back:\n\n\n```text\nimport   { Luel }   from   '@luel/speech'\n\n\nconst   luel   =   new   Luel  ({ apiKey: process.env.  LUEL_API_KEY  !   })\n\n\nconst   audio   =   await   luel.speech.  convert  ({\nvoice:   'bo-female'  ,\ntext:   'བཀྲ་ཤིས་བདེ་ལེགས།'  ,\n})\n```\n\n\n[Quickstart](https://www.luel.ai/docs/speech/quickstart) ·[Voices](https://www.luel.ai/docs/speech/voices) ·[SDK reference](https://www.luel.ai/docs/speech/sdk)\n\n\nBehind them is the engine the rest of[Luel Labs](https://www.luel.ai/blog/introducing-luel-lab) runs on: 750,000+ contributors across 96+ countries, recording the languages other platforms skip.",
+  "published_at": "2026-08-31T00:00:00+00:00",
+  "first_seen_at": "2026-08-31T23:31:13.868653+00:00",
+  "content_hash": "sha256:482b30f7cfc051c283b1fcb25482970298c294a7285ade13d0311fca77c439ec"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e13f47d090f42fbeeee3d785cb8fa7ed79967711d2b4994d49c2e3c1e9615eb7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r9g-and-r9gd-memory-optimized-instances-are-now-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r9g-and-r9gd-memory-optimized-instances-are-now-available/",
+  "title": "Amazon EC2 R9g and R9gd memory optimized instances are now available",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 R9g and R9gd memory optimized instances are now available",
+  "body_markdown": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R9g and R9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delivering the best price performance for memory-intensive workloads running on Amazon EC2.\n\n\nR9g instances are ideal for memory-intensive workloads including databases, in-memory caches, real-time big data analytics, Linux-based workloads including containerized and micro-service-based applications (e.g. Kubernetes, Docker, EKS, ECS), as well as applications written in popular programming languages such as C/C++, Rust, Go, Java, Python, .NET Core, Node.js, Ruby, and PHP.\n\n\nR9gd instances offer local NVMe-based SSD block-level storage for customers. R9gd instances are great for memory-intensive workloads such as open-source databases, distributed real-time big data analytics, large in-memory databases, and large caching workloads.\n\n\nR9g and R9gd instances deliver up to 25% better compute performance compared to AWS Graviton4-based R8g and R8gd instances. They are up to 30% faster for databases, up to 35% faster for web applications, and up to 35% faster for machine learning. They feature 5x larger cache and the fastest memory of any processor instances in the cloud. These instances are built on the sixth generation[AWS Nitro System](https://aws.amazon.com/ec2/nitro/) and are the first to feature the[Nitro Isolation Engine](https://aws.amazon.com/blogs/compute/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/) , harnessing formal verification to provide mathematical assurance that customer workloads are isolated from each other and AWS operators, pioneering a new standard for mathematically proven cloud security.\n\n\nR9g and R9gd instances are available in US East (N. Virginia, Ohio), US West (Oregon), and EU (Frankfurt) regions. R9g and R9gd instances are available for purchase via Savings Plans, On-Demand, Spot instances, Dedicated instances, or Dedicated hosts.\n\n\n[Level up your compute with AWS Graviton](https://aws.amazon.com/ec2/graviton/level-up-with-graviton/) and[get started today.](https://aws.amazon.com/ec2/instance-types/r9g/)",
+  "published_at": "2026-08-31T18:08:00+00:00",
+  "first_seen_at": "2026-08-31T22:21:11.659299+00:00",
+  "content_hash": "sha256:313f0661276c40d3e412616ff8bc426d1de20ce368dae7f40bba8f9f56f62247"
+}

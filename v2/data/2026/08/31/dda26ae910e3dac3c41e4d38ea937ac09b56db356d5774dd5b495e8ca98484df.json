@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dda26ae910e3dac3c41e4d38ea937ac09b56db356d5774dd5b495e8ca98484df",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/workload-credentials-provider-install/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/workload-credentials-provider-install/",
+  "title": "AWS Workload Credentials Provider is now available as a one-click install for Linux and Windows",
+  "summary": "Discover more about what's new at AWS with AWS Workload Credentials Provider is now available as a one-click install for Linux and Windows",
+  "body_markdown": "Today, AWS Secrets Manager announces one-click installation for the AWS Workload Credentials Provider (AWCP) on Amazon Linux and Windows, reducing setup from a multi-step build-from-source process to a single command.\n\n\nAWCP resolves secrets from AWS Secrets Manager and caches them locally, enabling applications to retrieve secrets over a local HTTP endpoint. AWCP also enables you to pull your certificates from AWS Certificate Manager. Previously, customers who wanted to use AWCP on Amazon EC2 instances had approximately 6 steps, starting from cloning the Github repository to compiling the binary and setting up configurations. This multi-step process required every developer to learn Rust expertise and build infrastructure.\n\n\nNow, customers can download pre-built, signed binaries for Linux (x86_64 and ARM64) and Windows (x64) directly from a public download URL. Along with this, AWCP is now available in the Amazon Linux repository. Amazon Linux EC2 customers can install it in one command. All binaries are code-signed to ensure integrity and authenticity, and deliver a ready-to-run agent with in-memory secret caching.\n\n\nAWS Workload Credentials Provider one-click install is available on Amazon Linux 2023 (x86_64 and ARM64) and Windows Server (x64) in all AWS Regions where AWS Secrets Manager is available, at no additional cost beyond standard Secrets Manager pricing. To get started, see the following resources - AWS Workload Credentials Provider[documentation](https://docs.aws.amazon.com/secretsmanager/latest/userguide/workload-credentials-provider.html) , ACM[documentation](https://docs.aws.amazon.com/acm/latest/userguide/acm-certificate-automation.html) , and AWCP on[GitHub](https://github.com/aws/aws-workload-credentials-provider) .",
+  "published_at": "2026-08-31T07:00:00+00:00",
+  "first_seen_at": "2026-08-31T22:21:11.659299+00:00",
+  "content_hash": "sha256:8bcef56d6a3d3019bf41e2afd5d901ab634801642f07ebad2d27856c913a4003"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "26609eb3ac2da49490eff326c1fa5460c5ee28d8026b03304124f79efdf4ccd8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-recursion-regions",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-recursion-regions",
+  "title": "AWS Lambda recursive loop detection is now available in all commercial AWS Regions",
+  "summary": "Discover more about what's new at AWS with AWS Lambda recursive loop detection is now available in all commercial AWS Regions",
+  "body_markdown": "AWS Lambda[recursive loop detection](https://docs.aws.amazon.com/lambda/latest/dg/invocation-recursion.html) has expanded support to all commercial AWS Regions. This feature, which is enabled by default, is a guardrail that automatically detects and stops recursive invocations between Lambda functions and other supported services, preventing runaway workloads.\n\n\nWhen using event sources such as Amazon S3, Amazon SQS, and Amazon SNS to trigger Lambda functions, a misconfiguration or code defect can cause events to be sent back to the same source that triggered the Lambda function, causing recursive loops, unintended usage, and unexpected billing. When such a loop is detected, Lambda recursive loop detection automatically stops processing the event and sends you an AWS Health Dashboard notification with troubleshooting steps.\n\n\nWith this expansion, you now benefit from recursive loop detection in all commercial[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) when using a[supported SDK version or later](https://docs.aws.amazon.com/lambda/latest/dg/invocation-recursion.html#invocation-recursion-supported) . If your function uses intentional recursive loops, you can use the[PutFunctionRecursionConfig API](https://docs.aws.amazon.com/lambda/latest/api/API_PutFunctionRecursionConfig.html) to turn off recursive loop detection on your Lambda function.\n\n\nTo learn more about Lambda recursive loop detection, please refer to[Lambda documentation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-recursion.html) .",
+  "published_at": "2026-08-31T17:30:00+00:00",
+  "first_seen_at": "2026-08-31T22:21:11.659299+00:00",
+  "content_hash": "sha256:0b8435f690e789c28807fbbad0ec6222a14068c804ff7321e4cd0d77c37694b0"
+}

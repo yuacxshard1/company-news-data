@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "140a504604aa9fe1aed182111b8d5647a7a24256bcfaa96cffc9727cd99657fb",
+  "company_key": "yc-afterquery",
+  "company_name": "AfterQuery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.afterquery.com/blog/afterquery-celebrates-the-release-of-motif-3",
+  "canonical_url": "https://www.afterquery.com/blog/afterquery-celebrates-the-release-of-motif-3",
+  "title": "AfterQuery Celebrates the Release of Motif 3 and Served as Sole Data Partner",
+  "summary": "AfterQuery celebrates the release of Motif 3, a landmark model for Korean sovereign AI, and is proud to have served as its sole data partner: an MIT-licensed 314B-parameter sparse MoE that leads its open-model comparison set on agentic benchmarks.",
+  "body_markdown": "AfterQuery celebrates the release of Motif 3 alongside the Motif Technologies team, and is proud to have served as the model’s **sole data partner** .\n\n\nMotif 3 is a landmark release for Korean sovereign AI and the open-weights ecosystem. The model is available under an MIT license and pairs an in-house 314B-parameter Mixture-of-Experts architecture with post-training on[NVIDIA NeMo-RL](https://github.com/NVIDIA-NeMo/RL) .\n\n\nThe results are especially strong on agentic work. Motif 3 leads its open-model comparison set on τ³-Banking with a score of 35.3, and posts 94.7 on τ²-Bench Telecom, 74.9 on Terminal-Bench 2.1, and 76.2 on SWE-bench Verified.\n\n\nThe release is notable for the model’s efficiency as well as its scores. Motif 3 activates 13.2B parameters per token as a 314B-parameter sparse MoE. Despite its relatively small active footprint, it remains competitive with much larger open-weight systems across several of Motif’s reported evaluations.\n\n\n## Why Sovereign AI Matters\n\n\nSovereign AI is not just a matter of training a model locally. Motif has spent several model generations developing and refining its own technical ideas, including Grouped Differential Latent Attention (GDLA), Expert-Specific PolyNorm activations, and a multi-token prediction head for self-speculative decoding.\n\n\nThe team also publishes much of this work. The model weights are open-sourced, together with a[detailed technical report](https://arxiv.org/abs/2608.09119) ,[an example of the distributed training framework](https://github.com/MotifTechnologies/motif3-training-example) , and[a public vLLM implementation](https://github.com/MotifTechnologies/vllm) .\n\n\nMotif 3 shows there is still room for SOTA sovereign models. AfterQuery looks forward to continuing its support for Motif and the broader AI ecosystem as they build models for Korea and contribute their work to the global open-source community.\n\n\nAfterQuery is an applied research lab curating data solutions to accelerate foundation model development.",
+  "published_at": "2026-08-23T00:00:00+00:00",
+  "first_seen_at": "2026-08-31T21:12:33.853167+00:00",
+  "content_hash": "sha256:108a354560fcfc342531c2785399a11f17fe63bc7fec4e9120dcb9595b34ff75"
+}

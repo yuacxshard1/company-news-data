@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5a26bd4d52162f1bc18e997fdbba41376059abc8905a425e9c0bac3ae0ab9aad",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-get-client-token/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-get-client-token/",
+  "title": "Amazon Cognito now supports machine-to-machine authorization without a user pool domain",
+  "summary": "Discover more about what's new at AWS with Amazon Cognito now supports machine-to-machine authorization without a user pool domain",
+  "body_markdown": "Amazon Cognito now supports the GetClientToken API operation, enabling app clients to obtain access tokens for machine-to-machine (M2M) authorization directly through the AWS SDK, CLI, or API — without configuring a user pool domain. This gives you an additional path to authorize service-to-service communication for applications, microservices, and automated workloads.\n\n\nThe new GetClientToken API operation lets your app client authenticate with its client ID and secret to receive an access token authorized for custom scopes on your resource servers. As a native AWS API operation, GetClientToken integrates seamlessly with AWS SDKs and supports AWS WAF and VPC interface endpoints (AWS PrivateLink). The existing domain-based OAuth 2.0 client-credentials flow remains available.\n\n\nThis feature is available in all AWS Regions where Amazon Cognito user pools are available. To get started, configure an app client and call GetClientToken using the AWS Management Console, CLI, or SDKs. Standard Amazon[Cognito M2M pricing](https://aws.amazon.com/cognito/pricing/) applies. See[Amazon Cognito Developer Guide](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-define-resource-servers.html#get-client-token) and[GetClientToken API Reference](https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_GetClientToken.html) for details.",
+  "published_at": "2026-08-31T18:00:00+00:00",
+  "first_seen_at": "2026-08-31T22:21:11.659299+00:00",
+  "content_hash": "sha256:7b36e17e01e21ed21079098a7c8c3e81fdd149b5115cf103a2ff33e93b8db47f"
+}

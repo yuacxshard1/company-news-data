@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b180d26392b9ef921f0bbd3b4ed84ef29d1bf4b35fb50ec54621e09e9414a682",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-eks/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-eks/",
+  "title": "Amazon EMR on EKS now supports job run concurrency controls",
+  "summary": "Discover more about what's new at AWS with Amazon EMR on EKS now supports job run concurrency controls",
+  "body_markdown": "Amazon EMR on EKS lets you run open-source big data frameworks such as Apache Spark and Flink on AWS EKS(Elastic Kubernetes Service) clusters. You submit jobs to a virtual cluster, which maps to a namespace on an EKS cluster, and EMR on EKS handles packaging, scheduling, and running your applications. Today, we are excited to announce job run admission control on EMR EKS with support for job run concurrency and backpressure signals from StartJobRun API.\n\n\nWith this launch, you can now set concurrent job limits on a virtual cluster, giving you fine-grained control over how many job runs execute at once and how many can wait in queue. This is a logical queue representing jobs in PENDING/SUBMITTED state. These controls help you protect shared EKS clusters from being overloaded in multi-tenant shared environments and avoid noisy-neighbor scheduling failures, so your critical workloads keep running predictably even under heavy demand. You configure two optional limits on a virtual cluster: maxConcurrentJobRuns, the maximum number of jobs running at any time, and maxInQueueJobRuns, the maximum queue depth for job runs that EMR on EKS has accepted but not yet started running. When the queue is full, StartJobRun returns an HTTP ValidationException, so you can gracefully shed or reroute traffic to another cluster instead of overwhelming a single one. You can view current limits and live job counts at any time with DescribeVirtualCluster. No limits are applied by default, so existing workloads are unaffected until you opt in.\n\n\nConcurrent job limits are available in all AWS Regions where EMR on EKS is offered. To get started, see[managing virtual clusters.](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/virtual-cluster.html#virtual-cluster-job-concurrency-limits)",
+  "published_at": "2026-08-28T17:08:00+00:00",
+  "first_seen_at": "2026-08-31T22:21:11.659299+00:00",
+  "content_hash": "sha256:5544b5207eb5db01a160b6faff5eda1f21fed4e32fdd8fb0f792969ad70b37c4"
+}

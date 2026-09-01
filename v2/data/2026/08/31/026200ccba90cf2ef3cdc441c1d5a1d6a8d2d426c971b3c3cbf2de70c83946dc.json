@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "026200ccba90cf2ef3cdc441c1d5a1d6a8d2d426c971b3c3cbf2de70c83946dc",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-beanstalk-active-directory-domain-join/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-beanstalk-active-directory-domain-join/",
+  "title": "AWS Elastic Beanstalk now supports Active Directory domain join for Windows Server environments",
+  "summary": "Discover more about what's new at AWS with AWS Elastic Beanstalk now supports Active Directory domain join for Windows Server environments",
+  "body_markdown": "AWS Elastic Beanstalk now automatically joins the Windows Server instances in your environment to an Active Directory domain that you manage with AWS Directory Service. Previously, running domain-joined Windows workloads on Elastic Beanstalk required custom join scripts that you had to maintain. With this launch, you set a few configuration options and every instance in the environment — including instances launched later by auto scaling — joins the domain at boot, before your application deploys, with no custom scripts.\n\n\nDomain-joined instances can use Windows-integrated authentication, apply group policy, and reach domain resources such as file shares and SQL Server databases that use Windows authentication. You can place instances in an organizational unit that you want to target with a group policy, and each instance takes a predictable computer name derived from its instance ID. The feature is resilient by design: if an instance can't join the domain, your deployment still completes, and the environment reports the problem, so a join failure never blocks a deployment.\n\n\nActive Directory domain join is available on Windows Server platform versions released on or after August 18, 2026, in all AWS Commercial Regions and the AWS GovCloud (US) Regions where Elastic Beanstalk is available. For a complete list of supported Regions, see[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .\n\n\nTo learn more, see[Joining instances to an Active Directory domain](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/dotnet-activedirectory.html) in the *AWS Elastic Beanstalk Developer Guide* . To learn more about Elastic Beanstalk, visit the[AWS Elastic Beanstalk product page](https://aws.amazon.com/elasticbeanstalk/) .",
+  "published_at": "2026-08-31T04:00:00+00:00",
+  "first_seen_at": "2026-08-31T22:21:11.659299+00:00",
+  "content_hash": "sha256:dce0aed834217eb0d6e946f0e94653d45cfdd56382724d9572579ef4c18114bc"
+}

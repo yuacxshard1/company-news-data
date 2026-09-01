@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e5817b6255627383d9f97e164904c985d583bece5cd08eb4903a17dc7c741185",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
+  "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift now supports Apache Iceberg v3 tables",
+  "body_markdown": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features. With this launch, Amazon Redshift introduces support for default column values, row lineage, and deletion vectors.\nWith default column values, you can define an initial value that Amazon Redshift applies when no value is provided, simplifying schema evolution as you add columns to existing tables. Row lineage exposes pseudo-columns that track each row's identity and last-updated sequence number, so you can build incremental pipelines and CDC (change data capture) workflows that process only modified rows. Deletion vectors replace Iceberg v2's positional delete files with compact compressed bitmaps, delivering faster reads and writes for high-frequency update and delete workloads such as compliance-driven record removal. You can create a v3 table with CREATE TABLE <table> ... USING ICEBERG TABLE PROPERTIES ('format-version' = '3'), or upgrade an existing v2 table in place with ALTER TABLE <table> SET TABLE PROPERTIES ('format-version' = '3').\nAmazon Redshift's Graviton based provisioned and serverless clusters support the new v3 format. To learn more, see[Apache Iceberg v3 features](https://docs.aws.amazon.com/redshift/latest/dg/iceberg-v3-features.html) in the[Amazon Redshift Documentation](https://docs.aws.amazon.com/redshift/) .",
+  "published_at": "2026-08-31T18:10:00+00:00",
+  "first_seen_at": "2026-08-31T22:21:11.659299+00:00",
+  "content_hash": "sha256:09a4c7069b4add9883b68220afbc51bc62b617bfb681689038c003682204629d"
+}

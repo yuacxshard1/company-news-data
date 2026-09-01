@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "206ca49afd1d59b7ac4e9b341d4eea2fc3b7853b2eb8983ad5d74cce15b1c675",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr",
+  "title": "Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing",
+  "body_markdown": "Amazon Redshift now supports AWS IAM Identity Center authentication for provisioned clusters and serverless workgroups configured with enhanced VPC routing (EVR). You can access Amazon Redshift with single sign-on with your corporate credentials, and the traffic traverses Amazon Virtual Private Cloud (Amazon VPC) and stays on the AWS network. This is valuable for customers with data residency, regulatory, or network-isolation requirements that mandate no public internet egress for analytics.\n\n\nWith Redshift EVR, all traffic between your Redshift warehouse and other AWS services goes through your VPC, where you can govern it with security groups, network ACLs, and endpoint policies, and observe it in VPC Flow Logs. With this launch, Redshift validates and exchanges IAM Identity Center tokens over AWS PrivateLink interface VPC endpoints from inside your VPC, so authentication and authorization follows the same governed network path as the rest of your Redshift traffic. This feature also supports[IAM Identity Center multi-Region replication](https://docs.aws.amazon.com/singlesignon/latest/userguide/multi-region-iam-identity-center.html) for customers running Redshift in a different Region than their primary Identity Center instance.\n\n\nRead the Amazon Redshift enhanced VPC routing[documentation](https://docs.aws.amazon.com/redshift/latest/mgmt/redshift-iam-access-control-idp-connect-evr.html) and the[blog post](https://aws.amazon.com/blogs/big-data/integrate-amazon-redshift-and-iam-identity-center-with-enhanced-vpc-routing/) to get started. This capability is available in all AWS Regions where both Amazon Redshift and IAM Identity Center are available.",
+  "published_at": "2026-08-31T21:02:00+00:00",
+  "first_seen_at": "2026-08-31T22:21:11.659299+00:00",
+  "content_hash": "sha256:967caedecaecdc20f56e3f795a4b6ee118672f987edfa2c3bd7fc8e32fe637a8"
+}
