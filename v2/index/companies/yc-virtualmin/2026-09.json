@@ -3,12 +3,12 @@
     {
       "company_key": "yc-virtualmin",
       "company_name": "Virtualmin",
-      "doc_id": "01ac0770589073b906b040eb91f80a927726a715cd293a033121e5ae4b98d856",
-      "first_seen_at": "2026-09-01T18:13:52.778276+00:00",
-      "published_at": "2026-09-01T18:06:56+00:00",
+      "doc_id": "20edf74100bf0ca479334dc9b3b74d172da1105b13268cde552ee72b21cac81a",
+      "first_seen_at": "2026-09-01T22:05:31.932280+00:00",
+      "published_at": "2026-09-01T18:25:51+00:00",
       "source_kind": "rss",
-      "summary": "Howdy, After months of development and testing, the Virtualmin Podman plugin is now production-ready and available to all Virtualmin Pro users through the standard repositories. The plugin brings per-domain container and pod management to Virtualmin. You can create and manage standalone containers or multi-container pods, configure networking and storage, publish services through Virtualmin’s reverse proxy, inspect logs, and open container terminals directly in the browser. It also includes a...",
-      "title": "Virtualmin Podman 1.6.0 first public release"
+      "summary": "Howdy, We’ve rolled out version 3.1.0 of the Virtualmin Nginx and Virtualmin Nginx SSL modules to all repos. Changes since the last release: Add HTTP/3 support for SSL-enabled domains Add support for IPv6-only domains and improved listener handling during IP changes and restores Add filename and query-string options for Nginx redirects Fix Nginx directory alias handling Fix redirects that exclude .well-known paths Fix X-Forwarded-Proto for proxy backends Fix SSL certificate chain synchroniza...",
+      "title": "Virtualmin Nginx and Virtualmin Nginx SSL modules 3.1.0 released"
     },
     {
       "company_key": "yc-virtualmin",
@@ -29,6 +29,26 @@
       "source_kind": "atom",
       "summary": "",
       "title": "8.2.0"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "a18e18a2f347696498588f556bd5e3f4432d408e135dfe110899479d283c29ab",
+      "first_seen_at": "2026-09-01T18:13:52.778276+00:00",
+      "published_at": "2026-09-01T18:06:56+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy, After months of development and testing, the Virtualmin Podman plugin is now production-ready and available to all Virtualmin Pro users through the standard repositories. The plugin brings per-domain container and pod management to Virtualmin. You can create and manage standalone containers or multi-container pods, configure networking and storage, publish services through Virtualmin’s reverse proxy, inspect logs, and open container terminals directly in the browser. It also includes a...",
+      "title": "Virtualmin Podman module 1.6.0 initial release"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "dc1b469438b1d65054ea9535981824fe3e3f474716a64cc6eddde59596951435",
+      "first_seen_at": "2026-09-01T22:05:31.932280+00:00",
+      "published_at": "2026-09-01T19:03:09+00:00",
+      "source_kind": "rss",
+      "summary": "Hello, We’ve launched a new landing page for virtualmin.com. We redesigned it to be cleaner, simpler, and faster, with less visual clutter.",
+      "title": "Virtualmin.com redesigned landing page released"
     }
   ],
   "company_key": "yc-virtualmin",

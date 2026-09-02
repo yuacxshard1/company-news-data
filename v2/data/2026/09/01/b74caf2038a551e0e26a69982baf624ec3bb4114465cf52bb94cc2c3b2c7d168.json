@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b74caf2038a551e0e26a69982baf624ec3bb4114465cf52bb94cc2c3b2c7d168",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
+  "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
+  "summary": "Discover more about what's new at AWS with AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
+  "body_markdown": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account.\n\n\nPreviously, AWS Backup for Amazon S3 supported up to 1,000 buckets per account. With this launch, AWS Backup supports backing up all general purpose buckets in your account. Existing backup plans and configurations continue to work with no changes required if you are using default AWS Backup managed policies. For details on the required permissions for custom policies, see the[AWS Backup documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/s3-backups.html) .\n\n\nThis capability is available in all AWS commercial and AWS GovCloud (US) Regions. To get started, visit the[AWS Backup console](https://console.aws.amazon.com/backup) .",
+  "published_at": "2026-09-01T18:00:00+00:00",
+  "first_seen_at": "2026-09-01T22:35:27.115377+00:00",
+  "content_hash": "sha256:a5596b8bb3c6a52c4b3bf3301a50b3bd18a073ff4bc44daff141a114919010d3"
+}

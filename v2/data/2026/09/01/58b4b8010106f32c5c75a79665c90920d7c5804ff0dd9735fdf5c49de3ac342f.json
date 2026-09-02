@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "58b4b8010106f32c5c75a79665c90920d7c5804ff0dd9735fdf5c49de3ac342f",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/sso",
+  "canonical_url": "https://resend.com/changelog/sso",
+  "title": "Single Sign-On",
+  "summary": "Let your team sign in to Resend with your identity provider.",
+  "body_markdown": "Today, we're adding[Single Sign-On](https://resend.com/settings/team) (SSO) to Resend.\n\n\nOnce it's set up, anyone with an email address on your organization's domain can **log in to your Resend team through your identity provider** (IdP), no invite required.\n\n\nSSO is available as an add-on to[Scale plans](https://resend.com/pricing) and included with an[Enterprise plan](https://resend.com/enterprise) .\n\n\n## SSO options\n\n\nBy default, enabling SSO adds a new way for users to log in to your team, although you can enable two additional options:\n\n\n- **Enforced** : users can only sign in through your IdP, and removing a user from the IdP removes them from your Resend team.\n- **Restricted** : users on your SSO domain cannot create new teams, be invited to, or accept invitations from teams outside your SSO organization.[Contact support](https://resend.com/help) to enable this for your domain.\n\n\n## Set SSO up\n\n\nThere are a few steps to set up SSO. First, you must be an **Admin** of your team and use an email address from the domain you want to use for SSO. Follow these steps:\n\n\n- Navigate to your[Team Settings](https://resend.com/settings/team) and click **Enable SSO** .\n- **Enter your organization domain** : this is the domain your team members use to log in, it doesn't have to match any domains you have set up to send or receive email.\n- **Verify your domain** : add a TXT record at the apex of your domain; the unique value will be shown on your dashboard. If it's already verified for sending, this step is skipped.\n- **Wait for verification** : Resend polls your DNS until it finds the TXT record.\n- **Connect your IdP** : back in[Team Settings](https://resend.com/settings/team) click on **Finish setup** . A new tab opens where you configure the connection to your IdP.\n\n\nAnyone who signs in through SSO and isn't yet a member of the team is added automatically with the Member role.\n\n\n## Conclusion\n\n\nSSO gives your team one place to manage who can access Resend, and one place to cut that access off. For the full setup walkthrough and troubleshooting, see[the SSO docs](https://resend.com/docs/dashboard/settings/sso) .\n\n\nIf you have any questions, please reach out to us and we'll be happy to help.",
+  "published_at": "2026-09-01T00:00:00+00:00",
+  "first_seen_at": "2026-09-01T23:39:17.284040+00:00",
+  "content_hash": "sha256:28d375a753de2319dcfd206a6ba18ab734af7083d1af4ead687f2d90f7a62e09"
+}
