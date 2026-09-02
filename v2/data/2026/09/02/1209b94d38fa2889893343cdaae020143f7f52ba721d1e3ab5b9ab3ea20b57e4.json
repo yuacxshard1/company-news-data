@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1209b94d38fa2889893343cdaae020143f7f52ba721d1e3ab5b9ab3ea20b57e4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+  "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for SQL Server supports additional SQL trace flags",
+  "body_markdown": "[Amazon RDS for SQL Server](https://aws.amazon.com/rds/sqlserver/) supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — such as query optimizer cardinality estimation, lock escalation, statistics management, and memory handling — to allow database administrators to fine-tune performance and address workload-specific challenges. With this expansion, you have greater flexibility to optimize and stabilize your SQL Server workloads directly within your managed RDS environment.\n\n\nThe newly supported trace flags include: 647, 652, 1448, 3654, 4138, 4139, 7745, 8285, 8780, 9432, 9481, 9492, 9592, 11024, 11042, 12502, 12618, and 12656. These trace flags address scenarios such as query plan optimization, DDL performance improvements, availability group replication, Query Store behavior, automatic plan correction, and known engine bug mitigations. Because trace flags modify core SQL Server engine behavior, you should test them in a non-production environment before applying them to production instances. Some trace flags can impact system performance, increase memory usage, or change query execution plans in unexpected ways.\n\n\nTrace flags are available in all AWS Regions where Amazon RDS for SQL Server is supported. To get started, update your RDS parameter group to enable the desired trace flags and apply it to your DB instance. To learn more, see[Amazon RDS for SQL Server User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html) .",
+  "published_at": "2026-09-02T07:00:00+00:00",
+  "first_seen_at": "2026-09-02T19:52:07.710482+00:00",
+  "content_hash": "sha256:d20180e5a88c92c7afbf7a7b88ff9ba75fb527154902f7b27717bd66a7ce8d7e"
+}

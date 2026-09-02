@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f669d2db12a53f8df8b498d170857989dfc7c3070fc02ccedb777077f97018ef",
+  "company_key": "yc-tracecat",
+  "company_name": "Tracecat",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.0.0-beta.52-rc.21",
+  "canonical_url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.0.0-beta.52-rc.21",
+  "title": "Tracecat 1.0.0-beta.52-rc.21",
+  "summary": "",
+  "body_markdown": "## Tables\n\n\n- fix(tables): Preserve NULL for TEXT columns in to_sql_clause ([#3365](https://github.com/TracecatHQ/tracecat/pull/3365) )\n\n\n## Engine\n\n\n- feat(logging): Trace API workflows through Temporal ([#3274](https://github.com/TracecatHQ/tracecat/pull/3274) )\n- fix(engine): Preserve workflow failure through handler errors ([#3373](https://github.com/TracecatHQ/tracecat/pull/3373) )\n\n\n## Infrastructure\n\n\n- ci: Enforce commit conventions and rebuild release-note sections ([#3361](https://github.com/TracecatHQ/tracecat/pull/3361) )\n- ci: Keep each pull request in one release-notes section ([#3369](https://github.com/TracecatHQ/tracecat/pull/3369) )\n- ci: Reject workflows as a scope, it names two different things ([#3370](https://github.com/TracecatHQ/tracecat/pull/3370) )\n- ci: Stop the dedupe step untagging the draft release ([#3371](https://github.com/TracecatHQ/tracecat/pull/3371) )\n- ci: Stop enterprise deciding the release-notes section ([#3372](https://github.com/TracecatHQ/tracecat/pull/3372) )\n- ci: Reject GitHub's revert titles in favour of revert(scope) ([#3375](https://github.com/TracecatHQ/tracecat/pull/3375) )\n\n\n**Full changelog** :[1.0.0-beta.52-rc.20...1.0.0-beta.52-rc.21](https://github.com/TracecatHQ/tracecat/compare/1.0.0-beta.52-rc.20...1.0.0-beta.52-rc.21)",
+  "published_at": "2026-09-02T19:14:47+00:00",
+  "first_seen_at": "2026-09-02T20:46:55.698632+00:00",
+  "content_hash": "sha256:9990d651aadb6e87bfadc3328336e509f578f573a243777f29adad799e1c3414"
+}
