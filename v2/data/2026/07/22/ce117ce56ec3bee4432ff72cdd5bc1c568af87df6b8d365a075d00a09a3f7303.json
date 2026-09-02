@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ce117ce56ec3bee4432ff72cdd5bc1c568af87df6b8d365a075d00a09a3f7303",
+  "company_key": "yc-wafer",
+  "company_name": "Wafer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.wafer.ai/blog/rocprofiler-compute",
+  "canonical_url": "https://www.wafer.ai/blog/rocprofiler-compute",
+  "title": "Introducing ROCprofiler Compute: AMD GPU Profiling in Your IDE",
+  "summary": "The fastest inference for open models.",
+  "body_markdown": "**TLDR:** ROCprofiler Compute brings AMD GPU profiling into your IDE. View hardware metrics, roofline analysis, and kernel performance data directly in VS Code or Cursor.\n\n\n- [Book a Demo](https://cal.com/wafer/20min)\n- [Contact the team](https://www.wafer.ai/cdn-cgi/l/email-protection#670f0e27100601021549060e)\n\n\nToday we’re launching ROCprofiler Compute support in Wafer.\n\n\nIf you’re profiling AMD GPUs (MI300X, MI250, etc.), you can now view your` rocprof-compute` results directly in your editor with an interactive GUI.\n\n\n## What’s included\n\n\n**1. GPU Architecture Overview**\n\n\nSee your kernel’s performance at a glance. The architecture diagram shows every hardware block, including instruction dispatch, compute units, caches, and memory bandwidth, with real metrics from your profiling run.\n\n\n**2. Roofline Analysis**\n\n\nUnderstand where your kernel sits relative to hardware limits. The roofline plot shows arithmetic intensity vs. performance for L1, L2, HBM, and peak compute.\n\n\n**3. Kernel Statistics**\n\n\nView top kernels by execution time, dispatch lists, and per-kernel breakdowns. Sort and filter to find the hotspots.\n\n\n**4. System Info**\n\n\nFull hardware details: GPU model, compute units, cache sizes, clock speeds, ROCm version, and everything you need to understand your target hardware.\n\n\n## How to use it\n\n\n### Option 1: View existing profiling results\n\n\nIf you already have` rocprof-compute` results:\n\n\n1. Open Wafer in VS Code/Cursor\n2. Select “ROCprofiler Compute” from the tools menu\n3. Browse to your workload folder (must contain` sysinfo.csv` )\n4. Click “Launch GUI”\n\n\n### Option 2: Profile and analyze with Wafer CLI\n\n\nProfile your application:\n\n\n```text\nwafer   rocprof-compute   profile   --name   my_kernel   --   './my_hip_app'\n```\n\n\nAnalyze results:\n\n\n```text\nwafer   rocprof-compute   analyze   workloads/my_kernel\n```\n\n\nLaunch GUI:\n\n\n```text\nwafer   rocprof-compute   analyze   workloads/my_kernel   --gui\n```\n\n\n## Requirements\n\n\n- ROCm 7.0+ with` rocprof-compute` 3.2+\n- AMD GPU with ROCm support (gfx908, gfx90a, gfx940, gfx941, gfx942, gfx950)\n\n\nThe GUI viewer works on any platform; it only reads CSV files from your profiling run. You can profile on a remote AMD machine and view results locally.\n\n\n## Try it out\n\n\nIf you’d like access for your team, talk to us.\n\n\n- [Book a Demo](https://cal.com/wafer/20min)\n- [Contact the team](https://www.wafer.ai/cdn-cgi/l/email-protection#7b13123b0c1a1d1e09551a12)",
+  "published_at": null,
+  "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
+  "content_hash": "sha256:8313e153d34bf76c0683e41632a5619602e8676bfb89cb26f4b02e59e9c0a79f"
+}
