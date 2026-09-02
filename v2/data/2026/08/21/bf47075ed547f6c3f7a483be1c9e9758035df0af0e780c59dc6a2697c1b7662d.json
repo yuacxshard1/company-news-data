@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bf47075ed547f6c3f7a483be1c9e9758035df0af0e780c59dc6a2697c1b7662d",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/gcp-pubsub-application-default-credentials",
+  "canonical_url": "https://www.windmill.dev/changelog/gcp-pubsub-application-default-credentials",
+  "title": "Application default credentials for GCP Pub/Sub triggers",
+  "summary": "GCP Pub/Sub triggers can now authenticate as the Windmill server itself through application default credentials (GKE Workload Identity, the metadata server or GOOGLE_APPLICATION_CREDENTIALS) instead of a gcloud resource, by leaving the resource unset. Selecting this mode requires workspace admin. Workload Identity Federation credential files are supported.",
+  "body_markdown": "### [Application default credentials for GCP Pub/Sub triggers](https://www.windmill.dev/changelog/gcp-pubsub-application-default-credentials)\n\n\nGCP\n\n\nTriggers\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\n[v1.794.0](https://github.com/windmill-labs/windmill/releases/tag/v1.794.0)\n\n\n[Docs](https://www.windmill.dev/docs/triggers/gcp_triggers)\n\n\nGCP Pub/Sub triggers can now authenticate as the Windmill server itself through application default credentials (GKE Workload Identity, the metadata server or GOOGLE_APPLICATION_CREDENTIALS) instead of a gcloud resource, by leaving the resource unset. Selecting this mode requires workspace admin. Workload Identity Federation credential files are supported.\n\n\n#### New features\n\n\n- Authenticate GCP Pub/Sub triggers with the instance's application default credentials by leaving the gcloud resource unset (workspace admins only).\n- New GOOGLE_APPLICATION_CREDENTIALS server environment variable, with Workload Identity Federation files supported through the file, url and aws credential sources (executable is not supported).\n- Optional project ID to list and create topics and subscriptions in another project than the credentials' own.",
+  "published_at": "2026-08-21T00:00:00+00:00",
+  "first_seen_at": "2026-09-02T14:27:05.504613+00:00",
+  "content_hash": "sha256:8931ff5d47e1e0177509a78e255774f4e985663dac1adb5fec98ebd2716676a5"
+}
