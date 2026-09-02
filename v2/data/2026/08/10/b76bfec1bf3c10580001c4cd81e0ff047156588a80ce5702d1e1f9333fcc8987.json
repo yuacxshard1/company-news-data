@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b76bfec1bf3c10580001c4cd81e0ff047156588a80ce5702d1e1f9333fcc8987",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/resource-version-history",
+  "canonical_url": "https://www.windmill.dev/changelog/resource-version-history",
+  "title": "Version history for resource values",
+  "summary": "Editing a resource no longer destroys the value it replaced. Every change to a resource's value is now kept as a version, browsable from a History drawer in the resource editor with a diff against the current value and a one-click restore. Recording happens at the database level, so it covers writes from the UI, the CLI, setResource, workspace forks and trashbin restores alike. Past values stay readable to anyone who can read the resource, so after rotating a credential that was inlined into a resource value rather than kept in a variable, follow the rotation with \"Clear past versions\".",
+  "body_markdown": "### [Version history for resource values](https://www.windmill.dev/changelog/resource-version-history)\n\n\nResources\n\n\nWorkspace\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/resources_and_types#version-history)\n\n\nEditing a resource no longer destroys the value it replaced. Every change to a resource's value is now kept as a version, browsable from a History drawer in the resource editor with a diff against the current value and a one-click restore. Recording happens at the database level, so it covers writes from the UI, the CLI, setResource, workspace forks and trashbin restores alike. Past values stay readable to anyone who can read the resource, so after rotating a credential that was inlined into a resource value rather than kept in a variable, follow the rotation with \"Clear past versions\".\n\n\n#### New features\n\n\n- History drawer in the resource editor: versions newest first, each with its author and date, a JSON value view and a \"Diff with current\" view\n- Restore any version with write access to the resource. The old value is written forward as a new version, so the history stays append-only and the restore is itself attributable\n- A version referencing a $var: or $res: path that no longer exists is flagged before you restore it\n- Recorded by a database trigger, so CLI pushes, setResource calls, workspace forks and trashbin restores all produce versions, not just edits made in the editor\n- Up to 100 versions per resource, trimmed in the background. Renaming carries the history along, deleting a resource takes it with it\n- state and cache resources are not versioned: every job that uses them rewrites them\n- \"Clear past versions\" drops every version but the current value for one resource, for owners of its path. On cloud, workspace admins can prune every resource history at once from the quotas page\n- Four API endpoints: getResourceHistory, getResourceVersion, restoreResourceVersion and clearResourceHistory",
+  "published_at": "2026-08-10T00:00:00+00:00",
+  "first_seen_at": "2026-09-02T18:04:37.466117+00:00",
+  "content_hash": "sha256:dd0745c78d59e5bcaccbb0dbe17bda0942294261133ebfd3653a86b004de762e"
+}

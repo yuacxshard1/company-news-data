@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b808845c13b6a093738a70402584cf3516c277387152e4b09a8ce3400e74b7d4",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/dev-workspace-git-promotion",
+  "canonical_url": "https://www.windmill.dev/changelog/dev-workspace-git-promotion",
+  "title": "Promote to prod via Git from dev workspaces",
+  "summary": "Dev workspaces can now promote to prod through Git. A \"Promote to prod via Git\" toggle on the repository inherited from prod switches deploys from the dev branch to per-item wm_deploy branches off the prod workspace's tracked branch, ready to merge as pull requests. Enterprise Edition only, and the dev workspace must use the same repository and branch as its prod workspace.",
+  "body_markdown": "### [Promote to prod via Git from dev workspaces](https://www.windmill.dev/changelog/dev-workspace-git-promotion)\n\n\nGit sync\n\n\nWorkspace\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\n[Docs](https://www.windmill.dev/docs/advanced/dev_workspaces#promote-to-prod-via-git)\n\n\nDev workspaces can now promote to prod through Git. A \"Promote to prod via Git\" toggle on the repository inherited from prod switches deploys from the dev branch to per-item wm_deploy branches off the prod workspace's tracked branch, ready to merge as pull requests. Enterprise Edition only, and the dev workspace must use the same repository and branch as its prod workspace.\n\n\n#### New features\n\n\n- \"Promote to prod via Git\" toggle on the repository a dev workspace inherited from its prod workspace, no separate promotion repository to configure\n- Deploys create per-item wm_deploy/<dev-workspace-id>/<type>/<path> branches off the branch tracked by the prod workspace\n- Optional \"One pull request per folder\" sub-toggle to open one branch per folder instead of per item\n- On GitHub App-backed repositories, Windmill can open the pull request automatically after each deploy, without any CI action or webhook\n- The dev workspace's own branch keeps tracking the workspace while promotion is on",
+  "published_at": "2026-07-21T00:00:00+00:00",
+  "first_seen_at": "2026-09-02T18:04:37.466117+00:00",
+  "content_hash": "sha256:4e32467c9679843a3dbc1796670cda619b31e4a5056b76d477d2bbcf1bb91a79"
+}

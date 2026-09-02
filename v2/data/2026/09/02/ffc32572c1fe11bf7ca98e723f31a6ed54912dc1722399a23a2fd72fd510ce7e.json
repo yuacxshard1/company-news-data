@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ffc32572c1fe11bf7ca98e723f31a6ed54912dc1722399a23a2fd72fd510ce7e",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
+  "canonical_url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
+  "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
+  "summary": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2609.01215)\n\n\nMost current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very short sequences of actions, without organizing behaviors into reusable, well-defined abstractions. As a result, these models perform poorly on long-horizon (multi-step) tasks, and it’s difficult to interpret what they have learned. Existing approaches for discovering skills often avoid the core problem of deciding when two action sequences are “behaviorally equivalent.” For example, AtomicVLA and AtomSkill group action sequences by clustering their contrastive embeddings. In contrast, BLADE and LRLL rely on a large language model (LLM) to judge whether two sequences are equivalent, but these LLMs are not calibrated to the robot’s own dynamics. We introduce REFACTOR-VLA, a system that learns reusable skills using a “wake/sleep” architecture. In the sleep phase, the system clusters segments of motor programs using a Behavioral-Equivalence Kernel (BEK). This BEK is based on the outcomes of rolling out actions in a learned latent world model, Mφ. In the wake phase, the system generates typed lambda terms (simple, structured programs) from a vocabulary inspired by the Hindley–Milner type system. These lambda terms are then used by a library-conditioned rectified-flow action decoder to produce actions. Only abstractions that pass both a Minimum Description Length (MDL) criterion and a return-preservation gate are accepted as skills. To train REFACTOR-VLA, we use a three-phase schedule: • Phase A (World-model warmup): The latent world model Mφ is trained. • Phase B (Wake-phase policy optimization): The policy that uses the library of skills is optimized. • Phase C (Sleep-phase skill discovery): The system clusters action fragments into reusable skills. We evaluated REFACTOR-VLA on the full LIBERO benchmark suite. Our results show two main findings. First, simply increasing the size of the world model—from 188 million to 430 million parameters—worsened performance on 4 out of 4 benchmark suites, disproving the idea that just making the world model bigger always helps. Second, changing the training objective makes a big difference: adding an auxiliary supervised contrastive loss (specifically, InfoNCE loss) during the world-model warmup (Phase A) greatly improved the quality of skill clustering in the sleep phase (Phase C). We measured this using Normalized Mutual Information (NMI) under n = 3 multi-seeding: • Object suite: 0.462 ± 0.021 • Spatial suite: 0.867 ± 0.025 • Goal suite: 0.915 ± 0.013 • LIBERO-10 suite: 0.754 ± 0.010",
+  "published_at": null,
+  "first_seen_at": "2026-09-02T15:46:21.549905+00:00",
+  "content_hash": "sha256:b91140e368088566e2c8f8f474d684a6bea5266cadc1cdc2c17a85cb4d169dfe"
+}

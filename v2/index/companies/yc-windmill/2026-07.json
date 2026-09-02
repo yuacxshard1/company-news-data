@@ -163,6 +163,16 @@
     {
       "company_key": "yc-windmill",
       "company_name": "Windmill",
+      "doc_id": "b808845c13b6a093738a70402584cf3516c277387152e4b09a8ce3400e74b7d4",
+      "first_seen_at": "2026-09-02T18:04:37.466117+00:00",
+      "published_at": "2026-07-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Dev workspaces can now promote to prod through Git. A \"Promote to prod via Git\" toggle on the repository inherited from prod switches deploys from the dev branch to per-item wm_deploy branches off the prod workspace's tracked branch, ready to merge as pull requests. Enterprise Edition only, and the dev workspace must use the same repository and branch as its prod workspace.",
+      "title": "Promote to prod via Git from dev workspaces"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
       "doc_id": "bbba13c9e9e93ef4b6260bbd60eaf2f83de314a78ef592f928b3b04b3b663e84",
       "first_seen_at": "2026-08-14T15:49:25.757524+00:00",
       "published_at": "2026-07-16T00:00:00+00:00",

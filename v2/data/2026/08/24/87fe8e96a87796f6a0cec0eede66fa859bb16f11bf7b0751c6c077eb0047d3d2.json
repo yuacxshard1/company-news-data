@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "87fe8e96a87796f6a0cec0eede66fa859bb16f11bf7b0751c6c077eb0047d3d2",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-usage-and-cost",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-usage-and-cost",
+  "title": "AI usage and cost tracking",
+  "summary": "Windmill now records the tokens every AI chat spends, per user, model and provider, and prices them. Workspace admins get an \"AI usage\" panel in the Windmill AI settings, grouped by day, user or model; every member sees their own spend under \"Your AI usage\" in user settings. Costs are estimates marked with a leading ~, except where the provider bills back an exact figure (OpenRouter).",
+  "body_markdown": "### [AI usage and cost tracking](https://www.windmill.dev/changelog/ai-usage-and-cost)\n\n\nAI\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_generation#ai-usage-and-cost)\n\n\nWindmill now records the tokens every AI chat spends, per user, model and provider, and prices them. Workspace admins get an \"AI usage\" panel in the Windmill AI settings, grouped by day, user or model; every member sees their own spend under \"Your AI usage\" in user settings. Costs are estimates marked with a leading ~, except where the provider bills back an exact figure (OpenRouter).\n\n\n#### New features\n\n\n- Token spend from AI sessions and the AI chat is recorded per workspace, user, provider and model.\n- An admin-only \"AI usage\" panel in the workspace Windmill AI settings, over the last 7, 30 or 90 days, grouped by day, user or model.\n- A self-scoped \"Your AI usage\" panel in user settings, open to every member.\n- Costs marked with ~ are estimated from a built-in price table; a cost the provider billed back is shown as is. A model with no known rate is reported as unpriced rather than guessed at.\n- A \"Model pricing\" panel to override rates per model in USD per million tokens (input, output, cache read, cache write), on the workspace or instance AI config.\n- GET and POST /w/{workspace}/ai/usage expose the same data over the API.",
+  "published_at": "2026-08-24T00:00:00+00:00",
+  "first_seen_at": "2026-09-02T18:04:37.466117+00:00",
+  "content_hash": "sha256:eb21bfb54a305895e0c2278d7007fdeac9226e218fcdca105835f1d6053a79e7"
+}

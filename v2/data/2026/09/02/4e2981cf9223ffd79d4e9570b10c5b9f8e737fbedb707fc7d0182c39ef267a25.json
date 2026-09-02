@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4e2981cf9223ffd79d4e9570b10c5b9f8e737fbedb707fc7d0182c39ef267a25",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
+  "title": "AWS Lambda now supports SnapStart for container image functions",
+  "summary": "Discover more about what's new at AWS with AWS Lambda now supports SnapStart for container image functions",
+  "body_markdown": "Starting today, AWS Lambda supports SnapStart for functions packaged as[container images](https://docs.aws.amazon.com/lambda/latest/dg/images-create.html) , reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and scalable applications without provisioning resources or implementing complex performance optimizations.\n\n\nCustomers deploy Lambda functions with container images to align with their organization's container-based deployment standards, or to package larger dependencies up to 10 GB. However, larger container images can experience startup times of several seconds as Lambda downloads image layers and initializes the runtime and application code. SnapStart addresses this by taking a snapshot of the initialized execution environment during function deployment, caching it, and resuming from it on invocation, instead of initializing from scratch. Previously, SnapStart was only supported for managed runtimes (Python, .NET, and Java). Starting today, customers can use SnapStart for container images to improve startup times for latency-sensitive workloads such as ML inference and interactive APIs.\n\n\nLambda SnapStart for container images is available in all commercial[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) , except Asia Pacific (New Zealand) and Asia Pacific (Taipei).\n\n\nYou can activate SnapStart for new or existing[container image](https://docs.aws.amazon.com/lambda/latest/dg/images-create.html) functions using AWS Lambda API, AWS Console, AWS Command Line Interface (AWS CLI), AWS CloudFormation, AWS Serverless Application Model (AWS SAM), AWS SDK, and AWS Cloud Development Kit (AWS CDK). If you use an AWS base image for Lambda with Java (version 11+), Python (version 3.12+), or .NET (version 8+), the experience remains the same as with functions deployed as .zip file archives. For all other AWS base images for Lambda (for example, Node.js or Ruby) or custom base images, refer to the[developer guide.](https://docs.aws.amazon.com/lambda/latest/dg/snapstart-runtime-hooks-custom.html) For more information about SnapStart, see Lambda[documentation.](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html) To learn more about pricing for SnapStart for container image functions, visit[AWS Lambda Pricing.](https://aws.amazon.com/lambda/pricing/#SnapStart_Pricing)",
+  "published_at": "2026-09-02T09:00:00+00:00",
+  "first_seen_at": "2026-09-02T16:05:43.891838+00:00",
+  "content_hash": "sha256:f027a21ef7f5a8a3baa16cfd154373243e6b95622fe74fdce4271d7cea079963"
+}

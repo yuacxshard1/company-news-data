@@ -8481,6 +8481,16 @@
       "title": "Greenwich LifeSciences Extends Lock-up of Directors and Officers to January 31, 2027"
     },
     {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "b76bfec1bf3c10580001c4cd81e0ff047156588a80ce5702d1e1f9333fcc8987",
+      "first_seen_at": "2026-09-02T18:04:37.466117+00:00",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Editing a resource no longer destroys the value it replaced. Every change to a resource's value is now kept as a version, browsable from a History drawer in the resource editor with a diff against the current value and a one-click restore. Recording happens at the database level, so it covers writes from the UI, the CLI, setResource, workspace forks and trashbin restores alike. Past values stay readable to anyone who can read the resource, so after rotating a credential that was inlined into a resource value rather than kept in a variable, follow the rotation with \"Clear past versions\".",
+      "title": "Version history for resource values"
+    },
+    {
       "company_key": "asure-software-inc-common-stock",
       "company_name": "Asure Software Inc",
       "doc_id": "b7e8ab268b165e0341b002c7fa34bce59365a4d585b675ae44c6942159b512dc",
