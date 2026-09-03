@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c268ef2b873106d11a3567d33a34f1cbbc7850edfbd2b8fec7e942e355123115",
+  "company_key": "yc-growthbook",
+  "company_name": "GrowthBook",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.growthbook.io/blog/stale-feature-flag-detection",
+  "canonical_url": "https://www.growthbook.io/blog/stale-feature-flag-detection",
+  "title": "Stale feature flag detection",
+  "summary": "Search engines will automatically show a custom preview of content related to the search term here if no custom meta description is set.",
+  "body_markdown": "[Feature flags](https://www.growthbook.io/products/feature-flags) are a fantastic way to[reduce risk during deployments](https://www.growthbook.io/blog/feature-flags-reduce-risk) , but they can also be a source of technical debt. It’s common for engineers to forget to clean up feature flags from the code that aren’t being used anymore.\n\n\nTo help solve this problem, GrowthBook now alerts you when we detect a \"stale\" feature flag. These stale flags are good candidates for removal from your code, reducing your technical debt.\n\n\nIt’s common for engineers to forget to clean up feature flags from the code that aren’t being used anymore **,**[especially when teams are focused on scaling feature flags.](https://www.growthbook.io/blog/how-to-implement-feature-flags-at-scale)\n\n\nGrowthBook UI showing stale feature flag detection alert on an unused flag\n\n\nWe define a \"stale\" feature flag as one that has not been updated in the past two weeks and serves the same value to all users - that means there are no active experiments or force rules.\n\n\nThis detection isn't perfect. There are times when a long-lived feature flag makes sense - for example, a kill switch for when a 3rd party provider has an outage. For these features, you can easily dismiss the stale notification by clicking on the icon.\n\n\nDismissing a stale feature flag notification in GrowthBook for a long-lived kill switch\n\n\nWe have a lot more planned in the future to help you stay on top of your technical debt - everything from integrating with GitHub Code References to detecting actual realtime usage from our SDKs. Stay tuned and let us know your thoughts!",
+  "published_at": "2023-11-29T00:00:00+00:00",
+  "first_seen_at": "2026-09-03T03:50:47.739085+00:00",
+  "content_hash": "sha256:48b5997eb342c62e74e9e2679308208c6bf4175667f1211932a29c0df79c74d0"
+}
