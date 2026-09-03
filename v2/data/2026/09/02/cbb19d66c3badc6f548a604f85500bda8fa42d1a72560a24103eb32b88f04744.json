@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cbb19d66c3badc6f548a604f85500bda8fa42d1a72560a24103eb32b88f04744",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-cicd-notebook-ai-manifest/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-cicd-notebook-ai-manifest/",
+  "title": "Amazon SageMaker Unified Studio CI/CD adds notebook promotion and AI-assisted manifest generation",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker Unified Studio CI/CD adds notebook promotion and AI-assisted manifest generation",
+  "body_markdown": "Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion across environments. Together, they help data teams go from project to production faster while maintaining best-practice defaults across stages.\n\n\n**AI-assisted manifest generation.** The new generate-bundle-manifest agent skill inspects a project's connections, storage, and workflows and produces a ready-to-use deployment manifest. It applies least-privilege IAM guidance, substitutes environment variables in place of hardcoded resource identifiers, and sets safe defaults such as opt-in catalog handling. Teams can import the skill into their own agents to standardize how they package and promote SageMaker Unified Studio projects across development, test, and production accounts.\n\n\n**Native notebook promotion.** The CI/CD toolkit now supports promoting native SMUS Notebooks alongside code, workflows, and catalog assets. Notebook promotion uses an in-place synchronization model that creates a notebook on first deployment and updates it on subsequent deployments, preserving run history across releases. Teams can promote every notebook in a project or select specific notebooks by ID, and a dry-run mode validates S3 connectivity, IAM permissions, and notebook counts before deployment. Notebook promotion integrates with the existing bundle, deploy, destroy, and dry-run commands and requires no changes to current pipeline structure.\n\n\nBoth capabilities are open source and available in all AWS Regions where Amazon SageMaker Unified Studio is offered.\n\n\nTo get started, visit the[CICD-for-SageMakerUnifiedStudio](https://github.com/aws/CICD-for-SageMakerUnifiedStudio) repository on GitHub. For more information, see the[CI/CD for Amazon SageMaker Unified Studio documentation](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/cicd.html) .",
+  "published_at": "2026-09-02T08:00:00+00:00",
+  "first_seen_at": "2026-09-02T23:53:01.264551+00:00",
+  "content_hash": "sha256:d55cf91dfb369cd080f1214437cb38ca1bd08fd2787e0c18e3043085cc29d9e4"
+}

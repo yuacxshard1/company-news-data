@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e7f9220fb2c2992723e87446c7402558cdbc2e2b4dd09113663204f3c73c12f3",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/errors-and-reproducibility-in-bayesian-optimization",
+  "canonical_url": "https://www.reactwise.com/news/errors-and-reproducibility-in-bayesian-optimization",
+  "title": "Errors and reproducibility in Bayesian optimization",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "\"My assay has a few percent of error - won't that throw off the model?\"\n\n\nErrors and reproducibility are one of the most common concerns we hear about data-driven optimization.\n\n\nHowever, Bayesian optimization is often built on Gaussian process models, and these don’t assume your measurements are exact. They treat every result as a signal wrapped in noise and estimate both at once: the underlying trend, and how much scatter sits around it. So a single low reading doesn't send the model chasing after it - it's weighed against everything nearby and read as noise, not as a new optimum.\n\n\nThis is why BO stays stable where simple curve-fitting would not. It isn't trying to pass through every point; it's trying to find the surface those points are scattered around.\n\n\nOf course, there is a limit to this tolerance. A GP handles random noise - run-to-run variation from sampling, injection, or integration; it cannot fix systematic error. A miscalibrated instrument or a drifting internal standard won’t average out. They bias the data in one direction, and the model learns the bias along with the chemistry.\n\n\nThe models also have a measure of uncertainty and can suggest sensible replicates to mitigate where, for example, there are two very different yield measurements with very similar inputs.\n\n\nWhere prior data exists, there's a further safeguard. Our transfer learning engine, MemoryBO, warm-starts a campaign from related historic data - so a noisy early dataset isn't read in isolation, and the model is less easily pulled around by the scatter in a handful of new runs.\n\n\nNone of this removes the need for good experimental practice, but it does ensure that teams can get the maximum value out of slightly noisy data.",
+  "published_at": "2026-09-02T00:00:00+00:00",
+  "first_seen_at": "2026-09-02T21:57:03.552351+00:00",
+  "content_hash": "sha256:eeefbd0cb86ca6414df469a691aa922dfef2b32d6b9277db3dda2f13a19586c7"
+}
