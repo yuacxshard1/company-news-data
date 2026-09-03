@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "baa2c89ea66faade62e8d9b37c96deef382ecd88b18e7313d42f0a4d7d6f081e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-agentcore/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-agentcore/",
+  "title": "Amazon Bedrock AgentCore Identity now offers a managed consent portal",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock AgentCore Identity now offers a managed consent portal",
+  "body_markdown": "[Amazon Bedrock AgentCore Identity](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-overview.html) now offers a managed consent portal that eliminates the need for custom OAuth callback infrastructure when connecting agents to third-party tools and services.\n\n\nDevelopers using AgentCore Gateway to connect agents with services such as GitHub, Salesforce, and Slack previously had to build, host, and maintain custom OAuth callback infrastructure to complete OAuth 2.0 three-legged authorization (3LO) flows. The new managed consent portal eliminates this undifferentiated heavy lifting for agent developers and platform administrators.\n\n\nEach AgentCore Gateway receives its own managed consent portal with a dedicated hosted web client and credential provider list. Platform admins can share a portal URL with their team before sessions begin, granting consent for agents to call external tools on their behalf. End users can view their connection status at any time through a self-service interface without contacting an administrator.\n\n\nDevelopers using agent IDE-based clients, which cannot natively present OAuth consent URLs or handle post-consent session binding, can now use the managed consent portal as a dedicated authorization surface for these workflows.\n\n\nThis feature is available in all commercial regions where Bedrock AgentCore Identity is available.\n\n\nTo learn more, visit the[Amazon Bedrock AgentCore Identity documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-consent-portal.html) .",
+  "published_at": "2026-09-01T21:29:00+00:00",
+  "first_seen_at": "2026-09-03T22:29:48.163486+00:00",
+  "content_hash": "sha256:04f5741b4bb5c1b4a71614569ac6341f725547d3e7f5fa11717201b3745e2523"
+}

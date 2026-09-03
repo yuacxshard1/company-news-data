@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "48eddabc91bb19af657d321d149338a971d7b982b8770ded882733c3fa3a8120",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints",
+  "title": "Amazon S3 now supports PrivateLink for FIPS endpoints",
+  "summary": "Discover more about what's new at AWS with Amazon S3 now supports PrivateLink for FIPS endpoints",
+  "body_markdown": "Amazon S3 now supports AWS PrivateLink for endpoints that have been validated under the Federal Information Processing Standard (FIPS) 140-3 program.\n\n\nCustomers with security and compliance requirements can use FIPS-validated cryptographic modules when connecting to S3 while keeping their traffic within their Virtual Private Cloud (VPC). To get started, create a new or edit an existing interface VPC endpoint for S3 and configure it to use the FIPS S3 endpoint.\n\n\nAWS PrivateLink support for FIPS S3 endpoints is now available in the AWS US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), Canada (Central), Canada West (Calgary), and AWS GovCloud (US) Regions, at no additional cost. To learn more, visit[accessing AWS services through AWS PrivateLink](https://docs.aws.amazon.com/vpc/latest/privatelink/privatelink-access-aws-services.html) ,[FIPS 140-3 Compliance](https://aws.amazon.com/compliance/fips/) , and[S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) .",
+  "published_at": "2026-09-03T04:00:00+00:00",
+  "first_seen_at": "2026-09-03T22:29:48.163486+00:00",
+  "content_hash": "sha256:1cfa3a2f24dab5142aed28f6c478ac22f082454758ff7380d6054fe5f0bc8957"
+}

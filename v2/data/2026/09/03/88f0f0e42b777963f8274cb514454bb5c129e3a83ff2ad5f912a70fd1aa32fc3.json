@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "88f0f0e42b777963f8274cb514454bb5c129e3a83ff2ad5f912a70fd1aa32fc3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
+  "title": "Amazon CloudFront announces API support for flat-rate pricing plans",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront announces API support for flat-rate pricing plans",
+  "body_markdown": "Starting today, customers can subscribe and manage flat-rate pricing plans programmatically using the AWS CLI, AWS SDKs, CloudFormation, CDK, or the PricingPlanManager API.\n\n\nCloudFront flat-rate plans give you one monthly price covering global content delivery, WAF, DDoS, DNS, logging, and edge compute, with no usage-based overage charges regardless of traffic spikes or attacks. Previously, customers could only subscribe to flat-rate pricing plans using the console, which required manual steps when using the API or infrastructure as code (IaC) like CloudFormation to create and manage distributions. Now, customers can programmatically subscribe, upgrade, downgrade, and cancel flat-rate pricing plans using the API or IaC tools.\n\n\nPaid plans support an optional two-phase activation flow: you first create the plan, then approve it to begin billing. This prevents you from being committed to charges before you confirm, and makes the API well-suited for automated workflows and agents that provision infrastructure on your behalf. Free plans activate immediately and don’t require approval. To learn more, refer to the[Getting started with the PricingPlanManager API](https://docs.aws.amazon.com/PricingPlanManager/latest/UserGuide/getting-started-pricingplanmanager-api.html) . There are no additional fees for using the API to manage flat-rate pricing plans.",
+  "published_at": "2026-09-03T18:00:00+00:00",
+  "first_seen_at": "2026-09-03T22:29:48.163486+00:00",
+  "content_hash": "sha256:e910df09ad00069a890968bfede303151ef9f5a4639a09c842ca00270907817d"
+}

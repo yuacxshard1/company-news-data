@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a58e81249d0e2d69e9a3494de9393bf7e043880c209889184c66dd9bcb3311a5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
+  "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
+  "body_markdown": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the need to offload custom logic to Lambda or ECS for tasks like data transformations or shell script execution.\n\n\nTo get started, open a serverless visual workflow in your SageMaker Unified Studio project, search for PythonOperator or BashOperator in the task panel, and drag the node onto your canvas. Provide your Python or shell script files through the workflow settings, then point each operator to the function or command in your scripts. For example, configure PythonOperator to call a data transformation function or set BashOperator to run a shell command, all without leaving the visual canvas.\n\n\nThis feature is available in all AWS Regions where Amazon SageMaker Unified Studio is available. For more information, see[Supported Regions for Amazon SageMaker Unified Studio](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html) .\n\n\nTo learn more, see[Supported operators for Amazon MWAA Serverless workflows](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/operators.html) . To get started, see[Serverless visual workflows](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/serverless-visual-workflows.html) in the Amazon SageMaker Unified Studio User Guide.",
+  "published_at": "2026-09-03T15:00:00+00:00",
+  "first_seen_at": "2026-09-03T22:29:48.163486+00:00",
+  "content_hash": "sha256:cee06115b722dd18cde3dc43cef9f49f7fc260495ea7eccdc7f58dd5ee032e16"
+}
