@@ -3,12 +3,32 @@
     {
       "company_key": "yc-zeropath",
       "company_name": "ZeroPath",
+      "doc_id": "2a47d7c079a8c0ee5fd8a885388c04adaeec80c5f2864b94fd34e2b5edf00661",
+      "first_seen_at": "2026-09-03T14:13:47.220271+00:00",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "ZeroPath builds CycloneDX, SPDX, VEX, and AI-BOM exports from your scan inventory, and marks every CVE reachable or not_affected so you fix what's exploitable first.",
+      "title": "Reachability-Aware SBOMs: VEX That Knows What's Actually Exploitable"
+    },
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
       "doc_id": "6a86b05e083942df109f02792dd8d06c7deb84290bed33ea055656755cd339d5",
-      "first_seen_at": "2026-09-03T12:42:52.187296+00:00",
+      "first_seen_at": "2026-09-03T14:13:47.220271+00:00",
       "published_at": "2026-08-06T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Traditional SCA flags every CVE whose version range matches your lockfile, even when the vulnerable code never runs. ZeroPath's AI agent checks whether each dependency CVE is reachable and exploitable in your app, adds KEV and EPSS signal, and opens fix PRs.",
       "title": "Reachability and Exploitability Triage: Which Dependency CVEs Actually Matter?"
+    },
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
+      "doc_id": "6c039ab34356de5e76b7c8432a5b81445bed944f8bbc2fbcf373b2470b9df741",
+      "first_seen_at": "2026-09-03T14:13:47.220271+00:00",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "CVSS rates worst-case severity, not real risk. ZeroPath layers four signals on every dependency CVE: the real advisory CVSS, CISA KEV, FIRST EPSS, and an AI-derived contextual severity for your repo, refreshed daily and kept honest.",
+      "title": "Beyond CVSS: Contextual Vulnerability Intelligence for CVEs"
     },
     {
       "company_key": "yc-zeropath",
@@ -19,6 +39,36 @@
       "source_kind": "html",
       "summary": "An OpenAI model under evaluation broke out of its sandbox and into Hugging Face's infrastructure to steal the answers to the benchmark it was being graded on. Reward hacking explains it better than any of the individual vulnerabilities do.",
       "title": "Learning to Cheat: Why an OpenAI Model Hacked Into Hugging Face"
+    },
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
+      "doc_id": "c83bf953117137b81b21d35f102af604a3848fdad6b53b127c6caa9a877bffa9",
+      "first_seen_at": "2026-09-03T14:13:47.220271+00:00",
+      "published_at": "2026-08-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "SCA forces a bad trade: run a fragile build for full coverage, or scan manifests and miss the transitive majority. ZeroPath resolves the full graph build-lessly for npm, Maven, and pinned Python, and reports exactly how much of your supply chain each scan resolved.",
+      "title": "Build-less Dependency Scanning: SCA Coverage You Can Actually Verify"
+    },
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
+      "doc_id": "d030f31e50a73d8749f0074e52fa69298d53004f33f73a536156b664e4855e9e",
+      "first_seen_at": "2026-09-03T14:13:47.220271+00:00",
+      "published_at": "2026-08-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Dependabot bumps the version. ZeroPath makes sure the upgrade doesn't add a new CVE, proves transitive fixes in a sandbox, and flags which of your call sites might break.",
+      "title": "Posture-Safe Dependency Remediation: Upgrade PRs That Don't Make Your Security Worse"
+    },
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
+      "doc_id": "f8dd53ab810e8ba542d6cf73400094c7cd98d1fe8aab0db940e6eb74e7929127",
+      "first_seen_at": "2026-09-03T14:13:47.220271+00:00",
+      "published_at": "2026-08-13T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "ZeroPath watches the OSV feed continuously and alerts you within minutes when a new CVE hits a dependency you already ship, triaged for reachability instead of waiting for your next scheduled scan.",
+      "title": "Continuous CVE Alerting for the Dependencies You Already Ship"
     }
   ],
   "company_key": "yc-zeropath",

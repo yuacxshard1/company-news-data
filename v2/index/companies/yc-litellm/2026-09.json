@@ -49,6 +49,16 @@
       "source_kind": "html",
       "summary": "day 0 support for Gemini 3.8 Flash on LiteLLM, with launch pricing tracked across Google AI Studio and Vertex AI.",
       "title": "Day 0 support: Gemini 3.8 Flash"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "cfd9866422b27b723bcac8b242366f9a3f193fdb0ea74388347562676e1a722d",
+      "first_seen_at": "2026-09-03T16:51:47.780752+00:00",
+      "published_at": "2026-09-02T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Heuristic v2 is a new classifier for LiteLLM's AutoRouter, pretrained across multiple rounds of graded response data so it ships with zero cold start. On a 21-task Terminal-Bench 2.0 subset it solved 3 more tasks than Heuristic v1, at 45% lower cost per solved task and lower latency.",
+      "title": "Introducing AutoRouter Heuristic v2: 27% More Tasks Solved at 45% Lower Cost"
     }
   ],
   "company_key": "yc-litellm",
