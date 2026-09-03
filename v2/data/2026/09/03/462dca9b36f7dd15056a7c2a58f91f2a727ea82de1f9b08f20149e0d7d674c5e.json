@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "462dca9b36f7dd15056a7c2a58f91f2a727ea82de1f9b08f20149e0d7d674c5e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
+  "title": "Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
+  "summary": "Discover more about what's new at AWS with Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
+  "body_markdown": "Amazon Managed Workflows for Apache Airflow (MWAA) now includes a built-in monitoring experience on the environment detail page in the[AWS Management Console](https://console.aws.amazon.com/mwaa/home) . A new metrics dashboard displays key Amazon CloudWatch metrics for your environment in one place, and each graph includes an optional toggle to overlay suggested warning ranges, helping you quickly identify conditions that may affect your environment's health and performance.\n\n\nThe environment detail page also now shows an alarms table that lists all Amazon CloudWatch alarms associated with your MWAA environment. You can use the one-click Create Recommended Alarms action to provision a curated set of alarms from an AWS-managed template, so you can start monitoring critical metrics without having to configure each alarm manually. This feature is available for Amazon MWAA Provisioned environments in all regions where[Amazon MWAA is available](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . Standard Amazon CloudWatch pricing applies for metric queries and alarms.\n\n\nTo get started, open the[AWS Management Console](https://console.aws.amazon.com/mwaa/home) , review the[Amazon MWAA supported regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) , or visit the[Amazon MWAA documentation](https://docs.aws.amazon.com/mwaa/latest/userguide/monitoring-dashboard.html) to learn more.",
+  "published_at": "2026-09-03T15:00:00+00:00",
+  "first_seen_at": "2026-09-03T18:42:38.535302+00:00",
+  "content_hash": "sha256:d0cf5549b51a41caf5d37b1f86622371fc2bbf83e8c12f70e41cda82e2865563"
+}
