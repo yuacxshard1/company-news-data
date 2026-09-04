@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6cccd82b9d8e86adf1972240274cc9bfdda16e883e4008723dab4b77d64335fc",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
+  "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 now supports specifying compatible instance types on AMIs",
+  "body_markdown": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch attempt on a non-permitted instance type is automatically blocked.\n\n\nAMI owners now have a built-in way to prevent launches on instances that are not compatible with their AMIs. This reduces the risk of failed launches due to incompatible instance-AMI pairings. By default, an AMI can be launched on any instance type, so existing workflows remain unaffected until restrictions are explicitly applied.\n\n\nThis feature is available in all AWS Regions at no additional cost. To learn more, please visit the[documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ami-allowed-instance-types.html) .",
+  "published_at": "2026-09-04T19:26:00+00:00",
+  "first_seen_at": "2026-09-04T21:58:21.122275+00:00",
+  "content_hash": "sha256:453c5a5710d53abc4c1b355ac787db529d7c2fe530e4ef3457702d660fc86ec4"
+}

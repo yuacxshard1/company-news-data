@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ac41cf049ed9501d2479667e0988de213cd08aac68952527226a432b5c088a55",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+  "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker AI Batch Transform now supports G6e instances",
+  "body_markdown": "Amazon SageMaker AI now supports[Amazon EC2 G6e instances](https://aws.amazon.com/ec2/instance-types/g6e/) for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persistent inference endpoint.\n\n\nAmazon EC2 G6e instances are powered by up to eight NVIDIA L40S Tensor Core GPUs with 48 GB of memory per GPU and third-generation AMD EPYC processors. G6e instances deliver improved performance for GPU-intensive workloads. With this launch, you can use G6e instances for GPU-intensive offline inference workloads, including large language models and diffusion models that generate images, video, and audio. To get started, select a supported ml.g6e instance type when creating a Batch Transform job through AWS SDKs, AWS CLI, or the CreateTransformJob API.\n\n\nG6e support for Batch Transform is available in US East (N. Virginia), US East (Ohio), US West (Oregon), Asia Pacific (Mumbai), and Asia Pacific (Hyderabad). To learn more, visit the[Amazon SageMaker AI](https://aws.amazon.com/sagemaker/ai/deploy/) product page and see the[Batch Transform documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html) . For pricing information on these instances, please visit our[pricing page](https://aws.amazon.com/sagemaker/ai/pricing/?refid=ft_sagemaker) .",
+  "published_at": "2026-09-04T08:00:00+00:00",
+  "first_seen_at": "2026-09-04T21:58:21.122275+00:00",
+  "content_hash": "sha256:008e64fc87d852d4fdfff58135dc8b40db93edd18ae251b4259fd80ccba6204f"
+}

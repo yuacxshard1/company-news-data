@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ba395e7eb9cd5413d5d447519a160a12602e936e189446d279370693b383caf5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+  "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
+  "summary": "Discover more about what's new at AWS with AWS MCP Server adds a serverless capability for AWS Lambda functions",
+  "body_markdown": "Today,[AWS Model Context Protocol Server](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/mcp-server.html) (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. The serverless capability helps you troubleshoot your running Lambda functions and their connected resources.\n\n\nThe AWS MCP Server, available through the[Agent Toolkit for AWS](https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/) or as a standalone installation, is a managed service that gives AI coding agents secure access to AWS services. With the new AWS MCP Sever serverless capability, your coding agent inspects your Lambda function and its connected resources across Amazon API Gateway, Amazon EventBridge, Amazon S3, Amazon DynamoDB, Amazon SNS, Amazon SQS, and AWS Step Functions. The agent can correlate error signals against a 7-day baseline to pinpoint what changed, surface recurring errors to identify trends, retrieve the deployed configuration of your function and connected resources, provide a timeline of recent changes to track what happened, and analyze service latency across connected resources. As the agent gets comprehensive data in a single call, it consumes fewer tokens compared to orchestrating multiple API calls.\n\n\nTo get started, configure the[Agent toolkit for AWS](https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/) by running ‘aws configure agent-toolkit’ from the AWS CLI, or enable the[AWS MCP Server](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html) directly.\n\n\nThe AWS MCP Server can access services in all commercial[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) , while the AWS MCP Server itself runs in the US East (N. Virginia) and Europe (Frankfurt) Regions. The serverless diagnostic capabilities in the AWS MCP Server are available at no additional cost. To learn more, see the[user guide](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/capabilities.html) .",
+  "published_at": "2026-09-04T16:31:00+00:00",
+  "first_seen_at": "2026-09-04T21:58:21.122275+00:00",
+  "content_hash": "sha256:3d0942268914ba462bc18b4125c82e3d7b1c76ef1bd86b8caeb86b08b32f2b0c"
+}

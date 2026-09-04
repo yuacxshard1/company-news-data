@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-propelauth",
+      "company_name": "PropelAuth",
+      "doc_id": "6b112d7a3b0befe0967a16a2280ce41deef58b6f8a1e37dd73f0c9368f5f5dcb",
+      "first_seen_at": "2026-09-04T19:33:44.385050+00:00",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "An organization in PropelAuth can now connect to more than one identity provider. Employees can log in through Okta, contractors through Entra ID, a newly acquired team through Google Workspace, and all of them end up in the same organization. SAML, OIDC, and SCIM are all supported, and each connection is configured and maintained separately. Why one connection stops being enough Most organizations map cleanly to one identity provider, but plenty don't. The requests tend to sound like this:",
+      "title": "Multiple Enterprise SSO Connections per Organization"
+    },
+    {
+      "company_key": "yc-propelauth",
+      "company_name": "PropelAuth",
+      "doc_id": "d1e45a813109c6f12c6fa635d6540dde81e089d9818ea7179a3f908189052db8",
+      "first_seen_at": "2026-09-04T19:33:44.385050+00:00",
+      "published_at": "2026-08-06T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Updated September 4, 2026 Short answer: For a B2B startup, PropelAuth is the best managed auth provider in 2026. Organizations, per-organization roles, and unlimited SAML/OIDC enterprise SSO are all included on a flat $150/month plan, so you're covered when a customer asks for SSO and you don't pay per connection. For a consumer or Next.js-first product, Clerk is the fastest way to ship a polished login. If you already run on Supabase, use Supabase Auth. WorkOS makes sense if you already have l",
+      "title": "Best Managed Auth for Startups in 2026"
+    },
+    {
+      "company_key": "yc-propelauth",
+      "company_name": "PropelAuth",
+      "doc_id": "ddf969248f73a0cb068af7a14bfbe03f4ded6c8943778d15bdc656959b15bc2b",
+      "first_seen_at": "2026-09-04T19:33:44.385050+00:00",
+      "published_at": "2026-08-13T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Your customers are starting to ask a new question: \"Can I connect Claude, ChatGPT, or Cursor to my account in your product?\" Saying yes means shipping a remote MCP server, and a remote MCP server needs authentication. The MCP spec settles on OAuth 2.1 for this, so you don't have to invent anything. You do need an OAuth 2.1 authorization server that handles the MCP-specific pieces: protected resource metadata, Dynamic Client Registration (or Client ID Metadata Documents), PKCE, consent screens,",
+      "title": "Auth Providers That Can Secure Your MCP Server (2026 Comparison)"
+    }
+  ],
+  "company_key": "yc-propelauth",
+  "month": "2026-08"
+}
