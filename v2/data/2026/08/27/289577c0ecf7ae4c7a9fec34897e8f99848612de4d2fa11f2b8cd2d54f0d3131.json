@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "289577c0ecf7ae4c7a9fec34897e8f99848612de4d2fa11f2b8cd2d54f0d3131",
+  "company_key": "yc-iomete",
+  "company_name": "IOMETE",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://iomete.com/resources/blog/on-premises-lakehouse-reference-architecture-banks",
+  "canonical_url": "https://iomete.com/resources/blog/on-premises-lakehouse-reference-architecture-banks",
+  "title": "On-premises lakehouse reference architecture for banks",
+  "summary": "An on-premises data lakehouse reference architecture for banks: Kubernetes topology, Iceberg storage layout, network zones, and the controls auditors ask about.",
+  "body_markdown": "An on-premises data lakehouse is a lakehouse architecture – open table formats over object storage with decoupled compute – deployed inside an organization's own data centers rather than a vendor's cloud.\n\n\nThe data, compute, and encryption keys all remain within infrastructure the organization controls, which is what separates it from a managed service running in a chosen region. IOMETE deploys this way by default, running Apache Spark on the customer's own Kubernetes clusters against Apache Iceberg tables on S3-compatible storage.",
+  "published_at": "2026-08-27T00:00:00+00:00",
+  "first_seen_at": "2026-09-04T09:31:30.773257+00:00",
+  "content_hash": "sha256:6aad1b1ec26314531c75af8a3de34ff9a1f026bd8e817ca404101067665dd14b"
+}

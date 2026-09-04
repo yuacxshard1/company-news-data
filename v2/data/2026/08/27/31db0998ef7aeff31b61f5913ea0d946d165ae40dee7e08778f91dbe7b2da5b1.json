@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "31db0998ef7aeff31b61f5913ea0d946d165ae40dee7e08778f91dbe7b2da5b1",
+  "company_key": "yc-iomete",
+  "company_name": "IOMETE",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://iomete.com/resources/blog/public-sector-data-sovereignty-platform",
+  "canonical_url": "https://iomete.com/resources/blog/public-sector-data-sovereignty-platform",
+  "title": "Data sovereignty for the public sector: a platform blueprint",
+  "summary": "Public sector data sovereignty: how agencies build an analytics platform that keeps citizen data under national jurisdiction, plus the procurement exit test.",
+  "body_markdown": "Not necessarily. Self-hosting the infrastructure is a separate question from who operates it day to day.\n\n\nThis distinction matters most in public sector organizations, where deep Kubernetes skills are difficult to hire and retain. IOMETE's Field Data Engineers can handle cluster operations while the agency's data team works with SQL, jobs, and notebooks. For that to survive the first procurement question, the contract has to spell out the access model: operator access granted by the agency and time-boxed rather than standing, sessions logged where the agency can audit them, and the agency's key management system outside the operator's reach, so running the platform never becomes a path to reading the data.",
+  "published_at": "2026-08-27T00:00:00+00:00",
+  "first_seen_at": "2026-09-04T09:31:30.773257+00:00",
+  "content_hash": "sha256:7c90352930bda0d3294727ceb2e8fc4b6ec9efedcc8cd7e291ff935f56254fb5"
+}

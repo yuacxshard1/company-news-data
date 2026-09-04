@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4a5646335f73d6318bc00a8f9f85c01aba199b4be9baa6d68336ce0ad4637229",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/third-party-integrations",
+  "canonical_url": "https://www.activepieces.com/blog/third-party-integrations",
+  "title": "What Are Third-Party Integrations? Definition and Types",
+  "summary": "Learn what third-party integrations are and how they work. Discover how Activepieces can help you create third-party integrations with ease.",
+  "body_markdown": "## Different Types of Third-Party Integrations\n\n\nYou can choose different integration options based on your business needs, such as:\n\n\n### One-Way Integrations\n\n\nA one-way setup is a connection where data flows in only one direction. When a trigger fires in the source app, an action runs in the destination app.\n\n\nFor example, a new lead in a customer relationship management (CRM) platform can push contact details into an email platform. Edits made later in the email tool will not return to the CRM.\n\n\nSince only one side writes data, the conflict risk stays low. Setup also takes less effort because you only map fields in one direction.\n\n\nCollaboration becomes limited, though. If two teams need to edit the same record in separate systems, a one-way model leaves one side out of date.\n\n\n### Two-Way Sync Integrations\n\n\nTwo-way sync allows both systems to update each other.\n\n\nAs a record changes in system A, the update appears in system B. Once someone edits that same record in system B, the change reflects back in system A.\n\n\nBoth systems monitor activity through webhooks or scheduled checks.\n\n\n### Embedded iPaaS\n\n\nAn embedded integration platform as a service is what you place directly into your product. Instead of building hundreds of connectors yourself, you integrate a pre-built engine that handles connections for you.\n\n\nBehind the scenes, the embedded iPaaS provider maintains connectors, authentication, and execution logic, so you can implement new connections more easily.\n\n\nCompared to unified APIs, it supports the configurability of complex workflows, not just standardized endpoints. Your developers can offer branded automation tools without managing every API change manually.\n\n\nLow-code software often powers these builders, which lets you configure flows.\n\n\n### AI-Powered Integrations\n\n\nTraditional automation follows a fixed *“if-then* ” logic. AI-powered integrations go further by interpreting data before passing it along.\n\n\nFor instance, a lengthy email can be analyzed to extract intent, sentiment, and key details. The integration then routes the message to the correct team. AI can even recognize that two differently named fields represent the same concept and map them.\n\n\nCommon examples include:\n\n\n- Automatic CRM updates from voice notes\n- Content generation from uploaded videos\n- Automated support replies drafted from internal documentation",
+  "published_at": "2026-03-05T12:35:30+00:00",
+  "first_seen_at": "2026-09-04T09:11:20.077053+00:00",
+  "content_hash": "sha256:f2103f72b1c7d2d491ac69ea81af8d0e36061a7ff33bea0288dffb95408a5e23"
+}

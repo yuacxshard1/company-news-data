@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9fbc01d09dc2476985e688ee0bc097486bc5285cfe6290be9e62577994a83fe3",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/jira-integration-breaking-changes",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/jira-integration-breaking-changes",
+  "title": "Jira Integration Breaking Changes",
+  "summary": "On Monday August 31, 2026 Atlassian unexpectedly shipped breaking changes to Jira OAuth integrations. This made it impossible for any new users to add the Jira",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nOn Monday August 31, 2026 Atlassian unexpectedly shipped breaking changes to Jira OAuth integrations. This made it impossible for any new users to add the Jira integration. Atlassian did not provide any way for us to edit our current integration configuration to be compliant with the breaking changes effectively stranding our current integration. We can't be certain what they broke since the changes are opaque to us but there were two issues we identified.\n\n\n(1) Atlassian apps now use granular scopes, many of our test apps were automatically migrated but not the main one customers interact with. Unfortunately, the ability to transition to granular scopes existed no where in their developer portal which stranded us.\n\n\n(2) Atlassian created a new flag for all integrations which decides whether permissions are granted for all the sites under your account at once or one site at a time. Our original integration used the old \"all sites under the account\" setting which was the only option at the time. Atlassian's developer portal made it impossible to swap to the new version when they made that optional - it can only be set exactly once when you create your integration's profile.\n\n\nWe've made many attempts to reach out to their support and senior leadership but heard nothing back about getting our integration transitioned. Instead of continuing to wait, we decided to pull the trigger and publish a brand new version of our Jira OAuth app.\n\n\nThis means all existing users of our Jira integration will need to perform a one time re-authorization.\n\n\nThere's a screen that will walk you through it:\n\n\nOnce you perform the re-auth all tasks you had linked to Jira reconnect. Until you do this reconnection, they'll show as \"not found\".\n\n\nWe're extremely sorry about this extra step but Atlassian left us no choice. The silver lining for existing users, our Jira integration now uses the most modern scopes and a much safer one-site-at-a-time authorization system making it easier to control what access Sunsama gets.",
+  "published_at": null,
+  "first_seen_at": "2026-09-04T07:40:59.250510+00:00",
+  "content_hash": "sha256:7c3f9fbce0186d4d55f6c10b1af38c31d412b7be9e0d9e33ee85096a2c6a2cc0"
+}
