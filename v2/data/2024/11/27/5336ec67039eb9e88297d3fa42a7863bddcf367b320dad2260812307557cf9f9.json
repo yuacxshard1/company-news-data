@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5336ec67039eb9e88297d3fa42a7863bddcf367b320dad2260812307557cf9f9",
+  "company_key": "yc-boundary",
+  "company_name": "Boundary",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://boundaryml.com/blog/llm-evals",
+  "canonical_url": "https://boundaryml.com/blog/llm-evals",
+  "title": "Announcing LLM Eval Support for Python, Ruby, Typescript, Go, and more.",
+  "summary": "Use BAML to evaluate your LLM applications regardless of the language you use to call them",
+  "body_markdown": "We are excited to announce that[BAML](https://docs.boundaryml.com/) now supports evaluating LLM prompts using[tests and assertions](https://docs.boundaryml.com/guide/baml-basics/testing-functions#assertions) .\n\n\nHere is how it works:\n\n\n1. Define an LLM prompt in BAML + the expected output type.\n2. Define a` test` with the arguments you want to pass to the LLM prompt.\n3. Add` @@assert` s and` @@check` s to fail the test if the LLM output doesn't match the expected output.\n4. Run the test in the LLM Playground!\n5. Run your tested LLM function in Python, Ruby, Typescript, Go, and more!\n\n\nLet's look at an interactive example!\n\n\nIf you press` Run` , you'll see this test fail.\n\n\n### Test expressions\n\n\nThe expression inside the` @@assert` is a` jinja2` expression.\n\n\n- The` _` variable contains fields` result` ,` checks` and` latency_ms` .\n- The` this` variable refers to the value computed by the test, and is shorthand for` _.result` .\n- In a given check or assert,` _.checks.$NAME` can refer to the NAME of any earlier check that was run in the same test block. By referring to prior checks, you can build compound checks and asserts, for example asserting that all checks of a certain type passed.\n\n\nUnlike other LLM testing frameworks, BAML evals:\n\n\n1. Work for **prompts with structured outputs** -- with compile-time error checking of your test expressions.\n2. **Support any language** -- since you don't need Python, Ruby, Typescript, Go, etc. to run your tests (only BAML)\n3. **Run locally** -- no logins required.\n4. **Work with the BAML VSCode Playground**\n5. Integrate with **[Boundary Studio](https://app.boundaryml.com/) , our observability dashboard**\n\n\nRead more about[evaluating LLM functions](https://docs.boundaryml.com/guide/baml-basics/testing-functions) and let us know what you think!\n\n\nWe are looking at supporting LLM-as-judge evaluations in the future, and providing more helper functions to make it easier to evaluate free-form text. Stay tuned for more updates!",
+  "published_at": "2024-11-27T00:00:00+00:00",
+  "first_seen_at": "2026-09-04T17:18:45.946390+00:00",
+  "content_hash": "sha256:8d1e5019d2b73ca1dd90fec11fa1c7193725d02b82d68d9986d5ab59e95ca21f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1747c4c33fdb9bd501e2af34351e5a763fdd3ec75151e25ff7fbc9d6b1414939",
+  "company_key": "yc-boundary",
+  "company_name": "Boundary",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://boundaryml.com/blog/a-new-llm-codegen-trick",
+  "canonical_url": "https://boundaryml.com/blog/a-new-llm-codegen-trick",
+  "title": "A new trick for generating code in JSON",
+  "summary": "BAML now supports parsing triple-backtick code blocks in LLM outputs",
+  "body_markdown": "Some of you may remember Aider's[benchmark results](https://aider.chat/2024/08/14/code-in-json.html) from a few months ago, where they showed that LLMs are better at codegen when doing it in plaintext rather than JSON.\n\n\nWhile we were working on some new features, we had an idea: what if BAML allowed users to embed Markdown code blocks in their JSON outputs? Would that solve the quality drop issue?\n\n\nSo we built it! As of BAML 0.68.0, if an LLM returns this:\n\n\n```text\n{\nts: ```typescript\nconst { execSync } = require('child_process');\n\n\nfunction getMainBranch(): string {\n...\n}```,\n\n\nruby: ```ruby\ndef get_main_branch\n...\nend```\n}\n\n\n```\n\n\nthe BAML runtime will parse this as:\n\n\n```text\n{\n\"ts\": \"const { execSync } = require('child_process'); [...]\",\n\"ruby\": \"def get_main_branch [...]\"\n}\n\n\n```\n\n\nImagine what you could do with this! You wouldn't have to write your own markdown parsers, or manual heuristics to search for XML tags to delimit code blocks. You could also nest code blocks deep within a JSON structure, and do something like the above, where you ask the LLM to generate code in multiple languages in the same prompt, and have your output just work.\n\n\nWe haven't had a chance to run this through any benchmarks yet, but we'd love to hear from anyone who tries it out!",
+  "published_at": "2024-12-03T00:00:00+00:00",
+  "first_seen_at": "2026-09-04T17:18:45.946390+00:00",
+  "content_hash": "sha256:87d82b6b52d9c7d6bcfb6a05d9883c28c48fdda30844596689af895ab339842b"
+}

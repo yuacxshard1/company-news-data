@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7314e691d655d55aca370272993391ca503cbf15d2ea0bc049d81b9e8d810e43",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+  "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
+  "summary": "Discover more about what's new at AWS with AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
+  "body_markdown": "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers. You no longer need to update the connector to point to a new secret version each time a credential rotates, removing a manual step and helping avoid failed transfers during the rotation window.\n\n\nConnectors can now retrieve credentials from an ordered list of AWS Secrets Manager version stages, such as the current and previous versions, during authentication. The connector automatically tries each version in the order you specify and proceeds with the first that succeeds, so transfers continue uninterrupted as credentials are rotated on either side. You configure this when you create or update a connector, and the connector's credentials must be stored in AWS Secrets Manager.\n\n\nSupport for continuing transfers during credential rotation is available in all AWS Regions where AWS Transfer Family SFTP Connectors are supported. To learn more, visit the[AWS Transfer Family User Guide](https://docs.aws.amazon.com/transfer/latest/userguide/) . Get started with AWS Transfer Family in the[AWS Transfer Family console](https://console.aws.amazon.com/transfer/) .",
+  "published_at": "2026-09-04T08:00:00+00:00",
+  "first_seen_at": "2026-09-04T17:32:27.368937+00:00",
+  "content_hash": "sha256:5909af144e48d2cf9b0ceef86684c21cec8b7ebd4caa69efc27a36789496dafd"
+}

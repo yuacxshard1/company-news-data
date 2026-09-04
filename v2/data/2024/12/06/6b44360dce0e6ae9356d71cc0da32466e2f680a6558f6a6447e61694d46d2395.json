@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6b44360dce0e6ae9356d71cc0da32466e2f680a6558f6a6447e61694d46d2395",
+  "company_key": "yc-boundary",
+  "company_name": "Boundary",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://boundaryml.com/blog/openai-o1",
+  "canonical_url": "https://boundaryml.com/blog/openai-o1",
+  "title": "Structured outputs with Open AI O1",
+  "summary": "How to use Open AI O1 to do function calling or tool calls",
+  "body_markdown": "OpenAI recently announced[O1](https://openai.com/o1) , a new update to their model that is the best.\n\n\n[BAML](https://boundaryml.com/) is our prompting framework that lets you do function calling and tool calling with any LLM, even when it's not officially supported.\n\n\n## How to use Open AI O1 with BAML\n\n\nLet's look at an interactive example!\n\n\n### Classifying messages with O1\n\n\nFirst we write some BAML code to classify messages. Here we write a function that takes a message and returns a category, that will be executed by an LLM. BAML will parse the result for you into the right enum type.\n\n\nYou can run this in python like this:\n\n\n```text\nfrom baml_client import b\nresponse = b.ClassifyMessage(message=\"I want to cancel my subscription\")\nprint(response.category)\n\n\n```\n\n\n### Tool calling with O1 Example\n\n\nBAML lets you write tools like normal Unions of types. Here's another example where we have two tools, one that gets the weather, and one that sends an email.\n\n\nYou can call this in python like this (we also support other languages!):\n\n\n```text\nfrom baml_client import b\nfrom baml_client.types import WeatherAPI, SendEmail\nresponse = b.ChooseOneTool(user_message=\"what's the weather in san francisco tomorrow april 23rd 2024 at 3pm?\")\nprint(response)\n\n\nif isinstance(response, WeatherAPI):\nprint(f\"Weather API called:\")\nprint(f\"City: {response.city}\")\nprint(f\"Time of Day: {response.timeOfDay}\")\nelif isinstance(response, SendEmail):\nprint(f\"SendEmail called:\")\nprint(f\"To: {response.emailTo}\")\nprint(f\"Subject: {response.emailSubject}\")\n\n\n```",
+  "published_at": "2024-12-06T00:00:00+00:00",
+  "first_seen_at": "2026-09-04T17:18:45.946390+00:00",
+  "content_hash": "sha256:dba5af1cd42367560294f8c4a36fbe977657e142a6b3ecf0c37fd648a7613e4b"
+}
