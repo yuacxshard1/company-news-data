@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c103c1ca9ca2ef94343a787fb90416680fa48905bde2b8034f363d2ce6ca84d6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-memorydb-privatelink/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-memorydb-privatelink/",
+  "title": "Amazon MemoryDB now supports AWS PrivateLink in the AWS GovCloud (US) Regions",
+  "summary": "Discover more about what's new at AWS with Amazon MemoryDB now supports AWS PrivateLink in the AWS GovCloud (US) Regions",
+  "body_markdown": "You can now use[AWS PrivateLink](https://aws.amazon.com/privatelink/) to privately access[Amazon MemoryDB](https://aws.amazon.com/memorydb/) from your Amazon Virtual Private Cloud (Amazon VPC) in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. AWS PrivateLink provides private connectivity between VPCs, AWS services, and on-premises networks, without exposing traffic to the public internet and securing your network traffic.\n\n\nTo use AWS PrivateLink with Amazon MemoryDB, you create an[interface VPC endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/create-interface-endpoint.html) for Amazon MemoryDB in your VPC using the Amazon VPC console, AWS SDK, or AWS CLI. With an interface VPC endpoint, you can privately access the Amazon MemoryDB APIs from applications inside your Amazon VPC. You can also access the VPC endpoint from other VPCs using VPC Peering or your on-premises environments using AWS VPN or AWS Direct Connect. To learn more, read the[documentation](https://docs.aws.amazon.com/memorydb/latest/devguide/memorydb-privatelink.html) , or get started in the[Amazon VPC Console](https://console.amazonaws-us-gov.com/vpc/) .",
+  "published_at": "2026-09-02T14:06:00+00:00",
+  "first_seen_at": "2026-09-04T02:13:04.931026+00:00",
+  "content_hash": "sha256:5e515bae3e17b1f08cb201ada8f19372b10535398a22b3dfa37845a3f2464a70"
+}

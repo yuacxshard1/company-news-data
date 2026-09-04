@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "508c47cccff5ffa9d835404fca2c595f714bad8daaff15d8f15c28cf11024b49",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/run-parallel-agents",
+  "canonical_url": "https://bitrig.com/blog/run-parallel-agents",
+  "title": "Run Parallel Agents, Each with Its Own Simulator",
+  "summary": "Kick off several tasks at once, then put your phone back in your pocket. Bitrig will send you a push notification when an agent finishes or needs you.",
+  "body_markdown": "It wasn’t that long ago that coding agents would propose a batch of edits and wait on you to approve every one. Now an agent can work productively for hours at a time.\n\n\nThe obvious move is to start a second (or fifth!) task while you wait. But multiple agents in the same project step all over each other without careful management. I find myself fighting Xcode and its DerivedData. And with several tasks running, I lose track of what's in progress and often miss when one finishes.\n\n\nToday, that changes:\n\n\n**Bitrig can now manage multiple coding agents in parallel, each in an isolated workspace with its own simulator.**\n\n\nHere's what that means:\n\n\n-\n\n\n**Isolated workspaces.** Start a new conversation while another agent is still running. Bitrig gives each agent its own Git worktree, so they can make changes in parallel without stomping on each other’s work.\n\n\n-\n\n\n**Parallel Simulator Use.** Bitrig tests the apps it builds by tapping, scrolling, and typing like a user, then fixes any bugs it finds. It decides how many simulators to launch based on how much memory your Mac has and hands them between agents as needed.\n\n\n-\n\n\n**Managed DerivedData.** Each workspace keeps its own Xcode build data, so parallel builds don’t interfere with one another. When you delete one, Bitrig cleans up the DerivedData to keep it from piling up on your Mac.\n\n\n-\n\n\n**Agent status.** The sidebar shows every workspace at a glance, including which agents are running and which have unread activity. When one finishes or has a question, Bitrig notifies you on your Mac or through Bitrig Remote.\n\n\n[Any coding agent](https://bitrig.com/blog/bring-your-own-coding-agents) you can bring to Bitrig can run in parallel, so Claude can work alongside Codex in the same project. You can build for every Apple platform, with one agent working on your iPhone app while another adds an Apple Watch complication.\n\n\nAnd you can manage all of this from[Bitrig Remote](https://bitrig.com/remote) . Kick off several agents from your phone, put it back in your pocket, and Bitrig will send you a push notification when one finishes or needs you.\n\n\nSo the next time you catch yourself waiting on an agent, don't.\n\n\nStart another task. Bitrig will tell you when it's your turn.",
+  "published_at": "2026-09-03T00:00:00+00:00",
+  "first_seen_at": "2026-09-04T02:38:13.523034+00:00",
+  "content_hash": "sha256:e7ebb73d57fa164a1ddd4b6eae3a46b8587a7811715da2de5bb3178841c2beae"
+}

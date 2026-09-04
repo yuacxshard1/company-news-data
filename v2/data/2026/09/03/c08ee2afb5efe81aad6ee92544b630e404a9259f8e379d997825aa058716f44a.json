@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c08ee2afb5efe81aad6ee92544b630e404a9259f8e379d997825aa058716f44a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
+  "title": "Amazon ECS Managed Daemons now support non-critical daemons",
+  "summary": "Discover more about what's new at AWS with Amazon ECS Managed Daemons now support non-critical daemons",
+  "body_markdown": "[Amazon Elastic Container Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html) (Amazon ECS) now support non-critical Managed Daemons for[ECS Managed Instances](https://aws.amazon.com/ecs/managed-instances/) . You can configure a daemon as non-critical so that your mission-critical application tasks continue running uninterrupted, even when a daemon fails, stops, or becomes unhealthy.\n\n\nAmazon ECS Managed Daemons lets you centrally deploy and manage software agents independently of application deployments to ensure consistent coverage and compliance across your container infrastructure. For some mission-critical applications, uninterrupted execution of application tasks may matter more than auxiliary daemon functionality like logging or metrics collection. With this launch, you can now configure a managed daemon as non-critical so that its failure does not cause your application tasks to churn. When a non-critical daemon task fails, stops, or becomes unhealthy, the container instance remains active, your existing application tasks continue running uninterrupted, ECS continues placing new application tasks on it, and instance registration is never blocked, so your tasks launch immediately even when the daemon fails to start. Amazon ECS emits an EventBridge event when a daemon task fails to start and records service action logs for both critical and non-critical daemons, giving you full observability into daemon health.\n\n\nTo get started, you can use AWS Console, CLI, CloudFormation, or AWS SDKs to create a non-critical daemon by setting the critical parameter to false when creating or updating a daemon. Non-critical daemons are available in all AWS Regions where Amazon ECS Managed Daemons are supported. To learn more, refer to our[documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-daemons.html#managed-daemons-criticality) page.",
+  "published_at": "2026-09-03T22:01:00+00:00",
+  "first_seen_at": "2026-09-04T02:13:04.931026+00:00",
+  "content_hash": "sha256:6dc84502dcaad7061295113dbd8d8da3dc9fa01c32f88482c25e7afb393c9457"
+}

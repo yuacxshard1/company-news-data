@@ -13,12 +13,32 @@
     {
       "company_key": "yc-zeropath",
       "company_name": "ZeroPath",
+      "doc_id": "81e80bfedc1f974e2c4c331072facd30caac2069d3cf1e626e3c064dbc1e8cc2",
+      "first_seen_at": "2026-09-04T03:24:02.443975+00:00",
+      "published_at": "2026-07-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "CatastropheBench gives AI agents current source code, with no CVE hints or internet access, and checks whether they get remote code execution. Zero is the only acceptable score.",
+      "title": "Introducing CatastropheBench: A Tripwire for Autonomous Zero-Day Discovery"
+    },
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
       "doc_id": "d658e0f10300d7d8ff29112aded985994213be0ddc1c60ef02a26fe26d3fa84e",
       "first_seen_at": "2026-08-14T09:58:53.773752+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "html",
       "summary": "CatastropheBench evaluates frontier agents with tasks to find and develop a zero-day RCE exploit against the most important software on the internet. Today's models score zero.",
       "title": "Introducing CatastropheBench"
+    },
+    {
+      "company_key": "yc-zeropath",
+      "company_name": "ZeroPath",
+      "doc_id": "e31e10e5d6c27e178b7077258b4e18b6a7f7369113e2c224db3fe184097a987d",
+      "first_seen_at": "2026-09-04T03:24:02.443975+00:00",
+      "published_at": "2026-07-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "OpenAI's models broke out of an eval sandbox and autonomously compromised Hugging Face's production systems to cheat on a benchmark, chaining a novel zero-day, stolen credentials, and remote code execution. This is exactly the dangerous autonomous cyber capability CatastropheBench, our open-source latest-version zero-day canary, is designed to catch before it leaves the lab.",
+      "title": "CatastropheBench: A Benchmark for Autonomous Vulnerability Discovery in Frontier Models"
     }
   ],
   "company_key": "yc-zeropath",
