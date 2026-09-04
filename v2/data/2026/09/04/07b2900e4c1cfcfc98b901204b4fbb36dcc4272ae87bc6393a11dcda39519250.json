@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "07b2900e4c1cfcfc98b901204b4fbb36dcc4272ae87bc6393a11dcda39519250",
+  "company_key": "yc-tracecat",
+  "company_name": "Tracecat",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.0.0-beta.52-rc.23",
+  "canonical_url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.0.0-beta.52-rc.23",
+  "title": "Tracecat 1.0.0-beta.52-rc.23",
+  "summary": "",
+  "body_markdown": "## Security\n\n\n- fix(engine): Harden nsjail bind mount handoffs ([#3088](https://github.com/TracecatHQ/tracecat/pull/3088) )\n\n\n## Case management\n\n\n- fix(cases): Preserve invocation failure on cancellation ([#3385](https://github.com/TracecatHQ/tracecat/pull/3385) )\n\n\n## Agents\n\n\n- feat(logging): Trace webhook workflows through agents ([#3275](https://github.com/TracecatHQ/tracecat/pull/3275) )\n\n\n## Tracecat MCP\n\n\n- fix(mcp): Keep MCP instructions under the prompt budget ([#3399](https://github.com/TracecatHQ/tracecat/pull/3399) )\n- feat(mcp): Trim server instructions and add workflow authoring guide ([#3400](https://github.com/TracecatHQ/tracecat/pull/3400) )\n\n\n## Integrations\n\n\n- feat(integrations): Add Splunk remote MCP server ([#3398](https://github.com/TracecatHQ/tracecat/pull/3398) )\n\n\n## Observability\n\n\n- feat(logging): Capture unexpected API failures in Sentry ([#3388](https://github.com/TracecatHQ/tracecat/pull/3388) )\n\n\n**Full changelog** :[1.0.0-beta.52-rc.22...1.0.0-beta.52-rc.23](https://github.com/TracecatHQ/tracecat/compare/1.0.0-beta.52-rc.22...1.0.0-beta.52-rc.23)",
+  "published_at": "2026-09-04T03:49:50+00:00",
+  "first_seen_at": "2026-09-04T06:38:07.941285+00:00",
+  "content_hash": "sha256:77f0b1f551b0eaca36e29357b70bb0c10b04e301dc831faaf7eccb5840d59201"
+}
