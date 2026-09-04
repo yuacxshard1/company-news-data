@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c47d42481f39d58a6a01f266177c70f273df2a48bfad5e52d4458fa51acae6ff",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/posts/pay-with-link",
+  "canonical_url": "https://browser-use.com/posts/pay-with-link",
+  "title": "Browser Use can now pay with your credit card using Stripe Link CLI",
+  "summary": "You can safely connect your credit card and purchase things with hosted browser agents.",
+  "body_markdown": "Connect[Link](https://link.com/) once. When the agent reaches a checkout it asks to pay, your phone buzzes, you approve, and Link hands it a virtual card good for exactly that purchase. The agent fills the form and pays. The card is gone after. Your real card number never leaves Link.\n\n\n## How it works\n\n\n1. **Connect Link** once, under Integrations.\n2. **The agent asks to pay.** Amount, merchant, and what it is buying.\n3. **You approve in the Link app.** Nothing is charged before this.\n4. **Link issues a one-time card.** Valid for hours, good for one purchase.\n5. **The agent checks out** and reports back.\n\n\nThe agent never holds your Link token, cannot approve for itself, and can pay anywhere a card works. On Stripe checkouts that advertise agent payments it can pay with a Link Pay Token instead and never touch a card number.\n\n\n## Try it\n\n\nOpen[cloud.browser-use.com](https://cloud.browser-use.com/) , connect Link under Integrations, start a task with **Pay with Link** on, and ask it to buy something.\n\n\nWe gave an AI a credit card on purpose.[Tell us what it should buy.](https://x.com/browser_use)\n\n\nRead more:[Link for agents](https://link.com/agents) ,[link-cli](https://github.com/stripe/link-cli) , and[paying with crypto over x402](https://browser-use.com/posts/x402-launch) .",
+  "published_at": "2026-09-03T00:00:00+00:00",
+  "first_seen_at": "2026-09-04T12:30:00.868879+00:00",
+  "content_hash": "sha256:7c56341850c470660fb66be0de8c42795f84d090ea0bbbad06272bbc175efbe3"
+}
