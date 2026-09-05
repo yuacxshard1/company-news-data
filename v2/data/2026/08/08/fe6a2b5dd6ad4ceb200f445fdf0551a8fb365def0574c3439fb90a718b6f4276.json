@@ -10,8 +10,8 @@
   "canonical_url": "https://forum.newsblur.com/t/firesafepeopletv/13796",
   "title": "Firesafepeopletv",
   "summary": "i keep seeing stories from the feed fire safe people tv show up in global shared, shared by the user firesafepeopletv. that’s not how this is supposed to work.",
-  "body_markdown": "# [Firesafepeopletv](https://forum.newsblur.com/t/firesafepeopletv/13796)\n\n\n[problem](https://forum.newsblur.com/c/problem/6)\n\n\n[steanne](https://forum.newsblur.com/u/steanne)\n\n\nAugust 6, 2026, 6:01am 1\n\n\ni keep seeing stories from the feed[fire safe people tv](https://firesafepeopletv.tumblr.com/rss) show up in global shared, shared by the user[firesafepeopletv](http://firesafepeopletv.newsblur.com/) . that’s not how this is supposed to work.",
+  "body_markdown": "[steanne](https://forum.newsblur.com/u/steanne)\n\n\nAugust 6, 2026, 6:01am 1\n\n\ni keep seeing stories from the feed[fire safe people tv](https://firesafepeopletv.tumblr.com/rss) show up in global shared, shared by the user[firesafepeopletv](http://firesafepeopletv.newsblur.com/) . that’s not how this is supposed to work.\n\n\n[samuelclay](https://forum.newsblur.com/u/samuelclay)\n\n\nAugust 8, 2026, 3:33am 2\n\n\nGood catch, thanks for the report. That account was only sharing its own feed, which is not what the global feed is for.\n\n\nI removed its stories from Global Shared Stories and blocked the account from appearing there again.\n\n\nI also fixed the bugs that let it in. The picker that chooses stories for the global feed was running three times an hour instead of once. And when it rejected a story, that story could come back for another try the next hour. With enough retries, weak shares eventually made it in. Now every story gets judged once, and accounts with no followers that only share their own site are filtered out automatically.",
   "published_at": "2026-08-08T03:33:39+00:00",
   "first_seen_at": "2026-08-06T06:02:43.172407+00:00",
-  "content_hash": "sha256:bbe3c12df490666b46820124b0f298be933e2c558f6e557cf869ac9234259b5c"
+  "content_hash": "sha256:c6feb00f5c853302b4c4103a4f2ec03733c961094b8e939f68c55ff1e6497a27"
 }
