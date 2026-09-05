@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2a037f5c350f960d820df605569385216fa666ae52eb27c1312d824023650c78",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+  "title": "Amazon ECS introduces Early Success Criteria for service deployments",
+  "summary": "Discover more about what's new at AWS with Amazon ECS introduces Early Success Criteria for service deployments",
+  "body_markdown": "[Amazon Elastic Container Service](https://aws.amazon.com/ecs/) (Amazon ECS) now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based on your confidence level and the operational needs of your workload. This can help you complete deployments sooner and unblock subsequent deployments, CI/CD pipelines, and other dependent operations.\n\n\nWith Early Success Criteria, you configure the healthy percent - the proportion of desired tasks that must be running and healthy on the target service revision before the deployment is marked successful. For example, with a desired count of 100 and a healthy percent of 90%, Amazon ECS marks the deployment successful after 90 tasks are healthy and continues launching the remaining tasks through regular service scaling, outside the deployment lifecycle. This can benefit workloads running on specialized or constrained capacity, such as GPU-accelerated inference workloads, where hardware availability can extend task launch times. Early Success Criteria also gives you more control over how long deployment rollback monitoring applies, allowing it to protect the deployment until your configured success criteria are met while subsequent scale-out continues through regular service scaling. You can also choose how Amazon ECS handles source service revision cleanup using BLOCKING or DEFERRED. With BLOCKING, Amazon ECS completes source revision cleanup before declaring success. With DEFERRED, Amazon ECS declares success when the criteria are met and drains source revision tasks asynchronously outside the deployment. This benefits services with active long-lived connections or task scale-in protection, where source revision tasks may need to remain running without holding the deployment open.\n\n\nThe feature is available with the rolling deployment strategy in all AWS Commercial and AWS GovCloud (US)[Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . You can configure Early Success Criteria for new and existing Amazon ECS services using the AWS Management Console, AWS CLI, AWS SDKs, and infrastructure as code (IaC) tools. To learn more, see our[documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/early-success-criteria.html) .",
+  "published_at": "2026-09-04T17:00:00+00:00",
+  "first_seen_at": "2026-09-05T01:40:44.898017+00:00",
+  "content_hash": "sha256:15fa560de0ad27d2a66156f42894950da9ea4f26088f70df55985eab0e1ae183"
+}
