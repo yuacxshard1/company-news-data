@@ -3,6 +3,16 @@
     {
       "company_key": "yc-litellm",
       "company_name": "LiteLLM",
+      "doc_id": "3af995774091f7251b0313844c3e2dfca6ac96cd8d73dc55910a57f946bba700",
+      "first_seen_at": "2026-09-06T19:52:28.200539+00:00",
+      "published_at": "2026-09-04T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The Auto-Router now reads the assistant's own recent tool calls, notices when an agentic task is stuck in a retry loop, and escalates it one tier automatically, the same bump escalation_keywords already offers.",
+      "title": "Auto-Router: Escalate a Task That Gets Stuck"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
       "doc_id": "41df47c1de0927511b08fdad15437185af389dcd5aad1fa7aff10462b7c472b5",
       "first_seen_at": "2026-09-03T01:56:48.736508+00:00",
       "published_at": "2026-09-02T18:00:00+00:00",
@@ -39,6 +49,16 @@
       "source_kind": "html",
       "summary": "Running three models on the same task and synthesizing their work solved 14 of 21 Terminal-Bench tasks against 9 for Claude Fable-5 alone. Total spend rose 36%, cost per solved task fell 12%, and turn latency went up 5x.",
       "title": "Introducing LiteLLM Fusion: 56% More Tasks Solved Than Fable 5"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "bece6cd6bf582d60de1f9516ed8f5cc82179487d67710871e109356a8ed27e5d",
+      "first_seen_at": "2026-09-06T19:52:28.200539+00:00",
+      "published_at": "2026-09-05T21:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The complexity router's LLM classifier can now use different compression than the model call it routes to. The classifier only needs enough context to route correctly, not to generate an answer. In internal testing, compressing it aggressively cut classification costs a further 32% beyond shared compression, with no change in routing accuracy.",
+      "title": "AutoRouter Per-Hop Compression: Cut LLM Classifier Costs Another 32%"
     },
     {
       "company_key": "yc-litellm",
