@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "874c7368aef51ab6016ee4a9b7e9fb518d04b57b0fbb9bde5cb28c3a84ac317e",
+  "company_key": "yc-diversion",
+  "company_name": "Diversion",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.diversion.dev/blog/diversion-product-updates-august-highlights-08-26",
+  "canonical_url": "https://www.diversion.dev/blog/diversion-product-updates-august-highlights-08-26",
+  "title": "Diversion Product Updates: August Highlights (08/26)",
+  "summary": "Submodules, visual file history, new language support, and more - reaady to see what's new in Diversion?",
+  "body_markdown": "Dear community,\nAs everyone slowly returns from summer mode to “wait, where did I leave that project?” mode, we’re here with fresh Diversion updates to help you get back into the flow. Ready to see what’s new?\n‍\n\n\n### **🧩 Submodules**\n\n\nShared code, plugins, and art libraries just got easier to manage. You can now mount another Diversion repo inside your repo at a specific path, pinned to a specific commit - perfect for shared engine code, plugins, or asset libraries used across multiple projects.\n\n\nFrom the CLI, you can use dv submodule add, rm, status, update, and repin. Submodules also show up in the app’s file tree with the mounted repo’s name and pinned commit, so everything is clear at a glance.\n\n\nThe parent workspace also tracks when a mount has drifted from its pin, and lets you jump straight into the child workspace.\n\n\n‍\n\n\n### **📁 Native folder picker in the Desktop app**\n\n\nDiversion now opens your operating system’s own folder dialog when you clone a repo, create a repo, create a workspace with a local clone, or reattach a workspace. That means your favorites, recent locations, search, and folder creation are all right there - exactly where your OS already knows you like them.\n\n\n‍\n\n\n### **⏳ File history as a graph**\n\n\nEvery file now gets a proper visual history across branches. You’ll see one lane per branch, a dot for every revision, and fork and merge lines drawn between them.\n\n\nThat means you can see exactly where a branch forked, which commit a merged revision came from, and how a file moved through your repo over time.\n\n\n‍\n\n\n### **🌍 Hallo. Bonjour. Olá 👋**\n\n\nDiversion is now available in **German, French, and Brazilian Portuguese** , joining **English, Spanish, Japanese, and Chinese** . You can switch languages right from the top bar, with layout updates that keep the app clear and comfortable to use across languages.\n\n\n### **✨ A few more good things**\n\n\nA few extra updates that make everyday work a little smoother:\n\n\n- **Ctrl+K search in the app** - jump to what you need faster\n\n\n- **Org billing role** - an admin-only user without a paid seat, available on the Studio tier\n\n\n- **Retention limits UI** - configure retention limits directly in the app, previously available only with the dv prune command\n\n\n‍",
+  "published_at": "2026-08-31T00:00:00+00:00",
+  "first_seen_at": "2026-09-07T01:16:05.422529+00:00",
+  "content_hash": "sha256:58f10589c8bc3bd8a83c52c70d498ef89eb19e2d9337b0243f681a0c7ccaa440"
+}

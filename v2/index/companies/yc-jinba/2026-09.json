@@ -33,6 +33,26 @@
     {
       "company_key": "yc-jinba",
       "company_name": "Jinba",
+      "doc_id": "7e0c0c89affebd96bbc199e347d232aa473ae4341941b39c71efeed0a62153b1",
+      "first_seen_at": "2026-09-06T04:39:27.237695+00:00",
+      "published_at": "2026-09-07T01:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Jinba has no GOOGLE_TASKS_* connector. Use JIRA_CREATE_ISSUE, LINEAR_CREATE_ISSUE, or CHATWORK_CREATE_TASK instead, with working flow code for each.",
+      "title": "How to Create Google Tasks from a Jinba Workflow"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "8b98aed52e634372a3c789fadef32ea12504c1ff7f9e239b379ae55cc84d4c27",
+      "first_seen_at": "2026-09-06T04:39:27.237695+00:00",
+      "published_at": "2026-09-07T01:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Stop managing GitHub issues by hand. Jinba's GITHUB_CREATE_AN_ISSUE, GITHUB_ACTIONS_RUN, and GITHUB_LIST_RELEASES chain into one automated workflow with no code.",
+      "title": "How to Create GitHub Issues and Trigger Actions from a Workflow with Jinba"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
       "doc_id": "921ecc403ca373bcaea301fa0c1132c14cb3088514e27ef8a668ebd4c960d6b3",
       "first_seen_at": "2026-09-04T23:30:24.177295+00:00",
       "published_at": "2026-09-04T13:49:21+00:00",
@@ -59,6 +79,26 @@
       "source_kind": "html",
       "summary": "Build a KYC, claims, or underwriting doc pipeline in Jinba: ingest PDFs and scans, extract fields with Reducto, validate against business rules, write to Snowflake.",
       "title": "How to Build a Document Parsing and Validation Pipeline with Jinba"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "e45ab62c3db563dc5f29010641be189c461691d21e541153dd55dbc683e7dec5",
+      "first_seen_at": "2026-09-06T04:39:27.237695+00:00",
+      "published_at": "2026-09-07T01:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Jinba has no Google Docs tool, but you can automate reports: pull Sheets data, generate prose with AI, render to PDF via Marp, and archive in Drive.",
+      "title": "How to Generate Google Docs Reports from a Jinba Workflow"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "f18e42d045e9501c10e55f09e97db7f243fbf0e6985d089828c768f26c323ec0",
+      "first_seen_at": "2026-09-06T04:39:27.237695+00:00",
+      "published_at": "2026-09-07T01:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Jinba has no native Google Drive connector, no OAuth setup, and no folder-watch trigger. Use a shareable URL with INPUT_FILE, then parse with JINBA_FLEX_PARSER or Reducto.",
+      "title": "How to Intake Google Drive Documents into a Workflow with Jinba"
     }
   ],
   "company_key": "yc-jinba",
