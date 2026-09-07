@@ -25,9 +25,9 @@
       "company_name": "NewsBlur",
       "doc_id": "1bd356d25816ed291cfe06e22cdb7b016cf6d7ef3427b23c8fdba1c3a2e24360",
       "first_seen_at": "2026-08-18T07:09:43.195525+00:00",
-      "published_at": "2026-08-18T06:38:57+00:00",
+      "published_at": "2026-08-21T07:17:28+00:00",
       "source_kind": "rss",
-      "summary": "Hi, since August 10th my personalized Reddit feeds show this error: 2026-08-16 03:36:58 Not an RSS feed (553) 2026-08-13 10:36:07 Not an RSS feed (553) 2026-08-11 16:24:46 Not an RSS feed (553) 2026-08-10 22:09:15 Not an RSS feed (553) URL looks like this: Non-personalized feed seems to work, apart from the usual rate limiting.",
+      "summary": "Reddit just made a change. Access to old.reddit.com does not seem to be possible anymore without logging in first. This includes RSS feeds… I can access https://www.reddit.com/r/ada/top/.rss?sort=top&t=week in the browser, but Newsblur shows Sorry, there was an unhandled error. Same for the personlized URL of that RSS feed. Edit: No clue what Reddit is doing, but one of my old.reddit.com feeds just got updated again…",
       "title": "Personalized Reddit feeds show error \"Not an RSS feed (553)\""
     },
     {
@@ -165,7 +165,7 @@
       "company_name": "NewsBlur",
       "doc_id": "9a832a9031d4de0e9688cc2951295d014e4dcf50e5bcf134e2764d254e6a2989",
       "first_seen_at": "2026-08-19T06:56:11.692064+00:00",
-      "published_at": "2026-08-19T04:11:40+00:00",
+      "published_at": "2026-08-24T00:19:23+00:00",
       "source_kind": "rss",
       "summary": "I’ve been subscribed for years, probably ever since google reader went away. Today I got a ‘PayPal cancellation notice’ on my payment. Did it just expire or were PayPal removed as a payment option?",
       "title": "PayPal Cancelled?"
@@ -205,7 +205,7 @@
       "company_name": "NewsBlur",
       "doc_id": "b62345f47296ea91a15ff577a9aeeca97e0ec958d04902427d49d5367f1c4060",
       "first_seen_at": "2026-08-13T20:35:18.275402+00:00",
-      "published_at": "2026-08-13T17:04:21+00:00",
+      "published_at": "2026-08-21T04:09:44+00:00",
       "source_kind": "rss",
       "summary": "I have lots of newsletters forwarded into NewsBlur and it creates a feed for each incoming source email, which is what I want, the problem is it believes the same email containing an alias is considered as different emails and therefore creates different feeds for same origin. For instance I am subscribed to a newsletter called hipersonica, they send emails from: hipersonica@substack.com ← original address hipersonica+valladolid@substack.com hipersonica+tier-list@substack.com hipersonica+bu...",
       "title": "Same newsletter create multiple feeds"
