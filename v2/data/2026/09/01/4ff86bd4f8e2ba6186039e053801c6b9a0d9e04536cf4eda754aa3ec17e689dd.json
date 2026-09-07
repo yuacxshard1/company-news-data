@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4ff86bd4f8e2ba6186039e053801c6b9a0d9e04536cf4eda754aa3ec17e689dd",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/your-optimization-performance-is-only-as-good-as-the-meta-data-behind-it",
+  "canonical_url": "https://www.reactwise.com/news/your-optimization-performance-is-only-as-good-as-the-meta-data-behind-it",
+  "title": "Your optimization performance is only as good as the (meta)data behind it.",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "Your optimization performance is only as good as the (meta)data behind it.\n\n\nLast week, I had the opportunity to speak at ACS Fall in Chicago, touching on a topic that can be easily overlooked.\n\n\nIn practice, when an optimization campaign underperforms, it’s not necessarily the surrogate model or acquisition function causing it but possibly one of these five gaps:\n\n\n**The reality gap.** The variables in your model might only capture setpoints rather than realized conditions. If it’s only the former, the model will learn the wrong input-output relationshíp.\n\n\n**The traceability gap.** A result exists, but the path from raw analytical output to the number that went into the model can't be reconstructed. You have a value and no way to audit it.\n\n\n**The reproducibility gap.** The same conditions, run again, give a different answer. Sometimes that's chemistry. More often it's an unrecorded difference in execution (e.g. new processing script).\n\n\n**The accountability gap.** When a campaign goes wrong, nobody can say which decision caused it, because the reasoning behind each round wasn't captured alongside the data.\n\n\n**The memory gap.** Every campaign starts from zero. The last one produced knowledge that no future one can reach.\n\n\nNone of these are algorithm problems. They're all data and metadata problems, and they all get solved before the optimizer runs, not after.\n\n\nReliable learning is what makes data reusable.\n\n\nAnd reuse compounds.\n\n\nA campaign captured properly is a set of experiments you never have to run again.\n\n\n‍",
+  "published_at": "2026-09-01T00:00:00+00:00",
+  "first_seen_at": "2026-09-07T22:31:54.128681+00:00",
+  "content_hash": "sha256:b91c6cb2496123207b75ecac18a518238da66d0bbfaea16d006f1c9ba4f66d29"
+}
