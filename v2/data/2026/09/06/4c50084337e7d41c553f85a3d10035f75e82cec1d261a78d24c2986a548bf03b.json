@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4c50084337e7d41c553f85a3d10035f75e82cec1d261a78d24c2986a548bf03b",
+  "company_key": "yc-opalite-health",
+  "company_name": "Opalite Health",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opalitehealth.com/blog/ai-medical-scribe-multilingual-patients",
+  "canonical_url": "https://opalitehealth.com/blog/ai-medical-scribe-multilingual-patients",
+  "title": "Multilingual AI Scribe: How It Works",
+  "summary": "How multilingual AI medical scribes handle dialect coverage, code-switching, EHR write-back, and patient summaries, plus a vendor evaluation checklist for 2026.",
+  "body_markdown": "###\n\n\nRequest per-dialect evaluation sets, segment-level code-switching demos (not session-level language pickers), and accuracy benchmarks on medications, numerals, and negations. Walk a vendor through a live trilingual family visit before committing, because that scenario exposes where most multilingual AI scribes break.\n\n\n###\n\n\nGoogle Translate was built for general consumer use and carries no clinical workflow integration, EHR write-back, or healthcare-specific quality controls. Opalite Health is built for medical conversations, produces a structured English chart note alongside a patient-facing summary at a third-to-fifth grade reading level, and stores data on US-hosted servers in Ohio without training on customer audio.\n\n\n###\n\n\nSegment-level or token-level language identification tags each utterance as it is spoken, instead of locking the session to one language at the start. Without that capability, a tool fails the moment a patient alternates between Spanish and English mid-sentence or a family member jumps in to clarify in a third language.\n\n\n###\n\n\nYes. Opalite generates both an English clinical note and a translated after-visit summary from one encounter, with patient-facing output simplified to a third-to-fifth grade reading level by default, drawing on a proprietary medical database sourced from UpToDate and PubMed. As a result, front-desk staff are not retranslating discharge packets after every multilingual visit.\n\n\n###\n\n\nA UCLA randomized trial found AI-generated notes occasionally contained clinically meaningful omissions and pronoun errors, with one mild safety event reported. Multilingual encounters multiply that risk because a transcription miss in the source language carries through to the English note, so any viable workflow requires flagged low-confidence segments, medication and numeral safety checks, and clinician sign-off on every draft before it reaches the chart.",
+  "published_at": "2026-09-06T15:18:17.801+00:00",
+  "first_seen_at": "2026-09-07T06:44:05.282056+00:00",
+  "content_hash": "sha256:98de5be472cb60a0c26258b548df8d603a6fa819fb362e08e28aec9f89797b9e"
+}
