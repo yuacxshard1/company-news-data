@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-captain",
+      "company_name": "Captain",
+      "doc_id": "153746479de9ed85d1df9d5d0699f90a2eedcc9cbe6713588a164f994ca974b8",
+      "first_seen_at": "2026-09-08T05:48:33.470195+00:00",
+      "published_at": "2026-09-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Cloudflare AI Search caps files at 4 MB, chunks at a token count and metadata at five fields, because it runs on Workers and Vectorize. Captain has no file size cap, picks optimal chunk boundaries, and stores whatever metadata you send.",
+      "title": "Captain vs. Cloudflare AI Search"
+    },
+    {
+      "company_key": "yc-captain",
+      "company_name": "Captain",
+      "doc_id": "cd567c49a79acc9ed3e3666c3b233a8473bb7d0162bbc08ce17f6707d0c972db",
+      "first_seen_at": "2026-09-08T05:48:33.470195+00:00",
+      "published_at": "2026-09-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Elasticsearch ships without parsing, OCR, chunking, embeddings, connectors or sync. Teams add four to seven vendors to cover the gaps, then own every seam between them. Captain includes all of it behind one index call.",
+      "title": "Captain vs. Elasticsearch"
+    },
+    {
+      "company_key": "yc-captain",
+      "company_name": "Captain",
+      "doc_id": "fdc185ed08eaf45d8b6031f6c633eafa0dbca55c002fc2283545fa371fa44afb",
+      "first_seen_at": "2026-09-08T05:48:33.470195+00:00",
+      "published_at": "2026-09-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Google's RAG Engine ships the parts: a layout parser, an embedding model, a vector store and a reranker, each set up, billed and maintained on its own. Hybrid search only works through a Weaviate database you run yourself, and import is a batch job with no rollback. Captain does all of it in one call from your bucket.",
+      "title": "Captain vs. Google RAG Engine"
+    }
+  ],
+  "company_key": "yc-captain",
+  "month": "2026-09"
+}

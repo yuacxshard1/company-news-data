@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fdc185ed08eaf45d8b6031f6c633eafa0dbca55c002fc2283545fa371fa44afb",
+  "company_key": "yc-captain",
+  "company_name": "Captain",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.captain.dev/blog/captain-vs-google-rag-engine/",
+  "canonical_url": "https://www.captain.dev/blog/captain-vs-google-rag-engine/",
+  "title": "Captain vs. Google RAG Engine",
+  "summary": "Google's RAG Engine ships the parts: a layout parser, an embedding model, a vector store and a reranker, each set up, billed and maintained on its own. Hybrid search only works through a Weaviate database you run yourself, and import is a batch job with no rollback. Captain does all of it in one call from your bucket.",
+  "body_markdown": "Google's RAG Engine hands you a corpus, a parser, an embedding model, a vector store and a reranker, each provisioned and billed on its own, with hybrid search only through a Weaviate database you run. Captain indexes straight from the GCS bucket you already have and gives you hybrid search, reranking and layout-aware parsing in one API call.\n\n\nEvery control you would otherwise wire in yourself is already inside the query.\n\n\n### Why choose Captain over Google RAG Engine?\n\n\nCaptain ships hybrid retrieval, reranking, layout-aware parsing and continuous sync in one call. On RAG Engine each of those is a separate component: you wire them together, you pay for each one on its own line, and you keep them running.\n\n\nHybrid built inBM25 and vectors fused in every query. RAG Engine gets hybrid search only through a Weaviate database you provision and run.\n\n\nReranking includedAbout 200 ms, inside the query. RAG Engine's rerankers are a second service, the ranking API or a Gemini call, each billed on its own.\n\n\nLayout on every chunkSeven roles, excludable at retrieval. RAG Engine's layout parser exposes none.\n\n\nSynced from your storageContinuous sync with reconciliation and rollback. RAG Engine copies files in by batch import, with no rollback.\n\n\nMultimodal and spreadsheetsImages, audio, video and sheets indexed natively. RAG Engine lists documents only, images through the LLM parser; other types index with lower-quality results, in Google's words.\n\n\nAny modelRanked, cited chunks for any model. RAG Engine's Tool needs an Agent Platform model, and its LLM reranker and LLM parser need Gemini.",
+  "published_at": "2026-09-07T00:00:00+00:00",
+  "first_seen_at": "2026-09-08T05:48:33.470195+00:00",
+  "content_hash": "sha256:49dec8b68add8a227c339938398dbbb68f4a5fa2d0e4ab1819e69059704c714d"
+}

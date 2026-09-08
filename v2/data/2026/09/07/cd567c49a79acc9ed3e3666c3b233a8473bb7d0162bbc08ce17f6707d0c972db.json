@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cd567c49a79acc9ed3e3666c3b233a8473bb7d0162bbc08ce17f6707d0c972db",
+  "company_key": "yc-captain",
+  "company_name": "Captain",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.captain.dev/blog/captain-vs-elasticsearch/",
+  "canonical_url": "https://www.captain.dev/blog/captain-vs-elasticsearch/",
+  "title": "Captain vs. Elasticsearch",
+  "summary": "Elasticsearch ships without parsing, OCR, chunking, embeddings, connectors or sync. Teams add four to seven vendors to cover the gaps, then own every seam between them. Captain includes all of it behind one index call.",
+  "body_markdown": "Elasticsearch indexes the text Tika hands it. It does not read a scanned page, label a chunk as a table or a footnote, describe a figure, mask a name, or promote a collection from staging to production. Its multimodal field is a technical preview, not recommended for production. Teams cover each gap with another vendor or a pipeline they own, and every seam between them is a contract, an integration and an on-call rotation.\n\n\nCaptain runs the whole retrieval layer, from your bucket to the ranked result.\n\n\nPoint Captain at the bucket and it takes over from there. It parses every file it finds, scans and handwriting included, chunks by layout, embeds, and keeps the index in step as files are added, changed or removed. PII is masked on the way in. Queries come back as reranked, cited chunks, and the tuning keeps up with the documents: evals drawn from your own files score every adjustment before it lands, so search gets better without a relevance project on your side.\n\n\n### Why choose Captain over Elasticsearch?\n\n\nOne platform covers what a team otherwise assembles around Elasticsearch: OCR and figure descriptions, layout-labeled chunks, cross-modal reranking, an entity model for PII, managed sync with rollback, and environment promotion.\n\n\nParsing includedEach file takes the pipeline it needs: text, page layout, or a vision model for scans and figures. A JavaScript parsing script for JSON files when you need one.\n\n\nMetadata at ingestEvery chunk arrives with its layout role, page, bounding box and place in the document, with nothing for you to model.\n\n\nLayout-aware chunkingTables, headings and figures keep their shape through indexing.\n\n\n20+ sources nativelyIndexed Search across S3, GCS, Azure, Drive, SharePoint, Notion, Dropbox and Snowflake; Live Search across Slack, Linear, Jira, Confluence, Gmail, HubSpot and NetSuite.\n\n\nNative multimodalCaptain indexes images, audio and video directly and reranks across all of them.\n\n\nOperations includedSync keeps the index in step with your files. Jobs roll back, collections copy to production, and PII is masked before anything is embedded.",
+  "published_at": "2026-09-07T00:00:00+00:00",
+  "first_seen_at": "2026-09-08T05:48:33.470195+00:00",
+  "content_hash": "sha256:32c78d20d1b68e25cc7b1a1a92faf122763a5cb47f7297adf1e0cb3459393318"
+}

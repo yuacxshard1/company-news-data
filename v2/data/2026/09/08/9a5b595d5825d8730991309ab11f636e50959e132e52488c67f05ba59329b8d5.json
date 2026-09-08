@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9a5b595d5825d8730991309ab11f636e50959e132e52488c67f05ba59329b8d5",
+  "company_key": "yc-decentro",
+  "company_name": "Decentro",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.decentro.tech/changelog/flow-advisory-autopay-presentations-version-111",
+  "canonical_url": "https://docs.decentro.tech/changelog/flow-advisory-autopay-presentations-version-111",
+  "title": "Flow Advisory | Autopay Presentations | Version 1.1.1",
+  "summary": "Subject: [Action Required] Restriction on UPI AutoPay presentation requests during NPCI peak hours - Effective immediately This is an important advisory regarding your UPI AutoPay mandate presentation requests. Background : NPCI has issued circular, which restricts the initiation of UPI AutoPay mand...",
+  "body_markdown": "[Back to All](https://docs.decentro.tech/changelog)\n\n\n##\n\n\nSubject: \\[Action Required\\] Restriction on UPI AutoPay presentation requests during NPCI peak hours - Effective immediately\n\n\nThis is an important advisory regarding your UPI AutoPay mandate presentation requests.\n\n\n###\n\n\nBackground :\n\n\nNPCI has issued circular, which restricts the initiation of UPI AutoPay mandate execution (presentation) requests during peak hours. Peak hours are defined by NPCI as:\n\n\n- **10:00 AM to 1:00 PM**\n- **5:00 PM to 9:30 PM**\n\n\nPresentation requests initiated during these windows are being rejected by NPCI with response code U16.\nThis restriction is enforced at the NPCI level and applies uniformly across all payment aggregators and banks.\n\n\n###\n\n\nWhat you need to do - effective immediately\n\n\n- **Do not initiate UPI AutoPay presentation requests during the peak-hour windows listed above.** Schedule your presentation traffic only during non-peak hours.\n- **Do not retry failed U16 presentations within peak windows** . U16 is not retry-eligible per NPCI, and immediate retries during peak hours will fail again.\n- **Review any already scheduled presentations that fall within the restricted windows** and reschedule them accordingly.\n- **Distribute presentation traffic evenly during non-peak hours** . Avoid sending a large volume of requests immediately after the restriction window ends (for example, exactly at 1:00 PM or 9:30 PM) to minimise traffic spikes and improve success rates.\n\n\n###\n\n\nImpact on Registrations :\n\n\nThe mandate registrations stays **unaffected** , only presentations are affected due to the restrictions at peak hours by NPCI.\n\n\nFor further assistance please reach out to us.\nThanks you.",
+  "published_at": null,
+  "first_seen_at": "2026-09-08T05:27:34.251079+00:00",
+  "content_hash": "sha256:254e6639d1c21dd7037da0f2b296c1a29334cff651c86fd210896467a88eeace"
+}
