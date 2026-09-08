@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "55fe1dcee9bf8f95e1ff7612ad5fbef1219b83bdbc97acebf9222ec61b0dc65f",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/presenting-mechanistic-optimization-at-acs-fall",
+  "canonical_url": "https://www.reactwise.com/news/presenting-mechanistic-optimization-at-acs-fall",
+  "title": "Presenting mechanistic optimization at ACS Fall",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "Most reaction optimization tries to win with more data. Last week at the American Chemical Society Fall Conference, I showed a faster route: let the mechanism do the work.\n\n\nYou've got millions of possible conditions and a budget of ~20 experiments. How do you spend them well?\n\n\nStandard Bayesian optimization starts cold, burning experiments just to build a usable model. Two ways we skip that at ReactWise:\n\n\nReuse your past campaigns (MemoryBO): a multi-task GP that turns your historical data into priors. On our internal HTE benchmarks, it reached strong conditions where cold-start BO needed 15+ experiments.\n\n\nModel the chemistry (kinetics): instead of treating a reaction as a black box, we infer its kinetic network from concentration–time data and optimize on that model. On simulated benchmarks, a single experiment past initialization reached ≥90% of the true optimum across every run - a median of 97%. Black-box BO needed 15 experiments to reach ~88%.\n\n\nThe reason it works: a mass-action kinetic model is a far stronger prior than data alone. Physics constrains the system, so you get accurate predictions from very few experiments.\n\n\nFewer experiments. Faster to the optimum. More of your budget spent on chemistry that matters.",
+  "published_at": "2026-09-04T00:00:00+00:00",
+  "first_seen_at": "2026-09-08T14:51:34.785827+00:00",
+  "content_hash": "sha256:ae69db88664e0ffdcdd378e78eac816f7ebd6f05ddff2263ea9d6a107cedb631"
+}
