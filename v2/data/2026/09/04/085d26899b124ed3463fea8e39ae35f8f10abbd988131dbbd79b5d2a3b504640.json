@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "085d26899b124ed3463fea8e39ae35f8f10abbd988131dbbd79b5d2a3b504640",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
+  "title": "Amazon GuardDuty adds optional threat detection rules",
+  "summary": "Discover more about what's new at AWS with Amazon GuardDuty adds optional threat detection rules",
+  "body_markdown": "Amazon GuardDuty now offers Custom Detection Rules, a library of 35 prebuilt, opt-in rules for CloudTrail management events that let you extend threat detection coverage to match your environment. Custom Detection Rules produces 26 unique finding types mapped to 10 MITRE ATT&CK® tactics, without the heavy lifting of log ingestion, normalization, or storage.\n\n\nSome threat techniques, such as sharing an AMI externally, disabling flow logs, or signing in without MFA, could be meaningful indicators of compromise in some accounts but routine in others. Custom Detection Rules lets you enable these detections only where the activity is unexpected — expanding your TTP coverage tailored to your environment.\n\n\nTo get started, browse Custom Detection Rules via the GuardDuty console or API, and enable rules in dry-run mode to evaluate detection efficacy before going live.\n\n\nCustom Detection Rules is available in all AWS commercial Regions and the AWS GovCloud (US) Regions. To learn more, see[Amazon GuardDuty Custom Detection Rules](https://docs.aws.amazon.com/guardduty/latest/ug/custom-detection-rules.html) . To receive programmatic updates on new Amazon GuardDuty features and threat detections, subscribe to the[Amazon GuardDuty SNS topic](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html) .",
+  "published_at": "2026-09-04T17:01:00+00:00",
+  "first_seen_at": "2026-09-08T20:45:25.106459+00:00",
+  "content_hash": "sha256:55bac05ec6d3571d87c9cb90caeac15680b605a0b5fc1b094edd1ea82073147c"
+}

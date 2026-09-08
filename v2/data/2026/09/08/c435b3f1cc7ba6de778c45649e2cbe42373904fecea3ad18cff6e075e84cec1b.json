@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c435b3f1cc7ba6de778c45649e2cbe42373904fecea3ad18cff6e075e84cec1b",
+  "company_key": "yc-cashfree-payments",
+  "company_name": "Cashfree Payments",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blogrevamp.cashfree.com/moving-third-party-validation-into-the-upi-app/?utm_source=rss&utm_medium=rss&utm_campaign=moving-third-party-validation-into-the-upi-app",
+  "canonical_url": "https://blogrevamp.cashfree.com/moving-third-party-validation-into-the-upi-app/",
+  "title": "Moving Third Party Validation into the UPI App",
+  "summary": "For investment platforms, making a payment is not always as simple as selecting a bank account and entering a UPI PIN. SEBI regulations require investors to make payments from a KYC-registered bank account linked to their investment account. This Third Party Validation (TPV) requirement helps ensure that the money used for an investment comes from",
+  "body_markdown": "Table of Contents\n\n\nToggle\n\n\nFor investment platforms, making a payment is not always as simple as selecting a bank account and entering a UPI PIN.\n\n\nSEBI regulations require investors to make payments from a **KYC-registered bank account** linked to their investment account. This Third Party Validation (TPV) requirement helps ensure that the money used for an investment comes from the investor’s verified bank account.\n\n\nBut there’s a problem.\n\n\n##\n\n\n**Users often select the wrong account.**\n\n\nMost investors today have multiple bank accounts. During checkout, they can see all of these accounts and may inadvertently select one that isn’t registered with the investment platform.\n\n\nThe payment journey then continues as usual. The customer enters their UPI PIN, only to discover that the payment has failed because the selected account isn’t the registered one.\n\n\n**Wrong account selection accounts for 8% of total payment failures on TPV-enabled merchants.**\n\n\nIt’s a failure that could have been prevented before the payment even started.\n\n\n##\n\n\n**Making the right account the obvious choice**\n\n\nAt GFF 2026, Cashfree and Google Pay are introducing UPI **Third Party Validation** to solve exactly this problem.\n\n\nNow the customer’s KYC-registered bank account is automatically surfaced at the top of the Google Pay payment screen and remains selectable. Other linked accounts are greyed out, making them unavailable for selection.\n\n\nThis means customers don’t have to remember which account they registered with the investment platform or risk choosing the wrong one.\n\n\nThe right account is simply presented to them.\n\n\n##\n\n\n**Preventing failure before it happens**\n\n\nBy enforcing TPV at the UPI app level, wrong-account selection is prevented before the customer enters their PIN.\n\n\nFor investment platforms, this means fewer TPV-related failures and a smoother path from intent to successful payment.\n\n\nBecause when a customer has already decided to invest, choosing the wrong bank account shouldn’t be the reason they have to start all over again.\n\n\n[SIgn Up](https://www.cashfree.com/contact-sales/?utm_source=CashfreeResources&utm_medium=Organic&utm_campaign=GFF%20Blogs%202026&utm_content=UPI%20TPV)",
+  "published_at": "2026-09-08T14:40:14+00:00",
+  "first_seen_at": "2026-09-08T19:13:34.261513+00:00",
+  "content_hash": "sha256:63b7392bfacaffe22f82545db297b89b97163d371c6833d8181f4a6927b812b6"
+}

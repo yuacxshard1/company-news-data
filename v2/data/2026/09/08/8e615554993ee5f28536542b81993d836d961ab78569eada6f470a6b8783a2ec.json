@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8e615554993ee5f28536542b81993d836d961ab78569eada6f470a6b8783a2ec",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-september-4-2026",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/weekly-product-changelog-september-4-2026",
+  "title": "Weekly Product Changelog, September 4, 2026",
+  "summary": "Improved: MCP and Zapier task creation now applies your import automations that set Sunsama task properties, like Notion's auto-assigned channel, or a synced",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nImproved:\n\n\n- MCP and Zapier task creation now applies your import automations that set Sunsama task properties, like Notion's auto-assigned channel, or a synced due date, time estimate, and priority, matching how manual imports already work. (Automations that write back into the connected tool itself, like moving a Trello card, or setting Notion properties, aren't covered by this yet.)\n- If you're on Toggl's newer \"Toggl 2.0\" product, its API token has a different format than a classic Toggl Track key (which you need for the Sunsama integration), and pasting it wasn't working. We now catch a token that doesn't match the format we expect and tell you right away instead of a generic connection error, and added a help center note on exactly where to find the correct Track token.\n- Resolved Jira OAuth breaking changes that Atlassian introduced on their end. See[the dedicated post](https://roadmap.sunsama.com/changelog/jira-integration-breaking-changes) for details on the one-time re-authorization.\n\n\nFixed:\n\n\n- Search no longer steals focus when you navigate away from it. Previously, opening search and then moving to any other view (Home, Today, Backlog) would silently refocus the search box, swallowing your next keystroke.\n- Imported meetings no longer get silently reverted when a calendar sync fails, most common for Outlook users with several calendars connected.\n- Fixed a crash loading the calendar view for some saved layout configurations.\n\n\nIn-progress:\n\n\n- [CalDAV calendar integration](https://sunsama.canny.io/integrations/p/caldavicloud-integration) — early beta underway, adding support for FastMail and other CalDAV calendars.",
+  "published_at": null,
+  "first_seen_at": "2026-09-08T19:00:25.263646+00:00",
+  "content_hash": "sha256:b44e6b1cab97f48dc1d694568227469783f1b55103bd1f79cb1f200f2c304bcc"
+}

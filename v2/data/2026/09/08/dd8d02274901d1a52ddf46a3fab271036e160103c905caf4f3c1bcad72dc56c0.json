@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dd8d02274901d1a52ddf46a3fab271036e160103c905caf4f3c1bcad72dc56c0",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+  "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+  "body_markdown": "Starting today,[Amazon Relational Database Service (Amazon RDS) for MariaDB](https://aws.amazon.com/rds/mariadb/) now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these minor versions introduce support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in prior versions of MariaDB and to benefit from bug fixes, performance improvements, and new functionality added by the MariaDB community. Learn more about the enhancements in RDS for MariaDB in the[RDS MariaDB release notes.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html) ​\n\n\nYou can upgrade your database using[Amazon RDS Blue/Green Deployments](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments.html) , in-place upgrade, or restore from a snapshot. To simplify operations at scale, enable[automatic minor version upgrades](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MariaDB.Minor.html) and use the AWS Organizations[Upgrade Rollout Policy](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDS.Maintenance.AMVU.UpgradeRollout.html) to orchestrate upgrades across your clusters in phases. Learn more about performing version upgrades in the[Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MariaDB.html) . You can also migrate to RDS for MariaDB from external MariaDB sources using[AWS Database Migration Service](https://aws.amazon.com/dms/) . Learn more about pricing details and regional availability at[Amazon RDS for MariaDB](https://aws.amazon.com/rds/mariadb/pricing/) .\n\n\nAmazon RDS for MariaDB makes it simple to set up, operate, and scale MariaDB deployments in the cloud. Create or update a fully managed Amazon RDS for MariaDB database in the[Amazon RDS Management Console](https://console.aws.amazon.com/rds/home) .",
+  "published_at": "2026-09-08T16:00:00+00:00",
+  "first_seen_at": "2026-09-08T20:45:25.106459+00:00",
+  "content_hash": "sha256:23d9ab4e70b3ebfc1de419cd74d7874da528ab02e31db85c9d735a3c503ac4e6"
+}

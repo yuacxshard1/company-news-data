@@ -9,7 +9,7 @@
   "url": "https://www.canvas.inc/research/meta-agent",
   "canonical_url": "https://www.canvas.inc/research/meta-agent",
   "title": "Meta-Agent",
-  "summary": "Canvas is an applied-research and product lab building proprietary intelligence: the post-training and continual-learning layer for enterprise agents.",
+  "summary": "Canvas builds AI systems that improve from experience. Canvas Coworker is an AI coworker for long-running GTM and knowledge-work tasks, built to learn from feedback and improve with use.",
   "body_markdown": "## Why\n\n\nRecent work shows that optimizing the harness layer can materially improve agent performance.\n\n\nOn TerminalBench-2, vanilla Claude Code with Claude Haiku 4.5 scores 27.5%. The best hand-engineered harness on the same model reaches 35.5%, with no fine-tuning ([Meta-Harness, Lee et al. 2026](https://arxiv.org/abs/2603.28052) ).\n\n\nRecent systems have also shown that harnesses can be improved automatically through iterative search ([Autoresearch, Karpathy 2026](https://github.com/karpathy/autoresearch) ;[Meta-Harness, Lee et al. 2026](https://arxiv.org/abs/2603.28052) ). But those methods usually depend on strong evaluation signals during search, such as labels, tests, or deterministic checks. Agents typically run on messy customer workflows where labeled reward is sparse or unavailable.\n\n\n[meta-agent](https://github.com/canvas-org/meta-agent) is built for exactly that production setting: it reads traces from the running agent, uses an LLM judge to score them, and proposes harness updates from the failure patterns it finds.",
   "published_at": null,
   "first_seen_at": "2026-08-09T20:23:24.393484+00:00",

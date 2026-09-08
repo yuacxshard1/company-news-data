@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ff177cdc1a17323b73ae25128b5b652b3ad42504545f7527f27ff057a27c23e1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/agent-harness-vs-agent-loop-which-ai-architecture-should-you",
+  "canonical_url": "https://www.activepieces.com/blog/agent-harness-vs-agent-loop-which-ai-architecture-should-you",
+  "title": "Agent Harness vs Agent Loop: Which AI Architecture Should You Build?",
+  "summary": "Choosing between an agent harness and an agent loop determines whether your system prioritizes autonomous decision-making or strict process adherence.",
+  "body_markdown": "## Agent architecture determines if AI leads or follows\n\n\n### The autonomous nature of the Agent Loop\n\n\nGive an LLM a goal and a set of tools, and an Agent Loop begins to function. This allows the model to decide which tool to use and how many times to run the cycle until the task is complete.\n\n\nThis creates unpredictability, as the model might call a search tool twenty times in a row, increasing latency. When the control logic is hidden within the model's reasoning, you cannot easily set a hard stop on how a tool is accessed.\n\n\nA loop could inadvertently trigger dozens of API calls that exhaust your rate limits.\n\n\nThe following diagrams illustrate the core structural difference. The Loop relies on internal model recursion; the Harness relies on external logic.\n\n\n\\[Illustration here\\]\n\n\n### The structure of the agent harness\n\n\nTo keep the model within predefined boundaries, an Agent Harness wraps the LLM in a sequence of triggers and actions. Activepieces ensures the LLM categorizes a customer support ticket before passing it to a human agent, providing the deterministic structure required for production.\n\n\nThe moment a integration is connected in Activepieces, an agent can call it. Registering a integration once allows it to run as a step inside a flow or as a tool schema on the per-project MCP server, reachable from an agent you built yourself.\n\n\nCheck the Integrations Framework and MCP Server documentation in the open source repo to see how the same integration action that runs in a flow is the one exposed as an MCP tool.\n\n\n**Human review steps cannot be skipped** when the model is constrained this way. Platforms such as Zapier use this linear approach to ensure that if a database connection fails, the process stops immediately. This is preferred over allowing the LLM to hallucinate a successful outcome.\n\n\n### Why the distinction matters for production stability\n\n\nWhether your system fails gracefully or unpredictably depends on the choice between these architectures.\n\n\nIn a Harness, a failed step in a tool like Salesforce results in a clear error log that a support lead can fix.\n\n\n> Whether your system fails gracefully or unpredictably depends on the choice between these architectures.\n\n\nIf an Agent Loop fails, it may continue to loop while consuming tokens, resulting in a high bill for a process that never finished the task.\n\n\nProduction stability requires the ability to audit every decision. A Harness provides the breadcrumbs necessary to explain why the system took a specific automated action.",
+  "published_at": "2026-09-08T14:34:12+00:00",
+  "first_seen_at": "2026-09-08T19:53:03.946960+00:00",
+  "content_hash": "sha256:4a16db10048f6ad079be17fc63ded29976fb6634bbb32d246a31be40905295e4"
+}
