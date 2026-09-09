@@ -13,5 +13,5 @@
   "body_markdown": "Main Content\n\n\n# *Technology*\n\n\n- [Link to Home page](https://www.vodafone.com/)\n- [Link to News page](https://www.vodafone.com/news)\n- [Link to Newsroom page](https://www.vodafone.com/news/newsroom)\n- [Link to](https://www.vodafone.com/news/newsroom/technology) Technology\n\n\n- {{ year }}\n\n\n- Newest first\n- Oldest first\n\n\n{{ item.newsDate }}\n\n\n{{ cat.replace(/-/g, ' ').replace(/\\\\b\\\\w/g, l => l.toUpperCase()) }}\n\n\n{{ item.newsTitle }}{{ item.newsTitle }}{{ item.newsTitle }}\n\n\n{{ item.newsReadTime }} minute read\n\n\n{{ tag }}\n\n\n## No results found\n\n\nTry adjusting your search or filter to find what you're looking for.",
   "published_at": "2026-09-08T00:00:00+00:00",
   "first_seen_at": "2026-08-10T04:42:55.386825+00:00",
-  "content_hash": "sha256:86eb35e700444f284a4b5e0d29e762204c142497ca41e9461d7ca7cb6e5d0a38"
+  "content_hash": "sha256:aa48b40b73d3b3504c94d14587f38bd3b8816507b4b82770a28bc7787c0358f8"
 }
