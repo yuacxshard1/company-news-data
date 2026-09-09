@@ -23,12 +23,32 @@
     {
       "company_key": "yc-litellm",
       "company_name": "LiteLLM",
+      "doc_id": "6473dff6c6fa7aaa5d538f27b83424c5fed6160d2134521359f389924353cda0",
+      "first_seen_at": "2026-09-09T11:40:46.496669+00:00",
+      "published_at": "2026-09-08T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How LiteLLM preserves caller identity across shared agents, governs model and MCP access, and enforces independent budgets for each business unit.",
+      "title": "Secure shared AI agents with identity-aware access and spend controls"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
       "doc_id": "6d1fb9390f4d5d6f82f33545cf1a76c3a65a088144a72e031c8ce8881eeb5a4a",
       "first_seen_at": "2026-09-01T20:20:49.642976+00:00",
       "published_at": "2026-09-01T10:00:00+00:00",
       "source_kind": "html",
       "summary": "The Auto-Router now supports more routing configurations: context-window escalation moves oversized prompts to the cheapest tier that fits them before dispatch, modality routing sends image requests to tiers that can see, classification can run on user turns only, and shadow evaluations can compare several router configs on a team's live traffic.",
       "title": "Auto-Router: Route on Context Size and Modality"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "82d691de20a2283c4d481e68677727bbd4422b41de0c036c298046bd52910217",
+      "first_seen_at": "2026-09-09T11:40:46.496669+00:00",
+      "published_at": "2026-09-08T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Tune AutoRouter heuristic dimensions for specific workloads, improve classification accuracy, and configure tiers from models you already serve.",
+      "title": "AutoRouter: Tune Heuristics for Your Traffic"
     },
     {
       "company_key": "yc-litellm",
@@ -89,6 +109,16 @@
       "source_kind": "html",
       "summary": "Routing each agent turn by what the agent is doing, exploring, implementing, or verifying, instead of by how hard the prompt looks. On a SWE-bench Verified subset it matched fixed Claude Opus-5 quality for 46% less, with 86% of turns never touching a frontier model.",
       "title": "Subtask-Specific Routing: Same Quality, 46% Less Cost"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "eee02e2b4cb52e7011b67d183f3e4392e36bce8281413d4558f272d12cd581c2",
+      "first_seen_at": "2026-09-09T11:40:46.496669+00:00",
+      "published_at": "2026-09-08T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "LiteLLM's updated SOC 2 Type 2 report is now available through the LiteLLM Trust Center.",
+      "title": "Our Updated SOC 2 Type 2 Report Is Available"
     },
     {
       "company_key": "yc-litellm",
