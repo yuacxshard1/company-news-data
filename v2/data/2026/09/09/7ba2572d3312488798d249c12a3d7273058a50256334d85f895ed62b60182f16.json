@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7ba2572d3312488798d249c12a3d7273058a50256334d85f895ed62b60182f16",
+  "company_key": "digitalocean-holdings-inc-common-stock",
+  "company_name": "DigitalOcean Holdings Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "atom",
+  "url": "https://www.digitalocean.com/blog/digitalocean-joins-omacom-foundation",
+  "canonical_url": "https://www.digitalocean.com/blog/digitalocean-joins-omacom-foundation",
+  "title": "Built for agents: Omarchy's pipeline moves to DigitalOcean",
+  "summary": "DigitalOcean is joining the Omacom Foundation, the nonprofit that funds Omarchy's infrastructure and the open source projects it depends on, as a Founding Corporate Patron, and will serve as Omarchy's agentic compute provider.",
+  "body_markdown": "[Omarchy](https://omarchy.org/) is a keyboard-first Linux desktop built on Arch and Hyprland by David Heinemeier Hansson (DHH), and its production pipeline, packaging builds, PR review agents, and QA testing, now run on DigitalOcean.\n\n\nAgent workloads don’t behave like a typical web server. They’re bursty and parallel: an agent spins up, does one job, and shuts down. Omarchy’s pipeline is a real example of that pattern, and DigitalOcean infrastructure complements its needs. A single doctl command can provision a Droplet, run the job, call separately configured inference services, and destroy the Droplet when the work is done.\n\n\nAlongside the infrastructure move, DigitalOcean is joining the[Omacom Foundation](https://omarchy.org/foundation/) , the nonprofit that funds Omarchy’s infrastructure and the open source projects it depends on, as a Founding Corporate Patron, and will serve as Omarchy’s agentic compute provider.\n\n\n> *“I’m thrilled to have DigitalOcean become a Founding Corporate Patron of the Omacom Foundation, and our new agentic compute provider as well. We have such grand ambitions for Omarchy, and it’s time we upgrade our technical infrastructure to match. Whether it’s build servers for packaging, agent runners for PR reviews, or Droplets for QA testing, DigitalOcean simply has everything we need. They also have the right mindset for the future and our new age of agents. Couldn’t imagine a better fit!”* — David Heinemeier Hansson, creator of Omarchy\n\n\n## What’s Next\n\n\nComing soon, DigitalOcean and Omarchy plan to release a 1-click Omarchy Droplet available through the DigitalOcean Marketplace, enabling developers to quickly deploy the same environment used by the maintainers.",
+  "published_at": "2026-09-09T15:30:15.727+00:00",
+  "first_seen_at": "2026-09-09T16:03:50.143332+00:00",
+  "content_hash": "sha256:a5d7d73115c1b71d915cab3dbb11d0cebf179a04e93321107cae78d574105e0d"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "038509903adb9fcd5eddc416fbed542df8627d270dab5d9e580a2348fd258592",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
+  "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
+  "body_markdown": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit document-level permissions. When a user doesn't see an expected document in retrieval results for ACL-enabled data sources, it can be difficult to determine whether the cause is an access control misconfiguration or something else entirely. These new APIs and the accompanying console experience close that gap, enabling you to quickly diagnose and resolve permission issues without opening a support case.\n\n\nCheckIngestedDocumentAcl lets you verify whether a specific user has access to a given ingested document, while GetIngestedDocumentAcl returns the full ACL attached to a document so you can audit exactly what permissions are configured and catch misconfigurations. The console also introduces a new Document Access Control section on the data source details page, where you can check access by entering a document ID and user email or retrieve a document's full ACL by document ID. Together, these capabilities give administrators the visibility they need to manage access control at scale across enterprise knowledge bases.\n\n\nTo learn more, see[CheckIngestedDocumentAcl](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_CheckIngestedDocumentAcl.html) and[GetIngestedDocumentAcl](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_GetIngestedDocumentAcl.html) in the Amazon Bedrock API Reference. For more information about Amazon Bedrock Managed Knowledge Base, visit the[Amazon Bedrock Knowledge Bases product page](https://aws.amazon.com/bedrock/knowledge-bases/) .",
+  "published_at": "2026-09-09T16:03:00+00:00",
+  "first_seen_at": "2026-09-09T18:46:33.546682+00:00",
+  "content_hash": "sha256:7e5f7ea1075334d3f55e5a40716e7cfed7f896cb32145387df33a188a4d38318"
+}

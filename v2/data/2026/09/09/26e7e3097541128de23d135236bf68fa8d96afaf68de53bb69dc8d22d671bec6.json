@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "26e7e3097541128de23d135236bf68fa8d96afaf68de53bb69dc8d22d671bec6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
+  "title": "Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
+  "body_markdown": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted Confluence Data Center instances can now crawl blogs and pages from their Confluence spaces directly into their managed knowledge base. Previously, bringing Confluence Data Center content into Bedrock Knowledge Bases required building custom ingestion pipelines—now, you provide your instance credentials, and the connector handles data crawling, metadata extraction, and incremental sync automatically.\nThe Confluence Data Center connector gives your AI agents access to the institutional knowledge your teams already maintain in Confluence, including wiki pages and blog posts across spaces. You can use filters to scope crawls to specific spaces or content types, ensuring only relevant content is ingested and keeping your knowledge base focused and cost-efficient. This makes it easy to power internal assistants grounded in engineering documentation, runbooks, or team knowledge bases hosted on Confluence Data Center.\nTo learn more, see Confluence Data Center data source connector in the[Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-ds-confluence-onprem.html) . For more information about Amazon Bedrock Managed Knowledge Base, visit the[Amazon Bedrock Knowledge Bases product page](https://aws.amazon.com/bedrock/knowledge-bases/) .",
+  "published_at": "2026-09-09T14:19:00+00:00",
+  "first_seen_at": "2026-09-09T18:46:33.546682+00:00",
+  "content_hash": "sha256:3c79b662db357ed4538ae35b29055783790feebf61b2c44968490a3a3962c93a"
+}
