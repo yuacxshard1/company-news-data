@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "08261311b089a085ecc50e4bcc581f44621e1d97b4cafe6ee4884ef18eddd60a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
+  "title": "Amazon API Gateway now supports mutual TLS for backend integrations",
+  "summary": "Discover more about what's new at AWS with Amazon API Gateway now supports mutual TLS for backend integrations",
+  "body_markdown": "You can now configure Amazon API Gateway REST APIs to present an AWS Certificate Manager (ACM) certificate to your backend during the TLS handshake, enabling mutual TLS (mTLS). Previously, API Gateway could present only a self-signed certificate that it generated; now you can use a certificate signed by a certificate authority you trust. Your integration endpoint validates this certificate during the handshake to confirm the connection comes from your API.\n\n\nYou can import a certificate into ACM from your existing public key infrastructure (PKI), or have ACM issue and manage one for you through AWS Private Certificate Authority. When a certificate is reimported or renewed in ACM, API Gateway propagates the update automatically, with no redeployment and no downtime. Combined with the existing inbound mTLS support for client connections, you can apply mutual authentication across both the client-to-API and API-to-backend connections, which is a common requirement in financial services, healthcare, and other regulated or zero-trust environments.\n\n\nMutual TLS for backend integrations is available in all commercial AWS Regions and the AWS GovCloud (US) Regions, where API Gateway REST APIs are available. You can configure it through the API Gateway console, AWS CLI, or AWS CloudFormation. To get started, see[Amazon API Gateway documentation](https://docs.aws.amazon.com/apigateway/latest/developerguide/rest-api-backend-authentication.html) and[AWS blog post](https://aws.amazon.com/blogs/compute/bring-your-own-client-certificate-for-backend-mtls-in-amazon-api-gateway/) .",
+  "published_at": "2026-09-08T19:16:00+00:00",
+  "first_seen_at": "2026-09-09T01:24:25.221473+00:00",
+  "content_hash": "sha256:466ac59e27b8e4b87476dd687a3fb9e22f83c10bc83a4ee6888737a2617332ed"
+}

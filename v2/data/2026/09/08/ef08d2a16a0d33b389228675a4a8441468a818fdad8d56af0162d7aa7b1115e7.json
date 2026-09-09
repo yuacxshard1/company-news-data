@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ef08d2a16a0d33b389228675a4a8441468a818fdad8d56af0162d7aa7b1115e7",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/v0-integration",
+  "canonical_url": "https://resend.com/changelog/v0-integration",
+  "title": "Vercel v0 Integration",
+  "summary": "Add Resend email to your v0 projects without leaving v0.",
+  "body_markdown": "Today, we're excited to announce the Vercel v0 Integration.[Add email to your v0 project with Resend](https://vercel.com/marketplace/resend) without handling API keys or managing DNS records.\n\n\nMany builders create projects using Vercel's v0 platform. The new integration makes it easy to integrate email with Resend without leaving your v0 workflow.\n\n\nEmail for developers, easier to integrate than ever.\n\n\n## What's new\n\n\n- Create a new Resend account directly from your v0 project\n- A Resend API key is added to your v0 project's environment variables\n- DNS for Resend is automatically configured through v0\n- Billing is managed through v0\n\n\n## Prerequisites\n\n\nBefore you begin, you'll need two things:\n\n\n1. A Vercel v0 account with a project.\n2. A domain purchased through Vercel.\n\n\n## How to get started\n\n\nThe integration connects Resend to your v0 project using your Vercel domain.\n\n\n### 1. Ask v0 to add email to your application\n\n\nYou can ask v0 something like:\n\n\n```text\nAdd an email capture to my application using Resend. Store the user's email as a Contact in Resend and send them a welcome email.\n```\n\n\nv0 will show a prompt to install Resend in your project.\n\n\nThis will take you to the integration page, where you can follow the instructions to add email to your project.\n\n\n### 2. Finish setup\n\n\nFollow the \"finish setup\" link to view your v0 domain in the Resend dashboard.\n\n\nIt can take a few minutes for the DNS records to propagate. Once they have, you can return to v0 and let it know you're ready to start sending emails.\n\n\nBy default, v0 will use a from address of` delivered@resend.com` . This address is only for testing purposes, and will not send to anyone but yourself. To send to your users, tell v0 to use a from email address connected to the domain you just set up.\n\n\n```text\nMy domain is verified. Please send emails from hi@waybackstore.org.\n```\n\n\nNow you're ready to send and receive emails with Resend.\n\n\n## Empowering developers\n\n\nOur goal is to empower developers to ship quickly with confidence, taking care of the busy work so they can get back to building the projects they love.\n\n\nThis new integration makes it even easier for v0 users to get started with Resend, and we can’t wait to see what you do with it.",
+  "published_at": "2026-09-08T00:00:00+00:00",
+  "first_seen_at": "2026-09-08T22:12:29.915033+00:00",
+  "content_hash": "sha256:a4b5b71b7790ebe7ebd6da1f5a4143b3e1e0adb63fb072a6e2ddf6eba2ec746a"
+}

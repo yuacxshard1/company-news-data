@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "85f23e3bbac8df853fe0bcc31818595c4f54ec200ef917e3726bc3fee6570898",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/",
+  "title": "Amazon S3 Object Lock now supports variable retention with event holds",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Object Lock now supports variable retention with event holds",
+  "body_markdown": "Amazon S3 Object Lock now supports variable retention, allowing you to apply write-once-read-many (WORM) protection to objects whose required retention period starts with a future event, such as a contract closing or an audit completing. You place an event hold with a retention duration on an object and S3 protects the object while the hold is in place. When you release the hold, S3 retains the object for the duration you specified. Unlike legal holds, which end protection immediately upon removal, event holds provide WORM compliance for the required retention period after the triggering event, so you can meet event-based retention requirements without retaining data longer than your policy requires.\n\n\nYou can apply event holds to individual objects, configure them as a bucket default, or apply them at scale with S3 Batch Operations. New AWS IAM and bucket policy condition keys let you control who can set or release holds and enforce minimum or maximum hold durations. AWS CloudTrail logs all hold operations and S3 Inventory reports hold status across your buckets.\n\n\nEvent holds for S3 Object Lock are available in all AWS Regions, including China Regions, at no additional charge. To learn more, read the[AWS Storage Blog post](https://aws.amazon.com/blogs/storage/flexibly-control-amazon-s3-object-lock-retention-based-on-real-business-events) , the[S3 Object Lock overview page](https://aws.amazon.com/s3/features/object-lock/) , and the[S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html) . This capability has been[assessed by Cohasset Associates](https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/Amazon-S3-Compliance-Assessment-2026.pdf) for use in environments subject to SEC Rule 17a-4(f), FINRA Rule 4511, and CFTC Regulation 1.31.",
+  "published_at": "2026-09-08T04:00:00+00:00",
+  "first_seen_at": "2026-09-09T01:24:25.221473+00:00",
+  "content_hash": "sha256:243604a1f02f9512d67a2b0e3a61c2142f4354e92f4c627eb9ddb365e26bf2ee"
+}

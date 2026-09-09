@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "653608c591cb5bd4c2b9faf144d44d5375f1da921b28e7cef1b508d1113d0166",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/github-repository-health-how-to-vet-automation-vendors",
+  "canonical_url": "https://www.activepieces.com/blog/github-repository-health-how-to-vet-automation-vendors",
+  "title": "GitHub Repository Health: How to Vet Automation Vendors",
+  "summary": "GitHub contributor metrics reveal the development velocity and long-term maintenance capacity of your chosen automation software provider.",
+  "body_markdown": "## Step 1: Verify the authenticity of the contributor base\n\n\nAuthenticity verification begins by distinguishing between meaningful logic changes and superficial metric-padding.\n\n\nA high contributor count is a liability if those users are merely fixing typos in a README file. Such edits create a false sense of security regarding the platform's ability to maintain complex API integrations.\n\n\n### Accessing the repository data panel\n\n\nTo find these metrics, navigate to the vendor's main repository page on GitHub and locate the horizontal menu bar below the repository name. Click on the Insights tab to access the project's analytical dashboard.\n\n\nFrom the left-hand sidebar of the Insights page, select Contributors to see a ranked list of everyone who has added code to the project.\n\n\nThe Pulse report is also located within this same Insights menu. It provides a summary of all active pull requests and issues over the last week or month.\n\n\nThis view is essential for seeing if the contributor count is growing or if the project has become stagnant.\n\n\n### Spotting drive-by documentation-only contributions\n\n\nAudit a vendor's contributor list for \"drive-by\" edits. These are minor changes to text files that don't affect the software functionality.\n\n\nIf the majority of a vendor's external contributors are only modifying documentation, the project lacks a community capable of fixing broken connectors when a third-party API changes its schema.\n\n\n### Internal versus external pull request ratio\n\n\nThe health of an ecosystem is revealed by the ratio of internal staff to external community members submitting pull requests.\n\n\nRoughly **60% of integrations** in the Activepieces ecosystem are community-contributed, a figure that allows the platform to scale its catalog without the linear headcount constraints of Zapier or Make, meaning the company can expand its service offerings far more rapidly than its competitors.\n\n\nMoneyGram and Moneypenny run this in production, benefiting from a library that expands based on user need rather than vendor scheduling.\n\n\n### Checking the recency of code contributions\n\n\nRecency is the only metric that accounts for the \"bit rot\" of integrations that occurs when a project's maintainers move on.\n\n\nCommits must be distributed across the current month. This ensures the vendor can respond to zero-day API deprecations.",
+  "published_at": "2026-09-08T20:58:21+00:00",
+  "first_seen_at": "2026-09-09T00:48:15.106183+00:00",
+  "content_hash": "sha256:4b707708865d244fe3e8d028d143bab9e58c4d9ad1d21b1e97a0f354785027a9"
+}

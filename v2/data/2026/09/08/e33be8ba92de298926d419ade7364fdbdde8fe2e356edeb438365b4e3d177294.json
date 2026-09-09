@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e33be8ba92de298926d419ade7364fdbdde8fe2e356edeb438365b4e3d177294",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/",
+  "title": "Amazon Timestream for InfluxDB 3 now supports custom plugins",
+  "summary": "Discover more about what's new at AWS with Amazon Timestream for InfluxDB 3 now supports custom plugins",
+  "body_markdown": "Amazon Timestream for InfluxDB now lets you run your own custom Python plugins on the managed versions of InfluxDB 3 Core and Enterprise editions. You host your plugin code in public or private repositories you control and the engine fetches and runs it in response to triggers, letting you implement logic specific to your workload without standing up separate external infrastructure.\n\n\nPlugins run on the trigger types the processing engine already supports and with them, you can build custom data transformations, alerting, aggregation, and integrations with your own services, all running close to your data. Plugins execute in a managed Python environment that includes the standard library and Amazon-vetted packages , so you can move workload-specific processing into the database instead of operating a separate pipeline to do it.\n\n\nTo get started, set a plugin repository on a DB parameter group, apply that parameter group to your cluster, and create triggers that reference your plugin using the influxdb3 CLI or HTTP API; private repositories are authenticated with a token stored in AWS Secrets Manager. Custom plugins are available in all AWS[Regions](https://docs.aws.amazon.com/general/latest/gr/timestream.html) where Amazon Timestream for InfluxDB is available. To get started with Amazon Timestream for InfluxDB 3, visit the[Amazon Timestream for InfluxDB console](https://console.aws.amazon.com/timestream) . For more information, see the[Amazon Timestream for InfluxDB documentation](https://docs.aws.amazon.com/timestream/) and[pricing page](https://aws.amazon.com/timestream/pricing/) .",
+  "published_at": "2026-09-08T21:58:00+00:00",
+  "first_seen_at": "2026-09-09T01:24:25.221473+00:00",
+  "content_hash": "sha256:2efe2bf75bb1aed95127c8c66a77e5926a6a0ca302f79b66c245a04b20d7fbde"
+}

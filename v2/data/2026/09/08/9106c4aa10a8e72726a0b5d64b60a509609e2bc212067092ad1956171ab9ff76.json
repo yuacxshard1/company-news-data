@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9106c4aa10a8e72726a0b5d64b60a509609e2bc212067092ad1956171ab9ff76",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
+  "title": "Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
+  "body_markdown": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports feature-level writes, a new capability for updating individual features in a record. Data scientists can now update one or more feature values in a single request, without rewriting the entire record.\n\n\nData scientists can use a single update call to replace the read-modify-write pattern their pipelines run today. Each write updates only the features in the request and leaves every other feature in the record unchanged, which lowers write latency and cost. When multiple pipelines write to the same feature group, each pipeline updates only the features it computes, so a streaming job and a nightly batch job can update the same record independently. This capability enables data scientists to update a single feature at high processing volumes, without building merge logic in their data ingestion pipelines.\n\n\nThis capability is now available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where[Amazon SageMaker Feature Store](https://aws.amazon.com/sagemaker/ai/feature-store/) is available. For more information, see[Amazon Feature Store Runtime](https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_Operations_Amazon_SageMaker_Feature_Store_Runtime.html) ,[Standard V2 documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/feature-store-storage-configurations-online-store.html#feature-store-storage-configurations-online-store-standard-v2-tier) and[launch blog](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/) .",
+  "published_at": "2026-09-08T21:19:00+00:00",
+  "first_seen_at": "2026-09-09T01:24:25.221473+00:00",
+  "content_hash": "sha256:5d862111a4f3215e55789d887d593a6733955d356e7568bf746d7247a4141dd2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "557c54c05ec8ad1ad9ef4f01c04b1f4dd07759f1e8305bed3be834a0540d3a16",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/releases/sauce-labs-regions-ai-settings-api-updates/",
+  "canonical_url": "https://testrigor.com/releases/sauce-labs-regions-ai-settings-api-updates/",
+  "title": "Release Notes: SauceLabs Regions, Edge for Ubuntu, New AI settings, HTTP warnings, API Endpoints, Text nodes",
+  "summary": "Region selection for SauceLabs Since our latest update, we are now able to select the region for test suites that have been integrated with SauceLabs. Edge browser available for Ubuntu It is now possible to select the Edge browser when utilising Ubuntu as an operative system to run tests on. Handling HTTP warnings A new ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## Region selection for SauceLabs\n\n\nSince our latest update, we are now able to select the region for test suites that have been integrated with SauceLabs.\n\n\n## Edge browser available for Ubuntu\n\n\nIt is now possible to select the Edge browser when utilising Ubuntu as an operative system to run tests on.\n\n\n## Handling HTTP warnings\n\n\nA new setting has been introduced which will let us determine how to handle warnings from HTTP pages. You can find it on Settings -> Advanced, it will only be displayed if incognito mode is enabled.\n\n\n## New AI settings\n\n\nTwo new settings have been added, which will allow us to tweak how AI operates, you can find them on Settings -> AI:\n\n\n- **Timeout for AI call** : which limits the max amount of time AI spends trying to execute a command.\n- **AI evaluation strategy** : this setting modifies how AI processes validations. We can select between the following options:\n\n\n- Single call (default setting): AI validations will only be executed by a singular AI model.\n- Majority vote: multiple AI models will run a specific validation, the result (failure or pass) will be decided by a majority vote.\n\n\n## New API endpoints to modify data\n\n\nNew endpoints have been added (PUT and PATCH) to the following APIs:\n\n\n- ` /api/v1/apps/{appId}/test_data/global_variables`\n- ` /api/v1/apps/{appId}/test_data/global_variables/batch`\n- ` /api/v1/apps/{appId}/test_data/datasets`\n\n\nWhich will allow updates on existing data sets and global variables. You can find more info about the existing endpoints on the CI/CD section of your test suite.\n\n\n## Search for text nodes\n\n\nOn the Settings section, Speed optimization we can find a new setting that has been added on the latest update, “Search for text nodes strategy”. Two options are available, we can either select to skip intersection nodes that do not have information or consider all text nodes.",
+  "published_at": "2026-09-08T19:26:34+00:00",
+  "first_seen_at": "2026-09-08T22:45:41.242503+00:00",
+  "content_hash": "sha256:24b3235db2dc6b74b65951eeaa1c2aa1bc3f731929940b43ad613425c471f2f0"
+}
