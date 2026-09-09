@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d1153632cc0980ee5baf01ec58bcc2f7cd4bf057a2d04ea49923ac46b9a3817e",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://supabase.com/blog/supabase-is-now-available-in-gemini-enterprise",
+  "canonical_url": "https://supabase.com/blog/supabase-is-now-available-in-gemini-enterprise",
+  "title": "Supabase is now available in Gemini Enterprise",
+  "summary": "Connect Supabase to Gemini Enterprise and query your Supabase projects with natural language, right inside the platform.",
+  "body_markdown": "Supabase is now available as a prebuilt connector in Google Cloud[Gemini Enterprise](https://cloud.google.com/gemini-enterprise) . Connect your Supabase organization once, and your team can query and take action on Supabase projects using natural language, directly inside Gemini Enterprise, alongside the tools you already use, such as GitHub, Linear, Notion, Slack, and Salesforce.\n\n\n## Ask Gemini Enterprise about your Supabase projects#\n\n\nOnce connected, you can ask questions like \"list my tables from Supabase for \\[project\\]\" and Gemini Enterprise can call the Supabase connector to pull a live answer. Gemini Enterprise doesn't store or index your Supabase data: every response is fetched in real time from your organization, so what you see reflects the current state of your projects.\n\n\nIf a prompt touches more than one connected tool, Gemini Enterprise combines results into a single answer. Ask about a feature and get the related Supabase tables alongside the Jira tickets tracking the work, in one response.\n\n\n## Useful beyond your engineering team#\n\n\nBecause the connector works through natural language, it opens Supabase up to people who don't live in the Supabase Dashboard. IT and ops teams can check database metrics or look up table structure without needing direct access, while developers get answers about their backend without switching contexts.\n\n\n## How to connect#\n\n\nThe Supabase connector is available across all Gemini Enterprise editions:\n\n\n- **Business edition:** Supabase shows up in the connector menu. Once you select it and sign in to your Supabase organization, the connection is live, with nothing to configure on your end.\n- **Standard, Plus, and Frontline editions:** admins find the Supabase connector in the admin console and connect it with a client ID and secret.\n\n\nConnections are made at the Supabase organization level, and every tool the connector exposes is annotated as read-only or destructive.\n\n\n## Built in partnership with Google Cloud#\n\n\n> Developers and their teams increasingly work from wherever the conversation is happening. Connecting Supabase's MCP Server to Gemini Enterprise means your backend is part of that conversation, grounded in live data from your actual projects.\n\n\n— **Rayn Veerubhotla** , Google Managing Director, Partner Technical Architects\n\n\n## Get started#\n\n\n- [Connect Supabase in Gemini Enterprise](https://supabase.com/partners/catalog/google-gemini)\n- New to Supabase?[Start your project for free](https://supabase.com/) , then connect it to Gemini Enterprise",
+  "published_at": "2026-09-09T07:00:00+00:00",
+  "first_seen_at": "2026-09-09T08:04:45.177587+00:00",
+  "content_hash": "sha256:57571b84e87b4752b99139c2ad74d9a581cc5ec6af0c96fd7b515f2fb2ab7914"
+}
