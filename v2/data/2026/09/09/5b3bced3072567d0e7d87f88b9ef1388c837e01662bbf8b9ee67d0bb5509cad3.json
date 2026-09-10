@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5b3bced3072567d0e7d87f88b9ef1388c837e01662bbf8b9ee67d0bb5509cad3",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/unity-plugin-for-claude-code",
+  "canonical_url": "https://unity.com/blog/unity-plugin-for-claude-code",
+  "title": "Official Unity Plugin for Claude Code",
+  "summary": "Unity's official plugin for Claude Code installs Unity-authored skills, the Unity CLI, and live Editor control via Unity's MCP server, in one command.",
+  "body_markdown": "Imagine if you hire a contractor to help you with a project. They are experienced and they are fast, but they have never seen your codebase, so everything they produce that day is a reasonable guess: they assemble the sprite atlas in a way that works but is not how your team does it, they reach for whichever UI framework they happen to know rather than the one you standardized on, and you actually end up with the wrong output. This is similar to what happens when you point a general-purpose coding agent at a Unity project right now.\n\n\nThe official Unity Plugin will help close this gap. It will teach the agent how to do one job the way it is actually meant to be done — where a Unity project keeps its assets, how an atlas is supposed to be built, what a URP renderer feature has to satisfy before it will run at all. Currently, the plugin installs 29 skills (we’ll add more over time) with a single command, with no configuration, no per-project setup, and nothing to copy between machines when you move to a new one. None of that is new work for a Unity developer, because every one of those jobs is something you already do in a normal week. What changes is that the agent now approaches them holding our answer instead of assembling one from third party sources. You can now spend more time on the result and less time worrying about correcting the approach. The table summarizes the initial set of skills that are available with the official Unity Plugin for Claude Code. Also, please see all of our documentation for the plugin[here](https://docs.unity.com/en-us/ai/unity-plugin/claude-code) .",
+  "published_at": "2026-09-09T00:00:00+00:00",
+  "first_seen_at": "2026-09-10T13:30:30.692458+00:00",
+  "content_hash": "sha256:c71641b87a3cc182eec39ad50c1da7aa2e2fef58970b28cef0de76f4138d370c"
+}

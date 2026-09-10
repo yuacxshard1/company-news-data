@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d26ca2c936c6624e2e251522889dc22fe0f6042aaa5c8de281cd860dbcb707c6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
+  "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
+  "summary": "Discover more about what's new at AWS with AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
+  "body_markdown": "# AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion\n\n\nPosted on: Sep 10, 2026\n\n\nAWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear channels, and video-on-demand content. With this launch, video providers can insert ads into low-latency live streams while holding the reduced latency their viewers expect.\n\n\nLL-HLS reduces live latency by delivering partial segments and letting players hold a playlist request open until the next segment part is ready, which requires media playlists to be cacheable at the content delivery network (CDN) edge. MediaTailor supports this using HLS Interstitials, which reference ads as a separate playlist instead of stitching them into each viewer's media playlist. Every viewer receives the same cacheable playlist, so MediaTailor sustains low-latency playback at scale and moves the ad decision server call off the manifest request path. This capability has been proven in production on live sporting events with multi-million views, and is ideal for live sports, news, betting and wagering, watch-party, and interactive live formats where latency is a product requirement.\n\n\nLow-Latency HLS ad insertion is available in all AWS Regions where AWS Elemental MediaTailor is available. To learn more, visit the[AWS Elemental MediaTailor product page](https://aws.amazon.com/mediatailor/) and the[MediaTailor server-guided ad insertion documentation](https://docs.aws.amazon.com/mediatailor/latest/ug/server-guided.html) . To get started, sign in to the[MediaTailor console](https://console.aws.amazon.com/mediatailor/home) ..\n\n\nAvailable in all AWS Regions where AWS Elemental MediaTailor is available. For the full list, see the[AWS Regional Services List](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .",
+  "published_at": "2026-09-10T08:00:00+00:00",
+  "first_seen_at": "2026-09-10T14:09:37.696206+00:00",
+  "content_hash": "sha256:47edfaeba8723863a385fac457975847a71ce2a862e1d2cc87d060631b16fe7d"
+}

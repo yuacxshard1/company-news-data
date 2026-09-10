@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "58a0682a04079e62a6b15176f19269ff5c8c9df6872fd63d467e01fd42a92a27",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+  "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
+  "summary": "Discover more about what's new at AWS with AWS Elemental Inference now generates contextual metadata from live video in real time",
+  "body_markdown": "[AWS Elemental Inference](https://aws.amazon.com/elemental-inference/) now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to extract Interactive Advertising Bureau (IAB) content taxonomy categories, Global Alliance for Responsible Media (GARM) brand suitability signals, detected objects and actions, and shot and scene-level descriptions. Broadcasters and content platforms can now power contextual ad decisioning, media asset enrichment, and content discovery workflows using serverless, fully managed AI.\n\n\nFor contextual advertising,[AWS Elemental MediaLive](https://aws.amazon.com/medialive/) embeds the Elemental Inference feed ID into (Society of Cable Telecommunications Engineers) SCTE-35 ad markers in the live stream. At each ad break,[AWS Elemental MediaTailor](https://aws.amazon.com/mediatailor/) uses a Monetization Function to retrieve the scene-level signals for that feed ID and translate them into the targeting parameters ad servers expect. This enables context-aware ad decision-making without custom integration work, supporting use cases like contextual deal curation and brand suitability scores, resulting in improved monetization outcomes for publishers. For media asset management, detecting objects and actions, and shot and scene-level descriptions, provide automatic structured metadata generation for every scene and shot, building richer archives that power contextual content discovery, assisted editing workflows, and personalized content recommendations without manual logging or post-production metadata entry.\n\n\nContextual metadata is available today in the AWS Elemental MediaLive console in all AWS Regions where AWS Elemental Inference is available.",
+  "published_at": "2026-09-10T08:00:00+00:00",
+  "first_seen_at": "2026-09-10T14:09:37.696206+00:00",
+  "content_hash": "sha256:fe59d5d99ce426bb671b03189ebad2cc3e74ffbdeef63c3032bf99787e584e84"
+}

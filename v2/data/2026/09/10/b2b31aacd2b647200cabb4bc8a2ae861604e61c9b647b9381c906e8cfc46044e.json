@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b2b31aacd2b647200cabb4bc8a2ae861604e61c9b647b9381c906e8cfc46044e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
+  "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
+  "summary": "Discover more about what's new at AWS with AWS Elemental MediaLive adds support for A/B forensic watermarking",
+  "body_markdown": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces two synchronized output variants, each carrying a distinct visually transparent watermark that persists through re-encoding and screen capture. Downstream packaging and CDN infrastructure assembles these variants into unique per-session sequences that identify the origin of leaked content.\n\n\nForensic watermarking follows the DASH Industry Forum (DASH-IF) specification for A/B watermarking (European Telecommunications Standards Institute (ETSI) TS 104 002), ensuring interoperability with standards-compliant packagers and CDN infrastructure. Customers can configure watermarking on Common Media Application Format (CMAF) Ingest output groups through the MediaLive API or console. MediaLive delivers watermarked A and B variants via CMAF ingest to AWS Elemental MediaPackage or third-party packagers, enabling downstream per-session watermark assembly through compatible CDN infrastructure including Amazon CloudFront.\n\n\nTo learn more, visit the[AWS Elemental MediaLive User Guide](https://docs.aws.amazon.com/medialive/latest/ug/feature-ab-watermark.html) .\n\n\nA/B forensic watermarking is available in all AWS Regions where AWS Elemental MediaLive is available.",
+  "published_at": "2026-09-10T08:00:00+00:00",
+  "first_seen_at": "2026-09-10T14:09:37.696206+00:00",
+  "content_hash": "sha256:c61bb3ff8858dfc3ba2d887a932f49dd902737f130a2d8053c93fc44a71bfbe6"
+}
