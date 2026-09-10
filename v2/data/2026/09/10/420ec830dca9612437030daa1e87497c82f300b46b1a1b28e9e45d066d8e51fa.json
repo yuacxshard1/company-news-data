@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "420ec830dca9612437030daa1e87497c82f300b46b1a1b28e9e45d066d8e51fa",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
+  "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
+  "body_markdown": "With synthetic monitors in Amazon CloudWatch Network Monitoring, you can now determine whether a network performance issue on a path that crosses an AWS Transit Gateway inter-Region peering connection is caused by the AWS network. This helps network operators and application developers cut the time spent isolating the source of degradation on these paths.\n\n\nPreviously, for synthetic monitors, the network health indicator (NHI) covered only paths that connect through AWS Direct Connect. With this release, synthetic monitors extend it to paths that reach a destination in a peered Region over Transit Gateway inter-Region peering. For these paths, the indicator reflects the health of the AWS network path up to the Transit Gateway peering connection, and is published to your Amazon CloudWatch account so you can build dashboards and set alarms.\n\n\nFor the full list of AWS Regions where Network Monitoring for AWS workloads is available, visit the[Regions list](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To learn more, visit the Amazon CloudWatch Network Monitoring[documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/what-is-network-monitor.html) .",
+  "published_at": "2026-09-10T11:00:00+00:00",
+  "first_seen_at": "2026-09-10T20:04:45.382269+00:00",
+  "content_hash": "sha256:dcdef9dab6e73fec8392102709a753807aadd01644175a27dee6033006a9060d"
+}

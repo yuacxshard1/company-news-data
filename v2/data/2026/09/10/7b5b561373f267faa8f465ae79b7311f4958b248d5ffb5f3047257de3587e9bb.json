@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7b5b561373f267faa8f465ae79b7311f4958b248d5ffb5f3047257de3587e9bb",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/every-few-months-a-model-comes-out-that-reasons-about-chemistry-better-than-the-last-one",
+  "canonical_url": "https://www.reactwise.com/news/every-few-months-a-model-comes-out-that-reasons-about-chemistry-better-than-the-last-one",
+  "title": "Every few months, a model comes out that reasons about chemistry better than the last one.",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "Every few months, a model comes out that reasons about chemistry better than the last one.\n\n\nYou would think that worries a company like ours. It doesn't.\n\n\nThe capability curve is steep and it isn't ours to control. Any advantage built on \"our model reasons better\" has a shelf life measured in months.\n\n\nIt's also not the part doing the work. The system that decides which experiment to run next isn't a language model. It's a statistical model of the reaction: a surrogate fitted to the data you have, an explicit estimate of what it doesn't know yet, and a decision rule that trades off exploring against exploiting. That machinery doesn't improve because a new model shipped last week. What makes it perform is the data it learns from.\n\n\nAnd public chemistry data is overwhelmingly successful reactions at their best conditions, with the failures left out. A record of what worked, not of what was tried. But failed conditions are most of the information about where a process stops working, which is exactly what you need to tell a process chemist where the operating window ends.\n\n\nThat gap is why we built our own HTE lab.\n\n\nNot an obvious decision. Software companies don't buy fume hoods. It meant capital equipment, hiring chemists, and a class of problems we could have avoided by staying pure software. No spreadsheet justified it.\n\n\nBut we now generate data designed for the models we're building, rather than scraping data designed for a paper. Failed conditions included. Metadata captured because we decided in advance what mattered.\n\n\nThe second half is integration. A model that can't reach a customer's instruments, historical campaigns, or analytical output is a conversation, not a system. Unglamorous, slow, specific to each organization, which is exactly why it holds.\n\n\nThe bet: reasoning becomes broadly available, and the scarce things become proprietary data and depth of integration. Neither is quick to buy. That's deliberate.\n\n\nIf we're wrong, we own a lab we didn't need. We'll take that risk.\n\n\n‍",
+  "published_at": "2026-09-10T00:00:00+00:00",
+  "first_seen_at": "2026-09-10T18:01:38.647468+00:00",
+  "content_hash": "sha256:1249fef1679124e8090d24332f5c7ee74ec688fcd074b7c010c88232c57836ab"
+}

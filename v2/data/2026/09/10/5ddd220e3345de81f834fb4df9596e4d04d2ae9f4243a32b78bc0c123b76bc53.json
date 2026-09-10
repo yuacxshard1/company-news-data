@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5ddd220e3345de81f834fb4df9596e4d04d2ae9f4243a32b78bc0c123b76bc53",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
+  "title": "AWS Lambda durable functions integrates with Pydantic AI",
+  "summary": "Discover more about what's new at AWS with AWS Lambda durable functions integrates with Pydantic AI",
+  "body_markdown": "Today, AWS Lambda durable functions announces an integration with[Pydantic AI](https://pydantic.dev/docs/ai/overview/) , an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a timeout, your agent resumes from the last completed step instead of starting over. Your agent gains fault tolerance without you having to write the checkpoint and retry logic yourself.\n\n\nWith this integration, each model and tool call your agent makes is a durable execution step, so an interrupted run does not repeat calls that already completed. This matters when the work is expensive to repeat, such as a chain of model calls that reviews a set of documents or researches a topic across many sources, where starting over means paying again for tokens to do the same work. It also helps to avoid unwanted side-effects when resuming execution, such as billing a customer twice. Because your agent runs on AWS Lambda, you manage no servers and pay only for the compute it uses.\n\n\nYou can use this integration in any Python AWS Lambda durable function. It is available in all AWS Regions where AWS Lambda durable functions is available. To get started, install Pydantic AI and follow its[AWS Lambda durability page](https://pydantic.dev/docs/ai/harness/aws-lambda/) . You can also find the integration details in the[durable execution SDK reference](https://docs.aws.amazon.com/durable-execution/sdk-reference/integrations/pydantic-ai/) . For more information about AWS Lambda durable functions, see the[developer guide](https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html) and the[AWS Lambda product page](https://aws.amazon.com/lambda/) .",
+  "published_at": "2026-09-10T18:45:00+00:00",
+  "first_seen_at": "2026-09-10T20:04:45.382269+00:00",
+  "content_hash": "sha256:fb8c5a9943a1bf2f14e0cd2bff103ef148658b2ef32e31e10ee4d298ee2cae2a"
+}
