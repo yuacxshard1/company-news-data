@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "362b5b97bf4aac0396d90ba556580eca145b02548a8c94328ffcb44d28784bc0",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/table-component",
+  "canonical_url": "https://resend.com/changelog/table-component",
+  "title": "New Table Component",
+  "summary": "Add beautiful tables to your Broadcasts and Templates.",
+  "body_markdown": "Data is often much easier to scan when it's visual.\n\n\n- **Order receipts** : line items, quantities, and totals\n- **Plan comparisons** : features and prices side by side across tiers\n- **Event schedules** : sessions, times, and locations\n\n\nToday, we're introducing a **Table component** in the[Broadcast](https://resend.com/features/broadcasts) and[Template](https://resend.com/features/templates) editors.\n\n\n## How it works\n\n\nType` /table` or pick **Table** from the component toolbar to insert a 3x3 table.\n\n\nMake continued adjustments to fit your needs:\n\n\n- **Rows and columns** : add or delete them from the row and column menus, or press Tab in the last cell to add a row.\n- **Headers** : toggle a header row or header column.\n- **Alignment** : align each column left, center, or right.\n- **Style** : choose all borders, horizontal borders, or none, and turn on striped rows.\n\n\nCells hold text, images, and variables, so a table can pull in contact properties like everything else in the editor.\n\n\n## Paste Markdown tables\n\n\nIf you already keep a table in Markdown, paste it straight into the editor. It becomes a Table component, and the alignment markers in the separator row carry over to each column.\n\n\n```text\n|   Plan      |    Seats    |    Price   |     |     :  --  --  --     |     :  --  --  -  :     |     --  --  -  :     |     |   Starter   |        1        |       $0   |     |   Pro       |        5        |      $20   |     |   Team      |       25        |      $80   |\n```\n\n\nThe first column stays left-aligned, seats are centered, and prices are right-aligned, exactly as written.\n\n\n## Send a test email first\n\n\nEmail clients each render tables a little differently. Before you send to your audience, click **Test email** in the editor and check how the table looks in your own inbox.\n\n\nWhat else do you want us to add to the editor?[Let us know](https://resend.com/help) how we can make the editor experience even better for you.",
+  "published_at": "2026-09-10T00:00:00+00:00",
+  "first_seen_at": "2026-09-10T08:55:22.716787+00:00",
+  "content_hash": "sha256:5516b41b26460d952c9cff54d5add2b50cb387448e14b45800cbf502b8d6ed4f"
+}

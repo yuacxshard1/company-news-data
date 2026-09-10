@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "84e26599acf6027978b6cf36cb2948df6f1d77f532cc48e722537ed0f9c1ec40",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/entity-resolution-record-confidence/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/entity-resolution-record-confidence/",
+  "title": "AWS Entity Resolution adds record-level confidence scores for ML matching",
+  "summary": "Discover more about what's new at AWS with AWS Entity Resolution adds record-level confidence scores for ML matching",
+  "body_markdown": "AWS Entity Resolution now provides record-level confidence scores for Machine Learning (ML) based matching workflows, giving you a per-record signal of how confident the model is in each individual identity match. Previously, all records within a match group carried the same group-level confidence score regardless of actual match quality — making it impossible to distinguish a near-certain match from a borderline one. This forced customers to apply a single confidence threshold across all records, limiting the number of resolved identities that could be activated downstream.\n\n\nWith record-level confidence scores, each resolved record now carries its own score reflecting actual match quality. This gives you the precision to qualify more records for activation by applying differentiated thresholds — using higher confidence for automated merges and lower thresholds to include additional records that still meet quality standards. The result is larger addressable audiences and improved lead conversions, while maintaining compliance-grade match transparency with audit-ready evidence for each resolved record. For incremental ML workflows, the existing RecordConfidenceLevel column now reflects the actual per-record score with no schema changes required.\n\n\nYou can start using record-level confidence scores in all[AWS Regions](https://aws.amazon.com/entity-resolution/faqs/) where AWS Entity Resolution is available. For more information, see our[user guide](https://docs.aws.amazon.com/entityresolution/latest/userguide/create-matching-workflow-ml.html) . For more information about AWS Entity Resolution, visit our[product page](https://aws.amazon.com/entity-resolution/) .",
+  "published_at": "2026-09-09T08:00:00+00:00",
+  "first_seen_at": "2026-09-10T08:30:36.552266+00:00",
+  "content_hash": "sha256:048b2d850708ae3a6d4cf46312e6df72b1cfccae1d568211d6b8ae6030bf3d39"
+}
