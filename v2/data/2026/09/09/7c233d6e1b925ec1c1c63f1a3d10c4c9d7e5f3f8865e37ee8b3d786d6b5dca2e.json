@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7c233d6e1b925ec1c1c63f1a3d10c4c9d7e5f3f8865e37ee8b3d786d6b5dca2e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
+  "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
+  "summary": "Discover more about what's new at AWS with AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
+  "body_markdown": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by Systems Manager. An instance must be managed by Systems Manager before you can patch it, run commands, connect with Session Manager, or collect inventory, and when an instance is unmanaged the cause can be difficult to isolate. The diagnosis previously covered network connectivity, and it now also identifies issues with IAM permissions, SSM Agent version, instance status checks, operating system configuration, Default Host Management Configuration, and hybrid activation.\n\n\nWith this broader coverage, more of your instances return a specific, actionable cause instead of an unidentified result, so you can bring your fleet under management faster. You run a diagnosis across your instances in the Systems Manager unified console experience, and Systems Manager reports the specific issues it finds in each category. Every diagnosed issue comes with step-by-step guidance to help you resolve it, and for some issues you can also run an AWS Systems Manager Automation runbook from the console to remediate the issue directly.\n\n\nAWS Systems Manager diagnosis capability is available in all AWS Regions that are enabled by default. The capability runs as AWS Systems Manager Automation runbooks, so you pay standard Automation usage charges for the runbooks you run; see[AWS Systems Manager pricing](https://aws.amazon.com/systems-manager/pricing/) for details. To learn more, see the[AWS Systems Manager User Guide](https://docs.aws.amazon.com/systems-manager/latest/userguide/diagnosing-ec2-category-types.html) , or visit the[AWS Systems Manager product page](https://aws.amazon.com/systems-manager/) .",
+  "published_at": "2026-09-09T08:00:00+00:00",
+  "first_seen_at": "2026-09-10T01:08:06.836077+00:00",
+  "content_hash": "sha256:4a0ed2a7461c0badeeadea12ffc7a393b8302d8a5eedf9ee8b4adf237dadb829"
+}

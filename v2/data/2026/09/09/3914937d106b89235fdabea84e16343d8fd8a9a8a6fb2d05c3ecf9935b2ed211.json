@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3914937d106b89235fdabea84e16343d8fd8a9a8a6fb2d05c3ecf9935b2ed211",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
+  "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
+  "summary": "Discover more about what's new at AWS with Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
+  "body_markdown": "Amazon Connect Customer Profiles now sends segment membership events, providing the ability to receive real-time and scheduled notifications when customer profiles enter or exit a segment, such as high-value customers or low-satisfaction customers. Previously, detecting when customer profiles joined or left a segment required exporting entire segments at regular intervals and running custom scripts to identify differences. This manual process consumed resources, introduced errors, and created multi-hour delays between a customer qualifying for a segment and downstream systems acting on it.\n\n\nWith segment membership events, Customer Profiles automatically evaluates and streams membership changes directly to your Amazon Kinesis Data Stream. For segments built with standard conditions, changes are detected in near real-time as profile attributes update. For enhanced segments (using Spark SQL), periodic snapshots evaluate membership at configurable intervals and notify you of changes. Each event includes the profile ID, segment name, operation type (joined or left), and whether the change detected occurred in real-time or during a scheduled run, giving you everything needed to activate outbound campaigns, personalization workflows, or retention actions within seconds instead of hours.\n\n\nYou can start using segment membership events in all AWS Regions where Amazon Connect Customer Profiles is available. To get started, configure an Amazon Kinesis Data Stream in your domain settings and subscribe your segments. For more information, see our[admin guide](https://docs.aws.amazon.com/connect/latest/adminguide/customer-segments-membership-events.html) . For more information about Amazon Connect Customer Profiles, visit our[product page](https://aws.amazon.com/connect/customer-profiles/) .",
+  "published_at": "2026-09-09T08:00:00+00:00",
+  "first_seen_at": "2026-09-10T01:08:06.836077+00:00",
+  "content_hash": "sha256:8f9af80945e34391a888d29210b1571c09cc5b5a5e745c9609a179ebc27a52b1"
+}

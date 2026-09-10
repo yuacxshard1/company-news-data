@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "edbc330b26ea0aa6e5698ff6d07c9458c44ab910786e38847d2b4dcddaee00d2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/private-ca-eks-addon-ad-govcloud/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/private-ca-eks-addon-ad-govcloud/",
+  "title": "AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
+  "summary": "Discover more about what's new at AWS with AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
+  "body_markdown": "AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active Directory in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. These launches expand certificate automation capabilities available to AWS GovCloud (US) customers managing government workloads.\n\n\nThe AWS Private CA Connector for Kubernetes EKS add-on provides simplified installation, configuration, and lifecycle management through the EKS console, CLI, and API. The connector works with cert-manager to automate certificate requests, distribution to Kubernetes secrets, and renewal, enabling TLS for ingress controllers and securing service-to-service communication in service meshes such as Istio and Linkerd.\n\n\nThe AWS Private CA Connector for Active Directory enables AWS GovCloud (US) customers to use AWS Private CA as their certificate authority for Active Directory-enrolled objects. The connector provides automatic certificate issuance to domain-joined users, computers, and other objects through familiar Microsoft certificate enrollment interfaces, supporting enterprise scenarios including smart card authentication, LDAPS, and network device authentication (802.1x).\n\n\nAWS Private CA secures private key material using FIPS 140-3 Level 3 hardware security modules (HSMs).\n\n\nTo get started, see the[AWS Private CA product page](https://aws.amazon.com/private-ca/) , the[Amazon EKS add-ons user guide](https://docs.aws.amazon.com/eks/latest/userguide/eks-add-ons.html) , and the[AWS Private CA Connector for Active Directory documentation](https://docs.aws.amazon.com/privateca/latest/userguide/connector-for-ad.html) .",
+  "published_at": "2026-09-09T08:00:00+00:00",
+  "first_seen_at": "2026-09-10T01:08:06.836077+00:00",
+  "content_hash": "sha256:67a1d60406521b9ebb0ffd83eef824e2f5d1c66b1507119cc3aed62d9ecc237b"
+}

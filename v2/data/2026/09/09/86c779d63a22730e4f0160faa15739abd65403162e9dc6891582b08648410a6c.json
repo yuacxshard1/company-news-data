@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "86c779d63a22730e4f0160faa15739abd65403162e9dc6891582b08648410a6c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
+  "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
+  "summary": "Discover more about what's new at AWS with Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
+  "body_markdown": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so all contacts within a channel were treated the same regardless of complexity or effort required. With this launch, managers can classify Task and Email contacts into workload types based on complexity, priority, or business function, each with its own concurrency and interruption rules. For example, a manager can configure agents to handle up to 3 simple, low-effort Tasks concurrently while limiting complex, high-attention Tasks to 1 at a time.\n\n\nSpecific capacity limits for Task and Email channels are available in all AWS commercial and AWS GovCloud (US-West)[regions](https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#amazonconnect_region) where Amazon Connect Customer is offered. To learn more, see the[Amazon Connect Customer Administrator Guide](https://docs.aws.amazon.com/connect/latest/adminguide/channels-and-concurrency.html) . To learn more about Amazon Connect Customer, visit the[Amazon Connect Customer website](https://aws.amazon.com/products/connect/customer/) .",
+  "published_at": "2026-09-09T21:00:00+00:00",
+  "first_seen_at": "2026-09-10T01:08:06.836077+00:00",
+  "content_hash": "sha256:2d9463c822fcaf3450d5f1da79001ed4bc26a00c8ab64635e70bed86c8ec51f9"
+}

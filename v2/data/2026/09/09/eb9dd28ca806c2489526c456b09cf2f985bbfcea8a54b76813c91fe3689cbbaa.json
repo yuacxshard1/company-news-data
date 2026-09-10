@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "eb9dd28ca806c2489526c456b09cf2f985bbfcea8a54b76813c91fe3689cbbaa",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+  "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
+  "summary": "Discover more about what's new at AWS with AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
+  "body_markdown": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on[Lambda Managed Instances](https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances.html) . You can now run your Lambda functions on the latest generation of Graviton processors, delivering up to 25% better compute performance compared to Graviton4-powered instances.\n\n\nAWS Lambda Managed Instances lets you run Lambda functions on your AWS EC2 instances while maintaining Lambda's operational simplicity. With Lambda Managed Instances, you can access specialized compute configurations and drive cost efficiency through EC2 pricing advantages, without managing infrastructure. Lambda Managed Instances fully manages all infrastructure tasks, including instance lifecycle, OS and runtime patching, built-in routing, load balancing, and auto-scaling based on configurable parameters - so you can focus on writing code. Starting today, you can leverage Lambda Managed Instances with the latest Graviton5-powered instances, which deliver up to 25% better compute performance compared to the previous generation Graviton4-powered instances.\n\n\nTo get started, you can specify the desired Graviton5 instance type (C9g, C9gd, M9g, or M9gd) when you create a capacity provider. When you set the instance type to default, Lambda automatically includes Graviton5 instances in the list of instances it chooses from, based on your function’s configured architecture, memory size, and memory-to-vCPU ratio.\n\n\nAWS Lambda Managed Instances supports C9g, C9gd, M9g, and M9gd instance types in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where both Lambda Managed Instances and these EC2 instances are available. To learn more, visit the[Lambda Managed Instances documentation](https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances.html) and[AWS Lambda pricing](https://aws.amazon.com/lambda/pricing/) .",
+  "published_at": "2026-09-09T18:00:00+00:00",
+  "first_seen_at": "2026-09-10T01:08:06.836077+00:00",
+  "content_hash": "sha256:3390f9027bc5fb6be8d24d0745d3e23f17913cdd7021fa9a4c7a75aad1974733"
+}

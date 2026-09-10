@@ -89,6 +89,16 @@
       "source_kind": "html",
       "summary": "Key Takeaways NetSuite’s Automated Cash Application imports bank lines and matches invoices only when data is clean. Exceptions return to your finance team. Oracle’s own docs confirm NetSuite can import a bank line without matching any customer payment, leaving you to pick the customer and create the payment by hand. NetSuite treats the bank line as its unit of work, so exact amount-and-reference matching stalls when payment data goes incomplete. A lump-sum ACH covering six invoices with a short-pay on two defeats the rule-based matching engine outright. Most B2B payment detail arrives scattered across email, PDFs, or portal exports, data NetSuite’s exact-match logic cannot reconcile alone. NetSuite has no native intelligent exception-handling workflow, so teams often write custom scripts to route failed matches into a queue. Batch bank feeds and separate GL uploads create the daily delays and reconciliation blind spots. Where NetSuite quits before the finish line NetSuite’s Automated Cash Application stops short. It imports bank lines and matches them to open invoices when data is clean, but the moment a payment lacks a clear reference, automation hands the work back to you. That gap is where accounts receivable automation falls apart for most SaaS finance teams.",
       "title": "Why NetSuite and SAP Leave Cash Application Half-Finished"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "ceba1fe9e630f8be6f179432705a66a2aa65291d65ce209c532ac31e57716557",
+      "first_seen_at": "2026-09-09T22:59:03.474183+00:00",
+      "published_at": "2026-09-09T00:37:48+00:00",
+      "source_kind": "html",
+      "summary": "Reasoning and calculation steps: Identified all issues in the provided ARTICLE: grammar/punctuation/spelling errors, unfinished/cut-off sentences, placeholder text (none), large repeated blocks (none), broken markdown (none — all headings/lists/links/images intact), UNGROUNDED CLAIM 1 (“Around 61% of late payments come from customer cash flow constraints rather than disputes or errors” — no matching sources in searches or business context; softened by removing the sentence), UNGROUNDED CLAIM 2 (“The average small US business carries roughly $84,000 in unpaid invoices at any given time” — no matching sources; softened by removing the sentence), UNGROUNDED CLAIM 3 (“Ge (2025) found that AI-based AR methods raised collection efficiency by 18.2%” — no matching sources; removed sentence), UNGROUNDED CLAIM 4 (“teams that automate this routing typically see collectors close out their daily queue 30–40 minutes faster” — no matching sources; removed clause and generalized to “Teams that automate this routing can close out their daily queue faster”).",
+      "title": "Build a Collections Summary That Names Who to Chase Next"
     }
   ],
   "company_key": "yc-blixo",

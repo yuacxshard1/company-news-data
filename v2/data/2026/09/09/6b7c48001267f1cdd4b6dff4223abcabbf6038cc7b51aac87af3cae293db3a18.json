@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6b7c48001267f1cdd4b6dff4223abcabbf6038cc7b51aac87af3cae293db3a18",
+  "company_key": "yc-valuemate",
+  "company_name": "ValueMate",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.valuemate.ai/blog/how-we-engineer-at-valuemate",
+  "canonical_url": "https://www.valuemate.ai/blog/how-we-engineer-at-valuemate",
+  "title": "On Engineering Speed",
+  "summary": "How deep technical experience, AI-assisted development, and a live appraisal operation help us turn real problems into product changes quickly.",
+  "body_markdown": "The speed of an engineering team is often determined before anyone writes code. It depends on how quickly the team can see a real problem, understand it, and know whether the solution actually works.\n\n\nAt ValueMate, we have tried to make that loop as short as possible.\n\n\n## Start with the workflow\n\n\nThis matters especially with UAD 3.6. Legacy appraisal software was built around a largely static form. The new standard is a far more dynamic system, with vastly more fields, dependencies, evidence, and validation. Trying to retrofit all of that into an old architecture tends to produce an underwhelming experience because the software still treats the assignment as a form to fill.\n\n\nWe built ValueMate Studio from the workflow outward. It treats an appraisal as one connected process rather than a collection of fields. That foundation makes it easier to improve one part of the experience without breaking everything around it.\n\n\n## Use AI with judgment\n\n\nAI helps us move faster, but not in the way the phrase “AI coding” sometimes suggests. You cannot drop the enormous UAD 3.6 specification into an AI system, ask it to build appraisal software, and expect a good result. We have heard stories of teams trying. The specification can describe the required data, but it cannot explain everything that happens inside a property, during a difficult report, or after a lender sends a revision.\n\n\nThat knowledge comes from appraisers. Our engineers bring deep backgrounds in AI and software systems, and every engineer on our team has been based in the United States from the beginning. We use AI to accelerate research and implementation after the problem is understood. People still own the plan, the architecture, and the standard of quality.\n\n\n## Keep the loop short\n\n\nVM Appraisals completes the loop. Because our firm runs live orders on ValueMate Studio, engineers do not have to guess how a feature behaves in production. When an issue reaches support, our internal systems assemble the relevant report context, validation state, and technical logs. We can speak with the appraiser, reproduce the problem, test the change against a real workflow, and sometimes release the fix the next day.\n\n\nLarger features follow the same path. We introduce them alongside existing workflows, test them on live assignments, and expand them only when the output is defensible. Speed does not mean asking an appraisal firm to gamble its operation on an unfinished idea.\n\n\nThere is no single trick behind how quickly we build. It is the result of experienced engineers, useful AI tools, and appraisers working close enough together that very little is lost between a problem and its solution.",
+  "published_at": "2026-09-09T00:00:00+00:00",
+  "first_seen_at": "2026-09-09T22:37:21.113260+00:00",
+  "content_hash": "sha256:f16bb137a0f91047ff46995fa0c9fd2d8087daf565fe25444fa7b86d06a212b5"
+}
