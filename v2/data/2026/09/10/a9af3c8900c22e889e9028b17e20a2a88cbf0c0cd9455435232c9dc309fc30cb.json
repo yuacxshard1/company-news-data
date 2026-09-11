@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a9af3c8900c22e889e9028b17e20a2a88cbf0c0cd9455435232c9dc309fc30cb",
+  "company_key": "twilio-inc-class-a-common-stock",
+  "company_name": "Twilio Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.twilio.com/en-us/blog/developers/twilio-openai-gpt-live-1-api-resources",
+  "canonical_url": "https://www.twilio.com/en-us/blog/developers/twilio-openai-gpt-live-1-api-resources",
+  "title": "Build Voice AI Experiences with Twilio and GPT-Live-1 in the OpenAI API",
+  "summary": "Build real-time voice AI Agents with Twilio and GPT-Live-1 in the OpenAI API with these tutorials, sample apps, and more.",
+  "body_markdown": "Real-time voice AI requires more than fast models, it requires production-grade infrastructure to reach customers where they are. With OpenAI’s[launch of their speech-to-speech model GPT-Live-1 in the OpenAI API](https://openai.com/index/introducing-gpt-live-1-in-the-api/) , developers now have access to a new standard for real-time speech and reasoning. But bringing that intelligence into real customer interactions means connecting it seamlessly to existing channels, preserving context, and scaling reliably.\n\n\nTo bridge that gap, we’re introducing a new integration between[Twilio Agent Connect](https://www.twilio.com/docs/conversations/agent-connect) and GPT-Live-1. Our SDK connects OpenAI’s voice models directly to Twilio’s Voice and Conversations layer without requiring custom turn-taking, audio streaming, interruption handling, or cross-channel state tracking. OpenAI provides advanced real-time speech-to-speech intelligence in GPT-Live-1, while Twilio brings the trusted communications platform, global voice carrier network, and scale needed to run customer conversations reliably in production. By taking care of the complex last-mile orchestration, Agent Connect lets you integrate real-time AI in just a few configuration steps, saving developer time so you can deliver personalized, context-aware customer experiences that remember history across every channel.\n\n\nEverything you need to build, test, and deploy real-time voice applications is right here. Dive into our tutorials, clone the example repos, and check out the documentation below. Grab your free Twilio account, start building, and show us what you create!\n\n\n## Integrate Twilio and OpenAI's GPT-Live API with Twilio Agent Connect\n\n\nTwilio Agent Connect now includes a native GPTLiveProvider that connects Twilio Voice Media Streams directly to GPT-Live-1 in the OpenAI API, with no custom WebSocket plumbing required. Together, Twilio and GPT-Live let you build natural, production-ready voice AI experiences with interruption handling, turn-taking, and tool delegation.",
+  "published_at": "2026-09-10T00:00:00+00:00",
+  "first_seen_at": "2026-09-11T11:46:17.809852+00:00",
+  "content_hash": "sha256:a1a955601c3519071531696d069576bc240f6a5c87a6ef84c6e9cb0c28fc5750"
+}

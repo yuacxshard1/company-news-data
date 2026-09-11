@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4b2a235d6e71a9c804168e7b5d87a79f39ae2da33c739e03289c36304be84d06",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/self-host-deepseek-r1-for-private-automation-2026",
+  "canonical_url": "https://www.activepieces.com/blog/self-host-deepseek-r1-for-private-automation-2026",
+  "title": "Self-Host DeepSeek R1 for Private Automation (2026)",
+  "summary": "Private infrastructure deployment keeps sensitive reasoning tasks and proprietary data behind your own firewall.",
+  "body_markdown": "## Step 3: Connect DeepSeek to your business stack with Activepieces\n\n\nEvery credential Activepieces touches (API keys, OAuth tokens, and the connection secrets for the 734 integrations in the MIT-licensed core) can be kept in credentials held centrally, ensuring that sensitive authentication data remains under your direct administrative control, thereby minimizing the risk of third-party exposure, as no external service ever gains direct access to your private keys, which means you retain full sovereignty over your entire automation ecosystem.\n\n\nUnlike cloud-only tools like Zapier or Make, this allows you to trigger DeepSeek-R1 inferences from internal events without any vendor ever holding the credentials your business runs on.\n\n\nBy self-hosting this automation engine alongside your model, you eliminate the privacy risk where third-party integrators would otherwise log your payload metadata.\n\n\n### Create an HTTP request trigger\n\n\nWhen you establish an HTTP Hook, the workflow begins. Setting this trigger to private network visibility ensures that your ERP or CRM data never leaves your local infrastructure.\n\n\n### Validate authorized requests\n\n\nOnce the hook receives a POST request, the automation engine captures the raw JSON payload, allowing you to validate that only authorized internal IP addresses are initiating tasks.\n\n\n### Map data to the DeepSeek API schema\n\n\nInsert an HTTP Request integration configured to point at your local DeepSeek inference endpoint. This step requires mapping incoming business data into the specific \"messages\" array format required by the model.\n\n\n### Control model parameters\n\n\nBy defining these parameters locally, you maintain strict control over \"temperature\" and \"top_p\" settings, preventing the model from hallucinating creative answers during technical analysis.\n\n\n### Parse reasoning tokens for downstream actions\n\n\nThe final step uses a Script integration to separate the model’s internal Chain-of-Thought reasoning from the final answer. Extracting the text between the \"thought\" tags allows you to log the model’s logic to an internal audit trail.\n\n\n### Maintain clean data states\n\n\nYou can then send only the concise result to the next application in your stack. This ensures that complex internal logic doesn't clutter final customer-facing reports or database entries.",
+  "published_at": "2026-09-11T08:41:04+00:00",
+  "first_seen_at": "2026-09-11T09:03:50.423370+00:00",
+  "content_hash": "sha256:36ca08751c98007708f583085d41db92b4b8868c7778cc426474259e281462b8"
+}
