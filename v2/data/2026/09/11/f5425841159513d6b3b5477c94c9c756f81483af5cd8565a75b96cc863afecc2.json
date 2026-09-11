@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f5425841159513d6b3b5477c94c9c756f81483af5cd8565a75b96cc863afecc2",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
+  "canonical_url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
+  "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+  "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2609.03377v1)\n\n\nProteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of understanding this intrinsically multi-modal relationship is crucial for fields like drug discovery and protein engineering. Existing models often rely on a multi-stage training process where autoencoders that tokenize data into latent representations are trained in a first stage. Secondly, a generative model is trained on the latent representation of the autoencoder(s), i.e. generative modeling in a latent space. We hypothesize that this multi-stage training is not necessary to obtain performant co-design models and thus present SimpleDesign, an effective multi-modal protein design model trained directly in the data space. SimpleDesign leverages a single-stage end-to-end objective that combines discrete cross-entropy for sequences and a regression objective for structures. In order to effectively model the difference in sequence and structure modalities, we instantiate the framework with Transformer-based multimodal backbones that allows modality-specific processing while keeping global self-attention over both modalities. We train SimpleDesign on over 2M sequence-structure pairs achieving competitive performance across co-design and unconditional sequence/structure generation benchmarks.\n\n\n- † Mila, Université de Montréal\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-09-11T20:04:56.474057+00:00",
+  "content_hash": "sha256:ae2e0a0f9d72aa19e615d98fe83bb4670bdb7276801a089323d3a4908c6f59ce"
+}

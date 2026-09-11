@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8d64e1c0bc580e476aac18fe193c0b637a5d87d97e90a33c083f44e9c649068a",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/video-caption-quality",
+  "canonical_url": "https://machinelearning.apple.com/research/video-caption-quality",
+  "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
+  "summary": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2609.09973)\n\n\nEvaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matching generated text against ground-truth references. This paradigm suffers from the “one-to-many” nature of video description, where high-quality captions are often penalized for lexical mismatches or valid shifts in visual focus. Furthermore, such assessments are typically one-dimensional, failing to provide a fine-grained analysis of caption quality. To address this, we redefine caption quality via information fidelity: A caption must maximize the coverage of salient visual information while ensuring strict factuality. We introduce CapQuiz, a novel reference-free benchmark that assesses captions based on their utility in answering human-verified, fine-grained, multiple-choice questions derived from the video. CapQuiz features a hierarchical taxonomy of 10 question types (spanning Descriptive and Inferential categories) across 24 diverse video domains. We further formulate CapF1, a composite metric that synthesizes CapP (measuring factuality) and CapR (measuring coverage). Extensive experiments demonstrate that CapQuiz correlates significantly better with human judgments than existing metrics and offers interpretable insights into model performance.\n\n\n- † MBZUAI Institute of Foundation Models\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-09-11T20:04:56.474057+00:00",
+  "content_hash": "sha256:4c639194f5f1397cddac005c238639bfe61f9b2f995503ab6d9958995d51c0a0"
+}

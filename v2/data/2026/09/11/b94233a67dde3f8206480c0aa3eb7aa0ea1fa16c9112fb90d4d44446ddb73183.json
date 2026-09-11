@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b94233a67dde3f8206480c0aa3eb7aa0ea1fa16c9112fb90d4d44446ddb73183",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/chatgpt-apps-sdk-how-to-build-business-workflows",
+  "canonical_url": "https://www.activepieces.com/blog/chatgpt-apps-sdk-how-to-build-business-workflows",
+  "title": "ChatGPT Apps SDK: How to Build Business Workflows",
+  "summary": "The ChatGPT Apps SDK enables developers to connect conversational interfaces directly to internal company tools and private databases.",
+  "body_markdown": "## Chatgpt SDK as a software front-end\n\n\n### Defining the App manifest and OpenAPI specification\n\n\nThrough a manifest file and an OpenAPI specification, the SDK functions as a bridge between human intent and machine execution. This setup allows the LLM to understand exactly which endpoints it can hit.\n\n\nAccording to research by[Node8](https://node8.ai/ai-connectors/) , there are currently 2,289 connectors available for ChatGPT, offering users an expansive ecosystem of tools to integrate directly into their workflows, which means the potential for complex automation is vast.\n\n\nWith nearly double the integration reach of its closest competitor, Claude (which sits at 1,253 connectors), the platform remains the primary choice for businesses requiring deep connectivity across diverse software stacks.\n\n\nOnly 392 connectors are shared by both platforms, according to[Node8](https://node8.ai/ai-connectors/) , so switching between the two services would require a significant overhaul of an organization's existing technical infrastructure.\n\n\n### How the LLM decides which tool to call\n\n\nWhen a user submits a request, the LLM parses the intent against the function descriptions provided in your OpenAPI spec to select the correct tool.\n\n\nIt matches the parameters of your prompt to the required fields of your API. The moment a integration is connected in Activepieces, an agent can call it; the platform exposes its 734+ integrations as a per-project MCP server reachable from ChatGPT, Claude, or Cursor.\n\n\nIf I ask to \"check the status of invoice #402,\" the model identifies the \"GetInvoice\" function from the manifest. It then extracts \"402\" as the variable and executes the call.\n\n\n### The difference between the SDK and the Assistants API\n\n\nWhile the ChatGPT SDK is designed for building tools that live inside the ChatGPT UI, the Assistants API is for developers who want to embed that same intelligence into their own proprietary applications.\n\n\nBy choosing the SDK, you leverage OpenAI’s existing hosting and user authentication. It reduces your deployment time from weeks to minutes because you aren't building a custom chat container.\n\n\nOnly the Assistants API tier allows for a completely white-labeled experience where the user never sees an OpenAI logo.",
+  "published_at": "2026-09-11T20:28:38+00:00",
+  "first_seen_at": "2026-09-11T21:28:01.612741+00:00",
+  "content_hash": "sha256:b0b67bd67ad3b8e701a685956f3c82e9cb462e11bfed2ec0969cad931c95cf53"
+}

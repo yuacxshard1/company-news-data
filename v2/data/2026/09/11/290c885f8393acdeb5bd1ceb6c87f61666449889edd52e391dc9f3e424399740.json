@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "290c885f8393acdeb5bd1ceb6c87f61666449889edd52e391dc9f3e424399740",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
+  "canonical_url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
+  "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
+  "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2609.02796)\n\n\nSign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for discourse-aware text to sign language gloss translation grounded in linguistic research. We address three key phenomena within our modular Large Language Model (LLM)-based translation framework: (i) spatial coreference resolution, where entities maintain consistent spatial locations throughout discourse; (ii) Question-Answer Clauses (QACs), pseudocleft structures serving specific discourse functions; and (iii) concept-gloss consistency, ensuring stable mappings between English concepts and American Sign Language (ASL) signs. Traditional translation metrics fail to capture discourse-level quality, so we introduce a suite of novel evaluation metrics designed to assess each dimension of discourse coherence addressed by our framework. Experiments on sentence-level and discourse-level datasets show that our approach for discourse-aware processing significantly improves spatial consistency and entity tracking relative to sentence-only translation, while maintaining competitive single-sentence gloss translation quality. Our work establishes the first systematic framework for discourse-level text to sign language gloss translation with corresponding evaluation methodology.\n\n\n- ‡ Equal contribution\n- † Northeastern University\n- § Gallaudet University\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-09-11T20:04:56.474057+00:00",
+  "content_hash": "sha256:c429f591087f7f5f7dfea6b968054a7e117a77a15d72cdfc80fab81c9118d743"
+}

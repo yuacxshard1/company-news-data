@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7420271f95107fa260e3389d03c35bc189801b930387a3be61ad1eceed6aaec3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+  "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+  "body_markdown": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes.\n\n\nWhen running LLM inference at scale for workloads like chat assistants, agentic pipelines, RAG, and document analysis, cold start is a real bottleneck. Deployments and scale-out events spend most of their time downloading container images and model weights. As model size increases, this gets worse, with large models taking tens of minutes before they can serve traffic.\n\n\nModel caching solves this with two independent capabilities. The weights cache stores model weights on local NVMe so pods read from fast local storage instead of pulling from S3 or FSx over the network. The image cache pre-pulls the container image so pods skip the ECR download entirely. If a pod lands on a node without a warm cache, it falls back to pulling from the original source automatically, so there is no risk of pods getting stuck or failing.\n\n\nBenchmarks across models from 57 GB to 145 GB show around 60% faster scale-out, and the image cache cuts over two minutes of image-pull time (97% reduction). The benefit grows with model size while retaining the reliability of the original source path.\n\n\nCustomers enable model caching through the HyperPod Inference Operator by adding a modelCacheConfig section to their InferenceEndpointConfig or JumpStartModel resource. The operator handles the full lifecycle with no manual setup or cleanup.\n\n\nModel caching is now generally available in all regions where SageMaker HyperPod is available. To get started, see the[SageMaker HyperPod documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-model-deployment-model-caching.html) .",
+  "published_at": "2026-09-11T18:25:00+00:00",
+  "first_seen_at": "2026-09-11T22:32:59.734644+00:00",
+  "content_hash": "sha256:c9f30379a30862e33a7a91be10e9e2939269a5b67623aafd33427c3bbbcd5ea9"
+}

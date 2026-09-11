@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4856d59fd7d65ee6f104ac83a28e057e72da086dae7691eb3c7b27b4b5d10062",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+  "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
+  "body_markdown": "[Amazon Relational Database Service (Amazon RDS) for Oracle](https://aws.amazon.com/rds/oracle/) now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai.\n\n\nStarting with April 2026 releases, the Oracle Spatial Patch Bundle has been renamed to Supplemental Patch Bundle (SPB). The SPB includes additional database patches recommended by Oracle for specific use cases, such as Oracle Spatial, Oracle Data Pump, and Oracle GoldenGate. For details, see[Release Updates (RUs) and Supplemental Patch Bundles (SPBs).](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Minor.html#RUs-and-SPBs)\n\n\nYou can apply the Supplemental Patch Bundle update for new database instances, or upgrade existing instances to engine version 19.0.0.0.ru-2026-07.spb-1.r1 or 26.0.0.0.ru-2026-07.spb-1.r1 by selecting the \"Supplemental Patch Bundle Engine Versions\" checkbox in the AWS Console. To learn more about Oracle SPBs supported on Amazon RDS for each engine version, see the[Amazon RDS for Oracle Release notes](https://docs.aws.amazon.com/AmazonRDS/latest/OracleReleaseNotes/Welcome.html) .\n\n\nYou can also use AWS Organizations upgrade rollout policy to stagger automatic minor version upgrades for your Amazon RDS database instances. This feature allows you to automatically apply updates to non-production environments, validate the updates, and then automatically apply the same update to production environments. For additional details about using AWS Organizations upgrade rollout policy for automatic minor version upgrades, refer to[Amazon RDS for Oracle documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Minor.html#oracle-minor-version-upgrade-rollout) .",
+  "published_at": "2026-09-11T07:12:00+00:00",
+  "first_seen_at": "2026-09-11T22:32:59.734644+00:00",
+  "content_hash": "sha256:ce57d6f4ce3388d3ae9684addccbed9d2174c28188d9fc9ca6071e64f435eecf"
+}

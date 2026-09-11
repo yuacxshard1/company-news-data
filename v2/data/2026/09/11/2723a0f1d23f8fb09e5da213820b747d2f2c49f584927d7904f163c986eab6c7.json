@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2723a0f1d23f8fb09e5da213820b747d2f2c49f584927d7904f163c986eab6c7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+  "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
+  "summary": "Discover more about what's new at AWS with AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
+  "body_markdown": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, network throughput, and ephemeral storage usage.[AWS HealthOmics](https://aws.amazon.com/healthomics/) is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows.\n\n\nReal-time run metrics can help you identify CPU or GPU bottlenecks, detect memory or storage exhaustion before a task fails, and track file system throughput, all without opening a support case. By comparing actual usage against allocated resources, you can right-size the compute and storage configurations for your workflows. These metrics are emitted using the Amazon CloudWatch OpenTelemetry standard, so you can integrate them with third-party observability tools in addition to native CloudWatch dashboards and alarms.\n\n\nReal-time run metrics are now available in the following AWS HealthOmics Regions: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), and Asia Pacific (Singapore, Seoul, Tokyo). To learn more, visit the[Monitoring run metrics with CloudWatch](https://docs.aws.amazon.com/omics/latest/dev/monitoring-run-metrics.html) documentation. Amazon CloudWatch charges for these run metrics based on the volume of metric data ingested. For more information on pricing, visit[Amazon CloudWatch pricing](https://aws.amazon.com/cloudwatch/pricing/) .",
+  "published_at": "2026-09-11T15:00:00+00:00",
+  "first_seen_at": "2026-09-11T22:32:59.734644+00:00",
+  "content_hash": "sha256:5a38d16d647393f6345e0d3c996105b828e48f992d7680f2f4936a1e93d98668"
+}

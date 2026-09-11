@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b9b6c90b9bd341339ab20767967d5dad59892cedf86912fe92d4a543cc08212c",
+  "company_key": "yc-growthbook",
+  "company_name": "GrowthBook",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.growthbook.io/blog/introducing-eu-data-residency",
+  "canonical_url": "https://www.growthbook.io/blog/introducing-eu-data-residency",
+  "title": "Introducing EU data residency for GrowthBook Cloud",
+  "summary": "Store event data in the EU with a Managed Warehouse on GrowthBook Cloud",
+  "body_markdown": "GrowthBook Cloud now supports an EU data region. When you set up a[Managed Warehouse](https://docs.growthbook.io/app/managed-warehouse#managed-warehouse) , choose` AWS eu-west-1 (Ireland)` and your event data is ingested and stored in the EU.\n\n\nGrowthBook’s[warehouse-native](https://www.growthbook.io/platform/warehouse-native) architecture has always let you keep your event data in the EU, whether you bring an EU-based warehouse or fully self-host the platform.\n\n\nNow, you have a new option. Choose a GrowthBook Managed Warehouse and keep your event data in the EU while getting the easy setup and low maintenance of a managed data warehouse. What crosses the border is configuration metadata and aggregate results.\n\n\n## What stays in the EU and what doesn’t\n\n\n- **In the EU:** event ingestion and event storage in your managed ClickHouse warehouse.\n- **Still in the US:** the GrowthBook application itself: login, the UI, your configuration, and computed experiment results.\n- **Already covered:** if you connect your own warehouse, GrowthBook never receives your event data in the first place. This release is for teams that want us to host it.\n\n\n## What you get with a Managed Warehouse\n\n\n- **One click to provision.** There is no warehouse to procure, no cluster to size, and no pipeline to build before your first experiment.\n- **Configured for experimentation on arrival.** You get tables for events, experiment exposures, and feature flag usage, a pre-built Events fact table, three starter metrics, and default identifiers and dimensions for country, browser, OS, device type, and UTM parameters.\n- **Tracking built into the SDKs.** Tracking plugins ship with the JavaScript, React, Node.js, Python, Java, PHP, Go, and Flutter SDKs, or you can post to the ingestion API directly. Events are enriched with geoIP and user agent data and are queryable within seconds.\n- **Raw SQL access.** Query your event data in SQL Explorer and write your own metrics with SQL, the same as you would against a warehouse you run yourself.\n\n\n## How to get started\n\n\nWhen you create a Managed Warehouse or set up an[Event Forwarder](https://docs.growthbook.io/app/event-forwarder) , pick the EU data region. The setup snippets in the app will point your SDK at the EU ingestion endpoint.\n\n\nYour Data Protection Addendum and Standard Contractual Clauses remain unchanged. The EU region is available for every GrowthBook Cloud plan.\n\n\nIf you’ve been waiting on data residency to move forward with GrowthBook,[talk to us](https://www.growthbook.io/demo) . We’d love to help you out.",
+  "published_at": "2026-09-11T00:00:00+00:00",
+  "first_seen_at": "2026-09-11T17:45:14.379635+00:00",
+  "content_hash": "sha256:d38c96c56899440da02a42b7189857acc03b1b649e5a48609dae889b303b1085"
+}
