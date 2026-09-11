@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "53cad0a2c43d013642b5f4af16d080f5c21865cec1d48475fdb0bfce84519bb5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
+  "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
+  "summary": "Discover more about what's new at AWS with Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
+  "body_markdown": "[Amazon Elastic Container Service](https://aws.amazon.com/ecs/) (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consistent CPU and memory limits across all methods of launching ECS tasks. This helps organizations prevent unexpected cost overruns and keep workloads aligned with their resource policies.\nPreviously, the ecs:task-cpu and ecs:task-memory condition keys were available only on the RegisterTaskDefinition, CreateService, and UpdateService APIs. These condition keys are now extended on the RunTask and StartTask APIs. Now, IAM policies that reference these condition keys are evaluated when tasks are launched through RunTask and StartTask as well, giving administrators a single, unified mechanism to control resource allocation across their ECS environments.\n\n\nThis enhancement is available in all AWS Regions where Amazon ECS is available, at no additional cost. To learn more about using condition keys with Amazon ECS, refer to our[documentation](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonelasticcontainerservice.html) .",
+  "published_at": "2026-09-10T16:52:00+00:00",
+  "first_seen_at": "2026-09-11T01:26:21.963517+00:00",
+  "content_hash": "sha256:3f13086183df20021c018add2341915d0a1661b9bf9b4befbe81fe59eae958af"
+}

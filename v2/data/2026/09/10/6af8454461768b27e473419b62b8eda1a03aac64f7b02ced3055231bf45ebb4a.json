@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6af8454461768b27e473419b62b8eda1a03aac64f7b02ced3055231bf45ebb4a",
+  "company_key": "yc-airbyte",
+  "company_name": "Airbyte",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://airbyte.com/blog/data-worker-capacity-charts-and-audit-logs",
+  "canonical_url": "https://airbyte.com/blog/data-worker-capacity-charts-and-audit-logs",
+  "title": "What's New: Data Worker Capacity Charts and Audit Logs",
+  "summary": "Track Data Worker capacity with new charts and gain greater visibility into activity with detailed audit logs for easier monitoring and governance.",
+  "body_markdown": "We shipped a couple of quality of life improvements for our enterprise customers this week, and we think they’ll make a big impact.\n\n\nAvailable now on Airbyte Pro and Enterprise Flex: redesigned data worker capacity charts and audit logging.\n\n\n## **Data worker capacity charts with real visibility**\n\n\nIf you're on a Pro or Enterprise Flex plan, your organization runs on a contracted number of data workers. One of the frequent requests we heard from you was that it was very difficult to actually track data worker usage, and that you needed more visibility. The previous solutions for data worker monitoring simply weren’t working well enough.\n\n\nThat's fixed. The new charts give you:\n\n\n- **Accurate utilization data.** The numbers reflect your real consumption, not an approximation.\n- **Up to a year of history.** Scroll back to see how your usage has changed over time.\n- **Period-over-period comparison.** Compare utilization across different time windows to spot trends and plan ahead.\n- **Fast load times.** The charts render quickly, even with months of data.\n\n\nAnd it doesn’t stop here!\n\n\nWe’re planning to continue shipping new features, such as regional capacity enforcement and self-serve allocation. This will let you distribute data workers across regions in your organization without having to work with Airbyte staff directly.\n\n\n## **Audit logs for Pro and Enterprise Flex**\n\n\nThis is a big one for compliance and security.\n\n\nOrganization admins can now view an immutable record of who did what in their Airbyte organization. Every time someone creates a connection, changes a permission, updates a source, or modifies a single sign-on configuration, Airbyte writes a log entry that captures:\n\n\n- Who performed the action\n- What operation they ran\n- When it happened\n- Whether it succeeded\n\n\nThese logs exist to simplify some of the most important enterprise compliance requirements. These include investigating an unexpected configuration change, reviewing admin activity before a compliance review, or giving auditors evidence of your governance controls.\n\n\nAudit logs are available now on Pro and Enterprise Flex plans.[Read the docs.](https://docs.airbyte.com/platform/access-management/audit-logs)\n\n\n## **Who gets these features**\n\n\nBoth updates are available to Pro and Enterprise Flex customers today. If you're on a different plan and want access,[check out Airbyte's pricing](https://airbyte.com/pricing) to find the right fit.",
+  "published_at": "2026-09-10T08:04:00+00:00",
+  "first_seen_at": "2026-09-11T00:04:35.790283+00:00",
+  "content_hash": "sha256:415bdb1cdbfbb4ee9adaef437be8905771f7a755d784be8f5ae7f0d3cfc6544f"
+}

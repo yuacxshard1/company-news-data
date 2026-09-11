@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "89574dae56bcbbf95d9bec41eb7b1a5e4c748650dae9bea0761357cb87a92679",
+  "company_key": "a10-networks-inc-common-stock",
+  "company_name": "A10 Networks Inc.",
+  "category_key": "telecommunications-1d2eb916fd243aab",
+  "category_name": "Telecommunications",
+  "source_kind": "rss",
+  "url": "https://www.a10networks.com/blog/trojai-and-wiz-closing-the-loop-on-ai-security/",
+  "canonical_url": "https://www.a10networks.com/blog/trojai-and-wiz-closing-the-loop-on-ai-security/",
+  "title": "TrojAI and Wiz: Closing the Loop on AI Security",
+  "summary": "Learn how to secure AI applications from prompt injection, model abuse and data leakage. Explore best practices for protecting enterprise AI systems.",
+  "body_markdown": "The TrojAI and Wiz integration is a closed-loop AI security workflow that connects Wiz’s AI asset discovery with TrojAI’s automated red teaming and runtime protection. Wiz identifies and inventories AI models and endpoints across the environment, TrojAI ingests that inventory to test for vulnerabilities, and the findings are pushed back into Wiz to enrich its security graph with AI-specific risk context.\n\n\nThe integration addresses the three core gaps enterprises face: lack of AI asset visibility, inability to test models for real-world vulnerabilities, and no unified way to prioritize and remediate risks. By combining Wiz’s cloud and AI visibility with TrojAI’s security testing and runtime enforcement, security teams gain continuous coverage from discovery through protection, eliminating the blind spots that fragmented tools leave behind.\n\n\nWiz scans the enterprise environment to identify and inventory AI models and endpoints, providing a comprehensive map of the AI estate. This inventory is then shared with TrojAI, enabling automated security testing against every discovered asset. Findings from TrojAI are pushed back into Wiz, where they are correlated with cloud infrastructure context to help teams identify real attack paths and prioritize remediation.\n\n\nTrojAI pulls the AI asset inventory from Wiz and runs automated, agent-led red teaming against each discovered model or endpoint — testing for risks like prompt injection, data leakage, jailbreaks, and unsafe behavior. The results are then pushed back into Wiz’s security graph, enriching it with AI-specific findings that can be correlated with broader cloud risk context for accurate prioritization.\n\n\nThe integration is available through the Wiz Integrations Marketplace.[Visit the TrojAI integration page on Wiz](https://www.wiz.io/integrations/trojai) to get started. For guided onboarding or to learn more about how the integration fits your environment, you can also[book a demo](https://www.a10networks.com/how-to-buy/request-demo/) with the TrojAI team.",
+  "published_at": "2026-09-08T10:45:47+00:00",
+  "first_seen_at": "2026-09-10T23:37:57.614486+00:00",
+  "content_hash": "sha256:6eb2b63bcf37d74543a6756b376bc5b22ca018e9a63f39073b2753b56c295caa"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "18a914b0582533b3ede6666e4d3cfc811d137d9aa3d9ec6b6bd170a70c817606",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
+  "title": "AWS Transform for .NET now generates unit tests for modernized code",
+  "summary": "Discover more about what's new at AWS with AWS Transform for .NET now generates unit tests for modernized code",
+  "body_markdown": "Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in your transformed .NET application, such as business logic and controllers, giving you an automated test safety net on the modernized code as part of the same job that performs the migration.\n\n\nModernizing a .NET Framework application to modern .NET produces a transformed, buildable codebase, but teams previously had to write test coverage for that modernized code by hand. With this launch, AWS Transform assesses your application for testability in parallel with the standard .NET assessment, plans which classes and methods to cover, and generates the corresponding unit test code, so you complete the migration with tests already in place. Unit test generation is opt-in: you can enable it at the start of a job or after transformation completes.\n\n\nUnit test generation for AWS Transform for .NET is supported in the AWS Toolkit for Visual Studio extension. It is available in all AWS Regions where AWS Transform for .NET is supported. To get started, run a .NET transformation with AWS Transform for .NET in Visual Studio and choose to generate unit tests. To learn more, refer to[Modernizing .NET in the IDE](https://docs.aws.amazon.com/transform/latest/userguide/dotnet-ide.html) in the AWS Transform User Guide.",
+  "published_at": "2026-09-10T20:00:00+00:00",
+  "first_seen_at": "2026-09-11T01:26:21.963517+00:00",
+  "content_hash": "sha256:d573d62fcf415f96afd8ba060a1140894b52e15aafca401aa8f69c0f180e8d79"
+}
