@@ -13,12 +13,42 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
+      "doc_id": "40a20c87633aa84d79869bb41e94ed3c9ffc9977a604a0c14d213f367d6f1313",
+      "first_seen_at": "2026-09-11T06:11:50.830822+00:00",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Every fee increase on a mortgage either fits a valid changed circumstance or the lender eats it at closing. The disclosure desk is where that determination gets made, on a three-business-day clock, and it is one of the highest-defect functions in origination. Where an AI agent sits in the redisclosure process, what it computes, the tolerance baseline it is allowed to reset, and the line between a documented changed circumstance and a manufactured one.",
+      "title": "The Disclosure Desk: Change of Circumstance, the Redisclosure Clock, and What an AI Agent Is Allowed to Reset"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "62d70001b734a30d3c441664d011d85962d7818db1c491c9efddbad964b90eea",
+      "first_seen_at": "2026-09-11T06:11:50.830822+00:00",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "An eNote is only worth anything if it stays negotiable, and negotiability depends on a single authoritative copy whose controller is recorded in the MERS eRegistry. That makes the electronic close a place where software can add real speed and destroy real value in the same motion. What an AI closing agent should orchestrate, what it verifies against the eRegistry, and the one thing it must never touch: the authoritative copy itself.",
+      "title": "eClosing, the eNote, and the MERS eRegistry: The Boundary an AI Closing Agent Cannot Cross"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
       "doc_id": "87781ce8d47aefd3ac97a40431443443e294d110075cd8a64ac42ffc014da50e",
       "first_seen_at": "2026-09-09T08:09:53.289288+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "Most mortgage AI fails not at the model but at the integration. How we run an AI agent against a loan origination system without corrupting the system of record. The propose-then-record pattern, idempotent write-backs, MISMO field mapping, and the change log an examiner will ask for under SR 11-7.",
       "title": "AI Agents Inside the LOS: The System-of-Record Boundary, the Write-Back Discipline, and the Audit Trail That Survives an Exam"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "a846a6bbd4d5b86586d729f2aad3ed781f53f46766cd963abe446fba97068b5b",
+      "first_seen_at": "2026-09-11T06:11:50.830822+00:00",
+      "published_at": "2026-09-11T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When servicing transfers, thousands of loans board onto a new platform through a data map, and the map is where borrower harm gets built in: a wrong escrow balance, a dropped trial payment plan, an ARM index that boarded wrong. Boarding QC on a sample misses the loan that fails. Where an AI agent reconciles the boarding tape against the source records at full coverage, how it ranks mismatches by borrower-harm risk, and why the correction stays a governed act.",
+      "title": "Loan Boarding QC: The Data-Mapping Defects an AI Agent Catches When Servicing Transfers"
     },
     {
       "company_key": "yc-sei",
@@ -39,6 +69,26 @@
       "source_kind": "rss",
       "summary": "Regulation B 1002.14 makes a lender deliver every appraisal and written valuation to the applicant promptly upon completion, and the duty survives a denial or withdrawal. How an AI origination agent tracks valuation-completion events, delivers to the primary applicant, captures a valid waiver, and keeps the free-copy rule from turning into a fee complaint.",
       "title": "The Appraisal-Copy Rule Runs on Its Own Clock: Delivering Valuations Under ECOA 1002.14 With an AI Agent, Even When the Loan Is Denied"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "c8a2be900f99adc8dd86c771e5cb652718ff8c0612753890508fff8664163414",
+      "first_seen_at": "2026-09-11T06:11:50.830822+00:00",
+      "published_at": "2026-09-09T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The lock desk moves fast and touches price, which makes it two things at once: an operations bottleneck and a fair-lending exposure. Rate locks, extensions, relocks, and worst-case pricing are rule-bound math an agent can run. Pricing exceptions are discretion, and discretion is exactly what fair-lending exams sample. Where an AI agent runs the lock lifecycle, how it enforces the exception-approval trail, and why the reason code on a concession matters more than the concession.",
+      "title": "The Lock Desk: AI for Rate Locks, Extensions, and the Pricing-Exception Trail Fair-Lending Examiners Follow"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "f83af4fe6d70afd11747a95a6c309ca3a696ad43641126feaa338f7f5b98938c",
+      "first_seen_at": "2026-09-11T06:11:50.830822+00:00",
+      "published_at": "2026-09-11T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Most mortgage AI deployments fail at the start, when the agent goes live before the controls that make it safe exist. The first 90 days are a control build, not a rollout. What we run in shadow mode before the agent touches a file, why the go-live gate is set per control instead of globally, and how deploying controls-first is also the posture an examiner expects to see.",
+      "title": "The First 90 Days of a Mortgage AI Deployment: The Controls We Stand Up Before the Agent Touches a Live File"
     },
     {
       "company_key": "yc-sei",

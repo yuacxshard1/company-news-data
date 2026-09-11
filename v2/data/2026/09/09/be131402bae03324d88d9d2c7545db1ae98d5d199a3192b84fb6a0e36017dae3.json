@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "be131402bae03324d88d9d2c7545db1ae98d5d199a3192b84fb6a0e36017dae3",
+  "company_key": "yc-embedder",
+  "company_name": "Embedder",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://embedder.com/news/embedder-joins-the-zephyr-project",
+  "canonical_url": "https://embedder.com/news/embedder-joins-the-zephyr-project",
+  "title": "Embedder Joins the Zephyr Project",
+  "summary": "After helping multiple customers migrate from FreeRTOS to Zephyr, Embedder joins the project to support its growing developer community. SAN FRANCISCO, Sept....",
+  "body_markdown": "*After helping multiple customers migrate from FreeRTOS to Zephyr, Embedder joins the project to support its growing developer community.*\n\n\n**SAN FRANCISCO, Sept. 10, 2026**\n\n\nEmbedder, an AI coding agent built for embedded software engineering, today announced it has officially joined the Zephyr Project.\n\n\nZephyr is an open-source real-time operating system designed for resource-constrained devices, from sensors and wearables to industrial controllers. It brings together a kernel, device drivers, connectivity stacks, and development tools, giving engineers a common foundation for building firmware across a wide range of hardware.[Learn more about Zephyr](https://docs.zephyrproject.org/latest/introduction/index.html) .\n\n\nFor teams considering a migration, that shared foundation is a major draw. As products add connectivity, support more hardware variants, and grow more complex, maintaining separate drivers and platform integrations can consume an increasing share of engineering time. Zephyr’s integrated subsystems and consistent driver model can help reduce that work and make more application code reusable across devices.\n\n\nMigrating existing firmware still takes significant effort. Teams must adapt application code, configure peripherals, resolve build issues, and verify that the system behaves correctly on hardware. Zephyr also introduces concepts such as devicetree, which describes the hardware, and Kconfig, which selects the software features included in a build.[Zephyr’s configuration documentation](https://docs.zephyrproject.org/latest/build/dts/dt-vs-kconfig.html) explains how these work together.\n\n\nEmbedder has already helped multiple customers migrate from FreeRTOS to Zephyr. Its agent helps engineers understand existing firmware, make code changes, and work through build and debugging cycles. With direct access to target hardware through supported debug probes, Embedder can also flash builds, inspect device state, and investigate runtime failures—helping shorten the path from a code change to working firmware.\n\n\nJoining the Zephyr Project builds on that experience. Embedder looks forward to working with the community and helping more teams adopt Zephyr, accelerate development, and bring new embedded products to life.",
+  "published_at": "2026-09-09T15:00:00+00:00",
+  "first_seen_at": "2026-09-11T06:00:32.819520+00:00",
+  "content_hash": "sha256:4fcb9802677b4d4e5eebd6fbfb47953eb5a9627d9ef352d0a6787900c346c29b"
+}
