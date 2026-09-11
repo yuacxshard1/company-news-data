@@ -3,12 +3,42 @@
     {
       "company_key": "yc-jinba",
       "company_name": "Jinba",
+      "doc_id": "0282dc56aa35e1efca79c82910c4a8d093d0e92a9dbd2ccafab264a50370b2d9",
+      "first_seen_at": "2026-09-11T16:26:09.352130+00:00",
+      "published_at": "2026-09-11T14:09:48.417+00:00",
+      "source_kind": "html",
+      "summary": "Fulfillment and accounting teams working from stale data is a process problem. This guide shows how to sync Shopify orders into Jinba Flow using the orders/create webhook, route paid orders to fulfillment, and post to accounting automatically.",
+      "title": "How to Sync Orders from Shopify into a Jinba Workflow"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "144e44c3df2bdb3302d314d86aef0b20b8203325df6d32d03ac76be13442bdaf",
+      "first_seen_at": "2026-09-11T16:26:09.352130+00:00",
+      "published_at": "2026-09-11T13:51:31.683+00:00",
+      "source_kind": "html",
+      "summary": "Sync Netsea supplier and category data into Google Sheets or Slack using Jinba tools NETSEA_GET_SUPPLIERS and NETSEA_GET_CATEGORIES. No custom scripting needed.",
+      "title": "How to Sync Netsea Products and Orders with Jinba"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
       "doc_id": "16f89deff5946679d75d3c91344a0b1ab67f6fe577296c5d9757686827be1adf",
       "first_seen_at": "2026-09-04T23:30:24.177295+00:00",
       "published_at": "2026-09-04T13:49:21+00:00",
       "source_kind": "html",
       "summary": "Extract structured fields from Box documents using BOX_DOWNLOAD_FILE, REDUCTO_EXTRACT with a JSON Schema, and JINBA_MODULES_CHECKER_V2 to validate before writing to any destination.",
       "title": "How to Extract Fields from Box Documents with Jinba"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "1d6f376fb75ed4689ddda0a75ff8f64e4d8bf43ff1634cec78aca5d690770e25",
+      "first_seen_at": "2026-09-11T16:26:09.352130+00:00",
+      "published_at": "2026-09-11T13:51:31.683+00:00",
+      "source_kind": "html",
+      "summary": "Write workflow output to Notion pages or databases using Jinba's NOTION_CREATE_PAGE and NOTION_CREATE_DATABASE_ITEM, no custom HTTP logic required.",
+      "title": "How to Sync Data into Notion Pages and Databases with Jinba"
     },
     {
       "company_key": "yc-jinba",
@@ -33,12 +63,32 @@
     {
       "company_key": "yc-jinba",
       "company_name": "Jinba",
+      "doc_id": "7a6754d163b34776eb65cb199f9f0f551f2e29b17c2f91624f81d0143903e2b4",
+      "first_seen_at": "2026-09-11T16:26:09.352130+00:00",
+      "published_at": "2026-09-11T14:09:48.417+00:00",
+      "source_kind": "html",
+      "summary": "Skip the webhooks and scripts. Jinba's native Discord tool lets you chain live workflow data into formatted channel alerts, all configured inside Jinba Flow.",
+      "title": "How to Send Alerts to Discord from Jinba"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
       "doc_id": "7e0c0c89affebd96bbc199e347d232aa473ae4341941b39c71efeed0a62153b1",
       "first_seen_at": "2026-09-06T04:39:27.237695+00:00",
       "published_at": "2026-09-07T01:00:00+00:00",
       "source_kind": "html",
       "summary": "Jinba has no GOOGLE_TASKS_* connector. Use JIRA_CREATE_ISSUE, LINEAR_CREATE_ISSUE, or CHATWORK_CREATE_TASK instead, with working flow code for each.",
       "title": "How to Create Google Tasks from a Jinba Workflow"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "84bc3d5c22ba0ab08bbcb8582c8851ed1431d339674f8b430b1f4f29a9725fe4",
+      "first_seen_at": "2026-09-11T16:26:09.352130+00:00",
+      "published_at": "2026-09-11T13:51:31.683+00:00",
+      "source_kind": "html",
+      "summary": "Zoom gets you 95% there and leaves the last step manual. Jinba automates the full path: fetch the VTT, parse it, summarize it, file it.",
+      "title": "How to Download and Transcribe Zoom Recordings with Jinba"
     },
     {
       "company_key": "yc-jinba",

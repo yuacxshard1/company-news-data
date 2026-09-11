@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b4edeaa33c9857bdac8d585c422a18771479fcf30b62928e15fdab4f2add7352",
+  "company_key": "yc-terminal",
+  "company_name": "Terminal",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.withterminal.com/changelog#2026-05-29",
+  "canonical_url": "https://docs.withterminal.com/changelog",
+  "title": "2026-05-29",
+  "summary": "",
+  "body_markdown": "### Integration Updates\n\n\n- [Lytx](https://docs.withterminal.com/providers/tsp/lytx) now supports[Trips](https://docs.withterminal.com/models/trip)\n- [Motion ELD](https://docs.withterminal.com/providers/tsp/motion-eld-v2) now delivers richer[Historical Vehicle Locations](https://docs.withterminal.com/models/vehicle-location) with expanded tracking coverage and additional telemetry fields\n\n\n### Dashboard Updates\n\n\n- The[Terminal Dashboard](https://dashboard.withterminal.com/) now shows a pending deletion callout on connection pages, and admins can cancel pending deletions during the grace period\n\n\n### API Updates\n\n\n- Canceling a connection in` pending_deletion` now requires an admin role\n\n\n### Consent Flow Updates\n\n\n- [Netradyne](https://docs.withterminal.com/providers/tsp/netradyne) Link setup now includes a built-in onboarding guide and validates Fleet Unique Identifier format during connection setup\n\n\n### Documentation Updates\n\n\n- Updated[Samsara configuration documentation](https://docs.withterminal.com/guides/samsara-oauth-configuration) to clarify that the user completing OAuth must have Full Admin or Standard Admin permissions",
+  "published_at": "2026-05-29T12:24:57+00:00",
+  "first_seen_at": "2026-07-26T01:53:49.682680+00:00",
+  "content_hash": "sha256:f51323fdfdd2fa7fb8f6c05f2150cd7e485a6296b7265ae627b68637a7f6abf5"
+}
