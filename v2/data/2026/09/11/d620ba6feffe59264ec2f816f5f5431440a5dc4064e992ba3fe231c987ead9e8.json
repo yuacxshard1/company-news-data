@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d620ba6feffe59264ec2f816f5f5431440a5dc4064e992ba3fe231c987ead9e8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
+  "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
+  "summary": "Discover more about what's new at AWS with AWS Lambda now supports direct read configuration for Amazon S3 Files",
+  "body_markdown": "AWS Lambda now supports[direct read](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-files-performance.html#s3-files-performance-how) configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this launch, you can optimize the throughput and latency of file reads for your Lambda functions based on your application requirements.\n\n\nCustomers use S3 Files with Lambda functions to build scalable data processing pipelines and stateful agentic workloads with the performance and simplicity of a file system, while benefiting from the scalability, durability, and cost-effectiveness of S3. S3 Files serves data from high-performance storage for low latency or directly from your S3 bucket for high throughput on large reads, automatically routing each operation to the storage best suited for it. By default, Lambda supports direct reads from your S3 bucket only for functions configured with 512 MB of memory or higher. However, without control over the direct read configuration, you cannot optimize read performance for your specific application requirements. With this launch, you can explicitly enable or disable direct read for S3 Files on your Lambda functions, independent of function memory size. When you enable direct read, your function reads files 1 MB or larger directly from your S3 bucket for maximum throughput, and smaller files are served through the high-performance storage. When you disable it, all reads are served through the high-performance storage for the lowest latency.\n\n\nThis capability is available in all AWS commercial Regions, AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions, except Asia Pacific (New Zealand), Middle East (Bahrain), and Middle East (UAE). You can configure direct read for S3 Files using the AWS Management Console, AWS CLI, AWS SDKs, and AWS CloudFormation. There is no additional charge beyond standard Lambda and S3 Files pricing. To learn more about how to use S3 Files with your Lambda function, visit the AWS Lambda[developer guide](https://docs.aws.amazon.com/lambda/latest/dg/configuration-filesystem-s3files.html) .",
+  "published_at": "2026-09-11T17:00:00+00:00",
+  "first_seen_at": "2026-09-12T05:02:36.529072+00:00",
+  "content_hash": "sha256:36417d431e65f7c1d44ac1c21a2870a82eb5be6e5dd1939e916d823289e1683e"
+}

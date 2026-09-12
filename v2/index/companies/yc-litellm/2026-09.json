@@ -53,6 +53,16 @@
     {
       "company_key": "yc-litellm",
       "company_name": "LiteLLM",
+      "doc_id": "758b303f1d450ba0ccf2903478909618a62766b4ccdf1f3a6a3f7809344ed627",
+      "first_seen_at": "2026-09-12T08:59:20.047661+00:00",
+      "published_at": "2026-09-11T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How Pfizer AI Platform Engineering isolated a Redis connection handling bug that cut LiteLLM gateway throughput by ~48% with zero HTTP errors, reduced CI load-test latency by 76%, and built a regression prevention framework with LiteLLM.",
+      "title": "How Pfizer Improved LiteLLM Gateway Performance and Resiliency at Scale"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
       "doc_id": "82d691de20a2283c4d481e68677727bbd4422b41de0c036c298046bd52910217",
       "first_seen_at": "2026-09-09T11:40:46.496669+00:00",
       "published_at": "2026-09-08T10:00:00+00:00",
@@ -109,6 +119,16 @@
       "source_kind": "html",
       "summary": "Heuristic v2 is a new classifier for LiteLLM's AutoRouter, pretrained across multiple rounds of graded response data so it ships with zero cold start. On a 21-task Terminal-Bench 2.0 subset it solved 3 more tasks than Heuristic v1, at 45% lower cost per solved task and lower latency.",
       "title": "Introducing AutoRouter Heuristic v2: 27% More Tasks Solved at 45% Lower Cost"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "d4e0b9b7a7daa27280dfe6de233373e844ac511ff612d3048df037958aae3f08",
+      "first_seen_at": "2026-09-12T08:59:20.047661+00:00",
+      "published_at": "2026-09-11T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We solved 23 of 25 SWE-bench Verified tasks with LiteLLM's experimental capability router for $11.15, compared with $20.27 using Opus 5.",
+      "title": "Auto Router: 45% Lower Cost on 25 SWE-bench Tasks"
     },
     {
       "company_key": "yc-litellm",
