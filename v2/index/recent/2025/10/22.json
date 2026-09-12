@@ -427,7 +427,7 @@
       "first_seen_at": "2026-07-22T04:45:46.439360+00:00",
       "published_at": "2025-10-22T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "getByRole, getByText and getByLabel keep Playwright tests stable. When to use getByTestId, CSS or XPath, plus strict mode and filter().",
+      "summary": "getByRole is the first Playwright locator to reach for. The locator ladder, examples for buttons, forms and tables, and when to fall back to getByTestId.",
       "title": "Playwright locators: getByRole first, CSS and XPath last"
     },
     {
