@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4183de987f5bce5d45b961f52098e5ca12c4920814019c789b55680727e1cd2b",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/update-segment-api",
+  "canonical_url": "https://resend.com/changelog/update-segment-api",
+  "title": "Update Segment API",
+  "summary": "Rename a segment from the API, CLI, or any official SDK.",
+  "body_markdown": "You could already create, retrieve, list, and delete segments from the API. Today we're adding[PATCH /segments/:id](https://resend.com/docs/api-reference/segments/update-segment) so you can **rename a segment** the same way.\n\n\n## Renaming a segment\n\n\nPass the segment ID and the new name.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  segments  .  update  (        '78261eea-8f8b-4381-83c6-79fa7120f1cf'  ,        {          name  :     'Active Users'  ,        }  ,     )  ;\n\n\n```\n\n\nThe response confirms the rename:\n\n\n```text\n{        \"object\"  :     \"segment\"  ,        \"id\"  :     \"78261eea-8f8b-4381-83c6-79fa7120f1cf\"     }\n```\n\n\nRenaming segments is also available in the[Resend CLI](https://resend.com/docs/cli) and through the[MCP server](https://resend.com/docs/mcp-server) .",
+  "published_at": "2026-09-14T00:00:00+00:00",
+  "first_seen_at": "2026-09-14T18:13:43.376284+00:00",
+  "content_hash": "sha256:caecd9be47af5fe6df0c124f3ea12fb58cbc098a4b98dda3d0d490b55d4a2533"
+}

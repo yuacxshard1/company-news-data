@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "6742ebeb6bddbe4ec54dc87d66d7fa687a6c7d6d6cac9cdd520131badb8f168b",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-08-05T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A network caller could invoke an internal Serve replica gRPC method without the configured Ray token and place a Python pickle reduction in pickledreque…",
+      "title": "Unauthenticated Serve replica gRPC requests allow arbitrary code execution"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "f7075ba46f69d1c18e59751253999be981b43f6dce68c27fde53fcb7f2507c50",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-08-28T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Code running inside a ZenML pipeline workload could exchange its run-bound token for a generic user token that remained valid after the workload ended,…",
+      "title": "Workload API tokens can be exchanged for persistent unscoped user tokens"
+    }
+  ],
+  "company_key": "yc-winfunc",
+  "month": "2026-08"
+}

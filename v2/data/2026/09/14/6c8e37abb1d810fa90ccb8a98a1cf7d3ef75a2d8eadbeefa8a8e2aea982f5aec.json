@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6c8e37abb1d810fa90ccb8a98a1cf7d3ef75a2d8eadbeefa8a8e2aea982f5aec",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
+  "title": "Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
+  "summary": "Discover more about what's new at AWS with Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
+  "body_markdown": "Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models from the Ministral 3 family bring compact, vision-capable language models purpose-built for edge deployment and resource-constrained environments, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.\n\n\nThese models address different enterprise AI challenges with specialized capabilities:\n\n\n**Ministral-3-3B-Instruct-2512** is engineered for **ultra-lightweight edge deployment with multimodal understanding** . Comprising a 3.4B language model and a 0.4B vision encoder, it fits in just 8GB of VRAM in FP8 while supporting a 256K-token context window. It offers vision analysis, multilingual instruction following across dozens of languages (including English, French, Spanish, German, Chinese, Japanese, Korean, and Arabic), strong system-prompt adherence, and native function calling with structured JSON output—all under the Apache 2.0 license.\n\n\n**Ministral-3-8B-Instruct-2512** delivers **frontier-class capabilities comparable to its larger Mistral Small 3.2 24B counterpart** in a compact 8B form factor. Built with an 8.4B language model and a 0.4B vision encoder, it fits in 12GB of VRAM in FP8 and features an interleaved sliding-window attention pattern for faster, memory-efficient inference. It shares the same vision, multilingual, agentic, and function-calling capabilities as its 3B sibling while offering stronger reasoning and generation performance.\n\n\nWith SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.\n\n\nTo get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the[Amazon SageMaker JumpStart documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html) .",
+  "published_at": "2026-09-14T17:35:00+00:00",
+  "first_seen_at": "2026-09-14T19:38:43.920066+00:00",
+  "content_hash": "sha256:9119b22130b12e5032d43a9bee7837d2eec7076dfde9230a64c7ed8558997b96"
+}

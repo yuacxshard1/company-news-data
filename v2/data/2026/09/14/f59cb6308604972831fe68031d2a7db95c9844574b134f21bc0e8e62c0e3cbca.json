@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f59cb6308604972831fe68031d2a7db95c9844574b134f21bc0e8e62c0e3cbca",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
+  "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
+  "summary": "Discover more about what's new at AWS with Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
+  "body_markdown": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning agentic coding with long-context reasoning and lightweight text-to-video generation, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.\n\n\nThese models address different enterprise AI challenges with specialized capabilities:\n\n\n**Qwen3.6-35B-A3B-NVFP4** is optimized for **agentic coding, multimodal reasoning, and long-context understanding** as the NVIDIA-quantized variant of Alibaba's Qwen3.6-35B-A3B. This Mixture-of-Experts model contains 35B total parameters with only 3B activated per token (8 of 256 experts), supporting a 262K-token context window extendable to ~1M via YaRN scaling. Quantized to NVFP4 using NVIDIA's ModelOpt framework, it preserves thinking across conversation turns, multi-token prediction, and tool calling for multi-step agent pipelines—all at a significantly reduced memory footprint.\n\n\n**Wan2.1-T2V-1.3B-Diffusers** excels in **text-to-video generation on consumer-grade hardware** . Built on the diffusion transformer paradigm with a novel Video Variational Autoencoder (VAE), this 1.3B-parameter model generates high-quality, physics-consistent video clips from text prompts while requiring only 8.19 GB of VRAM. It can produce a 5-second 480p video on an RTX 4090 in approximately 4 minutes, making it one of the most accessible open-source video generation models available.\n\n\nWith SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.\n\n\nTo get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the[Amazon SageMaker JumpStart documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html) .",
+  "published_at": "2026-09-14T17:39:00+00:00",
+  "first_seen_at": "2026-09-14T19:38:43.920066+00:00",
+  "content_hash": "sha256:37dc71bf98b8f3b4f233102e3da5cf1f668600cf6ca7c731fddc2a13d55b1fa6"
+}

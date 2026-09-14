@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ca6843714ff9adb60743f45ade8453c21e3a60efef46f49f3e78dffa49b79bc4",
+  "company_key": "yc-buildbuddy",
+  "company_name": "BuildBuddy",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.buildbuddy.io/changelog/agent-fix",
+  "canonical_url": "https://www.buildbuddy.io/changelog/agent-fix",
+  "title": "Fix failing builds with bb agent fix",
+  "summary": "bb agent fix reproduces a failure from a previous invocation and fixes it by editing the current working tree.",
+  "body_markdown": "` bb agent fix` reproduces a failure from a previous invocation and fixes it by editing the current working tree.\n\n\nThe agent reruns the invocation's original Bazel command to reproduce the failure, inspects the failure output and relevant source code, applies a minimal fix, and reruns the command to verify the fix is valid.\n\n\nWhen run locally, the changes are applied to the current working tree. When run remotely, the diffset is uploaded to the 'Artifacts' tab of the remote` agent fix` run. It can be fetched from the invocation using the[GetInvocation API](https://www.buildbuddy.io/docs/enterprise-api#getinvocation) and applied to a local workspace using` git apply <DIFF_FILE>` .\n\n\nRun it from the workspace that produced the failure, with an invocation ID or URL:\n\n\n```text\n# Fix every failing target in the invocation.     bb agent fix   <  INVOCATION_ID  >         # Fix only a single failing target, or only the test cases matching a filter.     bb agent fix   <  INVOCATION_ID  >   //foo:bar_test   --test_filter  =  TestBaz\n```\n\n\nSee the[documentation](https://www.buildbuddy.io/docs/cli-commands#bb-agent-fix) for more details.",
+  "published_at": "2026-09-11T10:00:00+00:00",
+  "first_seen_at": "2026-09-14T18:56:33.902261+00:00",
+  "content_hash": "sha256:a723888734c1c22a2f7d55f0cb346f5537407f38ccc71685a6c0f7df0e7a7169"
+}

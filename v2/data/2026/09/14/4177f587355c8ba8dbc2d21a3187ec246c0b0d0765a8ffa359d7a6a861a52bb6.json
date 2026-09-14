@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4177f587355c8ba8dbc2d21a3187ec246c0b0d0765a8ffa359d7a6a861a52bb6",
+  "company_key": "yc-zapier",
+  "company_name": "Zapier",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://zapier.com/blog/ai-agents-for-business",
+  "canonical_url": "https://zapier.com/blog/ai-agents-for-business",
+  "title": "AI agents for business automation (with 27 AI agent examples)",
+  "summary": "Wonder how AI agents can help with your business? Read our guide to understand how AI agents work and get role-specific examples that you can use to start experimenting in your own organization.",
+  "body_markdown": "**Deterministic AI agents**\n\n\n**Prompt-triggered AI agents**\n\n\n**Trigger**\n\n\nAn app event, a schedule, or a webhook\n\n\nA prompt, typed by you or scheduled by your AI tool\n\n\n**Where it runs**\n\n\nIn the background, as a step inside an automated workflow\n\n\nInside your chat tool: Claude, ChatGPT, Cursor, etc.\n\n\n**Determinism**\n\n\nRules-based; AI steps in only where a workflow needs interpretation, then hands off to deterministic logic; same input, same output, every time\n\n\nNon-deterministic per run; even an identical prompt can take a different path to the answer\n\n\n**Reliability tradeoff**\n\n\nBuilt for production: consistent, auditable, easy to debug when something breaks\n\n\nBuilt for flexibility: adapts to whatever you ask, but two runs of the same request won't always look identical\n\n\n**Example**\n\n\n[AI by Zapier](https://zapier.com/blog/ai-by-zapier-guide/) step inside a Zap workflow\n\n\n[Zapier MCP](https://zapier.com/blog/ai-by-zapier-guide/)\n\n\n**Best for**\n\n\nRepeatable, high-volume processes (e.g., routing tickets, syncing records, standardized follow-ups)\n\n\nJudgment-heavy or one-off work (e.g., research, troubleshooting, \"handle this for me\" requests)",
+  "published_at": "2026-09-14T05:00:00+00:00",
+  "first_seen_at": "2026-09-14T16:54:08.060115+00:00",
+  "content_hash": "sha256:c593dbf5312d038d7867109a66a58cd5c886b7983c6aa215c47ece9c54f5fb26"
+}

@@ -3,12 +3,62 @@
     {
       "company_key": "yc-winfunc",
       "company_name": "winfunc",
+      "doc_id": "00d9801fdf0160dcf56938641ae494c06deb788b1ac044b0c4398cbb662b1057",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "An attacker could start OAuth with a poisoned Host, receive the victim's still-unused provider code at an attacker origin, and redeem it on a chosen ten…",
+      "title": "OAuth host poisoning enables cross-tenant account takeover"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "4338e1297dc7693d3a8c9fb66e250c12f83e392c689bf07eb3ed9b9fa16753cc",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "An unauthenticated attacker could complete public signup for their own Fider tenant, then present the temporary parent-domain cookie to an existing vict…",
+      "title": "Domain-wide signup session enables cross-tenant administrator takeover"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "569a35ad795a57bf4e9eeb3a0a4b01df2b8011527c03601505d0a38b082e559d",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "An ordinary authenticated analytics user could inject Presto/Trino syntax through a semantic string filter, comment out the row-level predicate appended…",
+      "title": "Presto and Trino filter interpolation bypasses row-level security"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
       "doc_id": "747f6abdbbdfe63f4e5c113cb664db78466570442c7e52cbc159b4d0dd26f337",
       "first_seen_at": "2026-07-23T16:08:30.630794+00:00",
       "published_at": "2026-07-23T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "We used GLM-5.1 and GLM-5.2 to scan NGINX. The scan produced six security findings with five CVE identifiers. This report describes the affected code, analysis traces, and proof conditions.",
       "title": "Finding six NGINX vulnerabilities with open models"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "7af4ee0ad08734ca141d3e3c505d38e9c060c7cf13fe499a2519bc7a484d5f81",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-07-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A project-A data-app author could make their sandboxed app request project-B metric queries through a victim viewer's authenticated parent page. If the…",
+      "title": "Data-app SDK bridge can disclose warehouse data from other projects"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "aa2322d6ecc506a34d29808ab171bc264db4e4aab31c9fc0fdf32313c9676717",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-07-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Any network client reaching Cube's optional PostgreSQL SQL interface could send a four-byte frame length near 0xffffffff, causing the native service to…",
+      "title": "Oversized PostgreSQL startup frame can terminate the Cube service"
     },
     {
       "company_key": "yc-winfunc",
@@ -23,12 +73,32 @@
     {
       "company_key": "yc-winfunc",
       "company_name": "winfunc",
+      "doc_id": "ca6b0ff80f4ce7474220c2cf77a4005e2b64b6026ec50e4ee1aac243612a31ef",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-07-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A holder of an API key for organization A could select an active feedback directory belonging to organization B and list, search, create, update, or del…",
+      "title": "Feedback Records gateway accepts organization permissions across tenants"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
       "doc_id": "e6ef3f9d30cd9087a869eb715b00c2e6134d7e3b840bd3299b337ebfe5b4d553",
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-07-15T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "ngxstreamcomplexvalue() calculated an output length and copied the output in separate passes over mutable session-wide regex capture state. In a stream…",
       "title": "Stream complex-value capture desynchronization causes heap overflow (CVE-2026-42533)"
+    },
+    {
+      "company_key": "yc-winfunc",
+      "company_name": "winfunc",
+      "doc_id": "fa7c526fadfe38139d4af3b2c9851c83c712c1cc7ffa4bccdd3142c261345701",
+      "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
+      "published_at": "2026-07-22T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A contributor to a lower-trust Meltano project could add a traversing includepaths pattern and cause an operator's routine configuration mutation to rep…",
+      "title": "Traversing include paths allow cross-project YAML overwrite"
     }
   ],
   "company_key": "yc-winfunc",
