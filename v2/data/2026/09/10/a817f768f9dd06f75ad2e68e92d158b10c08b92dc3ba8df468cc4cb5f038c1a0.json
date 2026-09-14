@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a817f768f9dd06f75ad2e68e92d158b10c08b92dc3ba8df468cc4cb5f038c1a0",
+  "company_key": "yc-taskade",
+  "company_name": "Taskade",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.taskade.com/blog/open-source-temporal-parser",
+  "canonical_url": "https://www.taskade.com/blog/open-source-temporal-parser",
+  "title": "Open Source Temporal Parser: Parse ISO 8601, RFC 3339, and IXDTF in TypeScript (2026)",
+  "summary": "Date.parse is implementation-defined and Temporal ships no general parser. @taskade/temporal-parser turns ISO 8601, RFC 3339, and IXDTF strings into a typed AST",
+  "body_markdown": "Stan Chang ([@lxcid](https://github.com/lxcid) ) designed and implemented Temporal Parser while building scheduling and calendar features at Taskade. The repository and npm scope are MIT-licensed under Taskade. His[technical write-up](https://lxcid.com/2026/01/15/announcing-temporal-parser/) is the author version; this page is the announcement, and they agree on the facts.\n\n\n---\n\n\nIf you have a timestamp that should have parsed and did not, send it. The next useful test case is usually already sitting in a log file, a calendar export, or an agent tool result.",
+  "published_at": "2026-09-10T00:00:00+00:00",
+  "first_seen_at": "2026-09-14T10:39:32.106287+00:00",
+  "content_hash": "sha256:8fbc3f542f0ca8fe890d49c91c2f09e3676c3e633b5844b464f85967b81640f7"
+}
