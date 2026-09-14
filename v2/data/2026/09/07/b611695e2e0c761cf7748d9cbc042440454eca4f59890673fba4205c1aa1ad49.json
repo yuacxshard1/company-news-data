@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b611695e2e0c761cf7748d9cbc042440454eca4f59890673fba4205c1aa1ad49",
+  "company_key": "yc-iomete",
+  "company_name": "IOMETE",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://iomete.com/resources/blog/apache-datafusion-comet-spark-acceleration",
+  "canonical_url": "https://iomete.com/resources/blog/apache-datafusion-comet-spark-acceleration",
+  "title": "Comet in IOMETE 4.0: Same SQL, 42% Less Time",
+  "summary": "Apache DataFusion Comet in IOMETE 4.0 accelerates Spark SQL natively. TPC-DS results, memory setup, and when to leave the switch off.",
+  "body_markdown": "Two kinds. Workloads dominated by operators Comet cannot run natively, such as Scala or Python UDFs, pay for columnar conversion at the boundary without the native speedup. Memory-constrained computes that depend on a large executor JVM heap for caching, or for aggregations and joins that spill once the heap shrinks, can also lose more than they gain; the driver heap is untouched.\n\n\nOn IOMETE the switch is per compute, so a workload that regresses can stay on plain Spark while the rest of the platform runs accelerated.",
+  "published_at": "2026-09-07T00:00:00+00:00",
+  "first_seen_at": "2026-09-13T23:21:07.616284+00:00",
+  "content_hash": "sha256:c924b8456e394571db6fabf8939c3210cebf3957cf6d6b8768caec94dc4a8a7e"
+}
