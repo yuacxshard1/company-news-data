@@ -153,6 +153,16 @@
     {
       "company_key": "yc-asayer",
       "company_name": "OpenReplay",
+      "doc_id": "8e3013ffd01187d952264272b438729b6cd7e7be749ba5eb67244b484804410a",
+      "first_seen_at": "2026-09-14T08:59:25.982968+00:00",
+      "published_at": "2026-09-14T06:42:02+00:00",
+      "source_kind": "rss",
+      "summary": "I have been trying to deploy openreplay via EKS for some time now, and there are many unexpected issues popping up. the latest one I am facing is sink and storage are on seperate nodes and needs a shared EFS to function, but VPC in my clusters is not configured the way that openreplay expects it. Is there any way to keep sink and storage as a single node? The hosting is done, and it lists many recordings, but I am unable to view it because the sessions themselves were never written to my S3 bu...",
+      "title": "How to deploy openreplay via EKS?"
+    },
+    {
+      "company_key": "yc-asayer",
+      "company_name": "OpenReplay",
       "doc_id": "91fa5389fc7270674aed06b558f00030c2e944014e13beee9b1b1e2b5136e2a5",
       "first_seen_at": "2026-09-09T09:53:21.284568+00:00",
       "published_at": "2026-09-09T00:00:00+00:00",
