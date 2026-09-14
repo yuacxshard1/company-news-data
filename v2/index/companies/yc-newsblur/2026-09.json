@@ -43,6 +43,16 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "729807462b8ba12f2793e54911f3471bed5cf5974dd87f4a53397a5241b31523",
+      "first_seen_at": "2026-09-14T04:24:17.008158+00:00",
+      "published_at": "2026-09-13T23:15:13+00:00",
+      "source_kind": "rss",
+      "summary": "It seems newsblur has at some point implemented various anti-spam checks on incoming newsletters, which are now causing false positives and rejecting legit newsletters. I run my own mailserver, so incoming newsletters go there and are then bounced to newsblur. Forcing things to ipv4 and making sure SPF is set up mostly works to get my newsletters past spamhaus and improvmx, but I’m still getting failures on some. Given the access key required in the newsletter address, I’m not sure any spam det...",
+      "title": "Spam detection on newsletters too strict"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "80cd6d26d117fe201654c7c2080c3db4d5930d710fb04e6e7f22f5a10235f59d",
       "first_seen_at": "2026-09-02T11:28:14.441729+00:00",
       "published_at": "2026-09-02T09:54:58+00:00",
