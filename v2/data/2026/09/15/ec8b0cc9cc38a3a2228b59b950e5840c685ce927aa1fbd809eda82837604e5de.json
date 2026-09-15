@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ec8b0cc9cc38a3a2228b59b950e5840c685ce927aa1fbd809eda82837604e5de",
+  "company_key": "yc-cinder-2",
+  "company_name": "Cinder",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://cinder.ai/resources/blog/privacy-safety-open-weight-models",
+  "canonical_url": "https://cinder.ai/resources/blog/privacy-safety-open-weight-models",
+  "title": "The Real AI Safety Problem Is Already Here",
+  "summary": "Enterprises should not have to choose between zero data retention and safety. As open-weight deployments grow, the real AI safety problem is how to protect people without asking companies to hand over their data.",
+  "body_markdown": "The existential threat of an AI doomsday is apparently all anyone can focus on right now. I believe the existential risks, while not impossible, are distracting from two far more important things that are currently happening. The first, which I talk about often, is that AI is causing real, serious harm TODAY. Scams, fraud, sextortion, deepfakes, harassment: all of these are happening right now, to real people, at a scale that would have been impossible even two years ago.\n\n\nThe second is a battle going on right now over the ability for labs to retain their customers’ data.\n\n\nLabs claim they need access to a company’s data in order to identify and prevent abuse. But enterprises assume the labs are training on everything they see, as seen via the[Millennium Prize](https://www.claymath.org/millennium-problems/) , so they want ZERO data retention (“ZDR”). Is data retained under a safety carve-out being trained on? Probably not. But “probably not” is not good enough when proprietary data has become incredibly valuable and trust in the industry has completely eroded. Many companies are restricting model use today because of this fear. The exact visibility labs say they need for safety is the visibility enterprises refuse to give them because of data sovereignty concerns.\n\n\nThat’s why, in addition to rising costs, companies are moving to open-weight deployments: because those models are inherently ZDR. But that shift to open-weight models brings us back to the first problem: when you lose the lab’s safety infrastructure, you inherit the risk and are on your own. The labs know this; thus, the doomsday cycle continues. But it’s having the opposite effect: the louder the warnings get, the less enterprises trust the labs, the more they move to open-weight models, and the less safe the whole ecosystem becomes, which gives the labs something new to warn about.\n\n\nCompanies are being told to choose between privacy and safety. That shouldn’t have to be a choice.",
+  "published_at": null,
+  "first_seen_at": "2026-09-15T05:19:26.796794+00:00",
+  "content_hash": "sha256:a8d98328049c9eeda902dfe1b9f2a4734adbcfea512cb26c1a82da50faef7848"
+}
