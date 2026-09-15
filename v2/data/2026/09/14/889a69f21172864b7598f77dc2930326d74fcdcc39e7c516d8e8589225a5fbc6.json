@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "889a69f21172864b7598f77dc2930326d74fcdcc39e7c516d8e8589225a5fbc6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
+  "title": "AWS End User Messaging strengthens SMS deliverability with automatic failover",
+  "summary": "Discover more about what's new at AWS with AWS End User Messaging strengthens SMS deliverability with automatic failover",
+  "body_markdown": "AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best performing number in the pool when SMS delivery is impacted from downstream disruptions.\n\n\nSMS deliverability can be affected by drops or delays when trying to reach the end recipient while it's being routed from AWS to messaging providers and eventually mobile carriers. These disruptions can hit the most important parts of your messaging program, including delivery notifications, one-time passcodes, reminders, and other time-sensitive messages. AWS End User Messaging watches for delivery delays, message failures, or drops in conversion and reroutes traffic to a more optimized delivery path.\n\n\nCustomers do not need to take any action to receive this benefit for phone pools. If you are not sending through phone pools today, you can create one by following these[instructions](https://docs.aws.amazon.com/sms-voice/latest/userguide/phone-pool-create.html) . This capability is available in all AWS Regions where AWS End User Messaging is available.\n\n\nTo learn more, see the AWS End User Messaging SMS[User Guide](https://docs.aws.amazon.com/sms-voice/latest/userguide/what-is-sms-mms.html) .",
+  "published_at": "2026-09-14T07:00:00+00:00",
+  "first_seen_at": "2026-09-15T03:24:38.146407+00:00",
+  "content_hash": "sha256:0d33f6b707ae6972b80fd8dae5ed621f6c6086604f68b6f3d6d26c573080458e"
+}

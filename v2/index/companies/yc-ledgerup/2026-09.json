@@ -13,12 +13,42 @@
     {
       "company_key": "yc-ledgerup",
       "company_name": "LedgerUp",
+      "doc_id": "45d6277f38e7508fa64490a56983e645e88d936c2c1a90aced59a0e6a3aca0c4",
+      "first_seen_at": "2026-09-15T01:22:34.089577+00:00",
+      "published_at": "2026-09-14T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Updated September 2026 · The CPQ-to-Stripe object map, one three-year MDQ quote carried through it, the five places the mapping breaks, and where Stripe's CPQ connector, Zapier, Workato, and LedgerUp each stop.",
+      "title": "How to Sync Salesforce CPQ with Stripe Billing: Quote Lines to Prices, Subscriptions, and Schedules"
+    },
+    {
+      "company_key": "yc-ledgerup",
+      "company_name": "LedgerUp",
+      "doc_id": "4d526d1a808e803f7336421b4ef4879ec1bd9c9641061f75c746e6af76e4b4f9",
+      "first_seen_at": "2026-09-15T01:22:34.089577+00:00",
+      "published_at": "2026-09-14T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Updated September 2026 · Who owns which record across the three systems, the four handoffs, the ID crosswalk that stops duplicates, tools by leg including Stripe's NetSuite connector, and the failure modes that show up at close.",
+      "title": "Salesforce, Stripe, and NetSuite Automation: Sales to Billing to Cash to Accounting Without the Manual Bridge"
+    },
+    {
+      "company_key": "yc-ledgerup",
+      "company_name": "LedgerUp",
       "doc_id": "73bb49a4da412af1dfff20b6ad5ad75eb4caefc429ee96435a32699231f4849f",
       "first_seen_at": "2026-09-02T19:32:22.550732+00:00",
       "published_at": "2026-09-02T12:00:00+00:00",
       "source_kind": "html",
       "summary": "Updated September 2026 · What AR aging is, the standard aging buckets, a sample report with real numbers, how to create and analyze an aging schedule, and best practices.",
       "title": "Accounts Receivable Aging: Reports, Schedules & Analysis Guide"
+    },
+    {
+      "company_key": "yc-ledgerup",
+      "company_name": "LedgerUp",
+      "doc_id": "7736680d503dd5d635c1d24206c6b3ed9b95387129f47bbf767ded284934b18b",
+      "first_seen_at": "2026-09-15T01:22:34.089577+00:00",
+      "published_at": "2026-09-13T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Updated September 2026 · Stripe's Salesforce app, Zapier and Make, Workato and Apex, and LedgerUp compared on one test contract. Setup steps for each, and where ramps, CPQ lines, amendments, and payment status break them.",
+      "title": "How to Automatically Create a Stripe Subscription When a Salesforce Opportunity Closes (4 Ways, Ranked)"
     },
     {
       "company_key": "yc-ledgerup",
@@ -33,12 +63,42 @@
     {
       "company_key": "yc-ledgerup",
       "company_name": "LedgerUp",
+      "doc_id": "853cfb2e83a399179d8a225f24f1be8b805bff05b9c3aea560e5398f03c6adc0",
+      "first_seen_at": "2026-09-15T01:22:34.089577+00:00",
+      "published_at": "2026-09-14T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Updated September 2026 · Which Stripe events matter, which fields to write on the account and opportunity, how aging is computed, four ways to build the write-back, and the failure modes that make status wrong.",
+      "title": "How to Get Stripe Payment Status Back into Salesforce: Paid, Failed, and Aging on the Account and Opportunity"
+    },
+    {
+      "company_key": "yc-ledgerup",
+      "company_name": "LedgerUp",
       "doc_id": "88d92e00bc64821912d050376c516a206619e040628c1b340334718ce3af0c25",
       "first_seen_at": "2026-09-13T13:38:44.057537+00:00",
       "published_at": "2026-09-12T12:00:00+00:00",
       "source_kind": "html",
       "summary": "Updated September 2026 · One real-shaped contract (annual commit, quarterly ramp, included usage, net 45, PO required, mid-term amendment) carried through Stripe by hand, Stripe plus Metronome, and a contract-aware layer on top of Stripe.",
       "title": "How to Automate Custom Contract Billing in Stripe (Ramps, Minimums, True-Ups)"
+    },
+    {
+      "company_key": "yc-ledgerup",
+      "company_name": "LedgerUp",
+      "doc_id": "931b3e1aeb6fce10d7a9ebb50bb5776828db3fa649a75b738c0ff0cc5d7ec821",
+      "first_seen_at": "2026-09-15T01:22:34.089577+00:00",
+      "published_at": "2026-09-14T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Updated September 2026 · The monthly loop from Salesforce usage records to correct Stripe invoices, three ways to enforce an allowance and a minimum, four architectures, and where the loop breaks.",
+      "title": "Usage-Based Billing from Salesforce in Stripe: Custom Objects to Metered Invoices"
+    },
+    {
+      "company_key": "yc-ledgerup",
+      "company_name": "LedgerUp",
+      "doc_id": "ba4d26a804027c7447b3b360a5fcf1e1d1a15766433cdaff40b5b1abb000ff6c",
+      "first_seen_at": "2026-09-15T01:22:34.089577+00:00",
+      "published_at": "2026-09-14T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Updated September 2026 · Five amendment shapes, the Stripe proration and schedule mechanics for each, a worked ten-seat expansion, and how to apply amendments from the Salesforce record without editing Stripe by hand.",
+      "title": "Salesforce Contract Amendments in Stripe: Expansions, Co-Terming, and Proration Without Manual Edits"
     }
   ],
   "company_key": "yc-ledgerup",

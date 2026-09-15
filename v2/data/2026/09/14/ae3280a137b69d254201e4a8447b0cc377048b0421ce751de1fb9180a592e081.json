@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae3280a137b69d254201e4a8447b0cc377048b0421ce751de1fb9180a592e081",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
+  "title": "AWS Glue zero-ETL adds target table property ownership and conflict detection",
+  "summary": "Discover more about what's new at AWS with AWS Glue zero-ETL adds target table property ownership and conflict detection",
+  "body_markdown": "AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table properties with the owning integration, so two integrations can no longer be pointed at the same target table without your knowledge. This works across Amazon S3 Tables and SageMaker Lakehouse catalogs.\n\n\nData teams running multiple zero-ETL integrations gain predictable control over where each source table lands. If you attempt to create or modify an integration whose table properties are owned by another integration, Glue identifies the owning integration and guides you to choose a different target or update the existing one, so your pipelines stay isolated and your data lands exactly where you intend.\n\n\nThis feature is available in all AWS Commercial and AWS GovCloud (US) Regions where AWS Glue zero-ETL integrations are supported.\n\n\nTo learn more, refer to the[AWS Glue Developer Guide](https://docs.aws.amazon.com/glue/latest/dg/zero-etl-target.html) and get started in the[AWS Glue console](https://console.aws.amazon.com/glue/) .",
+  "published_at": "2026-09-14T08:00:00+00:00",
+  "first_seen_at": "2026-09-15T03:24:38.146407+00:00",
+  "content_hash": "sha256:482c03a164a8625cc12bba36fc21c229fb11257266fa7e1fec5bf1f4cb17c981"
+}

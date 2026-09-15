@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ebf5b23362df828af6f478f7a6adee7d1b92ab201463383776681fe3a2263847",
+  "company_key": "yc-mastra",
+  "company_name": "Mastra",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://mastra.ai/blog/introducing-server-health-for-mastra-platform",
+  "canonical_url": "https://mastra.ai/blog/introducing-server-health-for-mastra-platform",
+  "title": "Introducing Server Health for Mastra Platform",
+  "summary": "Monitor server requests and inspect by path, status, or latency.",
+  "body_markdown": "[Observability](https://mastra.ai/docs/mastra-platform/observability) on the Mastra platform now includes a **requests** view for monitoring server health. See total traffic, average and p95 request durations, response status over time, latency percentiles, and high-traffic endpoint counts.\n\n\nThe **requests** view populates automatically for any Mastra server deployed on the platform. Use it to catch failing endpoints, spot latency spikes, and improve your application's performance.\n\n\nYou'll find it under the **Observability** menu in the platform's sidebar navigation.\n\n\nYour browser does not support the video tag.\n\n\nBefore the requests view, monitoring server activity meant wiring up third-party services: (Datadog, Grafana, Sentry, etc.). Now, requests join metrics, logs, traces, and intelligence to give you a more complete view of your application's behavior.\n\n\nRequests are captured per[environment](https://mastra.ai/docs/mastra-platform/environments) . Production, staging, or any custom environments, each show up as their own view.\n\n\n## Get started\n\n\nYou can[deploy](https://mastra.ai/docs/mastra-platform/deploy) to Mastra platform using the CLI, or by connecting your[GitHub repository](https://mastra.ai/docs/mastra-platform/github) .\n\n\nFor more information and full configuration options, see:\n\n\n- [Mastra Platform overview](https://mastra.ai/docs/mastra-platform/overview)\n- [Observability](https://mastra.ai/docs/mastra-platform/observability)\n- [Deploy](https://mastra.ai/docs/mastra-platform/deploy)\n- [GitHub integration](https://mastra.ai/docs/mastra-platform/github)",
+  "published_at": "2026-09-14T00:00:00+00:00",
+  "first_seen_at": "2026-09-15T03:40:10.027471+00:00",
+  "content_hash": "sha256:21ad73ad57ce106487a26a1fc36e162519b9b6db4f1c41f9b20cce18f5004dd5"
+}
