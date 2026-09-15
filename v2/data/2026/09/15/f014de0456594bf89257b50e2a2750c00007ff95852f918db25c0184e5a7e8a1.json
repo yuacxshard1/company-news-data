@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f014de0456594bf89257b50e2a2750c00007ff95852f918db25c0184e5a7e8a1",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/list-clicked-links-api",
+  "canonical_url": "https://resend.com/changelog/list-clicked-links-api",
+  "title": "List Clicked Links API",
+  "summary": "Retrieve the links clicked in a broadcast",
+  "body_markdown": "Today we are releasing a new API endpoint to[retrieve the links clicked in a broadcast](https://resend.com/docs/api-reference/broadcasts/list-broadcast-clicked-links) . It returns every **link clicked in a broadcast** , ranked by total clicks.\n\n\nTo view the click rates for your emails you will need to[enable click tracking](https://resend.com/docs/dashboard/domains/tracking) for your domain.\n\n\n## What you can build with it\n\n\n- **Your own dashboard** : connect other sources of data to understand how your subscribers interact with your emails\n- **Cross-campaign reports** : identify which URLs and CTAs drive the most engagement across your broadcasts\n- **Optimized content strategies** : surface your top-performing links to inform future email design and messaging\n\n\n## Retrieving link clicks\n\n\nUse the ID of any broadcast. The API returns a list of every link in the broadcast that was clicked and their **total and unique clicks** , sorted by total clicks.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  broadcasts  .  clickedLinks  (        '559ac32e-9ef5-46fb-82a1-b76b840c0f7b'  ,        {     limit  :     20     }  ,     )  ;\n\n\n```\n\n\nThe response looks like this:\n\n\n```text\n{        \"object\"  :     \"list\"  ,        \"has_more\"  :     true  ,        \"data\"  :     [          {            \"id\"  :     \"b2Zmc2V0OjA\"  ,            \"url\"  :     \"https://resend.com/pricing\"  ,            \"clicks\"  :     42  ,            \"unique_clicks\"  :     30          }  ,          {            \"id\"  :     \"b2Zmc2V0OjE\"  ,            \"url\"  :     \"https://resend.com/docs\"  ,            \"clicks\"  :     17  ,            \"unique_clicks\"  :     15          }        ]     }\n```\n\n\nYou can also retrieve the link clicks in the[Resend CLI](https://resend.com/docs/cli) and through the[MCP server](https://resend.com/docs/mcp-server) , so your agents can help you understand how your emails are performing.",
+  "published_at": "2026-09-15T00:00:00+00:00",
+  "first_seen_at": "2026-09-15T12:32:34.669743+00:00",
+  "content_hash": "sha256:2f8730393f8dcea05b40d5c6615fc109ec4e016ef00f46ffdf58f79383d4720b"
+}

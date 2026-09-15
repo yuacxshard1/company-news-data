@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c6f2a63d860a57cfb97f3c5e6c51f326cbc69bac4c02bc0881a0b0a85f7c3826",
+  "company_key": "yc-zapier",
+  "company_name": "Zapier",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://zapier.com/blog/supabase-vs-firebase",
+  "canonical_url": "https://zapier.com/blog/supabase-vs-firebase",
+  "title": "Supabase vs. Firebase: Which backend platform is right for you? [2026]",
+  "summary": "Which backend platform should you use for your vibe coding projects? I've used both Firebase and Supabase, and I have a few thoughts to share based on my experiences.",
+  "body_markdown": "**Supabase (Free)**\n\n\n**Firebase (Spark)**\n\n\n**Projects**\n\n\n2 active projects, auto-pause after 7 days inactivity\n\n\nNo cap, no pausing\n\n\n**Database**\n\n\n500 MB Postgres\n\n\n1 GB Firestore / 1 GB Realtime Database\n\n\n**File storage**\n\n\n1 GB\n\n\nNone\n\n\n**Egress / bandwidth**\n\n\n5 GB/month\n\n\n10 GB/month (plus hosting: free static hosting, 360 MB/day transfer)\n\n\n**Auth users**\n\n\n50k monthly active users (MAU)\n\n\n10K auth users (Identity Platform limits)\n\n\n**Serverless functions**\n\n\n500k Edge Function invocations\n\n\nNot on free tier (Cloud Functions require Blaze)\n\n\n**Caps**\n\n\nPerformance limited to the computation power that you purchase (see[compute pricing](https://supabase.com/pricing#addon-compute:~:text=How%20compute%20pricing%20works) )\n\n\nFirestore: ~50k reads, ~20k writes, ~20k deletes per day",
+  "published_at": "2026-09-15T04:00:00+00:00",
+  "first_seen_at": "2026-09-15T15:46:15.789988+00:00",
+  "content_hash": "sha256:84b4eb2e6aba2ddf4255897a28a732314b1b01a996a47647b677905bff7b7078"
+}
