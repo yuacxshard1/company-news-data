@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3065131f08f011152c8a7415e8b19bb77124072b65bdac51246a8d719202e0f7",
+  "company_key": "yc-tracecat",
+  "company_name": "Tracecat",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.0.0-rc.2",
+  "canonical_url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.0.0-rc.2",
+  "title": "Tracecat 1.0.0-rc.2",
+  "summary": "",
+  "body_markdown": "## Breaking changes\n\n\n- security(agents)!: Block SSRF in MCP and custom LLM requests ([#3499](https://github.com/TracecatHQ/tracecat/pull/3499) )\n\n\n## Agents\n\n\n- fix(agents): Preserve original errors during runtime cleanup ([#3492](https://github.com/TracecatHQ/tracecat/pull/3492) )\n\n\n## Integrations\n\n\n- fix(ui+integrations): Label MCP OAuth picker by provider grant type ([#3451](https://github.com/TracecatHQ/tracecat/pull/3451) )\n- fix(integrations): Let RunReveal MCP connect to a self-hosted server URL ([#3455](https://github.com/TracecatHQ/tracecat/pull/3455) )\n- feat(integrations): Add AWS role chaining to boto3, S3, and DuckDB ([#3516](https://github.com/TracecatHQ/tracecat/pull/3516) )\n\n\n## User interface\n\n\n- feat(ui): Add connected status filter and sort connected MCP servers first ([#3510](https://github.com/TracecatHQ/tracecat/pull/3510) )\n\n\n## Infrastructure\n\n\n- docs(infra): Add Docker Compose action throughput sizing guide ([#3511](https://github.com/TracecatHQ/tracecat/pull/3511) )\n- infra: Tune Compose executor concurrency ([#3513](https://github.com/TracecatHQ/tracecat/pull/3513) )\n- infra: Pull MinIO image from quay.io instead of Docker Hub ([#3517](https://github.com/TracecatHQ/tracecat/pull/3517) )\n\n\n**Full changelog** :[1.0.0-rc.1...1.0.0-rc.2](https://github.com/TracecatHQ/tracecat/compare/1.0.0-rc.1...1.0.0-rc.2)",
+  "published_at": "2026-09-15T23:07:34+00:00",
+  "first_seen_at": "2026-09-16T05:37:58.410253+00:00",
+  "content_hash": "sha256:22c7f619b102f025353077b05bbfc4382eca918c643d161960aef30749891094"
+}

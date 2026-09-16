@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "47cef8ca11671a423b5088d3df0e32da1663a040a6ef0b359b4db179ec3ff418",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/observability-autopilot",
+  "canonical_url": "https://supabase.com/changelog/observability-autopilot",
+  "title": "Observability on Auto-Pilot",
+  "summary": "Observability on Auto-Pilot",
+  "body_markdown": "Most attempts to use agents for monitoring fail for the same reason: the brief is too vague. \"Monitor and fix\" is not a job description. An expert needs a defined scope, the right data sources, and a clear format for what they report back.\n\n\nWe shipped a few things to make this even more powerful with Supabase's AI tooling.\n\n\n## Hire an agent#\n\n\nThe[Hire an agent](https://supabase.com/docs/guides/observability/automate-with-agents) guide defines four roles, each with a prepared prompt and setup instructions for Claude Routines, Codex scheduled tasks, or Cursor Automations:\n\n\n- **Health** — API and Auth error rates, connection pressure, instance state\n- **Security** — Security Advisor findings, RLS gaps, Auth 4xx patterns\n- **Performance** — slow queries, lock waits, long-running sessions, Performance Advisor\n- **Capacity** — request, error, storage, and connection growth against baselines\n\n\nEach prompt scopes the agent to a specific job, runs across a fresh context, and routes findings through your existing integrations — Linear, Slack, wherever your team tracks work. Copy the prompt as-is or adapt it. It runs in any environment that supports MCP, not just the ones listed.\n\n\n## The Supabase plugin#\n\n\nThe[MCP server](https://supabase.com/docs/guides/ai-tools/mcp) already covers a broad range of Supabase tooling — database management, debugging, Edge Functions, branching, and more. A new` query_logs` tool extends that with structured access to logs across all services: API, Auth, Storage, Edge Functions, and Postgres. Everything you'd debug with a SQL query against your instance, your agent can now reach through MCP.\n\n\nThe[agent skills](https://supabase.com/docs/guides/ai-tools/ai-skills) pair with that data: they teach agents how to use Supabase correctly, pulling from a docs structure rebuilt so agents find the right material reliably. More knowledge on what the data means and where to look.\n\n\nBoth are part of the[Supabase plugin](https://supabase.com/docs/guides/ai-tools/plugins) — the[MCP server](https://supabase.com/docs/guides/ai-tools/mcp) and skills bundled for a single install.\n\n\n## Get started#\n\n\nRead the[Hire an agent guide](https://supabase.com/docs/guides/observability/automate-with-agents) , pick a role, and copy the prepared prompt into your environment of choice. To use the full Supabase toolset, install the plugin from the[AI tools page](https://supabase.com/docs/guides/ai-tools/plugins) .",
+  "published_at": "2026-09-13T00:00:00+00:00",
+  "first_seen_at": "2026-09-16T04:46:54.714457+00:00",
+  "content_hash": "sha256:62dabd85bed3bbcb6f6e8e542c92e232acbeff6168e65da019bfd53535fcaaaf"
+}

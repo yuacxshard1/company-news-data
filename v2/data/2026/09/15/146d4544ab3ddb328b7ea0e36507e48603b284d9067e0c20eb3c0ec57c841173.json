@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "146d4544ab3ddb328b7ea0e36507e48603b284d9067e0c20eb3c0ec57c841173",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-archived-salesforce/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-archived-salesforce/",
+  "title": "AWS Glue zero-ETL now captures archived Salesforce records",
+  "summary": "Discover more about what's new at AWS with AWS Glue zero-ETL now captures archived Salesforce records",
+  "body_markdown": "AWS Glue zero-ETL integrations for Salesforce now capture archived records in your target tables, giving you a complete replica of your Salesforce data for analytics and reporting. Archived records are identified and reflected accurately through the isArchived field, so your analytical data stays fully in sync with your Salesforce source. This is especially valuable for high-volume entities that Salesforce archives automatically, such as Events, Tasks, and Activities, giving you complete visibility into this data in your analytical data stores.\n\n\nThis feature applies to your zero-ETL integrations with no action required. New integrations capture archived records automatically from the moment the integration is created. For existing integrations, AWS Glue automatically backfills archived record status, with no re-sync, reconfiguration, or schema change needed. Your existing pipelines continue running uninterrupted while the isArchived field is populated accurately on your behalf.\n\n\nThis feature is available in all AWS Commercial and AWS GovCloud (US) Regions where AWS Glue zero-ETL integrations for Salesforce are supported.\n\n\nTo get started, create or continue using an AWS Glue zero-ETL integration for Salesforce using the[AWS Glue console](https://console.aws.amazon.com/glue/) , CLI, or SDK. To learn more, see AWS Glue zero-ETL[documentation](https://docs.aws.amazon.com/glue/latest/dg/zero-etl-sources.html) .",
+  "published_at": "2026-09-15T08:00:00+00:00",
+  "first_seen_at": "2026-09-16T04:12:49.021376+00:00",
+  "content_hash": "sha256:6398999600552a18df4590b25d7e019cf917b2eeaf5594f838e4a36049f43889"
+}
