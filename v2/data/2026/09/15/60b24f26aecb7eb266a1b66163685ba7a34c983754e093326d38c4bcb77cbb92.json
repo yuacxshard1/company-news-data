@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "60b24f26aecb7eb266a1b66163685ba7a34c983754e093326d38c4bcb77cbb92",
+  "company_key": "yc-mastra",
+  "company_name": "Mastra",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://mastra.ai/blog/introducing-error-diagnostics-platform-cli",
+  "canonical_url": "https://mastra.ai/blog/introducing-error-diagnostics-platform-cli",
+  "title": "Introducing Error Diagnosis for Mastra Platform and CLI",
+  "summary": "Diagnose and fix failed deploys with helpful recommendations.",
+  "body_markdown": "You can now get an[error diagnosis](https://mastra.ai/reference/cli/mastra#mastra-env-diagnosis) for failed deploys on the Mastra platform or via the CLI. Inspect by deploy ID, project, or environment, then copy the recommendations and hand off to your coding agent to fix.\n\n\nEvery failed deploy comes with an explanation of the error and recommendations that highlight the problem code. You can inspect the fix in-place, copy the diagnosis summary as markdown, or drill into the detailed logs when you need the raw output.\n\n\nYour browser does not support the video tag.\n\n\nBefore diagnosis, debugging a failed deploy meant reading raw build logs. Now the platform and CLI both return a summarized diagnosis that you, your coding agent, or downstream services can act on.\n\n\nErrors are classified as either` USER` ,` SYSTEM` , or` THIRD_PARTY` . Only` USER` errors show a diagnosis with recommendations.\n\n\n## Platform diagnosis\n\n\nRead the diagnosis for any failed deployment on the Mastra[platform](https://projects.mastra.ai/) :\n\n\n## CLI diagnosis\n\n\nOr read the same diagnosis from your terminal using the Mastra[CLI](https://mastra.ai/reference/cli/mastra) :\n\n\nTerminal\n\n\n```text\nnpm   install   -g   mastra@latest\n```\n\n\nnote\n\n\nRequires` mastra@1.30.0` or later, added in[PR #23672](https://github.com/mastra-ai/mastra/pull/23672) .\n\n\nRun with the failed deploy's ID:\n\n\nTerminal\n\n\n```text\nmastra   env   diagnosis   e8b0250b-4ffa-45b9-b811-debf17c5836e\n```\n\n\nScoped by[environment](https://mastra.ai/docs/mastra-platform/environments) —` production` ,` staging` , or any custom name:\n\n\nTerminal\n\n\n```text\nmastra   env   diagnosis   e8b0250b-4ffa-45b9-b811-debf17c5836e   --environment   staging\n```\n\n\nOr combine deploy ID, environment, and project:\n\n\nTerminal\n\n\n```text\nmastra   env   diagnosis   e8b0250b-4ffa-45b9-b811-debf17c5836e   --environment   staging   --project   a6f6f3b0-6dd9-48b0-b7e8-354736c264d8\n```\n\n\nFor more information and full configuration options, see:\n\n\n- [mastra env diagnosis reference](https://mastra.ai/reference/cli/mastra#mastra-env-diagnosis)\n- [Mastra Platform overview](https://mastra.ai/docs/mastra-platform/overview)\n- [Deploy](https://mastra.ai/docs/mastra-platform/deploy)\n- [Environments](https://mastra.ai/docs/mastra-platform/environments)\n- [GitHub integration](https://mastra.ai/docs/mastra-platform/github)",
+  "published_at": "2026-09-15T00:00:00+00:00",
+  "first_seen_at": "2026-09-15T23:27:36.051404+00:00",
+  "content_hash": "sha256:e9c72cb4193f639ad225346df46327af54e5ea8f7bf2419f4241b23a9d716a69"
+}

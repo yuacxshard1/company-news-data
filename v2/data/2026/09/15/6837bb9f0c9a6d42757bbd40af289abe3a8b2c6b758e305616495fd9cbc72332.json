@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6837bb9f0c9a6d42757bbd40af289abe3a8b2c6b758e305616495fd9cbc72332",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
+  "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
+  "summary": "Discover more about what's new at AWS with Amazon Connect Customer now enables agents to bid on preferred shifts",
+  "body_markdown": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or generating a randomized ranking. Connect Customer then uses forecasted demand and shift profiles to generate available shifts and presents them to agents to rank. For example, in a Monday–Friday 6AM–10PM shift profile with 9-hour shifts, required shifts are 6AM–3PM (500 agents), 9AM–6PM (800 agents), and 1PM–10PM (600 agents). Once the bidding window closes, Connect Customer automatically assigns each agent to their highest-ranked available shift while using agent ranking as a tiebreaker. Shift bidding gives agents a structured way to influence their own schedules, while reducing the time schedulers spend on manual shift assignments, improving both agent satisfaction and scheduling efficiency.\n\n\nThis feature is available in all[AWS Regions](https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#optimization_region) where Amazon Connect Customer agent scheduling is available. To learn more about Amazon Connect Customer agent scheduling, click[here](https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html) .",
+  "published_at": "2026-09-15T16:00:00+00:00",
+  "first_seen_at": "2026-09-15T19:24:55.185616+00:00",
+  "content_hash": "sha256:83058cd190cb35d9ab1bd4be750f942d2a060686909c30a95c32402b919b5b59"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f472548027ed96597740c50929a3c8671f749794e4982cedee81aafce36e5051",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-unified-studio-odbc-power-bi/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-unified-studio-odbc-power-bi/",
+  "title": "Amazon SageMaker Unified Studio now supports ODBC connections for Microsoft Power BI and other analytics tools",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker Unified Studio now supports ODBC connections for Microsoft Power BI and other analytics tools",
+  "body_markdown": "Amazon SageMaker Unified Studio now supports ODBC connections, so data users can connect Microsoft Power BI and other ODBC-compatible tools directly to governed data in SageMaker Unified Studio projects using the Amazon Athena ODBC driver. This adds a native connection path for analysts who have standardized on Power BI to work with governed data using their existing tools and workflows.\n\n\nAmazon SageMaker Unified Studio adds an ODBC connection details view to the project overview page, alongside the existing JDBC view. From the project's JDBC and ODBC connections tab, data users can copy the connection string and its parameters for a DSN-less connection, or use them to configure a named DSN. The Amazon Athena ODBC driver (version 2.2.0.1 or later) works directly with SageMaker Unified Studio through two modes: SageMakerBrowserIdc, which opens a browser to sign in through AWS IAM Identity Center and your external identity provider, and SageMakerIam, which uses temporary AWS credentials.\n\n\nODBC connections in SageMaker Unified Studio are available today in all AWS Regions where Amazon SageMaker Unified Studio is available, at no additional cost.\n\n\nTo get started, refer to the[Amazon SageMaker Unified Studio User Guide](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/query-with-odbc.html) and the[Amazon Athena ODBC driver documentation](https://docs.aws.amazon.com/athena/latest/ug/odbc-v2-driver.html) .",
+  "published_at": "2026-09-11T08:00:00+00:00",
+  "first_seen_at": "2026-09-15T19:24:55.185616+00:00",
+  "content_hash": "sha256:3471ac85888385da0bc66da27f997cb4c6c9928c9dfc4895b929f05bd9b70b3b"
+}

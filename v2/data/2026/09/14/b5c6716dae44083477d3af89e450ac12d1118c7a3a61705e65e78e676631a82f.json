@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b5c6716dae44083477d3af89e450ac12d1118c7a3a61705e65e78e676631a82f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/root-user-regional-resiliency/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/root-user-regional-resiliency/",
+  "title": "AWS improves regional resiliency for root user sign-in",
+  "summary": "Discover more about what's new at AWS with AWS improves regional resiliency for root user sign-in",
+  "body_markdown": "AWS root user sign-in is now served across US East (N. Virginia), US East (Ohio), and US West (Oregon), with sign-in traffic distributed across all three Regions. This change reduces reliance on US East (N. Virginia) and improves resiliency during service disruptions. AWS automatically routes your root user sign-in to a supported Region without requiring you to select a Region or change how you sign in. This improvement is available now for all AWS accounts.\n\n\nIn AWS CloudTrail, ConsoleLogin events for root user sign-ins are recorded in the Region that processed the sign-in request. To maintain full visibility into root user sign-in activity, update your monitoring and alerting to cover US East (N. Virginia), US East (Ohio), and US West (Oregon).\n\n\nTo learn more, see the[AWS Sign-In documentation](https://docs.aws.amazon.com/signin/latest/userguide/introduction-to-root-user-sign-in-tutorial.html) and the[CloudTrail ConsoleLogin event reference](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws-console-sign-in-events.html#cloudtrail-event-reference-aws-console-sign-in-events-root) .",
+  "published_at": "2026-09-14T19:30:00+00:00",
+  "first_seen_at": "2026-09-15T19:24:55.185616+00:00",
+  "content_hash": "sha256:456f13f9af82a3f23eefa1c5bfc44ff9cde2507bcc639cf6d9b9838d7b346895"
+}
