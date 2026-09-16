@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3e8a3ff4e70df0421bcbb3075c007e067370067100686d3d4cfe965b7b4c1709",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/",
+  "title": "AWS Step Functions adds new AWS service integrations automatically, starting with AWS Lambda MicroVMs",
+  "summary": "Discover more about what's new at AWS with AWS Step Functions adds new AWS service integrations automatically, starting with AWS Lambda MicroVMs",
+  "body_markdown": "[AWS Step Functions](https://aws.amazon.com/step-functions/) now automatically adds AWS SDK integrations for new AWS services and capabilities within weeks of their release, starting with AWS Lambda MicroVMs, AWS Lambda Core and others. Now, you can orchestrate the latest AWS services from your workflows without waiting for updates.\n\n\nAWS Step Functions is a visual workflow service capable of orchestrating over 220 AWS services to help customers build distributed applications at scale. With the AWS Lambda Core and AWS Lambda MicroVMs service integrations, you can orchestrate agentic workflows without writing custom coordination code. You can use Step Functions to launch Lambda MicroVMs, which provide isolated, secure execution environments for each agent task with built-in retries if an environment fails to start. You can run multiple tasks simultaneously using Step Functions Parallel or Map states and automatically terminate environments when the task completes. You can use Lambda Core to configure the private networking those MicroVM environments need to securely reach your internal databases or APIs in the same workflow.\n\n\nThis expansion also includes AWS Partner Central Revenue Measurement, AWS Resilience Hub V2, AWS Support Authorization and Amazon SageMaker Job Runtime. Going forward, new AWS services will automatically appear as Step Functions integrations within weeks of their release with no additional configuration or action required. As updates will be continuous, we will no longer publish What's New posts to highlight new AWS SDK service integration updates.\n\n\nThese enhancements are now generally available in all AWS Regions where AWS Step Functions is available. Specific services and API actions are subject to the availability of the target service in the AWS Region. To learn more about AWS Step Functions SDK integrations, visit the[Developer Guide](https://docs.aws.amazon.com/step-functions/latest/dg/integrate-services.html) , or see the full list of supported services at[AWS SDK service integrations,](https://docs.aws.amazon.com/step-functions/latest/dg/supported-services-awssdk.html) and[integration release history](https://docs.aws.amazon.com/step-functions/latest/dg/awssdk-release-history.html) .",
+  "published_at": "2026-09-15T18:54:00+00:00",
+  "first_seen_at": "2026-09-16T18:00:51.509700+00:00",
+  "content_hash": "sha256:fe7f46c352f64292510af7617358a6802838fe125e26d3a42876125b24e408fb"
+}

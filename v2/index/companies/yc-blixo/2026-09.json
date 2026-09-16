@@ -13,9 +13,19 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "0d353e862c6c7f81482b4716913e6af559a34ecbeecb904ac80193d20b6c1e93",
+      "first_seen_at": "2026-09-16T15:36:04.118888+00:00",
+      "published_at": "2026-09-15T04:35:20+00:00",
+      "source_kind": "html",
+      "summary": "The Facts Up Front CFOs often approve write-offs in minutes, so the full order-to-cash picture needs to fit on one page or it goes unread. Under many accrual-based accounting frameworks, delayed write-offs can overstate balance-sheet assets and distort forecasting, working capital planning, and performance measurement. A 90-day balance from a healthy subscriber and one from a churned account can carry very different write-off odds. Aging buckets alone may not show the difference. Five columns commonly anchor the page: total AR outstanding, DSO, aging buckets, write-off risk score per account, and variance versus forecast. Aging buckets typically span current, 30, 60, 90, and 90+ days. Collection odds generally fall as receivables age. Misapplied payments can inflate apparent bad debt and trigger write-offs that reconciled cash-application data might have caught before approval. Full receivables audits often need line-level detail and supporting documentation. The one-page summary is not the right tool for that investigation. Why a One-Page AR Summary Earns the Signature The approval window is short. If the AR picture doesn’t fit on a single page, it may not get read. A one-page summary that condenses aging, exposure, and recommended write-offs into a single view is what often moves a decision forward.",
+      "title": "The One-Page AR Summary CFOs Actually Read Before Approving Write-Offs"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "35477d6ce24c1b37e26980b0461da98ad10444102ba00ab07ef08c4cb34aca6b",
       "first_seen_at": "2026-09-15T02:11:16.363353+00:00",
-      "published_at": "2026-09-13T04:42:38+00:00",
+      "published_at": "2026-09-12T04:35:20+00:00",
       "source_kind": "html",
       "summary": "Quadient AR vs HighRadius: Which One Actually Fits Your Stack? Key Takeaways HighRadius ships 190+ AI agents and full order-to-cash automation for Fortune 500 operations. Expect 3–6 month implementations. Quadient AR goes after mid-market teams with faster deployment and connectors for NetSuite, Sage Intacct, and Acumatica. Coca-Cola Bottlers recovered $33.4 million with a 34-day resolution time using HighRadius, versus a 90-day industry average. HighRadius automates 600+ AP portal uploads and delivered 20% drops in past-due invoices plus 30% productivity gains. HighRadius wins on automation depth for enterprises. Quadient AR wins on usability for smaller teams. Neither covers the full payment cycle agencies need: invoicing, subscription billing, and collections under one roof. Quadient AR uses predictive analytics to rank collections by customer payment behavior. Where Each Platform Actually Lands Most comparisons frame Quadient AR and HighRadius as market-segment alternatives: enterprise versus mid-market. That’s true, but it misses the bigger gap both leave open. Neither addresses the full payment lifecycle agencies run: invoicing, subscription billing, and collections in one place.",
       "title": "Quadient AR vs HighRadius: Faster collections for your agency payments"
@@ -45,7 +55,7 @@
       "company_name": "Blixo",
       "doc_id": "46371520ca6ffbebc0e66d6fb12edc3b371091302ad4d14d0935095db85c444c",
       "first_seen_at": "2026-09-13T14:36:52.416330+00:00",
-      "published_at": "2026-09-10T04:42:38+00:00",
+      "published_at": "2026-09-09T04:35:20+00:00",
       "source_kind": "html",
       "summary": "Key Takeaways Executive summary reports on collections go stale within 6 to 24 hours. CFOs then steer cash decisions from an already outdated picture. Manual revenue reporting eats 20 to 40 hours a month. Mid-stage SaaS finance teams often repeat five to ten reports. Late B2B payments keep rising, widening the reporting gap. Automated summaries update continuously, unlike static weekly or monthly refreshes. About 73% of analysts call manual reporting a major time sink. Static summaries make collections reactive, not proactive. Live feeds from collection workflows surface risk as it appears. The fix is a live report, not a prettier one. Automation lands at medium implementation difficulty, not high. The One-Sentence Problem An executive summary report on collections is outdated before you finish reading it. Manual revenue reporting for a mid-stage SaaS company burns 20 to 40 hours a month, and by the time those reports land, the data is already 6 to 24 hours stale. In that same window, late B2B payments keep climbing. So the CFO is steering cash-flow decisions on a picture that’s already changed.",
       "title": "Executive Summary Reports Go Stale the Moment Collections Chase a Customer"
@@ -53,9 +63,19 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "46ef4d198d8e76cf96bd43edaf14deed8c123bd406647e7fa3e60adf149a504c",
+      "first_seen_at": "2026-09-16T15:36:04.118888+00:00",
+      "published_at": "2026-09-16T04:35:20+00:00",
+      "source_kind": "html",
+      "summary": "TL;DR Connecting an accounts receivable cloud to Dynamics 365 Finance can close the Order-to-Cash loop by applying cash as it lands instead of after someone keys it in. A hybrid sync pattern is common in Dynamics environments: OData for small real-time events, and the batch data API for bulk reconciliation and mass cash-application loads. Some Dynamics 365 AR configuration pages may remain locked until prerequisite parameters are in place, so setup order is worth planning rather than discovering. In a typical Dynamics data model, customer records may map to CustTable, invoices to invoice journal tables such as CustInvoiceJour, and applied payments/open balances to customer transaction tables such as CustTrans. Why bother connecting an AR cloud to Dynamics 365 Finance Integrate an accounts receivable cloud with Microsoft Dynamics 365 Finance and you can close the Order-to-Cash loop many SaaS firms leave half-open. Invoices, payments, and collection actions can stop living in separate systems. Cash can apply when it lands, and the ledger can reflect current reality instead of last week’s export.",
+      "title": "How to integrate accounts receivable cloud with Microsoft Dynamics 365 Finance"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "556a63acce3688835a3da0631172c77780edffab16526dd29dc1f640ed73a428",
       "first_seen_at": "2026-09-13T14:36:52.416330+00:00",
-      "published_at": "2026-09-11T04:42:38+00:00",
+      "published_at": "2026-09-10T04:35:20+00:00",
       "source_kind": "html",
       "summary": "Key Takeaways Four tests (Forward, CFO, Calendar, Metric) act as one pass/fail gate. Fail any single one and the summary goes back to the author, not to the executive team. The Forward Test: a peer can forward it without narrating it, and the ask and owner stay obvious. The CFO Test: a CFO can price the decision because the summary maps to revenue, cost, risk, or time, with delay cost quantified per day. The Calendar Test: the summary names the deadline the decision has to beat, instead of floating with no date until the window closes. The Metric Test: the summary promises a number someone can measure next week, so value is verifiable rather than asserted. Review times assume a 250–500 word summary. That’s the range that holds up in practice. Related Video Watch: How to Write an Executive Summary Like a Boss by David Taylor",
       "title": "Executive Summary Report Checklist: 4 Tests That Separate Decisions From Status Updates"
@@ -145,7 +165,7 @@
       "company_name": "Blixo",
       "doc_id": "9c9250d79ba56f15c9e62de7bf0a4380734514292175f60784b8d196ad88df8a",
       "first_seen_at": "2026-09-15T02:11:16.363353+00:00",
-      "published_at": "2026-09-12T04:42:38+00:00",
+      "published_at": "2026-09-11T04:35:20+00:00",
       "source_kind": "html",
       "summary": "Key Takeaways Sales teams spend about 70% of their week on repetitive tasks. Cloud invoice processing reduces hardware limits and IT overhead. Vendors suggest piloting the system on a subset of invoices first. Lower upfront costs can mean faster ROI than on-premise deployments. The main AR automation outcomes are lower DSO, fewer labor hours, and faster turnaround. Quick Summary Cloud invoice processing moves billing work off local servers. It captures, matches, and routes invoices automatically. For subscription businesses, the payoff goes beyond faster data entry. It turns invoice processing into a cash-flow engine.",
       "title": "cloud invoice processing"
@@ -175,7 +195,7 @@
       "company_name": "Blixo",
       "doc_id": "bf4515f08b60743262402f775c47fd3ea5f61c9b39d8db7f5db7350c76dbcc40",
       "first_seen_at": "2026-09-15T21:55:40.085430+00:00",
-      "published_at": "2026-09-15T04:42:38+00:00",
+      "published_at": "2026-09-14T04:35:20+00:00",
       "source_kind": "html",
       "summary": "Key Takeaways A cash flow summary that flags at-risk invoices first works like an early-warning system, not a rear-view total of what’s outstanding. Slow payers strangle working capital. One delayed enterprise invoice can disrupt operating cash and, in a bad month, payroll. Watching DSO move across three straight months tells you far more than any single-month snapshot. A growing AR balance can look like revenue growth while it’s quietly tying up cash you can’t spend. Scoring invoice risk means watching two things at once: portfolio-level trends and individual customer payment odds. Predictive models are only as good as the ledger data feeding them, which is why centralized billing and automated reconciliation matter. Why flag the risky invoices first instead of last Flip the order most finance teams use, and you get a report that actually warns you.",
       "title": "Draft a Cash Flow Summary That Flags At-Risk Invoices First"
@@ -195,7 +215,7 @@
       "company_name": "Blixo",
       "doc_id": "c9f032b2d774c30852bd4bb829fbb3312e1f52e5d824f76660c59eec2e76cd41",
       "first_seen_at": "2026-09-15T21:55:40.085430+00:00",
-      "published_at": "2026-09-14T04:42:38+00:00",
+      "published_at": "2026-09-13T04:35:20+00:00",
       "source_kind": "html",
       "summary": "Key Takeaways Once trained, some AI cash-application bots hit 90%+ straight-through matching. The best deployments can reach 96–97% touchless on posted transactions. Manual reconciliation can eat 20-plus hours a week per clerk. That leaves AR teams keying invoice numbers instead of chasing overdue accounts. DSO reductions have been reported as high as 37%. One documented case saw a five-day drop after automation. The real payoff during seasonal spikes is headcount you never had to hire. Distributors absorb surges without pulling in temps. Automation can cut manual tasks by up to 70% in some deployments. One manufacturer reported reclaiming roughly 20 hours a week. ERP integration is generally moderate in difficulty. Depending on the provider, connector libraries may cover 50-plus ERPs and 110-plus banks. Time-to-value can run a few days to a few weeks. Connections to SAP, Oracle, and Dynamics have been reported inside days. Package the automation case into an executive summary report for CFO decision-making: peak capacity, DSO movement, and exception trends in one place. Quick Summary Seasonal order surges are where an automated cash-application system earns its keep. It handles payment spikes without temporary staff. If you are evaluating one, five questions do most of the work: how fast it goes live, how much staff time it gives back, how much it accelerates working capital, what it connects to, and what the return actually looks like.",
       "title": "How an AI bot can automate cash application for small distributors"
@@ -225,7 +245,7 @@
       "company_name": "Blixo",
       "doc_id": "d3813fdfa6b0e3480d32d159c140009363f5f89d538e3fc2baf62a1ca7fdc781",
       "first_seen_at": "2026-09-13T14:36:52.416330+00:00",
-      "published_at": "2026-09-09T04:42:38+00:00",
+      "published_at": "2026-09-08T04:35:20+00:00",
       "source_kind": "html",
       "summary": "Key Takeaways CFOs read proposals hunting for the one number that drives decisions. A three-metric summary matches that pattern. Oliver Wyman’s CFO Agenda found 65% of CFOs cite enterprise value creation and 62% cite strategic fit as top filters for capital decisions. Growth ranks No. 1 for 64% of CFOs, while 60% put cost management beside it. The cleanest trio for a SaaS AR case: DSO for liquidity, ARR for growth, and cost-per-invoice or bad-debt for cost management. A $600M company running a 90-day cash conversion cycle can tie up working capital. Cutting DSO from 60 to 45 days frees capital. No equity raise, no new debt, no headcount cut. Boards approve the decision, not the detail. Three numbers beat a 20-page business case. Why three numbers beat the deck A CFO reads your proposal the way a board reads theirs: fast, looking for the number that moves the decision. An executive summary built around three metrics respects that. It forces you to answer the only question capital allocation cares about: what does this AR project do for liquidity, growth, and cost?",
       "title": "How to Write an AR Executive Summary Around Three CFO Numbers"
