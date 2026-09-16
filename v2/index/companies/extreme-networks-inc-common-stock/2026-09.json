@@ -9,6 +9,16 @@
       "source_kind": "rss",
       "summary": "The “Dirty Frag” vulnerability is a local privilege escalation (LPE) issue in the Linux kernel that combines flaws in the ESP/XFRM and RXRPC subsystems to allow an unprivileged local attacker to gain root access on major Linux distributions (using any of these two: ESP/XFRM or RXRPC flaws). The attack abuses kernel page-cache manipulation and network protocol handling to overwrite privileged binaries and execute arbitrary code with elevated privileges. Exploitation differs by distribution: the ESP issue affects systems permitting unprivileged user namespaces, while the RXRPC issue impacts distributions with RXRPC enabled, such as Ubuntu. Together, the vulnerabilities provide broad cross-distribution root compromise capability, with mitigations involving disabling vulnerable kernel modules (esp4, esp6, and rxrpc) until upstream patches are fully merged and deployed. Products not listed in the Impact Details section have not been evaluated. Furthermore, products that have exceeded any software maintenance time periods are also not evaluated and will not be published. Please consult End of Sale and End of Service Life - Extreme Networks for the EOL notices related to the product under question.",
       "title": "SA-2026-044 - Linux Kernel \"Dirty Frag\" xfrm ESP IPSec (CVE-2026-43284)"
+    },
+    {
+      "company_key": "extreme-networks-inc-common-stock",
+      "company_name": "Extreme Networks Inc.",
+      "doc_id": "30437a061a4c1548a4d9dbefacd6d6add69821830c38a8c14410bed29b92700f",
+      "first_seen_at": "2026-09-16T12:30:13.534568+00:00",
+      "published_at": "2026-09-09T11:05:00+00:00",
+      "source_kind": "rss",
+      "summary": "Extreme Agent ONE Coworker, now generally available, is the next generation of agentic AI for networking that helps IT teams solve issues 15x faster Extreme Networks , Inc. (NASDAQ: EXTR) today announced the general availability of Extreme Agent ONE™ Coworker , the next generation of agentic AI for enterprise networking. Now available to all Extreme Platform ONE™ customers worldwide as part of their subscription, Agent ONE Coworker scales IT expertise and delivers recommendations rooted in each team’s specific network environment, enabling them to resolve issues up to 15x faster and move from reactive issue resolution to proactive planning and prevention. Extreme Agent ONE Coworker is available now to all Extreme Platform ONE customers worldwide as part of their subscription. Today’s enterprise environments are complex, and network teams spend hours or days gathering information and troubleshooting while also struggling to hire and retain qualified engineers. Unlike traditional",
+      "title": "Extreme Delivers Industry's First Proactive, Context-Aware AI Agent for Networking"
     }
   ],
   "company_key": "extreme-networks-inc-common-stock",
