@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a63f35eec8fe973ed5902bdbdc5112d10c71482f083fb1d153a5e70c35f34948",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
+  "title": "Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
+  "summary": "Discover more about what's new at AWS with Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
+  "body_markdown": "[Amazon Elastic Container Service](https://aws.amazon.com/ecs/) (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is failing, and what could stop it. This helps you monitor Managed Daemon deployments at a glance and resolve issues faster, whether a rollout is in progress or you are reviewing what happened after it completed, eliminating the need to piece together deployment status from multiple sources.\n\n\nThe deployment view presents a lifecycle timeline with timestamps at each step and the total deployment duration, including the rollback path if a deployment is interrupted. Progress bars for each capacity provider track instances completed, in progress, and remaining, as well as instances draining and being replaced when a capacity provider is removed. A monitoring panel shows deployment circuit breaker, deployment alarm, and container health check state, each with live Amazon CloudWatch alarm detail and whether it can stop the deployment. If a daemon task fails, the affected capacity provider shows the stop reason with links to the task, its logs, and the matching troubleshooting guide, including the failure that caused a rollback. The view also displays target and source revisions with instance counts, drain percentage, and bake time.\n\n\nThis enhancement is available as a console-only view in all AWS Commercial Regions at no additional cost. To get started with Amazon ECS Managed Daemons, refer to our[documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-daemons.html) .",
+  "published_at": "2026-09-16T22:01:00+00:00",
+  "first_seen_at": "2026-09-17T16:50:11.113398+00:00",
+  "content_hash": "sha256:325358b5377fa1dc8d157e960caf0d1dcce5ea568490b6f023869088bb1b5905"
+}

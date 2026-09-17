@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c3ed7ac0b764d8ced04b1ab81429f47408eeed63bd01ce37f8560b22678f42a0",
+  "company_key": "twilio-inc-class-a-common-stock",
+  "company_name": "Twilio Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.twilio.com/en-us/blog/developers/tutorials/integrations/just-in-time-masked-calls-proxy",
+  "canonical_url": "https://www.twilio.com/en-us/blog/developers/tutorials/integrations/just-in-time-masked-calls-proxy",
+  "title": "On-Demand Masked Sessions with Twilio Proxy, Voice and Serverless",
+  "summary": "Manage marketplace communications without pre-associating numbers. Use Twilio Proxy, Voice, and Serverless to build dynamic, Just-in-Time masked session calls.",
+  "body_markdown": "In this post, you'll learn how to build a Just-in-Time (JIT) Masked Session Creation system to securely connect users on demand. When phone numbers can't be pre-associated due to inventory constraints, this architecture intercepts inbound calls to a central Twilio number powered by[Twilio Voice](https://www.twilio.com/en-us/voice) , uses an IVR to collect a tracking code, and dynamically creates a private proxy session on the fly with[Twilio Proxy](https://www.twilio.com/docs/proxy) .\n\n\nLet’s build it!\n\n\n## Solution overview\n\n\nFor on-demand delivery, ridesharing, and marketplace services, connecting two users securely is a standard operational requirement.\n\n\nTypically, customer and courier interactions are managed using *masked communications* , allowing both parties to call or text each other without revealing their personal phone numbers.[Twilio Proxy](https://www.twilio.com/docs/proxy) simplifies this task by dynamically mapping intermediate phone numbers and bridging active sessions. However, a traditional implementation assumes that the identity of both parties is known beforehand to pre-allocate a static session. What happens when a delivery courier is standing outside an apartment complex trying to reach a customer, but their phone numbers cannot be pre-associated due to scaling or inventory constraints?\n\n\nThis tutorial introduces a customized architecture called *Just-in-Time (JIT) Masked Session Creation* . By intercepting inbound calls on a single reserved Twilio number, prompting the caller with an interactive voice response (IVR) to key in a short tracking code, and querying a lightweight backend, you can resolve and stand up private sessions on the fly.\n\n\n## High-level solution architecture\n\n\nThis dynamic architecture runs entirely on[Twilio Serverless Functions](https://www.twilio.com/docs/serverless/functions-assets) .\n\n\nThe core challenge occurs when Twilio Proxy intercepts a call on a number with no active session, triggering an Out-of-Session Callback. That callback's payload does not contain the digits pressed on the keypad, so we implement a '2-Bounce' out-of-session workflow using a redirect and[Twilio Sync](https://www.twilio.com/docs/sync) to carry state across the bounces.",
+  "published_at": "2026-09-16T00:00:00+00:00",
+  "first_seen_at": "2026-09-17T12:25:05.404055+00:00",
+  "content_hash": "sha256:9988f5679f93a9600c3df2d2f8ddca2b52758124b4a42a70f0ca5d2b2c4aac70"
+}
