@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e116d804cecd7748875e2ff72b1f469a572cbaf040b0129a556d3f32cb467dde",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
+  "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
+  "summary": "Discover more about what's new at AWS with Amazon Connect Customer custom metrics now supports tag-based access control",
+  "body_markdown": "# Amazon Connect Customer custom metrics now supports tag-based access control\n\n\nPosted on: Sep 16, 2026\n\n\nAmazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric.\n\n\nAs more teams across your organization adopt custom metrics, they end up editing the same shared library. Without controls, one person can change a metric that other teams count on. The usual fix is to give only a handful of people permissions to custom metrics, but that shuts out every other team that wants to start using them.\n\n\nNow you can tag each metric, then use those tags to set access: a team gets full control of their own metrics, view-only access to another team’s, and no visibility into the metrics you restrict. Search follows the same access rules, so people only see the metrics they’re allowed to view or manage.\n\n\nThis feature is available in all AWS Regions where Amazon Connect Customer is offered. To learn more, see the[Amazon Connect Customer API Reference](https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateMetric.html) and the[Amazon Connect Customer Administrator Guide](https://docs.aws.amazon.com/connect/latest/adminguide/metric-primitive-definitions.html) . To learn more about Amazon Connect, please visit the[Amazon Connect Customer website](https://aws.amazon.com/products/connect/customer/) .",
+  "published_at": "2026-09-16T17:00:00+00:00",
+  "first_seen_at": "2026-09-17T01:31:33.512171+00:00",
+  "content_hash": "sha256:02c18c76045677203e1845d1238ce1e6711eb001aed52a0176b628dfd9191df5"
+}

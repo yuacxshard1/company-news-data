@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3c41a3673f92b86d0dca0e2e861f4fd5ecc4b90202c8c3854ecd97fadf6d7029",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
+  "title": "Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
+  "summary": "Discover more about what's new at AWS with Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
+  "body_markdown": "[Amazon Elastic Container Service](https://aws.amazon.com/ecs/) (Amazon ECS) now supports Amazon S3 Files for tasks running on the Amazon EC2 launch type, enabling customers to connect their containerized applications directly to data in Amazon S3 as a shared file system. With this launch, customers running ECS workloads on EC2 instances can work with their S3 data using standard file system semantics, so file-based applications, AI agents, and data processing workloads run on S3 data with no code changes and without duplicating or staging files first. S3 Files support was previously available for ECS tasks on AWS Fargate and ECS Managed Instances, and now extends to the EC2 launch type, giving customers consistent access to S3 Files across all three ECS launch types.\n\n\nAmazon S3 Files, built on Amazon EFS, delivers a shared file system that connects AWS compute resources directly with data in Amazon S3, providing full file system semantics and low-latency performance without data leaving S3. S3 Files works with new and existing data in S3 buckets, with no migration required. Customers can mount an Amazon S3 Files volume in their Amazon ECS tasks to read and write data in an S3 bucket using standard file system operations, with no application code changes and no need to copy or stage data.\n\n\nAmazon S3 Files support is available in all AWS commercial Regions and the AWS GovCloud (US) Regions. To learn more, refer our[documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/s3files-volumes.html) .",
+  "published_at": "2026-09-16T16:25:00+00:00",
+  "first_seen_at": "2026-09-17T01:31:33.512171+00:00",
+  "content_hash": "sha256:e2809cb4cbae319a43a010b276ffc2b20e0e53cccb15d14f9b56c78aa818a57b"
+}

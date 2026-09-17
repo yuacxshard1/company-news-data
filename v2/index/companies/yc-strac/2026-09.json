@@ -23,6 +23,26 @@
     {
       "company_key": "yc-strac",
       "company_name": "Strac",
+      "doc_id": "253bcd1d1ab42f970e7ad4672c1557901ed18b00aacaf051ba872b74a79ce2a0",
+      "first_seen_at": "2026-09-17T01:20:06.676982+00:00",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The MCP confused deputy problem: agents call systems like Salesforce with a shared service account, so users reach data they shouldn't. How per-user identity passthrough fixes it - and why identity and DLP are two layers, not one.",
+      "title": "The MCP Confused Deputy Problem (and How to Fix It)"
+    },
+    {
+      "company_key": "yc-strac",
+      "company_name": "Strac",
+      "doc_id": "3e1097d37b79d35ae4150da0ba3700885a2b231676280452d5cbadd6663c5340",
+      "first_seen_at": "2026-09-17T01:20:06.676982+00:00",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "An MCP rug pull is when an approved server silently changes what its tools do - using access you already granted. Why MCP is uniquely exposed, the related supply-chain attacks, and how Strac pins descriptions and flags drift.",
+      "title": "MCP Rug Pull Attacks & Supply-Chain Security"
+    },
+    {
+      "company_key": "yc-strac",
+      "company_name": "Strac",
       "doc_id": "450cddbc42fbc03078bfccf56e23d133ad1b928b4b4ebac1c2666dfc57334237",
       "first_seen_at": "2026-07-24T03:02:54.647334+00:00",
       "published_at": "2026-09-15T00:00:00+00:00",
@@ -39,6 +59,16 @@
       "source_kind": "html",
       "summary": "No — Twilio SendGrid isn't HIPAA compliant and won't sign a BAA; its terms prohibit PHI. Here's why, and how to send transactional email compliantly by redacting or tokenizing PHI before it reaches SendGrid.",
       "title": "Is SendGrid HIPAA Compliant? (No — Here's What to Do)"
+    },
+    {
+      "company_key": "yc-strac",
+      "company_name": "Strac",
+      "doc_id": "63911d518cd1a2072e54de59cde66dbb8f7d8a0b95fa5503322047bb87a7e6d7",
+      "first_seen_at": "2026-09-17T01:20:06.676982+00:00",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "MCP prompt injection is malicious instructions reaching the model through the Model Context Protocol - typed by a user or hidden in data an agent reads. How indirect injection and tool poisoning work, and where Strac catches each.",
+      "title": "MCP Prompt Injection: Direct, Indirect & Tool Poisoning"
     },
     {
       "company_key": "yc-strac",
@@ -89,6 +119,16 @@
       "source_kind": "html",
       "summary": "Yes — Twilio signs a BAA and is HIPAA compliant for eligible products (SMS, Voice, Video, SIP) on Security/Enterprise Edition. But SendGrid is excluded, and you still control the PHI you send. Here's how to stay compliant.",
       "title": "Is Twilio HIPAA Compliant? (Yes, With a BAA — Here's How)"
+    },
+    {
+      "company_key": "yc-strac",
+      "company_name": "Strac",
+      "doc_id": "7df9892c25e8287ff59c5f4ceccebf550a631660c6ed0cd66e9cdace8934c4dc",
+      "first_seen_at": "2026-09-17T01:20:06.676982+00:00",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Shadow MCP is unapproved MCP servers employees wire into AI clients - each holding a live token to a corporate system. Why cloud gateways can't see them, and how Strac's endpoint agent inventories and controls every one.",
+      "title": "Shadow MCP: Find & Control Unapproved MCP Servers"
     },
     {
       "company_key": "yc-strac",
