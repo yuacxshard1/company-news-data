@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "51ba96b293c853625ad7fa50fa6a399a0632a9e4bef1ac83264e03b75e44f798",
+  "company_key": "yc-infield",
+  "company_name": "Infield",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.infield.ai/post/deprecool",
+  "canonical_url": "https://www.infield.ai/post/deprecool",
+  "title": "Introducing Deprecool",
+  "summary": "Deprecool is a static code analysis tool for Ruby that uses Prism to find sources of deprecation warnings in your code. deprecool",
+  "body_markdown": "### **Let’s make updating a little bit easier.**\n\n\n[Deprecool](https://github.com/zradford/deprecool) is a static code analysis tool for Ruby that uses Prism to find sources of deprecation warnings in your code.\n\n\nUse Deprecool alongside the warnings that are emitted at runtime by your gems to get a complete picture of what you need to fix, where you need to fix it and why.\n‍\nEach warning that Deprecool logs will come with a summary , references to when the deprecation was added to its gem (usually the PR that introduced it), an effort estimate, and a suggestion of how to fix the deprecation. The source code line of the warning is of course logged as well:\n\n\nAt first, the suggestions will come from the deprecation source's gem maintainers own words. Eventually though, with some feedback we can pass on knowledge and examples of how to manage the more difficult deprecations to future developers trying to upgrade.\n\n\n### **Getting Started**\n\n\nYou can either:\n\n\n1. add` deprecool` to your application's Gemfile and` bundle install` ,\n2. or run` gem install deprecool` directly to be able to use the` deprecool` executable on any ruby code you have.\n\n\n` deprecool scan` is all you need to run if your current directory contains a Gemfile.lock, but if you want to you can also run` deprecool scan path/to/your/code.rb`\n‍\nBy default, Deprecool will use the gems and versions in your Gemfile.lock to know how to find deprecations, but you can also pass` --gem=list,of,gems` (no spaces!) to only look for certain gems at one time.\n‍\nRight now, Deprecool has a small handful of deprecations it can find, but I will continue adding more. I’ve also tried to make contributing to Deprecool as simple as possible with one Finder class per warning, and a few helper methods to make writing tests trivial.\n\n\nMeet me[here](https://github.com/zradford/deprecool) when you are ready to get deprecool!",
+  "published_at": null,
+  "first_seen_at": "2026-09-17T07:36:07.280513+00:00",
+  "content_hash": "sha256:5f144c2a775c6010887a72ff0cc5c538fd690c396939652df341dbeef4360db6"
+}

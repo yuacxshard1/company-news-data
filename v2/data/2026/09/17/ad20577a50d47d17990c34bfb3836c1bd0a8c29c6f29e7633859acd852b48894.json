@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ad20577a50d47d17990c34bfb3836c1bd0a8c29c6f29e7633859acd852b48894",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
+  "canonical_url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
+  "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+  "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2607.09493)\n\n\nAgentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire conversation histories is both token-inefficient and counterproductive—irrelevant context degrades generation quality. We introduce shared selective persistent memory, a memory architecture for agentic systems that identifies and retains four categories of reusable context—task specifications, data schemas, tool configurations, and output constraints—while discarding session-specific reasoning traces. Crucially, this memory is shared: workspaces encapsulating selective memory can be transferred across users with role-based access control, enabling collaborative reuse of accumulated context without redundant specification. We implement this architecture in a deployed collaborative workspace platform where LLM agents produce, edit, and maintain git-versioned artifacts—including interactive dashboards, structured reports, and data-driven documents—from heterogeneous data sources accessed via multiple connector types (CSV upload, SQL, REST APIs, and MCP servers). Git-backed versioning with draft isolation enables users to explore modifications risk-free and restore to any prior state without re-invoking the model. A complementary zero-token data refresh mechanism decouples generated programs from runtime data, enabling artifact reuse without re-invocation. Across three enterprise deployment scenarios, shared selective persistent memory achieves 96% task completion (vs. 79% without memory and 71% with full history). A complementary zero-token data refresh mechanism eliminates LLM re-invocation entirely for recurring data updates (14×task time reduction), while summary-driven generation reduces per-invocation token cost by 97×versus raw data injection. A replication on four public datasets confirms generalizability, with zero-token refresh succeeding in 12/12 trials. Notably, naive full-history persistence actively degrades task completion by biasing the agent with stale reasoning traces, while selective memory outperforms both extremes.",
+  "published_at": null,
+  "first_seen_at": "2026-09-17T03:57:32.281879+00:00",
+  "content_hash": "sha256:cba22ed07040129d32502720d672e2ec4eb975e401062e72c4030e619221df99"
+}

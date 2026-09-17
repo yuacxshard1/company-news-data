@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b5e42af33ef2c7dda55dec180fd2bf88645447dd9254d6a4715a2fc9ddf4f321",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching",
+  "canonical_url": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching",
+  "title": "Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation",
+  "summary": "Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2605.07924)\n\n\nDiscrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step trajectory to train a student to reproduce the process in a few steps. When the student underperforms, the usual explanation is insufficient capacity. We argue the opposite: the trajectory is the bottleneck, not the student. Each training trajectory is built through a chain of blind stochastic jumps with no evaluation of sequence quality; a single bad decision at an early midpoint propagates through subsequent steps, yet the student must imitate the result. Trajectory-Shaped Discrete Flow Matching (TS-DFM) replaces these blind jumps with guided navigation: a lightweight energy compass evaluates candidate continuations at each midpoint, selecting the most coherent. All shaping is training-only; inference cost is unchanged. On 170M-parameter language modeling, the shaped student at 8 steps achieves 32% lower perplexity than the 1,024-step teacher while being 128× faster, with gains consistent across source distributions and three evaluators of increasing scale. TS-DFM achieves the best perplexity of any discrete-generation baseline we compare against, including methods trained on 6× more data or using 5× larger models.\n\n\n- † The Ohio State University\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-09-17T03:57:32.281879+00:00",
+  "content_hash": "sha256:3d57204b4a571f3b51134093d7dbb67b487febd1d5fe6a94aa792125904d63d9"
+}

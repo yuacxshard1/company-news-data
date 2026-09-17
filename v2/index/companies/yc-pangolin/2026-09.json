@@ -3,12 +3,42 @@
     {
       "company_key": "yc-pangolin",
       "company_name": "Pangolin",
+      "doc_id": "2cca1f07ffab8c359d32097baebed24756518e198164b35b25240efe8fddb188",
+      "first_seen_at": "2026-09-17T09:39:46.998130+00:00",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What makes a VPN highly available, why most self-hosted VPNs are a single point of failure, and three ways to get real HA remote access with Pangolin.",
+      "title": "Highly Available VPN: How to Remove the Single Point of Failure"
+    },
+    {
+      "company_key": "yc-pangolin",
+      "company_name": "Pangolin",
+      "doc_id": "4bc210791b375d4f1a38a334748fca9b133da9a89fcc5aa9fce08066ed0657eb",
+      "first_seen_at": "2026-09-17T09:39:46.998130+00:00",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Why an identity-aware proxy is harder to make highly available than a normal load balancer, and how to self-host one that stays up without sending traffic through someone else's cloud.",
+      "title": "Highly Available Identity-Aware Proxy: Self-Hosting Zero Trust Without a Single Point of Failure"
+    },
+    {
+      "company_key": "yc-pangolin",
+      "company_name": "Pangolin",
       "doc_id": "6be62393d4927f2b7673f8d1a79c0852045d3843173d8d2e00664d31a445a7c4",
       "first_seen_at": "2026-09-09T04:49:51.734446+00:00",
       "published_at": "2026-09-08T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Publish a private /metrics endpoint as an authenticated Pangolin resource and scrape it with Prometheus using HTTP Basic credentials, without opening inbound ports or standing up a VPN.",
       "title": "How to Scrape Prometheus Metrics Behind a Firewall With No Open Ports"
+    },
+    {
+      "company_key": "yc-pangolin",
+      "company_name": "Pangolin",
+      "doc_id": "8301507160d144494e1049dac6a45f34ffafebd315f13c315a9c287f6c4c0f94",
+      "first_seen_at": "2026-09-17T09:39:46.998130+00:00",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A deep dive into how we turned Pangolin from a single-box reverse proxy into a stateless, horizontally-scalable cluster.",
+      "title": "How We Built A Highly Available Reverse Proxy"
     },
     {
       "company_key": "yc-pangolin",

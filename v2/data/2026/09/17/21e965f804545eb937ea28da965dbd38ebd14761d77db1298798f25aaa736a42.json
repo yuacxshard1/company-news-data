@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "21e965f804545eb937ea28da965dbd38ebd14761d77db1298798f25aaa736a42",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
+  "canonical_url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
+  "title": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+  "summary": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2605.16342)\n\n\nDiffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely on biased, high-variance likelihood estimates. We identify two fundamental weaknesses: the absence of temporal credit assignment across the denoising trajectory, and the systematic bias of mean-field likelihood estimates used for policy optimization. To address these, we propose Denoising-Aware Credit Assignment for GRPO (DACA-GRPO), a lightweight, plug-and-play enhancement for any GRPO-style trainer. DACA-GRPO introduces two complementary mechanisms: Denoising Progress Scores, which extract per-token importance weights from intermediate predictions at no additional forward cost, and Stratified Masking Likelihood, which partitions token positions into strata so that each token is predicted with most of the sequence as context, reducing the mean-field bias. Applied on top of three GRPO base methods, DACA-GRPO achieves consistent improvements across seven benchmarks spanning mathematical reasoning, code generation, constraint satisfaction, and constrained generation, with gains of up to 5.6pp on math reasoning, 7.4pp on code generation, 36.3pp on constraint satisfaction, and 5.9pp on JSON schema adherence.\n\n\n- ‡ Equal contribution\n- † The Ohio State University\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-09-17T03:57:32.281879+00:00",
+  "content_hash": "sha256:04af6dcc82244fd4f4f88ccf10257bf62ff52e8b97a4e4774c5cb07c3476c963"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cd66a28f1018eac4d18ad90186ce9b16b5c5e33c51fff613c08ae451d8808892",
+  "company_key": "yc-depot",
+  "company_name": "Depot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://depot.dev/blog/how-we-load-tested-depot-metal-before-scaling-up",
+  "canonical_url": "https://depot.dev/blog/how-we-load-tested-depot-metal-before-scaling-up",
+  "title": "How we load tested Depot Metal before scaling up",
+  "summary": "We built a production-shaped load test to find control-plane limits before moving more GitHub Actions traffic to Depot Metal. Each run made our scaling changes measurable.",
+  "body_markdown": "The test does not need to reproduce production perfectly. It needs to exercise the behavior you want to measure, produce consistent results across repeated runs, and show a meaningful before-and-after difference when the system changes. If a harness change alters the workload, establish a new baseline before comparing results.",
+  "published_at": "2026-09-16T00:00:00+00:00",
+  "first_seen_at": "2026-09-17T03:29:32.769573+00:00",
+  "content_hash": "sha256:f6165b2587bf639de02eabc46ce0c487c7ba5e120088f812fb0d283c571ead9c"
+}
