@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "912d452d365373a7be9091be8ee87afcf3eca2a3e6c267d4bd4bf6920929ea18",
+  "company_key": "yc-depot",
+  "company_name": "Depot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://depot.dev/blog/depot-ci-caches-github-actions",
+  "canonical_url": "https://depot.dev/blog/depot-ci-caches-github-actions",
+  "title": "Depot CI now caches GitHub Actions",
+  "summary": "Depot CI now caches the source code for GitHub Actions in Depot Code, reducing repeat downloads from GitHub without requiring any workflow changes.",
+  "body_markdown": "Depot CI now caches the source code for GitHub Actions in Depot Code, so repeat jobs can load actions from Depot's infrastructure instead of downloading them from GitHub again.\n\n\nThere is nothing to change in your workflow. Existing steps such as` uses: actions/checkout@v4` continue to work as written, and Depot CI handles caching automatically.\n\n\nThis is separate from the cache you use for dependencies and build outputs.` actions/cache` , package-manager caches, and[Depot Cache](https://depot.dev/docs/cache/overview) preserve data produced or downloaded by your jobs. This new layer caches the action code needed to start those jobs in the first place.\n\n\n## Faster action setup\n\n\nEach remote` uses:` step must be downloaded before it can run. On ephemeral runners, that work is repeated across jobs. Depot CI now caches action source so later jobs can reuse it, reducing repeat downloads and reliance on GitHub during job startup.\n\n\nThe first time an action is used, the job continues through GitHub as usual while Depot prepares the cache for later runs.\n\n\n## Public and private actions\n\n\nWorkflows across repositories in the same GitHub organization can reuse cached private and internal actions. The **Depot Code Access** GitHub App must have access to the action repository. If access is missing, Depot shows the affected repository and provides a link to update the GitHub App installation.\n\n\nPublic actions are cached automatically.\n\n\n## Existing action references keep working\n\n\nAction references such as` @v4` ,` @main` , and full commit SHAs continue to work without changes. To choose exactly which version your workflow runs, pin an action to a full commit SHA.\n\n\nIf an action is not available from the cache, Depot CI downloads it from GitHub. Access to private actions continues to follow your GitHub App permissions.\n\n\n## No workflow changes required\n\n\nAction caching is automatic for supported GitHub Actions used in Depot CI. Keep writing the same` uses:` steps:\n\n\n```text\nsteps  :\n-   uses  :   actions/checkout@v4\n-   uses  :   actions/setup-node@v4\nwith  :\nnode-version  :   24\n-   run  :   npm test\n```\n\n\nIf you are new to Depot CI,[migrate an existing GitHub Actions workflow](https://depot.dev/docs/ci/quickstart) or review the[GitHub Actions compatibility reference](https://depot.dev/docs/ci/compatibility) . Your workflow syntax stays the same; action delivery gets a faster, more reliable path underneath it.",
+  "published_at": "2026-09-16T00:00:00+00:00",
+  "first_seen_at": "2026-09-18T11:28:29.977925+00:00",
+  "content_hash": "sha256:4f15d9dbda674ac17ec88fe2c38ce41e8ecec1ed2ebbf0e50449c1baed6af34d"
+}

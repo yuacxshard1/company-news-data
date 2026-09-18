@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b4edeaa33c9857bdac8d585c422a18771479fcf30b62928e15fdab4f2add7352",
+  "company_key": "yc-terminal",
+  "company_name": "Terminal",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.withterminal.com/changelog#2026-06-05",
+  "canonical_url": "https://docs.withterminal.com/changelog",
+  "title": "2026-06-05",
+  "summary": "",
+  "body_markdown": "### New Integrations\n\n\n- [VRH ELD](https://docs.withterminal.com/providers/tsp/vrh-eld)\n\n\n### Common Model Updates\n\n\n- Expanded normalized[Vehicle](https://docs.withterminal.com/models/vehicle)` fuelType` coverage across many providers including: HOS247, TT ELD, TrackEnsure, Motive, GPS Insight, Webfleet, Route One ELD, TruckX, Motion ELD, Verizon Reveal and more.\n\n\n### Integration Updates\n\n\n- [Loop ELD](https://docs.withterminal.com/providers/tsp/loop-eld) now supports[HOS Logs](https://docs.withterminal.com/models/hos-log)\n- [Loop ELD](https://docs.withterminal.com/providers/tsp/loop-eld) now supports additional[Vehicle Stat Logs](https://docs.withterminal.com/models/vehicle-stat-log) , including` odometer` and` engine_state`\n- [Pedigree OneView](https://docs.withterminal.com/providers/tsp/pedigree-oneview) now supports additional[Vehicle Stat Logs](https://docs.withterminal.com/models/vehicle-stat-log) , including` fuel_level` ,` engine_state` ,` coolant_percentage` ,` engine_coolant_temperature` ,` engine_oil_pressure` ,` engine_oil_temperature` , and` engine_rpm` , and now exposes optional` fuel` ,` engine_state` , and` engine_runtime` on[Latest Vehicle Locations](https://docs.withterminal.com/models/latest-vehicle-location)\n\n\n### Documentation Updates\n\n\n- Updated API and common model examples so enum fields like` visibility` ,` status` , and` fuelType` render in generated example payloads\n- Updated[Motive configuration documentation](https://docs.withterminal.com/guides/motive-oauth-configuration) and[Samsara configuration documentation](https://docs.withterminal.com/guides/samsara-oauth-configuration) with current OAuth scope labels",
+  "published_at": "2026-06-10T15:22:07+00:00",
+  "first_seen_at": "2026-07-26T01:53:49.682680+00:00",
+  "content_hash": "sha256:37a12ca779febf26b076e88cc948157ae97bbfb9cfe75c35b167d7f99a429e4c"
+}

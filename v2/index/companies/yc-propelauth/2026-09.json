@@ -19,6 +19,16 @@
       "source_kind": "html",
       "summary": "PropelAuth's MCP Authentication now supports Client ID Metadata Documents (CIMD), the client registration method the current MCP authorization spec recommends. With CIMD, an AI client identifies itself with a URL it hosts instead of registering with your authorization server first. For you, that means once you turn it on, any CIMD-capable client can connect to your MCP server without an entry in Allowed MCP Clients, and Dynamic Client Registration (DCR) becomes something you keep enabled only i",
       "title": "Announcing CIMD Support for MCP"
+    },
+    {
+      "company_key": "yc-propelauth",
+      "company_name": "PropelAuth",
+      "doc_id": "9076a09c29a48393e9ce52f5278443684b70bbefd229a20aea601784c7e6e388",
+      "first_seen_at": "2026-09-18T09:35:11.790832+00:00",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A consent screen shows the user an application's name, a list of permissions, and two buttons. For a long time, the applications on it were registered by hand, by a logged-in user who was on the hook for what they registered. MCP changes that. Your users now connect Claude, ChatGPT, Cursor, and whatever ships next month to your product, and with Dynamic Client Registration or Client ID Metadata Documents, nobody vouched for the client before the request showed up. The consent screen is the only place a person sees the request before it goes through, so it needs to show them enough to make a good call.",
+      "title": "How to Build a Good Consent Screen for OAuth and MCP"
     }
   ],
   "company_key": "yc-propelauth",

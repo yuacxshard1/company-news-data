@@ -23,6 +23,16 @@
     {
       "company_key": "one-stop-systems-inc-common-stock",
       "company_name": "One Stop Systems Inc.",
+      "doc_id": "4dc1b087954b63be9bd577de10716ab32238fe285fb4f775689bfe1ed7a715f9",
+      "first_seen_at": "2026-09-18T11:34:31.012048+00:00",
+      "published_at": "2026-09-17T16:28:46+00:00",
+      "source_kind": "html",
+      "summary": "Modern-day sensors encounter performance bottlenecks due to latency in the data path to processing, analysis, and storage functions. This issue can be mitigated by introducing a direct PCI Express (PCIe) or PCIe-switched fabric connection to the sensor [1]. This white paper presents a hardware-defined architecture that integrates NVIDIA Holoscan [2] with PCIe switch fabrics [6] to provide a unified transport for heterogeneous sensor ingestion, hardware-level multicast routing, and high-performance multiprocessing. By utilizing a Single Root Complex model, a designated Switch Control Processor (SCP) manages global PCIe enumeration and dynamic routing over a native PCIe interface. This enables the fabric to treat diverse sensor interfaces—including VITA 49 RF [3], LIDAR, and EO/IR—and GPUs as peer-to-peer endpoints within a unified, low-latency memory map. Fill out the form below to download the whitepaper",
+      "title": "Deterministic Multi-Modal Sensor Ingestion and Actuation via Holoscan-Integrated Switched Fabrics"
+    },
+    {
+      "company_key": "one-stop-systems-inc-common-stock",
+      "company_name": "One Stop Systems Inc.",
       "doc_id": "9b01cfe6044ba84ff0161ada7958551d5a44f6b99ec9f75411cb8788769264c6",
       "first_seen_at": "2026-09-01T20:26:14.261948+00:00",
       "published_at": "2026-09-01T16:37:00+00:00",
