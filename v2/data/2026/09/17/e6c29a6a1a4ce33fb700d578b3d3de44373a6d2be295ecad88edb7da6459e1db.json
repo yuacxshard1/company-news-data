@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e6c29a6a1a4ce33fb700d578b3d3de44373a6d2be295ecad88edb7da6459e1db",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+  "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
+  "summary": "Discover more about what's new at AWS with AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
+  "body_markdown": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoint. You can now retain visibility of the client's source IP for IP-based auditing, access controls, and compliance when you use your own NLB.\n\n\nPreviously, an NLB replaced the client's source IP with its own private IP address, so your Transfer Family logs and events recorded the NLB's address instead of the client's source IP. Because the NLB's private IP was the address presented to your custom identity provider during authentication, you couldn't authorize users based on their true source IP. With this launch, you can enable source IP preservation on your SFTP server so that the client's source IP is preserved. The preserved source IP is recorded in your logs and events and presented to your custom identity provider during authentication. You can enable the feature on each Transfer Family server individually through the console, CLI, or API.\n\n\nSource IP preservation for SFTP servers is available in all[AWS Regions where AWS Transfer Family is available](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To get started, visit the AWS Transfer Family console or use the AWS CLI/SDK. To learn more, visit the[Transfer Family User Guide](https://docs.aws.amazon.com/transfer/latest/userguide/working-with-nlb.html#nlb-sftp-source-ip) .",
+  "published_at": "2026-09-17T19:00:00+00:00",
+  "first_seen_at": "2026-09-18T01:09:36.075341+00:00",
+  "content_hash": "sha256:471da14b2626dcebac07a7ec55f7ac806542bbe9a5627606351a7bd51eabdfa3"
+}

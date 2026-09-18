@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "412e138c331012f41d6a4ebffba87eda1c965403a33884266d99a8227d0c61e3",
+  "company_key": "yc-mastra",
+  "company_name": "Mastra",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://mastra.ai/blog/introducing-incident-alerts",
+  "canonical_url": "https://mastra.ai/blog/introducing-incident-alerts",
+  "title": "Introducing Incident Alerts for Mastra Platform",
+  "summary": "Real-time updates for failed deploys and crashed services.",
+  "body_markdown": "You can now use[Mastra platform alerts](https://mastra.ai/docs/mastra-platform/alerts) to get real-time notifications via Slack, email, or a webhook when your deployments fail or services crash. Scope to your entire organization, a single project, or environments within a project.\n\n\nYour browser does not support the video tag.\n\n\nDeploy failures send a notification with the error logs, then update the same message with an[error diagnosis](https://mastra.ai/blog/introducing-error-diagnostics-platform-cli) once it completes.\n\n\nService issues repeat at configurable intervals (every event, at most every 5 minutes, at most every 15 minutes, or at most every hour) until they resolve, with duplicates suppressed in between. A follow-up message will be sent to the same destinations when the service recovers, letting you know everything is OK.\n\n\nBefore, a failed deploy or a crashed service could go unnoticed unless you were watching the platform UI. Now, alerts arrive in your team's Slack, inbox, or own alerting tools so you and your team can take action.\n\n\nWe're starting today with Slack, email, and webhooks, with PagerDuty and incident.io support to follow.\n\n\n## Get started\n\n\nOpen the[Mastra platform dashboard](https://projects.mastra.ai/) , go to your organization settings, then select **Alerts** . The page has three tabs:\n\n\n- **Alerts** : View, edit, or pause configured alerts.\n- **Destinations** : Manage Slack, email, and webhook destinations.\n- **Activity** : History of alerts that have fired.\n\n\nTo create an alert: give it a name, set a trigger, add a scope, configure a destination, and pick a repeat window for how often alerts refire for the same incident.\n\n\nYou can edit or delete alerts at any time, and send test notifications from the dropdown menu on the Alerts or Destinations tab.\n\n\nFor more information and full configuration options, see:\n\n\n- [Alerts](https://mastra.ai/docs/mastra-platform/alerts)\n- [Mastra Platform overview](https://mastra.ai/docs/mastra-platform/overview)\n- [Environments](https://mastra.ai/docs/mastra-platform/environments)\n- [Deploy](https://mastra.ai/docs/mastra-platform/deploy)",
+  "published_at": "2026-09-17T00:00:00+00:00",
+  "first_seen_at": "2026-09-18T06:49:02.170410+00:00",
+  "content_hash": "sha256:1b19c7a69a8800c165e9c2fcf2122426c1fec87d789951444f31d1b6ac1c441d"
+}

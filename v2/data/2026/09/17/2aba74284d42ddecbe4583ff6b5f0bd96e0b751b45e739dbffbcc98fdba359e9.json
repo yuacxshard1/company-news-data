@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2aba74284d42ddecbe4583ff6b5f0bd96e0b751b45e739dbffbcc98fdba359e9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
+  "title": "AWS Batch now supports bulk job cancellation and termination",
+  "summary": "Discover more about what's new at AWS with AWS Batch now supports bulk job cancellation and termination",
+  "body_markdown": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs APIs reduce the operational complexity of managing large-scale batch workloads, letting you act on groups of jobs at once and receive per-job results in a single response. Additionally, ListJobs now returns isCancelled and isTerminated fields, and ListServiceJobs returns isTerminated, making it easier to track the lifecycle state of your jobs.\n\n\nTo get started, call CancelJobs for jobs in SUBMITTED, PENDING, or RUNNABLE states, or TerminateJobs and TerminateServiceJobs for jobs in any state, including STARTING and RUNNING. All three APIs accept up to 50 job IDs and work with individual and array jobs. You can access them through the AWS CLI or AWS SDKs.\n\n\nBulk job cancellation and termination is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AWS Batch is available. For more information, see[CancelJobs](https://docs.aws.amazon.com/batch/latest/APIReference/API_CancelJobs.html) ,[TerminateJobs](https://docs.aws.amazon.com/batch/latest/APIReference/API_TerminateJobs.html) , and[TerminateServiceJobs](https://docs.aws.amazon.com/batch/latest/APIReference/API_TerminateServiceJobs.html) pages in the AWS Batch API Reference Guide.",
+  "published_at": "2026-09-17T17:23:00+00:00",
+  "first_seen_at": "2026-09-18T01:09:36.075341+00:00",
+  "content_hash": "sha256:8c32ee18f7021c503e66171b788179bae97de07152ae697ab87183dc885b203a"
+}

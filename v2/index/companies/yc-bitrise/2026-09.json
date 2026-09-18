@@ -39,6 +39,16 @@
       "source_kind": "html",
       "summary": "Linters can already fix most of what they flag. The Autofix CI step commits those fixes to your PR branch and reruns the build, so mechanical lint failures stop reaching you or your agents.",
       "title": "Auto-fix lint errors in CI: PRs that fix themselves"
+    },
+    {
+      "company_key": "yc-bitrise",
+      "company_name": "Bitrise",
+      "doc_id": "d64d72a9e8f2b3fdac31709e14a06f5fcdeacbe156ba7a4bc5a820958b9779e4",
+      "first_seen_at": "2026-09-18T01:17:24.180728+00:00",
+      "published_at": "2026-09-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Mobile repos blow past the GitHub Actions 10GB cache cap on one branch. Here's why that matters just as much as runner vCPU.",
+      "title": "Your GitHub Actions cache is the real bottleneck"
     }
   ],
   "company_key": "yc-bitrise",
