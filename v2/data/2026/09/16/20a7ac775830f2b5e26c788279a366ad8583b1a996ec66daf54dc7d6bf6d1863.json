@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "20a7ac775830f2b5e26c788279a366ad8583b1a996ec66daf54dc7d6bf6d1863",
+  "company_key": "yc-codyco",
+  "company_name": "Codyco",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.codyco.ai/blog/can-an-ai-actually-complete-a-hotel-booking-by-phone",
+  "canonical_url": "https://www.codyco.ai/blog/can-an-ai-actually-complete-a-hotel-booking-by-phone",
+  "title": "Can an AI Actually Complete a Hotel Booking by Phone?",
+  "summary": "Yes. A reservation can land in the hotel PMS while the caller is still on the line. What complete means, where booking stops, which systems support write-back, and how to test it.",
+  "body_markdown": "Common questions\n\n\n## FAQ\n\n\n### Can AI book a hotel room without a human?\n\n\nYes, where the booking can be completed reliably. The system understands the request, confirms the important booking details, and connects the eligible outcome to the hotel's configured booking process, so the reservation exists in the property management system rather than as a message for staff to enter later.\n\n\nGroup inquiries, and any request that needs judgment or authority the system does not have, are forwarded to a person. If the property management system's response is uncertain, the booking is never presented as confirmed.\n\n\n### Does the booking go into the PMS automatically?\n\n\nWhere an end-to-end workflow is in production, the reservation is connected to the hotel's configured booking process and the PMS remains the system of record. Codyco runs those workflows in production on Sihot, Oracle OPERA Cloud, and Apaleo. Other PMS platforms are assessed before rollout.\n\n\n### What happens if the AI can't complete the booking?\n\n\nThe request is not forced through. Group inquiries and other high-value or critical requests are forwarded to the right person. If the booking cannot be completed reliably, the request is captured and a structured handover is generated.\n\n\nIf the property management system's response is uncertain, the booking is never presented as confirmed: the request is collected, the caller is told that confirmation is pending, and the case is handed to the hotel with the relevant details.\n\n\n### Which hotel PMS systems support AI booking by phone?\n\n\nCodyco runs end-to-end booking workflows in production on Sihot, Oracle OPERA Cloud, and Apaleo. Other PMS platforms are assessed before rollout.\n\n\n### Is the booking confirmed while the guest is still on the phone?\n\n\nWhere the booking can be completed reliably, the caller hears availability, a room and a rate, and a confirmation, and the reservation is connected to the hotel's configured booking process rather than left as a message. If the property management system's response is uncertain, the booking is never presented as confirmed.\n\n\nThe request is collected, the caller is told that confirmation is pending, and the case goes to the hotel with the relevant details.",
+  "published_at": "2026-09-16T00:00:00+00:00",
+  "first_seen_at": "2026-09-17T20:03:01.744921+00:00",
+  "content_hash": "sha256:22932d917da198d014b034f2363e402455eb460b52b068203718d8f324474a3b"
+}

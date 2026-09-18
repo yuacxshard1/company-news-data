@@ -1,0 +1,106 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "5d6998d64e58872914a8fdc46c4d2283c1a5efb27f5a8cb34995cdf2755e221d",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The reference for the cactus-needle package: the Needle class, tools three ways, the response shape, the behaviour contract, system facts, tool retrieval, tuned weights, offline devices, environments, the CLI, and the mistakes to avoid.",
+      "title": "Needle Python Docs"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "6ef29c5b95d080bc6d063d8b7f6b4387583b6672f198a531306c88ebf6b54fd3",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "LoRA on the frozen base, merged at export into a .cact that runs on the same engine at any depth. The data format, the commands, how to read the loss, how much data a task needs, and what a fine-tune does not change.",
+      "title": "Fine-tuning Needle"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "771c623e6de9e51c0bf2c4f840e4afc68d85498cd4c1bc36d8eecaa78f6ca485",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Thirteen platform folders, one engine under 1 MB each, one set of weights at any depth from 2 to 20 layers. Which folder is your device, what ships in it, how to run it from the command line, C, a browser or a WASI host, and how to set it up with no network at all.",
+      "title": "What Devices Are Supported on Needle"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "7c347d33f6ccf9af8753dcd10980b9404e20e002b7b527a4b43809a3eaa1ef34",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Needle ships as one file that the engine maps into memory and reads in place: a 196-byte header with the whole architecture, a nameless tensor directory, and Cactus-Quantised blobs at 2.125 bits per weight. What is in it, how the quantisation works, how the kernel reads it without ever unpacking, and how to parse it yourself in twenty lines.",
+      "title": "The .cact Format"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "80bb8108f83d8e0480e350222a59642aa0c3fad7510c0d222dd283332702bebd",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Extraction in Needle is tool calling with one tool: declare the record, pass the text, get a typed object whose every field is a span of the passage. How the grammar guarantees the shape, how grounding keeps values honest, and how the same trick does classification.",
+      "title": "Structured JSON Extraction with Needle"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "8873fae24e44e643f727ff4b1f79fe8eb3b84824d920a81fdca9e67cd9afceb9",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Needle reads a schema literally and copies every argument from the request, so the toolset is the product. The rules we learned shipping Needle 3: one tool per action, names users would say, formats in descriptions, constraints in the grammar, triggers for the phrasings a description cannot list.",
+      "title": "How to Design Tools for Needle 3"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "89eda78bb3501c3522cdd088d3be2ba137fbb9a14dddd4a5642fdcd5229ef44e",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Every Needle response carries a calibrated confidence score. What it measures, what the engine already does with it, and how to turn it into a product decision: act, confirm, or refuse.",
+      "title": "Leveraging Needle's Confidence"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "9e365d5f9ae48a752882c50351389a7982f80c6721f1e1fb6d353b2deec6c3ef",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Needle replaces the transformer's feed-forward layer with three Kronecker-factored mixes that start as the Walsh-Hadamard transform and learn from there. 25.6K parameters per layer instead of 4.7M, and a fifth of the compute per token.",
+      "title": "The Hadamard MLP: Channel Mixing for Almost No Parameters"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "c4435749071c6f149d30c701b90ae397ae62d9f0d477f74de5f4aa7c67fc1c31",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We deleted the feed-forward network from a transformer and measured what was actually lost, under controls for parameters, compute and depth. At matched parameters the answer is 0.006 nats, and all of it lives on tokens with nothing to look up.",
+      "title": "Simple Attention Networks: What a Transformer Loses Without Feed-Forward Layers"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "c9f75a32720758612dd99858026b09d647f61960f06fec0ea2268fbf0cfab73b",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-17T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Needle 3 is trained so that any depth from 2 to 20 layers is a deployable model. This is how the subnetworks are chosen, how they are trained without training five models, and what each one scores.",
+      "title": "Intelligence Ladders: One Set of Weights, Every Depth a Model"
+    }
+  ],
+  "company_key": "yc-cactus",
+  "month": "2026-09"
+}

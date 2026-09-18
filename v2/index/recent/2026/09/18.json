@@ -1,0 +1,105 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-exa",
+      "company_name": "Exa",
+      "doc_id": "25214977158af2fba67e7ca30ae0c8bf24677d90f8ceade23350ec2de1d967f2",
+      "first_seen_at": "2026-09-17T20:29:54.373263+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Search the web as it was on any date, and test models with the benefit of hindsight.",
+      "title": "Introducing Exa Snapshot, A New Way to Search the Past"
+    },
+    {
+      "company_key": "celestica-inc-common-stock",
+      "company_name": "Celestica Inc.",
+      "doc_id": "5d214907868442bafc39684f6280830b9acba86fa072e3677dd8712ad9f265ce",
+      "first_seen_at": "2026-09-17T00:52:32.689478+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Discover how Celestica designs, powers, and optimizes AI infrastructure at scale. Explore our integrated solutions for high-performance networking, storage, and liquid cooling.",
+      "title": "Designing, Powering, and Optimizing AI Infrastructure at Scale"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "5d6998d64e58872914a8fdc46c4d2283c1a5efb27f5a8cb34995cdf2755e221d",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The reference for the cactus-needle package: the Needle class, tools three ways, the response shape, the behaviour contract, system facts, tool retrieval, tuned weights, offline devices, environments, the CLI, and the mistakes to avoid.",
+      "title": "Needle Python Docs"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "6ef29c5b95d080bc6d063d8b7f6b4387583b6672f198a531306c88ebf6b54fd3",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "LoRA on the frozen base, merged at export into a .cact that runs on the same engine at any depth. The data format, the commands, how to read the loss, how much data a task needs, and what a fine-tune does not change.",
+      "title": "Fine-tuning Needle"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "771c623e6de9e51c0bf2c4f840e4afc68d85498cd4c1bc36d8eecaa78f6ca485",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Thirteen platform folders, one engine under 1 MB each, one set of weights at any depth from 2 to 20 layers. Which folder is your device, what ships in it, how to run it from the command line, C, a browser or a WASI host, and how to set it up with no network at all.",
+      "title": "What Devices Are Supported on Needle"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "7c347d33f6ccf9af8753dcd10980b9404e20e002b7b527a4b43809a3eaa1ef34",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Needle ships as one file that the engine maps into memory and reads in place: a 196-byte header with the whole architecture, a nameless tensor directory, and Cactus-Quantised blobs at 2.125 bits per weight. What is in it, how the quantisation works, how the kernel reads it without ever unpacking, and how to parse it yourself in twenty lines.",
+      "title": "The .cact Format"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "80bb8108f83d8e0480e350222a59642aa0c3fad7510c0d222dd283332702bebd",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Extraction in Needle is tool calling with one tool: declare the record, pass the text, get a typed object whose every field is a span of the passage. How the grammar guarantees the shape, how grounding keeps values honest, and how the same trick does classification.",
+      "title": "Structured JSON Extraction with Needle"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "8873fae24e44e643f727ff4b1f79fe8eb3b84824d920a81fdca9e67cd9afceb9",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Needle reads a schema literally and copies every argument from the request, so the toolset is the product. The rules we learned shipping Needle 3: one tool per action, names users would say, formats in descriptions, constraints in the grammar, triggers for the phrasings a description cannot list.",
+      "title": "How to Design Tools for Needle 3"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "89eda78bb3501c3522cdd088d3be2ba137fbb9a14dddd4a5642fdcd5229ef44e",
+      "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Every Needle response carries a calibrated confidence score. What it measures, what the engine already does with it, and how to turn it into a product decision: act, confirm, or refuse.",
+      "title": "Leveraging Needle's Confidence"
+    },
+    {
+      "company_key": "yc-anglera",
+      "company_name": "Anglera",
+      "doc_id": "fcd8bc168be68132e36ae913f7016459e73a221a6051565cc8e278947cdc3531",
+      "first_seen_at": "2026-08-06T04:48:17.350678+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "29 distributors win by embedding in the customer's process via vending, VMI, and private label. Two got measured for digital readiness, and the split is instructive.",
+      "title": "The Program Suppliers: How 29 Distributors Win"
+    }
+  ],
+  "date": "2026/09/18"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "903ce59c0eaf53fb1684797c245c1887e3df3f2df9b63f9babe0ebba545791b9",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/a-faster-cheaper-engine-under-the-agent",
+  "canonical_url": "https://slite.com/changelog/a-faster-cheaper-engine-under-the-agent",
+  "title": "A faster, cheaper engine under the Agent",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "Slite Agent now runs on an engine we rebuilt from the ground up over the summer. It answers the same questions faster, for roughly a third of the credits, with no change to the quality of the answer. It's live everywhere the Slite Agent works: web, Slack, the public API, MCP and scheduled automations. Nothing to enable.\n\n\n[How credits work →](https://slite.slite.page/p/mbbEbTqWSmK3zx/Credits)\n\n\n### The Slack bot can do everything the web app can\n\n\nAsking, writing and editing Slite content now work the same way from Slack as they do in the web app, and questions you ask there show up in your history. The old bot has been uninstalled and the new one is simply called Slite.\n\n\n### Improvements\n\n\n- **Long AI answers no longer get cut off.** The agent can finish lengthy reports instead of truncating mid-answer.\n- **MCP source permissions are tighter.** A workspace admin can still manage a source that's restricted to another user, but no longer receives its content in answers.\n\n\n### Fixes\n\n\n- AI answers show their sources cleanly again: citation IDs no longer leak into the answer text in the app or in Slack, and older answers with broken citations have been repaired\n- Tap a collapsed section's header to expand it on mobile, instead of hunting for the caret\n- Images stay intact when you translate a doc, rather than turning into broken placeholders\n- Numbered lists keep their starting number when a doc is translated\n- Stuck or failed AI threads are cleared from the sidebar instead of lingering\n- The comment reaction emoji picker no longer gets cut off at the bottom of the screen",
+  "published_at": "2026-09-17T00:00:00+00:00",
+  "first_seen_at": "2026-09-17T17:42:20.937850+00:00",
+  "content_hash": "sha256:bc783e58d819d76e76e6ef0c3cdf97420378606aa2b5d70ae64dfe321dbec626"
+}
