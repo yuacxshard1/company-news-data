@@ -73,6 +73,16 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "78df5df32de792377a642053311549c895f9eed4acfb147309c2b3ea472760ac",
+      "first_seen_at": "2026-09-19T01:13:11.320431+00:00",
+      "published_at": "2026-09-18T15:52:49+00:00",
+      "source_kind": "rss",
+      "summary": "Hi NewsBlur team, I run Enzo Reader, which integrates with NewsBlur through your API. A customer reported that their NewsBlur feeds work normally in the browser, but no articles synchronize into our system. Our investigation found the same connection failure across multiple NewsBlur user connections in our production environment. Connection details Source server IP: 172.237.159.95 Destination: newsblur.com → 65.108.152.3, TCP port 443 API operation failing: POST https://newsblur.com/a...",
+      "title": "Unable to access API, possibly blocked?"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "7ccb3c7a7b2629eb5f2ef297f972056be9ddefb842d478034cc1a5a02d3832fe",
       "first_seen_at": "2026-09-17T14:29:17.033315+00:00",
       "published_at": "2026-09-17T13:44:04+00:00",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "241bba0cc0a1abdf42215c308f93723b17b7843cc5306170a56c56bfee4d62a7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+  "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
+  "summary": "Discover more about what's new at AWS with AWS Continuum now supports credential testing and accessible domain suggestions",
+  "body_markdown": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exploitability testing. Developers and security teams can now test login credentials and receive suggested domains before a penetration test runs. This makes it easier to configure an accurate network scope from the start, reducing misconfiguration and wasted test cycles.\n\n\nPreviously, identifying all the URLs your application reaches required manual effort, and authentication failures were only discovered after a full test cycle completed, costing time and resources. With this launch, when you add login credentials during test configuration, AWS Continuum authenticates into your application exactly as a real user would, capturing every accessible domain reached during login and surfacing them as in-scope URL suggestions. You can review accessible domains, validate credentials, and confirm the agent covers the right endpoints, all before the real test begins. Accessible domains are returned regardless of whether the credential test succeeds, fails, or times out. You can learn more about this feature in our updated[documentaiton](https://docs.aws.amazon.com/securityagent/latest/userguide/perform-penetration-test.html#_configure_authentication_credentials_optional) .\n\n\nThis capability is available in all regions where AWS Continuum for penetration testing is available and is detailed on the[AWS Continuum product page](https://aws.amazon.com/continuum/?trk=77f1fbea-4ad5-4c1d-b16e-e5634ca5086e&sc_channel=ps&ef_id=CjwKCAjwwrPVBhA1EiwAv_YO-dtnJZvxRUPyj3N8BdcJLvN4fjq5kQwIththbsuo7ZvdNlCIcxxmSRoCX2kQAvD_BwE:G:s&gclid=CjwKCAjwwrPVBhA1EiwAv_YO-dtnJZvxRUPyj3N8BdcJLvN4fjq5kQwIththbsuo7ZvdNlCIcxxmSRoCX2kQAvD_BwE) .",
+  "published_at": "2026-09-18T18:34:00+00:00",
+  "first_seen_at": "2026-09-19T03:55:33.477529+00:00",
+  "content_hash": "sha256:9ebe0683ef6dfde54efd354b82bd9731b125f5149dbc710abf80f0b8f88dd5cb"
+}

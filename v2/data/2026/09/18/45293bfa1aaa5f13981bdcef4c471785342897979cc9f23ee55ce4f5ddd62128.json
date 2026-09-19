@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "45293bfa1aaa5f13981bdcef4c471785342897979cc9f23ee55ce4f5ddd62128",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/agentic-ai-security-why-our-control-model-must-evolve",
+  "canonical_url": "https://www.activepieces.com/blog/agentic-ai-security-why-our-control-model-must-evolve",
+  "title": "Agentic AI Security: Why Our Control Model Must Evolve",
+  "summary": "Autonomous AI agents introduce complex risks by executing multi-step workflows without human oversight.",
+  "body_markdown": "## Activepieces isolates agentic execution from core infrastructure\n\n\nAn SDK provides an agent with code to run, but it cannot provide a tenant, a role, or a verifiable audit log.\n\n\nActivepieces treats the AI agent as a user rather than just a script, applying the same RBAC, SSO, and SCIM policies that govern your employees to every connection the agent makes.\n\n\nOpen the run detail view for any step to see that each tool call is logged individually with its own input and output, preventing the blind spots of unmanaged libraries.\n\n\n### Tracing agent actions alongside workflow steps\n\n\nEvery agent tool call, the data it acted on, and the order it made its decisions in is traced step by step in Activepieces, alongside the deterministic flow steps running next to it.\n\n\nAgents and fixed workflow steps sit in the same run, not in separate systems with separate records.\n\n\nThat trace exports as audit logs and event streams into the SIEM your security team already runs, so an agent's decisions are reviewed the same way a workflow's steps are.\n\n\nBy decoupling the execution of JavaScript or Python logic from the core application, the system prevents a compromised agent from scanning internal network ports or exfiltrating environment variables.\n\n\nBecause this gate is mandatory, an agent can't bypass security protocols even if it manages to generate code designed to ignore them.\n\n\n### Centralizing secrets management for autonomous workflows\n\n\nOrganizations like MoneyGram and Moneypenny run Activepieces in production to manage these autonomous flows across their existing software stacks.\n\n\nBy centralizing secrets in the Connection Manager, the platform ensures that agents only interact with reference tokens rather than raw API credentials for services like HubSpot or Slack.\n\n\nA prompt injection attack that tricks an LLM into \"printing its instructions\" won't result in a leaked production key.\n\n\n### Audit logs for agent tool calls\n\n\nThe platform records every input, output, and status code for every step. This provides a complete forensic trail of what the agent actually did versus what it was told to do.\n\n\nIf an agent deletes a record in Jira, you can trace the specific trigger and LLM response that caused the deletion, turning a \"black box\" failure into a debuggable event.",
+  "published_at": "2026-09-18T20:43:33+00:00",
+  "first_seen_at": "2026-09-19T02:43:56.558248+00:00",
+  "content_hash": "sha256:82767da9b4101595e04cc36ddea6117c86f0f1269a52d0544195c156d43d8782"
+}

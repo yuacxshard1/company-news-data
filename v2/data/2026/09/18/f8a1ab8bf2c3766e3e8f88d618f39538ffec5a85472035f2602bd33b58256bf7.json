@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f8a1ab8bf2c3766e3e8f88d618f39538ffec5a85472035f2602bd33b58256bf7",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/relacionamento-um-para-muitos/",
+  "canonical_url": "https://blog.jestor.com/relacionamento-um-para-muitos/",
+  "title": "Como Conectar Tabelas com Relacionamento Um para Muitos",
+  "summary": "Entenda quando usar um para muitos, a relação mais comum entre tabelas de um processo.",
+  "body_markdown": "O **relacionamento um para muitos** é a conexão mais usada num processo: muitos pagamentos pertencem a um fornecedor, muitas tarefas a um projeto, muitos pedidos a um cliente.\n\n\n## Onde ele se aplica\n\n\nSempre que cada registro filho pertence a um único pai.\n\n\n- Pagamentos e o fornecedor correspondente\n- Tarefas e o projeto a que pertencem\n- Pedidos e o cliente que os fez\n- Movimentações e o produto movimentado\n- Parcelas e o compromisso que as originou\n\n\n## O que a conexão permite\n\n\nRecurso Como funciona\n\n\n**Dados do pai no filho** Exibidos sem copiar\n\n\n**Filhos no cartão do pai** Lista filtrada dentro do registro\n\n\n**Fórmulas entre tabelas** Somar filhos no registro pai\n\n\n**Filtros** Buscar filhos por atributo do pai\n\n\n## Como configurar no Jestor\n\n\n1. Crie o campo de relacionamento no **Jestor** , na tabela filha apontando para a pai.\n2. Defina o campo de rótulo na tabela pai, para a seleção mostrar nomes.\n3. Torne o campo obrigatório quando o processo exigir a atribuição.\n4. Exiba os filhos no cartão do pai, filtrados e apenas leitura.\n5. Use fórmulas que somem os filhos dentro do registro pai.\n\n\n## Por que escolher o Jestor para dados relacionais?\n\n\nNo **Jestor** , as tabelas são um banco relacional no centro da operação, então o **relacionamento um para muitos** sustenta automação, relatório e escala em vez de ser apenas um vínculo visual.\n\n\nDefinir o campo de rótulo é o passo mais esquecido, e o que evita listas de seleção exibindo códigos ilegíveis.\n\n\n## Perguntas Frequentes\n\n\n### Em qual tabela fica o campo?\n\n\nNa filha, apontando para a pai. Veja em[jestor.com](https://jestor.com/?ref=blog.jestor.com) .\n\n\n### Os dados são copiados?\n\n\nNão, são exibidos por referência.\n\n\n### Dá para somar os filhos?\n\n\nSim, com fórmula no registro pai.\n\n\n## Vídeo Tutorial: Passo a Passo\n\n\nConfira outros tutoriais práticos no canal do Jestor no YouTube.\n\n\n## Conheça o Jestor\n\n\nCom o **Jestor** , é possível automatizar fluxos, conectar áreas e criar sistemas internos do seu jeito, tudo sem código e com o suporte da **IA** . Conheça o Jestor em[jestor.com](https://jestor.com/?ref=blog.jestor.com) e descubra como levar a gestão da sua empresa a um novo nível de eficiência e integração.",
+  "published_at": "2026-09-18T22:03:55+00:00",
+  "first_seen_at": "2026-09-19T03:15:32.765157+00:00",
+  "content_hash": "sha256:e18368fa4ac8c92f76476ccf6d3011ff2c098e9d82197c871b6712e5c1b54083"
+}

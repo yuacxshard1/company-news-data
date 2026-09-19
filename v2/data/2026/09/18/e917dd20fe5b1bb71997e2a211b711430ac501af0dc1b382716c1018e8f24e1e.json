@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e917dd20fe5b1bb71997e2a211b711430ac501af0dc1b382716c1018e8f24e1e",
+  "company_key": "yc-terra-api",
+  "company_name": "Terra API",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://tryterra.co/blog/synthetic-data-api",
+  "canonical_url": "https://tryterra.co/blog/synthetic-data-api",
+  "title": "Use synthetic data to rapidly prototype health products | Terra",
+  "summary": "Synthetic users let you put your product through its paces with every health scenario, from marathoners to light sleepers, without waiting for those exact users to show up.",
+  "body_markdown": "I know how frustrating it is to want to test that edge case and realize you're at the mercy of real people having real (and unpredictable) days. That's why I'm excited about synthetic health data: you don't have to wait around or fudge your way through demos any more. You can describe exactly the type of user you care about, and see their data show up instantly, through the same pipeline as the real thing. No more hacking together test payloads or hoping someone on your team had a rough night's sleep just in time for a sprint.\n\n\nWe've all been there. You need to see what happens in your product when someone has three nights of bad sleep, or starts coming down with something, or pushes themselves in a workout. But you can't exactly ask a teammate to pull an all-nighter or run a marathon for your next demo. It just doesn't line up with how we actually build and test.\n\n\nSo, what do most teams do? We try to fake it. But hand-crafting payloads or scripting data means you're skipping all the real-world steps that can trip you up in production: ingestion, deduplication, normalisation. It's never quite the same as what your app will actually see. What you really want is a believable user who lives through the scenarios you care about, and who does it in a way that's true to life.\n\n\n## Get synthetic health data for all scenarios\n\n\nThat's where synthetic users really shine. Just describe the person you want to test, maybe a poor sleeper under stress or an athlete whose recovery is dipping, and[Terra](https://tryterra.co/) handles the rest. You don't need to micromanage the details. Just set the levers you care about (like sleep quality, stress, activity, blood pressure), and the system does the heavy lifting to make things feel real.\n\n\nYou get the full range of data you'd see from a real person: sleep, workouts, nutrition, even menstrual cycles. You can control how long the scenario lasts, and the data flows at the right cadence, just like a real device would send it. It's the kind of control I always wanted when I was in the trenches building these features myself.\n\n\nPick a ready-made persona for common cases, or write your own if you want to get specific. It's all about making your life simpler and letting you focus on building, not wrangling test data.",
+  "published_at": "2026-09-18T00:00:00+00:00",
+  "first_seen_at": "2026-09-19T05:48:16.802070+00:00",
+  "content_hash": "sha256:4700006de83d1ca9e6745027b8ccd7a9503faffb3c3b507b785c1e41bbfa034f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "067443f49b80e3c3f6f52566020464da65a53a7ca564d37043210e2f9c63a17f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
+  "title": "AWS Resilience Hub adds three new capabilities",
+  "summary": "Discover more about what's new at AWS with AWS Resilience Hub adds three new capabilities",
+  "body_markdown": "# AWS Resilience Hub adds three new capabilities\n\n\nPosted on: Sep 18, 2026\n\n\nThe next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on AWS. It provides automated dependency discovery, generative AI-powered failure mode analysis, modular resilience policies, resilience testing, and organization-wide resilience posture reporting. Today, AWS Resilience Hub adds three new capabilities: EKS labels support for service input sources, dependency insights, and resilience policy sharing through AWS Organizations.\n\n\n**EKS labels support for service input sources.** Resilience Hub now supports EKS labels within a namespace as a service input source, allowing customers to use their existing Kubernetes labeling conventions to scope exactly which resources Resilience Hub discovers and uses during failure mode analysis. This ensures assessments stay aligned with how teams organize their EKS workloads.\n\n\n**Dependency insights.** Customers who enable dependency discovery can now generate dependency insights, a new generative AI-powered capability that analyzes discovered application dependencies and highlights meaningful patterns. Dependency insights surfaces new dependencies, identifies cross-Region dependencies, and flags unusual usage patterns. This helps teams accelerate dependency analysis and identify potential new risks.\n\n\n**Resilience policy sharing through AWS Organizations.** Resilience Hub now supports sharing resilience policies through AWS Organizations, enabling central teams to build and manage policies that can be applied across multiple accounts. This provides organization-wide observability into which services are using each policy, making it easier to monitor adoption and ensure consistent resilience posture across the organization.\n\n\nTo get started, visit the[AWS console](https://console.aws.amazon.com/resiliencehub/v2/home) . To learn more, see the[product page](https://aws.amazon.com/resilience-hub/) or visit the[documentation](https://docs.aws.amazon.com/resilience-hub/latest/userguide/next-gen.html) .\n\n\nThe next generation of AWS Resilience Hub is available in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Canada (Central), Europe (Ireland), Europe (London), Europe (Frankfurt), Europe (Paris), Europe (Stockholm), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Asia Pacific (Seoul), and South America (São Paulo).",
+  "published_at": "2026-09-18T16:49:00+00:00",
+  "first_seen_at": "2026-09-19T03:55:33.477529+00:00",
+  "content_hash": "sha256:bd7fc67f75cc7dc2b4c533fa917cc103e92186bae5be1cf43068863b1212d7eb"
+}

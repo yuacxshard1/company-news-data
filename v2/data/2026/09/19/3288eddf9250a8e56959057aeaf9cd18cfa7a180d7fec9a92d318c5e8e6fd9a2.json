@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3288eddf9250a8e56959057aeaf9cd18cfa7a180d7fec9a92d318c5e8e6fd9a2",
+  "company_key": "yc-centaur",
+  "company_name": "Centaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://centaur.ai/post/3-new-datasets-added-to-centaurs-arena",
+  "canonical_url": "https://centaur.ai/post/3-new-datasets-added-to-centaurs-arena",
+  "title": "3 New Datasets Added to Centaur’s Arena",
+  "summary": "",
+  "body_markdown": "#### **3 new datasets added to Centaur’s Arena**\n\n\n###### 🔬 Lymph node tissue slices\n\n\n###### 🩻 Pediatric chest X-rays\n\n\n###### 🧠 EEG recordings\n\n\n‍\n\n\nOn all three datasets, Centaur’s human consensus was more accurate than every frontier model we tested, including Google’s Gemini family, OpenAI’s GPT family, and Anthropic’s Claude family. The margin between the most performing model and the Centaur human consensus ranged from 7.8 to 35.1 percentage points.\n\n\n‍\n\n\nWe track each human annotator's accuracy using hidden gold-standard cases with known answers. Those results continually update a quality score, or qscore, for that task, which determines how much the annotator's answers count toward our human consensus.\n\n\n‍\n\n\n‍\n\n\nFor the lymph node tissue dataset, we beat the best Frontier model by 7.8 percentage points. 1,733 human annotators reviewed 5,856 microscope images from PatchCamelyon, checking whether the marked area contained cancer cells and contributing 209,828 answers. Our human consensus reached 87.0% accuracy on this task. Gemini 3.1 Pro led the models at 79.2%, while Gemini 3 Flash scored 77.9% and GPT-5.5 reached 71.7%.\n\n\n‍\n\n\n‍\n\n\nThe pediatric chest X-ray task showed Centaur beating the top Frontier model by nearly 16 percentage points. We collected 235,498 answers from 738 human annotators across 3,000 images, with each image labeled as normal, bacterial pneumonia, or viral pneumonia. Here, our human consensus reached 74.8% accuracy, compared with 58.9% for Gemini 3.1 Pro, 50.4% for Claude Sonnet 5, and 49.0% for Claude Opus 4.8.\n\n\n‍\n\n\n‍\n\n\nThe EEG task revealed the biggest gap between model and human. Our human consensus reached 69.4% accuracy, compared with 34.3% for GPT-5.5 and 19.0% for Claude Opus 4.8. In this dataset, 737 human annotators gave 388,414 answers across 5,000 short recordings, using the tracing and four supporting charts to choose among seven brain activity patterns.\n\n\n‍\n\n\nIf you're building or evaluating medical AI,[explore the datasets](https://go.centaurlabs.com/datasets) and get in touch about testing your model against our human consensus. We'd love to work with you to understand where your model struggles and how better training data could help. In our Arena, you can:\n\n\n1. Buy datasets, including Centaur’s labels\n2. Benchmark your own model\n3. Run your own private Arena with our experts\n4. Source datasets not yet on Arena\n\n\nWant to see how your model stacks up?\n\n\nBook a demo and we'll show you what Centaur's benchmarking can do for your team.\n\n\n[Book a demo](https://info.centaurlabs.com/demo)",
+  "published_at": "2026-09-19T00:36:30.463+00:00",
+  "first_seen_at": "2026-09-16T00:54:50.613492+00:00",
+  "content_hash": "sha256:6ccc05d59ba3886fb1a9a33ac14de5beaa87a714bbde232a531e76156c6d9079"
+}

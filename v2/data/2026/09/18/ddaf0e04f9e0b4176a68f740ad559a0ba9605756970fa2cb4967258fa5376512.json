@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ddaf0e04f9e0b4176a68f740ad559a0ba9605756970fa2cb4967258fa5376512",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
+  "title": "Amazon SNS now supports message payloads up to 1 MiB",
+  "summary": "Discover more about what's new at AWS with Amazon SNS now supports message payloads up to 1 MiB",
+  "body_markdown": "[Amazon Simple Notification Service (Amazon SNS)](https://aws.amazon.com/sns/) now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics.\n\n\nAmazon SNS is a fully managed pub/sub messaging service that enables you to decouple and scale microservices, distributed systems, and serverless applications. As workloads such as application integration, IoT, and generative AI increasingly exchange larger volumes of data in a single message, the previous 256 KiB limit required customers to offload or split payloads before publishing.\n\n\nWith this launch, you can publish message payloads up to 1 MiB by setting the new MaximumMessageSize topic attribute on both SNS Standard and SNS FIFO topics. Topics with MaximumMessageSize set above 256 KiB support Amazon SQS, Amazon Data Firehose, and AWS Lambda subscriptions, with up to 100 total subscriptions per topic.\n\n\nAmazon SNS 1 MiB support is available today in all AWS Regions where Amazon SNS is available. To learn more about sending large payloads with Amazon SNS, see the[Amazon SNS Developer Guide](https://docs.aws.amazon.com/sns/latest/dg/large-message-payloads.html) .",
+  "published_at": "2026-09-18T15:00:00+00:00",
+  "first_seen_at": "2026-09-19T03:55:33.477529+00:00",
+  "content_hash": "sha256:a94a5afa4f0e19ea7266543e9609fd2cafa5eddb02dfae01960a6021672c18ae"
+}

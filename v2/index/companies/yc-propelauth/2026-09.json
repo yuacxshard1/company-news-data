@@ -29,6 +29,16 @@
       "source_kind": "html",
       "summary": "A consent screen shows the user an application's name, a list of permissions, and two buttons. For a long time, the applications on it were registered by hand, by a logged-in user who was on the hook for what they registered. MCP changes that. Your users now connect Claude, ChatGPT, Cursor, and whatever ships next month to your product, and with Dynamic Client Registration or Client ID Metadata Documents, nobody vouched for the client before the request showed up. The consent screen is the only place a person sees the request before it goes through, so it needs to show them enough to make a good call.",
       "title": "How to Build a Good Consent Screen for OAuth and MCP"
+    },
+    {
+      "company_key": "yc-propelauth",
+      "company_name": "PropelAuth",
+      "doc_id": "f67692ee22b5483e827bbe8298d7c1698c849cf5091f3419532e95961c31801e",
+      "first_seen_at": "2026-09-19T05:24:11.892643+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Your enterprise customers have a new question on their security questionnaires: \"When our employees connect an AI assistant to your product, who decides what it can access?\" For most Model Context Protocol (MCP) servers today, the answer is \"whoever clicked Connect.\" That works for a solo developer wiring up Cursor on a weekend. It does not work for a 5,000-person company whose security team needs to know what every AI agent can reach, and under what conditions.",
+      "title": "Enterprise-Ready MCP Permissions"
     }
   ],
   "company_key": "yc-propelauth",
