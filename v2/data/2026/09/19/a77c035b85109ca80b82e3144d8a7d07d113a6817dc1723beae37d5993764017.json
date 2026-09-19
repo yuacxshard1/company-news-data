@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a77c035b85109ca80b82e3144d8a7d07d113a6817dc1723beae37d5993764017",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/automate-acumatica-sales-order-approvals-via-slack",
+  "canonical_url": "https://www.activepieces.com/blog/automate-acumatica-sales-order-approvals-via-slack",
+  "title": "Automate Acumatica Sales Order Approvals via Slack",
+  "summary": "Sales order approvals integrated with chat platforms allow managers to authorize pending requests instantly without logging into the ERP system.",
+  "body_markdown": "## Step 1: Configure the Acumatica webhook trigger\n\n\nThe moment a record meets approval criteria, the Acumatica webhook trigger establishes a real-time data bridge that pushes specific document events to your chat automation layer.\n\n\n### Acumatica's built-in data extraction tools\n\n\nAcumatica provides native utilities within its browser-based interface to facilitate these external connections. The Generic Inquiry tool is a built-in reporting engine used to query the database and extract specific data sets without writing SQL code. The Push Notification screen is a dedicated management area that monitors these inquiries and sends real-time alerts to external webhooks when data changes occur.\n\n\n### Creating the Generic Inquiry for orders\n\n\nThe Generic Inquiry acts as the data source that filters for Sales Orders sitting in a 'Pending Approval' status.\n\n\nBy defining this inquiry, you specify exactly which fields (such as Total Amount, Customer Name, and the Approver ID) are bundled into the notification, so the manager receives all necessary context without having to open the ERP.\n\n\n### Configuring the Acumatica Push Notification destination\n\n\nThe Push Notification screen in Acumatica maps your Generic Inquiry to a specific external URL provided by your automation platform.\n\n\nYou must select the 'Insert' and 'Update' checkboxes to ensure that both newly created orders and modified existing orders trigger an alert, preventing high-priority changes from stalling in the queue.\n\n\n### Testing the Acumatica webhook payload delivery\n\n\nValidation involves triggering a manual status change on a test Sales Order to confirm the external endpoint receives a valid JSON packet.\n\n\nSuccessful delivery is confirmed when the automation logs show a 200 OK status, signifying that the handshake between the ERP and the chat interface is active and data-rich.",
+  "published_at": "2026-09-19T06:17:49+00:00",
+  "first_seen_at": "2026-09-19T10:28:56.218997+00:00",
+  "content_hash": "sha256:d2bf0cd577c191c871a9c620010249b54ebc7d8ad2a68238dd86b15c550ead75"
+}
