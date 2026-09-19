@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d5ce5d230cba772eaaeeb42673fb0545e001e21972b1e2e152436ca11eb039eb",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-an-agent-harness-architecture-and-terms-for-2026",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-an-agent-harness-architecture-and-terms-for-2026",
+  "title": "What Is an Agent Harness? Architecture and Terms for 2026",
+  "summary": "Agent harness infrastructure defines the critical interface between model reasoning and external software execution.",
+  "body_markdown": "## Building a secure agent harness with Activepieces\n\n\nActivepieces provides an MIT-licensed core that enforces strict governance over how Large Language Models interact with external business software.\n\n\nEvery automated action follows predefined permissions rather than the unconstrained logic of the model itself. By decoupling the reasoning engine from the execution layer, the platform prevents an agent from exercising administrative privileges it doesn't strictly require to complete a task.\n\n\n### Providing agents with authenticated tool access\n\n\nThe platform secures the integration between an AI agent and third-party services like the customer relationship tool Salesforce or the communication app Slack by centralizing credential management.\n\n\nCompanies like MoneyGram and FundingSocieties run Activepieces in production to manage these connections under a unified governance model.\n\n\nInstead of passing API keys directly to the LLM, the platform stores these secrets in an encrypted vault and only exposes functional integrations as scoped tools, ensuring that even a compromised model cannot bypass the access controls defined in the harness.\n\n\nThis separation of concerns means that even if a model is compromised, the attacker can only perform the specific, scoped actions defined within the workflow. The attacker is prevented from gaining full access to your underlying service accounts.\n\n\n### Defining the limits of autonomous decision-making\n\n\nA visual flow builder maintains control by acting as a hard boundary for what the agent is permitted to execute. You define the logic gates and data paths an agent can take. This restricts the model to a human-in-the-loop or pre-approved set of outcomes.\n\n\nThis structure ensures that an agent can't spontaneously decide to delete a database or email a client unless that specific path was explicitly built into the harness. This effectively turns the agent from a free-roaming actor into a component of a strictly defined industrial process.\n\n\n### Monitoring agentic loops for cost and logic errors\n\n\nThe harness is a central audit log for every step the agent takes. It allows you to identify where a recursive loop or a faulty prompt is wasting resources.\n\n\nBecause every execution is logged as a discrete event, you can spot patterns where an agent is repeatedly failing to call a tool or is generating excessive tokens due to a logic trap.\n\n\nThis visibility transforms the black box of agentic behavior into a transparent ledger. It makes it possible to kill runaway processes before they result in significant API overages or data corruption.",
+  "published_at": "2026-09-18T12:18:16+00:00",
+  "first_seen_at": "2026-09-18T17:31:50.338417+00:00",
+  "content_hash": "sha256:ac18d4b16ae72d29ae4ff4705009b4a3fe1266eecb19fd307c3ec6f8c2f2f1e4"
+}

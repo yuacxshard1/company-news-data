@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c66de5d85f4b498fc517d4ef180ac66137a171e46ce08aa7d27fb98c771dc200",
+  "company_key": "yc-gauge",
+  "company_name": "Gauge",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.withgauge.com/blog/should-you-have-an-llms-txt/",
+  "canonical_url": "https://www.withgauge.com/blog/should-you-have-an-llms-txt/",
+  "title": "Should you have an llms.txt?",
+  "summary": "Absolutely yes. Coding agents use llms.txt to understand your product and navigate your documentation, and our research shows how often they read it.",
+  "body_markdown": "## Key takeaway\n\n\n**You should absolutely have an llms.txt.** Coding agents use it to understand your product and navigate your documentation. Our research supports its value for implementation tasks, even without evidence that it is essential for visibility in ChatGPT or other AI search results.\n\n\n## Coding agents use llms.txt to find the information they need\n\n\nWhen a developer asks an agent to integrate a product, the agent needs specific information about setup, authentication, API behavior, and supported capabilities. A properly formatted llms.txt provides context about the business and a structured map of the pages that answer those questions.\n\n\nThat makes the file a useful point of direction. It helps the agent identify relevant documentation and reach the authoritative source for implementation details. Its value depends on clear descriptions, useful links, and accurate coverage of the product.\n\n\n## Our research shows agents are already using it\n\n\nIn our[research on how coding agents use llms.txt](https://www.withgauge.com/blog/what-is-llms-txt-used-for/) , Claude Code and Codex opened the file in **36.3% of observed tasks involving building with a named vendor** . After requesting it, Claude Code continued to another page on the same host 84% of the time. These observations show the file serving as an entry point into the documentation.\n\n\nOur[separate study of Codex sessions](https://www.withgauge.com/blog/does-codex-read-llms-txt/) found that Codex opened llms.txt in **33.6% of several hundred observed coding sessions** . The agent fetched the file through shell commands using curl, so those requests did not identify themselves as OpenAI traffic. Server logs filtered to named AI user agents can therefore miss actual usage.\n\n\nThe distinction between implementation and discovery matters. In our vendor-selection sessions, only 0.5% opened llms.txt. We do not see evidence that the file is essential for appearing in AI search results, but agents demonstrably use it when working with a product.\n\n\n## The benefit justifies the small maintenance cost\n\n\nThe decision resembles Pascal's wager in a practical sense. If an agent ignores the file, the cost is the modest effort required to create and maintain it. If the agent reads it, the file provides a direct route to relevant information about your business and product.\n\n\nFor an accurate, maintained llms.txt, there is no meaningful downside. Publish a concise overview, link to your core documentation, and update those links as your product changes. The observed usage already justifies that effort.",
+  "published_at": "2026-09-17T00:00:00+00:00",
+  "first_seen_at": "2026-09-18T17:11:02.056093+00:00",
+  "content_hash": "sha256:76fea71b23404642080227530cf722886069e81a19b39d6410b61df5f7a0dac4"
+}

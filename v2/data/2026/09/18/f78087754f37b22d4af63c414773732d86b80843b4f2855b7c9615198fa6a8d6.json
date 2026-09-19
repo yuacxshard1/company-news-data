@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f78087754f37b22d4af63c414773732d86b80843b4f2855b7c9615198fa6a8d6",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
+  "canonical_url": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
+  "title": "Dynamically Scaled Activation Steering",
+  "summary": "Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2512.03661)\n\n\nActivation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We introduce Dynamically Scaled Activation Steering (DSAS), a method-agnostic steering framework that decouples when to steer from how to steer. DSAS adaptively modulates the strength of existing steering transformations across layers and inputs, intervening strongly only when undesired behavior is detected. At generation time, DSAS computes context-dependent scaling factors that selectively adjust the strength of any steering method. We also show how DSAS can be jointly optimized end-to-end together with the steering function. When combined with existing steering methods, DSAS consistently improves the Pareto front with respect to steering alone, achieving a better trade-off between toxicity mitigation and utility preservation. We further demonstrate DSAS’s generality by applying it to a text-to-image diffusion model, showing how adaptive steering allows the modulation of specific concepts. Finally, DSAS introduces minimal computational overhead while improving interpretability, pinpointing which tokens require steering and by how much. The code will be available in Github.\n\n\n- † Centre de Visió per Computador",
+  "published_at": null,
+  "first_seen_at": "2026-09-18T19:32:18.514397+00:00",
+  "content_hash": "sha256:e9d02d1b0588525694071dc135b283aa452113e787e18af3931bee4063644ad7"
+}

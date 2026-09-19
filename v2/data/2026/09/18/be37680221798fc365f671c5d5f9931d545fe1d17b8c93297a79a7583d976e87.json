@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "be37680221798fc365f671c5d5f9931d545fe1d17b8c93297a79a7583d976e87",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+  "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
+  "summary": "Discover more about what's new at AWS with Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
+  "body_markdown": "[Amazon Elastic Container Service](https://aws.amazon.com/ecs/) Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered compute and benefit from up to 40% better price-performance compared to x86-based instances.\n\n\nAmazon ECS Express Mode makes it easy to rapidly launch containerized applications, including web applications and APIs, by orchestrating and managing the cloud architecture for your application. You provide your container image, and ECS Express Mode handles the rest, configuring networking, load balancing, auto scaling, and deployments, and providing your application with an auto-generated URL. With ARM64 architecture support, you can choose the compute architecture that fits your workload, whether you're optimizing for cost with Graviton, matching your existing fleet, or deploying images built natively for ARM.\n\n\nYou can configure the CPU architecture for new and existing Amazon ECS Express Mode services using the AWS Management Console, AWS CLI, AWS SDKs, and infrastructure as code (IaC) tools. This capability is available in all AWS commercial Regions and AWS GovCloud (US)[Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To learn more, see the[ECS Express Mode documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/express-service-overview.html) .",
+  "published_at": "2026-09-18T17:27:00+00:00",
+  "first_seen_at": "2026-09-18T18:56:49.819014+00:00",
+  "content_hash": "sha256:e9a29781ab92f749afd8ea63d19eb8f71c5a2061003280c8a0c568e161254202"
+}

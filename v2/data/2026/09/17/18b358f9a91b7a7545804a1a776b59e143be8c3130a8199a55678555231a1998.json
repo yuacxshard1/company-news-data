@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "18b358f9a91b7a7545804a1a776b59e143be8c3130a8199a55678555231a1998",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-vdm-tenants/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-vdm-tenants/",
+  "title": "Amazon SES now supports tenant-level deliverability insights",
+  "summary": "Discover more about what's new at AWS with Amazon SES now supports tenant-level deliverability insights",
+  "body_markdown": "[Amazon Simple Email Service (SES)](https://aws.amazon.com/ses/) now supports tenant-level deliverability insights in Virtual Deliverability Manager (VDM).[Tenant management](https://docs.aws.amazon.com/ses/latest/dg/tenants.html) allows email senders to isolate email sending across customers, business units, or applications. Previously, VDM provided deliverability metrics at the account, ISP, sending identity, and configuration set levels. Now, customers who use tenants and have enabled VDM can also monitor the deliverability of each tenant.\n\n\nThe VDM dashboard adds a Tenants view with per-tenant metrics (send volume, deliveries, bounces, complaints, opens, and clicks) and a detail page that breaks those metrics down by mailbox provider and by associated identities and configuration sets. Customers can also search and export a tenant's sent messages, or query tenant metrics programmatically using the BatchGetMetricData API operation's new TENANT_NAME dimension. This helps senders identify the tenant causing a deliverability issue and correct it without impact to their other tenants.\n\n\nVirtual Deliverability Manager is available in all AWS Regions where Amazon SES is available.\n\n\nTo learn more, visit the[Amazon SES console](https://console.aws.amazon.com/ses) or refer to the Virtual Deliverability Manager dashboard documentation in the[Amazon SES Developer Guide](https://docs.aws.amazon.com/ses/latest/dg/vdm-dashboard.html) .",
+  "published_at": "2026-09-17T07:00:00+00:00",
+  "first_seen_at": "2026-09-18T18:56:49.819014+00:00",
+  "content_hash": "sha256:f8e18085dedb49e0e8e9c1f5a223d8a866707bee4268e0ba2510afd40bbb1acf"
+}

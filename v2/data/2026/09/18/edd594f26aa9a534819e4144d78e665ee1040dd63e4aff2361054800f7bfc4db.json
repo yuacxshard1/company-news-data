@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "edd594f26aa9a534819e4144d78e665ee1040dd63e4aff2361054800f7bfc4db",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/optimizing-deep-rock-galactic-survivor-for-mobile",
+  "canonical_url": "https://unity.com/blog/optimizing-deep-rock-galactic-survivor-for-mobile",
+  "title": "Optimizing Deep Rock Galactic Survivor for mobile",
+  "summary": "Learn how Piktiv ported Deep Rock Galactic: Survivor to mobile with flow field navigation, KD-tree physics queries, GPU-driven rendering, Burst jobs, and Addressables.",
+  "body_markdown": "**What were the biggest performance bottlenecks you hit moving from PC to mobile hardware, and how did you overcome them?**\n\n\n**FÅ:** There were a few core systems that really stuck out, and they were the ones with thousands of active objects: Damage numbers, projectiles, the world itself, and the animated 3D enemies.\n\n\nThe damage texts, for example, were originally a GameObject using[TextMesh Pro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@latest/) . But when you have a thousand enemies on screen and you throw a grenade at them, all of them now need to show a damage number. The bottleneck is generating the text mesh: Having the font translate your string into something visual.\n\n\nIn the end, we used a regular Unity[particle system](https://docs.unity3d.com/Manual/ParticleSystems.html) with a spritesheet of the numbers 0 to 9.\n\n\n**ME:** Another example was the pathfinding of all the enemies, which used the built-in[NavMesh](https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/NavigationOverview.html) system on PC. We also had a team of engineers from Unity supporting us, and one of them started working on a solution that used flow field navigation instead. Another engineer built a KD-tree solution to optimize away a lot of the physics queries.\n\n\n**FÅ:** With enemy rendering, we have something like a thousand skinned mesh renderers on the screen at the same time, and that doesn’t really work. As it turns out, pretty much all of these enemies have a single animation, so we don’t actually need support for multiple animations.\n\n\nInstead, this uses a system where each keyframe of the animation is baked into a texture. We go through every frame like that, and then all of them are vertex animated by a shader on the GPU, so there’s practically no CPU cost.\n\n\nBaking it down to a single static mesh and a texture was a big improvement, and it also lets you do things like[GPU instancing](https://docs.unity3d.com/Manual/GPUInstancing.html) , since they’re all technically the same mesh with the same material.",
+  "published_at": "2026-09-18T00:00:00+00:00",
+  "first_seen_at": "2026-09-18T18:00:16.133978+00:00",
+  "content_hash": "sha256:542b4366e0cabb47bc4e0e5d1e53442b993b8c3beadab13b7bd1336e3651e70f"
+}

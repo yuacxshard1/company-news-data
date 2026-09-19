@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "86475d5b8b1a7dbf315ec273c0fef48176128a2f16446964989839bf1a537e4e",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/unity-plugin-codex",
+  "canonical_url": "https://unity.com/blog/unity-plugin-codex",
+  "title": "The Official Unity Plugin for Codex",
+  "summary": "Unity's official plugin for Codex is an official plugin that gives OpenAI's Codex Unity-written skills, so the agent works from Unity's own guidance for jobs like sprite atlases, URP renderer features, in-app purchases, and localization instead of from whatever it absorbed about Unity elsewhere.",
+  "body_markdown": "When you point a general-purpose coding agent at a Unity project today, it answers from the average of everything ever written about Unity. That means a decade of forum threads, tutorials and sample code, much of it written against engine versions that no longer ship. The answer that surfaces is the one that gets repeated most often, rather than the one that is still true today.\n\n\nThe result usually compiles, but you get a sprite atlas hand-authored, asset by asset, instead of packed by a prebuild pipeline. You get a menu whose buttons animate on the way in and snap back on the way out, because the transition was declared on the hover state instead of the base class. You get a URP renderer feature that reads as correct and never runs.\n\n\nWith the official plugin, Codex works from Unity's own guidance for each of those jobs, including deciding more smartly which UI framework your project should use.\n\n\n**It’s this gap between almost right and not quite** that is the single most-cited frustration developers have with AI tools. In[Stack Overflow's 2025 Developer Survey](https://survey.stackoverflow.co/2025/ai) :\n\n\n- 66% named \"AI solutions that are almost right, but not quite\" as their top frustration\n- 45% said debugging AI-generated code is more time-consuming\n- 46% said they distrust the accuracy of AI output, against 33% who trust it\n\n\nThe official Unity Plugin for Codex closes this gap one job at a time. Each skill teaches the agent how a specific job is actually meant to be done: where a Unity project keeps its assets, how an atlas is supposed to be built, what a URP renderer feature has to satisfy before it will run at all. None of it is new work for you, because every one of those jobs is something you already do in a normal week. What changes is that the agent works from instructions the Unity team wrote, instead of from whatever it picked up about Unity elsewhere.\n\n\nThe community has built plugins with genuinely useful Unity skills, and plenty of them are widely used. What the official one adds is accountability and authenticity, because every skill comes from the Unity engineers who build that system, is tested against how the engine really behaves, goes through our security review, and is updated as the engine ships, so the guidance rarely drifts away from the version you are on. The plugin itself is published by Unity Technologies under the Unity Companion License, and listed in the Codex directory under our own name.",
+  "published_at": "2026-09-16T00:00:00+00:00",
+  "first_seen_at": "2026-09-18T18:00:16.133978+00:00",
+  "content_hash": "sha256:58539ac31e4ed3f391fd1f10eced428b767b3398e44527bdd720d3612bf65b8c"
+}

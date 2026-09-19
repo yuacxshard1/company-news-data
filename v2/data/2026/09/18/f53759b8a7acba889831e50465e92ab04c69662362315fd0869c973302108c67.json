@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f53759b8a7acba889831e50465e92ab04c69662362315fd0869c973302108c67",
+  "company_key": "yc-diversion",
+  "company_name": "Diversion",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.diversion.dev/blog/how-to-connect-one-repository-to-another",
+  "canonical_url": "https://www.diversion.dev/blog/how-to-connect-one-repository-to-another",
+  "title": "How to connect one repository to another in Diversion",
+  "summary": "Diversion submodules let you mount one repository inside another, pinned to a specific commit. Here is how they work, and what teams use them for.",
+  "body_markdown": "If you need one repository to live inside another, a shared asset library, an engine, a set of internal tools, Diversion does this with submodules.\n\n\nA submodule mounts another Diversion repo at a folder path inside your repo, pinned to a specific commit.` ‍`\n\n\n` dv submodule add <repo> libs/engine`\n\n\nThe dependency appears at` libs/engine` , and your project now points at one specific version of it.\n\n\nThree things to know:\n\n\n- The **mount path** is where the other repo appears inside yours.\n\n\n- The **pin** is the commit your project points at. It is committed in the parent, so it becomes part of your history.\n\n\n- The **mount is a real working copy** . You can check out a branch inside it, edit, commit, then move the pin with` dv submodule repin` .\n\n\n### What teams use it for\n\n\n- A shared asset library that several projects draw from\n\n\n- Engine source, or a custom engine fork\n\n\n- Internal tools and pipeline scripts\n\n\n- Third-party SDKs and middleware\n\n\n- Several titles running on one shared framework\n\n\nEach project pins the version it was built against, so updating one does not change the others.\n\n\n### Why the pin matters\n\n\nBecause the pin lives in your history, it travels with your branches. Check out a release branch from six months ago and you get the exact versions of everything that shipped with it.\n\n\nFull reference, including` status` ,` update` and` rm` : https://docs.diversion.dev/advanced/submodules\n\n\n‍",
+  "published_at": "2026-09-18T00:00:00+00:00",
+  "first_seen_at": "2026-09-18T21:04:47.612045+00:00",
+  "content_hash": "sha256:d1844f7d012fad0295de6d4ef13127bebde874668960e6c11fa1c5ddf28cb918"
+}
