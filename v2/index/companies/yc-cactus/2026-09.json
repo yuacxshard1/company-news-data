@@ -3,6 +3,16 @@
     {
       "company_key": "yc-cactus",
       "company_name": "Cactus",
+      "doc_id": "280144fa99b749f26fd0d23d23e95b1fa7991a7db23cd7d59d063267c5f6c055",
+      "first_seen_at": "2026-09-20T07:20:18.842030+00:00",
+      "published_at": "2026-09-19T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Needle keeps its facts in hashed n-gram tables instead of feed-forward layers. 70.8M of its 121M parameters live there, and a token reads 30 rows of them and multiplies none. This post is the lookup, the gate, where the sites sit, and what the tables buy.",
+      "title": "Can We Trade MLPs for Engrams?"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
       "doc_id": "500db7a36a0737fd7c8311246916c2808192ac303af13640a6e83fa3cdb92963",
       "first_seen_at": "2026-09-18T17:42:33.940429+00:00",
       "published_at": "2026-09-18T00:00:00+00:00",
@@ -83,12 +93,22 @@
     {
       "company_key": "yc-cactus",
       "company_name": "Cactus",
+      "doc_id": "957480e3a0ffd5ff41c7fa1169a8a202fabd47e7b7629bcf00803745beabd8ad",
+      "first_seen_at": "2026-09-20T07:20:18.842030+00:00",
+      "published_at": "2026-09-19T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We shrank the query-key path and the value path of Needle's attention heads to the same file sizes and measured the loss. Bytes taken from the values cost up to three times more than bytes taken from the routing, and widening the values alone is the cheapest capacity we have found.",
+      "title": "Where an Attention Head Spends Its Bytes"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
       "doc_id": "9e365d5f9ae48a752882c50351389a7982f80c6721f1e1fb6d353b2deec6c3ef",
       "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
       "published_at": "2026-09-17T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Needle replaces the transformer's feed-forward layer with three Kronecker-factored mixes that start as the Walsh-Hadamard transform and learn from there. 25.6K parameters per layer instead of 4.7M, and a fifth of the compute per token.",
-      "title": "The Hadamard MLP: Channel Mixing for Almost No Parameters"
+      "title": "The Hadamard MLP for Channel Mixing for Almost No Parameters"
     },
     {
       "company_key": "yc-cactus",
@@ -98,7 +118,7 @@
       "published_at": "2026-09-17T00:00:00+00:00",
       "source_kind": "html",
       "summary": "We deleted the feed-forward network from a transformer and measured what was actually lost, under controls for parameters, compute and depth. At matched parameters the answer is 0.006 nats, and all of it lives on tokens with nothing to look up.",
-      "title": "Simple Attention Networks: What a Transformer Loses Without Feed-Forward Layers"
+      "title": "What a Transformer Loses Without Feed-Forward Layers"
     },
     {
       "company_key": "yc-cactus",

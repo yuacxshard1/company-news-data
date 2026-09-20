@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3b4ea69732f6eabcf72775533f66fd394545af9196bd7db52d1b8ebdce28d039",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/typesafe_jev",
+  "canonical_url": "https://docs.litellm.ai/blog/typesafe_jev",
+  "title": "TypeSafe Jev on LiteLLM",
+  "summary": "TypeSafe AI's Jev lands in LiteLLM v1.103.0-rc: call it through the proxy with logging and cost tracking.",
+  "body_markdown": "[TypeSafe AI's Jev](https://docs.typesafe.ai/api) launches on LiteLLM today in` v1.103.0-rc` . Jev is a decision model: it returns a choice, a score, or a yes/no probability instead of text, so it has its own evaluate endpoint rather than` /chat/completions` . LiteLLM proxies that endpoint with logging and cost tracking.\n\n\n## Pricing​\n\n\n$0.042 per 1M input tokens, no output charge. Spend is logged under the versioned model TypeSafe reports (` typesafe/jev-1.13.0` today), even when you request` jev-latest` .\n\n\n## Usage​\n\n\nSet your TypeSafe key once on the proxy, then replace` https://api.typesafe.ai` with` LITELLM_PROXY_BASE_URL/typesafe` . Clients only need a LiteLLM virtual key.\n\n\n```text\nexport TYPESAFE_API_KEY=\"your-typesafe-api-key\"\n```\n\n\n```text\ncurl -X POST \"http://0.0.0.0:4000/typesafe/v1/systemone\" \\      -H \"Authorization: Bearer $LITELLM_KEY\" \\      -H \"Content-Type: application/json\" \\      -d '{        \"state\": \"Help! My payouts have been failing for 3 days.\",        \"model\": \"jev-latest\",        \"questions\": {          \"department\": {            \"type\": \"choice\",            \"instructions\": \"Which team should handle this?\",            \"criteria\": {              \"billing\": \"Payments, invoicing, refunds\",              \"technical\": \"Bugs, outages, integrations\"            }          }        }      }'\n```\n\n\nThe response is TypeSafe's own, unchanged. Any path under` /typesafe/` is forwarded, so` GET /typesafe/v1/models` lists the available models. Full details in the[TypeSafe pass-through docs](https://docs.litellm.ai/docs/pass_through/typesafe) .\n\n\n## Feedback​\n\n\nRunning Jev through LiteLLM and hitting something unexpected? Open a[GitHub discussion](https://github.com/BerriAI/litellm/discussions) .",
+  "published_at": "2026-09-20T10:00:00+00:00",
+  "first_seen_at": "2026-09-20T05:29:07.562028+00:00",
+  "content_hash": "sha256:aa099609b2b27ea3e62853a58ee30fdd509b922d9ff74978520c7414333d5f34"
+}
