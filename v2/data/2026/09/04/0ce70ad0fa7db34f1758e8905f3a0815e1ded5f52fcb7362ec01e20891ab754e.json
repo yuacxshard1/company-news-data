@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0ce70ad0fa7db34f1758e8905f3a0815e1ded5f52fcb7362ec01e20891ab754e",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/zapier-app",
+  "canonical_url": "https://bird.com/changelog/zapier-app",
+  "title": "Zapier: the Bird app is in the directory",
+  "summary": "Bird is now in Zapier's app directory: five actions across email, SMS, WhatsApp and Verify, a trigger on any Bird webhook event, and 43 searches.",
+  "body_markdown": "The Bird app is now listed in Zapier's directory, so a Zap can send over Bird's channels and read Bird's records without an HTTP block and without an API key. Search for Bird in the Zap editor, click Connect, and give consent in Bird. The connection is OAuth, and what Bird mints is owned by the workspace rather than by the person who clicked, so it keeps working after they change teams. Nothing asks you which region you are in either: the access token carries it.\n\n\n## Actions\n\n\n**Send Email** , **Send SMS** , and **Send WhatsApp Message** cover the channels, template or free-form. **Start Verification** and **Check Verification Code** run a one-time passcode end to end, so a Zap can send the code and confirm the one the recipient types back.\n\n\n## The trigger\n\n\n**New Event** starts a Zap from any of the 53 public Bird webhook event types: an email delivered or bounced, an inbound SMS, a WhatsApp send that failed, a sending domain that finished verifying. Pick the events you care about and Zapier registers the webhook endpoint for you. Every delivery is signature-checked before your Zap sees it, and one that fails the check is refused.\n\n\nOne limit is worth knowing before you build on it: a single Zap per organization can use New Event today. Zapier issues each Zap its own target URL, and Bird's webhook endpoint quota starts at one per organization, so a second Zap on this trigger comes back with` WebhookTooManyEndpoints` (as does the first, if you already run a webhook of your own). Support can raise that quota for your organization. Actions and searches are unaffected.\n\n\n## Searches\n\n\n43 search steps read the records back: email messages, their events, recipients, stored content and attachments; inbound email down to the raw MIME; SMS messages, events, templates, keyword rules and suppressions; WhatsApp messages, events and media; voice calls; sending domains and their events; SMTP configurations; webhook endpoints and their delivery attempts. Email and SMS statistics get one search each, returning counts and rates rather than per-message records.\n\n\nA search that matches nothing returns no results instead of failing the run, so a Zap takes its own no-match path rather than erroring out.\n\n\n## Managing the connection\n\n\nEvery connection shows up on the **Integrations** page in your Bird workspace, with the scopes it was granted. Revoking it there stops every Zap built on it.\n\n\n[Find Bird in Zapier's directory](https://zapier.com/apps/bird/integrations) and build the first Zap.",
+  "published_at": "2026-09-04T00:00:00+00:00",
+  "first_seen_at": "2026-09-20T04:35:24.606818+00:00",
+  "content_hash": "sha256:64ca14929e5655c632b38baa577efd72748ea544103dd9fe23634cba60f07544"
+}

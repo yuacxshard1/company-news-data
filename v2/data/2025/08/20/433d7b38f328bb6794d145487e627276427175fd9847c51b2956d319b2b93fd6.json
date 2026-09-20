@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "433d7b38f328bb6794d145487e627276427175fd9847c51b2956d319b2b93fd6",
+  "company_key": "yc-modelence",
+  "company_name": "Modelence",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://modelence.com/blog/smartrepos",
+  "canonical_url": "https://modelence.com/blog/smartrepos",
+  "title": "SmartRepos - Smarter way to discover trending tools, libraries, frameworks",
+  "summary": "An intelligent assistant that helps you discover GitHub libraries that are not only popular, but actually useful to you - with AI-powered insights, personalized recommendations, and contextual repo chat.",
+  "body_markdown": "## How it works\n\n\nSmartRepos pulls metadata and activity data via GitHub APIs, analyzes repositories using custom-built AI prompts, and ranks them using a personalized scoring system. It uses real documentation, code structure, and project history to evaluate value.\n\n\nYou don't need to dig through a repo to understand it. SmartRepos already did.\n\n\n## Building SmartRepos with Modelence\n\n\nModelence made building SmartRepos fast and clean. Instead of setting up complex backend code, I used Modelence modules to separate everything into focused, easy-to-manage pieces.\n\n\nDefining a database schema with MongoDB took just a few lines. API routes and business logic were tied directly to each module, so I didn't have to worry about routing or wiring things manually. On the frontend, fetching data was simple and fully type-safe using` @modelence/react-query` .\n\n\nAI features like repo summaries and chat were powered by GPT-4o Mini using Modelence's built-in AI tools. I just had to configure my API keys and didn't have to deal with retries, error handling and syntax, it just worked.\n\n\nCompared to other frameworks I've used, Modelence removed a ton of boilerplate and let me focus on building features. It's one of the most productive full-stack setups I've worked with.\n\n\n## Try it\n\n\nYou can try it yourself:\n\n\n- Demo:[https://smartrepos.modelence.app/](https://smartrepos.modelence.app/)\n- GitHub:[https://github.com/samyakjain-1/SmartRepos](https://github.com/samyakjain-1/SmartRepos)\n\n\nI have kept all AI features on-demand right now, due to API costs. But you can still generate them just by the click of a button.\n\n\nStop guessing. Start discovering. SmartRepos is the smarter way to find the right tools for your next build.",
+  "published_at": "2025-08-20T00:00:00+00:00",
+  "first_seen_at": "2026-09-20T04:47:26.255499+00:00",
+  "content_hash": "sha256:ebc3deb5b1906484de24ec3c086807e15acd93355f4a5f0f6c9d25a30b83074a"
+}

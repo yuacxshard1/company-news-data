@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f88e08504a53e04ceef35f6d7053808cd93c36f71038e24f066a6fef0c965031",
+  "company_key": "yc-raycast",
+  "company_name": "Raycast",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://raycast.com//changelog/macos/0-68",
+  "canonical_url": "https://raycast.com//changelog/macos/0-68",
+  "title": "✍️ Edit AI chat messages",
+  "summary": "View what's new in Raycast v0.68",
+  "body_markdown": "[v0.68](https://www.raycast.com/changelog/macos/0-68) July 9, 2026\n\n\nYou can now edit any message you've sent in AI Chat. Just hit the edit button, use the hotkey, or tap the up arrow to jump straight into your last message. Refine your prompt, resend, and continue the conversation seamlessly.\n\n\n## ✨ New\n\n\n- **AI Chat** : Edit previously sent messages via the edit button, hotkey, or by pressing the up arrow\n- **AI Chat** : Reference skills directly in the composer with` @` mentions\n- **AI Chat** : Get more granular control on which tool calls run automatically with the new Always Allow list\n- **AI Chat** : Reorder and edit queued messages before they're sent\n\n\n## 💎 Improvements\n\n\n- **File Previews** : Allowed SVGs to be previewed as images rather than code\n- **Hotkeys** : You can now record ⌘+esc as a command hotkey\n- **Root Search** : Removed Tab to browse on file search items to improve consistency around Quick AI usage\n\n\n## 🐞 Fixes\n\n\n- **AI** : Fixed attachment drop-zone positioning bug\n- **AI Chat** : Fixed an issue where content would sip through the sidebar when it was overlaid and the window was blurred\n- **Calculator** : Fixed system Language & Region preferences (24h format, number format) not being taken into account\n- **Calendar** : Fixed the Calendar menu bar item sometimes being mislabeled as missing permissions\n- **Core:** Fixed an occasional blocking alert at startup on macOS 27\n- **MCP** : Fixed a scroll padding issue when no description was present\n- **Quicklinks** : Fixed Quicklink form closing when selecting a file with the system sheet\n- **Search Arguments** : Added missing badge for optional args\n- **Search Arguments** : Consistently ensured we don’t allow submitting with incomplete args (Root Search, Snippets, Quicklinks, AI commands, etc)\n- **UI** : Fixed some characters like **Å** being cut off in navigation search field\n- **UI** : Fixed characters sometimes being clipped on the left side at specific zoom levels",
+  "published_at": "2026-07-09T09:29:33+00:00",
+  "first_seen_at": "2026-09-20T04:49:57.934180+00:00",
+  "content_hash": "sha256:eadc4084726a7ff4162328dac0eb62829c253d46d5c92a27dc41ed96c5bd5fc0"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2b74b29dc1fbface258bfc146213fa3dfb97b424ed5877536530dfda89c5c829",
+  "company_key": "yc-unsloth-ai",
+  "company_name": "Unsloth AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://unslothai.substack.com/p/google-gemma-4-now-in-unsloth",
+  "canonical_url": "https://unslothai.substack.com/p/google-gemma-4-now-in-unsloth",
+  "title": "Google Gemma 4 now in Unsloth",
+  "summary": "Google DeepMind releases Gemma 4 today, a new family of open models, including E2B, E4B, 26B-A4B, and 31B. You can now run and fine-tune them in Unsloth.",
+  "body_markdown": "# Google Gemma 4 now in Unsloth\n\n\n[Unsloth AI](https://substack.com/@unsloth)\n\n\nApr 02, 2026\n\n\nGoogle DeepMind releases Gemma 4 today, a new family of open models, including\n\n\n**E2B** ,\n\n\n**E4B** ,\n\n\n**26B-A4B** , and\n\n\n**31B.** These multimodal, hybrid-thinking models support 140+ languages, up to\n\n\n**256K context** , and come in both dense and MoE variants. Gemma 4 can now run locally and be fine-tuned in\n\n\n[Unsloth Studio](https://unsloth.ai/docs/models/gemma-4#unsloth-studio-guide) .\n\n\nThank you Google for providing Unsloth with day zero access. For more details on Gemma 4 and usage, read our blog / guide:\n\n\n[Gemma 4 Blog](https://unsloth.ai/docs/models/gemma-4)\n\n\n### ✨ Unsloth Updates\n\n\nSince we released\n\n\n[Unsloth Studio](https://unsloth.ai/docs/new/studio) 2 weeks ago, we’ve made many improvements. Most notably:\n\n\n-\n\n\n**50-80% more accurate Tool calling** : better parsing, better accuracy, faster execution, no raw tool markup in chat, plus a new Tool Outputs panel and timers.\n\n\n-\n\n\nPre-compiled\n\n\n` llama.cpp` binaries for ~1min installs and -50% less size\n\n\n-\n\n\n**Auto-detection of existing models** / GGUFs\n\n\n-\n\n\n**20–30% faster inference** , now matches\n\n\n` llama-server` /\n\n\n` llama.cpp` speeds.\n\n\n-\n\n\nNew\n\n\n**Desktop app shortcuts**\n\n\n-\n\n\n**Data Recipes** now supports\n\n\n**macOS, CPU** and multi-file uploads.\n\n\n[Unsloth Studio](https://unsloth.ai/docs/new/studio)\n\n\nUnsloth Studio now also installs in one command:\n\n\n**macOS, Linux, WSL:**\n\n\n```text\ncurl -fsSL https://unsloth.ai/install.sh | sh\n```\n\n\n**Windows:**\n\n\n```text\nirm https://unsloth.ai/install.ps1 | iex\n```\n\n\nA new way to use Unsloth is also coming soon…",
+  "published_at": "2026-04-02T20:00:18+00:00",
+  "first_seen_at": "2026-09-20T04:38:40.850424+00:00",
+  "content_hash": "sha256:5a2502bf5ff6fa6325d3db55594e72d244b1a63764185c77a668a2e2eab5255b"
+}

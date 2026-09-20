@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bcc3f5dd3658929e87fe442335e4d8681ae9f0a5518167c821d87a829e3c40d1",
+  "company_key": "yc-raycast",
+  "company_name": "Raycast",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://raycast.com//changelog/macos/2-1",
+  "canonical_url": "https://raycast.com//changelog/macos/2-1",
+  "title": "😁 Inline Emoji Picker",
+  "summary": "View what's new in Raycast v2.1",
+  "body_markdown": "[v2.1](https://www.raycast.com/changelog/macos/2-1) September 1, 2026\n\n\nYour favorite emojis are now just a` :` away. Type` :` followed by an emoji name to open the Inline Emoji Picker and insert emojis without breaking your flow.\n\n\nInline Emoji Picker works across text fields throughout Raycast, including AI Chat, Notes, Snippets, Quicklinks, and AI Commands. Suggestions follow your preferred emoji skin tone.\n\n\n## ✨ New\n\n\n- **Emoji** : Added Inline Emoji Picker. Type` :` followed by a name in any text field to search and insert emojis.\n\n\n## 💎 Improvements\n\n\n- **Quick AI** : Added support for dropping files from Finder directly into Quick AI to attach them, including while revealing the window with the global hotkey mid-drag\n- **Root Search** : Improved icon rendering of Quicklink favourites in compact mode\n- **Root Search** : Tab now performs primary action if AI or Tab to Quick AI is disabled\n\n\n## 🐞 Fixes\n\n\n- **AI Chat** : Fixed a text scaling issue in “Ask Question” tool\n- **AI Chat** : Fixed run errors rendering above tool calls in some situations\n- **AI Chat** : Fixed failed image generations and remote tools appearing as completed\n- **Clipboard History** : Fixed an issue where selecting all content would also select list items\n- **Clipboard History** : Ensured pasting non-full entries can still correctly update history (ie. paste as plain text)\n- **Emoji Picker** : Fixed emoji jitter when moving selection\n- **Emoji Picker** : Fixed an issue where saving keywords on an AI suggested emoji would fail\n- **Extensions** : Fixed an issue where pressing Escape from an extension subview would mistakenly discard Raycast\n- **File Search:** Fixed an issue preventing file index compaction causing elevated disk space utilization\n- **File Search:** Fixed an issue where directories matching a term and containing many children would be hidden from results by its contents\n- **File Search:** Fixed an issue causing online-only files in indexed cloud folders (iCloud, Google Drive, etc) to be hydrated accidentally\n- **My Schedule** : Fixed an alignment issue when the time of event was formatted with a 12h clock\n- **Notes** : Fixed inline code background in completed todo items\n- **Notes** : Fixed empty list items being dropped when pasting markdown\n- **Notes** : Fixed checklist structure being lost when copying and pasting\n- **Root Search** : Fixed a regression that brought back tab to browse files\n- **Settings** : Fixed script command icons being cropped\n- **UI** : Fixed visual artefact on short popovers when using largest interface size",
+  "published_at": "2026-09-01T13:08:17+00:00",
+  "first_seen_at": "2026-09-20T04:49:57.934180+00:00",
+  "content_hash": "sha256:4b4e2ce67234a1f7c1e05e67e6b1c77d2319d96cbe135cbe47eb1833415a4ceb"
+}

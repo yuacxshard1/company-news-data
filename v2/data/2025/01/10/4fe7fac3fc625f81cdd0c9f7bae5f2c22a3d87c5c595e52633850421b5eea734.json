@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4fe7fac3fc625f81cdd0c9f7bae5f2c22a3d87c5c595e52633850421b5eea734",
+  "company_key": "yc-unsloth-ai",
+  "company_name": "Unsloth AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://unslothai.substack.com/p/microsofts-phi-4-now-in-unsloth",
+  "canonical_url": "https://unslothai.substack.com/p/microsofts-phi-4-now-in-unsloth",
+  "title": "Microsoft's Phi-4 now in Unsloth!",
+  "summary": "Hope you all had an amazing New Year!",
+  "body_markdown": "# Microsoft's Phi-4 now in Unsloth!\n\n\n[Unsloth AI](https://substack.com/@unsloth)\n\n\nJan 10, 2025\n\n\nHope you all had an amazing New Year! Here's our latest updates:\n\n\n---\n\n\n### ✨ Microsoft Phi-4\n\n\n-\n\n\nPhi-4, Microsoft's new 14B model that performs on par with OpenAI's GPT-4o-mini is now in Unsloth!\n\n\n-\n\n\nWe\n\n\n[fixed 4 bugs](https://unsloth.ai/blog/phi4) in Phi-4, greatly increasing the model’s accuracy.\n\n\n-\n\n\nUnsloth Phi-4 finetuning enables >128K context lengths\n\n\n[Read Phi-4 Blog](https://unsloth.ai/blog/phi4)\n\n\n---\n\n\n### 🦙 Llama 3.3 + Ultra long context\n\n\n-\n\n\nLlama 3.3 is Meta’s new 70B model that performs on par with Llama 405B.\n\n\n-\n\n\n[We worked with Apple](https://unsloth.ai/blog/llama3-3) to integrate CCE, making Unsloth now support 13x longer context lengths.\n\n\n[Read Llama 3.3 Blog](https://unsloth.ai/blog/llama3-3)\n\n\n---\n\n\n### 🦥 Unsloth Dynamic 4-bit\n\n\n-\n\n\nWe’re also excited to introduce Unsloth\n\n\n[Dynamic 4-bit Quantization](https://unsloth.ai/blog/dynamic-4bit) !\n\n\n-\n\n\nUnlike naive quantization, which reduces accuracy, our method selectively avoids quantizing certain parameters, achieving significantly higher accuracy, while only using <10% more VRAM than BitsandBytes 4-bit.\n\n\n[View our Docs](https://docs.unsloth.ai/)",
+  "published_at": "2025-01-10T18:24:01+00:00",
+  "first_seen_at": "2026-09-20T04:38:40.850424+00:00",
+  "content_hash": "sha256:9c1c8b0ba324728229dd3ece776cefe88d55e1dbd2cd53206eb3659707859dab"
+}

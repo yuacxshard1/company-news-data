@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fbb99ede9e150cb2057f284db7013b8db95fa1d1d63e7ed7fb704d7529b2bbd0",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/bird-is-now-a-verified-n8n-node",
+  "canonical_url": "https://bird.com/changelog/bird-is-now-a-verified-n8n-node",
+  "title": "Bird is now a verified n8n node",
+  "summary": "Send email, SMS, and WhatsApp messages, manage contacts, and run verification steps with Bird's official node, now verified by n8n.",
+  "body_markdown": "Our official[Bird node](https://n8n.io/integrations/bird/) is now verified by n8n. Send email, SMS, and WhatsApp messages, manage contacts, and run verification steps directly from your workflows.\n\n\nA form submission can send a welcome email. An order update can send an SMS using a template stored in Bird. Choose a resource and operation in the Bird node, then map data from an earlier step into its fields. You can also look up message delivery status and use the result in the next step.\n\n\nInstall the node from the nodes panel on n8n Cloud or a self-hosted instance with verified community nodes enabled.\n\n\n## Install the Bird node\n\n\n1. Create a new workflow.\n2. Open the **nodes panel** by selecting **+** or pressing **Tab** .\n3. Search for **Bird** .\n4. Select **Install** to install the node for your instance.\n5. The Bird node is now available in your workflows.\n\n\nOnce installed, create an API key under **API keys** in the Bird dashboard, with the scopes your workflow needs. Paste it into a **Bird API** credential in n8n.\n\n\nFor installation settings, see[n8n's verified-node guide](https://docs.n8n.io/integrations/community-nodes/installation-and-management/install-verified-community-nodes) .\n\n\n## Send a test email\n\n\nSelect your **Bird API** credential, set **Resource** to **Email** , and choose **Send** . Under **Additional Fields** , add **Subject** and **Text** , then fill in:\n\n\nField Value\n\n\nFrom` onboarding@messagebird.dev`\n\n\nTo` delivered@messagebird.dev`\n\n\nSubject` Your workflow is connected`\n\n\nText` This message was sent through Bird from n8n.`\n\n\nExecute the node. A successful response includes a message ID. This example uses Bird's shared onboarding sender and a sandbox recipient that simulates delivery without sending to a real inbox. The[first-email guide](https://bird.com/docs/get-started/send-your-first-email) explains how to check the result and the onboarding sender's limits.\n\n\nTo email customers,[verify your sending domain](https://bird.com/docs/guides/email/sending-domains) and use an address on that domain in **From** .\n\n\n## Build your workflow\n\n\n- Follow the[Bird setup guide](https://bird.com/ai/n8n) for configuration and supported resources.\n- Import the[welcome-email workflow](https://github.com/messagebird/n8n-nodes-bird/blob/main/examples/01-contact-form-welcome-email.json) to connect a form submission to an email.\n- Try the[order-shipped workflow](https://github.com/messagebird/n8n-nodes-bird/blob/main/examples/02-order-shipped-sms-template.json) to send an SMS from a stored template.",
+  "published_at": "2026-09-10T00:00:00+00:00",
+  "first_seen_at": "2026-09-20T04:35:24.606818+00:00",
+  "content_hash": "sha256:17ea022c2a1ede3ab1a5cec04321a78f8d0b87a7f7e61aa2514c63ef32d7ee45"
+}

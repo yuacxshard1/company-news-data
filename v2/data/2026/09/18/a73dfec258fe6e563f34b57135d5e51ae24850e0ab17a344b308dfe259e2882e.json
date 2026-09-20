@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a73dfec258fe6e563f34b57135d5e51ae24850e0ab17a344b308dfe259e2882e",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/enterprise-sso-for-every-organization",
+  "canonical_url": "https://bird.com/changelog/enterprise-sso-for-every-organization",
+  "title": "Single sign-on is available to every organization",
+  "summary": "Configure SAML 2.0 or OpenID Connect single sign-on, verify your email domains, and require members to sign in through your identity provider.",
+  "body_markdown": "Your organization can now set up single sign-on. Members sign in through your own identity provider instead of keeping a separate Bird password, and you decide whether that is optional or required.\n\n\nSetup runs from the Single sign-on page on your organization. Verify an email domain by DNS record, configure a SAML 2.0 or OpenID Connect connection, run a test sign-in against your provider, and activate it. A connection can grant new members a default role on their first sign-in, so someone arriving from your directory lands with the access you intended rather than none.\n\n\nTurning on the requirement takes effect immediately, on every request. A member whose current session did not come through your identity provider signs in again through it, so plan the change around your team's day. Organization Owners keep access with their Bird password, which is what stops a misconfigured connection locking everyone out.\n\n\nCredential rotation, suspend and resume, and deletion are all in the surface, and every one of those actions is recorded in your audit log.\n\n\nThe field names differ in each provider, and each has one setting that refuses every sign-in when it is wrong, so start from the guide for yours:\n\n\n- [Set up SSO with Okta](https://bird.com/docs/knowledge-base/account-security/sso-okta)\n- [Set up SSO with Google Workspace](https://bird.com/docs/knowledge-base/account-security/sso-google-workspace)\n- [Set up SSO with Microsoft Entra ID](https://bird.com/docs/knowledge-base/account-security/sso-microsoft-entra-id)\n\n\n[SSO and provisioning](https://bird.com/docs/knowledge-base/account-security/sso) covers the parts that are the same whichever provider you use.",
+  "published_at": "2026-09-18T00:00:00+00:00",
+  "first_seen_at": "2026-09-20T04:35:24.606818+00:00",
+  "content_hash": "sha256:bb5e883498d3b5c20645350d5c1fe6b3b364dedf20e4d7cdc9e538b3f7da0b4a"
+}

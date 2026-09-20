@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "44c84088b160a3c592d68b5cf78e7ec1d2df90a042c64396917c1a764e8e5b25",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/preferences-api-now-public",
+  "canonical_url": "https://bird.com/changelog/preferences-api-now-public",
+  "title": "Record messaging preferences over the API",
+  "summary": "Read and record cross-channel consent grants and opt-outs over the API, the bird CLI, MCP, and all four SDKs, with webhook events for every applied change.",
+  "body_markdown": "The messaging preference store is now a public API. Preferences are stated consent grants and opt-outs, keyed by channel and handle (an email address or phone number), and they already decide delivery for every send: an opt-out blocks marketing traffic, and one recorded for all messages blocks transactional traffic too.\n\n\n## What's new\n\n\n- ` GET` /` POST /v1/preferences` and` GET` /` DELETE /v1/preferences/{preference_id}` are available to API keys carrying the new` preferences` scope. Recording a grant with` consented_at` evidence is also the documented way to resume mailing someone after an unsubscribe.\n- The` bird preferences` CLI group and matching MCP tools cover the same operations, and all four SDKs gain a` preferences` resource with typed results.\n- Four webhook event types are now public:` preference.granted` ,` preference.revoked` ,` preference.deleted` , and` whatsapp_suppression.created` . Each fires only when a statement actually changes a record.\n\n\nStatements are ordered by when they were made rather than when they arrive, so an out-of-order write answers` applied: false` with the surviving statement instead of applying. A statement the recipient made themselves, such as an unsubscribe or a stop keyword, cannot be deleted through the API; it ends only when they opt back in.\n\n\nRead more in the[webhooks guide](https://bird.com/docs/guides/webhooks#preference-events) and the[API reference](https://bird.com/docs/api/reference/create-preference) .",
+  "published_at": "2026-08-26T00:00:00+00:00",
+  "first_seen_at": "2026-09-20T04:35:24.606818+00:00",
+  "content_hash": "sha256:76f315e280b0ec566473a79c5f850e8507d54762e6e61420b7808cdc5bf7fc27"
+}

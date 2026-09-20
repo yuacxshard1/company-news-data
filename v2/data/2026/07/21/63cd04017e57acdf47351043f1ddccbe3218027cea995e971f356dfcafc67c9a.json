@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "63cd04017e57acdf47351043f1ddccbe3218027cea995e971f356dfcafc67c9a",
+  "company_key": "yc-fintoc",
+  "company_name": "Fintoc",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.fintoc.com/cl/blog/prueba-la-api-de-fintoc-con-tus-propios-datos-directo-desde-los-docs",
+  "canonical_url": "https://www.fintoc.com/cl/blog/prueba-la-api-de-fintoc-con-tus-propios-datos-directo-desde-los-docs",
+  "title": "Prueba la API de Fintoc con tus propios datos, directo desde los docs",
+  "summary": "Haz login en los docs de Fintoc y prueba la API con tus propios datos, sin copiar API keys ni cambiar de pestaña.",
+  "body_markdown": "## El problema que resolvemos\n\n\nHasta ahora, probar la API de Fintoc requería un flujo manual: copiar tu API key desde el dashboard, pegarla en los docs o en tu herramienta favorita, y luego ir y venir entre pestañas para validar los resultados. Esto generaba fricción, especialmente para equipos que están evaluando la plataforma o integrándose.\n\n\n## Qué cambia\n\n\nAhora, al visitar la documentación de Fintoc, verás una opción para iniciar sesión con tu cuenta del dashboard. Una vez autenticado:\n\n\n- **Tus API keys se cargan automáticamente** en los ejemplos de la documentación. No más copiar y pegar.\n- **Puedes ejecutar llamadas a la API con tus propios recursos** , probando endpoints con datos reales de tu cuenta.\n- **Los resultados de tus pruebas se reflejan en el dashboard de Fintoc** , manteniendo todo sincronizado.\n- **Tu historial de pruebas queda disponible** directamente en la documentación, permitiéndote retomar donde dejaste.\n\n\n## Para quién es\n\n\n- **Desarrolladores** que prueban endpoints durante la integración.\n- **Equipos en evaluación** que quieren ver la API funcionando con sus propios datos.\n\n\n## Pruébalo ahora\n\n\nVisita[la documentación de Fintoc](https://docs.fintoc.com/docs/welcome) , haz login y empieza a probar. Si aún no tienes cuenta, puedes crearla desde ahí.\n\n\n*Esta funcionalidad es completamente opcional. Los docs siguen funcionando exactamente igual sin autenticarse.*",
+  "published_at": null,
+  "first_seen_at": "2026-07-21T20:01:59.954075+00:00",
+  "content_hash": "sha256:bd71699e120ded8861623b883d8c8b66a53c6f3229e96f8a06634b6118a3e7f4"
+}

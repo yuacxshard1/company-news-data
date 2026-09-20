@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3b99d7286b8ba13d2e7687b8f3f22315928d09e3fc0510124760aae23cf646b5",
+  "company_key": "yc-unsloth-ai",
+  "company_name": "Unsloth AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://unslothai.substack.com/p/unsloth-google-gemma-3n-and-tts",
+  "canonical_url": "https://unslothai.substack.com/p/unsloth-google-gemma-3n-and-tts",
+  "title": "Unsloth - Google Gemma 3n & TTS",
+  "summary": "Google's new Gemma 3n model and Text-to-speech support",
+  "body_markdown": "# Unsloth - Google Gemma 3n & TTS\n\n\n### Google's new Gemma 3n model and Text-to-speech support\n\n\n[Unsloth AI](https://substack.com/@unsloth)\n\n\nJul 01, 2025\n\n\n---\n\n\nHappy July! 🦥 We’re excited to introduce lots of new updates for Unsloth:\n\n\n### ✨ Gemma 3n\n\n\nRun and fine-tune Google’s new Gemma 3n models. Gemma 3n supports text, image, video, and audio with 32K context. We’ve uploaded Dynamic quants, GGUFs, and released fine-tuning notebooks.\n\n\n[Gemma 3n Blog](https://docs.unsloth.ai/basics/gemma-3n-how-to-run-and-fine-tune)\n\n\n### 🦥 Unsloth Updates\n\n\n-\n\n\nWe’ve released a new GitHub repo featuring\n\n\n[100+ Unsloth notebooks](https://github.com/unslothai/notebooks)\n\n\n-\n\n\nQwen3\n\n\n[Advanced GRPO notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb) with our new proximity scoring reward function and priming stage to skip GRPO format learning\n\n\n-\n\n\nUnsloth now supports the latest vLLM, TRL, and Transformers.\n\n\n-\n\n\nNew\n\n\n[Reinforcement Learning (RL)](https://docs.unsloth.ai/basics/reinforcement-learning-guide) and\n\n\n[LoRA hyperparameter](https://docs.unsloth.ai/get-started/fine-tuning-guide/lora-hyperparameters-guide) guide\n\n\n### 🔊 Text-to-Speech (TTS)\n\n\nUnsloth supports TTS and Speech-to-text (STT) models including Sesame-CSM, Orpheus, OpenAI’s Whisper. We also made extensive notebooks for TTS and a Guide.\n\n\n[TTS Guide](https://docs.unsloth.ai/basics/text-to-speech-tts-fine-tuning)\n\n\n### 🐳 DeepSeek-R1-0528\n\n\nDeepSeek’s R1 update is here. Fine-tune DeepSeek-R1-0528-Qwen3 with GRPO. Our notebook features a new reward function which increases multilingual response rates by 40%.\n\n\nOur Dynamic 1-bit GGUFs shrink the full 715GB model to 162GB (-80% size).\n\n\n[R1-0528 Blog](https://docs.unsloth.ai/basics/deepseek-r1-0528-how-to-run-locally)\n\n\n---",
+  "published_at": "2025-07-01T16:15:18+00:00",
+  "first_seen_at": "2026-09-20T04:38:40.850424+00:00",
+  "content_hash": "sha256:8a94cf1a1c23745d3f6541be431d7e5b78d75244a84d53937cb6bb1f2854dbd3"
+}

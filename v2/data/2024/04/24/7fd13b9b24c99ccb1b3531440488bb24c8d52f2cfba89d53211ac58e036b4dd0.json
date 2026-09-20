@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7fd13b9b24c99ccb1b3531440488bb24c8d52f2cfba89d53211ac58e036b4dd0",
+  "company_key": "yc-unsloth-ai",
+  "company_name": "Unsloth AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://unslothai.substack.com/p/llama-3-is-now-on-unsloth",
+  "canonical_url": "https://unslothai.substack.com/p/llama-3-is-now-on-unsloth",
+  "title": "Llama 3 is now on Unsloth 🦙",
+  "summary": "Llama 3 is now available to train! Meta's new models are the most capable open LLMs to date. Unsloth makes Llama 3 training 2x faster with 68% less memory. Read our Blog https://unsloth.ai/blog/llama3",
+  "body_markdown": "# Llama 3 is now on Unsloth 🦙\n\n\n### Llama 3 is now available to train! Read our Blog: https://unsloth.ai/blog/llama3\n\n\nApr 24, 2024\n\n\nMeta's new Llama 3 models are the most capable open LLMs to date - outperforming many open models on industry standard benchmarks.\n\n\nUnsloth makes\n\n\n**Llama 3 (8B)** model training 2x faster and use 63% less memory than Flash Attention 2 + Hugging Face.\n\n\n**Llama 3 (70B)** is 1.8x faster and uses 68% less VRAM.\n\n\n**To train your own Llama 3 model for free,** we uploaded a Google Colab notebook to finetune Llama 3 (8B):\n\n\n[Notebook](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp?usp=sharing) .\n\n\nWe also uploaded pre-quantized 4bit models for 4x faster downloading to our\n\n\n[Hugging Face page](https://huggingface.co/unsloth) . On one A100 80GB GPU, Llama 3 (70B) with Unsloth can now fit 48K total tokens (8192 * bsz of 5) vs 7K tokens without Unsloth. That's 6x longer context lengths!\n\n\nP.S. Don't forget to\n\n\n[⭐Star us](https://github.com/unslothai/unsloth) on GitHub and join our\n\n\n[Discord server](https://discord.gg/u54VK8m8tk) ❤️",
+  "published_at": "2024-04-24T14:20:28+00:00",
+  "first_seen_at": "2026-09-20T04:38:40.850424+00:00",
+  "content_hash": "sha256:44be0696e38758beb4aab97c892de37aabe5814f5d2c83d3f5f5eba31a3f8c92"
+}
