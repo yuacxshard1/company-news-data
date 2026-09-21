@@ -9,6 +9,16 @@
       "source_kind": "rss",
       "summary": "A fourth app access mode sits between members-only and public. Opening an app set to Guests requires signing in through your identity provider, but not a Windmill account and not workspace membership. Runnables execute on behalf of the publisher exactly as they do for a member, and the visitor is confined to that one app. Because a guest leaves no user row behind they take no seat. The first 100 distinct guest emails over a trailing 30 days are free on any instance, and past that an instance holding an Enterprise Edition license meters them at four guests to one seat while an instance without one admits no new guest email until the count drops back under 100. Off by default, behind three independent switches.",
       "title": "Guest access for apps"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "8c31972bfbd741b00f9a6c5caad970c05c420694dbd0d55e77169550cc685f45",
+      "first_seen_at": "2026-09-21T10:54:05.121443+00:00",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Git sync's managed features were available only to GitHub App repositories. Hand a GitLab project access token to Windmill with the GitLab button in the git_repository resource form, and the repository gets instant pull over a webhook, merge requests opened on deploy, a diff preview note on the merge request, and automatic token renewal. The token is stored encrypted on the workspace, keyed by the repository it was issued for, and workspace forks read that one copy. A token written into a repository URL is unchanged, still a plain git remote that syncs on deploy and by polling only.",
+      "title": "GitLab repositories reach parity for git sync"
     }
   ],
   "company_key": "yc-windmill",

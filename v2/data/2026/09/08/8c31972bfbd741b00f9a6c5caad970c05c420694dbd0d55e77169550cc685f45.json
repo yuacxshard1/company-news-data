@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8c31972bfbd741b00f9a6c5caad970c05c420694dbd0d55e77169550cc685f45",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/gitlab-git-sync-parity",
+  "canonical_url": "https://www.windmill.dev/changelog/gitlab-git-sync-parity",
+  "title": "GitLab repositories reach parity for git sync",
+  "summary": "Git sync's managed features were available only to GitHub App repositories. Hand a GitLab project access token to Windmill with the GitLab button in the git_repository resource form, and the repository gets instant pull over a webhook, merge requests opened on deploy, a diff preview note on the merge request, and automatic token renewal. The token is stored encrypted on the workspace, keyed by the repository it was issued for, and workspace forks read that one copy. A token written into a repository URL is unchanged, still a plain git remote that syncs on deploy and by polling only.",
+  "body_markdown": "### [GitLab repositories reach parity for git sync](https://www.windmill.dev/changelog/gitlab-git-sync-parity)\n\n\nGit sync\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\n[v1.806.0](https://github.com/windmill-labs/windmill/releases/tag/v1.806.0)\n\n\n[Docs](https://www.windmill.dev/docs/integrations/git_repository#gitlab)\n\n\nGit sync's managed features were available only to GitHub App repositories. Hand a GitLab project access token to Windmill with the GitLab button in the git_repository resource form, and the repository gets instant pull over a webhook, merge requests opened on deploy, a diff preview note on the merge request, and automatic token renewal. The token is stored encrypted on the workspace, keyed by the repository it was issued for, and workspace forks read that one copy. A token written into a repository URL is unchanged, still a plain git remote that syncs on deploy and by polling only.\n\n\n#### New features\n\n\n- GitLab button in the git_repository resource form: paste the instance URL and a project access token, pick the project, and Windmill stores the token and fills in a credential-free remote URL\n- GitLab repositories sync instantly through a project hook Windmill registers itself, with polling as a fallback\n- Merge requests opened on deploy for promotion wm_deploy/** and fork wm-fork/** branches, from the same per-repository toggles as GitHub\n- A merge request targeting the tracked branch gets a Windmill note with the sync status and what merging would deploy, updated in place on each push\n- Windmill renews the token within three weeks of expiry, and a Replace token control on the resource swaps it by hand\n- One credential per repository: workspace forks read the parent copy, so a renewal reaches the whole fork chain at once",
+  "published_at": "2026-09-08T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T10:54:05.121443+00:00",
+  "content_hash": "sha256:1c459cd0a0151a623b669d6089204f872526fb62ddb756b73546448ffd14a332"
+}
