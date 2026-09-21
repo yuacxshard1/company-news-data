@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0f67b10e87d1159dbdae1ec51aaca0a1913ed630f6b9b32c43045bf2f9c19979",
+  "company_key": "yc-stacksync",
+  "company_name": "Stacksync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.stacksync.com/blog/grocery-edi-for-snack-brands-keep-case-counts-and-advance-ship-notices-consistent",
+  "canonical_url": "https://www.stacksync.com/blog/grocery-edi-for-snack-brands-keep-case-counts-and-advance-ship-notices-consistent",
+  "title": "Grocery EDI for Snack Brands: Keep Case Counts and Advance Ship Notices Consistent",
+  "summary": "Build each grocery advance ship notice in Orderful from the NetSuite shipment record so a 96-case first truck is never reported as the full 120-case order.",
+  "body_markdown": "## The operating decision\n\n\nFor snack-brand grocery EDI, carry the retailer item and case definition from the purchase order through the actual shipment. Build the advance ship notice from warehouse evidence, including the partner-required carton or pallet relationships, rather than copying ordered quantities. Validate item, unit, location, and partial-shipment rules before transmission.\n\n\nExplore the complete[packaged food and snacks integration and automation hub](https://www.stacksync.com/industry/cpg/packaged-food-snacks) for the systems and processes around this guide.",
+  "published_at": "2026-09-21T15:30:00+00:00",
+  "first_seen_at": "2026-09-21T20:08:49.672737+00:00",
+  "content_hash": "sha256:0a9e6233e46ce21110a9d5384f64fc670b0c4ad1e4e6c81d4afec0e03b869071"
+}

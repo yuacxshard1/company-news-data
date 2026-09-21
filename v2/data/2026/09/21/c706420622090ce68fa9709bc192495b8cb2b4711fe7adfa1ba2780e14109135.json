@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c706420622090ce68fa9709bc192495b8cb2b4711fe7adfa1ba2780e14109135",
+  "company_key": "yc-stacksync",
+  "company_name": "Stacksync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.stacksync.com/blog/two-way-sync-for-cpg-master-data-netsuite-postgres-and-field-ownership",
+  "canonical_url": "https://www.stacksync.com/blog/two-way-sync-for-cpg-master-data-netsuite-postgres-and-field-ownership",
+  "title": "Two-Way Sync for CPG Master Data: NetSuite, Postgres, and Field Ownership",
+  "summary": "NetSuite items and customers mirror into Postgres, where SKU aliases and pack conversions live as versioned rows and only approved corrections write back.",
+  "body_markdown": "## The operating decision\n\n\nUse a Postgres operational model to make CPG master-data relationships explicit, with NetSuite remaining authoritative for the ERP records it owns. Two-way sync is useful when approved changes must travel back, but mirrored ERP data and proposed corrections should have different permissions. Model channel SKUs, pack conversions, and account crosswalks as governed relationships.\n\n\nExplore the complete[consumer packaged goods integration and automation hub](https://www.stacksync.com/industry/cpg) for the systems and processes around this guide.",
+  "published_at": "2026-09-21T15:30:00+00:00",
+  "first_seen_at": "2026-09-21T20:08:49.672737+00:00",
+  "content_hash": "sha256:4c5dfadf1d74bbccb1fc2e5f2bc70f158d9e13ef59b3b54e9e53a15c4c55d43c"
+}

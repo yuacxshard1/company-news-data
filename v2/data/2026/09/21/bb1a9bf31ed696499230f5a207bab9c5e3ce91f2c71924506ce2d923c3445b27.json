@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bb1a9bf31ed696499230f5a207bab9c5e3ce91f2c71924506ce2d923c3445b27",
+  "company_key": "badger-meter-inc-common-stock",
+  "company_name": "Badger Meter Inc.",
+  "category_key": "industrials-cb8757a58a3ca860",
+  "category_name": "Industrials",
+  "source_kind": "html",
+  "url": "https://www.badgermeter.com/blog/cooling-media-quality/",
+  "canonical_url": "https://www.badgermeter.com/blog/cooling-media-quality/",
+  "title": "Liquid Cooling Media Quality Monitoring for Data Centers",
+  "summary": "Liquid cooling improves data center efficiency but introduces new water quality challenges. Continuous monitoring helps detect contamination, corrosion and fouling before they impact performance.",
+  "body_markdown": "## Where Monitoring Matters Most\n\n\nThe location of monitoring can be just as important as the parameters being measured. In a liquid-cooled data center, operators can monitor different points throughout the cooling system, but some locations provide a more direct view of conditions affecting critical IT equipment.\n\n\n### *Where should cooling media quality monitoring be installed?*\n\n\nCooling media quality monitoring can be valuable in several areas of a liquid-cooled data center, including the main chilled water system and the secondary loop serving IT equipment. However, the CDU is one of the most practical and impactful locations for continuous monitoring because it connects the main chilled water system with the IT racks.\n\n\nThe primary loop typically contains a larger volume of water, which can make quality changes slower to detect and harder to monitor in detail across all points. The secondary loop is smaller and closer to the servers, so deterioration in cooling media quality can have a more immediate impact on performance.\n\n\nBy measuring the CDU, operators can gain a representative view of coolant condition as it is delivered to IT equipment. This supports faster issue detection and more effective management of the liquid cooling environment.\n\n\n### *Should cooling media be monitored in the primary or secondary cooling loop?*\n\n\nBoth loops can provide useful information, but monitoring the secondary loop can provide a more direct view of the cooling media serving IT equipment. The primary loop supports broader building-level cooling, while the secondary loop circulates fluid closer to cold plates and other critical components. Monitoring at or near the CDU can help identify changes in the loop most directly connected to IT equipment.\n\n\nWith the CDU established as a critical monitoring point, selecting the right instrumentation becomes key. Inline, continuous water quality monitoring—such as s::can sensors or ATi Q-Series Monitors—enable reliable measurement of conductivity, pH, turbidity and dissolved oxygen directly within the cooling loop.\n\n\n**Key Takeaway:** As data center cooling systems grow more compact, liquid-based and mission-critical, the condition of the cooling fluid becomes just as important as thermal performance. Continuous cooling media quality monitoring does not replace good water treatment practices, but it gives operators better visibility into system health and another tool for protecting critical data center infrastructure.",
+  "published_at": "2026-09-21T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T19:30:00.922969+00:00",
+  "content_hash": "sha256:76eb3b0288db6f74761db573dc371448eab67bb676e1db0ee298be27ee51028f"
+}

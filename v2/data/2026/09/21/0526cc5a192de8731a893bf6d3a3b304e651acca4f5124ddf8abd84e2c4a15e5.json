@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0526cc5a192de8731a893bf6d3a3b304e651acca4f5124ddf8abd84e2c4a15e5",
+  "company_key": "yc-stacksync",
+  "company_name": "Stacksync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.stacksync.com/blog/case-splits-and-missing-receipts-exception-handling-for-snack-brand-order-agents",
+  "canonical_url": "https://www.stacksync.com/blog/case-splits-and-missing-receipts-exception-handling-for-snack-brand-order-agents",
+  "title": "Case Splits and Missing Receipts: Exception Handling for Snack-Brand Order Agents",
+  "summary": "A snack-brand Genie pauses on an unapproved repack or a missing receipt, keeps its partial packet in Postgres, and resumes only on same-shipment evidence.",
+  "body_markdown": "## The operating decision\n\n\nDesign the snack-brand agent’s stop conditions around ambiguous pack conversions, split deliveries, and missing receipts. The exception path should preserve a partially complete investigation and request the exact missing fact. A Genie must not fill a document gap with a plausible narrative or infer that a case split was approved because the totals appear close.\n\n\nExplore the complete[packaged food and snacks integration and automation hub](https://www.stacksync.com/industry/cpg/packaged-food-snacks) for the systems and processes around this guide.",
+  "published_at": "2026-09-21T15:30:00+00:00",
+  "first_seen_at": "2026-09-21T20:08:49.672737+00:00",
+  "content_hash": "sha256:26ef86d56122ec5a28eceebcb3102532f3edc0ed079b80a7870fc37515619b58"
+}

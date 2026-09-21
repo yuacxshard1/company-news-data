@@ -3,12 +3,32 @@
     {
       "company_key": "yc-windmill",
       "company_name": "Windmill",
+      "doc_id": "0e1236f462c7b1b688cc1b22916c021271e4e8ccdaac306f346de6d7bc828307",
+      "first_seen_at": "2026-09-21T16:44:27.359817+00:00",
+      "published_at": "2026-09-14T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "HTTP routes can restrict which origins may call them from a browser. The allowlist is enforced on both the OPTIONS preflight and the response, so a disallowed origin cannot read the result, and a request that needs a preflight never reaches the runnable. Superadmins can set an instance-wide default on Enterprise Edition.",
+      "title": "Allowed origins for HTTP routes"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
       "doc_id": "16b1e196a1f35f20db28f0f850d426fd4d3453cbf822c4f053bc7afbc79baaad",
       "first_seen_at": "2026-09-08T12:53:25.264784+00:00",
       "published_at": "2026-09-05T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "A fourth app access mode sits between members-only and public. Opening an app set to Guests requires signing in through your identity provider, but not a Windmill account and not workspace membership. Runnables execute on behalf of the publisher exactly as they do for a member, and the visitor is confined to that one app. Because a guest leaves no user row behind they take no seat. The first 100 distinct guest emails over a trailing 30 days are free on any instance, and past that an instance holding an Enterprise Edition license meters them at four guests to one seat while an instance without one admits no new guest email until the count drops back under 100. Off by default, behind three independent switches.",
       "title": "Guest access for apps"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "498db127287ee3e059cb50fce045d3eadfe0a796c0c6d645d3896760740666c8",
+      "first_seen_at": "2026-09-21T16:44:27.359817+00:00",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI agent steps have a new enabled_tools input that picks which of the agent's tools a run can call, as a static selection or an expression evaluated per run. Leaving it unset keeps every tool, an empty list gives the agent none, and flows reusing a saved agent can each enable a different set.",
+      "title": "Enabled tools for AI agent steps"
     },
     {
       "company_key": "yc-windmill",

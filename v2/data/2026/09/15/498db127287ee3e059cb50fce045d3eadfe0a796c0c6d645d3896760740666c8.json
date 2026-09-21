@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "498db127287ee3e059cb50fce045d3eadfe0a796c0c6d645d3896760740666c8",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-agent-enabled-tools",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-agent-enabled-tools",
+  "title": "Enabled tools for AI agent steps",
+  "summary": "AI agent steps have a new enabled_tools input that picks which of the agent's tools a run can call, as a static selection or an expression evaluated per run. Leaving it unset keeps every tool, an empty list gives the agent none, and flows reusing a saved agent can each enable a different set.",
+  "body_markdown": "### [Enabled tools for AI agent steps](https://www.windmill.dev/changelog/ai-agent-enabled-tools)\n\n\nAI\n\n\nFlow editor\n\n\n[v1.812.0](https://github.com/windmill-labs/windmill/releases/tag/v1.812.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_agents#enabled-tools)\n\n\nAI agent steps have a new enabled_tools input that picks which of the agent's tools a run can call, as a static selection or an expression evaluated per run. Leaving it unset keeps every tool, an empty list gives the agent none, and flows reusing a saved agent can each enable a different set.\n\n\n#### New features\n\n\n- The enabled_tools step input is a multiselect of the step tools, or a JavaScript expression that returns a list of tool names on each run.\n- Unset keeps every tool, an empty list runs the agent with no tools, and a list keeps only the tools it names.\n- Script, flow and nested agent tools are named by their tool name, MCP servers by their resource path, and web search by the reserved name __wm_web_search.\n- A disabled MCP server is never contacted, and names that match no tool are ignored and counted in the job logs.",
+  "published_at": "2026-09-15T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T16:44:27.359817+00:00",
+  "content_hash": "sha256:936567d6f9988cce2e029414e8e92e3529add3887404709129fdd67c9aec1687"
+}

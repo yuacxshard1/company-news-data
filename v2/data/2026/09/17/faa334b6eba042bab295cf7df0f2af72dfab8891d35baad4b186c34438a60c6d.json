@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "faa334b6eba042bab295cf7df0f2af72dfab8891d35baad4b186c34438a60c6d",
+  "company_key": "yc-corgea",
+  "company_name": "Corgea",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://corgea.com/blog/changelog-september-17-2026",
+  "canonical_url": "https://corgea.com/blog/changelog-september-17-2026",
+  "title": "Changelog - September 17, 2026",
+  "summary": "This week's Corgea changelog makes the Agent easier to reach, adds a daily digest for agent learning recommendations, and expands Advanced Vulnerability Search.",
+  "body_markdown": "This week’s roundup covers the September 10 public Corgea release. The update puts Corgea Agent in the main navigation, gives administrators a daily view of pending learning recommendations, and adds more context and controls to Advanced Vulnerability Search.\n\n\n## Top 3 features\n\n\n### 1. Corgea Agent is now easier to find\n\n\nCorgea Agent now has its own top-level item in the sidebar. Feedback History has moved into the agent settings, and command palette results make it clearer where to open the agent and manage its configuration.\n\n\nThe agent helps teams inspect findings, analyze scan results, and query vulnerability data from chat or pull request comments. It works with GitHub, GitLab, Azure DevOps, and Bitbucket when the relevant integration and webhooks are configured.\n\n\n### 2. Daily digests for agent learning recommendations\n\n\nAdministrators now receive a daily email digest for new agent learning recommendations. The digest summarizes the recommendations and links directly to the pending items, so admins can review them without tracking individual notifications throughout the day.\n\n\nThe update gives teams a regular review point for recommendations while keeping agent settings and feedback history in the same place.\n\n\n### 3. More context and controls in Advanced Vulnerability Search\n\n\nAdvanced Vulnerability Search now shows inline details for SCA and container findings. It also adds assignment and status controls for IaC findings, plus clearer filters and layouts on smaller screens.\n\n\nThe search already lets teams investigate findings across scan runs with filters for category, urgency, status, scan type, project, branch, policies, and metadata. Results open in a side panel so reviewers can inspect evidence, remediation guidance, and scan details without losing their active filters.\n\n\n## More features and improvements\n\n\n- Improved form readability in light and dark themes.\n- Made reporting charts and empty states more consistent.\n- Restored Create PR for CLI and IDE scans of connected repositories.\n- Added clearer guidance when a scanned branch needs to be pushed before Corgea can create a pull request.\n- Fixed GitHub team membership updates when webhook events omit the team slug.\n- Updated Harness repository discovery to keep accessible repositories when other projects are unavailable or do not have the Code module.\n- Sped up SBOM dependency reprocessing for large dependency trees.\n- Added separate scan-capacity tuning for pull request and full scans.",
+  "published_at": "2026-09-17T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T16:04:30.442418+00:00",
+  "content_hash": "sha256:0bdc81af050ba3e6a68cfeea6e9620fe2cb44ea231e02832205df4ace222811e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c26cbd212d1a8eb70f3ff4341b5eb22b594c3d853f79f7ff47ed86f672134347",
+  "company_key": "yc-stacksync",
+  "company_name": "Stacksync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.stacksync.com/blog/netsuite-postgres-sync-for-food-brands-reconcile-co-packer-receipts-and-finished-goods-records",
+  "canonical_url": "https://www.stacksync.com/blog/netsuite-postgres-sync-for-food-brands-reconcile-co-packer-receipts-and-finished-goods-records",
+  "title": "NetSuite–Postgres Sync for Food Brands: Reconcile Co-Packer Receipts and Finished-Goods Records",
+  "summary": "Mirror NetSuite item receipts into Postgres next to co-packer notices so supplier, received, accepted, and held counts stay separate until a reviewed fix.",
+  "body_markdown": "## The operating decision\n\n\nGive food operations a shared receipt-reconciliation view without letting supplier notices become accepted inventory automatically. Mirror the relevant NetSuite receipt evidence into Postgres and keep co-packer statements, expected receipts, and proposed corrections separately identified. An approved discrepancy resolution can then follow a controlled ERP write path.\n\n\nExplore the complete[packaged food and snacks integration and automation hub](https://www.stacksync.com/industry/cpg/packaged-food-snacks) for the systems and processes around this guide.",
+  "published_at": "2026-09-21T15:30:00+00:00",
+  "first_seen_at": "2026-09-21T20:08:49.672737+00:00",
+  "content_hash": "sha256:5980e9849b6e4c26a050c94ed570c4dd90b72f15bbadb6075bdf6ae135b98bcf"
+}

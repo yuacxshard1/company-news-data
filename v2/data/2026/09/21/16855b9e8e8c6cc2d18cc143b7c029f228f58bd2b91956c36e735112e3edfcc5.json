@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "16855b9e8e8c6cc2d18cc143b7c029f228f58bd2b91956c36e735112e3edfcc5",
+  "company_key": "yc-stacksync",
+  "company_name": "Stacksync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.stacksync.com/blog/amazon-netsuite-sync-for-supplement-brands-match-seller-skus-asins-and-order-lines",
+  "canonical_url": "https://www.stacksync.com/blog/amazon-netsuite-sync-for-supplement-brands-match-seller-skus-asins-and-order-lines",
+  "title": "Amazon–NetSuite Sync for Supplement Brands: Match Seller SKUs, ASINs, and Order Lines",
+  "summary": "Import Amazon Seller Central order lines into NetSuite with seller SKU, ASIN, marketplace and offer kept separate so pack quantities reconcile.",
+  "body_markdown": "## The operating decision\n\n\nKeep seller SKU, ASIN, marketplace, and order-line identity separate when importing supplement sales into NetSuite. An ASIN is useful catalog context, but it should not replace the seller’s scoped offer and pack mapping. The documented Amazon sync access is read-only, so this design concentrates on accurate downstream records and reconciliation.\n\n\nExplore the complete[nutrition and supplements integration and automation hub](https://www.stacksync.com/industry/cpg/nutrition-supplements) for the systems and processes around this guide.",
+  "published_at": "2026-09-21T15:30:00+00:00",
+  "first_seen_at": "2026-09-21T20:08:49.672737+00:00",
+  "content_hash": "sha256:cb3a68d7bdf9d76da5827e6abe6967aaec22628f7f430beda94ea09f6fa19c98"
+}
