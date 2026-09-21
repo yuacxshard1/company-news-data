@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8cf3a3e555c4400539cbc7cb854fb7e7b06c4464cece71bb4644c15f53e4c669",
+  "company_key": "yc-stacksync",
+  "company_name": "Stacksync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.stacksync.com/blog/hubspot-supabase-for-construction-service-portals-customers-sites-and-request-status",
+  "canonical_url": "https://www.stacksync.com/blog/hubspot-supabase-for-construction-service-portals-customers-sites-and-request-status",
+  "title": "HubSpot–Supabase for Construction Service Portals: Customers, Sites, and Request Status",
+  "summary": "Build construction customer portals around stable company, site and request records without confusing sync with user authorization.",
+  "body_markdown": "## The operating decision\n\n\nHubSpot–Supabase two-way sync can keep CRM context and a construction service portal aligned. Model customers, physical sites and service requests separately, then decide which fields the portal may propose and which HubSpot fields it may display. The portal also needs its own authorization model: syncing a company record does not grant a logged-in user access to that company's jobs. Apply database grants and row policies for the actual customer-to-site relationships.\n\n\nExplore the complete[construction services and installation integration and automation hub](https://www.stacksync.com/industry/construction) for the systems and processes around this guide.",
+  "published_at": "2026-09-18T12:00:00+00:00",
+  "first_seen_at": "2026-09-21T14:43:45.002002+00:00",
+  "content_hash": "sha256:4de9b7bc108fa4a0eb771c77eac9a1b0b0c4a18654ef6834e1f3c9cc9e8a664b"
+}

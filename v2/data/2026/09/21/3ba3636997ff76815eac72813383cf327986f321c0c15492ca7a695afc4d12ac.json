@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3ba3636997ff76815eac72813383cf327986f321c0c15492ca7a695afc4d12ac",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/duplicate-broadcast-api",
+  "canonical_url": "https://resend.com/changelog/duplicate-broadcast-api",
+  "title": "Duplicate Broadcast API",
+  "summary": "Duplicate an existing broadcast directly from the API.",
+  "body_markdown": "Most new Broadcasts start from one you've already sent. Previously, duplicating a Broadcast was only possible from the Dashboard.\n\n\nToday we're releasing a new API endpoint to[duplicate a broadcast](https://resend.com/docs/api-reference/broadcasts/duplicate-broadcast) .\n\n\n## How it works\n\n\nPass the ID of an existing Broadcast and the API creates a copy:\n\n\n- The copy is named after the original with a` (copy)` suffix, truncated to 70 characters.\n- The segment, topic, sender, subject, reply-to, preview text, and content are copied.\n- The copy starts as a **draft** . Nothing is sent until you review and send it.\n\n\nAny Broadcast can be duplicated, including ones that have already been sent.\n\n\n## Duplicating a Broadcast\n\n\nTo duplicate a Broadcast, use the Broadcast's ID with the duplicate endpoint.\n\n\n```text\nimport     {   Resend   }     from     'resend'  ;\nconst   resend   =     new     Resend  (  're_xxxxxxxxx'  )  ;\nconst     {   data  ,   error   }     =     await   resend  .  broadcasts  .  duplicate  (        '559ac32e-9ef5-46fb-82a1-b76b840c0f7b'  ,     )  ;\n\n\n```\n\n\nThe endpoint returns the ID of the new Broadcast:\n\n\n```text\n{        \"object\"  :     \"broadcast\"  ,        \"id\"  :     \"1f85ae38-f5b9-4c1f-8766-667a53970fea\"     }\n```\n\n\nThe duplicate Broadcast API is part of a larger move to bring the full functionality of the dashboard into the API, CLI, and MCP, so you can build how you want.\n\n\nIf you have any questions, please reach out to us and we'll be happy to help.",
+  "published_at": "2026-09-21T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T14:58:14.053296+00:00",
+  "content_hash": "sha256:fc9b366a3bffa626eb229041c60665f2288464d0d289fbc8ed073454ae4a2edb"
+}

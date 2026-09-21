@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "37110f026d67e4e3c5a95868e1c1a072612a1b50a976a7a4d936cb3b4492bd2c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-on-premise-ipaas-deployment-actually-means",
+  "canonical_url": "https://www.activepieces.com/blog/what-on-premise-ipaas-deployment-actually-means",
+  "title": "What On-Premise iPaaS Deployment Actually Means",
+  "summary": "On-premise iPaaS deployments shift infrastructure control and maintenance responsibilities to your internal IT teams. Evaluate these security trade-offs.",
+  "body_markdown": "## Operational trade-offs of managing integration layers\n\n\n### Manual scaling and patching for self-hosted platforms\n\n\nSelf-hosting an integration platform shifts the responsibility for version parity and resource allocation from the vendor to your internal DevOps team. An on-premise installation requires a staged rollout across dev, test, and production environments.\n\n\nWhile some vendors gate security features behind their cloud, Activepieces provides the same enterprise-grade controls for air-gapped builds as it does for its SOC 2 Type II managed cloud.\n\n\nThe self-hosted documentation confirms that SSO, SCIM, custom RBAC, and audit logs are available for local deployment, which is why regulated entities like MoneyGram and FundingSocieties run this edition in production today.\n\n\nTo scale manually, your infrastructure team must provision virtual machines in anticipation of peak loads. Failing to do so risks platform latency that stalls your automated business processes.\n\n\n### Staffing costs for self-hosted middleware administration\n\n\nThe administrative overhead of self-hosted middleware isn't a fixed cost but a linear tax that scales with the complexity of your data ecosystem.\n\n\nEnterprise Size FTE Requirement Primary Focus\n\n\nSmall 0.25 FTE Basic server hygiene and updates.\n\n\nMid-Market 0.75 FTE Monitoring and troubleshooting.\n\n\nLarge 1.5 FTE 24/7 coverage and connector maintenance.\n\n\n1.5 FTEs are required by large enterprises, according to the[Fivetran Enterprise Data Infrastructure Benchmark](https://www.fivetran.com/blog/the-enterprise-data-infrastructure-benchmark-report-2026) .\n\n\nThis necessitates a primary and a backup administrator to ensure 24/7 coverage and prevent a single point of failure in your integration stack.\n\n\n### Finding talent for self-hosted middleware management\n\n\nMaintaining an on-premise integration layer requires a specific intersection of networking expertise and application-level logic. This combination is increasingly rare in a cloud-first labor market.\n\n\nWithout niche expertise in both the underlying Linux kernel and the specific integration runtime, the security of a private cloud becomes an operational liability. The departure of a single architect can leave your entire automation strategy unsupported.\n\n\n> Without niche expertise in both the underlying Linux kernel and the specific integration runtime, the security of a private cloud becomes an operational liability.",
+  "published_at": "2026-09-21T09:54:48+00:00",
+  "first_seen_at": "2026-09-21T12:17:37.965573+00:00",
+  "content_hash": "sha256:a40f4b26ed58031a08b02394f4ec62a954dca00d041276be4328d5387610bf6f"
+}
