@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8dd3a17cf5ef922e6f72a71b676950b9e57cc2f3fe16b96e7b81d0f6fae75737",
+  "company_key": "yc-sprites",
+  "company_name": "Sprites",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sprites.ai/blog/facebook-ad-sizes",
+  "canonical_url": "https://www.sprites.ai/blog/facebook-ad-sizes",
+  "title": "Facebook Ad Sizes 2026: Specs + What Really Runs | Sprites",
+  "summary": "Every Facebook and Instagram ad size for 2026 — feed, stories, reels, carousel — plus which shapes advertisers actually ship, with real examples of each.",
+  "body_markdown": "## The short answer\n\n\n- **Produce 1080 × 1350 (4:5) first.** Portrait is roughly two thirds of what advertisers ship.\n- **Add 1080 × 1920 (9:16)** for Stories and Reels — keep text out of the top and bottom ~14%.\n- **1080 × 1080 (1:1)** for carousel cards, about a fifth of live creative.\n- **1200 × 628 (1.91:1)** is now a minority shape, mostly right column and in-stream.\n\n\n## The spec table\n\n\nPlacement Ratio Pixels Notes\n\n\nFeed image / video 4:5 or 1:1 1080 × 1350 / 1080 × 1080 4:5 takes the most screen without cropping\n\n\nStories & Reels 9:16 1080 × 1920 Keep text clear of top and bottom ~14%\n\n\nCarousel card 1:1 1080 × 1080 Same ratio on every card in the set\n\n\nRight column 1.91:1 1200 × 628 Desktop only, small surface\n\n\nIn-stream video 16:9 → 1:1 1280 × 720+ Captions essential, sound off by default\n\n\n## What advertisers actually ship\n\n\nSpecs tell you what is allowed. These are live ads at each ratio, so you can see what the shape does in a feed:\n\n\n**9:16** — 338 × 600. Stories and Reels: full screen, text in the middle third. **4:5** — 480 × 600. The feed default: maximum height without a crop. **1:1** — 360 × 360. Square, the carousel and legacy feed shape. **16:9** — 640 × 360. Landscape, now mostly in-stream and right column.\n\n\nSprites' proprietary marketing agent reads the split as roughly **two thirds portrait, a fifth square, an eighth landscape** . If you produce one shape, produce 4:5. If you produce two, add 9:16. Landscape is an accommodation, not a default.\n\n\n## Three sizing mistakes that cost delivery\n\n\n- **One asset for every placement.** A 1:1 stretched into Stories wastes half the screen and reads as an afterthought.\n- **Text in the safe zone.** On 9:16, the profile row and CTA eat the top and bottom — burned-in captions land under the interface.\n- **Upscaled exports.** Meta compresses hard; anything below 1080 on the long edge arrives soft in the feed.\n\n\n## Next\n\n\n- [Carousel ad examples](https://www.sprites.ai/blog/carousel-ad-examples) — the card counts and patterns that keep running.\n- [The free ads library](https://www.sprites.ai/ads-library) — every creative at its native shape with its run dates.",
+  "published_at": "2026-09-20T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T01:09:15.853350+00:00",
+  "content_hash": "sha256:6432586a42af8098fecc2a201a0dc0f8128bd0346565e5abf2cf69b4b84517ac"
+}
