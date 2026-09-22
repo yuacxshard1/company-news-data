@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e647c0519d6c34243dd567b5b5269f935a3c6e30e5832ba6b3df11a7bba07c56",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/grok_4_7",
+  "canonical_url": "https://docs.litellm.ai/blog/grok_4_7",
+  "title": "Day 0 Support: Grok 4.7",
+  "summary": "Day 0 support for Grok 4.7 on LiteLLM, at the same price as Grok 4.6.",
+  "body_markdown": "LiteLLM supports` grok-4.7` on day 0, on` /chat/completions` and` /responses` . It keeps Grok 4.6's prices, limits and capabilities.\n\n\nSpaceXAI, the company formerly called xAI, built 4.7 and reports the model is better at checking its own work and holding long context. Against Grok 4.6, Terminal-Bench 4.0 goes from 20.3% to 38.0% and EEBench from 53.0% to 64.0%.\n\n\n## Pricing​\n\n\nPer 1M tokens: $2.00 input, $0.50 cached, $6.00 output, identical to Grok 4.6. Every rate doubles past 200K input tokens, to $4.00, $1.00 and $12.00, so a long-context request costs twice what the headline suggests.\n\n\n## Usage​\n\n\n- SDK\n- Proxy\n\n\n```text\nfrom   litellm   import   completion       response   =   completion  (         model  =  \"xai/grok-4.7\"  ,         messages  =  [  {  \"role\"  :     \"user\"  ,     \"content\"  :     \"Refactor this migration script.\"  }  ]  ,         reasoning_effort  =  \"xhigh\"  ,      # low | medium | high (default) | xhigh      )         print  (  response  .  choices  [  0  ]  .  message  .  content  )\n```\n\n\n```text\nmodel_list  :         -     model_name  :   grok  -  4.7           litellm_params  :             model  :   xai/grok  -  4.7             api_key  :   os.environ/XAI_API_KEY           -     model_name  :   grok  -  4.7  -  openrouter          litellm_params  :             model  :   openrouter/x  -  ai/grok  -  4.7             api_key  :   os.environ/OPENROUTER_API_KEY\n```\n\n\nPricing landed in[PR #42264](https://github.com/BerriAI/litellm/pull/42264) . Hit **Reload Model Cost Map** in the Admin UI, or` POST /reload/model_cost_map` , to pick it up without a redeploy on` v1.76.0` and above.\n\n\n## Feedback​\n\n\nRunning Grok 4.7 through LiteLLM and hitting something unexpected? Share it on[GitHub discussion #42287](https://github.com/BerriAI/litellm/discussions/42287) .",
+  "published_at": "2026-09-21T10:00:00+00:00",
+  "first_seen_at": "2026-09-22T03:45:31.263538+00:00",
+  "content_hash": "sha256:6da02c54c567c9f4a08e0ba427e7916f17b3e782cfbaf915db75394c8dd52774"
+}

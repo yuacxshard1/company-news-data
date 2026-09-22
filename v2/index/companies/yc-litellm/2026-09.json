@@ -133,6 +133,16 @@
     {
       "company_key": "yc-litellm",
       "company_name": "LiteLLM",
+      "doc_id": "a27da8260de12e4ac2b06fa66a15aed5a211779b0f9133fbb52d4d7f03e1bac7",
+      "first_seen_at": "2026-09-22T03:45:31.263538+00:00",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Anthropic is moving Claude Code auto mode's safety classifier server-side. LiteLLM's native /v1/messages route now forwards the safeguards contract, and the fix ships in the dev release on September 22. Here is the contract, what changed, when it ships, and how to verify it.",
+      "title": "Claude Code server-side auto mode through LiteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
       "doc_id": "abac37eb71f91eecf439a32701f6da86823652b7695854807778685740e2f6c7",
       "first_seen_at": "2026-09-02T10:57:37.525608+00:00",
       "published_at": "2026-09-01T14:00:00+00:00",
@@ -229,6 +239,16 @@
       "source_kind": "html",
       "summary": "How LiteLLM safely removes undecryptable encrypted reasoning from cross-tier follow-ups so Auto-Router can keep routing requests",
       "title": "Auto-Router: Switching Tiers Without Encrypted Content Failures"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "e647c0519d6c34243dd567b5b5269f935a3c6e30e5832ba6b3df11a7bba07c56",
+      "first_seen_at": "2026-09-22T03:45:31.263538+00:00",
+      "published_at": "2026-09-21T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Day 0 support for Grok 4.7 on LiteLLM, at the same price as Grok 4.6.",
+      "title": "Day 0 Support: Grok 4.7"
     },
     {
       "company_key": "yc-litellm",

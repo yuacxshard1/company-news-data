@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2d799b366acfa095fcf7f96da4f784e5338e18c9d9477b7984bb03f09a8ec073",
+  "company_key": "commvault-systems-inc-common-stock",
+  "company_name": "Commvault Systems Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.commvault.com/blogs/demystifying-soc-2-data-protection-requirements",
+  "canonical_url": "https://www.commvault.com/blogs/demystifying-soc-2-data-protection-requirements",
+  "title": "SOC 2 Compliance Requirements Guide | Clumio by Commvault",
+  "summary": "Learn what SOC 2 compliance requires across the five Trust Services Criteria, and see how data backup and recovery map to the controls auditors evaluate.",
+  "body_markdown": "## Trust Services Criteria\n\n\nThe five Trust Services Criteria form the backbone of every SOC 2 audit. Each criterion addresses a specific dimension of how you protect and manage data. Security is the only mandatory criterion, but most organizations include at least one or two additional criteria based on their services and customer expectations.\n\n\n**** **Security (Common Criteria)** – Security is the foundation of every SOC 2 report. The Common Criteria covers logical and physical access controls, system operations monitoring, change management, and risk mitigation.\n\n\nControls like CC6.4 (restricting physical and logical access to information assets) and CC6.7 (restricting the transmission, movement, and removal of information) are central to demonstrating that you protect systems from unauthorized access and threats. Every SOC 2 audit includes Security, regardless of which other criteria you select.\n\n\n**** **Availability** – Availability addresses whether your systems are operational and accessible as committed in your service-level agreements. This is where data protection becomes critical. Control A1.2 requires you to maintain backup processes and recovery infrastructure. Control A1.3 requires you to test your recovery plan, not just document one.\n\n\nAuditors want to see that you can restore systems and data within defined recovery time objectives and recovery point objectives.[Clumio’s operational recovery capabilities](https://www.commvault.com/clumio/solutions/operational-recovery) are purpose-built for this: policy-driven backup with automated scheduling and air-gapped storage that satisfies both A1.2 and A1.3.\n\n\n**Confidentiality** – Confidentiality criteria (C1.1 and C1.2) focus on protecting information designated as confidential. This includes encryption of data at rest and in transit, retention policies that define how long confidential data is kept, and secure destruction processes when retention periods expire.\n\n\n**Processing integrity** – Processing integrity evaluates whether your systems process data completely, accurately, and in a timely manner. This criterion is most relevant for organizations whose core service involves data transformation, calculation, or transaction processing.\n\n\n**** **Privacy** – Privacy addresses how you collect, use, retain, disclose, and dispose of personal information. It overlaps significantly with GDPR and CCPA requirements, making it a common addition for organizations that handle PII across jurisdictions.",
+  "published_at": "2026-09-18T13:39:00+00:00",
+  "first_seen_at": "2026-09-22T02:01:46.975715+00:00",
+  "content_hash": "sha256:0a436426fc08888457e755e5c3605fcc96cde8772ee07f15996b980920374c4f"
+}

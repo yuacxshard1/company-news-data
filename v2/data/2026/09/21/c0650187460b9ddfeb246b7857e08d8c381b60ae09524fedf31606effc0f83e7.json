@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c0650187460b9ddfeb246b7857e08d8c381b60ae09524fedf31606effc0f83e7",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/releases/release-notes-faster-ai-validation-mongodb-support-xapk-uploads-and-more/",
+  "canonical_url": "https://testrigor.com/releases/release-notes-faster-ai-validation-mongodb-support-xapk-uploads-and-more/",
+  "title": "Release Notes: Faster AI Validation, MongoDB Support, XAPK Uploads, and More",
+  "summary": "AI Validation Approach Changes By default, AI commands will only be processed by a singular AI call. This will make all AI-related commands execute faster. We can switch to the previous version (by majority vote) at any time. A new setting has been included, which controls this behavior. “AI evaluation strategy” can be found on ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## AI Validation Approach Changes\n\n\nBy default, AI commands will only be processed by a singular AI call. This will make all AI-related commands execute faster. We can switch to the previous version (by majority vote) at any time. A new setting has been included, which controls this behavior. “ **AI evaluation strategy”** can be found on Settings -> AI.\n\n\nWe can select between these options:\n\n\n- Single call (default setting): AI validations will only be executed by a single AI model.\n- Majority vote: multiple AI models will run a specific validation, and the result (pass or fail) will be decided by majority vote.\n\n\n## Support for MongoDB Through db-proxy\n\n\nSince our latest update, we support MongoDB connections through db-proxy.\n\n\n## Zip Files for XAPK Apps\n\n\nWe can now upload XAPK files to Android mobile test suites as ZIP files.\n\n\n## Validate That Element Appears X Times\n\n\nA plain English command has been added that will let us validate the number of times an element appears on a current page:\n\n\n```text\ncheck that page contains \"thumb\" 9 times\ncheck that page contains at least 9 \"thumb\"\ncheck that page contains no more than 9 \"thumb\"\n\n\n```\n\n\n## Trash Bin for Data Sets\n\n\nOur team has recently added a “Trash Bin” page which will temporarily store all elements sent to the trash bin for up to 30 days, items on the trash bin can be recovered or permanently deleted.\n\n\nThe trash bin will currently store deleted data sets for the time being. You can find this page on the sidebar:\n\n\n## Execution Page Improvements\n\n\nThe screenshot loading speed when opening the execution page for a particular test case is now faster. The breadcrumbs have been updated; they will display the test case title rather than the test case’s UUID.",
+  "published_at": "2026-09-21T23:04:30+00:00",
+  "first_seen_at": "2026-09-22T02:17:17.987337+00:00",
+  "content_hash": "sha256:793f966f0f2ee70ad6f25ef96fc6f242f1c8a9a9f325b9db0d9091fe5d3e7727"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cd1b8de4ae6efce69ebc598a4930862ccdd3650528cbdb538fea315e3bda4574",
+  "company_key": "yc-lob",
+  "company_name": "Lob",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.lob.com/blog/what-do-usps-tracking-scan-events-actually-mean",
+  "canonical_url": "https://www.lob.com/blog/what-do-usps-tracking-scan-events-actually-mean",
+  "title": "What do USPS tracking scan events actually mean?",
+  "summary": "USPS scan events tell you where your mail is and whether it's on track. Here's what each event actually means and how to use tracking data to manage campaigns.",
+  "body_markdown": "When you send direct mail, USPS generates a series of scan events as each piece moves through the postal network. These events show up in tracking data and tell you where a mailpiece is in its journey. But the event names aren't always intuitive, and knowing what they actually mean changes how you use the information.\n\n\n## How USPS tracking works\n\n\nUSPS scans mailpieces at key points in the production and delivery process. Each scan generates a timestamped event tied to a location. For direct mail, these scans happen at[entry points](https://www.lob.com/blog/what-happens-to-your-mail-after-you-send-it) , processing facilities, and during final delivery.\n\n\nNot every piece gets scanned at every point. The number of scan events a piece generates depends on mail class, format, and how it moves through the network. First Class Mail tends to generate more scan events than Marketing Mail.\n\n\n## The scan events worth knowing\n\n\n**Accepted.** USPS has received the mail at an entry point. This is the first confirmation that your mail is in the postal system. If you're dropping mail at a Business Mail Entry Unit or a plant, this is the scan that confirms the handoff happened.\n\n\n**In Transit.** The piece is moving between facilities. This event tells you mail is progressing through the network but hasn't reached its destination region yet. Multiple in-transit scans can appear as a piece moves between regional hubs.\n\n\n**In Local Area / Out for Delivery.** The piece has reached the local post office that serves the recipient's address and is being prepared for carrier delivery. This is the scan that tells you mail is close, typically one to two days from the[in-home date](https://www.lob.com/blog/what-is-an-in-home-date-and-why-should-you-plan-around-it) .\n\n\n**Delivered.** The carrier has delivered the piece to the recipient's address. This is the confirmation event that closes the loop on a mailpiece's journey.\n\n\n## How to use this data\n\n\nScan events are most useful when you connect them to your campaign calendar. Seeing your mail reach the \"In Local Area\" stage tells you your in-home window is imminent, which matters when your campaign is tied to a time-sensitive offer or deadline.\n\n\nAcross a large campaign, tracking data at the aggregate level reveals whether mail is[moving on schedule](https://www.lob.com/blog/can-i-track-the-performance-of-my-direct-mail-campaigns-in-real-time) , whether delivery is clustering in certain regions, and whether exception rates are higher than expected. That information gives you something to act on before the campaign window closes.\n\n\n‍",
+  "published_at": "2026-09-21T10:00:01.476+00:00",
+  "first_seen_at": "2026-09-22T01:29:40.058361+00:00",
+  "content_hash": "sha256:f421ffc8a74f5230087e100c8fcaa7b32b7b3ce0ff5a7d6af28a40920345f150"
+}
