@@ -13,12 +13,42 @@
     {
       "company_key": "yc-cloudanix",
       "company_name": "Cloudanix",
+      "doc_id": "2a500e240b7244af2e545e1f01c2ee2a0b327a92254659d6dcebf5d4ac533e3b",
+      "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Is Trusted Advisor enough for cloud security, or do you need a dedicated CSPM? A precise, feature-by-feature comparison of coverage depth, compliance mapping, multi-account visibility, and remediation.",
+      "title": "AWS Trusted Advisor vs. a Dedicated CSPM: What Each Actually Covers"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "424041bba4fb0079b3752979576b0d0d95981788e2b636b8b1c56e894ab83373",
+      "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
+      "published_at": "2026-09-15T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Three identity categories, three different jobs. CIEM tells you who has access to what. JIT changes how long they have it. IGA governs the lifecycle of who should have it. Here's how they fit together.",
+      "title": "CIEM vs. JIT vs. IGA: Where Each Fits in Cloud Identity Security"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
       "doc_id": "4828f8a1f080f8c96a7164d24b8428a441b5363e6c1720d69f0b461d7d5e116c",
       "first_seen_at": "2026-09-15T11:59:43.876453+00:00",
       "published_at": "2026-09-10T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "Migrating workloads from EC2 to Kubernetes changes your entire security surface. A readiness guide covering posture, RBAC, network policy, image provenance, and runtime before you cut over.",
       "title": "Preparing EC2 Workloads for a Kubernetes Migration: A Security Readiness Guide"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "5025031f7ecca07643c841016db949703959f09c3e596bff026b0453a93730e2",
+      "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A support engineer debugging a ticket doesn't need to see every customer's plaintext PII. Here's why unrestricted database read access is a bigger risk than most teams realize, and how dynamic masking fixes it without slowing anyone down.",
+      "title": "Why Your Developers Shouldn't See Raw Production PII (and How to Prevent It)"
     },
     {
       "company_key": "yc-cloudanix",
@@ -43,6 +73,16 @@
     {
       "company_key": "yc-cloudanix",
       "company_name": "Cloudanix",
+      "doc_id": "c6d8cd9224249d623369684ff7a8e49d7f7847f5e1c926b657f711ecd06165c4",
+      "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
+      "published_at": "2026-09-12T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Most ECS security effort stops at the task boundary. The RDS database it talks to gets governed separately, if at all. Here's why that split creates a blind spot, and how to close it.",
+      "title": "Securing Databases Behind ECS: The Data Tier Blind Spot in Cloud Security"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
       "doc_id": "c82ec0af5d2a86ade093fc89ca3eef6eb665b3c7e543b5d666cfc3f91662cc02",
       "first_seen_at": "2026-08-31T15:24:04.020100+00:00",
       "published_at": "2026-09-01T00:00:00+00:00",
@@ -59,6 +99,36 @@
       "source_kind": "rss",
       "summary": "See how chained cloud security findings form an attack path to your crown jewels, and why prioritising by isolated severity fails to surface real risk.",
       "title": "What Is an Attack Path, and Why Isolated Security Findings Mislead You"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "dc649bccc81af41557385fdd3076f8a459cb75f22833befcac8071bb1cfbacc8",
+      "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
+      "published_at": "2026-09-12T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Container security content overwhelmingly assumes Kubernetes. If your workloads run on Amazon ECS, here are the task definition, IAM role, networking, and image checks that actually matter.",
+      "title": "ECS Security Fundamentals: The Container Checks Most CSPM Tools Skip"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "dcff76ee4c9c78a512f42860abe27c0d5f9c407b57fd5b1ac6ac4ea3fd5a4db5",
+      "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
+      "published_at": "2026-09-18T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A practical guide to designing your own internal control framework on top of CIS and NIST baselines — covering control design, mapping, exceptions, and how to keep it validated continuously instead of once a year.",
+      "title": "Building a Custom Compliance Framework on Top of CIS and NIST: A Practical Guide"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "e3021d80a74210500526c709c6d459efb3b39bd22c19951e66b2c512a3d7772a",
+      "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
+      "published_at": "2026-09-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A practical checklist for securing GitLab CI/CD pipelines — runner isolation, secrets handling, pipeline permissions, dependency and secret scanning, and artifact integrity.",
+      "title": "Securing GitLab CI/CD Pipelines: A Practical Checklist"
     }
   ],
   "company_key": "yc-cloudanix",
