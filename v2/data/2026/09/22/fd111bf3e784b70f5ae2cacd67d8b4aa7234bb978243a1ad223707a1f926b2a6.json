@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fd111bf3e784b70f5ae2cacd67d8b4aa7234bb978243a1ad223707a1f926b2a6",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/unity-simulation-pro-early-access",
+  "canonical_url": "https://unity.com/blog/unity-simulation-pro-early-access",
+  "title": "From simulation to real-world deployment: Unity Simulation Pro early access",
+  "summary": "Explore Unity Simulation Pro Early Access, a supported robotics simulation toolkit with URDF import, sensor simulation, ROS 2, and headless Linux.",
+  "body_markdown": "Autonomous driving simulation places demands on rendering that typical interactive 3D applications do not, because every frame has to feed multiple high-resolution sensors in real time. Some AWSIM scenarios call for eight or more cameras running simultaneously while preserving sensor fidelity, which standard optimization techniques could not deliver on their own. Working in Unity, the team built a set of specialized optimizations to carry that load: staggered rendering across cameras to flatten frame spikes, time-scale controls to allocate more resources per frame, asset optimization, and the flexibility to use different rendering pipelines within a single project to balance accuracy against frame rate.\n\n\nTIER IV also used the Unity job system and built-in Physics to hold real-time performance across vehicle, traffic, and pedestrian simulation. For hardware-in-the-loop testing, the team analyzed raw sensor packets and reproduced equivalent output from Unity, so camera sensor setups could be tested in the loop before anything was deployed to a physical test vehicle, reducing physical test vehicle hours and on-road testing cost.",
+  "published_at": "2026-09-22T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T23:12:21.660110+00:00",
+  "content_hash": "sha256:c20acc96ecb9ebda5d78d577566196a7449aad02e82a2bdfd3834da46613a974"
+}

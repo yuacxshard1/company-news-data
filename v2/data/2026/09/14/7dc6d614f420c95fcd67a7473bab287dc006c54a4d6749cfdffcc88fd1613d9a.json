@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7dc6d614f420c95fcd67a7473bab287dc006c54a4d6749cfdffcc88fd1613d9a",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/windmill-ci-tests-pr-check",
+  "canonical_url": "https://www.windmill.dev/changelog/windmill-ci-tests-pr-check",
+  "title": "Gate GitHub pull requests on Windmill CI tests",
+  "summary": "Fork and dev workspace pull requests get a 'Windmill CI tests' check on GitHub, which can be made a required status check to block merge until tests pass.",
+  "body_markdown": "### [Gate GitHub pull requests on Windmill CI tests](https://www.windmill.dev/changelog/windmill-ci-tests-pr-check)\n\n\nGit sync\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\n[v1.812.0](https://github.com/windmill-labs/windmill/releases/tag/v1.812.0)\n\n\n[Docs](https://www.windmill.dev/docs/advanced/git_sync#ci-tests-check)\n\n\nFork and dev workspace pull requests get a 'Windmill CI tests' check on GitHub, which can be made a required status check to block merge until tests pass.\n\n\n#### New features\n\n\n- A 'Windmill CI tests' check run on pull requests targeting the tracked branch, concluding failure as soon as a test fails and success once all tests pass.\n- Requires a repository connected through the GitHub App with automatic sync from Git enabled, and no GitHub Action on the repository side.\n- Every push to the pull request runs the whole CI suite again on the new head, in the fork or dev workspace the branch syncs to.\n- Pull requests from other branches get the check posted as skipped, so requiring it does not block them.\n- A check that has not concluded after 30 minutes fails, so a hung test cannot leave a required check pending.",
+  "published_at": "2026-09-14T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T21:53:05.707602+00:00",
+  "content_hash": "sha256:5c28de0c98a5e5b7e26e92df0b16c628b7bc6a3ffc9bc1e86343fd958760c3c6"
+}

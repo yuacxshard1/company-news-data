@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "710fc65932807fbb0894a2511796ce039a8ad940740ea1c6c065037b98900064",
+  "company_key": "tetra-tech-inc-common-stock",
+  "company_name": "Tetra Tech Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://www.tetratech.com/projects/programming-high-speed-warehouse-distribution-controls/",
+  "canonical_url": "https://www.tetratech.com/projects/programming-high-speed-warehouse-distribution-controls/",
+  "title": "Programming High-Speed Warehouse Distribution Controls",
+  "summary": "Tetra Tech programmed a conveyor control system to manage 1.7 million SQL transactions daily and keep warehouse routing data moving in real time",
+  "body_markdown": "Tetra Tech Digital Systems programmed a conveyor control system to manage 1.7 million structured query language (SQL) transactions daily and keep warehouse routing data moving in real time.\n\n\nK&N Engineering’s 280,000-square-foot facility in Riverside, California, uses a multilevel closed-loop conveyor system with about 1,600 distributed input/output (I/O) points and 100 barcode scanners. The conveyor control system (CCS) also exchanges route data, arrival data, and conveyor status with K&N’s business management system (BMS)—an SQL server-based platform—as it manages hundreds of totes simultaneously. Because the BMS can reroute totes at any time and the system was designed without a human-machine interface (HMI), the CCS had to process approximately 1.7 million SQL transactions per day while also carrying alarm, warning, and status data for emergency stops, jams, and queue levels. The system also had to update barcode scanners and distributed I/O at high rates to support continuous warehouse operations.\n\n\nOur team strategized methods to enable the CCS to handle the routing demands of the BMS while also transmitting alarms, warnings, and status information in the same transaction stream. K&N could leverage a single software solution for their control and data-processing requirements because we programmed the CCS with a custom extended function block to manage the SQL transactions inside Think & Do.\n\n\nOur engineers created an integrated architecture that aligned SQL throughput, scanner communication, and remote I/O polling within one control environment. To meet the barcode reader update rate, our specialists combined SICK barcode scanners with Digi PortServers connected to Think & Do over Ethernet. For the distributed I/O, we configured Automation Direct Terminator I/O over high-speed Ethernet and distributed it across 25 I/O panels to support rapid polling across the conveyor system.\n\n\n## Benefits\n\n\n- Managed 1.7 million SQL transactions daily\n- Updated 100 barcode scanners ten times per second\n- Polled 1,600 I/O points 30 times per second\n- Consolidated control and SQL functions in one platform\n\n\n## Explore related solutions\n\n\n- [Digital Systems](https://www.tetratech.com/solutions/digital-systems/)\n- [Manufacturing Operations Automation](https://www.tetratech.com/solutions/digital-systems/solutions/manufacturing-operations-automation/)\n- [Advanced Manufacturing](https://www.tetratech.com/solutions/advanced-manufacturing/)",
+  "published_at": "2026-09-21T18:50:55+00:00",
+  "first_seen_at": "2026-09-21T22:14:33.733829+00:00",
+  "content_hash": "sha256:937edbb7f6279a944d6397fbcd5a52f1ed18ea2fbd9d1b4e5c40b0a6c0f2ac96"
+}

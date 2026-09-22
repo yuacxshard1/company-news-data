@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6383e40059108f5dc86662c4232acc6b3c8f59b7dce06a1664696e0cdb0dab79",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/we-cut-a-uhplc-method-from-3-minutes-to-1-5-kept-all-eight-analytes-resolved-and-saved-9-hours-per-plate",
+  "canonical_url": "https://www.reactwise.com/news/we-cut-a-uhplc-method-from-3-minutes-to-1-5-kept-all-eight-analytes-resolved-and-saved-9-hours-per-plate",
+  "title": "We cut a UHPLC method from 3 minutes to 1.5, kept all eight analytes resolved, and saved 9 hours per plate.",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "We cut a UHPLC method from 3 minutes to 1.5, kept all eight analytes resolved, and saved 9 hours per plate.\n\n\nRunning a 384-well plate on an unoptimized 3-minute method takes over 19 hours of instrument time. The usual response is that this doesn't matter, because the instrument runs unattended overnight. Nobody is sitting there waiting.\n\n\nBut automation removes the person from the loop, not the time.\n\n\nA reaction optimization campaign is sequential by definition. Each round depends on the results of the last one. A 19-hour queue means you design on Monday, run on Monday, and read on Wednesday. Across five or six rounds, that is weeks of calendar time spent waiting rather than deciding. It also blocks the instrument for everyone else, and burns solvent every hour it runs.\n\n\nSo we pointed our own optimizer at it.\n\n\nThe setup: an eight-analyte mixture on an Agilent 1290 Infinity III, with eight continuous gradient parameters open for optimization. Initial mobile phase composition, the timing and composition of two gradient setpoints, and the length, start time and composition of the final hold.\n\n\nWhat makes this a real optimization problem rather than a tuning exercise is that four objectives pull against each other. Number of resolved peaks. Resolution of the critical pair. Retention time of the final analyte. Total method time. Push on speed and separation degrades. Protect separation and you keep the 19 hours.\n\n\nSixteen runs. The campaign progressively compressed the gradient and pulled the final analyte earlier while tracking separation quality throughout, so the tradeoff stayed visible rather than being discovered at the end.\n\n\nMethod development is a multi-objective problem that usually gets solved by experience and one variable at a time. It responds to the same treatment as the chemistry it measures, and the payoff compounds, because every future campaign runs on that method.\n\n\nWe've built this into a template, so any @ReactWise client can run the same workflow on their own method without setting it up from scratch.\n\n\nFull case study can be found[here](https://www.reactwise.com/bayesian-optimization-uhplc-gradient) . If you'd like to see it running on one of your own methods, message me.\n\n\n‍",
+  "published_at": "2026-09-22T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T06:28:11.540845+00:00",
+  "content_hash": "sha256:fe72fcd0e949bcd71afc46ab96eb469947e5fc3a0e3b79c0e528dbd546d97424"
+}

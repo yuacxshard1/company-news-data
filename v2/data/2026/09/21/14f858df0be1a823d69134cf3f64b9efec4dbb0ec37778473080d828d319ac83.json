@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "14f858df0be1a823d69134cf3f64b9efec4dbb0ec37778473080d828d319ac83",
+  "company_key": "yc-tracecat",
+  "company_name": "Tracecat",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.1.0-alpha.2.1",
+  "canonical_url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.1.0-alpha.2.1",
+  "title": "Tracecat 1.1.0-alpha.2.1",
+  "summary": "",
+  "body_markdown": "Hotfix for` 1.1.0-alpha.2` .\n\n\n## Integrations\n\n\n- fix(integrations): Restore platform registry version comparison for dotted prerelease tags, fixing synchronization when upgrading from` 1.1.0-alpha.1.1` .\n\n\n## Infrastructure\n\n\n- fix(infra): Make semantic search storage follow invitation email delivery in a single linear migration chain, so` alembic upgrade head` resolves one target.\n\n\n## Build system\n\n\n- build: Restore version-bump support for dotted prerelease hotfix tags such as` 1.1.0-alpha.2.1` .\n\n\nThe versioning fixes are restored from[74465a4](https://github.com/TracecatHQ/tracecat/commit/74465a407dca6bcef33901df02477a40346bd059) .\n\n\n## Upgrade and validation notes\n\n\n- The application database still requires pgvector 0.8.0 or newer in the public schema, even when semantic search is disabled. See[pgvector setup](https://docs.tracecat.com/self-hosting/pgvector) .\n- Semantic-search revision` 9680c861644a` now follows invitation revision` bc3124ad3437` . If you manually applied the forked migration history from` 1.1.0-alpha.2` , review the database's applied revisions before upgrading.\n- The hotfix passed 87 focused tests and the required commit hooks. The linear upgrade path was verified through offline SQL generation; a live PostgreSQL upgrade was not exercised.\n- API and UI images were verified for AMD64 and ARM64 against the release commit. The` latest` image tags remain unchanged.\n\n\n**Full changelog** :[1.1.0-alpha.2...1.1.0-alpha.2.1](https://github.com/TracecatHQ/tracecat/compare/1.1.0-alpha.2...1.1.0-alpha.2.1)",
+  "published_at": "2026-09-21T17:56:08+00:00",
+  "first_seen_at": "2026-09-21T20:42:36.591188+00:00",
+  "content_hash": "sha256:57b9d0cfc3dde362eab5cd6f345eed7ea5bd847bb23cbf20f974830330506993"
+}

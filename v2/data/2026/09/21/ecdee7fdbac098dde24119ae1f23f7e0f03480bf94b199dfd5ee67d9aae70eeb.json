@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ecdee7fdbac098dde24119ae1f23f7e0f03480bf94b199dfd5ee67d9aae70eeb",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/automatizando-controle-chaves-acessos-remotos/",
+  "canonical_url": "https://blog.jestor.com/automatizando-controle-chaves-acessos-remotos/",
+  "title": "Como Automatizar o Controle de Chaves e Acessos Remotos",
+  "summary": "Veja como automatizar o controle de chaves e acessos remotos, conectados ao status de cada reserva.",
+  "body_markdown": "Automatizar o controle de chaves e acessos remotos significa que informações de acesso, códigos, chaves eletrônicas, são geradas e enviadas automaticamente conforme o check-in se aproxima, e revogadas automaticamente no checkout. No **Jestor** , isso conecta o status da reserva a automações e, quando aplicável, integrações via API com sistemas de fechadura inteligente.\n\n\nGerenciar chaves e códigos de acesso manualmente para um portfólio crescente de propriedades é uma tarefa administrativa repetitiva com risco real de segurança se algo for esquecido.\n\n\n## O que o controle manual de acesso arrisca\n\n\n- Alguém precisando lembrar de gerar e enviar códigos de acesso manualmente\n- Códigos não revogados a tempo depois do checkout, criando risco de segurança\n- Nenhum registro centralizado de quais códigos estão ativos em qual propriedade\n- Inconsistência entre propriedades gerenciadas por pessoas diferentes\n\n\n## Como funciona a automação de acesso\n\n\n- Automações disparadas por data podem gerar e enviar informações de acesso antes do check-in\n- Integrações via **API aberta** ou **webhooks** podem se conectar a sistemas de fechadura inteligente, se disponíveis\n- O checkout pode disparar automaticamente a revogação do código de acesso\n- Um registro centralizado mostra o status de acesso de todas as propriedades\n\n\n## Por que o Jestor se encaixa nesse uso\n\n\n- A automação baseada em data remove a dependência de alguém lembrar manualmente\n- Webhooks e API aberta permitem conexão com sistemas de fechadura que expõem sua própria API\n- O registro centralizado reduz o risco de códigos esquecidos ou não revogados\n- Isso se combina naturalmente com o fluxo automatizado de check-in e checkout\n\n\nControle manual de acesso Controle automatizado\n\n\nGeração e revogação manual Disparadas automaticamente por status da reserva\n\n\n## Perguntas Frequentes\n\n\n**Isso funciona com qualquer sistema de fechadura inteligente?** Depende de o sistema expor uma API ou webhook para conexão. Mais em[jestor.com](https://www.jestor.com/?ref=blog.jestor.com) .\n\n\n**O código é revogado automaticamente depois do checkout?** Isso pode ser configurado como parte da automação, dependendo da integração disponível.\n\n\n**Isso exige um desenvolvedor para configurar a integração?** Para integrações customizadas com fechaduras específicas, geralmente sim.\n\n\nCom o Jestor, é possível automatizar fluxos, conectar áreas e criar sistemas internos do seu jeito, tudo sem código e com o suporte da IA. Conheça o Jestor em jestor.com e descubra como levar a gestão da sua empresa a um novo nível de eficiência e integração.",
+  "published_at": "2026-09-21T20:29:13+00:00",
+  "first_seen_at": "2026-09-21T23:16:27.202849+00:00",
+  "content_hash": "sha256:b9b76731384f59ebbbc84749fb49a2f8e30cc841a0c9de4ce25df2c29281c11e"
+}

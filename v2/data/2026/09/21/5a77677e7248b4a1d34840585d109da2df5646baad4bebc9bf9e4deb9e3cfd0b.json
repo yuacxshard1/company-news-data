@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5a77677e7248b4a1d34840585d109da2df5646baad4bebc9bf9e4deb9e3cfd0b",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/integracao-precificacao-erp-financeiro/",
+  "canonical_url": "https://blog.jestor.com/integracao-precificacao-erp-financeiro/",
+  "title": "Integração entre Sistemas de Precificação e ERP Financeiro",
+  "summary": "Veja como integrar sistemas de precificação dinâmica a fluxos financeiros e ao ERP.",
+  "body_markdown": "Integrar sistemas de precificação ao ERP financeiro significa que o preço definido dinamicamente para uma reserva alimenta diretamente o registro financeiro correto, sem reentrada manual entre a ferramenta de precificação e o financeiro. No **Jestor** , isso usa webhooks ou API aberta para conectar dado de precificação externo à estrutura financeira.\n\n\nOperadoras que usam ferramentas dedicadas de precificação dinâmica frequentemente acabam com uma lacuna entre o preço definido e o que realmente é lançado no financeiro.\n\n\n## O que a desconexão entre precificação e financeiro custa\n\n\n- O preço definido pela ferramenta de precificação não refletido automaticamente no financeiro\n- Reentrada manual do valor final da reserva no sistema financeiro\n- Discrepâncias entre o preço mostrado ao hóspede e o que é registrado internamente\n- Nenhuma visibilidade unificada entre estratégia de precificação e resultado financeiro real\n\n\n## Como funciona a integração\n\n\n- **Webhooks** da ferramenta de precificação podem alimentar diretamente o registro da reserva\n- O valor final se conecta ao registro financeiro sem reentrada manual\n- A integração nativa com o **Omie** ou **Conta Azul** mantém tudo sincronizado a partir daí\n- Dashboards podem comparar preço definido versus receita real por propriedade\n\n\n## Por que o Jestor se encaixa nesse uso\n\n\n- Webhooks e API aberta permitem conexão com a maioria das ferramentas modernas de precificação\n- Uma vez conectado, o dado flui automaticamente até o lançamento no ERP\n- Reduz discrepâncias entre o que é cobrado e o que é registrado\n- Dá visibilidade unificada entre a estratégia de preço e o resultado financeiro\n\n\nSem integração Com precificação conectada\n\n\nReentrada manual do valor final Preço flui automaticamente até o financeiro\n\n\n## Perguntas Frequentes\n\n\n**Isso funciona com qualquer ferramenta de precificação dinâmica?** Depende da ferramenta ter webhooks ou API disponível para conexão. Mais em[jestor.com](https://www.jestor.com/?ref=blog.jestor.com) .\n\n\n**Isso exige um desenvolvedor para configurar?** Depende da complexidade da integração específica.\n\n\n**O preço final se reflete automaticamente no ERP?** Sim, uma vez que o fluxo de dado está conectado de ponta a ponta.\n\n\nCom o Jestor, é possível automatizar fluxos, conectar áreas e criar sistemas internos do seu jeito, tudo sem código e com o suporte da IA. Conheça o Jestor em jestor.com e descubra como levar a gestão da sua empresa a um novo nível de eficiência e integração.",
+  "published_at": "2026-09-21T20:29:29+00:00",
+  "first_seen_at": "2026-09-21T23:16:27.202849+00:00",
+  "content_hash": "sha256:66c6fbc3a38c7afbefa47d63dd345a5c3821e097294e90bc32148de184caa706"
+}
