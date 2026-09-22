@@ -7,7 +7,7 @@
       "first_seen_at": "2026-08-23T09:31:18.944928+00:00",
       "published_at": "2026-07-27T07:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Recently, while looking at our WebSocket server fleet, we noticed something interesting.",
+      "summary": "How the Bolna engineering team cut TCP connections across their WebSocket server fleet by hundreds per pod, without adding a single server.",
       "title": "How We Reduced TCP Connections Across Our Voice AI Fleet Without Adding More Servers"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-08-23T09:31:18.944928+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Sudarshan Kamath, founder of Smallest AI, said something recently that stuck with me:",
+      "summary": "When a single provider combo fails, thousands of calls can suffer at once. Here's how Bolna built monitoring that catches it in 30 minutes.",
       "title": "When One Provider Combo Goes Down, Thousands of Calls Suffer - Here's How to Catch It in 30 Minutes"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-08-23T09:31:18.944928+00:00",
       "published_at": "2026-07-27T07:00:00+00:00",
       "source_kind": "rss",
-      "summary": "We run a real-time voice service whose containers were using too much memory and restarting during calls. Two findings: the restarts were liveness-probe timeout…",
+      "summary": "Our real-time voice service containers were using too much memory and restarting mid-call. Two fixes: preloading workers and copy-on-write sharing.",
       "title": "Cutting per-pod memory with gunicorn preload and copy-on-write"
     }
   ],

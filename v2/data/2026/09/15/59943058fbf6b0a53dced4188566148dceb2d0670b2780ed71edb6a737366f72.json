@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "59943058fbf6b0a53dced4188566148dceb2d0670b2780ed71edb6a737366f72",
+  "company_key": "yc-dagger",
+  "company_name": "Dagger",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://dagger.io/blog/the-great-ci-bottleneck-of-2026/",
+  "canonical_url": "https://dagger.io/blog/the-great-ci-bottleneck-of-2026/",
+  "title": "The Great CI Bottleneck of 2026",
+  "summary": "The output of coding agents is growing too fast for CI to keep up. Traditional platforms are imploding and there is demand for something new.",
+  "body_markdown": "The Great CI Bottleneck of 2026 is upon us.\n\n\nThe output of coding agents is[growing too fast for CI to keep up](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic) . Traditional platforms are imploding and there is demand for something new.\n\n\nCI nerds like me have been waiting for this moment: FINALLY an opportunity to heal the festering wound that is CI, after decades of bandaids. But we must do it right!\n\n\nI often hear that the Great CI Bottleneck is an infrastructure problem. Just buy faster machines, from a better hosting provider, and you’ll be fine! Unsurprisingly, this view is popular with people who sell faster machines. And faster machines will certainly help! For a little while, anyway…\n\n\nMy contrarian view is that the Great CI Bottleneck is a software problem. CI workloads are dumb, and running dumb workloads is[wasteful](https://linear.app/now/ci-bottleneck-reworked) . When your architecture boils down to “run shell scripts on VMs”, your scaling options are limited: more VMs or bigger VMs. This amounts to throwing money at the problem, and it gets more expensive as the problem grows. This was fine when humans wrote all the code: small teams had small footprints, and large teams could afford the waste. But in our new agentic reality, CI is reaching a scale where the economics become catastrophically bad. Soon no machine will be fast or expensive enough to move the needle, no matter what the vendors tell you, and we will be back where we started.\n\n\nSo, The Great CI Bottleneck is upon us, and bigger machines won’t fix it. What we need is a new software stack for CI, so that our workloads can be smarter and less wasteful. Only then will the economics of CI allow it to keep up with coding agents.\n\n\nDagger is our attempt to build such a software stack. We have been building it for 7 years, in the open, with a community of fellow CI nerds. Our biggest obstacle has been apathy - “sure it could be better, but does it really matter? Is it worth the effort?” Now, at long last, the fog of apathy has lifted: for our agents to ship faster, CI must keep up. And for CI to keep up, it must become smarter. I hope many of you will give Dagger a try in the future, or contribute their own vision of how to make CI smarter. Either way, I want to hear from you.\n\n\nFellow CI nerds, this is our year!\n\n\nFYI Dagger 1.0 is coming soon, if you’ve tried it before, it’s worth a second look. We’ve been cooking 🍳",
+  "published_at": "2026-09-15T00:00:00+00:00",
+  "first_seen_at": "2026-09-22T10:00:02.337728+00:00",
+  "content_hash": "sha256:98bfb874a144f3853ae4b0e4354195aabd26219895038fb4a0183a5919aeb51b"
+}
