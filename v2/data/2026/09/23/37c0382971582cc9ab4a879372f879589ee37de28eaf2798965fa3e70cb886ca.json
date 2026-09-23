@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "37c0382971582cc9ab4a879372f879589ee37de28eaf2798965fa3e70cb886ca",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/reconstructing-an-ai-decision-for-a-customer-dispute",
+  "canonical_url": "https://www.activepieces.com/blog/reconstructing-an-ai-decision-for-a-customer-dispute",
+  "title": "Reconstructing an AI Decision for a Customer Dispute",
+  "summary": "Automated pricing logs provide the necessary audit trail to justify sudden cost spikes during customer disputes.",
+  "body_markdown": "## The 2:14 PM price surge that nobody could explain\n\n\n### The customer complaint that stalled support\n\n\nSupport teams fail to resolve disputes when the underlying logic of a transaction is invisible. This leads to indefinite ticket open times and brand erosion.\n\n\nIn this instance, a long-term enterprise client received a bill for $4,200 for a service that typically costs $1,050, yet the dashboard showed only a \"success\" status for the payment, which means the client is currently unaware of the significant overcharge.\n\n\n[Activepieces](https://www.activepieces.com/) tracks every agent tool call, the exact data payload it evaluated, and the sequence of its choices step by step, alongside the deterministic workflow steps running next to it.\n\n\nBecause the core platform is MIT-licensed, these execution records stream directly into an enterprise SIEM, allowing security teams to audit an agent's real-time financial decisions the same way they review traditional system logs.\n\n\nA manual refund was the only resolution left without a breadcrumb trail. This represents a total failure of the automated system to defend its own integrity.\n\n\n### Why AI pricing decisions become untraceable black boxes\n\n\nOperational opacity exists because you prioritize model performance over the traceability of the inputs that drive it. According to[arXiv](https://arxiv.org/html/2506.00058) , the most common failure points in AI deployment are:\n\n\n> Operational opacity exists because you prioritize model performance over the traceability of the inputs that drive it.\n\n\n- AI knowledge: 22.8.\n- Communication: 21.9.\n- Prompt design: 18.7.\n- Problem-solving: 15.8.\n\n\n### Why 'The AI said so' is not a legal defense\n\n\nRegulators and courts are increasingly rejecting algorithmic complexity as an excuse for discriminatory or predatory pricing. **84 lawsuits are projected** for 2025, up from just 7 in 2022. This means the legal risk is growing by a factor of twelve in just three years.\n\n\n**If you can't reconstruct the exact prompt and model version used at 2:14 PM, you'll lose the ability to prove the price surge wasn't a result of prohibited bias.**",
+  "published_at": "2026-09-23T14:55:02+00:00",
+  "first_seen_at": "2026-09-23T19:47:50.674469+00:00",
+  "content_hash": "sha256:5ff59a8715a53cdf1ef3efe43cd489c5cfd122f36445054f7efd28441de76d54"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "38b476d67a173326bdf2de275d494d000e46879349533e5d15267b5e72db0fe4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/Amazon-Connect-Customer-A2A",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/Amazon-Connect-Customer-A2A",
+  "title": "Amazon Connect Customer launches agent-to-agent collaboration",
+  "summary": "Discover more about what's new at AWS with Amazon Connect Customer launches agent-to-agent collaboration",
+  "body_markdown": "Amazon Connect Customer now supports agent-to-agent collaboration, giving customers the choice to bring in specialized AI agents during a live interaction to resolve a customer request. With this launch, Connect Customer AI agents can collaborate with each other, and with AI agents outside Connect Customer, over the open agent-to-agent (A2A) protocol through text or bidirectional voice. For example, a bank's frontline AI agent handling a customer call can delegate a fraud risk assessment to a specialist scoring AI agent, use the result to approve the transaction on the spot, and then transfer a complex dispute to another AI agent that resolves it directly with the customer.\n\n\nWorking with the A2A Technical Steering Committee at the Linux Foundation, AWS expanded the protocol to support voice streaming and interaction-level session continuity required for customer engagement. When using A2A, Connect Customer coordinates context passing between the AI agents so customers get a consistent experience, with unified observability, guardrails, and escalation controls across all the AI agents in an interaction. Administrators see one contact record showing what each agent said, which tools it called, and how long each step took, all captured as a single interaction for analytics, AI quality management, and to drive continual improvement.\n\n\nFor a full list of supported Regions, see[region availability.](https://docs.aws.amazon.com/connect/latest/adminguide/regions.html) To learn more about this feature, see the[administrator guide](https://docs.aws.amazon.com/connect/latest/adminguide/a2a-collaboration.html) . To learn more about Amazon Connect Customer, an AI solution that helps enterprises deliver exceptional customer experiences at every touchpoint, visit the[Amazon Connect Customer website](https://aws.amazon.com/products/connect/customer/?trk=25b81a8c-c9b1-4866-9ba5-f9cb1c5e792a&sc_channel=ps&ef_id=Cj0KCQjwzsjVBhC3ARIsALnMv4mYHhNN7YyGvP3737bRuQVACCUn8CuHCDu-_WonDUC1SXGIaqzCB2oaAjYSEALw_wcB:G:s&gclid=Cj0KCQjwzsjVBhC3ARIsALnMv4mYHhNN7YyGvP3737bRuQVACCUn8CuHCDu-_WonDUC1SXGIaqzCB2oaAjYSEALw_wcB) . For information about pricing, please visit our[pricing page](https://aws.amazon.com/products/connect/customer/pricing/appendix/?refid=25b81a8c-c9b1-4866-9ba5-f9cb1c5e792a) .",
+  "published_at": "2026-09-22T04:00:00+00:00",
+  "first_seen_at": "2026-09-23T20:24:37.162778+00:00",
+  "content_hash": "sha256:57a7b880fb15c7971bb41e303c70c55fd2af0e2f9edeb47cfa5f4bbb4ca94fc0"
+}

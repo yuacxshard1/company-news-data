@@ -19,6 +19,16 @@
       "source_kind": "html",
       "summary": "Voicemail detection testing checks whether your outbound agent classifies what picked up, then takes the right branch. The six scenarios that catch real defects, and how to run them on every release.",
       "title": "Voicemail detection testing for voice AI"
+    },
+    {
+      "company_key": "yc-cekura-ai",
+      "company_name": "Cekura",
+      "doc_id": "fbd290d2fe9d5b273e20fba5320b7d73126dcdf8dfc761437789fe462bc2fe30",
+      "first_seen_at": "2026-09-23T18:15:07.265781+00:00",
+      "published_at": "2026-09-23T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Voice agents infer turn-end from VAD and streaming STT; neither is sufficient. How Cekura's voice agent checks each close against the call's own audio.",
+      "title": "How Voice Agents Know When a Caller Has Stopped Talking"
     }
   ],
   "company_key": "yc-cekura-ai",
