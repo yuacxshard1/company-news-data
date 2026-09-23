@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b7d09d35448eab09ffeaff2feebeff5fa5c2f4102295c3ffb454035f2aa13224",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
+  "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub AI Inventory adds Azure self-hosted instance support",
+  "body_markdown": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted discovery capabilities beyond AWS, enabling central security teams to gain a continuously updated, organization-wide view of AI assets and their security posture across multi-cloud environments.\n\n\nSecurity Hub leverages the software bill of materials (SBOM) analysis from Amazon Inspector, which has been enhanced to identify inference endpoints, models, and AI agents installed on Azure virtual machines, including frameworks such as Ollama, vLLM, Hugging Face TGI, and others. Each discovered AI asset is mapped to its underlying infrastructure and correlated with security findings, enabling teams to filter, group, and query their AI inventory across both AWS and Azure environments.\n\n\nThis capability is included with Security Hub Essentials at no additional cost. It is available in all AWS commercial Regions where Security Hub is offered. To learn more, see the[AWS Security Hub User Guide](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-v2-ai-inventory.html) and the[AWS Security Hub product page](https://aws.amazon.com/security-hub/) .",
+  "published_at": "2026-09-22T08:00:00+00:00",
+  "first_seen_at": "2026-09-22T22:03:49.314993+00:00",
+  "content_hash": "sha256:d0cc4b6be2dce235a07daa81ab822ec4a1736a9874f5c10dfbc67d8844bfb312"
+}

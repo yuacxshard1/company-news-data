@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fdeb4f213eaab60fe81c18afe5885332e8d4c1008fbec8a48eb0de6e3d94e7ae",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/who-owns-an-integration-after-the-contractor-leaves",
+  "canonical_url": "https://www.activepieces.com/blog/who-owns-an-integration-after-the-contractor-leaves",
+  "title": "Who Owns an Integration After the Contractor Leaves?",
+  "summary": "Integration ownership requires transitioning from personal tokens to shared service accounts to prevent system outages.",
+  "body_markdown": "## Securing long-term stability with Activepieces project governance\n\n\nActivepieces prevents workflow abandonment by anchoring execution rights to the project level rather than individual user accounts, a structure that ensures automated processes remain functional when a contributor leaves.\n\n\nActivepieces publishes its core under an MIT licence, meaning the rights to run, fork, or embed the logic stay with the business rather than the vendor.\n\n\nOpen the LICENSE file in the activepieces/activepieces repository to see the MIT designation on the core, which contrasts with source-available licences that restrict how a company can use its own infrastructure.\n\n\n### Moving from private workflows to team-owned projects\n\n\nIn many SaaS automation tools, a workflow created by a contractor exists in a private folder. Within the Activepieces dashboard, administrators assign users to specific Projects so that logic and history are owned by the Project container.\n\n\nCompanies like MoneyGram and FundingSocieties run Activepieces in production to maintain this continuity.\n\n\n### Audit logs: Seeing what the contractor actually built\n\n\nThe platform provides a centralized view of every step execution. Because every API call is recorded in the run history, an admin can verify how data is handled without the original author.\n\n\nActivepieces syncs flows to git and promotes them through Release Management, allowing versioned changes to move from test to production environments as a deliberate administrative step.\n\n\nCheck the Activepieces documentation for Git Sync and Release Management to see how workflows are treated as software assets rather than private UI entries.\n\n\n### Credential rotation without touching the workflow logic\n\n\nDecoupling authentication from workflow steps allows administrators to update API keys in a single location. The connection management interface allows an admin to map a Connection Name to a specific External ID and pull secrets directly from an external provider like Hashicorp Vault.\n\n\nWhen a security policy requires a key rotation, the admin updates the Vault reference. Every workflow using that connection instantly inherits the new credential.",
+  "published_at": "2026-09-22T19:18:59+00:00",
+  "first_seen_at": "2026-09-22T21:03:55.998856+00:00",
+  "content_hash": "sha256:340b1b5ed4d122017e59082b1af102e64e37347735c0aff37972c1d3ede7a4cb"
+}

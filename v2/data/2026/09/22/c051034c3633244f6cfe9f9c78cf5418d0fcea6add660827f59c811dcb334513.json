@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c051034c3633244f6cfe9f9c78cf5418d0fcea6add660827f59c811dcb334513",
+  "company_key": "yc-captain",
+  "company_name": "Captain",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.captain.dev/blog/jev-regulated-industries/",
+  "canonical_url": "https://www.captain.dev/blog/jev-regulated-industries/",
+  "title": "Navigating Jev for Regulated RAG",
+  "summary": "How Captain moved PII masking from Microsoft Presidio to Jev and a self-hosted Kev-4B, with benchmark results on 2,602 labeled documents.",
+  "body_markdown": "We originally built our core indexing pipeline to run masking directly after document parsing, using self-hosted Microsoft Presidio combined with custom regex recognizers. This handled standard built-in entities like names, emails, phones, card numbers and government IDs reliably well. However, when customers requested industry-specific custom categories, we held back from shipping them. Verifying extensibility for each customer took a long time, and we needed to be sure it would generalize. Zero-shot, it typically performed at only 29.4% accuracy.\n\n\nSwitching to Jev-like models changed that problem, delivering near-perfect generalization while improving our baseline capabilities. We found we could accept categories as plain-language descriptions passed at index time, so customers can customize masking however they’d like. To maintain compliance, we built on the popular Kev model and self-hosted it for our customers, delivering nearly the same experience as Jev.",
+  "published_at": "2026-09-22T00:00:00+00:00",
+  "first_seen_at": "2026-09-23T00:11:19.328464+00:00",
+  "content_hash": "sha256:1aaf2d35e0ce2a30c3d77ffb6b2e153088d9747400d6f337cd2aa7044b058b33"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "45f3e18fd07d1a8138276ca726cc816e9e046e589f36e2c83a67f6a07aefdd36",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/content-directories-beyond-the-assetbundle",
+  "canonical_url": "https://unity.com/blog/content-directories-beyond-the-assetbundle",
+  "title": "Content directories: Beyond the AssetBundle",
+  "summary": "Unity 6.6 introduces content directories, a faster and more granular replacement for AssetBundles that cuts build times, reduces game size, and improves load performance — with full remote delivery coming in Unity 7.",
+  "body_markdown": "## **A familiar foundation: Addressing**\n\n\nIf you open a content directory build and take a look at the artifacts, you’ll notice that each artifact has a pretty odd hashed name:\n\n\n` c0152db4dd710be51b2decb997325f34.cf\nf0a44ad4a4babd121543fd44032928e7.resS\n4226b5c16a50dab6eff0f08dd1253d4b.resource`\n\n\nHere’s what’s cool - that’s not a random hash. Instead, the content directory system uses the same content addressed storage pattern used by technologies like git. Each content-file is named and referenced by a hash of its contents. This pattern is incredibly useful to the Unity runtime because it allows it to implicitly deduplicate content as a native feature.\n\n\nThat being said, content-addressed storage with a true dependency graph risks high churn. Consider the simplest possible relationship between two artifacts:\n\n\nA → B\n\n\nUpdate B, and B's hash changes. Unfortunately, because A references B, A’s hash changes too. Even worse, that cascades right up the chain.\n\n\nInstead, artifacts don't reference each other by content hash, they reference via stable id. The build manifest keeps a small lookup table mapping stable ids to content hashes.\n\n\nWith this, the runtime has everything it needs to load!",
+  "published_at": "2026-09-22T00:00:00+00:00",
+  "first_seen_at": "2026-09-22T21:21:38.752513+00:00",
+  "content_hash": "sha256:4d45b9f806c20487f981ff60eee9d8cfdf9de69f367f942bd59891b5080b008b"
+}

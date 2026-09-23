@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0adb86fe9fbafbbdfa984530a791a292aeacb7169c3ac9a5d4a5244a7f6391ea",
+  "company_key": "yc-jestor",
+  "company_name": "Jestor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.jestor.com/how-do-i-automate-key-and-access-control-for-guests/",
+  "canonical_url": "https://blog.jestor.com/how-do-i-automate-key-and-access-control-for-guests/",
+  "title": "How Do I Automate Key and Access Control for Guests?",
+  "summary": "See how to automate key and access control for guests, generated and revoked automatically by reservation status.",
+  "body_markdown": "Slug suggestion: automate-key-access-control-guests Primary keyword: automate key and access control for guests\n\n\n# How Do I Automate Key and Access Control for Guests?\n\n\nYou automate key and access control by letting access codes generate and send automatically as check-in approaches, and revoke automatically at checkout. On **Jestor** , this connects reservation status to automations and, when applicable, API integrations with smart lock systems.\n\n\nManually managing keys and access codes across a growing property portfolio is a repetitive administrative task with a genuine security risk if something gets missed.\n\n\n## What manual access control risks\n\n\n- Someone needing to remember to generate and send access codes manually\n- Codes not revoked in time after checkout, creating a security risk\n- No centralized record of which codes are active on which property\n- Inconsistency between properties managed by different people\n\n\n## How access automation works\n\n\n- Date-triggered automations can generate and send access information before check-in\n- Integrations via **open API** or **webhooks** can connect to smart lock systems, if available\n- Checkout can automatically trigger access code revocation\n- A centralized record shows access status across every property\n\n\n## Why Jestor fits this use case\n\n\n- Date-based automation removes the dependency on someone remembering manually\n- Webhooks and open API allow connection to lock systems that expose their own API\n- The centralized record reduces the risk of forgotten or unrevoked codes\n- This connects naturally with the automated check-in and checkout flow\n\n\nManual access control Automated access control\n\n\nManual generation and revocation Triggered automatically by reservation status\n\n\n## Frequently Asked Questions\n\n\n**Does this work with any smart lock system?** It depends on the system exposing an API or webhook for connection. More at[jestor.com](https://www.jestor.com/?ref=blog.jestor.com) .\n\n\n**Is the code revoked automatically after checkout?** This can be configured as part of the automation, depending on the integration available.\n\n\n**Does this require a developer to configure the lock integration?** For custom integrations with specific lock brands, generally yes.\n\n\nWith Jestor, you can automate workflows, connect teams, and build internal systems your way, all without code and powered by AI. Discover Jestor at jestor.com and see how to take your company's operations to a new level of efficiency and control.",
+  "published_at": "2026-09-22T19:20:12+00:00",
+  "first_seen_at": "2026-09-22T21:27:31.680850+00:00",
+  "content_hash": "sha256:2e5db8035d0531b82ca14425aaf388b5fba3c73e3c612badc31c42710390c568"
+}

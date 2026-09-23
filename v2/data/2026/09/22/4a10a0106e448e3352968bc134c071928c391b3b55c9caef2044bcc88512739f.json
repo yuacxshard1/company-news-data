@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4a10a0106e448e3352968bc134c071928c391b3b55c9caef2044bcc88512739f",
+  "company_key": "yc-centaur",
+  "company_name": "Centaur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://centaur.ai/post/multi-turn-healthcare-evaluation-note",
+  "canonical_url": "https://centaur.ai/post/multi-turn-healthcare-evaluation-note",
+  "title": "Multi-Turn Healthcare Evaluation Research Note",
+  "summary": "",
+  "body_markdown": "# Multi-Turn Healthcare Evaluation Research Note\n\n\n‍\n\n\n‍\n\n\n‍\n\n\nAt Centaur, we're developing an evaluation of how healthcare AI assistants respond as patients add or correct information over several turns in a conversation.\n\n\n‍\n\n\nThe question behind it is a simple one. If two patients tell a model the same things in a different order, does it give them the same advice?\n\n\n‍\n\n\n‍\n\n\n‍\n\n\nThe full sequence of patient messages, model responses, and changes in context is the **conversational trajectory** . Two conversations can share an endpoint, meaning the model has been told exactly the same information over the course of the conversation, and still differ completely in trajectory. Our evaluation holds the information constant and varies only the trajectory.\n\n\n‍\n\n\n**Stability** means giving clinically consistent advice once the model has the same relevant patient information. The recommendation should not depend on the order in which the facts arrive, whether one of them was corrected along the way, or how they are split across turns. Degradation caused by a presentation-only change is a defect.\n\n\n‍\n\n\nStability is the property we're testing.\n\n\n‍\n\n\nThree behaviors determine whether a model achieves it, and each can fail on its own:\n\n\n‍\n\n\n**Updating** means revising a recommendation when new patient information changes what advice is appropriate. The model's next response should account for the clinical implications of that information.\n‍\n\n\n**Retraction** means withdrawing or correcting earlier advice that no longer applies, so that a recommendation which has since become unsafe is not left standing.\n‍\n\n\n**Persistence** means continuing to use relevant patient information in later responses. The model should still account for an established fact when the patient returns to the question, even after the conversation has moved to another topic.\n‍\n\n\nEach of these is graded across the whole conversation, not on the final reply alone.\n‍\n\n\n‍\n\n\n‍\n\n\nWe’re developing this evaluation across many clinical contexts and patient scenarios. Clinical validation is underway, and we’ll publish the results once that work is complete.\n\n\n‍\n\n\nIf you want to see how your model performs on Centaur’s private multi-turn healthcare evaluation, get in touch. We’ll work with your team to identify where it loses patient context or fails to correct earlier advice as new information arrives, and develop datasets and expert review protocol to supercharge your next model release.\n\n\n‍\n\n\n‍\n\n\n‍\n\n\nWant to see how your model stacks up in this evaluation?\n\n\nBook a demo and we'll show you where Centaur can help.\n\n\n[Book a demo](https://info.centaurlabs.com/demo)",
+  "published_at": "2026-09-22T19:04:27.282+00:00",
+  "first_seen_at": "2026-09-22T19:37:39.012301+00:00",
+  "content_hash": "sha256:1c743d3477a9ef614058e3a4b13a6d39d3117d29e107407eb3d36f73a713e334"
+}

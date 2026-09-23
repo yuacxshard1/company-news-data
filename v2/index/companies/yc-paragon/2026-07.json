@@ -13,12 +13,32 @@
     {
       "company_key": "yc-paragon",
       "company_name": "Paragon",
+      "doc_id": "11f7fdf1f4838db73bce04dc70efc0b79b80091f0be60134574549fdcf32f922",
+      "first_seen_at": "2026-09-23T01:16:15.792922+00:00",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How to cut over from a legacy iPaaS or homegrown integrations without breaking live customer connections or dropping webhook events.",
+      "title": "Migrate off a legacy iPaaS without disrupting customers"
+    },
+    {
+      "company_key": "yc-paragon",
+      "company_name": "Paragon",
       "doc_id": "401545ca89e9964865959203d04d618665b8cfae04caa431b9f9726bd1a38a13",
       "first_seen_at": "2026-08-13T22:52:47.126118+00:00",
       "published_at": "2026-07-30T00:00:00+00:00",
       "source_kind": "html",
       "summary": "When to build RAG data ingestion in-house and when to buy: connector maintenance, permissions, security review, and the costs teams underestimate.",
       "title": "Build vs Buy: RAG Data Ingestion for SaaS Teams"
+    },
+    {
+      "company_key": "yc-paragon",
+      "company_name": "Paragon",
+      "doc_id": "47f063d55189aba8403a0f4040e257aa6a79c009599d5f7a7a12f48d75ff3c90",
+      "first_seen_at": "2026-09-23T01:16:15.792922+00:00",
+      "published_at": "2026-07-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Receiving webhooks from third-party APIs: how to verify, ack, dedupe, and process events reliably, and where it gets hard at scale.",
+      "title": "How Do I Receive Webhooks From Third-Party Platforms?"
     },
     {
       "company_key": "yc-paragon",
@@ -39,6 +59,36 @@
       "source_kind": "html",
       "summary": "What building RAG data ingestion in-house actually involves, phase by phase, and why connector maintenance outlasts the build itself.",
       "title": "How Long It Takes to Build RAG Ingestion In-House"
+    },
+    {
+      "company_key": "yc-paragon",
+      "company_name": "Paragon",
+      "doc_id": "e21b9cde2ca7d17098482fc95bb66717422d3f756fea6080b664478465233fde",
+      "first_seen_at": "2026-09-23T01:16:15.792922+00:00",
+      "published_at": "2026-07-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Every provider handles OAuth refresh differently. Manage token expiry, refresh token rotation, secure storage, and provider policy changes at scale.",
+      "title": "How to Handle OAuth Token Refresh and Expiry for SaaS Integrations at Scale"
+    },
+    {
+      "company_key": "yc-paragon",
+      "company_name": "Paragon",
+      "doc_id": "ef258ac8730c1c5edce73db834a25930be89f927c71b951a4313ddba47b70803",
+      "first_seen_at": "2026-09-23T01:16:15.792922+00:00",
+      "published_at": "2026-07-15T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How to keep RAG data fresh with incremental sync, stable chunk IDs, backfill correctness, and re-embedding cost control, per tenant.",
+      "title": "How to Keep RAG Data Fresh with Incremental Sync and Deduplication"
+    },
+    {
+      "company_key": "yc-paragon",
+      "company_name": "Paragon",
+      "doc_id": "f1418d509c088f2f1659564c715e09a95709cf60652de25505e6664f404dd42a",
+      "first_seen_at": "2026-09-23T01:16:15.792922+00:00",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What AI agent integration infrastructure is, its architecture, the build-vs-buy decision, and how to evaluate a platform. A 2026 guide for eng leaders.",
+      "title": "The Enterprise Guide to AI Agent Integration Infrastructure: Platforms, Tools, and Architecture in 2026"
     }
   ],
   "company_key": "yc-paragon",

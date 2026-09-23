@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "13cce96a46d8e82e74aee1b5a5bf44a0aee25b93ec2df9a096e2264a530b399e",
+  "company_key": "commvault-systems-inc-common-stock",
+  "company_name": "Commvault Systems Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.commvault.com/blogs/the-importance-of-recovery-point-objective-rpo-in-your-business-continuity-plan",
+  "canonical_url": "https://www.commvault.com/blogs/the-importance-of-recovery-point-objective-rpo-in-your-business-continuity-plan",
+  "title": "Recovery Point Objective (RPO) Guide | Clumio by Commvault",
+  "summary": "Learn what recovery point objective (RPO) means, how RPO compares to recovery time objective (RTO), and how to set tiered RPO targets that help protect your most critical data.",
+  "body_markdown": "### RPO Tiers and Real-World Examples\n\n\nNot every workload deserves the same RPO. Tiering your RPOs by business criticality helps keep protection tight where it matters and costs manageable where it does not.\n\n\n**Tier 0: Near-Zero RPO (Seconds to Minutes):** Financial transaction databases, electronic patient health records, and real-time trading platforms typically call for continuous data protection (CDP) or synchronous replication. These workloads generate revenue or carry regulatory weight every second, so even minutes of data loss can be difficult to absorb. Organizations implementing near-zero RPO typically use CDP or synchronous replication to help minimize the data loss window.\n\n\n**Tier 1: 1–4 Hours:** Customer relationship management (CRM) systems, email platforms, and order processing systems often fall here. Frequent incremental backups – every 15 to 60 minutes – help keep data loss within tolerance. The cost is moderate, and the business impact of losing a few hours of email or CRM updates is generally manageable with manual re-entry.\n\n\n**Tier 2: 4–12 Hours:** Internal collaboration tools, development environments, and project management platforms commonly operate in this range. Scheduled backups every 4 to 6 hours can strike a balance between protection and storage costs.\n\n\n**Tier 3: 12– 24 Hours:** Marketing analytics archives, historical logs, and reference documentation often tolerate daily cloud backups. Data changes slowly and reconstruction is feasible, making daily backup cadences cost-effective.\n\n\nTiering helps organizations invest the most in protecting the workloads where each minute of data loss carries the highest cost, while avoiding overspending on archives that change once a week.",
+  "published_at": "2026-09-22T11:37:00+00:00",
+  "first_seen_at": "2026-09-22T22:17:59.376001+00:00",
+  "content_hash": "sha256:2ce22820bc0816ddd55c1ba98b755bc17b10f877f935167450cc6b7cfddf2fa8"
+}

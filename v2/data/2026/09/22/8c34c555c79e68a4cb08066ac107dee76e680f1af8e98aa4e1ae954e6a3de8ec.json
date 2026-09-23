@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8c34c555c79e68a4cb08066ac107dee76e680f1af8e98aa4e1ae954e6a3de8ec",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-resolver-gen2-outposts/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-resolver-gen2-outposts/",
+  "title": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts racks",
+  "summary": "Discover more about what's new at AWS with Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts racks",
+  "body_markdown": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts, providing local, managed recursive DNS resolution directly on your Outpost. DNS queries from workloads running on your Outpost are resolved locally, reducing latency and eliminating the need to traverse the Service Link to reach the parent AWS Region. Route 53 Resolver maintains cached DNS records during Service Link disconnections, ensuring continuous DNS resolution even during connectivity interruptions. Route 53 Resolver runs entirely on AWS-managed infrastructure built into every second-generation Outpost, eliminating the need for customer compute capacity.\n\n\nRoute 53 Resolver is enabled by default on multi-rack second-generation Outposts. Customers who prefer to manage their own DNS resolution can opt out at any time by contacting AWS Support.\n\n\nRoute 53 Resolver on second-generation Outposts is available in all AWS Regions where second-generation Outposts are supported. All customers, including current preview customers, receive a 91-day free trial through December 21, 2026. Starting December 22, 2026, the service is priced at $0.65 per Outpost rack per hour. To get started, see the[Route 53 Resolver on Outposts documentation](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/outpost-resolver.html) . For pricing details, see[Amazon Route 53 pricing](https://aws.amazon.com/route53/pricing/) .",
+  "published_at": "2026-09-22T08:00:00+00:00",
+  "first_seen_at": "2026-09-22T22:03:49.314993+00:00",
+  "content_hash": "sha256:8014a0315ed5f220ae4d321d912f48b529aef722ff683bdbb62b26966526305f"
+}
