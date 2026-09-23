@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "baefc25c41889c3f31058e9d5275359b686b5609ea05f59c54c88b4ae4e0d99e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/groundedness-vs-faithfulness-vs-hallucination",
+  "canonical_url": "https://www.activepieces.com/blog/groundedness-vs-faithfulness-vs-hallucination",
+  "title": "Groundedness vs Faithfulness vs Hallucination",
+  "summary": "Enterprise AI accuracy relies on these three distinct metrics to verify information quality. You will be able to audit model outputs for reliability.",
+  "body_markdown": "## The core definitions of LLM output quality\n\n\n### What counts as an LLM hallucination\n\n\nWhen a large language model generates a confident response based entirely on its internal training weights rather than provided facts, a hallucination occurs.\n\n\nBecause the model is designed to predict the next likely token, it will prioritize grammatical coherence over factual accuracy if it lacks specific data, meaning a user might receive a perfectly formatted invoice for a vendor that does not exist.\n\n\nThis behavior forces teams to implement external validation layers, as the model itself cannot distinguish between a memory and a fabrication.\n\n\n### The business meaning of output faithfulness\n\n\nFaithfulness measures how accurately a model’s summary or reasoning reflects the specific source text it was given.[Verify](https://verify.turingcerts.com/guides/manual-vs-automated-verification) reports that an output can be factually true in the world but unfaithful to the document.\n\n\nWhen a legal review tool cites a standard 30-day notice period while the uploaded contract specifically demands 60 days, the resulting breach-of-contract risk falls on the firm relying on that automated summary.\n\n\nTo maintain this consistency, developers often use workflow automation tools to pipe raw data directly into prompts. This gives the model a clear reference point to remain faithful to.\n\n\n### How groundedness anchors LLM responses\n\n\nIf a customer support bot claims a product is waterproof without a corresponding sentence in the manual, the claim lacks grounding.\n\n\nGroundedness measures how well every claim in an LLM response traces back to a specific, verifiable piece of evidence in the provided context.\n\n\nWhile faithfulness looks at the logic of the claim, groundedness focuses on the citation. The following diagram illustrates how these three concepts overlap to define the reliability of a system.\n\n\nBy understanding these boundaries, a technical lead can identify whether a failure is a creative fabrication or a simple failure to read the provided instructions.",
+  "published_at": "2026-09-23T09:18:44+00:00",
+  "first_seen_at": "2026-09-23T12:21:14.577700+00:00",
+  "content_hash": "sha256:04d926dd949a25a0db08e556bb71e2ec4fb9b57d0e15861c0aa5ac0b003a0792"
+}

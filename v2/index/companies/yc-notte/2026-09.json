@@ -13,12 +13,52 @@
     {
       "company_key": "yc-notte",
       "company_name": "Notte",
+      "doc_id": "461e0449f21a3deceecdb36add05478fc4bab80e1863ce81fd3757c8f1b0bfe2",
+      "first_seen_at": "2026-09-23T11:31:51.102065+00:00",
+      "published_at": "2026-09-07T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Tiny differences in a drawing can reveal a browser's environment. Changing the pixels can also create inconsistencies a website can spot.",
+      "title": "Browser stealth explained: canvas fingerprinting"
+    },
+    {
+      "company_key": "yc-notte",
+      "company_name": "Notte",
+      "doc_id": "9d9aa227368c1978bf4306c4d3cec5deca9fac8ab9b32897060484b98b4be441",
+      "first_seen_at": "2026-09-23T11:31:51.102065+00:00",
+      "published_at": "2026-09-11T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A website can compare the GPU a browser claims to use with how it actually draws. Changing the reported name leaves other clues.",
+      "title": "Browser stealth explained: WebGL and GPU fingerprinting"
+    },
+    {
+      "company_key": "yc-notte",
+      "company_name": "Notte",
       "doc_id": "a4c7fa3803f4faf4ff3dbea2762fb66272edf64d09d259a157fa9bb540f133a8",
       "first_seen_at": "2026-09-15T22:50:49.458455+00:00",
       "published_at": "2026-09-09T09:00:00+00:00",
       "source_kind": "html",
       "summary": "We rebuilt Anything API to make conversations easier to resume, streaming easier to debug, and new models easier to support. In our benchmark, v2 cut median workspace recovery time by 45% compared with v1.",
       "title": "Why we moved the agent out of the sandbox"
+    },
+    {
+      "company_key": "yc-notte",
+      "company_name": "Notte",
+      "doc_id": "a61e28f4ba28c86c4c13f5b7c8e9823353b2e1ea86e5cf8643d84a54d43bf25b",
+      "first_seen_at": "2026-09-23T11:31:51.102065+00:00",
+      "published_at": "2026-09-18T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A website can learn which fonts a browser uses by measuring text. Hiding a font list does not stop those checks.",
+      "title": "Browser stealth explained: font fingerprinting"
+    },
+    {
+      "company_key": "yc-notte",
+      "company_name": "Notte",
+      "doc_id": "b4c8d385422795bcc5ef9fac333b8db19e262e9c2fbd16c5e5f757cae1f53747",
+      "first_seen_at": "2026-09-23T11:31:51.102065+00:00",
+      "published_at": "2026-09-14T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Browsers can produce different results from the same silent audio calculation. Comparing those results can reveal both fingerprints and inconsistencies.",
+      "title": "Browser stealth explained: audio fingerprinting"
     },
     {
       "company_key": "yc-notte",
