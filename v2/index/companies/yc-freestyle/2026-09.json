@@ -3,12 +3,52 @@
     {
       "company_key": "yc-freestyle",
       "company_name": "Freestyle",
+      "doc_id": "0c3fb343fe8d9425a3120c8df6f5be2ea55942dbc77d787fb631018b366f4936",
+      "first_seen_at": "2026-09-23T06:26:53.596337+00:00",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A capacity planning walkthrough for reserved inference: measuring tokens per second, separating prompt from completion load, choosing headroom, and comparing the result against per-token pricing.",
+      "title": "How to size dedicated LLM inference for steady production traffic"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
       "doc_id": "9dca213d37f0d91e7ac6be4e41e89b55687569313a12b5a74ac8c8d77246681f",
       "first_seen_at": "2026-09-08T09:54:32.447018+00:00",
       "published_at": "2026-09-07T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Use Freestyle network secret injection to let AI-generated Python call APIs and query Postgres without putting API keys or database passwords inside the VM.",
       "title": "Run AI-Generated Python Without Production Credentials"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "9fdeb24e4c3fad9c02a94e66024493db8646097646816d2a0a2a36f388a31caa",
+      "first_seen_at": "2026-09-23T06:26:53.596337+00:00",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What to measure when evaluating an inference endpoint for production: time to first token, per-token latency, throughput under concurrency, tail behavior, and how to make the test match your real traffic.",
+      "title": "How to benchmark LLM inference before you commit to capacity"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "d1ca84a86cde39836d80a2cb73dfc8ba4c3d9f38a13daa96c5e4441c4c8001d3",
+      "first_seen_at": "2026-09-23T06:26:53.596337+00:00",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Coding agents produce a distinctive inference load: long prompts, many sequential calls per task, and traffic around the clock. Here is what that means for latency, throughput, and whether to reserve capacity.",
+      "title": "LLM inference for coding agents: why steady, long-context traffic favors dedicated capacity"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "d6e0f8a3dd0b6bbeec4386d1299e3870fb69d3d112e3fb538c45601ce51e95f4",
+      "first_seen_at": "2026-09-23T06:26:53.596337+00:00",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A decision framework for teams with steady production traffic: what shared, token-priced inference gives you, what dedicated capacity changes, and the signals that tell you it is time to switch.",
+      "title": "Dedicated vs shared LLM inference: when reserved capacity makes sense"
     },
     {
       "company_key": "yc-freestyle",
@@ -29,6 +69,16 @@
       "source_kind": "html",
       "summary": "Running my own scraper on a Freestyle VM with a residential proxy cut my scraping costs by 90%. See the savings and how to build your own Firecrawl alternative.",
       "title": "Firecrawl Alternative: How I Cut Scraping Costs by 90%"
+    },
+    {
+      "company_key": "yc-freestyle",
+      "company_name": "Freestyle",
+      "doc_id": "f8e05dcb6ebffabbcd47eabd28bb0125781881572672e9c13f25eb4cabf16a96",
+      "first_seen_at": "2026-09-23T06:26:53.596337+00:00",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A migration guide for production workloads: what OpenAI compatibility does and does not cover, how to cut over safely, and what changes for high-volume chat, document extraction, and scheduled multi-step pipelines.",
+      "title": "Moving chat, extraction, and multi-step workflows to dedicated inference with an OpenAI-compatible API"
     }
   ],
   "company_key": "yc-freestyle",

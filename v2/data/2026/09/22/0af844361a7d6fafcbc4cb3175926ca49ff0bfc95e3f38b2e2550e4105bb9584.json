@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0af844361a7d6fafcbc4cb3175926ca49ff0bfc95e3f38b2e2550e4105bb9584",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
+  "title": "Amazon EMR 7.14 is now available",
+  "summary": "Discover more about what's new at AWS with Amazon EMR 7.14 is now available",
+  "body_markdown": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also upgrades Apache Spark to 3.5.8 and Apache Iceberg to 1.10.1.\n\n\nApache Iceberg materialized views now refresh faster on tables with updates and deletes, using change data capture to read only the data files affected by a change. On Amazon EMR on EKS, clusters now support Spark Connect endpoints for interactive Spark sessions with token-based authentication, and can run workloads on IPv6 Amazon EKS clusters. On Amazon EMR Serverless, the storage limit for Spark jobs increases from 200 GiB to 1 TiB, giving more room for shuffle data.\n\n\nAmazon EMR 7.14 is available in all AWS Regions where Amazon EMR is available.\n\n\nTo learn more, visit the[Amazon EMR 7.14 Release Guide](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-7140-release.html) , or get started by creating a cluster from the[Amazon EMR console](https://console.aws.amazon.com/emr) .",
+  "published_at": "2026-09-22T08:00:00+00:00",
+  "first_seen_at": "2026-09-23T05:04:41.369261+00:00",
+  "content_hash": "sha256:66e69fedd8675ee9fe04c9ccfe2d72730528178f0fc81a74d8c3a18669d90650"
+}

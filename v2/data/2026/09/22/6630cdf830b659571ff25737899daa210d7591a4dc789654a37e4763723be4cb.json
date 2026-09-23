@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6630cdf830b659571ff25737899daa210d7591a4dc789654a37e4763723be4cb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
+  "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
+  "summary": "Discover more about what's new at AWS with Amazon EMR introduces Long Term Support with Apache Spark 4.1",
+  "body_markdown": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of support. Amazon EMR provides LTS releases with fixes for critical and high severity security, bug, and data-corruption issues, subject to availability. LTS helps you run production Spark workloads on one release longer and upgrade on your own schedule, at no additional cost.\n\n\nThis release adds full support for Apache Iceberg v3, bringing new geospatial, high-precision timestamp, and schema-evolution capabilities to your tables. Spark SQL queries can reference catalogs by name, including cross-account and Amazon S3 Tables catalogs, and automatically detect Apache Iceberg, Delta Lake, and Apache Hudi table formats, without registering each catalog in your Spark configuration. Fine-grained access control now covers more Apache Iceberg operations and the Delta Lake VACUUM operation, so you can apply column-level and row-level permissions to a wider set of jobs. Amazon EMR on EKS clusters now support Spark Connect endpoints with token-based authentication.\n\n\nemr-spark-8.1.0 is available in all AWS Regions where Amazon EMR is available, across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless.\n\n\nTo learn more, see the[emr-spark-8.1.0 release notes](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark810-release.html) and the[Amazon EMR standard support](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-standard-support.html) policy. To get started, create an EMR cluster or application with emr-spark-8.1.0 from the AWS Management Console, or use the[Apache Spark Upgrade Agent for Amazon EMR](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/spark-upgrades.html) to move existing applications to the release.",
+  "published_at": "2026-09-22T08:00:00+00:00",
+  "first_seen_at": "2026-09-23T05:04:41.369261+00:00",
+  "content_hash": "sha256:a288c5d3b6e0c8dbd4fc1b28cdbb4318c1d4aa80fa367e5b41173701afa8bc97"
+}

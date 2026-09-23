@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "393e32c9c1c972547964f0a2a5afa694b1ef14c1232340de75e4dc38ea6a78ec",
+  "company_key": "yc-apollo",
+  "company_name": "Apollo",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.apollographql.com/blog/apollo-api-ip-allowlist-update-second-ip-address-now-live",
+  "canonical_url": "https://www.apollographql.com/blog/apollo-api-ip-allowlist-update-second-ip-address-now-live",
+  "title": "Apollo API IP Allowlist Update: Second IP Addresss Now Live",
+  "summary": "Apollo's API IP Allowlist Policy update has taken effect: Uplink and persisted-queries endpoints each added a second IP. Update IP-based allowlists now.",
+  "body_markdown": "A few months ago, we announced our[API IP Allowlist Policy](https://www.apollographql.com/blog/apollos-new-api-ip-allowlist-policy) , which included a planned change: adding a second IP address to each covered Apollo Uplink service.\n\n\nThat change has now taken effect.\n\n\n**If your organization restricts outbound network access by IP address** , confirm the following IPs are both allowlisted for their corresponding domains:\n\n\nDomain Current IP Additional IP\n\n\nuplink.api.apollographql.com 34.117.186.194 34.149.219.4\n\n\npersisted-queries.api.apollographql.com 34.36.202.125 8.233.57.214\n\n\nIf the additional IP isn’t yet in your allowlist, add it now. Without it, your Router or Gateway may be unable to fetch configuration from Uplink – you’d typically see this as failed schema/config polling in your Router logs.\n\n\n**If you restrict access by domain name, or don’t restrict outbound access at all** , no action is required.\n\n\n**Not sure how your network is configured?** Check with your network or infrastructure team. If Router is fetching its schema successfully today, domain-based allowlisting is likely already in place and this change doesn’t affect you.\n\n\n**Stay Informed**\n\n\nThe[API IP Allowlist Policy](https://www.apollographql.com/trust/api-ip-allowlist-policy) page is the authoritative source for current and upcoming IP changes, including at least 60 days’ notice before any future addition. All future changes will be announced on this blog under Announcements.\n\n\nQuestions? Reach out to Apollo Technical Support or email support@apollographql.com.\n\n\nWritten by\n\n\nDavid Glasser\n\n\n[Read more by David Glasser](https://www.apollographql.com/blog/author/glasser)",
+  "published_at": "2026-09-22T16:53:29+00:00",
+  "first_seen_at": "2026-09-23T02:39:26.227606+00:00",
+  "content_hash": "sha256:b72c91993abf2b8be241bfbb1d7fcd7045a5c6f6714e8262a432442f3bf1de53"
+}
