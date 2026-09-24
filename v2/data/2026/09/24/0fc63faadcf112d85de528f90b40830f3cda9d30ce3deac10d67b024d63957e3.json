@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0fc63faadcf112d85de528f90b40830f3cda9d30ce3deac10d67b024d63957e3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/power-automate-migration-guide-fixing-connector-gaps",
+  "canonical_url": "https://www.activepieces.com/blog/power-automate-migration-guide-fixing-connector-gaps",
+  "title": "Power Automate Migration Guide: Fixing Connector Gaps",
+  "summary": "Connector gaps arise when specific API endpoints are missing from a platform library. Use these criteria to evaluate your current workflows for migration.",
+  "body_markdown": "## The scale of the Microsoft ecosystem monopoly\n\n\n### How Entra ID authentication locks in Power Automate\n\n\nBy embedding Entra ID directly into the transport layer of its automation suite, Microsoft retains an exclusive operational lead.\n\n\nThis native handshake allows a workflow to impersonate a user across the entire Microsoft 365 tenant without requiring the manual rotation of client secrets or the configuration of individual API permissions.\n\n\nFor you, this removes the requirement for a secondary security review of third-party credential storage, as the data never leaves the governed tenant boundary.\n\n\nBecause the platform itself manages these tokens, the risk of a service interruption due to an expired OAuth handshake is virtually gone.\n\n\n### Deep linking within the Power Platform suite\n\n\nThe interoperability between the Power Platform and the Microsoft Graph API creates a closed-loop environment where metadata flows as easily as the primary data payload.\n\n\nThe Microsoft Graph API is the unified gateway for data across Microsoft services. When a workflow moves a file, it preserves internal pointers like version history and sensitivity labels that external tools often strip away.\n\n\nConnector Name Primary Constraint Threshold\n\n\nSharePoint Attachment Size 90 MB\n\n\nTeams Message Size 28 KB\n\n\nExcel Online File Size 5 MB\n\n\n**80% of the migration risk** lies in these specific technical ceilings, which means the majority of your project's failure points are already predetermined by your current architecture.\n\n\nFailing to account for these specific thresholds results in silent failures where a workflow reports success despite the destination service truncating or rejecting the data.\n\n\n### The cost of rebuilding complex Excel macros as workflows\n\n\nWhen you migrate legacy business logic from local Excel workbooks into cloud-based flows, you introduce a significant labor overhead. This is because the Power Automate expression language doesn't share a direct syntax with traditional VBA or complex cell formulas.\n\n\nEach legacy macro is a bespoke piece of intellectual property. You must manually decompile the macro and audit the logic before you remap it into a sequence of cloud actions.\n\n\n> Each legacy macro is a bespoke piece of intellectual property.\n\n\nThis translation process creates a high risk of logic drift where the cloud-based version yields a different result than the original spreadsheet.",
+  "published_at": "2026-09-24T00:31:32+00:00",
+  "first_seen_at": "2026-09-24T02:49:03.488850+00:00",
+  "content_hash": "sha256:d1aa7083b758e8d8477a01e8780e93c99a2a0cc2e05e2001ea6385ae008c98e5"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "915ffd4b5017dcb23f09ac40372206bb8173697d987ad2d1608c7caf471b0a40",
+  "company_key": "yc-sixtyfour",
+  "company_name": "Sixtyfour",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sixtyfour.ai/blog/how-we-use-agents-for-identity-resolution-on-banned-scammers",
+  "canonical_url": "https://www.sixtyfour.ai/blog/how-we-use-agents-for-identity-resolution-on-banned-scammers",
+  "title": "Identity resolution: catching banned users who rotate hardware",
+  "summary": "Device fingerprinting works on the bottom 90% of operators, but the top 10% rotate hardware before breakfast. Here is how to stop them.",
+  "body_markdown": "A single identifier. An email, phone number, Telegram handle, wallet address, or seller ID is enough to start. The agents expand outward from there.\n\n\nMinutes. Investigations that used to take a human analyst a full week of pivoting across forums, breach dumps, and public records now run in parallel and return a connected graph before a coffee gets cold.\n\n\nYes. The agents pull from global breach data, international LLC and registry filings, and platform footprints that are not region locked. Most fraud rings are not US based to begin with.\n\n\nA graph of connected accounts, confidence scores on each link, and the platforms the operator is active on. Investigators can hand this directly to law enforcement or use it to ban the rest of the network in one sweep.\n\n\nEvery source the agents query is either public record, commercially licensed, or part of breach data already in the public domain. No scraping of protected systems, no unauthorized access.",
+  "published_at": "2026-05-12T00:00:00+00:00",
+  "first_seen_at": "2026-09-02T15:13:13.068112+00:00",
+  "content_hash": "sha256:4d19da18d75e8f442557a48ae76bb45f2b2e2c47cb1b2a2e649ab3828a288595"
+}

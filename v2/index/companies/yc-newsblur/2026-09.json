@@ -55,9 +55,9 @@
       "company_name": "NewsBlur",
       "doc_id": "309902887cdf0c11c834197af8137a61630b58a70cae4ffd1a5c8ebb67c16e10",
       "first_seen_at": "2026-09-14T17:07:00.905839+00:00",
-      "published_at": "2026-09-14T16:21:20+00:00",
+      "published_at": "2026-09-17T01:45:17+00:00",
       "source_kind": "rss",
-      "summary": "I am no longer able to access the site for Bored Panda. Here is the URL I copied from the NewsBlur website: When I access it, if it appears at all, it is only for about half-a-second, then gives me the message “Critical Error Something went wrong with the application.” Sometimes the page will come up, but more often not. I have tried deleting the feed, then re-adding it, same result. Thank you for any help you can provide. Cathi G cagoodfellow556@gmail.com",
+      "summary": "That message is coming from Bored Panda’s own site, not from NewsBlur. You have that feed set to Story view, which loads the actual boredpanda.com page inside NewsBlur, and their site is crashing when it loads that way. Switch the view for that feed to Feed or Text using the view buttons at the top of the story list and the stories will read normally. Text view pulls in the full article. The feed itself is healthy and updated today, so nothing needs re-adding.",
       "title": "Can't access site that was okay before"
     },
     {

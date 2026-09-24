@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "19c525204cd70eeb47628fe8ea910fbc4382624da5b9007f4ab66006e7fea858",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/guide-language-flow",
+  "canonical_url": "https://machinelearning.apple.com/research/guide-language-flow",
+  "title": "How to Guide Your Language Flow",
+  "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an…",
+  "body_markdown": "[FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models](https://machinelearning.apple.com/research/fs-dfm)\n\n\nOctober 13, 2025\n\n\n[research area Speech and Natural Language Processing](https://machinelearning.apple.com/research/?domain=Speech%20and%20Natural%20Language%20Processing)\n\n\n[conference ICLR](https://machinelearning.apple.com/research/?event=ICLR)\n\n\nAutoregressive language models (ARMs) deliver strong likelihoods, but are inherently serial: they generate one token per forward pass, which limits throughput and inflates latency for long sequences. Diffusion Language Models (DLMs) parallelize across positions and thus appear promising for language generation, yet standard discrete diffusion typically needs hundreds to thousands of model evaluations to reach high quality, trading serial depth…\n\n\n[Read more](https://machinelearning.apple.com/research/fs-dfm)\n\n\n[Scaling Diffusion Language Models via Adaptation from Autoregressive Models](https://machinelearning.apple.com/research/scaling-diffusion-language-models)\n\n\nApril 16, 2025\n\n\n[conference ICLR](https://machinelearning.apple.com/research/?event=ICLR)\n\n\nDiffusion Language Models (DLMs) have emerged as a promising new paradigm for text generative modeling, potentially addressing limitations of autoregressive (AR) models. However, current DLMs have been studied at a smaller scale compared to their AR counterparts and lack fair comparison on language modeling benchmarks. Additionally, training diffusion models from scratch at scale remains challenging. Given the prevalence of open-source AR…\n\n\n[Read more](https://machinelearning.apple.com/research/scaling-diffusion-language-models)",
+  "published_at": "2025-10-13T00:00:00+00:00",
+  "first_seen_at": "2026-09-23T22:55:37.463337+00:00",
+  "content_hash": "sha256:0847b57577fe017d37aa28071ee6792c1e2bb316429454720b732540bbc05210"
+}
