@@ -13,6 +13,16 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "0cb2f37a477733363574727379547789f745157e1414882628ef32d545c44cac",
+      "first_seen_at": "2026-09-24T10:11:32.130808+00:00",
+      "published_at": "2026-09-24T07:51:51+00:00",
+      "source_kind": "rss",
+      "summary": "I don’t know how to explain this because I don’t know what it is, how it works and how to activate it. Sometimes when I was reading a story if I clicked on the edge between the story list and the story I was reading there was a small arrow icon, I think, that was placed in the position the cursor was. I always activated it by mistake, and did not know how to remove it or what it did. I believe it was an indicator of where one stopped reading in a story if he wanted to continue later? Anyway, ...",
+      "title": "What is the \"bookmark\" like thing in Newsblur?"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "12c7a4ab2a44e40b38cf58f561599c00f25cd15a18636622abbb32e60495a9ff",
       "first_seen_at": "2026-09-18T15:36:15.018506+00:00",
       "published_at": "2026-09-18T07:09:45+00:00",
@@ -225,9 +235,9 @@
       "company_name": "NewsBlur",
       "doc_id": "e45a29067e23c8a728256b7d34bc37511032ed0fd4c447891cc47a806b0c7025",
       "first_seen_at": "2026-09-15T01:16:29.902159+00:00",
-      "published_at": "2026-09-14T17:10:23+00:00",
+      "published_at": "2026-09-17T01:44:37+00:00",
       "source_kind": "rss",
-      "summary": "I am trying to add this feed: but newsblur seems to be too clever to add it. Unless I am missing something, it sort of tries to find the feed, but does nto realize it was given an exact feed URL and there seems to be no “force this URL to be added as a feed” option. Or I am missing somethign totally basic.",
+      "summary": "The URL is fine and NewsBlur did find the feed. The fetch was what failed: bugs.kde.org refuses any request whose user agent looks like a desktop browser, and NewsBlur’s fetcher ends its user agent with one, so every fetch came back 403 and the feed sat empty with no title. I’ve changed the fetcher to retry with its plain NewsBlur user agent when a site does that, which bugs.kde.org accepts. Your subscription should fill in on its next fetch after the deploy, no need to re-add it.",
       "title": "Cannot add a custom atom feed from bugzilla"
     }
   ],

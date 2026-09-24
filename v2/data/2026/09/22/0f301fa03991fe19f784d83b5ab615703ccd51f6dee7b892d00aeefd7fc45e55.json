@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0f301fa03991fe19f784d83b5ab615703ccd51f6dee7b892d00aeefd7fc45e55",
+  "company_key": "yc-mintlify",
+  "company_name": "Mintlify",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.mintlify.com/blog/narration",
+  "canonical_url": "https://www.mintlify.com/blog/narration",
+  "title": "Announcing narration for your docs",
+  "summary": "Narration lets readers listen to supported documentation pages while Mintlify highlights each sentence and keeps their place on screen.",
+  "body_markdown": "Narration is now available to Mintlify customers on Pro plans and above. Once enabled, readers can listen to supported documentation pages while Mintlify highlights each sentence and keeps their place on screen.\n\n\nPreviously, adding audio to documentation meant recording, hosting, and updating files by hand. Every content change created more work, while generic text-to-speech tools read code, tables, and interface elements as noise. Now every supported page can have an audio version without a separate production workflow.\n\n\n## How narration works\n\n\nA **Listen to this page** player appears at the top of each supported page. Press play and narration begins streaming within seconds.\n\n\nReaders can pause, track progress, and adjust playback speed from 0.5× to 2×. As each sentence is spoken, Mintlify highlights it and automatically scrolls the page to keep it in view. If the reader scrolls elsewhere, automatic scrolling stops while the audio continues.\n\n\nOpening another page stops the current narration. Playback speed is remembered for the rest of the session.\n\n\nWe built Narration using ElevenLabs Eleven Turbo v2.5 model. Narration works across languages. For sites with languages configured in` docs.json` navigation, Mintlify sends the page's locale to ElevenLabs as the` language_code` . For sites without configured languages, the model auto-detects the language from the page text.\n\n\nSee how the player works and watch Narration in action on the[Mintlify docs](https://www.mintlify.com/docs) .\n\n\n## Built for technical content\n\n\nNarration understands the structure of documentation. It reads the title, description, and body in order while announcing elements such as steps, tabs, callouts, and accordions with short spoken cues.\n\n\nCode blocks, tables, media, API fields, and other content that doesn’t translate well to audio are skipped. Tabs switch and collapsed sections open when they contain content being read.\n\n\nThis makes Narration useful for readers following a guide from another window, working hands-on in a terminal, browsing from a phone, or benefiting from an alternative to reading dense pages on screen.\n\n\n## Pricing\n\n\nNarration uses AI credits. It costs **50 AI credits** the first time someone listens to a new or updated page.\n\n\nReplays of the same page version are free. If narration fails to generate, you aren’t charged.\n\n\n## Get started\n\n\n1. Open your project in the[Mintlify dashboard](https://app.mintlify.com/settings/deployment/general) .\n2. Go to **Settings → General → Narration** .\n3. Enable **Page narration** . Mintlify automatically rebuilds your site to apply the change.",
+  "published_at": "2026-09-22T00:00:00+00:00",
+  "first_seen_at": "2026-09-24T07:48:51.030183+00:00",
+  "content_hash": "sha256:002baf61678ae22a34b4346328344335a3bbb4db33889d555ccae2be8a156f41"
+}

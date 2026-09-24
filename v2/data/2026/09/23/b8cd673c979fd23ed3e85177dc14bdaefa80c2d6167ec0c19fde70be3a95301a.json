@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b8cd673c979fd23ed3e85177dc14bdaefa80c2d6167ec0c19fde70be3a95301a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
+  "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
+  "summary": "Discover more about what's new at AWS with Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
+  "body_markdown": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams to run open-source big data frameworks such as Apache Spark and Apache Flink on Amazon EKS. With IPv6 support, teams operating at scale can now run these workloads on IPv6 Amazon EKS clusters, giving them access to the vastly larger address space of IPv6 as their analytics workloads grow.\n\n\nYou can now scale large Spark and Flink workloads using the expanded IPv6 address space, which removes the need for IPv4 conservation workarounds such as secondary CIDR ranges or prefix delegation. High-executor jobs, such as 500-executor Spark jobs, can run concurrently without planning around address limits. To submit workloads, use StartJobRun, Spark Connect Interactive Endpoints, and Amazon SageMaker Unified Studio with no additional configuration, while the Flink, Livy, and Spark Operators are also supported. This capability is available at no additional cost, starting with Amazon EMR releases emr-7.14.0 and emr-spark-8.0.0.\n\n\nIPv6 cluster support is available in all AWS Regions where Amazon EMR on EKS and IPv6 Amazon EKS clusters are available.\n\n\nAmazon EMR on EKS IPv6 cluster support includes detailed setup instructions and documentation on supported submission models. Visit the[Amazon EMR on EKS product page](https://aws.amazon.com/emr/features/eks/) and the[IPv6 documentation](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/emr-eks-ipv6.html) to learn more.",
+  "published_at": "2026-09-23T15:00:00+00:00",
+  "first_seen_at": "2026-09-24T03:55:36.604566+00:00",
+  "content_hash": "sha256:130025bd2cd33e7f9074d2d62120ea217f172f9e139b974e30a9dff16a81bfbe"
+}

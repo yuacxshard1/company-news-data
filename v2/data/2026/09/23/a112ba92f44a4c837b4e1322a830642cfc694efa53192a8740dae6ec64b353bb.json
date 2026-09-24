@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a112ba92f44a4c837b4e1322a830642cfc694efa53192a8740dae6ec64b353bb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
+  "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and cross-continent configurations",
+  "summary": "Discover more about what's new at AWS with Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and cross-continent configurations",
+  "body_markdown": "Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore), bringing the total number of supported Regions to 15. You can now create an MRSC global table in any three-Region configuration across the 15 supported AWS Regions, configured with either three replicas or two replicas and one witness Region. This includes configurations that span North America, Europe, and Asia Pacific.\n\n\nMRSC lets you build highly available multi-Region applications with a recovery point objective (RPO) of zero. By choosing replica Regions closer to your users in more geographies, you can route applications to nearby DynamoDB endpoints for strongly consistent reads while keeping your application available during Regional impairments. MRSC is ideal for global applications with strict consistency requirements, such as user profile management, inventory tracking, order state, and entitlement management.\n\n\nTo get started and view the complete list of supported Regions and configuration options, see the[DynamoDB Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html#V2globaltables_HowItWorks.consistency-modes.mrsc) . To learn more about building resilient multi-Region applications, visit the[DynamoDB global tables page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables.tutorial.html#create-gt-mrsc) .",
+  "published_at": "2026-09-23T08:00:00+00:00",
+  "first_seen_at": "2026-09-24T03:55:36.604566+00:00",
+  "content_hash": "sha256:86f12d74815eab0920b301cd037c299d8e62fd33cd87ba60832f9b6c8f304cce"
+}

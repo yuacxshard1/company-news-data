@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5347ac8cb9a77bba4a4b4c3ccb92a1d6cbc7b3d0f39e22146c4614d50dc28724",
+  "company_key": "yc-cosmic",
+  "company_name": "Cosmic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://www.cosmicjs.com/blog/revision-changes-and-agent-attribution",
+  "canonical_url": "https://www.cosmicjs.com/blog/revision-changes-and-agent-attribution",
+  "title": "See What Changed in a Revision, and Which Agent Wrote It",
+  "summary": "Compare a revision to the previous update, and see the person and the agent who wrote it.",
+  "body_markdown": "Revision history now shows two things that used to take a close read: what changed, and which agent changed it.\n\n\nThe revision itself is still the default. **Changes** is a second view on the same page, and a link from the history menu.\n\n\n## What's New\n\n\n-\n\n\n**A diff against the previous revision.** On any revision except the first, switch from Revision to Changes. Title, slug, status, content, thumbnail, and metafields are compared. Fields that did not change stay hidden.\n\n\n-\n\n\n**Changes from the history menu.** Each row in the history dropdown and in the full revisions list has a Changes link. Selecting the row still opens the revision.\n\n\n-\n\n\n**The person and the agent, together.** When an agent writes an update, history shows both avatars and reads as the person via the agent. The same attribution shows on the revision, in the revisions list, and in recent activity.\n\n\n-\n\n\n**Attribution stays on the revision.** It is stored with that revision. A later edit by a person does not keep the agent's name. Object responses from the public API are unchanged.\n\n\n## Why This Matters\n\n\nAn agent can publish several updates in an afternoon. Opening each revision and reading the whole document does not tell you what moved. The diff does. And when the byline is only a person, you cannot tell which of those updates an agent wrote.\n\n\n## How It Works\n\n\n1.\n\n\nOpen an object and use **History** , or open a revision.\n\n\n2.\n\n\nClick **Changes** , or use the **Revision / Changes** control on the revision page.\n\n\n3.\n\n\nRead the diff. **Restore draft** is still on the same page.\n\n\nThe comparison is always against the revision immediately before this one. The oldest revision has no previous version, so it has no Changes link.\n\n\n## Get Started\n\n\n-\n\n\nOpen any object that has revision history and click **Changes** .\n\n\n-\n\n\n[Start building for free](https://app.cosmicjs.com/signup?utm_source=cosmicjs.com&utm_medium=changelog&utm_campaign=revision-changes&utm_content=get-started)\n\n\n### Give your AI agents a content backend they can write to\n\n\nStructured, versioned content objects, a REST API and TypeScript SDK, and an MCP server your coding agent connects to directly. The Free plan includes 1 Bucket, 1,000 Objects, and 1 agent. No credit card required.\n\n\n[Start for free](https://app.cosmicjs.com/signup?utm_source=cosmicjs.com&utm_medium=blog&utm_campaign=blog-content&utm_content=bottom-signup-cta)[See Cosmic for AI teams](https://www.cosmicjs.com/ai?utm_source=cosmicjs.com&utm_medium=blog&utm_campaign=blog-content&utm_content=bottom-ai-page)",
+  "published_at": "2026-09-23T00:00:00+00:00",
+  "first_seen_at": "2026-09-24T06:40:53.889371+00:00",
+  "content_hash": "sha256:f69310dc9af8b563f5d306c970cfc3d3be780fcac0f1038ee65b8bb843f64622"
+}
