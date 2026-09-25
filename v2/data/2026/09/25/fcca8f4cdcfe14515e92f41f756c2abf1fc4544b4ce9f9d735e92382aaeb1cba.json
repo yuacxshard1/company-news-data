@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fcca8f4cdcfe14515e92f41f756c2abf1fc4544b4ce9f9d735e92382aaeb1cba",
+  "company_key": "yc-greptile",
+  "company_name": "Greptile",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.greptile.com/blog/introducing-plus-and-apex",
+  "canonical_url": "https://www.greptile.com/blog/introducing-plus-and-apex",
+  "title": "Introducing Greptile Plus and Apex",
+  "summary": "Greptile now has three review tiers. Plus and Apex give each review more time to run subagents in parallel, understand the PR, and catch more bugs.",
+  "body_markdown": "Today we’re releasing new Greptile review tiers: Plus and Apex.\n\n\nWith the higher review tiers, each review has more time to run subagents and tasks in parallel, better understand the PR, and catch more bugs.\n\n\n- **Base (1 credit):** Thorough code review with full codebase context.\n- **Plus (3 credits):** A deeper review for PRs that need extra scrutiny.\n- **Apex (10 credits):** Our most intensive review for large, complex PRs.\n\n\n## Base, Plus, Apex head to head\n\n\nWe ran Plus and Apex against one of our strongest[examples](https://www.greptile.com/examples) , a PR in celestia-core, to benchmark quality. The PR adds a limit on how many signatures a node accepts from peers while syncing blocks. This example already had a strong Base review, but serves to illustrate how Plus and Apex go deeper when looking for bugs.\n\n\n- **All three tiers** caught that most kinds of evidence skip the new limit. This bug is visible in the changed function.\n- **Plus and Apex** also caught that the check uses a lot of memory before it runs. A peer can send about 120 MB that expands to over 1 GB. Finding this meant reading generated code most reviewers skip and working out the memory math.\n- **Apex** also caught that the limit is too strict for some valid blocks. On a chain with large evidence limits, a syncing node can get stuck. Finding this meant reading consensus settings outside the PR and building a valid block that breaks the limit. Apex also flagged a gap in the tests.\n\n\n[Base Caught that most kinds of evidence skip the new limit. See Base review](https://github.com/greptileai/demo-celestia-core/pull/7#issuecomment-5824829865)[Plus Also caught a 120 MB payload that expands to over 1 GB before the check runs. See Plus review](https://github.com/greptileai/demo-celestia-core/pull/6#issuecomment-5824722271)[Apex Also caught valid blocks that the limit rejects, plus a gap in the tests. See Apex review](https://github.com/greptileai/demo-celestia-core/pull/5#issuecomment-5804684120)\n\n\n## Apex changed how we do PRs at Greptile\n\n\nWhen running Apex at Greptile, it caught so many bugs that we changed how we run deploys.\n\n\nApex now runs on all large PRs *before* they get to the prod deploy stages, and merges to prod are smaller and more frequent.\n\n\nYou can switch to Plus or Apex here, set rules to automatically use either tier for large PRs or changes to high-risk code[here](https://app.greptile.com/-/settings/review) .\n\n\n**[Try Plus and Apex](https://app.greptile.com/-/settings/review)**",
+  "published_at": "2026-09-25T12:00:00+00:00",
+  "first_seen_at": "2026-09-25T14:49:49.595098+00:00",
+  "content_hash": "sha256:958ae63d034c82c4c4a65f7774c9aafe396eae98932b6a90c54073d16acda54e"
+}

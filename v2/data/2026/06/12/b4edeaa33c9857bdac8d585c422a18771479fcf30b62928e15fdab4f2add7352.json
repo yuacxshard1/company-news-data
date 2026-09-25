@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b4edeaa33c9857bdac8d585c422a18771479fcf30b62928e15fdab4f2add7352",
+  "company_key": "yc-terminal",
+  "company_name": "Terminal",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.withterminal.com/changelog#2026-06-12",
+  "canonical_url": "https://docs.withterminal.com/changelog",
+  "title": "2026-06-12",
+  "summary": "",
+  "body_markdown": "### Common Model Updates\n\n\n- [Samsara](https://docs.withterminal.com/providers/tsp/samsara) now sets[Vehicle](https://docs.withterminal.com/models/vehicle)` fuelType` to` electric` when EV telemetry is available\n- [AI ELD](https://docs.withterminal.com/providers/tsp/ai-eld) ,[ProLogs](https://docs.withterminal.com/providers/tsp/prologs) , and[Synergy ELD](https://docs.withterminal.com/providers/tsp/synergy-eld) now include normalized[Driver](https://docs.withterminal.com/models/driver)` phone` and` license` fields when available\n\n\n### Integration Updates\n\n\n- [Teletrac Navman 360](https://docs.withterminal.com/providers/tsp/teletrac-navman-360) now supports UK-region accounts\n- [Dreyev](https://docs.withterminal.com/providers/tsp/dreyev) now supports[IFTA Vehicle Month](https://docs.withterminal.com/models/ifta-summary) and[Camera Media](https://docs.withterminal.com/models/camera-media)\n- [Dreyev](https://docs.withterminal.com/providers/tsp/dreyev) now maps additional safety signals, including support for` stop_sign_violation` and refined` near_crash` classification\n- [JJ Keller](https://docs.withterminal.com/providers/tsp/jj-keller) now includes` truck` and` pickup` units in synced[Vehicles](https://docs.withterminal.com/models/vehicle)\n\n\n### API Updates\n\n\n- Added the` link.analytics_event_emitted` webhook so you can receive Link funnel analytics events, including connection completion signals",
+  "published_at": "2026-06-12T11:41:57+00:00",
+  "first_seen_at": "2026-07-26T01:53:49.682680+00:00",
+  "content_hash": "sha256:590a1767475967695020ad34a93d7480fb067c9666552ce88a4f146aacdda885"
+}
