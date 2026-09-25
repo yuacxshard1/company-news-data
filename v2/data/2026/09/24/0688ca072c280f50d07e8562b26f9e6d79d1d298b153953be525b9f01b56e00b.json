@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0688ca072c280f50d07e8562b26f9e6d79d1d298b153953be525b9f01b56e00b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
+  "title": "Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
+  "body_markdown": "Starting today,[Amazon RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql/) 19 Beta 4 is available in the[Amazon RDS Database Preview Environment](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html) , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL.\n\n\nPostgreSQL 19 Beta 4 refines the query performance and autovacuum management capabilities introduced in earlier releases and includes bug fixes and stability improvements since Beta 3. Fixes include pg_stat_autovacuum_scores view reporting for TOAST tables and corrected freeze-score scaling so you can tune autovaccum prioritization effectively. Parallel autovacuum now shares a rebalanced cost limit across its workers to keep maintenance on large tables within your configured limits. Refer to the[PostgreSQL community announcement](https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/) for more details.\n\n\nAmazon RDS Database Preview Environment database instances are retained for a maximum period of 60 days and are automatically deleted after the retention period. Amazon RDS database snapshots that are created in the Preview Environment can only be used to create or restore database instances within the Preview Environment. You can use the PostgreSQL dump and load functionality to import or export your databases from the Preview Environment. Amazon RDS Database Preview Environment database instances are priced as per the[pricing](https://aws.amazon.com/rds/postgresql/pricing/) in the US East (Ohio) Region.",
+  "published_at": "2026-09-24T16:00:00+00:00",
+  "first_seen_at": "2026-09-24T22:12:47.214099+00:00",
+  "content_hash": "sha256:055dea12971ed225a68fe4fb6e6e3a6fd7f4d5957661379068e35f69fdbcccb2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "472d183a1918c5758e1d66e8a79c6e54efc78500e434a709c5cdd615d41b7df6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
+  "title": "Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
+  "summary": "Discover more about what's new at AWS with Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
+  "body_markdown": "Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore. Previously, ElastiCache supported tagging on all resources except Global Datastore, which prevented customers from applying a single, consistent permission and cost-allocation model across their ElastiCache fleet.\n\n\nWith this launch, you can use AddTagsToResource, RemoveTagsFromResource, and ListTagsForResource on a Global Datastore, and reference those tags as conditions in IAM policies and Service Control Policies (SCPs) to grant permissions based on tag attributes rather than enumerating individual resources. Tag changes on a Global Datastore propagate automatically to every Region it spans, so access-control and cost-allocation policies stay consistent without per-Region operations.\n\n\nThere is no additional cost for this feature, and no change to how you create or manage Global Datastores. This feature is available in all AWS Regions where ElastiCache Global Datastore is available. To learn more, see[Tagging your ElastiCache resources](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/Tagging-Resources.html) and[Using condition keys with ElastiCache](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/IAM.ConditionKeys.html) .",
+  "published_at": "2026-09-24T07:00:00+00:00",
+  "first_seen_at": "2026-09-24T22:12:47.214099+00:00",
+  "content_hash": "sha256:3bba150218de622b9f5567ac8d578c6623a483ae45fe9bf437be2861fb791ae0"
+}

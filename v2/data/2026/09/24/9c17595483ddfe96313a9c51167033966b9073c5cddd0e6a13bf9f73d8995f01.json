@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9c17595483ddfe96313a9c51167033966b9073c5cddd0e6a13bf9f73d8995f01",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/latent-space-distillation",
+  "canonical_url": "https://machinelearning.apple.com/research/latent-space-distillation",
+  "title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
+  "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2609.04102)\n\n\nSystem-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows of waveform onto the representation the language model reads. Because that model is sparsely activated under Instruction-Following Pruning, only a small subset of its experts occupies DRAM at any time, so the always-on tokenizer competes for the same memory, and its parameter count bears directly on power and latency. In this work we study how to compress such a tokenizer by distillation, taking as the supervision target neither the discrete token nor the output distribution but the pre-quantizer latent the model actually consumes—the last representation the two token interfaces share. We train only the student encoder to regress the teacher’s per-frame latent under a squared-error objective, with a single affine layer absorbing the teacher–student width mismatch. Because the target precedes both the quantizer and the language-model bridge, one recipe covers both token interfaces we support, and applies both to a tokenizer pretrained alone and to one jointly trained with a language model. At 2.8× compression the distilled student stays within 1.9% relative WER of its teacher on five of six teacher–student pairs without any fine-tuning, and improves on an independently trained tokenizer of identical capacity by 3.9% relative.\n\n\n- ‡ Equal contribution\n- † NVIDIA\n- § Anthropic\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-09-24T18:40:26.601932+00:00",
+  "content_hash": "sha256:2ac8bddcb9cc41718e1fcc039b852eb448a7bfc3d0c5a4bcf0382d93042ab990"
+}

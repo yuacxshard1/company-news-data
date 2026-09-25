@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f073a70ae65c0bc3ed8339013411a52e93a54a767fd057f3d15af3af2e1eebd6",
+  "company_key": "yc-whalesync",
+  "company_name": "Whalesync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.whalesync.com/blog/announcing-our-klaviyo-connector",
+  "canonical_url": "https://www.whalesync.com/blog/announcing-our-klaviyo-connector",
+  "title": "Announcing Our Klaviyo Connector",
+  "summary": "Whalesync now syncs Klaviyo, in beta. Klaviyo profiles, lists, and segments become tables in Airtable, Notion, Google Sheets, Supabase, or HubSpot, synced both ways.",
+  "body_markdown": "Klaviyo is the customer platform behind the email, SMS, and automated flows of more than 205,000 brands, most of them in ecommerce. If you run a Shopify store, it’s probably where your customer list actually lives, and where your best segments are hiding.\n\n\nOur[Klaviyo connector](https://www.whalesync.com/connector/klaviyo) is out today in beta. Connect a Klaviyo account and you can sync your Profiles, Lists, and Segments with any of the other services we support.\n\n\n## **Profiles**\n\n\nEach profile contains Klaviyo’s built-in fields and the custom properties your store sends along. Profiles sync both ways, so an edit in Airtable lands in Klaviyo and an edit in Klaviyo comes back.\n\n\nList membership syncs as a link to the Lists table, and it syncs both ways too. Add a row to a list in Airtable and that person joins the list in Klaviyo. Some fields come across read-only, like segment membership, email and SMS consent, and Klaviyo’s predictive analytics, such as customer lifetime value and churn probability.\n\n\n## **Lists and Segments**\n\n\nLists can be created, renamed, and deleted from the other side of the sync. Segments are synced as read-only, since Klaviyo decides who is in them from the segment’s definition.\n\n\nWhalesync never sends a message, never changes anyone’s consent, and never deletes a Klaviyo profile.\n\n\n## **Getting started**\n\n\nSign in with Klaviyo or paste a private API key, pick the tables, and map. Refer to our[Klaviyo connector docs](https://docs.whalesync.com/connectors/klaviyo) for more details. The connector is in beta, so if it’s missing something you need,[reach out](https://docs.whalesync.com/resources/support) and tell us.",
+  "published_at": "2026-09-24T00:00:00+00:00",
+  "first_seen_at": "2026-09-25T01:24:32.264260+00:00",
+  "content_hash": "sha256:53e8afee95fad8ca2ca7eef92d369c86de0257c75e4ee4b23ef1b0c1d92ac3c6"
+}

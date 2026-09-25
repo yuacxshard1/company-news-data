@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2e61238a76b5c52b6eeff479182d289ab783eaeded1beca2f45f18d738b54345",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
+  "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
+  "summary": "Discover more about what's new at AWS with Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
+  "body_markdown": "[Amazon Relational Database Service (Amazon RDS) for SQL Server](https://aws.amazon.com/rds/sqlserver/) now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone and provide automatic failover during infrastructure failure. You can use this capability to build and test high availability configurations in non-production environments using Developer Edition, which includes all the functionality of Enterprise Edition at no license cost.\n\n\nYou can use this feature to validate your high availability architecture, test failover behavior, and develop against production-equivalent configurations without incurring Enterprise Edition licensing costs. Multi-AZ with Always On Availability Groups is available on SQL Server Developer Edition major versions 2019 and 2022, and on SQL Server 2025 Enterprise Developer Edition. SQL Server 2025 Standard Developer Edition does not support this feature.\n\n\nFor more information about the AWS Regions where this feature is available, see[Working with SQL Server Developer Edition on RDS for SQL Server](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/sqlserver-dev-edition.html) . For pricing details, see[Amazon RDS for SQL Server Pricing](https://aws.amazon.com/rds/sqlserver/pricing/) .",
+  "published_at": "2026-09-24T07:00:00+00:00",
+  "first_seen_at": "2026-09-24T22:12:47.214099+00:00",
+  "content_hash": "sha256:1be8ff20e30efb4a0651e1cfe918082c4f7b495292373d51c178b446f2d67e49"
+}
