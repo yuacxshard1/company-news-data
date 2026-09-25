@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "da672a960df14ae70126e12aee95c0710b497c67bc67a73de5df43202c42d1ec",
+  "company_key": "yc-ramain",
+  "company_name": "RamAIn",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://ramain.ai/resources/agents-learn-from-browser-environments",
+  "canonical_url": "https://ramain.ai/resources/agents-learn-from-browser-environments",
+  "title": "The Agent That Gets Better Every Run: 79% Faster, 67% Fewer Tokens",
+  "summary": "Workflow extraction and reusable subroutines let Ramain repeat the same browser work faster and with one third of the fresh input tokens.",
+  "body_markdown": "\\[Browser agent benchmark series\\]\n\n\n|\n\n\n\\[Part 4 of 4\\]\n\n\nBy Jayoo Hwang, Vansh Ramani, and Shourya Vir Jain\n\n\nA new hire's first day in an unfamiliar ERP is slow. A month later, they know the procedure and barely look at the interface. Most browser agents never get past day one. Ramain does.\n\n\n## The experiment\n\n\nWe tested Ramain on an internal set of realistic long-horizon tasks. The autonomous agent completed every task without previous knowledge, but it did so slowly and with detours.\n\n\nThe cold baseline was about 6.3 minutes and 44 model rounds per task. We then let the platform learn from those successful trajectories in two rounds.\n\n\n## Round one: extract the workflow\n\n\nWorkflow extraction turns a successful trajectory into procedural guidance. The next run starts from the correct action sequence instead of discovering it again.\n\n\nWith the same tasks and model, wall time fell 68%, from 6.3 minutes to 2 minutes across the task set. Fresh input tokens fell by nearly half.\n\n\n## Round two: turn the procedure into muscle memory\n\n\nAn optimization agent read the trajectories and produced reusable scripts. These subroutines execute rote stretches programmatically without spending a model round.\n\n\nTotal model rounds fell from 885 to 438. Against the original baseline, the tasks ran 79% faster while using one third of the fresh input tokens.\n\n\nWorkflow extraction cuts average fresh input tokens by 48%. Adding reusable subroutines cuts them by 67% from baseline.\n\n\n## Production performance compounds\n\n\nBenchmarks measure first encounters, so cold-run numbers are a floor. In production, similar workflows run on similar portals every day.\n\n\nThe first deployed version is the least experienced version that will ever run. Every later run can start with more procedural knowledge than the one before.\n\n\nKey takeaway\n\n\nRamain learns from its own experience to become faster and cheaper every time a workflow repeats.",
+  "published_at": "2026-09-24T00:00:00+00:00",
+  "first_seen_at": "2026-09-25T05:15:57.651779+00:00",
+  "content_hash": "sha256:feec2572bfa085fab8f7df9b67082fd7e1afb7556b7d4f20e82fc561f35de5ab"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c6e80479382dbf956ba971fa0f2c63ed77603fee7b24b6ee6ad6d8709b481e75",
+  "company_key": "microsoft-corporation-common-stock",
+  "company_name": "Microsoft Corporation",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/modern-list-in-power-pages-is-now-generally-available/",
+  "canonical_url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/modern-list-in-power-pages-is-now-generally-available/",
+  "title": "Modern List in Power Pages is now generally available",
+  "summary": "Today, we’re announcing the general availability of Modern List in Power Pages, a refreshed data presentation experience that helps makers showcase Dataverse data with modern Fluent UI components, seamless infinite scrolling, inline filtering, shimmer loading, flexible low-code customization and custom JavaScript support.",
+  "body_markdown": "Today, we’re announcing the general availability of **Modern List in Power Pages** , a refreshed data presentation experience that helps makers showcase Dataverse data with modern Fluent UI components, seamless infinite scrolling, inline filtering, shimmer loading, flexible low-code customization and custom JavaScript support.\n\n\nWith general availability, Modern List is now the default list experience for newly created Power Pages sites. Existing classic lists remain unchanged, so that your organization can transition at their own pace. This release also introduces support for custom JavaScript through the Power Pages Client API, giving you more flexibility to tailor list experiences to business needs.\n\n\n#### **Extend Modern List with Custom JavaScript**\n\n\nMakers can continue to configure Modern List in the Power Pages design studio by selecting Dataverse views, enabling record actions, and applying styles. When a scenario requires more advanced behavior, developers can extend the same list with custom JavaScript instead of replacing it with a separate data grid.\n\n\nUsing the Client API, developers can:\n\n\n- Access the rows and columns loaded in a Modern List.\n- Read raw and formatted row values.\n- Respond to list loading, row selection, and cell selection events.\n- Show, hide, or style rows and columns.\n- Customize column headers, tooltips, and cell display text.\n\n\nFor example, a customer service site could highlight high-priority requests, apply different styles based on status, or respond when a user selects a record. These customizations retain the list’s existing Dataverse views, actions, filtering, and security configuration.\n\n\n#### **Get started**\n\n\nAdd a Modern list to a newly created site or convert an existing list to Modern List on an existing site.\n\n\nLearn more:\n\n\n- [Add a list in Power Pages](https://learn.microsoft.com/en-us/power-pages/getting-started/add-list#modern-list)\n- [Power Pages Client APIs](https://learn.microsoft.com/power-pages/configure/client-api/lists)\n\n\n#### **We are looking forward to your feedback**\n\n\nYour feedback is crucial in shaping the future of this feature. We want to[hear from you!](https://ideas.powerpages.microsoft.com/d365community/forum/1edba0ec-30cf-ec11-a7b5-000d3a545c96)",
+  "published_at": "2026-09-23T06:50:12+00:00",
+  "first_seen_at": "2026-09-25T10:46:21.029694+00:00",
+  "content_hash": "sha256:900814c63c83ac6b6cce7849824508f194f142e7fe8644cccb7b947ecff41a06"
+}
