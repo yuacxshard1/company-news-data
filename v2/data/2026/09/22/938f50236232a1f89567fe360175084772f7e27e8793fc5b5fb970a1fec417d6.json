@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "938f50236232a1f89567fe360175084772f7e27e8793fc5b5fb970a1fec417d6",
+  "company_key": "yc-sixtyfour",
+  "company_name": "Sixtyfour",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sixtyfour.ai/blog/how-to-investigate-an-email-address",
+  "canonical_url": "https://www.sixtyfour.ai/blog/how-to-investigate-an-email-address",
+  "title": "How to investigate an email address",
+  "summary": "An email address is often the only identifier a report arrives with. Here is what it can tell you, the order to read it in, and where it misleads.",
+  "body_markdown": "Often, but rarely from the address alone and never with certainty. The address leads to accounts, breach records and public posts that may identify its owner, and each of those links has to be checked, because usernames and names collide and addresses change hands. A sound investigation reports what the evidence supports and marks the rest as open.\n\n\nThere is no public record of when an address was created, so its age has to be inferred. The strongest evidence is breach history: an address that appears in a breach from a given year existed by then. Archived pages, early public accounts and old code commits that use the address also set a floor on its age.\n\n\nEither the address is new, or its owner has used it sparingly or carefully. For an address that supposedly has years of everyday use behind it, an empty breach history is unusual and worth a closer look. On its own it is not evidence of anything.\n\n\nCompare its domain against a maintained list of disposable and temporary-mail domains. A match is a strong signal about intent at signup. A miss tells you little, because new disposable domains appear faster than any list can track them.\n\n\nYes. Gmail delivers to the same inbox whether or not the part before the @ contains dots, and it ignores anything after a plus sign. Normalise Gmail addresses before comparing accounts, or one person running several accounts will look like several people.",
+  "published_at": "2026-09-22T00:00:00+00:00",
+  "first_seen_at": "2026-09-26T13:25:16.491331+00:00",
+  "content_hash": "sha256:ea9e00e6cda2490c94a830902a5196c88c5708e5e91793b94bae563a92bf31da"
+}
