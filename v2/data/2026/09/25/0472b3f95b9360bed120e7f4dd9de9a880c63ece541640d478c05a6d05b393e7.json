@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0472b3f95b9360bed120e7f4dd9de9a880c63ece541640d478c05a6d05b393e7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+  "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+  "summary": "Discover more about what's new at AWS with AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+  "body_markdown": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and management console screens to complete messaging tasks. Now, each skill provides your agent with step-by-step, validated guidance for tasks like verifying sending identities, building branded Rich Communication Services (RCS) agents, and sending production emails.\n\n\nThese skills integrate with popular AI coding agents including Claude Code, Codex, Cursor, and Kiro. For example, you can ask Amazon SES to verify a sending identity and send your first production email. You can ask AWS End User Messaging to build a branded RCS agent and send yourself a rich message with cards and buttons. The skills eliminate the need to manually search documentation or switch between console screens, allowing you to complete messaging workflows directly through natural language commands.\n\n\nTo use these skills, first[connect the AWS MCP Server](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html) to your agent. In Claude Code, Codex, and Cursor, the aws-core plugin bundles the server and a curated set of skills in one install. In Kiro and other agents, you add the server to your MCP configuration file. Then add the skill for the channel you want, and your agent is ready to guide you. For details on what each skill does and how to install it, see the[AWS End User Messaging SMS and RCS agent setup guide](https://docs.aws.amazon.com/sms-voice/latest/userguide/agent-setup-guide.html) , the[AWS End User Messaging WhatsApp agent setup guide,](https://docs.aws.amazon.com/social-messaging/latest/userguide/agent-setup-guide.html) and the[Amazon SES agent setup guide](https://docs.aws.amazon.com/ses/latest/dg/agent-setup-guide.html) .",
+  "published_at": "2026-09-25T07:00:00+00:00",
+  "first_seen_at": "2026-09-26T00:50:54.073928+00:00",
+  "content_hash": "sha256:b58bb9d65fb46519ac2e6c12f6dc40f638ba4b5e04a952942b5e0c266f1ce29d"
+}

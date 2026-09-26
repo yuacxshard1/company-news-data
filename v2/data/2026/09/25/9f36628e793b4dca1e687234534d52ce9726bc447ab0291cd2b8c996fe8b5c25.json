@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9f36628e793b4dca1e687234534d52ce9726bc447ab0291cd2b8c996fe8b5c25",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+  "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+  "summary": "Discover more about what's new at AWS with Amazon Transcribe adds customer-managed KMS keys for custom resources",
+  "body_markdown": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control.\n\n\nPreviously, these custom resources were always encrypted with an AWS owned key. Now you can supply your own symmetric AWS KMS key when you create or update these resources, so the artifacts Transcribe stores on your behalf are encrypted under a key in your account. If you do not provide a key, your resources continue to be encrypted with an AWS owned key—no action is required unless you opt in.\n\n\nWith a customer-managed key, you control key permissions and decide exactly which principals and services can encrypt and decrypt your custom resources. Every use of your key is logged in AWS CloudTrail, giving you a full audit trail for compliance and monitoring. You can also disable the key or transition resources to a different key to revoke access on your own schedule.\n\n\nThis feature is available in all AWS Regions where Amazon Transcribe is offered. To learn more, see[Amazon Transcribe Developer Guide](https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html) .",
+  "published_at": "2026-09-25T19:19:00+00:00",
+  "first_seen_at": "2026-09-26T00:50:54.073928+00:00",
+  "content_hash": "sha256:cc679891623c7ad9e725ece501af08faf325720a58ddd3d30982718712bb1605"
+}

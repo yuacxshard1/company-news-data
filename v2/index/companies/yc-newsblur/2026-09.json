@@ -25,7 +25,7 @@
       "company_name": "NewsBlur",
       "doc_id": "12c7a4ab2a44e40b38cf58f561599c00f25cd15a18636622abbb32e60495a9ff",
       "first_seen_at": "2026-09-18T15:36:15.018506+00:00",
-      "published_at": "2026-09-18T07:09:45+00:00",
+      "published_at": "2026-09-18T08:05:57+00:00",
       "source_kind": "rss",
       "summary": "Since upgrading to the latest version of the Android app (v15), I’ve noticed a few regressions that I wanted to highlight. For context, my normal Newsblur mobile workflow is that I scroll the ‘Unread Site Stories’ feed (set to ‘Unread - Oldest’), with items automatically marked as read as I pass them, and I open interesting ones to take a look and save ones I want to read later. Default long-press story action became ‘Share’, which was very confusing. Until now, long-pressing had always eith...",
       "title": "Android: v15 regressions"
@@ -79,6 +79,16 @@
       "source_kind": "rss",
       "summary": "I just started using NewsBlur, using the ReadKit app. I have it set to check every 30 minutes, and yet I get a 429 error all the time. Is this just par for the course or is there something I should be doing differently. I previously used Inoreader with Readkit and never had any issues like this. I did search the forum, but it sounds like the 429 is more linked to API usage, which I am not doing. Any suggestions or sharing of similar experiences would be helpful.",
       "title": "429 ALL the time"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "3af3df070293a49f1c82e69f3321428c08132f38e952a682436624a7ddfb93e9",
+      "first_seen_at": "2026-09-25T23:37:30.286552+00:00",
+      "published_at": "2026-09-25T20:39:58+00:00",
+      "source_kind": "rss",
+      "summary": "I put in https://upsilandre.over-blog.com/ to subscribe to. It failed to find the RSS feed. I put in https://upsilandre.over-blog.com/rss as that’s the exact RSS feed. It still failed. It seems that adding RSS feeds is broken.",
+      "title": "Fails to add RSS feed"
     },
     {
       "company_key": "yc-newsblur",
@@ -145,7 +155,7 @@
       "company_name": "NewsBlur",
       "doc_id": "7ccb3c7a7b2629eb5f2ef297f972056be9ddefb842d478034cc1a5a02d3832fe",
       "first_seen_at": "2026-09-17T14:29:17.033315+00:00",
-      "published_at": "2026-09-17T13:44:04+00:00",
+      "published_at": "2026-09-18T12:22:17+00:00",
       "source_kind": "rss",
       "summary": "Previous to the latest update you could mark older or newer stories for a feed as read by long pressing. Could this be restored as an option for long press? Perhaps it would need to be based on oldest/newest sorting. e.g. with oldest first it marks older stories read, with newest first it marks newer stories read.",
       "title": "Android: Restore mark older/newer read options for long press"

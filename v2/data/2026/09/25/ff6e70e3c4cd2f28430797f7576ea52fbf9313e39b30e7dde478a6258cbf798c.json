@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ff6e70e3c4cd2f28430797f7576ea52fbf9313e39b30e7dde478a6258cbf798c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+  "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+  "summary": "Discover more about what's new at AWS with AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+  "body_markdown": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and files transferred. You can filter executions by status, task, task mode, execution ID, or start time to focus on a specific set of runs. The dashboard summarizes the filtered results, including the number of successful and failed executions, and the cumulative data and files transferred, grouped by task. To troubleshoot issues, you can select a failed execution to view its errors. The dashboard also displays counts of your configured tasks, locations, and agents, along with real-time total transfer rates.\n\n\nPreviously, monitoring multiple transfers required reviewing each execution individually or building custom Amazon CloudWatch dashboards. Now you can monitor the health, performance, and progress of concurrent transfers from a single view. This is useful for large migrations and recurring transfers that run many tasks at once.\n\n\nThe AWS DataSync dashboard is available at no additional cost in all commercial AWS Regions and the AWS GovCloud (US) Regions where AWS DataSync is available. To view your dashboard, go to the[AWS DataSync console](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESVwHrOzAV20j8Wk9vTsmbIbYkRAmlzPqFHALrq6V60lbYjxzHw5x2zbIj319NQT3Omkeu_ddZIwedAWPfNk9FCqq2KWuwOIO-dn4eS5n6lZZW4uQyV6vV9w&ved=2ahUKEwjR4Z__g4qXAxV7FDQIHVs0I7EQFnoECB4QAQ&uoh=2&usg=AOvVaw3L5ZM1L-1k3SwMWi6qm9p5) . To learn more about DataSync, visit the[AWS DataSync User Guide](https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html) .",
+  "published_at": "2026-09-25T15:24:00+00:00",
+  "first_seen_at": "2026-09-26T00:50:54.073928+00:00",
+  "content_hash": "sha256:383416afd2fd40804a5238a3e53ccd9189bc43928587d110b91710223e219540"
+}

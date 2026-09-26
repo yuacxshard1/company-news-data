@@ -37,7 +37,7 @@
       "first_seen_at": "2026-08-26T22:33:18.561434+00:00",
       "published_at": "2026-08-26T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A failed payment request means a Stripe user did all the work to get a customer to pay, but lost the sale because of us. We never want this to happen. To minimize failed payments for our users, we target 99.9995% reliability. Maintaining that level of reliability while processing around 1.6% of global GDP is an exceptionally difficult technical challenge, but most of us who join Stripe’s infrastructure teams are here because we love technical challenges.",
+      "summary": "To minimize failed payments for our users, Stripe targets 99.9995% reliability. As traffic grew beyond 1.6% of global GDP, this put intense strain on the service mesh. This is the story of the infrastructure team replacing Envoy, a popular solution, with an alternative architecture.",
       "title": "Building a data plane from scratch: Stripe’s own high-performance distributed proxy"
     },
     {

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9e460eb708c1b70ab7b59318f03da2e976f88f3f7e8f6f8797a7776b9ec6993a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
+  "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
+  "summary": "Discover more about what's new at AWS with AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
+  "body_markdown": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads.\n\n\nAs more workloads move to Graviton for its price-performance benefits, they need the same disaster recovery coverage as the rest of your environment. DRS now automatically detects arm64 source servers and recovers them onto Graviton instances, preserving your workload's architecture end to end. Recovery works the same way it does for your other servers, with nothing extra to configure.\n\n\nThis capability is available in all AWS Regions where AWS DRS is offered, at no additional cost. To learn more, visit the[AWS Elastic Disaster Recovery User Guide](https://docs.aws.amazon.com/drs/) .",
+  "published_at": "2026-09-25T08:00:00+00:00",
+  "first_seen_at": "2026-09-26T00:50:54.073928+00:00",
+  "content_hash": "sha256:42f71a8ed7caad5d36472423db40744c3c5f5d8aad13fd134250a1ca4f2dc150"
+}

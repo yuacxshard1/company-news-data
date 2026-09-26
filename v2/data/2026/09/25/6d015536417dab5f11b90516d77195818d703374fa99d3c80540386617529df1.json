@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6d015536417dab5f11b90516d77195818d703374fa99d3c80540386617529df1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+  "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+  "summary": "Discover more about what's new at AWS with AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+  "body_markdown": "[AWS Identity and Access Management (IAM) outbound identity federation](https://aws.amazon.com/identity/federation/outbound-federation/) now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS) verification key endpoints from within your VPC using[AWS PrivateLink](https://aws.amazon.com/privatelink/) , without requiring traffic to traverse the public internet.\n\n\nIAM outbound identity federation eliminates the need to use long-lived credentials when your AWS workloads access external services. Instead, your workloads request short-lived JSON Web Tokens (JWTs) from AWS Security Token Service (AWS STS). External services verify these tokens using public verification keys and metadata available at OIDC discovery endpoints. Previously, the OIDC discovery endpoints were only reachable over the public internet, so a verifying workload running in a VPC without internet access could not retrieve them. With this launch, you can create an interface VPC endpoint to reach these endpoints privately, keeping the verification key retrieval traffic within the AWS network. This capability helps you meet network security requirements for workloads that operate in VPCs with restricted internet access, while still enabling external services to verify JWTs.\n\n\nThis feature is available in all commercial AWS Regions, the AWS GovCloud (US) Regions, and China Regions. There is no additional charge for this feature beyond standard[AWS PrivateLink pricing](https://aws.amazon.com/privatelink/pricing/) . To learn more, see the[IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sts_oidc_vpc_endpoint_create.html) .",
+  "published_at": "2026-09-25T17:54:00+00:00",
+  "first_seen_at": "2026-09-26T00:50:54.073928+00:00",
+  "content_hash": "sha256:746d55f6e235be144302cd8e9a802184aa1d483b3394ecd6a5833d19f0734ada"
+}
