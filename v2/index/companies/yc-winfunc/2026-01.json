@@ -67,7 +67,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Mattermost's shared HTTP service protects untrusted outbound requests by resolving the target host and passing each IP through allowIP, which calls IsRe…",
+      "summary": "CVE-2026-2455 allowed IPv4-mapped IPv6 addresses to bypass Mattermost reserved-IP checks. Review the affected link-preview path, reproduction, and fix.",
       "title": "SSRF protection bypass via IPv4-mapped IPv6 literals (CVE-2026-2455)"
     },
     {

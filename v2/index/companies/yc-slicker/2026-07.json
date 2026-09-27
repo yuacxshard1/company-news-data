@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-28T20:11:07.183640+00:00",
       "published_at": "2026-07-31T17:31:04.636+00:00",
       "source_kind": "html",
-      "summary": "Most failed payments recover silently. Automated retries handle the majority of soft declines without any customer contact. But when a payment failure...",
+      "summary": "Your dunning emails need your domain, not the vendor's. Fix deliverability with SPF, DKIM, and DMARC — explained clearly for July 2026.",
       "title": "Why Your Dunning Emails Need Your Domain, Not the Vendor's (July 2026)"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-08T17:30:49.319+00:00",
       "source_kind": "html",
-      "summary": "Stripe smart retries can handle the basics, but if you're running a high-volume subscription business and wondering why your Stripe retry setup still le...",
+      "summary": "July 2026 guide to payment retry strategy for subscription businesses — from decline code classification and retry timing to Stripe Smart Retries limitations and AI-based recovery.",
       "title": "Subscription Payment Retries: Complete Strategy Guide 2026"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-24T13:52:22.757474+00:00",
       "published_at": "2026-07-24T17:31:12.906+00:00",
       "source_kind": "html",
-      "summary": "I'll be frank: failed payments MRR is one of the most consistently misread numbers in subscription finance. The subscriber hasn't cancelled, so the reve...",
+      "summary": "Failed payments inflate MRR and suppress NRR without a single cancellation. July 2026 breakdown of how billing failures quietly distort ARR.",
       "title": "Failed Payments vs. MRR, ARR & Net Retention: The Real Impact (July 2026)"
     },
     {
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-15T09:36:55.719+00:00",
       "source_kind": "html",
-      "summary": "Most billing teams treat more retries as a safer bet. Run the full sequence, exhaust every attempt, and at least you know you tried. But retry exhaustio...",
+      "summary": "Stopping payment retries early saves your merchant account. July 2026 breakdown of decline codes, MAC stop signals, and retry limits from Visa and Mastercard.",
       "title": "Counter-Intuitive Truth: Stop Retries Earlier (July 2026)"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-23T13:51:17.466772+00:00",
       "published_at": "2026-07-24T17:31:12.669+00:00",
       "source_kind": "html",
-      "summary": "When a CFO says ARR and an investor hears annual run rate, the same business can look 20% bigger or smaller depending on whose definition wins. Annual...",
+      "summary": "Calculate and protect Annual Recurring Revenue (ARR) with this CFO guide. Covers formulas, valuation, NRR, and churn recovery strategies. July July 2026",
       "title": "Annual Recurring Revenue: CFO's Calculation Guide July 2026"
     },
     {
@@ -67,7 +67,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-21T09:49:37.078+00:00",
       "source_kind": "html",
-      "summary": "There's a gap between what your billing system does with a failed payment and what's actually possible. Stripe billing gives you stripe smart retries an...",
+      "summary": "Get the best failed payment recovery strategies for July 2026. See how smart retries, AABB testing, and AI dunning tools help subscription businesses recover",
       "title": "Best Failed Payment Recovery Strategies for Subscriptions (July 2026)"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-17T17:24:32.014+00:00",
       "source_kind": "html",
-      "summary": "I'll be frank: most of the failed payment recovery advice out there focuses on dunning, when the bigger win is usually in the retry logic that runs befo...",
+      "summary": "AI failed payment recovery goes beyond dunning — using decline codes, BIN patterns, and payday cycles to silently recover SaaS subscription revenue. Updated July 2026.",
       "title": "AI for Failed Payment Recovery in Subscription SaaS (July 2026)"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-07T10:10:25.816+00:00",
       "source_kind": "html",
-      "summary": "I'll be frank: most retry logic is built on assumptions, not data. A retry allowlist tells your system when to try again; a payment retry blocklist tell...",
+      "summary": "Stop retrying hard declines and recover more revenue. This July 2026 guide shows how to build a retry allowlist and blocklist from your last 90 days of transaction data.",
       "title": "How to Build a Retry Allowlist and Blocklist From Declines (July 2026)"
     },
     {
@@ -97,7 +97,7 @@
       "first_seen_at": "2026-07-27T19:00:04.693131+00:00",
       "published_at": "2026-07-31T17:31:04.400+00:00",
       "source_kind": "html",
-      "summary": "An expired card isn't a soft decline you can retry your way out of. The customer has to act, which makes your dunning sequence the only lever you have. ...",
+      "summary": "Compare expired card recovery email strategies across the US, UK, EU, and Australia to reduce involuntary churn in July 2026.",
       "title": "Expired Card Dunning: US vs Europe vs Australia (July 2026)"
     },
     {
@@ -117,7 +117,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-20T17:37:34.960+00:00",
       "source_kind": "html",
-      "summary": "There's a version of customer churn you can fix in days, not quarters. It's called involuntary churn, and it accounts for up to 40% of total subscriber ...",
+      "summary": "Stop losing subscribers in 2026. These 15 proven strategies cover voluntary churn reduction and involuntary churn recovery to help subscription businesses",
       "title": "Cut Subscription Churn in 2026 with These 15 Strategies"
     },
     {
@@ -127,7 +127,7 @@
       "first_seen_at": "2026-07-22T13:50:21.965986+00:00",
       "published_at": "2026-07-10T17:33:22.601+00:00",
       "source_kind": "html",
-      "summary": "When was the last time you actually calculated how much revenue your business loses to failed payments before a single customer actively cancels? For mo...",
+      "summary": "This July 2026 guide breaks down subscription revenue recovery: failed payment retries, dunning sequences, Visa and Mastercard rules, and key recovery metrics.",
       "title": "Subscription Revenue Recovery Guide: July 2026"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-22T09:48:40.382+00:00",
       "source_kind": "html",
-      "summary": "Most of us have more recurring payments running in the background than we realize. Your monthly streaming subscriptions, your phone plan, maybe a PayPal...",
+      "summary": "What is a recurring payment? Learn the definition, see examples, and know your options when a charge goes wrong. July 2026 guide.",
       "title": "What Is a Recurring Payment? Examples & How It Works (July 2026)"
     },
     {
@@ -147,7 +147,7 @@
       "first_seen_at": "2026-07-24T13:52:22.757474+00:00",
       "published_at": "2026-07-16T09:40:35.724+00:00",
       "source_kind": "html",
-      "summary": "Choosing failed payment recovery software gets complicated quickly. There are standalone retry engines, dunning tools, billing-native recovery, and full...",
+      "summary": "Learn how to choose failed payment recovery software in July 2026. Cover retry engines, dunning tools, vendor evaluation criteria, and what proof standards to",
       "title": "Failed Payment Recovery: Evaluating Categories and Vendors (July 2026)"
     },
     {
@@ -157,7 +157,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-06T17:51:39.070+00:00",
       "source_kind": "html",
-      "summary": "Failed payment recovery looks very different depending on where your customer is. India's RBI retry rules limit attempts and require pre-debit notificat...",
+      "summary": "Compare India RBI, UK Direct Debit, and Germany PayPal retry schedules for July 2026—understand attempt caps, notification rules, and payday timing to recover more revenue.",
       "title": "Country Retry Rules: India RBI, UK Direct Debit & Germany PayPal July 2026"
     },
     {
@@ -187,7 +187,7 @@
       "first_seen_at": "2026-07-24T01:52:00.901045+00:00",
       "published_at": "2026-07-14T09:34:11.824+00:00",
       "source_kind": "html",
-      "summary": "Failed payments are not a billing problem. They're a revenue problem, and the auto retry tools you're using right now are either closing that gap or qui...",
+      "summary": "Not all auto-retry tools work the same. This July 2026 comparison covers how built-in and add-on solutions differ in retry logic, soft decline routing, and",
       "title": "What Differs Between Built-In and Add-On Retry Tools July 2026"
     }
   ],

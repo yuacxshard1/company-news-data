@@ -10,8 +10,8 @@
   "canonical_url": "https://browser-use.com/changelog/16-12-2025",
   "title": "Our First Open-Source LLM",
   "summary": "30B params, 3B active. 200 tasks per $1.",
-  "body_markdown": "BU-30B-A3B-Preview is here.\n\n\n- **30B total parameters** with only **3B active** at inference time\n- **200 tasks per $1** — 4x more cost-efficient than BU 1.0\n\n\nTry it out on the library or on our cloud:\n\n\n```text\nfrom   browser_use   import   Agent\nfrom   browser_use.llm   import   ChatBrowserUse\n\n\n# Initialize with the new model\nllm   =   ChatBrowserUse(  model  =  \"bu-30b-a3b-preview\"  )\n\n\nagent   =   Agent(\ntask  =  \"Your task here\"  ,\nllm  =  llm\n)\n\n\nresult   =   await   agent.run()\n```\n\n\nDownload from[Hugging Face](https://huggingface.co/browser-use/bu-30b-a3b-preview) .",
+  "body_markdown": "BU-30B-A3B-Preview is here.\n\n\n- **30B total parameters** with only **3B active** at inference time\n- **200 tasks per $1** — 4x more cost-efficient than BU 1.0\n\n\nThe weights are open. Browser Use Cloud does not serve this model, so run it yourself:\n\n\n```text\nvllm   serve   browser-use/bu-30b-a3b-preview   --max-model-len   65536   --host   0.0.0.0   --port   8000\n```\n\n\n```text\nfrom   browser_use   import   Agent, ChatOpenAI\n\n\nllm   =   ChatOpenAI(\nmodel  =  \"browser-use/bu-30b-a3b-preview\"  ,\nbase_url  =  \"http://localhost:8000/v1\"  ,\napi_key  =  \"not-needed\"  ,\n)\n\n\nagent   =   Agent(  task  =  \"Your task here\"  ,   llm  =  llm)\n\n\nresult   =   await   agent.run()\n```\n\n\nDownload from[Hugging Face](https://huggingface.co/browser-use/bu-30b-a3b-preview) .",
   "published_at": "2025-12-16T00:00:00+00:00",
   "first_seen_at": "2026-07-21T11:46:30.502118+00:00",
-  "content_hash": "sha256:dc8cd990e3a29650971c4923c5597d6958686857275960ebd488318c7efe8b5e"
+  "content_hash": "sha256:a766f5057c2db9fdb1d507b01a97f5faa368754fca6f2848ac7f1c5a16f6f852"
 }

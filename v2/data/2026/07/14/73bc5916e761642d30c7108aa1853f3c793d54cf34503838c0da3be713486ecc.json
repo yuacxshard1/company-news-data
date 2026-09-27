@@ -11,7 +11,7 @@
   "title": "Introducing the Giga CLI",
   "summary": "The Giga CLI puts the whole platform on the command line — agents, tickets, tests, KPIs, secrets, knowledge base, and deploys. Anything you can do in the console, you can now do from your terminal, a script, a CI job, or a coding agent.",
   "body_markdown": "Improving a production support agent usually means a lot of context switching: open the dashboard, find the conversation, figure out what went wrong, edit the config, push, wait for the sync, discover a broken reference, and start over. If you spend your day in a terminal, or your coding agent does, that loop is slower than it needs to be.\n\n\nToday we’re launching the Giga CLI. It’s a single tool,` giga` , that gives you the full Giga platform from the command line: agents, tickets, tests, KPIs, secrets, knowledge base, and deploys. Anything you can do in the console, you can now do from your terminal, a script, a CI job, or a coding agent.\n\n\n```text\npip install giga-sdk\ngiga login\n```\n\n\nThat’s the whole install. The package ships both the CLI and the Python SDK (` from giga import Agent` ) from one wheel, so the tool you script with and the library you build with stay in lockstep.",
-  "published_at": "2026-07-14T00:00:00+00:00",
+  "published_at": "2026-07-14T12:00:00+00:00",
   "first_seen_at": "2026-07-21T21:36:21.137589+00:00",
-  "content_hash": "sha256:d4fcee66320d730400527b1be76e1de9fc573a20d66df5c85e6f527ad42b1634"
+  "content_hash": "sha256:75b404a7967f27113df4f30ee9ed8396d40c3f89566cf7d6eae574dac8a65f51"
 }

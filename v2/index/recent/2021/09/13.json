@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "company_key": "yc-photoroom",
+      "company_name": "Photoroom",
+      "doc_id": "088560b6bb0f3015fbeaed76c4bbf7e66bbb2ba1b1ab7ffa046807f3ff6efb4b",
+      "first_seen_at": "2026-07-23T22:00:21.557706+00:00",
+      "published_at": "2021-09-13T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Photoroom utilizes Nvidia's TensorRT to optimize background removal in its photo editing apps, achieving up to a 10x performance boost. They detail steps in a blog post, emphasizing TRTorch's efficacy for faster inference speed, particularly in FP16 mode, recommending it over FP32 for reduced inference time.",
+      "title": "4 times faster image segmentation with TRTorch"
+    },
+    {
       "company_key": "yc-posthog",
       "company_name": "PostHog",
       "doc_id": "602d27a03d18a6aec3dc965cf23f6b18ab1ac8e4c1bcc1eaa8d89aaf70a726f7",

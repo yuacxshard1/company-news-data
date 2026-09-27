@@ -25,7 +25,7 @@
       "company_name": "NewsBlur",
       "doc_id": "12c7a4ab2a44e40b38cf58f561599c00f25cd15a18636622abbb32e60495a9ff",
       "first_seen_at": "2026-09-18T15:36:15.018506+00:00",
-      "published_at": "2026-09-18T16:23:49+00:00",
+      "published_at": "2026-09-18T16:47:09+00:00",
       "source_kind": "rss",
       "summary": "Since upgrading to the latest version of the Android app (v15), I’ve noticed a few regressions that I wanted to highlight. For context, my normal Newsblur mobile workflow is that I scroll the ‘Unread Site Stories’ feed (set to ‘Unread - Oldest’), with items automatically marked as read as I pass them, and I open interesting ones to take a look and save ones I want to read later. Default long-press story action became ‘Share’, which was very confusing. Until now, long-pressing had always eith...",
       "title": "Android: v15 regressions"
@@ -113,12 +113,32 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "3e6fb3341546877d8a29bef76d11641e0af81247172be8d94b9b5f2138f2624b",
+      "first_seen_at": "2026-09-26T21:48:56.853710+00:00",
+      "published_at": "2026-09-26T15:51:51+00:00",
+      "source_kind": "rss",
+      "summary": "The new (v15) app gets stuck sliding between stories. It’ll stop halfway between the story slide, or it’ll go slow, or it’ll freeze for a moment or 20+ seconds. It’s kind of random on when it how long it’ll freeze. It makes using the app slow, especially when I’m trying to go through a couple hundred news stories in a few minutes. I’ve managed to catch it in a screen recording. Has anyone seen this?",
+      "title": "Iphone app, horizontal scrolling between stories sliggish/frozen"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "59da3bb018ef2a08e4e79003140bcf62723ea558c93f0f2071a8d91dbf81a1bc",
       "first_seen_at": "2026-09-26T10:27:50.233656+00:00",
       "published_at": "2026-09-26T06:12:20+00:00",
       "source_kind": "rss",
       "summary": "hi, i’ve been trying out NewsBlur for a few months using the free premium trial and then just the free option as i try to decide if it’s worth moving from Inoreader. I’m really enjoying doing some reading through the website so far on my android tablet and laptop but there are a few things stopping me moving completely to NewsBlur at the moment: Facebook feeds. Inoreader allows me to create feeds for a few public company pages i would like to get news from but don’t want to deal with the app...",
       "title": "Before I suscribe - updates requested on some really old questions?"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "604ac5b2d0a58cd7cbf2b6617c81a2e927f1aa2e4b9ebf534ecd5558ff70c3ab",
+      "first_seen_at": "2026-09-26T21:48:56.853710+00:00",
+      "published_at": "2026-09-26T06:18:21+00:00",
+      "source_kind": "rss",
+      "summary": "So the first problem I had was that I could no longer swipe through unread stories in folders, the app would just let me read the first 3 then say the folder had no unread stories. This was solved by turning on prefetch and downloading everything. But now after updating to version 15 downloading stories causes the entire app to stop and close if I try to open a folder. This is fixed by turning off downloading and deleting what was previously saved, but then we go back to the first problem. What...",
+      "title": "Android: trouble reading by folder with a free account"
     },
     {
       "company_key": "yc-newsblur",
@@ -165,7 +185,7 @@
       "company_name": "NewsBlur",
       "doc_id": "78df5df32de792377a642053311549c895f9eed4acfb147309c2b3ea472760ac",
       "first_seen_at": "2026-09-19T01:13:11.320431+00:00",
-      "published_at": "2026-09-18T15:52:49+00:00",
+      "published_at": "2026-09-18T16:31:19+00:00",
       "source_kind": "rss",
       "summary": "Hi NewsBlur team, I run Enzo Reader, which integrates with NewsBlur through your API. A customer reported that their NewsBlur feeds work normally in the browser, but no articles synchronize into our system. Our investigation found the same connection failure across multiple NewsBlur user connections in our production environment. Connection details Source server IP: 172.237.159.95 Destination: newsblur.com → 65.108.152.3, TCP port 443 API operation failing: POST https://newsblur.com/a...",
       "title": "Unable to access API, possibly blocked?"
@@ -189,6 +209,16 @@
       "source_kind": "rss",
       "summary": "Would it be possible to add lazy edge swipes to the iPad app? similar to what Reeder Classic has. Ever since Apple introduced windows mode for iPad OS, swiping back in the Newsblur app column auto mode when in portrait iPad orientation causes the Newsblur app window to resize. This has been especially bad in the iOS 27 beta release. The only way to go back to the feed list is to tap on the top left button, which is ok, but not ideal. So I thought if you guys could implement lazy edge swiping ak...",
       "title": "Adding lazy edge swipes to the iPad app"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "842bc866fe4afda9f95a703ceae5e89cce31f72b229479e47d2b1b970a2e1ea0",
+      "first_seen_at": "2026-08-29T10:39:01.599889+00:00",
+      "published_at": "2026-09-26T11:31:17+00:00",
+      "source_kind": "rss",
+      "summary": "Tiervâ! Might be that I’m missing something, but super dislikes don’t seem to properly hide stories based on text matching. As you can see here, the currently active story should be hidden but still shows up in the story list. But oddly enough it doesn’t count towards the total unread for this site on the site list. Have the same problem in both web and iOS. Couldn’t find a topic that would’ve perfectly fit this and didn’t want to hijack/necromance an older topic so made a new one. Sorry if...",
+      "title": "Super dislikes not hiding stories"
     },
     {
       "company_key": "yc-newsblur",

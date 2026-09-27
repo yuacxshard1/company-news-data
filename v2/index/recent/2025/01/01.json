@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2025-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Node.js permission model fails to enforce network restrictions for Unix Domain Socket (UDS) connections. With --permission enabled and without --allow-n…",
+      "summary": "CVE-2026-21636 allowed Unix domain socket connections to bypass Node.js network permission checks. Review the attack path, impact, proof, and patch.",
       "title": "Permission model bypass via unchecked Unix Domain Socket connections (CVE-2026-21636)"
     },
     {
@@ -157,7 +157,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2025-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "FastMCP.customroute() allows developers to mount arbitrary HTTP handlers intended for sensitive use cases such as OAuth callbacks or admin APIs, but it…",
+      "summary": "FastMCP custom routes could remain publicly accessible when token authentication was enabled. See the affected path, proof conditions, impact, and patch.",
       "title": "Authentication bypass on FastMCP custom routes"
     },
     {
@@ -167,7 +167,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2025-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Bun.YAML.parse materialises YAML mappings by iterating every merge (<<) entry and blindly appending the referenced property list to the target object (s…",
+      "summary": "Exponential YAML merge keys could force Bun.YAML.parse into excessive CPU work. Review the vulnerable code path, proof of concept, impact, and fix.",
       "title": "Exponential merge keys in Bun&apos;s YAML implementation leads to DoS"
     },
     {

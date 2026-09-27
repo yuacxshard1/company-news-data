@@ -257,7 +257,7 @@
       "first_seen_at": "2026-07-20T23:20:42.602972+00:00",
       "published_at": "2026-07-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Kubernetes Metrics Server explained: what it does, how to install it, and how it differs from kube-state-metrics and OpenTelemetry collection.",
+      "summary": "Kube State Metrics explained: what it exposes about Kubernetes objects, deploying it with Helm, and monitoring cluster state with OpenTelemetry.",
       "title": "Kubernetes Metrics Server | How to deploy k8s metrics server and use it for monitoring"
     },
     {
@@ -297,7 +297,7 @@
       "first_seen_at": "2026-07-25T07:54:14.074127+00:00",
       "published_at": "2026-07-02T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "The denials that show up repeatedly on PT remittances, what each one actually means, and the upstream fix that stops them from coming back.",
+      "summary": "The denials that show up repeatedly on PT/OT remittances, what each one actually means, and the upstream fix that stops them from coming back.",
       "title": "The 10 PT/OT denial codes that cause the most lost revenue"
     },
     {
@@ -1097,7 +1097,7 @@
       "first_seen_at": "2026-07-22T03:39:35.720405+00:00",
       "published_at": "2026-07-02T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "What a compliant, audit-ready field inspection record requires, why paper workflows fail at scale, and how to build a system that holds up to AER and CER review.",
+      "summary": "Learn what a compliant, audit‑ready field inspection record requires for oil, gas, and environmental operations, and how to replace paper/PDF workflows with digital reports.",
       "title": "Field Inspection Reporting for Oil, Gas & Environmental"
     },
     {
@@ -1137,7 +1137,7 @@
       "first_seen_at": "2026-07-20T23:18:32.019434+00:00",
       "published_at": "2026-07-02T12:07:22+00:00",
       "source_kind": "rss",
-      "summary": "Global Capability Centers (GCCs) have fundamentally changed their role within the enterprise, moving from delivery-focused operations to strategic engines of transformation. Today, they manage artificial intelligence (AI) systems, govern enterprise data pipelines, oversee security operations, and increasingly shape business-critical decisions.",
+      "summary": "Discover how agentic AI is reshaping cybersecurity threats and the strategies enterprises need to secure critical systems. Insights from Sify Technologies.",
       "title": "Demystifying Governance: What Can Enterprises Do When AI Starts Breaching Critical Systems"
     },
     {
@@ -1917,7 +1917,7 @@
       "first_seen_at": "2026-07-22T19:33:03.286750+00:00",
       "published_at": "2026-07-02T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Weave combines LLMs and domain-specific machine learning to understand engineering work. We understand how much work was done by AI vs. humans. How much AI is helping your team ship faster, if it's having an impact on code quality and code reviews.",
+      "summary": "Here’s a question every engineering leader is wrestling with in 2026: your team adopted Copilot, Cursor, or Claude Code months ago, so where’s the payoff? AI…",
       "title": "GetDX Competitors: Which AI Analytics Tools Outperform in 2026"
     },
     {
@@ -1927,7 +1927,7 @@
       "first_seen_at": "2026-07-21T22:23:39.163404+00:00",
       "published_at": "2026-07-02T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A copyable, reproducible contract for testing voice agent function calls, webhook actions, idempotency, side effects, and CI gates before tools rea...",
+      "summary": "Test voice agent tool calls without sharing internal traces using a copyable contract, redacted evidence envelope, shadow assertions, negative test...",
       "title": "Voice Agent Tool Call Contract Testing Template"
     },
     {
@@ -2237,7 +2237,7 @@
       "first_seen_at": "2026-07-25T10:24:54.291702+00:00",
       "published_at": "2026-07-02T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "793 live experiments across 30+ brands reveal what lifecycle messaging actually works, broken down by sector, scored on revenue actions, not opens.",
+      "summary": "793 experiments across 30+ brands, scored on revenue actions against holdouts, not opens. What works in SaaS, fintech, edtech, insurance, and wellness.",
       "title": "Lifecycle Messaging Field Guide : Can an Email win by being opened Less?"
     },
     {
@@ -2417,7 +2417,7 @@
       "first_seen_at": "2026-07-20T23:20:42.602972+00:00",
       "published_at": "2026-07-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Out-of-box application monitoring vs Prometheus exporters: what you get without wiring up exporters per service, and how OpenTelemetry compares.",
+      "summary": "Compare OpenTelemetry and Prometheus for observability: key differences, interoperability, and when to choose each, with practical guidance.",
       "title": "Bringing out of the box application monitoring to Prometheus"
     },
     {
@@ -2769,16 +2769,6 @@
       "source_kind": "rss",
       "summary": "We're proud to share that NVIDIA has featured Sharon AI in its latest announcement introducing a new business model designed to expand access to AI",
       "title": "NVIDIA Highlights Sharon AI as an Early Partner in New AI Infrastructure Initiative"
-    },
-    {
-      "company_key": "yc-enode",
-      "company_name": "Enode",
-      "doc_id": "74578b7dd55c035bb213738ed752b267daf31c25588e50776e97f3993be585aa",
-      "first_seen_at": "2026-08-31T20:12:06.664187+00:00",
-      "published_at": "2026-07-02T00:00:00+00:00",
-      "source_kind": "html",
-      "summary": "For most of the power system’s history, flexibility came from large industrial assets. That is changing. Electric vehicles, home batteries, solar panels, heat pumps and chargers are bringing flexibility into millions of homes.",
-      "title": "From connected customers to flexible homes: How Tibber and Enode are shaping the open energy ecosystem for the next grid"
     },
     {
       "company_key": "axt-inc-common-stock",
@@ -3784,7 +3774,7 @@
       "company_key": "yc-shadeform",
       "company_name": "Shadeform",
       "doc_id": "a43165354d4b9d5d5e6bb8bce3eec8dd924ef1474e302281c11676a494546842",
-      "first_seen_at": "2026-07-24T00:27:10.014959+00:00",
+      "first_seen_at": "2026-07-24T00:27:11.457199+00:00",
       "published_at": "2026-07-02T12:00:00+00:00",
       "source_kind": "html",
       "summary": "Moises is the creative suite for musicians trusted by Grammy-winning artists, prestigious institutions, and more than 73 million artists and producers across the world. Moises runs on several proprietary models that the company trains in-house using licensed materials. By working with Shadeform, Moises is able to consistently secure compute for training with unified access to 30+ providers, reduce their infrastructure complexity with a single consolidated platform, and accelerate training timelines with access to better hardware at lower prices.",
@@ -4189,6 +4179,16 @@
       "source_kind": "rss",
       "summary": "Stop manually entering SAFEs into a spreadsheet. Discover how AI-native equity software automates your cap table tracking with zero data entry.",
       "title": "Stop Manually Data-Entering SAFEs: The AI-Native Approach to Equity Management"
+    },
+    {
+      "company_key": "yc-enode",
+      "company_name": "Enode",
+      "doc_id": "b7c8fabba3548ddb7825a10e325f4eef75bced274ec15b19cabba2ebe683004d",
+      "first_seen_at": "2026-07-21T18:15:11.081738+00:00",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Flexibility used to come from large industrial assets. Tibber and Enode on how EVs, batteries, solar, and heat pumps move it into millions of homes.",
+      "title": "From connected customers to flexible homes: How Tibber and Enode are shaping the open energy ecosystem for the next grid"
     },
     {
       "company_key": "yc-cloudchipr",
@@ -5129,16 +5129,6 @@
       "source_kind": "html",
       "summary": "College ke saath part-time job dhundh rahe ho? Delivery, bike taxi aur gig jobs se Rs.10,000-20,000 per month earn karo. Zero experience chahiye. Abhi vahan.co par apply karo!",
       "title": "Students Ke Liye Gig Jobs India: College Ke Saath Karo Earn, Raho Independent"
-    },
-    {
-      "company_key": "osr-holdings-inc-common-stock",
-      "company_name": "OSR Holdings Inc.",
-      "doc_id": "e4c65bdaa8f6b6d70eb949fd0b35684c80b2fccb02d78be47a99c2a07d158a05",
-      "first_seen_at": "2026-07-23T19:28:43.942391+00:00",
-      "published_at": "2026-07-02T13:00:00+00:00",
-      "source_kind": "html",
-      "summary": "Emerging Growth Research kept its Buy-Emerging rating and $10 target. OSR Health's board approved a CVR loyalty plan, with a July 31 record date targeted.",
-      "title": "Emerging Growth Research Issues Flash Report on OSR Health, Inc., Reaffirms Buy-Emerging Rating and $10.00 Price Target"
     },
     {
       "company_key": "xeris-biopharma-holdings-inc-common-stock",

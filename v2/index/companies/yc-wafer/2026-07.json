@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Ten ways LLMs game GPU kernel benchmarks: timer tricks, garbage reads, caching, and the checks that catch them.",
       "title": "A Field Guide to Reward Hacking in AI Kernel Generation"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Our agent optimized AMD's topk_sigmoid kernel: 9× over PyTorch, step by step.",
       "title": "The Year of the LLM GPU Kernel Engineer"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Wafer and Parasail released wafer-ai/Kimi-K2.6-NVFP4: Blackwell NVFP4 weights for production Kimi K2.6 inference.",
       "title": "Quantizing Kimi K2.6 to NVFP4 for Blackwell Inference"
     },
     {
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "A fused kernel claimed 104× speedup while reading garbage, and passed checks until we added a determinism guard.",
       "title": "Case Study: A 104x (?) Speedup on KernelBench"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "How we served GLM5.2 on AMD MI355X at 2626 tok/s/node and 213 tok/s single stream at over 2x lower cost than Blackwell.",
       "title": "Performance per dollar is getting faster and cheaper"
     },
     {
@@ -67,7 +67,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Cloud CUDA builds with PTX/SASS, PyTorch headers, and VS Code integration. No local CUDA install.",
       "title": "Cloud Compiler Analyzer (PTX/SASS) Inside Your IDE"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Frontier models wrote HIP kernels for KernelBench on MI300X. We measured which ones were correct and how fast.",
       "title": "Which models are the most HIP?"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "The GPU docs tool from our IDE extension, now a standalone web app.",
       "title": "GPU Docs: Now Available on the Web"
     },
     {
@@ -97,7 +97,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "1:1 kernel mappings across providers. Diff huge vLLM traces fast with clean prefill vs decode.",
       "title": "Trace Compare: Compare vLLM traces across platforms"
     },
     {
@@ -107,7 +107,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "How custom kernels pushed our AMD MI355X deployment from a tuned baseline to leading Qwen3.5 397B throughput.",
       "title": "Achieving Heterogeneous Compute One Kernel at a Time"
     },
     {
@@ -117,7 +117,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Give your AI coding assistant direct GPUs, with no manual SSH, Docker, or infra babysitting.",
       "title": "Workspaces: GPU Compute for Your Coding Agent"
     },
     {
@@ -127,7 +127,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "ATOM on 8×MI355X leads public Qwen3.6-35B-A3B on Artificial Analysis decode and sustains ~15k tok/s per node at production latency.",
       "title": "Qwen3.6-35B-A3B on AMD MI355X: Being The Fastest With ATOM on AMD"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "A non-kernel expert hit 8× on latency-critical CUDA clustering with Wafer profile-guided optimization.",
       "title": "Nordlys Labs: 8x Faster Routing with Wafer-Guided Kernel Optimization"
     },
     {
@@ -147,7 +147,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Wafer has raised $4 million in seed funding led by Fifty Years to build AI that optimizes AI infrastructure.",
       "title": "Announcing our Seed Round"
     },
     {
@@ -157,7 +157,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "AMD profiling in VS Code and Cursor: metrics, roofline, and kernel stats without leaving the editor.",
       "title": "Introducing ROCprofiler Compute: AMD GPU Profiling in Your IDE"
     },
     {
@@ -167,7 +167,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Profiling in our CLI broke a theory-only plateau: 11.65× on the Kimi Delta Attention kernel.",
       "title": "Profile-Guided GPU Kernel Optimization"
     },
     {
@@ -177,7 +177,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "Benchmark AI-generated GPU kernels, with first results on WaferBench NVFP4 (B200) and KernelBench HIP (MI300X).",
       "title": "Introducing KernelArena"
     },
     {
@@ -187,7 +187,7 @@
       "first_seen_at": "2026-07-22T19:17:32.817594+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "The fastest inference for open models.",
+      "summary": "In our NVFP4 KernelArena suite, cpp_extension.load() hid a blind spot: JIT and CPU migration inflated kernel launch times.",
       "title": "Where Did My Microseconds Go?"
     }
   ],

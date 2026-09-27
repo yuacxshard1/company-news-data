@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-06T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Identity, registration, scoped authorization, credentials, and monitoring by default: a repeatable six-stage path to production for hundreds of agents.",
       "title": "Provisioning AI Agents at Scale"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-08T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "The most overlooked part of agent governance: retiring agents cleanly so abandoned agents don't become invisible access paths.",
       "title": "Agent Offboarding and Decommissioning"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-15T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Authentication verifies identity; authorization determines access. Why agents need both, and what changes when the actor making the request isn't a person.",
       "title": "Agent Authorization vs. Authentication"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-10T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Authorization is not one decision but several, checked in sequence. A plain walkthrough of the layers, the intersection rule, and why the two most common failures sit at opposite extremes.",
       "title": "Agent Authorization Explained"
     },
     {
@@ -67,7 +67,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-24T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "The keys, tokens, and secrets agents use to reach enterprise systems, and the operational discipline that keeps them scoped, stored, rotated, and revocable.",
       "title": "What Is Agent Credential Management?"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Inventory and registry aren't rival terms fighting over one meaning. They're sequential records, and one has to feed the other before either is useful.",
       "title": "Agent Registry vs. Agent Inventory"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-13T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "RBAC is a strong foundation for agent permissions, and a specific, predictable way it breaks. What belongs in a role, and what never should.",
       "title": "Role-Based Access Control for AI Agents"
     },
     {
@@ -97,7 +97,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-22T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Autonomy isn't binary. Reach and initiative are different questions, and the layer most models skip is whether an agent should act on its own or wait.",
       "title": "Permission Models for Autonomous Systems"
     },
     {
@@ -107,7 +107,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-03T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Managing an agent from proposal through approval, production, change management, and retirement — so agents don't drift out of control.",
       "title": "What Is Agent Lifecycle Management?"
     },
     {
@@ -117,7 +117,7 @@
       "first_seen_at": "2026-07-27T23:29:16.607948+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Secrets don't belong in prompts, configs, or repos. Scoping, separation, traceability, rotation, and revocation for the credentials agents hold.",
       "title": "Managing Secrets for AI Agents"
     },
     {
@@ -127,7 +127,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-20T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Templates, context-aware exceptions, automated reviews, and usage monitoring — bringing fragmented agent permissions into one governance model.",
       "title": "Managing Agent Permissions at Scale"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-17T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Agentic Fabriq is the identity and permissioning layer for AI agents. Per-agent identity, least-privilege access, full audit logs, and one-click revocation across MCP, OAuth, and agent frameworks. Drop-in with Okta, Azure AD, and Google Workspace.",
+      "summary": "Least privilege, action-level scopes, user-aware permissions, approvals for high-risk actions, and reviews — treating permissions as dynamic controls.",
       "title": "Agent Permissions Best Practices"
     }
   ],
