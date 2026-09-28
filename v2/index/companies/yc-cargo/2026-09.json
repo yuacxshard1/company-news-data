@@ -3,12 +3,52 @@
     {
       "company_key": "yc-cargo",
       "company_name": "Cargo",
+      "doc_id": "02dc637ae58ecc9c2f2ffe0ff63da33a85956b982af802737746ce200ccdc94b",
+      "first_seen_at": "2026-09-28T01:56:58.922035+00:00",
+      "published_at": "2026-09-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "An agent with a good model and no company context writes copy any competitor could have sent. The four things context actually means (knowledge, state, tools, memory), how to give an agent each one as code, and how to keep them true once they are deployed.",
+      "title": "Building and Contextualizing Autonomous GTM Agents"
+    },
+    {
+      "company_key": "yc-cargo",
+      "company_name": "Cargo",
       "doc_id": "0f85f344c38762d4082f7eed7b465807ebdaf1378b6e1d21ae7c2ff84981426b",
       "first_seen_at": "2026-09-22T11:31:11.436085+00:00",
       "published_at": "2026-09-22T00:00:00+00:00",
       "source_kind": "html",
       "summary": "A software factory treats go-to-market as a development process: revenue logic built, versioned and deployed as code, operated by agents that read your company's knowledge at runtime. What the model requires, and why context is the constraint rather than the model.",
       "title": "Building a Software Factory for Go-to-Market"
+    },
+    {
+      "company_key": "yc-cargo",
+      "company_name": "Cargo",
+      "doc_id": "148e445e3aa71c02feade4784ba1c96d0404b111f98fe93171e43038bbac63eb",
+      "first_seen_at": "2026-09-28T01:56:58.922035+00:00",
+      "published_at": "2026-09-07T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A clean CRM is a system with four connected parts, not a quarterly project. The matching keys, merge classes, survivorship rules and enforcement we had to write down before deduplication could run as code.",
+      "title": "CRM Hygiene: The Rules We Had to Write Down to Turn It Into Code"
+    },
+    {
+      "company_key": "yc-cargo",
+      "company_name": "Cargo",
+      "doc_id": "505fa5116ebfa2a367a31f182493c962ce3c14574e753f644cb0b648cabbde85",
+      "first_seen_at": "2026-09-28T01:56:58.922035+00:00",
+      "published_at": "2026-09-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The layer between the warehouse, the CRM and the tools reps work in. What middleware has to do that a sync does not (identity resolution, a schema contract, conflict rules, idempotency, back-pressure, a trace), and how to tell whether you need it or just need one more pipeline.",
+      "title": "Revenue Data Middleware for GTM Operations"
+    },
+    {
+      "company_key": "yc-cargo",
+      "company_name": "Cargo",
+      "doc_id": "5836801db4f1d0ef14a9e2629a231badfc087c643b33ad76e561199dd0fce8ff",
+      "first_seen_at": "2026-09-28T01:56:58.922035+00:00",
+      "published_at": "2026-09-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The same qualification rule ends up written in the CRM, the marketing tool, a warehouse model and a rep's saved view, and the four disagree. Why logic scatters across platforms, what belongs in each tool, and how to define a rule once and let every system execute it.",
+      "title": "Cross-Platform Revenue Logic: Where GTM Rules Should Live"
     },
     {
       "company_key": "yc-cargo",
@@ -29,6 +69,16 @@
       "source_kind": "html",
       "summary": "Agentic GTM infrastructure is what a self-driving GTM engine runs on: AI agents defined and deployed as code, orchestration workflows callable from the UI, the CLI, the API and agents, and one unified data model behind lead routing and scoring.",
       "title": "Building a Self-Driving GTM Engine with Agentic Infrastructure"
+    },
+    {
+      "company_key": "yc-cargo",
+      "company_name": "Cargo",
+      "doc_id": "77d06fe6149ba8a9c9b91b0a76e0047210588072063b24cacff89c7b5fe9271e",
+      "first_seen_at": "2026-09-28T01:56:58.922035+00:00",
+      "published_at": "2026-09-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Pipeline targets tell you the number missed. They do not tell you which stage leaked. How to instrument pipeline generation as a system with inputs, yield and latency per stage, what to measure at each seam, and where agents belong once the instrument exists.",
+      "title": "Revenue Pipeline Engineering: Treating Pipeline as a System"
     },
     {
       "company_key": "yc-cargo",
