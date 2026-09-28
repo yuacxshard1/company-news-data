@@ -75,7 +75,7 @@
       "company_name": "Blixo",
       "doc_id": "4ce315e6ee574619943fbeb4f9ecf3068453aee2197334f575a624a915920695",
       "first_seen_at": "2026-09-26T20:34:31.538789+00:00",
-      "published_at": "2026-09-25T10:34:28+00:00",
+      "published_at": "2026-09-23T04:36:09+00:00",
       "source_kind": "html",
       "summary": "Why Connecting Cloud AR to Versapay Payments Actually Pays Off Wire your accounts receivable cloud software into a payment platform built for AR, and billing and collection can stop being two separate jobs. Invoices can go out, payments can come in, and the two can be matched automatically instead of by hand. For subscription SaaS teams running recurring charges, that sync is often the difference between knowing your cash position today and rebuilding it from spreadsheets next week.",
       "title": "How to integrate accounts receivable cloud with Versapay payments"
@@ -89,6 +89,16 @@
       "source_kind": "html",
       "summary": "Key Takeaways Four tests (Forward, CFO, Calendar, Metric) act as one pass/fail gate. Fail any single one and the summary goes back to the author, not to the executive team. The Forward Test: a peer can forward it without narrating it, and the ask and owner stay obvious. The CFO Test: a CFO can price the decision because the summary maps to revenue, cost, risk, or time, with delay cost quantified per day. The Calendar Test: the summary names the deadline the decision has to beat, instead of floating with no date until the window closes. The Metric Test: the summary promises a number someone can measure next week, so value is verifiable rather than asserted. Review times assume a 250–500 word summary. That’s the range that holds up in practice. Related Video Watch: How to Write an Executive Summary Like a Boss by David Taylor",
       "title": "Executive Summary Report Checklist: 4 Tests That Separate Decisions From Status Updates"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "5fc0b717521661b9d5108e69f9ed21d49ebec07a70aa98840f1173f7294a3e3a",
+      "first_seen_at": "2026-09-28T06:32:55.813457+00:00",
+      "published_at": "2026-09-27T04:36:09+00:00",
+      "source_kind": "html",
+      "summary": "Before we get into it, the short version: In the public documentation reviewed, many AR and collections capabilities overlap between Quadient AR and Versapay. A smaller subset separates them. Quadient AR’s documented strengths concentrate around credit risk scoring and digital credit application workflows. Versapay’s documented strengths concentrate around multi-channel remittance capture and exception handling for unmatched payments. Pricing for both incumbents is generally quote-based. Versapay is often described as pricing by invoice volume. Blixo lists open subscription tiers on its website, while Quadient AR and Versapay use quote-only models. Public vendor materials list Sage Intacct, NetSuite, Dynamics 365, SAP, Sage X3, and Acumatica for Quadient AR. Versapay’s materials add Oracle Fusion Cloud. “Not evidenced” means missing public documentation, not necessarily a missing feature. A capability may still exist behind a demo. The verdict in one screen Quadient AR vs Versapay isn’t a better-versus-worse call. It’s a choice between upstream credit and forecasting control on one side, and front-end collaboration with faster payment application on the other. Both are cloud products. Both sell through quotes. Both make the most sense when you match them to a specific receivables bottleneck.",
+      "title": "Quadient AR vs Versapay in 2026: Portal-Led Automation or Broader Invoice-to-Cash Control?"
     },
     {
       "company_key": "yc-blixo",
@@ -145,7 +155,7 @@
       "company_name": "Blixo",
       "doc_id": "7f654ac7d5d6e21166588fd795be6f0e714c7cbb0128f39458b14f5bde3416a6",
       "first_seen_at": "2026-09-26T20:34:31.538789+00:00",
-      "published_at": "2026-09-26T10:34:28+00:00",
+      "published_at": "2026-09-24T04:36:09+00:00",
       "source_kind": "html",
       "summary": "TL;DR Cloud AR automation pulls the invoice-to-cash process out of five disconnected manual stages and wires them into one flow: generation, delivery, collections, payment, and reconciliation. Sage can cut manual AR effort right up to the moment a payment lands, but post-payment cash application can still eat hours of matching work. DSO baselines vary by business, and vendors may cite faster payment after automation, but results depend on customer behavior and terms. Mid-cycle upgrades, proration, failed-payment retries, and dunning attempts all create payment events that don’t map one-to-one to the original invoice lines. Some Sage releases include electronic payment and reconciliation capabilities, but split payments and proration can still leave manual rework behind. Automating collections speeds up your internal workflow. It does not change how long a buyer sits on a net-30 or net-60 invoice before paying.",
       "title": "Sage AR Automation 2026: Cloud Invoice Process Steps That Cut Manual Work by 70%"
@@ -183,6 +193,16 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "9b580516d93ca3a9747f1bd5bbc02069016842dc7ff0d67ec119a5bc3ce3b1dc",
+      "first_seen_at": "2026-09-28T06:32:55.813457+00:00",
+      "published_at": "2026-09-25T04:36:09+00:00",
+      "source_kind": "html",
+      "summary": "In short: Moving from batch processing to real-time data sync can produce meaningful invoicing speed gains for SMB SaaS teams, but the payoff comes on status-critical records like opportunity-to-order handoffs, invoice creation, and payment status—not historical backfills. Subscription changes such as upgrades, downgrades, and reactivations shift what a customer owes mid-cycle, and delayed billing can turn each one into a dispute. Integration platforms can provide prebuilt connectors for common CRM, commerce, and ERP systems, letting small teams wire order entry to billing through templates instead of custom code. Native CRM automation can handle internal workflows but may fail silently once the logic reaches into an external ERP or billing engine. Conflict-resolution discipline applies whether you run a couple hundred subscriptions or tens of thousands of orders, because low volume doesn’t exempt a team from duplicate-record and status-fragmentation risk.",
+      "title": "Cloud Invoice Process in 2026: Celigo’s Real-Time Sync from Order Entry to Reconciliation"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "9c9250d79ba56f15c9e62de7bf0a4380734514292175f60784b8d196ad88df8a",
       "first_seen_at": "2026-09-15T02:11:16.363353+00:00",
       "published_at": "2026-09-11T04:35:20+00:00",
@@ -199,6 +219,16 @@
       "source_kind": "html",
       "summary": "结论： 文章已完全修复，仅修正语法、拼写、未完成句子、占位符、重复和被打断的段落。数字、产品能力、价格、链接、图像和所有事实声明保持不变。段落控制在7-12词，阅读水平为10年级。图像、标题和列表结构不变。 Key Takeaways A 90-second AR snapshot pulls from four billing objects: invoices, payments, credit memos, and aging buckets. The strongest AR summaries stack three signals in one view: cash-application accuracy, live collection status, and subscription churn risk. Uncollectible rates climb steeply by aging bucket, starting around 1% for Current receivables. Blending data at the source, not in a spreadsheet afterward, is what makes the reported number trustworthy. A locked five-bucket schema (Current, 1-30, 31-60, 61-90, 91+) keeps CFOs from double-counting dollars. Invoices and payments live in the transaction ledger, aging in the receivables module, churn signals in subscription records. Frameworks disagree on aging labels. Some split Current from 1-30 days past due as separate uncollectible categories. Collecting the Data: Building the 90‑Second AR Snapshot A 90-second AR snapshot lives or dies on the pipe feeding it. Wire it straight into your billing system. Keep the records clean and current. The report mostly writes itself. Feed it stale cash-application data and no amount of formatting saves you.",
       "title": "Write an AR Summary Report Your CFO Reads in 90 Seconds"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "b5b683f256c09706be9cc5138c7768be08b21ba5dd84d296bce77e0a3d721bdd",
+      "first_seen_at": "2026-09-28T06:32:55.813457+00:00",
+      "published_at": "2026-09-26T04:36:09+00:00",
+      "source_kind": "html",
+      "summary": "The Short Version Quadient AR’s public materials emphasize credit risk scoring and Salesforce-native collections. Versapay’s public materials emphasize payment capture and buyer-facing dispute resolution. Neither vendor showed list pricing in the materials reviewed for this comparison. Quotes are typically based on feature tier or annual invoice volume, depending on the provider. Versapay’s public materials describe recurring billing and AutoPay. Quadient’s reviewed public materials do not show subscription billing. Quadient’s Salesforce-native positioning is strongest when the CRM is the operating system. If your ERP or collections workflow lives elsewhere, confirm how collections context is accessed day to day. Disclosure: Blixo is the sponsor/alternative in this comparison.",
+      "title": "Quadient AR vs Versapay for Collections and Dunning: A 2026 Buyer’s Guide"
     },
     {
       "company_key": "yc-blixo",
@@ -285,7 +315,7 @@
       "company_name": "Blixo",
       "doc_id": "f70a7cccfa3d09df64f3b3abbc4f0a7f257fe8bd6dfeaac1b59fe76715e84084",
       "first_seen_at": "2026-09-26T20:34:31.538789+00:00",
-      "published_at": "2026-09-24T10:34:28+00:00",
+      "published_at": "2026-09-22T04:36:09+00:00",
       "source_kind": "html",
       "summary": "Why a connected collect workflow beats a stack of spreadsheets Pull scattered spreadsheets, email chases, and manual bank matching into one connected invoice-to-cash process and the whole thing starts to breathe. That matters because late B2B payments are a steady drag on cash flow, whatever you’re selling. Cash stuck in receivables is cash you can’t use, so you may borrow to cover payroll, delay a hire, and forecast with limited visibility.",
       "title": "Lockstep Collect Workflow: A Cloud Invoice Process for Billing, Collections, and Cash Posting"

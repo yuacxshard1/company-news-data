@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae9f35140fb9e4bfdf0ea036c9c40b4668f3b58ec64c183adaf73fabfe2ad7a3",
+  "company_key": "yc-firezone",
+  "company_name": "Firezone",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.firezone.dev/blog/firezone-cli",
+  "canonical_url": "https://www.firezone.dev/blog/firezone-cli",
+  "title": "Firezone CLI | Firezone Blog",
+  "summary": "Control the Firezone Client from the terminal on macOS, Windows, and Linux.",
+  "body_markdown": "We are excited to announce that the Firezone desktop Clients for macOS, Windows, and Linux now come with a CLI:` firezone` . The CLI doesn't replace the GUI Client; it accompanies it. The actual tunnel runs in a privileged background process on all three platforms, and the CLI is just another interface for controlling the tunnel.\n\n\nHere is a quick demonstration:\n\n\n## What you can do with it\n\n\nThe` firezone` CLI allows you to manage the tunnel state, view Resources, and enable or disable the Internet Resource. On macOS, the CLI additionally exposes a subcommand for managing the system extension.\n\n\n## Unattended machines\n\n\nUp until now, using a service account token with the desktop Clients was not officially supported. The` firezone connect` command changes that. It supports reading a token from stdin or from the` FIREZONE_TOKEN` environment variable.\n\n\n## Getting started\n\n\nThe CLI is automatically included in the Windows and Linux Clients from version 1.5.18 and in the macOS Client from version 1.5.21. If you installed the macOS Client from the App Store or the` .dmg` , you'll need to[add a directory to your PATH](https://www.firezone.dev/kb/reference/cli/macos#putting-firezone-on-the-path) . The other installers do this automatically for you.\n\n\nFor more details, check out the knowledge base article for each platform:\n\n\n- [macOS](https://www.firezone.dev/kb/reference/cli/macos)\n- [Windows](https://www.firezone.dev/kb/reference/cli/windows)\n- [Linux](https://www.firezone.dev/kb/reference/cli/linux)",
+  "published_at": "2026-09-24T00:00:00+00:00",
+  "first_seen_at": "2026-09-28T05:48:19.251648+00:00",
+  "content_hash": "sha256:82299fbf5d1a0817bf3f20b01c83dff22d4da84caf1e1d10422fad1d8ac38e3b"
+}

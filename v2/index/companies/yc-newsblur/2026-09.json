@@ -25,7 +25,7 @@
       "company_name": "NewsBlur",
       "doc_id": "12c7a4ab2a44e40b38cf58f561599c00f25cd15a18636622abbb32e60495a9ff",
       "first_seen_at": "2026-09-18T15:36:15.018506+00:00",
-      "published_at": "2026-09-18T16:47:09+00:00",
+      "published_at": "2026-09-21T21:39:37+00:00",
       "source_kind": "rss",
       "summary": "Since upgrading to the latest version of the Android app (v15), I’ve noticed a few regressions that I wanted to highlight. For context, my normal Newsblur mobile workflow is that I scroll the ‘Unread Site Stories’ feed (set to ‘Unread - Oldest’), with items automatically marked as read as I pass them, and I open interesting ones to take a look and save ones I want to read later. Default long-press story action became ‘Share’, which was very confusing. Until now, long-pressing had always eith...",
       "title": "Android: v15 regressions"
@@ -185,7 +185,7 @@
       "company_name": "NewsBlur",
       "doc_id": "7ccb3c7a7b2629eb5f2ef297f972056be9ddefb842d478034cc1a5a02d3832fe",
       "first_seen_at": "2026-09-17T14:29:17.033315+00:00",
-      "published_at": "2026-09-18T18:19:08+00:00",
+      "published_at": "2026-09-19T07:04:21+00:00",
       "source_kind": "rss",
       "summary": "Previous to the latest update you could mark older or newer stories for a feed as read by long pressing. Could this be restored as an option for long press? Perhaps it would need to be based on oldest/newest sorting. e.g. with oldest first it marks older stories read, with newest first it marks newer stories read.",
       "title": "Android: Restore mark older/newer read options for long press"
@@ -269,6 +269,16 @@
       "source_kind": "rss",
       "summary": "NewsBlur already supports sharing a story to Evernote. Would be nice to have an integration to send the note to Joplin, which is a FOSS alternative to Evernote. I don’t use Obsidian, but I imagine as it is similar to Joplin (being a free alternative to Evernote, with an even larger userbase) could also be interesting. I don’t know about Obsidian, but Joplin supports WebClipper which might help.",
       "title": "Joplin integration"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "bdbe592a31e89909e64989998789266bec4409368c1682af91a52479cd82b877",
+      "first_seen_at": "2026-09-28T05:15:22.730522+00:00",
+      "published_at": "2026-09-28T02:24:32+00:00",
+      "source_kind": "rss",
+      "summary": "The iPad app has some new “features” that negatively impact productivity: Previously on the stories pane, you could use the up/down arrows on the Magic Keyboard to see the previous/next story. Now the up/down arrows show the previous/next feed. Most users want to review the stories in a single feed. This should be the default or there should be a way to tell the app you’re in the stories pane. When scrolling through an article, it does not stop at the end, instead, it takes you to the next art...",
+      "title": "iPad App Version 15 Strange New Behaviors"
     },
     {
       "company_key": "yc-newsblur",
