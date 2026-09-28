@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "81e7d80e12780a2593eef283479a6f88c43aaf3898fb493615cc3818cd2709fc",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/http-2-0-support/13858#post_1",
+  "canonical_url": "https://forum.newsblur.com/t/http-2-0-support/13858",
+  "title": "HTTP 2.0 support",
+  "summary": "Hiya, I’m running into an issue with the Dumbing Of Age comic’s RSS feed https://www.dumbingofage.com/feed/ where NewsBlur is reporting that it has been getting HTTP Error (426) errors for the last few days now. It looks like the site no longer responds to HTTP/1.1 requests, and is sending 426s as responses for them instead. HTTP/2.0 requests work fine! (I was able to confirm this with curl) However, the HTML of the 426 page only mentions that you need to access it via HTTPS (which I am), and ...",
+  "body_markdown": "Hiya, I’m running into an issue with the Dumbing Of Age comic’s RSS feed[https://www.dumbingofage.com/feed/](https://www.dumbingofage.com/feed/) where NewsBlur is reporting that it has been getting` HTTP Error (426)` errors for the last few days now.\n\n\nIt looks like the site no longer responds to HTTP/1.1 requests, and is sending 426s as responses for them instead. HTTP/2.0 requests work fine! (I was able to confirm this with` curl` )\n\n\nHowever, the HTML of the 426 page only mentions that you need to access it via HTTPS (which I am), and is not sending the required` Upgrade` header to let clients know they must access it via HTTP/2.0 now.\n\n\nSo I guess my questions are:\n\n\n1. Does NewsBlur support using http2 connections to retrieve feeds?\n2. If not, could it be added?\n3. If so, is it the missing` Upgrade` header causing this one to fail? I’m going to try to reach out to the webcomic author to inform them, but maybe you could add it to a list of forced http2 connections?",
+  "published_at": "2026-09-28T14:21:09+00:00",
+  "first_seen_at": "2026-09-28T17:38:42.005807+00:00",
+  "content_hash": "sha256:0b401cacb47a911f9d659496509cf3222d90162784d3aec230fe604d09daae50"
+}

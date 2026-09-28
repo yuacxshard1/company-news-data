@@ -25,7 +25,7 @@
       "company_name": "NewsBlur",
       "doc_id": "12c7a4ab2a44e40b38cf58f561599c00f25cd15a18636622abbb32e60495a9ff",
       "first_seen_at": "2026-09-18T15:36:15.018506+00:00",
-      "published_at": "2026-09-21T21:39:37+00:00",
+      "published_at": "2026-09-21T21:43:33+00:00",
       "source_kind": "rss",
       "summary": "Since upgrading to the latest version of the Android app (v15), I’ve noticed a few regressions that I wanted to highlight. For context, my normal Newsblur mobile workflow is that I scroll the ‘Unread Site Stories’ feed (set to ‘Unread - Oldest’), with items automatically marked as read as I pass them, and I open interesting ones to take a look and save ones I want to read later. Default long-press story action became ‘Share’, which was very confusing. Until now, long-pressing had always eith...",
       "title": "Android: v15 regressions"
@@ -35,7 +35,7 @@
       "company_name": "NewsBlur",
       "doc_id": "1d5850fc5d2b63c0b2379abca85b484a606c486feee73f72a80202d1faf5d11f",
       "first_seen_at": "2026-09-21T02:03:58.468016+00:00",
-      "published_at": "2026-09-20T23:51:34+00:00",
+      "published_at": "2026-09-22T03:39:28+00:00",
       "source_kind": "rss",
       "summary": "With iPadOS 27, typing “a’ on a Magic Keyboard no longer saves an item. A hard reset of the iPad doesn’t help nor does removing the iPad from the keyboard and re-attaching it. There’s no other way to save items this quickly on an iPad.",
       "title": "“S” Key Does Not Work in iPad App for Saving Items"
@@ -203,6 +203,16 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "81e7d80e12780a2593eef283479a6f88c43aaf3898fb493615cc3818cd2709fc",
+      "first_seen_at": "2026-09-28T17:38:42.005807+00:00",
+      "published_at": "2026-09-28T14:21:09+00:00",
+      "source_kind": "rss",
+      "summary": "Hiya, I’m running into an issue with the Dumbing Of Age comic’s RSS feed https://www.dumbingofage.com/feed/ where NewsBlur is reporting that it has been getting HTTP Error (426) errors for the last few days now. It looks like the site no longer responds to HTTP/1.1 requests, and is sending 426s as responses for them instead. HTTP/2.0 requests work fine! (I was able to confirm this with curl) However, the HTML of the 426 page only mentions that you need to access it via HTTPS (which I am), and ...",
+      "title": "HTTP 2.0 support"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "842bc866fe4afda9f95a703ceae5e89cce31f72b229479e47d2b1b970a2e1ea0",
       "first_seen_at": "2026-08-29T10:39:01.599889+00:00",
       "published_at": "2026-09-26T11:31:17+00:00",
@@ -319,6 +329,16 @@
       "source_kind": "rss",
       "summary": "The URL is fine and NewsBlur did find the feed. The fetch was what failed: bugs.kde.org refuses any request whose user agent looks like a desktop browser, and NewsBlur’s fetcher ends its user agent with one, so every fetch came back 403 and the feed sat empty with no title. I’ve changed the fetcher to retry with its plain NewsBlur user agent when a site does that, which bugs.kde.org accepts. Your subscription should fill in on its next fetch after the deploy, no need to re-add it.",
       "title": "Cannot add a custom atom feed from bugzilla"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "ee23638df3fd6d4658a88f6b09b7cf9ea9cccffff7ced648c1e8842177785c1a",
+      "first_seen_at": "2026-09-28T17:38:42.005807+00:00",
+      "published_at": "2026-09-28T12:43:18+00:00",
+      "source_kind": "rss",
+      "summary": "I think this started happening after the recent iOS update. The font sizes are different for the different options.",
+      "title": "Font size issue in iOS gear menu"
     },
     {
       "company_key": "yc-newsblur",
