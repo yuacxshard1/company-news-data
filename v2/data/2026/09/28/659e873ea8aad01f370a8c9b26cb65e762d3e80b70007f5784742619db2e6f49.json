@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "659e873ea8aad01f370a8c9b26cb65e762d3e80b70007f5784742619db2e6f49",
+  "company_key": "docusign-inc-common-stock",
+  "company_name": "DocuSign Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.docusign.com/blog/developers/query-agreement-data-agreement-manager-api-mcp-server",
+  "canonical_url": "https://www.docusign.com/blog/developers/query-agreement-data-agreement-manager-api-mcp-server",
+  "title": "Query Agreement Data with the Docusign Agreement Manager API or MCP Server",
+  "summary": "See how to access agreement data using the Agreement Manager API or Docusign MCP Server, with examples of when APIs or natural-language queries are the better fit.",
+  "body_markdown": "**Use case**\n\n\n**Consider using**\n\n\n**Why**\n\n\nNightly sync of agreement data to a data warehouse\n\n\nAPI\n\n\nRepeatable, high-volume, latency-sensitive\n\n\nCustom dashboard filtered by agreement status\n\n\nAPI\n\n\nStructured queries, predictable pattern\n\n\nAd-hoc query: \"Show me NDAs expiring this quarter\"\n\n\nMCP Server\n\n\nOne-time query, natural language is faster than writing code\n\n\nAI agent that monitors agreements and triggers workflows\n\n\nMCP Server\n\n\nDynamic decision-making, needs to reason about context\n\n\nBulk export of agreement metadata\n\n\nAPI\n\n\nHigh volume, structured output\n\n\nExploring agreement data during a meeting\n\n\nMCP Server\n\n\nFlexible, no code required",
+  "published_at": "2026-09-28T00:00:00+00:00",
+  "first_seen_at": "2026-09-29T15:45:51.067573+00:00",
+  "content_hash": "sha256:f8c8d07338443717237355a679a84fb09c3e3375981848471db9d7d7aea3a42b"
+}
