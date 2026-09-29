@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9b433c4b19acf633ae1ff3f104885560cbcc1e608fad4dd165f0686165d367ba",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/litellm-gateway-course",
+  "canonical_url": "https://docs.litellm.ai/blog/litellm-gateway-course",
+  "title": "Learn the LiteLLM gateway with a guided course",
+  "summary": "Follow a request through the LiteLLM gateway, Router, and SDK. A guided course for teams deploying the gateway and contributors making code changes.",
+  "body_markdown": "The[LiteLLM gateway course](https://litellm.ai/course) walks you through how the gateway, Router, and SDK work together. We built it for developers and platform teams deploying LiteLLM, and contributors who want to understand the code before opening a pull request.\n\n\n## Start with one request​\n\n\nThe first lessons follow a support app that sends a question to a model called` support-chat` . The gateway checks the caller's access. The Router chooses a deployment. The SDK translates the call into the provider's format.\n\n\nLater lessons build on that same app. You add access rules, compare routing choices, follow retries and fallbacks, and see how costs and logs are recorded.\n\n\nIn[Follow one request](https://litellm.ai/course#/lesson/request-lifetime) , you can switch between an allowed request, a denied model, and a blocked answer. Select a scenario to see which steps run and where the request stops.\n\n\n## Understand the deployment you run​\n\n\nFor platform teams, the lessons cover everyday decisions: how to give a team access to models, set a budget, choose fallbacks, and investigate a failed request.\n\n\nThe operations chapters explain how gateway workers, Redis, and PostgreSQL fit together. Other chapters cover streaming, caching, tools, and agents.\n\n\nUse the[production guide](https://docs.litellm.ai/docs/proxy/prod) alongside the course when you configure your deployment.\n\n\n## Find where a code change belongs​\n\n\nFor contributors, the course helps you find where a change belongs. A provider request in the wrong format points toward an SDK adapter. An unexpected deployment choice points toward the Router. A permission error starts with the gateway's access checks.\n\n\nThe lessons include **Why this exists** and **Where the code lives** sections. Open them to read the reason for a behavior and follow links to the relevant implementation, documentation, or tests.\n\n\nThe final chapter follows a change across the system, from a dashboard field to permissions, stored data, and the settings loaded by gateway workers. It shows you how to trace the behavior and choose what to test. The[contribution guide](https://docs.litellm.ai/docs/extras/contributing_code) covers repository setup and the pull request process.\n\n\n## Take the course​\n\n\nThe course has 83 lessons in 15 chapters. Follow the lessons in order, or use the sidebar to return to a topic. Your progress is saved in your browser. No login is required.\n\n\n**[Start the LiteLLM gateway course →](https://litellm.ai/course)**",
+  "published_at": "2026-09-28T17:00:00+00:00",
+  "first_seen_at": "2026-09-29T08:49:56.066623+00:00",
+  "content_hash": "sha256:524843537ff6f49c53b1e5404b05bdef45094a81cd51d83a6dec2136854955de"
+}

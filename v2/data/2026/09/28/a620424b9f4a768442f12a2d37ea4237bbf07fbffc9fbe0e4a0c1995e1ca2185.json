@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a620424b9f4a768442f12a2d37ea4237bbf07fbffc9fbe0e4a0c1995e1ca2185",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+  "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
+  "summary": "Discover more about what's new at AWS with Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
+  "body_markdown": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands MongoDB API compatibility and improves query performance, making it easier to migrate MongoDB workloads to Amazon DocumentDB without application code changes.\n\n\nKey new capabilities in version 8.0.2 include:\n\n\n- Retryable Writes — insert, update, and delete operations automatically retry on transient network errors, improving application resilience during failovers.\n- New aggregation stages — $setWindowFields (with its full set of window operators), $bucketAuto, $facet, $graphLookup, and correlated $lookup, enabling advanced analytics, faceted search, and hierarchical queries.\n- Change stream enhancements — the $changeStreamSplitLargeEvent stage splits change events larger than the 16 MB limit into fragments, and change streams now emit events for createCollection and createIndex operations.\n- Query performance improvements — enhancements to the query planner add index-only scans for find and aggregation queries, index scans on $expr predicates, incremental sort, and faster count and countDocuments() operations.\n- Index management — support for the reIndex command on partial indexes.\n\n\nThese capabilities are available starting from Amazon DocumentDB 8.0.2 in all regions where Amazon DocumentDB is available. To learn more, see[Supported MongoDB APIs, operations, and data types](https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html) and[Amazon DocumentDB release notes](https://docs.aws.amazon.com/documentdb/latest/developerguide/release-notes.html) .",
+  "published_at": "2026-09-28T08:00:00+00:00",
+  "first_seen_at": "2026-09-29T08:47:35.056571+00:00",
+  "content_hash": "sha256:e3b4197cf9f2fc3f7d557bc965fbf815179369ffd9938b7f6958e7e4089a08e3"
+}

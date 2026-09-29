@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f88b9a850c8ed00b54186407e3f0a46faf22e33c415506228aba476061bd3b9e",
+  "company_key": "yc-lemonslice",
+  "company_name": "LemonSlice",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://lemonslice.com/blog/what-is-a-character-world-model",
+  "canonical_url": "https://lemonslice.com/blog/what-is-a-character-world-model",
+  "title": "What is a character world model?",
+  "summary": "What a character world model is, and how it compares with the other ways to render an interactive, realtime avatar: a 3D game engine, a deepfake, and a two-stage model.",
+  "body_markdown": "## 3D game engine avatars\n\n\nA 3D model driven by blendshapes and canned animations. 3D models are controllable, predictable and cheap to run, but every character takes weeks or months to build. Every change — like a new outfit or gesture — takes another few weeks. And this approach is limited to cartoons.\n\n\nAudio\n\n\nVisemes\n\n\nRigged 3D model\n\n\nRender\n\n\nInteractive avatar\n\n\nWeeks to build\n\n\nCartoon only\n\n\n## Deepfake avatars\n\n\nA video recording of a person talking is played forwards and backwards in an infinite loop, while new lip sync is applied to the mouth region. This approach never escapes the uncanny valley since the face and body language does not match the audio being said. Cannot be very expressive otherwise the gestures feel repetitive.\n\n\nPre-recorded video\n\n\nMouth warp to new audio\n\n\nCompositing\n\n\nInteractive avatar\n\n\nAlways uncanny\n\n\nPhotorealistic only\n\n\nMulti-hour training\n\n\n## Two-stage avatars\n\n\nA two-stage model that goes from audio to keypoints (or some intermediate representation) and then keypoints to RGB pixels. The generative model can either be zero-shot or trained per character. Techniques range from a dead puppet moving its lips to great — but this approach cannot do avatar-object interactions, moving backgrounds, or non-human characters. No provider taking this approach has done hand gestures or whole body motions, though it is theoretically possible.\n\n\nAudio\n\n\nKeypoints\n\n\nRGB rendering\n\n\nInteractive avatar\n\n\nNo avatar-object interactions\n\n\nNo non-human characters",
+  "published_at": "2026-09-28T00:00:00+00:00",
+  "first_seen_at": "2026-09-29T09:16:45.084263+00:00",
+  "content_hash": "sha256:0c5fac5c4d7b8be756848f04ac3b78ef53e0b612d399e205da954f70c7ec7c53"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "75c82243882bb3839afc6fce4afa7aacfe19eb1027ce891fabf7b4e159508563",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+  "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
+  "summary": "Discover more about what's new at AWS with Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
+  "body_markdown": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes starting with engine version 8.0.2, eliminating the need for additional code changes when enabling this capability.\n\n\nWith retryable writes, the MongoDB driver automatically retries certain write operations one time if a transient error occurs. Most current MongoDB-compatible drivers enable retryable writes by default. With this release, applications connecting to Amazon DocumentDB 8.0.2 no longer need to set retryWrites=false in the connection string to avoid errors. Retryable writes are supported for all write commands except updateMany and deleteMany, as well as transaction commit and abort commands. On engine versions earlier than 8.0.2, retryable writes remain unsupported and must be disabled.\n\n\nRetryable writes are available on Amazon DocumentDB 8.0.2 instance-based and serverless clusters in all regions where Amazon DocumentDB 8.0 is available. To get started with retryable writes, see the[Amazon DocumentDB developer guide](https://docs.aws.amazon.com/documentdb/latest/developerguide/retryable-writes.html) .",
+  "published_at": "2026-09-28T08:00:00+00:00",
+  "first_seen_at": "2026-09-29T08:47:35.056571+00:00",
+  "content_hash": "sha256:c85977050d924605b5cf8c660598e0df8077a59b017a51cf2fd8e9c59677bd6c"
+}
