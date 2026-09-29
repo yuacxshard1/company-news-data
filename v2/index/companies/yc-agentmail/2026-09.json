@@ -113,6 +113,16 @@
     {
       "company_key": "yc-agentmail",
       "company_name": "AgentMail",
+      "doc_id": "7ba7c49f0ad2d0d67386ebaaef0fc15fc27686c26d6ed23a7a421b45f4c30654",
+      "first_seen_at": "2026-09-28T22:13:49.581632+00:00",
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Catch-all plus a database row is a bad pattern for agents that reply or scale. Create one inbox per agent for identity, reputation, and thread state.",
+      "title": "Catch-all vs an inbox per agent"
+    },
+    {
+      "company_key": "yc-agentmail",
+      "company_name": "AgentMail",
       "doc_id": "7d97280cf3ae8bd5772158267c2af8acc39a137fab5e4aabb57ee983dc7ed6f3",
       "first_seen_at": "2026-09-13T12:42:04.123803+00:00",
       "published_at": "2026-09-12T00:00:00+00:00",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "272e7f45c76b531acea29553f168a8ba4eaacd2ea298066bd34958cdd1c6bdfa",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/scaling-scritchy-scratchy-across-platforms",
+  "canonical_url": "https://unity.com/blog/scaling-scritchy-scratchy-across-platforms",
+  "title": "Scaling Scritchy Scratchy across platforms",
+  "summary": "Learn how Scritchy Scratchy used Unity to port the game across PC, mobile, Nintendo Switch, and Nintendo Switch 2 while maintaining performance and tactile gameplay.",
+  "body_markdown": "**What performance targets did you set for each platform, and how close did you land?**\n\n\n**EK:** We established minimum supported OS and API levels on mobile and then tested against devices near the lower end of that range.\n\n\nOnce we implemented the GPU-instancing fix for the particle system, we weren’t seeing meaningful frame rate issues on those devices\n\n\nOn iOS, we specifically tested devices including the iPhone X and iPhone XS to make sure the game ran well on the hardware we wanted to support. We followed the same philosophy on Android.\n\n\n**CL:** *Scritchy Scratchy* needs to feel smooth because scratching stops being satisfying immediately if the game is lagging.\n\n\nThe requirement was that it should feel like scratching a physical scratch-off with your finger. In practice, that meant targeting the smoothness you get around 60 fps.\n\n\n**CBT:** Resolution was another challenge. We designed the original game for a widescreen PC display. Most landscape phone resolutions translated fairly naturally, but the iPad aspect ratio was more difficult.\n\n\nWe had enough time before release to make the iPad version work as well. That involved adjusting the presentation and using some zooming in and out to make the layout fit naturally.\n\n\nThe goal was that regardless of whether someone first encountered *Scritchy Scratchy* on PC, a phone, or an iPad, it should feel like it belongs on that device rather than like a compromised port.",
+  "published_at": "2026-09-28T00:00:00+00:00",
+  "first_seen_at": "2026-09-28T18:56:01.428569+00:00",
+  "content_hash": "sha256:9ba8be2dceecb670fc0d79b4094e0ccb8dfa319193a6f00658d539ea50a05fc9"
+}
