@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ac92497e04365df3feb0333a88320340e1e1513693edf91ea1aae9c92fc18701",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/regulatory-limits-dont-trade-against-yield-your-optimizer-should-know-that",
+  "canonical_url": "https://www.reactwise.com/news/regulatory-limits-dont-trade-against-yield-your-optimizer-should-know-that",
+  "title": "Regulatory limits don't trade against yield. Your optimizer should know that.",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "Regulatory limits don't trade against yield. Your optimizer should know that.\n\n\nLet’s assume you're optimizing a late-stage step. You want yield up and cycle time down, and there's a genotoxic impurity that has to stay below 0.1%.\n\n\nThree objectives, but they don't have the same standing.\n\n\nYield and cycle time genuinely trade against each other. Push on one and you give up some of the other.\n\n\nThe impurity doesn't work that way. At 0.09% you have a process. At 0.11% you have a failed batch, and no amount of extra yield buys the specification back.\n\n\nA weight says: more of this is better, and I'll accept less of it if I get enough of something else. So a run that breaches the limit can still score well if the yield is high.\n\n\nA threshold says: below this line, nothing else counts. Anything that violates it is discarded, and the optimizer works within what's left.\n\n\nGetting this wrong is quiet. The campaign runs, the score improves, and you arrive at a well-optimized process that doesn't meet spec - because nobody told the system that one objective was a wall rather than a slope.\n\n\nIn @ReactWise you can set either. Weight the things that genuinely trade, and set hard thresholds on the ones that don't.\n\n\nMaximize yield, minimize cycle time, never exceed the impurity limit. That's not three objectives of equal standing. It's two objectives and a threshold that must be met.\n\n\n‍",
+  "published_at": "2026-09-29T00:00:00+00:00",
+  "first_seen_at": "2026-09-29T02:42:50.605649+00:00",
+  "content_hash": "sha256:42c084ddfcd801ed6779439396f1462d51f065e6442c0eefc12f66cd50ac1147"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "173751e8a5576ba31d6282abdac37e73f5b2aeb52f593a8b0f075402cfdd84d2",
+  "company_key": "yc-momentic",
+  "company_name": "Momentic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://momentic.ai/blog/mo-launch",
+  "canonical_url": "https://momentic.ai/blog/mo-launch",
+  "title": "Mo: A Future Without Tests",
+  "summary": "Mo is Momentic's AI QA engineer: point it at your app, tell it what to test, and get back a bug report with repro steps and video. No scripts to write.",
+  "body_markdown": "We spent more than two years making test automation easier to build with Momentic. Now you don't have to touch one ever again.\n\n\nCustomers kept telling us the same thing: \"I don't want another script to write and maintain.\" and \"I'm paying double, both for QA and now a testing tool that we have to use.\"\n\n\nPlaywright, Selenium, Cypress - even modern testing tools still leave you with an artifact your team has to own. A framework your engineers and agents have to learn and keep in sync as your product evolves. For fast-moving teams shipping thousands of PRs daily, that's overhead you can't afford.\n\n\n**So we built Mo.**\n\n\n## How Mo works\n\n\nGive it a URL or a build of your mobile app, and tell it what to test. That's it.\n\n\nYou can also attach a PRD, Linear ticket, or Confluence doc when the agent needs more context. Mo launches hundreds of agents, works through the relevant user flows, explores thousands of permutations and edge cases, and records every interaction.\n\n\nThen it gives you the part you actually wanted from the start: a bug report. What was tested, what failed, reproduction steps, and video evidence of each one.\n\n\n**No script to write. No test suite to maintain. Your team does not have to do anything.**\n\n\n## Why this matters now\n\n\nAI code generation has made shipping code exponentially faster. But testing hasn't caught up. There is still a massive verification bottleneck: how do teams make sure software still works for end users? Code is shipping at unprecedented volumes and breakneck speed, also introducing more bugs and incidents, which has vastly eroded the confidence that software actually works.\n\n\nWhen coding agents can spin up new features in hours, the last thing your team needs is to spend days writing test scripts that won't even cover half the edge cases.\n\n\nMo changes that equation. Your agents write code. Mo bug bashes literally everything. Your agents review results and fix issues. Done.\n\n\n## Try Mo today\n\n\nFor the past few weeks, engineering teams at Notion, Glide, Superpower and others have been putting Mo through its paces on their own apps. Across the beta: Mo ran 1,100+ bug bashes and caught 3,500 verified bugs.\n\n\nMo is free to try. Point it at your app, tell it what matters, and watch it test every single nook and cranny.\n\n\n[Try Mo](https://app.momentic.ai/mo) |[See a demo](https://momentic.ai/sales)",
+  "published_at": "2026-09-28T15:00:00+00:00",
+  "first_seen_at": "2026-09-29T00:55:41.132676+00:00",
+  "content_hash": "sha256:d6784a1fba7f860bb79cd8a19f043634ffd7a81ca5def31f76343de1f207d749"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "73c670ac44406fc217809f33e3b518e7d23660d7784a0400fb69775b47f50b68",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
+  "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
+  "summary": "Discover more about what's new at AWS with AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
+  "body_markdown": "AWS Backup logically air-gapped vault now supports Amazon FSx for NetApp ONTAP. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event.\n\n\nYou can now protect your Amazon FSx for NetApp ONTAP volumes in logically air-gapped vaults. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed keys. You can store your FSx for NetApp ONTAP backups in a logically air-gapped vault in the same account or across other accounts and Regions. This helps reduce the risk of downtime, ensure business continuity, and meet compliance and disaster recovery requirements.\n\n\nYou can get started using the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. Target FSx for NetApp ONTAP backups to a logically air-gapped vault by specifying it as the primary target or copy destination in your backup plan. Share the vault for recovery or restore testing with other accounts using AWS Resource Access Manager (RAM), or safeguard vault access during account compromise using[Multi-party approval](https://docs.aws.amazon.com/aws-backup/latest/devguide/multipartyapproval.html) . Once available, you can initiate direct restore jobs from that account, eliminating the overhead of copying backups first.\n\n\nThis support is available in all AWS Regions where both logically air-gapped vault and Amazon FSx for NetApp ONTAP are available. For more information and detailed regional availability, visit the[AWS Backup documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region) . To learn more about logically air-gapped vaults, visit the[feature documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html) and[pricing page](https://aws.amazon.com/backup/pricing/) .",
+  "published_at": "2026-09-28T08:00:00+00:00",
+  "first_seen_at": "2026-09-29T01:29:03.160072+00:00",
+  "content_hash": "sha256:a580876b90d1a30bbea0e012d876c1017a74d205c62ab5901b3f3f0301770166"
+}

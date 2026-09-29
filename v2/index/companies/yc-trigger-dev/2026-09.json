@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-trigger-dev",
+      "company_name": "Trigger.dev",
+      "doc_id": "7126d98293ccdc14e3aa7061465dca8205ec4ca479bb89cb5dc88583280cec2b",
+      "first_seen_at": "2026-09-29T00:33:11.931916+00:00",
+      "published_at": "2026-09-28T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We had to upgrade our 56TB Aurora Postgres cluster by 31 July without taking Trigger.dev down. Instead of moving the database, we made the problem smaller: new runs and the control plane went to PlanetScale, and the old runs stayed behind.",
+      "title": "Upgrading a 56TB database that's growing at 250GB per day with (nearly) no downtime"
+    }
+  ],
+  "company_key": "yc-trigger-dev",
+  "month": "2026-09"
+}

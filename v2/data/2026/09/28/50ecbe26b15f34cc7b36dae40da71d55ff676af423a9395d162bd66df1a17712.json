@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "50ecbe26b15f34cc7b36dae40da71d55ff676af423a9395d162bd66df1a17712",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/simulator-use-can-now-test-iphone-duo",
+  "canonical_url": "https://bitrig.com/blog/simulator-use-can-now-test-iphone-duo",
+  "title": "Simulator Use Can Now Test iPhone Duo",
+  "summary": "Bitrig can control the Duo’s orientation and hinge angle to test your app in every pose. Code Mode and accessibility tree diffs make those tests faster and more token efficient.",
+  "body_markdown": "We shipped[iPhone Duo support](https://bitrig.com/blog/bitrig-builds-iphone-duo-apps) in Bitrig the day the Xcode 27.1 beta was released. It includes a photorealistic 3D simulator you can grab and fold to watch how your app adapts.\n\n\nBut Bitrig could only test whichever display you’d left open. It couldn’t open, close, or rotate iPhone Duo on your behalf.\n\n\nToday, that changes:\n\n\n**Bitrig can now fold iPhone Duo and test how your app responds in every pose.**\n\n\n[Simulator Use](https://bitrig.com/blog/bitrig-simulator-use) can set the Duo’s orientation and hinge angle anywhere from closed to flat, delivering live hinge changes to your app while the 3D simulator moves to match. When the active display changes, Bitrig’s taps, screenshots, and accessibility checks follow it from the cover to the inner display and back.\n\n\nWe’ve also made Simulator Use faster and more token efficient. With Code Mode, Bitrig can write a short script to fold the phone, tap through your app, take a screenshot, and check that the expected controls appeared, all in one call. With accessibility tree diffs, Bitrig can check how your app responded to an interaction by reading only what changed, rather than the whole accessibility tree every time.\n\n\nWhether you’re building a new app for iPhone Duo, adapting an existing one, or turning a[Figma design](https://bitrig.com/blog/turn-figma-designs-into-native-swift) into a working prototype, Simulator Use lets Bitrig handle the rote work of testing, so you can focus on what makes your app unique.",
+  "published_at": "2026-09-28T00:00:00+00:00",
+  "first_seen_at": "2026-09-29T01:58:36.722657+00:00",
+  "content_hash": "sha256:f17f52960b2a106f9f1067a048b008d621fb21811152acc96f6261c36806138d"
+}

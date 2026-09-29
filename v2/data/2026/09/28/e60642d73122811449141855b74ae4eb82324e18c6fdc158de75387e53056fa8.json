@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e60642d73122811449141855b74ae4eb82324e18c6fdc158de75387e53056fa8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
+  "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
+  "summary": "Discover more about what's new at AWS with Amazon Rekognition Face Liveness now returns Feedback Codes",
+  "body_markdown": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check received a low score and how users could retry successfully. The codes are returned in the GetFaceLivenessSessionResults API response, and they identify the specific conditions that contributed to the low score, such as poor lighting, face obstruction, closed eyes, or low video quality. Customers can surface these codes to their end users who can then make targeted corrections and retry with confidence. A single session can return multiple Feedback Codes at once, allowing users to resolve all contributing issues in one retry. This feature is especially useful in identity verification onboarding, re-authentication flows, and accessibility scenarios.\n\n\nAmazon Rekognition Face Liveness verifies that the person in front of the camera is a real, live human (instead of a photo, video replay, mask, or deepfake) through a short, guided selfie-video check. It returns a confidence score, a reference image for face matching, and session audit images.\n\n\nRekognition Face Liveness is available in US East (N. Virginia), US West (Oregon), Europe (Ireland), Asia Pacific (Tokyo, Mumbai, Malaysia, Thailand), and South America (São Paulo). To learn more, visit the[Amazon Rekognition Face Liveness API documentation](https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness-programming-api.html) and[Face Liveness FAQ](https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness-faq.html) .",
+  "published_at": "2026-09-28T20:41:00+00:00",
+  "first_seen_at": "2026-09-29T01:29:03.160072+00:00",
+  "content_hash": "sha256:ecf281e8be6420e7af33e8a438d6308ab8d247f9ca4af422596a9479ad88780e"
+}
