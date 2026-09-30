@@ -19,6 +19,16 @@
       "source_kind": "rss",
       "summary": "Extreme Agent ONE Coworker, now generally available, is the next generation of agentic AI for networking that helps IT teams solve issues 15x faster Extreme Networks , Inc. (NASDAQ: EXTR) today announced the general availability of Extreme Agent ONE™ Coworker , the next generation of agentic AI for enterprise networking. Now available to all Extreme Platform ONE™ customers worldwide as part of their subscription, Agent ONE Coworker scales IT expertise and delivers recommendations rooted in each team’s specific network environment, enabling them to resolve issues up to 15x faster and move from reactive issue resolution to proactive planning and prevention. Extreme Agent ONE Coworker is available now to all Extreme Platform ONE customers worldwide as part of their subscription. Today’s enterprise environments are complex, and network teams spend hours or days gathering information and troubleshooting while also struggling to hire and retain qualified engineers. Unlike traditional",
       "title": "Extreme Delivers Industry's First Proactive, Context-Aware AI Agent for Networking"
+    },
+    {
+      "company_key": "extreme-networks-inc-common-stock",
+      "company_name": "Extreme Networks Inc.",
+      "doc_id": "9bf8c2332d83f1b495e1fcd0ed9b47b172daff30a76d7f49cae82168a867135b",
+      "first_seen_at": "2026-07-20T04:35:47.988677+00:00",
+      "published_at": "2026-09-30T12:50:05+00:00",
+      "source_kind": "rss",
+      "summary": "Parsing CMS AuthEnvelopedData message with maliciously crafted AEAD parameters can trigger a stack buffer overflow. A stack buffer overflow may lead to a crash, causing Denial of Service, or potentially remote code execution. When parsing CMS AuthEnvelopedData structures that use AEAD ciphers such as AES-GCM, the IV (Initialization Vector) encoded in the ASN.1 parameters is copied into a fixed-size stack buffer without verifying that its length fits the destination. An attacker can supply a crafted CMS message with an oversized IV, causing a stack-based out-of-bounds write before any authentication or tag verification occurs. Applications and services that parse untrusted CMS or PKCS#7 content using AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM) are vulnerable. Because the overflow occurs prior to authentication, no valid key material is required to trigger it. While exploitability to remote code execution depends on platform and toolchain mitigations, the stack-based write primitive represents a severe risk. Products not listed in the Impact Details section have not been evaluated. Furthermore, products that have exceeded any software maintenance time periods are also not evaluated and will not be published. Please consult End of Sale and End of Service Life - Extreme Networks for the EOL notices related to the product under question.",
+      "title": "SA-2026-007 - OpenSSL CMS AuthEnvelopedData Buffer Overflow (CVE-2025-15467)"
     }
   ],
   "company_key": "extreme-networks-inc-common-stock",

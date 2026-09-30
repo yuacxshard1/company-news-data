@@ -8,10 +8,10 @@
   "source_kind": "atom",
   "url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.1.0-alpha.8",
   "canonical_url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.1.0-alpha.8",
-  "title": "1.1.0-alpha.8",
+  "title": "Tracecat 1.1.0-alpha.8",
   "summary": "",
-  "body_markdown": "release: 1.1.0-alpha.8",
-  "published_at": "2026-09-30T00:26:41+00:00",
+  "body_markdown": "## Breaking changes\n\n\n- fix(agents)!: Enforce sandbox memory budgets with cgroups ([#3654](https://github.com/TracecatHQ/tracecat/pull/3654) )\n\n\n## Agents\n\n\n- feat(agents): Add GPT-6 Sol, GPT-6 Luna, and GPT-6.1 Sol to catalog ([#3660](https://github.com/TracecatHQ/tracecat/pull/3660) )\n\n\n## Engine\n\n\n- fix(engine): Classify unreachable join failures as user errors ([#3580](https://github.com/TracecatHQ/tracecat/pull/3580) )\n\n\n## API\n\n\n- feat(rbac): Add SCIM provisioning API ([#3530](https://github.com/TracecatHQ/tracecat/pull/3530) )\n- feat(rbac): Add SCIM data model ([#3659](https://github.com/TracecatHQ/tracecat/pull/3659) )\n\n\n## User interface\n\n\n- feat(ui): Add SCIM organization settings ([#3531](https://github.com/TracecatHQ/tracecat/pull/3531) )\n\n\n**Full Changelog** :[1.1.0-alpha.7...1.1.0-alpha.8](https://github.com/TracecatHQ/tracecat/compare/1.1.0-alpha.7...1.1.0-alpha.8)",
+  "published_at": "2026-09-30T16:03:25+00:00",
   "first_seen_at": "2026-09-30T01:52:36.871853+00:00",
-  "content_hash": "sha256:291759ca4c4f669ed687673153da673c604a6aa7d6aa5701066a0d41497f7c9d"
+  "content_hash": "sha256:3cf17d3684a421203dcee2820a4f6fe46dcc355f47c6a07602c9675fa334c549"
 }
