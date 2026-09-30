@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "467046d7dcf521ad0132791567a3c51081ea0972b059f2b94a8c6242bada5893",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
+  "title": "Amazon RDS now adds full snapshot size information to the Console and API",
+  "summary": "Discover more about what's new at AWS with Amazon RDS now adds full snapshot size information to the Console and API",
+  "body_markdown": "Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the new field, ‘FullSnapshotSizeInBytes’. They can also view this on the console with the ‘Full Snapshot Size’ column.\n\n\nAmazon RDS snapshots are incremental. This means that if you take multiple snapshots of a volume over time, each snapshot only stores the new or modified blocks while maintaining references to unchanged blocks from previous snapshots. The ‘FullSnapshotSizeInBytes’ field shows you the total size of all blocks that make up a snapshot, including both the blocks stored directly in that snapshot and all blocks referenced from previous snapshots. For instance, if you have a 100 GB database volume with 50 GB of data, the ‘full snapshot size’ would show 50 GB regardless of whether it's the first snapshot or a subsequent one. Please note that this is different from the incremental snapshot size, which only refers to the size of newly changed blocks stored in that specific snapshot.\n\n\nFull snapshot size is available all Amazon RDS database instances in all commercial AWS Regions. You can start using it today through the Amazon RDS Management Console, the AWS Command Line Interface (CLI), or the AWS SDKs. To learn more, see the[Amazon RDS User Guide.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html)",
+  "published_at": "2026-09-29T21:00:23+00:00",
+  "first_seen_at": "2026-09-29T22:47:21.930325+00:00",
+  "content_hash": "sha256:5c1d636552f851c0ae767cb0bfeaa33c58a3f13964d09772f7320b1359bca7b7"
+}

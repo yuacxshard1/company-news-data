@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4f28d4e0ba2f24b383134e167150464dd9c9e7bbd7ea632279fa2ca93f8b936a",
+  "company_key": "entegris-inc-common-stock",
+  "company_name": "Entegris Inc.",
+  "category_key": "industrials-cb8757a58a3ca860",
+  "category_name": "Industrials",
+  "source_kind": "rss",
+  "url": "https://blog.entegris.com/revisiting-euv-reticle-pod-particle-generation",
+  "canonical_url": "https://blog.entegris.com/revisiting-euv-reticle-pod-particle-generation",
+  "title": "Revisiting EUV Reticle Pod Particle Generation",
+  "summary": "Revisit how Entegris' NX EUV reticle pod design achieved a 95% reduction in particle generation after 2,500 cycles. Read the white paper today.",
+  "body_markdown": "Revisiting EUV Reticle Pod Particle Generation\n\n\nThe result that got our attention was simple. After 2,500 EOP cycles, particle levels in the new Entegris NX design dropped to about 5 percent of the baseline.\n\n\n*Figure 1 95% Particle Count Comparison After 2.5k EOP (EUV Inner Pod)*\n\n\nThe difference comes down to the interface. In conventional EIP (EUV Inner Pod) designs, repeated cycling creates wear at the metal sealing surfaces, generating particles within the pod environment\n\n\nPrevious design work focused on improving that interface through surface finish and coatings. Those approaches reduced wear to some extent, but particle generation remained present as long as contact was maintained.\n\n\nIn the new NX design, direct metal-to-metal contact at the sealing interface is eliminated through a controlled separation architecture\n\n\n. A polymer standoff architecture maintains a controlled separation between the sealing surfaces, preventing direct metal-to-metal interaction, while maintaining alignment and sealing performance.\n\n\n*Figure 2 Mechanical wear at EIP sealing surfaces generates particles*\n\n\nBy removing the primary wear-driven particle generation mechanism at the sealing interface, particle levels were reduced by approximately 95 percent in comparative cycling tests relative to conventional pod designs.\n\n\n*Figure 3 No Metal Contact Plate System*\n\n\n[Read the white paper](https://www.entegris.com/en/home/resources/reference-materials/white-papers/revisiting-particle-generation-in-euv-reticle-pods--wear-mechani.html) to explore the mechanism, measurements and design changes behind a 95 percent reduction in particle generation.",
+  "published_at": "2026-09-29T15:14:17+00:00",
+  "first_seen_at": "2026-09-29T18:43:08.221889+00:00",
+  "content_hash": "sha256:400555cd8065d442c95c5bb3e691b6e6cf30fe1e1e5cbdd8ce1f8300d6c1a9ef"
+}

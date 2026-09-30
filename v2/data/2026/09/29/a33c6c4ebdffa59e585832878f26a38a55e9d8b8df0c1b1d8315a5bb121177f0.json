@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a33c6c4ebdffa59e585832878f26a38a55e9d8b8df0c1b1d8315a5bb121177f0",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-datasync-shared-vpcs/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-datasync-shared-vpcs/",
+  "title": "AWS DataSync now supports shared VPCs",
+  "summary": "Discover more about what's new at AWS with AWS DataSync now supports shared VPCs",
+  "body_markdown": "AWS DataSync now supports shared Virtual Private Clouds (VPCs). You can create DataSync agents and run transfer tasks using subnets shared across AWS accounts with AWS Resource Access Manager (RAM). It allows you to transfer data privately over a shared subnet and VPC endpoint managed in a central account, rather than one per account.\n\n\nCustomers that centralize their networking previously had to create a separate DataSync VPC endpoint in every account that connected privately through AWS PrivateLink. Each endpoint consumed IP addresses and added operational overhead to maintain across accounts. With shared VPC support, a single endpoint in the account that owns the VPC serves every account the subnet is shared with, conserving IP address space and removing the need for a per-account endpoint. This launch also helps within a single account setup. You can now use one VPC endpoint across multiple subnets, removing the earlier requirement for a matching VPC endpoint in each subnet.\n\n\nShared VPC is supported for both Enhanced mode and Basic mode agent-based tasks. To get started, create a DataSync agent using the console or the CreateAgent API and specify a subnet shared with your account via AWS RAM. AWS DataSync support for Shared VPCs is available in all AWS Regions, except AWS Secret Regions, where AWS DataSync is offered. To learn more, visit the[AWS DataSync feature documentation](https://docs.aws.amazon.com/datasync/latest/userguide/choose-service-endpoint.html#datasync-in-vpc) .",
+  "published_at": "2026-09-29T08:00:00+00:00",
+  "first_seen_at": "2026-09-29T22:47:21.930325+00:00",
+  "content_hash": "sha256:643fe92b89e9302f213db7cc8bf14d2e543ba37b770630995af6264dad623628"
+}

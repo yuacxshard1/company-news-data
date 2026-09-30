@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dece209d74f476f70d576173fc4b2db11625cd117995561ff0f90d3a0dd5dff3",
+  "company_key": "yc-opalite-health",
+  "company_name": "Opalite Health",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opalitehealth.com/blog/medical-interpretation-error-taxonomy",
+  "canonical_url": "https://opalitehealth.com/blog/medical-interpretation-error-taxonomy",
+  "title": "Medical Interpretation Error Types and Patient Safety",
+  "summary": "Explore the four types of medical interpretation errors and their patient safety consequences in clinical settings, Sept 2026.",
+  "body_markdown": "###\n\n\nThe four types are omissions, additions, substitutions, and distortions. Substitutions are the hardest to catch because they produce plausible-sounding output that neither provider nor patient flags as wrong; \"chest tightness\" becoming \"chest pain\" can redirect an entire diagnostic workup before anyone realizes the original meaning was replaced.\n\n\n###\n\n\nYes, any interpretation system is subject to the same error taxonomy. What separates purpose-built AI medical interpreters from general-purpose tools is whether the quality framework directly targets these failure modes; Opalite's Guardian framework runs real-time checks for negation errors, numeral errors, semantic drift, and medical terminology accuracy, the exact categories where clinical harm concentrates.\n\n\n###\n\n\nOpalite supports more than 150 languages and dialects through real-time AI medical interpretation; NoBarrier covers roughly 45 languages via AI interpretation and Lexi covers approximately 35+. For healthcare organizations serving patients who speak less common languages, that gap matters most, since those encounters are precisely where credentialed human interpreters are hardest to staff and where structured error-reduction controls around omissions, substitutions, and distortions have the least backup.\n\n\n###\n\n\nBack-translation checks, encounter auditing against recorded or transcribed sessions, credentialing standards such as National Board of Certification for Medical Interpreters requirements, and structured patient feedback collection are the most reliable detection methods. Layering multiple controls catches more error types, since omissions tend to surface through back-translation while distortions are more likely to appear in direct encounter auditing.\n\n\n###\n\n\nSubstitutions and distortions are most dangerous in medication reconciliation, discharge instructions, symptom elicitation during triage, informed consent discussions, and behavioral health encounters. A substituted dosage frequency can cause under-dosing or overdosing; a distorted symptom description during triage can send a differential diagnosis in the wrong direction from the first minutes of a visit.",
+  "published_at": "2026-09-29T06:23:25.850+00:00",
+  "first_seen_at": "2026-09-29T20:13:36.119853+00:00",
+  "content_hash": "sha256:44d372979cb0aabbd0d826f22780bae82191860e03abbdfe4e63bd93fe634df9"
+}

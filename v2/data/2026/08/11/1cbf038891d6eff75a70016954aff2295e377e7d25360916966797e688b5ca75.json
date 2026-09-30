@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1cbf038891d6eff75a70016954aff2295e377e7d25360916966797e688b5ca75",
+  "company_key": "mongodb-inc-class-a-common-stock",
+  "company_name": "MongoDB Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.mongodb.com/company/blog/channel/builder-blog",
+  "canonical_url": "https://www.mongodb.com/company/blog/channel/builder-blog",
+  "title": "MongoDB Builder Blog",
+  "summary": "MongoDB's blog includes technical tutorials, MongoDB best practices, customer stories, and industry news related to the leading non-relational database.",
+  "body_markdown": "### Agent Orchestration and Tool Use: The Machinery Underneath\n\n\nThe MongoDB blog has made the case for bounded autonomy1, and cataloged the design patterns that produce safe agents2. Earlier entries in this series introduced the harness, the layer of code and configuration around the model that determines whether an agent works in production. A recent formal definition of the agent harness3 names four elements: an agent loop, a tool interface, context management, and control mechanisms. The control mechanisms are where the concerns in this post live. This entry covers the layer those design patterns sit on top of—the runtime loop itself, and the machinery that determines whether the loop survives contact with production. Framework, harness, orchestration, and platform name four distinct layers, and this post is about the third. Architects and platform builders evaluating that layer will find four questions at the end for auditing an existing one.\n\n\nAugust 11, 2026",
+  "published_at": "2026-08-11T00:00:00+00:00",
+  "first_seen_at": "2026-09-29T19:08:52.419624+00:00",
+  "content_hash": "sha256:285322cde40f28d541ae306187607011953cc30e8d8cc98d9cf0250d85911604"
+}

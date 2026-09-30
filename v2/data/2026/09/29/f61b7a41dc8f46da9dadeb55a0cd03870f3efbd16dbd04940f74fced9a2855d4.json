@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f61b7a41dc8f46da9dadeb55a0cd03870f3efbd16dbd04940f74fced9a2855d4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/",
+  "title": "Amazon WorkSpaces Applications introduces unified graphics images",
+  "summary": "Discover more about what's new at AWS with Amazon WorkSpaces Applications introduces unified graphics images",
+  "body_markdown": "Today, Amazon WorkSpaces Applications announces unified graphics images, a single image type that works across all supported graphics instance families, including G4dn, G5, G6, and G7. Previously, each graphics generation required its own dedicated image. Now customers can use one image to create and manage fleets on any supported graphics instance family.\n\n\nUnified graphics images simplify image management and make it easier to adopt newer GPU generations as they become available. When creating a fleet using the unified graphics image, the console displays all compatible instance types, so you can choose the right price and performance for your workload. Fleets built on a unified graphics image can also change instance types across supported families using the console or the UpdateFleet API, an operation previously limited to sizes within a single instance family.\n\n\nUnified graphics images are available in all AWS commercial and AWS GovCloud (US) Regions where Amazon WorkSpaces Applications graphics instances are supported.\n\n\nTo get started, upgrade an existing graphics image through Managed Image Update or launch an image builder from a unified base image. To learn more, visit the[Amazon WorkSpaces Applications documentation](https://docs.aws.amazon.com/appstream2/latest/developerguide/unified-graphics-images.html) .",
+  "published_at": "2026-09-29T17:00:00+00:00",
+  "first_seen_at": "2026-09-29T22:47:21.930325+00:00",
+  "content_hash": "sha256:9ffb1671a04a9516783f93ad89a54f2ca31f0a651df0da7fb69b31def0aea674"
+}

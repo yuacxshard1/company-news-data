@@ -23,6 +23,16 @@
     {
       "company_key": "yc-replit",
       "company_name": "Replit",
+      "doc_id": "d0079b2011a4efdddbcd3ae408bed8580d66a67ce998b88b21e730729d867816",
+      "first_seen_at": "2026-09-29T20:41:54.585357+00:00",
+      "published_at": "2026-09-29T16:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Model routers are everywhere right now, but they have a fundamental limitation. No matter if based on advanced heuristics or a small model that reads each turn and picks which LLM to use, a router will always be less capable than the model it’s choosing for. Replit Agent lets the model decide instead. The main agent, or core loop, chooses its subagents’ tier and effort, and adjusts its own as the task unfolds. Given that freedom, GPT-6 Astra hands routine implementation to less costly subagents and decides for itself where its tokens are worth spending. On both DeepSWE and Terminal-Bench, Replit Agent is Pareto-efficient against Astra on its own: no published Astra baseline costs less and scores higher. It also beats a sidekick architecture, the same setup with one long-lived worker, by 11 and 16 points. Why we scaffold less Every model release invalidates assumptions baked into the harness. As models become stronger at long-horizon tasks, they don’t need as much scaffolding at the harness layer. In practice, we’ve observed them lean more towards delegation on their own: using subagents for context management and parallelism. Recent breakthroughs, Navier–Stokes among them, came in part from coordinating swarms of agents powered by frontier models [1]. But the frontier is jagged. The strongest coding model is not necessarily the strongest at designing UIs or making slides, nor the best at writing emails. So we design our harness to let each model work its own way, with the guardrails it still needs and quality at minimum cost as the goal.",
+      "title": "Free the models: Harness design at the frontier"
+    },
+    {
+      "company_key": "yc-replit",
+      "company_name": "Replit",
       "doc_id": "fb5d1962969e1ccb2ccd859f5e0a95dae4077fe620d5d3c599b5c82c0347689e",
       "first_seen_at": "2026-09-09T07:55:48.793918+00:00",
       "published_at": "2026-09-08T16:07:55+00:00",
