@@ -1,0 +1,186 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "064c9cd24fdc6ec0786a4fc011e97a62a3852a602abcfdc40af1a38c3a76f2f8",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:55:34+00:00",
+      "source_kind": "html",
+      "summary": "Compare E2B and Beam for RL environments: GPU sandboxes, session caps, forking, and what 1,000 parallel rollouts cost on each. Pick the right fit in minutes.",
+      "title": "E2B vs Beam for RL Environments"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "29c4a0158a9f9d3e51d44ac43410e0035efd2a85fff018b47766dfb03fc3938b",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:49:34+00:00",
+      "source_kind": "html",
+      "summary": "Run multi-GPU training without Kubernetes: attach several GPUs to one container, launch PyTorch DDP with torchrun, scale to zero, and pay per second.",
+      "title": "Multi-GPU Training Without Kubernetes"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "29d6399acf6bad36d5cf8e210c6ae062c878c878da8ddc4aa92782cb4164260f",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:54:34+00:00",
+      "source_kind": "html",
+      "summary": "Back your verifiers or OpenEnv RL environment with a secure sandbox: gVisor isolation, GPU when the reward needs it, and rollouts that fan out to zero.",
+      "title": "Building RL Environments with Verifiers and OpenEnv"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "33c0c2b0aea9868685afdd8294573b19ececfc471c978ab6f9668d58c67ba213",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T22:13:25+00:00",
+      "source_kind": "html",
+      "summary": "Compare RTX 4090 cloud pricing from four providers against the 14-provider median, see who undercuts Beam, and learn when serverless beats an always-on GPU.",
+      "title": "NVIDIA RTX 4090 Pricing"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "4b86a6310803c18dfbff5ac5e82789a372c2852d80e42160ee09e061fdb31f15",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:52:34+00:00",
+      "source_kind": "html",
+      "summary": "Fan out thousands of RL rollouts across isolated sandboxes from one pool. Snapshot-restore each episode, bound stragglers, and scale to zero between updates.",
+      "title": "Scaling RL Rollouts with Parallel Sandboxes"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "531489d5e48e679408531e6ab3c689bc907668a580c3fe0080d260f7cba90570",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T22:10:25+00:00",
+      "source_kind": "html",
+      "summary": "Compare NVIDIA L40S cloud pricing across 6 providers, from marketplace floors to AWS VMs, and see what the premium over an RTX 4090 or RTX 5090 buys you.",
+      "title": "NVIDIA L40S Pricing"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "641b144be40c3728abac8057bb005968d3d82ad992c3de0872a0d2f0d8fabaa8",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:53:34+00:00",
+      "source_kind": "html",
+      "summary": "Embed millions of documents in hours. Fan out an open-source model across GPUs with one .map() call, pay per second, skip per-token API fees.",
+      "title": "Batch Embeddings at Scale on Serverless GPU"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "76cd2ceaadf295ed8431fdf6506a5d14e99bc9c04b396168eaa698f1a84d840d",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T22:09:25+00:00",
+      "source_kind": "html",
+      "summary": "Compare NVIDIA RTX PRO 6000 cloud pricing across 7 providers, check stock and spot options for the 96GB Blackwell card, and find where a full card costs less.",
+      "title": "NVIDIA RTX PRO 6000 Pricing"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "81f4a2c665a8b8a46f6453cf3780cb5dd83d7509112f182b205fe834d28a79aa",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:56:34+00:00",
+      "source_kind": "html",
+      "summary": "Schedule GPU jobs with one cron decorator. The GPU starts when the job fires and scales to zero when it ends, so nightly runs bill by the second, not the month.",
+      "title": "GPU Cron Jobs: Run Scheduled Jobs on GPUs"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "947f8e97c8677d1d633a92022c8b21435dfba90431b6ea340d88d2cc6363dfbb",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T22:14:25+00:00",
+      "source_kind": "html",
+      "summary": "Compare NVIDIA H200 pricing across 7 cloud providers, from single-GPU rentals to 8-GPU AWS and Azure instances, and see when its extra memory beats an H100.",
+      "title": "NVIDIA H200 Pricing"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "971f5c2af4504adef16bb823c8c18566a5531274a24b985bb568498bc98c5a78",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T22:11:25+00:00",
+      "source_kind": "html",
+      "summary": "Compare NVIDIA A100 80GB cloud pricing across 8 providers, from PCIe marketplace cards to SXM4 nodes and hyperscaler VMs, and see where to rent one for less.",
+      "title": "NVIDIA A100 Pricing"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "af90580ea8866db711436dfe7efebf5e89540085efa04b7aad13924fab7832e3",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T22:16:25+00:00",
+      "source_kind": "html",
+      "summary": "Compare NVIDIA H100 PCIe pricing across 8 cloud providers, see what the PCIe card gives up versus SXM5, and find the cheapest way to rent one by the hour.",
+      "title": "NVIDIA H100 Pricing"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "b23982bf94a446acbb4534c92db1826ae05204bf7ac3be70aa1c9e762bf5b6d1",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:58:34+00:00",
+      "source_kind": "html",
+      "summary": "Keep your OpenAI SDK code and swap in an open model. Run vLLM on a serverless GPU with one Python object, auth built in, and scale to zero when traffic stops.",
+      "title": "Using OpenAI-Compatible API for Open-Source LLMs"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "c58112165cb0ae479afe0da0a01fed1935643e10a2cca486baf0f85386400d72",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:48:34+00:00",
+      "source_kind": "html",
+      "summary": "Cut cold-start latency on serverless GPU inference: load the model once, snapshot the container, keep a warm pool. Boot in 1-3s and pay per second on Beam.",
+      "title": "Fast Cold Starts for Serverless GPU Inference"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "ddd90fd6ad0e7fdba89b4915c089e591f70a3a1aad0ca5192c4930977af214be",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T22:12:25+00:00",
+      "source_kind": "html",
+      "summary": "Compare RTX 5090 cloud pricing across five providers and the market median, see who undercuts Beam's on-demand rate, and learn when serverless pays off.",
+      "title": "NVIDIA RTX 5090 Pricing"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "dfa3b1ba21eee6ac63eeb07bb3936125a62e75eb47bfba0f2ea2df9bfdf3dc5e",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:50:34+00:00",
+      "source_kind": "html",
+      "summary": "Host an MCP server in an isolated sandbox and run its tool calls safely — public HTTPS endpoint in seconds, gVisor isolation, scale to zero. Start free.",
+      "title": "How to Host an MCP Server and Run Tools in a Sandbox"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "e51022e5ef8e8ac13af1f93bc8e0fe372bfafbb12566ade2bbf1776f8035d1d4",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:51:34+00:00",
+      "source_kind": "html",
+      "summary": "Run model-generated code as an RLVR reward: score each rollout in a gVisor sandbox with hard time and memory caps, non-zero exit fails the check.",
+      "title": "A Guide to Sandboxed Code Execution for RLVR Rewards"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "e7afb155ffdbbf947c29a9c0907da9de34a476191de93777d52389452605ef85",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-09-29T20:57:34+00:00",
+      "source_kind": "html",
+      "summary": "Add one decorator and your Python function runs on a cloud GPU. Code syncs, billing runs per millisecond while it works, and the GPU shuts off when it returns.",
+      "title": "How to Run a Python Function on a Cloud GPU"
+    }
+  ],
+  "company_key": "yc-beam",
+  "month": "2026-09"
+}
