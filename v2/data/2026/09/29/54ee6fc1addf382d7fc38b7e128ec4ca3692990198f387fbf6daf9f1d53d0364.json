@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "54ee6fc1addf382d7fc38b7e128ec4ca3692990198f387fbf6daf9f1d53d0364",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
+  "title": "Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
+  "body_markdown": "We're excited to announce the availability of Anthropic's[Claude Opus 5,](https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5.html)[Claude Sonnet 5](https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html) , and[Claude Haiku 4.5](https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html) on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well as Claude Sonnet 5 in Singapore. Customers who need to process data within a specific geography, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country.\n\n\nIn India, the regional endpoint is served through geographic cross-Region inference across the Mumbai and Hyderabad Regions. Customers in India can access these models while processing data in India Regions, in addition to the already supported global cross-Region inference.\n\n\nIn South Korea, Amazon Bedrock supports Claude Opus 5 and Claude Sonnet 5 models with in-region inference on the bedrock-runtime endpoint in the Seoul (ap-northeast-2) Region. In Singapore (ap-southeast-1), Amazon Bedrock supports Claude Sonnet 5 with in-region inference on the bedrock-runtime endpoint. Amazon Bedrock processes inference requests and data within the Region you call, and the processing never leaves that Region.\n\n\nFor the most current information about model availability in each Region,[see Regional availability by models](https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic) in the Amazon Bedrock User Guide.",
+  "published_at": "2026-09-29T15:41:00+00:00",
+  "first_seen_at": "2026-09-30T05:35:47.164587+00:00",
+  "content_hash": "sha256:4fe48f43922271c4f7dbf3163deb41f6db23d1538a566a67a74fcc7436890ad9"
+}

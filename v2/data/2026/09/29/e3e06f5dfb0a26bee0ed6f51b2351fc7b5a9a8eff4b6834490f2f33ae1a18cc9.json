@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e3e06f5dfb0a26bee0ed6f51b2351fc7b5a9a8eff4b6834490f2f33ae1a18cc9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+  "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
+  "body_markdown": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you already use.\n\n\nBMA manages how the model preserves state, selects and uses tools, executes code, and coordinates work across multiple steps and decisions. Durable sessions retain messages, tool calls, and intermediate results so you can return later, provide new information, and continue from the progress already made. You can add reusable skills for specialized procedures and connect agents to tools, including via Model Context Protocol (MCP) servers. Each agent operates with its own IAM role, supports human approval before consequential actions, and records supported API activity with AWS CloudTrail.\n\n\nDuring preview, there is no additional charge for BMA beyond the underlying AWS resources your agents consume. Pricing is subject to change at general availability.\n\n\nGet started with Amazon Bedrock Managed Agents today through supported APIs. BMA is available in preview in US East (N. Virginia), US West (Oregon), and US East (Ohio). For details, see the[Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-managed-agents-openai.html) .",
+  "published_at": "2026-09-29T21:10:00+00:00",
+  "first_seen_at": "2026-09-30T05:35:47.164587+00:00",
+  "content_hash": "sha256:c6c9faff3bf97e940dfe3fe1b87a5e5d7e729e302ddc08501ba5b7e437eb340b"
+}
