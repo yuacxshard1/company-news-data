@@ -17,7 +17,7 @@
       "first_seen_at": "2026-08-04T20:49:17.876217+00:00",
       "published_at": "2026-08-04T19:10:11+00:00",
       "source_kind": "rss",
-      "summary": "Detect common symbols in piping and instrumentation diagrams, then use OCR to extract text from instrument-related regions.",
+      "summary": "P&ID symbol detection with RF-DETR: train on 3,800 images, hit 99.2% mAP, and extract instrument tags with OCR to digitize engineering drawings.",
       "title": "P&ID Symbol Detection for Engineering Drawing Digitization"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-09-01T19:06:33.725393+00:00",
       "published_at": "2026-08-24T10:01:00+00:00",
       "source_kind": "rss",
-      "summary": "Learn how to use computer vision to detect defects in ceramic material.",
+      "summary": "Automate ceramic tile defect detection with computer vision. Roboflow's RF-DETR finds holes, lines, and edge chipping, no code needed.",
       "title": "Ceramic Defect Detection with Computer Vision"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-08-04T20:49:17.876217+00:00",
       "published_at": "2026-08-04T20:38:56+00:00",
       "source_kind": "rss",
-      "summary": "Train RF-DETR to detect people and vehicles that appear small in aerial imagery, then build a Roboflow Workflow that counts detections and uses Gemini to inspect the scene.",
+      "summary": "Detect small objects in drone imagery. Train RF-DETR, then count people and vehicles and inspect scenes with Gemini using Roboflow Workflows.",
       "title": "How to Detect Small Objects in Drone Imagery"
     },
     {
@@ -337,7 +337,7 @@
       "first_seen_at": "2026-08-06T21:53:54.463207+00:00",
       "published_at": "2026-08-03T18:23:00+00:00",
       "source_kind": "rss",
-      "summary": "Learn how to recognize performance decline, data drift, new edge cases, and other signs that indicate a computer vision model needs retraining.",
+      "summary": "Retrain a computer vision model when production evidence shows decline: 5 signs, a 5-question decision framework, and when not to retrain.",
       "title": "How Often Should You Retrain a Computer Vision Model?"
     }
   ],

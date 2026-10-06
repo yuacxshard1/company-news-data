@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "806d2791e96e9e0fc895a1aed87a58207815ec28ce0cb06e1e25113a948365da",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
+  "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
+  "summary": "Discover more about what's new at AWS with AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
+  "body_markdown": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file transfer needs grow without waiting for manual approval.\n\n\nThe default quota remains 100 SFTP connectors per AWS account in each AWS Region, and you continue to request increases in the AWS Service Quotas console. Previously, all quota increases required manual approval. Automatic approval applies to connectors using either service-managed or Amazon VPC Lattice egress. If you need more than 1,000 connectors, submit a higher quota request in the Service Quotas console.\n\n\nThis feature is available in all AWS Regions where Transfer Family SFTP connectors are offered. To learn more, visit the[AWS Transfer Family SFTP connectors documentation](https://docs.aws.amazon.com/transfer/latest/userguide/creating-connectors.html) .",
+  "published_at": "2026-09-30T08:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:fe884f0d42c6576a9535daefc383d2712fd6f3114dbd143b17fab51d0b44a45a"
+}

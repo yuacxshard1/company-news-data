@@ -1547,7 +1547,7 @@
       "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
       "published_at": "2026-08-25T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "An access-control bug (CVE-2026-71509, CVSS 6.5) let Dolibarr employees approve their own expense claims and their team's, bypassing separation of duties.",
+      "summary": "CVE-2026-71509 lets low-privilege Dolibarr users approve expense claims through a mass-assignment flaw. See the exploit, impact, CVSS 6.5 score, and fix.",
       "title": "CVE-2026-71509: Employees Can Approve Their Own Expenses"
     },
     {
@@ -6661,16 +6661,6 @@
       "title": "Eos Energy Enterprises Appoints Michelle Buczkowski as Chief Commercial Officer"
     },
     {
-      "company_key": "yc-flowspace",
-      "company_name": "Flowspace",
-      "doc_id": "8455f78d6467a48d6b4d20059be8ed507bd2ce1388ec4ad3558db4b709580a97",
-      "first_seen_at": "2026-07-28T02:37:59.853977+00:00",
-      "published_at": "2026-08-25T14:55:08.738+00:00",
-      "source_kind": "html",
-      "summary": "Comparing the best 3PL providers for Shopify brands in 2026. See how Flowspace, ShipBob, ShipMonk, Stord, Red Stag, and ShipHero stack up on integration depth, inventory visibility, returns, and fit by growth stage.",
-      "title": "Best 3PL for Shopify in 2026: Evaluating top providers"
-    },
-    {
       "company_key": "fidelis-insurance-holdings-limited-common-shares",
       "company_name": "Fidelis Insurance Holdings Limited Common Shares",
       "doc_id": "847cf0c29ad6818d4698ec7a0c0293b4c6b1a8884bdd18c9db8bc2d56c9c7ad6",
@@ -7477,7 +7467,7 @@
       "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
       "published_at": "2026-08-25T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A mass assignment bug (CVE-2026-71508, CVSS 6.5) let Dolibarr employees rewrite their own salary through a profile update, hidden from the API response.",
+      "summary": "CVE-2026-71508 lets low-privilege Dolibarr users rewrite salary, bonus and cost fields through the REST API. Learn the exploit, impact and fix.",
       "title": "CVE-2026-71508: Mass Assignment Bug Rewrites Salary"
     },
     {

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "36a90c5d0f9096e6c4333433839c894219a2a8f1d6022fc11e99972e7e2bcf1d",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+  "canonical_url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+  "title": "Limits of Confidence in Diffusion",
+  "summary": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step…",
+  "body_markdown": "[Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why](https://machinelearning.apple.com/research/unmasking-on-policy-distillation)\n\n\nJuly 9, 2026\n\n\n[research area Methods and Algorithms](https://machinelearning.apple.com/research/?domain=Methods%20and%20Algorithms) ,[research area Speech and Natural Language Processing](https://machinelearning.apple.com/research/?domain=Speech%20and%20Natural%20Language%20Processing)\n\n\nOn-policy distillation offers dense, per-token supervision for training reasoning models; however, it remains unclear under which conditions this signal is beneficial and under which it is detrimental. Which teacher model should be used, and in the case of self-distillation, which specific context should serve as the supervisory signal? Does the optimal choice vary from one token to the next? At present, addressing these questions typically…\n\n\n[Read more](https://machinelearning.apple.com/research/unmasking-on-policy-distillation)\n\n\n[Position Prediction as an Effective Pre-training Strategy](https://machinelearning.apple.com/research/position-prediction)\n\n\nJuly 11, 2022\n\n\n[research area Methods and Algorithms](https://machinelearning.apple.com/research/?domain=Methods%20and%20Algorithms)\n\n\n[conference ICML](https://machinelearning.apple.com/research/?event=ICML)\n\n\nTransformers have gained increasing popularity in a wide range of applications, including Natural Language Processing (NLP), Computer Vision and Speech Recognition, because of their powerful representational capacity. However, harnessing this representational capacity effectively requires a large amount of data, strong regularization, or both, to mitigate overfitting. Recently, the power of the Transformer has been unlocked by self-supervised…\n\n\n[Read more](https://machinelearning.apple.com/research/position-prediction)",
+  "published_at": "2026-07-09T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T16:29:42.907282+00:00",
+  "content_hash": "sha256:f59c52d5e541d5d2297dc96f3ac74adc4e7bd49aedab7d61bbd6b52fc209210a"
+}

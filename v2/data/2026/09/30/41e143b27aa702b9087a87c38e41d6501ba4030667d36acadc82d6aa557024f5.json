@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "41e143b27aa702b9087a87c38e41d6501ba4030667d36acadc82d6aa557024f5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+  "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
+  "summary": "Discover more about what's new at AWS with AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
+  "body_markdown": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the[Agent Toolkit for AWS](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/what-is-agent-toolkit.html) with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws agent-toolkit check-skill-updates to compare all installed skills against the latest versions available in the registry, and use aws agent-toolkit update-skill --all to update every outdated skill in a single command.\n\n\nThe Agent Toolkit for AWS consists of the AWS MCP Server (which provides a secure, auditable agent interface to 15,000+ AWS APIs), agent skills (which give agents expert guidance across storage, networking, analytics, and more), and plugins (which bundle the MCP server and curate sets of skills into a single install). Previously, customers needed to check and update each skill individually. With these additions to AWS CLI, developers can quickly identify which skills have newer versions available and bring their entire skill set current without managing updates one at a time. This is especially useful for teams that have installed many skills across serverless, storage, networking, analytics, and other domains, and want to ensure their coding agents always operate with the latest guidance. These new commands are added to the existing set of AWS CLI capabilities for the Agent Toolkit, which already allows customers to install, search, and configure the AWS MCP Server and agent skills across Kiro, Claude Code, Codex, Cursor, and other popular coding agents.\n\n\nTo get started, see[AWS CLI](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/aws-cli.html) in the Agent Toolkit for AWS user guide. Make sure you have AWS CLI version 2.37.0 or later installed. The AWS MCP Server is available in the US East (N. Virginia) and Europe (Frankfurt) Regions.",
+  "published_at": "2026-09-30T20:16:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:4abd6f02e01c376394847dcef1a07fbb606e48b7ddc2aff04121c8a3146c29c7"
+}

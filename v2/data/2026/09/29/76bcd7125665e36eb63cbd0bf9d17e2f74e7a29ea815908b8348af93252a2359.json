@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "76bcd7125665e36eb63cbd0bf9d17e2f74e7a29ea815908b8348af93252a2359",
+  "company_key": "yc-sixtyfour",
+  "company_name": "Sixtyfour",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sixtyfour.ai/blog/how-to-link-related-accounts",
+  "canonical_url": "https://www.sixtyfour.ai/blog/how-to-link-related-accounts",
+  "title": "How to link related accounts in a trust and safety investigation",
+  "summary": "Shared IPs, devices and cards connect accounts, and they also connect strangers. How to weigh each link, and when a cluster is really one operator.",
+  "body_markdown": "Multi-accounting is one person or group running several accounts on a platform in a way that breaks its rules, usually to reuse a sign-up promotion, get around a ban, inflate reviews or ratings, or spread activity across accounts so that none of them crosses a detection threshold. Having more than one account is not always against the rules, which is why linked accounts need to be judged by what they do as well as by what they share.\n\n\nBy comparing what the accounts share: payout details, verified phone numbers and email addresses, device identifiers, IP addresses, photos, usernames and behaviour. Each shared value is weighed by how many other accounts also have it, and accounts should be treated as one operator only when at least two strong, independent links agree.\n\n\nYes, and often. Mobile carriers and some home broadband providers use carrier-grade NAT, which puts several subscribers behind one public address, and offices, student halls, public wifi and VPN services do the same. A shared IP address is weak evidence unless very few accounts use it and the activity happened at around the same time.\n\n\nIt is useful and imperfect. Measured on ordinary users rather than privacy-conscious volunteers, fingerprints are less unique than early studies suggested, particularly on mobile, and they change as software and settings change. Treat a shared fingerprint as a medium-strength link, weigh it by how many accounts share it, and look for an independent second link before acting on it.\n\n\nA group of accounts, controlled by one person or by several people working together, used to defraud a platform or its users, for example by moving money between accounts, reviewing each other's listings or cycling through new identities after bans. Linking the accounts lets a team act on the ring as a whole rather than one account at a time.\n\n\nLink analysis finds connections between accounts through the values they share, usually using data a platform holds itself. Identity resolution works out which real person or organisation is behind a set of records, often using sources outside the platform. In an investigation the two work together: link analysis finds the cluster, and identity resolution says who is behind it.",
+  "published_at": "2026-09-29T00:00:00+00:00",
+  "first_seen_at": "2026-10-01T00:48:59.435601+00:00",
+  "content_hash": "sha256:1748337eb524eac5e44146016b32f70d1da9c17dbab4cffd9ee9f111edc8035c"
+}

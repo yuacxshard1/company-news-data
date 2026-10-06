@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "edafd30ee118cbfec8f822e0e41d8927e205c2b9e4d3ba3d38addee7d73f5d37",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/",
+  "title": "AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
+  "summary": "Discover more about what's new at AWS with AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
+  "body_markdown": "AWS IAM Identity Center's Identity Store APIs now accept the Amazon Resource Name (ARN) for a user, group, group membership, or identity store anywhere the APIs previously accepted the resource ID. ARN support is additive and existing integrations continue to work unchanged.\n\n\nIf you build on the Identity Store APIs, you may already hold resource ARNs — for example, from IAM policy evaluation, CloudTrail events, or cross-service integrations. Previously, you had to strip the ARN down to the resource ID before calling Identity Store APIs. With this change, you can pass either form directly, simplifying application code and eliminating potential parsing errors.\n\n\nThe change applies to every request identifier field across the Identity Store API surface. Responses continue to return resource IDs as they did before. Malformed or wrong-resource-type ARNs return a ValidationException.\n\n\nThis capability is available in all AWS Regions where AWS IAM Identity Center is offered, at no additional cost. To learn more, see the[Identity Store API Reference](https://docs.aws.amazon.com/singlesignon/latest/IdentityStoreAPIReference/) .",
+  "published_at": "2026-09-30T08:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:2f820915564cfb81c46b47a9c736c17b483280453c4d18166d87392dc351e42b"
+}

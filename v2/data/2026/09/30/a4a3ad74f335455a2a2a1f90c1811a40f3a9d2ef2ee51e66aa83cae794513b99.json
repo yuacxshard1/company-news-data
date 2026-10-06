@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a4a3ad74f335455a2a2a1f90c1811a40f3a9d2ef2ee51e66aa83cae794513b99",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
+  "title": "AWS accounts now support phone number verification",
+  "summary": "Discover more about what's new at AWS with AWS accounts now support phone number verification",
+  "body_markdown": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through an out-of-band mechanism. Now, customers can verify their phone numbers via SMS one-time passcode (OTP).\n\n\nTo verify a phone number, customers initiate verification through the AWS Management Console or programmatically via the new SendPhoneNumberVerification API, which sends a 6-digit OTP. After entering the code, the VerifyPhoneNumber API validates and persists the verified status. When a phone number is changed through the PutContactInformation API, customers will be prompted to complete verification again. The GetContactInformation API now exposes verification status, enabling customers to confirm which phone numbers have been verified.\n\n\nFor AWS Organizations customers, phone number verification supports inheritance from the management account. When a verified phone number is applied to member accounts from the management account, those member accounts inherit the verified status if the number matches the management account, eliminating the need to verify the same number across thousands of accounts. Member accounts that independently change their own phone numbers will need to complete verification separately.\n\n\nThis feature is available in all AWS commercial regions. To learn more about phone number verification, visit the[AWS Account Management documentation](https://docs.aws.amazon.com/accounts/latest/reference/) .",
+  "published_at": "2026-09-30T08:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:c4f17ef982c8665cfa2b952158bf8b54a8c277f6615be88d0b21c3a375a73395"
+}

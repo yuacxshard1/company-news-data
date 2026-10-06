@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ec6af59fad9612ca02e79a2e8ec54859af4e481bab20009a2e273f92970a735b",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
+  "canonical_url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
+  "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
+  "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2609.37633)\n\n\nThe common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-improvement, where tasks are so difficult that the agent has a low or even no chance of success, and where there are no teacher models or example solutions to distill from. In this paper, we introduce RLTL;DR. After each failed attempt, we show the policy the verifier outputs and let it write its own feedback, in the form of a single TL;DR insight. The next rollout is conditioned on all previous insights, and we sequentially sample rollouts until a solution is found. Moreover, we enable backpropagation on the in-context insights to internalize a direct task → insight mapping. On challenging tool-calling and coding datasets (filtered to Pass@128 = 0), standard GRPO training of a Qwen 3.5 9B Thinking policy stays flat at a Pass@1 of 0% to 1%. RLTL;DR breaks through this learning barrier, achieving a Pass@1 of 14–31% with insights in context during training and, crucially, 12–13% when no insight is in context at eval time. We identify that the key is the task → insight internalization. To study this further, we reduce our approach to SFTL;DR, training only on (task, insight) tuples, without showing or backpropagating on any rollouts. Training on only 4k of these tuples recovers almost the full performance of RLTL;DR and classical SFT on full rollouts. This demonstrates a promising compacted training paradigm of the form “on this sort of task, keep this sort of thing in mind”, which we hope to inspire future research on.",
+  "published_at": null,
+  "first_seen_at": "2026-10-06T16:29:42.907282+00:00",
+  "content_hash": "sha256:0144d12db3baffc461fde8f06f203d27fd8abc578a496baff2a0d8db40487e43"
+}

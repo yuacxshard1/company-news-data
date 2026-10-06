@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dc5dbda227fb0d71bf0036651950bfd7d454eb331a30374d5c6f91ee8a175bc8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudtrail-event-coverage/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudtrail-event-coverage/",
+  "title": "Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
+  "summary": "Discover more about what's new at AWS with Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
+  "body_markdown": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see which AWS services and resource types in your environment have data event logging enabled and which do not. This helps you quickly identify gaps in your logging posture without manually scanning accounts in your organization.\n\n\nData events enable you to track data plane operations in AWS services. For example, you can log Amazon S3 object-level operations like GetObject and PutObject to detect unauthorized data access or exfiltration attempts. Without comprehensive data events coverage, these activities can go unnoticed, leaving blind spots in your security monitoring. With Event Coverage, you can view coverage across all supported data event sources in one place and subscribe to data events directly from the dashboard. This makes it easier to close coverage gaps in a few clicks, especially for organizations managing multiple accounts where tracking coverage across services can be time-consuming.\n\n\nYou can access Event Coverage from the AWS CloudTrail console. This feature is available in all commercial AWS Regions where AWS CloudTrail is supported. To learn more about logging Data Events, visit the[AWS CloudTrail documentation](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html#logging-data-events) .",
+  "published_at": "2026-09-30T16:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:e362355d25ca600ae986dbf6d67992fc4aa2f2dad28f6819c0f67c7ce608a036"
+}

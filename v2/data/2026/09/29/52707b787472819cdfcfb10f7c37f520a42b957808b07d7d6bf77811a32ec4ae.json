@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "52707b787472819cdfcfb10f7c37f520a42b957808b07d7d6bf77811a32ec4ae",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-logs-estimate-bytes-scanned/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-logs-estimate-bytes-scanned/",
+  "title": "Amazon CloudWatch Logs Insights now lets you estimate bytes scanned before running a query",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch Logs Insights now lets you estimate bytes scanned before running a query",
+  "body_markdown": "Amazon CloudWatch Logs Insights now lets you estimate the volume of log data, in bytes, that a query would scan over your selected log groups and time range - without running the query. This helps you adjust your log group selection, time range, and filters before running the query.\n\n\nIn the CloudWatch console, the estimate appears automatically in the query editor when you change the log group selection, time range, or query text. When using the AWS CLI or API, append the estimate command to your query to request it explicitly. Queries that use the estimate command incur no CloudWatch Logs Insights query charges.\n\n\nThe estimate command is available in all AWS commercial regions. To learn more, see the[Amazon CloudWatch Logs documentation.](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax-Estimate.html)",
+  "published_at": "2026-09-29T08:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:cde57b25ab206a2f2d1cbafb4740755b9389449e26b5785756dee2d88dfd0d1b"
+}

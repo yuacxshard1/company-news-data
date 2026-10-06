@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5b5886a081be4a466d8d40955b131d2b35551172c1c0f26c3cccb3af9665481b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-ecs-containers-linux-smf/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-ecs-containers-linux-smf/",
+  "title": "AWS Deadline Cloud now supports ECS containers on Linux Service-Managed Fleets",
+  "summary": "Discover more about what's new at AWS with AWS Deadline Cloud now supports ECS containers on Linux Service-Managed Fleets",
+  "body_markdown": "AWS Deadline Cloud now supports running jobs using Docker containers from Amazon Elastic Container Service (ECS) on Linux-based service-managed fleets. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming.\n\n\nDeadline Cloud customers can now bring their own software containers directly to the service using Docker-enabled fleets. Customers that already package software into container images can point Deadline Cloud to these images directly. This unlocks any container-deployed software use case, from rendering tools like Blender to physical AI workloads such as NVIDIA Isaac Sim and MuJoCo. With service-managed fleets, Deadline Cloud automatically deploys the containerized software on every worker instance at scale.\n\n\nContainers are integrated with Deadline Cloud fleets and queues, so that customer job templates do not need to contain container commands or image references. This means the same job bundles customers run locally with the Open Job Description CLI can be submitted to Deadline Cloud with no additional changes. The result is a faster path from existing containerized software workflows to a fully managed render and compute farm.\n\n\nContainer support for service-managed fleets is available in all AWS Regions where Deadline Cloud is offered.\n\n\nTo get started, see our[user guide](https://docs.aws.amazon.com/deadline-cloud/latest/userguide/fleet-container-support.html) and our[developer guide](https://docs.aws.amazon.com/deadline-cloud/latest/developerguide/containers.html) .",
+  "published_at": "2026-09-29T20:18:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:26d5cb4f00e124bce524f8307da41797044bd756f962ab5a3f38e6c86bd04991"
+}

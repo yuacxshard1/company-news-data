@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "377c4d5997a028b58202f6d8b20374adbc9ff0ea321c86e3e27aebcb197e8f97",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
+  "title": "AWS Marketplace launches an AI agent skill for usage-based metering integration",
+  "summary": "Discover more about what's new at AWS with AWS Marketplace launches an AI agent skill for usage-based metering integration",
+  "body_markdown": "AWS announces the general availability of the AWS Marketplace metering agent skill, an AI-guided experience that helps sellers build, deploy, and validate a usage-based (pay-as-you-go) SaaS metering integration from within their AI coding assistant. The skill guides sellers through the complete integration journey — gathering their product type, pricing model, and usage dimensions; recommending the correct metering API; generating integration code and a customized AWS CloudFormation stack tailored to their configuration; and running an end-to-end test against AWS Marketplace before any production code ships.\n\n\nPreviously, sellers integrating metering navigated documentation, workshops, and trial-and-error API calls, where common mistakes such as mismatched dimension names or invalid timestamps create billing gaps discovered days later. The metering agent skill cross-validates dimensions against the seller's actual product configuration, applies built-in guardrails, deploys a serverless metering pipeline (using ResolveCustomer API, BatchMeterUsage API, and Amazon EventBridge for subscription events), and verifies the integration with a live test. It also supports[Concurrent Agreements](https://aws.amazon.com/blogs/awsmarketplace/complete-guide-to-upgrading-your-saas-product-to-aws-marketplace-concurrent-agreements/) and helps existing sellers inspect, debug, and analyze their metering records.\n\n\nThe skill is available through the[AWS MCP Server](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html) in any AI coding assistant that supports MCP, including Amazon Q Developer, Kiro, and other MCP-compatible clients, with no plugin installation required.\n\n\nTo get started, visit[Configuring metering for usage with SaaS subscriptions](https://docs.aws.amazon.com/marketplace/latest/userguide/metering-for-usage.html#configure-application-for-meter-usage) .",
+  "published_at": "2026-09-30T05:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:b9acba66495c260381f0a50458da53d21b1a856a776e5c5369bf1f04613df814"
+}

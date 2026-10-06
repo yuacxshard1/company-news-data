@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7ac3def2628e9c91fcfbccc8e534a3f6b9c78d6f574a5ab610b7db4fa4d79c3a",
+  "company_key": "yc-waydev",
+  "company_name": "Waydev",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://waydev.co/c-a-f-e-s-five-properties-of-context-your-agents-can-actually-use/",
+  "canonical_url": "https://waydev.co/c-a-f-e-s-five-properties-of-context-your-agents-can-actually-use/",
+  "title": "C A F E (S) : Five properties of context your agents can actually use",
+  "summary": "Waydev - C A F E (S) : Five properties of context your agents can actually use",
+  "body_markdown": "**C** **Clarity** Specific and unambiguous\n\n\nCan the agent interpret the request the way it was intended?\n\n\n*Breaks when* a term the task depends on has more than one reasonable reading, and the agent silently picks one.\n\n\n**A** **Actionability** Directive and goal oriented\n\n\nCan the agent proceed, and does it know when it’s done?\n\n\n*Breaks when* the goal, constraints, or definition of done were never written down because they felt obvious to the author.\n\n\n**F** **Fidelity** Accurate and up to date\n\n\nCan the agent trust that the context is true?\n\n\n*Breaks when* docs, APIs, or policies changed and the context didn’t, so the agent reasons correctly from wrong facts.\n\n\n**E** **Efficiency** Scoped and token optimized\n\n\nCan the agent focus on what matters?\n\n\n*Breaks when* the whole codebase gets sent for a question about one module, and the signal drowns in noise.\n\n\n**S** **Security** Safe and compliant\n\n\nShould the agent have this context at all?\n\n\n*Breaks when* attacker-controlled content, or secrets and personal data the task doesn’t need, end up in the agent’s working context.",
+  "published_at": "2026-10-01T15:25:50+00:00",
+  "first_seen_at": "2026-10-06T17:19:46.707881+00:00",
+  "content_hash": "sha256:ab968f83b15ab4d09a5758f5e3bfac50c91aadb33139d0618d0494e38229c02b"
+}

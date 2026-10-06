@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6df2e4c7ec65ce029268db3c8800c6ab46352f6356e6f5413b7f772879565265",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-expressions-job-templates/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-expressions-job-templates/",
+  "title": "AWS Deadline Cloud now supports expressions in job templates",
+  "summary": "Discover more about what's new at AWS with AWS Deadline Cloud now supports expressions in job templates",
+  "body_markdown": "AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming.\n\n\nCustomers can now express pipeline logic directly in their job templates. This includes expressions such as arithmetic, conditionals, string and path operations, and list comprehensions, all in a familiar Python-style syntax. Customers can use this to split a frame range into per-task frames, derive an output path from the scene name, or toggle an optional flag directly within job templates themselves, making it easier to automate bespoke pipeline operations. New boolean, list, and frame-range parameter types match how pipelines already describe work. For example, a checkbox can add a --gpu flag and its matching host requirement when set, and a list of cameras can become a step's task range. Expressions are type-checked at submission, and their evaluation is deterministic, meaning that job execution behaves predictably every time.\n\n\nThese capabilities come from the new EXPR extension to Open Job Description, the open specification Deadline Cloud uses for job templates, and are available in all AWS Regions where AWS Deadline Cloud is supported.\n\n\nTo get started, visit the[Deadline Cloud developer guide](https://docs.aws.amazon.com/deadline-cloud/latest/developerguide/VERIFY-expr-doc-url.html) .",
+  "published_at": "2026-09-29T21:55:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:4af79ca71fb994b2be550ba97f7d1a206473627ea561bd78f352eb29915b804a"
+}

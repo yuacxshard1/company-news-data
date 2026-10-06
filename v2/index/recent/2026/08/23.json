@@ -7,7 +7,7 @@
       "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
       "published_at": "2026-08-23T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "mass assignment bug (CVE-2026-71504, CVSS 8.3) let a low-privilege Dolibarr account reset the admin's password. See the exploit chain and the fix.",
+      "summary": "CVE-2026-71504 is a CVSS 8.3 mass-assignment flaw in Dolibarr's Members API. A low-privilege key can reset the admin password and take over the instance.",
       "title": "CVE-2026-71504: Mass Assignment Bug Resets Admin Password"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
       "published_at": "2026-08-23T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A reflected XSS bug in Dolibarr (CVE-2026-71503, CVSS 9.3) lets attackers mint a hidden admin account from one link. See how it works and how to fix it.",
+      "summary": "CVE-2026-71503 is a CVSS 9.3 reflected XSS in Dolibarr ERP CRM. One link opened by an admin creates a second admin account with an attacker-chosen password and REST API key. Full analysis, proof of concept, and fix.",
       "title": "CVE-2026-71503: How a Single Reflected XSS Bug Mints a Rogue Admin in Dolibarr"
     },
     {
@@ -1407,7 +1407,7 @@
       "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
       "published_at": "2026-08-23T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A BOLA bug (CVE-2026-71505, CVSS 8.1) let low-privilege Dolibarr accounts reset any company's portal password and read their private invoices.",
+      "summary": "CVE-2026-71505 is a CVSS 8.1 BOLA (CWE-639) in Dolibarr's Third Parties REST API. A low-privilege key overwrites the portal password of a company it cannot even read. Full analysis, proof of concept, and fix.",
       "title": "CVE-2026-71505: BOLA Bug Exposes Dolibarr Invoices"
     },
     {

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d231aa12a052af8a4eb7f930b0a393a1142a6795d3a169ee46f7ea1f8a32be27",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
+  "title": "Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
+  "summary": "Discover more about what's new at AWS with Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
+  "body_markdown": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin.\n\n\nWith Git Sync, you can treat dashboards as code by linking a workspace to a Git repository, enabling version control for tracking, reviewing, and reverting dashboard modifications. Dynamic dashboards provide a more adaptable approach to layout and paneling, constructing responsive views driven by conditions that respond to data and variables. The Amazon CloudWatch data source plugin now supports PromQL queries, allowing you to use Prometheus Query Language to query metrics that CloudWatch ingests via its OpenTelemetry (OTLP) endpoint, complementing the existing Metric Search and Metrics Insights query types.\n\n\nGrafana 13.2 is available in all AWS regions where Amazon Managed Grafana is generally available.\n\n\nTo learn more about creating Amazon Managed Grafana workspaces with version 13.2, visit the[user documentation](https://docs.aws.amazon.com/grafana/latest/userguide/version-differences.html#version-diff-v13) . For more information about Amazon Managed Grafana features and pricing, visit the[product page](https://aws.amazon.com/grafana/) and[pricing page](https://aws.amazon.com/grafana/pricing/) .",
+  "published_at": "2026-09-30T19:30:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:d4ea5d715ccf9ece4f9d98633990ff58ae9df6a8cea38908133efb4bd7c341d8"
+}

@@ -1157,7 +1157,7 @@
       "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
       "published_at": "2026-08-26T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A redaction bug (CVE-2026-71511, CVSS 6.5) left Dolibarr's members API exposing every member's password hash to any account that could read member records.",
+      "summary": "CVE-2026-71511 lets low-privilege Dolibarr users retrieve live bcrypt password hashes through the Members API. Learn the flaw, impact, and fix.",
       "title": "CVE-2026-71511: Redaction Bug Exposes Password Hashes"
     },
     {
@@ -4617,7 +4617,7 @@
       "first_seen_at": "2026-09-01T14:40:22.452557+00:00",
       "published_at": "2026-08-26T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A blind authorization flaw (CVE-2026-71510, CVSS 6.5) let attackers infer hidden Dolibarr salaries and password hashes through yes/no search queries.",
+      "summary": "CVE-2026-71510 is a Dolibarr API authorization flaw, not SQL injection. Learn how sqlfilters exposed salaries and password verifiers through a blind oracle.",
       "title": "CVE-2026-71510: Blind Search Leaks Dolibarr Salaries Copy"
     },
     {

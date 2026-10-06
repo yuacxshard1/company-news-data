@@ -3,6 +3,46 @@
     {
       "company_key": "yc-cedana",
       "company_name": "Cedana",
+      "doc_id": "03e24f7ac076fc4e494f4db74c457a8ef637291c582f966b12fed779d065c861",
+      "first_seen_at": "2026-09-30T20:53:29.754139+00:00",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Evaluate weight, KV-cache and expert-math precision changes against task quality, latency, throughput and memory on the same workload before changing production.",
+      "title": "The accuracy budget is part of the performance budget"
+    },
+    {
+      "company_key": "yc-cedana",
+      "company_name": "Cedana",
+      "doc_id": "0e2c4f757c87b8e997e2ffb5626125c9ea909d32c9537d2f6e09276d9e133221",
+      "first_seen_at": "2026-09-30T20:53:29.754139+00:00",
+      "published_at": "2026-09-09T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Distinguish slow token generation from a KV cache that cannot admit more work. Match weight or cache quantization to the limit and test the resulting quality.",
+      "title": "Out of bandwidth or out of capacity: memory pressure and the quantization levers"
+    },
+    {
+      "company_key": "yc-cedana",
+      "company_name": "Cedana",
+      "doc_id": "13c2097420554a0d3ce0e087c15f32f8b5ecf3f176b233bcceaed9ef9419c110",
+      "first_seen_at": "2026-09-30T20:53:29.754139+00:00",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Diagnose compute, memory and interconnect limits in MoE inference. See why activated parameter counts and extra GPUs cannot replace communication measurements.",
+      "title": "MoE serving is a network problem, and more GPUs will not fix it"
+    },
+    {
+      "company_key": "yc-cedana",
+      "company_name": "Cedana",
+      "doc_id": "35d5a68664fe7d6a665b46f00320103fedb35f69856b5b8ff1353d9c8737da7b",
+      "first_seen_at": "2026-09-30T20:53:29.754139+00:00",
+      "published_at": "2026-09-09T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Size long-context serving around first-token latency, cache residency and concurrency. Track prefix misses and tail latency instead of relying on a median alone.",
+      "title": "Long context changes the economics of a fast first token"
+    },
+    {
+      "company_key": "yc-cedana",
+      "company_name": "Cedana",
       "doc_id": "44b5d9f008b7d8a12ff947df0bd06b8933f7297360698209906049291bf182b8",
       "first_seen_at": "2026-09-15T10:56:25.907831+00:00",
       "published_at": "2026-09-11T00:00:00+00:00",
@@ -23,6 +63,16 @@
     {
       "company_key": "yc-cedana",
       "company_name": "Cedana",
+      "doc_id": "59e12cebf05c23dff2aa90820ab5826172d1781b587a628cf63532b576e2edc6",
+      "first_seen_at": "2026-09-30T20:53:29.754139+00:00",
+      "published_at": "2026-09-09T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Use compute, memory bandwidth, capacity and interconnect readings to diagnose inference limits before buying more GPUs. Separate busy hardware from useful output.",
+      "title": "Why more GPU is not a performance plan"
+    },
+    {
+      "company_key": "yc-cedana",
+      "company_name": "Cedana",
       "doc_id": "71b5f9fd85945fcfd6d75827f0a5251b989d7a8d2de218b24e6229c529c80e2b",
       "first_seen_at": "2026-09-15T10:56:25.907831+00:00",
       "published_at": "2026-09-11T00:00:00+00:00",
@@ -33,12 +83,42 @@
     {
       "company_key": "yc-cedana",
       "company_name": "Cedana",
+      "doc_id": "8779be2657e9a749a1b825dcd89e755e974d60d24f0e20af577a04d92fb9dc9e",
+      "first_seen_at": "2026-09-30T20:53:29.754139+00:00",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Understand prefill and decode resource needs, the KV-cache transfer cost of separating them, and how your traffic changes the right balance between serving pools.",
+      "title": "One model, two workloads: prefill, decode, and why disaggregation exists"
+    },
+    {
+      "company_key": "yc-cedana",
+      "company_name": "Cedana",
       "doc_id": "a06c2f28822c9e6fab2704d1be1b60b0439ac69dc57a7f1aec6cb7cc529a5934",
       "first_seen_at": "2026-09-15T10:56:25.907831+00:00",
       "published_at": "2026-09-10T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Examine how attention layouts bound session memory, distinguish windowing from cache compression, and identify what one published configuration can establish.",
       "title": "Sliding windows, state space, and the cost of remembering"
+    },
+    {
+      "company_key": "yc-cedana",
+      "company_name": "Cedana",
+      "doc_id": "b2fa98106affe481c9a0d0e7b07fae5123ed243e3ae64cee9f8f20a389af91cc",
+      "first_seen_at": "2026-09-30T20:53:29.754139+00:00",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Read SGLang presets as coupled choices about latency, throughput, memory and parallelism. Understand the tradeoffs and keep example values tied to their version.",
+      "title": "What an SGLang serve command commits your deployment to"
+    },
+    {
+      "company_key": "yc-cedana",
+      "company_name": "Cedana",
+      "doc_id": "ba09fa8bd125a5762015d5eab108278864e069bd154e5126afc09f8e17e80e40",
+      "first_seen_at": "2026-09-30T20:53:29.754139+00:00",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Calculate a GPU's ridge point from dense compute and memory bandwidth. Compare H100, H200 and B200 on a consistent basis before diagnosing your workload.",
+      "title": "The two ceilings: why the ridge point is the GPU number that matters"
     }
   ],
   "company_key": "yc-cedana",

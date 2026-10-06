@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "525bc8ad6d874f36ea4ecdf046a8c39b2f97ab5ea428be5b07d3c655fa4fbd6d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/partner-revenue-measurement-multi-partner-resource-tagging",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/partner-revenue-measurement-multi-partner-resource-tagging",
+  "title": "Partner Revenue Measurement adds Multi-Partner support to Resource Tagging",
+  "summary": "Discover more about what's new at AWS with Partner Revenue Measurement adds Multi-Partner support to Resource Tagging",
+  "body_markdown": "Partner Revenue Measurement (PRM) provides measurement of AWS consumption driven by Partner solutions. Today, PRM adds multi-Partner support to Resource Tagging, so that multiple AWS Partners can receive revenue attribution for the same AWS resource. Previously, a resource carried only one Partner tag, *aws-apn-id* , so when multiple Partners contributed to the same workload, only one Partner received attribution.\n\n\nWith this update, each Partner tags the resources they contribute to using a new key in the format *aws-apn-id-<partner-central-aws-account-id>.* When more than one Partner tags the same resource, each tagged Partner receives revenue attribution. This benefits Partners that co-deliver solutions, such as a consulting Partner that deploys and operates a software Partner's product in an AWS account. The existing *aws-apn-id* key continues to work, and resources tagged with it require no additional changes.\n\n\nMulti-Partner support in Resource Tagging is available today in all commercial AWS regions. Revenue attributed through the existing *aws-apn-id* key and the new key both appear under the “Resource Tagging” method in the[Attributed Revenue Dashboard](https://aws.amazon.com/blogs/apn/unlock-revenue-insights-in-the-new-attributed-revenue-dashboard/) , with no changes to the dashboard.\n\n\nTo learn more, see the[Partner Revenue Measurement product page](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html) and the Resource Tagging[onboarding guide](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/) .",
+  "published_at": "2026-09-30T12:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:02d0ffda491a052708cd7f091c47bc674e95f601010963b830d4763412fe203a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b1e9785b4b15e3d4531a899859f98480b70c6e7f451d70a825fe837c1369751",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-logs-auto-indexes-fields/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-logs-auto-indexes-fields/",
+  "title": "Amazon CloudWatch Logs now automatically indexes frequently queried fields",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch Logs now automatically indexes frequently queried fields",
+  "body_markdown": "Amazon CloudWatch Logs now automatically indexes the fields you query frequently, speeding up CloudWatch Logs Insights queries without requiring any manual setup. Previously, you had to manually select the fields to index based on your query patterns and usage, requiring extra work for teams whose query patterns change over time.\n\n\nCloudWatch Logs identifies the fields in your queries that you use for filtering with the = and IN operations and indexes them automatically, enabling queries to run faster and scan less data. Fields that are automatically indexed don't count toward your 20-field-per-log-group limit and are retained for 30 days. The list of automatically indexed fields is updated as your query patterns change. To keep a field indexed permanently, promote it to a field index policy using the console or API.\n\n\nAuto-indexing is available in all AWS Regions where CloudWatch Logs field indexing is supported, at no additional cost. To learn more, see the[Amazon CloudWatch Logs User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/) .",
+  "published_at": "2026-09-29T08:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:d73cc53abb1b230c1478501728d61246f9bdbd03362ae591277d5ee4df0be57e"
+}

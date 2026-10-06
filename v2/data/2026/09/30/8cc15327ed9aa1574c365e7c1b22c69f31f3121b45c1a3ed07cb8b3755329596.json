@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8cc15327ed9aa1574c365e7c1b22c69f31f3121b45c1a3ed07cb8b3755329596",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-tables-iceberg-v3-data-types",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-tables-iceberg-v3-data-types",
+  "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Tables now support all Apache Iceberg V3 data types",
+  "body_markdown": "Amazon S3 Tables add support for geometry, geography, unknown, and nanosecond timestamp data types, along with column default values, as defined in the Apache Iceberg Version 3 (V3) specification. You can now store geospatial coordinates and nanosecond-precision event times natively instead of encoding them in strings or integers. This helps simplify data architecture while improving storage efficiency and performance. With this launch, S3 Tables support all data types introduced in V3, adding to existing support for the Variant data type, deletion vectors, and row lineage.\n\n\nGeometry and geography columns store points, lines, and polygons natively, so fleet tracking and asset mapping workloads can filter on location at query time. Nanosecond timestamps let telemetry and financial workloads record event times at source precision. Column default values populate a newly added column for existing rows, with no backfill required. S3 Tables provide automatic table maintenance and compaction for Apache Iceberg tables, so tables using V3 data types stay performant and cost effective as data scales.\n\n\nSupport for these data types in S3 Tables is available in all AWS Regions where S3 Tables are available. To learn more, see[Amazon S3 Tables](https://aws.amazon.com/s3/features/tables/) ,[Apache Iceberg V3 on AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/working-with-apache-iceberg-v3.html) , and the[AWS Prescriptive Guidance](https://docs.aws.amazon.com/prescriptive-guidance/latest/apache-iceberg-on-aws/table-spec-v3.html) for working with Iceberg table format specification version 3.",
+  "published_at": "2026-09-30T04:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:e28ab096a6886739bd24f6520f0946b0b76b1cf6563f637a0b348757f02a3d03"
+}

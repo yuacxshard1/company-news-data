@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "91b4d2dca621391584b8e7e7b545d42cc1b7b6a6d8f299f35c86bfbf18ccfd9b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
+  "title": "AWS Parallel Computing Service now supports scaling logs",
+  "summary": "Discover more about what's new at AWS with AWS Parallel Computing Service now supports scaling logs",
+  "body_markdown": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one compute node—for example, an instance launch, a node registration, a scale-down, or a launch failure with its reason. Using scaling logs, you can more easily troubleshoot scaling issues. For example, you can determine why a compute node group did not reach its target size, which launches failed for capacity reasons, and when a specific node started or stopped. Scaling log delivery is opt-in, and you can configure AWS PCS to emit scaling logs to Amazon CloudWatch Logs, Amazon S3, and Amazon Data Firehose.\n\n\nAWS PCS is a managed service that simplifies running and scaling HPC workloads on AWS using Slurm. You can build complete, elastic environments that integrate compute, storage, networking, and visualization tools, while the service handles cluster operations with managed updates and built-in observability features.\n\n\nThis feature is available in all[AWS Regions where AWS PCS is available](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To get started, see the[AWS PCS User Guide](https://docs.aws.amazon.com/pcs/latest/userguide/monitoring-overview.html) .",
+  "published_at": "2026-09-30T19:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:26:44.035409+00:00",
+  "content_hash": "sha256:97950836c15fa8fef8bf0f4c1a14466af14574e3cedd36156084ca27089dc0c1"
+}

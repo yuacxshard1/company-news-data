@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "86fd6fcb5d7c2b4ea271b886e112ce8e8e8391d4c4c871f779eda3b2f38c57e3",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/effectiveness-fluency-llm-conditioning",
+  "canonical_url": "https://machinelearning.apple.com/research/effectiveness-fluency-llm-conditioning",
+  "title": "On the Effectiveness-Fluency Trade-Off in LLM Conditioning: A Systematic Study",
+  "summary": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of…",
+  "body_markdown": "[Dynamically Scaled Activation Steering](https://machinelearning.apple.com/research/dynamically-scaled-activation-steering)\n\n\nSeptember 18, 2026\n\n\n[research area Human-Computer Interaction](https://machinelearning.apple.com/research/?domain=Human-Computer%20Interaction) ,[research area Methods and Algorithms](https://machinelearning.apple.com/research/?domain=Methods%20and%20Algorithms)\n\n\n[Transactions on Machine Learning Research (TMLR)](https://machinelearning.apple.com/research/?event=Transactions%20on%20Machine%20Learning%20Research%20(TMLR))\n\n\nActivation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We introduce Dynamically Scaled Activation Steering (DSAS), a method-agnostic steering framework that decouples when to steer from how to steer. DSAS…\n\n\n[Read more](https://machinelearning.apple.com/research/dynamically-scaled-activation-steering)\n\n\n[STEER: Semantic Turn Extension-Expansion Recognition for Voice Assistants](https://machinelearning.apple.com/research/steer)\n\n\nNovember 8, 2023\n\n\n[research area Speech and Natural Language Processing](https://machinelearning.apple.com/research/?domain=Speech%20and%20Natural%20Language%20Processing)\n\n\n[conference EMNLP](https://machinelearning.apple.com/research/?event=EMNLP)\n\n\n*Equal Contributors\n\n\nIn the context of a voice assistant system, steering refers to the phenomenon in which a user issues a follow-up command attempting to direct or clarify a previous turn. We propose STEER, a steering detection model that predicts whether a follow-up turn is a user’s attempt to steer the previous command. Constructing a training dataset for steering use cases poses challenges due to the cold-start problem. To overcome this, we…\n\n\n[Read more](https://machinelearning.apple.com/research/steer)",
+  "published_at": "2026-09-18T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T16:29:42.907282+00:00",
+  "content_hash": "sha256:af36a5788c57dfb6f67c186042201eebdf6e28c2713d11c4caba257511647bbd"
+}

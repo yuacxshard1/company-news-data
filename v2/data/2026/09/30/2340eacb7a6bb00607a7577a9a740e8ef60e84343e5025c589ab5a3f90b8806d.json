@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2340eacb7a6bb00607a7577a9a740e8ef60e84343e5025c589ab5a3f90b8806d",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/harness-autonomous-ml-engineering",
+  "canonical_url": "https://machinelearning.apple.com/research/harness-autonomous-ml-engineering",
+  "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+  "summary": "Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by…",
+  "body_markdown": "[SCLATE: A Substrate for Continual-Learning Agent Training and Evaluation](https://machinelearning.apple.com/research/sclate-agent-training-evaluation)\n\n\nSeptember 30, 2026\n\n\n[research area Methods and Algorithms](https://machinelearning.apple.com/research/?domain=Methods%20and%20Algorithms) ,[research area Tools, Platforms, Frameworks](https://machinelearning.apple.com/research/?domain=Tools%2C%20Platforms%2C%20Frameworks)\n\n\nContinual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons. Evaluating and training them requires interleaving tasks with agent-side events such as session stop and start, crons, and memory consolidation. Yet existing benchmarks and training frameworks schedule only the benchmark’s own events, leaving each benchmark and agent pair to build a custom scheduling loop. We present SCLATE, an…\n\n\n[Read more](https://machinelearning.apple.com/research/sclate-agent-training-evaluation)\n\n\n[AgentBuilder: Exploring Scaffolds for Prototyping User Experiences of Interface Agents](https://machinelearning.apple.com/research/agentbuilder)\n\n\nJanuary 9, 2026\n\n\n[research area Human-Computer Interaction](https://machinelearning.apple.com/research/?domain=Human-Computer%20Interaction)\n\n\nInterface agents powered by generative AI models (referred to as “agents”) can automate actions based on user commands. An important aspect of developing agents is their user experience (i.e., agent experience). There is a growing need to provide scaffolds for a broader set of individuals beyond AI engineers to prototype agent experiences, since they can contribute valuable perspectives to designing agent experiences. In this work, we explore the…\n\n\n[Read more](https://machinelearning.apple.com/research/agentbuilder)",
+  "published_at": "2026-09-30T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T16:29:42.907282+00:00",
+  "content_hash": "sha256:da3ea3f965204696663853ec94c89eff46895a1e269d3327bfc5773ce1f42425"
+}

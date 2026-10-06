@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1c75ad2f99bcf988207e943f07ebd088636e1461a426f7f2f9f0a1e4196aad1c",
+  "company_key": "yc-general-legal",
+  "company_name": "General Legal",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://general.legal/blog/america-gov-integration-legal-obligations-for-contractors",
+  "canonical_url": "https://general.legal/blog/america-gov-integration-legal-obligations-for-contractors",
+  "title": "America.gov Integration: Legal Obligations for Contractors",
+  "summary": "Privacy Act compliance, FedRAMP certification changes, data rights and accuracy obligations contractors must address before OMB issues December 2026 guidance.",
+  "body_markdown": "### What legal obligations will integration create for contractors?\n\n\nMainly Privacy Act and computer matching requirements, privacy impact assessments, FedRAMP certification, OMB’s AI memos, federal records rules, and data-rights and flow-down terms. Most of these requirements belong to agencies, but contractors take them on through contract clauses, statements of work and security requirements.\n\n\n### Is America.gov “high-impact AI” under OMB’s M-25-21?\n\n\nToday’s information-only chatbot likely falls short of the \"high-impact AI\" threshold, however, Phase 2’s applications and enrollment could meet it even though agencies will still make case decisions.\n\n\n### Can a person hold the government to a wrong answer from the America.gov chatbot?\n\n\nGenerally no. Under OPM v. Richmond, erroneous advice from a government employee does not bar the government from denying benefits the law does not authorize, so a wrong chatbot answer will not bind the government. This shifts liability pressure onto agencies and the contractors who build and maintain the answer sources, making accuracy service levels and warranty terms critically important.\n\n\n### What data rights issues should contractors negotiate before award?\n\n\nContractors should settle ownership of conversation data, outputs, evaluation sets and fine-tuning artifacts in the prime contract and every subcontract before launch. Commercial AI terms often reserve rights that federal data-rights clauses and OMB memo M-25-22 limit, and primes will flow down restrictions on acceptable use, training on government data, incident reporting and accuracy testing that contractors must compare against their commercial product capabilities.\n\n\n### Why does model-neutral architecture matter for America.gov integrations?\n\n\nBecause America.gov already uses two models, agencies need hand-offs built to be model-neutral so a change of AI model provider does not require a change of contractor. This architecture prevents vendor lock-in and aligns with OMB memo M-25-22's guidance on avoiding dependencies that limit agency flexibility.",
+  "published_at": "2026-10-06T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T16:30:54.783365+00:00",
+  "content_hash": "sha256:c7dde428b4b68645a0c4b2ea50cb939480f41775050894f799bc19e2e84aa078"
+}

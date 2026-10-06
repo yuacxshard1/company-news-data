@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "98eba622f1db408d361d7f13d58a6b453960281dc178b166ccda880d7ecbbf52",
+  "company_key": "yc-sixtyfour",
+  "company_name": "Sixtyfour",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sixtyfour.ai/blog/ai-tools-for-investigations",
+  "canonical_url": "https://www.sixtyfour.ai/blog/ai-tools-for-investigations",
+  "title": "How to evaluate AI tools for investigations",
+  "summary": "AI research agents can take on much of an investigation's legwork. Five checks tell you whether their results will hold up when someone asks how you know.",
+  "body_markdown": "Research agents that take a starting identifier, such as a name, email address, username, phone number or company, and search public sources to build a sourced profile of the person or organisation behind it, including accounts, records, connections and adverse media. They are used in trust and safety, fraud, due diligence, hiring and open-source intelligence work.\n\n\nIt can do much of the collection: running searches across many sources, pivoting from one identifier to the next, reading documents in other languages and organising what it finds with sources attached. Judging what the evidence means, deciding how confident a link is and deciding what to do about it still need an investigator.\n\n\nNot for the decisions. AI agents shorten the collection and cross-referencing that take up much of an investigation's time, but every system on our RECON benchmark still got some answers wrong, so a person needs to review the result before anyone acts on it.\n\n\nOpen the sources. Take a sample of findings, open every citation, and check that the page exists and says what the tool claims it says. Watch for real pages about a different person with the same name, which are harder to spot than links that do not work.\n\n\nRECON is a people research benchmark built by Sixtyfour and externally validated by HUD. It tests how accurately AI agents find verified facts about 140 real people across 514 fields, pairs roughly a quarter of the people with a same-named decoy, and scores a wrong answer as worse than a blank one.\n\n\nInteract with the person being researched. It should not log into the subject's accounts, trigger password resets, message anyone or take any other step that tells the subject someone is looking or relies on access nobody authorised. The Berkeley Protocol on Digital Open Source Investigations defines open source information along the same line: it does not involve interacting with or soliciting information from individual internet users.",
+  "published_at": "2026-09-30T00:00:00+00:00",
+  "first_seen_at": "2026-10-01T00:48:59.435601+00:00",
+  "content_hash": "sha256:d4b028ed27f14264abef223dabab8102fbdb8223913b23b82351a590f353aed6"
+}
