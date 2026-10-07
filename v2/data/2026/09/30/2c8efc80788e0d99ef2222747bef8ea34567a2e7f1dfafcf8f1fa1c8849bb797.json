@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2c8efc80788e0d99ef2222747bef8ea34567a2e7f1dfafcf8f1fa1c8849bb797",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis-video-streams-vpc-privatelink/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis-video-streams-vpc-privatelink/",
+  "title": "Amazon Kinesis Video Streams now supports VPC endpoints with AWS PrivateLink",
+  "summary": "Discover more about what's new at AWS with Amazon Kinesis Video Streams now supports VPC endpoints with AWS PrivateLink",
+  "body_markdown": "[Amazon Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) now supports interface VPC endpoints powered by[AWS PrivateLink](https://docs.aws.amazon.com/vpc/latest/privatelink/what-is-privatelink.html) , providing private connectivity from your Amazon Virtual Private Cloud (Amazon VPC). Traffic between your VPC and Kinesis Video Streams stays on the AWS network and is not exposed to the public internet, across the control plane and the video ingestion and playback data planes.\n\n\nCustomers with strict security, compliance, or network-isolation requirements can now ingest, store, and play back video without internet gateways, NAT devices, or public IP addresses. For example, connected-camera or IoT video workloads in a private subnet can send media to Kinesis Video Streams and retrieve it for playback and analytics entirely over private connectivity. You create the endpoint from the Amazon VPC console, AWS CLI, or AWS SDKs and can attach a VPC endpoint policy to control access.\n\n\nVPC endpoints for Amazon Kinesis Video Streams are available in all AWS Regions where Amazon Kinesis Video Streams is available, including the AWS GovCloud (US) Regions and the China (Beijing) Region, operated by Beijing Sinnet Technology Co., Ltd. (\"Sinnet\").\n\n\nTo learn more, see our[Getting Started Guide](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/vpc-interface-endpoints.html) .",
+  "published_at": "2026-09-30T08:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:f24a8d9197772dcea1fe4632831d5413b1e54fcf203e017dcebaef5234fe94f9"
+}

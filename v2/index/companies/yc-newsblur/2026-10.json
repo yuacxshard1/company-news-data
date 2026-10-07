@@ -1,0 +1,126 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "0e2eed18b5b210d06083f6ff7c095591301afe4964fee806babf32cd71665df5",
+      "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+      "published_at": "2026-10-01T12:22:41+00:00",
+      "source_kind": "rss",
+      "summary": "See https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/ Will I still be able to see updates in my subreddits using Newsblur? If so, how?",
+      "title": "On November 13, Reddit is phasing out RSS feeds"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "0f0d007964a8d2479bbdfcb53e0edf2d3564347cfae7727bf3aa233e5d5230fd",
+      "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+      "published_at": "2026-10-06T12:37:42+00:00",
+      "source_kind": "rss",
+      "summary": "Use case: I use automation to auto tag stories based on ticker, company, sector, etc. which let’s me drill-down on specifics when I want to read stuff. Problem: There does not be appear to be an ability to sort the tags a-z, z-a, date, etc. which makes it difficult to find specifics in the default sort order. The list must be scrolled top to bottom which takes {if/and/or/not} process in my head since the sort is rather random! 🤔 Currently, the order appears to be by story tag counts. ...",
+      "title": "Sort Tags Option"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "235458d2d69bd1baa1f553fb5c5caff719d989a0cf3a93e992cac44b2db382a6",
+      "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+      "published_at": "2026-10-05T01:57:04+00:00",
+      "source_kind": "rss",
+      "summary": "The POST /reader/mark_story_hash_as_unstarred is either not working or it is working but the NewsBlur app still shows the items as starred. I think it’s actually the latter. Can Sam check?",
+      "title": "NewsBlur API Not Working Oct 4, 2026"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "8ae7a955c5350eb2dd5272845f3d7b9ec3ec3a40c18dd63dffa7a222eb37acc1",
+      "first_seen_at": "2026-10-06T20:47:45.414659+00:00",
+      "published_at": "2026-10-03T17:03:52+00:00",
+      "source_kind": "rss",
+      "summary": "<p>I spent a lot of this release optimizing speed in the Android app. I measured scrolling across the feed list, the story list, and long articles, then fixed whatever the numbers pointed at. Then I kept going.</p> It’s faster Most of the slowness came from the app doing more work than it needed to. Marking a story read rebuilt its entire row. Background syncs could pile up on top of each other. The feed list waited on the sync service before showing anything, and the reader waited for the ar...",
+      "title": "NewsBlur 15 for Android: faster scrolling, a tablet layout, and Add + Discover Sites"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "9af4102dd47b28bccdc0c010d1ff4485ef27aecf6cbca706e52ef48e798ef610",
+      "first_seen_at": "2026-10-06T20:47:45.414659+00:00",
+      "published_at": "2026-10-03T17:03:50+00:00",
+      "source_kind": "rss",
+      "summary": "<p>I spent a lot of this release optimizing speed in the iOS app. Opening a big folder took over a second, scrolling would hitch whenever the next page of stories loaded, and articles flashed blank for a moment before appearing. So I measured every part of the story list and the reader, then fixed whatever the numbers pointed at.</p> Faster story lists Loading the next page of a folder used to reload the entire list. Now new stories are added in place. Favicons, thumbnails, and story text get...",
+      "title": "NewsBlur 15 for iOS and Mac: faster story lists, a glass toolbar, and Add + Discover Sites"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "a46fcca27ad009d42a7603d5e17e3425e6a239fbf3c52c5b20825a4c772e81c5",
+      "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+      "published_at": "2026-10-04T23:14:26+00:00",
+      "source_kind": "rss",
+      "summary": "My main use of Newsblur is as an aggregator to distribute my feeds to my RSS reader of choice ReadKit. My ‘regular’ RSS feeds are showing up, but all my newsletter feeds seem to be stuck in Newsblur. I went and found 115 unread newsletters (I do subscribe to a number of daily senders) stuck there, some from mid September. This is new behavior. Even if the Newsblur email address is slow in adding these to Newsblur, as unread items, shouldn’t they eventually appear in ReadKit? None of these are S...",
+      "title": "Newsletters to ReadKit"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "befd396c1b579fe6b871906726cba9af5d8d45624cc71ee139d00e7776900223",
+      "first_seen_at": "2026-08-05T17:41:21.115563+00:00",
+      "published_at": "2026-10-05T15:43:22+00:00",
+      "source_kind": "rss",
+      "summary": "So I think this may have been around for a while, but I dismissed it as user error since there’s no way this is working as designed. On the iOS app, when you turn your phone from portrait to landscape, the view changes to accommodate the new orientation. This view includes your list of feeds, and, presumably your list of articles for the last feed you were looking at. The list of feeds takes up nearly half the screen, and the list of articles takes up only part of the other half of the screen....",
+      "title": "NewsBlur app on iOS orientation issue"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "d339a2f7d92a316e05fabbd1d69dc39869f9779a2e12b74fa6af354ee7fe4596",
+      "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+      "published_at": "2026-10-03T00:06:01+00:00",
+      "source_kind": "rss",
+      "summary": "NASA’s Astronomy Picture of the Day website recently changed, and now I can’t get NewsBlur to understand or be happy about their new feed. Their site is now https://science.nasa.gov/apod/, and the RSS button’s link is https://science.nasa.gov/feed/apod-basic/, although that wants to download a .rss file. An acquaintance tossed up an XML feed on his AWS account, https://scotts-mess.s3.amazonaws.com/apod/apod_filtered.xml, but NewsBlur just spins trying to parse that one as well. Is there any way ...",
+      "title": "Can't use feed for APOD site revamp"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "d4bcf76bde6fd3a7fa621f2601a0640ae13aae5fd30290d66ec0594fff5e2e2c",
+      "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+      "published_at": "2026-10-02T18:23:59+00:00",
+      "source_kind": "rss",
+      "summary": "Identified a problem while using the web app. When looking at a feed that is generated through items sent to my Newsblur email address I get some odd windowing when I place the feed in list view. Attached are two screenshots to illustrate the issue. Notice in the screenshot that contains an opened feed article that the headline for the next feed item is in the bottom right corner.",
+      "title": "Feed Display Settings Glitch"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "dcd8c794a4412a8042d61dace11b49e751d384c0116991119aad5d45402e07ce",
+      "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+      "published_at": "2026-10-02T08:09:18+00:00",
+      "source_kind": "rss",
+      "summary": "Hi, recently most of my feeds disappeared from the web app. Interestingly, in the Android app, they are still there. I tried logging in from an entirely different browser (I am on Zen-Firefox; I tried on Edge), but the issue still persists. How can I force a refresh or something like that? I made an OPML backup from the Android app just in case.",
+      "title": "Most of subscibed feeds gone only from the web app"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "ea583d1df9fa99e37ce131433ab322cc5e768b907911df290660a7a9917b48e2",
+      "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+      "published_at": "2026-10-04T15:39:02+00:00",
+      "source_kind": "rss",
+      "summary": "I’m using NewsBlur 15.0.0 on macOS Golden Gate. I’ve been going through Settings and trying unsuccessfully to replicate the layout and behavior I enjoy with the website in browser. List of websites in a column at left that stays open. Clicking on a website name loads stories in a window to the right. Clicking on a story opens it accordion-style directly in the window. Example: Which settings in the app will achieve this? Thanks!",
+      "title": "Replicating Website Layout in macOS App"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "f11e472925c286c5d789b710f2942e215389875cc90a73ebf5ec0d2f31e49d44",
+      "first_seen_at": "2026-09-26T21:48:56.853710+00:00",
+      "published_at": "2026-10-01T12:30:46+00:00",
+      "source_kind": "rss",
+      "summary": "The new (v15) app gets stuck sliding between stories. It’ll stop halfway between the story slide, or it’ll go slow, or it’ll freeze for a moment or 20+ seconds. It’s kind of random on when it how long it’ll freeze. It makes using the app slow, especially when I’m trying to go through a couple hundred news stories in a few minutes. I’ve managed to catch it in a screen recording. Has anyone seen this?",
+      "title": "Iphone app, horizontal scrolling between stories sluggish/frozen"
+    }
+  ],
+  "company_key": "yc-newsblur",
+  "month": "2026-10"
+}

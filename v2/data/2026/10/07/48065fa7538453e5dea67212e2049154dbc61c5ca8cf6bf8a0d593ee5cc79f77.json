@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "48065fa7538453e5dea67212e2049154dbc61c5ca8cf6bf8a0d593ee5cc79f77",
+  "company_key": "yc-vitalize",
+  "company_name": "Vitalize",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://vitalize.care/blog/the-small-tools-around-my-coding-agent",
+  "canonical_url": "https://vitalize.care/blog/the-small-tools-around-my-coding-agent",
+  "title": "The small tools around my coding agent - Vitalize",
+  "summary": "Turning my preferences for the work around a code change into small tools for my coding agent.",
+  "body_markdown": "I use[pi](https://pi.dev/) , a terminal-based coding agent, for my work at Vitalize. This is my personal setup, rather than a standard across the team. I like being able to extend it with ordinary TypeScript. An[extension](https://pi.dev/docs/latest/extensions) can add a tool, describe when to use it, and make it available to the agent alongside its built-in tools for reading and editing code.\n\n\nThat’s useful because I have preferences about the work *surrounding* a code change, too. How do I want to start a task? What belongs in a pull request? What do I want to look at before sending it for review? I’ve been turning some of those preferences into small tools.\n\n\nThere’s a mixture of code and instructions behind these tools. Predictable operations, like checking repository state, can be handled programmatically. Work that needs interpretation, like explaining a diff, comes back to the model with the relevant context. I can adjust either part as I use it.\n\n\nOne tool handles starting work on a Linear issue. It ensures that the checkout is clean, pulls the latest upstream, then creates a feature branch with the name supplied by Linear, linking it back to the issue. It stops there, leaving me room to work through the plan before asking for an implementation.\n\n\nAnother handles creating a pull request. It gathers the current diff and repository context for the agent to write the title and description, then opens a draft PR. The description follows a format I’ve chosen: background, approach, changes, and validation, with a link back to the issue.\n\n\nBefore marking the draft ready, I do my initial review in GitHub using its built-in PR review feature. I like using the same tool to review my own work that I use to review my peers’ work.\n\n\nIn parallel, I have the agent do a goal-oriented review. It compares the implementation with the original problem and acceptance criteria, looking for gaps between what we set out to do and what the code actually does. That gives me another pass over the work to help catch things I might miss.\n\n\nAfter I mark the draft ready for review, feedback comes in from human and automated reviewers. A separate tool brings their comments and the check results into the agent session, where I can group related feedback and work through the changes conversationally.\n\n\nI built these tools to help me keep several tasks moving and spend more time on planning and design. Engineering can feel jagged when I’m repeatedly switching between high-level reasoning and implementation details. I enjoy being able to spend longer stretches of time planning, followed by longer stretches reviewing and modifying code.",
+  "published_at": null,
+  "first_seen_at": "2026-10-07T00:32:50.558994+00:00",
+  "content_hash": "sha256:2a6eb791b789a28f4ce7e38ecfc08b4f6db79a454605e80c1b2fd7d814206510"
+}

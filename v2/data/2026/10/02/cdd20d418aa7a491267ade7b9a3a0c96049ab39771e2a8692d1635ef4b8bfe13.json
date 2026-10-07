@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cdd20d418aa7a491267ade7b9a3a0c96049ab39771e2a8692d1635ef4b8bfe13",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+  "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
+  "summary": "Discover more about what's new at AWS with AgentCore Gateway supports private TLS certificates for VPC endpoints",
+  "body_markdown": "Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to gateway targets that use TLS certificates issued by your own private certificate authority. With this feature, you can establish native connections to private endpoints in your VPC without requiring an intermediate Application Load Balancer.\n\n\nYou can register a private CA certificate with gateway targets that use private endpoints powered by Amazon VPC Lattice. The gateway fetches your PEM-encoded CA certificate from Amazon S3 or AWS Secrets Manager and uses it as the trust anchor for outbound TLS connections. Private CA support is available for MCP server targets, OpenAPI targets, and HTTP proxy (passthrough) targets.\n\n\nSupport for private certificates on AgentCore Gateway is available in all Regions where both AgentCore Gateway and Amazon VPC Lattice are available. To learn more, see the[AgentCore Developer Guide](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-vpc-egress.html#gateway-private-certificate) .",
+  "published_at": "2026-10-02T08:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:e2e9ea857693ebe7e232f63cd3a2a765500b6debb4a379e5f2aba15329bd52b8"
+}

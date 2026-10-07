@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d89a6e147ff3c965b6a0d18836ee8145c8bf421b5699f4cc375da1a759be3c84",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-02-20-improve-repository-watch-path-logic-other-improvements-bug-fixes",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-02-20-improve-repository-watch-path-logic-other-improvements-bug-fixes",
+  "title": "Improve Repository Watch Path Logic, Other Improvements & Bug Fixes - Flightcontrol Changelog | Productlane",
+  "summary": "Hello everyone. This week we made several user experience improvements and bug fixes for deployments. 💅 UX. Change watch path logic to be ignored (deploy… Powered by Productlane.",
+  "body_markdown": "Hello everyone. This week we made several user experience improvements and bug fixes for deployments.\n\n\n#### 💅 UX\n\n\n-\n\n\nChange watch path logic to be ignored (deploy everything) if git diff fails for any reason.\n\n\n-\n\n\nDocumentation now shows a message saying no results found instead of a 404.\n\n\n#### 🐛 Bug Fixes\n\n\n-\n\n\nFixed a bug where during onboarding flow gets to bad state if user goes back.\n\n\n-\n\n\nFixed a bug where deployments are not cancelled during certain failures.\n\n\n-\n\n\nFixed a bug where previous deployment errors were being overwritten.",
+  "published_at": "2023-02-20T15:29:26.796+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:5877a9b8d339adc43b7567dd465b782e5b70ce2b4b4f12d714fc3616981cf381"
+}

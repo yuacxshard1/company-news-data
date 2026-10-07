@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b7796d4fb181eeff5762b0070a33421c2cc37b2e873898e47443239e363f89dd",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-tables-table-bucket-increase",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-tables-table-bucket-increase",
+  "title": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account",
+  "body_markdown": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account, increased from 10. This allows you to create up to 1 million tables per AWS Region in an AWS account. With a higher table bucket allowance, you can create a separate table bucket for each dataset, workload, or team, and apply table bucket-level settings such as encryption, access policies, and replication to each. The higher quota applies by default to all accounts at no additional cost.\n\n\nS3 Tables deliver the first cloud object store with built-in Apache Iceberg support, and the easiest way to store tabular data at scale. S3 Tables perform continual table maintenance to automatically optimize query efficiency and storage cost over time, even as your data lake scales and evolves.\n\n\nThe higher default quota is available in all AWS Regions where S3 Tables are available. If you need a quota beyond the default, you can request an increase through AWS Support. To learn more, visit the[S3 Tables overview page](https://aws.amazon.com/s3/features/tables/) ,[user guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html) , and[quotas documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-regions-quotas.html) .",
+  "published_at": "2026-10-01T04:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:6becc6828ca9ee7f84e125841e88597ece7e998e47dcc1519375a35ae65c15da"
+}

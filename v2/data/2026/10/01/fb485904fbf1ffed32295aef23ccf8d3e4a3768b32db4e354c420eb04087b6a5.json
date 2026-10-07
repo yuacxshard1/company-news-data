@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fb485904fbf1ffed32295aef23ccf8d3e4a3768b32db4e354c420eb04087b6a5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/eks-auto-mode-advanced-compute-config/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/eks-auto-mode-advanced-compute-config/",
+  "title": "Amazon EKS Auto Mode now supports advanced compute configuration",
+  "summary": "Discover more about what's new at AWS with Amazon EKS Auto Mode now supports advanced compute configuration",
+  "body_markdown": "Amazon Elastic Kubernetes Service (EKS) Auto Mode now lets you tune kubelet settings, Linux kernel sysctls, and hugepages directly in the NodeClass Kubernetes resource. You can now run workloads that require specific node tuning on EKS Auto Mode, which automates node provisioning, scaling, patching, and upgrades for you.\n\n\nWith the new advancedCompute field in NodeClass, you can configure user namespaces for rootless container builds in CI/CD pipelines, tune eviction thresholds and container log rotation to protect nodes from disk and memory pressure, raise network and ARP cache limits for large clusters, and pre-allocate 2Mi or 1Gi hugepages for HPC, database, and latency-sensitive workloads. You apply these settings declaratively using the Kubernetes API. EKS Auto Mode validates them, applies them at node boot, and preserves them through scaling and upgrade events, so your workloads get the tuning they need while EKS Auto Mode continues to manage the underlying infrastructure, with no EC2 launch templates, custom AMIs, or privileged DaemonSets to maintain.\n\n\nAmazon EKS Auto Mode advanced compute configuration is available in all AWS Regions where EKS Auto Mode is available.\n\n\nTo get started, see the[Amazon EKS Auto Mode](https://aws.amazon.com/eks/auto-mode/) product page, and see[Create a Node Class for Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/create-node-class.html#kubelet-config) in the Amazon EKS documentation.",
+  "published_at": "2026-10-01T08:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:3629808356be45f6b1012910a2afae4b915bc79fcb83462c48ae08d0062e4fd0"
+}

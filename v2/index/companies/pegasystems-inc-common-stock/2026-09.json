@@ -3,6 +3,16 @@
     {
       "company_key": "pegasystems-inc-common-stock",
       "company_name": "Pegasystems Inc.",
+      "doc_id": "06bd828e23581e43b851026120bf94f41499013405448ffcd877959144c7cb8b",
+      "first_seen_at": "2026-10-06T19:10:55.227050+00:00",
+      "published_at": "2026-09-29T18:50:28+00:00",
+      "source_kind": "rss",
+      "summary": "Wolverine Solutions Group PORG Name Wolverine Solutions Group September 29, 2026",
+      "title": "Wolverine Solutions Group"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
       "doc_id": "0c1efc54074397fcd8fabd4763a74eeef315d03526db44c8a8e39bf37153061b",
       "first_seen_at": "2026-09-11T22:38:50.407815+00:00",
       "published_at": "2026-09-11T12:00:00+00:00",
@@ -39,6 +49,16 @@
       "source_kind": "rss",
       "summary": "PT Inti Corpora Teknologi PORG Name PT Inti Corpora Teknologi September 22, 2026",
       "title": "PT Inti Corpora Teknologi"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "19c6ffea83663b7efd1b9eafcf293727c5d9be242071d3e8fee34177dd7e290a",
+      "first_seen_at": "2026-10-06T19:10:55.227050+00:00",
+      "published_at": "2026-09-29T17:35:18+00:00",
+      "source_kind": "rss",
+      "summary": "Myknowtech B.V PORG Name Myknowtech B.V September 29, 2026",
+      "title": "Myknowtech B.V"
     },
     {
       "company_key": "pegasystems-inc-common-stock",
@@ -113,12 +133,52 @@
     {
       "company_key": "pegasystems-inc-common-stock",
       "company_name": "Pegasystems Inc.",
+      "doc_id": "54441c26746f0b7f134cd52bd85aa86df754ba721f2011d5a977d0943711286b",
+      "first_seen_at": "2026-10-06T21:41:01.681161+00:00",
+      "published_at": "2026-09-28T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn why enterprises scaling AI agents need BOAT platforms to unify automation, orchestration, governance, and predictable costs.",
+      "title": "Why every enterprise scaling AI agents needs a BOAT platform"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "73a6f9cf51c1a3404c47f672400d71d2fb4ea8c174591802d87622963f4bc2d4",
+      "first_seen_at": "2026-10-06T23:03:40.157866+00:00",
+      "published_at": "2026-09-30T12:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Thanks to everyone who joined our recent webinar and kept the chat buzzing with questions! Missed the session or want to watch it again? Catch the full recording here. Below is the full Q&A from the session, answered by our panel - Tihomir Petrovic, Madhuri Vasa, Goutham Mandadi, and Sachin Vellanki. Test Automation Scope & Compatibility Can test automation cover UI-Kit or Theme/Cosmos apps? No - GenAI test automation is currently supported only for Constellation applications. What about hybrid apps (Constellation implementation layer, UI Toolkit/Theme-Cosmos built-on)? Yes - supported, provided the top-level end-user application is built on Constellation. Can I run application tests without Deployment Manager? Yes - download the full automation script bundle as a zip and run it locally or on any other CI/CD pipeline. Can custom components be tested? Not currently - automation covers out-of-the-box Pega base components; for custom components you'll need to write custom code or adapt the auto-generated test skeletons. Can we test external AI agents? No - this capability only tests the functionality of the Pega application itself. Is test automation available for Client-Managed Cloud, or only Pega Cloud? AI-assisted authoring is available on Client-Managed Cloud, but the automated execution infrastructure is currently exclusive to Pega Cloud 3. Is AI testing only available on Pega Cloud, not on-premise? Same answer as above - authoring works broadly, but automated execution is a Pega Cloud 3 capability today. Execution, Integration & Tooling Can external automation tools connect to Pega and execute our test cases? Not yet natively - tests currently run through Deployment Manager or within the Pega environment. An API endpoint for external tools to trigger API tests is on the roadmap. Is integrating with Playwright an option? Yes - Playwright is the primary engine. Generated tests use Playwright and TypeScript, and Pega Cloud provides native infrastructure to run them without needing third-party orchestrators like Jenkins or Azure DevOps. Do I need to install Playwright locally to run downloaded tests? Yes, if running locally (dependencies are provided). Not needed if running through Deployment Manager, since Pega handles the infrastructure as a service. Can Infinity '26 scripts be executed on another test bed, like Bamboo? Yes - download the test package and run it in your own orchestrator, as long as the environment is configured correctly. Is there a centralized view to monitor test execution across multiple pipelines? Today, the Application Quality dashboard in Deployment Manager shows execution trends for Pega Unit tests. Application Test execution trends are on the roadmap for early 2027. Can we reuse existing Playwright tests inside the Pega test suite / Deployment Manager? Not currently - the infrastructure supports only out-of-the-box Application Tests. Tagging and suite-management features are coming in future releases; please raise this as product feedback in the meantime. Can we configure simulations for integrations in an application test? No, this is not currently supported. GenAI & Maintenance Can AI generate tests for existing applications, not just new Blueprint apps? Yes - as long as the application is built on the Constellation architecture. Should we write explicit prompts to create pipelines in DM, or during Blueprint design? Discussed live during the session - please check the recording for the full nuance on prompt timing. How do we maintain test cases as screens, data, or flows change - can AI help? Yes - AI can update tests by reading the changes in a branch. Does regenerating a test automatically invalidate old ones, or do we handle cleanup? There's no automatic cleanup of test cases or test data today; this needs to be handled manually or via a utility activity. Do generated test artifacts (e.g., cases) get cleaned up automatically, like Pega Unit tests? Same as above - no automatic cleanup yet; manual or utility-activity-based cleanup is required. What are the known limitations and accuracy metrics of this capability? In the current release, the focus is on the case lifecycle - landing pages, external-only REST APIs, and custom components are not yet automated. Can we integrate external AI tools like Claude or OpenAI to generate tests directly in a Constellation app? Yes - tests are rules, so they can be generated using external AI tools via the Pega MCP protocol (a topic we may dedicate a future webinar to). Is Gen AI licensing required? Can we bring our own model (e.g., Claude via MCP)? Does this work on Client Cloud? Three-part answer: (1) it's part of the Gen AI bundle and requires a signed addendum; (2) yes, you can connect through Claude or another external harness and leverage Pega MCP to generate tests; (3) it's possible on Client Cloud - please confirm specifics with your account executive. Pipelines, Blueprint & Deployment What are the prerequisites for getting pipelines created? None from a manual setup standpoint - the process is fully automated for users on Pega Cloud 3 using Deployment Manager as a service. If an app is extended with a new Blueprint for another case type, how is the existing pipeline handled? Deployment Manager creates a \"Version 2\" of each relevant pipeline. Does Blueprint support reusing existing enterprise assets (data models, integrations, APIs) instead of generating new ones? Discussed live during the session - please see the recording for the detailed walkthrough. How do you recommend teams deliver a Blueprint-generated solution iteratively? Treat Blueprint as the app baseline/foundation - the generated implementation plan becomes the bridge into iterative delivery, rather than treating the branch as one large delivery unit. Are there plans to bring automatic pipeline creation to customers who don't use Pega Cloud? No current plans for Client-Managed Cloud or on-premise - please raise this as product feedback. DX API endpoints are configured per customer service package - how do we reconfigure tests with less effort? Discussed live during the session - please see the recording for the recommended approach. Reporting, Thresholds & Reliability How long are reports available, and can we adjust the pass threshold (e.g., accept 97%)? Configurable thresholds are on the roadmap; today a 100% pass rate is required, though privileged users can manually skip failed tasks. Service-level reports are kept for 7 days, while route-to-live evidence (screenshots/videos) remains until manually erased. What about load testing? These tests focus on application functionality and lifecycle, not load - load testing is handled separately with tools like JMeter or LoadRunner against a baseline. Is recording video/images an alternative to robotic testing? No - Playwright records execution videos and screenshots for UI testing, but robotic testing targets desktop applications specifically; they're distinct capabilities. Is \"application test\" the same as the former \"scenario testing\"? \"Application test\" is the new term for Constellation apps, covering both UI and API (DX API) testing. \"Scenario Testing\" is on a deprecation path since it doesn't support Constellation. What about headless applications (Pega as orchestrator only, no UI, heavy REST usage)? Focus on API tests and unit tests - API testing lets you functionally test REST services and connectors without a UI layer. We hit a runtime exception running application tests via Deployment Manager - should we open a support case? Yes, please open a support case. Do we need to configure authentication to run application tests? Yes - since tests rely on DX APIs, you'll need to configure OAuth authentication profiles and client credentials. Using bots for testing, especially for compliance and repetitive tasks? Discussed live during the session - please see the recording for this topic.",
+      "title": "Q&A Recap: Accelerate DevOps with Blueprint Onboarding & AI-Driven Test Authoring & Automation"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "766b617a99123054a3184f7afac2f0fb201300c9151a411e318213cde14f857d",
+      "first_seen_at": "2026-10-06T19:10:55.227050+00:00",
+      "published_at": "2026-09-29T22:40:33+00:00",
+      "source_kind": "rss",
+      "summary": "Pn Automation, Inc PORG Name Pn Automation, Inc September 29, 2026",
+      "title": "Pn Automation, Inc"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
       "doc_id": "7d1d559d2559aac3ba819cd8f5849fbf44b45d4d7e4d419a9f2749e0e409ff5c",
       "first_seen_at": "2026-09-21T19:33:11.278544+00:00",
       "published_at": null,
       "source_kind": "html",
       "summary": "Pega’s AI orchestration and governance recognized for second consecutive year",
       "title": "Pega Named a Leader in Gartner® Magic Quadrant™ and Recognized in Critical Capabilities Report for Business Orchestration and Automation Technology"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "8a9c862e3f224aa326d351b74ec0916f0cf5a810cd13c698df2adce79695b31b",
+      "first_seen_at": "2026-10-06T23:03:40.157866+00:00",
+      "published_at": "2026-09-28T12:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The true value of a Lead Decisioning Architect isn't measured by technical complexity, but by the ability to turn technology into meaningful business outcome.",
+      "title": "The True Value of a Lead Decisioning Architect: Beyond Technical Excellence and Into Business Impact"
     },
     {
       "company_key": "pegasystems-inc-common-stock",
@@ -219,6 +279,16 @@
       "source_kind": "rss",
       "summary": "QuestIQ, LLC PORG Name QuestIQ, LLC September 23, 2026",
       "title": "QuestIQ, LLC"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "e14fa767c4e4e9f6fea1d8d4362aa6d737f53b9ddd42a873ee17c3eeb553a9fd",
+      "first_seen_at": "2026-10-06T23:03:40.157866+00:00",
+      "published_at": "2026-09-30T12:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Blueprint Onboarding & AI Test Authoring and Automation: DevOps at Speed On September 17, 2026, Pega hosted a live session - Accelerate DevOps with Blueprint Onboarding & AI-Driven Test Authoring & Automation - as part of the Pega as-a-Service Webinar Series. The panel brought together Tihomir Petrovic (Technical Solution Director, PSA Competency Center for DevOps), Madhuri Vasa (Product Manager, Deployment Manager & DevOps experiences), Goutham Mandadi (Senior Principal Software Engineer, GenAI test automation), and Sachin Vellanki (Product Owner, Automated Testing). Together they showed how Pega GenAI™ and Pega Autopilot™ are reshaping quality assurance for Constellation applications, and how Blueprint-designed apps now flow automatically into CI/CD pipelines through Deployment Manager. Missed it live? You can watch the full recording here. From Blueprint to Pipeline in Minutes Blueprint already accelerates the design phase of an application - now Deployment Manager automates the second half of the SDLC too. Blueprint-designed apps are automatically onboarded with versioned merge and deployment pipelines, pre-aligned with Blueprint delivery methodology, right out of the box. In a live demo, the team imported a \"Benefit Me\" application from Blueprint and watched Deployment Manager generate validated pipelines with quality gates already configured. AI-Assisted Test Authoring at Speed Starting with release '26, an AI Assistant reads a case's lifecycle, views, and data model to automatically generate Business Actions and Application Tests for entire case types - or a whole application - expressed as Gherkin/Cucumber scenarios. Goutham demonstrated this live with a single prompt, \"generate application test for my home loan case types,\" which produced multiple realistic test scenarios for a banking app, including a loan rejection due to income. Integrated API and UI Test Generation The platform doesn't stop at one layer: it simultaneously produces API-level test steps (backed by DX APIs) and Playwright-powered UI automation scripts, both written in human-readable Cucumber syntax. That means technical and business stakeholders alike can review and understand the same test suite. Seamless Integration into Deployment Manager Pipelines Testing tasks are now native quality gates inside Deployment Manager. Teams can package and deploy tests separately from the application artifact, configure pipeline stages to trigger automated execution, and set global testing gates that every release vehicle must clear. Each run captures audited evidence - configurable screenshots, videos, and trace files - to speed up debugging. Automated Execution Across Route-to-Live Environments Tests run consistently across Development, Staging, and Production-candidate environments, catching regressions early. The demo walked through the Deployment History view, where teams can download detailed test evidence folders, and also showed a downloaded Playwright suite executed locally via npm run test. What the Audience Wanted to Know A few themes stood out in the live Q&A: native automated execution is currently exclusive to Pega Cloud via Deployment Manager as a service; testing gates today require a 100% pass rate, though configurable thresholds (e.g., 97%) are on the roadmap; AI generation currently focuses on the case lifecycle and doesn't yet cover custom components or landing pages without manual updates; and when screens or flows change in a branch, the AI Assistant can read those changes and update existing tests automatically. Keep the Conversation Going Curious about where Blueprint, Deployment Manager, and AI-driven testing are headed next? Join the Pega as-a-Service Expert Circle for access to more sessions like this one and early looks at upcoming platform capabilities. We've also published the full Q&A from this session as a separate community discussion - Q & A recap - so take a look, and if your question wasn't fully answered, drop it there and our panel will follow up.",
+      "title": "Webinar Blog - Accelerate DevOps with Blueprint Onboarding & AI-Driven Test Authoring & Automation"
     },
     {
       "company_key": "pegasystems-inc-common-stock",

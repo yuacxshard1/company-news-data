@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d8909da771ed0d753242bf789e4b30b596db37a43f773f4e7864557ef6125767",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
+  "title": "AWS Control Tower AFT now supports plan-only customization runs",
+  "summary": "Discover more about what's new at AWS with AWS Control Tower AFT now supports plan-only customization runs",
+  "body_markdown": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their managed accounts.\nAFT is an open-source Terraform module that automates account provisioning and customization in AWS Control Tower environments. Previously, invoking customizations always triggered a full Terraform apply with no way to preview changes, making it difficult to validate expected outcomes or catch unintended configuration drift before a broad rollout. With plan-only runs, administrators can now trigger a Terraform plan for global and account customizations without applying any changes. This capability supports safe pre-rollout validation, drift detection, and integration into CI/CD review workflows. Plan-only runs are compatible across all AFT-supported Terraform distributions, including open source, Terraform Cloud, and Terraform Enterprise.\n\n\nThis feature is available in all AWS Regions where AWS Control Tower Account Factory for Terraform is supported. To get started, see the[AFT documentation](https://docs.aws.amazon.com/controltower/latest/userguide/aft-overview.html) and the[AFT 1.22.0 release notes](https://github.com/aws-ia/terraform-aws-control_tower_account_factory/releases/tag/1.22.0) for configuration details. For more information, see the[AWS Control Tower User Guide](https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html) .",
+  "published_at": "2026-10-05T19:31:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:87ab672f8f655437445e30f8d5c42b61d790bd7f9ea84ca7ad723166215f5ead"
+}

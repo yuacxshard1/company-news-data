@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bd2a83de792d3365a0b7f07cbd4e7c4b38d59b89a7b8f19274cee52780ca3dab",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
+  "title": "AWS Batch now supports Amazon EKS access entry authentication",
+  "summary": "Discover more about what's new at AWS with AWS Batch now supports Amazon EKS access entry authentication",
+  "body_markdown": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters, complementing the existing *aws-auth* *ConfigMap* . AWS Batch can now authenticate to your cluster through the access entry mechanism, simplifying cluster setup and authentication lifecycle management.\n\n\nTo get started, use the *CreateComputeEnvironment* or *UpdateComputeEnvironment* APIs to set *accessEntry.desiredState* to ENABLED on all AWS Batch compute environments targeting your cluster. AWS Batch creates one access entry per cluster and associates the *AWSBatchClusterPolicy* with it. You can configure access entries through the AWS CLI, AWS SDKs, or AWS Management Console.\n\n\nAccess entry authentication for AWS Batch on Amazon EKS is now supported in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AWS Batch is available. For more information, see Amazon EKS access entry authentication in the[AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/eks-access-entries.html) .",
+  "published_at": "2026-10-05T15:31:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:19f482ec8d904272d93146e8312d489688b7f5e9a4d33b623defce5e7886c12c"
+}

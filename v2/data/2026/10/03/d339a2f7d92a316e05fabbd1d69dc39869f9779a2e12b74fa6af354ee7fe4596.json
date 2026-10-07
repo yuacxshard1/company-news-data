@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d339a2f7d92a316e05fabbd1d69dc39869f9779a2e12b74fa6af354ee7fe4596",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/cant-use-feed-for-apod-site-revamp/13867#post_1",
+  "canonical_url": "https://forum.newsblur.com/t/cant-use-feed-for-apod-site-revamp/13867",
+  "title": "Can't use feed for APOD site revamp",
+  "summary": "NASA’s Astronomy Picture of the Day website recently changed, and now I can’t get NewsBlur to understand or be happy about their new feed. Their site is now https://science.nasa.gov/apod/, and the RSS button’s link is https://science.nasa.gov/feed/apod-basic/, although that wants to download a .rss file. An acquaintance tossed up an XML feed on his AWS account, https://scotts-mess.s3.amazonaws.com/apod/apod_filtered.xml, but NewsBlur just spins trying to parse that one as well. Is there any way ...",
+  "body_markdown": "[spartanhooah](https://forum.newsblur.com/u/spartanhooah)\n\n\nOctober 3, 2026, 12:06am 1\n\n\nNASA’s Astronomy Picture of the Day website recently changed, and now I can’t get NewsBlur to understand or be happy about their new feed. Their site is now[https://science.nasa.gov/apod/](https://science.nasa.gov/apod/) , and the RSS button’s link is[https://science.nasa.gov/feed/apod-basic/](https://science.nasa.gov/feed/apod-basic/) , although that wants to download a .rss file. An acquaintance tossed up an XML feed on his AWS account,[https://scotts-mess.s3.amazonaws.com/apod/apod_filtered.xml](https://scotts-mess.s3.amazonaws.com/apod/apod_filtered.xml) , but NewsBlur just spins trying to parse that one as well. Is there any way to get the new version of this feed working?\n\n\n[steanne](https://forum.newsblur.com/u/steanne)\n\n\nOctober 3, 2026, 9:06am 2\n\n\n[https://www.newsblur.com/site/10309788/apod](https://www.newsblur.com/site/10309788/apod) is working for me. i redirected it to the same one you have listed a few days ago.\n\n\n(for those following along at home, they snuck the updated info into an image annotation on an old repost[https://science.nasa.gov/image-article/apod-2026-september-28-cosmic-latte-the-average-color-of-the-universe/](https://science.nasa.gov/image-article/apod-2026-september-28-cosmic-latte-the-average-color-of-the-universe/) )\n\n\n[spartanhooah](https://forum.newsblur.com/u/spartanhooah)\n\n\nOctober 3, 2026, 1:43pm 3\n\n\nHmmm. That newsblur URL is accepted, but even when I set the view to all, nothing shows up in the feed, even when I click “Insta-fetch stories”.\n\n\nEdit: when I encounter the feed “naturally” (e.g. after marking a previous feed as all read, so then NewsBlur loads the next feed with unread articles), it loads fine. Strange, but that’s how I almost always browse, so that’s fine.",
+  "published_at": "2026-10-03T00:06:01+00:00",
+  "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+  "content_hash": "sha256:51f7b28553b53a26fb4c89f22bc5e463380e2f41619536950d6c2befd30adbc9"
+}

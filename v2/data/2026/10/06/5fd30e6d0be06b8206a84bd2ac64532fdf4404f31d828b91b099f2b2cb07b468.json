@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5fd30e6d0be06b8206a84bd2ac64532fdf4404f31d828b91b099f2b2cb07b468",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+  "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
+  "summary": "Discover more about what's new at AWS with AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
+  "body_markdown": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays within the AWS network. You can now create a VPC interface endpoint to the ACM ACME service and route issuance traffic from any ACMEv2-compatible client through your VPC.\n\n\nIf you're already using ACME with ACM, setup requires no changes to your ACME clients. After you create your managed ACME endpoint in ACM, you create a standard VPC interface endpoint using the VPC console, AWS CLI, or AWS CloudFormation. Private DNS resolves your existing ACME directory URL to the interface endpoint inside your VPC automatically, so the same client configuration and directory URL continue to work with no reconfiguration. Issuance operations—account creation, order creation, domain validation, finalization, and certificate retrieval—then flow over PrivateLink. All activity remains visible in the ACM console with AWS CloudTrail logging and Amazon CloudWatch metrics for auditability.\n\n\nAWS PrivateLink support for ACME certificate issuance is available in all commercial AWS Regions. Standard AWS PrivateLink charges apply for interface endpoints; see the AWS PrivateLink pricing page. For ACM pricing details, see the[ACM pricing page](https://aws.amazon.com/certificate-manager/pricing/) . To get started with ACME and PrivateLink, visit the[AWS News blog post](https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/) or read the[documentation](https://docs.aws.amazon.com/acm/latest/userguide/acm-acme.html) .",
+  "published_at": "2026-10-06T14:01:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:f936765fea7d971de1df836b9deb06b83008c4272fc6b60b77a18aa2f5282805"
+}

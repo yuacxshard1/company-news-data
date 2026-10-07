@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f5846e26a90897c20ba18427aadcc2730fe9529025ffba6cd22a32953c40bc71",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/scoped-personal-access-tokens-ga",
+  "canonical_url": "https://supabase.com/changelog/scoped-personal-access-tokens-ga",
+  "title": "Scoped personal access tokens are now generally available",
+  "summary": "Scoped personal access tokens are now generally available",
+  "body_markdown": "Scoped personal access tokens (PATs) are now available to everyone. You can limit a token to specific projects or organizations and grant only the permissions it needs.\n\n\n## You pick a token's access when you create it#\n\n\nOn your[access tokens page](https://supabase.com/dashboard/account/tokens) , choose:\n\n\n- Resources: selected projects in one organization, or all projects in selected organizations.\n- Permissions: read or read-write per capability, such as projects, database, auth, or storage.\n- Expiry: a preset or a custom date up to one year out.\n\n\nA review step shows the access you're granting and a risk level. You see the token value only when you create it.\n\n\nYou can't change a token's access later. To change it, delete the token and create a new one.\n\n\nA token never has more access than you do. Every request checks your current role. When you lose access, so does the token.\n\n\n## Scoped tokens work with the Management API, MCP server, and CLI#\n\n\n- Management API: all` /v1` and` /v2` endpoints. A 403 lists the permissions the token lacks in a` missing_permissions` array.\n- Supabase MCP server: each tool checks the token's permissions. The token's detail view in the dashboard lists the tools it can call.\n- Supabase CLI: pass the token with` supabase login --token` or set` SUPABASE_ACCESS_TOKEN` . The browser flow for` supabase login` still creates an account-level token.` supabase whoami` doesn't work with project- or organization-scoped tokens.\n\n\nSome access needs a specific permission. Revealing secret API keys needs API Key Secrets. SQL runs read-only unless the token has Database read-write.\n\n\nThe[personal access tokens docs](https://supabase.com/docs/guides/platform/personal-access-tokens) map each permission to its endpoints and MCP tools.\n\n\n## Your existing tokens keep working#\n\n\nWe aren't revoking anything. Every existing token works until it expires or you delete it. You can still create an account-level token with \"Create legacy token\". A leaked scoped token exposes far less. GitHub secret scanning detects both kinds.\n\n\n## Replace your account-level tokens with scoped ones#\n\n\nSwap each account-level token for a scoped token that has only the access its integration needs. If you're missing a permission or the form doesn't fit your workflow, tell us in the GitHub Discussion for this entry.",
+  "published_at": "2026-10-06T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T21:49:00.513226+00:00",
+  "content_hash": "sha256:ffe25c3d172f1e99b8455082daa09a082d70283ab26add0ba370140c51ce60a2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3135af405d45b355580da1dae8ee914498d62afec8cd9120db8906ad7af11b90",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+  "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+  "summary": "Discover more about what's new at AWS with AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+  "body_markdown": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon S3.\n\n\nWith table optimization, you can compact V3 tables using binpack, sort, or z-order strategies to improve query performance, and remove expired snapshots and orphan files to reduce storage costs. These optimizations support V3 data types, including variant, geospatial, and nanosecond-precision timestamps. You can also generate number of distinct values (NDV) statistics for V3 tables, which analytics engines use to plan queries efficiently. In addition, you can use Glue crawlers to discover V3 tables stored in Amazon S3 and register them in Glue Data Catalog, making them available to query with any V3-compatible engines.\n\n\nThese capabilities are available for Iceberg V3 tables in all AWS Regions where Glue Data Catalog table optimization, statistics, and crawlers are available. To learn more, see[Glue Optimization](https://docs.aws.amazon.com/glue/latest/dg/table-optimizers.html) ,[Glue Statistics](https://docs.aws.amazon.com/glue/latest/dg/iceberg-column-statistics.html) , and[Glue crawlers](https://docs.aws.amazon.com/glue/latest/dg/crawler-data-stores.html) in the Glue Developer Guide.",
+  "published_at": "2026-10-01T08:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:51d399174931f2671557a4ba9bc6d6e48643b6a622a988ed2727fce26637bec3"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f4a3c4d42c32932d2ceabad8e9a725d9341c569d0701c7613ac5a0c28e291b47",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
+  "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 introduces shared tags for Amazon Machine Images",
+  "body_markdown": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automatically shared alongside the AMI, eliminating the need to build and maintain custom tag replication workflows.\n\n\nAMI owners simply add the 'ec2:SharedTag/' prefix to any tag key, and every account the AMI is shared with can immediately see it. This removes the operational burden of replicating tags into each account after sharing an AMI. Shared tags are read-only for recipient accounts, so only the owner can create, modify, or delete them. They count only against the owner's 50 tag per resource quota, allowing recipient accounts to continue adding their own private tags without any impact to their limits.\n\n\nThis feature is available in all AWS Regions at no additional cost. To learn more, please visit the[documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/sharingamis-explicit.html) and read the[blog](https://aws.amazon.com/blogs/compute/introducing-ec2-ami-tag-sharing-share-ec2-tags-across-aws-accounts/) .",
+  "published_at": "2026-10-05T17:28:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:96759c4074b886b4b2578d977da38274a7a49c126677929166a3b1446f2a764f"
+}

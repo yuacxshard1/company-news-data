@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "250e5f555d4dedbc8d99301d3562ecd253ea787568ff3994710836b2da96d308",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+  "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
+  "summary": "Discover more about what's new at AWS with GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
+  "body_markdown": "Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work. Customers using GLM 5.3 on Amazon Bedrock have access to the latest open weight model with the AWS security and compliance posture.\n\n\nGLM 5.3 is Z.ai’s flagship model, a mixture-of-experts architecture with 753B total parameters and roughly 40B active per token, built on the same base model as GLM 5.2 with all improvements driven by scaled post-training. It combines a 1-million-token context window with up to 128K output tokens, and reasoning is always enabled with selectable effort levels so you can trade latency and token consumption against task performance.\n\n\nBedrock support for GLM 5.3 includes explicit prompt caching with cache points on system prompts and messages, helping you reduce latency and input costs when reusing context across model calls.\n\n\nGLM 5.3 is available to eligible enterprise customers, and is accessible through the US and Global cross-Region inference profiles. To get started with GLM 5.3, you can access the model in the[Amazon Bedrock console](https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/) or programmatically through supported Amazon Bedrock APIs. For information about supported[AWS Regions](https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html) , endpoints, APIs, features, inference profiles and pricing, see the[Amazon Bedrock documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5-3.html) . To learn more, read the launch[blog post](https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/) .",
+  "published_at": "2026-10-05T21:42:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:8a1c41ab231f81f0dce246cf73b67942230e5a7dd0ded9b50de299ca31bbbead"
+}

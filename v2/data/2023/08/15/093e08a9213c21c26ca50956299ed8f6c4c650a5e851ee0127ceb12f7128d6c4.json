@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "093e08a9213c21c26ca50956299ed8f6c4c650a5e851ee0127ceb12f7128d6c4",
+  "company_key": "yc-zep-ai",
+  "company_name": "Zep AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.getzep.com/blog/announcing-anthropic-llm-support/",
+  "canonical_url": "https://www.getzep.com/blog/announcing-anthropic-llm-support/",
+  "title": "Announcing Anthropic Claude Support! 🎉",
+  "summary": "Zep v0.10.0, released today, supports Anthropic's Claude family of LLMs for summarization and extraction tasks.",
+  "body_markdown": "[Anthropic's Claude family](https://www.anthropic.com/product) of LLMs offers companies a safer and very capable alternative to other LLM-as-a-Service vendors. Claude's massive 100K token window is ideal for Zep's summarization and language extraction tasks. Support for the` claude-2` and` claude-instant-1` models is now available in[Zep v0.10.0](https://github.com/getzep/zep/releases/tag/v0.10.0) .\n\n\n## Configuring Zep to use Claude\n\n\nModify your` config.yaml` file, setting` llm.service` to` anthropic` and` llm.model` to either` claude-2` or` claude-instant-1` .\n\n\nPlease see[Zep's config documentation](https://docs.getzep.com/deployment/config/) for more details, including how to use environment variables to do the above.\n\n\n### OpenAI Model Updates\n\n\nZep now also supports several new OpenAI model variants. The full list of models may be found below. See the[Zep's config documentation](https://docs.getzep.com/deployment/config/) for details on how to configure these.\n\n\nProvider Model\n\n\nOpenAI gpt-3.5-turbo\n\n\nOpenAI gpt-3.5-turbo-16k\n\n\nOpenAI gpt-4\n\n\nOpenAI gpt-4-32k\n\n\nAnthropic claude-instant-1\n\n\nAnthropic claude-2\n\n\n### Zep Server v0.10.0 Improvements and Bug Fixes\n\n\nZep includes the following improvements and bug fixes:\n\n\n- **OpenAI API call reliability** : API throttling and service availability issues can be problematic for production services. Zep now has improved support for HTTP 429 and 503` Retry-After` directives.\n- **Session Deletion Behavior Change** : Persisting memory to a soft-deleted session no longer results in an error. Doing so will now undelete the` Session` , but keep the previously deleted` Memory` messages soft-deleted. These messages will be hard deleted when a subsequent Purge task runs.\n\n\nAdditional details on minor bug fixes and improvements may be found in the[v0.10.0 Release Notes.](https://github.com/getzep/zep/releases/tag/v0.10.0)\n\n\nWritten by\n\n\n**[Daniel Chalef](https://www.getzep.com/blog/author/daniel/)** Founder and CEO, Zep\n\n\n[@danielchalef](https://x.com/danielchalef)[LinkedIn](https://www.linkedin.com/in/danielchalef/)[All posts](https://www.getzep.com/blog/author/daniel/)",
+  "published_at": "2023-08-15T15:40:27+00:00",
+  "first_seen_at": "2026-10-06T20:51:34.460563+00:00",
+  "content_hash": "sha256:cda77cbff369c6b08a71af40b0b0ec7cd0af5d719a73dfffb59752b860200728"
+}

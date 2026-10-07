@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5544d55e49b0685fd28097f7b2ecea807d011b7c259c8c6bcf3744f1465bd0de",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
+  "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
+  "summary": "Discover more about what's new at AWS with AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
+  "body_markdown": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview)\n\n\nAWS Continuum for Penetration Testing (formerly AWS Security Agent) already provides continuous, on-demand penetration testing without the need to contract third-party pentest vendors. Now, in public preview, Continuum for Penetration Testing shifts security testing even further left by integrating directly into your existing CI/CD systems, making penetration testing a deploy-time event.\n\n\nDevelopment teams ship code daily, but even with on-demand penetration testing available, security validation often happens outside the deployment workflow. CI/CD integration closes this gap. Developers receive findings, including severity, affected endpoints, and remediation guidance, directly in pipeline output. Non-security changes complete with no meaningful delay, and the pipeline automatically re-tests and verifies fixes after remediation without requiring manual re-triggers.\n\n\nGetting started requires no security expertise. An auto-generated pipeline snippet can be pasted into any existing pipeline and is completable in under five minutes. Application context bootstraps automatically on the first run, with no prior full penetration test required.\n\n\nContinuous penetration testing is available today. To get started, visit our[documentation](https://docs.aws.amazon.com/securityagent/latest/userguide/cicd-pentest.html) .",
+  "published_at": "2026-10-05T18:32:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:2a021c745f0106097c5bfbcdb5daa9bd9395b34be87a3f9c4c5994facbeeb8de"
+}

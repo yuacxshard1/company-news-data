@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8cf1a1c7b67569cfc1829c104dbeddb016f8d79f0552d7e79b14be62f5869f2b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
+  "title": "AWS Security Hub introduces remediation plans to prioritize and fix security exposures",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub introduces remediation plans to prioritize and fix security exposures",
+  "body_markdown": "AWS Security Hub now offers remediation plans that group related exposure findings sharing a root cause. Instead of addressing each exposure individually, you can now fix a single underlying resource, such as a misconfigured setting or overly permissive policy, and resolve or reduce the severity of multiple exposures at once.\n\n\nEach remediation plan includes prioritization guidance (Critical, High, Medium, or Low), impact assessment, and detailed step-by-step instructions with examples in multiple formats including AWS CLI, Terraform, CloudFormation, Python, and CDK. Security Hub automatically prioritizes plans so those reducing the most risk appear first, helping you focus remediation efforts where they matter most. AI agents can also programmatically consume remediation plans through the API to automate security fixes across your environment.\n\n\nRemediation plans are available in every AWS Region where AWS Security Hub is available and at no additional cost under AWS Security Hub Essentials plan. To learn more, visit the[AWS Security Hub documentation](https://docs.aws.amazon.com/securityhub/) .",
+  "published_at": "2026-10-01T10:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:e3a0854217a4ef3805dcd3530ffde67c9efa488bc2c6df08f35890c6ce8d8737"
+}

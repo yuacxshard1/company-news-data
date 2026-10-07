@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d11c05585ad22e00205c0953340eb63cf900528b441ae42cf3c276873b965f6b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+  "title": "AWS Advanced Ruby Driver Wrapper is generally available",
+  "summary": "Discover more about what's new at AWS with AWS Advanced Ruby Driver Wrapper is generally available",
+  "body_markdown": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with[Amazon RDS](https://aws.amazon.com/rds/) and[Amazon Aurora](https://aws.amazon.com/rds/aurora/) PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global database switchover and database failover times, improving application availability. Additionally, it supports multiple authentication mechanisms for your database, including AWS Secrets Manager authentication, and token-based authentication with AWS Identity and Access Management (IAM).\n\n\nThe AWS Advanced Ruby Driver Wrapper builds on top of the community[pg](https://rubygems.org/gems/pg) (PostgreSQL), and the[mysql2](https://rubygems.org/gems/mysql2) (MySQL) drivers to provide enhanced functionality beyond standard database connectivity. The wrapper is natively integrated with Aurora and RDS databases, enabling it to monitor database cluster status and quickly connect to newly promoted writers during unexpected failures that trigger database failovers. Furthermore, the wrapper seamlessly integrates with the ActiveRecord through provided aws_postgresql and aws_mysql2 adapters, so you can enable it without changing your application code.\n\n\nThe driver is available as an open-source project under the Apache 2.0 license. Refer to the instructions on the[GitHub repository](https://github.com/aws/aws-advanced-ruby-driver-wrapper) to get started.",
+  "published_at": "2026-10-05T17:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:4ff5f9612ee56912dac9e6d8a7940addacc9f1b40cb2336c09e767316606e89f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d252937fdeb6cbd8563345596ab87bd0f6443ae344418b45a46ceb08c95d9a7a",
+  "company_key": "yc-voiceos",
+  "company_name": "VoiceOS",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.voiceos.com/blog/how-to-test-dictation-accuracy",
+  "canonical_url": "https://www.voiceos.com/blog/how-to-test-dictation-accuracy",
+  "title": "How to test dictation accuracy beyond word error rate",
+  "summary": "Test dictation by the editing needed after paste and how easily readers understand the output. Measure correction time, paragraph breaks, lists, and email formatting.",
+  "body_markdown": "### What should I measure beyond word error rate?\n\n\nMeasure two outcomes separately: the editing needed after the first paste, and how easily a reader can understand that unedited output. Track word changes, formatting repairs, time until ready, and acceptance without edits; then test structure and reader questions. Keep meaning and factual correctness as acceptance requirements.\n\n\n### How do I calculate the amount of editing after dictation?\n\n\nSave the first pasted text and the minimally corrected version. Count word insertions, deletions, and substitutions, divide by the final word count, and multiply by 100 for edits per 100 accepted words. Record formatting repairs and actual correction time separately: a text diff cannot measure all the work.\n\n\n### Can an output have perfect WER and still be hard to read?\n\n\nYes. If scoring ignores whitespace and list markup, a dense paragraph and a structured email with identical words can have the same WER. Paragraph breaks, lists, and email layout therefore need their own checks in the destination app.\n\n\n### How can I test readability without relying only on opinion?\n\n\nGive readers the unedited output and ask predefined questions about its actions, deadlines, or main point. Record correct-answer rate and time, plus failures and timeouts. Use identical words when isolating formatting, and vary passages and order to limit learning effects.\n\n\n### Are these measured results for VoiceOS or other apps?\n\n\nNo. This is a proposed evaluation protocol with illustrative calculations and examples. A product ranking requires actual runs, declared settings, recorded outputs, and results under the same conditions.\n\n\n### Can English WER compare Japanese dictation fairly?\n\n\nNot without specifying how Japanese text is segmented and normalized. Add character-level and exact-name checks, and inspect whether mixed-language meaning is preserved. Report post-paste effort and readability in the intended language as well.",
+  "published_at": "2026-09-27T07:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:03:28.551214+00:00",
+  "content_hash": "sha256:eb10e91497b4f098e76b77c8325c4aef5b38c3dc8f4c75f72de050927a36156f"
+}

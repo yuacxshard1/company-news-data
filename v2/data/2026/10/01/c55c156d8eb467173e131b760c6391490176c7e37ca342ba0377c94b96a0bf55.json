@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c55c156d8eb467173e131b760c6391490176c7e37ca342ba0377c94b96a0bf55",
+  "company_key": "commvault-systems-inc-common-stock",
+  "company_name": "Commvault Systems Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.commvault.com/blogs/protect-your-data-from-ransomware-learn-how-with-clumio",
+  "canonical_url": "https://www.commvault.com/blogs/protect-your-data-from-ransomware-learn-how-with-clumio",
+  "title": "Ransomware Backup Protection Strategies That Work | Clumio by Commvault",
+  "summary": "Strengthen your ransomware backup protection with air-gapped, immutable cloud backups. Learn the 3-2-1-1-0 rule and proven recovery practices from Clumio.",
+  "body_markdown": "How do backups help protect against ransomware?\n\n\nBackups help[protect against ransomware](https://www.commvault.com/explore/ransomware-protection) by providing clean copies of data that can be restored after an attack. When backups are air-gapped and immutable, data is immutable and indelible, helping give you a reliable path to recovery without paying a ransom.\n\n\nWhat is the 3-2-1-1-0 rule?\n\n\nThe[3-2-1-1-0 rule](https://www.commvault.com/explore/3-2-1-backup-rule) calls for three copies of data on two media types, one offsite, one air-gapped or immutable, and zero errors after verification. It is the modern standard for ransomware-resilient data protection.\n\n\nWhat is an air-gapped backup?\n\n\nAn[air-gapped backup](https://www.commvault.com/explore/air-gap-backup) is a copy of data stored in an environment that is physically or logically isolated from your production network. This separation helps prevent ransomware from reaching backup data during an attack.\n\n\nWhat is an immutable backup?\n\n\nAn[immutable backup](https://www.commvault.com/explore/immutable-backup) is a copy of data that cannot be modified or deleted once it has been created. This helps keep information intact and protected from both malicious actors and unintended administrative changes. While immutable backups help safeguard data from natural disasters and human error, their greatest value is providing confidence that even if systems are compromised, critical data remains secure, reliable, and recoverable.\n\n\nCan ransomware encrypt cloud backups?\n\n\nYes, ransomware can encrypt cloud backups if they reside in the same account or environment as production data. Cloud backup ransomware protection requires storing backups in an isolated, air-gapped environment with immutability controls.\n\n\nHow long does ransomware recovery take?\n\n\nRecovery speed depends on the scope of the attack and your backup architecture. Solutions with granular, parallelized recovery can help restore individual objects or tables in minutes, while full-environment restores from legacy systems may take days.",
+  "published_at": "2026-10-01T11:10:00+00:00",
+  "first_seen_at": "2026-10-07T00:43:10.031262+00:00",
+  "content_hash": "sha256:25f8a4bc3ef37c506c456b4183a89ea10accf11708e26c3ffe273f44ba5d2b09"
+}

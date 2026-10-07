@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "88e035f26b5a35480e52331342abf6aadd77eb94f5ed712ab62979c0614bace6",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-02-27-auto-updating-codebuild-environments-and-starting-notifications-project",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-02-27-auto-updating-codebuild-environments-and-starting-notifications-project",
+  "title": "Auto-updating CodeBuild Environments and Starting Notifications Project - Flightcontrol Changelog | Productlane",
+  "summary": "Hi everybody! We re working hard on Flightcontrol, we shipped a number of improvements, and are starting work on the notifications project. Once we re finished… Powered by Productlane.",
+  "body_markdown": "Hi everybody! We're working hard on Flightcontrol, we shipped a number of improvements, and are starting work on the notifications project. Once we're finished with this project, you'll be able to subscribe to important events from your deployments.\n\n\n#### 🚀 Improvements\n\n\n-\n\n\nCodeBuild environments now use the latest AWS Linux builds, and will be auto-updated to the latest if necessary\n\n\n#### 💅 UX\n\n\n-\n\n\nFor Hobby users, choosing a GitHub repository from an organization account will ask you if you want to become a Business account\n\n\n-\n\n\nThe Custom Domains screen will show the app's CNAME Domain Status until it is actually routed, with support for zero downtime migration to your domain\n\n\n#### 🐛 Bug Fixes\n\n\n-\n\n\nFixed a bug where a static build will fail when outputDirectory is a path\n\n\n-\n\n\nFixed a bug where dotfolders and dotfiles weren't being watched with a watchPath\n\n\n-\n\n\nMiscellaneous bug fixes",
+  "published_at": "2023-02-27T14:28:23.921+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:fb26396e90e2ba60bd0f3dfc977f174fc582958e756f11e4a66ee50312904831"
+}

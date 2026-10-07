@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "13f31f1e85fd3f233e1eb983982f3d19f71c4183cd83991a26972b5ca1661c2f",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-01-17-update-build-cancel-behavior-other-ux-improvements-and-bug-fixes",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-01-17-update-build-cancel-behavior-other-ux-improvements-and-bug-fixes",
+  "title": "Update Build Cancel Behavior & Other UX Improvements and Bug Fixes - Flightcontrol Changelog | Productlane",
+  "summary": "Everyone is back in the office now, and work on pre-built images has been moving steadily, with a release coming very soon. In the meantime, here are some bug… Powered by Productlane.",
+  "body_markdown": "Everyone is back in the office now, and work on pre-built images has been moving steadily, with a release coming very soon. In the meantime, here are some bug fixes and UX improvements that we've shipped.\n\n\n#### 💅 UX\n\n\n-\n\n\nChanged how builds are canceled- now, only builds that have not been started will be canceled. In-progress builds will never be canceled\n\n\n-\n\n\nFixed an issue where users could unintentionally create multiple Flightcontrol AWS accounts in the onboarding flow\n\n\n#### 🐛 Bug\n\n\n-\n\n\nFixed the incorrect services being copied for preview environments when attempting to copy an environment config\n\n\n-\n\n\nService's environment variable have unexpected numbers appended on project creation\n\n\n-\n\n\nFixed CloudFront cache policies limit\n\n\n-\n\n\nAdded missing build link for our Github preview environment comment",
+  "published_at": "2023-01-17T17:26:20.409+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:84db37e502809a1786dd5c5399d3a1deeb4d5d869b9316a7e195de56762c1a36"
+}

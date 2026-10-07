@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "33e7951245723d1b3eade2722f60c43e0b19e3dff98c4d9b9b07885997184b47",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-03-20-notifications-shipping-very-soon-status-page",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-03-20-notifications-shipping-very-soon-status-page",
+  "title": "Notifications Shipping Very Soon + Status Page - Flightcontrol Changelog | Productlane",
+  "summary": "Last week, we accomplished a lot of our remaining work on Notifications. We are now polishing up our Notifications functionality so that you and your team get… Powered by Productlane.",
+  "body_markdown": "Last week, we accomplished a lot of our remaining work on Notifications. We are now polishing up our Notifications functionality so that you and your team get timely build and deployment events.\n\n\nWe've also added a status page ([https://status.flightcontrol.dev/](https://status.flightcontrol.dev/) ). You can see how the Flightcontrol Platform is performing, as well as the services and APIs (GitHub + AWS) we use to deploy your projects.\n\n\n#### 💅 Improvements\n\n\n-\n\n\nNew Projects will use Nixpacks 1.5.0 instead of an older version, if you use Nixpacks for deployment. If you would like to use another version of Nixpacks, set the NIXPACKS_VERSION environment variable for your service. Existing projects will continue to use whatever Nixpacks version you currently have.\n\n\n-\n\n\nUpdated the AWS Code Build base image to Ubuntu 22 so that we have Python 3.10 installed. This is important for the AWS Command Line Interface.\n\n\n-\n\n\nAdded Destroy Service button to the Environment edit screen, so that you can remove services from an environment more easily.\n\n\n#### 🐛 Bug\n\n\n-\n\n\nFixed an issue where it was not possible to change the size of your Relational Database Service (RDS) databases when editing a service.",
+  "published_at": "2023-03-20T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:c5e196de65a06336c9ea5297cb0553c0afe5ea76d1029407ce8393ca8bd68cfa"
+}

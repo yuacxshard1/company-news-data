@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9d418ee8197b002a0ee38482de175867d01943c670e4567e9b9fa56a949245c4",
+  "company_key": "yc-text-blaze",
+  "company_name": "Text Blaze",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blaze.today/blog/what-is-a-vcpr/",
+  "canonical_url": "https://blaze.today/blog/what-is-a-vcpr/",
+  "title": "What is a VCPR? A Plain Explanation You Can Give Clients",
+  "summary": "A VCPR is required for a legal prescription. Learn what it means, why refills may need an exam, and get a client-ready message your front desk can send.",
+  "body_markdown": "Hi {formtext: name=client_name},\n\n\nThanks for your refill request for {formtext: name=pet_name}. Before we can approve {formtext: name=medication}, {formtext: name=veterinarian} needs to make sure {=pet_name} has been examined recently. This allows us to confirm that the medication is still safe and appropriate for your pet’s current health. The same requirement applies to prescriptions filled through online pharmacies.\n\n\nOur records show that {=pet_name} was last examined on {formdate: MM/DD/YYYY; name=last exam date}, so the next step is a short {formmenu: recheck; default=wellness visit; name=type of visit}. You can reply here with a few dates and times that work for you. Once the exam is completed, we’ll review the refill request and take care of the prescription as soon as possible. We’d love to see {=pet_name} again!\n\n\nKind regards,",
+  "published_at": "2026-10-02T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T19:49:28.763014+00:00",
+  "content_hash": "sha256:e1bce34a93dbcaa83cb23bc6b66b69895da7c2319a603e5e08b2e601797f16fd"
+}

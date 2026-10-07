@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9bda767811820aa927d2d0637f0bbf94ea004701d5d8744a4dceeedb4f77892a",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/no-access-org-role",
+  "canonical_url": "https://supabase.com/changelog/no-access-org-role",
+  "title": "Organization invites support the No access role",
+  "summary": "Organization invites support the No access role",
+  "body_markdown": "Admins on Team and Enterprise plans can now invite organization members with the No access role directly from the invite flow and can switch an existing member to it. Previously, the lowest available organization role was Read-only, which still granted visibility into every project in the organization.\n\n\nWith No access, new members start with no project access; admins grant access to individual projects as needed. No access can only be assigned at the organization level, not per project, so project access is still layered on top of it one project at a time.\n\n\nMembers with the No access role now also show up in the organization's member list - they were previously filtered out.\n\n\nSee[Access control](https://supabase.com/docs/guides/platform/access-control) for the full set of organization and project roles.",
+  "published_at": "2026-10-05T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T21:49:00.513226+00:00",
+  "content_hash": "sha256:155fb77f51841dc5eca3e2f86db3c2833ba3bf1d40a5ccea318c00e16725ded2"
+}

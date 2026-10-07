@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5a717c93a7991ceca3ee576e70456c29967d3e011a34f5cf89546bf7f6826956",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
+  "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
+  "body_markdown": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceberg table in Amazon S3 or Amazon S3 table buckets, registered in the AWS Glue Data Catalog. Materialized views are created using familiar SQL — CREATE MATERIALIZED VIEW ... USING ICEBERG and the results are instantly queryable by any Iceberg-compatible engine, including Amazon Athena, Apache Spark on Amazon EMR and AWS Glue, and third-party engines such as Trino, or Snowflake. Redshift keeps them current by recomputing only what has changed with manual incremental refresh, and because the results are Iceberg tables in the Glue Data Catalog, they are governed and discovered like any other catalog table.\n\n\nData teams often build analytics in stages, stitching together different engines to clean and transform raw data before serving it. This adds pipeline orchestration overhead and can introduce semantic differences between engines. Iceberg materialized views deliver value in two ways. First, instead of hundreds of users and teams re-running the same expensive joins and aggregations, and re-scanning source tables on every query, you compute the result once and everyone reads the precomputed table. Second, you can run an end-to-end pipeline using a single engine like Apache Spark and now Amazon Redshift, and every downstream consumer shares the same open result without the overhead of orchestrating multiple engines. Either way, the output is an open Iceberg table that any engine can read without copies or conversion. You can still load these tables into Redshift Managed Storage (RMS) as native RMS materialized views for your most performance-sensitive dashboards.\n\n\nYou can create Iceberg Materialized Views in any region where Redshift Serverless and provisioned Graviton instances are supported. To learn more, see[Materialized views stored as Apache Iceberg tables](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-iceberg.html) in the Amazon Redshift Database Developer Guide, the[CREATE MATERIALIZED VIEW](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-create-sql-command.html) command reference, and the[Materialize once, query anywhere](https://aws.amazon.com/blogs/big-data/materialize-once-query-anywhere-introducing-iceberg-materialized-views-in-amazon-redshift/) blog post.",
+  "published_at": "2026-10-05T21:57:18+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:922e3c77e04da1bde7d363adecd9a167623eb911de7348a968499790328e9a6a"
+}

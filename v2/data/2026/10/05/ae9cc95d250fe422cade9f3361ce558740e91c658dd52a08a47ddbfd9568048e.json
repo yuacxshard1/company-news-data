@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae9cc95d250fe422cade9f3361ce558740e91c658dd52a08a47ddbfd9568048e",
+  "company_key": "yc-metorial",
+  "company_name": "Metorial",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://metorial.com/blog/what-the-code-cant-tell-an-agent",
+  "canonical_url": "https://metorial.com/blog/what-the-code-cant-tell-an-agent",
+  "title": "What the code can't tell an agent",
+  "summary": "Part 1 of Agents on the team: company notes that people maintain and agents read, so our agents know what the code can't show them. Includes a setup prompt for your own team.",
+  "body_markdown": "index.md\n\n\nThe map agents start from\n\n\n```text\n# wonderby-headquarters\n\n\n- [Business and product](business-and-product/overview.md)\n- [Development](development/overview.md)\n- [Marketing](marketing/overview.md)\n- [Design](design/overview.md)\n- [Support](support/overview.md)\n```\n\n\nbusiness-and-product/\n\n\nBusiness and product\n\n\nCEO\n\n\nUpdates when the audience, product, or company rules change\n\n\nThe CEO will update` business-and-product/overview.md` when our audience, product, or company rules change. It will explain our wider audience of service businesses, beyond salons, and wording rules such as saying \"business\" in customer copy instead of our internal term \"supplier\". They'll record changes in direction, launches, and things we discontinue in` business-and-product/changelog.md` .\n\n\ndevelopment/\n\n\nDevelopment\n\n\nDeveloper leading the work\n\n\nUpdates when priorities or release status change\n\n\nThe developer leading the work will update` development/overview.md` when priorities or release status change, including what's available on web, Android, and iOS. They'll record meaningful changes and release confirmations in` development/changelog.md` . Coding rules will stay in each codebase's own instructions.\n\n\nmarketing/\n\n\nMarketing\n\n\nPerson running the campaign\n\n\nUpdates when a campaign starts or its message changes\n\n\nWhen a campaign starts or its message changes, the person running it will update the audience, message, and material in` marketing/overview.md` . They'll record changes and results in` marketing/changelog.md` .\n\n\ndesign/\n\n\nDesign\n\n\nThe designer\n\n\nUpdates when we approve a design\n\n\nWhen we approve a design, its designer will update` design/overview.md` with the decision and Figma link, then record the reason in` design/changelog.md` .\n\n\nsupport/\n\n\nSupport\n\n\nPerson handling support\n\n\nUpdates when we confirm a problem, release a fix, or change our advice\n\n\nWhen we confirm a problem, release a fix, or change our advice, the person handling support will update the answers in` support/overview.md` and record what changed in` support/changelog.md` .",
+  "published_at": "2026-10-05T09:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:16:37.755851+00:00",
+  "content_hash": "sha256:984eb818c17b92e786aae8ad3d016bbe9e1e08af726cdecf3f640b9e5ed1f2c1"
+}

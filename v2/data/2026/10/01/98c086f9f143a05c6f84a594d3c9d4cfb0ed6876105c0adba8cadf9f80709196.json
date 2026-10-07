@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "98c086f9f143a05c6f84a594d3c9d4cfb0ed6876105c0adba8cadf9f80709196",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
+  "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
+  "summary": "Discover more about what's new at AWS with Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
+  "body_markdown": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it simple for data engineers and data scientists to run open-source big data analytics frameworks without configuring, managing, and scaling clusters or servers. This enhancement enables enterprise customers to run production-scale Apache Spark workloads that require processing large volumes of shuffle data during complex operations such as joins, aggregations, and sorting.\n\n\nEnterprise data teams can now confidently migrate production workloads that routinely process terabyte-scale datasets without worrying about storage constraints. This enhancement is particularly valuable for workloads involving large table joins across multi-terabyte datasets, and complex aggregations on high-cardinality data that require extensive data shuffling. The addition of spill support ensures that jobs can seamlessly handle memory-intensive operations by offloading data to disk when necessary, improving job reliability and success rates for demanding analytical workloads.\n\n\nThis feature is available with Amazon emr-7.14, emr-spark-8.1 and later, in 18 AWS Regions where Amazon EMR Serverless is available. See the[Amazon EMR documentation](https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/jobs-serverless-storage.html) for the full list of supported Regions and their applicable limits.\n\n\nTo learn more about Amazon EMR Serverless and get started with terabyte-scale shuffle support, visit the[Amazon EMR Serverless page](https://aws.amazon.com/emr/serverless/) .",
+  "published_at": "2026-10-01T08:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:46fc6187cde8e8ca9106e30e5702fdd9a5fdb8c9175c234b5889184c09526cfe"
+}

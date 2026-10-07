@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "959c62019afdf598709cf66ade3ee4b97cc5bb25bb937d02e17d71f6aae82fe8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/command-a-benchmarks-pricing-specs-for-2026",
+  "canonical_url": "https://www.activepieces.com/blog/command-a-benchmarks-pricing-specs-for-2026",
+  "title": "Command A+ benchmarks, pricing & specs for 2026",
+  "summary": "Command A+ shifts enterprise focus from conversational fluency to the reliable execution of complex, multi-step automated workflows.",
+  "body_markdown": "## Performance results from our initial automation tests\n\n\nBy prioritizing strict adherence to tool-call syntax over the broad linguistic flexibility found in general-purpose models, Command A+ maximizes the reliability of terminal-based executions. While creative models often hallucinate parameters, Command A+ is engineered for the rigid input requirements of infrastructure and telecommunications APIs.\n\n\n### Test parameters: Command A+ vs reasoning models\n\n\nOn October 5, 2026, our internal benchmarking utilized[OpenRouter](https://openrouter.ai/cohere/command-a) to compare Command A+ against GPT-6 Luna across three specific automation tasks: sorting support tickets, extracting invoice fields, and summarizing email threads.\n\n\n> While creative models often hallucinate parameters, Command A+ is engineered for the rigid input requirements of infrastructure and telecommunications APIs.\n\n\nIn this indicative test, Command A+ correctly extracted the invoice fields for this task.\n\n\n### Speed and accuracy in multi-step workflows\n\n\nWhen a model maintains state across disparate tool calls without losing the original instruction, it governs the reliability of multi-step workflows.\n\n\nIn our testing, Command A+ maintained a zero-percent failure rate on \"Hard Terminal\" syntax errors, whereas general reasoning models frequently added conversational filler that broke the CLI execution.\n\n\n### Command A+ token efficiency and cost per task\n\n\nHigh-volume automation requires a model that minimizes token waste through concise tool-calling. Because Command A+ uses a specialized tokenizer for technical data, it generates fewer tokens for the same API call than a general-purpose model.\n\n\nIn our test, Command A+ cost $0.000474 per task versus $0.000153 per task for GPT-5.4-mini, so it did not reduce the cost-per-task in this comparison. This ensures that the move from human triaging to AI agents remains net-profitable for the enterprise.",
+  "published_at": "2026-10-06T03:37:35+00:00",
+  "first_seen_at": "2026-10-06T20:40:56.391154+00:00",
+  "content_hash": "sha256:7fd52bbf6d68ca3f849e117723c53dc0201da96b8f38fc326250d812664f0304"
+}

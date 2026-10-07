@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a9ac8af8a777e6f1289bd07ef4b8d77e6f3cff56f2bcd761d04584ebbd5b9ad2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+  "title": "Amazon Redshift now supports cross-Region queries for your data lake",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift now supports cross-Region queries for your data lake",
+  "body_markdown": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays within your own VPC. Both capabilities are powered by the integrated data lake query engine that runs directly on the compute of RG provisioned and Serverless clusters. These features are aimed at enterprises with globally distributed data and at security-sensitive customers who need tight control over how their data travels.\n\n\nWith cross-Region support, you can use Amazon Redshift to query S3 data in another Region directly, without first copying or replicating it. This makes it easier to run global analytics, consolidate reporting across Regions, and query data that must remain in a specific Region for residency requirements. Cross-Region queries incur standard data transfer charges. Because the query engine runs on your cluster's compute, data moving between Amazon S3 and Amazon Redshift flows entirely over your VPC when you use enhanced VPC routing, never over public networks. Regulated industries such as financial services, healthcare, and government benefit from this feature as it keeps data lake queries within the network boundaries their compliance requirements demand. Both capabilities work with the integrated data lake query engine, which is available in all regions where RG provisioned and Serverless clusters are available. To learn more, see[Querying your data lake tables with enhanced VPC routing](https://docs.aws.amazon.com/redshift/latest/mgmt/spectrum-enhanced-vpc.html#spectrum-enhanced-vpc-integrated-engine) in the[Amazon Redshift documentation](https://docs.aws.amazon.com/redshift/) .",
+  "published_at": "2026-10-01T18:41:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:994d1011e64326c513339abf9b07409ee5892e7c8a1dfe0ce68cd1231d4a3279"
+}

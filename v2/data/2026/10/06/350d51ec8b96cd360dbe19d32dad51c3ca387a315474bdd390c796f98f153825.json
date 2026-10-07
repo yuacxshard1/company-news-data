@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "350d51ec8b96cd360dbe19d32dad51c3ca387a315474bdd390c796f98f153825",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+  "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
+  "summary": "Discover more about what's new at AWS with AWS Batch now publishes job metrics to Amazon CloudWatch",
+  "body_markdown": "AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue health, failure rates, and job durations.\n\n\nAWS Batch automatically publishes job state transition and duration metrics to the AWS/Batch namespace in Amazon CloudWatch, with JobQueueName dimension. State transition metrics track how many jobs entered a given state, such as submitted, running, succeeded, or failed. Duration metrics track how long jobs spent between states, such as time from submission to runnable or total execution time. You can view these metrics in the AWS Batch console, the Amazon CloudWatch console, or through the AWS CLI and AWS SDKs.\n\n\nAWS Batch CloudWatch metrics are now published in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AWS Batch is available. For more information, see CloudWatch Metrics page in the[AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/using_cloudwatch_metrics.html) .",
+  "published_at": "2026-10-06T17:30:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:108e3a3f394c28fa37f3cee8157bec93aaa3547709aa12c38ff80553fefba2c7"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a8e8ccabcd371ad5c674380094a44bb9441d7370dc8dd269407807b7f1592a11",
+  "company_key": "yc-whalesync",
+  "company_name": "Whalesync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.whalesync.com/blog/announcing-two-way-sync-for-framer",
+  "canonical_url": "https://www.whalesync.com/blog/announcing-two-way-sync-for-framer",
+  "title": "Announcing Two-Way Sync for Framer",
+  "summary": "Whalesync now syncs Framer both ways, in beta: CMS collections become tables in Airtable, Notion, Google Sheets, and more, images and references included.",
+  "body_markdown": "Framer is where a lot of good-looking marketing sites get built these days. Its CMS holds the blog posts, case studies, directories, and landing pages that power them. Until today, Whalesync could only copy those collections out of Framer, through Live Export.\n\n\nTwo-way sync for[Framer](https://www.whalesync.com/connector/framer) is out today in beta. Connect a Framer site and each CMS collection becomes a table you can sync with Airtable, Notion, Google Sheets, Postgres, and all the other services we support. Add, edit, or delete a row on the other side and the item is created, updated, or deleted in Framer.\n\n\n## **What syncs**\n\n\nAll the field types your collections are likely to use: plain and formatted text, numbers, toggles, dates, links, colors, options, images, files, galleries, slugs, and references and multi-references between collections. The draft setting comes across too, so you can keep an item off the published site from Airtable or Notion.\n\n\nImages and galleries sync both ways with Airtable attachment fields. Drop an image into an attachment in Airtable and it shows up in Framer, re-hosted on Framer’s own CDN.\n\n\nIf a new item arrives without a slug, Whalesync builds one from the field your collection bases its slugs on, the same way Framer’s editor does.\n\n\n## **Publishing stays in Framer**\n\n\nWhalesync saves changes to your Framer CMS right away, but it never publishes your site. Your edits appear in the Framer editor as soon as they sync and go live when you publish in Framer, so nothing reaches your visitors before you’re ready.\n\n\nFramer has no webhooks, so Whalesync checks Framer for changes on a schedule rather than the moment they’re made. Edits headed the other way, into Framer, are saved to its CMS as soon as they sync.\n\n\nThat makes a few setups easy: a programmatic SEO build run out of an Airtable base with one row per page, a blog written and scheduled in Notion that fills your Framer blog collection, or a directory kept in Google Sheets where the whole team can edit it.\n\n\n## **Getting started**\n\n\nTwo-way sync for Framer is on the[Starter plan](https://www.whalesync.com/pricing) and up. To connect, copy your Framer project’s URL, create a Server API key in that project under Site Settings → General, and paste both into Whalesync. Each connection is one Framer site.\n\n\nRefer to our[Framer connector docs](https://docs.whalesync.com/connectors/framer) for more details. The connector is in beta, so if it’s missing something you need,[reach out](https://docs.whalesync.com/resources/support) and tell us.",
+  "published_at": "2026-10-02T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T19:48:24.295926+00:00",
+  "content_hash": "sha256:c0a83ab4f5b86c2e4329a2d6983a460fb12799458619d049d294210b10ba9b41"
+}

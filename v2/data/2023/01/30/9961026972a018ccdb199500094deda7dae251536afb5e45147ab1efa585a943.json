@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9961026972a018ccdb199500094deda7dae251536afb5e45147ab1efa585a943",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-01-30-pre-built-image-support-and-nixpacks-improvements",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-01-30-pre-built-image-support-and-nixpacks-improvements",
+  "title": "Pre-built Image Support and Nixpacks Improvements - Flightcontrol Changelog | Productlane",
+  "summary": "Hi everyone! This week, I m excited to announce pre-built image support, which allows you to \"bring-your-own-image\" to Flightcontrol. This feature means… Powered by Productlane.",
+  "body_markdown": "Hi everyone! This week, I'm excited to announce pre-built image support, which allows you to \"bring-your-own-image\" to Flightcontrol. This feature means instead of only using Flightcontrol as CI/CD, you can use it as primarily CI.\n\n\n#### 🍄 Features\n\n\n-\n\n\nAdded pre-built image support: see the[docs](https://www.flightcontrol.dev/docs/guides/advanced/deploy-prebuilt-image) for more information.\n\n\n-\n\n\nAdded support to deploy public docker images without a Dockerfile: see the[docs](https://www.flightcontrol.dev/docs/guides/advanced/deploy-prebuilt-image) for more information.\n\n\n#### 💅🏼 UX Improvements\n\n\n-\n\n\nChange build auto cancellation to only cancel \"pending\" builds. This ensures new code is deployed even if you are git pushing faster than the build/deploy cycle time.\n\n\n-\n\n\nImproved Nixpacks caching\n\n\n#### 🐛 Bugs\n\n\n-\n\n\nFixed watch paths not working when the path starts with \\`/\\`\n\n\n#### ⚠️ Deprecation\n\n\n-\n\n\nNodejs builds for static sites are deprecated. We recommend using nixpacks instead because it will automatically determine node version & package manager type.",
+  "published_at": "2023-01-30T21:14:25.390+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:27d8f29f07c97601c9130cfa0d9f5763b080ea4e298d38feaa70c7084c3927f8"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2368760d591f4dfb4b38cab962023c8f65928e5ba41b8e4ac24b8e9c19b8281a",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2022-11-21-watch-paths-next-js-isr-manual-revalidation-multi-stage-docker-caching",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2022-11-21-watch-paths-next-js-isr-manual-revalidation-multi-stage-docker-caching",
+  "title": "Watch Paths / Next.js ISR Manual Revalidation / Multi-stage Docker Caching - Flightcontrol Changelog | Productlane",
+  "summary": "🛫 New Features. Watch paths feature. Read the documentation . Git Submodule support. Read the documentation . Next.js ISR manual revalidation support — `… Powered by Productlane.",
+  "body_markdown": "#### 🛫 New Features\n\n\n-\n\n\nWatch paths feature\n\n\n-\n\n\n[Read the documentation](https://www.flightcontrol.dev/docs/guides/advanced/watch-paths)\n\n\n-\n\n\nGit Submodule support\n\n\n-\n\n\n[Read the documentation](https://www.flightcontrol.dev/docs/guides/advanced/git-submodules)\n\n\n-\n\n\nNext.js ISR manual revalidation support — \\` **req.revalidate()** \\`\n\n\n-\n\n\nBuild caching for multi-stage dockerfiles\n\n\n-\n\n\nSort env variables in GUI so it's easier to find what you are looking for\n\n\n-\n\n\nEnable AWS Origin Shield for new services, resulting in faster app performance\n\n\n-\n\n\n(huge improvement in first load time for static sites after new deploys)\n\n\n#### 💅 UX\n\n\n-\n\n\nAdd configured port to failed healthcheck error message\n\n\n-\n\n\nStop hiding BUILD_ERROR messages in deployment list\n\n\n#### 🐛 Bug Fixes\n\n\n-\n\n\nTwo services with the same given ID cause issues when destroying the service\n\n\n-\n\n\nAdd 404 status code in static sites when file not found\n\n\n-\n\n\nStatic site fixes\n\n\n-\n\n\nClick to Copy doesn't work on firefox\n\n\n-\n\n\nFix environment name not updating\n\n\n-\n\n\nFix all links to flightcontrol.notion.site to point to our new docs",
+  "published_at": "2022-11-21T20:11:43.940+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:ad68c709c306bdad29c3f99fffa58674da0cdd93f66b4af83ad51d69f2b554a6"
+}

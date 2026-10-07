@@ -1,0 +1,66 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "6ee84650a0dbfddd2a39785ca868d7c8db3178b3ea1de1cbb3f44796b85a2b21",
+      "first_seen_at": "2026-10-07T00:16:14.257035+00:00",
+      "published_at": "2026-10-01T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "LiteLLM Lens turns the traces flowing through your gateway into findings your agents can act on. Built for agent swarms generating 200K+ traces.",
+      "title": "Launching LiteLLM Lens | liteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "9919bb50c4853a9c9bf512465ef4a4d4d4f15d63f53c251e21ba8318d3fa2ca3",
+      "first_seen_at": "2026-10-07T00:16:14.257035+00:00",
+      "published_at": "2026-10-01T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A governed request to the LiteLLM AI Gateway waited on Redis 22 times. It now waits 8 times: one pipeline per Redis backend before the model call, one after.",
+      "title": "How we cut LiteLLM's Redis round trips per request by 64%"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "9f8dbd1162c60b75fdd5ad8ab3738ed10ff9e278985d364163bd738f7cb74233",
+      "first_seen_at": "2026-10-07T00:16:14.257035+00:00",
+      "published_at": "2026-10-03T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A 440k-token benchmark went from 553 ms to 35 ms median time to first byte. We removed unnecessary prompt-cache routing work before the model call.",
+      "title": "How we cut time to first byte by 94% for long prompts"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "d0ee9c39f5b0649ce7eb13618b0f06fba19926facdb4333396a4bf6fe12590ec",
+      "first_seen_at": "2026-10-07T00:16:14.257035+00:00",
+      "published_at": "2026-10-02T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Use Laya or Bespoke Nimble to classify Auto Router requests on your own infrastructure. Control where classification runs, which model you serve, and how you provision it.",
+      "title": "Adding Self-hosted Auto Router Classifiers: Laya & Nimble"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "d400639e09052e3f54e20c55403382b3b94dc1ec37d034c0aa84bc22d4d7303b",
+      "first_seen_at": "2026-10-07T00:16:14.257035+00:00",
+      "published_at": "2026-10-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Inside Lens: parallel trace review, Python tools for large traces, and investigations that connect repeated failures to source evidence.",
+      "title": "How LiteLLM Lens finds repeated failures across 1,000s of agent traces"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "dc45721730664ca011acd300f4964cfaac750c4f35b97382f688e5b356c1080b",
+      "first_seen_at": "2026-10-07T00:16:14.257035+00:00",
+      "published_at": "2026-10-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How we built Moyai Devin with Render, Modal, Hermes, Temporal, and LiteLLM: durable sessions, parallel agents, Slack, and shared organization connections.",
+      "title": "How we built our own internal Devin in 2 days"
+    }
+  ],
+  "company_key": "yc-litellm",
+  "month": "2026-10"
+}

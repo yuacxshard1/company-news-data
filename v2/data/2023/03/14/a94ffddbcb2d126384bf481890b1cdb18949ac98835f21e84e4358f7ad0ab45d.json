@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a94ffddbcb2d126384bf481890b1cdb18949ac98835f21e84e4358f7ad0ab45d",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-03-14-working-hard-on-our-notifications-project",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-03-14-working-hard-on-our-notifications-project",
+  "title": "Working Hard on our Notifications Project - Flightcontrol Changelog | Productlane",
+  "summary": "The team at Flightcontrol is still working hard on our notifications project! We ve heard from many of you about how important notifications are for your… Powered by Productlane.",
+  "body_markdown": "The team at Flightcontrol is still working hard on our notifications project! We've heard from many of you about how important notifications are for your deployments, and we're committed to delivering this for you. In addition to the team effort towards notifications, we've made some other improvements to the platform and fixed a bug in the AWS cost estimations we show you.\n\n\n#### **🚀** New Features\n\n\n-\n\n\nAdded the ability to leave single line (//) comments in your flightcontrol.json configuration files. Now you can document the reasoning behind your configuration. The comments can go on a new line, or at the end of a line. Although the // comment is not part of the JSON specification, Flightcontrol will be able to parse your configuration files.\n\n\n-\n\n\nAdded a SENTRY_RELEASE environment variable which contains the Git commit hash for the deployment. This is useful when you integrate the Sentry error monitoring tool.\n\n\n#### 💅 **Improvements**\n\n\n-\n\n\nAdded an in-app chat messaging window in the dashboard. Ask a friendly Flightcontroller your questions, or send us some feedback and we'll get right on it!\n\n\n-\n\n\nAdded the error type to some of our error messages in the dashboard. We're hoping that this will give you more context when we detect a problem with your deployments.\n\n\n-\n\n\nRemoved the legacy nodejs build type for new services. You can still build your existing services with the nodejs build type, but for new Node.js deployments, use nixpacks instead for a better developer experience.\n\n\n#### 🐛 Bug\n\n\n-\n\n\nFixed the cost estimation for Fargate workers - removed a $17/month load balancer cost that isn't actually included with Fargate worker tasks. This should give you a better representation of your actual costs when using Fargate workers.",
+  "published_at": "2023-03-14T01:07:39.775+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:6b7d1a44416db7e7ee98be93cb4a7cf635f72a26d0e390ee7bd78181a2f2c6f1"
+}

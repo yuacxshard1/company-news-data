@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9320db936f1d0647d4fadc22edf438eca9c86b5ec9ddfbf57c2334fbbfbfb2ca",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/system-managed-iceberg-materialized-views",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/system-managed-iceberg-materialized-views",
+  "title": "Apache Iceberg materialized views now support system-managed write protection",
+  "summary": "Discover more about what's new at AWS with Apache Iceberg materialized views now support system-managed write protection",
+  "body_markdown": "Today, AWS announces system-managed materialized views for Apache Iceberg. Materialized views let you precompute an expensive query once and reuse the result across engines. Because this result is an open Iceberg table in your data lake, anyone with write access can change it, either through the catalog or by writing to the files in Amazon S3. System-managed materialized views close this gap by only allowing AWS Glue to write the materialized view's data and definition, so the result stays exactly as computed regardless of who has write access to the table or the underlying S3 files ***.***\n\n\nTo get started, write the SQL that defines the materialized view and, optionally, a refresh schedule. AWS Glue then computes the results, stores them as a standard Apache Iceberg table in your Amazon S3 Tables bucket, and keeps them current on your schedule. Because the result is an ordinary Iceberg table in the AWS Glue Data Catalog, any Iceberg-compatible engine can read it directly, while the service guarantees no other writer can alter it. You get a governed, always-consistent dataset that you can confidently share. You can still refresh, reschedule, or drop the view whenever you need to.\n\n\nSystem-managed Apache Iceberg materialized views are available in all regions where Apache Iceberg materialized views are supported. To learn more, see[System-managed materialized views](https://docs.aws.amazon.com/glue/latest/dg/materialized-views.html#materialized-views-system-managed) in the[AWS Glue Developer Guide](https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html) .",
+  "published_at": "2026-09-30T21:19:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:bb39a989f437a935d215c550bd05df08107ea9ff5b4bb873eca72de18f61ee0e"
+}

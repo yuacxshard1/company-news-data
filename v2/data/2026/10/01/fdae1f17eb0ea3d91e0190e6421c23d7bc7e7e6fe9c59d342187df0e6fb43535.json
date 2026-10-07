@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fdae1f17eb0ea3d91e0190e6421c23d7bc7e7e6fe9c59d342187df0e6fb43535",
+  "company_key": "commvault-systems-inc-common-stock",
+  "company_name": "Commvault Systems Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.commvault.com/blogs/what-is-recovery-time-objective-rto-and-how-to-calculate-it",
+  "canonical_url": "https://www.commvault.com/blogs/what-is-recovery-time-objective-rto-and-how-to-calculate-it",
+  "title": "Recovery Time Objective (RTO) Guide | Clumio by Commvault",
+  "summary": "Learn what recovery time objective means, how RTO vs RPO differ, and how to calculate and help improve your RTO targets for disaster recovery planning.",
+  "body_markdown": "## Improve RTO\n\n\nSetting an RTO is only useful if you can actually hit it. Here are the strategies that consistently reduce recovery time.\n\n\n**Adopt cloud-based disaster recovery.** Cloud DR helps eliminate the need to maintain idle standby hardware. On-demand infrastructure lets you spin up recovery environments in minutes, not hours. According to the Uptime Institute’s[Annual Outage Analysis 2025](https://uptimeinstitute.com/resources/research-and-reports/annual-outage-analysis-2025) , organizations that have adopted cloud-based DR and automated failover report measurably shorter outage durations compared to those relying on traditional approaches. Review these[cloud disaster recovery best practices](https://www.commvault.com/blogs/three-cloud-disaster-recovery-best-practices) for a deeper look at implementation.\n\n\n**Implement continuous replication.** Point-in-time snapshots taken hours apart create data gaps that inflate both RPO and RTO. Continuous replication helps to keep standby environments current, so recovery starts from a near-real-time state.\n\n\n**Automate failover and validation.** Manual recovery steps introduce human error and delay. Automated runbooks execute failover sequences, verify data integrity, and confirm service availability – all without waiting for an on-call engineer to step through a wiki page at 3 a.m.\n\n\n**Test regularly and measure.** A recovery plan that has never been tested is a hypothesis, not a plan. Run DR drills quarterly. Measure actual recovery time against your RTO. Document gaps and fix them before they matter.\n\n\n[Clumio by Commvault](https://www.commvault.com/clumio) helps deliver rapid, predictable recovery for AWS workloads – including Amazon EC2, S3, RDS, and DynamoDB. Clumio’s architecture enables air-gapped, immutable backups with automated restore orchestration to help your recovery time stay within target even during a ransomware event. Explore Clumio’s[ransomware recovery](https://www.commvault.com/clumio/solutions/ransomware-recovery) and[operational recovery](https://www.commvault.com/clumio/solutions/operational-recovery) solutions to see how your team can close the gap between stated RTOs and actual capability.",
+  "published_at": "2026-10-01T14:03:37+00:00",
+  "first_seen_at": "2026-10-07T00:43:10.031262+00:00",
+  "content_hash": "sha256:a04414af5ecbec95ec53f6bb7f61a2f7099da45447eeb335890b9e8c04d949e6"
+}

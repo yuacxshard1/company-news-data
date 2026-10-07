@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f7cf3d9f9c4ef26e0cded51a24e4b9a8824fec0a67dbb3927bdf52daeb7b53d3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+  "title": "AWS Health introduces the version catalog for software lifecycle management",
+  "summary": "Discover more about what's new at AWS with AWS Health introduces the version catalog for software lifecycle management",
+  "body_markdown": "Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from reactive to proactive management of version upgrades and end-of-support risk. It is available in the AWS Health Dashboard, and customers on Business Support Plus, Enterprise Support, or Unified Operations can use the AWS Health API to integrate lifecycle data into their operational workflows.\n\n\nCustomers running applications on AWS need to stay current with software versions to maintain a strong security and operational posture. AWS Health already sends account and resource-specific Planned Lifecycle Events well in advance for major version end-of-support milestones. The version catalog adds service-wide view of supported versions and their timelines, so customers can build upgrade schedules, governance controls, and move to newer supported versions before receiving an account-specific Planned Lifecycle Event.\n\n\nAt launch, the version catalog covers multiple AWS services including Amazon RDS, Amazon EKS, and AWS Lambda with more services being added over time. The version catalog is available across all AWS Commercial Regions.\n\n\nTo get started, visit the version catalog in the[AWS Health Dashboard](https://health.console.aws.amazon.com/health/home?region=us-east-1#/account/version-catalog) or read the[documentation](https://docs.aws.amazon.com/health/latest/ug/aws-health-version-catalog.html) to learn more.",
+  "published_at": "2026-10-02T18:09:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:34bc61cbc722930a293280e949168f4ea77e87074cecd79a5425ac6bf1e62f60"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8ef044a76ef2908d42e872c978cedcad61be171d02e6aba17e67f36da336f8b4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring",
+  "title": "Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
+  "summary": "Discover more about what's new at AWS with Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
+  "body_markdown": "[Amazon ElastiCache](https://aws.amazon.com/elasticache/) for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache now offers two monitoring modes. Standard monitoring, the existing experience, continues to publish CloudWatch Metrics (Classic) every 60 seconds and now also publishes a core set of OpenTelemetry metrics at the same interval at no additional charge. Detailed monitoring, the new mode, lets you select from the full set of OpenTelemetry metrics and publish them every 15 seconds.\n\n\nWith OpenTelemetry metrics, you can detect any node in a cluster nearing its connection limit, break errors down by type during an incident, or forecast if a node will run out of memory. You can run these queries in CloudWatch and Grafana, keeping PromQL skills your team already has. With detailed monitoring, you can balance diagnostic depth and cost, with 15-second metrics enabling detection of short-lived events like latency spikes. The core set of OpenTelemetry metrics also powers[ElastiCache Insights](https://console.aws.amazon.com/cloudwatch/home#dashboards/insights/elasticache) , a pre-built dashboard in Amazon CloudWatch.\n\n\nTo get started, open the Metrics tab for a cluster in the[Amazon ElastiCache console](https://console.aws.amazon.com/elasticache/) , select Detailed, and choose Configure detailed metrics.\n\n\nOpenTelemetry metrics and detailed monitoring are available for node-based Valkey clusters in all AWS Regions where Amazon CloudWatch supports OpenTelemetry metrics. There is no additional charge from ElastiCache for detailed monitoring.[CloudWatch pricing for OpenTelemetry metrics](https://aws.amazon.com/cloudwatch/pricing/) applies to the detailed monitoring metrics you select, alarms you create, and PromQL API queries you run.\n\n\nTo learn more, see[Monitoring ElastiCache with OpenTelemetry metrics](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/otel-metrics.html) in the Amazon ElastiCache User Guide.",
+  "published_at": "2026-10-02T07:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:82ee07a52c9ad620498917be9da7066727a93fbabb4a39cd0d5c52a39254c660"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d2d277639c3a8342d8f2a5184ce2c53de27121f0d4b2095524e4fb8b56dcf735",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/mcp-events",
+  "canonical_url": "https://bird.com/changelog/mcp-events",
+  "title": "MCP Events on the Bird MCP server",
+  "summary": "Your MCP client can now subscribe to Bird events, such as new mail in a mailbox or an inbound SMS, and receive each one as a signed webhook.",
+  "body_markdown": "The hosted Bird MCP server at` mcp.bird.com` now supports MCP Events. A connected client, such as ChatGPT, can subscribe to what happens in your workspace and receive each event as it happens, so your agent can act on new mail without polling for it.\n\n\nYou can subscribe to new mail in a mailbox, inbound SMS, WhatsApp and Apple Messages, and email deliveries. Filters narrow a subscription to one mailbox, conversation, number or broadcast. Each event arrives at the client's callback as a webhook signed with the client's own key. The client renews its subscription, which lasts up to a day at a time.\n\n\nEvery subscription shows in your dashboard's webhook list with its client, event and filters, and you can delete it there.\n\n\n[Read the MCP Events guide](https://bird.com/docs/ai/mcp-events) .",
+  "published_at": "2026-10-06T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T21:38:50.211190+00:00",
+  "content_hash": "sha256:62350f351261576aaf74687867235fb5bed4cfc02f92a9abf8f2e8150e7469bc"
+}

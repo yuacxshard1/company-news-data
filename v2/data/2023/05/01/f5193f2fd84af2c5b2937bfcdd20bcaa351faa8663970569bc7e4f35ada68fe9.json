@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f5193f2fd84af2c5b2937bfcdd20bcaa351faa8663970569bc7e4f35ada68fe9",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-05-01-working-on-rollbacks-dashboard-overhaul",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-05-01-working-on-rollbacks-dashboard-overhaul",
+  "title": "Working on Rollbacks + Dashboard Overhaul - Flightcontrol Changelog | Productlane",
+  "summary": "We re finishing up the deployment rollbacks functionality, so that you can re-deploy previous builds with confidence. Our development team is also moving… Powered by Productlane.",
+  "body_markdown": "We're finishing up the deployment rollbacks functionality, so that you can re-deploy previous builds with confidence. Our development team is also moving forward with a user interface and user experience overhaul of our dashboard. We want to create the best place for all of you to deploy your builds and monitor their behavior over time, and we'll be excited to show you our new dashboard when it's finished.\n\n\nThis week, Flightcontrol will be at the Deep Dish Swift conference in Chicago, as well as the Reactathon conference in San Francisco. Come find us there and say hi!\n\n\n#### **🚀 New Features + Improvements**\n\n\n-\n\n\nWe added support for using Postgres version 15 with Amazon's Relational Database Service (RDS). Version 15 is now the default version selected for new databases. You can select another Postgres version if needed, going back to version 9. Existing deployments will not be affected.\n\n\n#### **📕 Docs**\n\n\n-\n\n\nAdded a guide to using[Sidekiq on Flightcontrol](https://www.flightcontrol.dev/docs/getting-started/ruby/using-sidekiq) with a Rails application.\n\n\n-\n\n\nAdded a troubleshooting page for[Changing your Nixpacks Version](https://www.flightcontrol.dev/docs/troubleshooting/changing-nixpacks-version) to help fix build issues that might be addressed in more recent versions of the Nixpacks build packs we use.\n\n\n-\n\n\nAdded a[JavaScript Resource Center](https://www.flightcontrol.dev/docs/getting-started/javascript) for Flightcontrol deployment tips.",
+  "published_at": "2023-05-01T19:36:23.158+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:6b1dcb343b58f4f225993a0e4604c2acd47417b83a7ec165abd2a5061c5cd26b"
+}

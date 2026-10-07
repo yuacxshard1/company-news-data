@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0bb23d23cb16b0ae8c1bc64b6beba3e0c8b05ff2fbba0965751efa1aeded364a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
+  "title": "AWS Budgets now supports email verification for notification subscribers",
+  "summary": "Discover more about what's new at AWS with AWS Budgets now supports email verification for notification subscribers",
+  "body_markdown": "[AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget alerts. When you add an email address to a budget notification, AWS Budgets sends a verification email to that address, and the address begins receiving notifications once the recipient confirms it.\n\n\nVerification applies to email addresses added from 9/30/26 onward. Addresses already subscribed on existing budgets are unaffected and need no action. For a new address, the recipient confirms it by following the link in the verification email, which opens the AWS Management Console. The AWS Budgets console shows the verification status of every subscriber, with a resend option for addresses still pending confirmation. AWS Budgets delivers these notifications through AWS User Notifications, and recipients can opt out at any time.\n\n\nAWS Budgets email verification is available in all AWS Regions, except the AWS GovCloud (US) Regions and the China Regions.\n\n\nTo learn more, see[Adding email recipients to a budget notification](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-email-recipients.html) in the AWS Billing and Cost Management User Guide.",
+  "published_at": "2026-10-01T08:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:ff9ffbdad76aecc40de51a5f34fa874ae9d8b98c5dc5fb13067e112ea0199cf0"
+}

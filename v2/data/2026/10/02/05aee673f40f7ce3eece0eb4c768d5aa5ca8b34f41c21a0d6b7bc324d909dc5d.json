@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "05aee673f40f7ce3eece0eb4c768d5aa5ca8b34f41c21a0d6b7bc324d909dc5d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+  "title": "Amazon Aurora DSQL now supports partial indexes",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora DSQL now supports partial indexes",
+  "body_markdown": "[Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/) now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost.\n\n\nMany tables hold a small working set alongside a much larger history, such as open orders among years of completed ones. Add a WHERE clause to CREATE INDEX to index just that working set. The index stays small as the table grows, and queries that target those rows read less data. Aurora DSQL uses a partial index for any query whose filter falls within the index's condition.\n\n\nPartial indexes are available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Aurora DSQL is available. To learn more, see[CREATE INDEX](https://docs.aws.amazon.com/aurora-dsql/latest/userguide/create-index-syntax-support.html) in the Aurora DSQL User Guide.",
+  "published_at": "2026-10-02T17:30:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:590668f7a2edc0f0475332e3e1eb2bc2179f3be14ebbec1707fd830c8b2955ce"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e18e75e9d8287fa87ab6f40fa95edd78282f217b44c62f85b75a026040d1f0c6",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-04-18-react-miami-meet-the-flightcontrol-team-rollback-work",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-04-18-react-miami-meet-the-flightcontrol-team-rollback-work",
+  "title": "React Miami! Meet the Flightcontrol Team + Rollback Work - Flightcontrol Changelog | Productlane",
+  "summary": "Our big announcement for the week is that the Flightcontrol team is assembling together at the React Miami conference this week! We want to meet our… Powered by Productlane.",
+  "body_markdown": "Our big announcement for the week is that the Flightcontrol team is assembling together at the React Miami conference this week! We want to meet our Flightcontrol users and anyone else who is busy writing and pushing code to production. How do you deploy things?\n\n\nIt's not just all React this week - we're working on the Rollback feature so that you can redeploy your last good build easily.\n\n\nLast week, in addition to the Rollback work, we also made some improvements to better support Incremental Static Regeneration (ISR) with Next.js, and added a few new docs to the site.\n\n\n#### **🚀 New Features + Improvements**\n\n\n-\n\n\nImprovements for working with Next.js Incremental Static Regeneration (ISR) - add support for Next.js preview mode, and detect Next.js applications better to support ISR if they don't have a **next.config.js** file.\n\n\n-\n\n\nAlso support loading Next.js config as an ES module with the **next.config.mjs** file\n\n\n#### **📕 Docs**\n\n\n-\n\n\nAdded[Getting Started with Python and Flask](https://www.flightcontrol.dev/docs/getting-started/python/getting-started-flask) guide, along with[Python](https://www.flightcontrol.dev/docs/getting-started/python) and[Ruby](https://www.flightcontrol.dev/docs/getting-started/ruby) resource centers\n\n\n-\n\n\nImproved[Get Deployment API](https://www.flightcontrol.dev/docs/reference/http-api/deployments/get-deployment) examples\n\n\n-\n\n\nAdded a \"copy\" button to all source code examples",
+  "published_at": "2023-04-18T14:41:48.325+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:398e4568a2669998d4534dd91f82756f7d21254498388e16e9453a05275df0b1"
+}

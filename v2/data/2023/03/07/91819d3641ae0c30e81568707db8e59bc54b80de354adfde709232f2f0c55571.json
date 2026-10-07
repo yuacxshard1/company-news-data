@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "91819d3641ae0c30e81568707db8e59bc54b80de354adfde709232f2f0c55571",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-03-07-ongoing-work-on-the-notifications-project",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-03-07-ongoing-work-on-the-notifications-project",
+  "title": "Ongoing Work on the Notifications Project - Flightcontrol Changelog | Productlane",
+  "summary": "Another great week for development here at Flightcontrol! We re working hard on our notifications project, and can t wait to share it with all of you. We ve… Powered by Productlane.",
+  "body_markdown": "Another great week for development here at Flightcontrol! We're working hard on our notifications project, and can't wait to share it with all of you. We've also shipped several bug fixes and one improvement that should help clarify when we deploy pull requests.\n\n\n#### **🚀** Improvements\n\n\n-\n\n\nUpdate our messaging on draft pull requests to make it more apparent that pull requests get deployed when they get marked \"Ready for Review\"\n\n\n#### 🐛 Bugs\n\n\n-\n\n\nFix issue with creating project using public GitHub repositories\n\n\n-\n\n\nFixed a bug that wouldn't let you change the port number (such as 3000) on a new service. For already deployed services, you will still need to delete the service and recreate it to change the port number.\n\n\n-\n\n\nFixed a bug that threw an unnecessary error when deploying a new environment - \"Failed to find environment or project for this deploy hook\"\n\n\n-\n\n\nFixed a bug that led to degraded performance on some deploys",
+  "published_at": "2023-03-07T14:26:59.741+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:ac337856799a6b3d77921d88c0b0bed47b9f8d2954f853cfdc5de87a26313e73"
+}

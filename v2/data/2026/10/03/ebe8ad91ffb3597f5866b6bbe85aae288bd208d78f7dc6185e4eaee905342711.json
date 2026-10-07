@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ebe8ad91ffb3597f5866b6bbe85aae288bd208d78f7dc6185e4eaee905342711",
+  "company_key": "yc-terra-api",
+  "company_name": "Terra API",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://tryterra.co/blog/wearableqa-ai-health-coach-calculations",
+  "canonical_url": "https://tryterra.co/blog/wearableqa-ai-health-coach-calculations",
+  "title": "WearableQA: your AI health coach should be allowed to use a calculator | Terra",
+  "summary": "WearableQA found Python access raised GPT-5.4 accuracy from 51.2% to 71.3%. What AI health coaches need from calculations and personal history.",
+  "body_markdown": "## Keep the receipt\n\n\nFor each generated observation, retain the input window, source metrics, calculation version, missing-data treatment, and resulting values. A user need not see an engineering log in the main interface. They should be able to open a concise explanation of what the observation was based on.\n\n\nThis also makes internal review considerably less miserable. If an answer looks strange, you can determine whether the problem came from retrieval, computation, or explanation. Otherwise everyone gathers around a paragraph and guesses which part of the machine had a bad afternoon.\n\n\nThe distinction matters for evaluation. Test calculations against known results. Test retrieval against records that should and should not be included. Test explanations for invented causes, overstated certainty, and claims that the computed result does not support.\n\n\nOne aggregate quality score can hide all of those failures.\n\n\n## A personal baseline needs actual history\n\n\nWearableQA also examines what happens when longitudinal context is removed. In the Claude Opus 4.6 ablation, accuracy on history-dependent questions fell from 75.9% to 39.8% when historical context was withheld. Window-dependent accuracy barely changed. The researchers separately found that some models handled familiar signal relationships better than user-specific associations present in the measurements.[Context and prior-knowledge analyses](https://arxiv.org/html/2609.05405v1#S4.SS3) .\n\n\nFor a builder, our reading is straightforward: knowing a plausible story about sleep and activity is insufficient evidence for a story about this person's sleep and activity.\n\n\nA useful assistant should be comfortable saying it has not established an association. We would rather have a coach ask one good question than deliver an elegant explanation assembled from general knowledge and a vaguely relevant chart.\n\n\nThis is where wearable data infrastructure earns its keep. Clean units, explicit sources, useful history, and dependable calculations give the conversational layer something solid to work with.[Terra's AI health-data interface](https://tryterra.co/ai) describes our approach to normalising measurements, building structured summaries and retaining health history for AI products. That preparation belongs underneath the conversation; each product still needs to evaluate its own answers.\n\n\nKeep the conversation. Keep the curiosity. Let the calculator do its job.",
+  "published_at": "2026-10-03T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T22:22:11.245001+00:00",
+  "content_hash": "sha256:54241b429d34a74da7255946812a3cb297f11aad4d13b2622f0db390f24c5ea0"
+}

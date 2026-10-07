@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "37a22695b811588f45830f737cf896d6adb0b625521742735930c4b9b621eae0",
+  "company_key": "yc-whalesync",
+  "company_name": "Whalesync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.whalesync.com/blog/whalesync-is-now-hipaa-compliant",
+  "canonical_url": "https://www.whalesync.com/blog/whalesync-is-now-hipaa-compliant",
+  "title": "Whalesync Is Now HIPAA Compliant",
+  "summary": "Whalesync is now HIPAA compliant and will sign a business associate agreement, so healthcare teams can sync protected health information between their tools.",
+  "body_markdown": "Healthcare teams keep their data in the same places everyone else does: a Postgres database behind the product, an Airtable base for operations, plus whatever Google Sheet someone built for reporting. When that data includes protected health information (PHI), the tool that moves it between those places has to be covered by HIPAA too.\n\n\nWhalesync is now HIPAA compliant, and we’ll sign a business associate agreement (BAA) with your organization through our HIPAA add-on.\n\n\n## **What we put in place**\n\n\nThere’s no official HIPAA certification. A business associate complies by putting the safeguards the law requires in place and keeping them there, so that’s what we did.\n\n\nAll of Whalesync runs on Google Cloud, and Google has signed a BAA with us. Every record is encrypted, with TLS in transit and AES-256 at rest. We don’t send the contents of your records to any other vendor. The services we use for sign-in, billing, analytics and email never see them.\n\n\nEach person on our team has their own account, getting into production requires multi-factor authentication, and we review who has access on a schedule. The systems that hold PHI have audit logs and alerts on them, and sessions time out on their own.\n\n\nWe have a named HIPAA Security and Privacy Officer. Everyone on the team gets HIPAA training when they join and every year after that, we run a risk analysis annually, and we have an incident response plan with breach notification procedures. All of this sits on top of the SOC 2 Type II program we already run.\n\n\n## **The apps you connect need a BAA too**\n\n\nOur BAA covers Whalesync. When a sync writes PHI into Airtable, Notion, HubSpot or a database, that app is storing PHI too, so you need a BAA with the app on each side of the sync as well. Many of them offer one, often on their higher-tier plans. Check before you turn on a sync that carries PHI.\n\n\n## **Getting started**\n\n\nThe HIPAA add-on’s pricing and requirements are in Whalesync under Settings → Billing, along with a link to book a call with us. You can also[book a call here directly](https://calendly.com/cfonger/30min) . Once the BAA is signed, we add the add-on to your account and the Billing page confirms you’re covered.\n\n\nSyncing PHI requires both a signed BAA and an active HIPAA add-on, so please wait until both are in place before you connect anything with PHI in it. Questions about our security program can go tosecurity@whalesync.com .",
+  "published_at": "2026-10-03T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T19:48:24.295926+00:00",
+  "content_hash": "sha256:37d6dc18225bb6a8e8be7a02b93e177a2959d513ed7f624ef474ebcd3903ebf7"
+}

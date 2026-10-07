@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c8dd8dfcbb2e4c79081990a3be1d7b5b7aac9a260e3a0f526f7768737b5ed708",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-dns-analytics-insights/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-dns-analytics-insights/",
+  "title": "Announcing DNS analytics and insights for Route 53 Global Resolver and DNS Firewall",
+  "summary": "Discover more about what's new at AWS with Announcing DNS analytics and insights for Route 53 Global Resolver and DNS Firewall",
+  "body_markdown": "Route 53 Global Resolver and DNS Firewall now provide DNS analytics and insights through native Amazon CloudWatch integration. These new capabilities enable network administrators and security teams to gain full observability into DNS query patterns, monitor DNS Firewall rule effectiveness, detect anomalous activity, and optimize DNS infrastructure performance. DNS analytics and insights is available in all AWS Regions where Amazon CloudWatch, Route 53 Global Resolver, and DNS Firewall are available.\n\n\nWith CloudWatch Metrics and Contributor Insights, customers can search and analyze DNS query logs, create metric filters for specific patterns such as blocked queries and DNS response codes, and set automated alarms. A new Analytics tab in both the Global Resolver and DNS Firewall consoles provides streamlined access to all analytics in one place.\n\n\nFor example, customers can create a metric filter for blocked DNS queries by VPC and set an alarm to trigger when more than 10 queries are blocked within an hour, enabling rapid response to potential security threats.\n\n\nStandard[Amazon CloudWatch pricing](https://aws.amazon.com/cloudwatch/pricing/) applies to the metrics that customers opt in to. To learn more, visit the[Route 53 documentation](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html) .",
+  "published_at": "2026-10-01T08:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:24b7f34c23f00c54cac5ec483bac7c2376006c4552d184f61eac37ff502921a4"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "acb6740269dec8dfbe3bb556cbc37fbce6fb3966a986d37a0fa1c5dbb941c9f9",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-03-27-rolling-out-notifications-later-this-week",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-03-27-rolling-out-notifications-later-this-week",
+  "title": "Rolling Out Notifications Later This Week! - Flightcontrol Changelog | Productlane",
+  "summary": "We ll be launching Notifications at the end of this week. Now you ll get email and Slack alerts for your important deployment events. No more wondering whether… Powered by Productlane.",
+  "body_markdown": "We'll be launching Notifications at the end of this week. Now you'll get email and Slack alerts for your important deployment events. No more wondering whether a deployment failed or keeping a browser tab open to your project page - Flightcontrol will send you an email to let you know! If you install our Slack integration, we'll also be able to update you there.\n\n\nWe're progressively rolling it out this week, and expecting it to be generally available for everyone at the end of the week.\n\n\nHave any ideas about how else you'd like to get notifications? Let us know through the Roadmap ([https://roadmap.flightcontrol.dev/roadmap](https://roadmap.flightcontrol.dev/roadmap) ).\n\n\n#### **💅 Improvements**\n\n\n-\n\n\nAll new Flightcontrol services (not just projects) will use Nixpacks 1.6.0 instead of an older version, if you use Nixpacks for deployment.\nTo use another version of Nixpacks, set the NIXPACKS_VERSION environment variable for your service. Existing services will continue to use whatever Nixpacks version you currently have.\n\n\n#### **🐛 Bug**\n\n\n-\n\n\nFixed an issue related to deleting a Flightcontrol service from the dashboard - if you have had services that you could not delete from your environment, this bug has been addressed.",
+  "published_at": "2023-03-27T13:02:53.048+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:966a70406040bd2a3aa80c6611d092ecbefed402ea9b654a536269aa14328d2a"
+}

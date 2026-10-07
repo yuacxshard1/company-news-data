@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9a6cff0a9f08de63211a974cc0688e91b8d236cf1b93f568904491bafb06d623",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-02-13-redis-encryption-at-rest-get-deployment-status-api",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-02-13-redis-encryption-at-rest-get-deployment-status-api",
+  "title": "Redis Encryption at Rest & Get Deployment Status API - Flightcontrol Changelog | Productlane",
+  "summary": "Hello everyone. We re back to the office today after our week long retreat in Thailand. We were able to work on multiple improvements and bug fixes during our… Powered by Productlane.",
+  "body_markdown": "Hello everyone. We're back to the office today after our week long retreat in Thailand. We were able to work on multiple improvements and bug fixes during our time together last week. Some of the improvements we shipped mono repository support, and provide more configuration options for preview environments.\n\n\n## **🛫 New Features**\n\n\n-\n\n\nAdded the new supported field` basePath` which indicates in which folder the` nixpacks` build should run. See more in the[docs](https://www.flightcontrol.dev/docs/guides/config/monorepos#independent-packages-in-a-repo) .\n\n\n-\n\n\nAdded a new configuration option called` encryptionAtRest` to configure if Redis is encrypted at rest. This option is enabled by default. See the[docs](https://www.flightcontrol.dev/docs/guides/config/using-code#redis) for more information.\n\n\n-\n\n\nAdded new Flightcontrol API endpoint to get the status of a deployment. See more in the[docs](https://www.flightcontrol.dev/docs/http-api/deployments/get-deployment) .\n\n\n-\n\n\nAdded the` fromBranches` filter for preview environments, used to specify which branches should be deployed to a preview environment. See more in the[docs](https://www.flightcontrol.dev/docs/guides/config/preview-environment#configuration) .\n\n\n#### 💅 UX\n\n\n-\n\n\nAn environment's AWS account is now displayed next to the environment's region.\n\n\n-\n\n\nIn dashboard, move the Install Command field out of advanced configuration up next to Build Command.\n\n\n#### 🐛 Bug Fixes\n\n\n-\n\n\nFixed a bug where public API endpoints threw a CSRF error on POST requests\n\n\n-\n\n\nFixed a bug where deleting a Redis cluster didn't delete correctly the first time.\n\n\n-\n\n\nFixed delete certificate workflow to use` us-east-1` in retry custom domains.",
+  "published_at": "2023-02-13T15:56:31.013+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:6cb89e59a593f738cd35719e458d699c299bcf82846e156e9372f8d84fb47979"
+}

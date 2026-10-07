@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9f8dbd1162c60b75fdd5ad8ab3738ed10ff9e278985d364163bd738f7cb74233",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/long-prompt-latency",
+  "canonical_url": "https://docs.litellm.ai/blog/long-prompt-latency",
+  "title": "How we cut time to first byte by 94% for long prompts",
+  "summary": "A 440k-token benchmark went from 553 ms to 35 ms median time to first byte. We removed unnecessary prompt-cache routing work before the model call.",
+  "body_markdown": "LiteLLM was counting every token in a long conversation to answer a yes-or-no routing question.\n\n\nRemoving that unnecessary work took median time to first byte from **553 ms to 35 ms** in our local 440k-token benchmark: **94% lower** .\n\n\n## Counting 440,000 tokens to check for 1,024​\n\n\nLiteLLM's optional` prompt_caching` routing check helps keep requests on deployments that can reuse their cached prompt. To check whether a prompt met a deployment's minimum size, often 1,024 tokens, it counted the entire conversation.\n\n\nFor a coding session with hundreds of turns and tool results, that could mean hundreds of milliseconds of Python work before the model call.\n\n\n**We skip the check for one healthy deployment.** There is no routing choice to make, so we now skip the eligibility count, prefix hash, and cache-pin lookup entirely. This is the path measured below.\n\n\n**With multiple deployments, counting stops once the answer is known.** The eligibility check stops after the first message that brings the count to the required minimum. Cache affinity and prefix hashing remain in place. Other uses of token counting, including usage accounting, are unchanged.\n\n\n## 553 ms → 35 ms​\n\n\nThe benchmark used the Python request path, a 439,945-token conversation with 334 turns and 18 tools, one healthy deployment, Redis response caching, and the` prompt_caching` check enabled. The test provider replied immediately, isolating request overhead from model generation time.\n\n\n**Time to first byte** Median of three requests\n\n\nChat completions\n\n\nBefore\n\n\n553ms\n\n\n→\n\n\nAfter\n\n\n35ms\n\n\nMessages\n\n\nBefore\n\n\n542ms\n\n\n→\n\n\nAfter\n\n\n40ms\n\n\n440k-token conversation · prompt-caching check enabled · instant mock upstream\n\n\nEach result is the median of three requests after one warmup, on the same local machine.` /v1/responses` already bypassed this check and stayed roughly flat. Requests without the optional check are unaffected.[Full benchmark samples and setup](https://github.com/BerriAI/litellm/pull/44221) .\n\n\nSee the changes:[prompt-cache routing optimization](https://github.com/BerriAI/litellm/pull/44221) .",
+  "published_at": "2026-10-03T09:00:00+00:00",
+  "first_seen_at": "2026-10-07T00:16:14.257035+00:00",
+  "content_hash": "sha256:2415653ac824de89c9a01a1ea2d3ec5a3a873e7f4cb70a73fbb9c18a4cbddc6f"
+}

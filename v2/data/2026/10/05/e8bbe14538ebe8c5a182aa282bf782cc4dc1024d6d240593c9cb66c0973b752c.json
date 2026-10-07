@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e8bbe14538ebe8c5a182aa282bf782cc4dc1024d6d240593c9cb66c0973b752c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/n8n-self-hosted-how-to-set-it-up-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/n8n-self-hosted-how-to-set-it-up-in-2026",
+  "title": "n8n Self Hosted: How to Set It Up in 2026",
+  "summary": "n8n self hosted deployments require a configured VPS and Docker to maintain full control over your automation workflows.",
+  "body_markdown": "## Baseline requirements for self-hosting n8n\n\n\nBy moving away from managed cloud tiers, you'll gain direct control over the execution environment. This control is necessary for scaling high-frequency tasks without incurring per-execution costs.\n\n\n### Hardware specifications for stable workflows\n\n\nProduction stability depends on providing enough overhead for the Node.js runtime to handle concurrent triggers without crashing the container.\n\n\nWhile a basic instance can start on minimal resources, active workflows involving large data transformations or frequent API polling will saturate the CPU and exhaust available memory.\n\n\n### Software dependencies and Docker versions\n\n\nDocker Compose orchestrates the deployment, managing the n8n application alongside its database and reverse proxy. Using the latest stable Docker Engine ensures compatibility with modern container networking features.\n\n\nThe long-term viability of your self-hosted stack depends on the rights granted by the software license. Activepieces publishes its core under the MIT license, meaning every released commit is yours to run, fork, or embed without a fair-code clause.\n\n\nIn contrast, n8n is source-available rather than MIT, which restricts your ability to redistribute or build commercial offerings on their work.\n\n\nIf a source-available vendor changes their pricing or restricts a feature you rely on, you are forced to migrate on their timeline because the rights to the code stay with them.\n\n\n### Domain name and DNS setup for n8n\n\n\nExternal webhooks and secure administrative interfaces require a dedicated domain name and valid SSL certificates. Without a static A record pointing to your server’s IP address, external services can't reliably push data to your triggers.\n\n\n> If a source-available vendor changes their pricing or restricts a feature you rely on, you are forced to migrate on their timeline because the rights to the code stay with them.\n\n\nImplementing an automated certificate authority ensures all traffic is encrypted via HTTPS. This is a requirement for most modern API integrations that refuse to send sensitive payloads to unencrypted endpoints.",
+  "published_at": "2026-10-05T20:29:08+00:00",
+  "first_seen_at": "2026-09-30T11:13:10.283473+00:00",
+  "content_hash": "sha256:0e71d5afc28af512ba39e3a4e29299b3c37dfde48b4b13a8991ec5e7a7bcc8d7"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ed05031379856e1f702e53eb016982bd1774153e7dcff0c7f1265cbf2f33e85d",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-04-03-notifications-launch-relaunch-of-docs-site",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-04-03-notifications-launch-relaunch-of-docs-site",
+  "title": "Notifications Launch + Relaunch of Docs Site! - Flightcontrol Changelog | Productlane",
+  "summary": "This week is a double launch for us at Flightcontrol! We re turning notifications on today (Monday, April 3, 2023). The first thing you will see is an email… Powered by Productlane.",
+  "body_markdown": "This week is a double launch for us at Flightcontrol! We're turning notifications on today (Monday, April 3, 2023). The first thing you will see is an email from us to all members of your organization if a build fails. You can customize the email notifications you get, as well as sending Flightcontrol notifications to a Slack channel on your Organization Settings page. Learn more about[configuring notifications](https://www.flightcontrol.dev/docs/guides/flightcontrol/notifications) in our docs.\n\n\nSpeaking of docs - we redid our documentation site ([https://www.flightcontrol.dev/docs](https://www.flightcontrol.dev/docs) )! We organized the docs with a new information architecture, added a full-text instant search, setup code highlighting, and made updates to every piece of content on the site. We used the[Nextra site generator](https://nextra.site/) , and we hope you try out Nextra too! You'll see more improvements and additions to the docs, and we'll call attention to the big changes in these weekly changelogs.\n\n\nTo sum up this week:\n\n\n#### **🚀** New Features + Improvements\n\n\n-\n\n\nEmail and Slack notifications for important events, like deployments failing\n\n\n-\n\n\nRelaunched the Docs web site ([https://www.flightcontrol.dev/docs](https://www.flightcontrol.dev/docs) )\n\n\n-\n\n\nAdded the ability to set the base path to the static site form when configuring a service in the dashboard\n\n\n#### 💅 Changes\n\n\n-\n\n\nPreview environments are now a Team feature, and not part of the Hobby plan.\n\n\n#### 🐛 Bugs\n\n\n-\n\n\nFixed a bug in deployments where the error analyzing screen was being shown, even if the deployment was actually up and running fine. If there is an error, display more contextual information to explain why the error occurred.\n\n\n-\n\n\nIn existing environments, the region is now locked down, and can not be edited. It's never been supported, but we erroneously let you try to change it.\n\n\n-\n\n\nMiscellaneous bug fixes",
+  "published_at": "2023-04-03T16:25:28.879+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:2153b129c3a814c10b6b4692f8092fe9d8cc793f4bf14d29bf7b3babefd4b747"
+}

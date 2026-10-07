@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0f5f5a6b3f712c3af7839f947f77add29646ef86731e607660630f8c186d1d44",
+  "company_key": "yc-tracecat",
+  "company_name": "Tracecat",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.1.0-alpha.9",
+  "canonical_url": "https://github.com/TracecatHQ/tracecat/releases/tag/1.1.0-alpha.9",
+  "title": "Tracecat 1.1.0-alpha.9",
+  "summary": "",
+  "body_markdown": "## Deployment compatibility\n\n\nFor Kubernetes, deploy this prerelease together with Helm chart **0.6.0** . The unified execution backend configuration requires the matching chart; do not upgrade only the application image on an older chart. Remove` tracecat.sandbox.disableNsjail` from saved and supplied values, and select` executor.backend` and` agentExecutor.backend` explicitly (` direct` or` nsjail` ;` ephemeral` is an alias for` nsjail` ).\n\n\n## Breaking changes\n\n\n- feat(engine+agents)!: Unify execution backend configuration ([#3656](https://github.com/TracecatHQ/tracecat/pull/3656) )\n\n\n## Agents\n\n\n- fix(agents): Normalize Read tool inputs at the LLM proxy ([#3584](https://github.com/TracecatHQ/tracecat/pull/3584) )\n- fix(agents): Ignore ping keep-alive stream events ([#3665](https://github.com/TracecatHQ/tracecat/pull/3665) )\n- feat(agents): Support child sessions and history forks ([#3604](https://github.com/TracecatHQ/tracecat/pull/3604) )\n\n\n## Tracecat MCP\n\n\n- feat(mcp+ui): Auto-layout MCP workflows and compact run_if badges ([#3658](https://github.com/TracecatHQ/tracecat/pull/3658) )\n\n\n## Integrations\n\n\n- feat(integrations): Add GitHub App provider for GitHub templates ([#3669](https://github.com/TracecatHQ/tracecat/pull/3669) )\n\n\n## API\n\n\n- fix(api): Make default settings initialization race-safe ([#3667](https://github.com/TracecatHQ/tracecat/pull/3667) )\n\n\n**Full changelog** :[1.1.0-alpha.8.1...1.1.0-alpha.9](https://github.com/TracecatHQ/tracecat/compare/1.1.0-alpha.8.1...1.1.0-alpha.9)",
+  "published_at": "2026-10-01T01:02:04+00:00",
+  "first_seen_at": "2026-10-06T17:44:35.362061+00:00",
+  "content_hash": "sha256:91f7ab854b4d32b31ce2a11825510311d425baf891a128c6506b51502f8e17f2"
+}

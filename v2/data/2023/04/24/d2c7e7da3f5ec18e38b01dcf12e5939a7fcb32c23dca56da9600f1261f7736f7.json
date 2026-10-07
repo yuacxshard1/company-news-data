@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d2c7e7da3f5ec18e38b01dcf12e5939a7fcb32c23dca56da9600f1261f7736f7",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-04-24-react-miami-rollback-dashboard-ux-project",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-04-24-react-miami-rollback-dashboard-ux-project",
+  "title": "React Miami + Rollback + Dashboard UX Project - Flightcontrol Changelog | Productlane",
+  "summary": "Last week, the Flightcontrol team gathered together at the amazing React Miami conference in Miami Beach, Florida!. We started work on an overhaul of the… Powered by Productlane.",
+  "body_markdown": "Last week, the Flightcontrol team gathered together at the amazing React Miami conference in Miami Beach, Florida!\n\n\nWe started work on an overhaul of the Flightcontrol dashboard's user interface and user experience. We're trying to make our dashboard the most intuitive developer experience out there for cloud deployments.\n\n\nOur team also continued to work on the rollback capability for service deployments, as we know this is an important feature for many of you.\n\n\n#### **🚀 New Features + Improvements**\n\n\n-\n\n\nYou now must pick an AWS region to deploy in, instead of using the default (this was **us-west-2** ). It wasn't always clear that you could or should be changing that AWS region, so we now have you make the choice yourself.\n\n\n-\n\n\nWe changed the way we load environment variables to display them in the user interface, so that users with many environment variables will see those pages initially load much faster.\n\n\n#### 🐛 Bug\n\n\n-\n\n\nFixed a bug where Next.js Typescript builds would fail with next.config.mjs (Next Config for ES Modules)",
+  "published_at": "2023-04-24T15:44:18.550+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:ee171758503a46decdfc31c50687a2f28ea298cd07d62166e844cdf9d3bc64e7"
+}

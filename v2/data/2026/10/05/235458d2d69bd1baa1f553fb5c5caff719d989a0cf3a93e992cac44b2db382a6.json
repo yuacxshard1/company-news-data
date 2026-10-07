@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "235458d2d69bd1baa1f553fb5c5caff719d989a0cf3a93e992cac44b2db382a6",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/newsblur-api-not-working-oct-4-2026/13872#post_1",
+  "canonical_url": "https://forum.newsblur.com/t/newsblur-api-not-working-oct-4-2026/13872",
+  "title": "NewsBlur API Not Working Oct 4, 2026",
+  "summary": "The POST /reader/mark_story_hash_as_unstarred is either not working or it is working but the NewsBlur app still shows the items as starred. I think it’s actually the latter. Can Sam check?",
+  "body_markdown": "[NJS](https://forum.newsblur.com/u/NJS)\n\n\nOctober 5, 2026, 1:57am 1\n\n\nThe **POST /reader/mark_story_hash_as_unstarred** is either not working or it is working but the NewsBlur app still shows the items as starred. I think it’s actually the latter. Can Sam check?\n\n\n[NJS](https://forum.newsblur.com/u/NJS)\n\n\nOctober 5, 2026, 1:58am 2\n\n\nNever mind. It looks like the NewsBlur server may have been down temporarily but now the app has unstarred the items.\n\n\n[samuelclay](https://forum.newsblur.com/u/samuelclay)\n\n\nOctober 5, 2026, 2:12am 3\n\n\nThat’s concerning if it was down temporarily. I monitor those and didn’t notice anything amiss. I did just make a bunch of oauth changes in anticipation for Google and Apple login, maybe rolling out tonight but more likely later this week. But it’s not out, just in staging.",
+  "published_at": "2026-10-05T01:57:04+00:00",
+  "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
+  "content_hash": "sha256:efd0687f9961bd10331fdf7953521ac613b9031cf210e514036d02e00acad4da"
+}

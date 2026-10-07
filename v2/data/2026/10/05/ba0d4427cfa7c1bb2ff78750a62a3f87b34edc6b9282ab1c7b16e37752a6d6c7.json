@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ba0d4427cfa7c1bb2ff78750a62a3f87b34edc6b9282ab1c7b16e37752a6d6c7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
+  "title": "AWS Private CA now provides detailed certificate issuance logs",
+  "summary": "Discover more about what's new at AWS with AWS Private CA now provides detailed certificate issuance logs",
+  "body_markdown": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing status for every issuance. You can use these events for compliance auditing, certificate inventory, algorithm migration tracking, and failed-issuance monitoring. Previously, the CloudTrail management event for the IssueCertificate API confirmed that the API call succeeded by providing a certificate ARN but did not capture the certificate content, information about the CA that signed it, or issuances that failed before signing.\n\n\nThe new IssueCertificateDetails event captures the complete to-be-signed (TBS) certificate with all X.509 fields and extensions, plus convenience fields for the subject, issuer, serial number, validity period, template, and signing algorithm. Events are emitted for both successful and failed issuance, so pre-signing failures such as name constraints violations now produce a record with a failure explanation. Each event identifies the requester: the account and IAM principal for direct API callers, or the service principal for certificates issued through AWS Private CA connectors or integrated AWS services. In cross-account configurations, the event is delivered to the CA owner account.\n\n\nThe event is delivered automatically as a CloudTrail management event, with no configuration or opt-in required and no additional cost beyond standard AWS CloudTrail pricing. Because it flows through CloudTrail, you can act on it in real time with Amazon EventBridge or query it in batch with Amazon Athena for certificate auditing, inventory, tracking, and monitoring. This feature is available in all AWS Regions where AWS Private CA is offered. To learn more, see the[AWS Private CA User Guide](https://docs.aws.amazon.com/privateca/latest/userguide/logging-using-cloudtrail-pca.html#pca-service-events) .",
+  "published_at": "2026-10-05T09:00:00+00:00",
+  "first_seen_at": "2026-10-06T20:46:06.873487+00:00",
+  "content_hash": "sha256:fe3f795f40e62504076ad5259b461f95d931d6cc317067f551e0264ac0c4767f"
+}

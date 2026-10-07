@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "493239ae1ed0dbefe47ebca780461a342921b23867d4f5caa6e15b8c8bfb86a1",
+  "company_key": "yc-flightcontrol",
+  "company_name": "Flightcontrol",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.flightcontrol.dev/changelog/2023-04-10-work-on-deployment-rollbacks-react-miami-coming-up",
+  "canonical_url": "https://roadmap.flightcontrol.dev/changelog/2023-04-10-work-on-deployment-rollbacks-react-miami-coming-up",
+  "title": "Work on Deployment Rollbacks + React Miami Coming Up! - Flightcontrol Changelog | Productlane",
+  "summary": "After shipping email and Slack notifications, we have to keep the momentum going! We re adding support for rolling back deployments. For all of us that have… Powered by Productlane.",
+  "body_markdown": "After shipping email and Slack notifications, we have to keep the momentum going! We're adding support for rolling back deployments. For all of us that have shipped some code that didn't quite go as planned, this new feature will make it easy for you to use your last known good build.\n\n\nWe're also getting the team together at the[React Miami](https://www.reactmiami.com/) conference on April 20-21, 2023 in Miami Beach, Florida. If you are going to the conference, come find us and say hi! We'll have stickers to give away, and all of us like talking to our Flightcontrol users!\n\n\n#### 📕 Docs\n\n\n-\n\n\nAdded[Getting Started with Rails](https://www.flightcontrol.dev/docs/getting-started/ruby/getting-started-rails) and[Connecting GitHub](https://www.flightcontrol.dev/docs/getting-started/connecting-github) guides\n\n\n#### 🐛 Fixed Bugs\n\n\n-\n\n\nFixed a bug where it was possible to specify a non-existent database version for an RDS service\n\n\n-\n\n\nFixed an issue where Flightcontrol would not clone Git submodules properly during a deployment,\n\n\n-\n\n\nFixed a bug in deployments where the yarn install command failed with the error message \"lockfile would have been modified\"",
+  "published_at": "2023-04-10T15:11:22.811+00:00",
+  "first_seen_at": "2026-10-06T23:55:13.395312+00:00",
+  "content_hash": "sha256:271038c57a64fff68da3db866aab2316e8d86146d93f235ea0ec08df4441b46c"
+}
