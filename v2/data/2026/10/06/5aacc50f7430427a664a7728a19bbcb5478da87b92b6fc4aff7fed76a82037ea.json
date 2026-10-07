@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5aacc50f7430427a664a7728a19bbcb5478da87b92b6fc4aff7fed76a82037ea",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/nano_banana_2_1",
+  "canonical_url": "https://docs.litellm.ai/blog/nano_banana_2_1",
+  "title": "Day 0 Support: Nano Banana 2.1",
+  "summary": "Day 0 support for Gemini Nano Banana 2.1 on LiteLLM, on Google AI Studio and Gemini Enterprise Agent Platform, with image output at half Nano Banana 2's price.",
+  "body_markdown": "LiteLLM supports` gemini-nano-banana-2.1` on day 0 on Google AI Studio (` gemini/` ) and Gemini Enterprise Agent Platform, formerly Vertex AI (` vertex_ai/` ), through` /v1/images/generations` ,` /v1/images/edits` and` /chat/completions` . It replaces Nano Banana 2 (` gemini-3.1-flash-image` ), which the Gemini API shuts down on October 29, 2026.\n\n\n[Per Google](https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1) , Nano Banana 2.1 improves visual quality and text rendering at 1K, 2K and 4K, fixes tiling on wide aspect ratios, takes up to 14 reference images, and supports Search grounding and configurable thinking levels.\n\n\nnote\n\n\n**No Docker image upgrade needed.** Hit **Reload Model Cost Map** in the Admin UI (or` POST /reload/model_cost_map` ) to pull pricing, on` v1.76.0` and above.\n\n\n## Pricing​\n\n\n- Image output: $30 / MTok ($0.0336 per 1K image)\n- Text input: $1.50 / MTok\n- Text output: $7.50 / MTok\n\n\n## Quick Start​\n\n\n- PROXY\n- SDK\n\n\n**1. Setup config.yaml**\n\n\n```text\nmodel_list  :         -     model_name  :   nano  -  banana  -  2.1           litellm_params  :             model  :   gemini/gemini  -  nano  -  banana  -  2.1             api_key  :   os.environ/GEMINI_API_KEY        -     model_name  :   nano  -  banana  -  2.1  -  agent  -  platform          litellm_params  :             model  :   vertex_ai/gemini  -  nano  -  banana  -  2.1             vertex_project  :   os.environ/VERTEX_PROJECT            vertex_location  :   global\n```\n\n\n**2. Start the proxy**\n\n\n```text\nlitellm --config /path/to/config.yaml\n```\n\n\n**3. Test it**\n\n\n```text\ncurl http://0.0.0.0:4000/v1/images/generations \\      -H \"Authorization: Bearer $LITELLM_KEY\" \\      -H \"Content-Type: application/json\" \\      -d '{        \"model\": \"nano-banana-2.1\",        \"prompt\": \"A product shot of a ceramic mug on a walnut desk, soft morning light\"      }'\n```\n\n\n```text\nimport   litellm       response   =   litellm  .  image_generation  (         model  =  \"gemini/gemini-nano-banana-2.1\"  ,         prompt  =  \"A product shot of a ceramic mug on a walnut desk, soft morning light\"  ,      )         print  (  response  .  data  [  0  ]  .  b64_json  [  :  64  ]  )\n```\n\n\n## Feedback​\n\n\nQuestions and feedback go in[GitHub discussion #44983](https://github.com/BerriAI/litellm/discussions/44983) .",
+  "published_at": "2026-10-06T18:00:00+00:00",
+  "first_seen_at": "2026-10-07T16:20:11.947474+00:00",
+  "content_hash": "sha256:94ed087c01c74e8ba77559dd39d4bacb40215f25151301cb7235bf1cb3858850"
+}

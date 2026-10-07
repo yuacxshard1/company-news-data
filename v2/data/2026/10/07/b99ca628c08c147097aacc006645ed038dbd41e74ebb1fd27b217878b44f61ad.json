@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b99ca628c08c147097aacc006645ed038dbd41e74ebb1fd27b217878b44f61ad",
+  "company_key": "digitalocean-holdings-inc-common-stock",
+  "company_name": "DigitalOcean Holdings Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "atom",
+  "url": "https://www.digitalocean.com/blog/resource-limits-session-duration",
+  "canonical_url": "https://www.digitalocean.com/blog/resource-limits-session-duration",
+  "title": "Account Control, Every Layer: From Your Organization to Every Session",
+  "summary": "Introducing Resource Limits for Organizations and configurable session durations for Accounts.",
+  "body_markdown": "If you run a multi-team organization, you need to see what each team can provision and change it without filing a ticket. If you sign in to DigitalOcean every day, you want to decide how long you stay signed in. Two new controls handle both. Resource Limits gives org Owners and Admins one place to view and adjust every team’s limits, and configurable session durations let anyone set their session length from 1 hour to 30 days.\n\n\n### **At the Organization level: see and manage every team’s resource limits**\n\n\nIf you run a multi-team organization, understanding how much capacity each team is using and how close it is to its ceiling is crucial to managing growth, risk, and cost across the organization. Before, you had to switch into each team to review usage and limits, one at a time, and there was no way to lower a team’s limit without opening a support ticket.\n\n\nNow, the new Resource Limits tab in Organization settings gives Owners and Admins a single view of Droplets, Volumes, Databases, and Load Balancers across every team, and the power to raise or lower any team’s limit within its approved maximum. If an admin adjusts a team’s limit, that team is pointed to the admin, not support, the next time it asks for more.\n\n\nIt works the same way whether you’re scaling a growing team, reining in one that’s gone off track, or just keeping spend predictable across the org. People use it for different reasons, but it’s the same tab for all of them.\n\n\n[Read the docs ->](https://docs.digitalocean.com/platform/organizations/how-to/manage-resource-limits/)\n\n\n### **At the Account level: set your own session length**\n\n\nEvery DigitalOcean user can now choose how long their session stays signed in, from 1 hour to 30 days, right from their profile, replacing the old fixed session length. Shorter sessions for a shared or high-risk device, longer ones for a machine you trust. It’s enforced server-side, not a browser setting, and every change is logged the same way an org’s resource limits are.\n\n\nToday this is a per-person setting: each user sets it for their own account, it isn’t currently something an Organization admin can set on behalf of their team.\n\n\n[Read the docs ->](https://docs.digitalocean.com/platform/accounts/settings/#session-duration)\n\n\n### **Get started today**\n\n\nBoth of these features are live. Resource Limits is in Organization settings, for every organization, visible to Owners and Admins. Session duration is in My Account → Profile, for every account, no opt-in needed. Open either setting, pick a value, and save.",
+  "published_at": "2026-10-07T14:41:19.205+00:00",
+  "first_seen_at": "2026-10-07T15:52:53.883523+00:00",
+  "content_hash": "sha256:066aa164a197cc47b353e7889f7258861489a3e9524c5a69d9d1cb812fde36d8"
+}
