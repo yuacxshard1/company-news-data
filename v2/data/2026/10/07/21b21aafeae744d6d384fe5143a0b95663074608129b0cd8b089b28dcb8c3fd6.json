@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "21b21aafeae744d6d384fe5143a0b95663074608129b0cd8b089b28dcb8c3fd6",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/rised-multi-environment-selection",
+  "canonical_url": "https://machinelearning.apple.com/research/rised-multi-environment-selection",
+  "title": "RISED: Rubrics for Agentic Multi-Environment Selection and Self-Distillation",
+  "summary": "Training a single LLM agent jointly across diverse interactive environments has attracted increasing attention as a route to generalist…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2610.00979)\n\n\nTraining a single LLM agent jointly across diverse interactive environments has attracted increasing attention as a route to generalist agents. Existing curriculum and data-selection strategies often allocate training at the environment level or prioritize local reward-based signals, without explicitly considering relationships between current rollouts across environments for prompt-group selection. Meanwhile, as environments are learned at different rates, all-failure and all-success rollout groups can coexist within a batch, leaving those data without group-relative reward signals. Both challenges highlight limitations of relying solely on scalar rewards in multi-environment RL: they provide limited information about cross-environment relationships and no within-group reward contrast when rewards are identical. This motivates richer textual feedback, such as rubrics describing rollout behaviours, to guide learning. Beyond rubrics’ usage as reward, we repurpose rubrics to guide both online data selection and policy supervision. An LLM judge tags each rollout using a predefined rubric vocabulary shared across environments. The resulting profiles guide the selection of data that aligns with the overall behavioural composition of the mixed-environment batch while limiting overlap with already-selected data. Available positive rubrics (describing desired behaviours) provide privileged context for an on-policy self-distillation teacher, supplying additional token-level supervision, while negative rubrics (describing undesired behaviours) guide subsequent rollout generation away from recurring failure modes. Together, these components form RISED. Across model backbones, RISED achieves the highest mean pass rate across environments and ranks first or second in every individual environment. Rubric-based analysis of RISED can further characterize the behavioural changes accompanying these gains.\n\n\n- † National University of Singapore\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-10-07T05:52:07.614132+00:00",
+  "content_hash": "sha256:59e52f087330e0c59cfb795277352fa1ded50c3319c9cce175aac5fb64022641"
+}
