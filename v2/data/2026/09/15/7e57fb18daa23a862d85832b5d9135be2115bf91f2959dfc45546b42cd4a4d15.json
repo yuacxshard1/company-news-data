@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7e57fb18daa23a862d85832b5d9135be2115bf91f2959dfc45546b42cd4a4d15",
+  "company_key": "salesforce-inc-common-stock",
+  "company_name": "Salesforce Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.salesforce.com/blog/playbook/scaling-agentic-enterprise/?bc=HL",
+  "canonical_url": "https://www.salesforce.com/blog/playbook/scaling-agentic-enterprise/",
+  "title": "Scale Your Agentic Enterprise: A Step-By-Step Guide",
+  "summary": "Transition from AI pilots to production. Part 2 of the Agentic Enterprise playbook covers how to scale AI agents, build AI teams, and redesign workflows.",
+  "body_markdown": "### **How we’re scaling it**\n\n\nThese aren’t predictions we’re making from the sidelines. Salesforce AI Research is building toward all three right now, in our AI Research organization, with customers, and inside our own products. Here are three examples of what that looks like in practice:\n\n\n**Voice as the new interface.** Our research team is working on voice agents that can actually hold up to enterprise interactions, understand accents, handle interruptions, work in noisy environments, and stay grounded in your data. Our proprietary voice models are already powering blazing-fast dictation in Slackbot, bringing both context and accuracy into Slack’s agentic, conversational interface.\n\n\n**Ambient, forecasting intelligence.** Large language models are extraordinary at text and reasoning, but they struggle with forecasting over a time series, which is exactly what you need in a service center trying to balance staffing against next week’s call volume, or in a supply chain trying to anticipate demand. Our research team built the world’s most popular time-series model, Moirai, to close that gap. Unlike traditional LLMs, which predict the next word, time-series models predict the next event by creating a forecast of the future. Moirai’s open-source research version has already crossed[30 million downloads on Hugging Face](https://huggingface.co/collections/Salesforce/moirai-r-models) , and is one of the most popular models we’ve ever released.\n\n\n**Learning agents, at scale.** For many organizations, much of the institutional enterprise data is locked inside expert employees’ heads, and not properly documented. Salesforce AI Research is incubating a new breed of “learning agents” that work hand-in-hand with human experts to learn on the job and improve. Every deployment becomes a system that gets better with use, rather than one that drifts with age.\n\n\nEach of these advancements is incubated with real customers before it becomes generally available through our[AI Foundry program.](https://www.salesforce.com/news/stories/ai-foundry-announcement/) Together, they’re the closest concrete look you can get right now at what the Self-Evolving Enterprise actually feels like from the inside.",
+  "published_at": "2026-09-15T06:29:43+00:00",
+  "first_seen_at": "2026-10-07T19:40:59.622477+00:00",
+  "content_hash": "sha256:5b65b068b3cd6683b5b3046dcdb3bbbb22267541884817599f96441bbf9b885d"
+}
