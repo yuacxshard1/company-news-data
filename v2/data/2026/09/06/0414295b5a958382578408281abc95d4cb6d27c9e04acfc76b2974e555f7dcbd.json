@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0414295b5a958382578408281abc95d4cb6d27c9e04acfc76b2974e555f7dcbd",
+  "company_key": "yc-diffusion-studio",
+  "company_name": "Diffusion Studio",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://diffusion.studio/changelog/typegpu-support",
+  "canonical_url": "https://diffusion.studio/changelog/typegpu-support",
+  "title": "TypeGPU support",
+  "summary": "Diffusion Studio now supports TypeGPU and Redraw for creating custom graphics, animations, and 3D scenes in TypeScript.",
+  "body_markdown": "We now support[TypeGPU](https://docs.swmansion.com/TypeGPU/) for custom graphics and 3D scenes, alongside WebGL, WebGPU, and Three.js.\n\n\nYou or your agent can create graphics, animations, and visual effects in TypeScript and render them on the GPU. Your agent can also add custom controls to the editor sidebar so you can adjust the look and motion of your graphics and animations.\n\n\n0:00 / 0:00\n\n\nJelly Slider by[@reczko_konrad](https://x.com/reczko_konrad) and[@cerpow](https://x.com/cerpow) .\n\n\n## Redraw support\n\n\nWe’ve added support for[Redraw](https://redraw.dev/docs/intro/) , a 2D graphics library built on WebGPU. You or your agent can create custom motion graphics in TypeScript, animate vector artwork, and control stroke width and color along each path.\n\n\n0:00 / 0:00\n\n\nRedraw supports realistic lighting and materials, along with vector feathering that calculates blur directly from shapes for fast glows, motion blur, and blurred backdrops.\n\n\n0:00 / 0:00\n\n\n## Added\n\n\n-\n\n\nThe desktop app now loads plugins from your project’s` babel.config.js` or` .babelrc` , including TypeGPU’s compiler plugin.\n\n\n-\n\n\nAdded the` useResolution` hook so custom graphics can render at the selected export resolution, keeping lines and details sharp.\n\n\n-\n\n\nAdded **JKL playback shortcuts** :\n\n\nKey Action\n\n\nJ Play backward\n\n\nK Pause\n\n\nL Play forward\n\n\nRepeat J or L Double playback speed with each press, up to 16×.\n\n\n## Fixed\n\n\n- Fixed element constraints resetting when you edited the code or reopened a project.\n- Fixed a bug that let you drag clips to the left of 00:00 on the timeline.",
+  "published_at": "2026-09-06T00:00:00+00:00",
+  "first_seen_at": "2026-10-07T20:58:52.123833+00:00",
+  "content_hash": "sha256:d5eb2b77667a0e08ab506ed47a329d04b8baa1ad45d87268162f8f8066be6ed2"
+}

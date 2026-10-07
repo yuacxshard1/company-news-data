@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8acf16acff6f3c22077bd4a7489ed4be77fb800cbfe03858b4e6baa194c12c63",
+  "company_key": "yc-diffusion-studio",
+  "company_name": "Diffusion Studio",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://diffusion.studio/changelog/ai-object-masking",
+  "canonical_url": "https://diffusion.studio/changelog/ai-object-masking",
+  "title": "AI object masking",
+  "summary": "Remove video backgrounds, blur people or objects, and add text behind a person with Diffusion Studio’s AI-powered object masking tool.",
+  "body_markdown": "You can now remove a background, blur an object, or put text behind a person with AI object masking. Add points to select your subject, and Diffusion Studio creates a mask that follows it through the clip.\n\n\nIf the mask misses part of your subject, add more points or paint over that area with the brush. You can also subtract areas from the selection, soften the edges, and use the same mask for several effects.\n\n\nWe use SAM 2.1, Meta’s Segment Anything Model, in four sizes: **Tiny, Small, Base, and Large** . All four run locally on your GPU. Tiny is fastest; larger models offer higher accuracy and take longer to process.\n\n\n## Remove or blur the background\n\n\nUse the mask with an opacity effect to remove the background. To blur the background, apply the mask to a layer blur and turn on **Invert** .\n\n\n0:00 / 0:00\n\n\n## Put text behind a subject\n\n\nPlace your text above the original video, then add a masked copy of the subject above the text.\n\n\n0:00 / 0:00\n\n\n## Agent support\n\n\nYour agent can create masks too, through MCP or the CLI. It can preview a selection, refine the mask, and track the part of the video you need.\n\n\n## Improved\n\n\n- Improved text color editing in the right sidebar.\n- Moved the **Source** property under **Appearance** in the right sidebar. It previously had its own section.\n- Renamed the shape masking feature to **Clip path** and added a dedicated tool, keyboard shortcuts, and sidebar controls.\n- Mask assets now show thumbnail previews in the asset panel.\n\n\n## Fixed\n\n\n- Fixed text edits deleting fills and comments from the project code.\n- Fixed mask selection menus extending beyond the available screen space.",
+  "published_at": "2026-09-29T00:00:00+00:00",
+  "first_seen_at": "2026-10-07T20:58:52.123833+00:00",
+  "content_hash": "sha256:61763f6c852988cfa24326a7f9dbfb264751314ae9bce86a8398e1732e290691"
+}
