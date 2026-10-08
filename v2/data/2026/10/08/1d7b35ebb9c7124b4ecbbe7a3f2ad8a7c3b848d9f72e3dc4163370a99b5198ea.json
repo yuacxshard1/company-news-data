@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1d7b35ebb9c7124b4ecbbe7a3f2ad8a7c3b848d9f72e3dc4163370a99b5198ea",
+  "company_key": "yc-superglue",
+  "company_name": "superglue",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://superglue.ai/blog/netsuite-mcp/",
+  "canonical_url": "https://superglue.ai/blog/netsuite-mcp/",
+  "title": "superglue now has a NetSuite MCP server",
+  "summary": "NetSuite users can now read and write NetSuite records from their AI agent.",
+  "body_markdown": "You can now read from and write to NetSuite with your AI agent. Set up general ledger accounts, post journal entries, add vendors and customers, create invoices and vendor bills, out of a conversation.\n\n\n## Getting into NetSuite intuitively\n\n\nNetSuite is not a system you poke around in. You need the right role, the right screen, and someone who knows where things live. Most people who want an answer out of NetSuite ask a colleague to go and get it.\n\n\nWith the MCP server you ask your AI agent instead. What does this customer owe. Which accounts from the mapping file never made it in. Show me the journal entries for last period. The agent queries NetSuite and answers in the thread.\n\n\nChanging something works the same way. Tell the agent what you want, and it writes the record after you confirm it. No SuiteScript, no saved search to build, no screen to hunt for.\n\n\n## What you can do with the NetSuite MCP\n\n\nPrebuilt tools cover the records people work with: chart of accounts, customers, vendors, journal entry lines, invoices, vendor bills, subsidiaries, departments, classes and locations. For anything else the agent writes SuiteQL, so items, employees, transaction lines and custom records are in reach too.\n\n\nWrites cover seven record types: journal entries, vendors, customers, GL accounts, invoices, vendor bills and departments. Each one is a separate write tool that asks before it runs.\n\n\n## Try it now\n\n\nInstall the MCP directly in superglue or connect it to Claude, ChatGPT, Langdock, Microsoft Copilot or Google Gemini.\n\n\n[Use the NetSuite MCP now](https://superglue.ai/mcp/netsuite/)\n\n\nThe agent asks for your NetSuite account ID and for the client ID and secret of your integration record, then opens the NetSuite sign-in.",
+  "published_at": "2026-10-08T00:00:00+00:00",
+  "first_seen_at": "2026-10-07T16:28:16.197945+00:00",
+  "content_hash": "sha256:6298b49979d1d1f4ed836622f5ca992bf92055268aaec4a36e47707f709d5f8a"
+}

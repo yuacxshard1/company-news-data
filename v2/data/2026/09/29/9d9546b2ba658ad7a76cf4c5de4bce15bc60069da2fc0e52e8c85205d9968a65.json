@@ -6,12 +6,12 @@
   "category_key": "uncategorized",
   "category_name": "Uncategorized",
   "source_kind": "rss",
-  "url": "https://forum.newsblur.com/t/hackernews-feed-disappeared/13860#post_2",
+  "url": "https://forum.newsblur.com/t/hackernews-feed-disappeared/13860#post_4",
   "canonical_url": "https://forum.newsblur.com/t/hackernews-feed-disappeared/13860",
   "title": "Hackernews feed disappeared",
   "summary": "Happened this morning it was just gone. Tried to add it again but without success.",
   "body_markdown": "[Readlots](https://forum.newsblur.com/u/Readlots)\n\n\nSeptember 29, 2026, 4:52pm 1\n\n\nHappened this morning it was just gone. Tried to add it again but without success.\n\n\n[steanne](https://forum.newsblur.com/u/steanne)\n\n\nSeptember 29, 2026, 5:31pm 2\n\n\nlooks like someone changed the feed address newsblur has listed to something at rsshub.app. i’ll leave[@samuelclay](https://forum.newsblur.com/u/samuelclay) to fix it because i can’t see what it was before and i recall ycombinator having a few different addresses for different sortings\n\n\n[samuelclay](https://forum.newsblur.com/u/samuelclay)\n\n\nSeptember 29, 2026, 5:36pm 3\n\n\nThis is the feed I’m subscribed to:[https://www.newsblur.com/site/6327282/hacker-news](https://www.newsblur.com/site/6327282/hacker-news)\n\n\nI’ll investigate now to figure out what happened…\n\n\n[steanne](https://forum.newsblur.com/u/steanne)\n\n\nSeptember 29, 2026, 5:38pm 4\n\n\nah, somehow what i have is[https://www.newsblur.com/site/10015475/hacker-news-rsshub](https://www.newsblur.com/site/10015475/hacker-news-rsshub)\n\n\n[samuelclay](https://forum.newsblur.com/u/samuelclay)\n\n\nSeptember 29, 2026, 6:43pm 5\n\n\nFixed. steanne was right: the feed got switched to an RSSHub copy of Hacker News. RSSHub blocks us, so that copy was empty, and about 15,000 readers got moved onto it this morning.\n\n\nA while back someone changed the address on their RSSHub copy to the real Hacker News URL, and NewsBlur wrongly marked the real feed as belonging to their copy. When RSSHub started failing today, NewsBlur tried to combine the two and kept the broken one.\n\n\nEveryone is back on the real Hacker News feed now, with read stories and training carried over. I’m also shipping a fix so this can’t happen to other feeds.",
-  "published_at": "2026-09-29T17:31:35+00:00",
+  "published_at": "2026-09-29T17:38:27+00:00",
   "first_seen_at": "2026-09-29T21:44:56.033142+00:00",
   "content_hash": "sha256:42204de1095da5c63e80a34643017802fd789a767ea8cc080ab3dbc37c37bbf7"
 }
