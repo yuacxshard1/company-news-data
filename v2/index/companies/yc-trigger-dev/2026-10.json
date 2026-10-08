@@ -3,6 +3,16 @@
     {
       "company_key": "yc-trigger-dev",
       "company_name": "Trigger.dev",
+      "doc_id": "8297fb4084760d7ff0709b4942f29f4d4c15d6ec126d6cd9b78d26a9d89b5f51",
+      "first_seen_at": "2026-10-08T16:31:40.275855+00:00",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "On October 6, 2026, a change we enabled caused our Vercel integration to overwrite some environment variable values with empty strings. Tasks that needed those values started failing.",
+      "title": "Vercel environment variables cleared during synchronization"
+    },
+    {
+      "company_key": "yc-trigger-dev",
+      "company_name": "Trigger.dev",
       "doc_id": "9e0d920986cd5f4f0ab7ce5e3082d9d50c9c5e1a9c5e302cf7271ce737256381",
       "first_seen_at": "2026-10-06T20:08:15.546253+00:00",
       "published_at": "2026-10-02T12:00:00+00:00",
