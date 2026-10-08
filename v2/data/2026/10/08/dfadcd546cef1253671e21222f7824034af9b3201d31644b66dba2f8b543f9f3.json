@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dfadcd546cef1253671e21222f7824034af9b3201d31644b66dba2f8b543f9f3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/why-webhook-triggers-time-out-and-how-to-fix-them",
+  "canonical_url": "https://www.activepieces.com/blog/why-webhook-triggers-time-out-and-how-to-fix-them",
+  "title": "Why Webhook Triggers Time Out and How to Fix Them",
+  "summary": "Webhook timeouts occur when receiving systems process complex logic synchronously rather than using queues.",
+  "body_markdown": "## Frequently asked questions about webhook triggers\n\n\n### How long should a webhook wait before timing out?\n\n\nTypically within a few seconds, a webhook should time out as soon as the receiving server acknowledges receipt.\n\n\nThis prevents the sender’s connection pool from exhausting its available resources.\n\n\nWhen a platform like the GitHub version control system sends a push event, it expects a rapid HTTP 200 response rather than waiting for you to finish a long-running task.\n\n\nProlonging this window forces the sending service to hold a socket open longer than necessary.\n\n\nThis increases the risk that a sudden spike in traffic will hit the sender’s concurrent connection limit and cause subsequent events to be dropped entirely.\n\n\n### Do retries cause duplicate data entries?\n\n\nUnless your receiving logic is designed to recognize and ignore a transaction ID it has already processed, retries will inevitably cause duplicate data entries.\n\n\nIf a network hiccup occurs after the database has been updated but before the success response reaches the sender, the sender will assume failure and transmit the same payload again.\n\n\nWithout an idempotency key (a unique identifier included in the header), the system will treat the retry as a new request. This results in corrupted reporting and inflated transaction counts.\n\n\n### How do I test if my server is causing timeouts?\n\n\nTo see if the response time remains stable under load, you must isolate the ingestion point from the processing logic when testing for server-side latency.\n\n\nYou can use a tool like the k6 load testing framework to simulate a high volume of concurrent requests against the endpoint.\n\n\nIf the response time climbs linearly with the number of requests, your server is likely performing synchronous work before responding.\n\n\nIf the response time stays flat while the error rate increases, your server has reached its connection limit.\n\n\n### Can a firewall cause a webhook to time out?\n\n\nBy silently dropping packets from unrecognized IP addresses, a firewall or a web application firewall (WAF) like Cloudflare causes timeouts.\n\n\nThis prevents the handshake from ever completing. This creates a \"black hole\" effect where the sender waits for a response that you never even knew to send.\n\n\nTo resolve this, your network security team must explicitly allowlist the IP ranges provided by the webhook provider.\n\n\nThis ensures that legitimate traffic bypasses the automated bot-blocking filters that treat high-frequency webhooks as a potential denial-of-service attack.",
+  "published_at": "2026-10-08T08:57:50+00:00",
+  "first_seen_at": "2026-09-25T15:45:57.517284+00:00",
+  "content_hash": "sha256:258491b9e5e19adbd04317be35c30a035808ad6c48489321f00fa7d6a11f1ed7"
+}
