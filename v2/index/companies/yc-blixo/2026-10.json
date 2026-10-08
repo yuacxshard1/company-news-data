@@ -3,9 +3,29 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "3190040e01d4d7543942c48b0bcf6348470ecf303456921263b93d61c90ba102",
+      "first_seen_at": "2026-10-08T01:13:35.036552+00:00",
+      "published_at": "2026-10-06T04:30:49+00:00",
+      "source_kind": "html",
+      "summary": "In short: Remittance data often arrives hours or days after payment. It can sit in bank files, email inboxes, and customer portals. Your AR team then spends time matching transactions to invoices manually. AI-powered remittance parsing reads seven formats—ACH addenda, SEPA instructions, EDI 820, PDF advice, email attachments, check memos, portal downloads—and matches payments automatically. Extraction and matching are separate failure points. AI may read a document correctly, yet cash still fails to post straight-through if fuzzy matching cannot map that payment to the right invoices. Most ERPs struggle with multi-invoice payments, short pays, and missing references. Straight-through processing depends on whether your platform handles customers’ formats and matching edge cases.",
+      "title": "AR Automation Checklist: Does the Platform Parse Your Remittance Formats or Force Manual Matching?"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "495045d995c48ef8e52f11c424ed1767b68c1ed37ca52709eef726f1e19d143a",
+      "first_seen_at": "2026-10-08T01:13:35.036552+00:00",
+      "published_at": "2026-10-07T04:30:49+00:00",
+      "source_kind": "html",
+      "summary": "What You Need to Know No AR automation vendor has fully solved multi-entity reconciliation, so your team still cleans up exceptions involving transfer pricing, timing differences, and FX gains. Tolerance rules can automate variance approvals within set thresholds, but policy judgment still belongs to your team. Controllers using QuickBooks, legacy ERPs, SQL databases, and spreadsheets spend significant time each month gathering and combining fragmented financial data. The ROI inflection point for intercompany automation is entity relationship stability, not transaction volume. Auto-match rates matter most when you separate routine AR matching from intercompany matching. What auto-match benchmarks actually show Reviewed Trintech and HighRadius materials describe strong routine auto-match rates, but no vendor has fully solved multi-entity reconciliation. Intercompany matching still faces reciprocal balances, currency translation adjustments, and consolidation rules that rule-based tools cannot resolve without accounting-policy judgment.",
+      "title": "AR Automation Software Compared: Which Handles Multi-Entity Reconciliation Without Manual Cleanup"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "6e9ad43234233bf8bf6f5d84855787c5e38b4c9443c31a748ed4d801f384b125",
       "first_seen_at": "2026-10-06T20:00:08.873417+00:00",
-      "published_at": "2026-10-05T04:38:43+00:00",
+      "published_at": "2026-10-04T04:30:49+00:00",
       "source_kind": "html",
       "summary": "The Short Version Stripe Billing has a faster payback than BILL AP/AR Essentials at $49 per user monthly. Dedicated AR platforms deliver higher auto-match rates for cash application—fewer hours spent reconciling payments that arrive via ACH, wire, or check. Stripe’s 2.9% + 30¢ per transaction fits immediate card payments, but public documentation doesn’t publish Net-30-specific DSO benchmarks. AI-powered dunning in dedicated AR systems adjusts follow-up timing and tone based on each customer’s payment history rather than sending the same reminder to everyone. Some BILL AP/AR users report missing features and payment issues on G2. Quick Summary Dedicated AR automation shows stronger evidence for chasing Net-30 invoices than Stripe Billing alone. Stripe is fastest when customers pay immediately through its hosted payment flow. Once invoice terms, bank transfers, remittance details, and delayed customer approvals enter the process, you’re managing the receivable, not just processing the payment.",
       "title": "AR Automation vs Stripe Billing: Which Chases Net-30 Invoices"
@@ -13,19 +33,9 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
-      "doc_id": "7bd28c3098938dd07e405f0fd72ba04bc27fbc8b2ca8931d07ab467089b097ef",
-      "first_seen_at": "2026-10-06T20:00:08.873417+00:00",
-      "published_at": "2026-10-01T04:38:43+00:00",
-      "source_kind": "html",
-      "summary": "Before we get into it, the short version: AR automation can reduce DSO by addressing internal delays such as missed follow-ups, manual invoice errors, and slow cash application that contribute to billing lag. Invoices aging beyond 90 days often carry higher write-off risk, and collection rates tend to decline once accounts cross that threshold. A meaningful share of late B2B payments can stem from manual invoicing errors such as wrong amounts, missing PO numbers, or outdated contact information. Automated dunning sequences can be configured to trigger reminders at set milestones—for example, a reminder at day 31, an escalation at day 61, and a hold at day 90—so accounts do not age passively. Real-time ERP integration can update aging buckets as payments arrive, which may allow collectors to prioritize high-value, high-risk accounts more automatically. Automation can be configured to address upstream breakdowns by routing disputed charges early and triggering risk-based credit holds before balances become uncollectible. In short: automation fixes what you control Accounts receivable automation can shorten the time between invoice and cash by reducing the internal delays you actually control: tracking overdue accounts, sequencing follow-up, matching payments. Public materials from AR automation vendors suggest some adopters report lower DSO and better cash visibility, though automation can’t make customers pay faster. It removes friction in your process. It doesn’t promise a dramatic collections improvement on its own.",
-      "title": "How AR Automation Clears Aging Buckets Without Adding Collections Staff"
-    },
-    {
-      "company_key": "yc-blixo",
-      "company_name": "Blixo",
       "doc_id": "89edd10483738c8407b5ca7a2e4260caea6ed882c9cfa2b05d9ae744236e06b7",
       "first_seen_at": "2026-10-06T20:00:08.873417+00:00",
-      "published_at": "2026-10-03T04:38:43+00:00",
+      "published_at": "2026-10-02T04:30:49+00:00",
       "source_kind": "html",
       "summary": "Key Takeaways AR automation can replace manual invoice creation, matching, reconciliation, and outreach. Manual collections may prioritize top aging accounts, leaving many overdue invoices unattended. Spreadsheet workflows cause cash‑application lag as exceptions need manual matching. Each day reduced DSO releases working capital for operations, payroll, growth. Automated dunning keeps follow‑up on schedule without analyst reminders. Spreadsheet AR weakens auditability as edits live outside controlled systems. AR automation lets staff spend less time on entry, more on exceptions. Quick Summary In short, AR automation replaces manual spreadsheet steps that slow cash flow. The case rests on faster collections, less work, fewer exceptions, clearer visibility.",
       "title": "AR Automation Software: 6 Signs Your Spreadsheet Workflow Costs You Cash"
@@ -35,7 +45,7 @@
       "company_name": "Blixo",
       "doc_id": "8b7eb49c7a5de87a443dede9eb7faaa77ad46ffba3314dc24429e4d70667b715",
       "first_seen_at": "2026-10-06T20:00:08.873417+00:00",
-      "published_at": "2026-10-06T04:38:43+00:00",
+      "published_at": "2026-10-05T04:30:49+00:00",
       "source_kind": "html",
       "summary": "Why Cash Application Jobs Matter Manual cash application now competes against systems that process more payments at lower cost and post in real time. The result is a shift from full-time transaction processing to exception review, which changes the hiring math for dedicated roles. In short: manual processing costs more per transaction; automated platforms process hundreds to thousands of payments daily at a fraction of manual cost; and AI-native matching engines now reach 95%+ auto-match rates versus 60–70% with legacy manual tools. Real-time posting also avoids the manual lag that inflates days sales outstanding even when customers pay on time.",
       "title": "Why cash application jobs are becoming obsolete"
@@ -45,7 +55,7 @@
       "company_name": "Blixo",
       "doc_id": "927200e23659ee2fd0d297e008ddf4258ce97303c5828da2602db49a3ed6d597",
       "first_seen_at": "2026-10-06T20:00:08.873417+00:00",
-      "published_at": "2026-10-02T04:38:43+00:00",
+      "published_at": "2026-10-01T04:30:49+00:00",
       "source_kind": "html",
       "summary": "The Short Version In short: manual invoicing and slow collection follow-up leak revenue you’ve already earned. Accounts receivable automation closes that gap by making invoice delivery timely and follow-up automatic, the two recovery steps manual systems most often miss. Businesses can lose measurable income to revenue leakage. Optimizing order-to-cash is often cited as a material earnings improvement, though the size of that improvement depends on billing model and process maturity. Leakage tends to concentrate in recurring billing errors, failed payment recovery, and manual AR follow-up, not early sales steps. The contract-to-invoice gap and manual dunning cycles are two of the biggest culprits. The KPIs that move first: days sales outstanding, revenue leakage percentage, and collection cost per invoice. Finance teams often spend substantial time each week on invoice processing, overdue payment tracking, and reconciliation before automation removes those repetitive tasks. Skip full-scale AR automation if you send a handful of simple invoices each month. The setup may not justify the payoff. For recurring, usage-based, or milestone billing, leakage compounds fast. Optimized O2C can also free working capital that would otherwise sit in unpaid receivables.",
       "title": "Order to Cash Automation for SaaS: Where Manual Invoicing Leaks Revenue"
@@ -55,7 +65,7 @@
       "company_name": "Blixo",
       "doc_id": "c28a081ab21e0ffeb2f3ed917b357dbfda80dca53c62dff30ea03a5f85e3b787",
       "first_seen_at": "2026-10-06T20:00:08.873417+00:00",
-      "published_at": "2026-10-04T04:38:43+00:00",
+      "published_at": "2026-10-03T04:30:49+00:00",
       "source_kind": "html",
       "summary": "Quick Answers ERP cash‑application tools often use invoice‑number matching. This fails with short‑pays or bundled invoices. Some AR teams see lower overdue receivables and faster capital release after AI‑driven automation, but results vary. Providers and finance teams report higher match rates with automated tools, though performance depends on remittance complexity. Automating follow‑up on tail accounts can turn neglected balances into recurring cash recovery. Manual remittance capture forces analysts to key data from emails and lockbox files, delaying posting and clouding forecasts. In short ERP cash application works when remittance data is clean and predictable. Real payments often include deductions, consolidated deposits, portal downloads, and scanned documents. Basic matching rules cannot handle these exceptions. A bolt‑on AR automation layer becomes worthwhile when exceptions consume analyst time, slow posting, and blur forecasts.",
       "title": "ERP Accounts Receivable Modules Miss Remittance Matching: Bolt On AR Automation"
