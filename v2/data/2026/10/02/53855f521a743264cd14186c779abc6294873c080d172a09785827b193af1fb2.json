@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "53855f521a743264cd14186c779abc6294873c080d172a09785827b193af1fb2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-validation-advisory/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-validation-advisory/",
+  "title": "Amazon OpenSearch Service introduces validation advisory for domain configuration changes",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Service introduces validation advisory for domain configuration changes",
+  "body_markdown": "Amazon OpenSearch Service now provides validation advisory for domain configuration changes, which helps you make informed decisions about changes that carry risk but can still be applied. Each configuration validation is now classified as either Critical, which blocks the change, or Warning, which gives advisory guidance that you can acknowledge before you proceed.\n\n\nPreviously, validation results were limited to pass or block. There was no way to flag changes that would succeed but carry risk. Validation advisory helps you find potential issues without blocking deployments. Examples include dedicated coordinator nodes that may be too small for the data node configuration, or a shard count that exceeds the recommended limit for the cluster. You can acknowledge warnings when you first submit a change, review severity in dry-run results before applying changes, set acknowledgments directly in AWS CloudFormation templates, and see severity in API responses and Amazon EventBridge notifications.\n\n\nValidation advisory supports all Amazon OpenSearch Service domains running either OpenSearch or Elasticsearch versions. It is available in all AWS Regions where Amazon OpenSearch Service is available. To learn more, see the[documentation](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-configuration-changes.html) .",
+  "published_at": "2026-10-02T09:35:00+00:00",
+  "first_seen_at": "2026-10-08T18:53:05.347969+00:00",
+  "content_hash": "sha256:f7f1a4a66f4e50289ccbf0de7ff95b309738bb1f912a8f040750335f21937a75"
+}

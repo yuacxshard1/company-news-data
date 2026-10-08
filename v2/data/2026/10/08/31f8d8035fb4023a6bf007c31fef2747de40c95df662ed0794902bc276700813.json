@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "31f8d8035fb4023a6bf007c31fef2747de40c95df662ed0794902bc276700813",
+  "company_key": "yc-interfere",
+  "company_name": "Interfere",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://interfere.com/changelog/mcp-cli-sdk",
+  "canonical_url": "https://interfere.com/changelog/mcp-cli-sdk",
+  "title": "Interfere MCP & CLI",
+  "summary": "Connect your agents to Interfere with the new MCP server, inspect problems from your terminal with the CLI, and build your own integrations with a typed SDK.",
+  "body_markdown": "Our new MCP server connects agents to your Interfere workspace. To start using it, add` https://mcp.interfere.com/mcp` to your client and sign in with your Interfere account.\n\n\nYour agent can then look up problems, sessions and releases, with the same permissions you already have. If you don’t want the agent to make changes, use the read-only endpoint at` /mcp/readonly` .\n\n\nWe’ve also created a plugin that bundles the MCP connection with an investigation skill, so you can ask your agent to investigate recent errors or find the sessions a problem affected.\n\n\nThe CLI gives you the same access from your terminal. Install it with` npm install -g @interfere/cli` and sign in. You can then run` interfere problems inspect` to see a problem’s details, timeline and findings in one place. Use` --format json` for scripts and CI.\n\n\nIf you’re building your own integration,` @interfere/javascript` is a typed client for the Interfere API.",
+  "published_at": "2026-10-08T18:26:55+00:00",
+  "first_seen_at": "2026-10-08T03:54:07.346182+00:00",
+  "content_hash": "sha256:95ef9b10db066d5efdd72ef129e7b5a8653fc0d1189adab20cfb5e702b6923f2"
+}

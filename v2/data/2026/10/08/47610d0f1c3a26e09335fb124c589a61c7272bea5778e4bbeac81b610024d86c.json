@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "47610d0f1c3a26e09335fb124c589a61c7272bea5778e4bbeac81b610024d86c",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/echo-weaver-time-loop-unity",
+  "canonical_url": "https://unity.com/blog/echo-weaver-time-loop-unity",
+  "title": "Echo Weaver: Building a time-loop metroidbrainia in Unity 6",
+  "summary": "Moonlight Kids explain how they built time-loop metroidbrainia Echo Weaver in Unity 6: chunk streaming, loop-reset architecture, and 2D optimization tips.",
+  "body_markdown": "## Parting advice for small teams\n\n\nClosing out the interview, we asked Chris and Ankit what tips they’d share with other developers looking to make games with Unity.\n\n\n“I’ll probably get roasted for this,” prefaces Ankit, “But conventional wisdom says don’t optimize early on. I don’t think that’s necessarily true. You can architect in a way that’s performant early on, and that can actually save you a lot of time later.”\n\n\nThe team implemented *Echo Weaver* ’s chunk-streaming system early in the project. Particles have been pooled from day one. Ankit always tries to be careful with C#’s convenience, because garbage collection pressure can build up quickly. “If you’re trying to ship a game, it *has* to be performant in the end. Why write yourself into a corner where that seems impossible? Making things performant *later* means giant breaking changes.”\n\n\nChris offered some advice about design and the importance of leaning on your studio’s creative identity. “Making a knowledge-gated game like this is hyper-dependent on the big picture,” he says. “We spent years iterating on pieces we could only finish once the whole project came together. A lot of this could have been scripted out early, film-style, while still leaving a lot of room for iteration.”\n\n\nBut the one thing he would do differently is to trust his gut and stick to making what’s familiar and feels right. “In hindsight, it was wrong of us to say, well, no one wanted *The Wild at Heart* , so we’ll do something totally different. What do the people want? No – play to your strengths, truly. We wasted a lot of time figuring out how to play to the market. Eventually we were just like, what are we doing? Do what you’re good at. Make the game you want to make.”\n\n\n**[Echo Weaver](https://store.steampowered.com/app/2184080/Echo_Weaver/) *launches today on Steam, PlayStation®5, Nintendo Switch™ 2, Nintendo Switch, and Xbox Series X|S. Explore more Made with Unity games on our[Steam Curator page](https://store.steampowered.com/curator/45049063-Made-With-Unity-Official/) , and check out more stories from Unity developers on the[Unity Blog](https://unity.com/blog) and[Resource Hub](https://unity.com/resources) .***\n\n\n***Nintendo Switch is a registered trademark of Nintendo.***",
+  "published_at": "2026-10-08T00:00:00+00:00",
+  "first_seen_at": "2026-10-08T18:59:10.626446+00:00",
+  "content_hash": "sha256:585927a72bdee113f2c3fcde3f9ae87fef70c0af272f88f8c64df7e173134819"
+}
