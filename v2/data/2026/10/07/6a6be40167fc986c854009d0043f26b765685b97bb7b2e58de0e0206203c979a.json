@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6a6be40167fc986c854009d0043f26b765685b97bb7b2e58de0e0206203c979a",
+  "company_key": "yc-sixtyfour",
+  "company_name": "Sixtyfour",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sixtyfour.ai/blog/how-to-run-an-osint-investigation",
+  "canonical_url": "https://www.sixtyfour.ai/blog/how-to-run-an-osint-investigation",
+  "title": "How to run an OSINT investigation",
+  "summary": "One case from the first question to the written report: how to scope it, pivot between identifiers, weigh each link, preserve the evidence and say how sure you…",
+  "body_markdown": "Write down a question you can answer and its scope, list the identifiers you hold, and pivot from each one while logging every search. Weigh each link by how rare the shared value is, corroborate findings from independent sources, date them, and preserve the pages they came from. Stop when the question is answered, and write each finding with a stated likelihood and the evidence behind it.\n\n\nPivoting is using one identifier to find the next: an email address leads to a username, the username to an old forum account, and that account to a phone number. Each pivot needs a check that the new record belongs to the same person, because names, usernames and phone numbers are shared and reused. Logging every pivot lets a colleague follow the same path and check it.\n\n\nPassive research reads what is already public without touching the subject: no messages, no follow requests, no password reset forms and no test logins. It makes it less likely that the subject learns someone is looking, and it keeps the evidence uncontaminated. The Berkeley Protocol on Digital Open Source Investigations treats information obtained by communicating with internet users as closed source rather than open source.\n\n\nFind the same fact in a second source that did not get it from the first, check when each source was created, and test the link by looking for evidence that would break it. Two pages repeating one claim, or one person typing the same phone number into two profiles, count as a single source.\n\n\nFor each page you rely on, record its URL, a full-page capture showing the date and time, and the page's source code, and compute a hash of each saved file so any later change can be detected. A copy in a public web archive helps too, but public copies are open to anyone with the address, so keep a private copy as well.\n\n\nUse a fixed set of likelihood words, say what range each one means, and give the evidence and assumptions behind every judgement. The US intelligence community's analytic standards, for example, tie \"likely\" to 55 to 80 percent and \"very likely\" to 80 to 95 percent, and keep statements of likelihood separate from statements of confidence.",
+  "published_at": "2026-10-07T00:00:00+00:00",
+  "first_seen_at": "2026-10-08T08:14:35.534200+00:00",
+  "content_hash": "sha256:dbd5440750ad5398185d9243e14175d526149a6029a244c1dd9b973ef29e1259"
+}
