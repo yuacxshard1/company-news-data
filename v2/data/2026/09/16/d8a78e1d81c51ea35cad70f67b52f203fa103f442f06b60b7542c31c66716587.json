@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d8a78e1d81c51ea35cad70f67b52f203fa103f442f06b60b7542c31c66716587",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/normalizing-trajectory-models",
+  "canonical_url": "https://machinelearning.apple.com/research/normalizing-trajectory-models",
+  "title": "Normalizing Trajectory Models",
+  "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is…",
+  "body_markdown": "[Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation](https://machinelearning.apple.com/research/trajectory-teacher-flow-matching)\n\n\nSeptember 16, 2026\n\n\n[research area Methods and Algorithms](https://machinelearning.apple.com/research/?domain=Methods%20and%20Algorithms) ,[research area Speech and Natural Language Processing](https://machinelearning.apple.com/research/?domain=Speech%20and%20Natural%20Language%20Processing)\n\n\nDiscrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step trajectory to train a student to reproduce the process in a few steps. When the student underperforms, the usual explanation is insufficient capacity. We argue the opposite: the trajectory is the bottleneck, not the student. Each training trajectory is built through a…\n\n\n[Read more](https://machinelearning.apple.com/research/trajectory-teacher-flow-matching)\n\n\n[Normalizing Flows with Iterative Denoising](https://machinelearning.apple.com/research/normalizing-flows-iterative-denoising)\n\n\nMay 6, 2026\n\n\n[research area Computer Vision](https://machinelearning.apple.com/research/?domain=Computer%20Vision) ,[research area Methods and Algorithms](https://machinelearning.apple.com/research/?domain=Methods%20and%20Algorithms)\n\n\n[conference ICML](https://machinelearning.apple.com/research/?event=ICML)\n\n\nNormalizing Flows (NFs) are a classical family of likelihood-based methods that have received revived attention. Recent efforts such as TARFlow have shown that NFs are capable of achieving promising performance on image modeling tasks, making them viable alternatives to other methods such as diffusion models. In this work, we further advance the state of Normalizing Flow generative models by introducing iterative TARFlow (iTARFlow). Unlike…\n\n\n[Read more](https://machinelearning.apple.com/research/normalizing-flows-iterative-denoising)",
+  "published_at": "2026-09-16T00:00:00+00:00",
+  "first_seen_at": "2026-10-09T01:22:40.470114+00:00",
+  "content_hash": "sha256:f0906a61d9894e9db039b37a980c47853e64eb355e3870efb9f0202e83067686"
+}
