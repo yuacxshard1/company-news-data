@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "85b96e18688a776b5fdf95deb38b2782047e63f20bbdb2378926cd395a491403",
+  "company_key": "yc-whalesync",
+  "company_name": "Whalesync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.whalesync.com/blog/sync-status-in-your-wordpress-dashboard",
+  "canonical_url": "https://www.whalesync.com/blog/sync-status-in-your-wordpress-dashboard",
+  "title": "Sync Status in Your WordPress Dashboard",
+  "summary": "Whalesync Status is a small WordPress plugin that shows each post’s sync status in WP admin and adds a Sync now button to the edit screen.",
+  "body_markdown": "We made a small WordPress plugin. It’s called[Whalesync Status](https://wordpress.org/plugins/whalesync/) , and it’s in the WordPress plugin directory today.\n\n\nOur[WordPress connector](https://www.whalesync.com/connector/wordpress) syncs your posts and pages with Airtable, Notion, Google Sheets and the rest without anything installed on your site. The plugin isn't a required part of syncing with Whalesync, but it makes the experience a bit nicer. It lets your whole team see what the sync has been up to inside your dashboard, without opening Whalesync.\n\n\n## **What it adds**\n\n\n- **A status column** in your posts list, so each synced post says what last happened to it: “Updated from Airtable · 5 minutes ago”. Pages and custom post types get it too, if your sync maps them.\n- **A banner on the edit screen** , so whoever opens a post knows it’s being synced by Whalesync, with a **Sync now** button for when you don’t want to wait.\n- **A sync overview** under Settings → Whalesync Status, with any issues or pending deletes that need someone to look at them.\n\n\nThe Whalesync status column in the posts list\n\n\n## **Getting set up**\n\n\n1. In WP admin, go to Plugins → Add New, search for “Whalesync”, and install and activate it.\n2. Open Settings → Whalesync Status and click **Connect with Whalesync** .\n3. Sign in, pick your sync, and approve.\n\n\nIt’s version 1.0 and pretty small on purpose. If you find it useful or there’s something more you’d like it to show,[let us know](https://docs.whalesync.com/resources/support) . See the[plugin’s docs](https://docs.whalesync.com/connectors/wordpress.org/whalesync-status-plugin) for the full details.",
+  "published_at": "2026-10-08T00:00:00+00:00",
+  "first_seen_at": "2026-10-09T06:27:52.326813+00:00",
+  "content_hash": "sha256:d853f8cfe4cf0088dc5cf1741b5edf0c6f6f9c0fa43bfc05799d2890cbd38d29"
+}

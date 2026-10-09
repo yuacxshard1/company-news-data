@@ -9,6 +9,56 @@
       "source_kind": "rss",
       "summary": "A mortgage payment credited a day late, or a partial payment parked in suspense that triggers a delinquency, or a late fee charged on an unpaid late fee, each violates Regulation Z's payment-handling rules and each is the kind of error an automated cashiering flow produces at scale. Where an AI servicing agent applies payments under 12 CFR 1026.36(c), how suspense is supposed to work, and the date-stamp decision that prevents a phantom late fee.",
       "title": "Crediting the Payment on the Day It Arrives: Partial Payments, Suspense, and the Late Fee an AI Servicing Agent Must Never Create"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "718f05258d84418f3c02f810359749e92f9ee7bd266b1417e89dcd5b644cb407",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-03T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The industry still measures time to close in the mid-forties of days, and very little of that is work. It is a loan sitting in a queue between two people who are each busy with a different file. A production leader's map of where the dead time hides, which regulatory clocks keep running while the loan waits, and which gaps an AI agent closes without touching a decision anyone is accountable for.",
+      "title": "A Mortgage Takes Forty-Odd Days and Spends Most of Them Waiting: Where the Time Actually Goes, and the Days an AI Agent Gives Back"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "8dbb6895ea19ce3123f14539adad60bde30729ef1fe3271b86aed368fef39b66",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A copilot's ceiling is the number of hours your staff spend asking it things, which is exactly the resource a mortgage operation is short of. The work that actually clogs a loan runs for days and nobody is sitting there prompting it. What changes when an agent holds the goal instead of answering a question, and the specific controls that keep an autonomous agent inside a boundary an examiner will accept, under SR 11-7 and ECOA.",
+      "title": "A Copilot Waits to Be Asked: Why the Manual Middle of a Mortgage Needs an Agent That Holds the Goal, and How You Bound What It Does"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "9dcc45cc25de92aa774c893838ea569fef6e311a1ed68aaed56e813f6463c7ce",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Every mortgage AI pitch leads with an automation rate, and it is the one number that can be high while the deployment is failing. A straight-through rate rises when you lower the confidence floor, which is also how confident errors start reaching the loan. The four measurements we actually hold a mortgage deployment to, why the exception rate matters more than the automation rate, and how SR 11-7 and the NIST AI RMF turn these from a dashboard into a control.",
+      "title": "The Metric That Lies: Why Automation Rate Is the Wrong Number to Lead With, and the Four We Report Instead"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "cbb9cb998e738078456bfc315d2df525697f837cb38359922605f7353fd02fc8",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A lender buys the best extraction tool, the best income tool, the best QC tool, and ends up with eight copies of the same loan that have to be reconciled by hand and an audit trail scattered across eight vendors. The hidden cost is not the license fees. It is the integration tax, the HMDA data-integrity exposure when the systems disagree, and the fair-lending record you cannot assemble because no single system holds the decision. Why shared state beats best-of-breed in a regulated process.",
+      "title": "Eight AI Tools, Eight Copies of the Loan: The Reconciliation Work and the Fractured Audit Trail Nobody Priced Into the Stack"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "efbb3539db070dd418bf45f92bc03865f62cbf96ac23e428bcb5bd51df0cab08",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The bulk of a servicing call center's volume is a handful of repeatable questions: my payment, my escrow, my payoff, my statement, my options. They are automatable, and each one has a trapdoor, because a casual answer can misstate what a borrower owes or walk past a sentence that was legally a notice of error. How we let an AI agent handle the repeatable volume while recognizing the moment a question becomes an obligation with a clock.",
+      "title": "Most Servicing Calls Are the Same Five Questions: Answering Them With an AI Agent Without Turning an Answer Into a Reg X Notice or a UDAAP Problem"
     }
   ],
   "company_key": "yc-sei",
