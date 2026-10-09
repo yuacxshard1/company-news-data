@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e013ddc0dd5eaba5a3a272b0f41e3bb0a591df4d1d670c19a0560350da9a2dca",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
+  "title": "Amazon GuardDuty RDS Protection now detects data exfiltration and destruction in Aurora and RDS databases",
+  "summary": "Discover more about what's new at AWS with Amazon GuardDuty RDS Protection now detects data exfiltration and destruction in Aurora and RDS databases",
+  "body_markdown": "Amazon GuardDuty announces an expansion of RDS Protection that extends threat detection beyond login anomalies to identify data exfiltration and data destruction attacks targeting Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL databases. Available as RDS Protection for data activity, this new capability uses machine learning (ML)-based anomaly detection and integrated threat intelligence to continuously monitor database query patterns, helping you detect unusual data activity without requiring any agents, additional infrastructure, or database configuration changes.\n\n\nAs attackers increasingly target databases to exfiltrate or destroy critical data after obtaining valid credentials through phishing, social engineering, or misconfiguration, their malicious database activity can appear indistinguishable from legitimate application behavior. RDS Protection for data activity establishes behavioral baselines for normal query patterns enabling GuardDuty to detect threats that traditional tools miss.\n\n\nYou can enable GuardDuty RDS Protection for data activity as an add-on to RDS Protection for login activity. With a single click, they can enable it for their entire organization in the GuardDuty console, or programmatically via APIs, SDKs, CLI, or AWS CloudFormation. A 30-day free trial is available per account per Region.\n\n\nThis feature is available today in all AWS commercial Regions and AWS GovCloud (US) Regions, where Amazon GuardDuty RDS Protection is offered with support for Aurora PostgreSQL and Amazon RDS for PostgreSQL. For supported versions visit GuardDuty RDS Protection[documentation](https://docs.aws.amazon.com/guardduty/latest/ug/rds-protection.html#rds-pro-supported-db) .\n\n\nTo learn more and start your free trial, visit the[Amazon GuardDuty product page](https://aws.amazon.com/guardduty) .",
+  "published_at": "2026-10-08T08:00:00+00:00",
+  "first_seen_at": "2026-10-09T18:23:16.358467+00:00",
+  "content_hash": "sha256:fd8c00b8311aeb6eebff5029c4fd0fa1226ea2259df7148ee12b3f9f0222d8b5"
+}

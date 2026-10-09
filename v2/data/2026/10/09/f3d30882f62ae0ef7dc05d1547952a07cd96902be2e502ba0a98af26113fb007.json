@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f3d30882f62ae0ef7dc05d1547952a07cd96902be2e502ba0a98af26113fb007",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
+  "title": "Amazon S3 Vectors metadata pre-filtering is now available in AWS GovCloud (US) Regions",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Vectors metadata pre-filtering is now available in AWS GovCloud (US) Regions",
+  "body_markdown": "Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for filtering on values like paths and URLs. Together, these improvements give your retrieval-augmented generation (RAG), agentic, and semantic-search applications more complete results when you filter, so your applications return more relevant answers.\n\n\nS3 Vectors provides native support to store and query vectors in Amazon S3, delivering purpose-built, cost-optimized vector storage and query at billion-vector scale. With this launch, indexes in new vector buckets in the AWS GovCloud (US) Regions use metadata pre-filtering by default, with no change to how you write vectors with PutVectors or run filtered queries with QueryVectors. To use pre-filtering on an existing index, update it in place with the UpdateIndexMode API. You can also compare pre-filtering against your current filtering on the same index, using a per-query parameter on QueryVectors, before you update.\n\n\nMetadata pre-filtering is available at no additional cost in all commercial AWS Regions where Amazon S3 Vectors is available, and in the AWS China Regions. We are in the process of deploying this change and plan to complete the deployment in the coming days. To get started, use the AWS CLI, AWS SDKs, or the Amazon S3 console. To learn more, visit the Amazon S3 Vectors[documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-metadata-filtering.html) and the[AWS News blog](https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches) .",
+  "published_at": "2026-10-09T17:00:00+00:00",
+  "first_seen_at": "2026-10-09T18:23:16.358467+00:00",
+  "content_hash": "sha256:9ec70514b917ce9c5461ca6cd3c5142b05cf0dfd1b8d399fed167d64bd719f7f"
+}
