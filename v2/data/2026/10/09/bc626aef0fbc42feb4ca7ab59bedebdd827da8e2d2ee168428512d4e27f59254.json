@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bc626aef0fbc42feb4ca7ab59bedebdd827da8e2d2ee168428512d4e27f59254",
+  "company_key": "yc-taskade",
+  "company_name": "Taskade",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.taskade.com/blog/history-of-shopify",
+  "canonical_url": "https://www.taskade.com/blog/history-of-shopify",
+  "title": "History of Shopify: From a Snowboard Shop to Agentic Commerce, and How Tobi Lütke Runs It (2026)",
+  "summary": "The complete history of Shopify from Snowdevil in 2004 to $378B in GMV, River and agentic commerce in 2026, plus the Tobi Lütke playbook other histories skip.",
+  "body_markdown": "```text\nTHE AQUIFER PATTERN (Shopify's agent platform, as published)   ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐  │ SESSION           │    │ HARNESS           │    │ SANDBOX           │  │ durable identity  │◄──►│ the agent loop:   │───►│ where code runs:  │  │ append-only log   │    │ read history,     │    │ filesystem, shell │  │ lives in Postgres │    │ call the model,   │    │ repo, build, test │  │                   │    │ emit tool intents │    │                   │  │ MUST SURVIVE      │    │ cheap, disposable │    │ disposable        │  └───────────────────┘    └───────────────────┘    └───────────────────┘\n\"Decouple the brain from the hands.\"  Safety          the loop sits outside the rm -rf blast radius  Replaceability  swap models without touching the sandbox  Observability   every decision flows through one place\nRiver = one profile: prompt + skills + sandbox policy + model defaults.  PR review, research and migration agents = more profiles, not platforms.\n```",
+  "published_at": "2026-10-09T14:00:00+00:00",
+  "first_seen_at": "2026-10-09T17:45:11.465861+00:00",
+  "content_hash": "sha256:fb65f2aa2a65568dfd7541d8823bc2c8bf4f492f35865e19d124a29a0d5b4420"
+}
