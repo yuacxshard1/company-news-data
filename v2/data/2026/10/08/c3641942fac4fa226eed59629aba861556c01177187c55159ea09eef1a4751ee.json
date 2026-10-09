@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c3641942fac4fa226eed59629aba861556c01177187c55159ea09eef1a4751ee",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/build-iphone-duo-camera-apps",
+  "canonical_url": "https://bitrig.com/blog/build-iphone-duo-camera-apps",
+  "title": "Build iPhone Duo Camera Apps for Both Displays",
+  "summary": "Bitrig can now stream your Mac’s camera into its 3D simulator, so you can build iPhone Duo apps that use both displays and see them from either side.",
+  "body_markdown": "One of the most common questions at our[iPhone Duo hackathon](https://events.ycombinator.com/bitrig-hacks-september2026) was how to build apps that use both displays at once.\n\n\nApple’s answer is[CameraCaptureAccessory](https://developer.apple.com/documentation/swiftui/cameracaptureaccessory) , which shows content on the outer display while the camera is running. But Xcode’s simulator doesn’t have a camera, and it can’t even show you the outer display when iPhone Duo is unfolded. So without an iPhone Duo in hand, there isn’t a good way to build one.\n\n\nToday, that changes:\n\n\n**Bitrig can now stream your Mac’s camera into its 3D simulator, so you can build iPhone Duo apps that use both displays and see them from either side.**\n\n\nThat means:\n\n\n-\n\n\n**Your Mac’s camera.** Your app sees what your Mac’s camera sees, or your iPhone’s with[Continuity Camera](https://support.apple.com/en-us/102546) , so you can take photos and record video with the front or back camera, just as you would on iPhone.\n\n\n-\n\n\n**Both displays at once.** Start the camera with your app full screen on the inner display, and your CameraCaptureAccessory appears on the outer one.\n\n\n-\n\n\n**Open and flip.** Unfold the 3D simulator all the way, then spin it around to see the outer display from the side of the person you’re pointing the camera at.\n\n\n-\n\n\n**Prerecorded video.** Stream a video you’ve already captured in place of your Mac’s camera, so you can test against the same shot every time instead of setting it up again.\n\n\nYour app talks to the camera through Apple’s standard[AVFoundation](https://developer.apple.com/documentation/avfoundation/capture-setup) APIs. There’s no SDK to add and no simulator-only code to write. It turns on automatically for any app that asks for camera access. And it isn’t just for Duo. The camera works in every iPhone and iPad simulator.\n\n\nWhen your iPhone Duo arrives, run your app on it with one click.\n\n\nUntil then, Bitrig makes camera apps much easier to test in the simulator, and apps that use both of iPhone Duo’s displays possible to test for the first time.\n\n\nSo open Bitrig, unfold the simulator, turn on the camera, and give it a spin.",
+  "published_at": "2026-10-08T00:00:00+00:00",
+  "first_seen_at": "2026-10-09T08:07:45.354104+00:00",
+  "content_hash": "sha256:481217c9d7eca7ecca37e4da86176b219d53de64f24bb2316153db574c38d716"
+}
