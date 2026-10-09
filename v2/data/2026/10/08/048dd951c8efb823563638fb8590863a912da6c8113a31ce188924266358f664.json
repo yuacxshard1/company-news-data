@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "048dd951c8efb823563638fb8590863a912da6c8113a31ce188924266358f664",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
+  "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
+  "body_markdown": "[Amazon Relational Database Service (Amazon RDS) for Oracle](https://aws.amazon.com/rds/oracle/) now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for Oracle now also emits a new event during patching that tells you when your DB instance is accepting connections again. With this event, you can bring your applications back while the remaining maintenance tasks are still in progress, which can reduce your application downtime during patching.\n\n\nAt the start of every minor version upgrade, RDS for Oracle checks for conditions that would prevent the upgrade from completing, such as insufficient free storage, invalid Oracle-maintained objects, or invalid triggers. If a check finds a problem, the upgrade stops, and you must fix the problem and schedule the upgrade again. Previously, these checks ran only as part of the upgrade itself. With the new rdsadmin.rdsadmin_precheck_tasks.precheck_minor_upgrade procedure, you can run the checks at any time. The precheck is read-only and doesn't affect your workload. It reports every issue it finds in a single log so you can fix them and run the precheck again until it passes before your maintenance window.\n\n\nDuring a minor version upgrade or an operating system update, RDS for Oracle now emits RDS-EVENT-0596 as soon as your DB instance is accepting connections. Any remaining maintenance tasks then complete while your database is online. You can subscribe to this event through Amazon RDS event notifications or Amazon EventBridge to automate application reconnection or notify your teams that the database is back online.\n\n\nThese capabilities are available in all AWS commercial and AWS GovCloud (US) Regions where Amazon RDS for Oracle is available. To learn more, see[Running minor version upgrade prechecks in Amazon RDS for Oracle](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Precheck.html) ,[Amazon RDS event categories and event messages](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Events.Messages.html) , and[Monitoring Amazon RDS events](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/working-with-events.html) in the Amazon RDS User Guide.",
+  "published_at": "2026-10-08T18:00:00+00:00",
+  "first_seen_at": "2026-10-09T03:28:44.333274+00:00",
+  "content_hash": "sha256:93694c466f991218efe82632c8a35fe462c6eac11e556889c2044fdbb950706d"
+}

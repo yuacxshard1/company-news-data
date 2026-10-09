@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bd00358f30149ee32450027910afd0502f7c667fbf3b4bfc992131eb40e1ad06",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability",
+  "title": "Amazon GameLift Servers adds CPU burstability for container fleets",
+  "summary": "Discover more about what's new at AWS with Amazon GameLift Servers adds CPU burstability for container fleets",
+  "body_markdown": "Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously, container fleets relied on a fixed CPU value that simultaneously controlled both container packing density and imposed a hard runtime cap. This dual constraint forced developers to choose between efficient resource utilization and maintaining performance headroom for their game server workloads.\n\n\nGame server workloads are inherently bursty, CPU demand stays low during most of a match but spikes sharply during physics calculations, AI processing, or collision detection. With CPU burstability, developers can now pack containers based on typical CPU needs while still allowing game server processes to burst into available idle instance CPU during peak demand moments. This opt-in feature is configured per container group definition, supports high-density deployments without sacrificing peak performance, and is included at no additional cost as part of standard container fleet pricing.\n\n\nCPU burstability for Amazon GameLift Servers container fleets is available in all AWS Regions where container fleets are supported, excluding China Regions.\n\n\nTo learn more about CPU burstability for Amazon GameLift Servers container fleets, visit the[Amazon GameLift Servers Developer Guide](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/release-notes.html) or explore the[Amazon GameLift Servers product page](https://aws.amazon.com/gamelift/servers/) .",
+  "published_at": "2026-10-08T08:00:00+00:00",
+  "first_seen_at": "2026-10-09T03:28:44.333274+00:00",
+  "content_hash": "sha256:5c44245819ead84564b5492655f53a41613cc0f4d51475bc29cea5c82118d823"
+}

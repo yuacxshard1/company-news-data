@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "271f2cdd5239ed59cde6ae32ba0cfbd4ec6d799194442090298421110bf56ddb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
+  "title": "AWS Network Firewall adds wildcard support for container attribute filters",
+  "summary": "Discover more about what's new at AWS with AWS Network Firewall adds wildcard support for container attribute filters",
+  "body_markdown": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS). This enhancement allows you to define attribute filters using wildcard patterns to match multiple container workloads in a single rule, eliminating the need to create individual container associations for each variant.\n\n\nWith wildcard support, you can use patterns like app=payments-* to automatically cover all variants of an application, such as payments-api, payments-worker, and payments-cron. This simplifies firewall rule management for dynamic container environments where new application variants are frequently deployed, reducing operational overhead and ensuring consistent security coverage across your containerized workloads.\n\n\nWildcard support for container attribute filters is available in all AWS Regions where AWS Network Firewall container attribute-based inspection is supported. For a full list of supported Regions, see the[AWS Region Table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .\n\n\nTo get started, visit AWS Network Firewall[product page](https://aws.amazon.com/network-firewall/) and service[documentation](https://docs.aws.amazon.com/network-firewall/latest/developerguide/container-associations.html) .",
+  "published_at": "2026-10-08T16:00:00+00:00",
+  "first_seen_at": "2026-10-09T03:28:44.333274+00:00",
+  "content_hash": "sha256:05642624b9416c5e406d69486e49b142f57c9083ecde1cc277adc427b488051f"
+}
