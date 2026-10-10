@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dfc4757722dc23a8a93c5ee61bc0c1a705435c740dfba898ae414ae7e9b4cceb",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/microsoft-365-copilot",
+  "canonical_url": "https://docs.litellm.ai/blog/microsoft-365-copilot",
+  "title": "Introducing Microsoft 365 Copilot in LiteLLM",
+  "summary": "Use Microsoft 365 Copilot from your applications through LiteLLM, with access to your Microsoft 365 work data.",
+  "body_markdown": "**Microsoft 365 Copilot is now a provider in LiteLLM.** Use it from your applications to ask questions about your Microsoft 365 work data.\n\n\nUsers sign in with their Microsoft work account and ask questions like “Summarize my latest meeting.” Copilot answers using the data they already have permission to access.\n\n\nConnect applications that support Microsoft Entra SSO and forward each user's access token. Each user needs a Microsoft 365 Copilot license, and LiteLLM requires enterprise JWT authentication.\n\n\nAdmins can set[custom pricing](https://docs.litellm.ai/docs/proxy/custom_pricing#override-model-cost-map) to track usage costs.\n\n\n[Set up Microsoft 365 Copilot →](https://docs.litellm.ai/docs/providers/microsoft_365_copilot)",
+  "published_at": "2026-10-09T12:00:00+00:00",
+  "first_seen_at": "2026-10-10T06:06:09.317071+00:00",
+  "content_hash": "sha256:7cf99face3d07bc57d48db5fe268f2a9e19991b3dfcb04595a741814384fb344"
+}
