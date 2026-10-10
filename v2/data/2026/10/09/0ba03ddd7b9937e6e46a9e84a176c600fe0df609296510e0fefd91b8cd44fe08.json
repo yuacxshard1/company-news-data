@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0ba03ddd7b9937e6e46a9e84a176c600fe0df609296510e0fefd91b8cd44fe08",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
+  "title": "AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
+  "summary": "Discover more about what's new at AWS with AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
+  "body_markdown": "AWS Lambda now supports OAuth authentication for[self-managed Apache Kafka event source mappings](https://docs.aws.amazon.com/lambda/latest/dg/with-kafka.html) (ESM), including Kafka clusters that customers run themselves and managed offerings such as Confluent Cloud, Aiven, and Redpanda. With this launch, customers can authenticate their Lambda Kafka consumers through their enterprise identity provider, helping them meet the security and compliance requirements for their Kafka applications.\n\n\nCustomers building event-driven Kafka workloads for use cases such as payment processing, fraud detection, and real-time data pipelines use Kafka ESM to build serverless Kafka consumers. Kafka ESM provides automatic scaling, error handling, batching, and event filtering. Previously, Kafka ESM supported only SASL/PLAIN, SASL/SCRAM, and mutual TLS (mTLS) as[authentication methods](https://docs.aws.amazon.com/lambda/latest/dg/kafka-cluster-auth.html) , so customers in regulated industries that require OAuth could not use Kafka ESM with their clusters. With OAuth support, customers can use their enterprise identity provider, such as[Amazon Cognito](https://aws.amazon.com/cognito/) or Okta, to authenticate their Kafka ESM and apply the same identity governance and access policies across their Kafka clusters and Lambda consumers.\n\n\nThis capability is available in all[AWS commercial Regions](https://builder.aws.com/build/capabilities) where self-managed Kafka ESM is available. To use OAuth authentication, create a new Kafka ESM with your authentication configuration through the AWS Management Console, Lambda API, AWS CLI, AWS CloudFormation, or AWS SAM. To learn more, see the[AWS Lambda developer guide](https://docs.aws.amazon.com/lambda/latest/dg/with-kafka.html) and[AWS Lambda pricing](https://aws.amazon.com/lambda/pricing/) .",
+  "published_at": "2026-10-09T16:30:00+00:00",
+  "first_seen_at": "2026-10-09T22:51:13.310350+00:00",
+  "content_hash": "sha256:c0ec9999f24af8030ddbb8334285a36dedc1f76657466ce13569b9ca82affbba"
+}

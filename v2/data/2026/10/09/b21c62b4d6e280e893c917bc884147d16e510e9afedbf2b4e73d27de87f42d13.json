@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b21c62b4d6e280e893c917bc884147d16e510e9afedbf2b4e73d27de87f42d13",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+  "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock now supports reasoning summaries for OpenAI models",
+  "body_markdown": "Amazon Bedrock now supports the reasoning.summary parameter for OpenAI models through the Responses API. This capability lets you request a human-readable summary of a model’s reasoning alongside its response, helping you understand its approach to complex tasks such as coding, analysis, and multi-step problem solving.\n\n\nReasoning summaries give developers additional context for evaluating responses, debugging applications, and showing users how a model approached a request. The summary is returned in the summary array of the reasoning output item, alongside the model’s answer.\n\n\nThis capability is available for all OpenAI models on Amazon Bedrock in all AWS Regions where OpenAI GPT models are available, including in-Region inference, geographic (GEO) cross-Region inference, and global cross-Region inference.\n\n\nTo learn more, see the OpenAI documentation on r[easoning summaries](https://developers.openai.com/api/docs/guides/reasoning#reasoning-summaries) . To get started with OpenAI GPT models on Amazon Bedrock, see documentation[here](https://docs.aws.amazon.com/bedrock/latest/userguide/getting-started.html) .",
+  "published_at": "2026-10-09T17:44:00+00:00",
+  "first_seen_at": "2026-10-09T22:51:13.310350+00:00",
+  "content_hash": "sha256:bf61c7b5e9f7e14f5431ad097e55ec53ab7e0a3c5ce7af2fc477c7bfb10964b1"
+}
