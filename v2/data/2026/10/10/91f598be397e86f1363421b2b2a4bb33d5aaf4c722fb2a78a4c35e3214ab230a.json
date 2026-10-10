@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "91f598be397e86f1363421b2b2a4bb33d5aaf4c722fb2a78a4c35e3214ab230a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gpt-61-sol-pricing-performance-and-how-to-route-requests",
+  "canonical_url": "https://www.activepieces.com/blog/gpt-61-sol-pricing-performance-and-how-to-route-requests",
+  "title": "GPT-6.1 Sol Speed: Pricing, Performance, and Routing",
+  "summary": "GPT-6.1 Sol provides logic-heavy processing for enterprise systems. You can determine if this model improves your current automated workflows.",
+  "body_markdown": "## How to interpret automation test results\n\n\nBy utilizing extended reasoning cycles that verify outputs before they reach your API consumer, GPT-6.1 Sol is built to produce verified, consistent outputs.\n\n\nWhile speed-focused models like GPT-6 Luna or[Claude Haiku 5.5](https://docs.claude.com/en/docs/about-claude/models/overview) prioritize immediate response, they often pass malformed data to your downstream systems, shifting the burden of error handling to you.\n\n\n1.0s is the median latency in seconds for GPT-5.4-mini compared to 2.1s for GPT-6.1 Sol, according to Internal Test Results. The cost per task for GPT-5.4-mini is $0.000142 versus $0.000509 for GPT-6.1 Sol, indicating that the newer model prioritizes reliability over speed and affordability.\n\n\nConsequently, you can deploy this model for high-stakes logic.\n\n\nA 110% increase in latency and a 258% increase in cost per task are required by GPT-6.1 Sol. This represents a deliberate trade-off where you spend compute resources on internal verification rather than raw throughput. You must accept slower performance.\n\n\n> Consequently, you can deploy this model for high-stakes logic.\n\n\n### Task 1: Complex data extraction from messy transcripts\n\n\nOn the[AutomationBench AA-1.0](https://atlas.kevinhu.io/benchmarks/automationbench-aa-1-0-6) index, GPT-6.1 Sol achieved a score of 66.6, outperforming the 61.7 score of GPT-6 Sol. This improvement in specialized automation tasks means the model is less likely to hallucinate fields when it's processing unstructured text.\n\n\nOn 2026-10-03, we verified these results via invoice extraction and email summarization tasks on[OpenRouter](https://openrouter.ai/openai/gpt-6.1-sol) .\n\n\nIn our tests, GPT-5.4-mini and GPT-6.1 Sol both scored **3 of 3 correct** across the same set of tasks, though GPT-6.1 Sol took longer and cost more per task, which meant either model was suitable for automated data pipelines at the time.\n\n\n### Task 2: Multi-path logic branching accuracy\n\n\nConditional logic remains consistent even as the number of variables increases due to the reasoning capabilities of GPT-6.1 Sol. Sorting a support ticket into the correct priority queue is one such example.\n\n\nWhile[Claude Fable 5.1](https://docs.claude.com/en/docs/about-claude/models/overview) is the primary alternative for long-horizon agentic work, GPT-6.1 Sol offers a middle ground for your discrete multi-step automations.\n\n\nThe model correctly identified the \"High Priority\" path in 100% of our test cases because it reasons before answering.",
+  "published_at": "2026-10-10T13:21:34+00:00",
+  "first_seen_at": "2026-10-08T18:49:02.017417+00:00",
+  "content_hash": "sha256:1ff6d7bfdfbbe38133c047c43535e9971600ead31370355f95258f36cbb95f1e"
+}
