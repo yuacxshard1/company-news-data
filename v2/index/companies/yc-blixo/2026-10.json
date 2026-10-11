@@ -5,7 +5,7 @@
       "company_name": "Blixo",
       "doc_id": "0b14e42c7916983254e1824462bd950550cc33d059067edccbb056b74a1503eb",
       "first_seen_at": "2026-10-09T22:12:02.896754+00:00",
-      "published_at": "2026-10-08T04:27:25+00:00",
+      "published_at": "2026-10-07T04:29:35+00:00",
       "source_kind": "html",
       "summary": "The Short Version Manual collection calls lock AR teams into reactive mode: you chase whoever made it to the top of today’s call queue, not the accounts that matter most. Automation turns customer outreach from post-mortem dunning into continuous communication that starts before invoices go late. Manual follow-up makes cash forecasting a guess; automated workflows create the audit trail phone logs never could. For subscription businesses, catching failed payments before cancellation saves both AR hours and the customer-success time you’d otherwise burn on winback.",
       "title": "AR Automation ROI: Calculate Hours Saved When Collections Run Without Phone Calls"
@@ -15,7 +15,7 @@
       "company_name": "Blixo",
       "doc_id": "21f59c921a1c9480d1382212f2e0a7c5f492b017402f1ceea7b0f0af5dde5f55",
       "first_seen_at": "2026-10-08T16:20:20.472975+00:00",
-      "published_at": "2026-10-06T04:27:25+00:00",
+      "published_at": "2026-10-05T04:29:35+00:00",
       "source_kind": "html",
       "summary": "In short: Partial payments and short-pay disputes still trip up AR automation. You route them to manual review because the system cannot decode intent—what the customer meant to pay, which invoices they covered, and why the amount fell short. AI-enhanced cash application helps by reading remittance advice and tracing promotional agreements before applying cash. Many deductions your team investigates are valid but undocumented customer actions your billing process missed, so the ROI comes from upstream data cleanup. Short payments force finance into multi-touch investigations that extend DSO and trap working capital in unresolved exception queues.",
       "title": "Why Most AR Automation Fails at Partial Payments and Short-Pay Disputes"
@@ -23,9 +23,19 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "23231b6d678d9e5570f22e5ad34628848e818800e0233e157e1312c258f8ba88",
+      "first_seen_at": "2026-10-11T03:40:39.852425+00:00",
+      "published_at": "2026-10-09T04:29:35+00:00",
+      "source_kind": "html",
+      "summary": "In short: AR automation handles structured work well: clean invoices, obvious matches, scheduled reminders. The part that moves DSO lives elsewhere — the short payment with no explanation, the wire covering twenty invoices with a vague reference, the remittance that arrives as a scanned PDF three days later. Public materials suggest most AR platforms route these cases to a manual queue, so you automate the easy part and staff the expensive exceptions.",
+      "title": "Accounts Receivable Automation: Three Jobs Replaced, But Most Vendors Skip Cash Matching"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "3190040e01d4d7543942c48b0bcf6348470ecf303456921263b93d61c90ba102",
       "first_seen_at": "2026-10-08T01:13:35.036552+00:00",
-      "published_at": "2026-10-04T04:27:25+00:00",
+      "published_at": "2026-10-03T04:29:35+00:00",
       "source_kind": "html",
       "summary": "In short: Remittance data often arrives hours or days after payment. It can sit in bank files, email inboxes, and customer portals. Your AR team then spends time matching transactions to invoices manually. AI-powered remittance parsing reads seven formats—ACH addenda, SEPA instructions, EDI 820, PDF advice, email attachments, check memos, portal downloads—and matches payments automatically. Extraction and matching are separate failure points. AI may read a document correctly, yet cash still fails to post straight-through if fuzzy matching cannot map that payment to the right invoices. Most ERPs struggle with multi-invoice payments, short pays, and missing references. Straight-through processing depends on whether your platform handles customers’ formats and matching edge cases.",
       "title": "AR Automation Checklist: Does the Platform Parse Your Remittance Formats or Force Manual Matching?"
@@ -33,9 +43,19 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "44f6d4ad33558a3ddf03b287b4faf66fb9acd591ac554c055f85ab4b854f8ca0",
+      "first_seen_at": "2026-10-11T03:40:39.852425+00:00",
+      "published_at": "2026-10-10T04:29:35+00:00",
+      "source_kind": "html",
+      "summary": "In short: Most ERPs record transactions but don’t manage collections workflows or reconcile messy payment scenarios in real time. That architectural gap creates status conflicts: an invoice shows closed in your collections platform while the ERP still ages it as unpaid. Your team makes credit decisions on stale data, customers get dunned for balances they already paid, and nobody trusts the automation anymore. Purpose-built AR platforms fix this by syncing payment status bidirectionally so collections workflows run on actual cash application data, not yesterday’s batch export.",
+      "title": "Why ERP Platforms Miss Collections Logic and Payment Matching"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "495045d995c48ef8e52f11c424ed1767b68c1ed37ca52709eef726f1e19d143a",
       "first_seen_at": "2026-10-08T01:13:35.036552+00:00",
-      "published_at": "2026-10-05T04:27:25+00:00",
+      "published_at": "2026-10-04T04:29:35+00:00",
       "source_kind": "html",
       "summary": "What You Need to Know No AR automation vendor has fully solved multi-entity reconciliation, so your team still cleans up exceptions involving transfer pricing, timing differences, and FX gains. Tolerance rules can automate variance approvals within set thresholds, but policy judgment still belongs to your team. Controllers using QuickBooks, legacy ERPs, SQL databases, and spreadsheets spend significant time each month gathering and combining fragmented financial data. The ROI inflection point for intercompany automation is entity relationship stability, not transaction volume. Auto-match rates matter most when you separate routine AR matching from intercompany matching. What auto-match benchmarks actually show Reviewed Trintech and HighRadius materials describe strong routine auto-match rates, but no vendor has fully solved multi-entity reconciliation. Intercompany matching still faces reciprocal balances, currency translation adjustments, and consolidation rules that rule-based tools cannot resolve without accounting-policy judgment.",
       "title": "AR Automation Software Compared: Which Handles Multi-Entity Reconciliation Without Manual Cleanup"
@@ -45,7 +65,7 @@
       "company_name": "Blixo",
       "doc_id": "64bf44215285766bbb7f5c563920e08bf884dd8a7d3074b5be59b6c86c93e949",
       "first_seen_at": "2026-10-09T22:12:02.896754+00:00",
-      "published_at": "2026-10-09T04:27:25+00:00",
+      "published_at": "2026-10-08T04:29:35+00:00",
       "source_kind": "html",
       "summary": "In short: Payment and remittance data arrive through separate channels in the US. AR teams must manually connect bank deposits with explanations. Unmatched payments distort aging reports and inflate DSO, even when customers have paid. Standard ERP matching fails when customers combine invoices into one wire or short-pay by small percentages. Blixo’s matching engine uses machine learning to improve accuracy as teams correct exceptions. The fix is a specialized remittance-parsing layer. It normalizes data from email, EDI, and portals before posting reconciled transactions to your ERP.",
       "title": "When Your ERP Cannot Parse Remittance Data or Match Partial Payments"
@@ -75,7 +95,7 @@
       "company_name": "Blixo",
       "doc_id": "8b7eb49c7a5de87a443dede9eb7faaa77ad46ffba3314dc24429e4d70667b715",
       "first_seen_at": "2026-10-06T20:00:08.873417+00:00",
-      "published_at": "2026-10-03T04:27:25+00:00",
+      "published_at": "2026-10-02T04:29:35+00:00",
       "source_kind": "html",
       "summary": "Why Cash Application Jobs Matter Manual cash application now competes against systems that process more payments at lower cost and post in real time. The result is a shift from full-time transaction processing to exception review, which changes the hiring math for dedicated roles. In short: manual processing costs more per transaction; automated platforms process hundreds to thousands of payments daily at a fraction of manual cost; and AI-native matching engines now reach 95%+ auto-match rates versus 60–70% with legacy manual tools. Real-time posting also avoids the manual lag that inflates days sales outstanding even when customers pay on time.",
       "title": "Why cash application jobs are becoming obsolete"
@@ -95,7 +115,7 @@
       "company_name": "Blixo",
       "doc_id": "f562ee6784add007f5b53a3e78155237bd183f2cd060f15896b9f1e020becd51",
       "first_seen_at": "2026-10-08T16:20:20.472975+00:00",
-      "published_at": "2026-10-07T04:27:25+00:00",
+      "published_at": "2026-10-06T04:29:35+00:00",
       "source_kind": "html",
       "summary": "TL;DR Manual cash application stays accurate when data is clean. The problem is that B2B customers bury payment details in unstructured PDFs, emails, and thin ACH or wire references. As ACH and wire volume grows, remittance data often gets thinner. A payment may carry only a short memo while the PDF remittance arrives separately, or never arrives. That creates the automation paradox. The payoff is not mainly fewer human errors. It is shrinking the gap between cash landing and an invoice being posted. Measure the dollar value of payments applied within 24 hours, not only the transaction match rate. That captures the working-capital effect more directly than a match percentage. Many organizations still run little to no AR automation, which forces analysts to chase fragmented payment data across channels before they can close an invoice. Some businesses still get paid late, partly because posting lags payment arrival when remittance shows up separately and unstructured. AI-driven platforms built on OCR, NLP, and machine learning can reach high matching accuracy when remittance data is reasonably complete, though that number should be verified in a live demo. Top performers push customers toward structured formats like EDI. Laggards receive more PDFs and loose data that slow reconciliation. The Short Version Yes, automating accounts receivable for PDF and email payments is worth it. Manual cash application can be very accurate when remittance data is clean. The problem is timing: customers send payment details in formats your team cannot process at scale, so cash lands before the invoice can be closed.",
       "title": "How to Automate AR Cash Application When Payments Arrive as PDFs and Emails"
