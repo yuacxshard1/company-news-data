@@ -3,9 +3,19 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "0c64fdb3f73de18dc1da1ead1f96d104d08669c70c584b91c9372366767ba9ef",
+      "first_seen_at": "2026-10-11T22:10:51.701667+00:00",
+      "published_at": "2026-10-11T18:33:42+00:00",
+      "source_kind": "rss",
+      "summary": "<p>An empty reader is a hard place to start. If you already know which sites you want to follow, adding them is straightforward. But if you’re trying RSS for the first time, finding those first few feeds is part of the work. I wanted NewsBlur to help with that, right inside the app.</p> I’ve rebuilt the first-time experience on iOS and Android around exploring interests, previewing feeds, and choosing what goes into your reader. You can put together a few folders of things you care about, or ...",
+      "title": "A new first-time experience on iOS and Android: find your first feeds"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "0e2eed18b5b210d06083f6ff7c095591301afe4964fee806babf32cd71665df5",
       "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
-      "published_at": "2026-10-02T00:06:04+00:00",
+      "published_at": "2026-10-07T17:29:35+00:00",
       "source_kind": "rss",
       "summary": "See https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/ Will I still be able to see updates in my subreddits using Newsblur? If so, how?",
       "title": "On November 13, Reddit is phasing out RSS feeds"
@@ -39,6 +49,16 @@
       "source_kind": "rss",
       "summary": "The POST /reader/mark_story_hash_as_unstarred is either not working or it is working but the NewsBlur app still shows the items as starred. I think it’s actually the latter. Can Sam check?",
       "title": "NewsBlur API Not Working Oct 4, 2026"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "3a9da99ef3e044992d16886510f2b8608eb26631d56687033382819e689c7181",
+      "first_seen_at": "2026-10-11T21:39:51.522741+00:00",
+      "published_at": "2026-10-11T18:43:02+00:00",
+      "source_kind": "rss",
+      "summary": "I seem to have very inconsistent problem with the feeds from IEEE. If I use other interpreters or simply throw the url at co-pilot it seems to be Ok. e.g. https://ieeexplore.ieee.org/rss/TOC63.XML",
+      "title": "IEEE RSS feeds are not consistently interpreted correctly"
     },
     {
       "company_key": "yc-newsblur",
@@ -83,6 +103,16 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "a5190bfe9840cae1dcb6d309288ac610296e570a34c3cf9e95692b1e935bb128",
+      "first_seen_at": "2026-10-11T22:10:51.701667+00:00",
+      "published_at": "2026-10-11T18:33:40+00:00",
+      "source_kind": "rss",
+      "summary": "<p>NewsBlur has asked for a username and password since the beginning. That still works, but I wanted getting into your reader to be easier, especially on a new phone. I’ve added Sign in with Apple and Sign in with Google on the web, iOS, and Android. You can use either to create an account or connect to the NewsBlur account you already have.</p> Apple and Google sign-in on the web The welcome page, login page, and signup page now have Apple and Google buttons above the usual username and pas...",
+      "title": "Sign in with Apple or Google on the web, iOS, and Android"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "befd396c1b579fe6b871906726cba9af5d8d45624cc71ee139d00e7776900223",
       "first_seen_at": "2026-08-05T17:41:21.115563+00:00",
       "published_at": "2026-10-05T15:43:22+00:00",
@@ -95,7 +125,7 @@
       "company_name": "NewsBlur",
       "doc_id": "d339a2f7d92a316e05fabbd1d69dc39869f9779a2e12b74fa6af354ee7fe4596",
       "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
-      "published_at": "2026-10-03T00:06:01+00:00",
+      "published_at": "2026-10-03T09:06:33+00:00",
       "source_kind": "rss",
       "summary": "NASA’s Astronomy Picture of the Day website recently changed, and now I can’t get NewsBlur to understand or be happy about their new feed. Their site is now https://science.nasa.gov/apod/, and the RSS button’s link is https://science.nasa.gov/feed/apod-basic/, although that wants to download a .rss file. An acquaintance tossed up an XML feed on his AWS account, https://scotts-mess.s3.amazonaws.com/apod/apod_filtered.xml, but NewsBlur just spins trying to parse that one as well. Is there any way ...",
       "title": "Can't use feed for APOD site revamp"
@@ -115,7 +145,7 @@
       "company_name": "NewsBlur",
       "doc_id": "dcd8c794a4412a8042d61dace11b49e751d384c0116991119aad5d45402e07ce",
       "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
-      "published_at": "2026-10-02T08:09:18+00:00",
+      "published_at": "2026-10-05T08:20:23+00:00",
       "source_kind": "rss",
       "summary": "Hi, recently most of my feeds disappeared from the web app. Interestingly, in the Android app, they are still there. I tried logging in from an entirely different browser (I am on Zen-Firefox; I tried on Edge), but the issue still persists. How can I force a refresh or something like that? I made an OPML backup from the Android app just in case.",
       "title": "Most of subscibed feeds gone only from the web app"

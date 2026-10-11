@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4d574c81c56195c72e64afd6938b30ffb08d49d428ba78c5663568666d365f31",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-add-the-trello-mcp-server-to-claude-desktop",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-add-the-trello-mcp-server-to-claude-desktop",
+  "title": "How to Add the Trello MCP Server to Claude Desktop",
+  "summary": "Trello MCP server integration enables direct management of your boards and cards from the Claude interface. Follow these steps to configure your API keys.",
+  "body_markdown": "## Verify the Trello MCP server connection\n\n\nYou verify the Trello MCP connection by looking for the tool icon in the Claude interface. This confirms the Model Context Protocol has successfully handshake with your local configuration.\n\n\n### Confirming the connection and permissions\n\n\nClaude Sonnet 5.5 has initialized the Trello server if the hammer icon is present in the message bar. It has also mapped the available JSON-RPC methods to its internal reasoning engine.\n\n\nIf the icon is missing, the configuration file likely contains a syntax error, which prevents the environment from mounting the executable.\n\n\nClicking this icon allows you to audit the specific permissions granted to the agent. This check helps you avoid exposing private boards to the model's context window by mistake.\n\n\nThis manual check is the primary gatekeeper for maintaining a least-privilege environment before you begin delegating task management.\n\n\n### Syntax for creating and moving Trello cards\n\n\nClaude manages your workspace by translating natural language intent into structured API calls that target specific board and list IDs. When you provide a prompt, the model selects the appropriate tool from the following set to execute the requested change:\n\n\nThe trello_create_card tool generates a new card in a specified list, allowing the agent to capture action items from a conversation without manual entry.\n\n\nThe trello_get_board_cards tool retrieves all cards from a board, providing the model with the necessary context to summarize project status or identify bottlenecks.\n\n\nThe trello_move_card tool updates the list ID of an existing card. This enables the agent to advance tasks through a \"Doing\" to \"Done\" pipeline based on your verbal confirmation.\n\n\nThe trello_search_cards tool queries the workspace for specific strings, which prevents the creation of duplicate tasks by checking existing records first.\n\n\n### Extracting hidden board and list identifiers\n\n\nFinding the specific IDs required for these tools is not possible through the standard Trello buttons. You can find a Board ID by opening the board in your browser and appending .json to the end of the URL.\n\n\nThe browser will display a text file where the id field at the very top contains the string you need.\n\n\nTo find a List ID, you must look further into that same JSON view or use the Trello API directly.\n\n\nYou can also find these IDs by asking Claude to list your boards once the MCP server is active, as the model can see the metadata that remains hidden from the human interface.",
+  "published_at": "2026-10-11T18:36:40+00:00",
+  "first_seen_at": "2026-10-11T22:06:36.000376+00:00",
+  "content_hash": "sha256:0e4c87c4a2ea951aca2ada0a12bb2953d70562be1da4472120498359c326b063"
+}
