@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "af7eca89e73168caad51a116a28418ad840639549893547b41f5ce71977331a3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption",
+  "title": "Amazon OpenSearch Service now supports index-level encryption",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Service now supports index-level encryption",
+  "body_markdown": "Amazon OpenSearch Service now supports index-level encryption, letting you encrypt each index at rest with its own AWS Key Management Service (AWS KMS) customer managed key. This helps you protect data with different ownership or sensitivity under separate keys on the same domain. For example, you can encrypt each tenant's data with its own key in a multi-tenant application.\n\n\nIndex-level encryption builds on the existing encryption at rest capability in Amazon OpenSearch Service. To enable it, set the encryption mode to Native and specify a customer managed AWS KMS key when you create a new domain using the AWS Management Console or the AWS CLI. You can then register additional keys with the domain and use them to encrypt individual indexes.\n\n\nIndex-level encryption is available for domains running OpenSearch version 3.3 or later in 14 AWS Regions: US East (N. Virginia, Ohio), US West (Oregon), Canada (Central), Asia Pacific (Mumbai, Seoul, Singapore, Sydney, Tokyo), Europe (Frankfurt, Ireland, London, Paris), and South America (São Paulo). There is no additional charge for the feature. Standard AWS KMS and OpenSearch Service charges apply.\n\n\nTo get started, see[Index-level encryption](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/index-level-encryption.html) in the Amazon OpenSearch Service Developer Guide.",
+  "published_at": "2026-10-12T02:30:00+00:00",
+  "first_seen_at": "2026-10-12T17:48:29.288048+00:00",
+  "content_hash": "sha256:c7a4a58caca270451875e347aa6f1d82cef65f17b36605811bcca6923ebf3b27"
+}
