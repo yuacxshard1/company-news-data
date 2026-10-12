@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2a1e9d6c523d246c74c542b2cf7c72682e7a2a25b992175a5cc756de7b37cba6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-ports-sftp/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-ports-sftp/",
+  "title": "AWS Transfer Family supports custom ports for public SFTP servers",
+  "summary": "Discover more about what's new at AWS with AWS Transfer Family supports custom ports for public SFTP servers",
+  "body_markdown": "AWS Transfer Family now lets you configure custom ports on public SFTP servers and choose a communication mode for each port. You can support clients that require different ports or start SFTP connections differently on a single server.\n\n\nPreviously, public SFTP servers accepted connections only on port 22 and used server-first communication. With this launch, you can configure up to three ports (22, or any port from 2000 to 65535), allowing you to use the port numbers your business or network requires and offer multiple ports on one server. Some SFTP clients initiate communication themselves, and their connections can occasionally stall on a server-first port. For each port, you can now select client-first or server-first communication and direct clients to the port that matches their connection behavior. Using a port other than 22 can also reduce unwanted connection attempts from automated scanners that target port 22.\n\n\nThis capability is available in all AWS Regions where Transfer Family public SFTP servers are offered. To get started, visit the AWS Transfer Family console or use the AWS CLI or AWS SDKs. To learn more, visit Create an SFTP-enabled server in the[AWS Transfer Family User Guide](https://docs.aws.amazon.com/transfer/latest/userguide/create-server-sftp.html)",
+  "published_at": "2026-10-12T08:00:00+00:00",
+  "first_seen_at": "2026-10-12T21:51:49.913963+00:00",
+  "content_hash": "sha256:5b37ce1c355c9e3d4ec804166c2f268478e37465d0a1ccd34af78d8969603b3f"
+}

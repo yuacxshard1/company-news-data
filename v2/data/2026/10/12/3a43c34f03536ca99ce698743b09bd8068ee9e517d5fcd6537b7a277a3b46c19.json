@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3a43c34f03536ca99ce698743b09bd8068ee9e517d5fcd6537b7a277a3b46c19",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
+  "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
+  "summary": "Discover more about what's new at AWS with AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
+  "body_markdown": "AWS Secrets Manager now extends its managed external secrets capability to include Databricks and Twilio, enabling you to automatically rotate the credentials that your data pipelines and messaging applications use to call these services. You set up rotation directly from the AWS Management Console or API without writing or maintaining any custom rotation Lambda functions.\n\n\nLong-lived credentials often stay unrotated because rotation is hard to set up and hard to distribute safely to the applications that use the updated credential. With managed external secrets, you can use Secrets Manager to rotate the Databricks personal access tokens that your jobs and continuous integration and continuous delivery (CI/CD) pipelines use. You can also rotate the service principal OAuth client secrets that your automation workflows use. Each replacement personal access token retains the scopes of the token it replaces, so a narrowly scoped token stays narrowly scoped.\n\n\nFor Twilio, you can use Secrets Manager to rotate the API keys and Auth Tokens that your applications use to send messages and place calls. For both services, you store the credential in Secrets Manager as a managed external secret and set a rotation schedule. Secrets Manager always returns the current credential, so your applications pick up rotated values automatically, with no code changes required.\n\n\nThese integrations join existing managed external secrets support for BigID, Cisco Security Platform, Confluent Cloud, Datadog, GitLab, Jenkins, MongoDB Atlas, Netskope, Paddle, Salesforce, Snowflake, and SonarQube.\n\n\nDatabricks and Twilio managed external secrets are available in all AWS Regions where AWS Secrets Manager managed external secrets is supported. To learn more, visit the[AWS Secrets Manager managed external secrets documentation](https://docs.aws.amazon.com/secretsmanager/latest/userguide/managed-external-secrets.html) .",
+  "published_at": "2026-10-12T07:00:00+00:00",
+  "first_seen_at": "2026-10-12T21:51:49.913963+00:00",
+  "content_hash": "sha256:3b2f6f737650667d91b7ae0c289815987f0f144f090179a5d86e17457bda9913"
+}

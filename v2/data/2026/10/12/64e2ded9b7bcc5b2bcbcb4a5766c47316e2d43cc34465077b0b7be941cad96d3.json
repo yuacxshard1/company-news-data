@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "64e2ded9b7bcc5b2bcbcb4a5766c47316e2d43cc34465077b0b7be941cad96d3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights/",
+  "title": "Amazon ElastiCache for Valkey introduces ElastiCache Insights",
+  "summary": "Discover more about what's new at AWS with Amazon ElastiCache for Valkey introduces ElastiCache Insights",
+  "body_markdown": "[Amazon ElastiCache](https://aws.amazon.com/elasticache/) for Valkey now features ElastiCache Insights, a pre-built dashboard in Amazon CloudWatch for your node-based clusters. ElastiCache Insights brings cluster health, memory, compute, network, command throughput, latency, keyspace, and errors into a single view sourced from a set of OpenTelemetry metrics that ElastiCache publishes automatically.\n\n\nYou can use ElastiCache Insights to check the health of your cache workloads across a Region at a glance, detect when a node nears its memory, network, or connection limits, and filter your view to a cluster, shard, node, or Availability Zone. You can also save a copy as the starting point for a custom dashboard tailored to your workload.\n\n\nWith detailed monitoring, you can choose metrics to publish every 15 seconds and view them on the Metrics tab or in your custom dashboard.[CloudWatch pricing for OpenTelemetry metrics](https://aws.amazon.com/cloudwatch/pricing/) applies to ElastiCache detailed monitoring.\n\n\nTo get started, open the Metrics tab for a cluster in the[Amazon ElastiCache console](https://console.aws.amazon.com/elasticache/) and choose View in ElastiCache Insights. You can also choose ElastiCache Insights under Infrastructure Monitoring in the Amazon CloudWatch console.\n\n\nElastiCache Insights is available for node-based Valkey clusters in all AWS Regions where Amazon CloudWatch supports OpenTelemetry metrics. To learn more about ElastiCache Insights, see[Monitoring ElastiCache with OpenTelemetry metrics](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/otel-metrics.html#otel-metrics.insights-dashboard) in the Amazon ElastiCache User Guide.",
+  "published_at": "2026-10-12T07:00:00+00:00",
+  "first_seen_at": "2026-10-12T21:51:49.913963+00:00",
+  "content_hash": "sha256:17485da73f630728cb4be34aa3e7bd06988f7a406e14006c8f125459e081438e"
+}
