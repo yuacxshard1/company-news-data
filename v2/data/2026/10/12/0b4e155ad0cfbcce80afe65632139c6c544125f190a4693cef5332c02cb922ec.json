@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b4e155ad0cfbcce80afe65632139c6c544125f190a4693cef5332c02cb922ec",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/dotnet-dependency-injection-extension",
+  "canonical_url": "https://supabase.com/changelog/dotnet-dependency-injection-extension",
+  "title": "ASP.NET Core dependency injection for the Supabase .NET SDK",
+  "summary": "ASP.NET Core dependency injection for the Supabase .NET SDK",
+  "body_markdown": "## What's new#\n\n\n` Supabase.Extensions.DependencyInjection` is a new package that provides an easier way to plug the Supabase .NET SDK into your application. It exposes a new method on` IServiceCollection` called` AddSupabase` which registers the main client and all sub-clients:\n\n\n`\n_10\n\n\nbuilder.Services.AddSupabase(\n\n\n_10\n\n\nsupabaseUrl: \"https://xyz.supabase.co\",\n\n\n_10\n\n\nsupabaseKey: builder.Configuration\\[\"Supabase:Key\"\\]!,\n\n\n_10\n\n\nconfigureOptions: options =>\n\n\n_10\n\n\n{\n\n\n_10\n\n\noptions.AutoConnectRealtime = true;\n\n\n_10\n\n\noptions.PostgrestRetry = new RetryOptions { MaxRetries = 3 };\n\n\n_10\n\n\n});\n\n\n`\n\n\nIt registers all clients (` Supabase.Client` ,` IGotrueClient` ,` IPostgrestClient` ,` IStorageClient` ,` IFunctionsClient` ,` IRealtimeClient` ) with a scoped lifecycle, so you can resolve them wherever you need them:\n\n\n`\n_10\n\n\napp.MapGet(\"/movies\", async (IPostgrestClient postgrest) =>\n\n\n_10\n\n\nawait postgrest.Table<Movie>().Get());\n\n\n`\n\n\nThe package is available on[NuGet](https://www.nuget.org/packages/Supabase.Extensions.DependencyInjection/) :\n\n\n`\n_10\n\n\ndotnet add package Supabase.Extensions.DependencyInjection\n\n\n`\n\n\n## Why it matters#\n\n\nYou can always register all the required clients in` IServiceCollection` yourself. This package simply does it all for you and removes boilerplate from your codebase.",
+  "published_at": "2026-10-12T00:00:00+00:00",
+  "first_seen_at": "2026-10-12T12:17:17.751402+00:00",
+  "content_hash": "sha256:409e0829824f8eb06558b3939144f065085b79c433defd62ce6a0b4f8ea2043e"
+}

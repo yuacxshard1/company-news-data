@@ -63,6 +63,16 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "5bdbdc5dd471cbf4528d1d0d9fa6078017f2b7beddb071102cd2b04cbbae3f1c",
+      "first_seen_at": "2026-10-12T13:04:08.753554+00:00",
+      "published_at": "2026-10-12T12:17:48+00:00",
+      "source_kind": "rss",
+      "summary": "Hi, posts from the feed below appear in NB as raw HTML instead of rendered/formatted text. Sample text as it appears in NB: <_cdata> Rede social do presidente de El Salvador ajuda a construir apoio emocional a um projeto de poder que enfraquece instituições democráticas <media:content url=“ https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2026/10/Nayib_Bukele__53255806513_74a0ec1f35_o\\_-600x400.webp ” type=“image/webp” medium=“image”> media:title Nayib Bukele em fotografia de 2023 </media:title> media:credit Casa Presidencial El Salvador / Wikimedia Commons </media:credit> </media:content> Nos últimos anos, El Salvador se tornou um caso emblemático de como redes sociais podem ser usadas para reforçar projetos políticos de caráter autocrático. Desde 2019, o presidente Nayib Bukele consolidou um poder sem precedentes no país, enfraquecendo contrapesos institucionais, ampliando o estado de exceção e militarizando a vida pública. Apesar das críticas de organizações internacionais, seu governo mantém níveis de aprovação extraordinariamente altos. I assume it’s a problem with the feed itself, but maybe there’s a way NB can workaround the issue?",
+      "title": "Raw HTML in feed's posts"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "7f43a95dd0cfa5b7bca2bad1c6ee2e0c18ad7bf992d2c61b99c02b3c3afbb80f",
       "first_seen_at": "2026-10-11T17:56:10.428726+00:00",
       "published_at": "2026-10-11T17:18:02+00:00",
@@ -125,7 +135,7 @@
       "company_name": "NewsBlur",
       "doc_id": "d339a2f7d92a316e05fabbd1d69dc39869f9779a2e12b74fa6af354ee7fe4596",
       "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
-      "published_at": "2026-10-03T09:06:33+00:00",
+      "published_at": "2026-10-03T13:43:21+00:00",
       "source_kind": "rss",
       "summary": "NASA’s Astronomy Picture of the Day website recently changed, and now I can’t get NewsBlur to understand or be happy about their new feed. Their site is now https://science.nasa.gov/apod/, and the RSS button’s link is https://science.nasa.gov/feed/apod-basic/, although that wants to download a .rss file. An acquaintance tossed up an XML feed on his AWS account, https://scotts-mess.s3.amazonaws.com/apod/apod_filtered.xml, but NewsBlur just spins trying to parse that one as well. Is there any way ...",
       "title": "Can't use feed for APOD site revamp"

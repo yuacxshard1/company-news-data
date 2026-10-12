@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4e93be9759d6c54169b8fdb04094e7803146404b712446672b1b06050f57ab8a",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/supabase-dotnet-official-support",
+  "canonical_url": "https://supabase.com/changelog/supabase-dotnet-official-support",
+  "title": "The Supabase .NET SDK is now officially supported",
+  "summary": "The Supabase .NET SDK is now officially supported",
+  "body_markdown": "## What's new#\n\n\n[supabase-csharp](https://github.com/supabase/supabase-csharp) is now a first-party, officially supported SDK. It started as a community project, went through a period of low activity, and is now maintained by Supabase with a team behind it. Issues and pull requests are triaged by us, and the SDK is part of the roadmap we commit to.\n\n\nHere's what that means going forward:\n\n\n- Work on closing the feature gap with[supabase-js](https://github.com/supabase/supabase-js) , and reaching full feature-parity with our platform.\n- Transform the repository into an official communication channel between the community and our engineers.\n- Improve the overall developer experience, with more idiomatic designs and quality-of-life improvements.\n- Provide new packages faster and more often.\n\n\n## How to use it#\n\n\nInstall the metapackage from[NuGet](https://www.nuget.org/packages/Supabase) :\n\n\n`\n_10\n\n\ndotnet add package Supabase\n\n\n`\n\n\nInitialize a client and start making calls:\n\n\n`\n_20\n\n\nusing Supabase;\n\n\n_20\n\n\nvar options = new SupabaseOptions\n\n\n_20\n\n\n{\n\n\n_20\n\n\nAutoRefreshToken = true,\n\n\n_20\n\n\nAutoConnectRealtime = true\n\n\n_20\n\n\n};\n\n\n_20\n\n\n_20\n\n\nvar supabase = new Client(Environment.GetEnvironmentVariable(\"SUPABASE_URL\"),\n\n\n_20\n\n\nEnvironment.GetEnvironmentVariable(\"SUPABASE_KEY\"),\n\n\n_20\n\n\noptions);\n\n\n_20\n\n\nawait supabase.InitializeAsync();\n\n\n_20\n\n\n_20\n\n\n// Auth\n\n\n_20\n\n\nawait supabase.Auth.SignIn(\"user@example.com\", \"password\");\n\n\n_20\n\n\n_20\n\n\n// Database\n\n\n_20\n\n\nvar movies = await supabase.From<Movie>().Get();\n\n\n_20\n\n\n_20\n\n\n// Storage\n\n\n_20\n\n\nawait supabase.Storage.From(\"avatars\").Download(\"me.png\", null);\n\n\n`\n\n\nSource, docs, and the issue tracker live on the[repository](https://github.com/supabase/supabase-csharp) . We also provide an official[C# Reference](https://supabase.com/docs/reference/csharp/introduction) .\n\n\n## Why it matters#\n\n\n.NET is now a first-class citizen to build on Supabase. Official support means more features, delivered faster.",
+  "published_at": "2026-10-09T00:00:00+00:00",
+  "first_seen_at": "2026-10-12T12:17:17.751402+00:00",
+  "content_hash": "sha256:fec5b8f090cf0872cdbf20cde94487215fd174cba8427ab4eef2453d1b8f6d61"
+}
