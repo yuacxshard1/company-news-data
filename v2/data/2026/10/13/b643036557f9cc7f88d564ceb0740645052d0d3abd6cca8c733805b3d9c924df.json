@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b643036557f9cc7f88d564ceb0740645052d0d3abd6cca8c733805b3d9c924df",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
+  "canonical_url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
+  "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+  "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2610.10918)\n\n\nLarge Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, domains and levels of annotation granularity, LLMs must be thoroughly evaluated across these dimensions before being reliably used as alternatives to human evaluation. In this paper, we evaluate the performance of LLMs for two prominent MT quality evaluation schemes: Multidimensional Quality Metrics (MQM) and Error Span Annotation (ESA) by comparing their agreement with human annotators. We present results on a long-context test set of 70 language pairs and the publicly available WMT23 and WMT25 data, investigating both score and error span annotation agreement across a variety of language pairs and domains. Our results show that while LLM agreement with human annotators exceeds agreement between human annotators for some evaluation tasks, both vary substantially across annotation schemes, language pairs and domains and remain unreliable for most settings. Furthermore, we identify challenges facing both human and LLM annotators: humans are particularly challenged by fine-grained MQM annotations and low-resource language pairs, while LLMs struggle with minor errors, wrong language variants and error span annotation. Our results highlight the potential for improvement for both human and LLM annotation performance, possibly through human-LLM collaborative annotation pipelines that address the reliability issues identified in this work.",
+  "published_at": null,
+  "first_seen_at": "2026-10-13T10:45:43.633299+00:00",
+  "content_hash": "sha256:fcec67dd9d597ec2392d4b0c5f75f11db4aad1160d4acf8bb4fd5c10e1d580fe"
+}
