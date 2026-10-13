@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "56b24956685ec6e21b790a90205b4d85828f5f7c5e7d56acdd0f2aa0b1438588",
+  "company_key": "yc-starsling",
+  "company_name": "StarSling",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "atom",
+  "url": "https://starsling.dev/blog/linear-ci",
+  "canonical_url": "https://starsling.dev/blog/linear-ci",
+  "title": "Linear's CI playbook, ready to hand to your agent",
+  "summary": "Linear's 15 CI changes from their post, each with a copy-paste prompt that hands the move to your coding agent and names the ci-speedup pattern behind it.",
+  "body_markdown": "Setup bounds sharding\n\n\nPatterns:[OPT73 Shared Sub-Step Across Critical-Path Jobs (cluster-floor lever)](https://github.com/starslingdev/skills/blob/main/skills/ci-speedup/references/optimization-patterns.md#opt73--shared-sub-step-across-critical-path-jobs-cluster-floor-lever) ,[OPT54 Full-Repo pnpm -r Where Package Filters Are Possible](https://github.com/starslingdev/skills/blob/main/skills/ci-speedup/references/optimization-patterns.md#opt54--full-repo-pnpm--r-where-package-filters-are-possible) ,[OPT79 A Cache That Costs More Than It Saves](https://github.com/starslingdev/skills/blob/main/skills/ci-speedup/references/optimization-patterns.md#opt79--a-cache-that-costs-more-than-it-saves) ,[OPT25 Shard Imbalance](https://github.com/starslingdev/skills/blob/main/skills/ci-speedup/references/optimization-patterns.md#opt25--shard-imbalance)\n\n\nThis change follows from three earlier ones, “Preinstall shared dependencies in the CI image”, “Install only the dependencies each job needs” and “Don’t cache when it’s faster to rebuild”: once each shard’s setup shrinks, more shards pay.\n\n\nPrompt for your agent Prompt for your coding agent\n\n\n```text\nFetch OPT73 \"Shared Sub-Step Across Critical-Path Jobs\", OPT54 \"Full-Repo `pnpm -r` Where Package Filters Are Possible\", OPT79 \"A Cache That Costs More Than It Saves\" and OPT25 \"Shard Imbalance\" from https://raw.githubusercontent.com/starslingdev/skills/main/skills/ci-speedup/references/optimization-patterns.md. For the slowest test job, read its step timings over the last 20 runs of its workflow with the GitHub CLI (gh run list, then gh run view --json jobs for each run) and measure the setup prefix (checkout, dependencies, containers, migrations) against the test step. Tell me, in seconds, what each added shard costs in setup today, and check this repo against OPT73, OPT54 and OPT79 yourself to see which would shrink it; apply each only where its own conditions hold, and do those first. Propose a higher shard count only in a later PR, once the setup changes are merged and new runs show the smaller setup. Show me the diff and open a PR rather than applying it blindly.\n```",
+  "published_at": "2026-10-13T00:00:00+00:00",
+  "first_seen_at": "2026-10-13T12:30:37.851585+00:00",
+  "content_hash": "sha256:2d8fd82493384d2bfeab9f1609b423565828804466d223cd132e78dd5260a619"
+}
