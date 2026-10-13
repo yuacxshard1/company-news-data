@@ -3,9 +3,19 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "0782950328b13fc3f83ae8cca20a559a684f23084c8da0caadfabb05e0a376ff",
+      "first_seen_at": "2026-10-13T00:23:14.940755+00:00",
+      "published_at": "2026-10-11T08:40:56+00:00",
+      "source_kind": "html",
+      "summary": "In short: SAP S/4HANA Cloud and Oracle ERP Cloud handle accounting, consolidation, and the general ledger. They do not publish product-level benchmarks on dunning speed, reconciliation cycle time, or touchless-posting rates. Most finance teams resolve AR exceptions—short payments, lump-sum deposits, mismatched remittance—by hand, because end-to-end AR automation remains incomplete. SAP and Oracle anchor the system of record. The AR automation question is narrower: how well do they handle dunning cadence, payment matching, exception routing, and reconciliation follow-through once invoices are overdue or payments arrive without clean remittance data?",
+      "title": "SAP and Oracle Handle Accounting: AR Automation Handles Dunning and Reconciliation"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "0b14e42c7916983254e1824462bd950550cc33d059067edccbb056b74a1503eb",
       "first_seen_at": "2026-10-09T22:12:02.896754+00:00",
-      "published_at": "2026-10-07T04:29:35+00:00",
+      "published_at": "2026-10-05T08:40:56+00:00",
       "source_kind": "html",
       "summary": "The Short Version Manual collection calls lock AR teams into reactive mode: you chase whoever made it to the top of today’s call queue, not the accounts that matter most. Automation turns customer outreach from post-mortem dunning into continuous communication that starts before invoices go late. Manual follow-up makes cash forecasting a guess; automated workflows create the audit trail phone logs never could. For subscription businesses, catching failed payments before cancellation saves both AR hours and the customer-success time you’d otherwise burn on winback.",
       "title": "AR Automation ROI: Calculate Hours Saved When Collections Run Without Phone Calls"
@@ -25,7 +35,7 @@
       "company_name": "Blixo",
       "doc_id": "23231b6d678d9e5570f22e5ad34628848e818800e0233e157e1312c258f8ba88",
       "first_seen_at": "2026-10-11T03:40:39.852425+00:00",
-      "published_at": "2026-10-09T04:29:35+00:00",
+      "published_at": "2026-10-07T08:40:56+00:00",
       "source_kind": "html",
       "summary": "In short: AR automation handles structured work well: clean invoices, obvious matches, scheduled reminders. The part that moves DSO lives elsewhere — the short payment with no explanation, the wire covering twenty invoices with a vague reference, the remittance that arrives as a scanned PDF three days later. Public materials suggest most AR platforms route these cases to a manual queue, so you automate the easy part and staff the expensive exceptions.",
       "title": "Accounts Receivable Automation: Three Jobs Replaced, But Most Vendors Skip Cash Matching"
@@ -45,7 +55,7 @@
       "company_name": "Blixo",
       "doc_id": "44f6d4ad33558a3ddf03b287b4faf66fb9acd591ac554c055f85ab4b854f8ca0",
       "first_seen_at": "2026-10-11T03:40:39.852425+00:00",
-      "published_at": "2026-10-10T04:29:35+00:00",
+      "published_at": "2026-10-08T08:40:56+00:00",
       "source_kind": "html",
       "summary": "In short: Most ERPs record transactions but don’t manage collections workflows or reconcile messy payment scenarios in real time. That architectural gap creates status conflicts: an invoice shows closed in your collections platform while the ERP still ages it as unpaid. Your team makes credit decisions on stale data, customers get dunned for balances they already paid, and nobody trusts the automation anymore. Purpose-built AR platforms fix this by syncing payment status bidirectionally so collections workflows run on actual cash application data, not yesterday’s batch export.",
       "title": "Why ERP Platforms Miss Collections Logic and Payment Matching"
@@ -63,9 +73,19 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "4c5287e1528ddea09a569a6091ba97ebf7cdb0dd8c3994e06ed33525f75e4968",
+      "first_seen_at": "2026-10-13T00:23:14.940755+00:00",
+      "published_at": "2026-10-10T08:40:56+00:00",
+      "source_kind": "html",
+      "summary": "In short: ERPs handle accounting and inventory, but invoice-to-cash needs delivery tracking, payment matching, and collections workflows they don’t provide. AR automation platforms sync with your ERP and own the customer-facing work—invoice delivery, reminders, dispute tracking, payment reconciliation. HighRadius is often positioned around AI-driven collections and cash application automation. Sidetrade emphasizes proprietary transaction data for predictive collections and targets mid-market use cases. Esker is frequently praised in user reviews for willingness-to-recommend and working-capital improvements. Some ERP users look for third-party AR tools to automate reminders and structure collections work. The architecture that works: ERP stays as the system of record; AR platform handles invoice delivery, payment matching, and dispute resolution. The ERP handles books; AR automation handles cash Your ERP manages the general ledger, inventory, and procurement. Those modules post transactions correctly and track stock levels. But invoice-to-cash—sending invoices, tracking delivery, automating reminders, matching payments, resolving disputes—needs different tooling.",
+      "title": "ERP Systems Run GL and Inventory: AR Automation Owns Invoice-to-Cash"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "64bf44215285766bbb7f5c563920e08bf884dd8a7d3074b5be59b6c86c93e949",
       "first_seen_at": "2026-10-09T22:12:02.896754+00:00",
-      "published_at": "2026-10-08T04:29:35+00:00",
+      "published_at": "2026-10-06T08:40:56+00:00",
       "source_kind": "html",
       "summary": "In short: Payment and remittance data arrive through separate channels in the US. AR teams must manually connect bank deposits with explanations. Unmatched payments distort aging reports and inflate DSO, even when customers have paid. Standard ERP matching fails when customers combine invoices into one wire or short-pay by small percentages. Blixo’s matching engine uses machine learning to improve accuracy as teams correct exceptions. The fix is a specialized remittance-parsing layer. It normalizes data from email, EDI, and portals before posting reconciled transactions to your ERP.",
       "title": "When Your ERP Cannot Parse Remittance Data or Match Partial Payments"
@@ -79,6 +99,16 @@
       "source_kind": "html",
       "summary": "The Short Version Stripe Billing has a faster payback than BILL AP/AR Essentials at $49 per user monthly. Dedicated AR platforms deliver higher auto-match rates for cash application—fewer hours spent reconciling payments that arrive via ACH, wire, or check. Stripe’s 2.9% + 30¢ per transaction fits immediate card payments, but public documentation doesn’t publish Net-30-specific DSO benchmarks. AI-powered dunning in dedicated AR systems adjusts follow-up timing and tone based on each customer’s payment history rather than sending the same reminder to everyone. Some BILL AP/AR users report missing features and payment issues on G2. Quick Summary Dedicated AR automation shows stronger evidence for chasing Net-30 invoices than Stripe Billing alone. Stripe is fastest when customers pay immediately through its hosted payment flow. Once invoice terms, bank transfers, remittance details, and delayed customer approvals enter the process, you’re managing the receivable, not just processing the payment.",
       "title": "AR Automation vs Stripe Billing: Which Chases Net-30 Invoices"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "727eeb873dae769e7639bcd6be6335c9da8d93d4ff8608822b34c1943ed71aee",
+      "first_seen_at": "2026-10-13T00:23:14.940755+00:00",
+      "published_at": "2026-10-12T08:40:56+00:00",
+      "source_kind": "html",
+      "summary": "Key Takeaways NetSuite’s Collections Module provides documented multi-level dunning automation with customizable escalation intervals. Public materials for Blixo confirm automated collections and dunning capabilities, though detailed dunning cadence specifications were not found in current research and should be verified in a live demo. Organizations implementing automated AR collections often see improved cash flow. Every day of DSO improvement returns cash to operating accounts. NetSuite operates on enterprise quote-based pricing requiring configuration for full AR optimization. Blixo publishes self-service tiers, but specific pricing and user limits should be verified before comparison. Both platforms automate dunning mechanics, but the intelligence layer—dispute handling, promise-to-pay tracking, and automated cash application—determines which accounts collectors prioritize and how quickly exceptions resolve. Manual AR follow-up consumes significant team hours while DSO stays elevated. Automation replaces inconsistent collection timing with rule-based escalation. Blixo lists AI-powered collections and cash application capabilities. Independent third-party validation and AI model specifics were not found in current documentation and should be confirmed during evaluation. The short version NetSuite offers documented rule-based dunning automation through its Collections Module and Dunning Letters capabilities, with multi-level escalation sequences. Public materials for Blixo confirm automated collections and dunning capabilities, but detailed dunning cadence specifications were not found in current research. NetSuite typically requires configuration work for full AR optimization in complex deployments, while Blixo’s self-service tiers are published and easy to compare before a sales call.",
+      "title": "NetSuite vs Blixo AR Module: Which Chases Past-Due Invoices Automatically"
     },
     {
       "company_key": "yc-blixo",
@@ -105,7 +135,7 @@
       "company_name": "Blixo",
       "doc_id": "c033d80b4ee195abb9d4f936e6e0ecfb049b5866ce90a9234ede4c9a8c5d6dba",
       "first_seen_at": "2026-10-11T18:26:53.931241+00:00",
-      "published_at": "2026-10-11T00:31:28+00:00",
+      "published_at": "2026-10-09T08:40:56+00:00",
       "source_kind": "html",
       "summary": "In short: No benchmark isolates AR platform type as the driver of close speed. Automation and integration reduce close time—but those gains depend on implementation quality and whether the tool fits your billing model. For subscription businesses with usage-based or hybrid pricing, standalone AR platforms built for contract complexity often close books faster than ERP-native modules that break under those workflows. For companies with simpler invoicing and complex consolidation, ERP-integrated AR usually wins because fewer records move between disconnected systems.",
       "title": "ERP Integration or Standalone AR Platform: Which Closes Books Faster"
@@ -125,7 +155,7 @@
       "company_name": "Blixo",
       "doc_id": "f562ee6784add007f5b53a3e78155237bd183f2cd060f15896b9f1e020becd51",
       "first_seen_at": "2026-10-08T16:20:20.472975+00:00",
-      "published_at": "2026-10-06T04:29:35+00:00",
+      "published_at": "2026-10-04T08:40:56+00:00",
       "source_kind": "html",
       "summary": "TL;DR Manual cash application stays accurate when data is clean. The problem is that B2B customers bury payment details in unstructured PDFs, emails, and thin ACH or wire references. As ACH and wire volume grows, remittance data often gets thinner. A payment may carry only a short memo while the PDF remittance arrives separately, or never arrives. That creates the automation paradox. The payoff is not mainly fewer human errors. It is shrinking the gap between cash landing and an invoice being posted. Measure the dollar value of payments applied within 24 hours, not only the transaction match rate. That captures the working-capital effect more directly than a match percentage. Many organizations still run little to no AR automation, which forces analysts to chase fragmented payment data across channels before they can close an invoice. Some businesses still get paid late, partly because posting lags payment arrival when remittance shows up separately and unstructured. AI-driven platforms built on OCR, NLP, and machine learning can reach high matching accuracy when remittance data is reasonably complete, though that number should be verified in a live demo. Top performers push customers toward structured formats like EDI. Laggards receive more PDFs and loose data that slow reconciliation. The Short Version Yes, automating accounts receivable for PDF and email payments is worth it. Manual cash application can be very accurate when remittance data is clean. The problem is timing: customers send payment details in formats your team cannot process at scale, so cash lands before the invoice can be closed.",
       "title": "How to Automate AR Cash Application When Payments Arrive as PDFs and Emails"

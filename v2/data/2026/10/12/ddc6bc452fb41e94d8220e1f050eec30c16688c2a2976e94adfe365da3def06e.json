@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ddc6bc452fb41e94d8220e1f050eec30c16688c2a2976e94adfe365da3def06e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
+  "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
+  "body_markdown": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network.\n\n\nWith CloudFront in front of a Lambda Web Function, you get TLS termination at the edge for lower latency and faster connections, caching for better performance, and custom domains with managed TLS certificates. No changes to application code are needed. CloudFront Origin Access Control (OAC) restricts your Lambda Web Function so it's reachable only through CloudFront, so unintended requests that bypass your security protections do not reach your origin. With OAC in place, CloudFront's edge network protects your Lambda Web Function from network-layer DDoS attacks, and you can attach AWS WAF for additional application-layer security. For applications that authenticate their own users, OAC ensures that original credentials reach the application unchanged, so existing sign-in flows keep working.\n\n\nCloudFront support for AWS Lambda Web Functions is available worldwide, except in the CloudFront China region. To get started, use the CloudFront Console, SDK, CLI, or CloudFormation to configure your Lambda Web Function as a CloudFront origin. For more information, refer to the[CloudFront Developer Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-lambda-web.html) . There are no additional fees associated with this feature.",
+  "published_at": "2026-10-12T23:10:00+00:00",
+  "first_seen_at": "2026-10-13T01:52:42.239369+00:00",
+  "content_hash": "sha256:e8b265ebe5abf33ccad7432293ab50d9011e67201d53871c745e7f0aea7bc27d"
+}

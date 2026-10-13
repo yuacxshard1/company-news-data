@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d6a5b69f1f203d979035c61d4242c54793daea3f98d801eb2b1708b603179c96",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-data-quality-spark/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-data-quality-spark/",
+  "title": "Amazon EMR now supports native data quality checks in Apache Spark jobs",
+  "summary": "Discover more about what's new at AWS with Amazon EMR now supports native data quality checks in Apache Spark jobs",
+  "body_markdown": "Amazon EMR now validates data quality natively within Apache Spark jobs. Data engineering teams can catch quality issues inline before bad data reaches downstream systems, without building or maintaining separate validation infrastructure. Amazon EMR Data Quality, powered by AWS Glue, is available at no additional cost and uses the same declarative rules language (Data Quality Definition Language) and APIs as AWS Glue for a consistent experience across both engines, and works with Apache Iceberg, Apache Hudi, and Delta Lake across EC2, EKS, and Serverless deployment modes.\n\n\nWith this feature, you can author validation rules in your Spark scripts or reference rules stored in the AWS Glue Data Catalog, and then apply them at any stage of your pipeline i.e., after reading data, during transformation, or after processing. With 30+ rule types, including dynamic rules that compare against historical runs and ML-based anomaly detection for tracking drift over time without specifying fixed thresholds, Amazon EMR Data Quality provides the flexibility of choosing the validation framework that fits your needs. You can take actions like failing a pipeline, filtering invalid records, or routing them to quarantine based on the quality evaluation results. Results are produced at the dataset, rule, and row level, so that you can easily identify which records or rules are driving the quality failures.\n\n\nAmazon EMR Data Quality is available on AWS runtime for Apache Spark (emr-spark-8.1.0) in all AWS Commercial, AWS GovCloud (US), and AWS China Regions.\n\n\nTo get started, visit Amazon EMR Data Quality[documentation](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-data-quality.html) and add DQDL rules for data quality validation to the Spark scripts of your EMR workloads.",
+  "published_at": "2026-10-12T07:00:00+00:00",
+  "first_seen_at": "2026-10-13T01:52:42.239369+00:00",
+  "content_hash": "sha256:9b164685167b503aeea41d10fcc7333eb9ea1469a87aa9f41dcdd7d1e9709f7c"
+}

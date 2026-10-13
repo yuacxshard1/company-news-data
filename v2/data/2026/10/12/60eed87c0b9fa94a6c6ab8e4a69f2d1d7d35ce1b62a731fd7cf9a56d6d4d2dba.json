@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "60eed87c0b9fa94a6c6ab8e4a69f2d1d7d35ce1b62a731fd7cf9a56d6d4d2dba",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+  "title": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
+  "summary": "Discover more about what's new at AWS with Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
+  "body_markdown": "**Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore**\n\n\nAmazon Bedrock AgentCore memory now prices short-term memory (STM) based on the data your agents ingest, retrieve, and store, replacing the previous flat rate per event. AgentCore memory gives agents in-session context through short-term memory and persistent knowledge across sessions through long-term memory. With consumption-based pricing, developers building agents that write frequent, small events pay in proportion to what they use.\n\n\nSTM is priced across three dimensions: ingestion at $1.00 per GB, retrieval at $0.20 per GB, and storage at $0.10 per GB-month. Ingestion and retrieval are billed per event with a 12 KB minimum and 64 KB maximum billable size, while storage is billed on each event's actual size. Most workloads see lower costs, with small-payload use cases seeing the largest reductions. You can manage storage costs by setting a shorter time to live (TTL) on your memory resources. Long-term memory pricing is unchanged.\n\n\nConsumption-based pricing for AgentCore Memory short-term memory is available in all AWS Regions where AgentCore Memory is offered. To get started, visit the[Amazon Bedrock AgentCore pricing page](https://aws.amazon.com/bedrock/agentcore/pricing/) .",
+  "published_at": "2026-10-12T16:00:00+00:00",
+  "first_seen_at": "2026-10-13T01:52:42.239369+00:00",
+  "content_hash": "sha256:f5207d3190f4d0b54c6b02a053515cff969d0a481ca4b66c634c0bc7c5b43a1a"
+}

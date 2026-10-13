@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "08812f862d33b1862b01c22ef2b587a737b47e72efb7955577be0f55cd46df9f",
+  "company_key": "yc-opalite-health",
+  "company_name": "Opalite Health",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opalitehealth.com/blog/ai-medical-interpreter-ehr-setup",
+  "canonical_url": "https://opalitehealth.com/blog/ai-medical-interpreter-ehr-setup",
+  "title": "EHR Integration for AI Medical Interpreters",
+  "summary": "Plan AI medical interpreter EHR integration across launch, patient context, access controls, documentation, testing, and fallback paths.",
+  "body_markdown": "###\n\n\nA secure launch from the chart with single sign-on can be useful even without write-back. It reduces navigation while keeping implementation scope contained. The team still needs patient verification, documentation instructions, and a fallback when the launch or audio path fails.\n\n\n###\n\n\nNo. The app requests launch context and authorized scopes, and the EHR decides what it supports and provides. Teams must register the app, configure permissions, test patient and encounter matching, and handle sessions in which context is missing or stale.\n\n\n###\n\n\nCommon fields include language or dialect, modality, date and time, encounter, user, completion status, and escalation. Clinical notes require a separate design decision. Place each field once, in a location that clinicians and auditors can reliably find.\n\n\n###\n\n\nYes, if a secure standalone workflow fits the organization's security review and clinical policy. Define how staff identify the patient, document the session, and reach a fallback. Later integration can reduce steps without changing the core safety process.\n\n\n###\n\n\nTest correct and incorrect patient context, role permissions, session timeout, documentation placement, failed write-back, microphone and network failure, unavailable languages, low-confidence output, and human-interpreter escalation. Include the clinical users and devices that will be used in production.",
+  "published_at": "2026-10-12T13:28:01.181+00:00",
+  "first_seen_at": "2026-10-13T01:40:47.256719+00:00",
+  "content_hash": "sha256:86debcab762ad029299d643413f2ad648a7ef00ad628121baf6550c2ada62b3a"
+}
