@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "83755e799144ac41c02075dfe172d3d320b8084019af96dc01bc3aec4714d782",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-estimate-make-com-pricing-and-hidden-fees",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-estimate-make-com-pricing-and-hidden-fees",
+  "title": "How to Estimate Make.com Pricing and Hidden Fees",
+  "summary": "Make.com pricing includes base monthly fees plus setup fees and API usage charges. Review all plans to see the total costs and limits before choosing.",
+  "body_markdown": "## Estimating a real Make bill in four stages\n\n\nCount the operations in one scenario run, multiply by monthly runs, pick a tier with headroom above that product, then compare monthly against annual billing.\n\n\n### Stage 1: count operations in one scenario run\n\n\nOpen the scenario's History tab and click a single completed run. Every module that executed shows an operation count, and the sum is your per-run figure. **That sum is the number to trust, not the module count on the canvas.**\n\n\nWhen a search module returns many bundles, each one is handed to the next module, so every downstream module runs once per bundle.\n\n\n### Stage 2: multiply by runs per month\n\n\nMultiply: operations per run × runs per month = monthly operations. Take the runs from the scenario's schedule if it polls on a timer, because a polling trigger consumes an operation on each check even when it finds nothing.\n\n\nIf a webhook starts the scenario, take the runs from your event volume instead.\n\n\n### Stage 3: choose a tier with headroom\n\n\nOpen the plan selector and set the operations slider above your monthly total, not at it. A plan sized exactly to the estimate has no room for a retry storm, a busy month, or the next scenario someone builds.\n\n\nThen price the same selection on monthly and annual billing and write down both. The annual figure is lower per month but commits you to a volume you only estimated.\n\n\n### Stage 4: price three realistic teams\n\n\nRun the same arithmetic for three shapes of team. A solo operator with a few low-frequency scenarios sits near the bottom of the slider.\n\n\nPut a small team on polling scenarios with short intervals and schedule frequency, not workflow count, drives most of the total. A team processing batches of records per run sees the per-bundle multiplication dominate.",
+  "published_at": "2026-10-14T09:29:23+00:00",
+  "first_seen_at": "2026-10-14T11:04:04.388987+00:00",
+  "content_hash": "sha256:c1c62ac355de0389fbc9413a16f602b317bfca4763778827f62d8fdda255ab98"
+}
