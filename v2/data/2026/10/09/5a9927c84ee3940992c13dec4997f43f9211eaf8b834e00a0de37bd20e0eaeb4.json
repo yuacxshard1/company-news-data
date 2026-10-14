@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5a9927c84ee3940992c13dec4997f43f9211eaf8b834e00a0de37bd20e0eaeb4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-c9g-m9g-instances-additional-regions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-c9g-m9g-instances-additional-regions/",
+  "title": "Amazon EC2 C9g, C9gd, M9g, and M9gd instances are now available in additional regions",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 C9g, C9gd, M9g, and M9gd instances are now available in additional regions",
+  "body_markdown": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances are available in the Asia Pacific (Malaysia, Seoul, Singapore) regions. Amazon EC2 M9g and M9gd instances are available in the Asia Pacific (Malaysia) and Europe (Spain) regions. These instances are powered by AWS Graviton5 processors, the fifth generation of custom-designed CPUs, which deliver the best price performance for a broad range of workloads running on Amazon EC2.\n\n\n[C9g and C9gd instances](https://aws.amazon.com/ec2/instance-types/c9g/) and[M9g and M9gd instances](https://aws.amazon.com/ec2/instance-types/m9g/) deliver up to 25% better compute performance than AWS Graviton4-based C8g, C8gd, M8g, and M8gd instances. They are up to 30% faster for databases, up to 35% faster for web applications, and up to 35% faster for machine learning. These instances are built on the sixth-generation[AWS Nitro System](https://aws.amazon.com/ec2/nitro/) and are the first to feature the[Nitro Isolation Engine](https://aws.amazon.com/blogs/compute/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/) . The Isolation Engine uses formal verification to provide mathematical assurance that customer workloads are isolated from each other and from AWS operators, pioneering a new standard for mathematically proven cloud security.\n\n\nC9g instances are ideal for compute-intensive workloads such as high-performance computing (HPC), batch processing, gaming, video encoding, scientific modeling, distributed analytics, CPU-based machine learning (ML) inference, real-time analytics, and ad serving. M9g instances serve a broad range of general-purpose workloads, including application servers, microservices, gaming, caching, and containers. They also deliver the performance needed for agentic AI use cases like real-time reasoning, code generation, and multi-step orchestration. C9gd and M9gd instances add local NVMe-based SSD block-level storage for workloads that need high-speed, low-latency local storage for scratch space, temporary files, and caches.\n\n\nC9g, C9gd, M9g, and M9gd instances are available for purchase in these regions via Savings Plans, On-Demand, Spot Instances, Dedicated Instances, or Dedicated Hosts.[Level up your compute with AWS Graviton](https://aws.amazon.com/ec2/graviton/level-up-with-graviton/) and get started today with[C9g](https://aws.amazon.com/ec2/instance-types/c9g/) and[M9g](https://aws.amazon.com/ec2/instance-types/m9g/) .",
+  "published_at": "2026-10-09T21:00:00+00:00",
+  "first_seen_at": "2026-10-14T19:59:20.903084+00:00",
+  "content_hash": "sha256:0ddd18fff7cd835625fc763b8d4ed307e4cc593f5c4d4d298fb8688b04ed05ac"
+}

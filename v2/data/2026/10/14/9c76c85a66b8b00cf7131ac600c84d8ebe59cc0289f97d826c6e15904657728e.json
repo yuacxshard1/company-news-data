@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9c76c85a66b8b00cf7131ac600c84d8ebe59cc0289f97d826c6e15904657728e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
+  "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
+  "summary": "Discover more about what's new at AWS with AWS HealthOmics introduces resource fallback order for Nextflow workflows",
+  "body_markdown": "Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running.[AWS HealthOmics](https://aws.amazon.com/healthomics/) is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows.\n\n\nWith resource fallback for Nextflow workflows, you can prioritize your preferred accelerator for your task. When your preferred accelerator is unavailable, HealthOmics automatically moves through your specified alternatives in the fallback without resubmission. Each accelerator profile has a configurable timeout, giving you control over how long HealthOmics searches for that accelerator before moving to the next. Shorter timeouts help you move quickly through the fallback order, while longer timeouts increase the probability of reserving your preferred accelerator. You can also include a CPU profile as a final fallback to increase the likelihood of your task reserving an instance.\n\n\nYou can now use resource fallback for Nextflow workflows in all AWS HealthOmics Regions: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), Israel (Tel Aviv), and Asia Pacific (Seoul, Singapore, Tokyo). To learn more, visit the[advanced resource configuration](https://docs.aws.amazon.com/omics/latest/dev/advanced-resource-configuration.html) and[Nextflow specifics](https://docs.aws.amazon.com/omics/latest/dev/workflow-definition-nextflow.html#workflow-nextflow-directive-fallback) documentation.",
+  "published_at": "2026-10-14T16:00:00+00:00",
+  "first_seen_at": "2026-10-14T19:59:20.903084+00:00",
+  "content_hash": "sha256:f3d17491c1fac20d2b4ccac0a5789d93ddb3a325d52f079a4ef3ddded0b38d6f"
+}
