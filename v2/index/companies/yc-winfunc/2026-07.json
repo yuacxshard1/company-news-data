@@ -7,7 +7,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An attacker could start OAuth with a poisoned Host, receive the victim's still-unused provider code at an attacker origin, and redeem it on a chosen ten…",
+      "summary": "High Fider vulnerability, CVSS 8.8, found by winfunc's AI agent. An attacker could start OAuth with a poisoned Host, receive the victim's still-unused…",
       "title": "OAuth host poisoning enables cross-tenant account takeover"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An unauthenticated attacker could complete public signup for their own Fider tenant, then present the temporary parent-domain cookie to an existing vict…",
+      "summary": "Critical Fider vulnerability, CVSS 10.0, found by winfunc's AI agent. An unauthenticated attacker could complete public signup for their own Fider tenant…",
       "title": "Domain-wide signup session enables cross-tenant administrator takeover"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An ordinary authenticated analytics user could inject Presto/Trino syntax through a semantic string filter, comment out the row-level predicate appended…",
+      "summary": "High Cube vulnerability, CVSS 7.7, found by winfunc's AI agent. An ordinary authenticated analytics user could inject Presto/Trino syntax through a semantic…",
       "title": "Presto and Trino filter interpolation bypasses row-level security"
     },
     {
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-30T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A project-A data-app author could make their sandboxed app request project-B metric queries through a victim viewer's authenticated parent page. If the…",
+      "summary": "High Lightdash vulnerability, CVSS 7.4, found by winfunc's AI agent. A project-A data-app author could make their sandboxed app request project-B metric…",
       "title": "Data-app SDK bridge can disclose warehouse data from other projects"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-23T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Any network client reaching Cube's optional PostgreSQL SQL interface could send a four-byte frame length near 0xffffffff, causing the native service to…",
+      "summary": "High Cube vulnerability, CVSS 7.5, found by winfunc's AI agent. Any network client reaching Cube's optional PostgreSQL SQL interface could send a four-byte…",
       "title": "Oversized PostgreSQL startup frame can terminate the Cube service"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-30T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A holder of an API key for organization A could select an active feedback directory belonging to organization B and list, search, create, update, or del…",
+      "summary": "High Formbricks vulnerability, CVSS 8.3, found by winfunc's AI agent. A holder of an API key for organization A could select an active feedback directory…",
       "title": "Feedback Records gateway accepts organization permissions across tenants"
     },
     {
@@ -97,7 +97,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-22T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A contributor to a lower-trust Meltano project could add a traversing includepaths pattern and cause an operator's routine configuration mutation to rep…",
+      "summary": "High Meltano vulnerability, CVSS 7.8, found by winfunc's AI agent. A contributor to a lower-trust Meltano project could add a traversing include_paths…",
       "title": "Traversing include paths allow cross-project YAML overwrite"
     }
   ],

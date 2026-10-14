@@ -5007,7 +5007,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-08-05T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A network caller could invoke an internal Serve replica gRPC method without the configured Ray token and place a Python pickle reduction in pickledreque…",
+      "summary": "Critical Ray vulnerability, CVSS 9.8, found by winfunc's AI agent. A network caller could invoke an internal Serve replica gRPC method without the configured…",
       "title": "Unauthenticated Serve replica gRPC requests allow arbitrary code execution"
     },
     {

@@ -47,7 +47,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An attacker could start OAuth with a poisoned Host, receive the victim's still-unused provider code at an attacker origin, and redeem it on a chosen ten…",
+      "summary": "High Fider vulnerability, CVSS 8.8, found by winfunc's AI agent. An attacker could start OAuth with a poisoned Host, receive the victim's still-unused…",
       "title": "OAuth host poisoning enables cross-tenant account takeover"
     },
     {
@@ -3607,7 +3607,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An unauthenticated attacker could complete public signup for their own Fider tenant, then present the temporary parent-domain cookie to an existing vict…",
+      "summary": "Critical Fider vulnerability, CVSS 10.0, found by winfunc's AI agent. An unauthenticated attacker could complete public signup for their own Fider tenant…",
       "title": "Domain-wide signup session enables cross-tenant administrator takeover"
     },
     {
@@ -4617,7 +4617,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-07-27T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An ordinary authenticated analytics user could inject Presto/Trino syntax through a semantic string filter, comment out the row-level predicate appended…",
+      "summary": "High Cube vulnerability, CVSS 7.7, found by winfunc's AI agent. An ordinary authenticated analytics user could inject Presto/Trino syntax through a semantic…",
       "title": "Presto and Trino filter interpolation bypasses row-level security"
     },
     {

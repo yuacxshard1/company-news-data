@@ -7,7 +7,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-08T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The stream/SSE MCP setup command placed the user's reusable Fly API token in a client configuration argument list. On a normal Unix umask 022, the confi…",
+      "summary": "High flyctl vulnerability, CVSS 8.2, found by winfunc's AI agent. The stream/SSE MCP setup command placed the user's reusable Fly API token in a client…",
       "title": "MCP client setup exposes Fly API tokens to other local users"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A guest could capture a legitimate low amount, enlarge the same mutable order, and have Sylius mark the enlarged order paid while the payment provider h…",
+      "summary": "High Sylius vulnerability, CVSS 7.5, found by winfunc's AI agent. A guest could capture a legitimate low amount, enlarge the same mutable order, and have…",
       "title": "Captured payment can be reused after cart total inflation"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-10T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A participant with a legitimate regex-scoped JWT could join a protected room that the issuer's signed pattern did not authorize. A claim such as ^team-%…",
+      "summary": "High Jitsi Meet vulnerability, CVSS 7.1, found by winfunc's AI agent. A participant with a legitimate regex-scoped JWT could join a protected room that the…",
       "title": "Regex room-claim case mutation permits unauthorized protected-meeting access"
     },
     {
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-09T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An ordinary authenticated user with read access to one database could invoke the special transaction abort endpoint and terminate other users' active mo…",
+      "summary": "High ArangoDB vulnerability, CVSS 7.1, found by winfunc's AI agent. An ordinary authenticated user with read access to one database could invoke the special…",
       "title": "Read-only users can cancel modification queries across users and databases"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An ordinary customer could change their shop email to collide with an API administrator's identifier, obtain a normal shop JWT, and replay it to the adm…",
+      "summary": "High Sylius vulnerability, CVSS 8.8, found by winfunc's AI agent. An ordinary customer could change their shop email to collide with an API administrator's…",
       "title": "Shop JWT identifier collision enables admin API takeover"
     },
     {
@@ -67,7 +67,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-09T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A token-authenticated participant whose JWT disabled recording, livestreaming, transcription, and outbound calls could retain those capabilities after a…",
+      "summary": "High Jitsi Meet vulnerability, CVSS 8.1, found by winfunc's AI agent. A token-authenticated participant whose JWT disabled recording, livestreaming…",
       "title": "Demoted participants retain moderator recording and dial-out permissions"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An unauthenticated attacker could request an administrator password reset with an attacker-controlled Host header. The legitimate email then contained t…",
+      "summary": "High Sylius vulnerability, CVSS 8.8, found by winfunc's AI agent. An unauthenticated attacker could request an administrator password reset with an…",
       "title": "Administrator password-reset link poisoning enables account takeover"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An administrator limited to one Vendure channel could list and retrieve administrators assigned exclusively to other channels, exposing staff names, ema…",
+      "summary": "High Vendure vulnerability, CVSS 7.7, found by winfunc's AI agent. An administrator limited to one Vendure channel could list and retrieve administrators…",
       "title": "Channel-scoped administrators can read the global administrator directory"
     }
   ],

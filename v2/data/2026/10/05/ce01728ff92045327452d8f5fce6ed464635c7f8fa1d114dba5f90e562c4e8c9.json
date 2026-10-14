@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ce01728ff92045327452d8f5fce6ed464635c7f8fa1d114dba5f90e562c4e8c9",
+  "company_key": "yc-yuma-ai",
+  "company_name": "Yuma AI",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://yuma.ai/blogs/save-subscription-cancellations-with-ai",
+  "canonical_url": "https://yuma.ai/blogs/save-subscription-cancellations-with-ai",
+  "title": "AI subscription cancellation flow: turn cancel requests into saved subscribers",
+  "summary": "Turn subscription cancel requests into saves with AI: match each reason to one offer (skip, pause or swap), apply it in Recharge or Skio and track retention.",
+  "body_markdown": "### What is a subscription cancellation flow?\n\n\nA subscription cancellation flow is the set of steps a customer goes through when they ask to cancel. A good one finds out why they want to leave, offers one relevant alternative such as a skip, pause or product swap, and cancels straight away if the customer still wants to go.\n\n\n### How does AI reduce subscription churn?\n\n\nAn AI agent answers every cancel request at once, at any hour, reads the subscription in your subscription app and makes the offer that matches the stated reason. Customers who only needed a skip or a pause stay subscribed, and every conversation is tagged with a reason, so you can see why subscribers leave.\n\n\n### Which subscription apps does this playbook work with?\n\n\nYuma connects to[Recharge](https://yuma.ai/integrations/recharge) ,[Skio](https://yuma.ai/integrations/skio) ,[Loop Subscriptions](https://yuma.ai/integrations/loop-subscriptions) and other subscription apps on Shopify. The actions available, such as skip, pause, swap or discount, depend on what each app supports.\n\n\n### Will the AI agent make it hard for customers to cancel?\n\n\nNo. The playbook makes one offer per conversation and cancels right away if the customer declines or repeats the request. Your tests should include a customer who says \"cancel now\", and the expected result is an immediate cancellation. Follow the auto-renewal and consumer protection rules in each market you sell in.\n\n\n### How do I know if a save offer worked?\n\n\nLook at how many saved subscribers are still active 30 and 60 days later, not only at whether they accepted the offer. Prompt 5 in this playbook gives you that breakdown by reason and by offer.",
+  "published_at": "2026-10-05T11:47:36+00:00",
+  "first_seen_at": "2026-10-14T15:18:10.132677+00:00",
+  "content_hash": "sha256:4283e722610afc62a9936292bb83e851488cc948e07c3069a6e699ad464bccc3"
+}

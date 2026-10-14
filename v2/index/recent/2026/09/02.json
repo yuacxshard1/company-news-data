@@ -2457,7 +2457,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A guest could capture a legitimate low amount, enlarge the same mutable order, and have Sylius mark the enlarged order paid while the payment provider h…",
+      "summary": "High Sylius vulnerability, CVSS 7.5, found by winfunc's AI agent. A guest could capture a legitimate low amount, enlarge the same mutable order, and have…",
       "title": "Captured payment can be reused after cart total inflation"
     },
     {
@@ -5307,7 +5307,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An ordinary customer could change their shop email to collide with an API administrator's identifier, obtain a normal shop JWT, and replay it to the adm…",
+      "summary": "High Sylius vulnerability, CVSS 8.8, found by winfunc's AI agent. An ordinary customer could change their shop email to collide with an API administrator's…",
       "title": "Shop JWT identifier collision enables admin API takeover"
     },
     {
@@ -7847,7 +7847,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An unauthenticated attacker could request an administrator password reset with an attacker-controlled Host header. The legitimate email then contained t…",
+      "summary": "High Sylius vulnerability, CVSS 8.8, found by winfunc's AI agent. An unauthenticated attacker could request an administrator password reset with an…",
       "title": "Administrator password-reset link poisoning enables account takeover"
     },
     {
@@ -8787,7 +8787,7 @@
       "first_seen_at": "2026-09-14T16:27:47.243795+00:00",
       "published_at": "2026-09-02T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "An administrator limited to one Vendure channel could list and retrieve administrators assigned exclusively to other channels, exposing staff names, ema…",
+      "summary": "High Vendure vulnerability, CVSS 7.7, found by winfunc's AI agent. An administrator limited to one Vendure channel could list and retrieve administrators…",
       "title": "Channel-scoped administrators can read the global administrator directory"
     },
     {

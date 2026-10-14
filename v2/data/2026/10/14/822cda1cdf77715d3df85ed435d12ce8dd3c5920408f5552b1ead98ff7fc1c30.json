@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "822cda1cdf77715d3df85ed435d12ce8dd3c5920408f5552b1ead98ff7fc1c30",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/salesforce-slack-integration-limits-and-setup-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/salesforce-slack-integration-limits-and-setup-in-2026",
+  "title": "Salesforce Slack Integration Limits and Setup in 2026",
+  "summary": "Salesforce Slack integration via the native app quickly surfaces records and alerts in Slack, though teams needing custom workflows may reach for…",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce field mapping is settled, four setup questions come up right after it, and each has a short answer.\n\n\n### Is the Salesforce Slack integration free?\n\n\nNot in a way that helps you plan. The Slack app for Salesforce isn't sold as a separate product, but it only works if both sides already qualify.\n\n\nYour Salesforce edition has to support it, and your Slack plan has to allow the app and the permissions it asks for.\n\n\nIf your workspace is on the free Slack plan, that's the usual place this breaks, because app and admin limits there can block the connection before it starts.\n\n\nTreat the cost as the licences you already need, and check both sides before promising anyone a free pilot.\n\n\n### Can I connect Salesforce to Slack without an admin?\n\n\nNo, not for the setup itself. Installing the package in Salesforce needs someone with admin rights there, and approving the app in Slack needs a workspace owner or admin, or whoever your workspace has delegated app approval to.\n\n\nThat's the \"admin-heavy\" part of the native route.\n\n\nWhat a non-admin can usually do afterwards is link their own Salesforce user to Slack and use the features an admin has switched on. If you have no admin access on either side, your first deliverable is a request ticket, not a flow.\n\n\n### Does it work with Salesforce Professional edition?\n\n\nCheck before you build anything. Edition decides which features and API access you get, and Professional is the tier where integrations most often hit a wall. Some connectors need API access that Professional doesn't include by default, though it may be available as an add-on.\n\n\nConfirm your edition's Slack support and API access in Salesforce's own documentation or with your account executive, not from a forum thread.\n\n\nIf the native app isn't available to you, a workflow tool that talks to Salesforce through its API only helps if your edition exposes that API.\n\n\n### How do I disconnect Salesforce from Slack?\n\n\nDisconnect on both sides, or **you'll leave half of it running** . In Salesforce, an admin removes the Slack connection and uninstalls the related package in Setup. In Slack, a workspace admin removes the Salesforce app from the workspace's app management page.\n\n\nDo the Salesforce side first so no new notifications are sent into a channel with a dead app.\n\n\nThen check channels for leftover alert subscriptions and any workflow that still references the old connection. Individual users can also unlink their own accounts, but that doesn't remove the workspace-level install.",
+  "published_at": "2026-10-14T10:56:25+00:00",
+  "first_seen_at": "2026-10-14T15:20:55.606062+00:00",
+  "content_hash": "sha256:23b386a190c889983e834195f4dcd5d7e57bde666f64cda6c19af5e667f49d4b"
+}

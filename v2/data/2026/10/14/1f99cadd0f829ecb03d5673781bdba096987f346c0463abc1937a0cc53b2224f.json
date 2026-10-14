@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1f99cadd0f829ecb03d5673781bdba096987f346c0463abc1937a0cc53b2224f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/klaviyo-shopify-integration-setup-and-pricing-2026",
+  "canonical_url": "https://www.activepieces.com/blog/klaviyo-shopify-integration-setup-and-pricing-2026",
+  "title": "Klaviyo Shopify Integration: Setup and Pricing (2026)",
+  "summary": "Klaviyo Shopify integration syncs orders, customers, products, and consent at no cost. Review exactly what data transfers and what your store doesn't sync.",
+  "body_markdown": "## Check Klaviyo Shopify settings after going live\n\n\nA passing first test doesn't prove the connection will keep working. Three settings decide that: the historical sync, the consent options, and the onsite tracking embed. Each one fails quietly, so check them before building flows on top.\n\n\n### Historical sync and how long it takes\n\n\nOnce you connect, Klaviyo pulls in existing customers, orders and products in the background. Klaviyo doesn't promise a fixed time, and a large catalogue or long order history means profiles and past orders appear in stages.\n\n\nDon't judge the connection by an empty segment on day one. Wait until the sync status shows it finished, then build segments or flows that depend on purchase history. Otherwise a \"has not purchased\" filter will wrongly include customers whose orders haven't arrived yet.\n\n\n### Consent and the subscriber list\n\n\nKlaviyo reads the consent that Shopify records.\n\n\nShopify's checkout settings control whether shoppers see an email or SMS opt-in box at checkout, and Klaviyo's Shopify settings control whether that consent syncs and which list new subscribers join.\n\n\nIf the checkout box is off, new buyers arrive as profiles with no marketing consent, and a campaign sent to your list will skip them. If the sync option is off, the consent Shopify holds never reaches Klaviyo.\n\n\nCheck both sides, then place a test order with the box ticked and confirm the profile lands on the right list.\n\n\n### Enable Klaviyo Shopify onsite tracking with app embed\n\n\nOne kind of data behaves differently: browsing behavior. Order events come through the Shopify connection itself, but Viewed Product, Active on Site and Added to Cart depend on Klaviyo's onsite script, which you switch on as an app embed in the Shopify theme editor.\n\n\nIf the toggle is off, abandoned-cart and browse-abandonment flows have no trigger, even though order-based flows work fine. The toggle belongs to the theme, so publishing a new theme or switching themes can leave it off.\n\n\nOnce a workflow tool is writing into your Klaviyo account, the same question applies to it: who changed what, and when. Activepieces answers that with audit logs, and with custom RBAC, SSO and SCIM in the same product, whether you self-host it or use cloud.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run it in production.",
+  "published_at": "2026-10-14T10:49:50+00:00",
+  "first_seen_at": "2026-10-14T15:20:55.606062+00:00",
+  "content_hash": "sha256:8688ca03f1116e06fd23035b543f13db33b07b9fceaeca91206386d5ea9d9e80"
+}

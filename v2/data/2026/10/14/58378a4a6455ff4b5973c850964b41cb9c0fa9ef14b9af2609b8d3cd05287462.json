@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "58378a4a6455ff4b5973c850964b41cb9c0fa9ef14b9af2609b8d3cd05287462",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/tri-modal-masked-diffusion",
+  "canonical_url": "https://machinelearning.apple.com/research/tri-modal-masked-diffusion",
+  "title": "The Design Space of Tri-Modal Masked Diffusion Models",
+  "summary": "Discrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2602.21472)\n\n\nDiscrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and finetuning a base unimodal model for bi-modal generation. Diverging from previous approaches, we introduce the first tri-modal Masked Diffusion Models (MDM) pretrained from scratch on text, image-text, and audio-text data. We systematically analyze multimodal scaling laws, modality mixing ratios, noise schedules, batch-size effects and provide optimized inference sampling defaults. Our batch-size analysis yields a novel stochastic differential equation (SDE) based reparameterization, eliminating the need for tuning the optimal batch size as reported in recent work. This reparameterization decouples the physical batch size, often chosen based on compute (GPU saturation, FLOP-efficiency, wall-clock time) from the logical batch size, chosen to balance the variance of gradients during stochastic optimization. Finally, we pretrain a preliminary model showcasing the capabilities of a unified design, achieving strong results at 3B model scale (6.4T tokens), in both text generation, T2I tasks, and T2S tasks. Our work represents the largest scale systematic open study of multimodal discrete diffusion models conducted to date, providing valuable insights into scaling behaviors across multiple modalities.\n\n\n- † University of Cambridge\n- ‡ MIT\n- § Google DeepMind\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-10-14T17:28:02.445946+00:00",
+  "content_hash": "sha256:f7163fe3d3cb2ba23813c68a049bacf9669d2e23af4332601eea13553eedbc2f"
+}
