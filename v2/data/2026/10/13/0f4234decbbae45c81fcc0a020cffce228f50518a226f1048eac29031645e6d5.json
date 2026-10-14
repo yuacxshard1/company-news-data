@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0f4234decbbae45c81fcc0a020cffce228f50518a226f1048eac29031645e6d5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
+  "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
+  "summary": "Discover more about what's new at AWS with Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
+  "body_markdown": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing RunningTaskCount metric in Amazon CloudWatch Container Insights no longer incurs a charge.\n\n\nLiveTaskCount reports the number of actively running ECS tasks across all desired states (ACTIVATING, RUNNING, and DEACTIVATING), including tasks still running while transitioning to a stopped state, for example, tasks undergoing connection draining during a scale-in event. This comprehensive state coverage makes LiveTaskCount well suited for autoscaling policies and capacity planning where a complete view of active, metric-generating tasks is required. It is available at no charge as part of ECS service utilization metrics and does not require opting in to CloudWatch Container Insights. The existing CloudWatch Container Insights RunningTaskCount metric tracks tasks where both the current and desired state are RUNNING, and continues to serve as a health and stability signal for customers who depend on it. With today's update, RunningTaskCount is now available at no additional charge for all CloudWatch Container Insights users.\n\n\nThese updates are available in all AWS Regions where Amazon ECS is available. No action is required, and the pricing change for RunningTaskCount takes effect beginning October 1, 2026, and applies automatically. To learn more, see[ECS CloudWatch metrics](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service_utilization.html#cw_live_task_count) and[ECS Container Insights metrics](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-container-insights.html) . For a pricing example, see[Amazon CloudWatch pricing](https://aws.amazon.com/cloudwatch/pricing/) .",
+  "published_at": "2026-10-13T22:00:00+00:00",
+  "first_seen_at": "2026-10-14T02:53:49.177815+00:00",
+  "content_hash": "sha256:31be20b48ce7497883a44c63c84e83d4f4e07c3b8414972845e53a48db4bc6ac"
+}

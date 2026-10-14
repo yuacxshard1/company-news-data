@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "72324d4861aa2037fd7563c718df0678ed8359fb061657e5270d51dda28f6ceb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
+  "title": "AWS Security Hub now supports resource criticality for prioritization",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub now supports resource criticality for prioritization",
+  "body_markdown": "Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources.\n\n\nYou can set criticality with an automation rule, for example marking every compute resource in a specific account as Very High. The rule applies to resources already in your inventory and to new resources as Security Hub discovers them. Security Hub also infers criticality from resource tags and resource names, with no configuration required, and records which source determined the value. Criticality appears as a column on the Resources page for sorting, filtering, and grouping, and on the Impact assessment tab of an exposure finding. Resource criticality is included with Security Hub Essentials at no additional cost and is always on for all customers.\n\n\nResource criticality is included with Security Hub Essentials at no additional cost and requires no new enablement. To learn more, see[AWS Security Hub User Guide](https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html) and the[AWS Security Hub product page](https://aws.amazon.com/security-hub/) . For a list of AWS Regions where Security Hub is available, see the[AWS Region table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .",
+  "published_at": "2026-10-14T01:00:00+00:00",
+  "first_seen_at": "2026-10-14T02:53:49.177815+00:00",
+  "content_hash": "sha256:fbf88c73a70ab6ed59ba51d6daf9aacfff8e43d4c799b42c1aca62493db869ce"
+}

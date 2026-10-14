@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f458aa02894035352c5b3a49f9da8f5f5c5dd54973ba38d27c9df9e2db58da0c",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/mix-dont-tune",
+  "canonical_url": "https://machinelearning.apple.com/research/mix-dont-tune",
+  "title": "Mix, Don’t Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings",
+  "summary": "For most languages of the world, language model pre-training operates in a data-constrained regime where models must repeat their training…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2605.13225)\n\n\nFor most languages of the world, language model pre-training operates in a data-constrained regime where models must repeat their training data many times, degrading generalization. Two remedies exist: aggressive hyperparameter tuning such as high weight decay, and mixing in data from a high-resource auxiliary language to directly aid the low-resource target. While hyperparameter tuning regularizes the model by shrinking weights to restrict network capacity, auxiliary data mixing uses a tunable mixing ratio to expand the training distribution and diversify the training signal with new knowledge. Both offer a principled way to improve training in a data-constrained domain. We compare these levers systematically across four model scales from 150M to 1.43B parameters, using Arabic as the low-resource target and English as the auxiliary, over approximately 1000 pre-training runs. Three findings emerge. First, mixing yields larger improvements than hyperparameter tuning on both validation loss and downstream task accuracy, and the gap grows with model size. Second, we quantify how much mixing helps: it boosts performance by an amount equivalent to 2–3× the unique target data on validation loss and 2–13× on downstream task accuracy, with the gain scaling steeply with model size. Third, this divergence reveals that target-language validation loss systematically underestimates mixing’s value. Mixing regularizes by diversifying the training signal and contributes knowledge the repeated target corpus cannot supply; validation loss captures only the first effect. Our practical recommendations are: mix in a high-resource language, prioritize the mixing ratio over hyperparameter tuning, and transfer hyperparameters from a small proxy model via μP.\n\n\n- † DTU\n- ‡ Equal senior authorship\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-10-14T02:04:45.347741+00:00",
+  "content_hash": "sha256:a54f0517bd242ed687321c425d8dfe7300dc227a4b3a76c081043bb12c088481"
+}
