@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dc0742b27e6e87011c40cf3e1ee77e22ec62ba4d562ff72423aa9a8080bbd866",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-agent37-features-pricing-alternatives-2026",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-agent37-features-pricing-alternatives-2026",
+  "title": "What Is Agent37? Features, Pricing & Alternatives (2026)",
+  "summary": "Understanding what is agent37 allows engineers to integrate persistent multi-agent workflows into existing enterprise automation stacks.",
+  "body_markdown": "## Bridging the integration gap with Activepieces\n\n\nWhile Agent37 provides the stateful memory required for long-running tasks, it remains isolated from the SaaS ecosystem without a dedicated orchestration layer. Activepieces solves this by serving as the connective tissue between the Agent37 sandbox and your business applications.\n\n\nBy deploying the MIT-licensed Activepieces core, you gain access to a visual workflow builder that handles the OAuth2 authentication and API schema mapping that Agent37 lacks natively.\n\n\nThis allows you to trigger agentic reasoning from a Salesforce update or a Slack message without writing the boilerplate code typically required for manual HTTP bridging.\n\n\nThe platform provides full visibility into the execution of these connections, which is critical when debugging autonomous agents.\n\n\nEvery interaction between Agent37 and an external service is captured in a detailed run trace, allowing you to inspect the exact JSON payload sent to a tool and the resulting state change.\n\n\nThis transparency ensures that the \"black box\" of agentic decision-making is replaced by an auditable trail. Because the engine is open source, organizations can verify the security of their data pipelines, ensuring that sensitive credentials never leave their controlled environment.\n\n\nFor teams scaling beyond a single worker, Activepieces offers a per-project MCP server that exposes its library of 739 integrations directly to the agent as executable tools, providing a vast automation surface that significantly reduces the manual effort required to connect disparate software systems, which means developers can automate complex workflows without needing to build custom connectors from scratch.\n\n\nThis architecture is used in production by firms like MoneyGram and Moneypenny to maintain reliable automation at scale.\n\n\nInstead of manually defining tool definitions for every new service, you can point Agent37 at the Activepieces interface to instantly grant it the ability to read from a database, update a project management board, or send an invoice, all while maintaining the persistent state provided by the 37Signals framework.",
+  "published_at": "2026-10-14T01:15:03+00:00",
+  "first_seen_at": "2026-10-13T13:48:22.337210+00:00",
+  "content_hash": "sha256:92f355d195307d2ef33d8e88125032506878136bdb33b6ce8b7b1761598d8836"
+}
