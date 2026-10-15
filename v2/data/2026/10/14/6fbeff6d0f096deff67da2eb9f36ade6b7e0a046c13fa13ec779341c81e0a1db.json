@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6fbeff6d0f096deff67da2eb9f36ade6b7e0a046c13fa13ec779341c81e0a1db",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-secrets-host-keys/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-secrets-host-keys/",
+  "title": "AWS Transfer Family now supports AWS Secrets Manager storage for SFTP server host keys",
+  "summary": "Discover more about what's new at AWS with AWS Transfer Family now supports AWS Secrets Manager storage for SFTP server host keys",
+  "body_markdown": "AWS Transfer Family now lets you store SFTP server host keys in AWS Secrets Manager in your own AWS account. This gives you greater control over your server identity and helps simplify server migrations and failover.\n\n\nPreviously, Transfer Family stored host keys within the service, so you could not retrieve the associated private key material. With this launch, you can choose Secrets Manager as the storage type when creating a server or importing a host key. You can then retrieve the private key material and reuse the same host key across servers and AWS Regions. For example, you can use it on a standby server for failover or on a replacement server during migration, without requiring clients to trust a new host key. AWS Identity and Access Management (IAM) policies let you control who can retrieve the stored keys. You can also migrate existing host keys to Secrets Manager, which may require additional steps; see the AWS Transfer Family User Guide for details.\n\n\nThis capability is available in all AWS Regions where AWS Transfer Family is available. To learn more, see[Store SFTP server host keys in AWS Secrets Manager](https://docs.aws.amazon.com/transfer/latest/userguide/configuring-servers-change-host-key.html) in the AWS Transfer Family User Guide. To get started, go to the[AWS Transfer Family console](https://console.aws.amazon.com/transfer/home) .",
+  "published_at": "2026-10-14T08:00:00+00:00",
+  "first_seen_at": "2026-10-15T00:16:10.641168+00:00",
+  "content_hash": "sha256:41f68658dd8b0aa44e31e1578627b20e4308e623477c788c13af14abecbff3b9"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2ae9085c5d954b57edcad345474d326c4edce256ff9907e2f87863183e520502",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/",
+  "title": "Announcing Blockchain Snapshots on AWS for node bootstrapping",
+  "summary": "Discover more about what's new at AWS with Announcing Blockchain Snapshots on AWS for node bootstrapping",
+  "body_markdown": "For blockchain node operators running Ethereum or Solana, AWS is announcing Blockchain Snapshots on AWS, an initiative that publishes pre-synced public blockchain node chain data in[Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/) so you can bootstrap a node from a snapshot instead of peer-to-peer syncing from the network. These snapshots are hosted on Amazon S3 within AWS infrastructure, enabling customers running nodes on AWS benefit from reduced latency and optimized data transfer. Blockchain Snapshots on AWS republishes each network's authoritative snapshot in a format optimized for parallel extraction across multiple cores, reducing setup time, that an[Amazon Elastic Compute Cloud (Amazon EC2)](https://aws.amazon.com/ec2/) instance can use.\n\n\nSnapshots cover Ethereum and Solana, are available at no charge, and refresh on the same cadence as the upstream provider. Use them to add capacity to a remote procedure call (RPC) fleet, recover a failed node, or re-sync a corrupted database.\n\n\nYou can use Blockchain Snapshots on AWS in the following AWS Regions: US East (N. Virginia), Europe (Ireland), and Asia Pacific (Tokyo). Access requires an Amazon EC2 instance in the same Region with an Amazon S3 gateway VPC endpoint.\n\n\nTo get started, visit the[Blockchain Snapshots on AWS documentation](https://awslabs.github.io/blockchain-snapshots/) to access setup instructions and download the latest snapshots.",
+  "published_at": "2026-10-14T08:00:00+00:00",
+  "first_seen_at": "2026-10-15T00:16:10.641168+00:00",
+  "content_hash": "sha256:6756c5c480f9b41e15cc9f5256380060f4695881648d26309062a50291900e12"
+}

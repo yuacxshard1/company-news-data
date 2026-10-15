@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4e7d92c56c686d52094ab45dc25175f90c7ad5d553ec1f5b9007fbe15a08d703",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
+  "title": "ARC Region switch adds four new capabilities",
+  "summary": "Discover more about what's new at AWS with ARC Region switch adds four new capabilities",
+  "body_markdown": "# ARC Region switch adds four new capabilities\n\n\nPosted on: Oct 14, 2026\n\n\nAmazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four new capabilities: AWS Systems Manager Run Command execution block, payloads for custom action Lambda execution block, service quota parity checks, and wait for target group health feature for compute scaling actions.\n\n\n**AWS Systems Manager Run Command execution block.** During failover, you often need to run commands on managed instances and VMs. This execution block lets you invoke Run Command actions on managed instances during failover, with plan evaluation verifying that command documents target valid instances and that IAM permissions are correctly configured.\n\n\n**Payloads for custom action Lambda execution block.** ARC Region switch now lets you pass payloads to your custom action Lambda execution block, allowing reusability of your Lambda functions across recovery plans.\n\n\n**Service quota checks.** Service quota limits are a common failure mode during recovery. Region switch now verifies quota parity between your primary and standby Region, and automatically submits quota limit increases, reducing the risk of insufficient service quotas during recovery.\n\n\n**Wait for target group health.** Amazon ECS service scaling and Amazon EC2 Auto Scaling group execution blocks help you provision compute capacity during recovery, but provisioned capacity may not be ready to serve traffic. The optional wait for target group health feature verifies that your provisioned capacity is ready to serve traffic.\n\n\nTo get started, see the documentation for[AWS Systems Manager Run Command execution block](https://docs.aws.amazon.com/r53recovery/latest/dg/ssm-send-command-block.html) ,[custom action Lambda execution block](https://docs.aws.amazon.com/r53recovery/latest/dg/custom-action-lambda-block.html) ,[Service quota checks](https://docs.aws.amazon.com/r53recovery/latest/dg/working-with-rs-service-quota-checks.html) and the Wait for target group health for[Amazon ECS service scaling execution block](https://docs.aws.amazon.com/r53recovery/latest/dg/ecs-service-scaling-block.html) and[Amazon EC2 Auto Scaling group execution block](https://docs.aws.amazon.com/r53recovery/latest/dg/ec2-auto-scaling-block.html) .\n\n\nARC Region switch is available in all commercial and AWS GovCloud (US) Regions. See[ARC Region switch availability](https://docs.aws.amazon.com/r53recovery/latest/dg/aws-regions-rs.html) .",
+  "published_at": "2026-10-14T17:38:00+00:00",
+  "first_seen_at": "2026-10-15T00:16:10.641168+00:00",
+  "content_hash": "sha256:2feee958820289c53ef269159a4e4b1248541e0abc9e2536d867c9650a2bf4b4"
+}
