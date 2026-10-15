@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d948fc4bf131498cfa10b3a42aab5ea490f866dcac1d4a066d792090de246cb0",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/supabase-go-public-alpha",
+  "canonical_url": "https://supabase.com/changelog/supabase-go-public-alpha",
+  "title": "[Public Alpha] Supabase Go SDK",
+  "summary": "[Public Alpha] Supabase Go SDK",
+  "body_markdown": "## What's new#\n\n\nThe Supabase Go SDK is on[pkg.go.dev](https://pkg.go.dev/github.com/supabase/supabase-go/supabase) as a public alpha.\n\n\nIt covers two surfaces:\n\n\n- **Database** : A chained query builder over PostgREST for reads (filtered, ordered, and paginated), writes (insert, upsert, update, and delete), and Postgres function calls. A query can run as a signed-in user, so that user's Row Level Security policies apply.\n- **Auth** : Server-side verification of end-user access tokens.` GetClaims` checks a token against the project's published signing keys and returns its claims.` GetUser` fetches the user's current profile from the Auth server.\n\n\nShared options cover a custom HTTP client, global headers, automatic retries, and debug logging through` log/slog` .\n\n\nAlpha means the public API may change in breaking ways between releases until v1.0.0. This release does not cover Storage, Realtime, or Edge Functions.",
+  "published_at": "2026-10-05T00:00:00+00:00",
+  "first_seen_at": "2026-10-15T00:51:30.502455+00:00",
+  "content_hash": "sha256:a7d498d34fe3cc4ffb488f6b6eefd9ebb8f71035d73f9b68c0c7f1a183f30bcb"
+}
