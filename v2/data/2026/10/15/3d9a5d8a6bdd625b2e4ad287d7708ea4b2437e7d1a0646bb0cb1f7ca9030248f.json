@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3d9a5d8a6bdd625b2e4ad287d7708ea4b2437e7d1a0646bb0cb1f7ca9030248f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/command-a-api-pricing-2026-token-costs-and-rates",
+  "canonical_url": "https://www.activepieces.com/blog/command-a-api-pricing-2026-token-costs-and-rates",
+  "title": "Command A+ API Pricing 2026: Token Costs and Rates",
+  "summary": "Command A+ API pricing charges per million tokens separately for input and output, helping you budget for each tier's costs.",
+  "body_markdown": "## Routing cheap steps away from Command A+ in Activepieces\n\n\nTo do this in Activepieces, build the routing as separate flows by task type. Flows are available on every plan, including free, within each plan's credits, so splitting a classifier from a drafter adds nothing to the plan price.\n\n\n### Sending each step to the right model\n\n\nSend classification and summary steps to a cheap model, and hard reasoning and long documents to Command A+.\n\n\nTo see whether this pays, look at the[RouteLLM project at UC Berkeley's Sky Lab](https://sky.cs.berkeley.edu/project/routellm/) , which measured how much cost drops when cheap queries are kept off the expensive model.\n\n\nOn MT Bench the reduction was 85%, so for conversational, open-ended prompts most of the bill disappears.\n\n\nOn MMLU it was 45%, so knowledge questions still save close to half. On GSM8K it was 35%, so maths-style reasoning saves the least, because fewer queries can safely go to the cheaper model.\n\n\nThe same router gives three very different savings, which means your own saving depends on your mix of steps, not on a headline number.\n\n\nThose results come from a research router, not from Activepieces. In Activepieces you write the routing rule yourself, as a branch condition.\n\n\nThe models run on your own provider key, so the Command A+ calls bill at Cohere's per-token rates on your Cohere account rather than at a markup on a model the platform resells.\n\n\nBring-Your-Own-Key availability is listed by tier on the Activepieces pricing page, where Free is $0 with 1,000 credits a month and unlimited flows, Plus is $20 a month and Team is $200 a month.\n\n\nSet the rate on your own Cohere account against what a platform charges when it resells its own model, and that gap is your markup.\n\n\nAmong Activepieces' 741 integrations, we couldn't confirm a Cohere-published page for Command A+, so the call is best treated as an HTTP request step to Cohere's API.\n\n\n### Capping spend with conditions and run history\n\n\nOn the Free plan, credits run out at 1,000 a month and flows then wait for the next day's credits, so a flow that branches early keeps expensive steps to a minimum.\n\n\nAdd a condition on input length before the Command A+ path, so only genuinely long documents reach it.\n\n\nOnce runs accumulate, run history shows which path each run took. You can count how many runs hit Command A+ and tighten the condition if that share is higher than your task mix justifies. It's a review loop, not an automatic spend cap.",
+  "published_at": "2026-10-15T05:52:58+00:00",
+  "first_seen_at": "2026-10-15T09:00:03.756744+00:00",
+  "content_hash": "sha256:edbb60ec85b24357eb1055d9f3423b2c429ee9770bcddadc5f867da306fa4f73"
+}

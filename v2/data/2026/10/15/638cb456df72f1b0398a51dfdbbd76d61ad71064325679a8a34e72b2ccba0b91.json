@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "638cb456df72f1b0398a51dfdbbd76d61ad71064325679a8a34e72b2ccba0b91",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/step-5-api-pricing-cost-per-token-and-per-task-2026",
+  "canonical_url": "https://www.activepieces.com/blog/step-5-api-pricing-cost-per-token-and-per-task-2026",
+  "title": "Step 5 API Pricing: Cost Per Token and Per Task (2026)",
+  "summary": "Step 5 API pricing spans free to enterprise tiers. Compare the monthly fee and transaction limits across plans to choose the right tier for your needs.",
+  "body_markdown": "## Step 5 plans, pricing, and limits\n\n\n### Step 5 API pricing today, tier by tier\n\n\n#### Step 5 API price per million tokens\n\n\nThe current Step 5 Preview price is 7 yuan per million input tokens on a cache miss and 20 yuan per million output tokens., and anyone budgeting a workflow built in tools like[Activepieces](https://www.activepieces.com/) should check the provider's pricing page directly.\n\n\nStep 5 API pricing is the structure of charges for using the Step 5 model through its API, covering per-million-token rates for input and output, plan and rate-limit tiers, and the extra usage that retries add to a bill.\n\n\nYou are billed per million tokens sent in and per million tokens generated, with a lower rate for input the provider has already cached. Take the numbers from the vendor's own pricing page, not from a summary like this one.\n\n\nThe meter counts tokens, and a finished task consumes tokens on both sides of it. **Output is usually the pricier side** , so a task that writes a long answer costs more than its input suggests.\n\n\n### Every plan in one table\n\n\nI mark an unconfirmed rate as such, because a guessed price is worse than a blank: you'd budget against it.\n\n\nAs of 2026-10-15 all six rates are published, so the two tiers can be ranked on price. Fill in the figures from the pricing page before you compare anything, and note the date, since rates change without notice.\n\n\n### Costs the Step 5 pricing table omits\n\n\nFill in every rate and the card is still the smallest part of the bill. It says nothing about how many output tokens a task produces, which rate-limit tier your account sits in, or how often a throttled call is retried and billed again.\n\n\nThose three set what a finished task costs.\n\n\nThat's why the comparison that matters is cost per finished task.[Activepieces](https://www.activepieces.com/) gives you unlimited flows on every plan, including free; credits meter AI usage, so cost follows the AI steps you run.\n\n\nSplitting work into smaller, more reliable steps stays free, and output volume and retries are what's left to watch.",
+  "published_at": "2026-10-15T04:26:29+00:00",
+  "first_seen_at": "2026-10-15T09:00:03.756744+00:00",
+  "content_hash": "sha256:bbe2cb17acf4a97ff43dc819bd49ccc56704b8e6f080d00fac557e6257b70af0"
+}
