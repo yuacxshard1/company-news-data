@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d05b140170d9271e101167cf994ba53ad08fab3fea4ccc0b313070b27a963d55",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-expanded-container-registry-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-expanded-container-registry-support/",
+  "title": "AWS HealthOmics expands container registry support for private workflows",
+  "summary": "Discover more about what's new at AWS with AWS HealthOmics expands container registry support for private workflows",
+  "body_markdown": "You can now use container images from registries such as Seqera (Wave), NVIDIA NGC, and Google Artifact Registry with AWS HealthOmics expanded support for third-party container registries. You can use the containerized tools your workflows already rely on, without manually migrating images into Amazon ECR or editing your workflow definitions.[AWS HealthOmics](https://aws.amazon.com/healthomics/) is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows.\n\n\nWith expanded container registry support, you can now instruct HealthOmics to copy container images, on your behalf, from newly supported registries into your Amazon ECR when running your private workflows. Previously, AWS HealthOmics could pull images only from registries supported through[Amazon ECR pull-through cache](https://aws.amazon.com/about-aws/whats-new/2025/08/aws-healthomics-third-party-container-registries-private-workflows/) (PTC). Your private workflows can now access Amazon ECR pull-through cache registries and the newly supported third party container registries, so you do not need to pull, re-push, or rewrite image URIs yourself.\n\n\nExpanded container registry support is now available in all AWS Regions where HealthOmics is available: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), Israel (Tel Aviv), and Asia Pacific (Singapore, Seoul, Tokyo). To learn more, visit the[third-party container image support documentation](https://docs.aws.amazon.com/omics/latest/dev/workflows-ecr.html) .",
+  "published_at": "2026-10-14T21:55:00+00:00",
+  "first_seen_at": "2026-10-15T18:53:15.396881+00:00",
+  "content_hash": "sha256:26883af7428507b0e9ae485f5f4508b886eacb5efa7d4387e7a9f6b6b34f397b"
+}

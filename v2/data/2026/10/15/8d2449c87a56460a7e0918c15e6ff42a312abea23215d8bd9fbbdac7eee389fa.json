@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8d2449c87a56460a7e0918c15e6ff42a312abea23215d8bd9fbbdac7eee389fa",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/telegram-api-bot-api-vs-mtproto-explained-2026",
+  "canonical_url": "https://www.activepieces.com/blog/telegram-api-bot-api-vs-mtproto-explained-2026",
+  "title": "Telegram API: Bot API vs MTProto Explained (2026)",
+  "summary": "The telegram api provides two distinct pathways for building automated messaging tools.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces provides a managed execution environment that handles the transition from simple scripts to production-grade Telegram bots without requiring you to build a custom webhook listener or rate-limiting logic.\n\n\nThe platform functions as a resilient intermediary that registers its own infrastructure as the official webhook destination for your bot token.\n\n\nThis architectural shift ensures that incoming updates are captured instantly and queued, preventing the data loss that often occurs when a self-hosted script crashes or fails to respond within Telegram’s timeout window.\n\n\nTo solve the problem of service bans, the platform implements automated concurrency control and retry logic based on the` retry_after` headers returned by the Telegram API.\n\n\nWhen you use the Telegram integration within a flow, the underlying engine (which is open-source under the MIT license) manages the pacing of outgoing requests to stay within the 30 messages per second global limit.\n\n\nThis built-in governance is a primary reason why organizations like MoneyGram and Moneypenny utilize Activepieces to automate their communication workflows, as it provides a central, auditable trace of every API interaction.\n\n\nThe platform also bridges the gap between the Telegram Bot API and modern AI development by exposing Telegram as a tool for agentic frameworks.\n\n\nThrough a per-project MCP server, you can connect your bot once and make its messaging capabilities available to models like Claude or Cursor.\n\n\nThis allows an AI agent to send production alerts or customer responses while Activepieces handles the low-level HTTPS handshakes, credential encryption, and payload formatting required to keep the bot compliant with Telegram’s strict architectural constraints.",
+  "published_at": "2026-10-15T15:22:10+00:00",
+  "first_seen_at": "2026-10-13T22:33:37.988742+00:00",
+  "content_hash": "sha256:460864a47180db86f20a1c595e17c37ea15d3cb6049922af0cf41c8019369398"
+}

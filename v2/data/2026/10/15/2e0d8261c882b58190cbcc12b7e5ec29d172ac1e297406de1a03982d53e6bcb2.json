@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2e0d8261c882b58190cbcc12b7e5ec29d172ac1e297406de1a03982d53e6bcb2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-long-term-system-table-retention-expansion/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-long-term-system-table-retention-expansion/",
+  "title": "Amazon Redshift long-term system table retention with Amazon S3 Tables is now available in additional AWS Regions",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift long-term system table retention with Amazon S3 Tables is now available in additional AWS Regions",
+  "body_markdown": "[Amazon Redshift](https://aws.amazon.com/redshift/) long-term retention for system table data through native integration with[Amazon S3 Tables](https://aws.amazon.com/s3/features/tables/) is now available in additional AWS Regions. With this feature, you can configure your Redshift system table data retention beyond the current 7-day limit to meet your compliance, auditing, and observability requirements. Once enabled, AWS automatically writes system table data to S3 Tables in[Apache Iceberg format](https://aws.amazon.com/what-is/apache-iceberg/) and manages partitioning, compaction, and retention.\n\n\nCustomers use Redshift system tables to monitor query performance, audit data warehouse activity, and meet compliance requirements. With this feature, system table data is replicated automatically, eliminating the need for custom extract transform load (ETL) pipelines and any resource contention with your production workloads. If you operate multiple data warehouses, you can consolidate their system table data into a single location for cross-warehouse observability and analysis. Because the data is stored in the open Apache Iceberg format, you can query it through Redshift,[Amazon Athena](https://aws.amazon.com/athena/) ,[DuckDB](https://duckdb.org/) , or any Iceberg-compatible engine, and build observability dashboards using AWS services or third-party tools without additional operations overhead. Additionally, the[AWS Agent Toolkit](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills) provides skills for querying system table data to surface performance insights and optimization recommendations.\n\n\nThis feature is available for Amazon Redshift Provisioned[RG](https://aws.amazon.com/redshift/features/rg/) and[RA3](https://aws.amazon.com/redshift/features/ra3/) instances and Amazon Redshift[Serverless](https://aws.amazon.com/redshift/redshift-serverless/) in the following additional AWS Regions: Asia Pacific (New Zealand), Canada West (Calgary), AWS GovCloud (US-East), and AWS GovCloud (US-West). To learn more, visit our[documentation](https://docs.aws.amazon.com/redshift/latest/mgmt/system-table-s3-tables.html) or the[blog](https://aws.amazon.com/blogs/big-data/long-term-system-tables-retention-in-amazon-redshift-with-amazon-s3-tables/) .",
+  "published_at": "2026-10-15T15:00:00+00:00",
+  "first_seen_at": "2026-10-15T18:53:15.396881+00:00",
+  "content_hash": "sha256:2d4f21ea2040ddaf30f8a5331d2779b3e4a2766bd4830a641ce263ca92abfcb7"
+}
