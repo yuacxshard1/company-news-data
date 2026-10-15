@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "19b014a60851e2c4472b4da735cb23d07565ffc48dff47acccbbf4db1f082b7e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/minicpm-v-47-35b-a3b-and-1b-models-compared",
+  "canonical_url": "https://www.activepieces.com/blog/minicpm-v-47-35b-a3b-and-1b-models-compared",
+  "title": "MiniCPM-V 4.7: 35B-A3B and 1B Models Compared",
+  "summary": "MiniCPM-V 4.7 is OpenBMB's open-source vision-language model in 35B and 1B sizes. You can self-host it to integrate with workflow tools.",
+  "body_markdown": "## How to connect MiniCPM-V 4.7 in an Activepieces workflow today\n\n\nThere's no shortcut on the Activepieces side either. Its repository and catalog list nothing specific to MiniCPM-V 4.7 as of 2026-10-15, so you reach the model through a general step.\n\n\nWe haven't run any of this, and every route below follows from the maker's description of an open model you host yourself.\n\n\nKeeping a vision model inside your boundary usually means accepting a cut-down build of whatever sits around it, but[Activepieces](https://www.activepieces.com/) doesn't sell that smaller product: its air-gapped edition ships audit logs, SSO, SCIM, custom RBAC, secret manager integration and release management exactly as the managed cloud does on its EU or US regions with SOC 2 Type II, and regulated and public-sector organisations run it in production today.\n\n\nFrom simplest to most involved, the sequence below runs in order, and each stage depends on the one before it.\n\n\nHost the model on your own endpoint first, then point an HTTP request step at it. You send the image and prompt in the body and read the reply from the response.\n\n\nThe HTTP route is the least dependent, since it needs no provider setup, but you write the request shape yourself and must match whatever your serving software expects.\n\n\nIf your serving software exposes an OpenAI-style interface, an AI step can use it as a custom provider. That saves hand-built requests and keeps the model swappable later. Whether image inputs pass through cleanly is exactly what needs testing.\n\n\n### Option 3: an MCP server\n\n\nWrap the endpoint in an MCP server (a standard way to expose tools to agents) when an agent step should decide when to look at an image. It's the most work, so choose it last.\n\n\nWhichever route you take, map the output fields to the apps you already use, such as a spreadsheet row or a ticket, and check each mapping against a real response.",
+  "published_at": "2026-10-15T09:21:27+00:00",
+  "first_seen_at": "2026-10-15T13:55:14.103764+00:00",
+  "content_hash": "sha256:8885573eb9390ddc9315dd9eefeaef4a8032ae72a8cef0b47399e46dfaf18d61"
+}

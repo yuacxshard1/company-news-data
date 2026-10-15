@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "72f56069674fca406e3b19cb3a1134f214fa01463433101dc5deb504e7928770",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/operator-builder-rights",
+  "canonical_url": "https://www.windmill.dev/changelog/operator-builder-rights",
+  "title": "Operator builder rights for flows and full-code apps",
+  "summary": "Two new toggles in the operator settings of a workspace let operators build flows and full-code apps on top of scripts and flows that are already deployed. Operators still cannot write backend scripts. Each right is granted independently, and granting either one makes the workspace's operators consume a full seat instead of half a seat.",
+  "body_markdown": "### [Operator builder rights for flows and full-code apps](https://www.windmill.dev/changelog/operator-builder-rights)\n\n\nWorkspace\n\n\nFlow editor\n\n\nApp editor\n\n\n[v1.830.0](https://github.com/windmill-labs/windmill/releases/tag/v1.830.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/roles_and_permissions#builder-rights)\n\n\nTwo new toggles in the operator settings of a workspace let operators build flows and full-code apps on top of scripts and flows that are already deployed. Operators still cannot write backend scripts. Each right is granted independently, and granting either one makes the workspace's operators consume a full seat instead of half a seat.\n\n\n#### New features\n\n\n- \"Operators can build flows\": operators create, edit and delete flows whose steps all reference existing workspace scripts or flows. Inline scripts and Hub runnables are refused.\n- \"Operators can build full-code apps\": operators write the frontend code of full-code apps whose backend runnables are existing workspace scripts or flows they can read. Low-code apps stay closed.\n- Full-code apps built by operators always run with sandbox isolation on, isolated from each viewer's Windmill session.\n- Operators only write where their folder permissions already allow it.\n- Granting either right makes every operator of the workspace a full seat; granting both costs the same as granting one.",
+  "published_at": "2026-10-09T00:00:00+00:00",
+  "first_seen_at": "2026-10-15T12:24:33.338412+00:00",
+  "content_hash": "sha256:43f24749cdc91065ed3ea3cd9c9d965ac9c6f67840cb5a3b954cfb8d0a27c4d6"
+}
