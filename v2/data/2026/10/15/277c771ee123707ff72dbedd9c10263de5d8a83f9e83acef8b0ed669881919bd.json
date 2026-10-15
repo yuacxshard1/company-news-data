@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "277c771ee123707ff72dbedd9c10263de5d8a83f9e83acef8b0ed669881919bd",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/approval-workflow-examples-steps-and-use-cases-2026",
+  "canonical_url": "https://www.activepieces.com/blog/approval-workflow-examples-steps-and-use-cases-2026",
+  "title": "Approval Workflow Examples: Steps and Use Cases (2026)",
+  "summary": "Approval workflow examples include seven templates for automating expenses, orders, and hiring approvals.",
+  "body_markdown": "## Approval workflow FAQ\n\n\n### What is an approval workflow?\n\n\nWhen a request has to pause until a named person says yes or no, then carry on with whichever answer comes back, that is an approval workflow: an automated path from request to decision.\n\n\n**A working one has an approver, a deadline and a fallback.** If any of those is missing, the request sits in someone's inbox and nothing moves.\n\n\n### What does an approval workflow cost to run?\n\n\nOf the two costs, the platform plan is the smaller, and the larger one is the approver's time, which a badly designed flow wastes with vague requests and repeat reminders.\n\n\nCheck the pricing page of whichever tool you use for current plan limits, because those change. Then test the flow on one low-risk request before you pay for anything bigger.\n\n\n### What happens if the approver doesn't respond?\n\n\nWhatever you designed for that case happens, and if you designed nothing, nothing happens. That's the failure to avoid. Pick one of these fallbacks and set it before launch:\n\n\n- A reminder to the approver after a set number of hours\n- Escalation to the approver's manager\n- A named backup approver who takes over\n- Auto-expiry, where the request closes and tells the requester it wasn't approved\n\n\nOf these, reminders alone are the weakest choice, since they only repeat the first message. Pair one with a final step that ends the wait.\n\n\n### Can I run approvals in Slack or email?\n\n\nYes, both work, and most tools let you send the request to either place. Slack suits quick, low-stakes decisions because the approver sees the buttons in the channel they already watch.\n\n\nEmail suits approvers outside your workspace or requests that need a paper trail. Whichever you choose, make sure the reply is captured by the flow itself, not by someone typing \"approved\" in a thread.",
+  "published_at": "2026-10-15T02:19:45+00:00",
+  "first_seen_at": "2026-10-15T04:15:55.303451+00:00",
+  "content_hash": "sha256:692c0feece1981d72018b46da7f46e8070dd0c2b1a88791b3e208baaf3194ac9"
+}

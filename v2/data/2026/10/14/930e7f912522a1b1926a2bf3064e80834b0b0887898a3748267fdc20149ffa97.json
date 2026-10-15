@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "930e7f912522a1b1926a2bf3064e80834b0b0887898a3748267fdc20149ffa97",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
+  "title": "Amazon CloudWatch announces log routing and chained log parsers",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch announces log routing and chained log parsers",
+  "body_markdown": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes telemetry to CloudWatch without managing infrastructure.\n\n\nLog pipelines often carry a mix of event types that belong in different places, and individual events can nest one log format inside another. With conditional log routing, you define routes that send each event to a different CloudWatch log group based on conditions evaluated against processed fields, so you can separate events by severity, source, or type and apply the right retention and access controls to each. With chained parsers, you can apply multiple parser processors in sequence, where later parsers consume fields produced by earlier ones. For example, you can parse a JSON envelope first, then apply a Grok parser to a field it extracts. Together, these capabilities let you structure diverse log formats and route them to the right log groups in a single pipeline.\n\n\nConditional routing and chained parsers are available in all commercial AWS Regions where CloudWatch pipelines is generally available. You can configure these capabilities using the AWS Management Console, AWS CLI, or AWS SDKs. To get started, see the[Amazon CloudWatch pipelines documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-pipelines.html) .",
+  "published_at": "2026-10-14T22:14:00+00:00",
+  "first_seen_at": "2026-10-15T04:20:33.980924+00:00",
+  "content_hash": "sha256:a3d4ef3d91e1d6e625add7471c96f9b818a2459f1343aa42c1488ed58a5cedb5"
+}
