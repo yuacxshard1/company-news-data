@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2d48712824e29a116d2d2583ff3279dac8c9b4637c276fc67c68384928b675e2",
+  "company_key": "yc-sixtyfour",
+  "company_name": "Sixtyfour",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sixtyfour.ai/blog/people-and-company-search-benchmark",
+  "canonical_url": "https://www.sixtyfour.ai/blog/people-and-company-search-benchmark",
+  "title": "The new Sixtyfour search, tested on Exa's own benchmarks",
+  "summary": "Sixtyfour search now puts a match first on 90.4% of the queries in Exa's people search benchmark, ahead of every published result.",
+  "body_markdown": "An open benchmark Exa published with 1,400 role-based queries, such as a job title in a particular city. An LLM judge reads each result and decides whether the person holds that role in that place. Exa also published a company search benchmark, whose retrieval track has 605 queries.\n\n\nR@1 is the share of queries where the first result matches the search. R@10 is the share where a match appears in the top ten results. Precision is the average share of returned results that match.\n\n\nSixtyfour scores higher on all six measures. On people search, the first result matches on 90.4% of queries against Exa's 72.0%, and precision is 82.8% against 63.3%. On company search, the first result matches on 86.4% of queries against 61.8%. Exa's figures are the results it publishes in its benchmark repository.\n\n\nJuicebox reports 79% on Exa's people search benchmark. The comparison figures it published beside that number are Exa's precision results, so it compares with Sixtyfour's precision of 82.8%.\n\n\nYes. The queries, grading prompts and evaluation harness are open source in Exa's benchmarks repository on GitHub. We graded with GPT-5.4, the default grader in Exa's benchmark scripts until September 2026.\n\n\nNatural-language people and company searches in the Sixtyfour app, the API and the MCP server. Searches built from filters work as before.",
+  "published_at": "2026-10-13T00:00:00+00:00",
+  "first_seen_at": "2026-10-16T14:49:29.907198+00:00",
+  "content_hash": "sha256:0b140b822f6f7a232b764c2961a9956cdcf3284e8b439d7d33e03124d43817fa"
+}

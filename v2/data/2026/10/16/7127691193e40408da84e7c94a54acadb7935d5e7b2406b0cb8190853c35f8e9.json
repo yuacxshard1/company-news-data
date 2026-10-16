@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7127691193e40408da84e7c94a54acadb7935d5e7b2406b0cb8190853c35f8e9",
+  "company_key": "yc-depot",
+  "company_name": "Depot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://depot.dev/blog/when-boxes-are-mia",
+  "canonical_url": "https://depot.dev/blog/when-boxes-are-mia",
+  "title": "The multi-armed bandit approach to securing EC2 instances",
+  "summary": "Better guesses about available capacity meant fewer failed requests. Our jobs spent less time waiting, and we avoided costly moves to other regions.",
+  "body_markdown": "Fewer attempts to get compute capacity failed, jobs spent considerably less time waiting, and we didn't have to switch regions to keep them running. The catch? We also became less aggressive about getting our favorite compute types when things were quiet. Since this was a stopgap replacing a manual intervention, it was easy enough to toggle on and off as needed.",
+  "published_at": "2026-10-16T00:00:00+00:00",
+  "first_seen_at": "2026-10-16T15:13:57.302586+00:00",
+  "content_hash": "sha256:c1ee49f2d2f29db68e6dadd52fe584ce2fa7bcbbb3c6ba325ac12aaae6b17dd8"
+}
