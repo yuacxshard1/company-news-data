@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "02590ab9c14c4d599d6a9ab46fb20aa6306c7aaf03049f012e7d746ac29e3f0f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-ai-agent-skills/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-ai-agent-skills/",
+  "title": "Amazon Managed Workflows for Apache Airflow now offers AI agent skills",
+  "summary": "Discover more about what's new at AWS with Amazon Managed Workflows for Apache Airflow now offers AI agent skills",
+  "body_markdown": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the[Agent Toolkit for AWS](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/what-is-agent-toolkit.html) to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade MWAA environments using any AI coding assistant that supports agent skills.\n\n\nThe four skills are authoring-mwaa-workflow, debugging-mwaa-workflow, testing-mwaa-workflow, and upgrading-mwaa-environments. Together they let your AI assistant interact directly with MWAA using natural language, reducing the manual effort of building and maintaining data pipelines. For example, you can describe an ETL pipeline in plain language and the authoring skill generates a working DAG complete with task dependencies and error handling.\n\n\nThe Amazon MWAA AI agent skills work with both Amazon MWAA Provisioned and Amazon MWAA Serverless environments, and are available in all AWS Regions where Amazon MWAA is available.\n\n\nTo get started, install the[aws-data-analytics plugin](https://github.com/aws/agent-toolkit-for-aws/tree/main/plugins/aws-data-analytics#agent-skills) and configure your AI coding assistant to use the MWAA agent skills. To learn more, see[Using agent skills with Amazon MWAA](https://docs.aws.amazon.com/mwaa/latest/userguide/using-agent-skills.html) in the Amazon MWAA User Guide and the[Agent Toolkit for AWS documentation](https://docs.aws.amazon.com/agent-toolkit/) .",
+  "published_at": "2026-10-15T08:00:00+00:00",
+  "first_seen_at": "2026-10-15T23:20:45.218888+00:00",
+  "content_hash": "sha256:623a859710a4bb4b5439ed4787e114aeab42039bb418173c664c21cb88558454"
+}

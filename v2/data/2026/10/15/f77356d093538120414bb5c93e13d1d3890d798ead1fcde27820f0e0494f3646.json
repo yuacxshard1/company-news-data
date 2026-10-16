@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f77356d093538120414bb5c93e13d1d3890d798ead1fcde27820f0e0494f3646",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
+  "title": "PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
+  "summary": "Discover more about what's new at AWS with PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
+  "body_markdown": "Starting today,[Amazon RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql/) 19 Release Candidate 1 (RC1) is available in the[Amazon RDS Database Preview Environment](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html) , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL.\n\n\nPostgreSQL 19 RC1 focuses on stability, with bug fixes and improvements from the Beta 4 testing period. This release improves error handling for complex text-search expressions, hardens parallel autovacuum, and improves reliability of GIN index maintenance. Refer to the PostgreSQL community announcement for more details.. Refer to the[PostgreSQL community announcement](https://www.postgresql.org/about/news/postgresql-19-rc-1-released-3409/) for more details.\n\n\nAmazon RDS Database Preview Environment database instances are retained for a maximum period of 60 days and are automatically deleted after the retention period. Amazon RDS database snapshots that are created in the Preview Environment can only be used to create or restore database instances within the Preview Environment. You can use the PostgreSQL dump and load functionality to import or export your databases from the Preview Environment. Amazon RDS Database Preview Environment database instances are priced as per the[pricing](https://aws.amazon.com/rds/postgresql/pricing/) in the US East (Ohio) Region.",
+  "published_at": "2026-10-15T16:00:00+00:00",
+  "first_seen_at": "2026-10-15T23:20:45.218888+00:00",
+  "content_hash": "sha256:8ffa53c038f7e4304a38127554bab4961e7c7e2d15b6461295e80abb68d1ec4a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2d7e2cfdbfff0328cb8463c548d50456b96cfce8e1f4a670ae4cf2809100856e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-recursive-loops-eventbridge-custom",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-recursive-loops-eventbridge-custom",
+  "title": "AWS Lambda recursive loop detection now supports Amazon EventBridge Custom event buses",
+  "summary": "Discover more about what's new at AWS with AWS Lambda recursive loop detection now supports Amazon EventBridge Custom event buses",
+  "body_markdown": "[AWS Lambda](https://aws.amazon.com/lambda/) recursive loop detection now automatically detects and stops recursive loops between Lambda Event Functions and[Amazon EventBridge Custom event buses](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-custom-bus.html) , helping protect you against unintended usage and unexpected charges from runaway workloads.[Lambda recursive loop detection](https://docs.aws.amazon.com/lambda/latest/dg/invocation-recursion.html) , enabled by default on your AWS account, automatically identifies when a Lambda Event Function is invoked recursively by a supported AWS service and stops the loop.\n\n\nYou can use EventBridge Custom event buses to invoke Lambda Event Functions, building automation workflows and scheduling recurring tasks without managing any infrastructure. However, a misconfiguration or code defect can cause EventBridge rules to trigger your Event Functions recursively, resulting in runaway usage. Now, recursive loop detection supports EventBridge Custom buses, automatically stopping such loops and sending you an AWS Health Dashboard notification with troubleshooting instructions.\n\n\nEventBridge Custom event buses now support recursive loop detection in every commercial AWS Region where they are available. This feature is enabled by default on your account and requires no configuration. If your Event Function uses recursive loops intentionally, you can use the[PutFunctionRecursionConfig API](https://docs.aws.amazon.com/lambda/latest/api/API_PutFunctionRecursionConfig.html) to turn off recursive loop detection for that function.\n\n\nTo learn more about recursive loop detection, visit[Lambda documentation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-recursion.html) .",
+  "published_at": "2026-10-14T18:00:00+00:00",
+  "first_seen_at": "2026-10-15T23:20:45.218888+00:00",
+  "content_hash": "sha256:fbf757613a2eb39355ea3af2f59c656efedfec913619caca73db79556a26185c"
+}

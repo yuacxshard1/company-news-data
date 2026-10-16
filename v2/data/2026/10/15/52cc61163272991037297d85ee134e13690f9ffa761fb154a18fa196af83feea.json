@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "52cc61163272991037297d85ee134e13690f9ffa761fb154a18fa196af83feea",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-devops-agent-test-results-aws-resilience-hub/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-devops-agent-test-results-aws-resilience-hub/",
+  "title": "Launch AWS DevOps Agent to review findings and test results from AWS Resilience Hub",
+  "summary": "Discover more about what's new at AWS with Launch AWS DevOps Agent to review findings and test results from AWS Resilience Hub",
+  "body_markdown": "The next generation of[AWS Resilience Hub](https://aws.amazon.com/resilience-hub) now integrates with AWS DevOps agent allowing you to review failure mode assessment findings and implement mitigations to resolve findings and review resilience test results. AWS Resilience Hub is a central location in the AWS Management Console that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on AWS. It provides automated dependency discovery, generative AI-powered failure mode analysis, modular resilience policies, resilience testing, and organization-wide resilience posture reporting.\n\n\nResilience test investigations: When you run a resilience test, Resilience Hub now launches an AWS DevOps Agent investigation that observes the test and returns a structured analysis. You can uncover symptoms, root cause, and impact along with observed recovery actions, like ARC Region switch.\n\n\nInteractive agent analysis from failure mode assessment findings: You can now start AWS DevOps Agent on demand task directly from a failure mode assessment finding in the Resilience Hub console, with the finding's context already in place. This allows for asking questions and investigating findings to create a mitigation plan.\n\n\nTo get started, visit the[AWS Resilience Hub console](https://aws.amazon.com/resilience-hub/) , select a service and configure DevOps agent in the service configuration. Then launch the DevOps agent directly from a failure mode assessment finding or a resilience test. To learn more, see the product page or visit the[documentation](https://docs.aws.amazon.com/resilience-hub/latest/userguide/next-gen-devops-agent-integration.html) .\n\n\nAWS Resilience Hub is available in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Canada (Central), Europe (Ireland), Europe (London), Europe (Frankfurt), Europe (Paris), Europe (Stockholm), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Asia Pacific (Seoul), and South America (São Paulo).",
+  "published_at": "2026-10-15T07:00:00+00:00",
+  "first_seen_at": "2026-10-15T23:20:45.218888+00:00",
+  "content_hash": "sha256:41afb685ea33b43870fac5b65dc22e875b43ca2f6d2c9959f584512a14613e57"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6bc41a058887453268e6b0823196f5836c20b772879bb9653a5c24aca2c305d7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
+  "title": "AWS HealthOmics now supports shared VPCs",
+  "summary": "Discover more about what's new at AWS with AWS HealthOmics now supports shared VPCs",
+  "body_markdown": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Manager (RAM).[AWS HealthOmics](https://aws.amazon.com/healthomics/) is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows.\n\n\nWith shared VPCs, customers can centralize networking administration by sharing subnets and security groups from a single VPC across multiple accounts in their organization, and HealthOmics then places each account's workflows directly into those shared subnets. With cross-account VPC sharing, multiple accounts run inside one centrally managed VPC, instead of duplicating endpoints across VPCs. Workflows in participating accounts can access data privately without separate VPC peering connections or duplicated VPC endpoints. Previously, customers with centralized networking had to create separate AWS PrivateLink VPC endpoints in each VPC and maintain individual route tables using VPC peering. Cross-account VPC sharing reduces infrastructure overhead and simplifies network management for organizations with centralized networking while allowing researchers and developers to run bioinformatics workflows in their own accounts.\n\n\nShared VPCs is available in all Regions where AWS HealthOmics is available: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), Israel (Tel Aviv), and Asia Pacific (Singapore, Seoul, Tokyo). To get started, see the[AWS HealthOmics User Guide](https://docs.aws.amazon.com/omics/latest/dev/workflows-vpc-cross-account.html) .",
+  "published_at": "2026-10-15T17:42:00+00:00",
+  "first_seen_at": "2026-10-15T23:20:45.218888+00:00",
+  "content_hash": "sha256:536ca2935b56d91c36d6089b2f68e12d4ed2f92c2540ab0aec98ec1ab34b950f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9200b117a962c668e3fc08fef9118bd3847aab14b0aba4cd5bddcbd25f1dbe15",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
+  "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
+  "summary": "Discover more about what's new at AWS with Amazon DynamoDB Streams now supports timestamp-based stream processing",
+  "body_markdown": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records from a specific point in time. Previously, you could only start from the oldest retained record (up to 24 hours old) or from new records written after you start consuming the stream. Now, you can supply a timestamp and begin processing at the first record written at or after that time using the AT_TIMESTAMP shard iterator type.\n\n\nTimestamp-based stream processing can be used with the Amazon Kinesis Client Library (KCL) through the DynamoDB Streams Kinesis adapter. It helps you avoid reprocessing entire retained streams or missing records when resuming stream consumption, supporting common use cases such as recovery after an interruption, data replay for debugging and auditing by reading from a specific point in the past, skipping a backlog by resuming from a recent timestamp near the latest records, and synchronizing after a restore by beginning at the export timestamp following a point-in-time recovery (PITR) export.\n\n\nTimestamp-based stream processing is available in all commercial AWS Regions, the AWS GovCloud (US) Regions, and the China Regions. There is no additional charge for this feature beyond standard GetRecords API request charges. To get started, see[Amazon DynamoDB Streams timestamp documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Timestamp.html) in the DynamoDB developer guide.",
+  "published_at": "2026-10-15T18:30:00+00:00",
+  "first_seen_at": "2026-10-15T23:20:45.218888+00:00",
+  "content_hash": "sha256:d5ec15e70fefca6ba323f5fe721657b2b91e88c333cab3c416ef3468c975c75e"
+}

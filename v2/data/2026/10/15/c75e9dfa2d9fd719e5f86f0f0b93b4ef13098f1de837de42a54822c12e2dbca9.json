@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c75e9dfa2d9fd719e5f86f0f0b93b4ef13098f1de837de42a54822c12e2dbca9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
+  "title": "Amazon CloudFront announces dual-stack support for VPC origins",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront announces dual-stack support for VPC origins",
+  "body_markdown": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their Application Load Balancers (ALB), Network Load Balancers (NLB), and EC2 instances in private subnets that only their CloudFront distributions can reach. With dual-stack support, customers can now send IPv6 traffic all the way to these private origins to meet their IPv6 architecture and regulatory requirements, without exposing origins to the internet.\n\n\nPreviously, CloudFront supported dual-stack for public origins but connected to VPC origins over IPv4 only. Customers faced a tradeoff: move origins to public subnets for IPv6 and give up VPC origin security or keep them private and stay on IPv4. Now, with this launch, customers can configure their VPC origins as dual-stack and get end-to-end IPv6 without sacrificing security.\n\n\nDual-stack VPC origins are available in all AWS Commercial Regions where VPC origins are supported. The full list of supported Regions is available[here](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-vpc-origins.html#vpc-origins-supported-regions) . There is no additional cost for using dual-stack VPC origins. To learn more, visit[CloudFront VPC origins.](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-vpc-origins.html)",
+  "published_at": "2026-10-15T16:00:00+00:00",
+  "first_seen_at": "2026-10-15T23:20:45.218888+00:00",
+  "content_hash": "sha256:1078a97d461d039b43e20a9e89708cb709bd79cc68239a91521de7b9d165e820"
+}
