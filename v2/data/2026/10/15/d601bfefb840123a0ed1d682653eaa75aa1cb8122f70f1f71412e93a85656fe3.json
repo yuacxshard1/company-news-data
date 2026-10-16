@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d601bfefb840123a0ed1d682653eaa75aa1cb8122f70f1f71412e93a85656fe3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-database-aws-aggregate-routes-odb/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-database-aws-aggregate-routes-odb/",
+  "title": "Oracle Database@AWS supports aggregate and default routes for ODB peering",
+  "summary": "Discover more about what's new at AWS with Oracle Database@AWS supports aggregate and default routes for ODB peering",
+  "body_markdown": "Oracle Database@AWS (ODB) now supports advertising aggregate routes and a default route (0.0.0.0/0) when configuring ODB peering between applications in an Amazon VPC and databases in an ODB network. This simplifies network operations as customers extend new VPCs or on-premises networks to reach their databases, without updating the advertised CIDRs for each network that needs connectivity to the ODB network.\n\n\nPreviously, customers had to advertise each network reaching the ODB network as a separate CIDR, and could not advertise a broad aggregate range or a default route. With this launch, customers can advertise any CIDR range, so a single aggregate or default route can cover all networks reachable through the peered VPC, such as those connected through an AWS Transit Gateway, without a separate entry for each one.\n\n\nThis capability is available on ODB networks that support multiple ODB peering connections, in all AWS Regions where Oracle Database@AWS is available. To learn more, visit[Oracle Database@AWS](https://aws.amazon.com/marketplace/featured-seller/oracle/) and the[Oracle Database@AWS User Guide](https://docs.aws.amazon.com/odb/latest/UserGuide/what-is-odb.html) . To get started, subscribe through[AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-qks5dl3hr7nfw?applicationId=AWSMPContessa&ref_=beagle&sr=0-1) .",
+  "published_at": "2026-10-15T08:00:00+00:00",
+  "first_seen_at": "2026-10-16T08:22:01.692872+00:00",
+  "content_hash": "sha256:d1ba95f2363af223f5c79468bade3dd262c6b6dc2b3f604765f7bfe1abc3fa74"
+}

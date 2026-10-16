@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f377271a98717d6b01bdc4d19b587273bbd34db9113243b5144c1f935756a4d4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/vercel-connect-quickstart-and-managed-authorization",
+  "canonical_url": "https://www.activepieces.com/blog/vercel-connect-quickstart-and-managed-authorization",
+  "title": "Vercel Connect: Quickstart and Managed Authorization",
+  "summary": "Vercel Connect shifts authorization decisions from individual users to organizations, controlling which apps automation workflows can access.",
+  "body_markdown": "## Why managed authorization matters to teams automating work\n\n\nBefore any build, settle who may use Vercel Connect. Whoever grants an automation its access decides how much damage a leaked key can do and how long a launch waits.\n\n\n### Where authorization sits in an AI automation\n\n\nEach time a step reads or writes another app it needs a credential, and today each automation usually holds its own copies.\n\n\nThe two diagrams below set that against the managed model: on the left, separate keys run from the automation to three apps; on the right, one admin-controlled gate sits between the automation and the same three, so an admin grants and revokes access in one place.\n\n\nThe reason shows in[Verizon's 2025 breach report](https://www.verizon.com/business/resources/reports/2025-dbir-executive-summary.pdf) : **credentials begin 36% of breaches** , so attackers' most reliable entry point is a compromised password or token.\n\n\nPer Verizon, system intrusion follows at 22%, social engineering at 17%, basic web attacks and miscellaneous errors at 12% each, and privilege misuse at 8%. That means defenders face a landscape where no single control solves the problem.\n\n\nA stored key is therefore the most common way in, and every extra copy is one more to find and rotate.\n\n\n### What changes for the admin and what for the builder\n\n\nOn one side the admin gains the approval decision; on the other the builder loses some of the waiting.[WorkOS](https://workos.com/blog/oauth-app-approval-slack-microsoft-atlassian) reports that OAuth app review before org-wide use can take 10 weeks at[Slack](https://slack.green/en/blog/slack-token-rotation) , the team messaging tool.\n\n\nFor Google's restricted scopes, review can take 6 weeks, so securing new scopes requires waiting at least six weeks. It takes 4 weeks for the GitHub Marketplace, which is where GitHub lists approved apps, and 2 weeks for Google's sensitive scopes, per WorkOS.\n\n\nA builder who needs all of these waits on the slowest, so a plan with a Slack step can stretch past two months.\n\n\nNothing in the findings says managed authorization shortens any of those waits. The changelog, the only maker source, describes a change in control, not in timing or cost. **Treat speed and savings as unproven** , and record who owns each connection before anyone builds on it.",
+  "published_at": "2026-10-16T05:31:56+00:00",
+  "first_seen_at": "2026-10-16T08:17:27.828918+00:00",
+  "content_hash": "sha256:f6963ccc0de82a29d28f642f047d3467e231cb697270521f65c9bb260151e9a4"
+}
