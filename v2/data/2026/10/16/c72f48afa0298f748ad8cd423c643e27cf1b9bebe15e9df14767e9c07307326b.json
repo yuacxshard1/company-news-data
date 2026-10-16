@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c72f48afa0298f748ad8cd423c643e27cf1b9bebe15e9df14767e9c07307326b",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/foxy-dumplings-cross-platform-development",
+  "canonical_url": "https://unity.com/blog/foxy-dumplings-cross-platform-development",
+  "title": "How Soft Crunch Games built Foxy Dumplings for every platform",
+  "summary": "See how the team behind Foxy Dumplings built one Unity project for PC, console, and mobile, covering platform abstraction, input, profiling, and Cloud Save.",
+  "body_markdown": "## **Profiling the weakest hardware first**\n\n\n*Foxy Dumplings* is a 2D game with Spine characters and unlit materials, so when the GPU struggles it is usually because of too many fullscreen layers or too many pixels.\n\n\nOne example was the kitchen. Some effects were rendered into a 4K render texture and composited over the UI – unnecessary on a 1080p or 720p display. Watroba changed the render textures to follow the actual screen resolution and disabled HDR and depth textures, which the game never used. Visually, nothing changed, but on Steam Deck that layer now fills about 8× fewer pixels every frame, and its render texture dropped from about 32 MB to about 4 MB.\n\n\nWątroba’s profiling process is the same one he learned years ago: He makes a development build on the actual device, attaches the[Unity Profiler](https://docs.unity3d.com/6000.3/Documentation/Manual/Profiler.html) , finds what is expensive, measures it, fixes it, and measures again. He says, “The device is the king.”\n\n\nMemory also needs attention. The team supports 14 languages, including Chinese, Japanese, Korean, and Thai, each with its own font atlas. When the team saw memory spikes during language changes, they profiled the allocation path and found that characters missing from the static atlases were rasterized at runtime into oversized 4096×4096 fallback atlases, with a full 16 MB atlas re-upload for every new character.\n\n\nThe fix was regenerating the fallback fonts with 2048×2048 pages and adding glyphs in batches before the switch, which cut the new atlas memory for Japanese from about 48 MB to 4–8 MB per font.\n\n\nThe team used[Addressables](https://docs.unity3d.com/6000.3/Documentation/Manual/com.unity.addressables.html) in the project because[Unity Localization](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html) is built on them. String and asset tables for all 14 languages live in Addressable groups and load per language. “Everything still ships locally, but Addressables give us a clean way to manage that data and memory.”",
+  "published_at": "2026-10-16T00:00:00+00:00",
+  "first_seen_at": "2026-10-16T17:40:44.138110+00:00",
+  "content_hash": "sha256:08745be8aa0b7adcbfbe239136bd24fcd1f4f43bc5bffc2fe366ab24ae88e1d5"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c5602414ba8de469e9f17b4b7da3a6348057a1d4fb5bb4c2d608b0205993663c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/n8n-review-2026-pricing-licence-and-limits",
+  "canonical_url": "https://www.activepieces.com/blog/n8n-review-2026-pricing-licence-and-limits",
+  "title": "n8n Review 2026: Pricing, Licence, and Limits",
+  "summary": "n8n review: a workflow automation tool built for technical teams seeking code control and self-hosting capabilities.",
+  "body_markdown": "## Frequently asked questions\n\n\nYou pay no licence fee for the self-hosted Community Edition, but you pay for the server, upkeep and security patching yourself.\n\n\nn8n's cloud service is a paid product, and n8n's pricing page bills it by workflow executions. A free install therefore moves the cost from the invoice to your infrastructure and staff time.\n\n\n### Can n8n be used commercially without paying?\n\n\nYes, for internal business use, but the Sustainable Use License restricts resale and hosting n8n as a service for others. Using it to automate your own company's operations is generally permitted.\n\n\nEmbedding it in a product you sell, or running it for clients as a hosted offering, requires a separate commercial agreement. The licence text in n8n's repository and docs is the authority here, and your legal reviewer should read it directly.\n\n\nIf a procurement policy requires an approved open-source licence, the difference matters: n8n describes itself as fair-code rather than open source in the OSI sense.\n\n\n### Is n8n harder to learn than Zapier?\n\n\nFor non-technical builders, yes. n8n's canvas exposes data as JSON, expressions and node-level settings that Zapier mostly hides behind form fields. That exposure is what gives engineers fine control, and it's also what makes a first workflow slower for someone without a scripting background.\n\n\nTeams with a developer on hand usually find the trade worthwhile. Teams without one tend to stall at the first branching or error-handling requirement.\n\n\n### Does n8n have a SOC 2 report or enterprise security features?\n\n\nOn the cloud service, n8n publishes security information, and its higher plans add single sign-on, role-based access control and audit logging. Confirm the current report status on n8n's trust and security pages and request the document itself under NDA.\n\n\nSelf-hosting changes the picture: your own infrastructure sits outside any report n8n holds, so your auditors will assess your deployment, not theirs.\n\n\nBecause n8n releases frequently, shipping regular minor releases and distinguishing beta from stable builds in its release notes, self-hosters need someone to own upgrade testing, pin versions deliberately and read changelogs for breaking changes before pulling a new image.",
+  "published_at": "2026-10-16T11:26:51+00:00",
+  "first_seen_at": "2026-10-16T17:31:43.561838+00:00",
+  "content_hash": "sha256:e2dc29d6b798b5dc7cea435a923e7a60fdd046ed9de7dd22f09680c26f46ccc8"
+}

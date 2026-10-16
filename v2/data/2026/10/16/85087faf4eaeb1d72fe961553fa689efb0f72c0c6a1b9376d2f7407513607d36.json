@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "85087faf4eaeb1d72fe961553fa689efb0f72c0c6a1b9376d2f7407513607d36",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/android-dont-move-next-button-around/13896#post_1",
+  "canonical_url": "https://forum.newsblur.com/t/android-dont-move-next-button-around/13896",
+  "title": "Android: don't move next button around",
+  "summary": "I wish the “next” button would stay in the same place on the screen. My Hacker News feed collects a lot of posts and I don’t read most of them. So I load it up and start skimming the titles. Next next next. But when the button moves I have to slow down to spot where it is each time. If it stayed in the same place I could just hover my finger there and move through the list faster. app version: 15.1 (291) android version: 17 (CP3A.261005.002.A1) device: Google Pixel 6 (oriole) username: lousy...",
+  "body_markdown": "[lousyd](https://forum.newsblur.com/u/lousyd)\n\n\nOctober 16, 2026, 1:07pm 1\n\n\nI wish the “next” button would stay in the same place on the screen. My Hacker News feed collects a lot of posts and I don’t read most of them. So I load it up and start skimming the titles. Next next next. But when the button moves I have to slow down to spot where it is each time. If it stayed in the same place I could just hover my finger there and move through the list faster.\n\n\napp version: 15.1 (291)\nandroid version: 17 (CP3A.261005.002.A1)\ndevice: Google Pixel 6 (oriole)\nusername: lousyd\nserver: default\npending actions: pre:0 post:0\npremium: yes\nprefetch: no\nnotifications: no\nkeep read: no\nthumbs: yes\n\n\n[samuelclay](https://forum.newsblur.com/u/samuelclay)\n\n\nOctober 16, 2026, 4:08pm 2\n\n\nFound it. The controls were moving to the bottom of each story, so short articles and related stories changed where Next appeared. The fix keeps it at the bottom of the screen, including when it changes to Done. It is waiting to be merged and released in an Android update.\n\n\nHere’s screenshots of the fix in the PR:[https://github.com/samuelclay/NewsBlur/pull/2175](https://github.com/samuelclay/NewsBlur/pull/2175)",
+  "published_at": "2026-10-16T13:07:50+00:00",
+  "first_seen_at": "2026-10-16T16:52:39.771813+00:00",
+  "content_hash": "sha256:3e1d9e0eaaa26b36126a9f405ed5d3698831b557f0e064c26d44d489f5b1a51a"
+}
