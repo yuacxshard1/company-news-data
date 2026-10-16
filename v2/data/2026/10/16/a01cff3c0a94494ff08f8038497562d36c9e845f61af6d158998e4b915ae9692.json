@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a01cff3c0a94494ff08f8038497562d36c9e845f61af6d158998e4b915ae9692",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+  "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
+  "summary": "Discover more about what's new at AWS with AWS End User Messaging now offers managed OTP verification end-to-end",
+  "body_markdown": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code verification, without setting up a phone number, registering with carriers, or managing how messages are delivered. Before, you generated the passcode yourself and passed it to Notify to send, and you built and maintained the logic to create, store, and expire codes. Now Notify generates the code, delivers it, and verifies the code the recipient enters, so you ship a complete verification flow and skip that work entirely. You can deliver codes over text, voice, and now WhatsApp.\n\n\nYou set the rules once in a notify code configuration: the code type, length, how long it stays valid, and how many attempts a recipient gets, along with your templates for each channel. From then on, one call sends a code to a recipient on the channel you choose, and another checks the code they enter.\n\n\nNotify is available in all commercial AWS Regions where AWS End User Messaging is available.\n\n\nTo learn more and get started, see the AWS End User Messaging[User Guide.](https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-notify.html)",
+  "published_at": "2026-10-16T07:00:00+00:00",
+  "first_seen_at": "2026-10-16T22:07:11.980122+00:00",
+  "content_hash": "sha256:0c5ab28c95ad408e6afc4f060e514558cd3978fed6a48845aec58bd6341a81eb"
+}

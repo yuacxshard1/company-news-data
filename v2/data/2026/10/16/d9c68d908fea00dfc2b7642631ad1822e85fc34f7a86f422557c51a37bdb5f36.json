@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d9c68d908fea00dfc2b7642631ad1822e85fc34f7a86f422557c51a37bdb5f36",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
+  "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
+  "summary": "Discover more about what's new at AWS with AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
+  "body_markdown": "AWS Lambda durable functions are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experience.\n\n\nLambda durable functions extend the Lambda programming model with new primitives in your event handler, such as \"step\" and \"wait\", allowing you to checkpoint progress, automatically recover from failures, and pause executions without incurring compute charges for on-demand functions. With availability in the AWS GovCloud (US) Regions, government customers and regulated industries can orchestrate complex processes such as order workflows, user onboarding, and AI-assisted tasks while meeting stringent compliance and security requirements.\n\n\nYou can activate durable functions for new Python (versions 3.13 and 3.14), Node.js (versions 22 and 24), Go (versions 1.24 or later), .Net (version 2.2), or Java (17+) based Lambda functions using the AWS Lambda API, AWS Management Console, or AWS SDK. You can also use infrastructure as code tools such as AWS CloudFormation, AWS Serverless Application Model (AWS SAM), and the AWS Cloud Development Kit (AWS CDK).\n\n\nFor more information on durable functions, visit the[AWS Lambda durable functions product page](https://aws.amazon.com/lambda/lambda-durable-functions/) or the[AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/) . To learn about pricing, visit[AWS Lambda pricing](https://aws.amazon.com/lambda/pricing/) . For region availability, visit the[AWS Capabilities by Region page](https://builder.aws.com/build/capabilities) .",
+  "published_at": "2026-10-16T18:26:00+00:00",
+  "first_seen_at": "2026-10-16T22:07:11.980122+00:00",
+  "content_hash": "sha256:d7cba7d59439196f9a52a1b9f85a7ffed56e1f9db5d4364890a330a827635838"
+}

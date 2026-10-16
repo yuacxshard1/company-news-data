@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cff2113a514ced5811199700458d461221a0cc094c29af37cee89c916c5efc69",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
+  "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+  "summary": "Discover more about what's new at AWS with Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+  "body_markdown": "NVIDIA's Nemotron 3.5 Super VL is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This vision-language model from the Nemotron 3.5 family accepts images, video, and text as input and generates text, enabling customers to deploy multimodal AI solutions on AWS infrastructure.\n\n\nNemotron 3.5 Super VL is designed for document intelligence, GUI understanding, video question answering, and multimodal agentic applications. It pairs a 120B-parameter hybrid Mixture-of-Experts (MoE) language backbone with 12B active parameters and a vision encoder, supporting context lengths of up to 1 million tokens. The model includes a built-in Multi-Token Prediction (MTP) head for speculative decoding to accelerate text generation, with reasoning configurable per request. It supports ten languages including English, French, Spanish, German, Japanese, Hindi, Korean, and Chinese. Post-trained with multimodal supervised fine-tuning on image, video, document, chart, and GUI data followed by GRPO reinforcement learning, it delivers structured JSON output, tool calling, and configurable reasoning for enterprise agent workflows. SageMaker JumpStart offers two variants: NVFP4 for optimized inference on G7 instances with NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, and BF16 reference weights on ml.p5en.48xlarge for customization including SFT, RL, distillation, and domain adaptation.\n\n\nWith SageMaker JumpStart, customers can deploy Nemotron 3.5 Super VL with just a few clicks to address their specific AI use cases.\n\n\nTo get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the[Amazon SageMaker JumpStart documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html) .",
+  "published_at": "2026-10-16T17:59:00+00:00",
+  "first_seen_at": "2026-10-16T22:07:11.980122+00:00",
+  "content_hash": "sha256:fe1ad4b10283b169f8c928d932ff207704cfd8df50f629d04423dc3e6fa8d61a"
+}

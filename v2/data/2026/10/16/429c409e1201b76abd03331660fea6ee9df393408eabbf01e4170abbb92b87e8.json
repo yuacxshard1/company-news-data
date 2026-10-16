@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "429c409e1201b76abd03331660fea6ee9df393408eabbf01e4170abbb92b87e8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
+  "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
+  "body_markdown": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions into a single destination account, integrating with AWS Organizations for efficient aggregation without the need for custom solutions.\n\n\nWith this launch, organizations in the AWS GovCloud (US) partition and commercial partition can each centralize logs across their accounts and Regions for centralized monitoring. You can scope centralization rules to your entire organization, specific organizational units, or selected accounts and copy logs into a single account while preserving source context through enriched system fields.\n\n\nCloudWatch log centralization is now additionally available in Africa (Cape Town), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Canada West (Calgary), Europe (Milan), Europe (Spain), Europe (Zurich), Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), AWS GovCloud (US-East), and AWS GovCloud (US-West). For a complete list of supported Regions, see the[AWS Region table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .\n\n\nTo get started, create a centralization rule in the Amazon CloudWatch console, or by using the AWS CLI or AWS SDKs. To learn more, see[Log centralization](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/) in the Amazon CloudWatch Logs User Guide. Customers can centralize one copy of logs for free; additional copies are charged at $0.05/GB. For details, see[Amazon CloudWatch pricing](https://aws.amazon.com/cloudwatch/pricing/) .",
+  "published_at": "2026-10-16T20:04:00+00:00",
+  "first_seen_at": "2026-10-16T22:07:11.980122+00:00",
+  "content_hash": "sha256:e84a048c9aeece16095e661d0766b19cca42441d2bcca20a340fd6bd8af3e195"
+}
