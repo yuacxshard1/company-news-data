@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "be0ef6758df4726d36d4892a869c10075f32bbdd87aadf5b353ef454e6998fb3",
+  "company_key": "yc-asteroid",
+  "company_name": "Asteroid",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://asteroid.ai/blog/medicaid-portal-map-by-state/",
+  "canonical_url": "https://asteroid.ai/blog/medicaid-portal-map-by-state/",
+  "title": "Who runs the Medicaid portal in your state",
+  "summary": "An interactive map of all 50 state Medicaid programs and DC: the MMIS vendor, the provider portal, who reviews prior auth, managed care share, CMS-0057 readiness and what changes next.",
+  "body_markdown": "Medicaid is 51 programs, each with its own fiscal agent, portal and prior auth process. We put them on[one map](https://asteroid.ai/market-maps/medicaid) .\n\n\n## Four layers\n\n\n- Claims: who operates the MMIS and pays fee-for-service claims. Gainwell has 28 states, Conduent 7, and seven states run their own.\n- Prior auth: who reviews fee-for-service PA requests and where they go. 23 states do it in house. Acentra reviews for seven, Gainwell for five, Comagine and Telligen for three each.\n- Managed care: the share of enrollees in managed care plans, with the plan list. Nine states have no comprehensive MCO program, so the state portal is the whole story there.\n- CMS-0057: readiness for the prior auth API that fee-for-service programs must expose by January 2027. Utah has a Payer-to-Payer API live and no separate prior auth API. Four states publish work in progress. New York holds an extension on decision timelines, not on the API. The other 45 have published nothing.\n\n\nTap a state for its portal link, vendor, contract end date, scheduled replacement and the sources. Every state also has its own page, for example[Texas](https://asteroid.ai/market-maps/medicaid/tx) .\n\n\n## What changes next\n\n\nThe timeline strip lists the dated changes we could verify. DC and New Mexico moved claims systems in March 2026. Maine’s new portal went live on October 12. Montana’s Gainwell system soft-launches on December 14. Vermont’s Gainwell contract ends December 31 with options to extend.\n\n\nA change log underneath lists 23 dated events back to 2024, each with a source.\n\n\n## Download it\n\n\nThe whole dataset is at[/market-maps/medicaid.csv](https://asteroid.ai/market-maps/medicaid.csv) and[/market-maps/medicaid.json](https://asteroid.ai/market-maps/medicaid.json) . Every row carries a confidence level and the date we checked it. Thirteen states are low confidence, so treat those as a starting point and tell us what we missed.\n\n\n[Open the Medicaid map](https://asteroid.ai/market-maps/medicaid)",
+  "published_at": "2026-10-13T00:00:00+00:00",
+  "first_seen_at": "2026-10-17T06:37:51.705873+00:00",
+  "content_hash": "sha256:062f28dca8bc41248ed461544baec6461cbd1c6d3ccf684d67ab0d96f1d03326"
+}

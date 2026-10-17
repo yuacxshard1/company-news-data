@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4a916a3b34fe9ea578384bcafde15f06bb83fb99494f0706455f026d8d35a714",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/lindy-vs-n8n-pricing-and-features-compared-2026",
+  "canonical_url": "https://www.activepieces.com/blog/lindy-vs-n8n-pricing-and-features-compared-2026",
+  "title": "Lindy vs n8n: Pricing and Features Compared (2026)",
+  "summary": "Lindy vs n8n: Lindy lets non-technical staff automate tasks by describing them plainly, n8n requires building workflows. Pick the right fit for your team.",
+  "body_markdown": "## Where n8n wins and where it breaks down\n\n\nWhen you need to control every step of a workflow and keep it on your own servers, n8n wins. When nobody on your side can read a workflow canvas, it breaks down, because every fix lands on you.\n\n\nYou build an n8n agent by wiring nodes together. The canvas below shows what that looks like: a trigger, a chat-message receiver, and an AI Agent node with an OpenAI chat model and simple memory attached.\n\n\nIt also shows execution logs with the input and output of a test message.\n\n\nThe logs show what went into each node and what came out, and the chat panel also surfaces an error from the memory sub-node.\n\n\nSeeing inside each node is the control you're paying for: you can find the failing step yourself. It also means someone has to read that error. If the person who built the workflow leaves, you have to bill for the handover or absorb it.\n\n\nHowever many steps a long workflow has, it still counts as one run, because n8n's cloud plans meter by workflow execution, not by individual task inside it. For agency work, that makes the cost per client run easier to predict than a per-step model.\n\n\nOnce you self-host, the execution meter is gone, but you then pay for servers, upgrades and whoever is on call. Put that labour in the retainer, or a client who barely uses the workflow is subsidised by the one who breaks it weekly.\n\n\nWith a large library of app nodes and an HTTP node for apps that lack one, n8n widens where an agent can act.\n\n\nApproval is something you design: a Wait node can pause a run until someone resumes it, so a human check before a send or a payment is a step you place deliberately and test.\n\n\nIf open source plus an agent step is your deciding criterion, the useful design detail is that[Activepieces](https://www.activepieces.com/) , which MoneyGram, Moneypenny, Alan and FundingSocieties run in production, keeps the agent and the fixed-rule steps in one flow.\n\n\nPut an Agent step next to an ordinary automation step, run a test, and the trace shows a single execution, with no webhook passing work between an agent tool and a workflow tool.\n\n\nSelf-hosting is what answers the data-residency requirement from the previous section. n8n publishes its code under the Sustainable Use License. It allows internal business use but restricts offering n8n itself to others as a hosted product.\n\n\nRead the licence before you build a client-facing service on top. If you want a hands-off agent and have no one to maintain it, n8n is the wrong tool.",
+  "published_at": "2026-10-17T02:52:12+00:00",
+  "first_seen_at": "2026-10-17T06:39:58.410695+00:00",
+  "content_hash": "sha256:9c395a84098ac759e5213eb2afb489d981723d20f6cf9f790fff386273bcb373"
+}
