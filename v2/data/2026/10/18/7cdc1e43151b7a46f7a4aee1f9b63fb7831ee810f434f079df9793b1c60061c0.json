@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7cdc1e43151b7a46f7a4aee1f9b63fb7831ee810f434f079df9793b1c60061c0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/migrating-your-prompt-library-out-of-vellum-with-automation",
+  "canonical_url": "https://www.activepieces.com/blog/migrating-your-prompt-library-out-of-vellum-with-automation",
+  "title": "Migrating Your Prompt Library Out of Vellum With Automation",
+  "summary": "Prompt management platforms often lock proprietary logic into restrictive formats that impede infrastructure changes.",
+  "body_markdown": "## How Activepieces handles prompt portability and orchestration\n\n\nActivepieces provides an open-source alternative for prompt execution, allowing teams to trigger prompts via webhooks and store templates in git-backed repositories rather than proprietary silos.\n\n\nActivepieces runs the same codebase on your own infrastructure via Docker or Kubernetes as it does on managed cloud, ensuring that deployment choice never creates a permanent lock-in.\n\n\nBecause the platform ships the same product for both cloud and self-hosted environments (including RBAC and audit logs) teams can move their entire prompt execution layer to their own hardware without losing governance.\n\n\nThis ensures that where a flow runs never decides whether a team can leave, as the same security controls apply to both environments.\n\n\n### Connecting your prompt store to the LLM step\n\n\nActivepieces allows you to pull prompt templates directly from external sources like GitHub or a private API before passing them to the model. This means your \"Golden Prompt\" lives in your version-controlled repository where it can be peer-reviewed.\n\n\nActivepieces syncs flows to git and promotes them through Release Management, moving them from test environments to production as versioned software rather than private in-app history.\n\n\nCheck Activepieces' own documentation for Git Sync and Release Management to see how this works across both self-hosted and cloud instances. This allows teams like MoneyGram and FundingSocieties to run complex automations in production with the same rigor applied to their core application code.\n\n\n### Replacing Vellum workflows with open-source workflows\n\n\nTransitioning from a managed black box to a transparent execution environment requires a visual way to debug how data flows between your database and the LLM. This is demonstrated by the screenshot of the Activepieces flow run:\n\n\nGreen checkmarks on the \"Instance Stopped\" trigger and \"Revoke Token\" step indicate a successful logic handoff.\n\n\nThe detail panel shows a status 200 response from Square’s API, confirming that the prompt's output successfully triggered a downstream action.\n\n\n### Keeping control over LLM model routing\n\n\nYou can swap providers instantly by changing a single field in the \"Send Request\" configuration without rewriting your entire business logic.\n\n\nIf a specific task requires the advanced reasoning of Claude Fable 5.1 but your daily volume is better suited for Gemini 3.8 Flash, you can build a conditional router within the flow.",
+  "published_at": "2026-10-18T05:59:27+00:00",
+  "first_seen_at": "2026-10-08T14:11:49.053986+00:00",
+  "content_hash": "sha256:c926c45047b4b8d3e42003f2c6b5dc6ddee7a2dac3ac919149a83bb993ba824f"
+}
