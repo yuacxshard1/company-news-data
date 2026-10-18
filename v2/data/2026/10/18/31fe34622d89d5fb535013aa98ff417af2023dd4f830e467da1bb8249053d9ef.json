@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "31fe34622d89d5fb535013aa98ff417af2023dd4f830e467da1bb8249053d9ef",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/n8n-soc-2-what-it-covers-and-which-plans-2026",
+  "canonical_url": "https://www.activepieces.com/blog/n8n-soc-2-what-it-covers-and-which-plans-2026",
+  "title": "n8n SOC 2: What It Covers and Which Plans (2026)",
+  "summary": "n8n SOC 2 report defines the audit scope and limitations. You'll understand what security controls are covered and which areas fall outside the…",
+  "body_markdown": "## SOC 2 report scope and limits\n\n\nYour install's configuration isn't included in the report. Only the systems the vendor put in scope are covered, tested against the criteria it chose, over a stated audit period.\n\n\n### Hosted service versus self-hosted install\n\n\nThe auditor tests the vendor's hosted service: its servers, its staff access, its change process. **A server you run from the vendor's compose file's your infrastructure, so none of those tested controls transfer to it.** Patching, backups and network exposure are yours to evidence.\n\n\nIn the boundary diagram below, the audited hosted service sits inside a solid line, with the self-hosted server, community nodes, stored credentials and workflow design outside it, marked out of scope.\n\n\nOnly security is a mandatory trust criterion. Availability, confidentiality, processing integrity and privacy are optional, so a report that omits confidentiality says nothing about how customer data is protected from disclosure.\n\n\nCheck which ones the vendor selected. Then read the exclusions, since the auditor never tested a carved-out component.\n\n\n### Subprocessors and the n8n SOC 2 report\n\n\nWhen a report treats subprocessors, such as the cloud host, with the carve-out method, it describes them but doesn't test them. Their controls are then someone else's report, which you must request separately.\n\n\n**30% of breaches involved a third party** , according to the[Verizon 2025 breach report, as summarised by ASIS Security Management](https://www.asisonline.org/security-management-magazine/latest-news/today-in-security/2025/april/verizon-dbir-2025/) .\n\n\nNearly one breach in three runs through a vendor's supply chain, so a clean report on the primary vendor leaves a large share of your risk unexamined. List the subprocessors and ask for each one's attestation.",
+  "published_at": "2026-10-18T14:17:12+00:00",
+  "first_seen_at": "2026-10-18T15:41:06.103735+00:00",
+  "content_hash": "sha256:c090bb365ebfebefa947bf380a2c869071348708ba0dab1cc9d4b7e36efd91ed"
+}

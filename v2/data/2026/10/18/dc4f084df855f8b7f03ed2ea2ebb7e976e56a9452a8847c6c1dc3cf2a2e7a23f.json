@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dc4f084df855f8b7f03ed2ea2ebb7e976e56a9452a8847c6c1dc3cf2a2e7a23f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/d1-ultra-decision-model-specs-pricing-and-license",
+  "canonical_url": "https://www.activepieces.com/blog/d1-ultra-decision-model-specs-pricing-and-license",
+  "title": "d1 Ultra Decision Model: Specs, Pricing, and License",
+  "summary": "Liquid's d1 ultra decision model is their most capable offering, available via API.",
+  "body_markdown": "## Answering key d1-ultra questions\n\n\nFour questions are left that the pilot cannot settle for you. Each answer below is either what Liquid AI's pages state or is marked as not published.\n\n\nIs Liquid AI d1-ultra open source? Not published: the Liquid AI pages read on 2026-10-18 give no license terms for d1-ultra that I can confirm.\n\n\nUntil the license text is in front of you, don't assume commercial use, redistribution or fine-tuning is permitted. Have whoever approves software terms in your organisation read the actual license before the model touches customer data.\n\n\nCan d1-ultra run on my own hardware? Not published: the pages read give no hardware requirements or self-hosting instructions I can confirm.\n\n\nPlan as if hosting were an open question. Keep the model behind a swappable step, so that a later answer about where it runs changes one step and not the whole workflow.\n\n\nDoes Activepieces have a d1-ultra integration? Not published: Liquid AI's pages don't list one, and the 741 integrations counted in Activepieces' open source monorepo include none that we know of built for it, so Liquid AI isn't available as a pre-built integration.\n\n\nUntil the maker states otherwise, the practical route is a generic HTTP request step pointed at whatever endpoint Liquid AI documents. That's the reason to isolate the model in one replaceable step.\n\n\n### How do I tell if d1-ultra beats my current model?\n\n\nRun both on the same sample of your own real inputs, and score the outputs blind against criteria you wrote down beforehand.\n\n\nIndependent benchmarks are limited for d1-ultra, and the maker's own claims are not evidence about your workload. Price is published at $0.042 per million input tokens with no output charge, so record cost per run during the pilot to check it against your volumes.\n\n\nA result you can reproduce and show to an approver is the only comparison that should decide the question.",
+  "published_at": "2026-10-18T12:27:20+00:00",
+  "first_seen_at": "2026-10-18T15:41:06.103735+00:00",
+  "content_hash": "sha256:68dc2b2b1362dc8334659f04071d9d5e495cd01664f68f1fc3cf3b84d0a37b2b"
+}
