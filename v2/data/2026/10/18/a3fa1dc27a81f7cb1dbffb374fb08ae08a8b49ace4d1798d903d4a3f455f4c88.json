@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a3fa1dc27a81f7cb1dbffb374fb08ae08a8b49ace4d1798d903d4a3f455f4c88",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/muse-glimmer-self-hosted-local-setup-guide-2026",
+  "canonical_url": "https://www.activepieces.com/blog/muse-glimmer-self-hosted-local-setup-guide-2026",
+  "title": "Muse Glimmer Self Hosted: Local Setup Guide (2026)",
+  "summary": "Muse Glimmer self-hosted: Meta's Apache 2.0 license lets you run the 30B model yourself and deploy it commercially.",
+  "body_markdown": "## Hardware and setup requirements for running it yourself\n\n\nBecause Meta's quantization page publishes download sizes for the Q4_K_M build and not much more, your hardware plan starts from those files and from what you measure yourself.\n\n\nThat's the same discipline as getting the contract terms in writing: trust what the maker states, and test the rest.\n\n\n### Hardware requirements Meta documents for Muse Glimmer 30B\n\n\nThe text weights rule out any machine that can't comfortably hold the file, before you start.\n\n\nThe vision projector is optional, and you need it only if your jobs read images. The optional DFlash drafter is a helper model that speeds up generation, and you can add it later if speed becomes the complaint.\n\n\nThat's storage, not the memory the model needs while running.\n\n\nPut the model behind an HTTP endpoint on a machine you control, and let your workflows call it as they would any hosted API. That keeps the model swappable: if the trial fails, you change one address instead of rewiring every step.\n\n\nCheck Meta's pages for which serving software they name before you pick your own.\n\n\n### Getting from downloaded files to a working endpoint\n\n\nThe path has three moves. First, download the files from Meta's model page into a folder of their own: the Q4_K_M text weights, plus the vision projector if you need images.\n\n\nQ4_K_M is a 4-bit quantised build, meaning the weights are stored in compressed form to shrink the file, at some cost in precision.\n\n\nSecond, serve them with software that exposes an OpenAI-compatible endpoint. The llama.cpp server, Ollama and vLLM all do. I haven't confirmed which of them loads this model's files, so test one before you commit, and prefer whichever Meta's pages name.\n\n\nThird, point the workflow at the server's address, through an AI step with a custom provider or a plain HTTP request step, and run your trial samples through it.\n\n\nAs a rule of thumb, running memory is roughly the file size plus the context cache, the working space that grows with prompt length. That is my estimate, not a figure from Meta.\n\n\n### Hardware details missing from Muse Glimmer 30B docs\n\n\nYou will not find a memory requirement while running, a speed figure, or how many requests one machine can handle at once in any of the pages I relied on.\n\n\nA team has to work those out by loading the files on the actual hardware and running real client tasks through them. Write down what you measure, because those numbers decide whether self-hosting beats paying for an API.",
+  "published_at": "2026-10-18T04:52:55+00:00",
+  "first_seen_at": "2026-10-18T06:53:58.688600+00:00",
+  "content_hash": "sha256:8befe5aeda3b5939a73e877d98564517b994130d07a6a21e6502ad6bb6ac23fb"
+}
