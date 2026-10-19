@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2cf5fc7055db2d84035c3451385e902eb0f7e32d2fbc393b6eaed0cb60357925",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gemini-4-argon-api-pricing-tokens-and-search-2026",
+  "canonical_url": "https://www.activepieces.com/blog/gemini-4-argon-api-pricing-tokens-and-search-2026",
+  "title": "Gemini 4 Argon API Pricing: Tokens and Search (2026)",
+  "summary": "Gemini 4 Argon API pricing is unconfirmed for 2026 with no verified per-token rates. Check whether Google has announced any official pricing.",
+  "body_markdown": "## Worked cost of 1,000 automation runs\n\n\n$7.00 buys a thousand email summaries on Gemini 4 Argon, while a cheaper Gemini Flash model does the same thousand for about $2.63, making email summaries a domain where model choice saves substantial money.\n\n\nA thousand ticket classifications cost $1.20 versus $0.45, and classifications thereby become another task where model choice drives costs significantly.\n\n\nAccording to Google[Cloud](https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing) , Argon costs[$2 per million input tokens and $10 per million output tokens](https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing) , against $0.75 and $3.75 for the Flash model. Both rates run at 37.5% of Argon's, so every step costs about 2.7 times more on Argon.\n\n\n### Gemini 4 Argon cost of summarising an email\n\n\nI assume 2,000 input tokens (a long thread) and 300 output tokens (a summary). On Argon that's $0.004 in plus $0.003 out, or $0.007 per run, so $7.00 per 1,000. On Flash it's $0.0015 plus $0.001125, about $2.63 per 1,000.\n\n\nMake the summary chattier and the bill grows, though input is still the larger share of it.\n\n\nI assume 500 input tokens and a 20-token label for classifying a support ticket. Argon costs $0.001 in plus $0.0002 out, so $1.20 per 1,000. Flash costs $0.000375 plus $0.000075, so $0.45 per 1,000.\n\n\nOutput is tiny here, so input length sets the price, and trimming the ticket text saves more than shortening the answer.\n\n\n### Gemini 4 Argon monthly cost at scale\n\n\nMultiply by volume and the gap moves from cents to hundreds of dollars, whether you run 1,000, 10,000 or 100,000 runs a month, because at scale these per-task differences become major spending drivers.\n\n\nAt 100,000 runs, summaries cost $700 on Argon and $262.50 on Flash, so at volume your model choice alone determines whether this task costs under $300 or approaches $700 monthly. Classification costs $120 versus $45.\n\n\nviz type=groupedbars title=\"Argon and Gemini Flash introductory prices, input and output\" unit=\"$ per 1M tokens\" source=\"Google Cloud -[https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing](https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing) \" cols=\"Gemini 4 Argon,Gemini 3.8 Flash\"0, under half on both.\" Input: 2, 0.75 Output: 10, 3.75\n\n\nSend a classifier to Argon and you spend $75 a month more for a label, and a classifier rarely needs Argon's reasoning.",
+  "published_at": "2026-10-19T04:45:41+00:00",
+  "first_seen_at": "2026-10-15T09:00:03.756744+00:00",
+  "content_hash": "sha256:ef6a08301051cc3acd60f55c1efc0059b45d91b50e6aac594e4fd5a63f65125b"
+}

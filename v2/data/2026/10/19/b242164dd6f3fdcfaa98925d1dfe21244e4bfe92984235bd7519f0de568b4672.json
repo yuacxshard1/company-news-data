@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b242164dd6f3fdcfaa98925d1dfe21244e4bfe92984235bd7519f0de568b4672",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/granola-mcp-server-setup-for-claude-chatgpt-cursor",
+  "canonical_url": "https://www.activepieces.com/blog/granola-mcp-server-setup-for-claude-chatgpt-cursor",
+  "title": "Granola MCP Server Setup for Claude, ChatGPT, Cursor",
+  "summary": "Granola MCP server lets an AI tool access your meeting notes. Add a URL to Claude, Cursor, or Activepieces and sign in through your browser.",
+  "body_markdown": "## Step-by-step: connect Granola MCP to your AI client\n\n\nOnce your plan covers it, setup is one remote URL,[https://mcp.granola.ai/mcp](https://mcp.granola.ai/mcp) , and one browser sign-in, and each stage below leaves something working before you move on.\n\n\nFor Stage 1, check that Granola has notes to read. Open Granola and confirm at least one meeting note exists in the account you'll sign in with.\n\n\n**An empty account connects without any error** and then answers every question with nothing, which looks exactly like a broken server. Fixing that now saves you from debugging the wrong layer in Stage 4.\n\n\n> An empty account connects without any error and then answers every question with nothing, which looks exactly like a broken server.\n\n\nStage 2 is adding the server in Claude. The steps below are the full path, since nothing is installed locally and the sign-in is the only point where you leave Claude.\n\n\n1. Open Claude Settings, then Connectors.\n2. Choose Add custom connector.\n3. Paste` https://mcp.granola.ai/mcp` as the URL.\n4. Finish the sign-in in the browser window that opens, using the Granola account from Stage 1.\n5. In a chat, open the tools menu and enable Granola.\n6. Run a test prompt (Stage 4).\n\n\nStep 5 is the one people skip. **A connector that's signed in but not enabled in the chat is invisible to the model.**\n\n\n### Stage 3: Add the server in Cursor or another client\n\n\nCursor takes the same URL in its` mcp.json` . Add an entry named granola whose` url` is` https://mcp.granola.ai/mcp` , save the file, and complete the browser sign-in when Cursor prompts.\n\n\nBecause the server is remote, there's no command to run and no package to keep updated. A typo in the JSON is therefore the most likely fault, so check the file before you suspect Granola.\n\n\nClaude, ChatGPT and Cursor are the clients covered here. Any other client that supports remote MCP servers with browser sign-in should accept the same URL, but we haven't tested them, so treat them as unverified.\n\n\n### Test Granola MCP with a first prompt\n\n\nAsk something that can only be answered from your notes, such as: \"Using Granola, list my most recent meetings and summarise the latest one.\"\n\n\nA real meeting title in the reply means the whole chain works. If the reply says it has no Granola tool, go back to the tools menu or the client config. If it finds nothing, go back to Stage 1.",
+  "published_at": "2026-10-19T03:23:20+00:00",
+  "first_seen_at": "2026-10-19T08:10:40.714831+00:00",
+  "content_hash": "sha256:3e814e08cbf4827d629cf42d7914f941865f0b3b52df60c3db65e0780b009af0"
+}
