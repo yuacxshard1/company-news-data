@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "14f60b7c2f9862381b8fe28f01218b7d0532d829dea17a67b203001980f2ebe1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/mistral-voxtral-3-speech-models-pricing-benchmarks",
+  "canonical_url": "https://www.activepieces.com/blog/mistral-voxtral-3-speech-models-pricing-benchmarks",
+  "title": "Mistral Voxtral 3: Speech Models, Pricing & Benchmarks",
+  "summary": "Mistral Voxtral 3 enables speech-to-text, text-to-speech, and live conversations in automation workflows. It is available via API or self-deployment.",
+  "body_markdown": "## Connecting Voxtral 3 to a workflow in Activepieces today\n\n\nIn[Activepieces](https://www.activepieces.com/pieces/mistral-ai) , every connector is an agent tool, and the Mistral AI integration's audio transcription action shows what that means here: it is defined once, as a flow step and as a tool schema on the project's MCP server.\n\n\nClaude, ChatGPT, Cursor or an agent you built yourself can call the very action you trialled in a flow, so there is no second catalog to populate and no export step.\n\n\nThe same action sits in packages/integrations in the open source repo, alongside the other integrations, for both uses.\n\n\nWe haven't run Voxtral 3 through it. That means the price and latency rows stay empty until you fill them with your own audio.\n\n\n### New actions and schemas for Mistral\n\n\nOn 2026-09-24, a pull request on[Activepieces' GitHub repository](https://github.com/activepieces/activepieces/pull/15762) added 42 agent-facing actions and output schemas to the Mistral AI integration.\n\n\nThe list includes chat completion, Codestral code completion, audio transcription, speech generation, moderation and model retrieval. Transcription is therefore a named action, not something you assemble from a generic HTTP call.\n\n\nWe read the pull request description; we didn't check which Voxtral models the transcription action lists, so confirm that in the action's model field before you build around it.\n\n\nBuild and test in this order, one step at a time:\n\n\n1. Trigger on a new recording, for example a file landing in cloud storage or a call-recording webhook.\n2. Fetch the audio file, so the next step receives the file itself and not only a link.\n3. Add the Mistral transcription action and select the Voxtral model you are trialling.\n4. Parse the text output, keeping only the fields the destination needs.\n5. Post the result to your CRM, ticket queue or message channel.\n\n\nRun a handful of real recordings and open each step's run output. The per-step input and output is where you'll see whether a failure came from the fetch, the transcription or the parse.\n\n\nIf the integration doesn't expose a Voxtral 3 option or a parameter you need, call Mistral's API with Activepieces' HTTP step, using the same position in the flow. Check the parameters against Mistral's own documentation, since we haven't verified them.",
+  "published_at": "2026-10-30T18:30:33+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:2ca1d762af9064a0e6ab0b341231dd01b0b484f8bacce5fb7c63027c3a642b01"
+}

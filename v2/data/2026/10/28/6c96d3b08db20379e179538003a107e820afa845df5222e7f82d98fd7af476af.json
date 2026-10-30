@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6c96d3b08db20379e179538003a107e820afa845df5222e7f82d98fd7af476af",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+  "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+  "summary": "Discover more about what's new at AWS with Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+  "body_markdown": "Today,[Amazon Elastic Container Service (Amazon ECS) Managed Instances](https://aws.amazon.com/ecs/managed-instances/) introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation evaluates tasks running across multiple underutilized instances together, packing them onto fewer instances to raise utilization and lower costs. Spot consolidation extends this capability to Spot capacity, consolidating underutilized Spot Instances after first verifying replacement capacity is available.\n\n\nAmazon ECS Managed Instances provisions, configures, and operates right-sized Amazon EC2 instances for your workloads, balancing availability and cost. Its infrastructure optimization continuously monitors your fleet, reclaiming idle capacity and consolidating underutilized instances with graceful start-before-stop task replacement. Until now, optimization evaluated each instance in isolation for replacement, which worked well when a capacity provider was configured with diverse instance types. However, when a capacity provider was configured with a narrow range of instance types, there were fewer opportunities to consolidate multiple underutilized instances, because no single replacement could yield savings. With cross-instance consolidation, ECS now evaluates and repacks tasks across multiple instances simultaneously. For example, in our testing with a capacity provider configured for c9g instances with a minimum size of 4xlarge, running 261 tasks (each 1 vCPU, 1.94 GiB), cross-instance consolidation reduced the fleet from 19 instances (seven 4xlarge, seven 8xlarge, four 12xlarge, and one 24xlarge) to 13 instances (eight 4xlarge and five 8xlarge), while raising CPU utilization from 42% to 91% and memory utilization from 41% to 88%. Spot consolidation applies the same approach to Spot capacity, first verifying replacement capacity is available. With these enhancements, ECS Managed Instances delivers deeper cost optimization for both your On-Demand and Spot workloads.\n\n\nCross-instance and Spot consolidation are now available at no additional cost in all AWS Regions, and apply automatically to all existing and new ECS Managed Instances capacity providers. To learn more, see our[documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-instances-infrastructure-optimization.html) .",
+  "published_at": "2026-10-28T18:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:63a2bc743de752ebf3e8616b594919046452a3cd9c91e10aa054869337bd8398"
+}

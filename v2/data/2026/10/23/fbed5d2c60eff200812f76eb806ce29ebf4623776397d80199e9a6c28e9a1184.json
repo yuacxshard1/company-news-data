@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fbed5d2c60eff200812f76eb806ce29ebf4623776397d80199e9a6c28e9a1184",
+  "company_key": "yc-spline",
+  "company_name": "Spline",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://spline.design/changelog/3d-comments-improvements",
+  "canonical_url": "https://spline.design/changelog/3d-comments-improvements",
+  "title": "Improved 3D editor comments, now with AI",
+  "summary": "Comments in the 3D editor have been rebuilt: a comments panel, real resolve, unread markers and previews on the canvas. Spline's AI agent can now work from comments too. Ask AI on a thread and it makes the change, looks from the commenter's view and replies with what it did.",
+  "body_markdown": "October 23, 2026\n\n\n# Improved 3D editor comments, now with AI\n\n\nComments in the 3D editor have been rebuilt: a comments panel, real resolve, unread markers and previews on the canvas. Spline's AI agent can now work from comments too. Ask AI on a thread and it makes the change, looks from the commenter's view and replies with what it did.\n\n\n## Changes\n\n\n**3D editor**\n\n\n- **Comments panel** - Comment mode opens a panel listing every thread, with participants, reply count and time. Filter by this scene or all scenes, and show resolved threads. Opening a thread switches to its scene and moves the camera to the commenter's view.\n- **Resolve and reopen** - Resolving a thread keeps it instead of deleting it, and you can reopen it later.\n- **Unread markers** - Red dots on pins and in the panel show threads with new replies. Mark threads read or unread.\n- **Pin previews** - Hover a pin to see its first comment and profile photos. Right-click a pin to resolve it, mark it unread or Ask AI.\n- **Hide comments** - Shift+C hides and shows all comments.\n\n\n**AI & agents**\n\n\n- **Ask AI on a comment** - Send a thread to Spline's AI agent. It makes the change, checks it from the commenter's camera and replies on the thread. It resolves threads only when you ask.\n- **Comments over MCP** - Claude, ChatGPT and other MCP clients can read, reply to and resolve comments.\n\n\n**Fixes**\n\n\n- Comments no longer show over the running scene in the Preview tab.\n- Escape closes the open thread.",
+  "published_at": "2026-10-23T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T18:10:26.191513+00:00",
+  "content_hash": "sha256:cb35cde51f880514eae4d7c67862217dc266bb92ad50b6985dab2ca3b9eef0f9"
+}

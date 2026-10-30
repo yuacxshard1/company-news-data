@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "19a63ccf377e911fabd1c0f4a8a340a89f06047087e8a681dbb3a8f5918f501b",
+  "company_key": "yc-zapier",
+  "company_name": "Zapier",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://zapier.com/blog/tables-build-actions",
+  "canonical_url": "https://zapier.com/blog/tables-build-actions",
+  "title": "Turn every order line item into a Zapier Tables record",
+  "summary": "Zapier Tables now has Create Table, Add Field(s) and Create Multiple Records, so a Zap can build a table and turn line items into up to 1,000 records.",
+  "body_markdown": "Originally released July 28, 2026.\n\n\nA new customer just placed their first order, 12 products due out Friday. Your warehouse packs from a table with one row per product, and nothing ships until every row has a check mark.\n\n\nIf your Zap drops that order into a single record, the packer gets a paragraph instead of a checklist. Somewhere around product nine, a line gets skipped.\n\n\nYour new customer's first box arrives one product short.\n\n\nTwelve products should mean twelve rows, and now your Zap can write them. Zapier Tables has three new Zap actions called Create Multiple Records, Create Table and Add Field(s).\n\n\n## Give every product its own row\n\n\nCreate Multiple Records creates up to 1,000 records on a table and supports line items. Hand it the order's line items, and each of the 12 products lands as its own record with its own Packed checkbox.\n\n\nNo packing table yet? Create Table builds one from a Zap, optionally with initial fields. When your team later wants a tracking number next to each product, Add Field(s) adds that column to the table you already have.\n\n\nYour Zap and your warehouse work from the same rows in Zapier Tables. Records can come in from a Zap or by hand, and a later step can use Find Records and Update Record to mark an order shipped.\n\n\n## Send each order's line items to your table\n\n\nReady to stop packing from paragraphs? Add one step after the trigger that catches new orders.\n\n\n1.\n\n\nAdd a Zapier Tables step and pick **Create Multiple Records** from the event list.\n\n\n2.\n\n\nChoose the table your warehouse packs from.\n\n\n3.\n\n\nMap the order's line items to the table's fields.\n\n\n4.\n\n\nTest the step, then check the table for one row per product.\n\n\n## Availability\n\n\nZapier Tables is available on Free, Professional, Team and Enterprise plans. Create Multiple Records creates up to 1,000 records, and record limits depend on your plan, so check the[Zapier Tables usage limits](https://help.zapier.com/hc/en-us/articles/15721386410765-Zapier-Tables-usage-limits) before your busiest week.\n\n\n[Build with Zapier Tables](https://zapier.com/apps/zapier-tables/integrations)",
+  "published_at": "2026-10-27T17:00:00+00:00",
+  "first_seen_at": "2026-10-30T16:29:02.554704+00:00",
+  "content_hash": "sha256:1067fcf404e997ae898797498d9b7eeabb5692b485449f5a586ea4e63ec6f14e"
+}

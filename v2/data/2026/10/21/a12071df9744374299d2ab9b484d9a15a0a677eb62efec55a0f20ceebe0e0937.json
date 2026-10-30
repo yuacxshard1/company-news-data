@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a12071df9744374299d2ab9b484d9a15a0a677eb62efec55a0f20ceebe0e0937",
+  "company_key": "yc-blacksmith",
+  "company_name": "Blacksmith",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.blacksmith.sh/blog/series-c",
+  "canonical_url": "https://www.blacksmith.sh/blog/series-c",
+  "title": "Building the CI cloud: our Series C",
+  "summary": "Sequoia is leading our Series C at a $1B valuation to scale the CI cloud.",
+  "body_markdown": "Writing code used to be the slow part of shipping software. It isn't anymore.\n\n\nToday we are announcing our Series C, led by Sequoia Capital at a $1B valuation, with participation from Premji Invest and existing investors Peak XV Partners, GV, and Y Combinator, bringing our total raised to $125M.\n\n\nEvery code change still has to be built and tested before anyone merges it. That step is CI, and most companies are struggling to keep up with the volume of CI they need to run. Anthropic[wrote](https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic) last month that its CI job volume grew 25x in six months as Claude took over most of its code output. They’re further along the adoption curve, but we’re seeing the same trend across our customers, and expect many to reach that point soon. As agents write more of the world's software, the question that matters is whether it can be trusted.\n\n\nBlacksmith is the CI cloud. Companies bring us their CI workloads, and we run them faster than they could anywhere else, with zero operational overhead. High-growth startups and household enterprise names are all feeling the same pain: the CI they run themselves on a general-purpose cloud has turned into an operational nightmare or simply cannot keep up with how fast their developers push. CI is the spikiest workload a company runs. A single customer's demand regularly jumps from zero to tens of thousands of CPUs and back again, and we have spent most of the last three years building infrastructure that absorbs that as a matter of routine. We power CI for some of the fastest-moving teams in software, including Mercury, Granola, Handshake, and LangChain.\n\n\nSince January, the number of CI jobs running on Blacksmith each week has grown from 5 million to more than 90 million, and our ARR has grown 17x.\n\n\nThe capital goes towards scaling our team and growing our compute footprint. Blacksmith manages just under 10 MW of compute across data centers in the U.S. and Europe today, and we are working to 5x that footprint in 2027.\n\n\nThank you to the more than 10,000 companies who trust us with their most critical workloads every day. If you’re interested in joining a highly motivated team working at break neck speed across NY and SF, check out our[open roles](https://www.blacksmith.sh/careers) .",
+  "published_at": "2026-10-21T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T18:06:36.993847+00:00",
+  "content_hash": "sha256:9ed30db9c009bc248629c33e976c778f492e4342087b729bf601fbb9b7cd131b"
+}

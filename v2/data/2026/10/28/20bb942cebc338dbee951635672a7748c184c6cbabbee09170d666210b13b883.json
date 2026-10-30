@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "20bb942cebc338dbee951635672a7748c184c6cbabbee09170d666210b13b883",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-change-notifications/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-change-notifications/",
+  "title": "AWS IAM Identity Center's Identity Store now supports change notifications through Amazon EventBridge",
+  "summary": "Discover more about what's new at AWS with AWS IAM Identity Center's Identity Store now supports change notifications through Amazon EventBridge",
+  "body_markdown": "AWS IAM Identity Center's Identity Store now delivers real-time events to Amazon EventBridge when users, groups, or group memberships or the identity store itself is created, updated, or deleted. AWS IAM Identity Center Identity Store is a central repository that allows you to manage identities and access across AWS accounts and applications, serving as the identity source for AWS IAM Identity Center. This new capability helps you automatically respond to identity lifecycle events and support your security and compliance processes by detecting changes as they happen.\n\n\nWith Identity Store change notifications, you can build automated workflows that respond to identity changes in your organization. For example, security teams can create EventBridge rules that trigger AWS Lambda functions to audit user provisioning activity, send alerts to security information and event management (SIEM) systems, or update access in downstream applications when users or groups change. Organizations that manage large workforces can also use this data to automate onboarding and offboarding when users are added to or removed from specific groups.\n\n\nChange notifications are available in all AWS Regions where IAM Identity Center is available, and events are sent in each enabled Region of your instance. For the list of Regions, see[AWS capabilities by Regions](https://builder.aws.com/build/capabilities/explore?tab=service-feature&f=eJwdi0EKhDAUQ68yZK2L2fYAc4DZ-ouIZqQgtrRfQaR3909XeeElNwo3zsrlyzXEvcBhEByl51S0fws8OqQcE7Oen7Ap8_jjpEemTW9BEjhBzIJOoFYGb7D-wWxs1jV5NggLdw16vWZL2q36ivoAQn8tDw) . Change notifications are available at no additional cost beyond standard Amazon EventBridge usage charges. To learn more, see[Event notifications](https://docs.aws.amazon.com/singlesignon/latest/userguide/event-notifications.html) in the AWS IAM Identity Center User Guide and[Identity Store events](https://docs.aws.amazon.com/eventbridge/latest/ref/events-ref-identitystore.html) in the Amazon EventBridge Events Reference.",
+  "published_at": "2026-10-28T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:796ba8df9ead304ff27d7a99130e4c8ac2337fb4741b3b866d0d984fa820bd8a"
+}

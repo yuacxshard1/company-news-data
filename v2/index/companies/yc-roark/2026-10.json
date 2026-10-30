@@ -3,6 +3,46 @@
     {
       "company_key": "yc-roark",
       "company_name": "Roark",
+      "doc_id": "0a7b46912bdfdebfd7f5ccd6e80aae877b90bb4a1cae38a25106bf22fe03a63b",
+      "first_seen_at": "2026-10-30T20:34:13.164586+00:00",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Grok Voice 3.0 just topped the Artificial Analysis Speech-to-Speech Index. Here is why that number does not tell you whether to swap models.",
+      "title": "The leaderboard is not your voice agent benchmark"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "0ccaf35df75bfeddbb0ee4250d8e048e156f895c67ff6a0dff90a1fc130f8037",
+      "first_seen_at": "2026-10-30T20:34:13.164586+00:00",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Streaming ASR is faster than ever, which means partials revise more. If your voice agent reacts on interims, here is what to test and how.",
+      "title": "Testing voice agents against unstable ASR partials"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "13a4343013170ac89a5affc752ea1ffa47abfa46cd29a7b78428983536fabde5",
+      "first_seen_at": "2026-10-30T20:34:13.164586+00:00",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A PM playbook for running voice AI agents in shadow mode on live phone traffic: three parallel-run patterns, what to measure, and when to graduate to canary.",
+      "title": "Shadow mode for voice AI agents"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "13bdd51846c7ab2e3490e6bd4a7cb5834f24a8a1b542385f0628d3d29652e094",
+      "first_seen_at": "2026-10-30T20:34:13.164586+00:00",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Personal agents are starting to call businesses. Your voice agent needs a test plan for inbound AI callers: detection, policy, verification, and replay.",
+      "title": "Testing voice agents for inbound AI callers"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
       "doc_id": "1d7a741f8a912b5df48827af9920db4e12bdce40a312e6d064f51e3087cea9ef",
       "first_seen_at": "2026-10-07T00:50:16.832282+00:00",
       "published_at": "2026-10-06T00:00:00+00:00",
@@ -19,6 +59,16 @@
       "source_kind": "html",
       "summary": "Fleming-1, PAP and PACT just reframed inbound voice. Here is how to design and test a voice agent's policy for AI-to-AI calls before you ship it.",
       "title": "Testing voice AI agents against AI callers"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "49a8d8401916b3bb00d2acb7ed0129e50026705fb94950b4b6655697d1e93b55",
+      "first_seen_at": "2026-10-30T20:34:13.164586+00:00",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Agents now escalate, soften tone, and reroute based on caller prosody. Transcript tests can't verify any of it. Here's how to test emotion-adaptive routing properly.",
+      "title": "Testing emotion-adaptive routing in voice AI agents"
     },
     {
       "company_key": "yc-roark",
@@ -89,6 +139,16 @@
       "source_kind": "html",
       "summary": "Preemptive generation and duplex voice architectures hide latency, but create new failure modes. A testing plan for eager end-of-turn and speculative drafts.",
       "title": "Testing preemptive generation in voice AI agents"
+    },
+    {
+      "company_key": "yc-roark",
+      "company_name": "Roark",
+      "doc_id": "def3668e14e41126337c07df352151f6d59fc1776491c62e9b5cb2d7ff6feab7",
+      "first_seen_at": "2026-10-30T20:34:13.164586+00:00",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A pm playbook for voice agent model sunsets: inventory, acceptance criteria, sim-suite re-run, production replay, and a tested rollback before the cutoff.",
+      "title": "A migration playbook for voice agent model sunsets"
     },
     {
       "company_key": "yc-roark",

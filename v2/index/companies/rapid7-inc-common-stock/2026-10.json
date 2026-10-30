@@ -23,6 +23,16 @@
     {
       "company_key": "rapid7-inc-common-stock",
       "company_name": "Rapid7 Inc.",
+      "doc_id": "1b6cd6ef16cd990492c4fa60f67a530a97c86ac80b81482679fb3c5e48f2aa47",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-27T12:24:04+00:00",
+      "source_kind": "rss",
+      "summary": "As organizations grow, keeping user accounts and permissions up to date becomes increasingly complex. Employees join, change roles, and leave, creating a constant need to update access across applications. Rapid7 Command Platform now supports System for Cross-domain Identity Management (SCIM), enabling customers to automate user provisioning and deprovisioning through their existing identity provider (IdP).",
+      "title": "Simplify User Access Management with SCIM on Rapid7 Command Platform"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
       "doc_id": "24bd0f13bc792a1bb0e5e747ab54eca4ec5e36e2fe4e525a3b00513b5b2e11be",
       "first_seen_at": "2026-10-06T20:42:10.584616+00:00",
       "published_at": "2026-10-02T13:00:00+00:00",
@@ -63,6 +73,16 @@
     {
       "company_key": "rapid7-inc-common-stock",
       "company_name": "Rapid7 Inc.",
+      "doc_id": "3de69eeba9a4930cb9798a201b20c949a3298f8ff273d2f63877da4e1bfae5d1",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-30T16:01:53+00:00",
+      "source_kind": "rss",
+      "summary": "An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account credentials or user interaction are required.",
+      "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
       "doc_id": "43d4c58d664f6af828d35a528248348e3c195730afcb2151fbc4d728419ca3ad",
       "first_seen_at": "2026-10-13T18:06:41.882939+00:00",
       "published_at": "2026-10-13T17:06:05+00:00",
@@ -83,12 +103,32 @@
     {
       "company_key": "rapid7-inc-common-stock",
       "company_name": "Rapid7 Inc.",
+      "doc_id": "4a01df660d948eab933bebfa70a684176762e022e9fc561576a429d62d7bedb6",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-21T15:22:52+00:00",
+      "source_kind": "rss",
+      "summary": "On October 21, 2026, the PHP project announced security releases for two critical vulnerabilities in PHP. CVE-2026-109618 can corrupt memory during out-of-memory (OOM) handling, while CVE-2026-109619 is a use-after-free flaw involving state retained between requests. Both have a CVSSv4 score of 9.2 and both can allow for unauthenticated remote code execution (RCE) with the web worker's privileges.",
+      "title": "CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
       "doc_id": "4fc5bcaf7e40bcd0ef3cffa5eab791768b6976c9bf2094323e2794c7a58fa567",
       "first_seen_at": "2026-10-14T02:50:19.256004+00:00",
       "published_at": "2026-10-13T21:40:27+00:00",
       "source_kind": "rss",
       "summary": "Microsoft is publishing 1,413 own-product vulnerabilities on October 2026 Patch Tuesday, including 1,102 vulnerabilities in Windows.",
       "title": "Patch Tuesday - October 2026"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
+      "doc_id": "51ebfc1228cbb6ca00925b172c53aba6e65f53bbed7a872d9e678d0e13308652",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-21T13:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "In a brand new report, Rapid7's Q3 2026 research brings together vulnerability intelligence, ransomware activity, APT tracking, and underground forum intelligence to show where attacker activity is concentrated.",
+      "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days"
     },
     {
       "company_key": "rapid7-inc-common-stock",
@@ -113,12 +153,62 @@
     {
       "company_key": "rapid7-inc-common-stock",
       "company_name": "Rapid7 Inc.",
+      "doc_id": "7a2dca6eafdbe194320e3ee75a6d800f23cf985dddcb614dec342f16624dde41",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-19T14:34:04+00:00",
+      "source_kind": "rss",
+      "summary": "On October 15, 2026, BeyondTrust disclosed a critical authentication bypass in Remote Support (RS), its platform for remotely troubleshooting and administering endpoints. Tracked as CVE-2026-102764 and assigned a CVSSv4 score of 9.3, the vulnerability allows unauthenticated remote attackers to perform file operations on an affected appliance without user interaction. Versions 26.2.3 and earlier are affected unless the BT26-05-RS patch has been applied.",
+      "title": "CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
+      "doc_id": "7d04f73cd2bfa1277235141aa9789609e1f0097549596879a977de8bc5d49d01",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-19T15:11:57+00:00",
+      "source_kind": "rss",
+      "summary": "In early October 2026, Rapid7 analysts investigated a confirmed compromise of an anonymized Citrix NetScaler ADC appliance. The appliance was running an affected 14.1 build and was exposed to active exploitation targeting NetScaler authentication and SAML deployments. The intrusion achieved root code execution, deployed multiple persistence mechanisms, installed PHP web shells, created outbound command-and-control and internal tunnelling capabilities, performed targeted reconnaissance of DNS, LDAP/Active Directory, management services and VMware vCenter infrastructure, and exfiltrated NetScaler configuration and key material.",
+      "title": "Rapid7 Analysis: NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
+      "doc_id": "827142a1be3c0ebf2f5b310d755dac1820b76e6c2f5f38e1a36eca28e2a749f3",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-23T15:38:56+00:00",
+      "source_kind": "rss",
+      "summary": "This release adds multiple new modules, and 6 of those modules point at a single target: Langflow, the open-source LLM workflow builder. Together they cover an authentication bypass (CVE-2026-93680), 3 unauthenticated remote code execution paths (CVE-2026-0768, CVE-2026-0769, and CVE-2026-10134), and 2 authenticated code execution flaws (CVE-2026-7873 and CVE-2026-93674), spanning Langflow releases from 1.0.0 through 1.11.4.",
+      "title": "Metasploit Wrap Up: Langflow, MongoDB, and More"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
       "doc_id": "90b555569703889300b73732250a27559dd92900e5baeb4a995e89edb1419b5f",
       "first_seen_at": "2026-10-06T22:05:53.545328+00:00",
       "published_at": null,
       "source_kind": "html",
       "summary": "As automated exploits dismantle traditional defense models in hours, Rapid7 unites threat intelligence, vulnerability research, and Rapid7 Labs to end reactive cybersecurity once and for all.",
       "title": "Rapid7 Launches Rapid7 Intelligence to Harness Threat Data Against Attackers"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
+      "doc_id": "96e0b182d4fbfd5f41bb3490041b6dc09e43272ae5738ed37fd79fbc41410c1d",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-19T15:57:43+00:00",
+      "source_kind": "rss",
+      "summary": "While performing continuous red teaming exercises through Rapid7’s Vector Command service, Rapid7 discovered three new vulnerabilities in Eptura Archibus. A legacy API endpoint could be exploited to bypass authentication and run various functions without authentication (CVSS: 8.6 High). The most serious functions allow for full database read (CVSS: 8.5 High) and an insecure file upload (CVSS: 9.6 Critical). The insecure file upload leads to remote code execution.",
+      "title": "Authentication Bypass, Remote Code Execution, and Database Read in Eptura Archibus (FIXED)"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
+      "doc_id": "a668b9e95621874bf158a7aafdae658996c4eddf6f6a1375c1f78c1c5825fd70",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-28T13:16:39+00:00",
+      "source_kind": "rss",
+      "summary": "InsightGovCloud, Rapid7’s FedRAMP-authorized suite of security solutions, helps organizations implement BOD 22-01 by providing automated vulnerability scanning, real-time alerts for KEVs, and reporting aligned with regulatory requirements.",
+      "title": "How Rapid7 InsightGovCloud Supports BOD 22-01 Compliance"
     },
     {
       "company_key": "rapid7-inc-common-stock",
@@ -133,12 +223,32 @@
     {
       "company_key": "rapid7-inc-common-stock",
       "company_name": "Rapid7 Inc.",
+      "doc_id": "b26ae7ea01d1bc3903a1a83f39af325ea7eab143a2d5d770a33829035326bc6f",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-19T16:34:43+00:00",
+      "source_kind": "rss",
+      "summary": "Today, we’re navigating a new frontier of access with regard to AI agents. They read our mailboxes, query our data lakes, open tickets, push code and increasingly, act on production systems. Unlike a new hire, an agent can’t be interviewed, background-checked or made to sign an acceptable-use policy.",
+      "title": "Your Next Insider Threat Won’t be Human: Securing AI Agents From the Outside in"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
       "doc_id": "ca5d3805d02bb88aa2be1c7d46a40785d429bfcfaf2d7a9ccbda2221e44773f3",
       "first_seen_at": "2026-10-09T14:17:29.617506+00:00",
       "published_at": "2026-10-09T11:00:52+00:00",
       "source_kind": "rss",
       "summary": "Rapid7 Website",
       "title": "Metasploit Wrap Up: A Collection of What Can Only Be Called Eclectic Modules"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
+      "doc_id": "cd73a85b7023113854149d085305165130b1d9536a2b219903680fcb1ae0ce79",
+      "first_seen_at": "2026-10-30T20:25:23.177576+00:00",
+      "published_at": "2026-10-26T17:32:46+00:00",
+      "source_kind": "rss",
+      "summary": "On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497, an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x, 24.x, and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2.",
+      "title": "CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder"
     },
     {
       "company_key": "rapid7-inc-common-stock",

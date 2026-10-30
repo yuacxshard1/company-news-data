@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "762151f84dbc258859520034810c84e85235553cc8783684b35e701192f64df7",
+  "company_key": "yc-speak",
+  "company_name": "Speak",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.speak.com/blog/an-afternoon-port-taking-jieba-to-rust-with-codex",
+  "canonical_url": "https://www.speak.com/blog/an-afternoon-port-taking-jieba-to-rust-with-codex",
+  "title": "An afternoon port: Taking Jieba to Rust with Codex",
+  "summary": "",
+  "body_markdown": "#### Agents changed the cost of replacing a dependency\n\n\nWhen an impressive new model comes out, I like to throw a real project at it. This time, I tried porting the parts of[Jieba](https://github.com/fxsjy/jieba) we used at Speak from Python to Rust.\n\n\nChinese text doesn’t have spaces between words, so Speak uses Jieba to find those boundaries. We use them to compare a learner’s speech transcript with the target words in a lesson and to prepare Chinese text with word-by-word pinyin. The library hadn’t been maintained for a while, and its dependencies complicated our builds. It was also a good experiment: put strings in, get segmented text out, and compare the results automatically.\n\n\nI built the feature and shipped it to production in one afternoon. I asked Claude Code to plan a drop-in Jieba replacement with a Rust core, Python bindings, uv, Python 3.11+, CPU and memory comparisons, and tasks small enough for smaller models. Then I asked it to implement` PLAN.md` and use subagents where appropriate. To my surprise, the model required very little steering and was mostly able to execute on the task entirely autonomously.\n\n\n#### Checking the result\n\n\nI focused on the behavior we actually used, including segmentation, token offsets, part-of-speech tagging, and dictionary updates. A[Rust core with Python bindings](https://github.com/usespeakeasy/jieba_rs) let us keep the same interface while moving the expensive work into Rust.\n\n\nThe existing implementation gave us a reference, which is really helpful when automating a re-write. On the 1,633-sample Chinese benchmark corpus, outputs matched for every compared operation.\n\n\nInitial benchmarks on my Mac M5 Max showed that the Rust port ran bulk operations 3.6–5.7× faster than Python. A later, separate[Linux benchmark](https://github.com/usespeakeasy/jieba_rs/blob/main/BENCHMARK_REPORT.md) compared an optimized Rust version with its predecessor: part-of-speech tagging was 5.09× faster, and dictionary-resident memory use was 38.2% lower, though some general segmentation operations were slightly slower.\n\n\n#### Some dependencies are worth another look\n\n\nRewriting even a small dependency used to be a substantial project. Agents make some of those projects cheap enough to try, especially when you can check the behavior automatically.\n\n\nOwning the library also means we can handle edge cases there, rather than keep adding workarounds in our product code. We’re responsible for maintaining it, but we can change it to fit what we need.\n\n\nIf there’s a small dependency you’ve wanted to replace or adapt, it’s worth trying again.\n\n\nCome build with us: speak.com/careers",
+  "published_at": "2026-10-22T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T20:04:08.379248+00:00",
+  "content_hash": "sha256:6f9579f0bfdb494f170c2fecd9efda59f350565d11d94895f69159ee7232610a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2b2f0bd9b71c3519622dd4f1de949abeb49d85d70a616671241008c41a2f03a3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+  "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
+  "summary": "Discover more about what's new at AWS with AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
+  "body_markdown": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query performance over large tables in data lakes. With this launch, you can enable table optimization for individual tables or for all tables in your Data Catalog.\n\n\nApache Iceberg tables accumulate small files, snapshots, and unreferenced files with every write, which slows queries and increases storage costs over time. Table optimization continuously monitors your tables to compact small files in the background, remove snapshots that are past your retention settings, and delete unreferenced files that are no longer needed. You can monitor each run from the AWS Glue console, Amazon CloudWatch metrics, and logs.\n\n\nYou can enable table optimization using the AWS Glue console, AWS CLI, or AWS SDKs. For the full list of Regions where table optimization is available, see[Supported Regions for table optimizers](https://docs.aws.amazon.com/glue/latest/dg/regions-optimizers.html) . To learn more, see[Optimizing Iceberg tables](https://docs.aws.amazon.com/glue/latest/dg/table-optimizers.html) in the AWS Glue Developer Guide. To get started, visit the[AWS Glue product page](https://aws.amazon.com/glue/) .",
+  "published_at": "2026-10-30T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:eec621664c66211f064d29e839fb8027be672f19984026fb72365eacafed6ac3"
+}

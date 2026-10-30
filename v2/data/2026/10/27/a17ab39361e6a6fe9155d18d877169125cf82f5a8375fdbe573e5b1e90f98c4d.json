@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a17ab39361e6a6fe9155d18d877169125cf82f5a8375fdbe573e5b1e90f98c4d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+  "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+  "summary": "Discover more about what's new at AWS with Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+  "body_markdown": "[Amazon Elastic Container Service](https://aws.amazon.com/ecs/) (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS), enabling you to run multiple Amazon ECS tasks concurrently on a single NVIDIA GPU. GPU sharing helps you increase GPU utilization and reduce infrastructure costs for workloads that use only part of a GPU's capacity, such as small-model inference, AV/ADAS simulations, embedding generation, and multi-model serving.\n\n\nWith GPU sharing, you can pack more workloads onto each GPU instance without changing your application code. You define the GPU memory each container needs and can optionally set a maximum share of GPU compute, and Amazon ECS places tasks on GPUs with available capacity as your services scale and deploy. GPU sharing is supported on Amazon ECS Managed Instances and Amazon ECS on Amazon EC2. On Amazon ECS Managed Instances, Amazon ECS also monitors the MPS control daemon that enables sharing on each instance. If the daemon stops or becomes unhealthy, Amazon ECS automatically replaces the instance and moves your tasks to healthy capacity, so your GPU workloads keep running without manual intervention.\n\n\nTo get started, use the AWS Management Console, AWS CLI, AWS SDKs, AWS CloudFormation, or other infrastructure-as-code tools to create a capacity provider with NVIDIA GPU instances, set the GPU sharing strategy and memory in the container definition of your task definition, and create a service on that capacity provider. This capability is available in all AWS commercial and AWS GovCloud (US)[Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To learn more, visit the Amazon ECS GPU sharing[documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-gpu-sharing.html) .",
+  "published_at": "2026-10-27T23:31:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:f8ffc6336fc5e40f4038cd4b36490c0f299b1c368794ce0fd3ff11b90e2c8d6c"
+}

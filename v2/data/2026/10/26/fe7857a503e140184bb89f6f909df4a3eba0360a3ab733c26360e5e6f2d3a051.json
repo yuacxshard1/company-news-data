@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fe7857a503e140184bb89f6f909df4a3eba0360a3ab733c26360e5e6f2d3a051",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/",
+  "title": "Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API",
+  "summary": "Discover more about what's new at AWS with Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API",
+  "body_markdown": "Amazon WorkSpaces Core Managed Instances now supports the ModifyVolume API, which lets you change volume size, volume type, IOPS, or throughput in place, without detaching the volume or restarting the instance. Previously, changing storage capacity or performance on a deployed managed instance required rebuilding it.\n\n\nWith ModifyVolume, you can increase volume size up to 16,384 GiB, switch between supported Amazon EBS volume types, adjust IOPS for gp3, io1, and io2 volumes, and modify throughput for gp3 volumes. The API supports idempotency tokens to prevent duplicate changes, and you can track progress with the Amazon EC2 DescribeVolumesModifications operation.\n\n\nModifyVolume is available in all AWS Regions where Amazon WorkSpaces Core Managed Instances is available.\n\n\nTo get started, call ModifyVolume directly, or use it through your WorkSpaces Core partner solution once available. To learn more, see[ModifyVolume](https://docs.aws.amazon.com/workspaces-instances/latest/api/API_ModifyVolume.html) in the WorkSpaces Instances API Reference and[Limitations](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-modify-volume.html#elastic-volumes-limitations) in the Amazon EBS User Guide, or visit[WorkSpaces Core](https://aws.amazon.com/workspaces/vdi-partners/) .",
+  "published_at": "2026-10-26T18:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:91f0823987e14a51342efbbe9ae7a17f8a58ec5741bc2e24ad8da5a4a02c47be"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "13cd3690a1f0d6d1ccac207f67e47637228c4493fe1107cf80287d69fbd01376",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/greenhouse-pricing-2026-plans-and-what-each-costs",
+  "canonical_url": "https://www.activepieces.com/blog/greenhouse-pricing-2026-plans-and-what-each-costs",
+  "title": "Greenhouse Pricing 2026: Plans and What Each Costs",
+  "summary": "Greenhouse pricing isn't fixed by tier name: your actual cost depends on your headcount and hiring volume, so request a custom quote.",
+  "body_markdown": "## Where Activepieces Fits Around a Greenhouse Contract\n\n\nIf you are weighing Activepieces, know that it doesn't replace an applicant tracking system.\n\n\nIt moves data between the one you buy and the other tools your team already runs, across 746 integrations counted from its open source monorepo, which is where the unbudgeted hours tend to sit once the contract is signed.\n\n\n### Manual handoffs that eat Greenhouse recruiter hours\n\n\nEvery hire creates a few small manual jobs. Someone copies the hired candidate's details into the HRIS (the system of record for employees).\n\n\nSomeone notices a candidate has sat in one stage too long and pings the hiring manager. Someone chases an offer approval through email. None of these is expensive on its own.\n\n\nMultiply by every hire and **the cost is recruiter time that never appears** on the vendor's quote.\n\n\nEach of those handoffs can be its own small flow, because the Activepieces pricing page lists \"unlimited flows\" on every tier from Free through Ultimate and meters only credits per run, at 1 credit per run however many steps it has, while Zapier's pricing page bills a task per action and Make's a credit per module.\n\n\nThe screenshot below shows the shape of one with a different pair of apps.\n\n\nA Stripe \"Payment Failed\" event triggers a Slack \"Send Message To A Channel\" action, the run details show the first step completed in 574ms, and the canvas reports \"Run succeeded.\"\n\n\nSwap the trigger for a Greenhouse event, such as a candidate reaching a stage, and the same two-step pattern covers a stalled-stage alert.\n\n\nWhat the screenshot proves is narrow: you can see each step, its configuration, and whether the run worked.\n\n\nThat visibility is what lets you audit a handoff instead of trusting it. I wouldn't call it proof that any particular Greenhouse flow is available, so test the one you need before relying on it.\n\n\n### What to check about API access on your plan\n\n\nFor automation to work, the source system has to let another tool read its data.\n\n\nBefore signing, ask Greenhouse in writing whether API access is included in your plan or priced as an add-on, and whether it limits which data or how many requests you can make.\n\n\nAsk the same of webhooks, since those are what trigger a flow when something changes.\n\n\nI couldn't confirm how Greenhouse packages this by tier, so treat it as a line item to have itemized. If the answer is vague, assume it costs extra. An integration budget that starts after signing is the same surprise this article warns about, only later.",
+  "published_at": "2026-10-30T02:46:37+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:766ead15ce3bd5d651c56bda2edafae420af9d3995a21038022f377f438f8f9b"
+}

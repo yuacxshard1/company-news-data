@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3388363dedc3fcb010c66eea3385a1653cae6cb07b26746daf7ad854efdb3f70",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
+  "title": "AWS CloudFormation now simplifies stack update rollback operations",
+  "summary": "Discover more about what's new at AWS with AWS CloudFormation now simplifies stack update rollback operations",
+  "body_markdown": "[AWS CloudFormation](https://docs.aws.amazon.com/cloudformation/) now makes it simpler to complete an update rollback and get back to deploying. An update rollback returns your stack to a known good state. Starting today, if some resources cannot roll back automatically, force rollback enables you to complete the rollback in a single operation. It works across every CloudFormation workflow, from the[AWS CLI](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/) , and SDKs to[AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/) and AI agents.\n\n\nWith force rollback, CloudFormation completes the update rollback and returns your stack to a deployable state in a single operation, instead of requiring you to identify, list, and retry the operation for each affected resource. Any resource that still needs attention, such as one affected by a change outside CloudFormation, is recorded for you to review and resolve it before your next deployment.\n\n\nTo get started, run continue update rollback with the force rollback option, then create a[drift-aware change set](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/drift-aware-change-sets.html) to review any configuration differences before your next deployment. To learn more, see[Continue rolling back an update](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-continueupdaterollback.html) in the AWS CloudFormation User Guide.\n\n\nForce rollback is available in all Regions at no additional cost. Refer to the[AWS Region table](https://docs.aws.amazon.com/general/latest/gr/cfn.html#cfn_region) for service availability details.",
+  "published_at": "2026-10-22T17:30:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:813f8428cd5558d9604ee989bea591ba098638da2b7d8f76a67d41b7f23b00ea"
+}

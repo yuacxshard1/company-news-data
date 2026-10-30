@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bd76771f90017e4853d5d50369f05b717ab8d27a1b5ee5397f7043c0541f0b25",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/tencent-hunyuan-api-pricing-every-model-tier-2026",
+  "canonical_url": "https://www.activepieces.com/blog/tencent-hunyuan-api-pricing-every-model-tier-2026",
+  "title": "Tencent Hunyuan API Pricing: Every Model Tier (2026)",
+  "summary": "Tencent Hunyuan API pricing varies by tier. View each tier's cost to select the option that matches your needs and budget.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is the Hunyuan API free to use?\n\n\nNot as a standing arrangement that I can confirm. Tencent has offered trial allowances on some models and through some consoles. The allowance depends on the model, the region and the account type, so read the terms on the pricing page you buy through.\n\n\nTreat a free allowance as a way to test, not as a budget line.\n\n\n### Can I use Hunyuan from outside China?\n\n\nYes, in some configurations, but which one you get depends on the console you sign up through. Tencent runs a mainland console and an international one, and model availability, prices, payment methods and account verification can differ between them.\n\n\nCheck that the specific model tier you want is listed in the console and region you'll actually use, before you build against it.\n\n\n### Are Hunyuan models open source?\n\n\nSome are, and the API tiers aren't the same thing. Tencent has published open weights for part of the Hunyuan family, which you can run on your own hardware under the license attached to each release.\n\n\nYou pay per token for the hosted models, which are a separate product.\n\n\nRead the license on any release you plan to deploy, because terms on use, redistribution and region can restrict commercial work.\n\n\n### Does Hunyuan charge for failed requests?\n\n\nI couldn't confirm a rule that covers every case, so don't assume one. In general, usage-based APIs bill for tokens that were processed, and a request rejected before processing, such as one with a bad key or a malformed body, normally consumes nothing.\n\n\nWhen a request fails midway, or a response is cut off by a limit, the tokens already generated can still count.\n\n\nCompare billing records against your own logs for a week, and raise a ticket with the request IDs if they disagree. Also count retries, because each retry's a new request at full price.\n\n\n### How do I set a spending limit?\n\n\nLook in the billing section of the console you buy through. Tencent's cloud platform has balance alerts and, on some account types, prepaid balances that stop service when they run out.\n\n\nI couldn't confirm that every console enforces a hard cap on token spend, so assume an alert only warns you and doesn't stop anything.\n\n\nIf you need a firm ceiling, enforce it yourself. Track usage in your own gateway, set per-key quotas where the console allows them, and cut off traffic in your code when a threshold is reached.",
+  "published_at": "2026-10-30T09:42:06+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:8dfcce69ec9b841a1bca472588e720fcff81cdb19e2475a2d7cde898786bc42d"
+}

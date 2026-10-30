@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c5a810cfc0efaeace52fd7c009e8fb5e27fbe49e763fec85f0d08f1539cde401",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/makecom-operations-pricing-calculator-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/makecom-operations-pricing-calculator-2026-guide",
+  "title": "Make.com Operations Pricing Calculator: 2026 Guide",
+  "summary": "Make.com operations pricing calculator estimates monthly credit consumption. A 10-step hourly scenario uses 7,920 operations—80% of an entry-level plan.",
+  "body_markdown": "## Hidden Make costs and limits\n\n\nYou will not find the costs that surprise teams on the plan page. They're steps that multiply operations, limits that cap how a scenario can run, and the behavior once the monthly allowance is gone.\n\n\n### Operation multipliers: iterators, routers, polling\n\n\nBecause Make meters module executions, anything that makes a module run more than once per scenario run inflates the bill. An iterator splits an array into individual bundles, and every module after it runs once per bundle.\n\n\nRouters do the opposite: they add a module but send each bundle down only the matching branches, so the cost depends on how many branches fire, not how many you drew.\n\n\nPolling is the quiet one. A trigger that checks for new data spends credits on every check, whether or not it finds anything. A frequent schedule can exhaust a small plan before a single downstream module runs.\n\n\nPoll daily and it uses 30 credits a month; hourly uses 720. **Every 15 minutes uses about 2,880** , nearly three times the Free plan's 1,000.\n\n\nWhere the source app supports instant triggers (webhooks), they run only when something happens, which usually removes this cost.\n\n\n### Plan limits that bite: intervals, run time, file size\n\n\nEven when a plan is affordable in credits, it can be too slow for a process that needs near-real-time updates, because lower tiers set a minimum interval between scheduled runs. That pushes you toward a higher tier, or toward webhooks.\n\n\nFor heavier jobs, maximum execution time and file size matter. When a scenario processes large attachments or waits on a slow API, it can hit these ceilings and fail partway, and a failed run still consumed the operations spent before the failure.\n\n\nCheck these limits against your largest realistic input, not your average one.\n\n\n### What happens when operations run out\n\n\nOnce the allowance is used up, scenarios stop running, so automations that feed customers or internal teams go quiet until the period resets or you add capacity.\n\n\nOn paid plans you can generally buy extra operations, but they typically cost more than the rate inside a tier. That makes a regular overage a signal to move up a tier, not a cost to absorb.",
+  "published_at": "2026-10-30T16:45:08+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:ed017bb6023d0b4cc59b7f26845be0a29a3ac338636ef254f310b0f6de3ecb3b"
+}

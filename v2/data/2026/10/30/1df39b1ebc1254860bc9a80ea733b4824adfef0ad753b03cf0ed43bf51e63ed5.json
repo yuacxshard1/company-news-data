@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1df39b1ebc1254860bc9a80ea733b4824adfef0ad753b03cf0ed43bf51e63ed5",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/iftttai-what-it-is-and-how-to-connect-it-2026",
+  "canonical_url": "https://www.activepieces.com/blog/iftttai-what-it-is-and-how-to-connect-it-2026",
+  "title": "IFTTT.ai: What It Is and How to Connect It (2026)",
+  "summary": "ifttt.ai is IFTTT's new AI automation platform. Understand how its features compare to existing tools and what this launch means for automation.",
+  "body_markdown": "## Connecting IFTTT.AI in an Activepieces workflow today\n\n\nThere's no native integration to rely on: none of the 746 integrations in the Activepieces open source monorepo is specific to ifttt.ai in anything the pages state. That leaves general building blocks, and the three below run from simplest to most demanding.\n\n\nEach option depends on what the maker's pages actually state.\n\n\nThis applies when the maker documents a plain web endpoint with a stated authentication method.\n\n\nEven then the request is yours to build, but a missing connector doesn't leave you waiting on IFTTT's roadmap: Activepieces can generate one with AI and add it privately to your own instance, with no release from IFTTT.\n\n\nTo start a flow from ifttt.ai, you need a documented webhook or outbound call to point at an Activepieces webhook trigger, or you poll on a schedule.\n\n\nIf the pages show no endpoint, this option's closed.\n\n\n### Option 2: an AI step with a custom provider\n\n\nThis applies only if ifttt.ai says it speaks the OpenAI-compatible request format. In that case, an AI step with a custom provider can take its base URL and key, and you get a model call without writing the request.\n\n\nIf the pages describe a different request shape, the step won't work, and Option 1 is the honest fallback. Don't assume compatibility because the product has \"AI\" in its name.\n\n\n### Option 3: an MCP server\n\n\nThis applies when the maker publishes an MCP server address and says how to authenticate.\n\n\nIt costs the most to set up and verify, and it's worth it only if the server exposes the specific actions your flow needs.\n\n\nWhichever you pick, treat it as a stopgap. If a native integration ships, you'll be rebuilding those steps.",
+  "published_at": "2026-10-30T04:57:39+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:c06bb11141b03ec2addddba8ddf5f5555c643ae3aa3c25458574127731bef1f1"
+}

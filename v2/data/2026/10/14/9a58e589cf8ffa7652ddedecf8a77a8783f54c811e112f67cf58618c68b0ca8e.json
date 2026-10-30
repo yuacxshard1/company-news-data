@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9a58e589cf8ffa7652ddedecf8a77a8783f54c811e112f67cf58618c68b0ca8e",
+  "company_key": "yc-astor",
+  "company_name": "Astor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.astor.app/blog/is-it-safe-to-connect-your-brokerage-account",
+  "canonical_url": "https://www.astor.app/blog/is-it-safe-to-connect-your-brokerage-account",
+  "title": "Is it safe to connect your brokerage account to an AI app?",
+  "summary": "Usually, if the connection is read-only, runs through Plaid, and the company protects your data. Here’s what to check before you connect.",
+  "body_markdown": "### Is Plaid safe?\n\n\nPlaid says it protects personal information with AES-256 and TLS encryption, it uses OAuth with institutions that support it so you log in on your bank or broker’s own page, and it offers Plaid Portal for viewing and ending the connections you’ve made. No connection is risk-free, so it still matters which app you connect to and how that app handles your data.\n\n\n### Can an app with read-only access sell my stocks?\n\n\nNo. A read-only connection lets an app see your holdings, balances and transactions, but not place trades or move money in that account. An app would need separate trading permission from you.\n\n\n### Should I ever give an app my brokerage password?\n\n\nPrefer apps that send you to your broker’s own login page through OAuth, so the app never sees your password. FINRA lists cyber fraud, unauthorized transactions and identity theft among the risks of sharing financial data with aggregators, and notes that security experts often consider API connections safer than screen scraping. Some brokers don’t support OAuth yet, so if you’re asked for a password, find out who stores it and how.\n\n\n### How do I disconnect an app from my brokerage account?\n\n\nRemove the connection inside the app, and check whether your broker lists connected apps in its settings. If the app used Plaid, you can also see and end the connection in Plaid Portal. FINRA warns that deleting the app from your phone may not be enough to end its access.\n\n\n### Can Astor trade or move money in my accounts?\n\n\nNot in the accounts you connect. Astor connects through Plaid and can see your holdings, but it can’t move money or trade in your connected accounts. The only place trades happen is your own Robinhood agentic account if you use Text to Trade, and only after you approve each one.",
+  "published_at": "2026-10-14T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T18:08:39.806722+00:00",
+  "content_hash": "sha256:1c382544c82552c039ac88e4029d3741a7002af768a4216e3ab32544f31807a9"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9a9108feb4cc1f26fc80544ab11c89f1a4517ff9fda2a55b783eb535c6e2fa28",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/notebooklm-pricing-2026-free-plus-pro-and-limits",
+  "canonical_url": "https://www.activepieces.com/blog/notebooklm-pricing-2026-free-plus-pro-and-limits",
+  "title": "NotebookLM Pricing 2026: Free, Plus, Pro and Limits",
+  "summary": "NotebookLM pricing is charged per seat, so costs scale with each team member you add. The Ultra plan exists but its price hasn't been published.",
+  "body_markdown": "## Feed NotebookLM weekly sources automatically with Activepieces\n\n\nIf the week's transcripts and PDFs arrive by email, Drive or a form, Activepieces can collect them into one folder on its free plan, which allows unlimited flows, so that your upload to NotebookLM is a single step. It doesn't raise any NotebookLM limit.\n\n\nThat distinction matters for the cap you're trying to confirm. A tidier intake changes how much hand-work goes into each upload, not how many sources, queries or notebooks the plan allows.\n\n\nActivepieces is an MIT-licensed core automation platform with 774 integrations, and you build a flow there from a trigger followed by actions. Its connectors library groups those integrations by category, and the ones this job needs sit near the top of the popularity sort:\n\n\n- Webhook for receiving a form submission\n- Gmail for pulling attachments from a mailbox\n- [Google Sheets](https://www.activepieces.com/pieces/google-sheets) for logging what arrived\n- a generic HTTP integration for anything without its own connector\n\n\nWhen an integration isn't in the library, you'll be wiring it by hand through HTTP, which makes the library page a useful first check. Once the integrations are chosen, the flow's short enough to describe in a line.\n\n\n### What the NotebookLM source workflow does\n\n\nThe flow does three things. It watches a source, such as a shared inbox, a Drive folder or a form.\n\n\nIt copies each new transcript or PDF into one named folder. Optionally, it writes a row to a sheet so someone can see what came in this week.\n\n\nIt doesn't touch NotebookLM itself. Whether a source can be pushed into a notebook automatically depends on what NotebookLM's documentation supports today, and you should read that before building anything that assumes it.\n\n\nIf a Drive folder is a supported source type for your plan, the folder the flow fills can be added directly. If not, a person still does the final upload, and the flow has saved only the gathering.\n\n\nHold the cost question the same way.\n\n\nA run of a flow costs 1 credit however many steps it has, and the free plan includes 1,000 credits a month, so count the runs a busy inbox would trigger against that before pointing it at the flow.\n\n\nA team that already uploads by hand from one tidy folder can skip this section; the flow earns its place only when collecting files is the slow part.",
+  "published_at": "2026-10-30T09:10:30+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:1d3fa457791ff922ad0e675555bcf7bfc6b7e2179e33fd9598551e3b0242ff95"
+}

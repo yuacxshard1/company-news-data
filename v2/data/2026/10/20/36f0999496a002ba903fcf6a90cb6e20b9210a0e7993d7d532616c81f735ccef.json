@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "36f0999496a002ba903fcf6a90cb6e20b9210a0e7993d7d532616c81f735ccef",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
+  "title": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening",
+  "body_markdown": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening, an optional setting that reduces the length of your prompt while maintaining or improving your evaluation scores. Advanced Prompt Optimization optimizes prompts for any model on Amazon Bedrock against your own evaluation criteria. Until now, optimization focused on quality alone. Optimized prompts were often longer than the original. Longer prompts raise input token costs and can increase time to first token, which matters at scale and in latency-sensitive applications.\n\n\nWhen you turn on prompt shortening for a prompt template in your input dataset, the optimizer reduces the prompt's length. The optimized prompt is returned only when it is shorter than your original prompt and scores at least as high on your evaluation. Otherwise your original prompt is returned, so the setting never leaves you with a longer or lower-scoring prompt. Results include a compression ratio and the original and optimized token counts, in the output file and on the console results page. For example, a compression ratio of 0.7 means the optimized prompt uses 30% fewer tokens. Prompt shortening works with any evaluation method, including steering criteria, LLM-as-a-judge rubrics, and custom Lambda evaluators.\n\n\nPrompt shortening is available in all AWS Regions where Advanced Prompt Optimization is available. To get started, enable prompt shortening for a prompt template in your input dataset and create an optimization job as usual. To learn more, see[Shorten prompts](https://docs.aws.amazon.com/bedrock/latest/userguide/advanced-prompt-optimization-shorten.html) in the Amazon Bedrock User Guide, the[Amazon Bedrock pricing page](https://aws.amazon.com/bedrock/pricing/) , and the[Amazon Bedrock product page](https://aws.amazon.com/bedrock/) .",
+  "published_at": "2026-10-20T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:149bc18bee98c3a62267ee18203e057f2712bb24dda2e0149fceda2488ba35b5"
+}

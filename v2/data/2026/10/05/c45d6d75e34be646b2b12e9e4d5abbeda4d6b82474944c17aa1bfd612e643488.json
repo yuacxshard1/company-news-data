@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c45d6d75e34be646b2b12e9e4d5abbeda4d6b82474944c17aa1bfd612e643488",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-decision-step",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-decision-step",
+  "title": "AI decision flow step",
+  "summary": "A new AI decision step asks a decision model, TypeSafe's Jev or Cloudflare's Clef on Workers AI, typed questions about a state and returns calibrated answers instead of text. Route on the answers with a Branch to one that the editor builds from the questions, or give the step to an AI agent as a tool.",
+  "body_markdown": "### [AI decision flow step](https://www.windmill.dev/changelog/ai-decision-step)\n\n\nAI\n\n\nFlow editor\n\n\n[v1.824.0](https://github.com/windmill-labs/windmill/releases/tag/v1.824.0)\n\n\n[Docs](https://www.windmill.dev/docs/flows/ai_decision)\n\n\nA new AI decision step asks a decision model, TypeSafe's Jev or Cloudflare's Clef on Workers AI, typed questions about a state and returns calibrated answers instead of text. Route on the answers with a Branch to one that the editor builds from the questions, or give the step to an AI agent as a tool.\n\n\n#### New features\n\n\n- Choice, score and yes/no questions, answered with the choice and its probabilities, a score on a scale, or the probability of yes.\n- Later steps read results.<step>.output.<question>.choice, .score or .noul.\n- \"Branch on this question\" in a question card, or \"Branch on <question>\" beside the step on the graph, inserts a Branch to one with one branch per option.\n- As an AI agent tool, the calling model supplies the state and receives only the answers.\n- TypeSafe and Cloudflare resources serve decision steps only.",
+  "published_at": "2026-10-05T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T15:57:39.038640+00:00",
+  "content_hash": "sha256:c1cfb6d948c661b7baf029d672e9701809de4d75288e063e26f5d2de2b7b43ab"
+}

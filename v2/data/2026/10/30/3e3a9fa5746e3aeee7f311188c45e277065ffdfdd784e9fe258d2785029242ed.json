@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3e3a9fa5746e3aeee7f311188c45e277065ffdfdd784e9fe258d2785029242ed",
+  "company_key": "yc-authzed",
+  "company_name": "authzed",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://authzed.com/changelog/june-2026-release",
+  "canonical_url": "https://authzed.com/changelog/june-2026-release",
+  "title": "AuthZed June 2026 Release",
+  "summary": "Remove authorization bottlenecks, empower your team to innovate and expand with best-in-class performance at any scale.",
+  "body_markdown": "This release cycle focuses on SpiceDB correctness and operability: case-sensitive identifiers on MySQL, more reliable Watch checkpoints, and a security fix for permission checks that use caveats.\n\n\n---\n\n\n### SpiceDB\n\n\n#### Security Fix ([v1.54.0](https://github.com/authzed/spicedb/releases/tag/v1.54.0) )\n\n\nUnder concurrent load, some permission checks on schemas that combine caveats with intersections (` &` ) or exclusions (` -` ) could return a full permission when the correct answer was a conditional one. See[GHSA-4vrg-r928-h5vv](https://github.com/authzed/spicedb/security/advisories/GHSA-4vrg-r928-h5vv) to check whether your schema is affected. We recommend upgrading.\n\n\n#### MySQL: Case-Sensitive Identifiers ([v1.54.0](https://github.com/authzed/spicedb/releases/tag/v1.54.0) )\n\n\nOn MySQL, object and subject IDs are now case-sensitive, matching every other SpiceDB datastore. Previously, IDs that differed only in letter case (for example,` Foo` and` foo` ) could collide.\n\n\n**Upgrade note:** this migration rebuilds the relationships table and can lock it for a long time on large datasets. Run the upgrade in a low-traffic window, or apply it with an online schema-change tool.\n\n\n#### Reliability Fixes and Improvements ([v1.54.0](https://github.com/authzed/spicedb/releases/tag/v1.54.0) )\n\n\n- **Watch API** : more dependable checkpoints on MemDB and MySQL.\n- **Schema caching** : the experimental watching schema cache now recovers from temporary errors.\n- **CockroachDB** : losing one database node no longer briefly blocks reads.\n- **Caching** : SpiceDB now uses a single, newer cache implementation.\n- **Tracing** : works with less configuration and no longer drops traces on shutdown.\n- **Regressions** : fixed issues introduced in v1.53.0 on Postgres and MySQL.\n- **Developer experience** : editor hover and go-to-definition now work inside arrow expressions, and Go applications that embed SpiceDB get the same defaults as the CLI.\n- **Query planner** : continued progress on the experimental query planner, which is still not recommended for production.\n\n\n---\n\n\n### Zed CLI\n\n\n#### Backup Improvements ([v1.2.0](https://github.com/authzed/zed/releases/tag/v1.2.0) )\n\n\n` zed backup create` now supports streaming to stdout. When no path is given, the backup is written to the current directory and the saved path is printed.",
+  "published_at": null,
+  "first_seen_at": "2026-10-30T17:26:47.617674+00:00",
+  "content_hash": "sha256:0356e596f240a298323a8081058a135d92cabb4d45e0131c1bc3e8483fb0832d"
+}

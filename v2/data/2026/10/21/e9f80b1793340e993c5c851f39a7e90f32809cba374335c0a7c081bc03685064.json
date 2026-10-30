@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e9f80b1793340e993c5c851f39a7e90f32809cba374335c0a7c081bc03685064",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-service-reference-information-global-condition-keys-service-names-data-plane/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-service-reference-information-global-condition-keys-service-names-data-plane/",
+  "title": "AWS Service Reference Information now supports global condition keys, service names, and data plane classification",
+  "summary": "Discover more about what's new at AWS with AWS Service Reference Information now supports global condition keys, service names, and data plane classification",
+  "body_markdown": "AWS is expanding programmatic service reference information to help you automate IAM policy management and keep your policies aligned with the latest service updates. The service reference now includes all aws:-prefixed global condition keys in a single machine-readable file, a ServiceName field mapping service identifiers to human-readable names, and an IsDataPlane property identifying which actions are data plane operations.\n\n\nYou can automate retrieval of this information to eliminate manual effort, and incorporate it directly into your existing policy management tools and processes. This feature is available at no additional cost. To get started, refer to the[documentation on programmatic service reference information](https://docs.aws.amazon.com/service-authorization/latest/reference/service-reference.html) .",
+  "published_at": "2026-10-21T18:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:ee1d754ba87ebcb407f423a134509ff964d2b4b2d86a030931f8215386469e0e"
+}

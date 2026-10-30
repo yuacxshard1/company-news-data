@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "036e08591f652513aa03f61f487353853c041262f3c0e06da198525ab662f02c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
+  "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
+  "body_markdown": "[Amazon Relational Database Service (Amazon RDS) for Oracle](https://aws.amazon.com/rds/oracle/) now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical Security Patch Update (CSPU) with additional Oracle-recommended fixes. The September 2026 MRP is applied on top of the July 2026 RU and includes the[Oracle September CSPU](https://www.oracle.com/security-alerts/cspusep2026.html#AppendixDB) . We recommend upgrading to the September 2026 MRP as it includes the latest security updates for Oracle Database.\n\n\nThis release also includes the updated Oracle time zone file (DST version 46), which reflects the latest daylight saving time rule changes in several regions, including British Columbia and Alberta in Canada (effective November 1, 2026) and Morocco and Western Sahara (effective September 20, 2026), which are moving to permanent UTC offsets. If you store timestamps that include time zone information for these areas, the updated time zone file keeps that data aligned with the new rules.\n\n\nYou can apply the September 2026 MRP for new database instances, or upgrade existing instances to engine version 19.0.0.0.ru-2026-07.mrp-2026-09.r2 or 26.0.0.0.ru-2026-07.mrp-2026-09.r2 from the Amazon RDS Management Console, or by using the AWS SDK or CLI. To learn more about Oracle MRPs supported on Amazon RDS for each engine version, see the[Amazon RDS for Oracle Release notes](https://docs.aws.amazon.com/AmazonRDS/latest/OracleReleaseNotes/Welcome.html) .",
+  "published_at": "2026-10-28T21:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:5fc04c95126fa13db01fbc52de0fe9338f092dead610a27f864b77f12d82c915"
+}

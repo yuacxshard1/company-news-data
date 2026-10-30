@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "474459e8d5ce37777d3837237b94cb37b383274a17586630606653eadeaef339",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
+  "title": "AWS Transform for migrations expands support for existing landing zones",
+  "summary": "Discover more about what's new at AWS with AWS Transform for migrations expands support for existing landing zones",
+  "body_markdown": "AWS Transform now supports more types of existing AWS environments when building landing zones for your migration, including AWS Control Tower landing zones and landing zones built with AWS Organizations. AWS Transform runs a foundation gap analysis of your current environment against AWS best practices and expands your landing zone on top of what's already in your target accounts, so your team can start migrating sooner.\n\n\nAWS Transform also now supports an Infrastructure as Code (IaC)-only mode for building landing zones for your migration. In this mode, AWS Transform analyzes your organization, generates recommendations, and produces IaC tailored to your migration plan in AWS CDK, Terraform, or Landing Zone Accelerator (LZA) format. IaC-only mode is designed for organizations that prefer not to grant AWS Transform direct access to their management account. AWS Transform can now connect through a delegated administrator (DA) account instead. It also benefits customers who manage their own deployment pipeline and don't need the agent to deploy automatically.\n\n\nThe AWS Transform for migrations landing zone agent automates landing zone design end to end, including foundation setup, organizational unit (OU) and account structure, service control policies (SCPs), and workload accounts aligned to your migration planning and waves. You can deploy directly or generate IaC for your own pipeline.\n\n\nThese new capabilities are available in[all target AWS Regions supported by AWS Transform for migrations](https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-connect-target-account.html#transform-vmware-cta-supported-regions) .\n\n\nTo learn more, please visit the[AWS Transform User Guide](https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-landing-zone.html) .",
+  "published_at": "2026-10-20T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:159ebd1fe959db1b5b753ad6a956b35879c0cb8cf04f4455733f357babe6f015"
+}

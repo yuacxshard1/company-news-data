@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "284ce3af0d6aa5fee1380e54ace7e9790d949a1b081335bf4379fb63ffeea031",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
+  "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
+  "summary": "Discover more about what's new at AWS with Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
+  "body_markdown": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics, traces, and event data without provisioning or managing clusters. They absorb ingest spikes automatically, keep recent data fast to query, and make months or years of history searchable at low cost, all in the same collection.\n\n\nTime series collections add a new, lower-cost warm storage tier in addition to the existing hot storage tier, so customers can retain their infrequently accessed data without paying hot storage prices. Customers can choose how long data stays hot before transitiong to warm storage. With up to 100 TB of hot storage per collection, time series collections can handle high-volume observability workloads such as application monitoring, security analytics, and IoT telemetry. Alerting and anomaly detection are also now available, so customers can get notified about issues and spot unusual patterns in their log and event data without separate tooling.\n\n\nTime series collections are available today in all[AWS Regions](https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html) where OpenSearch Serverless is available. To learn more about the pricing for the new warm storage, see[OpenSearch Serverless pricing](https://aws.amazon.com/opensearch-service/pricing/) . To learn more about time series collections on Amazon OpenSearch Serverless, see the[OpenSearch Serverless feature page](https://aws.amazon.com/opensearch-service/features/serverless/) , the[launch blog](https://aws.amazon.com/blogs/big-data/introducing-the-next-generation-of-serverless-time-series-for-amazon-opensearch-service/) , and the[AWS documentation](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless.html) .",
+  "published_at": "2026-10-28T18:35:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:bed54c87df35ea936ee881ff35597f2aaaf26982c93049b6dc27ee795fab57ac"
+}

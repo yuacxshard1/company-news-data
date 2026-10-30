@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e9311666bdaca8e43a006694064e978f399eccbade4e5c5c0e836f7546533df2",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/unified-tokenize",
+  "canonical_url": "https://docs.litellm.ai/blog/unified-tokenize",
+  "title": "Tokenize text across vLLM and Watsonx | liteLLM",
+  "summary": "Choose token counting for prompt budgets or /tokenize to inspect tokens. Use one request format across vLLM and Watsonx through LiteLLM.",
+  "body_markdown": "02\n\n\nONE REQUEST ACROSS PROVIDERS\n\n\n## Send a prompt and read the tokens\n\n\nPick a model below and watch the` model` field change. Send the same JSON fields to the same endpoint for either provider.\n\n\nChoose a model\n\n\nPass the model you want to tokenize for\n\n\n` POST /tokenize`\n\n\n** ** **\n\n\nrequest.json\n\n\n```text\n{         \"model\"  :     \"llama-3.1-8b\"  ,         \"prompt\"  :     \"Hello world\"      }\n```\n\n\n` model` matches` model_name` in yourgateway config . This request calls **vLLM** .\n\n\nvLLM response\n\n\nIllustrative output\n\n\n** ** **\n\n\nresponse.json\n\n\n```text\n{         \"model\"  :     \"meta-llama/Llama-3.1-8B-Instruct\"  ,         \"count\"  :     2  ,         \"token_ids\"  :     [  101  ,     102  ]  ,         \"tokens\"  :     [  \"Hello\"  ,     \" world\"  ]      }\n```\n\n\nChange` model` to choose another configured model. Keep the same endpoint and JSON fields across providers. llama-3.1-8b on vLLM selected. The request model is llama-3.1-8b.\n\n\nTo choose between models on each call, give each one a different` model_name` in your gateway config, then send that name in` model` . Use a name your API key can access. To change providers without a client update, keep the alias and change its provider configuration.\n\n\nFOLLOW ONE TOKEN\n\n\n### A token ID is a vocabulary entry number\n\n\nA tokenizer splits text into pieces called tokens. Each piece has an entry in that tokenizer’s vocabulary, with a number called its token ID. Click either piece below to follow the lookup.\n\n\n01 / SPLIT THE TEXT\n\n\n\"Hello world\"\n\n\nThe second piece includes the space before “world”.\n\n\n02 / LOOK UP EACH PIECE\n\n\nMade-up vocabulary for this example Token text Token ID\n\n\n\"Hello\" 101\n\n\n\" world\" 102\n\n\n03 / KEEP THE SAME ORDER\n\n\n\\[\n\n\n101\n\n\n,\n\n\n102\n\n\n\\]\n\n\n**Count: 2 tokens.** Count the entries in the list. The numbers 101 and 102 identify those entries.\n\n\nYou selected` \"Hello\"` . Look up that piece in the vocabulary to get ID` 101` , then put it in position 1 of the output list.\n\n\n#### Why does a model need the number?\n\n\nModels calculate with numbers. When you send a prompt for inference, the model uses each token ID to look up a learned vector: a list of numbers that represents that token. It processes those vectors to predict the next token. A /tokenize call stops at the token list; it does not generate a reply.\n\n\nThese IDs are made up to show the lookup. Your tokenizer can split the text differently and use different numbers. An ID only makes sense with its matching vocabulary. vLLM returns IDs; Watsonx returns token text with` token_ids: null` .",
+  "published_at": "2026-10-23T20:00:00+00:00",
+  "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+  "content_hash": "sha256:990e4a5bf3fd49795f9b4a6ec7fd5440a85619c3852d788b62530cb76fd7cc4b"
+}

@@ -13,6 +13,46 @@
     {
       "company_key": "yc-formance",
       "company_name": "Formance",
+      "doc_id": "1f3f755b306a8dcd84962958358fa9932fde13ae47ecb7e3e836d91e46027ac4",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn how AP2 mandates authorize checkouts, bind payment constraints, and help a core ledger reserve, capture, and release funds.",
+      "title": "AP2 Mandates Explained: Open, Closed, and Payment"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
+      "doc_id": "33a50bea80dc03bf9c7b394fe5f830248d00a652a64f0ade8cebbd4b8972ee6e",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn how a financial system of record uses immutable postings, fund attribution, and reconciliation to make every balance defensible in an audit or exam.",
+      "title": "The Financial System of Record: Why the Ledger Owns Truth"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
+      "doc_id": "435e51903191ce7fd4bd597d663b9eec084f537d827083ced4943197ff17cc45",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn what a financial ledger is, why spreadsheets fail at tracking money, and five signals that your team needs to move from spreadsheets to a ledger.",
+      "title": "What a Financial Ledger Is and Why Teams Outgrow Spreadsheets"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
+      "doc_id": "48c3984c22cf7b3cb773939ef9ee8e33cbb499d6c894b4268e1809e6d3f3b524",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Compare human-in-the-loop vs human-on-the-loop oversight for AI payment agents, including approval gates, pending ledger states, and audit controls.",
+      "title": "Human-in-the-Loop vs Human-on-the-Loop for AI Agents"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
       "doc_id": "606fc420b0b83c8ac82f19557f36a1d61b3f01e57bd03ca462ca26ebaaad3d62",
       "first_seen_at": "2026-10-08T18:44:44.947856+00:00",
       "published_at": "2026-10-08T00:00:00+00:00",
@@ -43,6 +83,16 @@
     {
       "company_key": "yc-formance",
       "company_name": "Formance",
+      "doc_id": "744e8cfcecb76ec9048f3fd483af8e779b346e0ec317933c981fe431d07d55eb",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "AI reconciliation can rank matches, classify residuals and draft corrections, but duplicate postings, N:1 settlements and audit trails still need a ledger.",
+      "title": "AI Reconciliation: What It Can and Can't Automate"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
       "doc_id": "7eeead074879f55879e3244803d1c4033a7b0c3049dc6eaf110c0b0e08267d07",
       "first_seen_at": "2026-10-13T02:25:17.978060+00:00",
       "published_at": "2026-10-12T00:00:00+00:00",
@@ -63,12 +113,62 @@
     {
       "company_key": "yc-formance",
       "company_name": "Formance",
+      "doc_id": "911d970206f691ef416df6f432d2e153b9bab9d479a25ce13dbdd49acfb380b7",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "This ledger engineer's guide explains how to model stablecoin finality, reserves, gas fees, and reconciliation in modern core financial infrastructure.",
+      "title": "What Is a Stablecoin? A Ledger Engineer's Guide"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
       "doc_id": "9443a571f8a1b20ed6768bd8a16c2126f3a5968bfc4966f0a2f1fe1310f87b3b",
       "first_seen_at": "2026-10-15T16:24:21.479560+00:00",
       "published_at": "2026-10-15T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Build digital asset payments infrastructure for reliability and compliance with five ledger rules, four Service Level Objectives (SLOs), and one pause rule.",
       "title": "Digital Asset Payments Infrastructure: Building for Reliability and Compliance"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
+      "doc_id": "cdafa9d3160f07654e00a3e99480742ff1cf81efd884a9043a00521504013aef",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Use the transactional outbox pattern to prevent lost financial events after relay crashes, control retries, and preserve per-account ordering across hops.",
+      "title": "The Transactional Outbox Pattern for Financial Events"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
+      "doc_id": "ce5d025d9f5031adf07a050ae9cb5e3e2da63718b2b6b39f2c6d5fe2e1812aa6",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn what proof of funds regulators require under CASS 15, PSD2, MiCA, and GENIUS, what sponsor banks need, and how ledger controls produce it on demand.",
+      "title": "Proof of Funds: What Regulators and Partners Actually Require"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
+      "doc_id": "f3584d83dd58cfcf5f408580216fc2676e49a5e575123af0ba79c4b8857de599",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn how a proof of reserves audit locks customer liabilities, verifies reserves, reconciles balances, and reports point-in-time coverage at a fixed timestamp.",
+      "title": "How a Proof of Reserves Audit Works"
+    },
+    {
+      "company_key": "yc-formance",
+      "company_name": "Formance",
+      "doc_id": "fe8680a64cba333bc40426887dc1f86075c577384eb78b031fc6e9c677319000",
+      "first_seen_at": "2026-10-30T17:56:52.093560+00:00",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn about tokenized deposits vs stablecoins. Compare issuance postings, finality gates, and reconciliation controls before using one ledger for both.",
+      "title": "Tokenized Deposits vs Stablecoins: What Changes for the Ledger"
     }
   ],
   "company_key": "yc-formance",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a625a5cf5577a6b2e76a1f4ae59d3d4dd430d760f089f6e59e8a2a6d1272141a",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/video-game-terrain-guide",
+  "canonical_url": "https://unity.com/blog/video-game-terrain-guide",
+  "title": "How does terrain work in video games?",
+  "summary": "A beginner’s guide to video game terrain: how tiles, heightmaps, voxels, and noise create the ground players walk on, and how to design terrain that’s fun to explore.",
+  "body_markdown": "## Designing terrain that’s fun to explore\n\n\nGood terrain isn’t just realistic. It supports how players move. A few principles from level design help:\n\n\n### Plan the big picture first.\n\n\nStart with a simple map that labels the main areas and how they connect. Then shape rough hills, valleys, and paths before adding any detail. Resist the urge to sculpt fine details early.\n\n\n### Decide on scale early.\n\n\nHow far apart should places be? How steep can a slope be before it’s too steep to climb? Work this out early, because most terrain tools make it hard to move or resize big landforms later. Moving a mountain is harder than moving a wall.\n\n\n### Make it readable.\n\n\nPlayers should be able to tell where they can and can’t go. Watch out for slopes that look climbable but aren’t, and spots where players can get stuck. Leave generous flat space at the top and bottom of ramps so players don’t overshoot and fall.\n\n\n### Borrow from nature.\n\n\nWater flows downhill and curves around obstacles, so rivers – and the valleys around them – tend to curve. People follow the land, so paths usually curve around hills and trees too. Trees work like walls you can walk through, enclosing spaces without fully blocking them.\n\n\n### Test it by playing it.\n\n\nWalk through your terrain often. Look for areas that feel too big, routes that feel too long, and places where players can get stuck or fall into a gap.",
+  "published_at": "2026-10-27T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T21:36:50.329317+00:00",
+  "content_hash": "sha256:725199b5c9db0cf361d03b5a8068c93cc3cbb29af89869f1fbadda99913aa200"
+}

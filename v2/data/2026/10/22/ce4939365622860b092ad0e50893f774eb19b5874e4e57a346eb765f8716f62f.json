@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ce4939365622860b092ad0e50893f774eb19b5874e4e57a346eb765f8716f62f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
+  "title": "Amazon SageMaker AI announces training session APIs for serverless model customization",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker AI announces training session APIs for serverless model customization",
+  "body_markdown": "Amazon SageMaker AI serverless model customization now supports training session APIs, giving customers full control over their post-training algorithm without provisioning or managing GPU infrastructure. Managed techniques, including SFT, DPO, and other reinforcement learning methods, let customers pick a technique and a model and have SageMaker AI run the training. With training session APIs, teams get to write the training loop, whether that's reproducing SFT or DPO on their own terms or implementing a custom loss, a new RL reward signal, a data curriculum, or an algorithm straight from the latest research. Operations such as forward_backward(), optim_step(), and sample() become API calls against a live, stateful session, so customers compose whatever training procedure their technique requires while SageMaker AI handles GPU allocation, model and LoRA loading, distributed execution, fault recovery, checkpoint storage, and security.\n\n\nCustomers can call these operations directly from their own Python code to drive reinforcement learning, supervised fine-tuning, or custom training objectives against a live session, with checkpointing and resume built in. Billing is per token processed, so local computation like reward scoring isn't billed as GPU time. SageMaker AI is also releasing the[SageMaker training sessions cookbook](https://github.com/aws/sagemaker-training-sessions-cookbook) , a set of ready-to-run SFT and RL recipes customers can use as blueprints for their own training loops.\n\n\nTraining session APIs are generally available today in US East (N. Virginia), US West (Oregon), and Asia Pacific (Mumbai). To get started, install the SageMaker Python SDK and clone the cookbook, or launch a notebook in SageMaker Studio and connect a coding agent. To learn more, visit the[documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/customizing-models-training-sessions.html) and the[Amazon SageMaker AI webpage.](https://aws.amazon.com/sagemaker/ai/model-customization/)",
+  "published_at": "2026-10-22T16:30:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:3a427b36728b73e871e1d405ef00558fda83afa164cd14442e55122bb245290c"
+}

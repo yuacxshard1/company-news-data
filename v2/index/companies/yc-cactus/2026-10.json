@@ -29,6 +29,16 @@
       "source_kind": "html",
       "summary": "An open speech recognition model that runs on the same CPU engine as Needle. It transcribes seven languages, reaches the first token in 11 ms, and loads beside Needle so one binary turns a clip straight into tool calls.",
       "title": "Whistle: Speech to Text in 16.9 MB"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "672de5649062878cca2dcca513d4ba2b146415930dc975ef2fb8a61ded79575f",
+      "first_seen_at": "2026-10-30T20:42:39.672086+00:00",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Notes for anyone writing their own Whistle runtime or checking a fine-tune against the engine. The reference to test against and the numbers to expect, how the shipped file is rebuilt from the public checkpoint, the front end as the engine runs it, where each config value lives, the tensor order, the decode loop and keyword biasing, and the gates around the model.",
+      "title": "Porting Whistle"
     }
   ],
   "company_key": "yc-cactus",

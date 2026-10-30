@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3638fc1d653b49f68ea16eebfacd9925ba93e803ddb7ea38ca6dcd51ee4dcec5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cognito-multi-region-us-govcloud/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cognito-multi-region-us-govcloud/",
+  "title": "Amazon Cognito extends multi-Region replication to AWS GovCloud (US) Regions",
+  "summary": "Discover more about what's new at AWS with Amazon Cognito extends multi-Region replication to AWS GovCloud (US) Regions",
+  "body_markdown": "Amazon Cognito multi-Region replication (MRR) now supports AWS GovCloud (US) Regions, extending the resilience benefits of MRR to more workloads. MRR lets you synchronize user and machine identity data, including credentials, user pool configurations, and federation setups, to a secondary user pool in a standby Region you designate, in near real-time. With user data in the standby Region, you can redirect traffic and keep authentication available if there is a disruption in your primary Region.\n\n\nPreviously, MRR was available in 16 commercial Regions. You can now also use MRR to replicate between additional AWS Regions, helping you meet resilience, data residency, and compliance requirements in the Regions that best align with your business needs.\n\n\nMRR is available as an add-on for user pools in the Essentials or Plus feature tiers, and requires a multi-Region AWS KMS customer managed key (CMK). For the full list of AWS Regions where Amazon Cognito is available, see[AWS Capabilities by Region](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To get started, visit the[developer guide](https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-multi-region.html) for instructions and the[pricing page](https://aws.amazon.com/cognito/pricing/) for pricing details.",
+  "published_at": "2026-10-21T17:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:51e4994b1314531257eda4fe42fba91cfd17c0b8fac605f30c16f69830609920"
+}

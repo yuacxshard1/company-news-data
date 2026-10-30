@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b32f5d08b05238294397e97997a75da439c565b4a670f5aa03b18e63c6542cb1",
+  "company_key": "yc-authzed",
+  "company_name": "authzed",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://authzed.com/changelog/august-2026-release",
+  "canonical_url": "https://authzed.com/changelog/august-2026-release",
+  "title": "AuthZed August 2026 Release",
+  "summary": "Remove authorization bottlenecks, empower your team to innovate and expand with best-in-class performance at any scale.",
+  "body_markdown": "This release cycle is about correctness in SpiceDB, with fixes across MemDB, Postgres read replicas, and datastore readiness, plus a redaction fix in the Zed CLI and OpenFGA migration support in the` spicedb-dev` AI agent plugin.\n\n\n---\n\n\n### SpiceDB\n\n\n#### Reliability Fixes ([v1.56.1](https://github.com/authzed/spicedb/releases/tag/v1.56.1) )\n\n\n- **Postgres read replicas** : no more intermittent` object definition not found` errors under load. When a replica hasn't caught up, SpiceDB now reads from the primary instead.\n- **MemDB consistency** : the in-memory datastore, commonly used for testing, now reliably returns your own writes when writes overlap.\n- **Efficiency** : schemas with caveats use less memory, and` ReadRelationships` calls with a limit do less unnecessary work.\n- **Health checks** : readiness checks now respond promptly on every datastore.\n\n\n---\n\n\n### Zed CLI\n\n\n#### Redaction Fix ([v1.2.1](https://github.com/authzed/zed/releases/tag/v1.2.1) )\n\n\n` zed backup redact` now redacts relation names used in` .any()` and` .all()` arrow expressions. Previously these were left unredacted. If you've shared redacted backups of schemas that use these operators, regenerate them with v1.2.1.\n\n\n---\n\n\n### Developer Tools\n\n\n#### OpenFGA Migration in the` spicedb-dev` Plugin\n\n\nThe` spicedb-dev` plugin for AI coding agents can now help migrate an existing OpenFGA deployment onto SpiceDB. Install it from the[AuthZed marketplace](https://github.com/authzed/authzed-marketplace) .",
+  "published_at": null,
+  "first_seen_at": "2026-10-30T17:26:47.617674+00:00",
+  "content_hash": "sha256:17cb3725ad51a7fb89b98ffcdb79100fbb6812dad544c25fa7544b366c83c25d"
+}

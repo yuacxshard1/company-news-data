@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "095d372498dd1f2d2dab2c14ee3113caae9fcdfdf8d7df155adb21cfe8128466",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
+  "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
+  "summary": "Discover more about what's new at AWS with AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
+  "body_markdown": "AWS Lambda now supports[Seekable OCI (SOCI)](https://github.com/awslabs/soci-snapshotter) for lazy loading[Event Functions](https://aws.amazon.com/lambda/lambda-functions/) packaged as Open Container Initiative (OCI) images running on[Lambda Managed Instances](https://aws.amazon.com/lambda/lambda-managed-instances/) . With SOCI support, Lambda fetches only the files needed at each stage of the execution environment startup rather than downloading the entire image upfront, reducing container startup times by up to 70%.\n\n\nCustomers building compute-intensive applications such as data processing pipelines, high-throughput API backends, and batch computation workloads require substantial memory and CPU resources to process large datasets, serve low-latency responses at scale, and run complex computations efficiently. Container images for these workloads can reach several gigabytes, and downloading and preparing the full image can take several minutes when provisioning new execution environments. SOCI support on Lambda Managed Instances eliminates this bottleneck by streaming only the required files at each stage of the execution environment startup, so your functions start faster as you scale.\n\n\nTo get started, create a[SOCI index](https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances-seekable-oci.html#lambda-managed-instances-seekable-oci-create-index) (a table of contents for the files in your image layers) for your container image and push it to[Amazon ECR](https://aws.amazon.com/ecr/) . When creating or updating your function, set the image URI to the SOCI-indexed tag in Amazon ECR (for example, my-function:v1-soci) and publish a function version. Lambda automatically detects the SOCI index and enables lazy loading with no additional configuration. If you use a coding assistant such as Kiro, Claude Code, or Codex, install the Lambda Managed Instances skill from the[Agent Toolkit for AWS](https://docs.aws.amazon.com/lambda/latest/dg/agent-setup-guide.html) to configure and deploy functions through your agent.\n\n\nThe feature is available in all[AWS commercial Regions](https://builder.aws.com/build/capabilities) where Lambda Managed Instances is available. To learn more, visit the[AWS Lambda Managed Instances developer guide](https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances-seekable-oci.html) .",
+  "published_at": "2026-10-28T18:44:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:9461d48e15f3e0f5b20d02635fb071bf56f87faf79ae9d119d941896b3726eff"
+}

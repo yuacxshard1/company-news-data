@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6738412e7336b505945b73b23dc095ab3164980a502426a7f0db9e6c17b5e3a5",
+  "company_key": "yc-dagger",
+  "company_name": "Dagger",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://dagger.io/blog/dagger-for-github/",
+  "canonical_url": "https://dagger.io/blog/dagger-for-github/",
+  "title": "Dagger for GitHub",
+  "summary": "Run Dagger checks directly from GitHub, without GitHub Actions. Managed engines, distributed cache, and high-resolution traces.",
+  "body_markdown": "*Dagger can now run your checks on every pull request, without GitHub Actions or one of its clones. Run the same pipelines before or after push, with shared caching and scalable compute. Pay for exact pipeline usage, not entire machines.*\n\n\n## Try it now\n\n\nSet up Dagger for GitHub: 1. If needed, set up Dagger: https://docs.dagger.io/getting-started 2. Run \\`dagger cloud checks on\\`, so that Dagger Cloud runs my checks on every pull request. 3. Walk me through a test pull request, to verify that it all works.\n\n\n## Cut out the middleman\n\n\nDagger already ran your pipelines before push. Now it can also run them after push, directly from GitHub events, without third-party CI.\n\n\nNo more proprietary YAML and overpriced VMs: set up Dagger locally, install our[GitHub app](https://github.com/apps/dagger-for-github) , and you’re done. Every pull request triggers the same Dagger checks you run locally, executed and cached by Dagger Cloud.\n\n\nNo more noisy logs: each check links to a high-resolution trace, so agents can debug accurately without wasting tokens.\n\n\n## Scale without wasting compute\n\n\nDagger Cloud runs your pipelines on managed engines. They scale automatically and share a distributed cache, so they skip repeat work. With[remote execution](https://dagger.io/changelog/remote-execution) , your agents can use the same compute and cache while they develop: run` dagger --engine=cloud` , and checks that passed before push are cache hits in CI. Execution is fully sandboxed, so this sharing is safe.\n\n\nYou pay for the exact resources each pipeline uses, not entire machines. Operations that could come from the cache cost 5× less, whether or not they actually do.[Learn more about pricing](https://dagger.io/pricing) .\n\n\n## Debug without wasting tokens\n\n\nEach GitHub check links to its full Dagger trace. Agents can inspect each operation and see the full context of a failure, without parsing large CI logs.\n\n\nJoin us[on Discord](https://discord.com/invite/dagger-io) and tell us what you think.",
+  "published_at": "2026-10-29T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T20:57:56.004194+00:00",
+  "content_hash": "sha256:cdc6f617c23afbc664bfa3ceabbe159b5bdeff778528f7bbe7a331097ac914ed"
+}

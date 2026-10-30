@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e8135f8512ef66e044c3adb4b8d1c9c96eb9a4b27e6b3c9cbfcf4ac60a6bc310",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
+  "title": "Amazon GuardDuty adds optional threat detection rules for Runtime Monitoring",
+  "summary": "Discover more about what's new at AWS with Amazon GuardDuty adds optional threat detection rules for Runtime Monitoring",
+  "body_markdown": "Amazon GuardDuty now supports optional detection rules for Runtime Monitoring. You can enable more than 50 Runtime Monitoring rules that help detect process, file, and network activity that might be routine in one environment but a sign of compromise in another, such as modifying sudoers files or disabling audit logging.\n\n\nThe new rules provide detections for Amazon EC2 instances, Amazon EKS, and Amazon ECS on both EC2 and AWS Fargate, and span 13 finding types mapped to MITRE ATT&CK® tactics including persistence, privilege escalation, execution, defense evasion, discovery, exfiltration, and command and control. This release introduces four new finding types: CommandAndControl:Runtime/SuspiciousCommand, CredentialAccess:Runtime/SensitiveFileRead, Discovery:Runtime/SensitiveFileRead, and Exfiltration:Runtime/SuspiciousCommand.\n\n\nTo get started, visit the GuardDuty console. You can enable rules in dry-run mode to evaluate detection efficacy before enabling live detection.\n\n\nCustom Detection Rules for Runtime Monitoring is available in all AWS commercial Regions and the AWS GovCloud (US) Regions. To learn more, see[Amazon GuardDuty Custom Detection Rules](https://docs.aws.amazon.com/guardduty/latest/ug/custom-detection-rules.html) . To receive programmatic updates on new Amazon GuardDuty features and threat detections, subscribe to the[Amazon GuardDuty SNS topic](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html) .",
+  "published_at": "2026-10-19T16:01:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:5e7b097e3e8561a808e9bf52285846c2c4f10b1c81db3db36fa62389b53ef1c3"
+}

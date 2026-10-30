@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bcf0ee5c951890080940642ca0c2da1e72641d1581bc855e3c81f3769270b9bd",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+  "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+  "summary": "Discover more about what's new at AWS with Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+  "body_markdown": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle.\n\n\nYou can choose between two durability options: synchronous and asynchronous writes. Synchronous writes persist data across at least two AZs before responding to the client, designed for zero data loss at single-digit millisecond write latency. Asynchronous writes persist data after responding to the client, maintaining microsecond write latency at no additional cost. However, up to 10 seconds of uncommitted data could be lost in the rare event of a failure. Both options maintain microsecond read latency. You can now use ElastiCache for a broader set of use cases beyond caching where data loss is unacceptable such as AI agent long-term memory, AI agent workflow state, knowledge bases for RAG applications, payment tokenization, and real-time inventory management.\n\n\nThis feature is available in all AWS Regions where ElastiCache for Valkey 9.0 and later is available. To get started, use the AWS Management Console, AWS SDK, or AWS CLI. For pricing, see the[Amazon ElastiCache pricing page](https://aws.amazon.com/elasticache/pricing/) . To learn more, see[Durability](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/durability.html) in the ElastiCache documentation.",
+  "published_at": "2026-10-27T15:21:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:9a9860d75634064d0d65260a3bd5c94fbcec03dd903af41b561a3ae4aa4430f8"
+}

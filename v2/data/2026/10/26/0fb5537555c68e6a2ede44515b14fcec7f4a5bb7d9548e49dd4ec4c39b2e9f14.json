@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0fb5537555c68e6a2ede44515b14fcec7f4a5bb7d9548e49dd4ec4c39b2e9f14",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/read-articles-becoming-unread-on-next-load/13417#post_4",
+  "canonical_url": "https://forum.newsblur.com/t/read-articles-becoming-unread-on-next-load/13417",
+  "title": "Read articles becoming unread on next load",
+  "summary": "Has anyone else been recently having issues with read articles? For me, the problem is that after clearing a list and exiting Newsblur, the next time I open, a number of read articles appear again in the list as unread. I haven’t been able to discern whether it’s any specific pattern to the unread articles, but they do seem to be more recent ones (I saw the old 2021 problem report about someone who said the unreads were odd numbers, or some pattern, but I don’t think that’s similar to my issue). ...",
+  "body_markdown": "[zzyss](https://forum.newsblur.com/u/zzyss)\n\n\nFebruary 15, 2026, 11:52pm 1\n\n\nHas anyone else been recently having issues with read articles? For me, the problem is that after clearing a list and exiting Newsblur, the next time I open, a number of read articles appear again in the list as unread. I haven’t been able to discern whether it’s any specific pattern to the unread articles, but they do seem to be more recent ones (I saw the old 2021 problem report about someone who said the unreads were odd numbers, or some pattern, but I don’t think that’s similar to my issue).\n\n\nI’m using the Web client (Windows, Chrome), List view, and an example feed is[The Guardian](https://www.theguardian.com/au/rss)\n\n\nPreference: Mark stories as read when scrolled past\n\n\nI’ve tried various things like leaving the window open for a minute after switching to another feed, etc. to make sure it isn’t a me/network thing; and reloading/refreshing the feed to make sure it’s updating and sending the read receipts…\n\n\n1 Like\n\n\n[zzyss](https://forum.newsblur.com/u/zzyss)\n\n\nJune 14, 2026, 11:15pm 2\n\n\nThis continues to be a small but annoying ongoing issue. Anecdotally, it feels like as if Newblur is sending read receipts in real-time but every so often whether due to network failure, response timeout or something, some articles fail to be marked, so on next feed refresh they come back as unread.\n\n\n[eddie8](https://forum.newsblur.com/u/eddie8)\n\n\nJuly 1, 2026, 10:02pm 3\n\n\nI’ve been seeing this issue as well. Happens on both web and the Android app. After refreshing the feed, a bunch of articles I scrolled past are back unread again.\n\n\n[zzyss](https://forum.newsblur.com/u/zzyss)\n\n\nOctober 26, 2026, 4:42am 4\n\n\nFor what it’s worth, I haven’t noticed this happening recently, so either it’s been fixed, or it was a temporary issue and the conditions that caused it have passed.\n\n\n1 Like\n\n\n[samuelclay](https://forum.newsblur.com/u/samuelclay)\n\n\nOctober 27, 2026, 2:06am 5\n\n\nI’ve been focused on Android fixes for a while. I even have an update that went out today, so I’m glad to hear that’s working well.",
+  "published_at": "2026-10-26T04:42:36+00:00",
+  "first_seen_at": "2026-10-30T16:36:52.127527+00:00",
+  "content_hash": "sha256:1cdd3454c1ba6f9b8e06298ad97b89f395fa71efed932db80450bb028699fa48"
+}

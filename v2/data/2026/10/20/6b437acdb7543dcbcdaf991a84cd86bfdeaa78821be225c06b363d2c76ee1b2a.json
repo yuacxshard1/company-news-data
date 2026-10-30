@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6b437acdb7543dcbcdaf991a84cd86bfdeaa78821be225c06b363d2c76ee1b2a",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/cache-aware-routing",
+  "canonical_url": "https://docs.litellm.ai/blog/cache-aware-routing",
+  "title": "Cache-Aware Routing for Self-Hosted Models",
+  "summary": "Route each agent session to the same vLLM pod on Kubernetes to reuse cached prompt prefixes.",
+  "body_markdown": "LiteLLM now supports **cache-aware routing for self-hosted inference on Kubernetes** . Within a deployment, requests from the same session go to the same GPU pod. This lets vLLM reuse cached prompt prefixes across turns.\n\n\nAgent requests often share system instructions, tool definitions, and conversation history. When requests reach different pods, each pod may process the same prefix again. Session affinity helps reuse that work.\n\n\n## Keep a session on one GPU pod​\n\n\nLiteLLM discovers pod IPs through a Kubernetes headless Service. It uses the session ID to choose a pod using rendezvous hashing, then sends the request directly to that pod.\n\n\n## Get started​\n\n\n[Read the cache-aware routing setup guide](https://docs.litellm.ai/docs/proxy/cache_aware_routing) .",
+  "published_at": "2026-10-20T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+  "content_hash": "sha256:6c3498a539c32c0dffbf07f3e651b61a95ed7864a5227a5859e73338455c4fc5"
+}

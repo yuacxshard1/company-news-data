@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "aa50067e9faa5872f2e926d6eb765669bf7da2936fdd208bbbf2914727669154",
+  "company_key": "yc-flick",
+  "company_name": "Flick",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flick.art/blog/how-to-make-a-motion-comic",
+  "canonical_url": "https://flick.art/blog/how-to-make-a-motion-comic",
+  "title": "How to Make a Motion Comic With AI, Step by Step",
+  "summary": "Learn how to make a motion comic with AI in six steps: lock the camera, animate the rain but not the drawing, and add comic sound effects, with real prompts.",
+  "body_markdown": "### What is the difference between a motion comic and an animation?\n\n\nA motion comic keeps the drawn panels and moves just a few things in them, such as rain, a flame or one gesture, while an animation draws every frame again so everything can move. Motion comics usually lock the camera and add sound effects, music and sometimes voice on top of the still art.\n\n\n### Can AI make a motion comic?\n\n\nYes. An image to video model can animate a finished comic panel if the prompt locks the camera, names the few things that move and rules out anything new. In Flick, the panels, the clips and the prompts behind them sit on one canvas, so each panel can be animated, compared and redone on its own.\n\n\n### How do you add sound effects to a motion comic?\n\n\nThere are two kinds: lettered effects you see and sounds you hear. For lettering, write words such as \"BOOM!\" into the video prompt and ask for comic style text, which some video models draw into the clip. For sound, run the finished clip through a sound effects model such as Mirelo SFX 2.0 in Flick, or add effects in the edit.\n\n\n### Which AI model is best for motion comics?\n\n\nIt depends on whether you want the panel to hold still. In a Flick test of one cartoon panel with one prompt, MiniMax H3 kept the panel's frame, while Seedance 2.5 and FLUX 3 cut to new shots, so run the same panel on two or three models and keep the take that suits your comic.\n\n\n### How long should each motion comic panel be?\n\n\nA few seconds is usually enough for a reader to take in one panel and its one movement. In Our Time, an illustrated short made in Flick, used 5 second clips for 81 of its 97 animated panels.\n\n\n### Do motion comics have voice acting?\n\n\nSome do and some do not. Many motion comics carry the story with captions, sound effects and music alone, while others add a narrator or a voice for each character, which you can generate with a voice model on the same Flick canvas.\n\n\n### Can I make a motion comic for free?\n\n\nYou can start in Flick for free, with no credit card, and make or edit panels with image models such as Nano Banana Pro on free credits. The video models in this guide, including MiniMax H3, Seedance 2.5 and FLUX 3, need the Standard plan or higher.",
+  "published_at": "2026-10-29T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T21:19:01.508659+00:00",
+  "content_hash": "sha256:59bd4256d0b49441fa9046eed101c298f703b5f5ef399a366c323cfab795dd25"
+}

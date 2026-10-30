@@ -3,12 +3,42 @@
     {
       "company_key": "yc-infisical",
       "company_name": "Infisical",
+      "doc_id": "30acdc021102934501601189387a4d7d89af2a909b5f1e5d724651e8b8af8c09",
+      "first_seen_at": "2026-10-30T16:03:57.011956+00:00",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Treat automated secret rotation like chaos engineering: find shared secrets and stalled rollouts early, with code for rotated and dynamic Postgres credentials.",
+      "title": "Automated Secret Rotation Is Chaos Engineering for Your Identity Plane"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "3a20ee258ffd599d081a54349767865f865f1f83b874f757a83a10f2ac5b8679",
+      "first_seen_at": "2026-10-30T16:03:57.011956+00:00",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Eight eMudhra intermediate CAs were compromised. What it means for Infisical, the fixed versions to upgrade to, and the trust store updates you need.",
+      "title": "Infisical’s response to the eMudhra certificate authority compromise"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
       "doc_id": "658753739022fa00e7e5703ab62c2268228f960f40dcf35658f0086ab3d150ec",
       "first_seen_at": "2026-10-06T22:58:22.628753+00:00",
       "published_at": "2026-10-05T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Give bare metal and virtualised machines a cryptographic identity with TPM and SPIRE, then authenticate to Infisical with SPIFFE instead of hardcoded tokens.",
       "title": "Machine Identity Attestation and Authentication for Bare Metal and Virtualised Systems"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "6824af2e49abe78046df61f597602a53fb6d8a8dcbd8b23c0c092fcd4ce358c3",
+      "first_seen_at": "2026-10-30T16:03:57.011956+00:00",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Where 1Password Secrets Automation stops fitting CI, Kubernetes, and other machine workloads, and the secrets managers teams move to, with what each one takes to run.",
+      "title": "1Password Secrets Automation Alternatives: Secrets Managers Built for Machines"
     },
     {
       "company_key": "yc-infisical",
@@ -33,6 +63,16 @@
     {
       "company_key": "yc-infisical",
       "company_name": "Infisical",
+      "doc_id": "750649e4a0d2d1e7d0fa9bcea9a3de78d63f80e951165c7ce91f068d7f494b49",
+      "first_seen_at": "2026-10-30T16:03:57.011956+00:00",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Coding agents leak whatever credentials sit in their environment. Here's how to give an agent API access through a proxy, so it never holds the key.",
+      "title": "Don’t Give AI Agents Your .env: How to Give Agents Access Without Giving Them Credentials"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
       "doc_id": "94c6e2603d2499ebc5c4f716d2b883cdc082be86933e065dc6a92c280a7173fe",
       "first_seen_at": "2026-10-06T22:58:22.628753+00:00",
       "published_at": "2026-10-05T00:00:00+00:00",
@@ -53,6 +93,26 @@
     {
       "company_key": "yc-infisical",
       "company_name": "Infisical",
+      "doc_id": "9e45060e7e0ae26c2d932989e5175ebbc20cc12c22a3edf36c24216a7f104c24",
+      "first_seen_at": "2026-10-30T16:03:57.011956+00:00",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "AI agents can't see the risks they face. Agent security needs architectural safeguards like sandboxes, credential brokers, and gateways, not behavioral rules.",
+      "title": "AI Agent Security Requires Hazmat Suits, Not Self-Defense"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "b266d57dd5afb6c809dc957518e360dcc9b566b370b423f67a1d45225b6035ed",
+      "first_seen_at": "2026-10-30T16:03:57.011956+00:00",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Run one certificate lifecycle across AWS, Azure, GCP, Cloudflare, and Windows hosts: one inventory, one policy, and renewals synced to every cloud.",
+      "title": "Multi-Cloud Certificate Management: One Lifecycle Across AWS, Azure, GCP, and Windows"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
       "doc_id": "b760758e4f2c6b2570b07f2b7290c430448d42fee53596d76b0f68eb6402ec3a",
       "first_seen_at": "2026-10-13T06:20:28.437086+00:00",
       "published_at": "2026-10-12T00:00:00+00:00",
@@ -69,6 +129,16 @@
       "source_kind": "html",
       "summary": "Infisical's codebase is public security infrastructure. Here's how we tuned Greptile to review 2,800+ pull requests with full context of the codebase.",
       "title": "How Infisical Uses Greptile for AI Code Review"
+    },
+    {
+      "company_key": "yc-infisical",
+      "company_name": "Infisical",
+      "doc_id": "fb4e0cb304960684f8aa9093ca8e9f9ace73d2b3a2662212ce6d29b7cb28108e",
+      "first_seen_at": "2026-10-30T16:03:57.011956+00:00",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Infisical raised a $40M Series B at a $600M valuation, led by Elad Gil, to build security infrastructure for developers, machines, and AI agents.",
+      "title": "Infisical Raises $40M Series B led by Elad Gil: Building Security Infrastructure for the AI Era"
     }
   ],
   "company_key": "yc-infisical",

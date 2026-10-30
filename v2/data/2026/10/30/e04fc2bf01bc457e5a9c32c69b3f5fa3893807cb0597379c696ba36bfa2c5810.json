@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e04fc2bf01bc457e5a9c32c69b3f5fa3893807cb0597379c696ba36bfa2c5810",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/le-chat-pro-pricing-2026-plans-limits-and-what-you-get",
+  "canonical_url": "https://www.activepieces.com/blog/le-chat-pro-pricing-2026-plans-limits-and-what-you-get",
+  "title": "Le Chat Pro Pricing 2026: Plans, Limits and What You Get",
+  "summary": "Le Chat Pro pricing covers multiple plans with different feature sets and usage limits. See the cost of each tier and decide which suits your needs.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe cost this article keeps pointing at is the one the Pro subscription doesn't cover: the metered API bill that appears when Le Chat's models start feeding scripts and automations. Activepieces is where we address it.\n\n\nYou build the workflow that sends a prompt to Mistral, or takes the result and passes it to your email, docs or chat tool, and every run is counted before it happens, not discovered on an invoice.\n\n\nBilling is by credit, and one run costs 1 credit regardless of how many steps it has.\n\n\nThe free plan includes 1,000 credits a month and unlimited flows, so you can test your heaviest ordinary day, as the earlier sections advise, without paying for the test. Zapier counts tasks and Make counts modules, which means a longer flow costs more there.\n\n\nIn Activepieces a ten-step flow and a two-step one cost the same, so you can split a job into smaller, more reliable steps without raising the bill.\n\n\nOne thing stays outside our pricing. The model calls inside a run are billed on your own Mistral account at its per-token rates, so Activepieces doesn't hide or replace that line item.\n\n\nWhat you get is a clear split between the two: a credit count on our side that you can read off the run history, and a token count on Mistral's side that you can check against its live pricing page.\n\n\nThe code is open source under the MIT licence, so you can self-host if you would rather not run client material through a hosted service.\n\n\nThat matters for the privacy question above, because it lets you decide where the workflow runs, though what Mistral does with the data you send it is still set by the plan you hold there.\n\n\nFor one person on Pro, the sensible order is to keep the subscription for the chat app, put anything scheduled or repeated into a flow, and budget the API as the second line item.",
+  "published_at": "2026-10-30T09:10:46+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:5d8c7d8344ebe2ec9f09f6b69222d6acae88d759926956e4fc91ed544b8afbb4"
+}

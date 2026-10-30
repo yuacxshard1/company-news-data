@@ -3,6 +3,46 @@
     {
       "company_key": "yc-questdb",
       "company_name": "QuestDB",
+      "doc_id": "34c6e545cabea073369d2be0c5f320cf0a6d3b427165b0565e1376ebbe226e32",
+      "first_seen_at": "2026-10-30T17:44:02.942979+00:00",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "QuestDB Enterprise 4.1 lets many teams and services share one cluster. Resource groups split CPU, memory and concurrency between workloads, audited views record who read what, and services sign in through OIDC.",
+      "title": "QuestDB Enterprise 4.1: governance for shared clusters"
+    },
+    {
+      "company_key": "yc-questdb",
+      "company_name": "QuestDB",
+      "doc_id": "832951fc30ffd76a56da65d8005c27ee46134fa77393c7cdadedcf0eddfca7d7",
+      "first_seen_at": "2026-10-30T17:44:02.942979+00:00",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "QuestDB 10.1 adds merge-append partitions, which cut disk I/O and make late data readable sooner, brings SUBSAMPLE and exact percentiles to SQL, keeps a history of its own metrics, and runs GROUP BY over joins in parallel.",
+      "title": "QuestDB 10.1: less I/O for late data, and more analysis in SQL"
+    },
+    {
+      "company_key": "yc-questdb",
+      "company_name": "QuestDB",
+      "doc_id": "8c692bcce32b87912b4cd855632ca43b3f0bd90a010f7781c31166d2407ef702",
+      "first_seen_at": "2026-10-30T17:44:02.942979+00:00",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "QuestDB stores older partitions as Parquet. We read one table three ways, with SQL, Polars and DuckDB, check that they agree, and show where open source stops and QuestDB Enterprise moves the same files to object storage.",
+      "title": "One table, three readers: QuestDB, Polars and DuckDB on the same Parquet"
+    },
+    {
+      "company_key": "yc-questdb",
+      "company_name": "QuestDB",
+      "doc_id": "b25f46383cb552ab5e31918018ba6a16ccbb0c2add719c1b357284b82fad13b2",
+      "first_seen_at": "2026-10-30T17:44:02.942979+00:00",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Stream every US equity quote and trade from Databento into QuestDB with one config file, query it with SQL, and keep every row through restarts and failover.",
+      "title": "Ingesting live market data from Databento into QuestDB"
+    },
+    {
+      "company_key": "yc-questdb",
+      "company_name": "QuestDB",
       "doc_id": "e379e3a2779f1d54b031f6c733bed8ea336b1fbe0b09d0a20042b5877c3b3479",
       "first_seen_at": "2026-10-06T22:03:35.895645+00:00",
       "published_at": "2026-10-01T00:00:00+00:00",

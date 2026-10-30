@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "aead43f5a94eb5b6f58de100a7ff178fa4b40b4e118156a2d6a62e8018ae67fd",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
+  "title": "AWS IAM Identity Center now supports cross-Region trusted identity propagation",
+  "summary": "Discover more about what's new at AWS with AWS IAM Identity Center now supports cross-Region trusted identity propagation",
+  "body_markdown": "Trusted identity propagation carries a user's identity with their request, so AWS services can grant permissions based on who the user is and their underlying group associations, and log that user's access for auditing. With cross-Region support, this identity context can now be propagated to AWS services running in different AWS Regions, giving you greater flexibility in how you architect and deploy across AWS Regions.\n\n\nCustomers often distribute workloads across AWS Regions for many reasons including separating the compute from the data it queries, to running workloads where capacity is available, or for disaster recovery and global scale. Previously, trusted identity propagation required all of the AWS services accessing a user's identity to reside in the same AWS Region. To reach services in another AWS Region, customers had to either grant access through broad IAM roles that cannot distinguish individual users or consolidate all their services into a single AWS Region. With cross-Region trusted identity propagation, a user's identity travels with the request across AWS Regions automatically, so you can grant access based on who the user is and their underlying group associations, and audit who accessed which resources, while preserving fine-grained access control for every individual user.\n\n\nCross-Region trusted identity propagation is available at no additional cost in all AWS Regions where IAM Identity Center is available. For the list of Regions where IAM Identity Center is available, see[AWS Capabilities by Region.](https://builder.aws.com/build/capabilities/explore?tab=service-feature&f=eJxtks1OwzAQhF8F7bk-kFKQKnFF4sCFHusIWck2jTCx5Z8CqvLuGKeOHTu3nW_Wu_LYV9DIsTHYvmPXi0HDHo4UrCbItCH3FDZRVUF9Y-p5NXnsRLSw5nwzmUzHBFUFNQhlzsuGiFa6tgFlOyZZLeRybEQrXdsSPRRoV6LHEj15hFY3pMUsw05cVkiSZcNIg4NRjEeQ2GgzOwFVAD6t6KdJzXJuXg5P3jGoKZqeZ4u_fnKAJUhXazbfvIYNSCUkKvP70nOD6uOEzFiF7utdKUgKewpC-XPGiWPtiu6_cO6nd28HXlvfJDx79vXF12-Wm55MP_ruYKV0oVAY6xHGP20D8yw) For more information, see[Trusted identity propagation](https://docs.aws.amazon.com/singlesignon/latest/userguide/trustedidentitypropagation-overview.html) in the IAM Identity Center User Guide.",
+  "published_at": "2026-10-26T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:7052fa432a78479748acb80a719db113a8d67d3d0ec7942ef3e5b9e76fd3f729"
+}

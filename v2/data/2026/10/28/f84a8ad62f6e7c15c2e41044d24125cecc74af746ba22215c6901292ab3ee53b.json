@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f84a8ad62f6e7c15c2e41044d24125cecc74af746ba22215c6901292ab3ee53b",
+  "company_key": "yc-afterquery",
+  "company_name": "AfterQuery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.afterquery.com/blog/xtoken-distillation-gdp-pdf",
+  "canonical_url": "https://www.afterquery.com/blog/xtoken-distillation-gdp-pdf",
+  "title": "Improving Nemotron and Qwen on GDP.pdf with xToken",
+  "summary": "NVIDIA’s xToken increased strict pass@1 for Qwen3.5-9B and Nemotron 3.5 Super VL on GDP.pdf, with higher criteria scores for Qwen and lower scores for Super VL.",
+  "body_markdown": "We use the GDP.pdf implementation in NVIDIA’s[NeMo Gym repository](https://github.com/NVIDIA-NeMo/Gym/tree/8908cb24dccb1d97411f32bc1dee541ad5961dce/benchmarks/gdp_pdf) , pinned to commit 8908cb2. We evaluate each base model and its trained checkpoints with the same document agent, rubric verifier, and judge prompt. Each comparison uses the same tasks, with all five attempts graded at every compared checkpoint.\n\n\n### Document input and generation\n\n\nWe prepare each task’s PDF with LiteParse text extraction and OCR, plus page images at 150 DPI. Gym’s[GDP.pdf agent](https://github.com/NVIDIA-NeMo/Gym/blob/8908cb24dccb1d97411f32bc1dee541ad5961dce/responses_api_agents/gdp_pdf_agent/README.md) sends the task prompt, extracted text, and images in a single turn without tools, adapting image resolution and page layout to the model’s input limits.\n\n\nWe sample five answers per task with thinking enabled, keeping these settings fixed within each model family.\n\n\nGeneration settings for the GDP.pdf evaluation Setting Qwen3.5-9B Nemotron 3.5 Super VL\n\n\nAttempts per task 5 5\n\n\nTemperature 1.0 0.6\n\n\nTop-p 0.95 0.95\n\n\nMaximum output tokens 32,768 20,480\n\n\n### Rubric grading and metrics\n\n\nGym’s[rubric verifier](https://github.com/NVIDIA-NeMo/Gym/blob/8908cb24dccb1d97411f32bc1dee541ad5961dce/resources_servers/gdp_pdf/README.md#grading) grades each criterion with openai/gpt-5.6-luna through OpenRouter. The judge receives the task prompt, final answer, and one criterion, and returns a binary score with a rationale. It receives neither the PDF nor the model’s separate reasoning output.\n\n\n- **Criteria score:** the fraction of rubric criteria passed in each answer, averaged over the five attempts and then over tasks. Every task has equal weight.\n- **Strict pass@1:** the fraction of answers that pass every criterion, averaged over five attempts per task.\n- **Strict pass@5:** the fraction of tasks with at least one fully correct answer among the five attempts.",
+  "published_at": "2026-10-28T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T21:38:16.059302+00:00",
+  "content_hash": "sha256:61a0fdf574da9a3e339b851d3711f6d1ef2134390de542016f81ae88f78cd1ee"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a66d40fed219bdef584e02c7651247c4449d755e9a427e3e568aa20ecd57ca0e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/cerebras-api-pricing-2026-all-models-and-plan-limits",
+  "canonical_url": "https://www.activepieces.com/blog/cerebras-api-pricing-2026-all-models-and-plan-limits",
+  "title": "Cerebras API Pricing 2026 — All Models and Plan Limits",
+  "summary": "Cerebras API pricing breaks down by plan and model type. Compare the rates across tiers to estimate costs for your specific use case.",
+  "body_markdown": "## Compare Cerebras to Groq, Together AI and Fireworks\n\n\nOn the same open model, gpt-oss-120b, the four hosts differ most in speed:[Artificial Analysis](https://artificialanalysis.ai/models/gpt-oss-120b/providers) measures Cerebras at 2004.6 tokens per second, well ahead of the rest.\n\n\n### Price for the same open model\n\n\nFor each host, the table shows measured output speed, the one column I can source from a third-party benchmark. Take from it how much faster Cerebras is, then check the per-token rate yourself.\n\n\nProvider gpt-oss-120b output speed (tokens per second)\n\n\nCerebras 2004.6\n\n\nFireworks 740.4\n\n\nTogether AI 596.9\n\n\nGroq 480.4\n\n\nFireworks, at 740.4 tokens per second, is **2.7 times slower than Cerebras** . Together AI, at 596.9, is 3.4 times slower, and Groq, at 480.4, is 4.2 times slower. SambaNova, a fifth host, sits at 689.6.\n\n\nA 2,000-token reply takes about one second on Cerebras and about four on Groq.\n\n\nSince prices, free tiers, batch discounts, rate limits and context windows change, and I haven't verified them here, read the input and output rate per million tokens, the batch discount, the free allowance and the rate limits on each vendor's own pricing page.\n\n\nWrite down the date you checked.\n\n\n### Free tier and limits compared\n\n\nOn all five hosts the billed unit is the token, so speed doesn't raise your per-token rate. Limits are where the plans diverge: a free or entry plan with a low requests-per-minute ceiling will throttle a fast model long before it uses its speed.\n\n\nCompare the limits for the plan you'd actually be on. If your peak traffic doesn't fit, you're budgeting for the next tier up, not the list price.\n\n\n### When Cerebras is worth choosing\n\n\nChoose Cerebras when latency is part of the product: voice, live coding assistance, or agent loops where each step waits on the last. In those cases, 2004.6 tokens per second against 480.4 to 740.4 elsewhere shortens every step.\n\n\nIf your work's overnight batch processing, nobody waits on the output. Then the batch discount and the per-million rate matter more than speed, and a slower host may cost less. Price your real monthly token volume at each vendor's current rates before you decide.",
+  "published_at": "2026-10-30T04:48:43+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:16157ae0af339f5079b0e6ea124bfc4122f0ed4ee9f54e6c9ed1f224a5897a6f"
+}

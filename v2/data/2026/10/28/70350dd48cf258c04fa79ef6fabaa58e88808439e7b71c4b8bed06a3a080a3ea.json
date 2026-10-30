@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "70350dd48cf258c04fa79ef6fabaa58e88808439e7b71c4b8bed06a3a080a3ea",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-adds-redshift-restore-testing/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-adds-redshift-restore-testing/",
+  "title": "AWS Backup adds restore testing support for Amazon Redshift",
+  "summary": "Discover more about what's new at AWS with AWS Backup adds restore testing support for Amazon Redshift",
+  "body_markdown": "AWS Backup restore testing now supports Amazon Redshift. Restore testing helps you automate and periodically run restore tests of your backups, so you can confirm that your Amazon Redshift backups restore successfully and measure how long the restores take.\n\n\nYou can now include Amazon Redshift in your restore testing plans alongside other supported AWS resources across storage, compute, and database services. Restore testing plans automatically select recovery points, run restores on a schedule, and measure restore job completion time against your recovery time objectives (RTO). This helps you evaluate recovery readiness and meet regulatory and compliance requirements for disaster recovery and business continuity.\n\n\nTo get started, create a restore testing plan and assign your Amazon Redshift resources by Amazon Resource Name (ARN) or tag. Choose whether each test restores the latest or a random eligible recovery point. Optionally, use restore testing validation to confirm the restored resource before AWS Backup deletes the test resources.\n\n\nThis support is available in all AWS Regions where both restore testing and Amazon Redshift are supported by AWS Backup. You can use the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. For a complete list of supported Regions and features, visit the[AWS Backup documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region) . To learn more about restore testing, visit the[product page](https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing.html) and[pricing page](https://aws.amazon.com/backup/pricing/) .",
+  "published_at": "2026-10-28T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:454543a38a35af0b074d85d8f251be1ad68bf2ef211e02ae6d083878ddbf35b0"
+}

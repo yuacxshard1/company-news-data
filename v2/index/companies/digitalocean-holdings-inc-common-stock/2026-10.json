@@ -3,6 +3,16 @@
     {
       "company_key": "digitalocean-holdings-inc-common-stock",
       "company_name": "DigitalOcean Holdings Inc.",
+      "doc_id": "0651fdbb5a20b9816adaeedaeb56921bdce9451143f31cafa09508a6d5cb1f54",
+      "first_seen_at": "2026-10-30T16:01:03.778401+00:00",
+      "published_at": "2026-10-28T18:13:23.754+00:00",
+      "source_kind": "atom",
+      "summary": "DigitalOcean Signals, now in Public Preview, turns production agent and inference conversations into behavioral signals you can export as evaluation datasets.",
+      "title": "DigitalOcean Signals: Observability for AI Agents and Inference"
+    },
+    {
+      "company_key": "digitalocean-holdings-inc-common-stock",
+      "company_name": "DigitalOcean Holdings Inc.",
       "doc_id": "18c638439d45372dfd59faa5d818bdf387f295e9b0aef72dc2abbc00c3eebe53",
       "first_seen_at": "2026-10-12T16:45:12.326948+00:00",
       "published_at": "2026-10-12T13:05:00.012+00:00",
@@ -23,12 +33,32 @@
     {
       "company_key": "digitalocean-holdings-inc-common-stock",
       "company_name": "DigitalOcean Holdings Inc.",
+      "doc_id": "6c5449fdb1b1932f81f3614bca8f804d72bedec2bb280202d6a8f5f980464495",
+      "first_seen_at": "2026-10-30T16:01:03.778401+00:00",
+      "published_at": "2026-10-29T12:52:58.880+00:00",
+      "source_kind": "atom",
+      "summary": "Learn how DigitalOcean Simulations tests agents: a simulated user plays a multi-turn scenario, and an LLM judge grades the full trajectory.",
+      "title": "Inside DigitalOcean Simulations: how user simulation, execution, and validation work"
+    },
+    {
+      "company_key": "digitalocean-holdings-inc-common-stock",
+      "company_name": "DigitalOcean Holdings Inc.",
       "doc_id": "7298b0851c4d3df7afc0d6258b6b071800de69198058de5df24045eca37d50d4",
       "first_seen_at": "2026-10-13T21:27:22.600824+00:00",
       "published_at": "2026-10-13T17:26:28.517+00:00",
       "source_kind": "atom",
       "summary": "Understand how Action Gateway in DigitalOcean Managed Agents validates tool calls, applies approval policies, and keeps credentials away from the model.",
       "title": "Inside Action Gateway in Managed Agents"
+    },
+    {
+      "company_key": "digitalocean-holdings-inc-common-stock",
+      "company_name": "DigitalOcean Holdings Inc.",
+      "doc_id": "7ab8d9d47969b43a3756a4602c7f1192df1c4cba0ecc1bce5d6b347772f4f433",
+      "first_seen_at": "2026-10-30T16:01:03.778401+00:00",
+      "published_at": "2026-10-23T16:48:34.155+00:00",
+      "source_kind": "atom",
+      "summary": "Prompt caching is now generally available on DigitalOcean Serverless Inference, across supported models in our open model catalog, with no changes to your request code required. Cached Input is billed at up to 90% off and time to first token drops by up to 80%.",
+      "title": "Prompt Caching is GA on DigitalOcean Serverless Inference: Up to 90% Off the Context Your Agents Resend"
     },
     {
       "company_key": "digitalocean-holdings-inc-common-stock",
@@ -43,12 +73,42 @@
     {
       "company_key": "digitalocean-holdings-inc-common-stock",
       "company_name": "DigitalOcean Holdings Inc.",
+      "doc_id": "9ffdc537c432a4d9e77a9ae2f6361b8a5fb6eb1e12f5d23e8153f09ccfc5ae36",
+      "first_seen_at": "2026-10-30T16:01:03.778401+00:00",
+      "published_at": "2026-10-21T14:57:50.164+00:00",
+      "source_kind": "atom",
+      "summary": "DigitalOcean’s Product Security team on keeping engineering safe at AI hyper-speed: why the SDLC broke and how to secure agent-written code.",
+      "title": "Product Security in the Post-AI Era"
+    },
+    {
+      "company_key": "digitalocean-holdings-inc-common-stock",
+      "company_name": "DigitalOcean Holdings Inc.",
       "doc_id": "a7c23c2786c405d3278b52c4a440c80a711b640f41c3eb6c259fd3f7f5fb75e3",
       "first_seen_at": "2026-10-12T16:45:12.326948+00:00",
       "published_at": "2026-10-12T13:05:00.012+00:00",
       "source_kind": "atom",
       "summary": "Find out where your agents and models fail in production, then test the fix before it ships. Signals watches traffic on Managed Agents and Serverless Inference and flags the sessions that went wrong, with nothing extra to instrument. Evaluations and Simulations test your change on realistic multi-turn scenarios built from those sessions or from your agent’s configuration.",
       "title": "Introducing DigitalOcean Signals and Simulations: see how your agents and models really behave in production, then test the fix before it ships"
+    },
+    {
+      "company_key": "digitalocean-holdings-inc-common-stock",
+      "company_name": "DigitalOcean Holdings Inc.",
+      "doc_id": "a968b61570380768567f3538897e1466ccc08c6d9dc11d8e5a405e5f51e28ad5",
+      "first_seen_at": "2026-10-30T16:01:03.778401+00:00",
+      "published_at": "2026-10-26T17:21:41.854+00:00",
+      "source_kind": "atom",
+      "summary": "Credentials that stay out of the agent’s hand. A filesystem posture declared in the manifest and enforced by the runtime. A network guest list the proxy enforces. The agent did real work against a production backend, and the filesystem and network posture comes from the NVIDIA OpenShell open source runtime. DigitalOcean Managed Agents enforce it natively through Harness Runtime.",
+      "title": "Three layers, all config: how DigitalOcean Managed Agents enforce NVIDIA OpenShell-aligned boundaries"
+    },
+    {
+      "company_key": "digitalocean-holdings-inc-common-stock",
+      "company_name": "DigitalOcean Holdings Inc.",
+      "doc_id": "ae68aa5256e590b70095da7d0d42b95bce4f83d8b923512959101bd79987a31a",
+      "first_seen_at": "2026-10-30T16:01:03.778401+00:00",
+      "published_at": "2026-10-21T21:46:53.195+00:00",
+      "source_kind": "atom",
+      "summary": "Two critical PHP remote code execution vulnerabilities (CVE-2026-109618, CVE-2026-109619) were disclosed Oct 21, 2026. See what's affected and how to patch.",
+      "title": "Critical PHP RCE Vulnerabilities: Patch Now (CVE-2026-109618, CVE-2026-109619)"
     },
     {
       "company_key": "digitalocean-holdings-inc-common-stock",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "59351bd3cf5902f4b1834769280ab161574c69819b1eb9d22a2fcb0e1b737525",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
+  "title": "Amazon ECR now supports replication backfill for existing container images",
+  "summary": "Discover more about what's new at AWS with Amazon ECR now supports replication backfill for existing container images",
+  "body_markdown": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destinations with a single API call.\n\n\nReplication backfill is useful when expanding to a new AWS Region, validating disaster recovery readiness, updating replication rules, or ensuring complete image catalogs exist across Regions for compliance purposes. You can run up to ten backfill jobs concurrently, monitor progress and per-image results through new APIs, and stop a job at any time without deleting images that have already been replicated.\n\n\nReplication backfill is available in all AWS Regions where Amazon ECR is available. To learn more, refer to the[Amazon ECR user guide](https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication-backfill.html) .",
+  "published_at": "2026-10-26T20:24:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:f69addd5bf578e28f05075d78e68cd4a5b677c61f947d4fb602db4a2dfa45169"
+}

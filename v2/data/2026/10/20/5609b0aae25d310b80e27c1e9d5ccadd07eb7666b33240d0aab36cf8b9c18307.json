@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5609b0aae25d310b80e27c1e9d5ccadd07eb7666b33240d0aab36cf8b9c18307",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
+  "title": "AWS Clean Rooms now supports Databricks as a data source",
+  "summary": "Discover more about what's new at AWS with AWS Clean Rooms now supports Databricks as a data source",
+  "body_markdown": "AWS Clean Rooms now supports[Databricks as a data source](https://docs.aws.amazon.com/clean-rooms/latest/userguide/prepare-data-databricks.html) , so collaboration members and their partners can securely analyze data managed in Databricks without moving or revealing the source data. Members query a Databricks table shared through Delta Sharing directly in a collaboration. Databricks joins AWS Glue, Snowflake, and Amazon Athena as supported data sources in AWS Clean Rooms.\n\n\nPreviously, members with data in Databricks had to export or replicate it into Amazon S3 to use it as a table in a collaboration, which added pipeline work and an extra copy of the data to govern. Now members can register a Databricks table directly by providing the workspace URL, schema, and table along with a Delta Sharing share, and make it available to a collaboration. For example, a retailer that manages its customer data in Databricks can collaborate with a media partner on campaign measurement in AWS Clean Rooms, running approved analyses against its Databricks data without first building and maintaining an export to S3.\n\n\nAWS Clean Rooms helps companies and their partners easily analyze and collaborate on their collective datasets without revealing or copying one another’s underlying data. For more information about the AWS Regions where AWS Clean Rooms is available, see the[AWS Regions](https://docs.aws.amazon.com/general/latest/gr/clean-rooms.html#clean-rooms_region) table. To learn more about collaborating with AWS Clean Rooms, visit[AWS Clean Rooms](https://aws.amazon.com/clean-rooms/) .",
+  "published_at": "2026-10-20T12:23:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:5138d7e629fd2d598e894f859018ebbd68ab9ab923137a8aaa1ad9eb1c450aeb"
+}

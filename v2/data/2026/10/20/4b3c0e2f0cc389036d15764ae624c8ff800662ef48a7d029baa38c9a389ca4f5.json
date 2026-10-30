@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4b3c0e2f0cc389036d15764ae624c8ff800662ef48a7d029baa38c9a389ca4f5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+  "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
+  "summary": "Discover more about what's new at AWS with Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
+  "body_markdown": "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing Application Load Balancers (ALBs) and their supporting resources directly in your account.\n\n\nWith ECS Gateway, platform teams define organizational networking standards once on a gateway and associate it with one or more clusters, giving organizations a centralized way to govern how traffic reaches their ECS services. Application teams simply opt in to inherit those standards without requiring networking expertise. ECS Gateway offers host-based routing, allows up to 25 services to share an ALB to optimize infrastructure costs, and gives each service a unique Domain Name System (DNS) hostname. ECS manages the full lifecycle of the underlying infrastructure, provisioning the first ALB when your first service connects, adding more ALBs when capacity is reached, and removing them when no longer needed. You can inspect these resources and the gateway route to each service to see exactly how requests reach your applications. For traffic and health monitoring, you can use standard ALB metrics in Amazon CloudWatch and target health information from Elastic Load Balancing.\n\n\nTo get started, create an ECS Gateway, associate it with a cluster, and opt in your ECS service by adding the gateway connector parameter using the AWS Management Console, AWS CLI, API, AWS SDKs, or AWS CloudFormation. ECS Gateway is available for ECS services using the awsvpc network mode across all launch types. It is available now in all commercial AWS Regions at no additional charge. You pay only for the underlying infrastructure provisioned in your account when your services connect to the gateway. To learn more, refer to the[AWS News blog](https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services) and our[documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/gateway-overview.html) page.",
+  "published_at": "2026-10-20T23:26:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:496e149f03bc87def0dfa243e125aeaeb59f3c69c8630b692925aad63dcf70d9"
+}

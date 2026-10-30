@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4dbb455f8cc2c2ffdc37516a72334ed7f7c60f2d28d5effbca8c58c998df7a53",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/",
+  "title": "AgentCore Gateway now supports Bedrock InvokeModel APIs and model fallback",
+  "summary": "Discover more about what's new at AWS with AgentCore Gateway now supports Bedrock InvokeModel APIs and model fallback",
+  "body_markdown": "Amazon Bedrock AgentCore Gateway now supports the Amazon Bedrock InvokeModel and InvokeModelWithResponseStream APIs on its inference endpoint, along with model fallback routing for inference traffic. With InvokeModel support, you can point your existing Amazon Bedrock SDK integration at the gateway and reach any model provider through one governed endpoint, without rewriting client code for each provider. With model fallback, the gateway automatically routes a request to an alternative model or provider when the primary destination is throttled, out of capacity, or unreachable, so your agents stay available without each client implementing its own retry logic.\n\n\nFor fallback routing, you define an ordered chain of alternative destinations in a gateway rule, along with the conditions that trigger a switch, such as throttling, server errors, or response timeouts. A built-in circuit breaker skips destinations that are currently failing, so requests reach a healthy destination faster and you avoid added latency for failed attempts. Fallback routing happens behind the scenes, which means you send one request and receive one response, regardless of the internal trial and error on a given request.\n\n\nThese features are available in all AWS Regions where Amazon Bedrock AgentCore Gateway is available (except those in China). To learn more, see the[Amazon Bedrock AgentCore Gateway User Guide](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-rules-fallback.html) .",
+  "published_at": "2026-10-22T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:2790f7146778e0c585016f32bb192917215b44685cafa28bb4863cc57d6de26b"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "99a01b63a6d055e9bd4be3142733fe593dc695f36f9021581892a33f8aadbcde",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-podman-module-2-1-0-released/138239",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-podman-module-2-1-0-released/138239",
+  "title": "Virtualmin Podman module 2.1.0 released",
+  "summary": "Howdy all, We’ve rolled out Virtualmin Podman 2.1.0 to all Virtualmin repos. Changes since Virtualmin Podman 2.0.0: Add a Percona Monitoring and Management Server recipe with rootless containers, persistent data and direct HTTPS access Add a phpIPAM recipe with a private database, generated administrator credentials and scheduled network discovery Add an IPv6 requirement for some recipes to fail early with a clear message when kernel IPv6 support is unavailable Fix HTTPS detection for applic...",
+  "body_markdown": "# [Virtualmin Podman module 2.1.0 released](https://forum.virtualmin.com/t/virtualmin-podman-module-2-1-0-released/138239)\n\n\n[News](https://forum.virtualmin.com/c/news/5)\n\n\n[pro-only](https://forum.virtualmin.com/tag/pro-only)\n\n\n[Ilia](https://forum.virtualmin.com/u/Ilia)\n\n\nOctober 28, 2026, 1:47am 1\n\n\nHowdy all,\n\n\nWe’ve rolled out Virtualmin Podman 2.1.0 to all Virtualmin repos.\n\n\nChanges since Virtualmin Podman 2.0.0:\n\n\n- Add a Percona Monitoring and Management Server recipe with rootless containers, persistent data and direct HTTPS access\n- Add a phpIPAM recipe with a private database, generated administrator credentials and scheduled network discovery\n- Add an IPv6 requirement for some recipes to fail early with a clear message when kernel IPv6 support is unavailable\n- Fix HTTPS detection for application recipes on Nginx websites\n- Fix to restrict custom pod flags to master administrators and trusted recipe deployments\n- Fix to clean up user services, rootless Podman processes, subordinate UID and GID ranges, and migration files after deleting a domain’s Unix account\n\n\n---\n\n\nAs always, if you run into any problems, let us know in a *new* topic.\n\n\n3 Likes\n\n\n[Podman network_mode](https://forum.virtualmin.com/t/podman-network-mode/138228/4)",
+  "published_at": "2026-10-28T01:47:24+00:00",
+  "first_seen_at": "2026-10-30T18:27:45.179272+00:00",
+  "content_hash": "sha256:044ac7ff9ab756384cabff2a2d407cbc3a6948f0800b10480d1d1a100348d63a"
+}

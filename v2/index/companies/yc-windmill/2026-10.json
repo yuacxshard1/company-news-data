@@ -9,6 +9,36 @@
       "source_kind": "rss",
       "summary": "Two new toggles in the operator settings of a workspace let operators build flows and full-code apps on top of scripts and flows that are already deployed. Operators still cannot write backend scripts. Each right is granted independently, and granting either one makes the workspace's operators consume a full seat instead of half a seat.",
       "title": "Operator builder rights for flows and full-code apps"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "c45d6d75e34be646b2b12e9e4d5abbeda4d6b82474944c17aa1bfd612e643488",
+      "first_seen_at": "2026-10-30T15:57:39.038640+00:00",
+      "published_at": "2026-10-05T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A new AI decision step asks a decision model, TypeSafe's Jev or Cloudflare's Clef on Workers AI, typed questions about a state and returns calibrated answers instead of text. Route on the answers with a Branch to one that the editor builds from the questions, or give the step to an AI agent as a tool.",
+      "title": "AI decision flow step"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "e3db7182fb41fd6fc2a5e3b7735076570ed104302da7309f9801a1b9ec75ffb7",
+      "first_seen_at": "2026-10-30T16:13:55.375964+00:00",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Platform teams are responsible for production. Every other team wants to build its own tools with AI. An AI Session builds internal software with your whole workspace as context, within your permissions, and ships it through your deployment pipeline.",
+      "title": "Introducing AI Sessions: build internal software with your whole workspace as context"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "e45a7b19c2eb7bfc6cadac94532ec666b66c97a5215101d1644e3188eec94cb0",
+      "first_seen_at": "2026-10-30T15:57:39.038640+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Developer and Operator become default workspace roles, sets of capabilities any workspace can override. Enterprise Edition adds custom roles.",
+      "title": "Workspace roles"
     }
   ],
   "company_key": "yc-windmill",

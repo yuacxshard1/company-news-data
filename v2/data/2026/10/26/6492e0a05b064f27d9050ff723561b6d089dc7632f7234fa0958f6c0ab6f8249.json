@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6492e0a05b064f27d9050ff723561b6d089dc7632f7234fa0958f6c0ab6f8249",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
+  "title": "AWS Elemental MediaConnect Router now supports endpoint connection management",
+  "summary": "Discover more about what's new at AWS with AWS Elemental MediaConnect Router now supports endpoint connection management",
+  "body_markdown": "[AWS Elemental MediaConnect Router](https://aws.amazon.com/mediaconnect/features/router/) now supports managing connections through a new endpoint registry, which allows you to register devices or software external to MediaConnect and connect those endpoints to your router inputs and outputs. You can share registered endpoints directly with other AWS accounts, eliminating the need to manually chain router inputs and outputs or coordinate IP addresses and encryption settings out of band.\n\n\nCross-account endpoint sharing lowers costs by reducing required compute instances and decreases latency through fewer network hops. Sharing is managed through AWS Resource Access Manager (AWS RAM), with Connection Manager providing visibility and control over each shared connection. Common use cases include content distributors sharing live feeds with downstream partners, broadcasters collaborating across organizational boundaries, and media workflows that require secure cross-account video transport.\n\n\nMediaConnect endpoint registry is available in all AWS Regions where AWS Elemental MediaConnect Router is available, at no additional cost. For more information, see the AWS Elemental MediaConnect[User Guide](https://docs.aws.amazon.com/mediaconnect/latest/ug/working-with-endpoints.html) .",
+  "published_at": "2026-10-26T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:5a3a0cee83b7a38d4e74054fb2b58f156397c070c3fb2a414838741e1a09b41f"
+}

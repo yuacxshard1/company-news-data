@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4e446adb99c8e45cc7d82fb7e794be78df943c33c902a7d73f972f2c229dbb54",
+  "company_key": "yc-opalite-health",
+  "company_name": "Opalite Health",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opalitehealth.com/blog/is-google-translate-hipaa-compliant",
+  "canonical_url": "https://opalitehealth.com/blog/is-google-translate-hipaa-compliant",
+  "title": "Is Google Translate HIPAA Compliant? A Healthcare Guide",
+  "summary": "Is Google Translate HIPAA compliant? Learn how consumer Translate differs from Google Cloud Translation and AI medical interpreters.",
+  "body_markdown": "###\n\n\nHealthcare organizations should not use the consumer Google Translate site or app as a PHI workflow. Google Cloud Translation is a separate service that Google currently lists among the products covered by its Google Cloud BAA.\n\n\n###\n\n\nGoogle says text sent to the Cloud Translation API is held briefly in memory to perform the translation and return the result. The organization still needs to review where its own application stores the source and translated output.\n\n\n###\n\n\nGoogle's current Cloud Translation documentation says customer data and translations are not used to improve Cloud Translation API models.\n\n\n###\n\n\nGoogle says audit logging is available for Cloud Translation Advanced v3 and not for Basic v2. Healthcare teams that need audit trails should include the API edition in their security review.\n\n\n###\n\n\nPotentially, yes, within a properly reviewed Google Cloud workflow using covered services under the organization's BAA. The healthcare organization still has to review access, storage, logs, connected systems, and clinical translation quality.",
+  "published_at": "2026-08-27T01:19:35.780+00:00",
+  "first_seen_at": "2026-10-30T21:04:14.577674+00:00",
+  "content_hash": "sha256:ca22e00239a4f691535575ac93b68f51c1128c6d8b18925736d8e18c654cf008"
+}

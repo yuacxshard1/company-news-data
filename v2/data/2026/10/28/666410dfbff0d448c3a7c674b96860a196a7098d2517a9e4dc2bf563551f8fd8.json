@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "666410dfbff0d448c3a7c674b96860a196a7098d2517a9e4dc2bf563551f8fd8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
+  "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
+  "summary": "Discover more about what's new at AWS with Amazon EKS Auto Mode now supports Kubernetes Gateway API",
+  "body_markdown": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balancing using Gateway and HTTPRoute resources, and EKS Auto Mode provisions and manages the underlying AWS infrastructure automatically.\n\n\nWith this launch, EKS Auto Mode customers can adopt the next-generation Kubernetes traffic management standard without installing or configuring a separate controller. Capabilities include HTTP and gRPC routing, cross-namespace traffic routing for multi-team environments, weighted traffic splitting, header-based routing, and automatic TLS certificate discovery through AWS Certificate Manager. Existing workloads using Ingress resources continue to work alongside Gateway API resources.\n\n\nTo get started, see the[Amazon EKS documentation](https://docs.aws.amazon.com/eks/latest/userguide/auto-configure-gateway-api.html) . Gateway API support is included as part of EKS Auto Mode and is available in all AWS Regions where EKS Auto Mode is supported. Standard charges apply for the AWS load balancing resources provisioned.",
+  "published_at": "2026-10-28T17:33:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:95ef183c031fc9033ea2f5fb2861658c72202541450b78fe0b90c7abe482baa2"
+}

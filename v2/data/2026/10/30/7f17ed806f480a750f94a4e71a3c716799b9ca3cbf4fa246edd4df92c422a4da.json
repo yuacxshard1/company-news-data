@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7f17ed806f480a750f94a4e71a3c716799b9ca3cbf4fa246edd4df92c422a4da",
+  "company_key": "yc-opalite-health",
+  "company_name": "Opalite Health",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opalitehealth.com/blog/fqhc-uds-lep-language-data",
+  "canonical_url": "https://opalitehealth.com/blog/fqhc-uds-lep-language-data",
+  "title": "FQHC UDS Language Data: 2026 Reporting Guide",
+  "summary": "Use the 2026 HRSA UDS definition to count patients with limited English proficiency, audit EHR language fields, and reconcile Line 12.",
+  "body_markdown": "###\n\n\nFor calendar year 2026, UDS Table 3B Line 12 reports the unduplicated number of patients with limited English proficiency. The HRSA manual says to include patients best served in a language other than English or sign language, including patients served by bilingual providers, third-party interpreters, or their own interpreter or translator.\n\n\n###\n\n\nNo, 2026 UDS Table 3B Line 12 is one aggregate patient count and does not identify separate languages or distinguish written from spoken preference. FQHCs may keep more detailed language and dialect data for operations, service planning, and quality improvement, but that detail is not the Line 12 output.\n\n\n###\n\n\nAn FQHC should count unduplicated patients, not interpreter sessions, on 2026 UDS Table 3B Line 12. A patient with several interpreted visits is counted once for the reporting year, so encounter logs can help reconcile the source data but should not be summed as the UDS patient total.\n\n\n###\n\n\nThe FQHC should reconcile the unduplicated patient list with preferred-language fields, documented language-assistance needs, bilingual care, and interpreter or translation activity, then investigate blanks and English defaults. For 2026 reporting, the center should use the current HRSA UDS Manual and contact the UDS Support Center for measure-specific questions.\n\n\n###\n\n\nNo, Opalite session data cannot replace the FQHC's UDS source-of-truth patient count. It can provide encounter-level evidence about languages used, while the health center remains responsible for deduplicating patients, applying the 2026 HRSA definition, reconciling other language-assistance methods, and submitting accurate UDS data.",
+  "published_at": "2026-10-30T20:08:35.070+00:00",
+  "first_seen_at": "2026-10-30T21:04:14.577674+00:00",
+  "content_hash": "sha256:18851eed14f0fc38b6a53a460321012c11b26b350eb239eee7f7e2e50b334a3a"
+}

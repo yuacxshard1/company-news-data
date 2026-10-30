@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0581da069a4bd4a260c61cfe298be53d8e34ca45ceb193baac7f77932b4d330e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
+  "title": "AWS Lambda durable functions now exports live telemetry for execution insights",
+  "summary": "Discover more about what's new at AWS with AWS Lambda durable functions now exports live telemetry for execution insights",
+  "body_markdown": "AWS Lambda announces the Durable Execution Telemetry Exporter plugin for Lambda durable functions. This new observability plugin captures the step-by-step history of your durable executions and sends them to one or more destinations of your choice. You can use the exported data to gather operational and business insights and keep history beyond the standard retention period. We are also releasing a companion Model Context Protocol (MCP) server that lets AI agents such as Kiro query your exported telemetry data using natural language.\n\n\nLambda durable functions helps you build resilient multi-step applications and AI workflows that run for up to one year. The new Telemetry Exporter sends data such as execution status, operation timing, step input and output, and errors to 13 built-in destinations. Destinations include Amazon CloudWatch Logs, Amazon S3 for Amazon Athena, Amazon DynamoDB, Amazon Aurora, and Amazon OpenSearch Service. You can redact sensitive fields before export and set a sampling rate to control data volume. With the MCP server, an on-call engineer can ask an AI agent to list recent failed executions and find the cause of a failure, and a business analyst can find all transactions for a specific customer.\n\n\nThe exporter is available for TypeScript, Python, Java, and Go. To get started,[install](https://docs.aws.amazon.com/durable-execution/sdk-reference/observability/telemetry/exporter/) the exporter, register the plugin in your function handler, then[add](https://docs.aws.amazon.com/durable-execution/sdk-reference/observability/telemetry/mcp/) the MCP server to your agent.\n\n\nThe Durable Execution Telemetry Exporter is available at no additional charge in all AWS Regions that support Lambda durable functions. To learn more, see the Durable Execution SDK[documentation](https://docs.aws.amazon.com/durable-execution/sdk-reference/observability/telemetry/) and the[blog post](https://aws.amazon.com/blogs/compute/observing-aws-lambda-durable-functions-with-the-durable-execution-telemetry-exporter/) .",
+  "published_at": "2026-10-28T18:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:c0ac47cd68c10a0d8b29d6e4f685db8ae7b97c6bad09b6e653dfc82f3f70d6cf"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae332adc127cfab6b0d926849e073058252dce3b3cd4ac7a5d66e33299cd9467",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/n8n-rbac-explained-how-roles-work-and-one-costly-miss",
+  "canonical_url": "https://www.activepieces.com/blog/n8n-rbac-explained-how-roles-work-and-one-costly-miss",
+  "title": "n8n RBAC Explained: How Roles Work and One Costly Miss",
+  "summary": "n8n RBAC determines who can see, edit, run and share workflows. Recognize the often-missed configuration that commonly breaks user access.",
+  "body_markdown": "## Frequently asked questions\n\n\nSome questions only surface once the audit is under way, and the earlier sections left them open. Answers reflect n8n's documentation and pricing pages as checked on 2026-10-26, and plan gating changes, so confirm each against the current page before you rely on it.\n\n\n### Is n8n RBAC available on the self-hosted community edition?\n\n\nOnly in its most basic form. The community edition separates the instance owner from other users, but project-scoped roles, which are what let you limit someone to one team's workflows and credentials, sit behind paid plans.\n\n\nThe risk is that a team assumes the free edition contains the controls it's read about, and every added user then gets broader reach than intended.\n\n\n**Can I give someone view-only access to n8n workflows?**\n\n\nYes, but a viewer role at the project level is a paid-plan feature. Without it, anyone you add as a member can edit what they can reach.\n\n\nCheck what a viewer can see inside a workflow as well, because a read-only role that exposes node configuration may still reveal how a credential is used.\n\n\n**Does n8n support SSO together with roles?**\n\n\nOn the plans that include SSO, yes. SSO and the finer role controls are both enterprise-tier features, so you generally get them together or not at all.\n\n\nConfirm how roles are assigned after sign-in: if they're set inside n8n rather than mapped from your identity provider, offboarding someone from the provider won't necessarily remove their n8n role.\n\n\n### How do I see who changed an n8n workflow?\n\n\nStart with workflow version history; its depth depends on your plan. Execution logs show what ran, not who edited it, so they don't answer this question.\n\n\nIf edit attribution matters to your auditors, ask whether log streaming to your own system is available on your plan, and test it with a deliberate change before you depend on it.\n\n\n**What's the difference between an n8n admin and a project admin?**\n\n\nAn instance admin governs the whole installation: users, settings, and access across every project. A project admin governs one project's members, workflows, and credentials.\n\n\nTreat the instance admin role as the more dangerous grant, because it crosses every boundary you drew. Keep it to as few named people as you can, and review it first each quarter.",
+  "published_at": "2026-10-30T09:11:18+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:1812e2067d6d9e787a0f5ae6dd5b84aafa80e5c1ad3f81b65d903254d5ad84e4"
+}

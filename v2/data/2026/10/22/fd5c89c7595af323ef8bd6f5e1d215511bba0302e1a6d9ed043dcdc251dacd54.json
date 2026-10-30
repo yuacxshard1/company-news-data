@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fd5c89c7595af323ef8bd6f5e1d215511bba0302e1a6d9ed043dcdc251dacd54",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-pause-resume",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-pause-resume",
+  "title": "Amazon MSK Connect now supports pausing and resuming connectors",
+  "summary": "Discover more about what's new at AWS with Amazon MSK Connect now supports pausing and resuming connectors",
+  "body_markdown": "[Amazon MSK Connect](https://aws.amazon.com/msk/features/msk-connect/) (Amazon Managed Streaming for Apache Kafka Connect) now supports pausing and resuming connectors, letting you temporarily pause a connector from processing records and resume it later. This is useful when you need to stop data flow during maintenance on a source database or a sink target, or to pause processing while you investigate an upstream or downstream issue.\n\n\nAmazon MSK Connect is a fully managed service that allows you to deploy, monitor, and scale Apache Kafka Connect connectors with[Amazon MSK](https://aws.amazon.com/msk/) (Managed Streaming for Apache Kafka). Previously, pausing a connector meant deleting it and recreating it - a more disruptive operation, adding risk and operational overhead. With this launch, you can pause a running connector and resume it in place when you are ready — a paused connector keeps its configuration, capacity settings, and committed offsets, and its tasks continue processing from the offsets they last committed when you resume.\n\n\nThis capability is available at no additional cost through the Amazon MSK Console, AWS CLI, AWS SDK, and AWS CDK in all AWS Regions where Amazon MSK Connect is available. To learn more, visit the[Amazon MSK Connect documentation](https://docs.aws.amazon.com/msk/latest/developerguide/mskconnect.html) . To get started, visit the[Amazon MSK Console](https://console.aws.amazon.com/msk) .",
+  "published_at": "2026-10-22T15:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:3f78f0bf7b5ce518a468c718651a2c02af95dc29c397d51c03036d1e4ffa61df"
+}

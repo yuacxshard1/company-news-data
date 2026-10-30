@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "be14e4192b6e6440997ca5081887585d8a1b80f8fb73e2c0ea4d7c939c07d15d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-canada-cris/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-canada-cris/",
+  "title": "Amazon Bedrock now offers Canada cross-Region inference for Claude Haiku 5.5",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock now offers Canada cross-Region inference for Claude Haiku 5.5",
+  "body_markdown": "Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5. Customers with strict data residency requirements can now keep inference processing entirely within Canada. Canada CRIS routes requests only between ca-central-1 (Canada Central) and ca-west-1 (Canada West, Calgary). This helps organizations in financial services, healthcare, the public sector, and other regulated industries meet federal and provincial data residency requirements.\n\n\nCanada CRIS adds to the inference options already available to customers in Canada. US CRIS and global CRIS remain fully supported for Claude Haiku 5.5. Both route requests across a broader set of AWS Regions, and global CRIS also offers cost savings, which makes these options a good fit for workloads that don't require inference processing to stay in Canada.\n\n\nCanada CRIS is designated as an inference profile with limited model selection. Future models and model versions might not be released for this profile. We recommend Canada CRIS for workloads that must keep inference processing within Canada. For more details, see[Inference profiles with limited model selection](https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles-limited-model-selection.html) in the Amazon Bedrock User Guide.\n\n\nFor the most current information about model availability in each Region, see[Regional availability](https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html) by models in the Amazon Bedrock User Guide. To get started with Claude models on Amazon Bedrock, visit the Amazon Bedrock console.",
+  "published_at": "2026-10-27T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:8f0013c655bb90882031a68564a25b2e549f871b27d0fdcb2a8ef3ba0c170b65"
+}

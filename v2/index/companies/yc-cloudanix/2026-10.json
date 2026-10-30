@@ -3,6 +3,26 @@
     {
       "company_key": "yc-cloudanix",
       "company_name": "Cloudanix",
+      "doc_id": "0420d34cc690f39dab46b91eee187c28d6707b5ca48ee4e9b6384fed4c2737da",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Researchers showed a malicious AGENTS.md file in the Downloads folder can make OpenAI Codex and Claude Code install malware or leak tokens. Here is how the attack works, why there is nothing to patch, and how to contain it.",
+      "title": "A Text File in Your Downloads Folder Can Hijack Your AI Coding Agent. Here Is Why, and What to Do About It"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "0d9b019b1c0bc1c946a8c68352acee440f59b35e356172c19ca875b52bf2179e",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-25T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A wildcard IAM policy or a public security group in Terraform is a cloud breach waiting to be applied. Learn how Infrastructure-as-Code scanning catches these misconfigurations at the pull request, before they ever reach a live account.",
+      "title": "Catching Over-Permissive IAM and Misconfigurations in IaC Before It Ships"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
       "doc_id": "15ec363f04c2ebd46125b717e9820872db15934be22c499f8f9738714bbcfca5",
       "first_seen_at": "2026-10-07T09:08:06.219736+00:00",
       "published_at": "2026-10-05T00:00:00+00:00",
@@ -43,12 +63,62 @@
     {
       "company_key": "yc-cloudanix",
       "company_name": "Cloudanix",
+      "doc_id": "2a7f1070d15750ebd90f58254f358d6ab15d39e35d18d8043dd40c50d859c569",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Open-source licenses carry legal obligations that can force source disclosure or block an acquisition. Learn why runtime package licenses are a real business risk, how copyleft works, and how to inventory and govern the licenses you actually ship.",
+      "title": "License Compliance for Runtime Packages: The Risk Hiding in Your Dependencies"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
       "doc_id": "2d660f942f2ce3380b0bee697c5529570001640bdb49fe6532828a9473019601",
       "first_seen_at": "2026-10-07T09:08:06.219736+00:00",
       "published_at": "2026-10-06T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "A mass-scanning campaign is exploiting CVE-2026-39364 in Vite dev servers to steal AWS and Azure credentials. Here is what happened, what it means for your team, and how to close the gap.",
       "title": "Hackers Are Scanning for Exposed Vite Dev Servers to Steal AWS and Azure Secrets"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "3b0269786bb0b52fdb7d097c1dd4f8872f5176eab48ea2af7a8b1b9cdd2d1215",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Proofpoint is acquiring Varonis for $6.3B, the latest move in a wave of security consolidation. Here is what the deal signals, the risks of betting on a platform mid-integration, and how to evaluate your options.",
+      "title": "Proofpoint Buys Varonis for $6.3B: What the Data-Security Consolidation Wave Means for Buyers"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "4a0e956ae50f6f64ef8be65db0d7516b395376fdddc3dd6ae0c4177b1e6110ed",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "CISA added an actively exploited Ivanti Connect Secure zero-day (CVE-2026-104935) to its KEV catalog. Here is how the auth-bypass RCE works, why it leads to credential theft, and how to shrink the blast radius.",
+      "title": "CISA Flags an Ivanti Connect Secure Zero-Day: Why the Fix Is Exposure and Blast Radius, Not Just the Patch"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "4a6e8a7eedb113a09235c87f069fd1395a76970229fe25601afb1d62c2e35be3",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Zeabur disclosed a breach where leaked plaintext internal credentials exposed 3.2M environment-variable records and 321,810 accounts. Here is how standing secrets cause this and how to stop it.",
+      "title": "Zeabur Is Shutting Down After a Breach Built on Plaintext Credentials. The Lesson Is About Standing Secrets"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "4d06cfb2d0985d3bc105b905869aa00af139f9cbc58a2bd396433dd80b6c4c61",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Real organizations rarely use just one source-control platform. Learn why multi-SCM code security coverage matters, what goes wrong when it's fragmented, and how one consistent layer across all four major platforms changes your security posture.",
+      "title": "One Code Security Layer Across GitHub, GitLab, Bitbucket, and Azure DevOps"
     },
     {
       "company_key": "yc-cloudanix",
@@ -83,12 +153,62 @@
     {
       "company_key": "yc-cloudanix",
       "company_name": "Cloudanix",
+      "doc_id": "603b8b0ec34088d12b4918dcdc25d38e455863f2d23292de841cb2ae9015d2ae",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The GhostAction campaign planted credential-stealing GitHub Actions workflows across ~30,000 repositories, hijacking cloud creds, publishing tokens, and AI API keys. Here is how it works and how to secure your pipelines.",
+      "title": "GhostAction: Malicious GitHub Actions Workflows Hit 30,000 Repos. Your CI/CD Is an Identity Problem"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "7049bb4499909bf3f911745f8f59f8373877b678c20cba06b70d0de47aff4e65",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A new infostealer, Aokigahara, steals session tokens from Claude, Codex, Cursor, Copilot and Gemini — plus Git, SSH and cloud credentials on the same machine. Here is how it works and how to limit the blast radius.",
+      "title": "The Aokigahara Infostealer Is Hunting Your AI Coding Assistant Tokens — Here Is How to Shut That Door"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "70e0b934a24806e329f8204673f2129674513f254e578dfea3b7c67d5f56c3fa",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Nikkei disclosed its third breach in a month — 1.83M records exposed via unauthorized access to a cloud dev service. Here is why credentials keep reaching dev environments and how identity-aware CSPM and JIT close the gap.",
+      "title": "Nikkei's Third Breach in a Month: When Stolen Credentials Reach a Cloud Dev Service"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "78fb9edb13c3bba2fd14a021a8a16b2ac83afbcea6de476ee32fde9c992ceec0",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Scanning code for vulnerabilities is only half the picture. The source-control platform itself — its accounts, integrations, and activity — is an attack surface. Learn why repository threat and event monitoring belongs in your code security program.",
+      "title": "Repository Threat Monitoring: Why Watching Your SCM Activity Matters"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
       "doc_id": "9ceb32ffaa49fcfa9427fcaddd4c5dc96a778697fdda1765ff02561b0403db43",
       "first_seen_at": "2026-10-15T10:16:08.139599+00:00",
       "published_at": "2026-10-11T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "The gap between your identity provider, AWS Identity Center, and your access tooling is a scheduled sync — and that schedule quietly causes failed access, stale permissions, and security surprises. Here's what every cloud team should understand about sync timing.",
       "title": "Your IdP Sync Schedule Is a Hidden Access-Delay (and Security) Problem"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "9e3beaabf58a850672808b7389f5fd23106a086ddff835ee25375c890dc532c0",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Most scanner findings never run in production. Learn how reachability analysis and code-to-cloud correlation tell you which vulnerabilities are actually exploitable in your environment — so you fix the few that matter.",
+      "title": "Which Vulnerabilities Are Actually Running in Production?"
     },
     {
       "company_key": "yc-cloudanix",
@@ -113,12 +233,52 @@
     {
       "company_key": "yc-cloudanix",
       "company_name": "Cloudanix",
+      "doc_id": "a6f4cb5bfd360e29475f6ffd88bc93e3acdd1e29615a99acf4558142bcaf7bd4",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI can write the fix for a vulnerability, not just flag it. But not every fix should be automatic. Learn where AI-assisted remediation belongs, where human review is non-negotiable, and how to close the gap between detection and the fix.",
+      "title": "AI-Assisted Remediation for Code Vulnerabilities: What to Automate and What Not To"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "b124eb68df1df4de28bd60c98dfe082065794071bb83e83a27fe6b126c62867c",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-25T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Jenkins is where your code becomes an artifact — and the last cheap place to catch a vulnerability before it ships. Learn how to add SAST, SCA, secrets, and IaC scanning to Jenkins pipelines without slowing developers down.",
+      "title": "Shift-Left Code Security in Jenkins Pipelines: A Practical Guide"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "bb390cc563f72b932259d744f07fc5e0ea9c81348c7195acb3746b8ecdaca6d5",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-25T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Regulators and customers increasingly ask for a Software Bill of Materials. Learn what an SBOM is, why CycloneDX matters, how per-repository generation works, and how to turn an SBOM from a compliance checkbox into a living risk inventory.",
+      "title": "SBOM Generation and Export for Compliance: A Practical Guide"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
       "doc_id": "c0396957d63d12aa8fea42350a987fbf2d343fb6ac0c101c1b2bf2a88d070d16",
       "first_seen_at": "2026-10-07T09:08:06.219736+00:00",
       "published_at": "2026-10-06T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "The typical security stack runs an IdP, a CSPM, an EDR, a SIEM, and a scanner — each accurate in isolation, none seeing how risk chains across them. Here is how to close the visibility gap.",
       "title": "Why CISOs Still Cannot Answer the Board's Hardest Security Questions — And What to Do About It"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "d02aed097ae250a98249c77267aa56ba89f0bb6f554b73c331519918ac58c9af",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "PHP shipped an out-of-cycle patch for PHP2Shell: two unauthenticated RCE flaws (CVE-2026-109618, CVE-2026-109619) in PHP core. Here is how they work, why inventory is the hard part, and a step-by-step remediation plan.",
+      "title": "PHP2Shell: Two Unauthenticated RCE Flaws in the Language Running Most of the Web — Here Is Your Response Plan"
     },
     {
       "company_key": "yc-cloudanix",
@@ -149,6 +309,26 @@
       "source_kind": "rss",
       "summary": "Cloud accounts change hands constantly — through acquisitions, managed-service handbacks, and reorganizations. Each transfer is a moment of maximum access risk that almost no runbook accounts for. Here's what breaks and how to transfer an account cleanly.",
       "title": "Access Handoffs: The Security Gap Nobody Plans For When a Cloud Account Changes Hands"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "ec51761c2c4643effdc7ed8327bb2950411acd37b958833c60d8a867ea25f991",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Most real engineering orgs write in many languages at once. If your SAST only covers a few of them well, the uncovered services are your blind spots. Learn why per-language depth matters and how to evaluate SAST coverage honestly.",
+      "title": "SAST Across a Polyglot Codebase: Why Language Coverage and Depth Matter"
+    },
+    {
+      "company_key": "yc-cloudanix",
+      "company_name": "Cloudanix",
+      "doc_id": "edb44502f6b6cf196a583b8fda21f630a9914d274925bf806472e2ba58bd31c6",
+      "first_seen_at": "2026-10-30T21:51:54.547796+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "An attacker used a developer's hijacked GitHub account to swap secret-stealing binaries into five published OVHcloud CLI releases. Here is how release-hijack supply-chain attacks work and how to defend against them.",
+      "title": "A Hijacked Developer Account Put a Secret-Stealer in OVHcloud's CLI. The Release Pipeline Is the Weak Link"
     },
     {
       "company_key": "yc-cloudanix",

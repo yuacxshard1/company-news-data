@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "05679aa5d1b58b4aeb1389d4c1e90bf07d53885c9b87938ea60f09754fc40791",
+  "company_key": "microsoft-corporation-common-stock",
+  "company_name": "Microsoft Corporation",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://news.microsoft.com/source/emea/features/data-and-ai-agents-give-a-lift-to-tk-elevator-service-technicians/",
+  "canonical_url": "https://news.microsoft.com/source/emea/features/data-and-ai-agents-give-a-lift-to-tk-elevator-service-technicians/",
+  "title": "Data and AI agents give a lift to TK Elevator service technicians - Source EMEA",
+  "summary": "",
+  "body_markdown": "TKE began digitally connecting elevators and escalators around a decade ago, using sensors and digital controllers to collect information about how the equipment was operating. From the start, it brought that information together in a central data platform using[Microsoft Azure](https://azure.microsoft.com/en-us/get-started/azure-portal/) , ⁠⁠[Azure IoT](https://azure.microsoft.com/en-us/solutions/iot)\n\n\nand ⁠[Azure Databricks](https://azure.microsoft.com/en-us/products/databricks/)\n\n\nand built it out further in partnership with[Microsoft Industry Solutions Engineering](https://devblogs.microsoft.com/ise/about/) , now called[Microsoft Frontier Company](https://www.microsoft.com/en-us/frontier-company) .\n\n\nCreating a common data environment was particularly important as TKE added different types of equipment through acquisitions. That meant servicing units made by other manufacturers, as well as introducing its digital-native[EOX](https://www.tkelevator.com/global-en/products/innovations/eox/) and[HELIX](https://www.tkelevator.com/global-en/newsroom/press-releases/tk-elevator-introduces-helix-the-new-digitally-native-member-of-its-dynamic-high-rise-family-195520.html) elevators. More recently, generative AI has started to allow the company to draw on information that does not sit neatly in operational systems, including technical documents and technicians’ service notes.\n\n\n“Everything we did before was on structured data,” says Christian Jung, head of digital data and AI foundation at TK Elevator. “It was either IoT data or enterprise data sitting in systems already. But we were not able to leverage data from unstructured sources.”\n\n\nSensor readings can show what an elevator is doing. But much of the knowledge needed to diagnose a problem may be elsewhere: in a technical manual, a previous technician’s notes or a description of what happened during an earlier visit. Generative AI allows TKE to extract, search and draw connections across these sources.\n\n\n“We were able to give technical guidance to technicians on how to fix a problem,” Jung says.\n\n\nFor example, the same models of elevators or escalators in different buildings may get very different usage and service history — useful information when it’s time to maintain or repair a unit. Other context — the location of the unit, the business hours, the specific floor having a problem — can save a service technician significant time and frustration. It’s all the kind of information that generative AI can process easily but that was difficult to gather and share before.",
+  "published_at": "2026-10-22T08:21:34+00:00",
+  "first_seen_at": "2026-10-30T16:26:23.768387+00:00",
+  "content_hash": "sha256:1d65ea1eba0820fd1f4e72ec2a7419dd35eb413a364eb9b6049b25383c42586c"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "338ac2270c0803d5b9cef8afa04094a194f7b5316f26313fd1e9c65b1dac2ad7",
+  "company_key": "yc-giga",
+  "company_name": "Giga",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://giga.ai/news/event-telemetry",
+  "canonical_url": "https://giga.ai/news/event-telemetry",
+  "title": "Event Telemetry: see exactly where a customer request went wrong",
+  "summary": "The steps your Giga agents take across your systems, from calls and transfers to requests to your APIs, as events your team can read with the Giga CLI and pull into its own tools.",
+  "body_markdown": "Each step arrives as an event, in order: what the agent did, when it happened, and what came back, from your systems or ours. Your team pulls the events with the Giga CLI, as JSON, so a script can put them next to the logs and dashboards it already watches.\n\n\n## Find the step that failed\n\n\n**Example: an order update that never landed.** A customer calls to change the shipping address on an order that ships tomorrow. Your agent confirms the new address and sends it to your order system. The system returns an error, and the agent tells the customer someone will follow up.\n\n\nThe transcript shows a polite conversation. The events show the step that failed: your order API returned HTTP 500 when the agent tried to save the address. Now you know the agent did its part, which team owns the fix, and that the address still needs changing before the order ships.\n\n\nAsk Scout, the AI assistant in the Giga console, about a conversation or a time window, and it reads the same events for you. Developers can run` giga logs list --conversation <ticket id>` to read them in a terminal.",
+  "published_at": "2026-10-22T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T19:48:48.968029+00:00",
+  "content_hash": "sha256:86543a8989a5a1b3524d837dcf4a5c723fb1aebbf41ce6af02df1ac48cea3c28"
+}

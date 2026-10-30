@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a8c548364c317aeee00be3b11b54f8ab429449985741f277a04c8a505b15fbdc",
+  "company_key": "yc-cambioml",
+  "company_name": "CambioML",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.energent.ai/en/blog/openclaw-for-data-analysis",
+  "canonical_url": "https://www.energent.ai/en/blog/openclaw-for-data-analysis",
+  "title": "OpenClaw for Data Analysis: How AI Agents Are Transforming Legal & Open-Source Data Workflows",
+  "summary": "Learn how OpenClaw and AI agents extract insights from legal and open-source data, helping analysts automate research and document workflows.",
+  "body_markdown": "Explore how AI agents can organize legal and open-source documents, extract fields, and help analysts review the underlying sources. Evaluate the workflow on representative files rather than assuming a fixed time saving.\n\n\n## Define a document-review task\n\n\nChoose a specific question and a set of documents you are authorized to use. Record the source, version, and date of each file. For legal material, retain the jurisdiction and document status when those details are available.\n\n\nDefine the fields to collect before evaluating an agent workflow. A research table might include document title, publication date, relevant passage, page reference, and unresolved questions.\n\n\n## Organize the evidence\n\n\nAsk the agent to separate quoted source material, extracted fields, and its own interpretation. Require a source reference for each material finding. Mark missing information explicitly rather than treating an absent field as a negative answer.\n\n\nIn an Energent.ai workflow, supply the documents and instructions, then review the structured output against the originals. This guide does not demonstrate an OpenClaw integration or establish that different agents have the same capabilities.\n\n\n## Check the output\n\n\nUse representative documents to test missing-field handling, source references, and consistency across versions. Recount the records and inspect examples from each document type.\n\n\nRequest an independent audit of the completed output against the same source set and criteria. Review discrepancies and unresolved issues; automated checking does not replace interpretation by the responsible reviewer.\n\n\n## Measure a workflow before estimating savings\n\n\nDefine the manual comparison process and the expected output. Track extraction quality, correction effort, and review time on the same sample. This guide reports no measured time saving, legal outcome, or comparative agent score.\n\n\n[Explore data analysis](https://www.energent.ai/en/data-analytics) or[document extraction](https://www.energent.ai/en/document-extraction) .",
+  "published_at": "2026-03-10T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:18:22.534624+00:00",
+  "content_hash": "sha256:e690c045e94e9659a8926d0d6e1728b1ed3d1abda5f427c25fffabef13fb5a33"
+}

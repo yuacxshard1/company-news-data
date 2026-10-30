@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "910d3de5e5559c20264bf18ea956fbe37293335bcc02b4a41c3bedb82036d9b5",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/segment-api-tracking-public-and-profile-apis-2026",
+  "canonical_url": "https://www.activepieces.com/blog/segment-api-tracking-public-and-profile-apis-2026",
+  "title": "Segment API: Tracking, Public and Profile APIs (2026)",
+  "summary": "Segment API isn't one tool but three: the Tracking API processes events; the Public API manages resources. You'll determine which fits your needs.",
+  "body_markdown": "## What Activepieces does about this\n\n\nMost of the trouble above comes from credentials and routing living in scattered scripts, where one team's copied Write Key or hand-edited region URL breaks another's work.[Activepieces](https://www.activepieces.com/) moves that glue into one place.\n\n\nA flow starts at a webhook trigger, which is the receiving end of Segment's Webhooks destination, and each later step that calls a Segment API uses a stored connection instead of a key pasted into code.\n\n\nThe Public API token sits in one connection owned by the platform team, and product teams build flows without ever seeing it. That keeps the separation this article argues for, with the Tracking, Public and Profile credentials kept apart.\n\n\nThe flows also make the Stage 4 triage easier to follow. A 401 or 403 fails on the step that made the call, and you can open that run and see which connection and URL it used.\n\n\nA 429 is handled where you can see it, because you can put a retry or a delay on the one step that hits the Events limit rather than on everything.\n\n\nDead-lettering a 400 or 413 becomes a branch in the flow instead of a convention you hope every team follows.\n\n\nYou don't need to hire anyone to build this. You describe the routing in the built-in chat and it publishes the live flow, the same one a builder would have assembled by hand.\n\n\nThat flow runs under the same RBAC and audit logs as every other flow, and each run leaves a trace anyone on the team can read.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run it across 746 integrations, so the Segment hop is rarely the only system in the chain.\n\n\nThe community edition is open source under the MIT licence. If your data-governance team wants event payloads to stay inside your own infrastructure, you can self-host it, and the same flows run there.\n\n\nStart with the one-sitting pilot from Stage 2: point a Webhooks destination at a test flow, confirm the event in both the Debugger and the run log, and only then let other teams copy it.",
+  "published_at": "2026-10-29T23:23:25+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:7b20ad1d2acf6b1197dae61e97c459450379f4d85cd5e2ff82df1159f86f48d0"
+}

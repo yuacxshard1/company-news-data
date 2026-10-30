@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c310dc106afa18f7f0be5aa4969fe79d8b7559ffb8ecd8090d2f769e049959e1",
+  "company_key": "commvault-systems-inc-common-stock",
+  "company_name": "Commvault Systems Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.commvault.com/blogs/protect-unstructured-data-cloud-computing",
+  "canonical_url": "https://www.commvault.com/blogs/protect-unstructured-data-cloud-computing",
+  "title": "How to Protect Unstructured Data in Cloud Computing │ Commvault",
+  "summary": "Help improve data security in cloud computing with Commvault Cloud classification, encryption, immutable backup, and recovery for unstructured cloud data across hybrid environments.",
+  "body_markdown": "## How Should Enterprises Recover Unstructured Cloud Data?\n\n\nRecovering unstructured cloud data should start with business priority, not storage volume. During disruption, the fastest path to useful recovery is rarely to restore everything at once. Some data supports revenue operations, customer service, regulatory obligations, or AI workflows. Other data may be outdated, redundant, or low value. Recovery plans should distinguish between those categories before an incident forces rushed decisions.\n\n\nThe challenge is that\n\n\n[unstructured data](https://www.commvault.com/explore/unstructured-data) often lacks clear recovery logic. A database may have defined application dependencies, but a large file or object environment can contain mixed content with different owners, sensitivity levels, and business uses. If teams have not classified that data before disruption, they may struggle to decide what is clean, what is critical, and what can wait. That uncertainty can slow restoration and increase the chance of returning risky or unnecessary data to production.\n\n\nIBM’s\n\n\n[2026 Cost of a Data Breach Report](https://www.ibm.com/reports/data-breach) found that breaches involving data across multiple environments took 256 days to identify and contain, the longest of any storage location category. That extended timeline reinforces why recovery planning cannot wait until an incident: teams need classification, ownership, and restoration priorities in place before fragmented cloud data becomes part of a broader disruption.\n\n\nThe reality organizations often face is that threats and signals move faster than manual recovery planning can comfortably handle. Commvault\n\n\n[Cleanroom](https://www.commvault.com/platform/commvault-cleanroom) helps give teams an isolated environment for recovery testing, cyber forensics, and staging. For unstructured data, that isolation creates room to validate recovery decisions before production systems are involved. Commvault\n\n\n[Threat Scan](https://www.commvault.com/platform/threat-scan) is designed to also analyze backup content to help identify suspicious, encrypted, or corrupted files that may affect recovery quality.\n\n\nThe organizations that recover fastest after cloud disruption won’t be those with the most backup storage – they’ll be the ones that understood their data before the incident. Classification, protection, and tested recovery are not separate workstreams. They are the same resilience program, practiced before it matters most.",
+  "published_at": "2026-10-16T14:23:19+00:00",
+  "first_seen_at": "2026-10-30T20:56:42.524469+00:00",
+  "content_hash": "sha256:ed3363af52873c2aee1a8bfdaf5f4f486fa32d3bc78473d9c24d94eb2750d583"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4da17cf7c11457f68014eceedabb5c852ec39b3a39531b72bf378abad50f0e74",
+  "company_key": "yc-corgea",
+  "company_name": "Corgea",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://corgea.com/blog/changelog-october-15-2026",
+  "canonical_url": "https://corgea.com/blog/changelog-october-15-2026",
+  "title": "Changelog - October 15, 2026",
+  "summary": "This week's Corgea changelog adds a dedicated Corgea Agent permission, expands bulk status changes in the Workbench, and makes SCA package browsing faster.",
+  "body_markdown": "This week’s roundup covers Corgea v1.81.2, released October 15, 2026. The release gives teams more precise access to Corgea Agent, makes bulk status changes more complete in the Vulnerabilities Workbench, and speeds up SCA package review.\n\n\n## Top 3 features\n\n\n### 1. Dedicated access to Corgea Agent\n\n\nCorgea Agent now has its own access permission. Teams can give someone access to the agent without also giving them permission to view or manage its settings. Existing users with permission to view the agent settings keep their current access.\n\n\nCorgea Agent is available in the sidebar as a web chat and can also respond to pull request comments. It helps users review security issues, scan results, and vulnerability data within the permissions they already have.\n\n\n### 2. More complete bulk status changes\n\n\nThe Workbench bulk action bar now includes Change status. It offers the statuses supported by the tab you are viewing, including reopening findings and accepting risk. When a finding type supports it, teams can set an accepted-risk expiry as part of the change.\n\n\nThe flow also respects triage approval rules. If your organization requires approval for a false-positive or accepted-risk decision, Corgea creates a request instead of changing the finding immediately.\n\n\n### 3. Faster SCA package browsing\n\n\nSCA packages in the Workbench are now ordered by name and use Previous and Next navigation. This replaces numbered pages and totals, so teams can move through a package list with the new controls.\n\n\nThe Workbench groups SCA findings by package, and the package details panel includes finding history and reachability when that information is available.\n\n\n## More features and improvements\n\n\n- Rescans now preserve assignees for SAST, dependency, and IaC findings. SAST and dependency findings also keep their due dates and SLA status, while IaC triage decisions remain consistent.\n- PR scan rules without a severity selected now apply to every severity.\n- Fixed the CLI` --disable-incremental\n\n\n`\n\n\noption so a requested full scan analyzes every file.\n- Scan-page CSV and SARIF exports now match the active tab and current table filters, including status and new-findings-only selections.\n- Accepted-risk expiry now reopens each finding only once, including in large scan histories.\n- Expiry summaries list up to 100 findings and show the total number reopened.",
+  "published_at": "2026-10-15T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T21:22:21.816260+00:00",
+  "content_hash": "sha256:aebfb79204a4770a0d214014068992d01aa53f063f31354900eda56aac0e9f43"
+}

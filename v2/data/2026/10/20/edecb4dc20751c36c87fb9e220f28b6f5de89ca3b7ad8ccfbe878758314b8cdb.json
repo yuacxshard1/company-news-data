@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "edecb4dc20751c36c87fb9e220f28b6f5de89ca3b7ad8ccfbe878758314b8cdb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+  "title": "AWS IAM Identity Center simplifies identity source changes from Active Directory",
+  "summary": "Discover more about what's new at AWS with AWS IAM Identity Center simplifies identity source changes from Active Directory",
+  "body_markdown": "AWS IAM Identity Center now retains your workforce identities and their assignments when you change your identity source from Active Directory to an external identity provider (IdP), such as Okta or Microsoft Entra ID, or to the Identity Center directory. Specifically, it preserves your users, groups, group memberships, permission set assignments, and application assignments. Previously, this change required you to recreate them in IAM Identity Center.\n\n\nIAM Identity Center helps you connect your workforce identities to AWS once and manage their access centrally across AWS applications and accounts. When you change your identity source from Active Directory, your existing identity store remains in place, so your users and groups keep the same IDs. As a result, users retain their access to AWS accounts and applications, and policies that reference your user IDs, group IDs, or identity store ID continue to work.\n\n\nTo make this change, configure your new identity source with the standard setup required for users to sign in. After the change, your workforce signs in through your dual-stack AWS access portal URL. Changing your identity source in the other direction, to Active Directory, works as before. This feature is available for organization instances of IAM Identity Center in all AWS Regions where IAM Identity Center is available. IAM Identity Center is provided at no additional cost.\n\n\nTo get started, navigate to the IAM Identity Center console. For more information, see[Change your identity source](https://docs.aws.amazon.com/singlesignon/latest/userguide/manage-your-identity-source-change.html) in the IAM Identity Center User Guide. To learn more about IAM Identity Center, visit the[product detail page](https://aws.amazon.com/iam/identity-center/) .",
+  "published_at": "2026-10-20T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:7cefe6bf720cfd485a2af1f8e29b66c53e033abab032a96c475e264311b63a8e"
+}

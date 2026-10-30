@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fc2f5f47e8a02cdc069516e271e7c61fb4129522c6f9f285cd0cd23fe7f30dfa",
+  "company_key": "yc-resend",
+  "company_name": "Resend",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://resend.com/changelog/compress-and-convert-images-in-the-editor",
+  "canonical_url": "https://resend.com/changelog/compress-and-convert-images-in-the-editor",
+  "title": "Compress and Convert Images in the Editor",
+  "summary": "Automatically compress large images and convert WebP, HEIC, SVG, and more.",
+  "body_markdown": "Starting today, the Broadcast and Template editors automatically:\n\n\n- compress large images\n- convert unsupported formats\n\n\nThese improvements happen before upload. Drop, paste, or pick any image and the editor prepares it for email.\n\n\n## Automatic compression\n\n\nEmail clients render most emails around 600px wide, so a full-resolution photo requires every recipient to download a larger image for no benefit.\n\n\n- **Images over 1 MB** are resized to a maximum of 1500px wide and re-encoded.\n- **GIFs are never compressed** , so animations stay intact.\n\n\nLighter images load faster for your recipients and keep your emails smaller.\n\n\n## Format conversion\n\n\nEmail clients reliably support JPEG, PNG, and GIF. Other formats are not commonly supported, so they are now converted in the browser before upload:\n\n\n- **SVG**\n- **WebP** and **AVIF**\n- **HEIC** and **HEIF** (photos from iPhone)\n- **BMP** , **ICO** , and **TIFF** (TIFF only in browsers that can read it)\n\n\n**Images with transparency become PNG** , so logos and cut-outs keep their transparent background. Everything else becomes JPEG. Converted images are also resized to a maximum of 1500px wide, whatever their file size.\n\n\n## Conclusion\n\n\nYou no longer need to resize or convert images before adding them to an email.\n\n\nIf you have any questions,[view our documentation](https://resend.com/docs/dashboard/broadcasts/editor) or reach out to us and we'll be happy to help.",
+  "published_at": "2026-10-19T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T16:11:17.214015+00:00",
+  "content_hash": "sha256:11660a1c4e8effe35c256d8ed5a6e8b83d15f293e37d282b03c8d927fb9388fa"
+}

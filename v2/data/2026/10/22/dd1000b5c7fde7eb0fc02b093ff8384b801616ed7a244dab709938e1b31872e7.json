@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dd1000b5c7fde7eb0fc02b093ff8384b801616ed7a244dab709938e1b31872e7",
+  "company_key": "yc-flower",
+  "company_name": "Flower",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flower.ai/blog/2026-10-22-announcing-flower-1.42-release",
+  "canonical_url": "https://flower.ai/blog/2026-10-22-announcing-flower-1.42-release",
+  "title": "Announcing Flower 1.42",
+  "summary": "The Flower Team is excited to announce the release of Flower 1.42 stable 🎉",
+  "body_markdown": "The Flower team is excited to announce the release of Flower 1.42 stable, packed with new updates!\n\n\n**Flower is a friendly framework for collaborative AI and data science.** It makes novel approaches such as federated learning, federated evaluation, federated analytics, and fleet learning accessible to a wide audience of researchers and engineers.\n\n\n### Thanks to our contributors\n\n\nWe would like to give our special thanks to all the contributors who made the new version of Flower possible (in git shortlog\n\n\norder):\n\n\nCharles Beauville\n\n\n, Chong Shen Ng\n\n\n, Heng Pan\n\n\n, Javier\n\n\n, Taner Topal\n\n\n### What's new?\n\n\n-\n\n\n**Reduce Agent response latency with faster warm-pool handoff** ([#8280](https://github.com/flwrlabs/flower/pull/8280) )\n\n\nReady warm Pods are now handed off before Kubernetes replenishes the pool. Reconciliation creates replacements while tasks run, avoiding Kubernetes list and Pod-creation requests during successful warm token handoff.\n\n\n-\n\n\n**Train the vertical FL example reliably** ([#8396](https://github.com/flwrlabs/flower/pull/8396) )\n\n\nThe vertical FL example now aligns shuffled features and labels, reuses the model state that produced each embedding, requires complete feature and gradient exchanges, and reports training loss and accuracy from the same model state.\n\n\n-\n\n\n**Improve Python TLS security following the eMudhra CA incident** ([#8400](https://github.com/flwrlabs/flower/pull/8400) )\n\n\nFollowing the eMudhra CA compromise, Flower now requires certifi>=2026.10.19\n\n\nand uv>=0.13.5,<0.14.0\n\n\nto mitigate risks from compromised CA certificates. CI, container, and baseline bootstraps also use updated, pinned build tools. Existing installations and images must be updated or rebuilt to receive these security improvements.\n\n\n-\n\n\n**General improvements** ([#8369](https://github.com/flwrlabs/flower/pull/8369) ,[#8391](https://github.com/flwrlabs/flower/pull/8391) ,[#8392](https://github.com/flwrlabs/flower/pull/8392) ,[#8393](https://github.com/flwrlabs/flower/pull/8393) ,[#8398](https://github.com/flwrlabs/flower/pull/8398) ,[#8399](https://github.com/flwrlabs/flower/pull/8399) ,[#8403](https://github.com/flwrlabs/flower/pull/8403) ,[#8405](https://github.com/flwrlabs/flower/pull/8405) )\n\n\nAs always, many parts of the Flower framework and quality infrastructure were improved and updated.",
+  "published_at": "2026-10-22T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T21:00:46.507066+00:00",
+  "content_hash": "sha256:32e3a6612cdf12f32183719f36b0a558e48edd859ec1bcfcf3d56fbb8eaf3cc3"
+}

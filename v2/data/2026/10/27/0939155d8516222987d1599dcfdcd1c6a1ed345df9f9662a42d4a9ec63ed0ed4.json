@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0939155d8516222987d1599dcfdcd1c6a1ed345df9f9662a42d4a9ec63ed0ed4",
+  "company_key": "vsee-health-inc-common-stock",
+  "company_name": "VSee Health Inc.",
+  "category_key": "health-care-04b0a88a87070712",
+  "category_name": "Health Care",
+  "source_kind": "rss",
+  "url": "https://vsee.com/blog/vsee-security-advisory-php2shell/",
+  "canonical_url": "https://vsee.com/blog/vsee-security-advisory-php2shell/",
+  "title": "Security advisory: PHP “php2shell” and Node.js security releases (October 2026)",
+  "summary": "October 21, 2026, the PHP and Node.js projects vulnerabilities, including “php2shell” (CVE-2026-109618 and CVE-2026-109619), industry-wide issues affecting a large share of the web.",
+  "body_markdown": "On October 21, 2026, the[PHP and Node.js projects released fixes](https://www.nsa.gov/press-room/press-releases-statements/press-release-view/article/4630238/nsa-advisory-critical-patches-recommended-for-php-vulnerabilities/) for serious vulnerabilities, including “php2shell” (CVE-2026-109618 and CVE-2026-109619), a remote code execution flaw in PHP. These are industry-wide issues affecting a large share of the web.\n\n\n**Our response.** We opened our response the same day and worked from an inventory of what we actually run. Where an immediate upgrade wasn’t possible, we applied the published protections first. We then patched and verified our services one by one, under change control. By early October 23, every Clinic production service was patched or protected.\n\n\n**What we found.** We have found no evidence that these vulnerabilities were exploited on our systems. We continue to monitor.\n\n\n**What customers need to do.** Nothing. The fixes were on our side.\n\n\nCustomers with questions can contact their Customer Success manager. Security teams completing a vendor review can request more detail athelp@vsee.com\n\n\n### Share this:\n\n\n- [Facebook](https://vsee.com/blog/vsee-security-advisory-php2shell/?share=facebook)\n- [Twitter](https://vsee.com/blog/vsee-security-advisory-php2shell/?share=twitter)\n- [LinkedIn](https://vsee.com/blog/vsee-security-advisory-php2shell/?share=linkedin)\n- Email\n-\n\n\n### Like this:\n\n\nLike\n\n\nLoading…\n\n\n### *Related*",
+  "published_at": "2026-10-27T17:01:45+00:00",
+  "first_seen_at": "2026-10-30T15:55:16.723189+00:00",
+  "content_hash": "sha256:1f39bea4b70c46b0c7f1cc58f2f685aea901d46e6d8f86188d27ec3651b28974"
+}

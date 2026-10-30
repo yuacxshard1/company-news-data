@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "def6ff203586b470b756badee23431fc18e153c446900e281277ffc85b848626",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/gharp-head-animation",
+  "canonical_url": "https://machinelearning.apple.com/research/gharp-head-animation",
+  "title": "GHARP: Real-Time Gaussian Head Animation from Large-Scale Reconstruction Prior",
+  "summary": "We present GHARP (Real-time Gaussian Head Animation from Large-scale Reconstruction Prior), a method that animates 3D human heads in real…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2610.10945)\n\n\nWe present GHARP (Real-time Gaussian Head Animation from Large-scale Reconstruction Prior), a method that animates 3D human heads in real time from a few input images of a subject and a driving expression signal. We decouple the problem into an identity stage that builds a representation of the subject’s geometry and appearance offline, and an animation stage that predicts expression-dependent residuals on top of it at runtime. This separation offers a favorable trade-off with respect to fidelity, quality and runtime: the identity stage can be expensive while the animation stage runs a lightweight network, optimized for mobile devices. Our method performs animation in a semantically structured latent space of a pretrained reconstruction model, where expression changes remain spatially contained, making residual prediction efficient. This reconstruction prior provides a consistent spatial layout, allowing fusion of multiple input views into a compact, fixed-size canonical Gaussian representation. While this two-stage design improves the runtime-quality trade-off, it still inherits a problem common to all expression-driven avatar methods: expression codes describe only the face and thus omit body pose and clothing position, making these regions underspecified in the input. The animation network faces an ill-posed mapping and resorts to averaging over conflicting body appearances, producing blur and temporal flicker. We address this with a body alignment network that learns to align the person’s body in the target image with the input reference images, removing the ambiguity from the training signal. Our method achieves state-of-the-art quality on the Ava-256 benchmark while running up to 13× faster on an A100 GPU with 8× fewer Gaussians.\n\n\n- * Equal Contributors",
+  "published_at": null,
+  "first_seen_at": "2026-10-30T20:32:49.484836+00:00",
+  "content_hash": "sha256:cb4d7c526470bad62c7515f534762b3e824b9380a89ccb3fd98de653ba46bb53"
+}

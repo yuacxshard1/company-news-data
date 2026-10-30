@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "0b7895be9f77ce4faa654db07b479cb3ef0a761d08e7ab2478b253374d0f6ab9",
+      "first_seen_at": "2026-10-30T19:26:04.901406+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Prepare an agent environment once, fork it per attempt with copy-on-write disk branches or sandbox forks, score the results and keep the winner. What it costs and where it stops working.",
+      "title": "Running parallel agent attempts from one starting state with copy-on-write branches"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b92a4d7a151ae55a073f2f42fc9ea29f97980d40e660943f076ad39290e49b1a",
+      "first_seen_at": "2026-10-30T19:26:04.901406+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Four ways to keep packages, repositories and caches across agent sandbox restarts, what each one costs, and why persistence and isolation have to be designed together.",
+      "title": "How to keep an AI agent's environment across sandbox restarts"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "c650dedf6ba0ac9dfc2fb489a7466856579daff7c9f19b4198ee8f939e91420e",
+      "first_seen_at": "2026-10-30T19:26:04.901406+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Both put a file system in front of object storage, at different layers. Where S3 Files is the simpler AWS-native choice, where Archil fits better, and the plan limits that matter.",
+      "title": "Archil vs Amazon S3 Files for agent workspaces"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "d4ecc4e8e55def92fb0df5d288712598b9ef64f478b88cb96ab14ecf5c9a0a68",
+      "first_seen_at": "2026-10-30T19:26:04.901406+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Which boundary E2B, Vercel, Modal, Daytona, claude.ai and Archil document, what containers, gVisor and Firecracker each protect against, and what isolation alone leaves open.",
+      "title": "What isolation do agent sandboxes actually use? Firecracker, gVisor and containers compared"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "e38f78e7532ecc295cb88469c30d3150b00f66ca6e98a5938c28ce33a1f4151b",
+      "first_seen_at": "2026-10-30T19:26:04.901406+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Where Archil is faster than Amazon EFS for agent workloads, where EFS still wins, and what each leaves you to build: sandboxes, branching, bucket access and per-tenant isolation.",
+      "title": "Archil vs Amazon EFS for AI agents"
+    }
+  ],
+  "company_key": "yc-archil",
+  "month": "2026-10"
+}

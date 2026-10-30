@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5ca35859fc1fb8b599ed4cddd1c8b7e0d55b51cdc600a19ec2b176171d2dc3ea",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
+  "title": "Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservations",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservations",
+  "body_markdown": "Starting today, you can reserve compute capacity for your Amazon Aurora and Amazon RDS DB instances in one or more Availability Zones for as long as you need it. Reserving capacity helps ensure that DB instance create, restore, scale-compute, and start operations don't fail because of insufficient capacity.\n\n\nOn-Demand Capacity Reservations are designed for workloads that need assurance that specific DB instance capacity will be available when they need it for business-critical events, such as migrations, product launches, seasonal peaks, high-availability deployments, or disaster recovery. You choose the DB instance class, engine, Availability Zones, and reserved capacity per Availability Zone, and RDS holds that capacity for you. Capacity can be reserved in two or more Availability Zones to support Multi-AZ deployments. To use the reserved capacity, reference the reservation when you create, restore, modify, or start a DB instance.\n\n\nYou can reserve capacity for immediate use with no commitment and cancel at any time, or schedule a reservation to begin 5 to 120 days in the future with a minimum commitment. Reserved capacity is billed at On-Demand rates while the reservation is active, whether or not DB instances within the reservation are running. Discounts from your existing Reserved DB Instances or Database Savings Plans apply automatically.\n\n\nOn-Demand Capacity Reservations are available for[Amazon Aurora](https://aws.amazon.com/rds/aurora/) and[Amazon RDS](https://aws.amazon.com/rds/) in all AWS commercial Regions. To learn more about On-Demand Capacity Reservations, visit the documentation for[Amazon Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/capacity-reservations.html) and[Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/capacity-reservations.html) .",
+  "published_at": "2026-10-21T17:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:db1cc0ca9d9c6eb4a55c1c98474e34a65d5e7906f13a39150e4788cfecbbe3d4"
+}

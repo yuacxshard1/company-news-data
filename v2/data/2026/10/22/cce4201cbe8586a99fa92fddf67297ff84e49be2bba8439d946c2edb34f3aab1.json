@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cce4201cbe8586a99fa92fddf67297ff84e49be2bba8439d946c2edb34f3aab1",
+  "company_key": "yc-raindrop",
+  "company_name": "Raindrop",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.raindrop.ai/blog/introducing-change-reports/",
+  "canonical_url": "https://www.raindrop.ai/blog/introducing-change-reports/",
+  "title": "Introducing Change Reports",
+  "summary": "Change Reports compare your agent's behavior before and after a code change and send the results to Slack.",
+  "body_markdown": "As agents take on more complex tasks and companies trust them with more consequential work, there are more ways for things to go wrong and the stakes for failure are higher.\n\n\nAt Raindrop, we're building multiple layers of reliability into the agent development process.\n\n\n[Issue Detection](https://www.raindrop.ai/issue-detection/) finds unexpected failures in production. With\n\n\n[Simulations](https://www.raindrop.ai/simulate/) , you can test proposed changes before deployment to catch potential regressions.\n\n\nToday, we're adding another layer:\n\n\n[Change Reports](https://www.raindrop.ai/reports/) .\n\n\nBefore deployment\n\n\nSimulations\n\n\nTest agent changes against real production scenarios before you ship\n\n\nIn production\n\n\nChange Reports\n\n\nFollow what happens after you ship\n\n\nIssue Detection\n\n\nFind unexpected failures in production\n\n\nAgent Reliability\n\n\nWhen you add a tool, switch models, or update a prompt, you need to know how your agent behaves after the change. Is the agent using the new tool successfully? Is it following the updated instructions? Have new failures appeared?\n\n\nWith Change Reports, you get a Slack report comparing your agent's behavior before and after a change, highlighting relevant activity, successes, and potential issues.\n\n\nOne team deployed a fix to prevent agent runs from ending without a response. Change Reports found two production runs where the agent still returned no text, revealing that the fix hadn't fully resolved the problem.\n\n\n## How it works\n\n\n1.\n\n\n**Connect your GitHub repository.** Raindrop tracks changes to your agent's code, including new tools, model switches, and prompt updates.\n\n\n2.\n\n\n**Enable Change Reports.** Choose which agents to monitor and where to receive reports: your project's Slack channel, or to the PR author's DMs.\n\n\n3.\n\n\n**Ship your change.** Raindrop compares your agent's behavior before and after deployment, analyzing production activity for successes and potential issues.\n\n\n4.\n\n\n**Get reports in Slack.** Raindrop sends reports soon after the merge and 24 hours later, highlighting what happened after your change.\n\n\nChange Reports are available to all Pro and Enterprise users.\n\n\n[Get started](https://app.raindrop.ai/briefs/) .",
+  "published_at": "2026-10-22T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T18:22:50.785328+00:00",
+  "content_hash": "sha256:9aebcfbab59ecceb110cfe92198064e5c7dfc0dbdbec674c6c83fb2c9de802f6"
+}

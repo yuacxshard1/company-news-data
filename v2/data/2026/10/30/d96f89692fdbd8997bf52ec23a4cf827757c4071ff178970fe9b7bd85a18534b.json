@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d96f89692fdbd8997bf52ec23a4cf827757c4071ff178970fe9b7bd85a18534b",
+  "company_key": "yc-deepnote",
+  "company_name": "Deepnote",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://deepnote.com/changelog/2026-10-30",
+  "canonical_url": "https://deepnote.com/changelog/2026-10-30",
+  "title": ".css-3bxrb3{font-size:var(--chakra-fontSizes-md);font-weight:600;color:var(--chakra-colors-fg-neutral-secondary);}.css-3bxrb3:hover,.css-3bxrb3[data-hover]{color:var(--chakra-colors-fg-neutral-secondaryHover);} October 30, 2026",
+  "summary": "See the latest product updates and improvements to Deepnote.",
+  "body_markdown": "## [October 30, 2026](https://deepnote.com/changelog/2026-10-30)\n\n\n#\n\n\n[Mentions in Deepnote Agent, rename projects with AI, tables in chat, & more](https://deepnote.com/changelog/2026-10-30#mentions-in-deepnote-agent-rename-projects-with-ai-tables-in-chat--more)\n\n\n##\n\n\n[Mention projects, integrations, and modules in Deepnote Agent](https://deepnote.com/changelog/2026-10-30#mention-projects-integrations-and-modules-in-deepnote-agent)\n\n\nType` @` in the Agent chat to reference a specific project, integration, or module. For example, **“Connect @integration-name to the project”** tells the agent exactly which integration to use.\n\n\n##\n\n\n[Rename projects with AI](https://deepnote.com/changelog/2026-10-30#rename-projects-with-ai)\n\n\nEven we had 539 untitled notebooks sitting in our own Deepnote workspace. To put an end to that, you can now rename projects with AI. Deepnote Agent also names untitled projects, notebooks, and apps on its own, based on what’s inside, so you can find the right one without opening five others first.\n\n\n##\n\n\n[Keep track of your conversation context and AI quota](https://deepnote.com/changelog/2026-10-30#keep-track-of-your-conversation-context-and-ai-quota)\n\n\nSee how much of the context window your conversation uses, how much AI quota you have left, and your available pay-as-you-go usage, if enabled. When a conversation exceeds 150k tokens, the agent suggests starting a new one.\n\n\n##\n\n\n[Tables in Deepnote Agent chat](https://deepnote.com/changelog/2026-10-30#tables-in-deepnote-agent-chat)\n\n\nWhen working with Deepnote Agent, render tables directly in its responses. Ask for a comparison, a summary by category, or a quick look at a query result, and you get a proper table in the chat.\n\n\n##\n\n\n[Lower AI credit usage](https://deepnote.com/changelog/2026-10-30#lower-ai-credit-usage)\n\n\nDeepnote Agent now reuses more of its cached context when your notebook changes, which may reduce AI credit usage. It also picks up changes you make outside the conversation, such as manual edits to notebook blocks.\n\n\n##\n\n\n[API & MCP updates](https://deepnote.com/changelog/2026-10-30#api--mcp-updates)\n\n\n- **Delete files:** the new` delete_file` MCP tool removes a file from a project. Unlike deleting projects or notebooks, this one can’t be undone from inside Deepnote.",
+  "published_at": null,
+  "first_seen_at": "2026-10-30T20:02:20.154942+00:00",
+  "content_hash": "sha256:affbb78f51ad0769fcdc6109492bff804ffe75de5e0f33592d8e83acf13d07d3"
+}

@@ -3,12 +3,62 @@
     {
       "company_key": "yc-replit",
       "company_name": "Replit",
+      "doc_id": "013cbed6e03af3d65c4f6068121140f099c30e2fd15993b533bbc9db00a2ab2b",
+      "first_seen_at": "2026-10-30T18:19:14.128160+00:00",
+      "published_at": "2026-10-26T15:50:00+00:00",
+      "source_kind": "html",
+      "summary": "Replit shares its vision for the self-driving company, where people set direction and AI agents execute work, changing how companies operate.",
+      "title": "The Rise of the Self-Driving Company"
+    },
+    {
+      "company_key": "yc-replit",
+      "company_name": "Replit",
+      "doc_id": "0caddf1960509fceb226fbf3c63c59d72b0b8f02175c519be2cfa3209a42f859",
+      "first_seen_at": "2026-10-30T18:19:14.128160+00:00",
+      "published_at": "2026-10-28T16:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Last week’s security disclosures offered a glimpse of the challenges ahead. Critical flaws surfaced across software that much of the internet depends on. AI agents are making vulnerabilities faster and easier to find, while the time from discovery to exploitation continues to shrink. Companies increasingly need agents both to defend against threats and to transform how work gets done. As agents take on more responsibility, security must scale with autonomy. Nikesh Arora, CEO of Palo Alto Networks, recently posed a question to every company adopting AI: “There are billions of dollars being spent on coding, is your coding harness secure?” For security leaders, his recommendation is clear: establish guardrails for agent deployments and deploy a second set of eyes to monitor them for drift, compliance, and verifiability. At Replit, we’ve spent years building security into the infrastructure where agents work. When these vulnerabilities surfaced last week, that very foundation enabled us to respond quickly, effectively, and at scale. Our existing isolation protections prevented exploitation of the disclosed kernel vulnerabilities. We went further, patching affected tooling and deploying firewall protections centrally, reducing the remediation work developers would otherwise have had to do themselves. We believe the next step is to automate more of the security response itself, with people defining the policies, approvals, and intervention points that govern the process.",
+      "title": "Replit’s Architecture Behind Secure Agent Work"
+    },
+    {
+      "company_key": "yc-replit",
+      "company_name": "Replit",
+      "doc_id": "11bdf0054e564fe47f7027fe908fa99c4a4e304ac5190161e4c65e01e2c49488",
+      "first_seen_at": "2026-10-30T18:19:14.128160+00:00",
+      "published_at": "2026-10-22T20:24:13.430+00:00",
+      "source_kind": "html",
+      "summary": "Anyone who has published an app knows that dreaded message from a user: “Doesn’t work for me”. At a large company, an on-call engineer gets paged, investigates the problem, and works to get the app running again. For most creators and small teams, that responsibility falls to the same person building the product, supporting customers, and trying to grow the business. Today, we’re changing that. Replit Monitoring Agent gives every internal app builder and entrepreneur an autonomous on-call engineer for their app. When a production issue occurs, the Monitoring Agent can investigate the alert, identify the cause, make and validate a fix, and deploy that fix to production. It then reports back with what happened and what changed. Earlier this year, we launched App Monitoring, giving you production health checks and alerts when a published app went down. Now, we’re closing the loop. When you run apps on Replit, your agent doesn’t just tell you what broke, it makes the fix as well.",
+      "title": "Replit Monitoring Agent: Your very own software engineering team"
+    },
+    {
+      "company_key": "yc-replit",
+      "company_name": "Replit",
       "doc_id": "7557e8efb02f30c45d77c08ee526cfaa8456cad6c3dbca2f79610a9469f39894",
       "first_seen_at": "2026-10-14T08:41:43.061693+00:00",
       "published_at": "2026-10-13T17:25:04.594+00:00",
       "source_kind": "html",
       "summary": "When anyone in an organization can put AI to work on the problems they know best, the way the organization operates starts to change. Designers turn ideas into working software that engineers can review and build on. HR builds its own onboarding tools. Finance replaces messy spreadsheets with live, custom dashboards. Support teams use agents to investigate issues and resolve tickets faster. The opportunity goes beyond building more software: it’s helping teams save time, reduce costs, and serve customers better. So the question isn’t just what you can build. It’s where AI can create the most value for your business, and how to turn that potential into measurable results. Replit's team works with our customers every day to answer those questions. And for the past few years, a growing community of systems integrators, consultancies, and agencies has been answering them too, independently. Many have built entire businesses around this work, hired teams, and become experts in AI enablement and a new way of building software. Others are some of the most established names in their fields, with decades of experience serving enterprises across industries and continents, and they are now choosing Replit to lead their clients into what comes next.",
       "title": "Introducing Replit Solutions Partners"
+    },
+    {
+      "company_key": "yc-replit",
+      "company_name": "Replit",
+      "doc_id": "75f375210a78bbe035265ecce0d0469e7ff6dd175804311075d392f731e89836",
+      "first_seen_at": "2026-10-30T18:19:14.128160+00:00",
+      "published_at": "2026-10-27T15:30:00+00:00",
+      "source_kind": "html",
+      "summary": "Save a seat to hear directly from our product team in a webinar on November 5! Since we launched the first generally available coding agent in 2024, almost anyone can build an app. But changing your company’s core product is still out of reach for anyone outside engineering, and that bottleneck has only grown as more people build. The people who know what should change in a product often sit outside engineering. A designer has noticed spacing that has been off for months. A support lead knows which setting confuses customers every week. These are fixes that often go into a ticket and wait for a sprint that never comes.",
+      "title": "Anyone can now bring their ideas into the company codebase"
+    },
+    {
+      "company_key": "yc-replit",
+      "company_name": "Replit",
+      "doc_id": "c49eab63a3a7cf441583a43b6ac14b5e42d2f665ac1432d565583fa48083a582",
+      "first_seen_at": "2026-10-30T18:19:14.128160+00:00",
+      "published_at": "2026-10-23T03:09:09.672+00:00",
+      "source_kind": "html",
+      "summary": "The vulnerabilities disclosed this week affect software that much of the internet depends on. They create real risks for businesses and more work for the teams responsible for keeping their applications secure. As AI makes more vulnerabilities easy to find, those teams will face more pressure to respond. At Replit, the security of our customers and the software and businesses they are building is our top priority. We’re handling much of the work for them directly: patching infrastructure, updating language tooling, and blocking exploits. Helping you build software also means helping you keep it secure once it’s running. We manage the environment your apps run in. This means we can apply many of these protections without you having to do anything. If you need to republish an app, we’re notifying you directly.",
+      "title": "Security vulnerabilities across the internet: How Replit is protecting your business"
     },
     {
       "company_key": "yc-replit",

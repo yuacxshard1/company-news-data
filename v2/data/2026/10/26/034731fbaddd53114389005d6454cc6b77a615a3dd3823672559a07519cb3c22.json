@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "034731fbaddd53114389005d6454cc6b77a615a3dd3823672559a07519cb3c22",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/",
+  "title": "AWS Glue Data Catalog now supports OAuth for Apache Iceberg REST Catalog APIs",
+  "summary": "Discover more about what's new at AWS with AWS Glue Data Catalog now supports OAuth for Apache Iceberg REST Catalog APIs",
+  "body_markdown": "AWS Glue Data Catalog now supports OAuth 2.0 bearer token authentication for Apache Iceberg REST Catalog (IRC) APIs using AWS Sign-In. The Apache Iceberg REST Catalog specification defines OAuth 2.0 as its standard authentication mechanism, and query engines such as Apache Spark, Trino, and Apache Flink implement it natively. These engines and external integration partners can now authenticate to the Glue Data Catalog Iceberg endpoint using standard OAuth 2.0 bearer tokens, in addition to AWS Signature Version 4 (SigV4).\n\n\nYou can now grant partners federated access to your Iceberg tables without distributing AWS credentials. Using OAuth 2.0 Token Exchange (RFC 8693), you exchange an OpenID Connect (OIDC) identity token for a short-lived, Glue-scoped bearer token and include it in IRC requests following the same standards-based pattern used across the Iceberg ecosystem. Access remains governed by AWS IAM and AWS Lake Formation permissions. Common use cases include enabling third-party analytics and data cloud platforms to query tables in the Glue Data Catalog through a single, consistent authentication path.\n\n\nThis capability is available in all AWS Regions where AWS Glue and Lake Formation are available. To learn more, see the[AWS Glue User Guide](https://docs.aws.amazon.com/glue/latest/dg/connect-glu-iceberg-rest.html) and[AWS Sign-In User Guide](https://docs.aws.amazon.com/signin/latest/userguide/configure-oauth-glue-iceberg-rest.html) .",
+  "published_at": "2026-10-26T04:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:93e4d4177283f1c3d5c3bd36475eb2f990466e5f00ab8198c0a47614f012a100"
+}

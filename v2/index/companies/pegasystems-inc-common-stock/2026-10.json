@@ -3,6 +3,16 @@
     {
       "company_key": "pegasystems-inc-common-stock",
       "company_name": "Pegasystems Inc.",
+      "doc_id": "1854609b829f6c25babaf0602b7b6c338bbfa82ad125f40a7edd43a5a1946254",
+      "first_seen_at": "2026-10-30T18:29:06.644714+00:00",
+      "published_at": "2026-10-23T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn how to turn technology evaluations into confident business decisions by connecting evidence, expected outcomes, risks, and investment priorities.",
+      "title": "Decision confidence: The missing layer between an idea and an investment."
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
       "doc_id": "1e8800b787c637db7f75b06c035cc957b3657b2ac0d5c9518a06a7476f79fd93",
       "first_seen_at": "2026-10-08T03:24:10.421873+00:00",
       "published_at": "2026-10-06T12:00:00+00:00",
@@ -23,12 +33,32 @@
     {
       "company_key": "pegasystems-inc-common-stock",
       "company_name": "Pegasystems Inc.",
+      "doc_id": "276829cdb0fd127857bb378368895086816ff0802e3565bda5772df789f35f09",
+      "first_seen_at": "2026-10-30T18:29:06.644714+00:00",
+      "published_at": "2026-10-21T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn how to integrate conversion models into decisioning systems to improve engagement, guide customer journeys, and drive revenue.",
+      "title": "The conversion model paradox: Why too much optimization kills revenue"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
       "doc_id": "328e4bd72d56381abee82788d34a15b787dd2a162a13f056ab4f32bd8618caac",
       "first_seen_at": "2026-10-06T21:41:01.681161+00:00",
       "published_at": "2026-10-01T12:00:00+00:00",
       "source_kind": "html",
       "summary": "Learn how Citizens Bank, Virgin Money, and NAB transformed customer engagement with AI, using trust, data, and customer value to drive results.",
       "title": "The hardest part of AI-powered customer engagement has nothing to do with technology"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "46264c524ec6ea6283435f9c9de3426d946f11204eac9dcc52b551218e1ef58b",
+      "first_seen_at": "2026-10-30T17:09:17.096170+00:00",
+      "published_at": "2026-10-19T12:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "They Don't Get It: The One-Case-Type Anti-Pattern Is Succeeded by the One-Agent Anti-Pattern The Dynamic Work Design Approach from 2018 by Repenning and Kieffer from MIT is becoming even more important in the Age of Agentic AI. The Anti Pattern A long-standing anti-pattern in workflow design is the one-case-type solution: one component built to deal with every variant of a request, wrapping heterogeneous work into a single structure so that its differences never have to be separated. The case type holds routine approvals, exceptions, and edge cases side by side, with branches so deep that nobody can say which path is correct. In the age of agentic AI, the same error returns in a new form. The one-agent solution is one agent given every tool, a broad brief, and responsibility for the whole case. It looks efficient for the same reason the one-case-type design does: there is one thing to build and one thing to govern. In practice, it overloads a single agent with tasks that need to be handled separately, and it removes the accuracy that specialization would provide. The people who build either design don't get it. They optimize for the number of components, when the design question is how the work should be divided. The continuum between generalism and specialism Every component sits somewhere on a continuum between generalism and specialism. A generalist handles many kinds of work with one configuration. A specialist handles one kind of work with a configuration tuned to it. Neither end is wrong in itself. The error is choosing a position on the continuum by default, usually toward generalism, because a generalist is one thing to build. Poor design happens when the split is not made in either place. In work design, the variants of a request that need different handling are not separated into distinct paths. In solution design, the component that performs the work is not separated into distinct units, each suited to one kind of task. The result is a component that is too general to be accurate and too coupled to be changed. Judgment is not only agentic The continuum applies to judgment itself, and judgment does not have to be performed by a language model. A deterministic rule is judgment made explicit: a decision table that says what happens when a claim exceeds a threshold and the policy is in force. It is the most predictable form of judgment, because its logic can be read, tested exhaustively, and audited. A machine learning model is judgment learned from data: a score that estimates risk or classifies a pattern from many labeled examples. It is probabilistic, but its behavior can be measured against held-out data and monitored for drift. A language model agent is judgment over unstructured input: reading a free-text complaint, weighing evidence in a document, or drafting a response. It is the most flexible form, and the hardest to predict. Each form fits a different kind of judgment, and the right choice follows from the nature of the decision. Where the criteria are known and stable, a rule is the specialist. Where the criteria must be learned from patterns in historical data, a model is the specialist. Where the input is open-ended language and the output needs reasoning, an agent is the specialist. Using an agent for a decision a rule could make is the one-agent anti-pattern in its purest form: a generalist tool applied to work that has a more precise specialist. It adds cost and unpredictability to a decision that did not need either. There are places where you don't need AI. If you know your business rules, you should not have an agent derive them again. A rule costs no tokens and behaves the same way every time, which a language model cannot guarantee. AI belongs where rules run out: interpreting unstructured requests, extracting data from documents, summarizing a case, and researching similar cases. This changes the split. In a well-designed workflow, the judgment units are not only agent steps. Some are decision tables, some are model scores consulted by a rule, and only some are agents. The Pega architecture supports this mix: the same case can call a deterministic decision, a scored prediction, and an agent step, each in the stage where its judgment is needed. The design question is therefore not whether to use an agent, but which kind of judgment each unit requires, and whether the rule, the model, or the agent is the most specialized tool for it. Why the one-agent design fails An agent's accuracy depends on several things that can be tuned: the instructions it follows, the model it uses, the context data it receives, and the tools it can call. A generalist agent must compromise on all four. Its instructions must cover every task, so none is precise. Its model must serve every task, so none is optimal. Its context must hold data for every task, so none is focused. Its tools must cover every task, so each invites the wrong use. A specialist agent can be tuned on each of the four. Its instructions name one judgment. Its model is chosen for that judgment. Its context carries only the data that judgment needs, and its tools are only the ones it uses. Its behavior can then be tested against a golden reference set for that specific outcome. A generalist agent offers no such outcome to test against, and its failures are hard to attribute, because a fix to its prompt affects every path at once. Agents cannot repair a design that was never split. Placing an agent into a mixed workflow asks it to handle both predictable and unpredictable work, and no improvement in the model changes that. The split has to come first. Why splitting is the design The Repenning argument supplies the principle. In an MIT Sloan Management Review article, Nelson Repenning, Don Kieffer, and James Repenning argue that work should be designed so that its well-defined and ambiguous parts are separated and handled in the way each requires. Stable work suits a serial, factory-style design, and ambiguous work suits a collaborative, studio-style design. Forcing both into one process means it must be efficient and adaptive at once, and it ends up being neither. Their practical advice maps directly onto component design. Separate well-defined work from ambiguous work. Keep units small enough to check often. Know who helps when something fails. Build explicit triggers and checks between the modes. Each is an argument for splitting rather than merging, in the workflow and in the agent that serves it. Splitting also makes change cheaper and failure visible. A new exception can be added to one unit without retesting the rest. A failure in a specialist belongs to a named unit with its own owner and escalation path, instead of appearing as a vague problem in the whole process. How this looks in Pega Pega's case management model supports the split at the castype level. A parent case owns the outcome and coordinates. Child cases each cover one unit of work with their own stages and rules, and the parent can close only when they are resolved. Exceptions are handled by alternate stages, reached through a defined condition or user action rather than by additions to the normal path. The parent-to-child handoff uses the Create Case shape, which can create one child, or one child per entry in a page list. The parent can then hold with a Wait shape until the child resolves, using the case dependency option. A child counts as resolved when its status starts with \"Resolved.\" Data passing deserves care: the Create Case shape supports a data transform for initial values, but community reports suggest the source page parameter field may not appear in every release, so pass only what the child needs and confirm the mechanism for your version. Agents attach to these units at specific steps. Pega's Agent Step runs inside a case type and performs one defined action asynchronously, so the case keeps moving. A GenAI Connect rule suits a single fixed action, while an Agent Step suits a judgment task. Either way, the agent is a specialist inside a workflow that already has a trigger in front of it and a check after it. What to avoid Three patterns recur. The first is one case type that holds every variant of a request. The second is one generalist agent given all the tools and a broad brief. The third is an exception handled by a workaround in the normal path, which hides it from both the design and the people who must review it. Each has a split as its remedy: a separate case type or child for each distinct kind of work, a specialist agent for each distinct judgment, and an alternate stage for each distinct exception. Where to start Take one existing case type and list its variants. Separate the variants that rules can decide from those that need judgment. Give each group its own case type or child case. For each judgment group, define the one task the agent performs, the data it may see, the tools it may call, and the field where its output lands. Then define the exception routes as alternate stages with named triggers. Only after that split should you ask whether an agent is needed, and where. In most workflows, the answer is yes for a smaller share of the work than the original design implied, and the parts that remain are easier to build, test, and govern. The people who don't get it treat the workflow, and the agent that serves it, as one thing to build. Both are several things with different properties, and the architecture should reflect that. References Nelson P. Repenning, Don Kieffer, and James Repenning, \"A New Approach to Designing Work,\" MIT Sloan Management Review, sloanreview.mit.edu/article/a-new-approach-to-designing-work/. 2018 A New Approach to Designing Work AI Use / Disclosure: This work represents my own ideas, objectives, expertise, and professional judgment. The underlying ideas, analysis, and final conclusions were developed and validated by me. Generative AI tools were solely used as an editorial aid to to assist with language refinement, formatting, style, structural improvements and image generation.",
+      "title": "They Don't Get It: The One-Case-Type Anti-Pattern Is Succeeded by the One-Agent Anti-Pattern"
     },
     {
       "company_key": "pegasystems-inc-common-stock",
@@ -53,12 +83,32 @@
     {
       "company_key": "pegasystems-inc-common-stock",
       "company_name": "Pegasystems Inc.",
+      "doc_id": "67bc449a123c36d0c882f3882c6c0225ad2bb088687f59b62bd7a186a1f054e3",
+      "first_seen_at": "2026-10-30T18:29:06.644714+00:00",
+      "published_at": "2026-10-22T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Learn how deterministic workflows provide the governance and control enterprises need to safely scale agentic AI across operations.",
+      "title": "Agentic AI needs a deterministic workflow"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
       "doc_id": "6fdc87e5dd00ffa880c0ad350c8668d9fe44ec4805547aa7cf21f9bd72b33c9f",
       "first_seen_at": "2026-10-14T05:36:41.173872+00:00",
       "published_at": null,
       "source_kind": "html",
       "summary": "Pega appoints financial services security executive to oversee security strategy and implementation",
       "title": "Sean Croston Joins Pega as Chief Information Security Officer"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "758789c64998ba44abc7f23e036b7ef5f321e438f86a808153c89f3aa13fde99",
+      "first_seen_at": "2026-10-30T18:30:23.776478+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Pega recognized for its vision for governed agentic systems and roadmap centered on advancing AI capabilities",
+      "title": "Pega Named a Leader in AppGen and Low-Code Platforms by Independent Research Firm"
     },
     {
       "company_key": "pegasystems-inc-common-stock",
@@ -73,12 +123,62 @@
     {
       "company_key": "pegasystems-inc-common-stock",
       "company_name": "Pegasystems Inc.",
+      "doc_id": "8c143d35d4c2dda7ab27d4903001386ec613812b9f378fd22e0594d2fd431496",
+      "first_seen_at": "2026-10-30T15:57:24.106715+00:00",
+      "published_at": "2026-10-22T13:10:31+00:00",
+      "source_kind": "rss",
+      "summary": "AidenAi, Inc PORG Name AidenAi, Inc October 22, 2026",
+      "title": "AidenAi, Inc"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "9001dbcd451b37061ff59c7785c4da662546cc29a23cdf4a25c73c5fbf4ce344",
+      "first_seen_at": "2026-10-30T15:57:24.106715+00:00",
+      "published_at": "2026-10-22T20:20:26+00:00",
+      "source_kind": "rss",
+      "summary": "Lateral Insights, LLC PORG Name Lateral Insights, LLC October 22, 2026",
+      "title": "Lateral Insights, LLC"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "9aa68a8a459875556b666629f35afb03ecd939a103db75f6522c71111b545fae",
+      "first_seen_at": "2026-10-30T15:57:24.106715+00:00",
+      "published_at": "2026-10-20T01:45:14+00:00",
+      "source_kind": "rss",
+      "summary": "SBT Research Private Limited PORG Name SBT Research Private Limited October 19, 2026",
+      "title": "SBT Research Private Limited"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "b0fec9f9ae3b58243f941b106d819f26368d87515a16dd996d3222b81aa9c141",
+      "first_seen_at": "2026-10-30T18:30:23.776478+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Cloud adoption continues to expand as Pega Cloud reaches 59% of total ACV in Q3Total ACV grows 6% as reported and 7% in constant currency year over yearCompan...",
+      "title": "Pega Cloud ACV Grows 20% in Q3 2026"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
       "doc_id": "c2b15a503a6ab098aca7301539e5afb79c1645c3dc16c648c81b8a266c9cb424",
       "first_seen_at": "2026-10-14T23:08:32.193564+00:00",
       "published_at": "2026-10-13T00:20:09+00:00",
       "source_kind": "rss",
       "summary": "Salix Space Co., Ltd. PORG Name Salix Space Co., Ltd. October 12, 2026",
       "title": "Salix Space Co., Ltd."
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "c8f44dfd90eae871602f44c36f3a449f89e90dd57d965caac639355c3012385a",
+      "first_seen_at": "2026-10-30T15:57:24.106715+00:00",
+      "published_at": "2026-10-20T20:10:21+00:00",
+      "source_kind": "rss",
+      "summary": "Smoothstack d/b/a Fedstack PORG Name Smoothstack d/b/a Fedstack October 20, 2026",
+      "title": "Smoothstack d/b/a Fedstack"
     },
     {
       "company_key": "pegasystems-inc-common-stock",
@@ -113,6 +213,16 @@
     {
       "company_key": "pegasystems-inc-common-stock",
       "company_name": "Pegasystems Inc.",
+      "doc_id": "e619e8bc8bd2ce4dc402fc50f852f20ea539eebaee31388e881f1c81fd06bd4e",
+      "first_seen_at": "2026-10-30T18:29:06.644714+00:00",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Discover how AI makes legacy modernization faster, cheaper, and more valuable while preparing enterprise systems for autonomous business.",
+      "title": "Your legacy apps weren't built to act on their own. But soon they'll have to."
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
       "doc_id": "e6fd7fe4e07fc4989078407e6ce09830f68f4e9783cbdbd1d92bc58c31419490",
       "first_seen_at": "2026-10-12T18:30:54.012420+00:00",
       "published_at": "2026-10-08T12:00:00+00:00",
@@ -129,6 +239,16 @@
       "source_kind": "rss",
       "summary": "Manzeera Solutions PORG Name Manzeera Solutions October 7, 2026",
       "title": "Manzeera Solutions"
+    },
+    {
+      "company_key": "pegasystems-inc-common-stock",
+      "company_name": "Pegasystems Inc.",
+      "doc_id": "f7f64064bff857e6b4200667c4e22526de83eb2db539c030ffedd4392feb16d6",
+      "first_seen_at": "2026-10-30T18:29:06.644714+00:00",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "AI powers transformation, but enterprise orchestration makes it safe at scale. See why you need an AI platform and orchestration working as one system.",
+      "title": "AI powers transformation and orchestration harnesses it. Enterprises need both."
     },
     {
       "company_key": "pegasystems-inc-common-stock",

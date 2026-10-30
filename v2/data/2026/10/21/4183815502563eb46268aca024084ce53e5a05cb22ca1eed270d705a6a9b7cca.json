@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4183815502563eb46268aca024084ce53e5a05cb22ca1eed270d705a6a9b7cca",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
+  "title": "AWS Network Firewall now supports Route 53 Resolved IP Validation",
+  "summary": "Discover more about what's new at AWS with AWS Network Firewall now supports Route 53 Resolved IP Validation",
+  "body_markdown": "AWS Network Firewall now supports IP validation, extending domain-based filtering beyond HTTP/HTTPS to protocols such as SFTP and SSH. This new capability validates that a connection's destination IP address was resolved through your VPC's Amazon Route 53 VPC Resolver, closing security gaps where clients could bypass domain rules.\n\n\nThis feature enables Network Firewall customers to implement domain filtering rules for any protocol, not just HTTP/HTTPS, providing more flexible security policies than IP-based rules alone. It simplifies protection against Server Name Identifier (SNI) spoofing by validating the IPs resolved by the Route 53 VPC Resolver against the SNI, ensuring traffic only reaches legitimately resolved destinations. Organizations can now enforce consistent domain-based security policies across all outbound traffic types, from web applications to file transfer protocols, without complex workarounds. Additionally, Route 53 Resolver DNS Firewall can be used with your VPC Resolver for extended DNS security.\n\n\nResolved IP validation is available in all AWS commercial regions where AWS Network Firewall and Route 53 Resolver DNS Firewall are available, at no additional charge. For a full list of supported regions, visit the[AWS Capabilities by Region page](https://builder.aws.com/build/capabilities/explore?f=eJxVirEKg0AQBX9FXq1FWiGFjZAmRVKkcC0uusji4cneqYj477lcEUg3b94c8Gy5C9w_eBA3eZRoCIsv2PhQXAgt8l9TrUaseYuVsMewmvbsT-WY1c2sYa_FBtbYHIRAKJs2J8wRCE4JcQxfG98xSc-6Sse3Pn0uuWviNXH1emZ3DpvTMatFeTPWEs72xPkBR_VAow&tab=service-feature) .\n\n\nTo learn more, visit AWS Network Firewall[product page](https://aws.amazon.com/network-firewall/) and service[documentation](https://docs.aws.amazon.com/network-firewall/latest/developerguide/route53-resolved-ip-validation.html) .",
+  "published_at": "2026-10-21T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:7bc03fdcf9721a8d19816bb2df5feccebb9576cf0717f035c283d9c07f1370ff"
+}

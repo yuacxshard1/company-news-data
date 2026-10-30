@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "217d5af136c200ddf83cc9bee017d359fe8f43622259c036c884a891e13eb97c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
+  "title": "AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx",
+  "summary": "Discover more about what's new at AWS with AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx",
+  "body_markdown": "[Migration assessments in AWS Transform](https://docs.aws.amazon.com/transform/latest/userguide/transform-app-assessments.html) now evaluate on-premises storage for migration to AWS. Instead of manually analyzing thousands of volumes across protocols, capacity, and performance, you upload a storage inventory and AWS Transform does the mapping for you. It matches each workload to the best-fit service, sizes the recommendation, and projects costs to produce a total cost of ownership business case. Bring NAS shares, SAN LUNs, direct-attached disks, or backup repositories via a NetApp Digital Advisor export, RVTools file, or other inventory. AWS Transform routes workloads across Amazon S3, Amazon EBS, Amazon EFS, and Amazon FSx (NetApp ONTAP, Windows File Server, OpenZFS, Lustre). Run what-if scenarios to compare deployment options such as Single-AZ vs. Multi-AZ or cost-optimized vs. performance-optimized, then ask follow-up questions about any result in chat.\n\n\nStorage migration assessments are available in all AWS Regions where AWS Transform is available. To learn more, see the[AWS Transform User Guide](https://docs.aws.amazon.com/transform/latest/userguide/transform-app-assessments.html) .",
+  "published_at": "2026-10-21T19:10:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:88a8132eab59f3e6687f1775a2affccc9a33af4fb74414af5c12d821fa9bd32d"
+}

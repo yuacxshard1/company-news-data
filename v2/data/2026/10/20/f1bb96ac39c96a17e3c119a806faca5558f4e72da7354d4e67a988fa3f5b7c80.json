@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f1bb96ac39c96a17e3c119a806faca5558f4e72da7354d4e67a988fa3f5b7c80",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
+  "title": "Amazon DynamoDB global tables now support disassociating replicas",
+  "summary": "Discover more about what's new at AWS with Amazon DynamoDB global tables now support disassociating replicas",
+  "body_markdown": "[Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) global tables now support disassociating a replica without deleting its table or data. Global tables provide fully managed, multi-Region, multi-active replication. You can now stop replication to and from a replica and continue using the same table as a single-Region table.\n\n\nAn account can leave a shared multi-account global table and continue using its table independently. You can also stop replication to a Region while keeping its table for local workloads, validation, or audit, without creating a replacement table or copying data.\n\n\nDynamoDB supports disassociating replicas in all AWS Regions for same-account and multi-account global tables that use multi-Region eventual consistency (MREC).\n\n\nTo get started, use the AWS Management Console, AWS CLI, DynamoDB API, or AWS CloudFormation. For more information, see[Disassociating replicas](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/globaltables-disassociate.html) in the Amazon DynamoDB Developer Guide.",
+  "published_at": "2026-10-20T23:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:1fe3b0ffcfc88e9054e828b75d783aedeb7868c0d4bfd7e2bf478e3ceeb26845"
+}

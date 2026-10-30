@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a6163ef560b6fc3279071cc4277ada85befda780193e8904f5e176d3bf71a3f8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
+  "title": "Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
+  "summary": "Discover more about what's new at AWS with Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
+  "body_markdown": "Amazon ElastiCache Serverless for Valkey now supports public endpoints in the AWS GovCloud (US) Regions. A public endpoint lets you connect to your cache from a serverless function or any application running outside a VPC, without setting up a VPN, a bastion host, or an SSH tunnel.\n\n\nWith a public endpoint, ElastiCache Serverless gives you a fully managed cache with no VPC to configure and no infrastructure to provision, and you can create one in under a minute. Every connection uses IAM authentication over TLS 1.3, so there's no password to store or rotate. Connect using Valkey GLIDE 2.2 or later, which has built-in IAM support, or another Valkey client paired with the Developer Toolkit for ElastiCache, an open-source library that generates and refreshes IAM authentication tokens for you.\n\n\nWith this expansion, public endpoints for ElastiCache Serverless are now available in all commercial AWS Regions, the AWS GovCloud (US) Regions, and the China Regions. There is no additional charge for using public endpoints beyond standard ElastiCache Serverless pricing.\n\n\nTo get started, create a Valkey 9.0 or later serverless cache with a public endpoint using the AWS Management Console, AWS SDK, or AWS CLI. To learn more about public endpoints, see[Create a Valkey serverless cache with a public endpoint](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/serverless-public-endpoints-chapter.html) .",
+  "published_at": "2026-10-28T19:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:feebd87d6b05d44244188bedb4da42ac269595c83dcb807d0241f79142f13873"
+}

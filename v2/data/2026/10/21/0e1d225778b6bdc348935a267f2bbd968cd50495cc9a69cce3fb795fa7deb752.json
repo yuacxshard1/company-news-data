@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0e1d225778b6bdc348935a267f2bbd968cd50495cc9a69cce3fb795fa7deb752",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-neuron-2-33-0",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-neuron-2-33-0",
+  "title": "AWS Neuron 2.33 adds native PyTorch support, Neuron Observer, and other new features",
+  "summary": "Discover more about what's new at AWS with AWS Neuron 2.33 adds native PyTorch support, Neuron Observer, and other new features",
+  "body_markdown": "AWS Neuron 2.33 is now available, introducing TorchNeuron, the native PyTorch backend for AWS Trainium, in public beta. You can run models written with the standard PyTorch APIs on Amazon EC2 Trn2 and Trn3 instances, in eager mode or with torch.compile. This release also introduces Neuron Observer in public beta, which detects Trainium health issues in under a second and identifies the affected node or device.\n\n\nThe vLLM Neuron plugin upgrades to vLLM 0.29.0, and the vLLM Omni Neuron plugin for Wan2.2 video generation is now part of the Neuron release. Both support native PyTorch compilation through TorchNeuron. A new Neuron Deep Learning AMI and Deep Learning Container for PyTorch training include TorchNeuron, PyTorch 2.14, and TorchTitan. Neuron Explorer opens profiles captured with torch.profiler. From a PyTorch memory snapshot, it now attributes allocations to the Python source lines that made them, for debugging out-of-memory errors in eager mode.\n\n\nKernels written with the Neuron Kernel Interface (NKI) can now use the full Python language for metaprogramming, including generators and class inheritance. The NKI Library adds 25 new experimental kernels, including kernels for DeepSeek-V3.2, Qwen3.5, and Kimi Delta Attention.\n\n\nTo get started, see the following resources:\n\n\n-\n\n\n[AWS Neuron 2.33.0 Release Notes](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/release-notes/index.html)\n\n\n-\n\n\n[AWS TorchNeuron documentation](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/torch/index.html)\n\n\n-\n\n\n[AWS Neuron Observer documentation](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/tools/neuron-observer/index.html)\n\n\n-\n\n\n[AWS Neuron Kernel Interface documentation](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/nki/index.html)\n\n\n-\n\n\n[AWS Neuron](https://aws.amazon.com/ai/machine-learning/neuron/)",
+  "published_at": "2026-10-21T15:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:768ade261ce76c1da608b09908f851a5e62a23cc7d3b986b451530d530eb6a69"
+}

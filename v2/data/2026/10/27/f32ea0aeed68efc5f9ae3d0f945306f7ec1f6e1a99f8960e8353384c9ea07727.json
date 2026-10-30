@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f32ea0aeed68efc5f9ae3d0f945306f7ec1f6e1a99f8960e8353384c9ea07727",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/bitrig-builds-carplay-apps",
+  "canonical_url": "https://bitrig.com/blog/bitrig-builds-carplay-apps",
+  "title": "Bitrig Now Builds CarPlay Apps",
+  "summary": "Get started without an entitlement or paid Apple Developer account. Build on the go with Bitrig Remote, and try your changes on the drive home.",
+  "body_markdown": "For close to a decade I’ve had an idea for a CarPlay app. But I procrastinated building it because I didn’t know much about the CarPlay SDK, and what I did know was different enough to scare me off.\n\n\nThis weekend I finally built it. During my kids’ 30-minute swim lesson, from my iPhone. Then I used it on the drive home. It was glorious.\n\n\nI could do it because:\n\n\n**Bitrig can now build CarPlay apps and test them in its built-in simulator.**\n\n\nRunning your CarPlay app in a real car requires an entitlement from Apple and a paid Apple Developer account. So does testing it in[Xcode’s CarPlay Simulator](https://developer.apple.com/download/files/CarPlay-Developer-Guide.pdf) . But Bitrig lets you test your CarPlay app without either.\n\n\nHere’s how it works:\n\n\n-\n\n\n**Build with CarPlay templates.** Bitrig knows every CarPlay category and which templates each one allows. It adds CarPlay to your existing iPhone app, following Apple’s[Human Interface Guidelines for CarPlay](https://developer.apple.com/design/human-interface-guidelines/carplay) .\n\n\n-\n\n\n**Run it in the CarPlay simulator.** Switch between your iPhone and its CarPlay screen using the device menu. Both your Mac and Bitrig Remote can show either screen.\n\n\n-\n\n\n**Test and refine it.** The agent taps through your CarPlay interface to test it with[Simulator Use](https://bitrig.com/blog/bitrig-simulator-use) , and you can[select an element](https://bitrig.com/blog/select-to-edit-in-the-simulator) on the CarPlay screen to show it exactly what to change.\n\n\n-\n\n\n**Request the entitlement.** Bitrig walks you through requesting Apple’s[CarPlay entitlement](https://developer.apple.com/contact/request/carplay/) : accept the agreement, pick your app’s category, and submit. My audio app was approved the same day.\n\n\n-\n\n\n**Use it in your car.** Run your app on your iPhone with one click and connect it to your car. When it’s ready to share,[Bitrig can publish it to the App Store](https://bitrig.com/blog/bitrig-publishes-to-the-app-store) .\n\n\nYou can do all of this from[Bitrig Remote](https://bitrig.com/remote) too. Prompt the agent, test your app in the CarPlay simulator, and[install it on your Home Screen](https://bitrig.com/blog/bitrig-remote-install-and-distribute-apps) with one tap, so it’s ready the next time you get in the car.\n\n\nYour audio and video CarPlay apps will also work on[Apple HomeView](https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/) when it arrives on November 13.\n\n\nSo if you’ve had an idea for a CarPlay app, stop procrastinating. Bitrig makes it easy.",
+  "published_at": "2026-10-27T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:23:13.975893+00:00",
+  "content_hash": "sha256:1635760399a31a424c48b6ef110ea48da68b753e14a76bad7cf68e0c3a791753"
+}

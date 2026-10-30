@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d03486abee613ffbc2d422473831d228ed7f6c97b93c784c30d06135fd744717",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-sequence-lengths/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-sequence-lengths/",
+  "title": "Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs",
+  "body_markdown": "Today, Amazon SageMaker AI announces the ability to configure the sequence length used during your serverless model customization job. Amazon SageMaker AI serverless model customization supports fine-tuning for many open-weight models, including models from popular families including gpt-oss, Gemma, Llama, Nemotron, and Qwen. Previously, each fine-tuning recipe ran at a fixed sequence length that customers could not modify. Customers sometimes need to modify these parameters to achieve better results for their use case. Customers also asked for longer sequence lengths than the static defaults we supported on some models.\n\n\nNow, you can set sequence length parameters as part of the customization job's hyperparameters, anywhere up to the published maximum for your chosen model and technique. You can set the dataset_max_len hyperparameter for SFT and DPO jobs or set max_prompt_length and max_response_length hyperparameters for RFT jobs. This gives you more control to match your training data characteristics, whether you are working with short question-answer pairs or multi-page documents. Published maximums are up to 16K tokens for many models depending on model and technique.\n\n\nServerless model customization on SageMaker AI is available in US East (N. Virginia), US West (Oregon), Asia Pacific (Tokyo), and Europe (Ireland). To get started, navigate to the Models page in Amazon SageMaker Studio to launch a customization job, use the[SageMaker Python SDK](https://sagemaker.readthedocs.io/en/stable/model_customization/index.html) or use our[Agent skills](https://docs.aws.amazon.com/sagemaker/latest/dg/model-customize-agent-skills.html) with your choice of coding assistant. To learn more, and see the list of models and supported sequence lengths per technique, see the[SageMaker AI documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/customizing-models-sequence-lengths.html) .",
+  "published_at": "2026-10-21T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:cca2721718b70e1759b46cdfa913c215895194251de1ec49c7ff55580f8a05e9"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c28959e6a3322e4da6690a1eff429d05f23e7d440f4d315c0908bfc0ded98b8e",
+  "company_key": "yc-polytomic",
+  "company_name": "Polytomic",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.polytomic.com/blog-posts/announcing-history-mode",
+  "canonical_url": "https://www.polytomic.com/blog-posts/announcing-history-mode",
+  "title": "Announcing History Mode",
+  "summary": "Read Announcing History Mode on the Polytomic blog.",
+  "body_markdown": "Today we are announcing History Mode for data warehouses and databases.\n\n\nWhen using Polytomic's Bulk Syncs to sync to your data warehouses and databases, you can turn on History Mode to generate a corresponding history table from any table you're syncing from.\n\n\nThis history table (sometimes called a snapshot table) is an append-only table where every change to a source row is stored in your destination (rather than just the row's final state). It allows you to run historical analyses where every change to every row needs to be queried.\n\n\n## History Mode is Universal\n\n\nHistory Mode applies to all sources Polytomic supports, whether CDC (change data capture) tables from databases, SaaS platforms like Salesforce and NetSuite, or even spreadsheets and CSVs from cloud storage buckets.\n\n\n## Activating History Mode\n\n\nActivating History Mode is simple. You can do so using three methods:\n\n\n### Admin UI\n\n\nSimple click to the right of the table whose history you want to start capturing and turn on the switch:\n\n\n### API\n\n\nFor those using[Polytomic Connect](https://apidocs.polytomic.com/) to sync from your customers' systems, you can set the` history_enabled` argument to` true` in your[Create Bulk Sync](https://apidocs.polytomic.com/api-reference/bulk-sync/create#request.body.schemas.SchemaConfiguration.history_enabled) API call.\n\n\n### MCP Server\n\n\nYou can also ask your AI agent (Claude, ChatGPT, Grok, etc) to turn on history mode for any source tables by using the Polytomic MCP Server:[https://apidocs.polytomic.com/guides/mcp-server](https://apidocs.polytomic.com/guides/mcp-server)\n\n\n## History Table Format\n\n\nPolytomic's history tables follow the SCD (slowly changing dimension) Type 2 format. You can read about in our documentation:[https://docs.polytomic.com/docs/history-mode#history-table-format](https://docs.polytomic.com/docs/history-mode#history-table-format) .\n\n\nHistorical analysis is thus made possible with a single switch. No engineering acrobatics needed.\n\n\nAs always, please email us at support@polytomic.com if you need anything!\n\n\n[Back to blog](https://www.polytomic.com/blog)",
+  "published_at": null,
+  "first_seen_at": "2026-10-30T17:23:07.937370+00:00",
+  "content_hash": "sha256:e25414a722f4193283ca9c33d59c291070aa22c80918797905058832f9586a7e"
+}

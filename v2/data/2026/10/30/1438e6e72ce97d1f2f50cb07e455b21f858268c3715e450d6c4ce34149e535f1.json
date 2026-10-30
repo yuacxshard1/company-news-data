@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1438e6e72ce97d1f2f50cb07e455b21f858268c3715e450d6c4ce34149e535f1",
+  "company_key": "snap-inc-class-a-common-stock",
+  "company_name": "Snap Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://eng.snap.com/alchemist",
+  "canonical_url": "https://eng.snap.com/alchemist",
+  "title": "Alchemist: Agentic ML Experimentation",
+  "summary": "Alchemist brings human-in-the-loop agents and a deterministic harness to ML experimentation at Snapchat, reducing feature-selection cycles from four weeks to two.",
+  "body_markdown": "###\n\n\nIntroducing the loop\n\n\nThe Alchemist platform defines a new ML experimentation loop that uses agents where they are useful while constraining where agent judgment is applied.\n\n\n*Figure 2. Alchemist on Bento. The harness is deterministic. The agent works only at its two edges, proposing hypotheses at the start and recommending next steps at the end, and nothing reaches the training infrastructure without the engineer's approval.*\n\n\nAn experimental loop starts with one prompt, naming the production model and a goal:\n\n\nThe agent then identifies a number of candidate hypotheses, each one associated with a concrete configuration change and stated expectation. The configuration is grounded either in the baseline model the engineer supplies, or in earlier loop iterations of the current experiment.\n\n\nEngineers curate the hypotheses, dropping, editing, re-ranking, or adding through a conversation with the agent. After explicit approval, the agent translates the surviving hypotheses into a single typed plan for the round. The plan lists the concrete steps the harness will run for each hypothesis, an estimated cost, and links to supporting ML artifacts (training datasets, existing training workflows, model code) required for the experiment. The plan passes a local smoke test that checks required inputs against defined constraints before the harness drives it to a terminal success or failure state.\n\n\nThe harness never retries a failed step on its own. Failures are pruned immediately, and the failure details (including debug recommendations) are included in the iteration result for an engineer to choose a followup action for the next iteration.\n\n\nWhen the iteration finishes, the agent assembles a comparison across all hypotheses and the baseline and suggests possible next directions. The human steps in to approve a new hypothesis, and the loop continues.\n\n\nThe agent explores\n\n\nThe harness executes\n\n\nThe engineer approves\n\n\nwhich experiment shape, or recipe, the intent maps to, a claim the harness verifies rather than trusts\n\n\nbind, promote, expand, advance\n\n\nevery plan, by fingerprint, before any spend\n\n\nthe hypotheses for the round\n\n\nper hypothesis: pin the spec, smoke it, validate, submit\n\n\nevery edit, because an edited plan is an unapproved plan\n\n\nthe comparison across hypotheses and the recommended next step\n\n\npoll, classify, collect, diagnose\n\n\nevery round, because a new round is a new plan\n\n\n*Figure 3. Who can say yes to what. The engineer approves the plan by its fingerprint and decides every retry. An edited plan loops back unapproved, and anyone can stop submission with a HALT file.*",
+  "published_at": "2026-10-30T07:00:00+00:00",
+  "first_seen_at": "2026-10-30T16:18:20.480963+00:00",
+  "content_hash": "sha256:f2cbf85d0bbff8e5d3c1f6c226bd969dcbc83759c13fd33ca5f607d8cac42f9e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5dbc9687fd980303f5d28861662e7df465fa3048cf5767aae500659fe3e8f4d7",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/morph-provider",
+  "canonical_url": "https://docs.litellm.ai/blog/morph-provider",
+  "title": "Morph open-weight models on LiteLLM",
+  "summary": "Use Morph's Kimi, GLM, and DeepSeek models through LiteLLM with tool calling, structured output, streaming, and prompt-cache cost tracking.",
+  "body_markdown": "You can now use Morph's open-weight chat models through LiteLLM, alongside its existing Fast Apply models. Route requests to Kimi K3, GLM-5.3, or DeepSeek V4.1 Flash with the` morph/` prefix and a Morph API key.\n\n\n[Morph](https://www.morphllm.com/) serves these models on an inference stack optimized for code generation. The integration supports tool calling, structured output, reasoning controls, and streaming. Through the LiteLLM AI Gateway, you can manage model access, budgets, and request logs in the same place as your other providers.\n\n\n## Get started​\n\n\nSet` MORPH_API_KEY` in the gateway's environment and add a model to` config.yaml` .\n\n\n```text\nmodel_list  :         -     model_name  :   morph  -  deepseek          litellm_params  :             model  :   morph/morph  -  dsv41flash            api_key  :   os.environ/MORPH_API_KEY\n```\n\n\nYour application can then request` morph-deepseek` through the gateway's` /v1/chat/completions` endpoint. For installation and a complete request example, see the[Morph provider guide](https://docs.litellm.ai/docs/providers/morph) .\n\n\n## Available models​\n\n\nMorph offers Kimi K3 and Kimi K3 Fast, GLM-5.3 and GLM-5.3-Flash, DeepSeek V4.1 Flash and its 1017 version, and DeepSeek V4 Flash 0731. Morph documents a 1M-token context window for these models.\n\n\nDeepSeek V4.1 Flash Abliterated is also available to accounts with[Morph's approval](https://docs.morphllm.com/sdk/components/fast-models#deepseek-uncensored) . The existing` morph-v3-fast` and` morph-v3-large` models remain available for applying code edits.\n\n\n## Prompt caching​\n\n\nMorph caches repeated prompt prefixes automatically. LiteLLM reads the returned token usage and applies the model's cached-input rate. New prefixes cost the normal input rate, with no extra cache-write charge.\n\n\nFor conversations, reuse an` x-session-id` header across turns to improve cache hit rates. Keep stable prompts and tool definitions at the beginning of each request. The provider guide shows how to pass the header and read cached-token counts from streamed responses.\n\n\nSee[Morph's pricing](https://www.morphllm.com/pricing) for rates and the[provider guide](https://docs.litellm.ai/docs/providers/morph) for cache accounting details.",
+  "published_at": "2026-10-27T09:00:00+00:00",
+  "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+  "content_hash": "sha256:52f1ed85ef74929a2e0bd8e63c8f6bf7aafcb8f86bfb27c423804ece42a79336"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f11ad4393c8d10164921d8c5a61612744d78da12a35be3e5adfd4747ba6addc1",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-podman-module-2-0-0-released/138202",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-podman-module-2-0-0-released/138202",
+  "title": "Virtualmin Podman module 2.0.0 released",
+  "summary": "Howdy all, We’ve rolled out Virtualmin Podman 2.0.0 to all Virtualmin repos. Changes since Virtualmin Podman 1.7.1: Add scheduled image update checks, manual updates and version selection in the UI, CLI and remote API Add an option to control each domain owner’s access to container apps Fix failed container updates to restore the original container and settings Fix ignored image-pull settings when creating or updating containers Fix unnecessary restarts and failures to find existing containe...",
+  "body_markdown": "# [Virtualmin Podman module 2.0.0 released](https://forum.virtualmin.com/t/virtualmin-podman-module-2-0-0-released/138202)\n\n\n[News](https://forum.virtualmin.com/c/news/5)\n\n\n[pro-only](https://forum.virtualmin.com/tag/pro-only)\n\n\n[Ilia](https://forum.virtualmin.com/u/Ilia)\n\n\nOctober 22, 2026, 1:11am 1\n\n\nHowdy all,\n\n\nWe’ve rolled out Virtualmin Podman 2.0.0 to all Virtualmin repos.\n\n\nChanges since Virtualmin Podman 1.7.1:\n\n\n- Add scheduled image update checks, manual updates and version selection in the UI, CLI and remote API\n- Add an option to control each domain owner’s access to container apps\n- Fix failed container updates to restore the original container and settings\n- Fix ignored image-pull settings when creating or updating containers\n- Fix unnecessary restarts and failures to find existing containers during updates\n- Fix containers stopping when the root user logs out\n\n\nChanges since Virtualmin Podman 1.7.0:\n\n\n- Add Baserow with private PostgreSQL and Redis services\n- Fix environment variable formatting in recipe instructions\n\n\n---\n\n\nAs always, if you run into any problems, let us know in a *new* topic.\n\n\n4 Likes\n\n\n['Official' way to update podman containers with VM plugin](https://forum.virtualmin.com/t/official-way-to-update-podman-containers-with-vm-plugin/138069/12)",
+  "published_at": "2026-10-22T01:11:17+00:00",
+  "first_seen_at": "2026-10-30T18:27:45.179272+00:00",
+  "content_hash": "sha256:b703ff8eca7c15f056c7e64a4f263e0883f58ab84345a415ac134f8853da5fd1"
+}

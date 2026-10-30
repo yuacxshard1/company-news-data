@@ -63,6 +63,36 @@
     {
       "company_key": "yc-litellm",
       "company_name": "LiteLLM",
+      "doc_id": "5dbc9687fd980303f5d28861662e7df465fa3048cf5767aae500659fe3e8f4d7",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-27T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Use Morph's Kimi, GLM, and DeepSeek models through LiteLLM with tool calling, structured output, streaming, and prompt-cache cost tracking.",
+      "title": "Morph open-weight models on LiteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "632487f7473580dbf21df0b332f5885adeb47ecfe7640b0cdb5ba47aab87f5ca",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-24T19:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Use your OpenCode Go subscription through LiteLLM. Connect once, route models to the right API, preserve sessions, and track estimated usage.",
+      "title": "OpenCode Go is now a LiteLLM provider | liteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "6b437acdb7543dcbcdaf991a84cd86bfdeaa78821be225c06b363d2c76ee1b2a",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Route each agent session to the same vLLM pod on Kubernetes to reuse cached prompt prefixes.",
+      "title": "Cache-Aware Routing for Self-Hosted Models"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
       "doc_id": "6ee84650a0dbfddd2a39785ca868d7c8db3178b3ea1de1cbb3f44796b85a2b21",
       "first_seen_at": "2026-10-07T00:16:14.257035+00:00",
       "published_at": "2026-10-01T09:00:00+00:00",
@@ -79,6 +109,26 @@
       "source_kind": "html",
       "summary": "Claude Haiku 5.5 costs $0.10 per 1M input tokens and $0.50 per 1M output tokens. LiteLLM supports it on day 0 on Anthropic, AWS, Google Cloud and Azure.",
       "title": "Claude Haiku 5.5 API Pricing and Day 0 Support on LiteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "8b8caaaa98ec328d1c2ab7e80c4aa735e3a9020c9fd985c29cc41e1437dc5044",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-26T19:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Call abliterated models from Refuseless and Abliteration through LiteLLM, with gateway access controls, streaming, tool calls, and cached-token pricing.",
+      "title": "Abliterated models on LiteLLM | liteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "8ee4cc04c65761891d9ff30dcc001381d982f409b51b661c4483db92973d9196",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-23T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A recap of the October LiteLLM town hall: security changes that need action before you upgrade, 426 bug fixes, test coverage at 88.4%, the Decisions API, Lens, Moyai, and LiteLLM Relay.",
+      "title": "October Townhall Updates: 426 Bug Fixes, 88.4% Coverage, and the Decisions API"
     },
     {
       "company_key": "yc-litellm",
@@ -109,6 +159,26 @@
       "source_kind": "html",
       "summary": "Gemini 4 Argon costs $2.00 per 1M input tokens and $10.00 per 1M output tokens until Nov 30. LiteLLM supports it on day 0 on AI Studio and Google Cloud.",
       "title": "Gemini 4 Argon API Pricing and Day 0 Support on LiteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "c0d87a66d103e63cf4e0b568dd3824782db3267aea2aed06395712d8b72bfbce",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-26T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "By December 1st, the proxy will handle Anthropic messages requests 20x faster",
+      "title": "Rust Migration: /v1/messages end-to-end in Rust by Dec 1"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "c5fff2517344a106aa8c3418305a4fc3397102b97d6cc3f7ec84d686f58e2a64",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-27T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "LiteLLM is committing to a private registry to provide early access to fixes for the most severe security vulnerabilities, ahead of public release.",
+      "title": "Introducing the LiteLLM Private Registry"
     },
     {
       "company_key": "yc-litellm",
@@ -159,6 +229,46 @@
       "source_kind": "html",
       "summary": "Use Microsoft 365 Copilot from your applications through LiteLLM, with access to your Microsoft 365 work data.",
       "title": "Introducing Microsoft 365 Copilot in LiteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "e9311666bdaca8e43a006694064e978f399eccbade4e5c5c0e836f7546533df2",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-23T20:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Choose token counting for prompt budgets or /tokenize to inspect tokens. Use one request format across vLLM and Watsonx through LiteLLM.",
+      "title": "Tokenize text across vLLM and Watsonx | liteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "eb65483fe781f498e4b54c9e356eeb1fcff4c96e233a255109e264d1583ea749",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-26T12:00:00+00:00",
+      "source_kind": "html",
+      "summary": "GPT-6.1 Terra costs $1 per 1M input tokens and $5 per 1M output tokens, half the price of GPT-6.1 Sol. LiteLLM supports it on day 0.",
+      "title": "GPT-6.1 Terra API Pricing and Day 0 Support on LiteLLM"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "f5b7ba79777170ca2aa75ea076f3841e49a8aef264b428dd29d9d2998523c5d7",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-21T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "LiteLLM release v1.107.0 was compromised by a malicious actor.",
+      "title": "Contained: Oct 21, 2026 LiteLLM release v1.107.0 Compromised"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "f7c4a54afb8a16ebbee4d7714af883ba19c2368db1f3681eb471b87ba660aa25",
+      "first_seen_at": "2026-10-30T21:11:32.756622+00:00",
+      "published_at": "2026-10-23T21:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How an internal key committed to a public repository in May led to three stolen GitHub tokens and the compromised litellm v1.107.0 release.",
+      "title": "The attack chain behind the v1.107.0 LiteLLM release"
     }
   ],
   "company_key": "yc-litellm",

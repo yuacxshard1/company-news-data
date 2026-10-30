@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "66e3e57c153698720dec7c3d4eded785ee260a8f241ec06efb90b285ebe3c2c1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
+  "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
+  "body_markdown": "[Amazon RDS for SQL Server](https://aws.amazon.com/rds/sqlserver/) and[Amazon RDS for Oracle](https://aws.amazon.com/rds/oracle/) now support RDS storage autoscaling on[additional storage volumes](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.ModifyingExisting.AdditionalVolumes.html) . RDS storage autoscaling automatically scales storage capacity in response to growing database workloads, with zero downtime.\n\n\nAdditional storage volumes allow you to add up to three additional volumes to increase your storage capacity up to 256 TiB. Previously, you had to manually provision storage capacity on the additional storage volumes based on anticipated application capacity demands while autoscaling could be enabled on the primary storage volume. Under-provisioning could result in application downtime, and over-provisioning could result in under-utilized resources and higher costs. With RDS storage autoscaling, you simply set your desired maximum storage limit for each additional storage volume, and autoscaling takes care of the rest.\n\n\nRDS storage autoscaling continuously monitors actual storage consumption, and scales capacity up automatically when actual utilization approaches provisioned storage capacity. Autoscaling works with new and existing database instances. Autoscaling has no additional charges and you only pay for the provisioned storage resources. You can enable it by using the AWS Management Console, AWS CLI, or Amazon RDS API.\n\n\nRDS storage autoscaling for additional storage volumes is available for Amazon RDS for SQL Server and Amazon RDS for Oracle in all commercial AWS Regions and the AWS GovCloud (US) Regions. To learn more, please visit the[Amazon RDS storage autoscaling](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.Autoscaling.html) documentation.",
+  "published_at": "2026-10-29T18:06:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:3564b85a54c8f7e95ef3c3d0168f61860151ca1333d4b8b62f00a0b89d6a974f"
+}

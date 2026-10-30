@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7135f516aa0780ec5e29c6ae6d2c86615a4c86ae6563e6d381cda1c1cd0d86be",
+  "company_key": "yc-guide-labs",
+  "company_name": "Guide Labs",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.guidelabs.ai/post/inference/",
+  "canonical_url": "https://www.guidelabs.ai/post/inference/",
+  "title": "Inference for Interpretable Text-Diffusion Models",
+  "summary": "We present the Causal Diffusion Engine (CDE), a serving engine for interpretable diffusion language models.",
+  "body_markdown": "We present the[Causal Diffusion Engine (CDE)](https://github.com/guidelabs/gl_cde) , a serving engine for interpretable diffusion language models. CDE powers[Clarity](https://www.guidelabs.ai/post/meet-clarity/) , our platform for serving[Steerling](https://github.com/guidelabs/steerling) , our 8B-parameter block-causal diffusion LLM that traces any group of generated tokens back to human-understandable concepts, and lets users steer generation through those concepts. Existing production serving engines such as vLLM and SGLang do not treat interpretability as a first-class citizen. CDE delivers low-latency diffusion language model serving while enabling interpretability primitives like concept attributions and steering alongside every generated token. We describe the design decisions that make this possible, including block-causal paged attention with a KV cache, specialized` torch.compile` graphs, memory-efficient concept heads, and request-time concept steering without recompilation.",
+  "published_at": "2026-10-29T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T18:55:57.316595+00:00",
+  "content_hash": "sha256:ed55cb113f5a389e77a84c4480ba6b265b98d90d3c8c694a3be31e19678ac43c"
+}

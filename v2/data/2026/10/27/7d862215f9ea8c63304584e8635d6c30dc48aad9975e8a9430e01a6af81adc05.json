@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7d862215f9ea8c63304584e8635d6c30dc48aad9975e8a9430e01a6af81adc05",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
+  "title": "Amazon Neptune now supports online index rebuild to reclaim storage",
+  "summary": "Discover more about what's new at AWS with Amazon Neptune now supports online index rebuild to reclaim storage",
+  "body_markdown": "[Amazon Neptune](https://aws.amazon.com/neptune/) Database now supports online index rebuild, a new capability that helps database administrators and application teams defragment Neptune indexes and reclaim unused storage space without taking their database offline. Over time, insert, update, and delete operations create gaps of unused space within data pages, keeping the` VolumeBytesUsed` metric artificially elevated even after data is deleted. This fragmentation increases I/O costs and degrades query performance for teams running Gremlin, openCypher, or SPARQL workloads at scale.\n\n\nWith online index rebuild, read and write queries continue uninterrupted on both the writer instance and read replicas throughout the entire rebuild process. You can target all indexes, only quad indexes, or only dictionary indexes, making this feature well-suited for post-deletion cleanup, periodic maintenance, storage limit management, and performance tuning on heavily fragmented databases. Tunable concurrency and write buffer size settings let you balance rebuild speed against workload impact, while built-in storage safety mechanisms protect against storage exhaustion during the operation.\n\n\nOnline index rebuild is available starting with Amazon Neptune engine release 1.5.0.0 on provisioned writer instances, in all regions where Amazon Neptune Database is supported. To learn more about configuring and running online index rebuild, including API references and tuning guidance, visit the[Amazon Neptune documentation](https://docs.aws.amazon.com/neptune/latest/userguide/storage-index-rebuild.html) .",
+  "published_at": "2026-10-27T08:00:00+00:00",
+  "first_seen_at": "2026-10-30T17:10:04.547841+00:00",
+  "content_hash": "sha256:5fb6a9d71fde9921d0af92cc90ef0f04adcdbe76f319816bc10350b79698f324"
+}
