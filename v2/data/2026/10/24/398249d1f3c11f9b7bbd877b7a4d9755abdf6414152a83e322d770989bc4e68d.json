@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "398249d1f3c11f9b7bbd877b7a4d9755abdf6414152a83e322d770989bc4e68d",
+  "company_key": "yc-stacksync",
+  "company_name": "Stacksync",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.stacksync.com/blog/migrate-salesforce-integrations-to-mcp",
+  "canonical_url": "https://www.stacksync.com/blog/migrate-salesforce-integrations-to-mcp",
+  "title": "Should You Move Salesforce Integrations to MCP? A Migration Guide",
+  "summary": "Which Salesforce REST, Bulk and Apex integrations belong on the hosted MCP servers, which should stay put, and how HPI metering changes the decision.",
+  "body_markdown": "## Should you move Salesforce integrations to MCP?\n\n\n**Short answer:** Move the integrations an AI model drives, and leave the rest where they are. MCP gives a model a standard way to discover and call Salesforce tools. A scheduled sync, an ETL job, or a middleware flow doesn't need that: its logic is fixed, it moves more data than MCP allows, and Salesforce says traditional integrations keep their current pricing. Rebuilding one as an agent would put its traffic on the Headless Platform Interaction (HPI) meter.\n\n\n*Based on Salesforce's hosted MCP documentation and its announced metering rules as of October 24, 2026.*",
+  "published_at": "2026-10-24T18:00:00+00:00",
+  "first_seen_at": "2026-10-30T14:19:17.315202+00:00",
+  "content_hash": "sha256:eb366842ddaff834e1518e51979d92b23aa2476be5dae873fb5aee88f78d59f1"
+}

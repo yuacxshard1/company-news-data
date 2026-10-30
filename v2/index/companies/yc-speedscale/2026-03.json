@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
       "published_at": "2026-03-24T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "RBAC and DLP let developers access production data safely—without configuration drift or PII exposure. Here's how to design it right.",
+      "summary": "Give developers production-shaped debugging data with RBAC and DLP. Separate permissions from redaction and verify where sensitive fields are removed.",
       "title": "Production Data Access for Developers: RBAC and DLP"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
       "published_at": "2026-03-09T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Compare WireMock, MockServer, proxymock for enterprise Java API mocking. See how each handles recorded traffic, Kubernetes, CI/CD, AI-generated code.",
+      "summary": "Compare HTTP stubs, request verification, and recorded dependency mocks. Choose WireMock, MockServer, or proxymock for your Java API tests.",
       "title": "WireMock vs MockServer vs proxymock for API testing"
     },
     {
@@ -58,7 +58,7 @@
       "published_at": "2026-03-23T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "Record real LLM traffic from a FastAPI app, mock it locally, and replay it in CI with proxymock.",
-      "title": "FastAPI Testing: Mock LLM APIs for Free"
+      "title": "FastAPI Testing: Mock LLM APIs with Recorded Traffic"
     },
     {
       "company_key": "yc-speedscale",
@@ -137,8 +137,8 @@
       "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
       "published_at": "2026-03-03T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Learn how to capture, inspect, archive encrypted microservice traffic with Speedscale's eBPF collector, no certificate management or code changes required.",
-      "title": "Debugging Encrypted Microservice Traffic with Speedscale's eBPF Collector"
+      "summary": "Inspect encrypted microservice traffic with Speedscale’s eBPF collector. Check TLS support, node permissions, and Java-agent rollout requirements first.",
+      "title": "Capture Encrypted Microservice Traffic with Speedscale eBPF"
     }
   ],
   "company_key": "yc-speedscale",

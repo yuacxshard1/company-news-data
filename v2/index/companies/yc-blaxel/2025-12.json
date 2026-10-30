@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-20T23:20:26.598006+00:00",
       "published_at": "2025-12-03T13:52:12+00:00",
       "source_kind": "rss",
-      "summary": "We improved sandbox performance with OverlayFS and EROFS technologies, cutting memory usage by 75%. Discover how we did it.",
+      "summary": "See how a read-only erofs base with an OverlayFS tmpfs layer cut a Next.js sandbox from 4GB to 1GB, and where the writable layer still costs RAM.",
       "title": "How to slash sandbox memory usage by 75% using OverlayFS"
     },
     {
@@ -147,7 +147,7 @@
       "first_seen_at": "2026-07-20T23:20:26.598006+00:00",
       "published_at": "2025-12-12T18:45:11+00:00",
       "source_kind": "rss",
-      "summary": "Production agents need specialized AI sandboxes for secure code execution. Learn isolation strategies, security benefits, and deployment practices.",
+      "summary": "An AI sandbox isolates code your agent writes at runtime. Learn the threats it stops and how microVMs, containers, and gVisor compare.",
       "title": "What is an AI sandbox and why should you use one?"
     },
     {

@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-06-17T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "When an HTTP/1.x request reaches a grpcpass location, NGINX forwards client request headers by default. Before the fix, ngxhttpgrpccreaterequest() sized…",
+      "summary": "High NGINX vulnerability, CVSS 8.1, found by winfunc's AI agent. When an HTTP/1.x request reaches a grpc_pass location, NGINX forwards client request headers…",
       "title": "gRPC forwarded headers can overflow the upstream HPACK request buffer (CVE-2026-42055)"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-06-17T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "When proxyhttpversion 2 sends a request to an HTTP/2 upstream, ngxhttpproxyv2createrequest() builds an HPACK-compressed request header block. Before the…",
+      "summary": "High NGINX vulnerability, CVSS 8.1, found by winfunc's AI agent. When proxy_http_version 2 sends a request to an HTTP/2 upstream…",
       "title": "HTTP/2 upstream proxy request encoder permits heap overflow with oversized raw headers (CVE-2026-42055)"
     }
   ],

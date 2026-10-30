@@ -13,5 +13,5 @@
   "body_markdown": "Three requests kept coming up:\n\n\n### One collection per customer.\n\n\nIf you run retrieval for many end clients, each client's data belongs in its own collection: separate indexes and separate deletes. Standing up client number forty used to mean re-indexing a shared corpus for the fortieth time. Now you can index the base corpus once, then easily copy it per client.\n\n\n### Staging copies.\n\n\nSometimes a collection needs to branch. Production stays on the settings your users depend on while a copy absorbs the change you're not sure about yet: a different parsing configuration, a new chunk relationship setup, a different PII masking policy. Test against the copy with real data, and when the branch proves out, cut over. When it drifts too far, you can delete it and copy again.\n\n\n### Experiments.\n\n\nSnapshot a collection before a risky change. If the experiment fails, delete the copy and the original is untouched.",
   "published_at": "2026-08-18T00:00:00+00:00",
   "first_seen_at": "2026-08-22T07:43:22.060248+00:00",
-  "content_hash": "sha256:dc463ac312e0d21bcbe4c9b0e8aec960fba0e2ff02b0ecbc70b70436e9d31a3e"
+  "content_hash": "sha256:491245a81be29bf50e126b3ec561fb501b8e080430893a4a771aefea3f26ee38"
 }

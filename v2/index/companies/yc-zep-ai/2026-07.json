@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
       "published_at": "2026-07-14T20:05:25+00:00",
       "source_kind": "rss",
-      "summary": "Agent memory is synthesized: an LLM derives facts from chat histories, documents, and business data. A derived fact matches no source word-for-word, so nothing ties it back to where it came from. Zep records that lineage; debugging, source-scoped retrieval, and compliance all depend on it.",
+      "summary": "An LLM synthesizes facts from many sources, erasing the source trail. How Zep tracks provenance in agent memory so every fact is traceable.",
       "title": "How Zep tracks provenance in agent memory"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-31T17:16:53.377960+00:00",
       "published_at": "2026-07-30T20:18:57+00:00",
       "source_kind": "rss",
-      "summary": "One plugin for Claude Code, Codex, and Cursor. Your coding agent designs the Zep implementation, then writes it.",
+      "summary": "Zep's plugin for Claude Code, Codex, and Cursor gives your coding agent a skill for designing agent memory implementations, plus live docs search.",
       "title": "Coding agents can design your Zep implementation"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-24T08:02:00.467869+00:00",
       "published_at": "2026-07-16T16:00:32+00:00",
       "source_kind": "rss",
-      "summary": "Zep's graph retrieval starts from entrypoints selected by semantic and BM25 search, so embedding recall bounds everything downstream. We benchmarked NVIDIA's Nemotron 3 Embed 1B, released today, on 5,954 production recall queries: first place against our production incumbent and two other models.",
+      "summary": "NVIDIA Nemotron 3 Embed 1B took first place on every task in Zep's agent memory recall benchmark of 5,954 production queries.",
       "title": "Evaluating Nemotron 3 Embed for agent memory"
     }
   ],

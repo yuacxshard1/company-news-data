@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-24T04:14:45.918392+00:00",
       "published_at": "2026-06-16T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "I built an internal agent to clean up our CRM. It worked great — until a friend asked me what it was actually authorized to do. When I went and looked, I realized I had handed an autonomous process admin credentials with no expiry, no scoping, and no audit log. This is that story, written down plainly.",
+      "summary": "I built an agent to clean up our CRM, then found it held admin credentials with no expiry, no scoping, and no audit log. What it had, and what good looks like.",
       "title": "What I actually handed the agent"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-24T04:14:45.918392+00:00",
       "published_at": "2026-06-19T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "There is no meeting where someone decides to build an internal AI platform. It just accretes, one reasonable decision at a time, until eighteen months later you have thirty-five thousand lines of glue code, one person who understands it, and no documentation. Here is how that happens, and why the fix is not writing better glue.",
+      "summary": "Internal AI platforms are rarely planned. They accrete into glue code that one person understands. How that happens, and why the fix is not writing better glue.",
       "title": "AI infrastructure accumulates"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-24T04:14:45.918392+00:00",
       "published_at": "2026-06-10T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "AI agents are starting to touch real company systems, which means security cannot be something added later. This is how we think about isolation, key control, and the protocol layer at Metorial.",
+      "summary": "AI agents now touch real company systems, so security can't come later. How Metorial handles isolating each interaction, key control, and the protocol layer.",
       "title": "Security has to come first"
     }
   ],

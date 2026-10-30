@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "166fa8cb5dee425fea31bc6187248f3f4b83f2605a02d9be7bcfbaacec6ded3e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/is-n8n-gdpr-compliant-cloud-vs-self-hosted-setup",
+  "canonical_url": "https://www.activepieces.com/blog/is-n8n-gdpr-compliant-cloud-vs-self-hosted-setup",
+  "title": "Is n8n GDPR Compliant? Cloud vs Self-Hosted Setup",
+  "summary": "n8n GDPR setup differs by deployment. Cloud offers a DPA and EU hosting; self-hosted requires your own controls since n8n never accesses your data.",
+  "body_markdown": "## Five Stages to a Defensible n8n GDPR Setup\n\n\nChoose hosting, sign the data processing agreement, lock access, limit stored data, then test erasure on a test subject. Each stage assumes you've finished the one before it.\n\n\nBecause erasure is the only stage that proves the other four worked, it comes last. The numbered sequence below sets that order. Stage 1 decides how much of the remaining work lands on you.\n\n\nSix times the price buys twenty times the allowance. At Stage 1, n8n Cloud costs 20 € per month for Starter at 2.5K executions, 50 € for Pro-1 at 10K, and 120 € for Pro-2 at 50K. Volume, not compliance, drives the bill.\n\n\nOn paper, self-hosting in the EU is cheaper. A[Hetzner](https://dev.to/syednoor760dev/how-to-self-host-n8n-on-hetzner-for-under-20month-noorflows-11d6) CX21 is 4.2 € per month, a CX22 is 4.51 €, and a CX23 is 5.49 €.\n\n\nAdding a Storage Box brings the CX22 to 7.71 €, and Borg backup brings it to 8.32 €. The author's full production setup is 18 €. Even at 18 €, the server is the small line item: patching, backups and the controller duties are yours.\n\n\n### Signing, access, retention and erasure\n\n\nStage 2: request the agreement, then read its sub-processor list before signing. Every processor named there is a party that can touch your personal data. Self-hosting removes n8n from that chain but not your database host or backup provider, so those need agreements too.\n\n\nStage 3: check which plan includes SSO and roles before you buy, because n8n gates access control by tier. Give each workflow its own credentials, scoped to the narrowest permission the node needs. A leaked token then exposes one system, not all of them.\n\n\nStage 4: execution logs hold the personal data your workflows processed. Set` EXECUTIONS_DATA_PRUNE=true` and set` EXECUTIONS_DATA_MAX_AGE` , which is counted in hours. Pick a value you can defend as your retention period, since anything older is data you no longer have a purpose for.\n\n\nStage 5: create a test subject, push them through a live workflow, then erase them. Search executions, credentials, backups and downstream tools for any trace. Backups are the usual survivor, and finding one now is cheaper than finding it in a regulator's request.",
+  "published_at": "2026-10-19T08:30:09+00:00",
+  "first_seen_at": "2026-10-19T12:23:56.560052+00:00",
+  "content_hash": "sha256:3f2425005597d376d290559cf261882fb87f1d3dfe1d223bb7b2c02ecbe80054"
+}

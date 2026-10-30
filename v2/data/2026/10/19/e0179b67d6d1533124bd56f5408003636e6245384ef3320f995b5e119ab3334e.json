@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e0179b67d6d1533124bd56f5408003636e6245384ef3320f995b5e119ab3334e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gemini-4-argon-benchmarks-pricing-and-availability",
+  "canonical_url": "https://www.activepieces.com/blog/gemini-4-argon-benchmarks-pricing-and-availability",
+  "title": "Gemini 4 Argon: Benchmarks, Pricing and Availability",
+  "summary": "Gemini 4 Argon is Google's new reasoning model for solving complex problems. You can access it through developer platforms to enhance automation workflows.",
+  "body_markdown": "## What Activepieces shipped for Gemini 4 Argon\n\n\nI found no[Activepieces](https://www.activepieces.com/pieces/google-gemini) release specific to Gemini 4 Argon, so there's no ship date or link to give. The price and speed checks still have to come from your own test.\n\n\nI won't infer a date from the model's launch, because Activepieces has confirmed nothing Argon-specific.\n\n\nThat matters less than it sounds, since Activepieces doesn't sell you a model: you choose the model, and you can bring your own provider key so the spend lands on your own bill.\n\n\nArgon's cost then lands on your provider account at your rate, with no markup folded into a bundled plan, and the choice of model stays yours instead of being made for you.\n\n\nThe pricing page lists which tiers allow bringing your own key, and that rate is the one to set beside what a reseller charges.\n\n\n### Calling it from a workflow step\n\n\nI can stand behind one route: an HTTP request step that calls Google's API with Argon as the model. Before building it, settle who owns the connection: the API key should belong to a project or service account your team controls, not a personal login.\n\n\nThat way the flow doesn't stop when one person leaves. Store the key as a connection, not in the step body.\n\n\nThen run the same prompt you use today against both models and record price and latency per call, which are the two figures you couldn't read from Google's pages.\n\n\n### Sending Gemini 4 Argon output to your apps\n\n\nWhatever the model returns can be passed to any later step, and the step picker is where you choose the destination.\n\n\nSearched for \"sheet\", the panel below lists spreadsheet integrations such as Google Sheets and Microsoft Excel 365, which suits a comparison log with one row per test call.\n\n\nEach integration asks for its own connection, so check which account owns it and what it can write to before you switch the flow on.",
+  "published_at": "2026-10-19T09:38:34+00:00",
+  "first_seen_at": "2026-10-18T11:15:37.354718+00:00",
+  "content_hash": "sha256:a5e72e538f25e7c7f5a2451a6815f36f7f7ec29cbb2bbe6a42e37846ecd6a17e"
+}

@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
       "published_at": "2026-01-16T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "When discussing the process of testing an API, one of the most common sets of terms you might encounter are \"mocks\" and \"stubs.",
+      "summary": "A stub supplies responses; a mock verifies interactions. Compare both with runnable Python examples and learn when API traffic mocks help.",
       "title": "Mock vs stub: differences and testing examples"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
       "published_at": "2026-01-28T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "_Go_, often referred to as _Golang_, is a popular programming language built by Google. Its design and structure help you write efficient, reliable...",
+      "summary": "Test Go handlers and clients with httptest. Choose recorders, local HTTP servers, and TLS test clients, and define database boundaries explicitly.",
       "title": "Testing Golang with httptest Best Practices"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
       "published_at": "2026-01-29T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "GoMock is a powerful tool for generating mock objects in Go, making it an essential asset for developers aiming to write advanced unit tests.",
+      "summary": "Use GoMock with small Go interfaces, pinned mock generation, and runnable tests. Learn when an HTTP test server or real dependency check is needed.",
       "title": "How to Get Started with GoMock Playbook"
     },
     {
@@ -107,7 +107,7 @@
       "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
       "published_at": "2026-01-30T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Measuring throughput and latency is a critical step in load testing software to ensure application performance and stability. In this article...",
+      "summary": "Measure throughput with defined transaction boundaries, sustainable load stages, latency and error goals, and enough load-generator capacity.",
       "title": "Determine Throughput Performance Testing"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-20T23:20:41.172985+00:00",
       "published_at": "2026-01-27T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "APIs are the backbone of modern software and enable different systems and applications to communicate seamlessly.",
+      "summary": "Compare Kubernetes traffic capture tools, TLS visibility, setup permissions, and replay options. Choose packet inspection or decoded application traffic.",
       "title": "How to Capture Network Traffic in Kubernetes"
     }
   ],

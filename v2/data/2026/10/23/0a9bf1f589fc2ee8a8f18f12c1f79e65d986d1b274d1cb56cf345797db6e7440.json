@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0a9bf1f589fc2ee8a8f18f12c1f79e65d986d1b274d1cb56cf345797db6e7440",
+  "company_key": "yc-unlayer",
+  "company_name": "Unlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.unlayer.com/changelog/node-js-security-update-october-2026-3RZzB6rU",
+  "canonical_url": "https://docs.unlayer.com/changelog/node-js-security-update-october-2026-3RZzB6rU",
+  "title": "Node.js security update (October 2026)",
+  "summary": "On October 21, Node.js released security updates for the 22.x, 24.x and 26.x lines. The most serious issue is CVE-2026-111497, a high-severity flaw in the Brotli decoder that could allow remote code execution. On October 22 we upgraded Unla",
+  "body_markdown": "On October 21, Node.js released security updates for the 22.x, 24.x and 26.x lines. The most serious issue is CVE-2026-111497, a high-severity flaw in the Brotli decoder that could allow remote code execution. On October 22 we upgraded Unlayer’s API, export and image proxy services to Node.js 24.22.1, which includes the fixes. No changes are needed in your Unlayer integration. If you run Unlayer packages such as Elements or the CLI on your own servers, update Node.js there to 22.23.4, 24.22.1, 26.12.1 or later.",
+  "published_at": "2026-10-23T14:00:00+00:00",
+  "first_seen_at": "2026-10-30T15:20:23.789199+00:00",
+  "content_hash": "sha256:5005db8732e9433cda2b0dc208b3c4dcd753c6cfc6834bcb21093d9bafff190e"
+}

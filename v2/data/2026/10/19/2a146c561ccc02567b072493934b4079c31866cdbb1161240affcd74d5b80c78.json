@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2a146c561ccc02567b072493934b4079c31866cdbb1161240affcd74d5b80c78",
+  "company_key": "n-able-inc-common-stock",
+  "company_name": "N-able Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.n-able.com/blog/suspected-connectwise-cloud-backup-security-event-what-we-know-and-how-n-able-is-responding",
+  "canonical_url": "https://www.n-able.com/blog/suspected-connectwise-cloud-backup-security-event-what-we-know-and-how-n-able-is-responding",
+  "title": "Suspected ConnectWise Cloud Backup security event: What we know and how N-able is responding",
+  "summary": "N-able’s Adlumin MDR and Nightscope Threat Research teams reviewed indicators along with the tactics, techniques, and procedures and are monitoring for potential impact while providing guidance to customers and partners.",
+  "body_markdown": "Beginning on Friday, October 16, 2026, N-able’s Adlumin MDR and Nightscope Threat Research teams have been tracking the now-confirmed compromise affecting the ConnectWise/SkyKick Cloud Backup app for Microsoft 365.\n\n\n## What we’ve done\n\n\nOn Friday, we engaged in a proactive hunt to identify Adlumin partners and customers who are using this M365 app and have performed outreach if indicators associated with this event.\n\n\nN-able’s[Adlumin MDR](https://www.n-able.com/products/adlumin/mdr) and[Nightscope Threat Research](https://www.n-able.com/company/nightscope-threat-research) teams have constructed detection logic that will alert on future abuse of the ConnectWise/SkyKick Cloud Backup application in M365 using documented adversary techniques. This detection is titled “Presumed SkyKick/ConnectWise Cloud Backup Compromise”.\n\n\nThis detection has been and will continue to be updated to reflect additional findings as they become known.\n\n\nOur MDR Security Operations Center analysts have also engaged in detailed threat hunt activities, turning adversary tactics, techniques, and procedures into actionable findings where applicable. These are being communicated through Adlumin SOC cases.\n\n\n## Background\n\n\nConnectWise first identified the issue on their[official status pages](https://status.connectwise.com/) on Friday, October 16, 2026, publishing a source IP address and two observed user agent strings believed to be in use by the adversary. ConnectWise has reported a security incident affecting its Cloud Backup service, formerly known as SkyKick. Many organizations use it to back up Microsoft 365.\n\n\nConnectWise has suspended Cloud Backup while it investigates. It has also paused its SaaS Security and Cloud Management services. Scheduled backups, archive access, and restores are unavailable, and there is no restoration date yet. ConnectWise says existing backup archives remain encrypted and isolated, and it has no evidence they were accessed.\n\n\n## Threat Observables\n\n\nIPv4 Addresses observed in Entra Sign-in Logs:\n\n\n- 144.172.64\\[.\\]128\n- 144.172.64\\[.\\]60\n- 144.172.64\\[.\\]99\n\n\nUser agent strings for initial sign-in activity:\n\n\n- python-requests\\\\/2.34.2\n- python-urllib\\\\/3.12\n- python-requests\\\\/2.31",
+  "published_at": "2026-10-19T21:59:52+00:00",
+  "first_seen_at": "2026-10-30T15:14:45.036488+00:00",
+  "content_hash": "sha256:6308d63e7ba505e2b181b90479e83982ee29b48004cb10ae951033e72ce5db93"
+}

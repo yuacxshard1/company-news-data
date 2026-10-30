@@ -13,5 +13,5 @@
   "body_markdown": "Not directly — the systems measure different things. Bolt tokens track raw LLM input/output tokens, which scale with file system size and prompt complexity. One Bolt Pro month includes 10M tokens. Tools like Lovable, Blink, Base44, and Emergent use \"credits\" or \"messages\" that correspond to complete generations, regardless of underlying token count. For small projects, Bolt's free 1M tokens/mo is more generous than competitors' free tiers. For large projects where file system overhead is high, credits-per-generation pricing can be more predictable.",
   "published_at": "2026-10-08T12:51:45+00:00",
   "first_seen_at": "2026-07-24T19:35:33.186925+00:00",
-  "content_hash": "sha256:6f120b81e6b8f31cefaa955d4b0ed2641235d49b7337c4afb9e8c90e7f95ff0a"
+  "content_hash": "sha256:2f01e7aa06f202515668348faf4dc4da095b31a4b957a4cb710b73ef4e0e41b6"
 }

@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-20T23:20:42.602972+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "OpenTelemetry tracing: how the tracing signal works (tracers, spans, context propagation, samplers, exporters) and how to send traces over OTLP to SigNoz.",
+      "summary": "OpenTelemetry distributed tracing records a request's full path across services as spans. Learn how traces, context propagation, sampling, and the export pipeline work.",
       "title": "Complete guide to OpenTelemetry Tracing (with code examples)"
     },
     {
@@ -201,6 +201,16 @@
       "title": "Scorpio Tankers Inc. Announces Redemption of Nordic Bonds and a New Credit Facility"
     },
     {
+      "company_key": "yc-superside",
+      "company_name": "Superside",
+      "doc_id": "04e0a4e1d1977c094f7cc5001a4f44c00c44636d36c103c50bab4057cb425fa4",
+      "first_seen_at": "2026-07-26T02:26:58.440536+00:00",
+      "published_at": "2026-07-01T15:39:00+00:00",
+      "source_kind": "html",
+      "summary": "Master how to brief AI creative tools to get more accurate, on-brand results with a practical framework and real prompt examples.",
+      "title": "How to brief AI creative tools, a framework for marketing teams"
+    },
+    {
       "company_key": "starbucks-corporation-common-stock",
       "company_name": "Starbucks Corporation",
       "doc_id": "050ab09311c9fcab5da20ddae0412fc65b2fb3a8beba350847e33abdcaa7ce37",
@@ -299,16 +309,6 @@
       "source_kind": "rss",
       "summary": "SiriusPoint has today announced the appointment of Mark Aspinall as Head of its new Fine Art & Specie team, effective January 2027. Mark will be based in London and will report to Global Head of Marine, Chris Fenn. He will be responsible for establishing SiriusPoint’s new Fine Art & Specie offering and building a disciplined […]",
       "title": "SiriusPoint Launches Fine Art & Specie Offering with Appointment of Mark Aspinall"
-    },
-    {
-      "company_key": "agnc-investment-corp-common-stock",
-      "company_name": "AGNC Investment Corp.",
-      "doc_id": "07b1df50d607566dc45de7f8a94dcdf2646ce211db8a2f159660c90126703446",
-      "first_seen_at": "2026-07-20T04:35:45.910117+00:00",
-      "published_at": "2026-07-01T03:21:00+00:00",
-      "source_kind": "rss",
-      "summary": "Agency MBS assets benefit from compelling fundamentals & favorable attributes that make them critical building blocks of any portfolio.",
-      "title": "Why Agency MBS: Market Snapshot"
     },
     {
       "company_key": "palo-alto-networks-inc-common-stock",
@@ -527,7 +527,7 @@
       "first_seen_at": "2026-07-29T20:32:06.056249+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Best practices for deploying AI voice agents in freight: start low-risk, script for facts not conversation, and measure before scaling. By Hemut.",
+      "summary": "AI voice agents automate freight calls, capture shipment updates, integrate with TMS platforms, and reduce manual work across dispatch operations.",
       "title": "AI Voice Agent Best Practices for Freight Teams"
     },
     {
@@ -1394,7 +1394,7 @@
       "company_key": "microsoft-corporation-common-stock",
       "company_name": "Microsoft Corporation",
       "doc_id": "2e2d71739d5417c9524148e2f751b589c924e79c4e9621ef542ff7f5765d678f",
-      "first_seen_at": "2026-07-20T04:34:25.944233+00:00",
+      "first_seen_at": "2026-07-20T03:30:04.890532+00:00",
       "published_at": "2026-07-01T14:31:55+00:00",
       "source_kind": "rss",
       "summary": "This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series",
@@ -1417,7 +1417,7 @@
       "first_seen_at": "2026-07-24T03:59:01.376806+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "The best screen recorders and screen recording software in 2026, compared on pricing, platforms, recording limits, built-in editing, and hosting — Tella, OBS, Loom, ScreenRec, Screencastify, Screen Studio, Cap, Camtasia, Bandicam, and ScreenPal.",
+      "summary": "The best screen recorders in 2026, compared: Tella, OBS, Loom, Screen Studio, and 6 more. We compared pricing, platforms, recording limits, editing, and hosting.",
       "title": "10 Best Screen Recorders in 2026: Free & Paid Software Compared"
     },
     {
@@ -2177,7 +2177,7 @@
       "first_seen_at": "2026-07-20T23:21:24.634053+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Wasp's spec is just a TypeScript program, so file-based routing isn't a framework feature you wait for — it's under 50 lines of code you own. Here's how to build one with the exact conventions you want.",
+      "summary": "Build a file-based router for Wasp in under 50 lines of TypeScript: page.tsx routes, route groups, auth and prerender folders, dynamic segments.",
       "title": "Roll your own file-based router in under 50 lines of code"
     },
     {
@@ -2477,7 +2477,7 @@
       "first_seen_at": "2026-07-22T01:53:16.367078+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "The best agent observability platforms of 2026, compared with screenshots: Laminar, Langfuse, LangSmith, Phoenix, Weave, Braintrust. Pick one in 5 minutes.",
+      "summary": "Seven AI agent and LLM observability tools compared: Laminar, Langfuse, LangSmith, Braintrust, Phoenix, Datadog and Opik on pricing, OTel and self-hosting.",
       "title": "Top 6 Agent Observability Platforms (2026): A Developer's Ranking"
     },
     {
@@ -2574,7 +2574,7 @@
       "company_key": "plexus-corp-common-stock",
       "company_name": "Plexus Corp.",
       "doc_id": "57656e2e9491c9a78576678a2cedae839ad193b1c3014cc856995dbf4fa34fb4",
-      "first_seen_at": "2026-07-20T03:33:10.244764+00:00",
+      "first_seen_at": "2026-07-20T03:31:34.974023+00:00",
       "published_at": "2026-07-01T19:21:12+00:00",
       "source_kind": "rss",
       "summary": "Stop product failures & delays. See how Plexus de-risks your complex electronic product journey, from design and development to NPI, with a single integrated partner.",
@@ -2887,7 +2887,7 @@
       "first_seen_at": "2026-07-20T04:36:06.190528+00:00",
       "published_at": "2026-07-01T20:39:17+00:00",
       "source_kind": "rss",
-      "summary": "Guardian Pharmacy Services Expands Virginia Footprint with Acquisition of Wellness Concepts Guardian Pharmacy Services has expanded its presence in Virginia through the acquisition of Wellness Concepts, a long-term care pharmacy based in Grottoes, Va. The addition expands Guardian's footprint to three pharmacies serving Northern, Southwest, and Central Virginia, strengthening the company's ability to support the",
+      "summary": "Guardian Pharmacy Services has expanded its presence in Virginia through the acquisition of Wellness Concepts, a long-term care pharmacy based in Grottoes, Va. The addition expands Guardian's footprint to three pharmacies serving Northern, Southwest, and Central Virginia, strengthening the company's ability to support the growing demand for long-term care pharmacy services across the state. Founded",
       "title": "Guardian Pharmacy Services Expands Virginia Footprint with Acquisition of Wellness Concepts"
     },
     {
@@ -3231,6 +3231,16 @@
       "title": "Introducing Webhooks AutoConfig"
     },
     {
+      "company_key": "yc-lofty",
+      "company_name": "Lofty",
+      "doc_id": "684fbd6502fc48d443b646f6d3c437bbf352c5438f3766090eb4032f12c2755f",
+      "first_seen_at": "2026-10-30T14:17:50.629529+00:00",
+      "published_at": "2026-07-01T15:07:10.370+00:00",
+      "source_kind": "html",
+      "summary": "Guides, market insights, and tips for fractional real estate investors.",
+      "title": "Fractional Ownership for Financial Freedom: Guide"
+    },
+    {
       "company_key": "yc-awesomic",
       "company_name": "Awesomic",
       "doc_id": "68ffdc111fd6c484cef22cd34d22bd62c651907469e9e05a54c44f275547f4c1",
@@ -3524,7 +3534,7 @@
       "company_key": "aci-worldwide-inc-common-stock",
       "company_name": "ACI Worldwide Inc.",
       "doc_id": "71a611a2366887ce727703970b2298f6c1ad6a69f15a62469a62fc047159ce33",
-      "first_seen_at": "2026-08-01T01:24:59.007457+00:00",
+      "first_seen_at": "2026-07-20T03:32:54.704728+00:00",
       "published_at": "2026-07-01T20:02:13+00:00",
       "source_kind": "rss",
       "summary": "Learn how to implement APMs without hurting conversion. Discover data‑driven tips to reduce friction, manage risk, and optimize checkout performance.",
@@ -3567,7 +3577,7 @@
       "first_seen_at": "2026-07-24T11:24:44.102319+00:00",
       "published_at": "2026-07-01T16:43:53+00:00",
       "source_kind": "rss",
-      "summary": "🏆 Summer 2026 G2 Results: A record 88 badges, but this one belongs to our users! Mixpanel just brought home a record-breaking 88 G2 badges across Product, Ecommerce, Mobile App, and Digital Analytics. Seeing our name at the top of the charts as a global Momentum Leader is incredible, but holding onto #1 in Mid-Market Usability for the third quarter in a row is what we care about most. It means we're building a product that helps teams move fast, answer questions, and actually enjoy the process. None of these grids, badges, or reports exist without you. To everyone who took the time to write a review, share feedback, or detail a workflow: Thank you. This is a win we share with you- thank you for your support and sharing your journey.. • 💡Haven't shared your Mixpanel story on G2 yet? We’d love to hear how you're using it. Drop a quick review by clicking here (https://www.g2.com/contributor/mixpanel-nps-csat-25-c23bd566-0478-4694-ba93-2ca1e8db25d0?secure%5Bpage_id%5D=mixpanel-nps-csat-25-c23bd566-0478-4694-ba93-2ca1e8db25d0&secure%5Brewards%5D=true&secure%5Btoken%5D=b3c0864e52898e30b9fdba0d7f5d0ddec275c03cea59ebd9e4ef6e80465686f5). 👉 Read the full market breakdown on our blog here (https://mixpanel.com/blog/g2-badges-summer-2026/)",
+      "summary": "🏆 Summer 2026 G2 Results: A record 88 badges, but this one belongs to our users!",
       "title": "Summer 2026 G2 Results: Mixpanel Wins 88 Badges, #1 in Mid-Market Usability for Third Quarter"
     },
     {
@@ -4144,7 +4154,7 @@
       "company_key": "datadog-inc-class-a-common-stock",
       "company_name": "Datadog Inc.",
       "doc_id": "82508ada0cac4ee1e7d123f4ca12590b7fc764b1bff51371848c3ac708657bf8",
-      "first_seen_at": "2026-07-20T03:32:32.081856+00:00",
+      "first_seen_at": "2026-07-25T01:09:56.516023+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "Learn how Datadog helps ensure data completeness at scale, enabling accurate alerts and safer automated decisions across distributed pipelines.",
@@ -4359,16 +4369,6 @@
       "source_kind": "rss",
       "summary": "The Investor Relations website contains information about Portland General Electric Company's business for stockholders, potential investors, and financial analysts.",
       "title": "Portland General Electric schedules earnings release and conference call for Friday, July 31"
-    },
-    {
-      "company_key": "agnc-investment-corp-common-stock",
-      "company_name": "AGNC Investment Corp.",
-      "doc_id": "8992004360122b644dde6a5c0f914de6802c095cb6027ccee5f8b68037424adf",
-      "first_seen_at": "2026-07-20T04:35:45.910117+00:00",
-      "published_at": "2026-07-01T03:23:00+00:00",
-      "source_kind": "rss",
-      "summary": "The post AGNC at a Glance: Get to Know the Premier Agency Mortgage REIT appeared first on AGNC .",
-      "title": "AGNC at a Glance: Get to Know the Premier Agency Mortgage REIT"
     },
     {
       "company_key": "abeona-therapeutics-inc-common-stock",
@@ -4677,7 +4677,7 @@
       "first_seen_at": "2026-07-27T00:23:47.994959+00:00",
       "published_at": "2026-07-01T12:30:00+00:00",
       "source_kind": "rss",
-      "summary": "Capri Holdings Limited (NYSE:CPRI), a global fashion luxury group, today announced that John D. Idol, Chairman and Chief Executive Officer, and Tyler Reddien, Chief Financial and Chief Operating Officer, will be participating in a fireside chat at Bernstein Insights: 2nd Annual Retail Forum, held at Bernstein’s Office in New York City, on Wednesday, July 8, 2026, at 9:40 AM Eastern Time. The event will be webcast live on the Company's Investor Relations website, www.capriholdings.com . An archived replay will be available following the conclusion of the live event. About Capri Holdings Limited Capri Holdings is a global fashion luxury group consisting of iconic brands Michael Kors and Jimmy Choo. Our commitment to creativity, fashion, style and craftsmanship is at the heart of each of our luxury brands. We have built our reputation on designing exceptional, innovative products that cover the full spectrum of fashion luxury categories. Our strength lies in the unique DNA and heritage",
+      "summary": "Capri Holdings Limited (NYSE:CPRI), a global fashion luxury group, today announced that John D. Idol, Chairman and Chief Executive Officer, and Tyler Reddien, Chief Financial and Chief Operating Officer, will be participating in a fireside chat at Bernstein Insights: 2nd Annual Retail Forum, held at Bernstein’s Office in New York City, on Wednesday, July 8, 2026, at 9:40 AM Eastern Time. The event will be webcast live on the Company's Investor Relations website, www.capriholdings.com . An archiv",
       "title": "Capri Holdings Limited Announces Participation in Bernstein Insights: 2nd Annual Retail Forum"
     },
     {
@@ -5287,7 +5287,7 @@
       "first_seen_at": "2026-07-29T20:32:06.056249+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "See exactly where AI voice agents and a modern TMS deliver real ROI in freight operations: fewer calls, faster cycles, proven results. By Hemut.",
+      "summary": "AI voice agents automate freight calls, capture shipment updates, integrate with TMS platforms, and reduce manual work across dispatch operations.",
       "title": "Freight Operations in 2026: Where AI Voice Agents and Modern TMS Actually Pay Off"
     },
     {
@@ -5327,7 +5327,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-07-01T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Inventory and registry aren't rival terms fighting over one meaning. They're sequential records, and one has to feed the other before either is useful.",
+      "summary": "Two records, two jobs, and one system that cannot do both. How each gets populated, what the shipping tools actually collect, and the reconciliation query that tells you how much of your estate is ungoverned.",
       "title": "Agent Registry vs. Agent Inventory"
     },
     {
@@ -6317,7 +6317,7 @@
       "first_seen_at": "2026-07-25T09:48:34.200968+00:00",
       "published_at": "2026-07-01T12:15:13+00:00",
       "source_kind": "rss",
-      "summary": "Company establishes dedicated growth initiative to help employers reach candidate audiences before they enter traditional recruiting funnels. LITTLE ROCK, Ark., July 01, 2026 (GLOBE NEWSWIRE) — Inuvo, Inc. (NYSE American:...",
+      "summary": "Company establishes dedicated growth initiative to help employers reach candidate audiences before they enter traditional recruiting funnels. LITTLE",
       "title": "Inuvo Expands IntentKey Signal Intelligence into Workforce Recruitment Marketing"
     },
     {
@@ -6817,7 +6817,7 @@
       "first_seen_at": "2026-07-20T23:24:07.011731+00:00",
       "published_at": "2026-07-01T11:22:29+00:00",
       "source_kind": "rss",
-      "summary": "Best mobile games like Stardew Valley that focus on characters and story, not farming. 4 picks for iOS & Android players who want cozy RPG and character depth",
+      "summary": "Mobile games like Stardew Valley for Android and iPhone, focused on characters and story, not farming. 4 picks with prices re-checked October 2026.",
       "title": "Best Mobile Games Like Stardew Valley With No Farming 2026"
     },
     {
@@ -6919,6 +6919,16 @@
       "source_kind": "rss",
       "summary": "Today, DICK'S Sporting Goods (NYSE: DKS) announced multiple enhancements to its ScoreCard Loyalty Program, including the introduction of ScoreCard+, a new paid membership tier that offers athletes a chance to earn over $350 in benefits* as they work toward their personal best, gear up for the youth sports season, or find new ways to celebrate their sports fandom. ScoreCard+ – A New Paid Tier to Fuel Athletes' Dreams Starting on July 1, athletes everywhere can join ScoreCard+ for an annual fee of",
       "title": "DICK'S Sporting Goods is Enhancing Its ScoreCard Loyalty Program and Launching ScoreCard+, Providing Athletes with New Ways to Earn Rewards"
+    },
+    {
+      "company_key": "yc-superside",
+      "company_name": "Superside",
+      "doc_id": "e1cc9eb271bd9d4f66ff660c358011b87d9a227f406ccc92531132ba02783981",
+      "first_seen_at": "2026-07-26T02:26:58.440536+00:00",
+      "published_at": "2026-07-01T15:37:00+00:00",
+      "source_kind": "html",
+      "summary": "Master your AI creative review workflow with a proven 10-step process to improve quality, reduce risk and keep AI creative on-brand.",
+      "title": "10 steps to build a creative review workflow for AI creative"
     },
     {
       "company_key": "yc-alguna",
@@ -7564,7 +7574,7 @@
       "company_key": "telephone-and-data-systems-inc-common-shares",
       "company_name": "Telephone and Data Systems Inc. Common Shares",
       "doc_id": "f3a37719489b59ab98ddf9662f4615f0a8a4cf93444fad60ac83a75a1ab7a7e7",
-      "first_seen_at": "2026-07-26T01:45:03.959761+00:00",
+      "first_seen_at": "2026-07-26T01:45:04.136394+00:00",
       "published_at": "2026-07-01T16:00:53+00:00",
       "source_kind": "rss",
       "summary": "This month, the United States marks 250 years since the signing of the Declaration of Independence. As our country celebrates… more...",
@@ -7594,7 +7604,7 @@
       "company_key": "yc-plexus",
       "company_name": "Plexus",
       "doc_id": "f4c3e056ba1d9b02ba311ad4139dc5f9ca85594fa84b307e4aa07c1a1426d2d6",
-      "first_seen_at": "2026-07-29T01:55:45.554966+00:00",
+      "first_seen_at": "2026-07-27T04:25:33.439043+00:00",
       "published_at": "2026-07-01T19:21:12+00:00",
       "source_kind": "rss",
       "summary": "Stop product failures & delays. See how Plexus de-risks your complex electronic product journey, from design and development to NPI, with a single integrated partner.",

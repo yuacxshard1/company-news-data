@@ -13,16 +13,6 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "13ec58ed8400c677a00499beff0a4e2ebfb32e7a0585e23d346c18d73a81dc70",
-      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
-      "published_at": "2026-06-12T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "The CFPB's Regulation F call-frequency presumption, post-conversation wait, limited-content message, and channel opt-out rules are mechanical and per-debt. The agent design we run so an AI voice program does not inherit a 1006.14 harassment finding from a dialer it replaced.",
-      "title": "Regulation F for AI Voice Debt Collection: The 7-in-7 Ledger, the Limited-Content Message, and the Per-Debt Architecture"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
       "doc_id": "345abda6ca4a917169a7a7230b8d2fae24f3bd33e314c7f49685b2df4e40a689",
       "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
       "published_at": "2026-06-03T00:00:00+00:00",
@@ -33,12 +23,12 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "455bbc692ad0eabe48dba721f47e136dc6212f659bea63b4f35e06566836b1aa",
+      "doc_id": "3df327d629b17bf0088e20a7ff9266fd38e645c86eb0f3a102ff4e944d8932d3",
       "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
-      "published_at": "2026-06-26T00:00:00+00:00",
+      "published_at": "2026-06-12T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Wire fraud losses are running at multi-billion-dollar annual totals and the legal allocation of those losses runs through UCC Article 4A's commercially-reasonable-security-procedure standard. AI voice authentication of the caller does not, by itself, satisfy the security procedure for a payment instruction. The architecture we run so the bank's Article 4A position holds in court when the instruction was the fraud.",
-      "title": "UCC Article 4A and the AI Wire-Verification Architecture: Commercially Reasonable Security Procedures When the Caller Is Verified But the Instruction Is Not"
+      "summary": "The OCC's Part 53, the FDIC's Part 304 Subpart C, and the Federal Reserve's Part 225 Subpart N gave banks a 36-hour clock on notification incidents. The architecture we run so an AI agent failure, a model-vendor outage, or a prompt-injection-driven exfiltration is detected, classified, and reported inside the window.",
+      "title": "The Interagency 36-Hour Computer-Security Incident Notification Rule Applied to Bank AI Systems"
     },
     {
       "company_key": "yc-sei",
@@ -63,32 +53,32 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "6ea577a6eef418ec25f70a71ce1fb28efe38327f02cd2859d372cb12ba8569a2",
+      "doc_id": "64b10c6d2b25e60e66b0146355434d1f4e39f959c95abcb7a7ea7bebb7b28921",
+      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The CFPB's Regulation F call-frequency presumption, post-conversation wait, limited-content message, and channel opt-out rules are mechanical and per-debt. The agent design we run so an AI voice program does not inherit a 1006.14 harassment finding from a dialer it replaced.",
+      "title": "Regulation F for AI Voice Debt Collection: The 7-in-7 Ledger, the Limited-Content Message, and the Per-Debt Architecture"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "67241b0e784b46f846302836dc6409a29eeca241dad093f9bbf4975508df7e87",
+      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
+      "published_at": "2026-06-19T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The California Privacy Protection Agency finalized its automated decisionmaking technology regulations in late 2025, with phased compliance through 2027 and 2028. The pre-use notice, the access and opt-out rights, the risk assessment attestation, and the cybersecurity audit, applied to a bank or non-bank lender's AI agent on a California consumer.",
+      "title": "California's Final ADMT Regulations for Banks and Lenders: What the CPPA Lands on Significant Decisions and What Is Due in 2027"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "89a35c086e86b1f4d7c24676a9d0598e7005cc1a0bbe4b3fc9beb7e3f6155497",
       "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
       "published_at": "2026-06-05T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Cheap, high-fidelity voice cloning has collapsed voiceprint and knowledge-based authentication as standalone factors on bank phone channels. The NIST 800-63 level we hold caller authentication to, the phishing-resistant factors that survive a synthetic caller, and the agent-side controls we wire around them.",
-      "title": "Voice Cloning and the End of Voice Biometrics as a Sole Factor: A Caller-Verification Architecture for Banks"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
-      "doc_id": "800725b58f3211ee370c0a05615adb33aca25fd4b5821a38ec308a7298abcd3c",
-      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
-      "published_at": "2026-06-26T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "The SAFE Act and Reg G/H were written for human MLOs and the definition of 'loan originator' bites on any person who takes an application or offers or negotiates loan terms. AI assistants on the mortgage intake desk straddle that line without realizing it, and the state regulators that examine NMLS are starting to ask. The boundaries we hold the agent to so the institution does not have to sponsor a license for software.",
-      "title": "The SAFE Act Line for AI Mortgage Assistants: When Quoting a Rate Becomes Loan Origination and What NMLS Cares About"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
-      "doc_id": "83540b7e1feefffe2a19703e935052e5c7224cc76ebfe4a881dc64c663e80ee5",
-      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
-      "published_at": "2026-06-26T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "Lead-routing scores, AI co-marketing tools, and pay-per-application platforms have rebuilt the mortgage referral economy in vocabulary that maps very cleanly onto the RESPA Section 8 'thing of value' standard. The posture we put in front of marketing and partnerships so an AI workflow does not produce a 12 CFR 1024.14 finding the next exam catches.",
-      "title": "RESPA Section 8 and AI-Driven Mortgage Referrals: The Anti-Kickback Architecture for Lead Routing, MSAs, and Co-Marketing"
+      "summary": "Force-placed insurance is one of the most expensive servicing mistakes a mortgage program can make and the noticing rules at 12 CFR 1024.37 are mechanical. The agent design we run to keep the 45-and-30-day clocks, the reasonable-basis standard, the refund duty, and the credit-bureau correction synchronized across the systems that touch the loan.",
+      "title": "Force-Placed Insurance Under Regulation X 1024.37: What an AI Servicing Agent Has to Get Right Before the Charge Posts"
     },
     {
       "company_key": "yc-sei",
@@ -123,32 +113,22 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "9aa51ff072ff8aa26d500864206184d69834e68bc1dcf85a078329aa2c6ea147",
-      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
-      "published_at": "2026-06-05T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "Force-placed insurance is one of the most expensive servicing mistakes a mortgage program can make and the noticing rules at 12 CFR 1024.37 are mechanical. The agent design we run to keep the 45-and-30-day clocks, the reasonable-basis standard, the refund duty, and the credit-bureau correction synchronized across the systems that touch the loan.",
-      "title": "Force-Placed Insurance Under Regulation X 1024.37: What an AI Servicing Agent Has to Get Right Before the Charge Posts"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
-      "doc_id": "a08e479ff3942004901f69a4f6be38df5f4e6c1f594e8dbc4e57ddd9ff01fb1c",
-      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
-      "published_at": "2026-06-26T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "The FTC's 2023 Safeguards amendments added a 30-day breach-notification duty and a list of nine information-security elements every covered non-bank financial institution has to encode. Banks operate under parallel Interagency Guidelines with their own notification rule. AI vendors sit inside both perimeters and the institutions we serve are running diligence and contract terms that anticipate what the next regulator will ask for.",
-      "title": "GLBA Safeguards for AI Vendors: 16 CFR 314, the Interagency Guidelines, and the 30-Day Notification Bank IT Cannot Push to Anyone Else"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
       "doc_id": "a45b158550d1b7082a957abae6a6c3b7a1bf39f843877c4f9ff367a1becc74ea",
       "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
       "published_at": "2026-06-05T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "A mortgage-specific comparison of Sei AI and Tidalwave — a borrower-facing point-of-sale experience versus a fully managed lender platform spanning sales voice, underwriting, income calculation, closing, and QC.",
       "title": "Sei AI vs Tidalwave: The Borrower POS and the Managed Loan Behind It"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "a7d583e219984043f317c99c2ec689b344c866d6eea9e6e812ddcd1d35ba4ca4",
+      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI agents on the mortgage intake desk now populate a meaningful share of the 110 HMDA LAR fields before a human ever looks at the file. The Reg C accuracy rules and the CFPB resubmission threshold catch the gaps before fair-lending analysis ever runs, and the architecture has to make field provenance and correction provable per loan.",
+      "title": "HMDA Data Integrity for AI-Driven Loan Origination: The Reg C LAR Fields, the Resubmission Threshold, and the Audit File That Survives"
     },
     {
       "company_key": "yc-sei",
@@ -163,6 +143,36 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
+      "doc_id": "a8e9fe2a87a88d497d8a36ed978ccbbb4078a247d2d5827c62ab53241bbc40f7",
+      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
+      "published_at": "2026-06-05T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Colorado repealed and reenacted its 2024 AI Act in May 2026. The replacement is SB 26-189, effective January 1, 2027, which drops the algorithmic-discrimination duty and the impact-assessment regime and instead lands pre-decision notice, a 30-day post-adverse-outcome explanation, and a meaningful human-review right on any 'covered ADMT' that materially influences a financial or lending decision. The version that actually maps to a bank or non-bank lender's operations.",
+      "title": "Colorado SB 26-189 for Banks and Lenders: The ADMT Framework Replacing the 2024 AI Act and What is Due by January 2027"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "c0850312d01cfa0a9a682952fc60ccf4f5fea98294c9da9d013497ac2e3a2fe6",
+      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Wire fraud losses are running at multi-billion-dollar annual totals and the legal allocation of those losses runs through UCC Article 4A's commercially-reasonable-security-procedure standard. AI voice authentication of the caller does not, by itself, satisfy the security procedure for a payment instruction. The architecture we run so the bank's Article 4A position holds in court when the instruction was the fraud.",
+      "title": "UCC Article 4A and the AI Wire-Verification Architecture: Commercially Reasonable Security Procedures When the Caller Is Verified But the Instruction Is Not"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "c32c393f6f80b034f8d90c0befc95df2ce32b530845d309fef263e151def2627",
+      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The SAFE Act and Reg G/H were written for human MLOs and the definition of 'loan originator' bites on any person who takes an application or offers or negotiates loan terms. AI assistants on the mortgage intake desk straddle that line without realizing it, and the state regulators that examine NMLS are starting to ask. The boundaries we hold the agent to so the institution does not have to sponsor a license for software.",
+      "title": "The SAFE Act Line for AI Mortgage Assistants: When Quoting a Rate Becomes Loan Origination and What NMLS Cares About"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
       "doc_id": "c47e8130bbafab9c73d35f4f4b116ea0c122b88cb2be87e8b9ef50a94a2e078d",
       "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
       "published_at": "2026-06-16T00:00:00+00:00",
@@ -173,12 +183,12 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "c6c9bb6e35f66f91dcc7f62c226a200e967e278571e7dcdee8bb94b27fcf79d7",
+      "doc_id": "cb224c9138f9c68dbc5daa5f5425636d8fb4dfb18b8d1eefbe6023434f8a2a32",
       "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
       "published_at": "2026-06-05T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Colorado repealed and reenacted its 2024 AI Act in May 2026. The replacement is SB 26-189, effective January 1, 2027, which drops the algorithmic-discrimination duty and the impact-assessment regime and instead lands pre-decision notice, a 30-day post-adverse-outcome explanation, and a meaningful human-review right on any 'covered ADMT' that materially influences a financial or lending decision. The version that actually maps to a bank or non-bank lender's operations.",
-      "title": "Colorado SB 26-189 for Banks and Lenders: The ADMT Framework Replacing the 2024 AI Act and What is Due by January 2027"
+      "summary": "Cheap, high-fidelity voice cloning has collapsed voiceprint and knowledge-based authentication as standalone factors on bank phone channels. The NIST 800-63 level we hold caller authentication to, the phishing-resistant factors that survive a synthetic caller, and the agent-side controls we wire around them.",
+      "title": "Voice Cloning and the End of Voice Biometrics as a Sole Factor: A Caller-Verification Architecture for Banks"
     },
     {
       "company_key": "yc-sei",
@@ -203,22 +213,12 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "db4a395e0c6e998ab1f37560815fef7e70e33d924e98401a470846829d1df1a6",
+      "doc_id": "e0e51a817832591da1eb2c38083a23ef13f50f76685dd36d7d498086ba0f036c",
       "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
-      "published_at": "2026-06-19T00:00:00+00:00",
+      "published_at": "2026-06-26T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The California Privacy Protection Agency finalized its automated decisionmaking technology regulations in late 2025, with phased compliance through 2027 and 2028. The pre-use notice, the access and opt-out rights, the risk assessment attestation, and the cybersecurity audit, applied to a bank or non-bank lender's AI agent on a California consumer.",
-      "title": "California's Final ADMT Regulations for Banks and Lenders: What the CPPA Lands on Significant Decisions and What Is Due in 2027"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
-      "doc_id": "e254ce675c42b05c21b9ca5b5bc9d5646bd081048f7d82f99c22d36a216077e5",
-      "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
-      "published_at": "2026-06-12T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "The OCC's Part 53, the FDIC's Part 304 Subpart C, and the Federal Reserve's Part 225 Subpart N gave banks a 36-hour clock on notification incidents. The architecture we run so an AI agent failure, a model-vendor outage, or a prompt-injection-driven exfiltration is detected, classified, and reported inside the window.",
-      "title": "The Interagency 36-Hour Computer-Security Incident Notification Rule Applied to Bank AI Systems"
+      "summary": "Lead-routing scores, AI co-marketing tools, and pay-per-application platforms have rebuilt the mortgage referral economy in vocabulary that maps very cleanly onto the RESPA Section 8 'thing of value' standard. The posture we put in front of marketing and partnerships so an AI workflow does not produce a 12 CFR 1024.14 finding the next exam catches.",
+      "title": "RESPA Section 8 and AI-Driven Mortgage Referrals: The Anti-Kickback Architecture for Lead Routing, MSAs, and Co-Marketing"
     },
     {
       "company_key": "yc-sei",
@@ -233,12 +233,12 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "ebafabe56e23b0c1ac7736f261c93626820ec12e9fa9793a5a67ff547491e3f2",
+      "doc_id": "ef44fcc5fba0f15129451fe54a3c2f0fd848b6978d412ca91ecd454d0094bf9a",
       "first_seen_at": "2026-07-20T23:20:45.548292+00:00",
       "published_at": "2026-06-26T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "AI agents on the mortgage intake desk now populate a meaningful share of the 110 HMDA LAR fields before a human ever looks at the file. The Reg C accuracy rules and the CFPB resubmission threshold catch the gaps before fair-lending analysis ever runs, and the architecture has to make field provenance and correction provable per loan.",
-      "title": "HMDA Data Integrity for AI-Driven Loan Origination: The Reg C LAR Fields, the Resubmission Threshold, and the Audit File That Survives"
+      "summary": "The FTC's 2023 Safeguards amendments added a 30-day breach-notification duty and a list of nine information-security elements every covered non-bank financial institution has to encode. Banks operate under parallel Interagency Guidelines with their own notification rule. AI vendors sit inside both perimeters and the institutions we serve are running diligence and contract terms that anticipate what the next regulator will ask for.",
+      "title": "GLBA Safeguards for AI Vendors: 16 CFR 314, the Interagency Guidelines, and the 30-Day Notification Bank IT Cannot Push to Anyone Else"
     }
   ],
   "company_key": "yc-sei",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e8c9362e02241c0c1316107706dcb7a4eec04054c30336dd174fe14893d13474",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/releases/testrigor-release-color-validation-qase-integration-more/",
+  "canonical_url": "https://testrigor.com/releases/testrigor-release-color-validation-qase-integration-more/",
+  "title": "testRigor Release: Color Validation, Qase Integration & More",
+  "summary": "Color validations We now support color validations based on color groups rather than specific hexadecimal (HEX) codes. This allows users to validate an element’s color without specifying an exact color value. For example, you can use the following commands: check that \"element\" color looks red check that \"element\" background color looks blue check that \"element\" ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## Color validations\n\n\nWe now support color validations based on color groups rather than specific hexadecimal (HEX) codes. This allows users to validate an element’s color without specifying an exact color value.\n\n\nFor example, you can use the following commands:\n\n\n```text\ncheck that \"element\" color looks red\ncheck that \"element\" background color looks blue\ncheck that \"element\" border color looks purple\ncheck that \"element\" color doesn't look green\ncheck that \"element\" background color doesn't look yellow\ncheck that \"element\" border color doesn't look pink\n```\n\n\nThese validations support the following colors:\n\n\n- white\n- yellow\n- red\n- purple\n- pink\n- orange\n- green\n- gray\n- brown\n- blue\n- black\n\n\n## Variable inspector for Live Mode\n\n\nWe’ve introduced a new Variable Inspector for Live Mode. Whenever variables are created during a Live Mode test session, they will automatically appear in the Variable Inspector, allowing users to easily view and track their values.\n\n\n## Qase Integration\n\n\nTest suites can now be integrated with Qase. To enable this integration, navigate to **Settings > Integrations** , locate the Qase integration section, and enable it.\n\n\n## Setting Camera Images on Mobile Devices\n\n\nThe` set camera image to` command is now supported on testRigor-provided mobile devices.\n\n\nPreviously, this functionality was only available on Sauce Labs devices. With this update, users can now set camera images directly on testRigor’s own emulators.",
+  "published_at": "2026-10-27T21:28:11+00:00",
+  "first_seen_at": "2026-10-30T15:23:43.926967+00:00",
+  "content_hash": "sha256:7d1b944485253a4b94f21497b0380b97f5173b326cf236fbea035ce661cc9972"
+}

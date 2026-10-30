@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a3fc7ce3ea8913f0a74dc0888af1b57b35096e55da8cda0b211dc2c8bd7855c1",
+  "company_key": "yc-depot",
+  "company_name": "Depot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://depot.dev/blog/splitting-a-real-test-suite-with-depot",
+  "canonical_url": "https://depot.dev/blog/splitting-a-real-test-suite-with-depot",
+  "title": "Splitting a real test suite with Depot",
+  "summary": "Follow our API test suite from one CI job to seven with Depot Test Splitting. Historical timings balance the work, cutting our measured run from 7m39s to 1m37s.",
+  "body_markdown": "Use` vitest list --filesOnly` to discover test files, then pass that discovery command to` depot/tests-run-action` in a job matrix. Set` candidate-type: classname` to match Vitest's JUnit report. Read the assigned paths from standard input with` xargs` , run those files, and upload each job's JUnit report.",
+  "published_at": "2026-10-22T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T14:42:31.538322+00:00",
+  "content_hash": "sha256:632f56d5659ed4da4de59e15887b985932cc76b80208385fc4270eb6e2f4dff6"
+}

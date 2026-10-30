@@ -47,8 +47,28 @@
       "first_seen_at": "2026-09-28T05:17:27.811597+00:00",
       "published_at": "2026-10-01T03:58:57.609+00:00",
       "source_kind": "html",
-      "summary": "See how Jev compares with 19 reranker configurations across five datasets on accuracy, latency, and prompt-driven relevance for LanceDB search.",
+      "summary": "See how Jev performs in a benchmark of 19 reranker configurations across five datasets, covering accuracy, latency, and prompt-driven relevance for LanceDB search.",
       "title": "How Jev Compares to Other Rerankers"
+    },
+    {
+      "company_key": "yc-lancedb",
+      "company_name": "LanceDB",
+      "doc_id": "ad95120d55a14da811597d8fe24f8c767516acc0ebd88c2b57e59d272a3b0f41",
+      "first_seen_at": "2026-07-24T14:00:34.339937+00:00",
+      "published_at": "2026-10-22T04:30:18.207+00:00",
+      "source_kind": "html",
+      "summary": "How we redesigned blob storage in Lance to make multimodal data a first-class citizen, with four storage semantics (Inline, Packed, Dedicated, External) that automatically adapt to your workload.",
+      "title": "Lance Blob V2: Making Multimodal Data a First-Class Citizen in the Lakehouse"
+    },
+    {
+      "company_key": "yc-lancedb",
+      "company_name": "LanceDB",
+      "doc_id": "b675255e5a9e89feba66aaadd8c5156ac06a1c13b0b5c2f81e76ed9470da59c7",
+      "first_seen_at": "2026-07-24T14:00:34.339937+00:00",
+      "published_at": "2026-10-22T04:30:18.207+00:00",
+      "source_kind": "html",
+      "summary": "How Bytedance Volcano Engine LAS (Lake for AI Service) leverages Lance as the core storage format, rapidly constructing a next-gen AI data lake to efficiently store, manage, and process multimodal data (text, images, audio/video).",
+      "title": "Volcano Engine LAS's Lance-Based PB-Scale Autonomous Driving Data Lake Solution"
     }
   ],
   "company_key": "yc-lancedb",

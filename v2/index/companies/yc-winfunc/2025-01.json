@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2025-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The multiSession plugin's /sign-out after-hook (packages/better-auth/src/plugins/multi-session/index.ts) blindly trusts every cookie whose name matches…",
+      "summary": "Medium Better-Auth vulnerability, found by winfunc's AI agent. The multiSession plugin's /sign-out after-hook…",
       "title": "Multi-session sign-out hook allows forged cookies to revoke arbitrary sessions"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2025-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "getDatabaseQueuesMetrics builds SQL statements with queueName interpolated directly into table identifiers and literals. The queueName value originates…",
+      "summary": "Critical Supabase vulnerability, found by winfunc's AI agent. getDatabaseQueuesMetrics builds SQL statements with queueName interpolated directly into table…",
       "title": "SQL Injection via queueName in getDatabaseQueuesMetrics"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2025-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The helper endpoint responsible for updating user email addresses performs a sensitive account mutation without performing any authentication or authori…",
+      "summary": "Critical Gumroad vulnerability, found by winfunc's AI agent. The helper endpoint responsible for updating user email addresses performs a sensitive account…",
       "title": "0-click Account Takeover and Admin Operations via helper endpoint authorization bypass"
     },
     {

@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-23T16:08:30.630794+00:00",
       "published_at": "2026-07-23T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "We used GLM-5.1 and GLM-5.2 to scan NGINX. The scan produced six security findings with five CVE identifiers. This report describes the affected code, analysis traces, and proof conditions.",
+      "summary": "We used GLM-5.1 and GLM-5.2 to scan NGINX. The scan produced six security findings with five CVE identifiers.",
       "title": "Finding six NGINX vulnerabilities with open models"
     },
     {
@@ -67,7 +67,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-07-08T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A type confusion issue in seroval.fromJSON() allowed attacker-controlled JSON input to cause PromiseSuccess and PromiseFailure nodes to operate on value…",
+      "summary": "Critical seroval vulnerability, CVSS 9.8, found by winfunc's AI agent. A type confusion issue in seroval.fromJSON() allowed attacker-controlled JSON input to…",
       "title": "seroval.fromJSON() Promise resolver type confusion invokes attacker-controlled methods (CVE-2026-59940)"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-07-15T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "ngxstreamcomplexvalue() calculated an output length and copied the output in separate passes over mutable session-wide regex capture state. In a stream…",
+      "summary": "High NGINX vulnerability, CVSS 8.1, found by winfunc's AI agent. ngx_stream_complex_value() calculated an output length and copied the output in separate…",
       "title": "Stream complex-value capture desynchronization causes heap overflow (CVE-2026-42533)"
     },
     {

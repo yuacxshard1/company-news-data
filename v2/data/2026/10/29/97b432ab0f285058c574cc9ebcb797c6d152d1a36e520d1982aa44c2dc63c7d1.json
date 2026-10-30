@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "97b432ab0f285058c574cc9ebcb797c6d152d1a36e520d1982aa44c2dc63c7d1",
+  "company_key": "yc-flick",
+  "company_name": "Flick",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flick.art/blog/flux-3-guide",
+  "canonical_url": "https://flick.art/blog/flux-3-guide",
+  "title": "How to Generate Videos with FLUX 3",
+  "summary": "How to generate videos with FLUX 3: real FLUX 3 prompts from Flick films with the clips and sound they made, prompt tips, prices and plans. Try it in Flick.",
+  "body_markdown": "### Can FLUX 3 generate videos?\n\n\nYes. FLUX 3 generates video clips of up to 20 seconds with synchronized sound, from a text prompt, a start frame, or a start and an end frame. In Flick it runs on the Image to Video node at 720p or 1080p.\n\n\n### How do I generate a video with FLUX 3?\n\n\nWrite a shot-focused prompt that gives the camera move, the subject's motion, the motion around it, the style, the constraints and the audio. In Flick, pick FLUX 3 on an Image to Video node, set the length, generate a few takes and keep the one that cuts best into your sequence.\n\n\n### Does FLUX 3 generate audio?\n\n\nYes. FLUX 3 makes synchronized audio with the video in the same pass, so picture and sound are created together rather than sound being added afterwards. In Flick every FLUX 3 clip comes with sound, and there is no switch to turn it off.\n\n\n### Is FLUX 3 open source?\n\n\nNot yet. FLUX 3 is available through the Black Forest Labs API and partners, including Flick, and Black Forest Labs says open-weight developer versions are planned for later in 2026.\n\n\n### What is FLUX 3 Dev?\n\n\nFLUX 3 Dev is one of the variants Black Forest Labs named at the FLUX 3 launch, alongside FLUX 3 Video, Image and Action. Flick runs the hosted FLUX 3 video model, not FLUX 3 Dev.\n\n\n### How is FLUX 3 different from FLUX 2?\n\n\nFLUX 2 is mainly an image model, while FLUX 3 is one multimodal architecture spanning image, video, audio and action prediction. In Flick, Flux 2 Dev makes images and FLUX 3 makes video.\n\n\n### How much does FLUX 3 cost?\n\n\nIn Flick, a FLUX 3 clip costs 170 credits for 5 seconds at 720p and 680 for 20 seconds, or 290 and 1,160 at 1080p. It needs the Standard plan, from $20 a month.\n\n\n### Is FLUX 3 better than Runway?\n\n\nBlack Forest Labs reports that FLUX 3 was preferred over Runway Gen-4.5 in 77% of its benchmark comparisons. That is a vendor figure, and independent testing is still needed.\n\n\n### Can I use FLUX 3 in Flick?\n\n\nYes. FLUX 3 is a video model on the Image to Video node of every Flick canvas, on the Standard plan and up. Generate clips there, keep them beside your references and cut them with the rest of your project.\n\n\n### What should I use FLUX 3 for first?\n\n\nStart with short, sound-aware shots: footsteps in rain, a door closing, a dialogue beat, a cockpit alarm, a car passing or an atmospheric establishing shot. These show quickly whether the synchronized audio helps your sequence.",
+  "published_at": "2026-10-29T00:00:00+00:00",
+  "first_seen_at": "2026-07-24T23:16:19.363119+00:00",
+  "content_hash": "sha256:1fbe8a5844b9bb5c065370c76b083d7715953cfae386dd6b0e930cc8299efa92"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e15140145a6423510534059064a0015174c9a45ec1b1c55d80062266aab75f57",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/introducing-scheduled-csv-exports/",
+  "canonical_url": "https://www.basedash.com/blog/introducing-scheduled-csv-exports/",
+  "title": "Introducing scheduled CSV exports in Basedash",
+  "summary": "Ask a Basedash automation for a CSV once, and every run attaches the file in Slack or adds a Download CSV link to the email.",
+  "body_markdown": "Today we’re launching **scheduled CSV exports** in Basedash. Automations can now send CSV files. Ask for one in the instructions, and every run builds the file from your data and delivers it to Slack or email.\n\n\nA summary and a chart answer most questions, but sometimes the people getting the report need the rows themselves, to filter in a spreadsheet, reconcile against another system, or pass along. Now the automation that writes the summary can send the file too.\n\n\n## Ask for it in the instructions\n\n\nThere’s no separate export setting to configure. Write the CSV into the automation’s instructions, the same way you’d ask for anything else:\n\n\n- “Send a CSV of last week’s new signups every Monday.”\n- “Email finance a CSV of yesterday’s failed payments every morning.”\n\n\nEach run builds the file from your data, the same way chat does.\n\n\n## In Slack, the file lands in the thread\n\n\nWhen an automation posts to Slack, the summary goes in the channel and the CSV is attached in the message’s thread. The channel stays readable, and anyone who wants the rows opens the thread.\n\n\n## Emails get a Download CSV link\n\n\nEmails from the automation include a **Download CSV** link under the summary. Downloads go through Basedash, so recipients need access to the automation to open them.\n\n\n## Every run keeps its CSV\n\n\nThe automation’s run history includes a **Download CSV** link for each run, so you can grab the file from any past run.\n\n\nAnd if a run builds the CSV but stops before writing its summary, the file still goes out.\n\n\n## Getting started\n\n\nScheduled CSV exports are in Basedash today.\n\n\n1. [Sign up for Basedash](https://charts.basedash.com/signup) or log in\n2. Open an automation, or create a new one from the **Automations** page\n3. Ask for a CSV in the instructions, like “send a CSV of last week’s new signups every Monday”\n4. Choose Slack or email for where the results go\n\n\nOne setup note for Slack: file uploads require a workspace admin to approve the Slack app update prompt. Until then, Slack replies include a download link instead of the attached file.\n\n\nFor more on automations, see the[Automations feature page](https://www.basedash.com/features/automations) .\n\n\n**Ask for it once. Get the CSV every week.**",
+  "published_at": "2026-10-24T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T13:11:55.775153+00:00",
+  "content_hash": "sha256:d72eb3124c3bf48665f2572c1e5713ba69949883e328ff85da55f1e1165dd6c1"
+}

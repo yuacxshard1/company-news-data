@@ -1657,7 +1657,7 @@
       "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
       "published_at": "2026-09-12T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Most ECS security effort stops at the task boundary. The RDS database it talks to gets governed separately, if at all. Here's why that split creates a blind spot, and how to close it.",
+      "summary": "Most ECS security stops at the task boundary, leaving the RDS database governed separately. See why that split creates a data-tier blind spot and how to fix it.",
       "title": "Securing Databases Behind ECS: The Data Tier Blind Spot in Cloud Security"
     },
     {
@@ -1867,7 +1867,7 @@
       "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
       "published_at": "2026-09-12T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Container security content overwhelmingly assumes Kubernetes. If your workloads run on Amazon ECS, here are the task definition, IAM role, networking, and image checks that actually matter.",
+      "summary": "Running workloads on Amazon ECS? Here are the task definition, IAM role, service networking, and image provenance checks that generic CSPM tools often skip.",
       "title": "ECS Security Fundamentals: The Container Checks Most CSPM Tools Skip"
     },
     {

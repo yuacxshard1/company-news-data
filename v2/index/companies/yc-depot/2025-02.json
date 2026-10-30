@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-20T23:23:39.872607+00:00",
       "published_at": "2025-02-03T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Any project that reaches a certain size will eventually be slow to build. With Bazel, you can accelerate your builds by using a remote cache to compile dependencies once and share them across your environments, like CI pipelines or your local development environment.",
+      "summary": "Share Bazel build outputs between your team and CI, so each machine doesn't have to rebuild the same thing. Here's how to set it up with Depot Cache.",
       "title": "Faster Bazel builds with remote cache"
     },
     {

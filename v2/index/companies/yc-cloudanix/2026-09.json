@@ -17,7 +17,7 @@
       "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
       "published_at": "2026-09-10T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Is Trusted Advisor enough for cloud security, or do you need a dedicated CSPM? A precise, feature-by-feature comparison of coverage depth, compliance mapping, multi-account visibility, and remediation.",
+      "summary": "Trusted Advisor vs a dedicated CSPM compared feature by feature: coverage depth, compliance mapping, multi-account visibility, and remediation guidance.",
       "title": "AWS Trusted Advisor vs. a Dedicated CSPM: What Each Actually Covers"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
       "published_at": "2026-09-15T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Three identity categories, three different jobs. CIEM tells you who has access to what. JIT changes how long they have it. IGA governs the lifecycle of who should have it. Here's how they fit together.",
+      "summary": "CIEM shows who can access what, JIT limits how long, and IGA governs the lifecycle. Learn how these cloud identity tools differ and when to use each.",
       "title": "CIEM vs. JIT vs. IGA: Where Each Fits in Cloud Identity Security"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
       "published_at": "2026-09-12T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Most ECS security effort stops at the task boundary. The RDS database it talks to gets governed separately, if at all. Here's why that split creates a blind spot, and how to close it.",
+      "summary": "Most ECS security stops at the task boundary, leaving the RDS database governed separately. See why that split creates a data-tier blind spot and how to fix it.",
       "title": "Securing Databases Behind ECS: The Data Tier Blind Spot in Cloud Security"
     },
     {
@@ -107,7 +107,7 @@
       "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
       "published_at": "2026-09-12T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Container security content overwhelmingly assumes Kubernetes. If your workloads run on Amazon ECS, here are the task definition, IAM role, networking, and image checks that actually matter.",
+      "summary": "Running workloads on Amazon ECS? Here are the task definition, IAM role, service networking, and image provenance checks that generic CSPM tools often skip.",
       "title": "ECS Security Fundamentals: The Container Checks Most CSPM Tools Skip"
     },
     {
@@ -117,7 +117,7 @@
       "first_seen_at": "2026-09-22T15:14:20.030851+00:00",
       "published_at": "2026-09-18T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A practical guide to designing your own internal control framework on top of CIS and NIST baselines — covering control design, mapping, exceptions, and how to keep it validated continuously instead of once a year.",
+      "summary": "Build a custom compliance framework on CIS and NIST baselines. Design testable controls, map obligations, handle exceptions, and validate it continuously.",
       "title": "Building a Custom Compliance Framework on Top of CIS and NIST: A Practical Guide"
     },
     {

@@ -67,7 +67,7 @@
       "first_seen_at": "2026-08-27T20:34:14.459789+00:00",
       "published_at": "2026-08-27T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "CodeAnt AI found a parent-directory TOCTOU in Claude Code on macOS, sandboxed repo code redirects the host Edit tool to overwrite files outside the workspace.",
+      "summary": "Claude Code reinterpreted glob metacharacters in a literal workspace path while generating its macOS Seatbelt policy, allowing a sandboxed command to write protected configuration into a sibling project and trigger a SessionStart hook on its next launch.",
       "title": "Claude Code Security Flaw: Sandboxed Code Overwrites Host Files"
     },
     {

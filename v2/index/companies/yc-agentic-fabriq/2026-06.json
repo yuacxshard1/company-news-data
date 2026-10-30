@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-24T14:49:48.995333+00:00",
       "published_at": "2026-06-19T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Seeing where agents operate, what they access, what they do, and how they behave over time — the operational layer beyond a static inventory.",
+      "summary": "AI agent visibility is knowing which agents operate in an environment, what access they hold, and what they actually did. The three evidence sources behind it, and why it is not brand visibility in AI search.",
       "title": "What Is Agent Visibility?"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-24T14:49:48.995333+00:00",
       "published_at": "2026-06-12T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A structured system of record for every agent: who owns it, what it can access, what it can do, and whether it's still approved to operate.",
+      "summary": "A system of record for every agent: owner, access, permissions, lifecycle state. What the standards already require, what a real public inventory looks like, and which fields go unfilled.",
       "title": "What Is an Agent Inventory?"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-06-29T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "From intake to authorization to periodic review — how to make approved, governed agent deployment a repeatable process.",
+      "summary": "Seven steps from intake to periodic review, checked against three registries that already work: NIST's inventory control, the MCP official registry's namespace proofs, and the EU AI Act database and its field list.",
       "title": "Building an Enterprise Agent Registry"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-24T14:49:48.995333+00:00",
       "published_at": "2026-06-10T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Shadow IT has an AI successor: shadow agents — autonomous systems running with real access but no visibility, ownership, or governance.",
+      "summary": "A shadow agent is an ordinary one nobody registered. Where each entry route is logged, why disabling beats deleting, and the queries that find them while the audit trail still exists.",
       "title": "The Rise of Shadow Agents"
     },
     {
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-07-24T14:49:48.995333+00:00",
       "published_at": "2026-06-15T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A practical playbook for discovering, normalizing, and owning every agent across AI platforms, SaaS, cloud, and code.",
+      "summary": "The five build steps are NIST's CM-8 read for a new asset class, plus the three API calls that actually find agents and the one inventory criterion agents break.",
       "title": "Building an Enterprise Agent Inventory"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-24T14:49:48.995333+00:00",
       "published_at": "2026-06-17T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A CMDB confirms an agent exists. It has no field for what the agent is allowed to do, and that gap is exactly where a security review stalls.",
+      "summary": "A CMDB confirms an agent exists. It has no column for permission scope, and its own health metrics cannot detect an agent whose access changed while the record stayed still.",
       "title": "Agent Inventory vs. CMDB"
     },
     {
@@ -67,7 +67,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-06-24T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "A written rule that nobody can verify is being followed isn't governance yet. It's a document. Visibility is what turns it into something real.",
+      "summary": "Observing an agent's action and controlling it are two different systems. Where monitoring stops, where the enforcement point sits, what the EU AI Act demands after the December 2027 delay, and how each half fails alone.",
       "title": "Agent Visibility vs. Agent Governance"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-06-22T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "When an agent misbehaves, the useful question isn't what logs exist. It's what to pull up first, in what order, and whether the pieces resolve to one story.",
+      "summary": "The five questions an agent investigation runs, in order, and the evidence source for each: CloudTrail's 90 days, Entra's seven, Workspace's six months, and the Slack field with nowhere to put an agent.",
       "title": "Achieving Agent Visibility Across the Enterprise"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-26T21:56:59.865939+00:00",
       "published_at": "2026-06-26T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "The formal system of record for approved agents — the control plane that defines which agents are recognized, governed, and allowed to operate.",
+      "summary": "A registry only counts if something checks it before access is granted. What each entry has to hold, what MCP, A2A and Entra Agent ID actually record, and what regulators already make you register.",
       "title": "What Is an Agent Registry?"
     }
   ],

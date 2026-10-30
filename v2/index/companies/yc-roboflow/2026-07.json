@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-16T23:05:08+00:00",
       "source_kind": "rss",
-      "summary": "Stack SAM 3, Gemini, and GPT into a single Workflow, require a 2-of-3 vote on every mask, and auto-label entire segmentation datasets without drawing a single polygon.",
+      "summary": "Auto-label segmentation datasets with a multi-model consensus workflow in Roboflow: SAM 3, Gemini & GPT vote on each mask so only verified polygons make it in.",
       "title": "Multi-Model Auto Labeling for Segmentation with Roboflow Workflows"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-22T12:08:57+00:00",
       "source_kind": "rss",
-      "summary": "Train RF-DETR to catch flange face defects, then sort results into pass, review, and fail.",
+      "summary": "Automate flange quality inspection: train RF-DETR to detect cracks, scratches, dents, and pinholes, then route parts to pass, review, or fail.",
       "title": "Flanges Quality Inspection with Computer Vision"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-22T17:32:53+00:00",
       "source_kind": "rss",
-      "summary": "From pretrained weights to live multi-camera inference on a Jetson Orin NX: TensorRT engine build, the custom bbox parser DeepStream needs, and per-class colors with a pyds probe.",
+      "summary": "166 img/s on an Orin NX: build a TensorRT engine for RF-DETR, write the DeepStream bbox parser, run live RTSP cameras & color boxes per class.",
       "title": "Run RF-DETR in NVIDIA DeepStream on Jetson"
     },
     {
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-07-27T20:34:24.421868+00:00",
       "published_at": "2026-07-27T19:16:56+00:00",
       "source_kind": "rss",
-      "summary": "Train a model to detect empty shelf spaces and automate restocking decisions.",
+      "summary": "Detect empty shelf spaces and automate retail restocking decisions, with RF-DETR and Roboflow Workflows. Retail object detection tutorial.",
       "title": "Retail Object Detection with RF-DETR"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-27T18:41:55.280412+00:00",
       "published_at": "2026-07-27T17:53:19+00:00",
       "source_kind": "rss",
-      "summary": "Build production line monitoring with camera AI: train RF-DETR to detect defects, count bottles, and trigger alerts with Roboflow Workflows.",
+      "summary": "Build production line monitoring with camera AI, from AI1 Camera hardware to a custom RF-DETR defect model and automated Workflow alerts.",
       "title": "Production Line Monitoring With Camera AI"
     },
     {
@@ -67,7 +67,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-16T20:32:02+00:00",
       "source_kind": "rss",
-      "summary": "Most web services ingest kilobytes and emit the heavy bytes. Vision inference flips that, and breaks a few more production assumptions on the way. Here's the serverless architecture behind a thousand models on a shared GPU fleet.",
+      "summary": "Roboflow ingest multi-megabyte frames and return kilobytes of detections. How we shaped a pipeline to scale across a thousand-model catalog.",
       "title": "Roboflow Serverless Inference: A Thousand Models on a Shared GPU Fleet"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-22T15:49:32+00:00",
       "source_kind": "rss",
-      "summary": "Detect visible hog rings with RF-DETR, compare their positions with predefined attachment zones, and use Gemini 2.5 Pro to generate an automotive seat inspection summary.",
+      "summary": "Automate hog ring inspection for automotive seat assembly: RF-DETR counts rings, Python logic checks expected counts, and Gemini flags issues.",
       "title": "Hog Ring Detection with Computer Vision"
     },
     {
@@ -97,7 +97,7 @@
       "first_seen_at": "2026-08-01T01:07:44.076659+00:00",
       "published_at": "2026-07-31T17:32:04+00:00",
       "source_kind": "rss",
-      "summary": "How to use a Raspberry Pi, a phone camera, and a Roboflow classification model to know when a pool needs a refill.",
+      "summary": "Raspberry Pi computer vision project you can build in a weekend: phone as wireless camera, DINOv3 trained in Roboflow, inference on the Pi CPU.",
       "title": "Building a Pool Monitor with Raspberry Pi and Roboflow"
     },
     {
@@ -117,7 +117,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-20T15:29:24+00:00",
       "source_kind": "rss",
-      "summary": "In this guide, you will learn about advanced techniques that can help reduce AI inference costs across the complete computer vision pipeline.",
+      "summary": "Cut AI inference cost in computer vision: quantization, pruning, distillation, frame-rate tuning, tracking, caching, and deployment choices.",
       "title": "Advanced Techniques for Optimizing AI Inference Costs"
     },
     {
@@ -127,7 +127,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-17T20:05:25+00:00",
       "source_kind": "rss",
-      "summary": "Automate tube and pipe defect inspection. Train an RF-DETR model to detect holes, cracks, and ruptures, and build a pass, review, or fail Workflow in Roboflow.",
+      "summary": "Automate pipe and tubes defect detection with RF-DETR: catch holes, cracks & ruptures, and get an instant PASS, REVIEW, or FAIL verdict.",
       "title": "Pipe and Tubes Quality Inspection with Roboflow"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-15T12:12:00+00:00",
       "source_kind": "rss",
-      "summary": "Explore the best computer vision models in 2026 for object detection, segmentation, classification, keypoints, OCR, vision-language tasks, depth estimation, and tracking. Compare leading models, benchmarks, licensing, deployment options, and when to fine-tune on custom data using Roboflow tools.",
+      "summary": "ompare the best computer vision models for 2026: RF-DETR, YOLO26, SAM 3, DINOv3, and more, ranked by task, benchmarks, and deployment needs.",
       "title": "Best Computer Vision Models in 2026: A Task-by-Task Guide"
     },
     {
@@ -147,7 +147,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-22T17:33:49+00:00",
       "source_kind": "rss",
-      "summary": "Upload a soccer game, click your kid once, and get back a highlight reel with every play they were part of. Two RF-DETR models trained in the Roboflow UI handle detection and tracking, and a local Python pipeline reads jersey numbers, finds the goals, and cuts the clips.",
+      "summary": "Turn full soccer game footage into highlight reels with this app. Roboflow RF-DETR models track players, read jersey numbers & find goals.",
       "title": "How to Make Automatic Highlight Reels from Kids' Soccer Games"
     },
     {
@@ -177,7 +177,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-17T10:15:53+00:00",
       "source_kind": "rss",
-      "summary": "An end-to-end build of a self-unlocking porch lockbox: on-device detection on an old iPhone gates a cloud Roboflow Workflow, which validates courier-with-package events inside a drawn porch zone and triggers a solenoid lock through an ESP32. Includes delivery verification and a live dashboard.",
+      "summary": "Build a lockbox that recognizes delivery drivers, opens just long enough for the drop & texts you a photo. Easy with an old iPhone & Roboflow.",
       "title": "Teaching a Porch to Recognize Delivery Drivers and Accept Packages"
     },
     {
@@ -187,7 +187,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-17T10:50:04+00:00",
       "source_kind": "rss",
-      "summary": "Detect visible beverage products with RF-DETR, compare their counts with fixed camera-frame thresholds, and use Gemini 2.5 Pro to generate a shelf inspection summary.",
+      "summary": "Build a retail shelf monitoring workflow: RF-DETR counts front-row bottles, ranks restock priority, & Gemini writes the shelf inspection summary.",
       "title": "Retail Object Detection with RF-DETR"
     },
     {
@@ -197,7 +197,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-17T10:03:26+00:00",
       "source_kind": "rss",
-      "summary": "Learn how computer vision can automate cosmetic defect inspection by detecting paint scratches and identifying the affected car part. This guide shows how to train an RF-DETR model in Roboflow, build a part-level inspection Workflow, and return visual results and repair-ready outputs for QA review.",
+      "summary": "Build a cosmetic defect detection system in Roboflow: train RF-DETR to find paint scratches on car parts and auto-route them to repair.",
       "title": "Cosmetic Defect Detection with Computer Vision"
     },
     {
@@ -217,7 +217,7 @@
       "first_seen_at": "2026-07-25T21:41:10.504044+00:00",
       "published_at": "2026-07-22T15:13:55+00:00",
       "source_kind": "rss",
-      "summary": "Cheaper and faster than Gemini 3.5 Flash, and the best model we tested on video. Object detection is the one real step back.",
+      "summary": "Gemini 3.6 Flash tops our video leaderboard & runs cheaper than 3.5 Flash, but drops to 56.0% mAP@50 on object detection. Full Roboflow Vision Evals.",
       "title": "Gemini 3.6 Flash for Vision: Evaluation and Benchmarks"
     }
   ],

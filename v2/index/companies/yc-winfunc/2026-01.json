@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "In the SCGI module, ngxhttpscgicreaterequest() historically derived CONTENTLENGTH by summing the currently buffered request-body chain (r-upstream-reque…",
+      "summary": "Medium NGINX vulnerability, found by winfunc's AI agent. In the SCGI module, ngx_http_scgi_create_request() historically derived CONTENT_LENGTH by summing…",
       "title": "SCGI unbuffered mode sent truncated CONTENT_LENGTH causing backend desync"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The server-side React Flight reply decoder treats $K<id tokens as nested FormData and reconstructs them by scanning the backing request form and copying…",
+      "summary": "High React vulnerability, found by winfunc's AI agent. The server-side React Flight reply decoder treats $K<id> tokens as nested FormData and reconstructs…",
       "title": "RSC reply decoder DoS via $K FormData amplification (CVE-2026-23864)"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "When proxyhttpversion 2 selected the HTTP/2 upstream proxy path and proxysetbody generated a custom request body, ngxhttpproxyv2createrequest() appended…",
+      "summary": "Medium NGINX vulnerability, CVSS 5.8, found by winfunc's AI agent. When proxy_http_version 2 selected the HTTP/2 upstream proxy path and proxy_set_body…",
       "title": "HTTP/2 upstream frame injection via oversized proxy_set_body (CVE-2026-42926)"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "DoLogin parses the HTTP User-Agent header while creating a session and stores platform, OS, browser name, and browser version on the session. The versio…",
+      "summary": "Medium Mattermost vulnerability, CVSS 6.5, found by winfunc's AI agent. DoLogin parses the HTTP User-Agent header while creating a session and stores…",
       "title": "User-Agent version parser panic during session creation (CVE-2026-25783)"
     },
     {
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Mattermost validates password length when passwords are created or changed, but affected login comparison paths did not consistently apply the same maxi…",
+      "summary": "High Mattermost vulnerability, CVSS 7.5, found by winfunc's AI agent. Mattermost validates password length when passwords are created or changed, but…",
       "title": "Oversized password login DoS in legacy password comparison (CVE-2026-24458)"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The NGINX HTTP DAV module's ngxhttpdavcopymovehandler() parsed the client-controlled Destination header and mapped both the request URI and destination…",
+      "summary": "High NGINX vulnerability, CVSS 8.1, found by winfunc's AI agent. The NGINX HTTP DAV module's ngx_http_dav_copy_move_handler() parsed the client-controlled…",
       "title": "WebDAV COPY/MOVE path overlap corrupts files and collections"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Mattermost enforces FileSettings.MaxFileSize on uploaded files, but the document extraction service previously did not apply that same limit to each dec…",
+      "summary": "Medium Mattermost vulnerability, CVSS 6.5, found by winfunc's AI agent. Mattermost enforces FileSettings.MaxFileSize on uploaded files, but the document…",
       "title": "Zip bomb memory exhaustion in recursive document extraction (CVE-2026-3114)"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The GET /api/v4/groups/{groupid} handler computed ViewUsersRestrictions for the session user and passed those restrictions into App.GetGroup. GetGroup c…",
+      "summary": "Medium Mattermost vulnerability, CVSS 4.3, found by winfunc's AI agent. The GET /api/v4/groups/{group_id} handler computed ViewUsersRestrictions for the…",
       "title": "Group member IDs leaked because GetGroup bypassed view restrictions (CVE-2026-3115)"
     },
     {
@@ -97,7 +97,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Mattermost's mmctl plain-text output path accumulated values from API responses and templates in printer.Lines, then wrote each line directly to stdout…",
+      "summary": "High Mattermost vulnerability, found by winfunc's AI agent. Mattermost's mmctl plain-text output path accumulated values from API responses and templates in…",
       "title": "mmctl terminal escape injection via unsanitized server-controlled output (CVE-2026-3108)"
     },
     {
@@ -107,7 +107,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "When a stream listener is configured with both sslverifyclient on and sslocsp on, nginx performs the OCSP request and learns that the presented client c…",
+      "summary": "Medium NGINX vulnerability, CVSS 5.4, found by winfunc's AI agent. When a stream listener is configured with both ssl_verify_client on and ssl_ocsp on, nginx…",
       "title": "stream accepts revoked client certificates despite ssl_ocsp on (CVE-2026-28755)"
     },
     {
@@ -117,7 +117,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "mmctl export download and related export download flows write potentially sensitive export archives to the administrator's local filesystem. The shared…",
+      "summary": "Medium Mattermost vulnerability, found by winfunc's AI agent. mmctl export download and related export download flows write potentially sensitive export…",
       "title": "mmctl export downloads created world-readable local files (CVE-2026-3113)"
     },
     {
@@ -127,7 +127,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The /mute slash command accepts an optional channel handle, strips the leading , and looks up the named channel with Store().Channel().GetByName(channel…",
+      "summary": "Medium Mattermost vulnerability, CVSS 4.3, found by winfunc's AI agent. The /mute slash command accepts an optional channel handle, strips the leading ~, and…",
       "title": "Private channel enumeration through /mute error messages (CVE-2026-21386)"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-20T23:21:05.938183+00:00",
       "published_at": "2026-01-01T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The HTTP/1.1 request parser in actix-http accepted requests containing both Content-Length and Transfer-Encoding: chunked. During header conversion, Mes…",
+      "summary": "Medium Actix vulnerability, CVSS 6.3, found by winfunc's AI agent. The HTTP/1.1 request parser in actix-http accepted requests containing both Content-Length…",
       "title": "HTTP/1.1 CL.TE request smuggling in actix-http (GHSA-xhj4-vrgc-hr34)"
     }
   ],

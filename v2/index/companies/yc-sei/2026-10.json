@@ -3,97 +3,57 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "2d73fb7e8c246a3ad02e5f525046f3afba699047c352f430d5b2f9afaf541cd7",
-      "first_seen_at": "2026-10-06T17:17:43.398973+00:00",
-      "published_at": "2026-10-01T00:00:00+00:00",
+      "doc_id": "12d2ea4aa11b0e85f5290042c99ee8f2c60575e1d4dec4b56d549cc3c33cfdb4",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-26T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A mortgage payment credited a day late, or a partial payment parked in suspense that triggers a delinquency, or a late fee charged on an unpaid late fee, each violates Regulation Z's payment-handling rules and each is the kind of error an automated cashiering flow produces at scale. Where an AI servicing agent applies payments under 12 CFR 1026.36(c), how suspense is supposed to work, and the date-stamp decision that prevents a phantom late fee.",
-      "title": "Crediting the Payment on the Day It Arrives: Partial Payments, Suspense, and the Late Fee an AI Servicing Agent Must Never Create"
+      "summary": "A loan that defaults on its first payment, or pays off in month four, is a loan your pre-funding QC already passed. Both are post-funding signals that something upstream was wrong, and most QC programs never route them back to the decision that let the file through. A production view of how we turn early payment default and early payoff into a closed loop that corrects the agent, not just the file.",
+      "title": "The Loan That Missed Payment One Was Clean When You Shipped It: Early Payment Default, Early Payoff, and the Feedback Loop Your QC Program Is Missing"
     },
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "718f05258d84418f3c02f810359749e92f9ee7bd266b1417e89dcd5b644cb407",
-      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
-      "published_at": "2026-10-03T00:00:00+00:00",
+      "doc_id": "1ad2dfb15bbcf15ea50aeeb0f9d6608c45cf3fde73e183a9fb8741e885a3f452",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The industry still measures time to close in the mid-forties of days, and very little of that is work. It is a loan sitting in a queue between two people who are each busy with a different file. A production leader's map of where the dead time hides, which regulatory clocks keep running while the loan waits, and which gaps an AI agent closes without touching a decision anyone is accountable for.",
-      "title": "A Mortgage Takes Forty-Odd Days and Spends Most of Them Waiting: Where the Time Actually Goes, and the Days an AI Agent Gives Back"
+      "summary": "Collateral fraud is the most expensive kind a lender can fund, because the loss lands on a property that was never worth the loan. How value inflation, cherry-picked comparables, condition misrepresentation, edited photos and flip chains show up in a mortgage file, what FHA's anti-flipping rule at 24 CFR 203.37a and appraiser independence under Regulation Z require, and the collateral checks an AI agent can run on every appraisal rather than a sample.",
+      "title": "Appraisal Fraud and Illegal Property Flipping: Detecting Inflated Values Before the Loan Funds"
     },
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "8dbb6895ea19ce3123f14539adad60bde30729ef1fe3271b86aed368fef39b66",
-      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
-      "published_at": "2026-10-06T00:00:00+00:00",
+      "doc_id": "309c7a955faca4e3532b9929a7995b2687127e95327c8a1962f1cf4587d21783",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-22T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A copilot's ceiling is the number of hours your staff spend asking it things, which is exactly the resource a mortgage operation is short of. The work that actually clogs a loan runs for days and nobody is sitting there prompting it. What changes when an agent holds the goal instead of answering a question, and the specific controls that keep an autonomous agent inside a boundary an examiner will accept, under SR 11-7 and ECOA.",
-      "title": "A Copilot Waits to Be Asked: Why the Manual Middle of a Mortgage Needs an Agent That Holds the Goal, and How You Bound What It Does"
+      "summary": "A paystub edited in a browser tab used to need a steady hand. Now it needs a prompt. The volume of altered and fully synthetic income and asset documents hitting mortgage intake is rising because the tools to make them got free and good, and the human eye that used to catch the clumsy ones is no match for the clean ones. What a document-authenticity agent actually checks beyond reading the numbers, why the detection model is itself governed under SR 11-7, and where catching a forgery becomes a SAR obligation rather than a decline.",
+      "title": "The Forged Document Problem AI Made Worse, and the Detection Desk That Answers It"
     },
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "9dcc45cc25de92aa774c893838ea569fef6e311a1ed68aaed56e813f6463c7ce",
-      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
-      "published_at": "2026-10-02T00:00:00+00:00",
+      "doc_id": "3b1c9b37297b1dc50d3aac3edffa5e979de4eba42822f902a8044576fb19b633",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-22T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "Every mortgage AI pitch leads with an automation rate, and it is the one number that can be high while the deployment is failing. A straight-through rate rises when you lower the confidence floor, which is also how confident errors start reaching the loan. The four measurements we actually hold a mortgage deployment to, why the exception rate matters more than the automation rate, and how SR 11-7 and the NIST AI RMF turn these from a dashboard into a control.",
-      "title": "The Metric That Lies: Why Automation Rate Is the Wrong Number to Lead With, and the Four We Report Instead"
+      "summary": "A paid-off loan is a closed file to the servicing floor and an open statutory deadline to fifty state legislatures. Most states give the servicer a fixed window, often 30 to 90 days, to record the satisfaction or reconveyance, and many attach a per-violation penalty plus the borrower's damages and attorney fees. The deadline runs per loan, per state, per recording jurisdiction, which is exactly the kind of obligation that falls through a servicing operation's cracks. How an AI agent tracks the release clock to the county and proves it met it.",
+      "title": "The Lien Release Clock: Why the Last Step in Servicing Is the One That Gets Servicers Sued"
     },
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "c14d53c08310a1a571b82061561432df181b40dc3804c2e1298a210f06df4f24",
-      "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
-      "published_at": "2026-10-11T00:00:00+00:00",
+      "doc_id": "641bbf30c2fbc179154ad67189f4a2d0431e94fbe9fe61fec88eb2daa3cc8f75",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-29T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "A lease says one number, the appraiser's Form 1007 says another, and Schedule E says a third, and an underwriter has to pick the right one under rules that change by occupancy and by how long the borrower has owned the property. How an AI agent produces an auditable rental-income figure under Fannie Mae B3-3.1-08, where the 75 percent factor applies, and the reasonableness call the underwriter still owns.",
-      "title": "Rental Income Is Three Different Numbers and Only One of Them Qualifies the Borrower: AI on the Investment-Property Calculation"
+      "summary": "Fannie and Freddie update their selling guides constantly, often with several effective dates inside a single announcement, and a loan in your pipeline is governed by the rule that was in force when its application was dated, not the rule in force today. Most AI mortgage tools hardcode the rules and silently drift out of date. A technical account of how we version-control the rulebook, apply the right rule by effective date, and re-plan in-flight loans when the guide moves underneath them.",
+      "title": "The Guide Changed on Tuesday and You Have 4,000 Loans in Flight: Version-Controlling the Rules an AI Mortgage Agent Reasons Against"
     },
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "c6be4e0f203899fd3931ebb6b084c28a9b9f1aaccd37695cbf4700e0710ff757",
-      "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
-      "published_at": "2026-10-09T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "A warrantable borrower in an unwarrantable project is a denied loan, and the project review is the slowest, least-staffed part of mortgage underwriting. How an AI agent assembles condo project eligibility against Fannie Mae SEL-2023-06, the critical-repairs and special-assessment rules effective September 2023, and where the agent has to stop and hand the warrantability call to a human.",
-      "title": "The Condo Questionnaire Is Where a Clean File Stalls: Project Warrantability With an AI Agent After the Post-Surfside Rules"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
-      "doc_id": "cbb9cb998e738078456bfc315d2df525697f837cb38359922605f7353fd02fc8",
-      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "A lender buys the best extraction tool, the best income tool, the best QC tool, and ends up with eight copies of the same loan that have to be reconciled by hand and an audit trail scattered across eight vendors. The hidden cost is not the license fees. It is the integration tax, the HMDA data-integrity exposure when the systems disagree, and the fair-lending record you cannot assemble because no single system holds the decision. Why shared state beats best-of-breed in a regulated process.",
-      "title": "Eight AI Tools, Eight Copies of the Loan: The Reconciliation Work and the Fractured Audit Trail Nobody Priced Into the Stack"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
-      "doc_id": "cc231a4979e3c406f1551235e5e2af3dd2800c7f6e7a1a81f1f0de6002e1d540",
-      "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
-      "published_at": "2026-10-14T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "Investor reporting and custodial accounting is the servicing function that never calls the borrower and never makes the pitch deck, and it is where a servicer loses its approval. How an AI agent runs the daily reconciliation Fannie Mae's Servicing Guide requires across P&I and T&I custodial accounts, why the scheduled/scheduled rule forces more accounts than people expect, and the line between reconciling the money and moving it.",
-      "title": "The P&I You Remit Is Not the P&I You Collected: Custodial Reconciliation With an AI Servicing Agent"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
-      "doc_id": "d8badf9b02f0e9a406e9f64f22e3ff9c1d5457939f938e660d653d99c4db354f",
-      "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
-      "published_at": "2026-10-16T00:00:00+00:00",
-      "source_kind": "rss",
-      "summary": "When a CFPB or state examiner opens a supervisory exam, the first thing you get is an information request, and an AI-assisted operation has to answer questions the exam procedures were written before anyone was asking. What examiners actually request, how the modules in the CFPB manual map onto an automated file, and the evidence that lets you answer \"how did the machine decide this\" in a sitting instead of a scramble.",
-      "title": "The Exam Starts With a Document Request, Not a Conversation: Preparing an AI-Assisted Mortgage Operation for Supervision"
-    },
-    {
-      "company_key": "yc-sei",
-      "company_name": "Sei",
-      "doc_id": "ea27680de744aa4f875a43cac57a9942ec0c602761bac959a7257dec74cdff37",
+      "doc_id": "66e485797cbdf128e6ed1127447dfe7480b8e0ef5e6c6806447b73a05ee32625",
       "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
       "published_at": "2026-10-15T00:00:00+00:00",
       "source_kind": "rss",
@@ -103,12 +63,202 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
-      "doc_id": "efbb3539db070dd418bf45f92bc03865f62cbf96ac23e428bcb5bd51df0cab08",
+      "doc_id": "76de93e649e1abb48ef58c8e6c9292945c5303718960a0a61732922b0b6b943d",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Every mortgage AI pitch leads with an automation rate, and it is the one number that can be high while the deployment is failing. A straight-through rate rises when you lower the confidence floor, which is also how confident errors start reaching the loan. The four measurements we actually hold a mortgage deployment to, why the exception rate matters more than the automation rate, and how SR 11-7 and the NIST AI RMF turn these from a dashboard into a control.",
+      "title": "The Metric That Lies: Why Automation Rate Is the Wrong Number to Lead With, and the Four We Report Instead"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "79e5e943ce29ec2024d24390417e8067737958f53fae8647c2a2f24a1a8c2cb0",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A copilot's ceiling is the number of hours your staff spend asking it things, which is exactly the resource a mortgage operation is short of. The work that actually clogs a loan runs for days and nobody is sitting there prompting it. What changes when an agent holds the goal instead of answering a question, and the specific controls that keep an autonomous agent inside a boundary an examiner will accept, under SR 11-7 and ECOA.",
+      "title": "A Copilot Waits to Be Asked: Why the Manual Middle of a Mortgage Needs an Agent That Holds the Goal, and How You Bound What It Does"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "82d947494fe7801dbaedd71dab0e2b88e0abf141d88a8bd5237d07931b5d9815",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When the automated underwriting system offers value acceptance, the lender gets to skip the appraisal, and gets to own the collateral value with full representation-and-warranty liability for the life of the loan. That is a decision, not a default, and most shops make it by reflex because the waiver is faster and cheaper. How we build an agent that decides whether to accept the offer on each file, documents why, and knows the difference between value acceptance and value acceptance plus property data, without ever touching the number the way an appraiser would.",
+      "title": "Taking the Appraisal Waiver, or Not: The Value-Acceptance Decision an AI Agent Should Make and Document"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "856795081ba17487f0f50e87922cad787403f5f2dfc24b08526837942bd95a86",
       "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
       "published_at": "2026-10-08T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "The bulk of a servicing call center's volume is a handful of repeatable questions: my payment, my escrow, my payoff, my statement, my options. They are automatable, and each one has a trapdoor, because a casual answer can misstate what a borrower owes or walk past a sentence that was legally a notice of error. How we let an AI agent handle the repeatable volume while recognizing the moment a question becomes an obligation with a clock.",
       "title": "Most Servicing Calls Are the Same Five Questions: Answering Them With an AI Agent Without Turning an Answer Into a Reg X Notice or a UDAAP Problem"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "8c250fe606ed87a389a289588675dd62f8e8a09604c9bb1bee69d5ff120995e0",
+      "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
+      "published_at": "2026-10-14T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Investor reporting and custodial accounting is the servicing function that never calls the borrower and never makes the pitch deck, and it is where a servicer loses its approval. How an AI agent runs the daily reconciliation Fannie Mae's Servicing Guide requires across P&I and T&I custodial accounts, why the scheduled/scheduled rule forces more accounts than people expect, and the line between reconciling the money and moving it.",
+      "title": "The P&I You Remit Is Not the P&I You Collected: Custodial Reconciliation With an AI Servicing Agent"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "9435ea4289a1fe4356e628b278e68f095e70e377b03609e2a870769b304212c7",
+      "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When a CFPB or state examiner opens a supervisory exam, the first thing you get is an information request, and an AI-assisted operation has to answer questions the exam procedures were written before anyone was asking. What examiners actually request, how the modules in the CFPB manual map onto an automated file, and the evidence that lets you answer \"how did the machine decide this\" in a sitting instead of a scramble.",
+      "title": "The Exam Starts With a Document Request, Not a Conversation: Preparing an AI-Assisted Mortgage Operation for Supervision"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "9d7c105e341e4f540a4f2729a815abcc1d0e49e66bb275ade5dac5b709f31801",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A DSCR loan lives or dies on one classification the underwriter makes before touching the ratio: is this credit primarily for a business purpose, and therefore outside Regulation Z's ability-to-repay rule, or not. Get it wrong and a loan you priced as exempt is now a consumer mortgage with no ATR determination behind it. How we build an agent that computes the coverage ratio and, more important, documents the business-purpose call under 12 CFR 1026.3(a) so an investor and an examiner can both follow it.",
+      "title": "Underwriting DSCR Investor Loans with AI: The Business-Purpose Determination That Keeps the Loan Out of Ability-to-Repay"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "9fa07ec5da4ddb3f1d4915c450c3be771cea8a8a49ed8671ee7e20260bd38217",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Some mortgage fraud is not about the borrower at all. It is about the deal: a purchase price that changed after signing, a seller rebate paid outside closing, cash back disguised as a repair credit, a second lien nobody disclosed, a seller who does not own the property. How each scheme shows up across the contract, the appraisal, the Closing Disclosure and the bank statements, the interested party contribution limits it is designed to evade, and the tie-out an AI agent runs on every file.",
+      "title": "Dual Contracts, Hidden Seller Credits and Cash Back at Closing: Mortgage Fraud in the Transaction Itself"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "aaa9fc8adfcde7d684fb9d09af5617879958b7806f422592ec07abc6f6161bf8",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-07T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A lender buys the best extraction tool, the best income tool, the best QC tool, and ends up with eight copies of the same loan that have to be reconciled by hand and an audit trail scattered across eight vendors. The hidden cost is not the license fees. It is the integration tax, the HMDA data-integrity exposure when the systems disagree, and the fair-lending record you cannot assemble because no single system holds the decision. Why shared state beats best-of-breed in a regulated process.",
+      "title": "Eight AI Tools, Eight Copies of the Loan: The Reconciliation Work and the Fractured Audit Trail Nobody Priced Into the Stack"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "b89bed397555aaeb05321b5d9a60c30cd6d947044c9fdc207a649ca5da1bcbe0",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A model that scores a loan in 300 milliseconds is easy to validate. An agent that holds a goal across weeks, re-plans as the file changes, and makes dozens of decisions along the way is not, and the usual accuracy-on-a-test-set approach misses most of what can go wrong. A technical account of the eval harness we run, the golden loan files we maintain, the backtest against historical underwriter decisions, and how ongoing monitoring under SR 11-7 and the NIST AI RMF applies to something that behaves more like a colleague than a classifier.",
+      "title": "How You Test an Agent That Runs for 30 Days Before It Touches a Live Loan: Golden Files, Backtesting, and the Eval Harness SR 11-7 Actually Wants"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "bb6134f00fa6b62b19f4e08094b06d9092eae84f7c52e0facdcc5b89523d94ed",
+      "first_seen_at": "2026-10-06T17:17:43.398973+00:00",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A mortgage payment credited a day late, or a partial payment parked in suspense that triggers a delinquency, or a late fee charged on an unpaid late fee, each violates Regulation Z's payment-handling rules and each is the kind of error an automated cashiering flow produces at scale. Where an AI servicing agent applies payments under 12 CFR 1026.36(c), how suspense is supposed to work, and the date-stamp decision that prevents a phantom late fee.",
+      "title": "Crediting the Payment on the Day It Arrives: Partial Payments, Suspense, and the Late Fee an AI Servicing Agent Must Never Create"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "bc71749e1f74e0db07f4ae408edec18762d1171a65ab9385a9d9d46c9f0f0254",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A gift toward the down payment is the one place in asset verification where the paper trail and the relationship both have to hold, and where the sourcing question quietly becomes a Bank Secrecy Act question. How we build an agent that documents the donor, the transfer, and the availability of funds, tells a personal gift apart from a gift of equity and a DPA second, and knows the exact point at which it stops verifying and escalates to a human.",
+      "title": "Whose Money Is It, and Can You Prove It: Verifying Gift Funds and Down-Payment Assistance With an AI Agent Under Fannie B3-4.3-04"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "cb65ebfeeae7d3699ae482ff7edd9905ee0e10e66fb8b065d1f52efb8f0cd854",
+      "first_seen_at": "2026-10-09T04:59:05.081656+00:00",
+      "published_at": "2026-10-03T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "The industry still measures time to close in the mid-forties of days, and very little of that is work. It is a loan sitting in a queue between two people who are each busy with a different file. A production leader's map of where the dead time hides, which regulatory clocks keep running while the loan waits, and which gaps an AI agent closes without touching a decision anyone is accountable for.",
+      "title": "A Mortgage Takes Forty-Odd Days and Spends Most of Them Waiting: Where the Time Actually Goes, and the Days an AI Agent Gives Back"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "dac8c2e58d2ba9e03bdd320bd7deab610d76a57655a6c866279d09434e88e92b",
+      "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
+      "published_at": "2026-10-11T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A lease says one number, the appraiser's Form 1007 says another, and Schedule E says a third, and an underwriter has to pick the right one under rules that change by occupancy and by how long the borrower has owned the property. How an AI agent produces an auditable rental-income figure under Fannie Mae B3-3.1-08, where the 75 percent factor applies, and the reasonableness call the underwriter still owns.",
+      "title": "Rental Income Is Three Different Numbers and Only One of Them Qualifies the Borrower: AI on the Investment-Property Calculation"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "dad27ab250a3089bf8430ec380f379f100c929990a505a7793b8f7c6e8900a68",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A hurricane does not deliver its delinquencies one at a time. A FEMA major-disaster declaration can put thousands of loans into distress in the same week, and the servicer still has to offer each borrower the right relief, hold every Reg X protection, and keep the collateral and the escrow straight while the call volume triples. How we build a servicing agent for the event that breaks a queue-based operation by arriving all at once.",
+      "title": "When a Disaster Hits the Whole Portfolio on the Same Day: Running Natural-Disaster Forbearance With an AI Servicing Agent"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "df57fc9e3b3f22bd686f6d2ce452c60c2d5ca2883dea4f840e277859a2517478",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Most fraud checks ask whether the borrower told the truth. Identity fraud asks a prior question: whether the borrower on the file is the person who will own, pay for and live in the property at all. How straw-buyer schemes, synthetic identities and credit privacy numbers show up in a mortgage file, what SSA's eCBSV and the Red Flags Rule give a lender to work with, the fair-lending trap in naive identity rules, and what an AI agent can and cannot conclude.",
+      "title": "Straw Buyers, Synthetic Identities and CPNs: Detecting Mortgage Fraud When the Borrower Is Not Who the File Says"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "ebefa4fff851bf0b9f12e7490d7c18404f91ddf0d640da3bec3b0854460866cb",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Fraud does not stop when the loan funds. Servicers see fabricated hardship packages, foreclosure rescue schemes that strip a distressed homeowner's equity, short sales to related buyers who resell days later, landlord insurance on loans closed as owner-occupied, and payoff funds redirected by a forged request. How each scheme shows up in the documents a servicer already receives, the rules around them, from Regulation X to the MARS rule, and where an AI agent fits without slowing down a borrower who needs help.",
+      "title": "Mortgage Fraud After Closing: Loss Mitigation Fraud, Equity Skimming, Short-Sale Flopping and Payoff Diversion"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "f9c21704b84a842b065d5fc17ee4f83e90b6ee2680f448181fc8586ac1e604ff",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A fabricated paystub can carry the right logo, the right font and a plausible salary, and still fail a check any underwriter can run with a calculator: Social Security is 6.2% of Social Security wages up to the wage base, Medicare is 1.45% plus 0.9% above $200,000, and a W-2's boxes have to agree with each other. The statutory withholding tests that catch income fraud, why a 401(k) and a cafeteria plan change the math, where the checks produce false positives, and how an AI agent runs them on every stub instead of the ones that look wrong.",
+      "title": "How to Spot a Fake Paystub or W-2 With Arithmetic: The Withholding Math Forgers Get Wrong"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "fd2ff47fce5455bce16a5e2eb81c689445c25da3d436567bc57e524f429d8967",
+      "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
+      "published_at": "2026-10-09T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A warrantable borrower in an unwarrantable project is a denied loan, and the project review is the slowest, least-staffed part of mortgage underwriting. How an AI agent assembles condo project eligibility against Fannie Mae SEL-2023-06, the critical-repairs and special-assessment rules effective September 2023, and where the agent has to stop and hand the warrantability call to a human.",
+      "title": "The Condo Questionnaire Is Where a Clean File Stalls: Project Warrantability With an AI Agent After the Post-Surfside Rules"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "ff063b79f8b81ce88741ad5ef07781efdc3b3020969b425b387917fa9db071e6",
+      "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A pre-approval letter is a sales asset to the growth team and a legal event to the compliance team, and an AI agent that issues them at scale sits exactly on the seam. Whether the letter is a prequalification, a preapproval, or an application changes what the lender owes the borrower: an adverse action notice on a decline, a Loan Estimate in three days, a fair-lending record of the criteria applied. How we build the agent to know which of the three it just produced, and to never issue the strong letter off the weak file.",
+      "title": "When an AI-Generated Pre-Approval Letter Becomes an Application: The Reg B Line Digital Lenders Keep Crossing"
     }
   ],
   "company_key": "yc-sei",

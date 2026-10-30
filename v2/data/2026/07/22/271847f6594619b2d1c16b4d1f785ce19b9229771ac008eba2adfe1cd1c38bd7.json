@@ -9,7 +9,7 @@
   "url": "https://www.mezmo.com/newsroom/making-data-agent-ready",
   "canonical_url": "https://www.mezmo.com/newsroom/making-data-agent-ready",
   "title": "Making Data Agent Ready - an interview with Software Huddle",
-  "summary": "Making Data Agent Ready - an interview with Software Huddle",
+  "summary": "Andre Elizondo tells Software Huddle why the team built a custom Rust orchestrator, how memory and self-correction work, and where MCP versus Skills fits.",
   "body_markdown": "Mezmo's Director of Innovation Andre Elizondo joined Software Huddle to talk about AURA, the company's open-source agentic harness for SREs. The conversation covers Mezmo's roots in observability data at scale (logs, traces, metrics) and how AURA addresses a fundamental challenge: as system complexity outpaces human capacity, how do you make telemetry data actionable for AI agents?\n\n\nKey topics include context engineering (preparing data to be agent-ready before it reaches the model), why the team built a custom orchestrator in Rust, how AURA handles memory and self-correction within agent loops, their perspective on MCP versus Skills and code sandboxing, and how the SRE role is shifting as agents become trusted operational teammates.\n\n\n‍",
   "published_at": null,
   "first_seen_at": "2026-07-22T04:13:37.000074+00:00",

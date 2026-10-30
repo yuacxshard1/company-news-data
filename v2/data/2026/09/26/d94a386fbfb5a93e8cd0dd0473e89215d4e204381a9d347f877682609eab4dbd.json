@@ -9,7 +9,7 @@
   "url": "https://opalitehealth.com/blog/ai-interpreter-chinese-dialect-support",
   "canonical_url": "https://opalitehealth.com/blog/ai-interpreter-chinese-dialect-support",
   "title": "Chinese Medical Interpretation: Testing Mandarin and Cantonese AI Accuracy",
-  "summary": "Learn how to test AI medical interpretation for Mandarin and Cantonese, including language identification, accents, code-switching, medications, numbers, negation, and clinical speech.",
+  "summary": "Learn how to test AI medical interpretation for Mandarin and Cantonese, including language identification, accents, code-switching, medications.",
   "body_markdown": "###\n\n\nNo. Mandarin and Cantonese are distinct spoken varieties and are generally not mutually intelligible, so they should be identified and tested separately for clinical interpretation.\n\n\n###\n\n\nUsually not for spoken interpretation. A clinical workflow should identify the patient's actual spoken variety, such as Mandarin or Cantonese, whenever possible.\n\n\n###\n\n\nTest each separately using real clinical speech, several speakers, accents, code-switching, medication names, numbers, negation, symptoms, and recovery from unclear turns.\n\n\n###\n\n\nPatients may use English medication names, acronyms, or medical terms inside Mandarin or Cantonese speech. The interpreter needs to preserve those terms in context.\n\n\n###\n\n\nYes, if the system supports the patient's spoken variety and performs well on realistic clinical speech. Hospitals should test Mandarin and Cantonese separately instead of relying on a broad Chinese-language claim.",
   "published_at": "2026-09-26T02:28:46.705+00:00",
   "first_seen_at": "2026-09-26T23:12:12.214569+00:00",

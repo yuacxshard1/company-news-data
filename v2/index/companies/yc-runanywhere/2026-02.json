@@ -7,8 +7,18 @@
       "first_seen_at": "2026-07-24T00:25:59.131595+00:00",
       "published_at": "2026-02-22T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "FastVoice achieves 63ms first-audio latency — well under the 200ms perceptual threshold — by composing STT, LLM, and TTS into a single C++ pipeline on Apple Silicon. No cloud. No network. Just speed.",
+      "summary": "FastVoice reaches 63 ms first-audio latency, well under the 200 ms perceptual threshold, by composing STT, LLM and TTS into a single C++ pipeline on Apple Silicon. It runs with no cloud and no network.",
       "title": "FastVoice: 63ms First-Audio Latency for On-Device Voice AI on Apple Silicon"
+    },
+    {
+      "company_key": "yc-runanywhere",
+      "company_name": "RunAnywhere",
+      "doc_id": "40d5015d3cc3aefca93b0fa3ac7fb949644baa974bf6cb48b1b92aadedcc818d",
+      "first_seen_at": "2026-07-24T00:26:00.403075+00:00",
+      "published_at": "2026-02-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "RunAnywhere SDK v0.17.5 unifies LLM and voice AI across Swift, Kotlin, Flutter, and React Native for privacy-first, offline on-device AI apps.",
+      "title": "RunAnywhere SDK v0.17.5: Cross-Platform On-Device AI"
     },
     {
       "company_key": "yc-runanywhere",
@@ -27,7 +37,7 @@
       "first_seen_at": "2026-07-24T00:25:59.131595+00:00",
       "published_at": "2026-02-24T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "We added hybrid retrieval (BM25 + vector search) to our on-device voice pipeline. Retrieval adds less than 4ms. The real cost is LLM prefill — but word-level flushing absorbs it. Sub-200ms first-audio on 5,016 chunks with zero cloud dependencies.",
+      "summary": "We added hybrid retrieval (BM25 plus vector search) to our on-device voice pipeline. Retrieval adds less than 4 ms, word-level flushing absorbs the extra LLM prefill, and first audio stays under 200 ms over 5,016 chunks with no cloud.",
       "title": "FastVoice RAG: Sub-200ms Voice AI with Retrieval-Augmented Generation, Entirely On-Device"
     },
     {

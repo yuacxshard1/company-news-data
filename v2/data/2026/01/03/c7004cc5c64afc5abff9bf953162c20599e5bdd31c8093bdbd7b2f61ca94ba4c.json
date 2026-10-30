@@ -13,5 +13,5 @@
   "body_markdown": "Our retrieval precision has been further optimized for healthcare, legal, and financial RAG use cases. We have employed a number of techniques to increase accuracy, namely long-context document embedding and automatic domain detection.\n\n\nLong-context document embedding entails the embedding of the entire context of a file and supplementing it with the narrow chunk content. This provides both broad and narrow semantic value during similarity lookups.\n\n\nAutomatic domain detection allows Captain to index domain-specific terms within a BM25 index (to supplement dense vector search). This development solves the long-standing issue within RAG (and search more broadly) of domain-specific terms getting \"lost\" without proper vector correlations.\n\n\nBy combining these two techniques and weighing them, search results provide a better understanding of complex document narratives and niche industry terms like drug names or non-English legal terms.",
   "published_at": "2026-01-03T00:00:00+00:00",
   "first_seen_at": "2026-08-22T07:43:22.060248+00:00",
-  "content_hash": "sha256:4cb6f16c4d172fa06e17e9f6b6b949e0fc315826d9b65407ba58dff38bc8418e"
+  "content_hash": "sha256:d84d565826718528255cb9e8de8ed2729498ad42cc7fdb81e3a69eaac59c06f3"
 }

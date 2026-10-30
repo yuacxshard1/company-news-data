@@ -127,7 +127,7 @@
       "first_seen_at": "2026-07-21T08:04:02.365197+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Compare the best free speech-to-text options in 2026—free-tier APIs like AssemblyAI vs. open-source engines like Whisper—on accuracy, features, and cost.",
+      "summary": "\"Free\" speech-to-text means two things: free-tier APIs you call over the network, and open-source engines you self-host. Here's how to compare both and pick the right one.",
       "title": "Best Free Speech-to-Text APIs & Open-Source Engines (2026)"
     },
     {
@@ -167,7 +167,7 @@
       "first_seen_at": "2026-07-21T08:04:02.365197+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Speech-to-text converts spoken audio into text with AI. Learn how it works, the types, accuracy factors, use cases, and how to choose a model in 2026.",
+      "summary": "Speech-to-text is AI that converts spoken audio into text automatically. It powers transcription, live captioning, voice agents, and searchable audio—with top models now under 7% word error rate.",
       "title": "What is speech to text? The complete guide"
     },
     {
@@ -177,7 +177,7 @@
       "first_seen_at": "2026-07-21T08:04:01.744114+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Today, we deliver further improvements to our best-in-class Universal speech-to-text model family for three industry-critical languages: English, German, and Spanish.",
+      "summary": "New improvements to our Universal model enhance speech-to-text performance across three key languages.",
       "title": "Universal speech-to-text model leads in English, German, and Spanish"
     },
     {
@@ -187,7 +187,7 @@
       "first_seen_at": "2026-07-24T08:06:00.112884+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Universal-Streaming delivers the streaming speech-to-text voice agents have been missing: fast immutable transcripts, higher accuracy, built-in endpointing, and pricing that scales with you.",
+      "summary": "Universal-Streaming delivers the streaming speech-to-text voice agents have been missing: faster immutable transcripts, higher accuracy, built-in endpointing, and pricing that scales with you.",
       "title": "Introducing Universal-Streaming: Ultra-Fast, Ultra-Accurate Speech-to-Text for Voice Agents"
     },
     {
@@ -197,7 +197,7 @@
       "first_seen_at": "2026-07-21T08:04:01.744114+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Diarization, recognition, identification, verification—four terms, four different jobs. Learn what each does, when you need which, and how to choose.",
+      "summary": "Diarization, recognition, identification, verification—four words, constantly swapped, each a different job. Here's what each one does, the question it answers, and how to tell which you need.",
       "title": "Speaker diarization vs speaker recognition - what's the difference?"
     },
     {
@@ -227,7 +227,7 @@
       "first_seen_at": "2026-07-21T08:04:02.365197+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Learn how to generate detailed, structured meeting summaries powered by LLMs like Claude 3.5 Sonnet",
+      "summary": "Two ways to build an AI meeting scribe in Python: built-in Summarization and Action Items in the transcription request, or custom prompts through LLM Gateway with the model picked by meeting length.",
       "title": "How to summarize meetings with LLMs"
     },
     {
@@ -297,7 +297,7 @@
       "first_seen_at": "2026-07-21T08:04:02.365197+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Automatic speech recognition (ASR) turns speech into text. Learn how ASR works, how accuracy is measured, and which models lead in 2026.",
+      "summary": "Automatic speech recognition (ASR) converts spoken language into text using AI. Learn how ASR works, how accuracy is measured, and which models lead in 2026.",
       "title": "What is automatic speech recognition (ASR)?"
     },
     {
@@ -327,7 +327,7 @@
       "first_seen_at": "2026-07-21T08:04:01.744114+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Improve transcription accuracy for your industry terminology and specific use cases through prompting, without complex custom model development.",
+      "summary": "Slam-1 is the most powerful prompt-based Speech Language Model that’s customizable to your transcription needs. Improve transcription accuracy for your industry terminology and specific use cases through prompting, without complex custom model development.",
       "title": "Slam-1 now in public beta: the most powerful prompt-based Speech Language Model to unlock real world outcomes"
     },
     {
@@ -337,7 +337,7 @@
       "first_seen_at": "2026-07-21T08:04:01.744114+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Transcribe audio in C# with the built-in HttpClient and ClientWebSocket. Covers file transcription, real-time v3 streaming, LLM Gateway, and sentiment analysis.",
+      "summary": "Use AssemblyAI's Voice AI models from C# with the built-in HttpClient — transcribe files, stream audio in real time over WebSocket, apply LLMs with LLM Gateway, and analyze sentiment.",
       "title": "Speech-to-Text in C#: Transcribe Audio with AssemblyAI"
     },
     {
@@ -347,7 +347,7 @@
       "first_seen_at": "2026-07-21T08:04:02.365197+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Victor Riparbelli, co-founder and CEO of AI video generation company Synthesia, discusses what it’s like to build a visionary AI-first company that focuses on user value and trust with AssemblyAI founder and CEO Dylan Fox.",
+      "summary": "Building a visionary AI-first company that focuses on user value and trust",
       "title": "Building AI-first products, technology readiness, and a deep sense of curiosity"
     },
     {
@@ -357,7 +357,7 @@
       "first_seen_at": "2026-07-21T08:04:02.365197+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "What is conversation intelligence? Learn how AI transcribes and analyzes customer conversations to boost win rates, ROI, and CX in 2026 — plus how to build it on an API-first Voice AI platform.",
+      "summary": "Learn how modern conversation intelligence helps businesses scale insights from customer interactions, boost revenue, and improve operations.",
       "title": "Conversation Intelligence: The complete guide for 2026"
     },
     {
@@ -413,6 +413,16 @@
     {
       "company_key": "yc-assemblyai",
       "company_name": "AssemblyAI",
+      "doc_id": "e9c51edbea729d1e03d212a67ed8a18796c003630d8727483e47749d147a0750",
+      "first_seen_at": "2026-07-21T08:04:01.744114+00:00",
+      "published_at": null,
+      "source_kind": "html",
+      "summary": "Send a short audio clip in one HTTP request and get a finished Universal-3.5 Pro transcript back in the same response, in ~134 ms. No polling, no WebSocket, no job to manage.",
+      "title": "Introducing the Sync API: transcripts in a single call"
+    },
+    {
+      "company_key": "yc-assemblyai",
+      "company_name": "AssemblyAI",
       "doc_id": "eec98377ab5e9bbf8895b3f292c4bf5731f4b88571623fce16237dd84327224c",
       "first_seen_at": "2026-07-21T08:04:01.744114+00:00",
       "published_at": null,
@@ -427,7 +437,7 @@
       "first_seen_at": "2026-07-21T08:04:02.365197+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "AI voice agents automate real conversations end to end. Learn how they work, what they cost, the architectures, and how to build one in 2026.",
+      "summary": "AI voice agents are conversational systems that understand spoken language and respond with human-like speech to automate real conversations—answering calls, booking appointments, and resolving support end to end.",
       "title": "AI voice agents: what they are and how they work in 2026"
     },
     {
@@ -447,7 +457,7 @@
       "first_seen_at": "2026-07-22T08:04:49.593567+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "",
+      "summary": "Introducing LeMUR, our new framework for applying powerful LLMs to transcribed speech With a single line of code, LeMUR can quickly process audio transcripts for up to 10 hours worth of audio content, which effectively translates into ~150k tokens, for tasks like summarization and question answer.",
       "title": "LeMUR: Now Available for Early Access"
     },
     {
@@ -467,7 +477,7 @@
       "first_seen_at": "2026-07-21T08:04:01.744114+00:00",
       "published_at": null,
       "source_kind": "html",
-      "summary": "Universal-2-TF introduces a two-stage neural text formatting model for ASR that combines token classification and sequence-to-sequence approaches to efficiently handle punctuation, capitalization, and text normalization while achieving superior accuracy across diverse domains.",
+      "summary": "Universal-2 builds on Universal-1, pushing Speech-to-Text further by improving accuracy overall and in the areas critical to real-world use: proper nouns, formatting, and alphanumerics.",
       "title": "Universal-2: Comprehensive Speech-to-Text for solving last-mile challenges"
     }
   ],

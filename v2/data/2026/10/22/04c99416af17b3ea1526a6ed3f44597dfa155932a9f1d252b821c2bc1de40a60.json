@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "04c99416af17b3ea1526a6ed3f44597dfa155932a9f1d252b821c2bc1de40a60",
+  "company_key": "yc-slite",
+  "company_name": "Slite",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://slite.com/changelog/relative-and-range-date-filters",
+  "canonical_url": "https://slite.com/changelog/relative-and-range-date-filters",
+  "title": "Relative and range date filters",
+  "summary": "Slite is the self-maintaining AI knowledge base that stays accurate. Verified by your team, synced with your tools, trusted by every agent.",
+  "body_markdown": "Date, Created date and Updated date filters accept relative values (Today, Yesterday, Tomorrow, one week or one month ago or from now) with *is on or after* and *is on or before* , resolved to each viewer's own day. A new *is between* filter takes a date range from a calendar picker. Saved views keep their dates current, with nothing to update.\n\n\n### Heavy tables load much faster\n\n\nSmart tables with lots of rows, columns and rich text can now load and sort up to 10x faster. Open your biggest table to see the difference.\n\n\n### A minimap in find in doc\n\n\nPress Cmd+F (Ctrl+F on Windows) and every match shows on a minimap of the document, so you can see where the hits are and jump straight to them.\n\n\n### Improvements\n\n\n- **More native embeds.** Figma, Scribe, Airtable and unlisted Vimeo links embed directly, and X links no longer unfurl automatically.\n- **Signup points you to your team.** If your email domain can join an existing workspace, Slite asks before creating a new one, with joining as the main option. Each signup step has its own URL, so back and refresh work.\n- **In-doc AI runs on Claude Haiku 5.5.** Summarize, Improve with AI, Ask in doc and Generate a directory now run on Claude Haiku 5.5. They show in your usage ledger and don't use credits.\n- **Step through doc history.** Step controls let you move through each change in a version, one at a time.\n- **Notion imports keep linked database views.** Linked views resolve to their collection and keep their hidden columns.\n\n\n### Fixes\n\n\n- Embedded collections remember the view you pick after a reload.\n- Ask on a doc keeps the citations on earlier answers when you ask again.\n- Your markdown or rich-text choice for AI answers stays set across prompts.\n- A formula or chart that can't render now shows an inline fallback.\n- Docs with hundreds of emojis open quickly.\n- Pasting a code block into a table works.",
+  "published_at": "2026-10-22T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T14:38:41.452082+00:00",
+  "content_hash": "sha256:106c0b214f4d39d745cd62246e49f82611fac93257532d8936b2c3126d04f5e6"
+}

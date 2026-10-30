@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "85f03511eccd0f623ebe692b99ec494d9193141e4a0d7b1588aa20641fc9a7c3",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/releases/faster-testing-qtest-integration-more/",
+  "canonical_url": "https://testrigor.com/releases/faster-testing-qtest-integration-more/",
+  "title": "testRigor Release: Faster Testing, qTest Integration & More",
+  "summary": "Test Suite Deletion Users can now delete test suites directly from the Test Suites page. To delete a test suite, navigate to the Test Suites page, locate the suite you want to remove, click the three-dot menu on the right, and select Delete. Deleted test suites will be moved to the Trash Bin, where you ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## Test Suite Deletion\n\n\nUsers can now delete test suites directly from the **Test Suites** page. To delete a test suite, navigate to the **Test Suites** page, locate the suite you want to remove, click the three-dot menu on the right, and select **Delete** .\n\n\nDeleted test suites will be moved to the **Trash Bin** , where you can view and manage all previously deleted suites. From there, you can either **restore** a test suite or **permanently delete** it.\n\n\n## Advanced Caching\n\n\nWe’ve introduced a new **Advanced Caching** setting designed to improve test execution speed. When enabled, this optimization speeds up test case steps that rely on reading page content, helping reduce overall execution time.\n\n\nYou can find this setting under the **Speed Optimizations** tab in your test suite settings.\n\n\n## Faster iPhone Devices\n\n\nWe’ve introduced new iPhone devices designed to significantly reduce startup times, allowing your mobile tests to begin executing faster. You can select these devices when creating a new test suite or by navigating to the settings of an existing suite.\n\n\nThe new device option is **iPhone 17 – iOS 27.0 (arm64)** , labeled **“Fastest to launch”** . It will be set as the default when creating a mobile test suite using iOS.\n\n\n## qTest Integration\n\n\nWe’ve introduced support for **qTest integration** , allowing users to connect their testRigor test suites with qTest. To configure this integration, navigate to your test suite’s **Settings** , click the **Integrations** tab, and scroll down to the **qTest Integration** section. From there, you can configure the integration to connect your test suite with qTest.",
+  "published_at": "2026-10-20T22:47:29+00:00",
+  "first_seen_at": "2026-10-30T15:23:43.926967+00:00",
+  "content_hash": "sha256:803cac27d36bc83138b939eec4a52a1e80a6b6fdb70226fdf01df444233c3c72"
+}

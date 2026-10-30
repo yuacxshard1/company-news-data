@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "527ed0c1c88667f9cc34e0357490c720df6d6cb7852503a6693642d787854be9",
+  "company_key": "yc-asayer",
+  "company_name": "OpenReplay",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.openreplay.com/t/not-recorded-data-on-ios-simulator/579#post_1",
+  "canonical_url": "https://forum.openreplay.com/t/not-recorded-data-on-ios-simulator/579",
+  "title": "Not recorded data on iOS simulator",
+  "summary": "Xcode 26.2 Simulator: iPhone 17 (why iPhone 14 Plus I don’t know :D) SDK-version - 1.0.17 I have been integrated OpenReplay SDK My integration example: In AppDelegate: func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) → Bool { Openreplay.shared.serverURL = \"https://openreplay.host.ru\" (MOCK, real url is in my project) Openreplay.shared.start(projectKey: \"KEY\", options: .defaults) (MOCK, real url is ...",
+  "body_markdown": "Xcode 26.2\nSimulator: iPhone 17 (why iPhone 14 Plus I don’t know :D)\n\n\nSDK-version - 1.0.17\n\n\nI have been integrated OpenReplay SDK\nMy integration example:\nIn AppDelegate:\n**func** application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: \\[UIApplication.LaunchOptionsKey: **Any** \\]?) → Bool {\n\n\n```text\nOpenreplay.shared.serverURL = \"https://openreplay.host.ru\" (MOCK, real url is in my project)\n\n\nOpenreplay.shared.start(projectKey: \"KEY\", options: .defaults) (MOCK, real url is in my project)\n\n\nOpenreplay.shared.setUserID(UUID().uuidString)\n....\n\n\n**return** **true**\n\n\n}\n\n\n```\n\n\nin SceneDelegate:\n**func** scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {\nif let windowScene = (scene **as** ? UIWindowScene) {\nwindow = TouchTrackingWindow(windowScene: windowScene)\n… etc\n}\n\n\nI can see my touches during all session but this pic is static.\n\n\n[Снимок экрана 2026-10-21 в 12.03.37 1796×1346 144 KB](https://europe1.discourse-cdn.com/flex006/uploads/openreplay/original/1X/08a54505fa94a944e9f73b6e7225e108ca11d1ee.png)",
+  "published_at": "2026-10-21T09:19:51+00:00",
+  "first_seen_at": "2026-10-30T14:05:42.104517+00:00",
+  "content_hash": "sha256:11e47533a6b49f625d67903865f949171685538e704bbc0c252fa339e6019211"
+}

@@ -7,7 +7,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-16T13:05:00+00:00",
       "source_kind": "html",
-      "summary": "Why webhooks alone can't support what AI agents actually need — synchronous access, tenant-aware permissions, and flexible tool execution within a single reasoning step.",
+      "summary": "Why webhooks aren't enough for AI agents — and how a programmable integration layer gives agents synchronous access, tenant-aware permissions, and flexible tool execution.",
       "title": "Why AI Agents Need a Programmable Integration Layer, Not Just Webhooks"
     },
     {
@@ -17,7 +17,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-08T15:35:00+00:00",
       "source_kind": "html",
-      "summary": "Learn how MCP servers connect AI agents to GitHub, Slack, Notion, Linear, Stripe, and more, and discover what to look for when choosing an MCP integration layer.",
+      "summary": "Learn how MCP servers connect AI agents to GitHub, Slack, Notion, Google, Stripe, and more. Compare building vs using existing MCP integrations.",
       "title": "The Complete Guide to MCP Servers: Connecting AI Agents to GitHub, Slack, Notion, and More"
     },
     {
@@ -27,7 +27,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-16T13:18:00+00:00",
       "source_kind": "html",
-      "summary": "A TypeScript developer's guide to wiring integration layers into both the Claude Agent SDK and OpenAI Agents SDK — how tool definitions, hooks, guardrails, and tenant isolation differ across each framework.",
+      "summary": "How Claude Agent SDK and OpenAI Agents SDK handle tool definitions differently — and how to connect a programmable integration layer to both from one TypeScript codebase.",
       "title": "Building With the Claude Agent SDK and OpenAI Agents SDK: A TypeScript Developer's Guide to Integration Layers"
     },
     {
@@ -37,7 +37,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-08T15:27:00+00:00",
       "source_kind": "html",
-      "summary": "Learn how to securely connect AI agents with Google Drive, Calendar, and Sheets using OAuth, MCP, permission gates, and multi-tenant integrations.",
+      "summary": "Learn how to connect AI agents with Google Drive, Calendar, and Sheets using OAuth, MCP servers, permission gates, caching, and secure multi-tenant integrations.",
       "title": "Google Drive, Calendar, and Sheets for AI Agents: The Integration Guide"
     },
     {
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-07-31T18:13:12.417417+00:00",
       "published_at": "2026-07-30T13:52:00+00:00",
       "source_kind": "html",
-      "summary": "Learn how to evaluate an open source project before adopting it by reviewing licensing, governance, security, documentation, production readiness, and AI workflow compatibility.",
+      "summary": "Learn how to evaluate open source projects by assessing licenses, security, governance, documentation, and production readiness before adoption.",
       "title": "How to Evaluate an Open Source Project Before You Build on It"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-14T18:11:00+00:00",
       "source_kind": "html",
-      "summary": "Discover how MCP integration helps businesses connect AI agents to external tools securely, reduce engineering complexity, and scale reliable AI automation with ease.",
+      "summary": "Learn how MCP integration simplifies AI agent connectivity, improves security, reduces development effort, and enables scalable automation across business tools.",
       "title": "How Does MCP Integration Benefit Your Business?"
     },
     {
@@ -67,7 +67,7 @@
       "first_seen_at": "2026-07-26T18:26:28.761597+00:00",
       "published_at": "2026-07-24T12:41:00+00:00",
       "source_kind": "html",
-      "summary": "Closed source integration tools rarely fail loudly. They just put a ceiling on what you can ship, one missing endpoint and one inflexible permission model at a time.",
+      "summary": "Closed source integration tools limit what you can build, hide how credentials are handled, and make migration costly. Here is how open source integration layers stay adaptable as requirements grow.",
       "title": "Why Closed Source Integration Tools Box You In"
     },
     {
@@ -77,7 +77,7 @@
       "first_seen_at": "2026-07-31T18:13:12.417417+00:00",
       "published_at": "2026-07-30T12:57:00+00:00",
       "source_kind": "html",
-      "summary": "Learn why AI agents need an integration layer instead of direct API connections, how reusable connectors and MCP fit together, and what to look for in a production-ready platform.",
+      "summary": "Learn how an integration layer helps AI agents securely connect to SaaS apps with OAuth, reusable connectors, MCP support, and production-ready APIs.",
       "title": "How AI Agents Connect to SaaS Applications: The Integration Layer Explained"
     },
     {
@@ -87,7 +87,7 @@
       "first_seen_at": "2026-07-31T18:13:12.417417+00:00",
       "published_at": "2026-07-30T14:26:00+00:00",
       "source_kind": "html",
-      "summary": "Learn the best practices for building reliable API integrations that withstand API changes through versioning, schema validation, authentication, monitoring, and resilient design.",
+      "summary": "Learn best practices for building reliable API integrations using versioning, retries, monitoring, schema validation, and resilient authentication.",
       "title": "Best Practices for Building Reliable API Integrations That Don't Break When APIs Change"
     },
     {
@@ -97,7 +97,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-16T11:53:00+00:00",
       "source_kind": "html",
-      "summary": "Best practices for multi-tenant OAuth in AI agents — how to structure credential management, scope permissions per tenant, and avoid the mistakes that turn auth into a security liability.",
+      "summary": "Best practices for multi-tenant OAuth in AI agents — credential management, tenant-scoped permissions, token refresh, and avoiding common authentication mistakes at scale.",
       "title": "Multi-Tenant OAuth for AI Agents: Best Practices for Authentication and Credential Management"
     },
     {
@@ -107,7 +107,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-16T07:27:00+00:00",
       "source_kind": "html",
-      "summary": "A developer's guide to Claude Agent SDK integrations, how to wire in custom tools like Jira, Slack, and Google Drive without turning each one into a maintenance project.",
+      "summary": "Learn how to extend the Claude Agent SDK with custom tool integrations from Jira and Slack to coding agents. Covers tool calling frameworks, API key management, and logging.",
       "title": "Claude Agent SDK Integrations: A Developer's Guide to Extending Agents with Custom Tools"
     },
     {
@@ -117,7 +117,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-16T11:48:00+00:00",
       "source_kind": "html",
-      "summary": "How to connect Google Drive to OpenAI Agents SDK — turn passive cloud storage into an intelligent layer your AI agent can search, organize, and share files through naturally.",
+      "summary": "Learn how to connect Google Drive to OpenAI Agents SDK — search files, manage permissions, and automate document workflows with AI agents using the Drive API and MCP.",
       "title": "Connect Google Drive to OpenAI Agents SDK: A Guide"
     },
     {
@@ -127,7 +127,7 @@
       "first_seen_at": "2026-07-26T18:26:28.761597+00:00",
       "published_at": "2026-07-24T12:21:00+00:00",
       "source_kind": "html",
-      "summary": "OAuth setup feels trivial for one integration and turns into an ongoing maintenance job across ten. This post breaks down what manual OAuth really costs a team, why refresh tokens and redirect URIs keep breaking workflows, and what changes when a platform owns that layer instead.",
+      "summary": "Manual OAuth setup quietly drains time through refresh tokens, redirect errors, and re authentication. Learn what it costs teams and how platform managed OAuth keeps automations and AI agents running.",
       "title": "Why Manual OAuth Setup Is Slowing Down Your Workflow Automation"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-16T12:02:00+00:00",
       "source_kind": "html",
-      "summary": "Why closed source integration platforms are a security risk for AI agents — and how open source TypeScript frameworks with self-hosted options give you the auditability multi-tenant AI products need.",
+      "summary": "Why closed source integration platforms put AI agents at risk — and how open source TypeScript frameworks with self-hosted options give multi-tenant AI products auditability and control.",
       "title": "Why Closed Source Integration Platforms Are an AI Agent Security Risk"
     },
     {
@@ -147,7 +147,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-16T07:04:00+00:00",
       "source_kind": "html",
-      "summary": "Self-hosted vs managed integration platforms — what AI teams actually need to know about data control, cost, and choosing the right integration platform as a service.",
+      "summary": "Self-hosted vs managed integration platforms — what AI teams actually need about cost, data residency, and workflow engine integration. See how Corsair supports both.",
       "title": "Self-Hosted vs Managed Integration Platforms: What AI Teams Actually Need"
     },
     {
@@ -157,7 +157,7 @@
       "first_seen_at": "2026-07-26T18:26:28.761597+00:00",
       "published_at": "2026-07-24T12:54:00+00:00",
       "source_kind": "html",
-      "summary": "API keys pile up quietly across config files, CI pipelines, and third party dashboards until one overlooked key exposes more than a single account. This guide covers scoping, rotation, and what changes once AI agents start acting on your users' behalf.",
+      "summary": "Practical API key management best practices for multi-tenant apps, covering per tenant scoping, rotation schedules, credential handling for AI agents, and when to choose API keys over OAuth.",
       "title": "API Key Management Best Practices for Multi-Tenant Apps"
     },
     {
@@ -167,7 +167,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-16T15:50:00+00:00",
       "source_kind": "html",
-      "summary": "Open source vs closed source integration tools for AI agents — how the choice affects vendor lock-in, security transparency, long-term cost, and your ability to ship integrations on your own timeline.",
+      "summary": "Open source vs closed source integration tools for AI agents — how to choose based on security transparency, vendor lock-in, cost at scale, and engineering flexibility.",
       "title": "Open Source vs Closed Source Integration Tools: Which Is Right for Your AI Agents?"
     },
     {
@@ -177,7 +177,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-07T18:42:00+00:00",
       "source_kind": "html",
-      "summary": "Compare open-source and closed-source integration platforms for AI agents. Learn how vendor lock-in, pricing, security, and extensibility affect long-term product strategy.",
+      "summary": "Compare open-source and closed-source integration platforms for AI agents. Learn how vendor lock-in, security, pricing, and self-hosting affect your stack.",
       "title": "Open Source vs Closed Source Integrations: Why Vendor Lock-In Is the Real Cost"
     },
     {
@@ -187,7 +187,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-14T09:47:00+00:00",
       "source_kind": "html",
-      "summary": "Learn what Google APIs are, how they work, and how to integrate services like Maps, Gmail, Drive, and Calendar securely into modern applications and AI agents.",
+      "summary": "Learn what Google APIs are, how they work, and how to integrate Google services securely using OAuth, API keys, and best practices for AI agents.",
       "title": "What Are Google APIs and How Do They Work?"
     },
     {
@@ -197,7 +197,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-14T12:08:00+00:00",
       "source_kind": "html",
-      "summary": "Classic iPaaS tools like Zapier and MuleSoft were built for fixed, pre-defined workflows not for AI agents that decide in real time which apps to touch and in what order. Here's why that model breaks for agents, and what a typed, callable integration layer looks like instead.",
+      "summary": "A bid rarely fails on price alone. See how construction procurement software evaluates vendor bids and how to submit stronger ones every time.",
       "title": "iPaaS Alternatives for AI Products: Rethinking Workflow Automation in the Agent Era"
     },
     {
@@ -207,7 +207,7 @@
       "first_seen_at": "2026-07-26T18:26:28.761597+00:00",
       "published_at": "2026-07-24T12:10:00+00:00",
       "source_kind": "html",
-      "summary": "Wiring an AI agent to four tools usually means building four integrations, four auth flows, and four things to maintain. This post looks at how an MCP based layer replaces that with a single connection that holds up as you keep adding tools.",
+      "summary": "How to connect Notion, Jira, GitHub, and Slack to an AI agent through a single MCP integration layer instead of building and maintaining a separate connector for each tool.",
       "title": "Connecting Notion, Jira, GitHub, and Slack to Your AI Agent Without Separate Integrations"
     },
     {
@@ -217,7 +217,7 @@
       "first_seen_at": "2026-07-31T18:13:12.417417+00:00",
       "published_at": "2026-07-30T13:08:00+00:00",
       "source_kind": "html",
-      "summary": "Learn how to set up a Google Drive MCP server for Claude Code using OAuth, connect AI agents securely to Google Drive, troubleshoot common issues, and scale with Corsair.",
+      "summary": "Learn how to set up a Google Drive MCP server for Claude Code using OAuth, troubleshoot issues, and scale AI integrations with Corsair.",
       "title": "How to Set Up Google Drive MCP Server in Claude Code (Step by Step Guide)"
     },
     {
@@ -227,7 +227,7 @@
       "first_seen_at": "2026-07-21T15:04:37.944582+00:00",
       "published_at": "2026-07-14T09:24:00+00:00",
       "source_kind": "html",
-      "summary": "A developer experience deep dive into building AI agent integrations in TypeScript — typed tool calling, OAuth vs API keys, and webhook security done right.",
+      "summary": "Learn how TypeScript improves AI agent integrations with typed SDKs, OAuth, webhook verification, and reliable tool calling for production-ready applications.",
       "title": "Building AI Agent Integrations in TypeScript: A Developer Experience Deep Dive"
     },
     {
@@ -237,7 +237,7 @@
       "first_seen_at": "2026-07-26T18:26:28.761597+00:00",
       "published_at": "2026-07-24T12:05:00+00:00",
       "source_kind": "html",
-      "summary": "Gmail looks like a simple integration until you hit consent screens, scope reviews, and expiring tokens. This walkthrough covers what it actually takes to connect an AI agent to Gmail and keep it working in production for real users.",
+      "summary": "A practical OAuth walkthrough for connecting AI agents to Gmail, covering scope selection, Google verification, token refresh, revocation handling, and scaling to multiple users.",
       "title": "Connecting AI Agents to Gmail: A Practical OAuth Walkthrough"
     },
     {
@@ -247,7 +247,7 @@
       "first_seen_at": "2026-07-31T18:13:12.417417+00:00",
       "published_at": "2026-07-30T14:08:00+00:00",
       "source_kind": "html",
-      "summary": "Learn what intelligent workflow automation is, how AI agents enhance workflows, and why orchestration platforms are essential for scalable business automation.",
+      "summary": "Learn how intelligent workflow automation combines AI agents, orchestration, and integrations to automate complex business processes.",
       "title": "Intelligent Workflow Automation: What It Is, How It Works, and Where AI Agents Actually Fit In"
     }
   ],

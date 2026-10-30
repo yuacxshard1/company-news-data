@@ -47,7 +47,7 @@
       "first_seen_at": "2026-08-28T18:32:42.780592+00:00",
       "published_at": "2026-08-14T16:52:00+00:00",
       "source_kind": "rss",
-      "summary": "Explore the best edge devices for computer vision, from NVIDIA Jetson and Raspberry Pi to industrial PCs and Roboflow AI1. Learn how FPS, model size, camera count, and GPU acceleration affect performance, and how Roboflow Inference helps deploy vision models efficiently at the edge.",
+      "summary": "Compare the best edge devices for computer vision, from Roboflow AI1 and Jetson Orin to Raspberry Pi, with real FPS benchmarks.",
       "title": "Best Edge Devices for Computer Vision"
     },
     {
@@ -57,7 +57,7 @@
       "first_seen_at": "2026-08-24T22:36:13.346029+00:00",
       "published_at": "2026-08-24T20:24:07+00:00",
       "source_kind": "rss",
-      "summary": "Learn how to measure box volume with computer vision using Roboflow Workflows. This tutorial uses SAM 3 segmentation, a 5 × 5 cm calibration marker, Mask Area Measurement, and Custom Python to convert pixels into physical dimensions and calculate external and internal box volume.",
+      "summary": "Learn how to measure volume with computer vision: SAM 3 segmentation, a 5 cm calibration marker, and Roboflow Workflows. Four methods, one demo.",
       "title": "How to Measure Volume with Computer Vision"
     },
     {
@@ -137,7 +137,7 @@
       "first_seen_at": "2026-08-26T17:38:33.098659+00:00",
       "published_at": "2026-08-26T15:44:55+00:00",
       "source_kind": "rss",
-      "summary": "Learn how robotics perception stacks combine cameras, sensors, computer vision models, tracking, and sensor fusion to help robots understand and interact with their environment.",
+      "summary": "How a robotics perception stack turns cameras, LiDAR, and IMU data into robot action: RF-DETR detection, ByteTrack, sensor fusion, world models.",
       "title": "Robotics Perception Stacks: How Robots Understand Their Environment"
     },
     {
@@ -157,7 +157,7 @@
       "first_seen_at": "2026-08-21T21:42:21.070019+00:00",
       "published_at": "2026-08-07T16:33:00+00:00",
       "source_kind": "rss",
-      "summary": "Learn how to fix glare, sunlight, and hardware drift with the right lighting setup before retraining.",
+      "summary": "Ambient light can cut machine vision accuracy to 70%. Fix glare, sunlight, and hardware drift with the right lighting setup before retraining.",
       "title": "Machine Vision Lighting"
     },
     {
@@ -227,7 +227,7 @@
       "first_seen_at": "2026-08-28T21:30:37.015262+00:00",
       "published_at": "2026-08-27T16:17:00+00:00",
       "source_kind": "rss",
-      "summary": "We are excited to announce a tool to help you try, compare, and evaluate over 130 computer vision models side by side for free without API keys or custom code.",
+      "summary": "Compare vision models free in Roboflow Playground: run up to 5 of 134 models on your images, with live speed, cost, and benchmark scores.",
       "title": "Roboflow Playground: Try and Compare 130+ Computer Vision Models"
     },
     {
@@ -277,7 +277,7 @@
       "first_seen_at": "2026-08-28T21:30:37.015262+00:00",
       "published_at": "2026-08-28T20:39:48+00:00",
       "source_kind": "rss",
-      "summary": "Pulling bad parts by hand dates back to 1960s assembly lines. I built a local defect detector using a webcam, RF-DETR, and a desktop robot arm. Ten training photos and 0.2 seconds per frame run the full detect, decide, pick, and verify loop right on my desk.",
+      "summary": "Build a local defect sorting system using a webcam, RF-DETR, and a desktop robot arm. Run the entire vision loop in 0.2 seconds per frame.",
       "title": "How to Build an Autonomous Defect Detector with Physical AI"
     },
     {
@@ -307,7 +307,7 @@
       "first_seen_at": "2026-08-21T21:42:21.070019+00:00",
       "published_at": "2026-08-21T19:11:46+00:00",
       "source_kind": "rss",
-      "summary": "Teaching a robot to play Connect 4 using RF-DETR object detection, a 12ms negamax search engine, and Gemini Flash for live vocal roasts. Check out the setup guide and source code to build your own.",
+      "summary": "Teach a physical robot to play Connect 4 using RF-DETR object detection, a 12ms negamax search engine, and Gemini Flash for live vocal roasts.",
       "title": "Building a Physical AI that Plays Connect 4"
     },
     {
