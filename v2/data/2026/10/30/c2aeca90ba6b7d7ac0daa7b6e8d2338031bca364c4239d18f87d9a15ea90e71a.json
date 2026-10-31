@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c2aeca90ba6b7d7ac0daa7b6e8d2338031bca364c4239d18f87d9a15ea90e71a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-versioning-aliasing/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-versioning-aliasing/",
+  "title": "Amazon Connect Customer now supports versioning and aliasing for flows",
+  "summary": "Discover more about what's new at AWS with Amazon Connect Customer now supports versioning and aliasing for flows",
+  "body_markdown": "Amazon Connect Customer now supports versioning and aliasing for flows and flow modules, simplifying how you build, test, and deploy customer experience flows while minimizing impact to live end-customer traffic. With this launch, you can now create immutable versions of a flow and attach one or more friendly names (i.e., aliases) to a version, then point resources such as queues, quick connects, and phone numbers at an alias instead of a specific version.\n\n\nRolling out a new version takes a single update, with no need to republish or relink each resource. For example, you can publish an updated customer experience flow as a new version and validate it in a test environment while live traffic stays on the current version, then repoint the production alias to move every phone number to the new version in a single update.\n\n\nThis feature is available in all AWS Regions where Amazon Connect Customer is offered. To learn more, see[Flow versioning and aliasing](https://docs.aws.amazon.com/connect/latest/adminguide/flows-versions-aliases.html) in the Amazon Connect Customer Administrator Guide. To learn more about Amazon Connect Customer, an agentic AI solution that helps enterprises deliver exceptional customer experiences, visit the[Amazon Connect Customer website.](https://aws.amazon.com/products/connect/customer/)",
+  "published_at": "2026-10-30T15:00:00+00:00",
+  "first_seen_at": "2026-10-31T03:34:54.619884+00:00",
+  "content_hash": "sha256:42fbda42dfab4f3d02784404115bd79735e883f1f995d23be8d6419621a828ab"
+}
