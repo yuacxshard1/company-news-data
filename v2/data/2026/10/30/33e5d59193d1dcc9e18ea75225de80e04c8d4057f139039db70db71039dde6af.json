@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "33e5d59193d1dcc9e18ea75225de80e04c8d4057f139039db70db71039dde6af",
+  "company_key": "n-able-inc-common-stock",
+  "company_name": "N-able Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.n-able.com/blog/linux-vulnerability-important-update",
+  "canonical_url": "https://www.n-able.com/blog/linux-vulnerability-important-update",
+  "title": "Linux Vulnerability – Important Update",
+  "summary": "N-able is aware of CVE-2026-98432, a recently disclosed vulnerability affecting certain versions of the Linux kernel. We have been assessing our products and environments for potential exposure and are actively...",
+  "body_markdown": "**N-able is aware of[CVE-2026-98432](https://nvd.nist.gov/vuln/detail/cve-2026-98432) , a recently disclosed vulnerability affecting certain versions of the Linux kernel.** We have been assessing our products and environments for potential exposure and are actively applying applicable security updates as they become available from our operating system vendors.\n\n\nSystems supporting **Take Control and Mail Assure are currently being patched** . For **Cove, N-central, N-sight, Passportal, Adlumin, and other potentially impacted products** , we are awaiting applicable operating system vendor patches and will deploy them once available.\n\n\nFor **SpamExperts Local Cloud** , N-able has released an updated kernel package. Customers must reboot their servers for the updated kernel to take effect. Until each server is restarted, it will continue to run the previous kernel. Customers should reboot servers one at a time and verify that each server has successfully rejoined the cluster before proceeding to the next.\n\n\nAt this time, we have no evidence that this vulnerability has been exploited in N-able-hosted environments. We will continue monitoring vendor guidance, evaluating our products and infrastructure, and taking appropriate action as additional updates become available.\n\n\nCustomers with questions or who need assistance completing the recommended actions should contact[N-able Support](https://me.n-able.com/s/) .\n\n\nPlease follow this blog for updates.\n\n\n©\n\n\nN‑able Solutions ULC and N‑able Technologies Ltd. All rights reserved.\n\n\nThis document is provided for informational purposes only and should not be relied upon as legal advice. N‑able makes no warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information contained herein.\n\n\nThe N-ABLE, N-CENTRAL, and other N‑able trademarks and logos are the exclusive property of N‑able Solutions ULC and N‑able Technologies Ltd. and may be common law marks, are registered, or are pending registration with the U.S. Patent and Trademark Office and with other countries. All other trademarks mentioned herein are used for identification purposes only and are trademarks (and may be registered trademarks) of their respective companies.",
+  "published_at": "2026-10-30T23:52:11+00:00",
+  "first_seen_at": "2026-10-31T02:17:15.626952+00:00",
+  "content_hash": "sha256:b2695d6d56079c6d1ad7b3f375c67807fbee0e1f550df789d6f33bd1b998a3e6"
+}
