@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0d13c02da058e66d0fd0679a7938a5dd77ed6848894d930e3d07fcdc76651a11",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/pinecone-pricing-plans-and-costs-explained-2026",
+  "canonical_url": "https://www.activepieces.com/blog/pinecone-pricing-plans-and-costs-explained-2026",
+  "title": "Pinecone Pricing: Plans and Costs Explained (2026)",
+  "summary": "Pinecone pricing charges a monthly minimum plus metered storage and operation costs across four plans, helping you estimate your bill.",
+  "body_markdown": "## Frequently asked questions\n\n\nEach answer below was checked against Pinecone's pricing page on 2026-10-31. Plans and rates change, so confirm on that page before you commit.\n\n\nPinecone offers a free starter plan, and it's capped on purpose. Hit the caps and you either stop being able to write or query, or you move to a paid plan, where a monthly minimum can apply whether or not you use it.\n\n\nLook up that minimum before you build on the free tier, not after.\n\n\n### Does Pinecone charge for deleted or idle vectors?\n\n\nIdle vectors cost you; deleted ones stop costing storage. You pay to keep data stored even if nobody queries it, and on a paid plan an idle index can still hit the minimum.\n\n\nThe delete itself counts as a write, so wiping a large index in bulk isn't free. Delete in planned batches and check the write bill afterward.\n\n\n### Can I leave Pinecone without re-embedding my data?\n\n\nGenerally yes, if you can get the vectors back out. An embedding is just a list of numbers produced by your embedding model, and it works in any database that accepts that model's output.\n\n\nRe-embedding is only forced if you change models or never kept the source text. Keep your original documents and IDs somewhere you control, and test a full export on a small index first.\n\n\nFetching vectors back counts as reads, so budget for that too.\n\n\n### Is Pinecone cheaper than self-hosting a vector database?\n\n\nIt depends on your query pattern and on who maintains the servers. Pinecone charges for reads, writes and storage, and you pay no one to run it. Self-hosting swaps those charges for server costs and engineering hours.\n\n\nA light, steady workload often favors the managed service. A heavy query load can tip the other way. Price both with your real query volume, including the staff time.\n\n\n### How do I stop a surprise Pinecone bill?\n\n\nEstimate your monthly reads and writes before you pick a plan, then compare that to the plan's minimum and limits. After launch, watch usage weekly for the first month, because a new feature or a chatty script can multiply queries.\n\n\nUse any spending alerts or caps the console offers, and keep a test index separate from production so experiments never run on the paid one.",
+  "published_at": "2026-10-31T16:23:39+00:00",
+  "first_seen_at": "2026-10-31T19:23:16.820165+00:00",
+  "content_hash": "sha256:05cc615a55e3c554f68a9315396c572744cbdc22959e1f70876e3327de885805"
+}

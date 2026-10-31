@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a7789c70995f54bf798f03abea2413a27c06ef42bdb301558ebd1ad45f956357",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/hugging-face-pricing-2026-plans-and-usage-costs",
+  "canonical_url": "https://www.activepieces.com/blog/hugging-face-pricing-2026-plans-and-usage-costs",
+  "title": "Hugging Face Pricing 2026: Plans and Usage Costs",
+  "summary": "Hugging Face pricing includes seat fees plus compute, storage, and usage costs that vary by project.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe problem in this article is metered lines nobody is watching, and a scheduled flow can watch them.\n\n\nIn Activepieces you can build a flow that runs each morning, calls the Hugging Face API through the HTTP piece, and lists every running Endpoint and upgraded Space.\n\n\nIt then posts the list to a channel with the owner tag next to each item, or pauses anything with no owner. That turns the Monday cleanup into something that happens every day.\n\n\nThe same pattern covers the 80 percent quota alert: read usage, compare it with your threshold, and message a person before the job stalls, giving the recipient headroom to adjust before hitting the limit.\n\n\nCost is a fair worry for a watchdog that runs daily, and the published pricing page answers it.\n\n\nA run counts as 1 credit however many steps it has, so a check that lists, filters, tags and notifies costs the same as one that only lists. The Free plan includes 1,000 credits a month, and a daily check uses about 30 of them.\n\n\nActivepieces is open source under the MIT licence for its community edition, so you can self-host it. That matters here because the flow holds a Hugging Face token with permission to pause paid hardware, and you may prefer that token never leave your own infrastructure.\n\n\nSelf-hosting is also the way to keep one client's credentials out of another client's workspace.\n\n\nNone of this replaces the spend limit on the Hugging Face account itself, which is the first step in the Monday order. The flow cannot cap a bill.\n\n\nIt makes sure the person who owns each endpoint hears about it while there is still time to switch it off.",
+  "published_at": "2026-10-31T17:46:13+00:00",
+  "first_seen_at": "2026-10-31T19:23:16.820165+00:00",
+  "content_hash": "sha256:0f0d1e8876267097a75090844b4f38d6dac150f8b6ebe73c9acb8364a53f3611"
+}

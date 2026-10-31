@@ -3,6 +3,16 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
+      "doc_id": "1128f6e4bc251995123fb53531fd6c54197a9d2626413a84eebd06c87a158871",
+      "first_seen_at": "2026-10-31T20:44:29.361893+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "When borrowers' agents start talking to a lender's systems, the lender has a new channel to govern — one where the other party is software, the lender's own agent may be answering, and the record of what happened is easy to lose. How existing frameworks apply: GSE AI governance requirements, model risk and third-party risk guidance, ECOA and fair lending, UDAAP, and record retention under Regulation B and Regulation Z.",
+      "title": "Governing Personal-Agent Traffic in Mortgage: Model Risk, Fair Lending, UDAAP and the Audit Trail"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
       "doc_id": "12d2ea4aa11b0e85f5290042c99ee8f2c60575e1d4dec4b56d549cc3c33cfdb4",
       "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
       "published_at": "2026-10-26T00:00:00+00:00",
@@ -15,10 +25,20 @@
       "company_name": "Sei",
       "doc_id": "1ad2dfb15bbcf15ea50aeeb0f9d6608c45cf3fde73e183a9fb8741e885a3f452",
       "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
-      "published_at": "2026-10-30T00:00:00+00:00",
+      "published_at": "2026-10-13T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "Collateral fraud is the most expensive kind a lender can fund, because the loss lands on a property that was never worth the loan. How value inflation, cherry-picked comparables, condition misrepresentation, edited photos and flip chains show up in a mortgage file, what FHA's anti-flipping rule at 24 CFR 203.37a and appraiser independence under Regulation Z require, and the collateral checks an AI agent can run on every appraisal rather than a sample.",
       "title": "Appraisal Fraud and Illegal Property Flipping: Detecting Inflated Values Before the Loan Funds"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "25c46984e9404b1ffce3585e4c22af37f2b72b201de5d38e4f20b819a175a03d",
+      "first_seen_at": "2026-10-31T20:44:29.361893+00:00",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Knowledge-based authentication assumes the caller is the customer or someone who stole from them. A personal agent is neither, and it may hold everything the security questions ask. What that does to servicing and bank contact centers, what Regulation E's definition of an unauthorized transfer does and does not settle, and an authentication design that works when the caller is software acting for a real customer.",
+      "title": "Security Questions Were Built for People: Authenticating AI Agent Callers in Mortgage Servicing and Banking"
     },
     {
       "company_key": "yc-sei",
@@ -39,6 +59,16 @@
       "source_kind": "rss",
       "summary": "A paid-off loan is a closed file to the servicing floor and an open statutory deadline to fifty state legislatures. Most states give the servicer a fixed window, often 30 to 90 days, to record the satisfaction or reconveyance, and many attach a per-violation penalty plus the borrower's damages and attorney fees. The deadline runs per loan, per state, per recording jurisdiction, which is exactly the kind of obligation that falls through a servicing operation's cracks. How an AI agent tracks the release clock to the county and proves it met it.",
       "title": "The Lien Release Clock: Why the Last Step in Servicing Is the One That Gets Servicers Sued"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "3d9ba6b58fc9436481b8a0e49f28da2086baf41577d218c6cb797125b425636e",
+      "first_seen_at": "2026-10-31T20:44:29.361893+00:00",
+      "published_at": "2026-10-25T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A technical walk through the consent layer of the Personal Agent Protocol draft 0.3 — delegated sign-in, scopes and scope hints, operations with terms and expiries, approval records and token lifetimes — and how a mortgage lender or a bank would map its own consequential actions onto it: credit pulls, rate locks, application submission, transfers, payment plans and disputes.",
+      "title": "Scopes, Approvals and Records: Designing Consent for Personal Agents in Mortgage and Banking"
     },
     {
       "company_key": "yc-sei",
@@ -135,7 +165,7 @@
       "company_name": "Sei",
       "doc_id": "9fa07ec5da4ddb3f1d4915c450c3be771cea8a8a49ed8671ee7e20260bd38217",
       "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
-      "published_at": "2026-10-30T00:00:00+00:00",
+      "published_at": "2026-10-18T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "Some mortgage fraud is not about the borrower at all. It is about the deal: a purchase price that changed after signing, a seller rebate paid outside closing, cash back disguised as a repair credit, a second lien nobody disclosed, a seller who does not own the property. How each scheme shows up across the contract, the appraisal, the Closing Disclosure and the bank statements, the interested party contribution limits it is designed to evade, and the tie-out an AI agent runs on every file.",
       "title": "Dual Contracts, Hidden Seller Credits and Cash Back at Closing: Mortgage Fraud in the Transaction Itself"
@@ -155,7 +185,7 @@
       "company_name": "Sei",
       "doc_id": "b89bed397555aaeb05321b5d9a60c30cd6d947044c9fdc207a649ca5da1bcbe0",
       "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
-      "published_at": "2026-10-30T00:00:00+00:00",
+      "published_at": "2026-10-24T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "A model that scores a loan in 300 milliseconds is easy to validate. An agent that holds a goal across weeks, re-plans as the file changes, and makes dozens of decisions along the way is not, and the usual accuracy-on-a-test-set approach misses most of what can go wrong. A technical account of the eval harness we run, the golden loan files we maintain, the backtest against historical underwriter decisions, and how ongoing monitoring under SR 11-7 and the NIST AI RMF applies to something that behaves more like a colleague than a classifier.",
       "title": "How You Test an Agent That Runs for 30 Days Before It Touches a Live Loan: Golden Files, Backtesting, and the Eval Harness SR 11-7 Actually Wants"
@@ -193,6 +223,16 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
+      "doc_id": "d59eea0398521eaaa9002b5216898189c3d2592017022aaa0eef268549549148",
+      "first_seen_at": "2026-10-31T20:44:29.361893+00:00",
+      "published_at": "2026-10-17T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Personal agents are being built to find a home, compare lenders and fill in a mortgage application for the borrower. The regulations underneath that application did not change. A practical account of where an agent-submitted application starts the TRID clock, which steps still need the borrower's own consent, and how to design intake so an agent can do the work without making the borrower's decisions.",
+      "title": "When the Applicant Is an AI Agent: What Changes at the Mortgage Point of Sale"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
       "doc_id": "dac8c2e58d2ba9e03bdd320bd7deab610d76a57655a6c866279d09434e88e92b",
       "first_seen_at": "2026-10-16T10:35:49.278728+00:00",
       "published_at": "2026-10-11T00:00:00+00:00",
@@ -215,7 +255,7 @@
       "company_name": "Sei",
       "doc_id": "df57fc9e3b3f22bd686f6d2ce452c60c2d5ca2883dea4f840e277859a2517478",
       "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
-      "published_at": "2026-10-30T00:00:00+00:00",
+      "published_at": "2026-10-26T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "Most fraud checks ask whether the borrower told the truth. Identity fraud asks a prior question: whether the borrower on the file is the person who will own, pay for and live in the property at all. How straw-buyer schemes, synthetic identities and credit privacy numbers show up in a mortgage file, what SSA's eCBSV and the Red Flags Rule give a lender to work with, the fair-lending trap in naive identity rules, and what an AI agent can and cannot conclude.",
       "title": "Straw Buyers, Synthetic Identities and CPNs: Detecting Mortgage Fraud When the Borrower Is Not Who the File Says"
@@ -225,10 +265,20 @@
       "company_name": "Sei",
       "doc_id": "ebefa4fff851bf0b9f12e7490d7c18404f91ddf0d640da3bec3b0854460866cb",
       "first_seen_at": "2026-10-30T14:26:31.434605+00:00",
-      "published_at": "2026-10-30T00:00:00+00:00",
+      "published_at": "2026-10-10T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "Fraud does not stop when the loan funds. Servicers see fabricated hardship packages, foreclosure rescue schemes that strip a distressed homeowner's equity, short sales to related buyers who resell days later, landlord insurance on loans closed as owner-occupied, and payoff funds redirected by a forged request. How each scheme shows up in the documents a servicer already receives, the rules around them, from Regulation X to the MARS rule, and where an AI agent fits without slowing down a borrower who needs help.",
       "title": "Mortgage Fraud After Closing: Loss Mitigation Fraud, Equity Skimming, Short-Sale Flopping and Payoff Diversion"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "edebdf6f880f3f0474f83825aa72d7578193247c59668bb89db78526bf2475fa",
+      "first_seen_at": "2026-10-31T20:44:29.361893+00:00",
+      "published_at": "2026-10-31T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "If personal agents decide which lenders and banks a consumer even considers, being findable stops meaning ranking on a search page and starts meaning being legible to software that compares. What that asks of rate sheets, fee disclosures and product pages, where Regulation Z and Regulation DD advertising rules still apply when the reader is an agent, and how to measure consideration instead of clicks.",
+      "title": "Agent Optimization: How Mortgage Lenders and Banks Get Onto a Personal Agent's Shortlist"
     },
     {
       "company_key": "yc-sei",

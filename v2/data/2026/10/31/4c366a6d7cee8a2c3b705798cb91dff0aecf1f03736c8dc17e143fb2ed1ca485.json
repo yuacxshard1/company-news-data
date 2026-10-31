@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4c366a6d7cee8a2c3b705798cb91dff0aecf1f03736c8dc17e143fb2ed1ca485",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/weaviate-pricing-cloud-plans-and-costs-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/weaviate-pricing-cloud-plans-and-costs-2026-guide",
+  "title": "Weaviate Pricing: Cloud Plans and Costs (2026 Guide)",
+  "summary": "Weaviate pricing offers free and paid tiers with pay-as-you-go costs. See which plan matches your vector database needs and what you'll actually spend.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is Weaviate free to use?\n\n\nYou can run the database software yourself for free, but the hosted service isn't free. Weaviate publishes its core code as open source, so you can install it on your own servers without a license fee.\n\n\nYou then pay for the machines, storage and the person who keeps it running.\n\n\nFor the managed version, Weaviate Cloud, billing follows the plans described earlier. Treat the free software as a trade: you skip the vendor's invoice and take on the operating work yourself.\n\n\n### Does Weaviate charge per query?\n\n\nNot by the search. Weaviate's cloud pricing is built around what you store and the tier you choose, not around a count of individual searches.\n\n\nThat's the pattern on its pricing pages, and it's why the stored vector dimensions matter so much more than how often people search. Check the current plan page before you commit, since billing terms can change.\n\n\nIf your traffic is heavy but your data is small, this works in your favor. If your data is large and barely touched, you still pay for it.\n\n\n### Can I move from Weaviate Cloud to self-hosting later?\n\n\nYes, because the same open-source database sits underneath both. Weaviate documents ways to back up and restore data, and that's the route most teams would use to move.\n\n\nPlan on real effort: you need to set up servers, security, upgrades and monitoring that the cloud plan handled for you.\n\n\nDoing nothing about that planning is the costly choice, because a move made in a hurry tends to happen during an outage or a billing surprise.\n\n\n### Does Weaviate offer discounts for annual commitment?\n\n\nFor larger or committed customers, Weaviate's pricing pages point toward talking to sales, which is where custom terms are handled. I have no published discount figure to quote, so I won't guess one.\n\n\nIf you know your usage will be steady for a year, ask for a quote in writing and compare it against the monthly price of your tier's minimum floor.\n\n\n### Do I pay separately for the embedding model?\n\n\nUsually, yes. An embedding model is the tool that turns your text or images into the vectors Weaviate stores. Weaviate connects to model providers, and those providers bill you under their own terms.\n\n\nSome Weaviate setups bundle model access, so read the plan details. Either way, count this cost on top of storage, because every document you add has to be converted first.",
+  "published_at": "2026-10-31T16:31:18+00:00",
+  "first_seen_at": "2026-10-31T19:23:16.820165+00:00",
+  "content_hash": "sha256:d7a3ce0be2d06e2a0f052ffc3b49026bb12dc04d330c6946de96a1a9e32cc899"
+}
