@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c61e6644898e8f21b8f1eada5c2f82778e0ac7355e102fdcbb6a869f00875138",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/telemetrydev-features-pricing-and-setup-2026",
+  "canonical_url": "https://www.activepieces.com/blog/telemetrydev-features-pricing-and-setup-2026",
+  "title": "telemetry.dev: Features, Pricing and Setup (2026)",
+  "summary": "telemetry.dev is a Python package released in July 2026 for workflows.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces does not ship a telemetry.dev integration, and we checked that on 2026-10-31. What it offers is a place to run the measurement this article keeps asking for.\n\n\nAn HTTP request step can send a task's events to whatever endpoint the maker documents, and an MCP server can be connected where an agent needs to choose its own queries. Both are the general building blocks described above. Neither is a tested connector.\n\n\nThe reason to do it there is that the run already records what you would compare against. Each run keeps what every step received and returned, and for agent steps it traces each tool call, the data it acted on and the order of decisions.\n\n\nThat is your baseline for the accuracy check: whether the right trace is attached to the right failed run.\n\n\nPut telemetry.dev beside it on a sample of real tasks, and the vendor's claims about what you can see meet your own record instead of a demo.\n\n\nWhere the trace has to leave the tool, audit logs and event streams export into the SIEM your security team already runs. An agent's decisions can then be reviewed like any other workflow step, without a new destination to approve first.\n\n\nThe community edition is MIT-licensed, so a team that wants the whole path inside its own infrastructure can self-host it and read the code. MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces. That says nothing about telemetry.dev, and it is not evidence that this pairing works.\n\n\nWhat we cannot give you is a number for how telemetry.dev behaves once it is connected, because we haven't run it. The Free plan's 30k units is enough to trial one workflow, so start there.\n\n\nPin the version, record accuracy, speed and cost per task, and decide on those results.",
+  "published_at": "2026-10-31T11:47:44+00:00",
+  "first_seen_at": "2026-10-31T14:58:29.232819+00:00",
+  "content_hash": "sha256:f6d4c00542f56772168b853ce5b47af57ddfb6f4de74a4e77a2431b09295acc8"
+}

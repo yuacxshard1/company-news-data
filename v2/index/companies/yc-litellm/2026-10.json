@@ -103,6 +103,16 @@
     {
       "company_key": "yc-litellm",
       "company_name": "LiteLLM",
+      "doc_id": "780a8a286685783dd4081151d4431f37dc2e3253c7d0bec1906536132861473e",
+      "first_seen_at": "2026-10-31T14:43:35.631730+00:00",
+      "published_at": "2026-10-30T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Connect Hex to LiteLLM’s Postgres data, import a cost dashboard, then use the LiteLLM UI to set a budget or change model routing.",
+      "title": "Use Hex to analyze LiteLLM costs, then set budgets and routing"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
       "doc_id": "7f51bae310ca0d9230aff9f556a537fadc13411fc0be42ffbb60c6bb398eeb39",
       "first_seen_at": "2026-10-08T07:41:36.025845+00:00",
       "published_at": "2026-10-07T10:00:00+00:00",
@@ -149,6 +159,16 @@
       "source_kind": "html",
       "summary": "A 440k-token benchmark went from 553 ms to 35 ms median time to first byte. We removed unnecessary prompt-cache routing work before the model call.",
       "title": "How we cut time to first byte by 94% for long prompts"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "a98e4f6ad2eeba5a0ecf53973df9109a72cc070e582806d9a44be403e2d84a01",
+      "first_seen_at": "2026-10-31T14:43:35.631730+00:00",
+      "published_at": "2026-10-30T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Why the controls built after March did not stop the v1.107.0 release, and the identity, credential and detection changes we are making in response.",
+      "title": "What we are changing after October 21"
     },
     {
       "company_key": "yc-litellm",

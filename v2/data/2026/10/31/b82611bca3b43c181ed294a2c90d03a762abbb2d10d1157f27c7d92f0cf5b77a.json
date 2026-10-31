@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b82611bca3b43c181ed294a2c90d03a762abbb2d10d1157f27c7d92f0cf5b77a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/oracle-fusion-cloud-erp-pricing-costs-by-module-2026",
+  "canonical_url": "https://www.activepieces.com/blog/oracle-fusion-cloud-erp-pricing-costs-by-module-2026",
+  "title": "Oracle Fusion Cloud ERP Pricing: Costs by Module 2026",
+  "summary": "Oracle Fusion Cloud ERP pricing depends on which modules you select and your deployment model. Get the module costs to budget for your implementation.",
+  "body_markdown": "## Activepieces for the integration work around Oracle Fusion\n\n\nApprovals, record syncs and exception alerts around Oracle Fusion can run on Activepieces, an MIT-licensed workflow automation tool with 746 integrations in its open source repository. That means fewer billable partner hours spent on glue work you could run yourself.\n\n\nEvery hour a partner spends wiring a notification is an hour on the invoice, and a retainer client rarely questions it until renewal.\n\n\nFlows are unlimited on every plan, including free, so only runs draw on credits. An HTTP step is the fallback path when a ready-made connection is missing.\n\n\nTake from the diagram that the ERP stays the system of record and the automation sits beside it, so the work moves out of the quote without moving into the ERP.\n\n\n### What it can automate beside an ERP\n\n\nApproval routing is the clearest case: a purchase request or invoice exception goes to the right person by chat or email, and the answer goes back to the record.\n\n\nRecord sync covers moving customer, supplier or order data between Fusion and the other tools your team lives in, so nobody rekeys it.\n\n\nException alerts watch for things like a failed import or a stalled approval and tell a named owner instead of waiting for month-end.\n\n\nActivepieces bills a run as 1 credit however many steps it has, so an approval split into ten small steps costs the same as the two-step shortcut.\n\n\nIts pricing page at activepieces.com/pricing shows that 1-credit run on every plan, from the Free tier's 1,000 credits a month to Team's 50,000, while Zapier's per-task billing and Make's per-module billing, each on its own pricing page, count the steps inside the flow.\n\n\n### What it cannot do\n\n\nIt's not an ERP replacement. It doesn't hold your ledger, enforce your financial controls or change what Oracle charges for modules, users or environments. Those costs are settled by the quote.\n\n\nBefore you plan around it, look for an Oracle Fusion connector among the 746 integrations in Activepieces' open source repository, roughly 60% of them community-contributed. The plan terms above come from its pricing page as checked on 2026-10-23.\n\n\nWhere no connector exists, an HTTP step can call Fusion's interfaces directly. That works, but someone has to build and maintain it, so count that time as a real cost, not a free fallback.",
+  "published_at": "2026-10-31T12:47:47+00:00",
+  "first_seen_at": "2026-10-31T14:58:29.232819+00:00",
+  "content_hash": "sha256:a8e8d01d1ed36e65f2a94f1050b46ac4bdc8e85f26723a4e129f21dc1f46ec53"
+}

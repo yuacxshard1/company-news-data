@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9eecf02847b25cabca870c0b4305a9c60f1046d4eba4f1d2c44219c50dbdfac3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/postgres-pricing-what-managed-hosting-costs-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/postgres-pricing-what-managed-hosting-costs-in-2026",
+  "title": "Postgres Pricing: What Managed Hosting Costs in 2026",
+  "summary": "Postgres pricing depends on your hosting provider's storage, compute, and features. Compare costs across providers to see which fits your needs and budget.",
+  "body_markdown": "## Using an existing Postgres database with Activepieces\n\n\nDo not expect Activepieces to lower a Postgres hosting bill. It's a way to work with a database you already run, without writing custom code, and if you host it yourself, its MIT-licensed core brings an infrastructure bill of its own.\n\n\nThat distinction matters, because a workflow tool changes how you use the database, not what the provider charges for storage, egress or connections.\n\n\n### Running queries and writing rows from a workflow\n\n\nIf your data already sits in Postgres, Activepieces lets you build flows that read and write it through a visual builder, using the Postgres integration that is one of its 746.\n\n\nYou start with a trigger, such as a schedule that fires every hour, then add steps that run a query, insert a row or hand results to another service.\n\n\nIn the screenshot's builder, a Schedule trigger is selected, and an integration selector offers spreadsheet apps with actions like Insert Row and Find Rows. The settings panel shows a successful sample-data test.\n\n\nA Postgres integration is picked the same way, so a spreadsheet-sync flow and a database flow differ only in the integration you choose.\n\n\nThe consequence is a cost one. Every scheduled run opens a connection and moves data, so an hourly flow against a managed database counts toward the connection limits and outbound transfer described earlier. Test a flow before you schedule it, and keep the query narrow.\n\n\n### Self-hosting requires managing infrastructure costs\n\n\nIf you self-host Activepieces on Docker, Compose or Kubernetes, you pay for the infrastructure it runs on. The Community Edition is free to run, so that infrastructure is the line item you add: one more thing to provision, back up and keep available.\n\n\nYou can rent that infrastructure or run it on your own servers.\n\n\nEither way, the hosting bill is separate from Activepieces, which costs $0 self-hosted in the Community Edition and $0 on the cloud free plan with 1,000 credits a month, meaning you'll pay if you exceed that, and it belongs in your estimate before you commit to the tool, since the free price of software can obscure the cost of running it.",
+  "published_at": "2026-10-31T11:00:41+00:00",
+  "first_seen_at": "2026-10-31T14:58:29.232819+00:00",
+  "content_hash": "sha256:d74203553a29d120502d02cee426b142960ea1c7411a468f8479f4a08493afa6"
+}

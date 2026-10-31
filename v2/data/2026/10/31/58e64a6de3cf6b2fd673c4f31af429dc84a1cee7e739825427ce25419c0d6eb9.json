@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "58e64a6de3cf6b2fd673c4f31af429dc84a1cee7e739825427ce25419c0d6eb9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-fastbrowse-and-what-does-the-agent-do",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-fastbrowse-and-what-does-the-agent-do",
+  "title": "What Is Fastbrowse and What Does the Agent Do?",
+  "summary": "What is FastBrowse Agent? It's software that opens pages, clicks links, types information and returns results—all without your manual input.",
+  "body_markdown": "## Connecting FastBrowse Agent to Activepieces workflows\n\n\nAs of 2026-10-31, Activepieces listed no FastBrowse integration, so any connection is something you build. Each route below holds only if FastBrowse's docs confirm it. The list runs from simplest to most involved, and we've tested none of them:\n\n\n1. An HTTP request step, if FastBrowse exposes an API.\n2. An AI step pointed at a custom or OpenAI-compatible provider, if FastBrowse speaks that protocol.\n3. An MCP server, if FastBrowse offers one.\n\n\nPick the earliest option the docs support, because each later one adds moving parts you must maintain.\n\n\n### HTTP request step\n\n\nIf the docs publish an endpoint and an authentication method, a plain request step is enough. It's the easiest to audit, since the call, its inputs and its response sit in the workflow run history.\n\n\nThat history shows what was sent and returned, not what the agent did while browsing. Without a documented API, this route doesn't exist.\n\n\nThe workflow side, unlike FastBrowse, is something you can inspect before trusting it.\n\n\nActivepieces has an MIT-licensed core, with its LICENSE file placing the enterprise directories under packages/ee/ on a separate commercial licence, 746 integrations counted in the community directory of its open GitHub repository, and a core whose code anyone can read.\n\n\nClone it, read the code, and run it self-hosted or fully air-gapped, so the workflow layer is settled before a single FastBrowse call goes through it. MoneyGram, Moneypenny, Alan and FundingSocieties run it in production.\n\n\nThe AI-step route stays unconfirmed: the repository page we read on 2026-10-31 shows no description of an API and no statement that FastBrowse accepts OpenAI-compatible requests, so nothing yet says an AI step would work.\n\n\nIf it doesn't, you'd be forcing a browsing agent into a chat-completion shape, and failures would surface as odd output rather than clear errors. Treat a compatibility claim as unconfirmed until a test run proves it.\n\n\nFastBrowse ships fastbrowse-mcp, a server for MCP (Model Context Protocol), a standard for exposing tools to AI clients, so the agent can appear as a callable browse tool.\n\n\nBut you'd also be granting it whatever access that server carries. Confirm permissions in the docs before wiring it in.",
+  "published_at": "2026-10-31T11:49:57+00:00",
+  "first_seen_at": "2026-10-31T14:58:29.232819+00:00",
+  "content_hash": "sha256:8afc551338fa479aace899b33eb4068b31fb9ac43e030d29a225e06c5cbb4b49"
+}

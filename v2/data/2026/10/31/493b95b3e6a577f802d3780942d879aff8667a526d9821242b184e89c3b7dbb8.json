@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "493b95b3e6a577f802d3780942d879aff8667a526d9821242b184e89c3b7dbb8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/open-phone-api-now-quo-access-endpoints-and-limits",
+  "canonical_url": "https://www.activepieces.com/blog/open-phone-api-now-quo-access-endpoints-and-limits",
+  "title": "Open Phone API (Now Quo): Access, Endpoints and Limits",
+  "summary": "Open Phone API, now Quo, provides endpoints with rate limits tied to your access tier. Identify which endpoints you need and determine your rate limits.",
+  "body_markdown": "## Pricing per unit and rate limits by tier\n\n\nAt the send-message step, the bill and the rate limit start to apply.\n\n\nNo dollar figures appear in this section. Quo's docs confirm the 10 requests-per-second limit, but its pricing page didn't confirm any costs as of 31 Oct 2026.\n\n\n### Plan prices and what the API costs\n\n\nQuo prices its tiers per user per month, and the price differs between annual and monthly billing. Read the pricing page for the current tier names and figures.\n\n\nThen check whether API access is listed as a line item or as a feature of a tier. If the page does not say, treat that as unanswered and ask support in writing, so you have a timestamped reply to point to later.\n\n\n### Per-message and carrier costs for API texts\n\n\nNothing about a seat price tells you what a thousand automated messages cost, because texting's metered separately. Confirm three things before launch: the charge per message segment and whether API-sent texts are charged differently from texts typed in the app.\n\n\nAlso confirm whether US and Canada numbers need carrier registration with its own fees.\n\n\n10DLC is the US system where businesses register their brand and texting use case with carriers before sending business texts from standard 10-digit local numbers. Traffic from unregistered numbers gets filtered, sometimes silently after the API has already returned success.\n\n\nRegistration carries fees and an approval wait, so start it early.\n\n\nWhen a long message splits into several segments, each one can be billed, so a flow that sends one confirmation per form can cost more than its message count suggests.\n\n\n### Documented rate limits and tiers\n\n\nThe docs state a limit of 10 requests per second per key, and I found nothing showing that it varies by plan. Don't assume higher tiers raise it.\n\n\nBuild as if the limit's fixed and low: back off when you get a rejection and queue sends. Log every rejected request with its time.",
+  "published_at": "2026-10-31T13:56:02+00:00",
+  "first_seen_at": "2026-10-31T14:58:29.232819+00:00",
+  "content_hash": "sha256:0e070df0c2bc85613beaa0bc8c4c68964d3b630199af83ae4f3c410a6d3cde97"
+}

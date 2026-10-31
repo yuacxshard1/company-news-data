@@ -13,6 +13,16 @@
     {
       "company_key": "yc-archil",
       "company_name": "Archil",
+      "doc_id": "4b836268c33f0683990a6c54b5f647fb44a1ab0212de249ac74e51424f0a96d5",
+      "first_seen_at": "2026-10-31T12:08:37.923136+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "To give sandbox agents a persistent workspace across restarts, keep the workspace directory on an Archil disk that outlives the sandbox and mount it in every new sandbox.",
+      "title": "Persistent workspace for sandbox agents across restarts"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
       "doc_id": "b92a4d7a151ae55a073f2f42fc9ea29f97980d40e660943f076ad39290e49b1a",
       "first_seen_at": "2026-10-30T19:26:04.901406+00:00",
       "published_at": "2026-10-21T00:00:00+00:00",
@@ -33,6 +43,16 @@
     {
       "company_key": "yc-archil",
       "company_name": "Archil",
+      "doc_id": "d04618965ff37bdb14c9e59cc860feb59f525c5bbfb3c7fe06954567124606fe",
+      "first_seen_at": "2026-10-31T12:08:37.923136+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "To share a dataset of hundreds of GB across parallel sandboxes, store it once on a shared Archil disk and mount it read-only in every sandbox instead of copying it into each one.",
+      "title": "Shared storage for a dataset of hundreds of GB across parallel sandboxes"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
       "doc_id": "d4ecc4e8e55def92fb0df5d288712598b9ef64f478b88cb96ab14ecf5c9a0a68",
       "first_seen_at": "2026-10-30T19:26:04.901406+00:00",
       "published_at": "2026-10-21T00:00:00+00:00",
@@ -43,12 +63,42 @@
     {
       "company_key": "yc-archil",
       "company_name": "Archil",
+      "doc_id": "daacbbdd51f0467ec667334312d687609d0a06ef902c90fbe87c00b55bff3259",
+      "first_seen_at": "2026-10-31T12:08:37.923136+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "To fork a large dataset copy-on-write for parallel agent attempts, checkpoint the Archil disk that holds it and create one branch per attempt, which takes milliseconds regardless of dataset size.",
+      "title": "Fork a large dataset copy-on-write for parallel agent attempts"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
       "doc_id": "e38f78e7532ecc295cb88469c30d3150b00f66ca6e98a5938c28ce33a1f4151b",
       "first_seen_at": "2026-10-30T19:26:04.901406+00:00",
       "published_at": "2026-10-21T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Where Archil is faster than Amazon EFS for agent workloads, where EFS still wins, and what each leaves you to build: sandboxes, branching, bucket access and per-tenant isolation.",
       "title": "Archil vs Amazon EFS for AI agents"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "e7984f59fb32c2632029296190e8ec02a6b9b397e6f8447eb4675068cfd37bfb",
+      "first_seen_at": "2026-10-31T12:08:37.923136+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "To give an agent access to an S3 bucket with grep, cat, and Python, connect the bucket to an Archil disk and let the agent run ordinary shell commands against its objects as files.",
+      "title": "Give an agent access to an S3 bucket with grep, cat, and Python"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "fbb922f76ac0f1c20f056978395d7bec542f21819463caec8f1c098c5351fd06",
+      "first_seen_at": "2026-10-31T12:08:37.923136+00:00",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "A filesystem for AI agents with persistent shared storage gives every agent a POSIX directory that survives restarts and that other agents and your app can read and write at the same time.",
+      "title": "Filesystem for AI agents with persistent shared storage"
     }
   ],
   "company_key": "yc-archil",

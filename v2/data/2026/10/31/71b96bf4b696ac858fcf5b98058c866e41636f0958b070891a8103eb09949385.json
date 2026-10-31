@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "71b96bf4b696ac858fcf5b98058c866e41636f0958b070891a8103eb09949385",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-evaluate-telemetry-dev-llm-observability",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-evaluate-telemetry-dev-llm-observability",
+  "title": "How to Evaluate Telemetry.dev LLM Observability",
+  "summary": "Telemetry.dev LLM observability logs interactions between applications and language models for debugging. It's new with limited independent reviews.",
+  "body_markdown": "## Frequently asked questions\n\n\nWhere the maker's pages give no answer, the questions below get the same treatment: I write \"not stated\" and stop, because a guess from me would be one more unverified claim.\n\n\nIs telemetry.dev open source? Licence: not stated. I have no published licence to quote, and there's nothing I can point to that names one.\n\n\nUntil the maker names a licence, assume you have no right to modify or redistribute the code. Ask for the licence text in writing before you build anything on it.\n\n\n### Is telemetry.dev free to use?\n\n\nRetention is the question that matters. If Free keeps traces for only a short period, a bug you notice on Monday may have no trace left to inspect.\n\n\nWhether the waitlist exists is also not stated: I can't tell you whether access is open or gated. Test both before you plan around them. Sign up, send one trace, then check whether it's still there the next day and the day after.\n\n\n### Can telemetry.dev be self-hosted?\n\n\nNot stated. Self-hosting decides where your prompts and responses are stored, so the missing answer is a blocker for anyone with data-handling rules.\n\n\nData location is also not stated, meaning I can't say which region holds your traces. **If your prompts contain customer data, ask the maker for the region and the self-hosting position before you send a single real request.** Until then, send only synthetic prompts.\n\n\n### Does telemetry.dev work with OpenAI-compatible APIs?\n\n\nNothing I can cite says so. \"OpenAI-compatible\" covers many providers, and each handles streaming, tool calls and token counts a little differently. A tool can accept the format and still drop a field you need.\n\n\nVerify it with the trace test: send one request through the endpoint you use, then open the raw trace and check that the model name, the full prompt, the response, the token counts and the latency are all present.\n\n\nA dashboard summary that shows only a request count tells you nothing about this.\n\n\n### Is telemetry.dev ready for production use?\n\n\nNot stated, and the maker is the only source who can state it. Nothing I've seen gives an uptime commitment, a support channel or a data-retention guarantee, and without those a production outage leaves you no recourse.\n\n\nRun telemetry.dev beside your established tool first. If the two traces disagree on the same request, trust the established one until the maker explains the difference.",
+  "published_at": "2026-10-31T12:31:50+00:00",
+  "first_seen_at": "2026-10-31T14:58:29.232819+00:00",
+  "content_hash": "sha256:03735bd8259c2c1607f7f5340d5357bfda8916eb120d43a43be1c49740afd40f"
+}
