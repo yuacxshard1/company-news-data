@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "596cf467f94dfda73b9333efdef1672d9727857e99d63572fff7a1563e6b54a9",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/ai-memory-section-hash-stale-edit-human-inbox",
+  "canonical_url": "https://opentools.ai/news/ai-memory-section-hash-stale-edit-human-inbox",
+  "title": "ai-memory adds section-hash checks and a human inbox",
+  "summary": "The October 29 release describes stale-replacement rejection and message editing until collection.",
+  "body_markdown": "Source: OpenTools Team · Original explanatory diagram.\n\n\n·\n\n\n[Source image](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-8e87dde64679ba4fd0522571f2628696c527cdd4c77c227348450a2b9685382e/editorialhero)\n\n\n# ai-memory adds section-hash checks and a human inbox\n\n\nBy OpenTools Team\n\n\nVersion 3.3.0 pairs guarded Markdown edits with message review that does not claim work for an agent.\n\n\n##\n\n\nGuard a replacement\n\n\nThe[release](https://aimemory.sh/download/) says memory_patch_page atomically appends or replaces a named Markdown section. It checks page identity and, for replacement, the section hash; stale edits leave the page unchanged. This makes a stale replacement a refusal rather than an overwrite.\n\n\n##\n\n\nInspect the inbox\n\n\nThe inbox shows pending and sent messages without claiming them for an agent. Authorized users can edit a message until collection. These are release‑note descriptions, not an independent code audit.\n\n\nOriginal explanatory diagram: replacement checks page identity and section hash; inbox viewing does not claim messages for an agent. Not a product interface.\n\n\n## Sources\n\n\n1. 1.\n\n\n[aimemory.sh](https://aimemory.sh/download/) (aimemory.sh)\n\n\n2. 2.\n\n\n[imagedelivery.net](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-8e87dde64679ba4fd0522571f2628696c527cdd4c77c227348450a2b9685382e/editorialhero) (imagedelivery.net)\n\n\n## Tags\n\n\nAI developer tools",
+  "published_at": "2026-10-30T22:52:37.715+00:00",
+  "first_seen_at": "2026-10-31T08:52:04.607695+00:00",
+  "content_hash": "sha256:012423e5cb2e2f0b7f6787b179ca6c961257396bc765caeeb46ee1f761e5003a"
+}

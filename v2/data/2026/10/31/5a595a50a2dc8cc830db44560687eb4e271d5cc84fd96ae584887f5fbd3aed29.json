@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5a595a50a2dc8cc830db44560687eb4e271d5cc84fd96ae584887f5fbd3aed29",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/perplexity-pro-subscription-2026-price-limits-and-value",
+  "canonical_url": "https://www.activepieces.com/blog/perplexity-pro-subscription-2026-price-limits-and-value",
+  "title": "Perplexity Pro Subscription: 2026 Price, Limits and Value",
+  "summary": "Perplexity Pro subscription offers 600 daily searches with cited sources for $20 monthly. Determine if the limit and cost match your search needs.",
+  "body_markdown": "## Hidden costs and limits matter most\n\n\nFor a heavy user, **the headline subscription price is the smallest part** of what Perplexity Pro costs.\n\n\n### Perplexity Pro usage limits and quotas\n\n\nPro advertises generous access. The heavy features (Research and Labs runs, the strongest model choices, large file uploads) carry their own caps, and those caps are what you actually hit.\n\n\n> For a heavy user, the headline subscription price is the smallest part of what Perplexity Pro costs.\n\n\nRunning out partway through the month means waiting for the reset or falling back to less thorough ordinary searches.\n\n\nThe bootstrap version: use the free tier for quick lookups and spend Pro's limited deep runs only on questions where a sourced, multi-step answer saves you real hours.\n\n\n### API credit isn't the same as the subscription\n\n\n**Automation is where the gap shows** . The screenshot below shows a workflow that reads company rows from a Google Sheets spreadsheet, loops over each one, and sends a sales-research question to Perplexity's sonar-pro model through an \"Ask AI\" step.\n\n\nThe step ran successfully and returned two items, which is the point: every row triggers a separate model call.\n\n\nEach model call draws on API credit, which is billed separately from your Pro seat, so a list of a few hundred companies can cost more than the subscription itself.\n\n\nBudget the API as its own line item, and test on a handful of rows before running a full sheet.\n\n\nA platform that resells you a model has already made that choice and set its price. Activepieces runs the model you picked on your own provider key, so the model bill lands on your provider account at your rate.\n\n\nOn Plus ($20 a month) and up, every AI step is 1 credit, and you can reach it from Claude, ChatGPT, Cursor or any MCP client.\n\n\n### Perplexity Pro annual billing and refunds\n\n\nAnnual plans usually look cheaper per month, but they lock in money before you know your real usage. Regional pricing and local tax can also move the final charge away from the advertised figure, so check the total at checkout in your own currency.\n\n\nStart monthly, track how many sourced searches you run for two or three billing cycles, and switch to annual only if usage stays high.",
+  "published_at": "2026-10-31T04:29:13+00:00",
+  "first_seen_at": "2026-10-31T08:22:21.356941+00:00",
+  "content_hash": "sha256:fec2dce320377ae262f9df385ea9da1b254d302a414e696f5b02d572ee9aeed3"
+}
