@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ed71445be2c395f2a23360debc3b08e5e998e783205ff072617ef77c0ca2fa54",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/prometheus-collectors-msk-metrics/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/prometheus-collectors-msk-metrics/",
+  "title": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
+  "summary": "Discover more about what's new at AWS with Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
+  "body_markdown": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics for[Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) and[Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) . The integration collects Kafka exporter metrics and consumer-group lag metrics from your Amazon MSK clusters.\n\n\nManaged Prometheus collectors discover and collect Prometheus metrics from your workloads, so you don't run and operate collection agents yourself. You ingest the collected metrics into an Amazon Managed Service for Prometheus workspace or into Amazon CloudWatch, where you query and analyze them. You monitor Kafka stream health and consumer performance with consumer-group metrics. This helps you detect processing bottlenecks in your streaming applications.\n\n\nThis feature is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where managed Prometheus collectors are generally available. To learn more, see the documentation for[Amazon Managed Service for Prometheus](https://docs.aws.amazon.com/prometheus/latest/userguide/prom-msk-kafka-exporter.html) and[Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/managed-prometheus-collectors-msk-kafka-exporter.html) .",
+  "published_at": "2026-10-30T08:00:00+00:00",
+  "first_seen_at": "2026-10-31T00:09:40.595514+00:00",
+  "content_hash": "sha256:f6b7333e38fca677bb0af60f8a393fff6b27d6cfb68c96fbdced02cd875c2bc2"
+}

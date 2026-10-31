@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2799ab5bed7b1b3bd4b6ad55e4a4fcbbeb598bd4996084c3a4faeb4745ef96bf",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/langgraph-platform-pricing-plans-and-costs-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/langgraph-platform-pricing-plans-and-costs-in-2026",
+  "title": "LangGraph Platform Pricing: Plans and Costs in 2026",
+  "summary": "LangGraph platform pricing starts with free options and scales to enterprise plans. Determine which tier matches your usage and budget requirements.",
+  "body_markdown": "## Fix agent cost sprawl with Activepieces\n\n\n### When a workflow replaces the hosted graph\n\n\nIf your agent mostly reads and writes business apps and calls a language model at only a few steps, an Activepieces workflow can replace the hosted graph, and the per-node arithmetic mostly stops mattering: Plus is $20 a month flat for 10,000 credits, and a run is one credit however many steps it has.\n\n\nActivepieces has a core under the MIT licence, set out in the LICENSE file of its GitHub repository, with only the` packages/ee/` directories under a separate commercial licence, and it is self-hostable, so you can run it on infrastructure you already pay for and see the bill before you commit.\n\n\n### What the workflow looks like\n\n\nThe screenshot shows the shape of that fit. A five-step workflow runs from a webhook trigger, to a database read, to an \"Ask ChatGPT\" step, to an SMS send, to a database write.\n\n\nThe selected step holds a question field with support-agent instructions and a business-details block describing StoreX, an Apple repair shop open 8am to 10pm Pacific. Only one of the five steps calls a model, so model latency becomes your limiting factor.\n\n\nThe other four are plumbing, and plumbing's the part you least want metered like reasoning.\n\n\n### What it costs to run\n\n\nPricing it is easy: one model call per run, plus whatever your host charges for the machine. There's no graph to keep alive between requests and no tracing layer to pay extra for.\n\n\nThe business context lives in a text field you can read and edit, so a support-bot change is a text edit rather than a redeploy.\n\n\n### Where it stops fitting\n\n\nThe fit has limits. Long-running agents that checkpoint state, pause for a human, and resume mid-graph are what LangGraph is built for, and Activepieces's 746 integrations don't change that; a workflow builder won't reproduce it.\n\n\nThe two also combine well. Keep LangGraph for the reasoning loop, and let Activepieces handle the tool layer: the database reads, the SMS sends, the app writes, split across as many small flows as you like, since every plan, including free, allows unlimited flows.\n\n\nThat keeps the metered graph small, and the small graph is the cheaper one.",
+  "published_at": "2026-10-30T20:47:20+00:00",
+  "first_seen_at": "2026-10-31T00:29:46.595627+00:00",
+  "content_hash": "sha256:b317210c552fa2777fbd0d0fecb411c0f891a28c0830ecca4f75ebac27bd81e5"
+}

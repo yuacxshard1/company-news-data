@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3745e294fd7a37986b597ce88fb2e88c48d4cafe926af5a0577b458931d02de2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-automated-cross-region-backups/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-automated-cross-region-backups/",
+  "title": "Amazon Redshift announces hands-off automated cross-region backups",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift announces hands-off automated cross-region backups",
+  "body_markdown": "[Amazon Redshift](https://aws.amazon.com/redshift/) announces automated cross-region snapshot copy for Amazon Redshift. You can now have your Amazon Redshift provisioned cluster or serverless workgroup automatically backed up to the target AWS region(s) you choose. The automated cross-region snapshot copy feature will automatically, always copy the most recent snapshot with no manual intervention, continuously and incrementally and ensure your cluster is backed-up to the destination region(s), giving you additional options for business continuity.\n\n\nThe benefit to enabling the new automated cross-region snapshot copy feature is that you do not need to manually intervene to initiate a cross-region snapshot copy when an unplanned outage event occurs. Also, this feature takes the most recent snapshot available on your system to copy to the destination region, so you don't have to wait for the next snapshot to be taken, making it independent of your snapshot schedule on your local cluster. To configure cross-region snapshot copy, you need to enable the automated cross-region snapshot copy feature for each cluster and configure the destination region(s) to copy snapshots and how long to keep copied automated snapshots in the destination Region. You can choose the retention period for automated snapshots in the destination region. User snapshots are retained until you explicitly delete them. To restore the snapshot in the destination region, use the snapshot restore feature to a new provisioned cluster or serverless workgroup. Snapshots copied with the automated cross-region snapshot copy feature have names prefixed with \\`copy\\` in the destination region.\n\n\nThis feature is available in all regions AWS Commercial and GovCloud (US) regions.\n\n\nFor more details on configuration and usage see the Amazon Redshift documentation sections for cross-region snapshot copy:[Amazon Redshift snapshots and backups](https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-snapshots.html) . For details on restoring a cluster from a snapshot, see the documentation for[Restoring a cluster from a snapshot](https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-snapshot-restore-cluster-from-snapshot.html) . For pricing information, please review the 'Backup and storage' and 'Data transfer' sections of the[Amazon Redshift pricing page](https://aws.amazon.com/redshift/pricing/) .",
+  "published_at": "2026-10-29T08:00:00+00:00",
+  "first_seen_at": "2026-10-31T00:09:40.595514+00:00",
+  "content_hash": "sha256:a0899d0f9b3ecacb3703e1e188b48a8aaaf969242f07fc956f4337c367063f24"
+}

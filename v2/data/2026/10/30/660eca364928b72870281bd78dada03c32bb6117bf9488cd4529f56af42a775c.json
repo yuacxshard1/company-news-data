@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "660eca364928b72870281bd78dada03c32bb6117bf9488cd4529f56af42a775c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+  "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
+  "body_markdown": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It also adds support for Cross-Region Inference, allowing customers to use Cross-Region Inference within AWS GovCloud (US) regions to access higher throughput and increased redundancy.\n\n\nCross-Region Inference automatically routes inference requests across both AWS GovCloud (US) Regions to give you higher throughput, without you needing to manage capacity across multiple Regions. Cross-Region Inference within AWS GovCloud (US) routes requests across both regions so you can scale while maintaining US data sovereignty, giving you the broadest access to Bedrock capacity and the highest throughput during demand spikes. This launch also expands API support; you can use OpenAI GPT models with the Responses API, Chat Completions API, and the Converse API on the bedrock-runtime endpoint. Because these native OpenAI APIs now run on bedrock-runtime, the models work with the same account-level controls you already use for other models on Bedrock: usage appears in Bedrock model invocation logging (deliverable to Amazon S3 or Amazon CloudWatch Logs) and in Amazon CloudWatch metrics covering invocation counts, token counts, latency, throttles, and errors, and it is itemized in AWS Cost Explorer and the AWS Cost and Usage Report so you can attribute spend by model.\n\n\nCross-Region Inference for OpenAI models is available in all AWS Regions where OpenAI models on Amazon Bedrock are offered. To get started, review the model cards for GPT-5.6 (Terra and Luna) in the[Amazon Bedrock User Guide.](https://docs.aws.amazon.com/bedrock/)",
+  "published_at": "2026-10-30T20:43:00+00:00",
+  "first_seen_at": "2026-10-31T00:09:40.595514+00:00",
+  "content_hash": "sha256:d149e9afbe8241e61bc6d1eab3174f80c0de6df23e31e2d8dcf77c57e9ad5a98"
+}

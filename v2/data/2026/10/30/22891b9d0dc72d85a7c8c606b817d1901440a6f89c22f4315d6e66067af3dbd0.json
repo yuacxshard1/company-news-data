@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "22891b9d0dc72d85a7c8c606b817d1901440a6f89c22f4315d6e66067af3dbd0",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
+  "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
+  "body_markdown": "[Amazon Relational Database Service (Amazon RDS) for Oracle](https://aws.amazon.com/rds/oracle/) now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option. Previously, these options required automatic minor version upgrades to be enabled.\n\n\nWith this change, you decide when to apply minor version upgrades to DB instances using these options. If you turn off automatic minor version upgrades, we recommend that you apply new minor versions regularly so your DB instances keep the latest Oracle security fixes. To keep automatic minor version upgrades turned on and still control the order in which your environments are upgraded, you can use[AWS Organizations upgrade rollout policy](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDS.Maintenance.AMVU.UpgradeRollout.html) .\n\n\nThis change is available in[all commercial AWS Regions and the AWS GovCloud (US) Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon RDS for Oracle is available. To learn more about options available in Amazon RDS for Oracle, see[Adding options to Oracle DB instances](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.Oracle.Options.html) in the Amazon RDS User Guide.",
+  "published_at": "2026-10-30T17:00:00+00:00",
+  "first_seen_at": "2026-10-31T00:09:40.595514+00:00",
+  "content_hash": "sha256:da209826dfdecbb98c303d22cc647f4c2b4c4a90d8891431e4999e22d60a5b8a"
+}

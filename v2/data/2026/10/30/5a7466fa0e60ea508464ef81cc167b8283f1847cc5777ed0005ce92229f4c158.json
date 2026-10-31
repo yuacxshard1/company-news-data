@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5a7466fa0e60ea508464ef81cc167b8283f1847cc5777ed0005ce92229f4c158",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/azure-openai-pricing-2026-is-ptu-worth-the-cost",
+  "canonical_url": "https://www.activepieces.com/blog/azure-openai-pricing-2026-is-ptu-worth-the-cost",
+  "title": "Azure OpenAI Pricing 2026 – Is PTU Worth the Cost?",
+  "summary": "Azure OpenAI pricing offers pay-as-you-go and PTU models. Compare their costs to determine which fits your usage pattern and budget.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe decision in this article rests on one number most teams don't have: steady token volume per workflow. Activepieces helps you get it. Each Azure OpenAI call runs as a step inside a flow, and every run is logged with its history.\n\n\nYou can tag a flow, record token counts per run, and set the total against your invoice. That tells you whether a flow's volume is anywhere near the roughly 585 million tokens a month where reserved capacity beats Standard, or nowhere close.\n\n\nIt also stays out of the price. Activepieces calls the deployment you pick with your own Azure key, so tokens bill at your Azure rate and land on your Azure invoice.\n\n\nWith your own AI keys, each AI step counts as 1 credit from the $20 Plus plan up, so per-step charges only apply once you've committed to a paid plan.\n\n\nThe Ultimate plan breaks credit usage down by project, which shows which team is driving spend. The core is open source under the MIT licence, so you can read how a step is billed before you build on it.\n\n\nMoving the work that can wait to Batch, and keeping the rest on Standard, is a change to the deployment a flow points at, not a rebuild.\n\n\nIn the worked example above, that is the difference between $1,200 and $2,400 for the same 360 million tokens, against $3,900 reserved, so the pricing model you select will significantly impact your total costs for workloads at this scale.\n\n\nRun the flows on pay-as-you-go, keep the logs, and revisit PTU only when those logs show volume that is high, constant and latency-sensitive all at once.\n\n\nActivepieces is the better fit for teams that want to decide their own AI and Azure OpenAI strategy, judged on cost transparency and control over which model deployment each workflow uses.\n\n\nIt calls the deployment you choose with your own Azure key, so tokens bill at your Azure rate rather than at a resold markup, and each AI step counts as 1 credit from the $20 Plus plan up.\n\n\nIts per-run logs let you measure steady token volume per flow before committing to reserved capacity, and moving a flow between Batch and Standard is a change of deployment rather than a rebuild.",
+  "published_at": "2026-10-30T23:50:22+00:00",
+  "first_seen_at": "2026-10-31T00:29:46.595627+00:00",
+  "content_hash": "sha256:b5c19531814aef02de96dce9fa9e45d91422322c1633bc9c2067b85148f996f5"
+}

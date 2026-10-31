@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "901537393bf50edd7383648c37c45a528d8614031d6d454c04ba40109cac3d93",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/xiaomi-mimo-api-pricing-rates-and-limits-2026",
+  "canonical_url": "https://www.activepieces.com/blog/xiaomi-mimo-api-pricing-rates-and-limits-2026",
+  "title": "Xiaomi MiMo API Pricing: Rates and Limits (2026)",
+  "summary": "Xiaomi MiMo API pricing varies by model and use case. Compare actual costs across models instead of relying on per-token list rates.",
+  "body_markdown": "## Calling the MiMo API from Activepieces workflows\n\n\nWhether a job runs on Flash at $0.28 or Pro at $0.87 per million output tokens is the one pricing decision left to you, and a platform that resells you a model has usually settled it before you open the product.\n\n\n[Activepieces](https://www.activepieces.com/pricing) leaves that choice with you: on Plus ($20 a month, bring your own AI keys) every AI step is 1 credit, and the MiMo tokens are billed to your Xiaomi account at Xiaomi's rate, with no reseller's markup between you and those two numbers.\n\n\nClaude, ChatGPT, Cursor or any MCP client can reach it as well, so the model strategy stays yours to set.\n\n\nIt doesn't discount anything. A workflow canvas replaces the script on someone's laptop with something the whole team can read and audit.\n\n\nEvery week, the flow below reads rows from a Google Sheet, loops over them, sends each item to a model through an HTTP request, and asks the AI a second time to check or refine the first answer.\n\n\nIt then writes a row back to the sheet, branches on the result, and emails a summary through Gmail.\n\n\nWatch the two AI calls, because every loop iteration pays for both. Read the canvas as a map of where tokens are spent, since each HTTP step is a line item you can see before it runs.\n\n\nBefore you build, check Xiaomi's API documentation on whether MiMo accepts OpenAI-style requests. It decides whether you can reuse an existing request body or must write a new one.\n\n\n### Routing jobs by model cost\n\n\nPut a conditional branch before the HTTP step. Short, well-defined jobs such as classifying a ticket or extracting a field go to the cheaper MiMo model. Jobs that need long reasoning go to Pro.\n\n\nMake the branch condition a column in the sheet, such as a job type, so the routing rule lives in data the team can edit and not in code.\n\n\nThis is a tradeoff. A cheaper model that gets a job wrong costs you a rerun, so test the routing on your own examples before trusting it with volume.\n\n\n### Logging token usage against a budget\n\n\nIf Xiaomi's API returns usage the way the docs describe, each HTTP response reports how many tokens it consumed. Insert a row into a sheet after every call with the model, the input tokens and the output tokens.\n\n\nAdd a running total, and a final branch that emails the team once the month crosses a limit you set.\n\n\nYou will see output-heavy jobs here first, because the log separates output from input. That's the number the list price hides.",
+  "published_at": "2026-10-30T20:03:24+00:00",
+  "first_seen_at": "2026-10-31T00:29:46.595627+00:00",
+  "content_hash": "sha256:63b4180c0a27568b2cc0cc48905340455795362e5ccda16c7d22638e8ba733f3"
+}

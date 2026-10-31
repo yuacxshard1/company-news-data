@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "97734054ff79fc2cfac3b70decb095ecb9acec94e0c92e03262a460e45e341ea",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/agentops-pricing-plans-tiers-and-costs-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/agentops-pricing-plans-tiers-and-costs-2026-guide",
+  "title": "AgentOps Pricing: Plans, Tiers and Costs (2026 Guide)",
+  "summary": "AgentOps pricing covers four tiers with billing based on agent events sent, not seats, so costs scale with actual usage instead of team size.",
+  "body_markdown": "## Fix cost blind spots with Activepieces\n\n\nActivepieces, an automation tool with an MIT-licensed core and 746 integrations counted in its open source monorepo on GitHub, closes the gap by running a scheduled check on your model provider's spend and messaging your team on Slack or email when a threshold is crossed.\n\n\nIf your agents run inside Activepieces workflows, the same workflow can watch failures as well as spend.\n\n\nWith that in place, tracing no longer has to double as your cost alarm. That matters here because a long-retention, high-event setup can overrun quietly, and a dashboard nobody opens won't stop it.\n\n\n### What a spend-alert workflow looks like\n\n\nActivepieces charges 1 credit per flow run, whatever the number of steps, where Zapier's pricing page bills per task and Make's per module, so a condition or a Slack step doesn't raise the cost of the check. The workflow itself is short.\n\n\nA schedule trigger fires at an interval you choose. The next step calls your provider's usage or spend API with an HTTP request.\n\n\nA condition compares the returned figure to a limit you set. If the figure is over, a final step posts to Slack or sends an email to the team where someone will see it.\n\n\nRead it as two separate systems: the workflow watches money, and tracing watches agent behavior.\n\n\nWhen a looping agent or a prompt change that tripled output sends spend up, a threshold alert gives one named person or channel a reason to act. Without it, the spike shows up on the invoice.\n\n\nYou also decide the polling interval, and a more frequent schedule uses more credits, one per run. So the alert has its own volume to estimate, using the same arithmetic the rest of this article asks you to do.\n\n\n### What it does not replace\n\n\nIt doesn't replace AgentOps tracing. The workflow reads a spend total from the provider. It can't tell you which agent, which run or which tool call produced the cost.\n\n\nWhen the alert fires, you still open the trace to find the cause, and that's the job the event data and its retention window exist to do.\n\n\nNor does it change what AgentOps charges. Event volume, retention and plan-gated features are set on the AgentOps side, and an Activepieces alert won't lower them. What it covers is the provider bill, which sits outside AgentOps's own pricing.\n\n\nTreat the two as a pair:\n\n\n- The alert tells you that something is wrong\n- The trace tells you what\n- Once both are in place, you can compare plans on a volume you actually monitor rather than one you guessed",
+  "published_at": "2026-10-30T22:11:10+00:00",
+  "first_seen_at": "2026-10-31T00:29:46.595627+00:00",
+  "content_hash": "sha256:8ee13c9b5c8b68af14a7adac4b38ca89fbba866fb906e4d417d2ff8bc0c675aa"
+}

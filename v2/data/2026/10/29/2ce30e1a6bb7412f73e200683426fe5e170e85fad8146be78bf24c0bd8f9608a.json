@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2ce30e1a6bb7412f73e200683426fe5e170e85fad8146be78bf24c0bd8f9608a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-designations/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-designations/",
+  "title": "Amazon SageMaker Unified Studio now supports custom designations",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker Unified Studio now supports custom designations",
+  "body_markdown": "Amazon SageMaker Unified Studio now supports custom designations, named permission sets that control what actions individual project members can perform. Previously, project members could only be assigned Owner or Contributor designations, which provided nearly identical permissions. With custom designations, administrators define permission sets that align with their organization's personas and assign them to project members. Designations govern all actions within a project, providing administrators with a single permission model for separation of duties.\n\n\nAdministrators create designations in the SageMaker Unified Studio administration portal by selecting permissions grouped into categories such as Catalog, Subscriptions, Connections, Notebooks, and Data Agent. For example, a \"Data Steward\" designation might include permissions to approve subscription requests and publish assets, while an \"Analyst\" designation is limited to querying data and running notebooks. Each designation is defined at the domain level and assigned across any project in that domain. When a member performs an action, SageMaker Unified Studio evaluates their assigned designation and permits or denies the request. Data engineers, stewards, analysts, and automated pipelines can now work within the same project with differentiated access, removing the need to create separate projects to isolate permissions. Every domain includes two managed designations, Owner and Contributor, and administrators can create up to 10 additional designations.\n\n\nThis feature is available in all[AWS Regions](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html) where Amazon SageMaker Unified Studio is available. To learn more, visit the[Designations](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/designations.html) documentation.",
+  "published_at": "2026-10-29T08:00:00+00:00",
+  "first_seen_at": "2026-10-31T00:09:40.595514+00:00",
+  "content_hash": "sha256:d22c46157b38250dbc6f1ac8f8365c378808a2bbf6f654e4169c191a157de14d"
+}
