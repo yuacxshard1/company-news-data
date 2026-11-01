@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d6c0d1e9fc45cddc3016b4de628d68f76d041ef55a048bf7d447e1a33834ffcc",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-much-does-relevance-ai-cost-2026-pricing-and-credits",
+  "canonical_url": "https://www.activepieces.com/blog/how-much-does-relevance-ai-cost-2026-pricing-and-credits",
+  "title": "How Much Does Relevance AI Cost? 2026 Pricing and Credits",
+  "summary": "Relevance AI pricing combines monthly plans with per-operation credits. See what each feature costs and estimate your expenses based on usage patterns.",
+  "body_markdown": "## Hidden costs and budget limits\n\n\nBecause Actions per step and vendor credits per model call are metered separately and grow with every run, the plan fee is the most predictable line on the bill.\n\n\nA 2,000-token reply therefore costs about 10 credits on output alone.\n\n\n### How credits are spent and when they expire\n\n\nIn Relevance AI's published rates, Gemini 1.5 Pro output ran 0.315 to 1.26 credits per 1,000 tokens, roughly a quarter of GPT-4o's. Swapping the model in a high-volume agent can cut credit burn without touching the plan.\n\n\nCheck whether unused credits roll over before you buy, because that decides whether a quiet month is paid for and lost.\n\n\n### Relevance AI overage and top-up costs\n\n\nAt $80 per 1,000, or 8 cents each, extra Actions mean your overage costs scale linearly with action volume, which means you gain no per-unit discount regardless of volume.\n\n\nAn agent that fires 5 Actions per run, across 10,000 runs, uses 50,000 Actions, which is $4,000 at the overage rate if none are covered by the plan.\n\n\n**Price the Actions per step before you price the tier.**\n\n\nThat multiplier of 5 Actions per run is what a per-run meter removes.\n\n\nActivepieces' pricing page lists 1 credit per flow run however many steps the flow has, so a five-step flow and a two-step flow cost the same, whereas Zapier's pricing page bills per task and Make's per module.\n\n\nUnlimited flows come on every plan, including the free one with 1,000 credits a month. AI steps are the exception: they draw more credits, and with your own AI keys each costs 1.\n\n\n### Model costs when you bring your own API keys\n\n\nWith your own keys (BYOK), model calls are billed by the provider at its rates rather than as vendor credits. That moves model spend onto a second invoice, so budget for both.\n\n\n### Plan limits that force an upgrade\n\n\nWhen a third person starts building agents, you need another seat or a higher tier, because the $349 plan includes 2 Pro build seats.\n\n\n**Build time is the cost no invoice shows** . Every hour an employee spends wiring and testing an agent is salary you should add to the monthly figure.\n\n\n> Build time is the cost no invoice shows.",
+  "published_at": "2026-11-01T09:13:00+00:00",
+  "first_seen_at": "2026-11-01T13:33:42.709278+00:00",
+  "content_hash": "sha256:df2670c0512aafffed09e0aca39561fffb4e813c2644242525e144fabbe31c11"
+}
