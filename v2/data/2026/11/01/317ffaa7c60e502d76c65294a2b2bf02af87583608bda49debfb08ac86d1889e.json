@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "317ffaa7c60e502d76c65294a2b2bf02af87583608bda49debfb08ac86d1889e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/aws-bedrock-pricing-explained-modes-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/aws-bedrock-pricing-explained-modes-and-costs-2026",
+  "title": "AWS Bedrock Pricing Explained: Modes and Costs (2026)",
+  "summary": "AWS Bedrock pricing uses per-token rates with batch, provisioned, and caching options. Select the right option for your workload and spot cost factors.",
+  "body_markdown": "## Frequently asked questions\n\n\n**Don't plan around a free tier for model inference.** I couldn't confirm a standing free allowance for Bedrock model calls, so budget as if every token is billed.\n\n\nIf your company has AWS promotional credits, check on your account whether they cover Bedrock before you count on them.\n\n\n### Is Bedrock cheaper than calling model providers directly?\n\n\nNot as a rule. For many models the per-token rates are close, so the saving, if any, comes from places other than the model line: one consolidated AWS invoice or committed-spend agreements.\n\n\nAgainst that, you pay for the surrounding services you add, such as knowledge bases, guardrails and storage. Compare the full pipeline, not the token price.\n\n\n### How do I estimate my Bedrock bill before launching?\n\n\nEstimate the whole pipeline, then test it with real traffic. Run a realistic sample of your busiest and messiest requests and read the usage from each service, not only the model. Then add a margin for retries and long conversations.\n\n\nBelow, survey results from Capgemini, WitnessAI and Mavvrik show how often teams skip this and get caught.\n\n\n*(chart)*\n\n\n**Assume your first estimate is wrong** : most organisations in those surveys overspent or misjudged their AI costs, so build in a review after the first month of real use.\n\n\n### Is Claude priced the same on Bedrock as on Anthropic's API?\n\n\nDon't assume so. Check the Bedrock pricing page and Anthropic's own page for the specific model you plan to use, and compare the pricing modes as well as the base rates.\n\n\nFeatures, discounts and available modes can differ between the two, and a rate that matches on paper can still cost you more once you add the services around it.\n\n\n### Can I set a hard spending cap on Bedrock?\n\n\nNot with a single switch that I could confirm. What you can do is set AWS Budgets alerts, attach budget actions that restrict permissions when a threshold is crossed, and set service quotas that limit throughput.\n\n\nQuotas limit volume, not dollars. Billing data arrives with a delay, so a runaway job can spend real money before any alert reaches a person; name who receives the alert and what they're allowed to shut off.",
+  "published_at": "2026-11-01T15:03:21+00:00",
+  "first_seen_at": "2026-11-01T17:55:51.870232+00:00",
+  "content_hash": "sha256:5fd79a7c4308de12e1a64795aa642d81fab391c264b39e031f0c0204443fbe62"
+}

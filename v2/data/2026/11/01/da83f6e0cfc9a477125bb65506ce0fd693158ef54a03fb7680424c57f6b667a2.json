@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "da83f6e0cfc9a477125bb65506ce0fd693158ef54a03fb7680424c57f6b667a2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/cloudflare-pricing-2026-plans-and-what-you-pay",
+  "canonical_url": "https://www.activepieces.com/blog/cloudflare-pricing-2026-plans-and-what-you-pay",
+  "title": "Cloudflare Pricing 2026: Plans and What You Pay",
+  "summary": "Cloudflare offers five pricing tiers ranging from free to Enterprise, with each tier providing different features and billing rates.",
+  "body_markdown": "## Frequently asked questions\n\n\nEvery budget question comes back to who pays for what, and the same few decide whether a budget holds.\n\n\nThe answers are kept short and carry no price figures, because plan prices change and the pricing page is the source to check before you invoice anyone.\n\n\nIs Cloudflare really free? Yes, the Free plan is a real plan and not a trial, and you can run a site on it without a time limit.\n\n\nWhat it doesn't include is the plan-gated features and higher usage limits, so the cost shows up when a client needs one of them. Price that upgrade to whoever needs the feature.\n\n\n### Does Cloudflare charge for bandwidth?\n\n\nFor ordinary proxied traffic through the CDN, it generally doesn't bill per gigabyte on the standard plans. Usage-metered products are different: Workers requests, stored objects and operations on R2 (Cloudflare's object storage) are billed on their own meters.\n\n\nA busy bucket can still produce a bill, because R2 doesn't charge egress but does charge for storage and operations. Check which meter each product runs on before you quote a flat monthly fee.\n\n\n### Can I downgrade a Cloudflare plan mid-term?\n\n\nYou can usually move to a lower plan, but don't assume a refund of the unused period. Paid add-ons tend to follow their own billing cycles, so cancel them separately.\n\n\nBefore you promise a client a mid-term saving, read the current terms and your renewal date. On a shared account, one forgotten add-on keeps billing and quietly lands on whoever holds the card.\n\n\nDo I need a plan for each domain? Yes, plans attach to individual zones (a zone is one domain), not to the account as a whole. Ten client domains means ten plan decisions, and a paid plan on one doesn't cover the others.\n\n\nKeep a per-domain ledger so the client who needs the upgrade is the client who pays for it.\n\n\nHow do I get an Enterprise quote? Go through Cloudflare's sales contact form, because Enterprise is quoted individually and isn't a self-serve checkout.\n\n\nArrive with a list of the features you need, your domain count and expected traffic. The more precisely you can name the payer and the feature, the less you'll pay for capacity you won't use.",
+  "published_at": "2026-11-01T14:27:52+00:00",
+  "first_seen_at": "2026-11-01T17:55:51.870232+00:00",
+  "content_hash": "sha256:85207adb28fd352a2c6f97ebdd4a816f535dfc2753abe24136809870aef36cbc"
+}
