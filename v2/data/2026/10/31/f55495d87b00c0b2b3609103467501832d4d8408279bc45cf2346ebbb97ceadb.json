@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f55495d87b00c0b2b3609103467501832d4d8408279bc45cf2346ebbb97ceadb",
+  "company_key": "yc-opalite-health",
+  "company_name": "Opalite Health",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opalitehealth.com/blog/ai-glossary-drug-terms",
+  "canonical_url": "https://opalitehealth.com/blog/ai-glossary-drug-terms",
+  "title": "Medical Terminology Glossary for AI Interpretation",
+  "summary": "Build a governed medical terminology glossary for AI interpretation, with medication verification, ambiguity rules, testing, and change control.",
+  "body_markdown": "###\n\n\nA medical terminology glossary for United States healthcare workflows should include the source term, approved equivalent, clinical meaning, language or dialect, pronunciation guidance, use context, prohibited substitutions, evidence source, owner, and version. Separate spoken interpretation fields from written translation fields because pronunciation and audio ambiguity do not apply in the same way to documents.\n\n\n###\n\n\nNo. In a clinical encounter, a glossary can list possible meanings, but it should not choose among them when the speaker has not supplied enough context. Terms such as PT or MS require the clinician or speaker to clarify the intended meaning before interpretation or translation continues.\n\n\n###\n\n\nKeep the patient-reported name unchanged until a pharmacist or other authorized medication expert verifies the active ingredient, strength, dosage form, and route against an authoritative source and the available package or pharmacy record. In the United States, Drugs@FDA can confirm information about FDA-approved products, but it may not contain a product marketed only in another country.\n\n\n###\n\n\nA shared terminology source can support both tasks, but the controls should differ. Spoken medical interpretation needs pronunciation variants, turn-taking tests, and clarification rules, while written medical translation needs approved spelling, layout review, and document-level quality checks.\n\n\n###\n\n\nReview timing should follow the glossary risk and change history, not a universal calendar rule. In a healthcare program, review an entry when a medication, procedure, facility name, clinical policy, or reported error changes, and assign an earlier review cadence to terms used in high-risk instructions such as dosing, allergies, consent, and discharge.",
+  "published_at": "2026-10-31T16:07:06.881+00:00",
+  "first_seen_at": "2026-11-01T07:16:51.903898+00:00",
+  "content_hash": "sha256:af424ae27050116c05cc60c0a01129301a93ae7367b48a54feb5e7be580e64db"
+}

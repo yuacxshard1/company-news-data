@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ab3ddae58865261970f7532f68f61c9683c9d73049ea4dfe19eaf857199a8909",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/linkedin-api-access-limits-and-errors-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/linkedin-api-access-limits-and-errors-in-2026",
+  "title": "LinkedIn API Access, Limits and Errors in 2026",
+  "summary": "LinkedIn API has many features, but getting LinkedIn's approval is the main blocker. Identify which capabilities you can access without special permission.",
+  "body_markdown": "## LinkedIn API capabilities and scope\n\n\nThe LinkedIn API is a set of REST APIs behind OAuth 2.0, and most of them work only after LinkedIn approves a product on your app, a wait that holds whether you call them from your own service or from a workflow tool like[Activepieces](https://www.activepieces.com/) .\n\n\nThis reflects LinkedIn's developer docs as checked on 2026-11-01.\n\n\nWhen LinkedIn revokes the approval or it lapses, the person who owns the app gets paged at 2am as the posting job starts returning 403s. Whoever owns the app also owns the approval.\n\n\nLinkedIn lists twelve products: six require approval, three are self-serve, two are restricted, and one has stopped taking applications.\n\n\nThe illustration below shows the gates between your app and each product area, with only one open and the approval key beside it. Take from it that opening a gate means obtaining that key.\n\n\nIf all you need is to sign members in or post on their behalf, no review stands in your way, because **three products are self-serve** , including Sign In and Share on LinkedIn. You enable them on your app and start building.\n\n\nThat's also as far as you get without a conversation with LinkedIn.\n\n\n### LinkedIn API products that require approval\n\n\nIf you want ads, page management, archiving or recruiting automated, you need one of the six products that require approval.\n\n\nExpect a review of your use case, not a form that clears the same day. Plan the timeline and name an owner for the application before anyone writes integration code.\n\n\nOnce LinkedIn grants a product,[Activepieces](https://www.activepieces.com/) can call its endpoints from a workflow, and the LinkedIn integration's source is public in its MIT-licensed repo, so you can read exactly what it sends.\n\n\nWhatever you submit, some capabilities stay closed, because LinkedIn restricts two products and takes no applications for a third. LinkedIn has **neither general profile search nor bulk member data** .\n\n\nA workflow that depends on them can't be built here, and it's better to learn that before you scope it.",
+  "published_at": "2026-11-01T04:10:57+00:00",
+  "first_seen_at": "2026-11-01T09:46:15.698859+00:00",
+  "content_hash": "sha256:fc01cfef9666b404e3b74a0783c89d7b26208c864f308ceecb7efea251a09184"
+}

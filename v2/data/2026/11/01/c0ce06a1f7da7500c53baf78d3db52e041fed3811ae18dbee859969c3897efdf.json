@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c0ce06a1f7da7500c53baf78d3db52e041fed3811ae18dbee859969c3897efdf",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/zoom-api-authentication-and-rate-limits-for-developers",
+  "canonical_url": "https://www.activepieces.com/blog/zoom-api-authentication-and-rate-limits-for-developers",
+  "title": "Zoom API Authentication and Rate Limits for Developers",
+  "summary": "Zoom API authentication no longer requires pasting API keys. Understand how connection-based auth works, manage rate limits, and resolve errors.",
+  "body_markdown": "## Learn Zoom's rate limits and pricing\n\n\nWhen a call fails, the cause is most often a per-second limit that varies by endpoint category and plan. API access itself is bundled into the plan, so you pay for seats, not requests.\n\n\n### Limit categories and what falls in each\n\n\nEvery endpoint has a category, and Zoom sorts them into Light,[Medium](https://medium.com/zoom-developer-blog/new-api-rate-limiter-993bdfb79d32) , Heavy or Resource-intensive; each endpoint's reference page names its category.\n\n\nCheck the category before you design a loop, because a script that polls a Heavy endpoint hits the ceiling long before one polling a Light endpoint.\n\n\nI couldn't confirm the resource-intensive ceilings or any daily caps, so plan around the three tiers with published figures and treat the rest as unknown. Zoom signals an exceeded limit with an HTTP 429, so your client needs a backoff path.\n\n\n### Limits by account plan\n\n\nAcross Free, Pro and Business+, the chart shows documented requests per second for each category. Light runs 4, 30 and 80, Medium runs 2, 20 and 60, and Heavy runs 1, 10 and 40.\n\n\nOne Heavy request per second is all a Free account gets, according to[Developers](https://developers.zoom.us/docs/api/rate-limits/) , so anything that bulk-processes meetings will stall there. The jump to 10 on Pro is the first tier where batch work is realistic.\n\n\nIf you're rate-limited on Pro, the fix may be a plan change rather than better retry code.\n\n\n### What API access costs: plan, not per call\n\n\n**There is no per-call bill** .[Zoom](https://zoom.us/pricing) doesn't meter API calls. Access comes with the plan, so your cost is the seat price.\n\n\nZoom's pricing shows Pro is $16.99 per user per month billed monthly, or $14.16 on annual billing, which saves $2.83 a month, about $34 per user per year, for committing to twelve months.\n\n\nStep up to Business and it is $21.99 monthly or $18.33 annual, a $3.66 difference, about $44 per user per year, which multiplies as your team grows, rendering the monthly option uneconomical past a certain scale.\n\n\nGoing from Pro to Business costs roughly $5 more per user per month on either billing cycle, and that buys the higher per-second ceilings above, which only matter if you approach Pro's limits.\n\n\nFor an integration that's the number to weigh against engineering time spent on throttling.",
+  "published_at": "2026-11-01T06:10:58+00:00",
+  "first_seen_at": "2026-11-01T09:46:15.698859+00:00",
+  "content_hash": "sha256:5a6ba37a837935a333d68b30b30558813fe622447818c79378c7f1f6d83ae329"
+}

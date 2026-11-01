@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a97dca143c83dfd021ffe236b8d1754ef5c307268445bc0f1ed3d5223e9a5b16",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/apollo-api-docs-rate-limits-and-credits-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/apollo-api-docs-rate-limits-and-credits-2026-guide",
+  "title": "Apollo API: Docs, Rate Limits and Credits (2026 Guide)",
+  "summary": "Apollo API endpoints require authentication keys and rate limits for searching contacts.",
+  "body_markdown": "## Call Apollo endpoints without code using Activepieces\n\n\nFrom a workflow, you can run the same Apollo calls with[Activepieces](https://www.activepieces.com/pricing) , which allows unlimited flows on every plan, including free, using the Apollo integration where it has an action and its HTTP integration for everything else.\n\n\nThe same API key and the same credit and rate limits sit behind both.\n\n\n### What the Apollo connector covers\n\n\nActivepieces has a large library of 746 integrations, roughly 60% of them community-contributed, and each one is available to the AI as a tool. The Apollo integration appears there alongside general-purpose ones such as Webhook, Gmail, Google Sheets and HTTP.\n\n\nThe library is also where you check the Apollo integration's action list. That list is the boundary: any call it names you can make without code, and any call it doesn't name goes through HTTP.\n\n\nBefore connecting, decide who owns the connection. Create the key under a shared team account rather than one person's login, so a departure doesn't break every flow that depends on it.\n\n\n### Using the HTTP step for other endpoints\n\n\nFor any Apollo endpoint you can reach, the HTTP integration sends the request. Paste the endpoint address from Apollo's docs and pass the key in the header the docs specify.\n\n\nStore the key in the connection or a secret field, not in the step's visible body.\n\n\nThis route reaches only what your plan allows, so a plan-gated endpoint returns the same refusal here as it does in code.\n\n\n### Handling rate limits in a workflow\n\n\nTo keep runs from firing together, use a schedule trigger, which spreads them across the day, and a delay step between batches to stay under your per-minute allowance.\n\n\nWhere the step offers a retry option, apply it to rate-limit responses only. A retry on an empty match spends another credit for the same answer.\n\n\nWrite code instead when you need more control. That means batching large lists, paging through results with precision, backing off on a measured schedule, or keeping the logic under version control and tests.",
+  "published_at": "2026-11-01T06:47:41+00:00",
+  "first_seen_at": "2026-11-01T09:46:15.698859+00:00",
+  "content_hash": "sha256:1dcd29b06de2159da3ca27ba58802759375c7459e4021fb01cd6566f15318323"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4dee3addc83f5c165466a1905de0e53e07db6b6bf3488138f93fe17abbbca77f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-sql-server-pricing-2026-cost-by-edition",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-sql-server-pricing-2026-cost-by-edition",
+  "title": "Microsoft SQL Server Pricing: 2026 Cost by Edition",
+  "summary": "Microsoft SQL Server pricing is $3,945 per 2-core pack for Standard and $15,123 for Enterprise, with free editions available for development.",
+  "body_markdown": "## Track SQL Server Licence Inventory with Activepieces\n\n\nYou don't have to keep the count by hand. Activepieces can do it: a scheduled workflow asks each SQL Server instance what edition, version and core count it has, writes the answers to a sheet, and tells you when something is added or resized.\n\n\nA run costs 1 credit however many steps it has, so a weekly check sits well inside the 1,000 credits a month on the free plan.\n\n\nDoing nothing means the count goes stale the first time someone adds a server or more processors, and you find out at an audit.\n\n\nNo programming is required to assemble workflows in Activepieces, which connects steps on a canvas and ships 746 integrations in its MIT-licensed core. The screenshot shows the same pattern at work on a different job, a workflow called \"Competitor Pricing Change Alert.\"\n\n\nEvery Friday at noon UTC, a weekly schedule starts the workflow. It then pulls a list from Google Sheets, loops through each row, and checks each one. Take from it the shape, not the subject: a timer, a list, a loop, a check.\n\n\nSwap the competitor list for your list of SQL Server instances and you have the skeleton of an inventory. The weekly schedule matters because a count taken once a year is wrong for most of the year.\n\n\n### What the workflow checks\n\n\nFor each instance on your list, the workflow asks the server for its edition, its version and how many cores it sees. It writes one row per instance, with the date.\n\n\nNext week the workflow compares the new answer with the old one. A new instance, a changed edition or a higher core count triggers a message to whoever owns licensing.\n\n\nBecause core counts drive the bill, a resize is the event you most want to catch early.\n\n\n### What it cannot do\n\n\nIt records what is running. It doesn't decide what you owe.\n\n\nMicrosoft's charges depend on your agreement, your core minimums, your Software Assurance and how your virtual machines are set up, and a sheet of numbers can't read your contract. It won't tell you which edition to buy or whether your setup is compliant.\n\n\nFor those answers, take the sheet to your licensing reseller or Microsoft adviser. What the workflow gives you is an accurate count to bring them, which is the count the rest of this article says you need first.",
+  "published_at": "2026-11-01T00:52:10+00:00",
+  "first_seen_at": "2026-11-01T09:46:15.698859+00:00",
+  "content_hash": "sha256:334e66a8c18ce2d0b7b53794e76bb615251347f2ba627fb508e64e1d8ba6f905"
+}

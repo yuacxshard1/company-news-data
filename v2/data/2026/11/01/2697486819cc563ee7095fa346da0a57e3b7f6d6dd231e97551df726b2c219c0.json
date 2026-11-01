@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2697486819cc563ee7095fa346da0a57e3b7f6d6dd231e97551df726b2c219c0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-get-an-x-twitter-api-key-limits-and-errors",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-get-an-x-twitter-api-key-limits-and-errors",
+  "title": "How to Get an X (Twitter) API Key, Limits and Errors",
+  "summary": "Twitter API is X's paid service requiring developer console signup and payment. Find the current pricing, limits, and how to connect it to other tools.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is the Twitter API still free?\n\n\n**Not in any form you should build on** . X sells API access as a metered product, and any free tier it offers is limited to light testing, so a project that depends on it can stall the day it outgrows the allowance.\n\n\nRead the current tiers and limits on X's developer pricing page before you write code, because they change and a blog post, including this one, will be out of date.\n\n\nThen design for the quota: a free allowance that runs out returns errors, and your code has to handle those instead of assuming every call succeeds.\n\n\n### Can I scrape instead of using the API?\n\n\nYou can write a scraper, but you'd be trading a priced, documented limit for an unpriced, undocumented one.\n\n\nX's terms restrict automated collection outside the API, and the site can block or change its pages without notice, so a scraper tends to fail silently, at the moment you most need the data.\n\n\nIf the cost of the API is the reason you're tempted, price the requests you actually need first. That number is often smaller than the cost of maintaining a scraper that keeps breaking.\n\n\n### Do I need approval before I can post?\n\n\nYou need a developer account and an app with credentials before you can post, and the app must have write permission enabled.\n\n\nPosting also requires user-context authentication, so an app-only token that reads data will be refused when it tries to write.\n\n\nWhether your plan includes posting, and how much, is stated in X's docs. Check it there before you design a workflow around automated posts.\n\n\n### Is the API called Twitter or X now?\n\n\nBoth names are in use. The company and the product are now X, and the developer documentation and portal use that branding.\n\n\nPlenty of tutorials, libraries and search results still say Twitter, and older endpoints and code samples often carry the old name.\n\n\nTreat them as the same service, but trust the current X developer docs over anything labeled Twitter, since the older material may describe access rules that no longer apply.",
+  "published_at": "2026-11-01T04:53:07+00:00",
+  "first_seen_at": "2026-11-01T09:46:15.698859+00:00",
+  "content_hash": "sha256:81235e71c6ff190e94d083b0d069c05ae8e4f34f542c783e72b19df6932323f8"
+}
