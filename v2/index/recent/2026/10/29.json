@@ -1651,6 +1651,16 @@
       "title": "\"Sent\" and \"delivered\" are not the same event (and treating them as one is costing you)"
     },
     {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "2bb4ed4eaaec459d83dee3512ba57ab447a63fc221b2527e2430743cfa0c4ed6",
+      "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
+      "published_at": "2026-10-29T04:24:18+00:00",
+      "source_kind": "html",
+      "summary": "Quick Answers CSV payment imports accept only cash, printed check, and record transfer. Volume limits are 1,000 invoices per payment and 5,000 lines per file. Sage Intacct has no bulk reversal for imported payments. Deleting a bad batch requires a designated user to contact Support. Payment templates are a versioned dependency. Download a current copy from the Company Setup Checklist; old templates can fail after releases. Imported payments post directly to the General Ledger. Without Post permissions, AR invoices come in as drafts only. The Short Version In short: Sage Intacct’s AR CSV import batches customer payments, but the documentation sets hard limits on methods, volume, and posting. Get these constraints right before the first upload and you avoid most reconciliation pain.",
+      "title": "AR CSV Integration for Sage Intacct: A Step-by-Step Cash Application Setup for 2026"
+    },
+    {
       "company_key": "huntington-ingalls-industries-inc-common-stock",
       "company_name": "Huntington Ingalls Industries Inc.",
       "doc_id": "2c791c664bb2d5fcb819910ba2d4d25defe9f8408f9792857965502198297e04",
@@ -4519,16 +4529,6 @@
       "source_kind": "html",
       "summary": "Traditional search engine optimization built brand visibility on ten blue links and a predictable indexing crawl.",
       "title": "Generative Engine Optimization for 2026: How to Own Your Brand’s AI Search Presence"
-    },
-    {
-      "company_key": "yc-blixo",
-      "company_name": "Blixo",
-      "doc_id": "70808909bffc7474e31c8448918920fe3773f4948dd903482b7b5e1e2552162b",
-      "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-29T04:45:40+00:00",
-      "source_kind": "html",
-      "summary": "Why Wiring AR Into Billing and Your ERP Pays Off Only If Someone Watches It In short: connecting accounts receivable to billing and your ERP is worth it, but the payoff depends on the connection, not the tool. Push billing events as they happen, gate every dunning run on a sync check, and map every billing line to a GL account before go-live. An unmonitored sync doesn’t remove mistakes. It just makes them faster.",
-      "title": "Automate Accounts Receivable: Wire Into Billing and ERP Without Breaking Workflows"
     },
     {
       "company_key": "life360-inc-common-stock",
@@ -8681,16 +8681,6 @@
       "title": "Why BNPL is now the fastest-growing delinquency problem in consumer lending -"
     },
     {
-      "company_key": "yc-monet",
-      "company_name": "Monet",
-      "doc_id": "d8c24ae450979712cdd7c332ad5257d7f7543cb4af775c337fce870277596ac7",
-      "first_seen_at": "2026-10-30T16:31:53.235751+00:00",
-      "published_at": "2026-10-29T13:10:22+00:00",
-      "source_kind": "rss",
-      "summary": "¿Cuánto ahorrar si ganas el salario mínimo? Plan mes a mes con cifras 2026 para un mejor gastos y financiamiento.",
-      "title": "¿Cómo ahorrar dinero ganando salario mínimo?"
-    },
-    {
       "company_key": "hesai-group-american-depositary-share-each-ads-represents-one-class-b-ordinary-share",
       "company_name": "Hesai Group American Depositary Share each ADS represents one",
       "doc_id": "d8ca77d939c98c5bf68e3f4706705b4046a806f01c99dc93d82ff947daa06243",
@@ -9809,6 +9799,16 @@
       "source_kind": "html",
       "summary": "Phase 3 at University Place is on hold, so the fences came down and the land is becoming park space next to The Commons. Here's how it ties to UP Social, Barnes & Noble, the Saturday market and what's still under construction.",
       "title": "The Lot University Place Left Open Is Now Its Front Yard"
+    },
+    {
+      "company_key": "honeywell-international-inc-common-stock",
+      "company_name": "Honeywell International Inc.",
+      "doc_id": "f44816ec504be31e6b31189518787fe14b2e2936ea264d6cd38d74aace5959aa",
+      "first_seen_at": "2026-11-01T04:58:56.812889+00:00",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Fleetwide Icon Class deployment marks Honeywell Technologies' largest cruise hospitality technology installation to date ATLANTA --(BUSINESS WIRE)--Oct. 29, 2026-- Honeywell Technologies' ( NASDAQ: HON) connected cabin automation system is now powering more than 8,400 staterooms aboard Royal",
+      "title": "Honeywell Technologies Helps Royal Caribbean Personalize the Guest Experience With Connected Cabin Automation System"
     },
     {
       "company_key": "intellicheck-inc-common-stock",

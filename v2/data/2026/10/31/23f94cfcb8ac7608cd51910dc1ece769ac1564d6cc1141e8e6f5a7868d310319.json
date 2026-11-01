@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "23f94cfcb8ac7608cd51910dc1ece769ac1564d6cc1141e8e6f5a7868d310319",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/posts/bu-ultrafast-is-live",
+  "canonical_url": "https://browser-use.com/posts/bu-ultrafast-is-live",
+  "title": "BU Ultrafast is live",
+  "summary": "Our fastest browser agent is now on every Browser Use Cloud plan in the US, free plan included. The median task takes 22 seconds.",
+  "body_markdown": "BU Ultrafast is our fastest browser agent. Until Oct 30 it was behind a waitlist. Now it is on every Browser Use Cloud plan in the US, free plan included.\n\n\n## 22 seconds, under a cent\n\n\nThe median task takes 22 seconds and costs $0.0064. Our default agent on GPT-6 Luna takes 79 seconds and $0.0098. That is more than 3x faster, and cheaper per task.\n\n\nSource: medians of completed runs, Oct 16-29, 2026, at most 1,000 per project. Ultrafast: 12,238 runs, 134 projects. Default: 146,120 runs, 9,473 projects. In the 8 projects with 20+ runs on both, Ultrafast was faster and cheaper in all 8. Cost is the model and search charge per run; browser and proxy are billed separately.\n\n\n## Try it\n\n\nSet` model` to` bu-ultrafast` . Nothing else changes.\n\n\n```text\ncurl   https://api.browser-use.com/api/v4/runs   \\\n-H   \"X-Browser-Use-API-Key:   $BROWSER_USE_API_KEY  \"   \\\n-H   \"Content-Type: application/json\"   \\\n-d   '{\"task\": \"Find the cheapest flight from SFO to JFK next Friday\", \"model\": \"bu-ultrafast\"}'\n```\n\n\nNeed more reasoning per step? Use` bu-fast` . It is the same agent.\n\n\n## Pricing\n\n\n` bu-ultrafast` runs GPT-6 Luna on OpenAI's priority tier, so tokens bill at priority rates, 2x standard.` bu-fast` bills at standard rates, and so does` bu-ultrafast` on HIPAA projects. Both work on the free plan.\n\n\nIf you joined the waitlist, there is nothing to do. You already have it.\n\n\nRead more:[BU Ultrafast](https://browser-use.com/ultrafast) , the[docs](https://docs.browser-use.com/cloud/agent/ultrafast) , or start in[Browser Use Cloud](https://cloud.browser-use.com/) .",
+  "published_at": "2026-10-31T00:00:00+00:00",
+  "first_seen_at": "2026-11-01T06:39:02.571140+00:00",
+  "content_hash": "sha256:7534fd3c9960a0d240a83ad1360e47a39929236d44e35219c286547a6383af08"
+}

@@ -611,16 +611,6 @@
       "title": "WSAUA 2026 – CORE-008 Cohort CX Poster"
     },
     {
-      "company_key": "yc-blixo",
-      "company_name": "Blixo",
-      "doc_id": "ba1335731a85a2c6c07668456f211b3423ef380537597f7d977209e25a4bd900",
-      "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-25T04:45:40+00:00",
-      "source_kind": "html",
-      "summary": "In short: Finance teams often report spending hours each week cross-referencing bank statements against invoices when payments arrive without enough detail to match them. Unmatched payments can mean inaccurate cash-flow reports, misdirected collections, and delayed revenue recognition. Payment data and remittance details frequently travel through separate channels. Depending on the processor and customer behavior, ACH payments may clear before the email explaining what they are for. Many ERP payment workflows are designed around one payment per invoice, which can break down when subscription businesses process mid-cycle upgrades, prorations, or consolidated payments. Manual matching can force your team to reverse-engineer billing logic when customers bundle multiple invoices into a single payment. White-label payment portals can reduce this by capturing payment and remittance data in a single flow, potentially removing post-payment matching for the transactions that go through the portal. Cash application automation speeds up straightforward transactions but does not necessarily fix the root issue: disconnected payment channels.",
-      "title": "ERP vs Dedicated AR Software: Time Saved on Payment Matching"
-    },
-    {
       "company_key": "yc-cloudanix",
       "company_name": "Cloudanix",
       "doc_id": "bb390cc563f72b932259d744f07fc5e0ea9c81348c7195acb3746b8ecdaca6d5",
@@ -869,6 +859,16 @@
       "source_kind": "rss",
       "summary": "Learn how Freshdesk Slack Integration works in 2026 to streamline support tickets, improve communication, and boost team collaboration.",
       "title": "Freshdesk Slack Integration"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "f66ab906713a6d07c8cf64f295cae8e3048e313c3828f9dc7965536d62ae8c38",
+      "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
+      "published_at": "2026-10-25T04:24:18+00:00",
+      "source_kind": "html",
+      "summary": "The Short Version Most ERPs are good at holding financial data and weak at the work that actually gets you paid: collections workflows, automated invoice creation, and payment reminders. For mid-size teams with real invoice volume, that gap is where time and cash leak out. A few specifics from Blixo’s reviewed documentation, which you should confirm in a live demo: NetSuite: data is described as pulling into Blixo every 15 minutes. Payments made in Blixo are described as syncing back to the ERP instantly. QuickBooks Online: included on every Blixo plan. NetSuite access: requires a paid plan, with setup handled by Blixo Customer Support. Integration worries, tool-selection doubts, and cost concerns usually trace back to one fear. Software that won’t sync cleanly turns into an expensive custom integration project.",
+      "title": "Connect AR Automation to ERP Without Custom Integration Work"
     },
     {
       "company_key": "yc-bond",

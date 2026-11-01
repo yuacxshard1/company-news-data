@@ -91,16 +91,6 @@
       "title": "A Decade Built with Korean Creators: Netflix Marks 10 Years in Korea"
     },
     {
-      "company_key": "yc-blixo",
-      "company_name": "Blixo",
-      "doc_id": "1baf6a378e9ee15e3d8f7ba6398d0551080a0eccb55ee66e9afc7b3f460d7e16",
-      "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-24T04:45:40+00:00",
-      "source_kind": "html",
-      "summary": "Before we get into it, the short version: Payment matching automation fails when incoming data lacks clean references to compare against invoice records because of format variations and missing identifiers. Data standardization and harmonization before the matching engine runs prevents automation failures, not improved matching algorithms alone. A payment referenced as “Invoice 1234” won’t match an ERP record stored as “INV-001234-2026,” leaving money in unallocated queues. Exception queues remain full after automation launches because most vendors skip the data harmonization stage between aggregation and matching. Related Video Watch: Automate reconciliations with Power Query | Excel Off The Grid by Excel Off The Grid",
-      "title": "Automate Accounts Receivable: How Payment Matching Breaks Down With Inconsistent Data"
-    },
-    {
       "company_key": "yc-pibit-ai",
       "company_name": "Pibit.ai",
       "doc_id": "1c6e8da7271760df905e751f716a2f6ecff603500065f94a7fc49fe25f3e2b21",
@@ -639,6 +629,16 @@
       "source_kind": "rss",
       "summary": "A model that scores a loan in 300 milliseconds is easy to validate. An agent that holds a goal across weeks, re-plans as the file changes, and makes dozens of decisions along the way is not, and the usual accuracy-on-a-test-set approach misses most of what can go wrong. A technical account of the eval harness we run, the golden loan files we maintain, the backtest against historical underwriter decisions, and how ongoing monitoring under SR 11-7 and the NIST AI RMF applies to something that behaves more like a colleague than a classifier.",
       "title": "How You Test an Agent That Runs for 30 Days Before It Touches a Live Loan: Golden Files, Backtesting, and the Eval Harness SR 11-7 Actually Wants"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "ba1335731a85a2c6c07668456f211b3423ef380537597f7d977209e25a4bd900",
+      "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
+      "published_at": "2026-10-24T04:24:18+00:00",
+      "source_kind": "html",
+      "summary": "In short: Finance teams often report spending hours each week cross-referencing bank statements against invoices when payments arrive without enough detail to match them. Unmatched payments can mean inaccurate cash-flow reports, misdirected collections, and delayed revenue recognition. Payment data and remittance details frequently travel through separate channels. Depending on the processor and customer behavior, ACH payments may clear before the email explaining what they are for. Many ERP payment workflows are designed around one payment per invoice, which can break down when subscription businesses process mid-cycle upgrades, prorations, or consolidated payments. Manual matching can force your team to reverse-engineer billing logic when customers bundle multiple invoices into a single payment. White-label payment portals can reduce this by capturing payment and remittance data in a single flow, potentially removing post-payment matching for the transactions that go through the portal. Cash application automation speeds up straightforward transactions but does not necessarily fix the root issue: disconnected payment channels.",
+      "title": "ERP vs Dedicated AR Software: Time Saved on Payment Matching"
     },
     {
       "company_key": "zymeworks-inc-common-stock",

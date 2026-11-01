@@ -241,16 +241,6 @@
       "title": "Hilton Grand Vacations Announces $200 Million Accelerated Share Repurchase"
     },
     {
-      "company_key": "yc-monet",
-      "company_name": "Monet",
-      "doc_id": "02dbad053a14484cf5c45c723a44d4c29b0d8ea6b8d2dced832472442c4c978b",
-      "first_seen_at": "2026-10-30T16:31:53.235751+00:00",
-      "published_at": "2026-10-30T13:41:07+00:00",
-      "source_kind": "rss",
-      "summary": "Finanzas para mujeres: primeros pasos para construir estabilidad, independencia y libertad financeria con próposito.",
-      "title": "Finanzas para mujeres: primeros pasos para construir estabilidad financiera"
-    },
-    {
       "company_key": "yc-futureclinic",
       "company_name": "FutureClinic",
       "doc_id": "02ddfed4282a54fabf629eec37a2dbf62843c90ef8a20f4b7d44fba3db04d1d3",
@@ -2569,16 +2559,6 @@
       "source_kind": "html",
       "summary": "A practical rundown of how nomads actually pay in Peru: where Yape and Plin QR codes rule, where cash still matters, and how to join the QR economy without a local bank.",
       "title": "How to Handle a Month of Everyday Spending in Peru (Without a Peruvian Bank)"
-    },
-    {
-      "company_key": "yc-blixo",
-      "company_name": "Blixo",
-      "doc_id": "2bb4ed4eaaec459d83dee3512ba57ab447a63fc221b2527e2430743cfa0c4ed6",
-      "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-30T04:45:40+00:00",
-      "source_kind": "html",
-      "summary": "Quick Answers CSV payment imports accept only cash, printed check, and record transfer. Volume limits are 1,000 invoices per payment and 5,000 lines per file. Sage Intacct has no bulk reversal for imported payments. Deleting a bad batch requires a designated user to contact Support. Payment templates are a versioned dependency. Download a current copy from the Company Setup Checklist; old templates can fail after releases. Imported payments post directly to the General Ledger. Without Post permissions, AR invoices come in as drafts only. The Short Version In short: Sage Intacct’s AR CSV import batches customer payments, but the documentation sets hard limits on methods, volume, and posting. Get these constraints right before the first upload and you avoid most reconciliation pain.",
-      "title": "AR CSV Integration for Sage Intacct: A Step-by-Step Cash Application Setup for 2026"
     },
     {
       "company_key": "ing-group-n-v-common-stock",
@@ -13809,6 +13789,16 @@
       "source_kind": "rss",
       "summary": "",
       "title": "Carlisle Companies Declares Regular Quarterly Dividend"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "ef726197bba676c38b4a902dd0e1741c2de2b5346c6ce152178b6c5f7340759d",
+      "first_seen_at": "2026-11-01T06:52:54.891389+00:00",
+      "published_at": "2026-10-30T04:24:18+00:00",
+      "source_kind": "html",
+      "summary": "The Short Version In short: ERP dunning sends reminders, but it doesn’t listen. Here are the facts the rest of this piece builds on. ERP dunning is outbound-only. It fires on aging rules and misses PO-number requests, open support tickets, and payments that haven’t cleared yet. None of the reviewed ERP documentation showed a native way to pause reminders for in-transit payments or open disputes. Some subscription churn is involuntary. Expired cards and failed payments cause it, not a customer’s decision to leave. None of the five capabilities compared below, from reminder sequences to payment matching, has a published benchmark for effort saved. Five metrics cover most dunning performance: DSO, share of invoices overdue, past-due balances, bad-debt write-offs, and manual follow-up hours. In a typical staged setup, credit analysts send early reminders, credit managers can impose credit holds, and credit directors issue demand letters and referrals. Your ERP Knows How to Start Dunning, Not When to Stop My advice is simple. Keep the ERP as your system of record, and add a dunning layer that reacts to payment and dispute events. The pressure point is subscription renewal, where reminders, settlement delays, and disputes all pile onto the same accounts in the same week.",
+      "title": "Why Most ERP Systems Skip Dunning and How to Fill the Gap"
     },
     {
       "company_key": "new-york-times-company-the-common-stock",
