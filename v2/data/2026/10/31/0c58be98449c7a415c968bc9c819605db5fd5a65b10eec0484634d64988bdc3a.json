@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0c58be98449c7a415c968bc9c819605db5fd5a65b10eec0484634d64988bdc3a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-github-copilot-fusion-ai-model-routing",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-github-copilot-fusion-ai-model-routing",
+  "title": "What Is GitHub Copilot Fusion? AI Model Routing",
+  "summary": "What is GitHub Copilot Fusion: a feature that matches code tasks to AI models, balancing quality and speed. It explains pricing, access, and usage limits.",
+  "body_markdown": "## GitHub Copilot Fusion's strengths and weaknesses\n\n\nNothing here has been verified independently, apart from one cost datapoint from a third party. Fusion's strengths are GitHub's own claims, and its weaknesses are evidence gaps.\n\n\nGitHub's page commits to a design that mixes several models behind one Copilot interface instead of sending every request to a single one. If that holds, you pay for a large model only when a task needs it.\n\n\nTreat this as a vendor statement of intent, not a measured result, because the page is the only source for it apart from one third-party cost datapoint.\n\n\n### Third-party cost benchmark for GitHub Copilot Fusion\n\n\nThe one outside number comes from[VentureBeat](https://venturebeat.com/orchestration/github-copilot-fusion-mixes-models-to-achieve-near-opus-5-5-coding-performance-at-half-the-per-task-cost) , reporting a benchmark from Artificial Analysis, not GitHub and not us. VentureBeat puts Fusion Max at **$5.59 per task against $11.42** for[Claude](https://claude.com/pricing) Code running Claude Opus 5.5 at max effort.\n\n\nIt's one index, run by one party, and we haven't reproduced it.\n\n\n*(chart)*\n\n\nRead it as a reason to test Fusion on your own tasks, not as a price list: your mix of work will move the per-task figure.\n\n\nThere is no track record for reliability on a release this new. No independent security review exists that we can point to, and no published account of where your code and prompts travel when several models are involved.\n\n\nEach additional model in the path is another party that may see your data, so that's a liability line until documented.\n\n\nFour questions come first: which models receive your code, and under what retention terms?\n\n\nHow is a task priced when the system routes it across several models? Does the benchmark's task mix resemble your repositories? And what happens to cost and behavior when a model in the mix changes?\n\n\nTesting on your own tasks goes better when the harness is one you can read back.\n\n\nActivepieces runs a per-project MCP server: point Claude Desktop, Cursor or Windsurf at its endpoint, ask for a flow to be built or modified, and the connected apps and automations become tools that assistant can use, with credentials held per project rather than on laptops.",
+  "published_at": "2026-10-31T22:13:56+00:00",
+  "first_seen_at": "2026-10-31T23:41:53.805078+00:00",
+  "content_hash": "sha256:65bcd35ef2c09b2bc97bf0f5883117f97b3f343b94e02536142b555dcdc5f51a"
+}
