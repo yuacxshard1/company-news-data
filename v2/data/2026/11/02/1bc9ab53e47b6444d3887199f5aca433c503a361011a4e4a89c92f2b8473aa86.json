@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1bc9ab53e47b6444d3887199f5aca433c503a361011a4e4a89c92f2b8473aa86",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/coderabbit-pricing-2026-plans-costs-and-limits",
+  "canonical_url": "https://www.activepieces.com/blog/coderabbit-pricing-2026-plans-costs-and-limits",
+  "title": "CodeRabbit Pricing 2026: Plans, Costs and Limits",
+  "summary": "CodeRabbit pricing has starter, professional, and enterprise tiers. You'll find the exact monthly cost and feature set for each.",
+  "body_markdown": "## Connecting CodeRabbit to the rest of your tools with Activepieces\n\n\n### Automate your seat usage reporting\n\n\nIt won't lower your CodeRabbit bill, but Activepieces, an automation tool that moves information between the apps your team already uses, can run a scheduled flow that gathers the usage data you export and posts a weekly summary to Slack for whoever manages seats, and since a run costs 1 credit however many steps it has, a weekly report fits well inside the Free plan's 1,000 monthly credits.\n\n\nUnused or busy, a seat costs the same, and the lock-in described above is only a problem if you can't see who has stopped opening their reviews.\n\n\n### How the workflow works\n\n\nHere's what it does in practice. A developer opens a pull request on GitHub, CodeRabbit reviews it, and Activepieces carries those events on to Slack, your ticket tracker or a report.\n\n\nIf the tracker your team uses isn't among its 746 integrations, counted straight from the open source monorepo, you can have AI generate the missing one and add it privately to your own instance, with no vendor release to wait on.\n\n\nRoughly 60% of that catalogue was written by contributors outside the company, which means you depend on external developers for the majority of the codebase.\n\n\nRead the flow below as a single event with three consequences: one pull request fanning out to three places, a message in a Slack channel, an entry in your ticket tracker, and a line in a weekly report document.\n\n\nSo that a finished review doesn't sit unread for days, the Slack message tells the team one is waiting. The ticket entry turns a serious review comment into a task someone owns, instead of a remark that scrolls away.\n\n\n### CodeRabbit weekly seat report and its limits\n\n\nIt's the weekly report that bears on your bill. It lists who opened pull requests and who received reviews, so a person who appears nowhere for several weeks stands out.\n\n\nBe clear about what this is. It's optional plumbing.\n\n\nIt doesn't change CodeRabbit's plan, its limits, or what counts as a seat, and it doesn't replace CodeRabbit or any cheaper review tool. You still have to read the report and act on it, and the cancelling or reassigning happens in CodeRabbit, not here.\n\n\nIf your team's small and everyone obviously uses the tool, skip it. If you have contractors coming and going, a report that names the quiet seats's worth an afternoon to set up.",
+  "published_at": "2026-11-02T13:22:02+00:00",
+  "first_seen_at": "2026-11-02T18:31:51.278600+00:00",
+  "content_hash": "sha256:b154d6300d976dcc7a7ac8bb9d954dbe7c01d73da0b93b61b2a3af4c5fedf148"
+}

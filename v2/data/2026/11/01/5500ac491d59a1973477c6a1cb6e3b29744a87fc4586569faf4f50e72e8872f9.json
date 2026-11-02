@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5500ac491d59a1973477c6a1cb6e3b29744a87fc4586569faf4f50e72e8872f9",
+  "company_key": "yc-agency",
+  "company_name": "Agency",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://blog.getagency.com/articles/business-email-compromise-ic3-soc-2-controls",
+  "canonical_url": "https://blog.getagency.com/articles/business-email-compromise-ic3-soc-2-controls",
+  "title": "Business Email Compromise: IC3 Data and SOC 2 Controls",
+  "summary": "Business Email Compromise: IC3 Data and SOC 2 Controls: scope, evidence, limitations, and the decisions buyers need to make.",
+  "body_markdown": "For implementation support, review[SOC 2 compliance for startups](https://getagency.com/soc-2-compliance-for-startups?utm_source=blog&utm_medium=cta&utm_campaign=soc2&utm_content=business-email-compromise-ic3-soc-2-controls__in_text) and[policies needed for SOC 2](https://getagency.com/questions/what-policies-do-i-need-for-soc-2?utm_source=blog&utm_medium=cta&utm_campaign=soc2&utm_content=business-email-compromise-ic3-soc-2-controls__in_text) . Confirm scope and operating responsibilities before choosing an engagement.\n\n\n## What does the latest full-year FBI report show?\n\n\nThe[FBI’s IC3 annual report](https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf) records 24,768 business email compromise complaints and $3,046,598,558 in associated reported losses for 2025, on pages 7–8. These are reports received by IC3, not a census of all business email compromise incidents.\n\n\nThe report’s definitions and data limitations matter. Reported complaints and losses cannot establish a particular company’s expected loss or the effectiveness of buying a specific compliance service. They also do not reveal which of the victims held SOC reports.\n\n\n## Which operating controls should teams examine?\n\n\nExamine the paths by which an attacker can impersonate a trusted person, obtain account access, or change a payment instruction. Translate the identified risks into control owners and reviewable evidence. The[NIST Cybersecurity Framework](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf) offers a risk-management structure for that discussion.\n\n\nWhich operating controls should teams examine? — comparison Risk path Operating question Example evidence\n\n\nCompromised account Who can access privileged and finance accounts? Access reviews and authentication configuration\n\n\nChanged payment details How are changes independently verified? Approved verification and change records\n\n\nSuspicious account behavior Who reviews alerts and investigates? Alert triage and escalation records\n\n\nFraud attempt Who can stop a payment and coordinate response? Incident procedures, contacts, and exercises\n\n\nThese are implementation examples. Design the controls for your actual accounts, payment workflows, and service commitments rather than treating an illustrative table as an audit requirement.",
+  "published_at": "2026-11-01T00:00:00+00:00",
+  "first_seen_at": "2026-11-02T16:48:33.535734+00:00",
+  "content_hash": "sha256:bdcab63c5f337e86f5b7c79ae545656e4675150a6a2759f2d976e57052ee4f52"
+}

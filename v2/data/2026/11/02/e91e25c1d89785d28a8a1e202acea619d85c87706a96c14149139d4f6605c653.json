@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e91e25c1d89785d28a8a1e202acea619d85c87706a96c14149139d4f6605c653",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gladia-pricing-2026-plans-per-hour-rates-add-ons",
+  "canonical_url": "https://www.activepieces.com/blog/gladia-pricing-2026-plans-per-hour-rates-add-ons",
+  "title": "Gladia Pricing 2026: Plans, Per-Hour Rates & Add-Ons",
+  "summary": "Gladia pricing varies by your monthly audio volume and features needed. Compare plans to match your transcription workload and budget.",
+  "body_markdown": "## Hidden costs and limits Gladia users hit\n\n\nBeyond the floor that the per-hour rate sets, three other things decide the rest of your bill: which features carry their own charge, how many jobs you can run at once and which controls sit on a higher tier.\n\n\n### Add-on features priced separately\n\n\nBudget nothing extra for diarization, which labels who spoke, and don't pick a plan to get it. Other options, such as translation or summarization, aren't covered by that statement.\n\n\nRead the pricing page line by line for any option that adds its own per-hour charge. A surcharge applies to every hour you transcribe, so a feature you switch on for every call costs more than one you use on a few.\n\n\n### Gladia concurrency, file size and rate limits\n\n\nSend too many jobs at once, or one file that's too long, and the paid plan stops you, because it caps how many pre-recorded and live transcriptions can run at the same moment and the length of a single file.\n\n\nIf you backfill an archive with a script that sends everything at once, the API will reject or queue the jobs over the cap, depending on how your code handles the response.\n\n\nWhen a recording runs long, as full-day hearings or webinars do, you have to split it before upload and stitch the transcripts back together afterward.\n\n\nThat split, upload and stitch routine is a chain of small steps, and[Activepieces](https://www.activepieces.com/) bills it as 1 credit per run, whether the flow has two steps or ten.\n\n\nZapier's per-task billing charges for every step, so breaking a long hearing into smaller, more reliable integrations costs more there for doing the job properly.\n\n\nWith Activepieces the run is the meter, which leaves Gladia's audio hours as the only line that grows with the archive.\n\n\nRate limits rarely matter in testing and show up the first night of a bulk run. Compare the figures in Gladia's docs with your busiest hour, not your average one.\n\n\nRetention control, meaning how long Gladia keeps your audio and transcripts, and single sign-on for your team may depend on the plan you hold. If your compliance team needs scheduled deletion, find out which tier gives you that control before signing.",
+  "published_at": "2026-11-02T16:11:23+00:00",
+  "first_seen_at": "2026-11-02T18:31:51.278600+00:00",
+  "content_hash": "sha256:ce801addc29b480e87a4b535cedcc7eac0392a5d41f41caad4943602f1359161"
+}

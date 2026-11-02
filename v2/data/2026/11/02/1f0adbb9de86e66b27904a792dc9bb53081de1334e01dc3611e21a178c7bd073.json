@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1f0adbb9de86e66b27904a792dc9bb53081de1334e01dc3611e21a178c7bd073",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/cline-pricing-2026-free-extension-and-token-costs",
+  "canonical_url": "https://www.activepieces.com/blog/cline-pricing-2026-free-extension-and-token-costs",
+  "title": "Cline Pricing (2026): Free Extension and Token Costs",
+  "summary": "Cline pricing details the available plans, their features, and monthly costs. You'll decide which option matches your needs and budget.",
+  "body_markdown": "## How to keep Cline spend predictable\n\n\nKeep spend predictable by setting a hard ceiling at the provider, matching the model to the task, and reviewing real usage on a schedule. The caps from the previous section only work if the rest of this routine backs them up.\n\n\n### Budgets and caps\n\n\n**Set the limit on the provider's side, not in your head.** Cline can show you what a task has cost, but the provider's console is the only place that can refuse the next request.\n\n\nA monthly budget with an alert below it means a runaway loop ends as an email, not as an invoice.\n\n\nUse the expensive model only where it earns its cost, since price scales with the model. Claude Opus 5.5 suits long agentic coding.\n\n\nClaude Haiku 5.5 or a Flash-class model handles renames, boilerplate and quick questions. Defaulting to the top model for everything means paying flagship rates for work a cheaper model finishes just as well.\n\n\n### Tracking Cline spend across a team\n\n\nOnce more than one person's spending, the per-task cost display stops being enough, because nobody sees the total. Give each developer their own provider key so the console breaks usage down by person.\n\n\nThen hold one weekly review: compare the console against the task history in Cline, and find the tasks that cost far more than they should have.\n\n\nIf you want that weekly report or threshold alert sent to Slack or a sheet, you can build it in[Activepieces](https://www.activepieces.com/) , which has 746 integrations counted from its open source monorepo and unlimited flows on every plan, including free.\n\n\nOn the Plus plan and up it runs on your own AI keys, so every AI step costs 1 credit and the model cost goes to your own provider bill.\n\n\nReselling you a model settles your AI choice and its price before you've opened the product, and you can reach Activepieces from Claude, ChatGPT, Cursor or any MCP client.\n\n\nThe flow builder below shows a trigger feeding a code step, with a variables panel holding a stored value the step can read, which is enough to compare spend against a threshold and notify someone.\n\n\nThat automation only reports. The cap at the provider is still what stops the spending.",
+  "published_at": "2026-11-02T13:53:16+00:00",
+  "first_seen_at": "2026-11-02T18:31:51.278600+00:00",
+  "content_hash": "sha256:ea1163d29d91be779c4c7fcf1073a1ec8cc08c5acf12d7215c4c098de88733e2"
+}

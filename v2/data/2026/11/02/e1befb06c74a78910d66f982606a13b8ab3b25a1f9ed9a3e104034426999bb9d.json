@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e1befb06c74a78910d66f982606a13b8ab3b25a1f9ed9a3e104034426999bb9d",
+  "company_key": "fastly-inc-class-a-common-stock",
+  "company_name": "Fastly Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.fastly.com/blog/try-fastly-platform-free-aws-account/",
+  "canonical_url": "https://www.fastly.com/blog/try-fastly-platform-free-aws-account/",
+  "title": "Try the Fastly Platform Free with your AWS Account",
+  "summary": "Start a Fastly Free Trial via AWS Marketplace. Use your existing AWS account to skip procurement, reduce origin load, and streamline billing.",
+  "body_markdown": "Somewhere, right now, an engineer has a working proof of concept and a purchase request that has been “in review” for weeks.\n\n\nWe’d like to shorten that wait. Starting in November, you can sign up for your Fastly Free Trial through the AWS Marketplace. Use your AWS account, pick the[AWS option on our signup page](https://linkly.link/2zllG) , and your Fastly usage lands on your AWS bill with everything else.\n\n\n## Skip the Procurement Detour\n\n\nThe honest answer is that buying software is often slower than using it.\n\n\nA new vendor usually means a new contract, a separate invoice, and another round of approvals, even if you only want to test one service. Through AWS Marketplace, there’s no separate vendor contract to get started, and Fastly shows up on the bill you already have.\n\n\nFastly Free Trial **** adds a self-serve option, so you can start without a sales conversation or a negotiated contract. Fastly can also bring down some of the other lines on that bill. When we cache content at the edge, fewer requests reach your AWS origins and less data leaves AWS.\n\n\n## How it Works\n\n\nFastly sits in front of your AWS origins, whether that’s EC2, S3, ALB, or API Gateway. A request hits the edge first. If we have it cached, we serve it and your origin never hears about it. If we don’t, we fetch it, cache it, and the next request gets the fast path.\n\n\nOnce that’s running, there’s more you can switch on:\n\n\n-\n\n\n**Next-Gen WAF:** Runs across EC2, Lambda, ECS, and EKS, and feeds AWS Security Hub and CloudTrail. DDoS protection and Bot Management work at the edge, so bad traffic is stopped before it gets near your infrastructure.\n\n\n-\n\n\n**Real-time logs:** Stream them into Amazon S3, Kinesis, or CloudWatch, where your team already looks.\n\n\n-\n\n\n**Config as code:** Terraform, CloudFormation, and CodePipeline all work, so edge changes ship with the rest of your deploys.\n\n\nPut it in front of one service, see what it does to your latency and origin load, then decide. You’ll need an AWS account to get started.[Sign up for Fastly and choose AWS Marketplace](https://linkly.link/2zllG) to get started today.",
+  "published_at": "2026-11-02T00:00:00+00:00",
+  "first_seen_at": "2026-11-02T18:26:43.699186+00:00",
+  "content_hash": "sha256:7980c3ddf68a3555d153c89dca6f3e137200df8fb76b2579b4f147827268d1d4"
+}
