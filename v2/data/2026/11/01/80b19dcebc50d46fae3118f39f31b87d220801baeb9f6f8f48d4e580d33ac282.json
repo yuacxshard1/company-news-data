@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "80b19dcebc50d46fae3118f39f31b87d220801baeb9f6f8f48d4e580d33ac282",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/temporal-self-hosted-setup-and-costs-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/temporal-self-hosted-setup-and-costs-2026-guide",
+  "title": "Temporal Self Hosted: Setup and Costs (2026 Guide)",
+  "summary": "Temporal self-hosted requires you to manage the server, database, and workers. Understand the infrastructure setup and operating costs this involves.",
+  "body_markdown": "## Mistakes that make self-hosted Temporal fail\n\n\n**The cost charts assume the cluster stays up** . In practice it goes down for a handful of avoidable reasons, each with a cheap fix.\n\n\nBecause it works, teams promote the bundled dev server (` temporal server start-dev` ) and then lose workflow state on the first restart. It is built for a laptop: one process, local storage, no redundancy.\n\n\nRun the real services (frontend, history, matching, worker) against a persistent database, and keep the dev server for local tests only.\n\n\n### Picking shard count and database casually\n\n\n**The history shard count is set when the cluster is created, and per the documentation you can't change it afterwards without rebuilding.** A low guess caps your throughput for the life of that cluster.\n\n\nLoad-test with realistic workflow volume and choose generously before the first production workflow starts.\n\n\nNext comes the database. Every workflow event lands there, so a shared or undersized instance becomes your ceiling. Give Temporal a dedicated database with backups and tested failover.\n\n\nIt also benefits from an advanced visibility store: without it, filtering and searching workflows is badly limited, and operators end up debugging blind. Configure it at install, not during an incident.\n\n\n### Non-deterministic workflow code breaks self-hosted Temporal\n\n\nBecause Temporal recovers by replaying workflow history against your code, the code must make the same decisions every time. Calling the system clock, random numbers or the network directly inside workflow code breaks replay.\n\n\nUse the SDK's workflow-safe time and random functions, and put side effects in activities. Before each deploy, replay recorded histories against the new build, and use the SDK's versioning for changes to running workflows.\n\n\n### Skipping upgrades and monitoring on self-hosted Temporal\n\n\nWhen you fall several releases behind, a routine upgrade turns into a risky migration. Upgrade one minor version at a time, apply schema updates first, and read the release notes.\n\n\nExport the server and SDK metrics to your monitoring system and alert on persistence latency and task queue backlog. Without them, you learn about trouble from your users.",
+  "published_at": "2026-11-01T19:12:32+00:00",
+  "first_seen_at": "2026-11-02T00:03:07.427014+00:00",
+  "content_hash": "sha256:bd5a84400da62f0d1e1b1369bd419246750e0e10d85074bbdc959172f39bd10d"
+}

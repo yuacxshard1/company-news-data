@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "fb5e174e1c28a77bbdc7a212e43ec8e5f26677f6c139f2609389a77e8ef7b504",
+      "first_seen_at": "2026-11-01T23:57:15.958223+00:00",
+      "published_at": "2026-11-01T04:24:11+00:00",
+      "source_kind": "html",
+      "summary": "The Short Version A controlled CSV sync into Dynamics 365 beats keying payments by hand, as long as someone owns reconciliation after the file posts. Here are the key points: Reconciling bank statements against the AR ledger after each import is recurring work that often gets skipped. When it does, errors stay hidden until month-end. If the record count or the control total (the sum of the Amount column) doesn’t match, stop the import before any payments post. A date written as 03/04 means March or April depending on locale, and it can land in the wrong period without anyone noticing. Spreadsheets strip leading zeros from customer IDs like 00412. A decimal-separator mismatch between 1.250,00 and 1,250.00 changes the imported amount. One transfer covering three subscription invoices, with only a contract number on the remittance, leaves your team tracing three separate Dynamics 365 invoice IDs. When a CSV sync is worth it, and when to keep typing Use a structured file workflow if payment volume makes retyping costly. Don’t expect it to clean up bad source data. The weak point comes after import, when the file posts and nobody owns reconciliation.",
+      "title": "Sync AR Automation CSVs to Dynamics 365: Speed Up Cash Application"
+    }
+  ],
+  "company_key": "yc-blixo",
+  "month": "2026-11"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8774e10ad2cf45e40cb9d352276d2d42f2a9442c89dd4b0d9f58b7872f7715fd",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/release-cadence-and-lts-pilot",
+  "canonical_url": "https://docs.litellm.ai/blog/release-cadence-and-lts-pilot",
+  "title": "Release cadence changes and an LTS version pilot",
+  "summary": "Starting the week of November 2, 2026, release candidates and stable releases ship on Tuesday mornings, and LiteLLM is piloting a long-term support line on 1.108 for one month.",
+  "body_markdown": "*Starting the week of November 2, 2026, LiteLLM release candidates and stable releases move from Saturday to Tuesday morning, and we are piloting a long-term support (LTS) line for one month.*\n\n\n## Releases move to Tuesday​\n\n\nRelease candidates and stable releases now ship on Tuesday mornings instead of Saturdays, in line with the industry-standard Patch Tuesday release day. The[release cycle](https://docs.litellm.ai/docs/proxy/release_cycle) page has the full weekly schedule.\n\n\n## An LTS pilot on 1.108​\n\n\nWe are also piloting a long-term support (LTS) line for one month. The first LTS line is 1.108.\n\n\nThe LTS line is for teams that want to stay on one version and keep getting fixes, without upgrading every week. It gets patch releases with LLM translation fixes, cost tracking fixes, and new endpoints.\n\n\nWhile the pilot runs, the policy of patching the[four most recent stable lines](https://docs.litellm.ai/docs/enterprise/version_support) is paused. The[LTS pilot](https://docs.litellm.ai/docs/enterprise/lts_pilot) page has the details.",
+  "published_at": "2026-11-02T00:00:00+00:00",
+  "first_seen_at": "2026-11-01T07:27:31.096988+00:00",
+  "content_hash": "sha256:232caaa9c77f451af25b52c4bc526db3da913bead62da9090b6fc66be8ec7c75"
+}

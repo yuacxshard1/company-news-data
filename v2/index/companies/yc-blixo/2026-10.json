@@ -55,7 +55,7 @@
       "company_name": "Blixo",
       "doc_id": "2bb4ed4eaaec459d83dee3512ba57ab447a63fc221b2527e2430743cfa0c4ed6",
       "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-29T04:24:18+00:00",
+      "published_at": "2026-10-28T04:24:11+00:00",
       "source_kind": "html",
       "summary": "Quick Answers CSV payment imports accept only cash, printed check, and record transfer. Volume limits are 1,000 invoices per payment and 5,000 lines per file. Sage Intacct has no bulk reversal for imported payments. Deleting a bad batch requires a designated user to contact Support. Payment templates are a versioned dependency. Download a current copy from the Company Setup Checklist; old templates can fail after releases. Imported payments post directly to the General Ledger. Without Post permissions, AR invoices come in as drafts only. The Short Version In short: Sage Intacct’s AR CSV import batches customer payments, but the documentation sets hard limits on methods, volume, and posting. Get these constraints right before the first upload and you avoid most reconciliation pain.",
       "title": "AR CSV Integration for Sage Intacct: A Step-by-Step Cash Application Setup for 2026"
@@ -125,7 +125,7 @@
       "company_name": "Blixo",
       "doc_id": "70808909bffc7474e31c8448918920fe3773f4948dd903482b7b5e1e2552162b",
       "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-28T04:24:18+00:00",
+      "published_at": "2026-10-27T04:24:11+00:00",
       "source_kind": "html",
       "summary": "Why Wiring AR Into Billing and Your ERP Pays Off Only If Someone Watches It In short: connecting accounts receivable to billing and your ERP is worth it, but the payoff depends on the connection, not the tool. Push billing events as they happen, gate every dunning run on a sync check, and map every billing line to a GL account before go-live. An unmonitored sync doesn’t remove mistakes. It just makes them faster.",
       "title": "Automate Accounts Receivable: Wire Into Billing and ERP Without Breaking Workflows"
@@ -165,7 +165,7 @@
       "company_name": "Blixo",
       "doc_id": "9399883c0165195e6b8f19178a0f2e2cdf7c72fa5367e8a37c283e871a353f19",
       "first_seen_at": "2026-11-01T06:52:54.891389+00:00",
-      "published_at": "2026-10-31T04:24:18+00:00",
+      "published_at": "2026-10-30T04:24:11+00:00",
       "source_kind": "html",
       "summary": "In short: Payments and remittance details usually arrive separately. Cash comes by ACH, check, or SEPA debit. The explanation comes by email, EDI, or an AP portal. Short-pays, rounding differences, unapplied cash, and payments that need someone to read the remittance all land in an exception queue that waits on a person. Bank lockbox teams often key check data by hand and charge for it. Your cash application staff then verify those same entries against scanned images. Subscription autopay often arrives without an invoice reference, so systems post it at the account level and unapplied cash keeps growing. Mature tolerance setups often combine a percentage limit with a dollar cap. Accepted variances above tolerance still need a manual write-off, with the approver and timestamp recorded. Unified ERP modules remove duplicate entry for invoices, credit memos, and aging. Teams still map each customer’s short-pay reasons to internal codes by hand. Spreadsheet matching is still common among small and midsized businesses. It has no version control, no role-based access, and no log of who matched which payment. Where AR automation actually breaks: the billing-to-cash handoff My advice is simple: if you want to automate accounts receivable without blind spots, spend your first effort on matching rules and the exception queue, not invoicing features.",
       "title": "ERP Systems for AR: Where Invoicing Ends and Reconciliation Begins"
@@ -193,6 +193,16 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "b4ab576a4398d7e8b48e7caa1ab83d70ea2627b3bc2fc2ec1c25050dfd1b63ac",
+      "first_seen_at": "2026-11-01T23:57:15.958223+00:00",
+      "published_at": "2026-10-31T04:24:11+00:00",
+      "source_kind": "html",
+      "summary": "The Short Version Firms with automated receivables average about 40 days sales outstanding (DSO). Firms without automation average 47. That gap is roughly a week of cash. In PYMNTS survey data, 87% of firms with automated AR reported faster overall processes, and 75% reported better customer experience. Inaccurate payment matching sends collectors after customers who have already paid. Recurring-billing clients notice this quickly, because they hear from you every cycle. Manual remittance handling breaks in three recurring ways: retyping errors, payments that arrive without remittance details, and incorrect matches that leave paid invoices open. The World Bank’s 6.49% average remittance cost measures person-to-person transfers. It gives you no reliable basis for estimating B2B receivables costs. Should you automate accounts receivable? In short: yes, if you bill on a recurring cycle or your team sends more invoices than it can track by hand. Teams that automate report faster processes, lower DSO, and fewer errors. If you send a handful of simple invoices a month, manual work may still hold up.",
+      "title": "What AR Automation Actually Does: Invoice to Cash in 6 Steps"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "ba1335731a85a2c6c07668456f211b3423ef380537597f7d977209e25a4bd900",
       "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
       "published_at": "2026-10-24T04:24:18+00:00",
@@ -205,7 +215,7 @@
       "company_name": "Blixo",
       "doc_id": "be012874abc415487e5589bdc567fb273eab1f7795b9eb9aa07c60cd07765129",
       "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-26T04:24:18+00:00",
+      "published_at": "2026-10-25T04:24:11+00:00",
       "source_kind": "html",
       "summary": "The Short Version Cash-receipt document reference numbers are case sensitive. One capitalization mismatch with your org, and the whole import fails. Import lookups treat “00412” and “412” as two different customers. Spreadsheet saves strip leading zeros, and copy-paste drags in invisible trailing spaces. An invoice paid in installments can land unmatched, or hit an already-closed invoice, when your file and your ledger apply payments at different levels. Re-importing a corrected cash-receipt file creates a separate new transaction. The original record stays behind for you to clean up. Why AR CSV Integration Errors Break Cash Application In short: catch the mismatch before you click Import. Most preventable AR CSV integration failures start as a gap between your file and the import template, and untangling a half-failed batch afterward costs far more than checking the file first. My advice is simple. Treat every upload like a payment run that can’t be recalled.",
       "title": "Fixing AR CSV Integration Errors: 7 Mismatch Checks Before Cash Application Breaks"
@@ -235,7 +245,7 @@
       "company_name": "Blixo",
       "doc_id": "e926a3c8ff371820eb63edc8eb1d1bd47bcf3e019f90fd316c4ec65211e7a79f",
       "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-27T04:24:18+00:00",
+      "published_at": "2026-10-26T04:24:11+00:00",
       "source_kind": "html",
       "summary": "The Short Version Credit notes and credit memos are one document with two regional labels. “Credit note” dominates across the UK and EMEA. A refund is a different animal: it sends cash back through a separate payment transaction, while a credit changes the customer’s balance and leaves the original invoice intact. Reconciliation isn’t done when the credit is created. It’s done when the credit is matched to the receivable it corrects. Issuing credits barely moves DSO, because receivables and net credit sales drop together; the aging report shows the real effect. Automatic application depends on capturing the invoice reference and reason at creation. And posted invoices, including subscription invoices already sent, need a separate credit document rather than an edit.",
       "title": "Credit Note vs Credit Memo: Which One Fixes Reconciliation Faster"
@@ -245,7 +255,7 @@
       "company_name": "Blixo",
       "doc_id": "ef726197bba676c38b4a902dd0e1741c2de2b5346c6ce152178b6c5f7340759d",
       "first_seen_at": "2026-11-01T06:52:54.891389+00:00",
-      "published_at": "2026-10-30T04:24:18+00:00",
+      "published_at": "2026-10-29T04:24:11+00:00",
       "source_kind": "html",
       "summary": "The Short Version In short: ERP dunning sends reminders, but it doesn’t listen. Here are the facts the rest of this piece builds on. ERP dunning is outbound-only. It fires on aging rules and misses PO-number requests, open support tickets, and payments that haven’t cleared yet. None of the reviewed ERP documentation showed a native way to pause reminders for in-transit payments or open disputes. Some subscription churn is involuntary. Expired cards and failed payments cause it, not a customer’s decision to leave. None of the five capabilities compared below, from reminder sequences to payment matching, has a published benchmark for effort saved. Five metrics cover most dunning performance: DSO, share of invoices overdue, past-due balances, bad-debt write-offs, and manual follow-up hours. In a typical staged setup, credit analysts send early reminders, credit managers can impose credit holds, and credit directors issue demand letters and referrals. Your ERP Knows How to Start Dunning, Not When to Stop My advice is simple. Keep the ERP as your system of record, and add a dunning layer that reacts to payment and dispute events. The pressure point is subscription renewal, where reminders, settlement delays, and disputes all pile onto the same accounts in the same week.",
       "title": "Why Most ERP Systems Skip Dunning and How to Fill the Gap"
@@ -265,7 +275,7 @@
       "company_name": "Blixo",
       "doc_id": "f66ab906713a6d07c8cf64f295cae8e3048e313c3828f9dc7965536d62ae8c38",
       "first_seen_at": "2026-10-30T20:50:50.887010+00:00",
-      "published_at": "2026-10-25T04:24:18+00:00",
+      "published_at": "2026-10-24T04:24:11+00:00",
       "source_kind": "html",
       "summary": "The Short Version Most ERPs are good at holding financial data and weak at the work that actually gets you paid: collections workflows, automated invoice creation, and payment reminders. For mid-size teams with real invoice volume, that gap is where time and cash leak out. A few specifics from Blixo’s reviewed documentation, which you should confirm in a live demo: NetSuite: data is described as pulling into Blixo every 15 minutes. Payments made in Blixo are described as syncing back to the ERP instantly. QuickBooks Online: included on every Blixo plan. NetSuite access: requires a paid plan, with setup handled by Blixo Customer Support. Integration worries, tool-selection doubts, and cost concerns usually trace back to one fear. Software that won’t sync cleanly turns into an expensive custom integration project.",
       "title": "Connect AR Automation to ERP Without Custom Integration Work"
