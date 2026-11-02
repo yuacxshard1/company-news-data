@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e374784f5375962b38f8ed0e1b4f0d46e502c1cc636bec881ef1b9f285199af8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/lever-api-rate-limits-and-webhooks-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/lever-api-rate-limits-and-webhooks-2026-guide",
+  "title": "Lever API: Rate Limits and Webhooks (2026 Guide)",
+  "summary": "Lever API access starts with key ownership: whoever created the key gets paged when a sync fails at 2am. Establish ownership before you write code.",
+  "body_markdown": "## A minimal working Lever API request\n\n\nWhoever owns that answer also owns the key. Start with a request that reads and changes nothing: a GET on the opportunities endpoint, with the API key as the Basic auth username, a blank password, and a limit on page size.\n\n\n### Lever API cURL request with authentication\n\n\n```text\ncurl -u \"$LEVER_API_KEY:\" \\\n\"https://api.lever.co/v1/opportunities?limit=$PAGE_SIZE\"\n```\n\n\nLeave the colon off and curl prompts for a password, which hangs a scheduled job with nobody watching. The colon after the key is the blank password.\n\n\nKeep the key in an environment variable, never in the command text, so it stays out of shell history and logs.\n\n\n### Lever API response format and pagination\n\n\nWhen a call succeeds, you get an HTTP success status and a JSON body shaped like this:\n\n\n```text\n{\n\"data\": [],\n\"hasNext\": true,\n\"next\": \"opaque-token-string\"\n}\n```\n\n\n` data` holds the records. When` hasNext` is true, pass` next` back as the offset parameter on the following request.\n\n\nTreat the token as opaque: don't parse it or build one yourself. A loop that ignores` hasNext` silently syncs only the first page, and nothing errors to tell you.\n\n\nFor each call, the run trace should record both the request and the response. The trace below, from a different service's call, shows a completed run with trigger and step both marked successful, the recorded input, and an output carrying a success status.\n\n\nThat's the evidence you want for every Lever call, since \"it returned data\" isn't proof the job finished.\n\n\nActivepieces produces that kind of trace without code on your side: describe the Lever read in its built-in chat and what it publishes is a live flow in your account, with a run trace for every run recording the request and the response.\n\n\nThat flow runs under the same RBAC and audit logs as one someone assembled by hand.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production, and its MIT-licensed open source monorepo holds 746 integrations under packages/integrations/community on GitHub, so whether a native Lever connector exists is answered by that directory listing.\n\n\nMake the first write against a test record that you created and can name, never against live candidates. Send one request, read the response, and confirm the change in Lever's interface before repeating it.\n\n\n**Don't retry a failed write until you know whether it landed, because a blind retry is how duplicates start.**",
+  "published_at": "2026-11-01T22:44:44+00:00",
+  "first_seen_at": "2026-11-02T05:29:57.234411+00:00",
+  "content_hash": "sha256:158a236780bf0bb7b6e5c95c1f48571803374dd08eb0d8f437422bd0c8d44452"
+}

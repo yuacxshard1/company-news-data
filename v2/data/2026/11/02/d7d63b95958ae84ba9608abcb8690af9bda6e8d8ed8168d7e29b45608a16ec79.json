@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d7d63b95958ae84ba9608abcb8690af9bda6e8d8ed8168d7e29b45608a16ec79",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gpt-61-terra-features-pricing-and-access-2026",
+  "canonical_url": "https://www.activepieces.com/blog/gpt-61-terra-features-pricing-and-access-2026",
+  "title": "GPT 6.1 Terra: Features, Pricing, and Access (2026)",
+  "summary": "GPT 6.1 Terra adds capabilities to automation workflows. See what's changed in this model and how it impacts your current automation setup.",
+  "body_markdown": "## Test GPT 6.1 Terra on automation tasks\n\n\nThat test is easy to run, and ours came out against the switch. **On 2026-10-26, Terra was slower and costlier per task than gpt-5.4-mini, so any case for it has to rest on quality.** This is a small, indicative test, not a benchmark.\n\n\n> **On 2026-10-26, Terra was slower and costlier per task than gpt-5.4-mini, so any case for it has to rest on quality.\n\n\n### How we scored GPT 6.1 Terra tasks\n\n\nWe ran Terra and openai/gpt-5.4-mini through[OpenRouter](https://openrouter.ai/openai/gpt-6.1-terra) on the same three jobs, so the results are directly comparable. Terra used default settings, which reason before answering.\n\n\nThe jobs were to sort a support ticket, pull fields from an invoice, and summarise an email thread. That makes their results directly comparable. We checked each output against a known answer.\n\n\nWith so few tasks, treat the gaps as a prompt to test your own workload, not as a verdict.\n\n\n### Results, speed and cost per task\n\n\nTerra's median time was 1 second for ticket sorting, 1.2 seconds for invoice fields and 2 seconds for the email summary, which means email summary processing takes twice as long as ticket sorting.\n\n\nA step that must read and condense a long thread is therefore the one where Terra's reasoning delay is most visible.\n\n\nAcross the three tasks, **Terra's median was 1.2 seconds against 0.8** for gpt-5.4-mini, and its cost per task was $0.000256 against $0.000141.\n\n\nPer task, that is about 1.8 times the cost, or **$2.56 against $1.41 for every 10,000 runs** .\n\n\nThat gap is small in absolute terms, so it only matters at high volume or where a workflow waits on each step. If your outputs are equally correct on both models, the cheaper one wins.",
+  "published_at": "2026-11-02T01:13:45+00:00",
+  "first_seen_at": "2026-11-02T05:29:57.234411+00:00",
+  "content_hash": "sha256:0b1bedbf6b82e99d045bac37b7be72bd381cb3c41b083076338fc60bc5b08ea3"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a31f5eaa3e609654b4df10a7a2149fe73eaaf5b76b491c87761fbb65f956a865",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/beam-10-speed-and-accuracy-test-results-2026",
+  "canonical_url": "https://www.activepieces.com/blog/beam-10-speed-and-accuracy-test-results-2026",
+  "title": "Beam 1.0: Speed and Accuracy Test Results (2026)",
+  "summary": "Beam 1.0 changes AI automations with new capabilities for coding and reasoning. You can decide if this open-weight model suits your agentic workflows.",
+  "body_markdown": "## How to connect beam 1.0 in a workflow today\n\n\nStart with a plain HTTP request step. Move to an AI step with an OpenAI-compatible provider only if the endpoint allows it, and use an MCP server last, running one test after each.\n\n\nThe integration catalog and repository list nothing specific to Beam 1.0, so every route here uses general building blocks.\n\n\n### Connect beam 1.0 with an HTTP request step\n\n\nSend a POST to the model endpoint with the API key in the header and your prompt in the JSON body. Use the exact URL and field names from the maker's docs. It doesn't need provider support, so it works today.\n\n\nTest the request with one fixed prompt and read the raw response. Then check the status code, the response time, and what a failed call looks like, because your flow's retry logic depends on those.\n\n\nLook up the maker's rate limits before you loop this over a mailbox.\n\n\n### Option 2: AI step with an OpenAI-compatible provider\n\n\nIf the maker documents an OpenAI-compatible endpoint, add it as a custom provider with its base URL, key and model name. The payoff is that the step behaves like any other AI step, so you can swap models without rebuilding the flow.\n\n\nTest this setup by running the same prompt you used in Option 1 and comparing the answers. If they differ sharply, the compatibility layer is dropping something.\n\n\n[Activepieces](https://www.activepieces.com/) runs that custom-provider step on whatever model you already chose, using your own provider key, so Beam 1.0 spend lands on your provider account at your rate.\n\n\nReselling you a model is deciding your AI strategy for you, and a platform that bundles its own has priced the choice before you open the product.\n\n\nHere Claude, ChatGPT, Cursor or any MCP client can reach the same flow, and the pricing page lists Bring-Your-Own-Key by tier.\n\n\nUse an MCP server only if the maker or a third party publishes one for Beam 1.0; that is Option 3. It lets an agent call the model as a tool, but it's the most moving parts to debug.\n\n\nTest with one tool call that has a known correct answer, and confirm the agent actually invoked it.",
+  "published_at": "2026-11-02T04:14:39+00:00",
+  "first_seen_at": "2026-11-02T05:29:57.234411+00:00",
+  "content_hash": "sha256:45be00808792f57a1340e0a38a9686502eb519b4605292ce71802435580b9efc"
+}

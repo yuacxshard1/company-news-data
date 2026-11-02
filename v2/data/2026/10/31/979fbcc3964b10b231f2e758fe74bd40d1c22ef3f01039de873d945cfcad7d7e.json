@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "979fbcc3964b10b231f2e758fe74bd40d1c22ef3f01039de873d945cfcad7d7e",
+  "company_key": "international-business-machines-corporation-common-stock",
+  "company_name": "International Business Machines Corporation",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://research.ibm.com/blog/ponder-this-november-2026",
+  "canonical_url": "https://research.ibm.com/blog/ponder-this-november-2026",
+  "title": "Ponder This Challenge - November 2026 - The SumSum",
+  "summary": "",
+  "body_markdown": "## The SumSum\n\n\nGiven a finite sequence of length NN\n\n\nN\n\n\n, a0,a1,a2,…,aN−1a_0,a_1, a_2,\\\\ldots,a_{N-1}\n\n\na\n\n\n0\n\n\n​\n\n\n,\n\n\na\n\n\n1\n\n\n​\n\n\n,\n\n\na\n\n\n2\n\n\n​\n\n\n,\n\n\n…\n\n\n,\n\n\na\n\n\nN\n\n\n−\n\n\n1\n\n\n​\n\n\n, let's first **remove** the sequence's first element. We then define the sequence of the **partial sums** of its remaining elements as a1,a1+a2,a1+a2+a3,…,∑i=1N−1aia_1, a_1+a_2,a_1+a_2+a_3, \\\\ldots ,\\\\sum_{i=1}^{N-1} a_i\n\n\na\n\n\n1\n\n\n​\n\n\n,\n\n\na\n\n\n1\n\n\n​\n\n\n+\n\n\na\n\n\n2\n\n\n​\n\n\n,\n\n\na\n\n\n1\n\n\n​\n\n\n+\n\n\na\n\n\n2\n\n\n​\n\n\n+\n\n\na\n\n\n3\n\n\n​\n\n\n,\n\n\n…\n\n\n,\n\n\n∑\n\n\ni\n\n\n=\n\n\n1\n\n\nN\n\n\n−\n\n\n1\n\n\n​\n\n\na\n\n\ni\n\n\n​\n\n\n.\n\n\nFor this sequence of length N−1, let's repeat the \"remove first element\" and \"generate new sequence from the partial sums\" operations to obtain sequences of length N−2,N−3,N−4,…,N−(N−1)N-2, N-3, N-4, \\\\ldots,N-(N-1)\n\n\nN\n\n\n−\n\n\n2\n\n\n,\n\n\nN\n\n\n−\n\n\n3\n\n\n,\n\n\nN\n\n\n−\n\n\n4\n\n\n,\n\n\n…\n\n\n,\n\n\nN\n\n\n−\n\n\n(\n\n\nN\n\n\n−\n\n\n1\n\n\n)\n\n\nuntil we end up with a one-element sequence. We call this element **The SumSum** of the original sequence.\n\n\nFor example, given the 10-element sequence 1,2,3,4,5,6,7,8,9,101, 2, 3, 4, 5, 6, 7, 8, 9, 10\n\n\n1\n\n\n,\n\n\n2\n\n\n,\n\n\n3\n\n\n,\n\n\n4\n\n\n,\n\n\n5\n\n\n,\n\n\n6\n\n\n,\n\n\n7\n\n\n,\n\n\n8\n\n\n,\n\n\n9\n\n\n,\n\n\n10\n\n\n, the SumSum of the sequence is 16,796.\n\n\n**Your goal** : For N=1010N=10^{10}\n\n\nN\n\n\n=\n\n\n1\n\n\n0\n\n\n10\n\n\nand p=1010+19p=10^{10}+19\n\n\np\n\n\n=\n\n\n1\n\n\n0\n\n\n10\n\n\n+\n\n\n19\n\n\n, find the SumSum modulo pp\n\n\np\n\n\nof the sequence a0,…,aN−1a_0,\\\\ldots,a_{N-1}\n\n\na\n\n\n0\n\n\n​\n\n\n,\n\n\n…\n\n\n,\n\n\na\n\n\nN\n\n\n−\n\n\n1\n\n\n​\n\n\ndefined by ai=(Ni)a_i={N \\\\choose i}\n\n\na\n\n\ni\n\n\n​\n\n\n=\n\n\n(\n\n\ni\n\n\nN\n\n\n​\n\n\n)\n\n\n.\n\n\n**A Bonus** \"*\" will be given for finding for N=1011N=10^{11}\n\n\nN\n\n\n=\n\n\n1\n\n\n0\n\n\n11\n\n\nand p=1011+3p=10^{11}+3\n\n\np\n\n\n=\n\n\n1\n\n\n0\n\n\n11\n\n\n+\n\n\n3\n\n\nthe SumSum modulo pp\n\n\np\n\n\nof the sequence given by ai=13ia_i = 13^i\n\n\na\n\n\ni\n\n\n​\n\n\n=\n\n\n1\n\n\n3\n\n\ni\n\n\n.",
+  "published_at": "2026-10-31T23:00:00+00:00",
+  "first_seen_at": "2026-11-02T04:25:13.124421+00:00",
+  "content_hash": "sha256:d925afcb0f898b6d748e9b3a29492f8f6d6094bdfd3ff760f460d0a1f2d2f27b"
+}
