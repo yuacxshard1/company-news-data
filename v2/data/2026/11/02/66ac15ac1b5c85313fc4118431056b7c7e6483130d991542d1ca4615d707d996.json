@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "66ac15ac1b5c85313fc4118431056b7c7e6483130d991542d1ca4615d707d996",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/serpapi-launch-release-date-pricing-setup-2026",
+  "canonical_url": "https://www.activepieces.com/blog/serpapi-launch-release-date-pricing-setup-2026",
+  "title": "SerpApi Launch: Release Date, Pricing, Setup (2026)",
+  "summary": "SerpApi launch provides search access for AI automation systems. You'll understand what was released and gain clarity on its actual release date.",
+  "body_markdown": "## What Activepieces has already shipped for SerpApi\n\n\nYou can pull search results into a flow with the SerpApi integration in the[Activepieces](https://www.activepieces.com/pieces/serp-api)[catalog](https://www.activepieces.com/pieces/serp-api) , but you can't start a flow from SerpApi: it lists **four actions and no triggers** .\n\n\nAnything that kicks off the work, such as a schedule or a client form, has to come from another step.\n\n\nActivepieces has an MIT-licensed core, stated in the LICENSE file of its open source monorepo, and its integrations are counted directly from the` packages/pieces/community` directory of that same repository, so the SerpApi integration and the rest of the catalogue can be read and audited as code rather than taken from a published figure.\n\n\n### The shipped support, with date and link\n\n\nI can point to one source, the catalog page, and the four actions it names are search results from Google, Google News, YouTube and Google Trends.\n\n\nI found no release date for the integration and no announcement tying it to SerpApi's launch. Treat it as \"listed in the catalog as of 2026-10-27,\" not as a dated launch.\n\n\nThe page also doesn't show Activepieces testing SerpApi, and none of the four actions carries a reliability or result-quality claim, so I make none beyond what SerpApi documents itself.\n\n\n### Connecting it in a workflow today\n\n\nWith the integration, the build is short. The steps below take you from an empty step to readable results, and the test step is where you find out how much one run consumes before you promise a client anything:\n\n\n1. Add the SerpApi integration to your flow as a new step.\n2. Pick one of the four actions: Google Search, News, YouTube or Trends.\n3. Paste your SerpApi API key into the connection.\n4. Set the query the step should search for.\n5. Run the test step.\n6. Read the results it returns and map the fields you need into later steps.\n\n\nWhen you test or run live, a search is spent from whichever key you pasted. **If one shared key serves several clients, the heaviest client is quietly funded by the rest, so give a high-volume client their own key and bill it through.**\n\n\nIf the integration is missing from your instance, an HTTP request step pointed at SerpApi's documented search endpoint, carrying the same key and query, does the same job. You then map the response fields yourself.\n\n\n> **If one shared key serves several clients, the heaviest client is quietly funded by the rest, so give a high-volume client their own key and bill it through.",
+  "published_at": "2026-11-02T10:26:24+00:00",
+  "first_seen_at": "2026-11-02T11:38:28.351945+00:00",
+  "content_hash": "sha256:d61cf4ec38f093d81e8d460e6571d4dedee4409970d2b3b18ab43b84b533bb0d"
+}

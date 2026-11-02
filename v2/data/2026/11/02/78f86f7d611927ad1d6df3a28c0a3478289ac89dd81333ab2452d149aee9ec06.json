@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "78f86f7d611927ad1d6df3a28c0a3478289ac89dd81333ab2452d149aee9ec06",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/streak-api-keys-rate-limits-and-pricing-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/streak-api-keys-rate-limits-and-pricing-2026-guide",
+  "title": "Streak API: Keys, Rate Limits and Pricing (2026 Guide)",
+  "summary": "Streak API lets you access Gmail CRM data via REST. This explains how to authenticate, which endpoints to use, and what rate limits apply in production.",
+  "body_markdown": "## Connecting Streak to Other Apps with Activepieces\n\n\nIf a Streak box change must reach Slack, Google Sheets or a billing app and you don't want to host a receiver, Activepieces suits the case.\n\n\nIt changes nothing about Streak's authentication or limits, and its integrations are open to inspection: the community integrations folder of its MIT-licensed monorepo on GitHub holds the source for each one, so Streak's triggers and actions can be read there rather than taken from a feature list.\n\n\n### When a workflow beats a script\n\n\nSomeone is paged when a forwarder fails, and with a hosted workflow that's whoever owns the Activepieces account, not whoever last touched a server.\n\n\nThe free plan allows up to 5 users on that account, so ownership can sit with a small team rather than one person's login. That's the real argument for it: no code to deploy, patch or monitor, and failed runs sit in a visible log.\n\n\nWhen a transient failure hits, the retry-enabled HTTP step handles it before it becomes the silent loss the reconciliation read exists to catch.\n\n\n### What the task metering costs\n\n\nThe cost is metering.[Activepieces](https://www.activepieces.com/pricing) '[pricing page](https://www.activepieces.com/pricing) lists **1,000 tasks per month** on the free tier against 100 at Zapier, a competing automation service.\n\n\nFan one box out to three apps and each update spends several tasks, so 1,000 covers a modest pipeline and not a busy one.\n\n\nThe lowest paid tier lists 10,000 tasks against Zapier's 1,500, so check your update volume against that ceiling before you commit.\n\n\nIf your volume is high or the logic is branching and stateful, a short script you own is the better choice, but then you also own the pager.\n\n\n### Checking the Streak integration yourself\n\n\nActivepieces counts its 746 integrations directly from the packages/integrations/community folder of its MIT-licensed open-source monorepo on GitHub, so a Streak integration's triggers and actions are readable in source, not just in a marketing list.\n\n\nThis guide hasn't confirmed the current Streak triggers and actions as of 2 November 2026. Check whether it offers a trigger on box changes or only actions.\n\n\nIf a trigger is missing, the HTTP step can call Streak's API directly with the same API key, so the access rules and rate limits you designed around still apply.",
+  "published_at": "2026-11-02T05:42:23+00:00",
+  "first_seen_at": "2026-11-02T11:38:28.351945+00:00",
+  "content_hash": "sha256:2558b45dfdb8f4ca918eaa0c9db36279f514615ce83576a0d7da2143eb4a8c95"
+}

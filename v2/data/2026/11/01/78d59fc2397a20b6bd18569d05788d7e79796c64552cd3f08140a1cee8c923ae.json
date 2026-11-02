@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "78d59fc2397a20b6bd18569d05788d7e79796c64552cd3f08140a1cee8c923ae",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/kinetiq-mcp-local-preview-animation-edit-approval-export-download",
+  "canonical_url": "https://opentools.ai/news/kinetiq-mcp-local-preview-animation-edit-approval-export-download",
+  "title": "Kinetiq’s MCP preview keeps animation edits behind an approval step",
+  "summary": "Kinetiq 2.1’s local MCP preview separates scene context, edit approval and export download.",
+  "body_markdown": "Source: Intel Free Press · CC BY 2.0 · Cropped.\n\n\n·\n\n\n[Source image](https://commons.wikimedia.org/wiki/File:Origami_Animation_Designed_on_Apple_Mac_Pro,_Rendered_in_the_Cloud.jpg)\n\n\n# Kinetiq’s MCP preview keeps animation edits behind an approval step\n\n\nBy OpenTools Team\n\n\nThe October 30 release connects an AI app to a local editor; preparing a change or export does not finish it.\n\n\n##\n\n\nStart with a local editor\n\n\nThirdrez’s[Kinetiq 2.1 changelog](https://thirdrez.com/changelog) specifies Node.js 24 or later, an AI app supporting local MCP STDIO, and an editor already running at an HTTP 127.0.0.1 address. The connector does not install the editor or connect to its hosted HTTPS version.\n\n\n##\n\n\nPreparation is not completion\n\n\nThe assistant can inspect the scene and prepare supported changes. Users must[review and apply or cancel](https://thirdrez.com/changelog) each proposed edit in Kinetiq; asking in chat is not approval. Export has another handoff: review settings, prepare the file, then select Download. A prepared export is not yet saved to disk. Local connection also does not mean all context stays local: Thirdrez says the AI app may send context to its provider.\n\n\nArchive photograph of John McNeil Studio’s origami‑animation production, November 2011; not Kinetiq. Photo:[Intel Free Press](https://commons.wikimedia.org/wiki/File:Origami_Animation_Designed_on_Apple_Mac_Pro,_Rendered_in_the_Cloud.jpg) ,[CC BY 2.0](https://creativecommons.org/licenses/by/2.0) . Cropped.\n\n\n## Sources\n\n\n1. 1.\n\n\n[Intel Free Press](https://commons.wikimedia.org/wiki/File:Origami_Animation_Designed_on_Apple_Mac_Pro,_Rendered_in_the_Cloud.jpg) (commons.wikimedia.org)\n\n\n2. 2.\n\n\n[CC BY 2.0](https://creativecommons.org/licenses/by/2.0) (creativecommons.org)\n\n\n3. 3.\n\n\n[thirdrez.com](https://thirdrez.com/changelog) (thirdrez.com)\n\n\n## Tags\n\n\nAI animation",
+  "published_at": "2026-11-01T19:12:25.677+00:00",
+  "first_seen_at": "2026-11-02T11:33:02.480715+00:00",
+  "content_hash": "sha256:df6648501fcad1c1e53643554e186ca37e840d6f69e056d119a6429432269dac"
+}
