@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4dd2498c90dc6e281cd825af12dc6c3e3f0088575c2cdbab6d52cbfe48501463",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/chatgpt-team-pricing-2026-plans-seats-api-costs",
+  "canonical_url": "https://www.activepieces.com/blog/chatgpt-team-pricing-2026-plans-seats-api-costs",
+  "title": "ChatGPT Team Pricing 2026: Plans, Seats & API Costs",
+  "summary": "ChatGPT Team pricing varies by plan. You can compare the cost and features of each tier to determine which meets your organization's needs.",
+  "body_markdown": "## Automating recurring ChatGPT work with Activepieces\n\n\nWhen the same steps run on a trigger with nobody watching, a repeating ChatGPT task is cheaper as a workflow. A seat stays cheaper when a person is judging, rewording and steering the answer as it comes.\n\n\n### ChatGPT tasks worth automating in a workflow\n\n\nThink of a task that starts the same way every time: a new support email arrives, and someone pastes it into ChatGPT to get a summary. That person's a very expensive trigger.\n\n\nPaying for a seat so they can do it forty times a day means you're paying for attention you don't need.\n\n\nWired as a workflow, the email triggers a call to the model through the API, and you pay for the words processed, not for a chair.\n\n\nWhere the work is conversational, seats win. Drafting a proposal, debugging with a colleague, or reshaping a rough idea takes back-and-forth, and no workflow can anticipate your next question. Keep a seat for those people.\n\n\n### How your model choice sets costs\n\n\n[Activepieces](https://www.activepieces.com/pricing) doesn't resell you a model, so it hasn't picked your AI or set its price before you opened it. Flows call whichever model you already chose, on your own provider key, so the model spend lands on your provider bill.\n\n\nBring-your-own-key starts on the $20 Plus tier, where every AI step counts as 1 credit, against 2 credits for a fast model, 10 for a smart one and 20 for a frontier one when the platform supplies the model.\n\n\nThat 1-credit step against the 20-credit frontier step is the whole difference between using your own key and buying a model the platform resells, and the pricing page prints both numbers.\n\n\nTo prove a flow works before anyone commits budget, the free tier at[$0 a month](https://www.activepieces.com/pricing) is enough. Plus is $20 a month, which is less than one seat on most paid ChatGPT plans, and it runs a flow for the whole team.\n\n\nTeam is $200 a month, which only makes sense once many people depend on those flows and you need the extra users and support.\n\n\nSo the same summarizing job costs you the Activepieces tier plus the model usage it consumes.\n\n\nA run is 1 credit however many steps it has, and the monthly allowances are 1,000 credits on Free, 10,000 on Plus and 50,000 on Team, with $0.007 a credit charged over the allowance on Plus and Team.\n\n\nCheck your volume against those before choosing, because that's where a small flow quietly outgrows its plan.",
+  "published_at": "2026-11-03T10:28:28+00:00",
+  "first_seen_at": "2026-11-03T12:52:57.822665+00:00",
+  "content_hash": "sha256:8df529d66380dbaa9e4e918a1fa87770c1f329faa44f7ae40e5ab59c2da0b8bf"
+}

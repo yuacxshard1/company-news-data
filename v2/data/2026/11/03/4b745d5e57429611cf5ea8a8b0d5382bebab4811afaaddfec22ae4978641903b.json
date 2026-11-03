@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4b745d5e57429611cf5ea8a8b0d5382bebab4811afaaddfec22ae4978641903b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/litellm-open-source-ai-gateway-llm-proxy-2026",
+  "canonical_url": "https://www.activepieces.com/blog/litellm-open-source-ai-gateway-llm-proxy-2026",
+  "title": "LiteLLM Open-Source AI Gateway: $0, 7.1ms Added (2026)",
+  "summary": "LiteLLM is an open-source AI gateway with a new release. Find out which features affect your automation workflows and integration options.",
+  "body_markdown": "## What automation teams gain from LiteLLM\n\n\nWhen a workflow step calls one OpenAI-compatible endpoint, it no longer needs to know which provider answers, so **swapping or adding models becomes a settings change** rather than a rebuild. That's the whole appeal for a team that runs AI steps every day.\n\n\nYour automations send requests in the OpenAI format to one address, and LiteLLM passes them on to whichever provider you have configured.\n\n\nFor an ops team, the consequence is fewer credentials and fewer custom connectors scattered across flows. Each step holds one URL and one key, and the routing lives in one place that someone owns.\n\n\nThat split also tells you who has to change habits. Builders stop pasting provider keys into individual steps, and one person takes on the job of keeping the gateway up.\n\n\nThe docs treat that as a real deployment. The maker's[production deployment guide](https://docs.litellm.ai/docs/proxy/deploy) covers AWS, Google Cloud, Azure and any Kubernetes cluster, and describes deployment modes that start with a monolithic setup, one litellm image.\n\n\nSo you're standing up a service, not adding a library.\n\n\nStart with docs.litellm.ai, because the release comes from the LiteLLM project itself. Install and deploy instructions are there, including the guide linked above.\n\n\nTake the image and the setup steps from those pages, not from third-party summaries. Anything this article says about behaviour rests on those pages, and the release notes will tell you what's actually new.",
+  "published_at": "2026-11-03T06:35:30+00:00",
+  "first_seen_at": "2026-11-03T12:52:57.822665+00:00",
+  "content_hash": "sha256:ce18431b998649a88c96d660b188f49ab8d8e1acb578fc8d09a4acaea8f1be33"
+}

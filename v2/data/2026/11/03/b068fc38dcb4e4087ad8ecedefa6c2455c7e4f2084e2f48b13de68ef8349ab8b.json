@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b068fc38dcb4e4087ad8ecedefa6c2455c7e4f2084e2f48b13de68ef8349ab8b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepinfer-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/deepinfer-2026-guide",
+  "title": "DeepInfer (2026): DeepSeek's Inference Framework, Oct 20",
+  "summary": "Deepinfer is a new inference framework from DeepSeek released October 20, 2026. Learn what capabilities it introduces for AI automations.",
+  "body_markdown": "## Deepinfer connections in current workflows\n\n\nBecause **no native deepinfer integration exists** , any workflow tool can reach it by three ordinary routes. The[public pieces catalog](https://www.activepieces.com/pieces) grew from 280+ integrations to 400, then 500, and now 768, and still lists nothing for deepinfer (checked 2026-10-20).\n\n\nCheck for the specific connector before counting on it, because a bigger catalog doesn't mean your tool is covered.\n\n\nRead the table by what deepinfer itself must offer, since that is where the routes differ mainly. Setup effort follows from that.\n\n\nRoute Setup effort What deepinfer must expose Where the output goes\n\n\nHTTP request step Moderate: you map fields by hand A documented HTTP endpoint The step's response, passed to later steps\n\n\nAI step, OpenAI-compatible provider Low, if the endpoint matches An OpenAI-compatible endpoint The AI step's text output\n\n\nMCP server Higher: needs a running server An MCP server Tool results inside an agent step\n\n\nFallback first: the HTTP request step. You set the URL, headers and JSON body yourself, so it works only if deepinfer publishes a documented endpoint. Expect to map each response field by hand.\n\n\nIf deepinfer's endpoint doesn't copy the OpenAI request format, the AI step with an OpenAI-compatible provider fails on the first call. When it does copy it, this is the shortest path.\n\n\nFor agent steps that choose tools themselves, the MCP server route fits. It requires deepinfer to run an MCP server, and nothing in the maker's pages is cited here to show one exists.\n\n\nOnce deepinfer is connected in[Activepieces](https://www.activepieces.com/) , an agent can call it, because the same piece runs as a step in your flow and as a tool on each project's own MCP server, which Claude, ChatGPT, Cursor or an agent of your own can use.\n\n\nThat spares you a second round of integration work for the agent side, and the mechanism is readable in packages/integrations in the open source repo. MoneyGram, Moneypenny, Alan and FundingSocieties run it in production.\n\n\nWhichever route you pick, test it with one request before wiring in downstream apps.",
+  "published_at": "2026-11-03T06:34:48+00:00",
+  "first_seen_at": "2026-11-03T12:52:57.822665+00:00",
+  "content_hash": "sha256:ee662b4f690c5b757386ed861609d24015084fbd55c40276d44c1706874723e3"
+}

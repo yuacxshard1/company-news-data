@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2ed0b0597feb45de316b10fb11e39116ade3bd87530cc425f899165ab0f49452",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/google-docs-api-rate-limits-for-developers-2026",
+  "canonical_url": "https://www.activepieces.com/blog/google-docs-api-rate-limits-for-developers-2026",
+  "title": "Google Docs API Rate Limits for Developers (2026)",
+  "summary": "Google Docs API lets you build code that creates, reads, and edits documents. Understand the quota limits and errors that commonly interrupt integrations.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces is where we put the limits into the description and keep the trace readable afterwards.\n\n\nYou tell the built-in chat in[Activepieces](https://www.activepieces.com/) the volume, the burst and the retry behaviour: 200 contracts every Monday, no more than 60 writes a minute per user, back off on a 429 or a 5xx.\n\n\nIt then publishes a live flow on the Google Docs integration, with create document, append text and find and replace steps, plus the delay and retry steps the description called for.\n\n\nThe quota stops being something you discover at 09:02 and becomes a line in the brief.\n\n\nThe open-source core is MIT-licensed, so you can read the Docs integration and the retry logic for yourself instead of taking our word for how they behave.\n\n\nYou can self-host it, which matters here because a self-hosted instance means you know exactly which Google Cloud project, and therefore which shared quota, your flows run under. We can't raise Google's 60-a-minute write ceiling, and nothing in the product pretends to.\n\n\nWhat it does is make the pace you chose visible and keep it consistent across flows.\n\n\nThe second half of the argument is the run trace. Each run records every step, including whether a 429 came back, how long the flow waited, whether it retried and what the outcome was.\n\n\nSo the Monday check described above is a matter of opening the weekend's busiest run and reading it, not reconstructing events from a half-empty shared folder.\n\n\nA job that gives up on most of its documents no longer reports \"completed\" without anyone being able to see why.\n\n\nFlows run under the same RBAC and audit logs as everything else in the account, so who changed the retry settings, and when, is on record.\n\n\nThat covers the part of the failure no script gives you: someone other than the original author can see what the flow was told to do and what it actually did.",
+  "published_at": "2026-11-03T09:14:20+00:00",
+  "first_seen_at": "2026-11-01T09:46:15.698859+00:00",
+  "content_hash": "sha256:96554e602760f6123599bbb3f84624f7a10b4939c2e20f4411338b673a9c6d4e"
+}

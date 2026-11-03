@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ce1ab039ff2800aec2f1018c6353ffac6fa50fd5d421d6d51e99480c2b7ad57c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/litellm-1-107-0-compromised-what-to-rotate-and-pin",
+  "canonical_url": "https://www.activepieces.com/blog/litellm-1-107-0-compromised-what-to-rotate-and-pin",
+  "title": "LiteLLM 1.107.0 Compromised? Rotate Keys in First Day",
+  "summary": "LiteLLM 1.107.0 compromised: check the official security advisory and PyPI page to verify if your installation is at risk.",
+  "body_markdown": "## Immediate response checklist\n\n\nWork it in order: find every affected install in the first hour, rotate what it could reach in the first day, and pin and monitor across the month.\n\n\n### Why timing matters after a LiteLLM compromise\n\n\nSpeed matters.[IBM's Cost of a Data Breach 2026 data](https://databreachcost.com/attack-vector/supply-chain) puts supply-chain breaches at 194 days to identify and 64 more to contain.\n\n\nA compromise nobody looks for can therefore sit in your systems for more than eight months.\n\n\nYour exposure isn't a fixed 258 days, so you can't use that figure to anchor your planning. It's however long ago the affected release first landed, and the log review below is how you find that out.\n\n\n### The First hour\n\n\nIn the first hour, search lockfiles, container images and CI caches for the affected version. A cached layer will quietly reinstall it, so a clean lockfile alone proves nothing.\n\n\nThen isolate every host that ran it. Cut its network access before you wipe it, so you keep the evidence.\n\n\n### The First day\n\n\nIn the first day, rotate every provider and cloud key those hosts could read, including keys in environment variables and CI secrets.\n\n\nA key you skip is a standing invitation to the attacker, and the 194-day identification figure shows how long such access can go unnoticed.\n\n\n### The First month\n\n\nIn the first month, **pin the safe version the advisory names** , with hash checking on. A swapped artifact then fails the install instead of arriving unreviewed.\n\n\nReview egress logs back to the first install date for destinations you don't recognize. Go as far back as your retention allows, since the 64-day containment figure assumes you already know where to look.\n\n\nFollow the advisory feed for this package, so the next bad release reaches you as a notice rather than a surprise.",
+  "published_at": "2026-11-03T06:35:22+00:00",
+  "first_seen_at": "2026-11-03T12:52:57.822665+00:00",
+  "content_hash": "sha256:5731f57134b3936bcb902f77784cb46b76573193b9c76c99916ac8d67db6b471"
+}

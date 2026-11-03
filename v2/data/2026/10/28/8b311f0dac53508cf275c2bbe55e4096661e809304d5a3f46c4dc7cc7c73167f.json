@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8b311f0dac53508cf275c2bbe55e4096661e809304d5a3f46c4dc7cc7c73167f",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/scim-user-provisioning",
+  "canonical_url": "https://bird.com/changelog/scim-user-provisioning",
+  "title": "Provision users with Okta and Microsoft Entra ID",
+  "summary": "Connect Okta or Microsoft Entra ID to create Bird users, assign organization and workspace roles, and remove access when people leave.",
+  "body_markdown": "Organization owners can now set up SCIM provisioning from **SCIM provisioning** in organization settings. Connect an active SSO connection, create a dedicated SCIM key, and configure your identity provider using the URL shown in Bird.\n\n\nAssign roles through people or groups in your identity provider. One person can have different roles in different Bird workspaces. Deactivating or deleting a managed user removes their access to that organization, including manually assigned roles. Their Bird account and access to other organizations remain available. Keep an organization owner outside provisioning for recovery access.\n\n\nUse one directory per organization. Bird provisions users and their roles; groups stay in your identity provider. Manual edits to managed roles can be overwritten by the next SCIM update.\n\n\nFollow[Set up SCIM with Okta](https://bird.com/docs/knowledge-base/account-security/scim-okta) or[Set up SCIM with Microsoft Entra ID](https://bird.com/docs/knowledge-base/account-security/scim-microsoft-entra-id) . The[SCIM provisioning guide](https://bird.com/docs/knowledge-base/account-security/scim) covers role values, key rotation, and pausing provisioning.",
+  "published_at": "2026-10-28T00:00:00+00:00",
+  "first_seen_at": "2026-11-03T13:53:21.573172+00:00",
+  "content_hash": "sha256:f927ec0be08ee026afad3f489356a87dd6a6c71479659ae9544db182da8b7b86"
+}
