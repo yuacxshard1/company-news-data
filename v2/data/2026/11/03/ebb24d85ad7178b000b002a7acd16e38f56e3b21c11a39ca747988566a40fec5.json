@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ebb24d85ad7178b000b002a7acd16e38f56e3b21c11a39ca747988566a40fec5",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/super-mcp-css-formatting-false-mismatch-anchor-preview-errors",
+  "canonical_url": "https://opentools.ai/news/super-mcp-css-formatting-false-mismatch-anchor-preview-errors",
+  "title": "Super fixes formatting-based CSS warnings in its AI assistant workflow",
+  "summary": "Super’s November 2 MCP fixes separate CSS reformatting from stale-style warnings and replace misleading preview-plan errors with page-path guidance.",
+  "body_markdown": "Source: @matylda / hackNY / Wikimedia Commons · CC BY-SA 2.0.\n\n\n·\n\n\n[Source image](https://commons.wikimedia.org/wiki/File%3AWebsite_Coding.jpg)\n\n\n# Super fixes formatting-based CSS warnings in its AI assistant workflow\n\n\nBy OpenTools Team\n\n\nCSS comparisons and anchored previews need different diagnoses before an assistant recommends site changes.\n\n\n##\n\n\nFormatting is not a deployment change\n\n\n[The November 2 changelog](https://changelog.super.so/) says saved‑versus‑live CSS checks could mistake` .22` becoming` 0.22` for outdated styles. The check now matches CSS as Super builds it, rather than treating that representation change as evidence for republishing or clearing caches.\n\n\n##\n\n\nA timeout is a separate diagnosis\n\n\n[Links with a # anchor now render](https://changelog.super.so/) in AI‑assistant previews, Super says. If a preview still times out, the error points users to compare the requested path with the site’s page list instead of falsely describing a paid site as free.\n\n\nThe update describes diagnostic fixes, rather than a general site‑health check.\n\n\nCoding workstation, March 2012; archive context, not Super’s interface or an MCP test. Photo: @matylda / hackNY /[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AWebsite_Coding.jpg) ,[CC BY‑SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) . Resized and cropped under the same licence.\n\n\n## Sources\n\n\n1. 1.\n\n\n[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AWebsite_Coding.jpg) (commons.wikimedia.org)\n\n\n2. 2.\n\n\n[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) (creativecommons.org)\n\n\n3. 3.\n\n\n[changelog.super.so](https://changelog.super.so/) (changelog.super.so)\n\n\n## Tags\n\n\n[AI development](https://opentools.ai/news/tags/ai-development)",
+  "published_at": "2026-11-03T01:48:54.134+00:00",
+  "first_seen_at": "2026-11-03T04:10:55.063575+00:00",
+  "content_hash": "sha256:4c4752a0e8c47a2b5e000b423e65c5651981d90f12a2418868f2d9bd3cbecc7b"
+}
