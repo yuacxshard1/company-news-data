@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bc3d0cbf929d205187fa01c9b58d73960f45d4406fbce007ac3b00b2b5ffc795",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/claude-agent-sdk-hook-failure-block-action-stream-warning",
+  "canonical_url": "https://opentools.ai/news/claude-agent-sdk-hook-failure-block-action-stream-warning",
+  "title": "Claude Agent SDK adds action blocking for configured hook failures",
+  "summary": "Claude Agent SDK 0.3.317 adds onFailure blocking for hook errors or invalid output, alongside stream warnings.",
+  "body_markdown": "Source: @matylda / hackNY / Wikimedia Commons · CC BY-SA 2.0.\n\n\n·\n\n\n[Source image](https://commons.wikimedia.org/wiki/File%3AWebsite_Coding.jpg)\n\n\n# Claude Agent SDK adds action blocking for configured hook failures\n\n\nBy OpenTools Team\n\n\nThe matcher setting can stop an action; a stream warning reports that a callback failed.\n\n\n##\n\n\nChoose whether hook failure stops work\n\n\n[Version 0.3.317](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.317) , released November 2 Toronto time, adds` onFailure` to hook matchers. With` \"block\"` , a callback that throws or supplies invalid output stops the action.\n\n\nHosts can make callback failure prevent the pending action, instead of treating failure only as something to report. The notes do not specify the default.\n\n\n##\n\n\nWarnings answer a separate question\n\n\n[The same release](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.317) adds a stream warning when a hook callback fails. The warning reports failure; the matcher setting determines the blocking behavior. Receiving a notice does not itself establish that an action was stopped.\n\n\nFor broader design questions,[OpenTools’ systems reference](https://opentools.ai/resources/enterprise-system-design) covers authority and observability. It does not document this SDK option.\n\n\nCoding workstation, March 2012; archive context, not a Claude Agent SDK session or execution test. Photo: @matylda / hackNY /[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AWebsite_Coding.jpg) ,[CC BY‑SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) . Resized and cropped under the same licence.\n\n\n## Sources\n\n\n1. 1.\n\n\n[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AWebsite_Coding.jpg) (commons.wikimedia.org)\n\n\n2. 2.\n\n\n[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) (creativecommons.org)\n\n\n3. 3.\n\n\n[github.com](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.317) (github.com)\n\n\n## Tags\n\n\nDeveloper AI",
+  "published_at": "2026-11-03T15:49:18.922+00:00",
+  "first_seen_at": "2026-11-03T20:13:28.568649+00:00",
+  "content_hash": "sha256:41d22969733935b518a3bc0d04ddfb28c170657636c96e32229af2b39d4d8c8d"
+}

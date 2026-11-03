@@ -1,0 +1,116 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "02c3645150b6ab80ae7060bef999ebd12743680786c0ba07b4422fe7f24cb5a5",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Archil mounts a POSIX file system for CI with no Redis or metadata database to run. In its published one-host test, npm ci took 12.4 s against 53.8 s on JuiceFS writeback.",
+      "title": "A POSIX file system on S3 for CI builds without Redis or a metadata database"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "0c5c95099dc1b2a0870f419ce53a4cbfb5ebf48fd55c22c59cf359aab66258f9",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Keep the repo, node_modules and build cache on one Archil disk that Daytona and E2B sandboxes both mount over FUSE, and hand the disk from one sandbox to the next.",
+      "title": "How to move an agent's workspace between Daytona and E2B"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "2f45ae506edece08fb682a4e37525bc9a040e40fb651117637d353891bba7050",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Yes, on Enterprise. Archil checkpoints and branches a disk in tens of milliseconds, and branching a disk synced to your own S3, GCS or R2 bucket is an Enterprise feature.",
+      "title": "Can you snapshot and branch a file system that syncs to your own S3 bucket?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "3ac5a972fa83bf795dc690ccbb1022d177eb90ad5066393433536d55eb14be68",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "List-price cost of an idle 2 vCPU, 4 GiB sandbox on E2B, Daytona, Modal, Vercel, Cloudflare and Archil, how timeouts change the bill, and what per-call tool execution costs instead.",
+      "title": "What does an idle agent sandbox cost per hour?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "5f3d088c1128f8b230fb39aaeea108d7c0445b9a1e2a2aa3b1e4c88c407e6b81",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Keep the workspace on one disk and run each branch as its own exec call in its own microVM: read-only and conditional mounts, measured latency at 10 and 50 calls, and limits.",
+      "title": "How to fan out agent tool calls in parallel against one workspace"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "6cddc516060743d40da80983b865791b6514ef49dbb57a82a1a9c3c41822bfb7",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "To give each Modal sandbox its own writable copy of a large dataset, keep it on an Archil disk, checkpoint it once and mount one copy-on-write branch per attempt in a Modal VM sandbox.",
+      "title": "How to give each Modal sandbox its own copy of a large dataset without duplicating it"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "6fd781c3bafd2b2021c55ecb4a1974094800a7e1ab223092d8a93946811c1a46",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Measured end-to-end latency of Archil serverless tool calls for trivial commands, ripgrep and a test suite, one at a time and in parallel, with a script to reproduce it.",
+      "title": "How fast is a serverless tool call for an AI agent?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "a6a41677f2ebb379783e35bcc46a66be69767ab6d29ef03fd55ef37c81ca16f1",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Only one Vercel sandbox can mount a Drive read-write. To let several sandboxes write one workspace at once, mount an Archil disk in each with conditional or shared mode.",
+      "title": "How to let several Vercel Sandbox agents write the same workspace at once"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "cc1774416a1bd5013ca52c8c0f3523ba199563853b7959a997b8a4f2f478349d",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What fsync durability means when another sandbox, snapshot or fork reads the data, shown with Archil's published Vercel Drive test, plus how to test your own sandbox storage.",
+      "title": "Is a sandbox write durable after fsync? What another sandbox sees"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "f3b440193fbf0d00b47d8bdf8bf2575a647c247eb3420c5c70ed458eec13c750",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "No. Most agent tool calls are short commands that only need the agent's files, so each can run in a short-lived microVM against a persistent disk. Here is when a long-lived sandbox still wins.",
+      "title": "Do AI agents need a sandbox running for the whole session?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "f6c2a56e40653204d29afa86508c47c1825c42a3970f0282c39e6f8743c2da03",
+      "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Put the agent's workspace on a persistent disk and run each bash or file tool as one disk.exec call in a fresh microVM, with nothing to keep alive between calls.",
+      "title": "How to run agent tool calls without keeping a VM open"
+    }
+  ],
+  "company_key": "yc-archil",
+  "month": "2026-11"
+}

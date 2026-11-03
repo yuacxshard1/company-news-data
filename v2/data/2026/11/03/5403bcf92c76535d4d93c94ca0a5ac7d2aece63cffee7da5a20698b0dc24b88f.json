@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5403bcf92c76535d4d93c94ca0a5ac7d2aece63cffee7da5a20698b0dc24b88f",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/releases/passkey-authentication-testing-and-test-suite-export-via-cli/",
+  "canonical_url": "https://testrigor.com/releases/passkey-authentication-testing-and-test-suite-export-via-cli/",
+  "title": "testRigor Release: Passkey Authentication Testing and Test Suite Export via CLI",
+  "summary": "Passkey testing testRigor now supports passkey authentication, allowing users to automate login flows on websites that use passkeys instead of traditional passwords. Users can create passkeys, upload them as global variables, and then link them to specific users on the Authentication tab. For more information, check the documentation page. The following commands have been introduced: ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## Passkey testing\n\n\ntestRigor now supports passkey authentication, allowing users to automate login flows on websites that use passkeys instead of traditional passwords.\n\n\nUsers can create passkeys, upload them as global variables, and then link them to specific users on the Authentication tab. For more information, check the[documentation page](https://testrigor.com/docs/language#passkey_testing) .\n\n\nThe following commands have been introduced:\n\n\n- ` create passkey and save as \"myPasskey\"` : Creates and stores a new passkey.\n- ` enable passkey \"myPasskey\"` : Enables a previously saved passkey for authentication.\n- ` disable passkey` : Disables passkey authentication.\n- ` use passkey and pass` : Simulates successful passkey verification.\n- ` use passkey and fail` : Simulates a rejected or canceled verification.\n\n\n## Exporting test suites (CLI tool)\n\n\nA new feature has been introduced in our CLI tool, allowing users to export test cases, reusable rules, and settings from a specific test suite. For more details about our CLI tool, check the documentation[here](https://testrigor.com/command-line/) .\n\n\nThe command syntax is as follows:\n\n\n```text\ntestrigor clone <suite-id>\n```",
+  "published_at": "2026-11-03T19:00:20+00:00",
+  "first_seen_at": "2026-11-03T21:06:15.378932+00:00",
+  "content_hash": "sha256:b718c46bd7c7ab3063888192390e4007797092a05bb8f296a9c284007a3b1e55"
+}

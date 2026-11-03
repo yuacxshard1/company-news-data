@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c826d63d2957a7cd54415d06149b46bf890ba756ad933edca3bcb8cb727562ad",
+  "company_key": "yc-solidroad",
+  "company_name": "Solidroad",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.solidroad.com/resources/training-simulation-security-review",
+  "canonical_url": "https://www.solidroad.com/resources/training-simulation-security-review",
+  "title": "What to ask in a training simulation security review",
+  "summary": "Prepare a training simulation security review covering data access, AI processing, retention and the evidence your security team needs.",
+  "body_markdown": "An NDA does not answer questions about AI processing, retention or access. Bring your security team into the evaluation early and ask for evidence about the specific workflow you plan to use.\n\n\n## Inventory the information involved\n\n\nList product documentation, policy material, learner details, recordings and any customer information that might enter the workflow. Ask which inputs are necessary and whether a fictional or de-identified example can satisfy the training need. Do not upload sensitive material before your organisation approves the use.\n\n\n## Ask where the data goes\n\n\nRequest a current data-flow description covering processing, storage, subprocessors and applicable locations. Ask whether inputs or outputs are used for model training and what contractual controls apply. Separate a human confidentiality agreement from the technical and contractual handling of AI inputs.\n\n\n## Confirm access and retention\n\n\nReview administrator access, learner access, authentication, retention and deletion. Ask how recordings and assessment results are handled. Confirm the capabilities for your proposed deployment instead of assuming that every control is available on every plan.\n\n\n## Request supporting evidence\n\n\nUse your security team’s requirements to request relevant audit reports, agreements and technical answers. A certification can support the review, but it does not by itself establish that a particular data use is appropriate. Resolve exceptions with a named owner before starting the pilot.\n\n\n## Keep the first evaluation proportionate\n\n\nA representative exercise using fictional records can help assess training fit while the formal review proceeds. Ask Solidroad to provide its current security materials and confirm your specific requirements; this checklist is not a promise of a particular hosting or retention configuration.",
+  "published_at": "2026-11-03T00:00:00+00:00",
+  "first_seen_at": "2026-11-03T21:25:35.618294+00:00",
+  "content_hash": "sha256:0ba5ed1a3af39f29c4a980bed14c71b7e506f5a166877777e9a2f3c51e0c837b"
+}
