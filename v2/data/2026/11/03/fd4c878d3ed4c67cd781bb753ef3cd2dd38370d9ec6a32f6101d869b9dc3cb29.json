@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fd4c878d3ed4c67cd781bb753ef3cd2dd38370d9ec6a32f6101d869b9dc3cb29",
+  "company_key": "yc-mixpanel",
+  "company_name": "Mixpanel",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://community.mixpanel.com/x/announcements/msg_KJ3SnoFdpJGE/connect-all-claude-members-to-the-mixpanel-mcp-ser",
+  "canonical_url": "https://community.mixpanel.com/x/announcements/msg_KJ3SnoFdpJGE/connect-all-claude-members-to-the-mixpanel-mcp-ser",
+  "title": "Connect all Claude members to the Mixpanel MCP Server with managed authorization",
+  "summary": "Mixpanel MCP Server now supports beta auto-connect for Claude.ai users with managed authorization, enabling seamless and secure integration.",
+  "body_markdown": "MCP Server: Auto-connect\n\n\n[Claude.ai](http://claude.ai/) users with managed authorization (beta)\n\n\n✨\n\n\nAdmins can now connect Claude to the Mixpanel MCP Server for every member at once. When members open Claude, Mixpanel is already connected, with no sign-in or consent screen. With this update:\n\n\nWhat's new\n\n\n-\n\n\nOne-time setup:\n\n\nA Claude admin and a Mixpanel org admin connect the two. In Claude, use the connector's\n\n\nManaged authorization\n\n\nsettings. In Mixpanel, go to\n\n\nOrganization Settings → Access Security → Claude Access\n\n\n.\n\n\n-\n\n\nChoose the identity provider:\n\n\nUse Claude as the issuer for the fastest setup, or use Okta so its sign-in and MFA policies apply and you control who gets access.\n\n\n-\n\n\nYour permissions stay the same:\n\n\nClaude acts as each member, and Mixpanel checks their project and data access on every request. Managed authorization grants no extra access.\n\n\n-\n\n\nEvery connection is audited:\n\n\nEach connection appears in the\n\n\n[audit log](https://docs.mixpanel.com/docs/access-security/audit-log#audit-log) as an\n\n\nmcp_client.authorized\n\n\nentry, and changes to the issuer setup are logged as\n\n\ntrusted_identity_issuer.*\n\n\nentries.\n\n\nAvailability\n\n\nManaged authorization (also called Enterprise Managed Auth) is in Beta on all Mixpanel plans, including Free. It requires a Claude Team or Enterprise plan. Your Mixpanel organization also needs MCP enabled and a claimed email domain that matches the emails members use in Claude.\n\n\n👉\n\n\n[Learn more](https://docs.mixpanel.com/docs/mcp/claude-enterprise-managed-auth)",
+  "published_at": "2026-11-03T18:00:00+00:00",
+  "first_seen_at": "2026-11-03T18:22:50.473853+00:00",
+  "content_hash": "sha256:3a187e2e050227d99ee56a6668ae6b7f15ce610de19057afaa0e85c2517a04ba"
+}

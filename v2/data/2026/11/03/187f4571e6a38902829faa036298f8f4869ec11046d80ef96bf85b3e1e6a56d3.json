@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "187f4571e6a38902829faa036298f8f4869ec11046d80ef96bf85b3e1e6a56d3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-choose-a-convex-pricing-plan-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-choose-a-convex-pricing-plan-in-2026",
+  "title": "How to Choose a Convex Pricing Plan in 2026",
+  "summary": "Convex pricing starts free for prototyping and scales to paid tiers when you have users. Enterprise option required only for SSO.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is the Convex free tier only for hobby projects?\n\n\nNo. The free tier isn't restricted to hobby projects, so a small production app can run on it. The catch is headroom. Function calls, bandwidth and storage are all metered, so a launch that goes well can outgrow the free allowance quickly.\n\n\nTreat it as a way to launch, and plan the move to a paid plan before real traffic arrives.\n\n\n### Does Convex charge per seat?\n\n\nYes, in part. Paid plans are priced partly by team member, with metered usage on top. That makes headcount a real cost line, not a rounding error.\n\n\nCheck how your plan counts people who only look at the dashboard compared with people who deploy code. Convex's pricing page is the place to confirm that, because it decides whether stakeholders who only need to watch usage cost you anything.\n\n\n### What happens if I exceed the free tier limits?\n\n\nNobody silently bills you on the free plan. Going over means you either upgrade or accept restrictions on your deployment, and restrictions in production mean your app degrades for users.\n\n\nThat's why the sensible move is to watch usage against the limits well before launch and decide in advance which side of that choice you'll take.\n\n\nOn a paid plan, usage beyond what the plan includes is billed, so the limits you set are your protection against a surprise invoice.\n\n\n### Can I self-host Convex to avoid usage fees?\n\n\nYou can self-host, because the backend is open source. That doesn't make it cheaper by default. You stop paying Convex's metered rates and start paying for servers, backups, upgrades, monitoring and the engineer hours behind them.\n\n\nRun that comparison against your expected function calls, bandwidth and storage. For most small teams, self-hosting earns its place as an exit option if the hosted terms stop working for you, not as a way to cut the bill.\n\n\nHow often does Convex change its pricing? There's no published schedule, so don't build a financial model on today's numbers staying fixed.\n\n\nRead the live pricing page before you commit, and re-check it whenever your usage grows or your plan renews. Setting spending limits and alerts also protects you if the rates or plan boundaries move.",
+  "published_at": "2026-11-03T11:51:49+00:00",
+  "first_seen_at": "2026-11-03T18:08:47.013203+00:00",
+  "content_hash": "sha256:b7c9cef6bff0ea26d534f82afb86cf82629b3487b0c44240162b18ce47fe3343"
+}

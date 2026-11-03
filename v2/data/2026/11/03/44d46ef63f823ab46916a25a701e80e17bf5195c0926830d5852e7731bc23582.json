@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "44d46ef63f823ab46916a25a701e80e17bf5195c0926830d5852e7731bc23582",
+  "company_key": "yc-signoz",
+  "company_name": "SigNoz",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://signoz.io/guides/json-logs-migration",
+  "canonical_url": "https://signoz.io/guides/json-logs-migration",
+  "title": "JSON Logs Migration Guide",
+  "summary": "Heads-up on dual ingestion of log bodies during the migration to native JSON storage in SigNoz",
+  "body_markdown": "# JSON Logs Migration Guide\n\n\nLast Updated: November 03, 2026\n\n\n2 min read\n\n\n## 📌 Overview\n\n\nSigNoz is moving log bodies from a string column (` body\n\n\n`\n\n\n) to native JSON storage (` body_v2\n\n\n`\n\n\n). Every field in the body becomes queryable by path, so log queries are faster and you can filter, group by and aggregate on body fields without a pipeline.\n\n\n> **Track this migration in[SigNoz/signoz#13376](https://github.com/SigNoz/signoz/issues/13376)** for more details.\n\n\n## 🔍 Why We Are Migrating\n\n\nString bodies are parsed at query time on every matching row. With ClickHouse's native[JSON type](https://clickhouse.com/blog/a-new-powerful-json-data-type-for-clickhouse) , log queries ran about 30% faster and scanned about 99% less data in our benchmarks ([deep dive](https://signoz.io/blog/building-a-high-performance-log-store/) ).\n\n\n## 📦 Dual Ingestion\n\n\nDuring the transition, the collector writes each log body to both columns. Existing dashboards, alerts and saved views keep reading` body\n\n\n`\n\n\n, so you don't need to do anything yet.\n\n\n## ⚙️ Resource Impact\n\n\nPlan for this extra capacity before upgrading.\n\n\nComponent Resource Recommendation\n\n\nOTel Collector CPU Keep 25% headroom\n\n\nOTel Collector Memory Keep 25% headroom\n\n\nClickHouse CPU Keep 15% headroom\n\n\nClickHouse Disk Grow the logs volume by the size of` body\n\n\n`\n\n\n(query below)\n\n\nTo estimate the extra disk, run this on ClickHouse. The logs table will grow by about` body_pct\n\n\n`\n\n\n:\n\n\n```text\nSELECT\nformatReadableSize(sumIf(column_data_compressed_bytes, column   =   'body'  ))   AS   body_size,\nformatReadableSize(  sum  (column_data_compressed_bytes))   AS   table_size,\nround  (  100   *   sumIf(column_data_compressed_bytes, column   =   'body'  )   /   sum  (column_data_compressed_bytes),   1  )   AS   body_pct\nFROM   system  .  parts_columns\nWHERE   database   =   'signoz_logs'   AND   table   =   'logs_v2'   AND   active;\n```\n\n\nThe increase builds up gradually and reaches its full size one retention period after the upgrade.",
+  "published_at": "2026-11-03T00:00:00+00:00",
+  "first_seen_at": "2026-11-03T16:29:32.237420+00:00",
+  "content_hash": "sha256:d25bb0a40e039d3479ff1156bc6db47ec728f203f75ad0c684444fe9a20381d1"
+}

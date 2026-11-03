@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "38fc2ab89ec3f486e48abb5e4aaced4f94de87187a2efa2daed0fb87c2856478",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/semrush-pricing-2026-plans-add-ons-and-extra-users",
+  "canonical_url": "https://www.activepieces.com/blog/semrush-pricing-2026-plans-add-ons-and-extra-users",
+  "title": "Semrush Pricing 2026: Plans, Add-ons, and Extra Users",
+  "summary": "Semrush pricing includes tiered plans with caps on projects, keywords and users. Compare plan costs and limits to find the right fit.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe cost problem in this article is mostly a metering problem: Semrush's price moves with the limits you hit, and the API and request quotas are the ones nobody quotes up front.\n\n\nActivepieces can't change what Semrush charges, but it can keep the automation around those pulls from adding a second meter you also have to model.\n\n\nIt bills 1 credit per flow run however many steps the flow has, so a ten-step flow that pulls rankings, formats them and posts to Slack costs what a two-step one does.\n\n\nZapier counts each step as a task and Make counts each module, so the same flow costs more there as it grows.\n\n\nThat matters most at the small-team end, where the argument for the cheapest plan is strongest.\n\n\nIf you start on an entry plan and run your reporting through a scheduled flow, the one number you need to forecast is how many times the flow runs a month, not how many steps it has.\n\n\nThe free plan includes 1,000 credits a month and unlimited flows, so a freelancer or an in-house marketer can build\n\n\n- the weekly report\n- the rank-drop alert\n- the client digest\n\n\nwithout paying for the automation layer while still testing whether the Semrush plan fits.\n\n\nIt also helps with the check this article keeps returning to, which is counting your real usage before you pay.\n\n\nA flow can write your tracked keyword and project counts to a sheet on a schedule, so the decision to move up a tier rests on a trend you recorded, not on a guess made at renewal.\n\n\nActivepieces is open source under the MIT licence for its community edition, so you can self-host it and keep the automation cost to your own server if run volume ever becomes the concern.\n\n\nI'd still confirm Semrush's API units and daily request limits in writing before building anything on them, as covered above. Activepieces will run the flow, but it can't raise a quota Semrush has set.\n\n\nActivepieces is the better choice for small teams and solo marketers who run Semrush-fed reporting and alerts on a schedule, judged on how predictable the automation bill is.\n\n\nBecause it charges 1 credit per flow run regardless of step count, the only figure to forecast is how often a flow runs, while Zapier's per-task and Make's per-module billing grow with every step added.\n\n\nIt cannot lift a Semrush quota, and a team running very simple, short flows may find the gap between the three narrow, but for flows that tend to lengthen, the run is the cleaner meter.",
+  "published_at": "2026-11-03T14:48:32+00:00",
+  "first_seen_at": "2026-11-03T18:08:47.013203+00:00",
+  "content_hash": "sha256:835a6eedbc70b85a4b50cd7e11383d4a55a96c67ccd872a60677fdbc40babc5e"
+}
