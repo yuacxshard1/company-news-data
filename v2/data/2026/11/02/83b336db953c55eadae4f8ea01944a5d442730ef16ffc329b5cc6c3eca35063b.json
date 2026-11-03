@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "83b336db953c55eadae4f8ea01944a5d442730ef16ffc329b5cc6c3eca35063b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+  "title": "Amazon RDS now supports per snapshot billing",
+  "summary": "Discover more about what's new at AWS with Amazon RDS now supports per snapshot billing",
+  "body_markdown": "Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot.\n\n\nPreviously, RDS snapshot charges were aggregated at the database instance level on the Cost and Usage report as well as the Cost Explorer. This meant that while understanding the snapshot charges, you could only see the aggregate view at the database instance instead of drilling down to each individual snapshot. Now, you can use cost allocation tags on your snapshots to see exactly how much each snapshot costs, giving you a better understanding of your backups spend and budgets. Per snapshot billing is enabled by default on all RDS snapshots for no additional charge.\n\n\nPer snapshot billing is available for all Amazon RDS engines in all commercial AWS Regions and the AWS GovCloud (US) Regions. To learn more, please visit our[documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithAutomatedBackups.html) .",
+  "published_at": "2026-11-02T18:43:00+00:00",
+  "first_seen_at": "2026-11-03T00:07:38.659042+00:00",
+  "content_hash": "sha256:3cf43730aaaba5d3859639caeb9910472ec21832c72b599f98398cd4367462a2"
+}

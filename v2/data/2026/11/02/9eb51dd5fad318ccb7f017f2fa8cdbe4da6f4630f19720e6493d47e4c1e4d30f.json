@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9eb51dd5fad318ccb7f017f2fa8cdbe4da6f4630f19720e6493d47e4c1e4d30f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-self-service-quotas/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-self-service-quotas/",
+  "title": "Amazon CloudFront now supports self-service increases in AWS Service Quotas",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront now supports self-service increases in AWS Service Quotas",
+  "body_markdown": "Amazon CloudFront now supports AWS Service Quotas, so you can view, monitor, and request increases for 28 CloudFront quotas from the Service Quotas console or API.\n\n\nUntil now, increasing a quota on resources such as distributions, cache policies, origins, or alternate domain names meant opening a support case and waiting for manual review. If you have AWS Business Support or higher, requests for limit increases within published thresholds are now approved automatically. For example, you can raise your distribution quota from 500 to 1,000, or the number of alternate domain names per distribution from 100 to 500, without opening a support case. Some quotas also publish usage metrics to Amazon CloudWatch every 5 minutes, so you can set alarms and request an increase before you reach a limit..\n\n\nThis feature is available in all AWS Regions where Amazon CloudFront is supported.\n\n\nTo get started, visit[the Service Quotas console](https://console.aws.amazon.com/servicequotas/home#!/services/cloudfront/quotas) to view and request increases for your CloudFront quotas. To learn more, see[Amazon CloudFront quotas](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html) in the Amazon CloudFront Developer Guide.",
+  "published_at": "2026-11-02T08:00:00+00:00",
+  "first_seen_at": "2026-11-03T00:07:38.659042+00:00",
+  "content_hash": "sha256:cab3797127606a96c10fcfdde930c07f3f1f6585784400f96622e6251448c97b"
+}

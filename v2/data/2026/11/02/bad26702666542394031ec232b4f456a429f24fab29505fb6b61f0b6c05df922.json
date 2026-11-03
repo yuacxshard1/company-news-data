@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bad26702666542394031ec232b4f456a429f24fab29505fb6b61f0b6c05df922",
+  "company_key": "stratasys-ltd-ordinary-shares-israel",
+  "company_name": "Stratasys Ltd. Ordinary Shares (Israel)",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.stratasys.com/en/resources/blog/fdm-simulation-software-toolpath/",
+  "canonical_url": "https://www.stratasys.com/en/resources/blog/fdm-simulation-software-toolpath/",
+  "title": "FDM Simulation Software: Why the Real Toolpath Matters | Stratasys",
+  "summary": "General-purpose FEA treats printed parts as solid blocks. Learn why toolpath-based FDM simulation software is key to qualifying 3D printed production parts.",
+  "body_markdown": "## How NoviPath Delivers Toolpath-Aware FDM Simulation\n\n\nNoviPath was built by Novineer to close this gap for Stratasys users. Instead of simulating an idealized solid, it simulates the part as it will actually print, using the real toolpath, layer orientation, material and printer data passed directly from[GrabCAD Print Pro](https://www.stratasys.com/en/software/grabcad-print-pro-trial/) , with no export.\n\n\nThe workflow takes four steps: open the job from GrabCAD Print Pro, which hands NoviPath the geometry, toolpath, material and printer data; apply point loads, area loads and fixturing constraints; solve, with NoviPath mapping the locally varying filament orientation onto the part in minutes; then review stress hotspots, displacement and the predicted failure point in an automated report.\n\n\nResults validated against destructive bench testing:\n\n\n- **5 to 18% prediction error** versus final destructive physical testing\n- **Under 10 minutes** to solve a full F900 build-sheet part locally on a standard 8 GB laptop\n- **Up to 35% weight removed** from automotive line risers while keeping the required safety factor\n- **Failure load matched:** a part that failed at 300 kg on the bench was predicted digitally at 285 kg\n\n\nNoviPath supports the Stratasys F900, Fortus 450mc and F3300, with pre-validated parameters for ULTEM 9085, Antero 800NA and FDM Nylon 12CF. It is available now as an upgrade for GrabCAD Print Pro customers, and no credit card is required to start a trial.\n\n\nFor a deeper walkthrough of the method, read our earlier post on[additive manufacturing simulation for FDM](https://www.stratasys.com/en/resources/blog/additive-manufacturing-simulation-fdm/) .",
+  "published_at": "2026-11-02T00:00:00+00:00",
+  "first_seen_at": "2026-11-03T01:16:13.089048+00:00",
+  "content_hash": "sha256:5b3dac3a24c07b6908e95621a620fa56a2c347b326be6a9f44a631517d01e30a"
+}

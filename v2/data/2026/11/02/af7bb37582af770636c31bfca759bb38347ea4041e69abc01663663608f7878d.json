@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "af7bb37582af770636c31bfca759bb38347ea4041e69abc01663663608f7878d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/firebase-pricing-2026-plans-costs-and-free-limits",
+  "canonical_url": "https://www.activepieces.com/blog/firebase-pricing-2026-plans-costs-and-free-limits",
+  "title": "Firebase Pricing 2026: Plans, Costs and Free Limits",
+  "summary": "Firebase pricing varies by service and usage, with free tiers for basic projects. You can estimate costs across databases, auth, hosting and functions.",
+  "body_markdown": "## Frequently asked questions\n\n\nThe budget alert covers spend you can see coming. These questions cover the cases where the plan itself decides what happens.\n\n\n### Is Firebase really free?\n\n\nYes on Spark, within limits. Spark costs nothing, but each product has a quota, and some features sit behind the paid plan entirely, such as deploying Cloud Functions. Blaze keeps free quotas for many products and bills only the usage above them.\n\n\nAfter upgrading, a small app can therefore still land on a bill of zero, but you're now exposed to overage if traffic spikes.\n\n\n### Can I downgrade from Blaze back to Spark?\n\n\nYes, you can move a project back to Spark by removing its billing account in the console.\n\n\nTwo consequences follow. Anything that needs Blaze stops working, so functions you deployed may go offline. Usage you already accrued is still billed, so downgrading ends future charges and doesn't erase the current invoice. Check which of your features depend on Blaze before you switch.\n\n\n### Does Firebase need a credit card?\n\n\nNot for Spark, but yes for Blaze. Blaze requires a billing account with a payment method attached, because the plan is billed after the fact.\n\n\nThat's the reason the budget alert from the previous step matters: the card is charged for whatever the meters recorded, with no prepaid balance to run out first.\n\n\n### What happens if I exceed the free quota on Spark?\n\n\nThe affected service stops serving requests until the quota resets, and you're not charged. The reset period depends on the product, and some quotas renew daily while others renew monthly.\n\n\nFor a prototype, that means the cost of a traffic spike is an outage, not a bill. For a launched product, an outage is usually the worse outcome, which is the main reason people move to Blaze.\n\n\n### Is Firebase cheaper than Supabase for a small app?\n\n\nIt depends on which unit your app hits hardest. Firebase's database bills per document read and write, so a chatty screen that refetches often costs more than the same app with fewer, larger queries.\n\n\nSupabase charges a base fee for the plan with usage included, and bills overage on top. A read-light app with modest traffic often costs less on Firebase's free quota.\n\n\nA read-heavy app is easier to predict on a flat base fee. Count your reads per user session on both pricing pages before you decide.",
+  "published_at": "2026-11-02T19:18:22+00:00",
+  "first_seen_at": "2026-11-03T01:01:58.050856+00:00",
+  "content_hash": "sha256:ecf9f5f299d3cadd0427ee392b4ccd2eeb0c452f18b3db691fc5b44265f1e99a"
+}

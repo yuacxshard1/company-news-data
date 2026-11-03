@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "03330760df42786dd4977c29a8e2e019bd8b91ddc9df0c6cd8aec5d2f6fee764",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+  "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+  "summary": "Discover more about what's new at AWS with Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+  "body_markdown": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provider or set up separate desktop sign-in before users can get started. If a user can sign in to Quick on the web, that user can sign in to the desktop application.\n\n\nTo turn on desktop access, an administrator adds the desktop connector once in the Amazon Quick console. Users then enter their Quick account name, choose Sign In, and finish signing in through their browser. This works for accounts that use IAM Identity Center, IAM federation, or native Amazon Quick users. If your organization wants to manage desktop sign-in separately, you can still set up a dedicated identity provider configuration with providers such as Microsoft Entra ID, Google Workspace, Okta, or Ping Identity.\n\n\nAmazon Quick on desktop is available in[AWS Regions that support the full Amazon Quick feature set](https://docs.aws.amazon.com/quick/latest/userguide/regions.html#regions-qs) .\n\n\nTo get started, see[Amazon Quick on desktop](https://docs.aws.amazon.com/quick/latest/userguide/amazon-quick-desktop.html) in the Amazon Quick User Guide.",
+  "published_at": "2026-11-02T18:36:00+00:00",
+  "first_seen_at": "2026-11-03T00:07:38.659042+00:00",
+  "content_hash": "sha256:1238fb0a57de09be0403ef974c48f3d361b18cb8283b04f1763421fa27a276a4"
+}
