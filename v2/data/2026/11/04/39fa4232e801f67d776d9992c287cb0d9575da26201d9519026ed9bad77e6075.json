@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "39fa4232e801f67d776d9992c287cb0d9575da26201d9519026ed9bad77e6075",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/pasteguard-review-features-setup-and-limits",
+  "canonical_url": "https://www.activepieces.com/blog/pasteguard-review-features-setup-and-limits",
+  "title": "PasteGuard Review: Features, Setup and Limits",
+  "summary": "PasteGuard is a newly launched automation tool. You'll understand what it does and whether it fits your team's workflow requirements.",
+  "body_markdown": "## How to connect PasteGuard in an Activepieces workflow today\n\n\nBecause Activepieces has shipped nothing specific to PasteGuard, you connect it through general building blocks. We checked its repository and integration catalog on 2026-11-04 and found no native support.\n\n\nOnce you've tested the checkpoint on your own payloads, the three routes below go from simplest to most involved. We haven't run PasteGuard ourselves, so each route is a plan to verify against PasteGuard's own documentation, not a tested recipe.\n\n\nAn agent that sends text through PasteGuard is not a snippet of code. It is a user with reach into your data, so it needs a role and a record, and a library supplies neither.\n\n\n[Activepieces](https://www.activepieces.com/) puts agents under the same RBAC, SSO and SCIM as your staff, so policy decides which connections an agent may use, PasteGuard's endpoint included.\n\n\nThe run detail view lists every tool call on its own line with its input and output, which shows whether PasteGuard was called. MoneyGram, Moneypenny, Alan and FundingSocieties run it in production.\n\n\n### Option 1: an HTTP request step\n\n\nPlace a generic HTTP request step ahead of the AI step and send the text to PasteGuard's endpoint. Map the response field holding the cleaned text into the AI step's prompt, not the original trigger data.\n\n\nThe consequence is that the raw text still reaches the earlier steps in Activepieces, so decide where those runs live: the MIT-licensed core can run on your own servers, and the EU cloud is in Frankfurt.\n\n\nYou also need to decide what the flow does when the call fails: stop, or pass the text through unprotected.\n\n\n### Option 2: an AI step with an OpenAI-compatible provider\n\n\nIf PasteGuard can sit in front of a model as an OpenAI-compatible proxy, point an AI step at it through a custom provider, where one is available.\n\n\nThis needs the least wiring, because the protection happens inside the model call and no extra step appears in the flow.\n\n\nYou pay for that in coverage: only AI steps using that provider are covered. **Any step you configure with a different provider bypasses it, and nothing in the flow will warn you.**\n\n\nOption 3 is an MCP server. MCP, the Model Context Protocol, lets an AI agent call external tools. Exposing PasteGuard that way makes it a tool the agent may call, and an agent can skip a tool it's never forced to use.\n\n\nThis is the heaviest route and the weakest guarantee, so it fits only where the agent's behavior is something you can test.",
+  "published_at": "2026-11-04T12:45:08+00:00",
+  "first_seen_at": "2026-11-04T14:46:40.666365+00:00",
+  "content_hash": "sha256:2ef9c29ceba91b155d401427ad8515f46afd6e5158ac4f30d9c8541b3a20aca3"
+}

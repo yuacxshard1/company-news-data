@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b25112a25361c1118c3482e60aa296e06b4d54c8dde955874b87e2518ffa8dd9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/vast-ai-gpu-pricing-per-hour-in-2026-and-extra-fees",
+  "canonical_url": "https://www.activepieces.com/blog/vast-ai-gpu-pricing-per-hour-in-2026-and-extra-fees",
+  "title": "Vast.ai GPU Pricing Per Hour in 2026 and Extra Fees",
+  "summary": "Vast AI pricing uses hourly rates instead of monthly plans. Calculate your costs based on actual GPU hours needed for your workload.",
+  "body_markdown": "## Automating Vast AI cost control with Activepieces\n\n\nTo keep an eye on the bill, Activepieces, an MIT-licensed automation platform with 746 integrations counted in its open source monorepo, can run a scheduled check against Vast AI's API.\n\n\nIt can message your team when your balance runs low or a machine has sat idle too long.\n\n\nIt watches the bill for you, but it doesn't lower it.\n\n\nThe Activepieces homepage shows the shape of such a workflow. Its example is a sales one: a new lead arrives from HubSpot (a customer-tracking system), an AI step qualifies it, a condition splits the path, and the result goes to Salesforce, Slack and Gmail.\n\n\nNothing in it touches Vast.\n\n\nWhat carries over is the structure: a trigger starts it, a check runs, a condition decides, and a message goes out. Ours swaps the new-lead trigger for a timer.\n\n\n### Idle-instance and balance alerts\n\n\nOn each run, the workflow asks Vast's API for your running instances and your account balance. A condition then compares them with limits you choose.\n\n\nIf the balance is below your floor, it posts to your team's chat channel. If an instance has been running past the time you consider reasonable, it names that instance in the same channel.\n\n\nThat matters because an idle machine bills by the hour whether or not anyone is using it. Without an alert, you find out when the invoice arrives. With one, you find out the same day.\n\n\n### What it cannot do\n\n\nIt adds no discounts. Your hourly rate is still whatever the host set, and storage and bandwidth still add to it. It also can't tell you whether a host is reliable, so a flaky machine will keep costing you in lost work.\n\n\nAs described here, it only alerts. Someone still has to read the message and shut the instance down.\n\n\nAdding an automatic stop step is possible, but I'd test it carefully first, because stopping a machine mid-job can cost you more than the idle hours would have.",
+  "published_at": "2026-11-04T09:14:48+00:00",
+  "first_seen_at": "2026-11-02T18:31:51.278600+00:00",
+  "content_hash": "sha256:62a1e717f623f2a1d8dae20f299bf93f49adcee1098e07077b3738df235c7e0f"
+}

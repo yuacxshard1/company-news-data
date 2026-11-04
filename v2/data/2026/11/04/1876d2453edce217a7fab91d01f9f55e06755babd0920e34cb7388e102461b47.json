@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1876d2453edce217a7fab91d01f9f55e06755babd0920e34cb7388e102461b47",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/ares-interactive-live-service-games",
+  "canonical_url": "https://unity.com/blog/ares-interactive-live-service-games",
+  "title": "How Ares Interactive runs live ops without waiting on client updates",
+  "summary": "How Baseball Hits 26 and The Walking Dead: Aftermath use remote config, versioned bundles, and CI to ship live ops changes without a client release.",
+  "body_markdown": "### **Building live ops around data rather than client releases**\n\n\n*Baseball Hits 26* was built to give baseball fans and gamers a quintessential baseball experience that’s easy to pick up anytime, anywhere, in short bursts or longer strategic play. That approachability sits alongside real-world baseball decisions, progression, live events, social clubs, and communication features. Keeping those systems current means treating the game as something that is always changing rather than something that simply shipped.\n\n\nFor example, if an MLBPA-licensed player performs particularly well in a game or series, the team can feature that player in live events within the following week.\n\n\n“That level of relevance is made possible by our nimble, data-driven server updates and our live ops team’s ability to quickly slot in the right matchups,” says Taube.\n\n\nThe team built its own backend and live ops pipeline so it could change events, store sales, offers, rewards, and matchmaking tuning without waiting for a client release or server deployment.\n\n\nAt the foundation is a custom content-delivery and remote-configuration system with more than 50 configuration domains covering players, events, store items, reward boxes, battle passes, and other systems. The team manages changes through an admin panel. The system validates the changes before accepting them, and servers pick them up within seconds without a restart.\n\n\nEverything is versioned and logged. The team can review or roll back to any prior state, and can stage changes against internal test accounts before promoting them to production.\n\n\nEvent scheduling sits on that same foundation. Events, tournaments, and limited-time sales have defined start and end windows. A segmentation engine handles targeting and powers A/B testing, so the team can trial new offers or event formats with a fraction of the audience before a wider rollout.\n\n\nIn practice, that lets the team run as many as four events in a single week, such as Prime Club and Tower Club events, each with its own bonus players and featured offers tied to it.\n\n\n“Owning the whole stack pays off most when something goes wrong in the middle of an event,” Taube says. “The team can diagnose the issue, fix the config, compensate affected players, and push the \\[config\\] update to clients, all within minutes and all from one place.”",
+  "published_at": "2026-11-04T00:00:00+00:00",
+  "first_seen_at": "2026-11-04T15:46:39.219567+00:00",
+  "content_hash": "sha256:6eb252548c700e7b61c846252336150fe40045eb8277a8e21ea3597f0fc28cae"
+}

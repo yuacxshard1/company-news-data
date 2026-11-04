@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1c9e324bea4c5c697395af8a57ed4f7cbf7b0b5e0789a537b27e8166d56b32e3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/coreweave-pricing-2026-gpu-cloud-costs-compared",
+  "canonical_url": "https://www.activepieces.com/blog/coreweave-pricing-2026-gpu-cloud-costs-compared",
+  "title": "CoreWeave Pricing 2026: GPU Cloud Costs Compared",
+  "summary": "CoreWeave pricing offers pay-on-demand for irregular jobs and committed contracts for constant use. Choose the model for your workload needs.",
+  "body_markdown": "## Watching GPU spend with Activepieces\n\n\nA scheduled Activepieces workflow can watch your GPU bill between invoices, comparing a usage export against a budget and alerting Slack or email when you drift over.\n\n\nActivepieces connects those checks to Google Sheets, Slack and Gmail among its 746 integrations, and it is MIT-licensed at the core, so the budget check costs 1 credit per run however many steps it has.\n\n\n### What a spend-alert workflow does\n\n\nA cluster nobody switched off after a test run costs the same as one working flat out, and you usually learn about it when the invoice arrives.\n\n\nIdle nodes keep billing. An alert turns that month-end surprise into a message you can act on the same day.\n\n\nCopy the shape of the flow below.\n\n\nIt starts on a schedule, reads budget rows from Google Sheets, loops through them, fetches usage over an HTTP request, and passes the result through two AI steps, completing a fully automated budget-analysis workflow, which means the analysis runs on schedule automatically without anyone needing to trigger it.\n\n\nIt then writes a record back to the sheet and uses a router to split into Branch 1 or Otherwise before a Gmail step sends the email.\n\n\nTake from it that the checking happens on a timer, not on someone remembering, and that the router is where \"under budget, stay quiet\" separates from \"over budget, tell a person.\"\n\n\nWhat follows is the limit on that picture, because the flow is only as good as the data feeding it.\n\n\n### What it cannot do\n\n\nIt doesn't replace a GPU cloud. It runs nothing on GPUs, and it won't shut down a node unless the provider gives you a way to do that from outside.\n\n\nHarder to get around is the dependency on CoreWeave itself. Whether the HTTP step can pull usage depends on what CoreWeave exposes, whether that's an API, a billing export or only a dashboard.\n\n\nCheck its documentation before building anything. If usage data is only visible in a console, this workflow has nothing to read, and you're back to checking by hand.\n\n\nIt also shows the bill, not the reasons for it. Storage and networking lines will only appear if the export includes them.",
+  "published_at": "2026-11-04T09:14:56+00:00",
+  "first_seen_at": "2026-11-02T18:31:51.278600+00:00",
+  "content_hash": "sha256:cff3c4ab3e8426213defc308a008a9be7e27224bf9773d013b2dd25c93115ee6"
+}
