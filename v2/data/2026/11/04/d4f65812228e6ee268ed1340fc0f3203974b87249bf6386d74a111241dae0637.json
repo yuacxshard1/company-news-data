@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d4f65812228e6ee268ed1340fc0f3203974b87249bf6386d74a111241dae0637",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/azure-document-intelligence-pricing-per-model-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/azure-document-intelligence-pricing-per-model-in-2026",
+  "title": "Azure Document Intelligence Pricing per Model in 2026",
+  "summary": "Azure document intelligence pricing starts at $1 per page by processing type. Use this reference to calculate your monthly costs and select the right tier.",
+  "body_markdown": "## Frequently asked questions\n\n\nIs Azure Document Intelligence free to try? Yes, there's a free tier with a capped monthly allowance of pages, which is enough to test accuracy but not to judge cost.\n\n\nFree-tier limits also restrict how much of a long document is analysed, so a trial on a short sample tells you little about a real batch.\n\n\n### Does Azure charge per page or per document?\n\n\nSend a single 40-page contract and it is billed as 40 pages, because the metered unit is the page, not the document. Average document length matters more to your bill than document count.\n\n\nWhich model you call then sets the rate per page, which is why the same stack of files can cost very different amounts under the read, layout, prebuilt or custom models.\n\n\n### Is Form Recognizer the same service?\n\n\nYes. Form Recognizer is the earlier name for what Microsoft now calls Azure AI Document Intelligence.\n\n\nOlder tutorials, SDK packages and pricing references may still use the old name, but you're costing the same service, so check the current pricing page rather than an archived one.\n\n\n### Can I get a discount on high volumes?\n\n\nPossibly, but not by default. Pay-as-you-go pricing is flat per page for each model. Reduced rates usually come through commitment-based arrangements or a negotiated agreement with Microsoft, and availability varies by feature.\n\n\nWork out your per-model monthly page count first, because that's the figure any discount conversation starts from.\n\n\n### Does Azure charge for failed or rejected pages?\n\n\nIf a request is rejected before analysis starts, such as an unsupported file or a bad call, it shouldn't consume pages. A page that is analysed and returns poor or empty results is still a processed page and is billed.\n\n\nWhen output is poor, reruns follow, and every retry adds to your page count. Test a small batch of your worst scans and read the usage figures before committing to a volume estimate.",
+  "published_at": "2026-11-04T01:09:04+00:00",
+  "first_seen_at": "2026-11-04T05:55:31.633136+00:00",
+  "content_hash": "sha256:de7afb6c283e570a830b3847f91c6d5326ebb54601fad62d7a95e49758b8df7b"
+}
