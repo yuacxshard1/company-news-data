@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5531d4122dc320b381713f0a3a097ea8d3fff454494e5e3866cc07fbfa519cdc",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/hindsight-models-for-agent-memory-what-each-does",
+  "canonical_url": "https://www.activepieces.com/blog/hindsight-models-for-agent-memory-what-each-does",
+  "title": "Hindsight Models for Agent Memory: What Each Does",
+  "summary": "Hindsight models are decision, rerank, and embedding models for agent memory. Find which ones Vectorize released and how workflow tools integrate them.",
+  "body_markdown": "## What Activepieces does about this\n\n\n**Activepieces has no native integration for Hindsight models** , and I'd rather say that plainly than imply otherwise.\n\n\nWhat it gives you is the general building blocks the rest of this article leans on: an HTTP request step, which can call the base URL Vectorize documents for Hindsight Inference, and a flow around it that you can run today.\n\n\nNothing here needs the vendor to ship an integration first, and nothing about the pilot has to wait on one.\n\n\nThe part that matters for the ownership question is where the connection lives. In Activepieces you create it once, with its own key, and the same action runs as a step in a flow and as a tool on the project's MCP server.\n\n\nClaude, ChatGPT, Cursor or an agent you built can reach it from there. So the dedicated, narrowly scoped key and the named owner you set up for the pilot are a single connection to rotate or revoke, not a copy in every agent.\n\n\nThat is the difference between a memory layer you can hand over and one that quietly becomes a second migration.\n\n\nOn licence and track record, the facts we can point at are these. The integrations are MIT-licensed and open to inspect, so you can read exactly what a step sends before it touches your data. MoneyGram and Moneypenny run Activepieces in production.\n\n\nNone of that says anything about how well the Hindsight models perform; that still comes from your own pilot and the maker's pages.\n\n\nSo the practical move is small. Build one flow where a wrong memory costs little, call the Hindsight endpoint over HTTP with a read-only, narrowly scoped key, and log what comes back against what a person would have retrieved.\n\n\nTime the run yourself if you need your own numbers, since Vectorize's published speed figures come from its own setup. If the numbers hold up, widen the flow. If the vendor's pages change, you edit one connection rather than rebuilding your agents.",
+  "published_at": "2026-11-04T19:23:25+00:00",
+  "first_seen_at": "2026-11-04T22:37:09.827641+00:00",
+  "content_hash": "sha256:ce847bf4f33fb99ec4da77a47fe33759d9d9df4edc2eb2e95793d1e4c72668d3"
+}

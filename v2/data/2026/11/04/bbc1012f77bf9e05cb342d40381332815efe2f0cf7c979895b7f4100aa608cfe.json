@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bbc1012f77bf9e05cb342d40381332815efe2f0cf7c979895b7f4100aa608cfe",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/datasync-enhanced-oidc-google-azure/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/datasync-enhanced-oidc-google-azure/",
+  "title": "AWS DataSync Enhanced mode supports OpenID Connect (OIDC) for Google Cloud and Microsoft Azure",
+  "summary": "Discover more about what's new at AWS with AWS DataSync Enhanced mode supports OpenID Connect (OIDC) for Google Cloud and Microsoft Azure",
+  "body_markdown": "AWS DataSync Enhanced mode now supports OpenID Connect (OIDC) authentication for Google Cloud Storage and Microsoft Azure Blob Storage locations. DataSync uses an AWS Identity and Access Management (IAM) role to get short-lived credentials from Google Cloud or Microsoft Entra ID and refreshes them automatically so your transfers run without interruption.\n\n\nYou can now use DataSync to access your Google Cloud Storage and Azure Blob Storage without long-term credentials such as hash-based message authentication code (HMAC) keys or shared access signature (SAS) tokens. This lets you move data across clouds while complying with security policies that might prohibit long-term credentials.\n\n\nYou can get started by adding an IAM role to your DataSync location with the AWS CLI, API, or AWS CloudFormation. This capability is available in all AWS Regions where DataSync Enhanced mode is supported. To learn more, visit the[AWS DataSync User Guide](https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html) .",
+  "published_at": "2026-11-04T08:00:00+00:00",
+  "first_seen_at": "2026-11-04T22:38:45.150377+00:00",
+  "content_hash": "sha256:aa694caa4e4f31bb329c2f3e67ab1c56cc43cd44f7cb13760e3c6a764aed2ddc"
+}

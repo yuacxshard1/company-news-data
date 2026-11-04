@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e408b08f2b15f3098286fea5ab8006e10ce28dc130558e568af64de89fea0be4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/aws-rekognition-pricing-cost-per-feature-2026",
+  "canonical_url": "https://www.activepieces.com/blog/aws-rekognition-pricing-cost-per-feature-2026",
+  "title": "AWS Rekognition Pricing: Cost Per Feature (2026)",
+  "summary": "AWS Rekognition pricing varies by feature—charges per call, per minute, per stored face, or per session. Determine the cost structure for your use case.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe cost problem in this article is that the bill follows calls, and calls multiply quietly inside workflows. Activepieces can't lower AWS's rate, and the Rekognition call is still billed by AWS.\n\n\nWhat it does is let you fix the number of calls per image in one visible place, so the estimate you built in the five steps above is the number the workflow actually produces.\n\n\nA flow has one trigger, such as a new file landing in a bucket. It then makes one Rekognition request, branches on the result, and stores the output.\n\n\nBecause the stored result sits in the flow's own path, nothing downstream has a reason to ask Rekognition about the same file again.\n\n\nA dedupe check before the call, using a file hash against results you already hold, is one more step in the same flow. If the integration library lacks the exact Rekognition action you need, the HTTP step can call the API directly.\n\n\nThe pricing is the part you can check. Activepieces' published pricing page lists 1 credit per flow run, so adding the dedupe check, the branch, or the reviewer notification doesn't enlarge the automation bill.\n\n\nPer-task and per-module tools charge for each of those steps, and Activepieces doesn't. That matters here because the steps that make a Rekognition pipeline cheap are the small, separate ones.\n\n\nThe core is open source under the MIT licence, so you can self-host it next to your AWS account and keep images, results and credentials on infrastructure you control.\n\n\nSelf-hosting brings the same trade-off as the GPU option earlier: you carry the patching and the pager. For a team without that capacity, the hosted version trades control for no operations work.\n\n\nEither way, the estimate stays what it was: calls per month, priced at AWS's rates, with the workflow held to the call count you planned.",
+  "published_at": "2026-11-04T18:44:25+00:00",
+  "first_seen_at": "2026-11-04T22:37:09.827641+00:00",
+  "content_hash": "sha256:e81e9b16a3f9a1b59ed930b7b2f7f9145f881e5e472e4a388891bb18b113c31d"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cc1d7c87a84c6c457736e552f9152d7bc63b0209bff8136af88071a7e226390b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-manager-supportability-and-fulfillment/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-manager-supportability-and-fulfillment/",
+  "title": "New features for Amazon EC2 Capacity Manager",
+  "summary": "Discover more about what's new at AWS with New features for Amazon EC2 Capacity Manager",
+  "body_markdown": "Amazon EC2 Capacity Manager now offers real-time supportability checks and capacity fulfillment metrics. Real-time supportability checks help customers find capacity by scoring how well each instance type and Availability Zone can support a request, without launching or reserving instances. Capacity fulfillment metrics show how much capacity was delivered against the amount requested.\n\n\nGlobal enterprises that run thousands of workloads across hundreds of accounts often spread each one across multiple instance types and Availability Zones, giving Amazon EC2 more options to fulfill each request. Starting today, customers can use the supportability checks in Capacity Manager to understand which Availability Zones and instance types give them the best chance of getting the capacity they need. The check returns a High, Medium, or Low score for each option, plus an overall score. Additionally, with fulfillment metrics, customers can measure fulfillment rates across their AWS organization, accounts, Regions, and tagged workloads, with a breakdown by instance type and Availability Zone, to show how well those choices are working.\n\n\nBoth capabilities are included with[AWS Unified Operations](https://docs.aws.amazon.com/awssupport/latest/user/unified-operations-intro.html) , the AWS Support plan for global enterprises running mission-critical workloads, and are available in all commercial AWS Regions.\n\n\nTo learn more, read[Plan and measure EC2 flexibility with Amazon EC2 Capacity Manager](https://aws.amazon.com/blogs/compute/plan-and-measure-ec2-flexibility-with-amazon-ec2-capacity-manager/) on the AWS Compute Blog and see the[Amazon EC2 Capacity Manager user guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-manager.html) . To get started, visit the[Capacity Manager console](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityManagerHome) .",
+  "published_at": "2026-11-04T07:00:00+00:00",
+  "first_seen_at": "2026-11-04T22:38:45.150377+00:00",
+  "content_hash": "sha256:8dd29957a103e30ad0afc1874de018c639476606efad4a8c1d83b21a8c742e46"
+}

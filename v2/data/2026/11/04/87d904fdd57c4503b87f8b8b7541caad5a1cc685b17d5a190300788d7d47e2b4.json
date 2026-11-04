@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "87d904fdd57c4503b87f8b8b7541caad5a1cc685b17d5a190300788d7d47e2b4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-vpc-related-resources-all-types/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-vpc-related-resources-all-types/",
+  "title": "Amazon EC2 and VPC now display related resources for all resource types",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 and VPC now display related resources for all resource types",
+  "body_markdown": "Amazon Elastic Compute Cloud (Amazon EC2), Amazon Virtual Private Cloud (Amazon VPC), and AWS Global View now display related resources for all resource types in their consoles. Previously, only security groups had an option to view related resources. Now you can see relationships for all EC2 and VPC resource types, including EC2 instances, Amazon Elastic Block Store (Amazon EBS) volumes, Launch Templates, Auto Scaling groups, subnets, route tables, and more. The Related Resources tab has also been moved to the console toolbar for easier access.\n\n\nThis capability helps you better understand your infrastructure dependencies and troubleshoot issues more efficiently. For example, when investigating an EC2 instance issue, you can quickly view its associated EBS volumes, security groups, subnets, and route tables without navigating between multiple console pages. Network administrators can now trace connections from a subnet to its associated route tables, network ACLs, and instances, streamlining network configuration reviews and security audits.\n\n\nThis feature is now available in all commercial AWS Regions.\n\n\nTo learn more, visit Amazon EC2 and Amazon VPC in the[AWS Management Console](https://console.aws.amazon.com/) .",
+  "published_at": "2026-11-04T08:00:00+00:00",
+  "first_seen_at": "2026-11-04T22:38:45.150377+00:00",
+  "content_hash": "sha256:c397d8637333126b3d91381b2e6c205701d0a054b0e253bc5af6b423f84bfee6"
+}

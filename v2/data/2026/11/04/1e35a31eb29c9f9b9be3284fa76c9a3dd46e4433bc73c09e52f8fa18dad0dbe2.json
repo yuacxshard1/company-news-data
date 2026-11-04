@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1e35a31eb29c9f9b9be3284fa76c9a3dd46e4433bc73c09e52f8fa18dad0dbe2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/",
+  "title": "Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances",
+  "summary": "Discover more about what's new at AWS with Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances",
+  "body_markdown": "[Amazon Elastic Container Service](https://aws.amazon.com/ecs/) (Amazon ECS) introduces json-file log driver support for Amazon ECS Managed Instances and log driver volumes for Amazon ECS Managed Daemons. Together, these features let you collect application logs with the observability agent of your choice and forward them to any destination you choose.\n\n\nWith this launch, your application containers on ECS Managed Instances can write their logs as local files in standard Docker json-file format, which most observability agents read natively. Your managed daemons can directly read these files through a volume mount, without specifying host bind mount paths or requiring root privileges. As a result, one managed daemon on each instance can collect logs from every application container that uses the json-file log driver. Amazon ECS keeps each container's logs in a dedicated directory named with the container ID and retains them until the container is removed, so your managed daemon can use native file-based log collection and trace every log back to the container that produced it.\n\n\nTo get started, set the log driver to json-file in the logConfiguration of your application task definition. Next, register a daemon task definition that specifies a volume with logDriverVolumeConfiguration, and mount the volume into your daemon container using mountPoints. You can configure this using the AWS Management Console, AWS CLI, API, AWS SDKs or AWS CloudFormation. This feature is available in all commercial AWS Regions where Amazon ECS Managed Instances and Managed Daemons are available, at no additional cost. To learn more, refer to our[documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-daemons-task-definitions.html#managed-daemons-volumes) page and visit[Amazon ECS Managed Instances](https://aws.amazon.com/ecs/managed-instances/) .",
+  "published_at": "2026-11-04T21:29:00+00:00",
+  "first_seen_at": "2026-11-04T22:38:45.150377+00:00",
+  "content_hash": "sha256:2f128b7b32f35388dbc3fb659cfa7f5e728a9419b9a3ade426aa86bcfe95e0f5"
+}
