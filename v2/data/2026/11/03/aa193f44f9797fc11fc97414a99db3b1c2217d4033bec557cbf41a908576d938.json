@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "aa193f44f9797fc11fc97414a99db3b1c2217d4033bec557cbf41a908576d938",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/planetscale-pricing-in-2026-by-usage-not-plan",
+  "canonical_url": "https://www.activepieces.com/blog/planetscale-pricing-in-2026-by-usage-not-plan",
+  "title": "PlanetScale Pricing in 2026 by Usage, Not Plan",
+  "summary": "PlanetScale pricing charges for database operations, storage, and bandwidth used. Calculate exactly what you'll pay based on your actual usage patterns.",
+  "body_markdown": "## Fix Billing Surprises With Activepieces Alerts\n\n\n### Understand what to expect\n\n\nDo not expect Activepieces to replace your database or lower its meters; its free plan is $0 with 1,000 credits a month and unlimited flows, so trying the alert costs nothing.\n\n\nIt sits around the database and tells you, in Slack or email, when usage or an invoice is heading past a threshold you set, so the load test's findings don't expire the week after.\n\n\nOn Monday someone opens the billing dashboard, or pastes numbers into a spreadsheet when they remember. That is the manual version, and it works until the month a traffic spike lands on a Friday.\n\n\n### Build a PlanetScale billing alert workflow\n\n\nBe aware that the flow below is a support-ticket example, not a billing one. It has the shape you would reuse: a trigger, a couple of processing steps, a Router that splits into branches with an Otherwise path, and Slack messages at the end.\n\n\nFor billing, swap the trigger for a schedule. Add a step that pulls usage from your database provider's API or reads its invoice email, and compare the result to your limit.\n\n\nThen let the Router decide who hears about it. Under the threshold, nothing happens. Past a warning line, a message goes to the channel the platform team watches. Past a hard line, it goes to whoever can approve spend.\n\n\nThe same branching can sync usage records into a sheet or table for finance, so the history exists without anyone copying numbers.\n\n\n### Cost and alternatives\n\n\nThis is where the billing model matters.\n\n\nActivepieces meters flow runs at 1 credit each, so a check with a dozen steps costs the same as one with three, and a daily check uses about 30 of the 1,000 free monthly credits however thorough you make it (AI steps are the exception and cost more).\n\n\nConfirm the current terms on the pricing page before you commit, because the argument holds only while a run remains the billable unit; when checked on 2026-10-23, Plus was $20 a month for 10,000 credits, then $0.007 a credit over.\n\n\nYou may not need it at all. If your database vendor offers native usage alerts or spending caps that reach your channel, use those and skip the extra system to maintain.\n\n\nAdd Activepieces when the alert has to combine sources, route by severity, or write somewhere the vendor can't; its MIT-licensed core has 746 integrations, roughly 60% of them community-contributed, so the second source is usually already there.",
+  "published_at": "2026-11-03T19:01:23+00:00",
+  "first_seen_at": "2026-11-03T22:44:07.295388+00:00",
+  "content_hash": "sha256:e070fb9483b6074f3d760d11ba2bc6a0318aac43a6a4c5c2ef6765e5f0ba927f"
+}

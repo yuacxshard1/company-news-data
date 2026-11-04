@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9b34f6ef96c541db5d4df2533a0f46b8d563e28a00c3c7158a1f107063689f63",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
+  "title": "AWS Config now supports 10 new resource types",
+  "summary": "Discover more about what's new at AWS with AWS Config now supports 10 new resource types",
+  "body_markdown": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.\n\n\nWith this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.\n\n\nYou can now use AWS Config to monitor the following newly supported resource types in all[AWS Regions](https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html) where the resources are available:\n\n\nResource Types:\n\n\nAWS::Billing::BillingView AWS::MPA::IdentitySource\n\n\nAWS::Connect::HoursOfOperation AWS::Notifications::OrganizationalUnitAssociation\n\n\nAWS::ElastiCache::CacheCluster AWS::NotificationsContacts::EmailContact\n\n\nAWS::ElastiCache::ReplicationGroup AWS::Oam::Link\n\n\nAWS::MediaLive::SignalMap AWS::QuickSight::Agent",
+  "published_at": "2026-11-03T16:00:00+00:00",
+  "first_seen_at": "2026-11-03T22:45:19.843252+00:00",
+  "content_hash": "sha256:e0691af0f08e1865519e612a0f48ccf80180629f1584ce6c92782b91f205694f"
+}

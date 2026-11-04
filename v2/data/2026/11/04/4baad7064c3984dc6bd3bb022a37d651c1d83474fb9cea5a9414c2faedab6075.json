@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4baad7064c3984dc6bd3bb022a37d651c1d83474fb9cea5a9414c2faedab6075",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/introducing-verified-dashboards/",
+  "canonical_url": "https://www.basedash.com/blog/introducing-verified-dashboards/",
+  "title": "Introducing verified dashboards in Basedash",
+  "summary": "Admins can mark a dashboard verified in Basedash, so everyone sees which numbers to trust, plus who verified it and when.",
+  "body_markdown": "Today we’re launching **verified dashboards** in Basedash. Admins can now mark a dashboard as verified, the same way they already verify models, so everyone who opens it knows it’s one to trust.\n\n\nOnce a workspace has a lot of dashboards, “which revenue number is right?” becomes a real question. Two dashboards can look alike and still disagree, and the people reading them have no way to tell which one an admin actually reviewed. Now they can.\n\n\n## Verify from the dashboard menu\n\n\nTo verify a dashboard, open the more ( **…** ) menu in its header and pick **Verify dashboard** . A green **Verified** chip appears next to the dashboard’s name for everyone who opens it.\n\n\nTo take it back, open the same menu and pick **Remove verification** .\n\n\n## See who verified it, and when\n\n\nHover the chip to see who verified the dashboard and when. Anyone reading the numbers can see that an admin stands behind them, and who to ask if something looks off.\n\n\n## Built to stay trustworthy\n\n\nVerification is a trust signal, so it’s kept deliberately tight:\n\n\n- **Only admins can verify.** Other members, even ones with full access to the dashboard, don’t see the menu item.\n- **Edits keep the verification.** Adjusting layout, tabs, or text doesn’t clear the chip, so a dashboard doesn’t lose its status every time someone tidies it up.\n- **Duplicates start unverified.** Copying a verified dashboard gives you a fresh, unverified one, so a copy never borrows trust it hasn’t earned.\n- **Every change is in the audit log.** Each verification and removal is recorded with who made it.\n\n\n## One Verified badge for dashboards and models\n\n\nDashboards use the same Verified chip as verified models, and models now verify from the same header menu item. Dashboards and models work the same way, so your team learns one signal for both the models underneath and the dashboards built on top.\n\n\n## Getting started\n\n\nVerified dashboards are in Basedash today.\n\n\n1. [Sign up for Basedash](https://charts.basedash.com/signup) or log in as an admin\n2. Open the dashboard your team should rely on\n3. Open the more menu in its header and choose **Verify dashboard**\n\n\nFor more on building dashboards and defining trusted metrics, see the[Dashboards](https://www.basedash.com/features/dashboards) and[Models](https://www.basedash.com/features/models) feature pages.\n\n\n**Know which numbers to trust.**",
+  "published_at": "2026-11-04T00:00:00+00:00",
+  "first_seen_at": "2026-11-03T23:00:48.724280+00:00",
+  "content_hash": "sha256:079ca493f2aaf049f6ba8dd10a21c8b6d5cca12f82c3601f2b0acdbb703d19b2"
+}

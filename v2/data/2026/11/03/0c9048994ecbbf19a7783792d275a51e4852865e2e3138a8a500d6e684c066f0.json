@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0c9048994ecbbf19a7783792d275a51e4852865e2e3138a8a500d6e684c066f0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/godaddy-pricing-in-2026-plans-domains-and-costs",
+  "canonical_url": "https://www.activepieces.com/blog/godaddy-pricing-in-2026-plans-domains-and-costs",
+  "title": "GoDaddy Pricing in 2026: Plans, Domains and Costs",
+  "summary": "GoDaddy pricing starts low but often rises significantly at renewal. See the renewal rates across product lines to avoid surprise costs.",
+  "body_markdown": "## Automating GoDaddy renewal and expiry alerts with Activepieces\n\n\nIt does nothing to what GoDaddy charges, but Activepieces, an automation tool that chains apps into scheduled workflows, can warn your team before a domain renews or expires, and a daily check is about 30 runs a month, so 30 of the 1,000 credits on the free plan.\n\n\nNothing changes in the renewal price you budgeted; the automation only makes sure someone sees it coming before it lands on a card nobody is watching.\n\n\nThat matters for the same reason the pricing exercise does. When a renewal hits a shared account unannounced, the agency absorbs it, and the client who should have been billed for it is quietly cross-subsidized.\n\n\nAn alert sent early enough lets you invoice the client first.\n\n\n### Start with a calendar reminder\n\n\nStart with the fallback, because it needs no tool. Put a calendar reminder on each domain's expiry date, set well ahead of renewal, and assign it to a named person.\n\n\nIf you only run a handful of domains, that's enough, and an automation adds upkeep without adding safety.\n\n\nOnce the list outgrows what one person tracks, the workflow earns its place. The sequence below reads a spreadsheet of domains and expiry dates on a daily schedule, filters for those inside your chosen warning window, and posts the matches to a team chat channel.\n\n\nThe spreadsheet is the real asset. The workflow is only as accurate as the dates someone keeps in it, and the calendar reminder stays underneath as the backstop if the workflow breaks.\n\n\nActivepieces keeps its 746 integrations in the open-source monorepo on GitHub at packages/integrations/community, beside an MIT-licensed core, and roughly 60% of them are contributed by the community, so most of your integrations depend on volunteer maintenance.\n\n\nWhether that directory holds a GoDaddy entry, next to the spreadsheet and chat apps you actually use, decides if the workflow can read expiry dates from GoDaddy directly; without one, maintain the dates by hand and let the workflow handle only the checking and the nudge.",
+  "published_at": "2026-11-03T16:13:18+00:00",
+  "first_seen_at": "2026-11-03T22:44:07.295388+00:00",
+  "content_hash": "sha256:371811b63f3ba8ffcc7619e790d655a558ff02c36fa213589cdad55dcf2ed887"
+}

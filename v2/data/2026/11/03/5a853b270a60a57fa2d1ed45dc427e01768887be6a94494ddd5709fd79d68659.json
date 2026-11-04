@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5a853b270a60a57fa2d1ed45dc427e01768887be6a94494ddd5709fd79d68659",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/grafana-cloud-pricing-every-plan-and-limit-2026",
+  "canonical_url": "https://www.activepieces.com/blog/grafana-cloud-pricing-every-plan-and-limit-2026",
+  "title": "Grafana Cloud Pricing: Every Plan and Limit (2026)",
+  "summary": "Grafana Cloud pricing includes a free tier, paid plans, and overage fees. Determine your costs based on usage levels and select the right plan.",
+  "body_markdown": "## Fix Alert Routing With Activepieces\n\n\nActivepieces doesn't change what Grafana Cloud charges; it changes how quickly the right person learns that usage is drifting from the estimate, and its Free plan, at $0 with 1,000 credits a month, is enough to build and run the routing flow before anyone commits budget.\n\n\nIt's a workflow automation tool, and here it takes a Grafana alert webhook, the message Grafana sends when a rule fires, and turns it into work someone has to answer for.\n\n\n### Grafana alert webhook to ticket and chat\n\n\nFrom a Grafana alert webhook to the person who reviews the result, the diagram shows the path.\n\n\nThe webhook enters an Activepieces workflow, which produces a chat message, a ticket and a request to the named owner, using integrations drawn from the 746 counted in its MIT-licensed open source monorepo.\n\n\nThe point is that the alert never lands in a shared channel where everyone assumes someone else will handle it.\n\n\nThat matters for the same reason shared accounts hide costs. When a series or log-volume alert goes to a general channel, nobody owns it, and the overage gets absorbed by whoever holds the account.\n\n\nWhen the workflow asks the specific owner of the offending service or client to act, the cost has an address.\n\n\nThe ticket leaves a record of who was asked and what they decided, which you can point to when a client questions a line on the invoice.\n\n\nThe person at the end's deliberate. The workflow routes and records the response, and a human decides whether to drop a label, shorten retention or accept the spend. Automating that decision would just move the surprise somewhere less visible.\n\n\nThe next question is whether you need this at all.\n\n\n### When Grafana's own contact points are enough\n\n\nIf one team owns the whole stack and the alert only needs to reach one place, Grafana's own contact points are enough. They send a notification to a chat tool or an email address directly, with no extra system to maintain.\n\n\nAdd Activepieces when the response has more than one step, or when the right recipient depends on which service or client triggered the alert; every plan, including free, allows unlimited flows, so a separate flow per client adds no cost beyond its runs.\n\n\nIf you find yourself copying alerts by hand into a ticket queue, or asking in chat who owns a noisy metric, the workflow is worth building. If you aren't, leave it out.\n\n\nNeither option lowers a bill on its own. The caps on series, volume and retention do that. The routing only makes sure someone hears when one of them is about to be tested.",
+  "published_at": "2026-11-03T20:25:47+00:00",
+  "first_seen_at": "2026-11-03T22:44:07.295388+00:00",
+  "content_hash": "sha256:87ed6f2a5d6dade030f37c6a0ce73e3784949805d8d0848dc9ab1de6a7fc4cbc"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2e05a3d6e7351731ad41537de263f8bd466f4207bd414d80907881b9c5798cc4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
+  "title": "AWS Transform for mainframe improves the reimagine modernization workflow",
+  "summary": "Discover more about what's new at AWS with AWS Transform for mainframe improves the reimagine modernization workflow",
+  "body_markdown": "AWS Transform for mainframe now discovers business functions with field-level precision and generates a new requirements coverage report in the assess and reimagine workflow. Previously, business functions that used the same table or file were grouped together, and you had to build your own traceability reporting from AWS Transform artifacts. With this launch, you can start modernizing z/OS COBOL and PL/I workloads from a more accurate catalog of business functions and verify requirements coverage before you build.\n\n\nBusiness functions are now grouped only when they affect the same data fields. They also include screens and queues and carry clearer names and descriptions. The new requirements coverage report shows how every part of your application is accounted for in the generated requirements. Every line of source code is classified by how it was handled, every business rule links to the exact lines it came from, and every requirement is backed by the business rules that support it. You can review coverage from the full portfolio down to a single line before moving into forward engineering in Kiro and other IDEs.\n\n\nThese capabilities are available in all AWS Regions where AWS Transform for mainframe is available. For more information, see the[AWS Region table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To learn more, visit[AWS Transform for mainframe](https://aws.amazon.com/transform/mainframe/) or see the[AWS Transform for mainframe documentation](https://docs.aws.amazon.com/transform/) .",
+  "published_at": "2026-11-03T08:00:00+00:00",
+  "first_seen_at": "2026-11-03T22:45:19.843252+00:00",
+  "content_hash": "sha256:d8c4571290f90615016c6af4f8cde1d07dc382dc81592539136e5c308b4ea7b2"
+}
