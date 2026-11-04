@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f8b01296fb1d7c469b2562696ae181a15ec910fa80d10ffa08088b8bee1ac5e7",
+  "company_key": "yc-middesk",
+  "company_name": "Middesk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.middesk.com/blog/how-can-ai-detect-fake-or-altered-business-documents",
+  "canonical_url": "https://www.middesk.com/blog/how-can-ai-detect-fake-or-altered-business-documents",
+  "title": "How can AI detect fake or altered business documents?",
+  "summary": "Explore how AI detects fake or altered business documents through layout and font analysis, file metadata inspection, and state registry corroboration.",
+  "body_markdown": "Financial institutions do not rely on uploaded paperwork as their sole source of verification truth, as digital files can be manipulated or created from whole cloth. Under federal[CIP requirements](https://www.law.cornell.edu/cfr/text/31/1020.220) governing customer identification programs, banks and regulated lenders must form a reasonable belief regarding the true identity of each customer, combining documentary and non-documentary verification methods.\n\n\nAI systems accelerate this process by extracting corporate names, filing dates, registered agent information, and charter numbers from uploaded filings. Rather than trusting the document's appearance, compliance software compares those extracted values against authoritative Secretary of State databases. If an applicant provides a Certificate of Incorporation showing active status in Delaware, cross-referencing state filing records verifies whether the entity exists, confirms its active standing, and surfaces recent amendments that the uploaded paper may omit.\n\n\nThe National Institute of Standards and Technology emphasizes verification against primary records in its[Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) , cautioning that language and vision models can produce false or ungrounded conclusions when evaluating complex source data. Automated extraction reads the document, while primary registry corroboration proves whether the corporate claims are true.\n\n\n[Middesk](https://www.middesk.com/products/verify) automates this corroboration layer by retrieving authoritative data directly from Secretary of State registries across all fifty states. Instead of relying solely on visual document checks, compliance teams use Middesk to validate corporate filings against primary public records, identifying mismatches instantly and streamlining commercial onboarding.",
+  "published_at": "2026-11-03T20:53:25.962+00:00",
+  "first_seen_at": "2026-11-04T08:51:49.947230+00:00",
+  "content_hash": "sha256:8ad688636184b95b00660bbdcdb96199adba8015f5f3241678d181f11e768c3a"
+}

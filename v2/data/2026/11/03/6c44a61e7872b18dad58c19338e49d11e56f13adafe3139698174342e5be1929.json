@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6c44a61e7872b18dad58c19338e49d11e56f13adafe3139698174342e5be1929",
+  "company_key": "yc-middesk",
+  "company_name": "Middesk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.middesk.com/blog/how-can-ai-reduce-manual-review-in-kyb",
+  "canonical_url": "https://www.middesk.com/blog/how-can-ai-reduce-manual-review-in-kyb",
+  "title": "How can AI reduce manual review in KYB?",
+  "summary": "Learn how AI reduces manual review in KYB by automating document reading, investigating registry discrepancies, and surfacing verifiable evidence.",
+  "body_markdown": "When an application does trigger a review, the delay usually stems from ambiguity rather than outright fraud. A small business might submit a commercial application using its public-facing brand name while its legal entity is registered under an unfamiliar corporate holding name. In a standard workflow, an analyst must search Secretary of State assumed-name databases to prove that the two names belong to the same entity.\n\n\nAutonomous research agents handle this multi-step investigative process without human intervention. When an application uses a trade name instead of the company's legal name, an agent searches state corporate filings to locate the assumed-name or DBA record that connects the two. The agent extracts the matching corporate identifier, records the filing date, and attaches the primary source link directly to the application.\n\n\nA similar workflow resolves common physical location questions. When an applicant lists a commercial mailing address, postal records from the[USPS delivery point validation](https://postalpro.usps.com/address-quality/dpv) system can identify whether the address corresponds to a Commercial Mail Receiving Agency (CMRA) or a physical suite. Rather than forcing an analyst to look up the property, AI tools pull property records, business license filings, and corporate registrations to determine whether the business maintains genuine operations at that location.",
+  "published_at": "2026-11-03T20:49:22.998+00:00",
+  "first_seen_at": "2026-11-04T08:51:49.947230+00:00",
+  "content_hash": "sha256:f177af2fb77587ad8228ade4b1da69d93876eca5eb088b761f760d80c3951d8c"
+}
