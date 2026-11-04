@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d3ab5df9c1ee87a0e2b0c1f0c2207b4359bd0ffb0c4ae2b54ab9fc166b529a99",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/cursor-bugbot-pricing-2026-for-teams-on-a-budget",
+  "canonical_url": "https://www.activepieces.com/blog/cursor-bugbot-pricing-2026-for-teams-on-a-budget",
+  "title": "Cursor Bugbot Pricing 2026 for Teams on a Budget",
+  "summary": "Cursor Bugbot pricing combines per-seat costs with usage fees, so your total bill depends on team size and monthly consumption.",
+  "body_markdown": "## Spend Alerts for Bugbot Using Activepieces Workflows\n\n\nBefore the budget runs out, an Activepieces workflow can check your Bugbot spend on a schedule and message you in Slack or email, and the free plan allows unlimited flows. A spike then reaches you as a warning rather than as an invoice line.\n\n\nActivepieces runs that check on a schedule without anyone watching, chaining its steps into one flow, and it reaches Slack and email among its 747 integrations, with the core under the MIT licence.\n\n\nBugbot sits off to the side as the reviewer, and the workflow never touches how it reviews; the flow only reads what Bugbot has cost and tells people.\n\n\nTake from the diagram that the watching and the reviewing are two separate jobs, and the second keeps working whether or not the first is set up.\n\n\n### What the Bugbot spend alert workflow does\n\n\nEvery morning, say, a schedule trigger starts the run at a fixed time. The next step fetches your current usage figures from wherever you read them, and the one after compares that number with the review budget you wrote down earlier.\n\n\nIf spend is under your threshold, the run ends quietly and nobody is bothered. If it's at or past the threshold, the flow branches and sends a message to a Slack channel, an email address, or both.\n\n\nThat branch matters because a daily message nobody needs trains people to ignore it. An alert that fires only near the line gets read.\n\n\nNothing here caps Bugbot or pauses it. The workflow warns you, and a person still decides whether to raise the limit, slow the reviews, or leave it alone.\n\n\nOn cost, a run is 1 credit however many steps it has, so a daily check is about 30 credits a month against the 1,000 credits the free plan includes; the current plans are listed on the[Activepieces pricing page](https://www.activepieces.com/pricing) .\n\n\nWith the alert in place, the question is what you'd do if you wanted none of this.\n\n\n### Tracking Bugbot spend without any tool\n\n\nIf you want no tool at all, use a recurring calendar reminder. Once a week, or daily during a busy stretch, someone opens the usage page, reads the figure, and compares it with the budget by eye.\n\n\nThis works, and for a small team with steady pull-request volume it may be enough. Its weakness is that it depends on a person remembering and being at their desk.\n\n\nWhen a spike starts on a Friday afternoon, it stays invisible until Monday's check, and by then the meter has been running all weekend.\n\n\nIf you go this way, check more often than feels necessary during any week you expect heavy merging, such as a release push.",
+  "published_at": "2026-11-04T05:35:08+00:00",
+  "first_seen_at": "2026-11-04T10:12:15.814223+00:00",
+  "content_hash": "sha256:e00a84ef75b1003541fab3ddfba8f2462720acf0335fce7c0b941f72c2845085"
+}
