@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "158e7c91d8c8e4b7baeaf00747f8d6e408f7e541424cbddc4c6298081d670383",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/aws-transcribe-pricing-batch-streaming-rates-2026",
+  "canonical_url": "https://www.activepieces.com/blog/aws-transcribe-pricing-batch-streaming-rates-2026",
+  "title": "AWS Transcribe Pricing: Batch, Streaming Rates (2026)",
+  "summary": "AWS Transcribe pricing charges per minute of audio processed.",
+  "body_markdown": "## Automating the work around Transcribe with Activepieces\n\n\nTranscribe itself gets no cheaper with Activepieces: AWS sets that price, and the tool only moves files and results around it.\n\n\nWhat it can do is automate the steps before and after a Transcribe job, and because every plan includes unlimited flows, the number of such pipelines you build adds nothing to the bill.\n\n\n### What the workflow does\n\n\nThink of Activepieces as a workflow builder.\n\n\nYou chain a trigger and a series of steps on a canvas, and each step can call an app from the 747 integrations in its open source monorepo, apply a condition, loop over items, or hand a task to an AI agent.\n\n\nNothing about the homepage example below has to do with audio; it is a sales-lead flow.\n\n\nIt shows the shape of the thing: a trigger at the top, an AI qualification step, a yes/no condition, then actions such as adding a record, posting a notification and sending an email, joined by vertical lines that show the order.\n\n\nSwap the lead for an audio file and the same pattern fits a transcription pipeline. A new file landing in an S3 bucket or a Drive folder triggers the flow. The next step starts a Transcribe job.\n\n\nOnce the transcript is finished, a later step picks it up and sends it onward, to a document, a message or a database.\n\n\nYou should check whether a ready-made step exists for your exact Transcribe call before assuming it does. Where one doesn't, a generic request step can usually cover it, at the cost of more setup.\n\n\n### What it does not change\n\n\nHowever you automate it, every minute Transcribe bills is still billed by AWS at AWS's rates. The tiers, the rounding of short clips, the add-on charges and the quotas all apply exactly as before.\n\n\nActivepieces, whose Free plan costs $0, gives no discount on them, and it doesn't tell you what your audio will cost.\n\n\nIt also adds a second bill. Activepieces has its own pricing, separate from AWS, so automating the plumbing means pricing two things instead of one.\n\n\nThat second bill is easy to price, though: the Activepieces pricing page lists 1 credit per flow run, whatever the number of steps, set against the per-task billing on Zapier's pricing page and the per-module billing on Make's.\n\n\nA pipeline of S3 trigger, Transcribe job, Slack message and CRM update therefore costs the same credit as a two-step version of it.\n\n\nIf a workflow saves an hour of manual handling a week, that saving is real. It belongs in your cost model next to both invoices, not in place of the per-workload estimate the earlier sections argued for.",
+  "published_at": "2026-11-04T14:54:05+00:00",
+  "first_seen_at": "2026-11-04T18:32:41.339498+00:00",
+  "content_hash": "sha256:82cd57fc131ea30a0c796061f09b57c48a1abab7c52c71203939ff9416f4fd25"
+}

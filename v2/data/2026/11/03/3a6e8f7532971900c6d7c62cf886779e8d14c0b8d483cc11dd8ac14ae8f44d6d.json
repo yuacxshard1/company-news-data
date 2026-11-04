@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3a6e8f7532971900c6d7c62cf886779e8d14c0b8d483cc11dd8ac14ae8f44d6d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-api-keys-opentelemetry/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-api-keys-opentelemetry/",
+  "title": "Amazon CloudWatch now supports API keys for OpenTelemetry traces",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch now supports API keys for OpenTelemetry traces",
+  "body_markdown": "[Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) now supports bearer token authentication, using API keys (bearer tokens), as an additional option for sending OpenTelemetry traces to the AWS X-Ray OpenTelemetry Protocol (OTLP) traces endpoint. Any OTLP/HTTP client that can set an Authorization header, including the OpenTelemetry Collector and OpenTelemetry SDK exporters, can now authenticate with a bearer token instead of signing requests with AWS Signature Version 4 (SigV4). This helps teams send traces from workloads that can't use the AWS SDK or short-term credentials, such as applications running on premises or in other clouds, CI/CD pipelines, and third-party tools that support only a static Authorization header.\n\n\nSigV4 remains the recommended authentication method for sending traces to CloudWatch, and the AWS Distro for OpenTelemetry (ADOT) SDKs continue to use SigV4 by default with no changes required. Traces sent with either method get the same CloudWatch capabilities, including Transaction Search, Amazon CloudWatch Application Signals, and Amazon CloudWatch Omni.\n\n\nBearer token authentication for traces is available in all commercial AWS Regions where the AWS X-Ray OTLP traces endpoint is available.\n\n\nTo learn more, see[Setting up bearer token authentication for traces](https://docs.aws.amazon.com/xray/latest/devguide/xray-opentelemetry-bearer-token.html) in the AWS X-Ray Developer Guide.",
+  "published_at": "2026-11-03T08:00:00+00:00",
+  "first_seen_at": "2026-11-04T18:33:08.180983+00:00",
+  "content_hash": "sha256:c9e24fc6699acc072c304b9eb25e34890a8f46052c17217211f1202a279d4bb2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "72ddf060551ed66b0de7d52063156954a119ea4191bc20153d9b288270358094",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-much-does-xai-grok-api-cost-pricing-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/how-much-does-xai-grok-api-cost-pricing-in-2026",
+  "title": "How Much Does xAI Grok API Cost? Pricing in 2026",
+  "summary": "xAI API pricing operates on a pay-as-you-go model with no subscription.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe practical problem in this article is that one Grok call is rarely the whole job.\n\n\nA task that retries, reasons and calls tools is where the invoice drifts from the rate card, and the place to see that drift is a workflow, not a single request.\n\n\nActivepieces is an automation platform where the xAI API call can be one step among many. You can log token counts at that step, branch on the result, and send a fallback to another model when Grok returns an error or a rate-limit response.\n\n\nThat fits the measurement the article asks for. Put the call in a flow, write input, output and reasoning tokens to a sheet or database on every run, and mark whether the answer passed a check.\n\n\nAfter a hundred runs you have tokens per correct task from your own traffic, which is the number the sticker price can't give you.\n\n\nA looping agent can also be stopped inside the flow, with a counter or a spend check that halts the run before the console cap does.\n\n\nPricing follows the same logic.\n\n\nActivepieces counts the run, not the steps inside it: 1 credit per flow run, where Zapier bills per task and Make per module, so a flow that splits an agent chain into small, cleanly retried steps doesn't multiply the workflow bill.\n\n\nAI steps add credits by model tier, so check that line before you budget. The platform's own meter stays predictable while xAI's token meter does the varying.\n\n\nOn openness, the Community Edition is MIT-licensed and can be self-hosted, so the flow that holds your model names, retries and fallbacks sits in infrastructure you control. MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.\n\n\nSwapping a model then means editing one step, not hunting for hardcoded names across services.",
+  "published_at": "2026-11-04T16:55:06+00:00",
+  "first_seen_at": "2026-11-04T18:32:41.339498+00:00",
+  "content_hash": "sha256:9d7aea0116adc526902ba52656152a90a6be018ede307aa6ab88ca1a37fdbdbd"
+}

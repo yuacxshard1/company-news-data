@@ -13,12 +13,32 @@
     {
       "company_key": "yc-casco",
       "company_name": "Casco",
+      "doc_id": "4b828af6c4412e13763b1ea6637aa1cdc87911fff71cc764f82db6eaf5edb79b",
+      "first_seen_at": "2026-11-04T18:48:15.107983+00:00",
+      "published_at": "2026-11-04T14:12:17.584+00:00",
+      "source_kind": "html",
+      "summary": "Patch Rails Active Storage to 8.1.4.1 or 8.0.5.2, check MiniMagick compatibility, and verify image processing and secret rotation.",
+      "title": "CVE-2026-122006: Fix Rails Active Storage ImageMagick"
+    },
+    {
+      "company_key": "yc-casco",
+      "company_name": "Casco",
+      "doc_id": "4cfb15cd19bda030eca8a4fe7574a505ae28458c7e2131fdc2e6b6163fa3e5a7",
+      "first_seen_at": "2026-11-04T18:48:15.107983+00:00",
+      "published_at": "2026-11-04T02:36:13.640+00:00",
+      "source_kind": "html",
+      "summary": "Upgrade better-auth and @better-auth/expo, rotate the application secret, and verify Expo sign-in after CVE-2026-121802.",
+      "title": "Fix CVE-2026-121802 in Better Auth Expo: upgrade and rotate the secret"
+    },
+    {
+      "company_key": "yc-casco",
+      "company_name": "Casco",
       "doc_id": "625aa3c1aec82ad37b9ba001b1bbad4db1969cfcd1aa11929805ffb2bb0e7f40",
       "first_seen_at": "2026-11-04T04:03:40.375619+00:00",
       "published_at": "2026-11-02T20:40:00+00:00",
       "source_kind": "html",
       "summary": "Patch Secure Access 14.60 to 14.61 for CVE-2026-97718. Check admin accounts, back up the Warehouse, upgrade the pool and verify access.",
-      "title": "Fix CVE-2026-97718: Secure Access 14.60 CSRF"
+      "title": "How to fix CVE-2026-97718 in Absolute Secure Access"
     }
   ],
   "company_key": "yc-casco",
