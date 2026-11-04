@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "47f42b45ef351b95674e92e7784a3fef74a5ef5f1817cc09f34c0e95c13ea30a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/upstash-pricing-2026-redis-vector-and-qstash-costs",
+  "canonical_url": "https://www.activepieces.com/blog/upstash-pricing-2026-redis-vector-and-qstash-costs",
+  "title": "Upstash Pricing 2026: Redis, Vector and QStash Costs",
+  "summary": "Upstash pricing operates on per-request charges for Redis, Vector, and QStash, with fixed plans available; compare both for your needs.",
+  "body_markdown": "## Frequently asked questions\n\n\nIs Upstash free to use? Yes, up to a point: Upstash has a free tier with usage limits, so a prototype or a low-traffic app can cost nothing.\n\n\nPast those limits you either get throttled or start paying, so read what the free tier counts before you rely on it. Every command counts, including the ones your client library sends on your behalf.\n\n\n### Does Upstash charge for bandwidth?\n\n\nWith per-request pricing, the command count is the main meter, and bandwidth is secondary. Large payloads are where a bandwidth line could matter, so check the pricing page for your specific plan. Don't assume the headline per-command rate is the whole bill.\n\n\nRetries are the same kind of trap: QStash retries of a failing endpoint are extra deliveries, and you should confirm on Upstash's QStash pricing page how they are metered.\n\n\n### Hard spending limits\n\n\nCan I set a hard spending limit on Upstash? Yes. Upstash lets you set a budget on pay-as-you-go databases, and that cap is the control that turns an unpredictable bill into a bounded one.\n\n\nPair it with usage alerts, so you hear about a runaway loop before the cap cuts off your traffic. A cap with no alert means the first sign of trouble is an outage.\n\n\n### Upstash versus Redis Cloud on cost\n\n\nIs Upstash cheaper than Redis Cloud? It depends on your load shape. Per-request pricing wins when traffic is spiky or low, because you pay for what you use.\n\n\nAt steady, heavy traffic, a fixed-price plan can come out cheaper, because the per-command meter never stops running. Work out your monthly command count first, then price both options against it.\n\n\n### Moving to a fixed plan\n\n\nHow do I move from pay-as-you-go to a fixed plan? Change the plan on the database from the Upstash console. Before you do, pull your recent command usage and compare it with the fixed tier's limits.\n\n\nIf you also use replicas, remember that each write is propagated to every replica, so count those writes when you size the tier.",
+  "published_at": "2026-11-03T23:56:19+00:00",
+  "first_seen_at": "2026-11-04T02:09:01.589822+00:00",
+  "content_hash": "sha256:afa867123603a39f5c8b5a3cb3d3f30ba954b40d468931186d117267ebacc152"
+}

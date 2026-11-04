@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7382b0ded56b6375032ec594bc3728b29bda862cae253916a4ffd0a8ef3147c6",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/new-relic-pricing-2026-how-much-will-you-pay",
+  "canonical_url": "https://www.activepieces.com/blog/new-relic-pricing-2026-how-much-will-you-pay",
+  "title": "New Relic Pricing 2026 – How Much Will You Pay?",
+  "summary": "New Relic pricing in 2026 includes 100 GB free monthly. Compare plans and costs to determine which tier works for your monitoring requirements.",
+  "body_markdown": "## Frequently asked questions\n\n\nBefore you sign anything, get answers to the questions the estimate can't settle for you. Here are the ones teams ask most, with the cost of guessing wrong attached.\n\n\n### The free plan and its single seat\n\n\nIs New Relic really free for one user? Yes, the free plan includes one full-platform user, and that account is the only seat with every feature.\n\n\nAnyone else you add who needs that level of access moves you toward a paid plan. Decide who truly needs the full seat before you rely on the free tier, or you'll find out at the first invoice.\n\n\n### Going over 100 GB\n\n\nWhat happens when you exceed 100 GB on the free plan? The free allowance is a monthly cap on data, and going past it means you either lose data or upgrade.\n\n\nI haven't confirmed exactly how New Relic enforces the cap today, so read the current terms on your account page.\n\n\nDoing nothing is the expensive choice here, because gaps in your data show up exactly when something breaks.\n\n\n### Per-host charges\n\n\nUnder its current pricing, New Relic doesn't charge per host. That pricing is built on the data you send and the number of full-platform users, not on how many servers you run.\n\n\nIt helps if you run many small machines, since adding one doesn't add a line item. It hurts if those machines are chatty, because each one adds to the data total.\n\n\n### Negotiating an annual commit\n\n\nYou can generally negotiate New Relic pricing on an annual commit. Committing to a yearly spend is the usual route to a lower rate, and the vendor's sales team can quote it.\n\n\nThe catch is that a commit is a floor you pay whether you use it or not. Commit to what your last few months of real usage support, not to what you hope to grow into.\n\n\n### How do I find out what I'm currently ingesting?\n\n\nAsk your own account. New Relic's usage pages show ingest by source, and you can run a query against its consumption data, along the lines of:\n\n\n```text\nSELECT sum(GigabytesIngested) FROM NrConsumption WHERE productLine = 'DataPlatform' FACET usageMetric SINCE this month\n```\n\n\nThat breaks your total down by type, so you can see which source is driving the bill.\n\n\nRun it before any sales call. A number you measured yourself is stronger leverage than one you were quoted, and it shows whether the free tier will cover you at all.",
+  "published_at": "2026-11-03T22:21:55+00:00",
+  "first_seen_at": "2026-11-04T02:09:01.589822+00:00",
+  "content_hash": "sha256:c3d151d00e09c3eb815181f9b92d4c0b6766e8acf21f26ec69f60b754b1addd2"
+}
