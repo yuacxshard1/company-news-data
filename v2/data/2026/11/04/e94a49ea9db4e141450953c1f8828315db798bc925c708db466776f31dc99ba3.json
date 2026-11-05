@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e94a49ea9db4e141450953c1f8828315db798bc925c708db466776f31dc99ba3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-cost-allocation-tags/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-cost-allocation-tags/",
+  "title": "Amazon MWAA now supports cost allocation tags",
+  "summary": "Discover more about what's new at AWS with Amazon MWAA now supports cost allocation tags",
+  "body_markdown": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports[cost allocation tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html) . Tags you apply to an Amazon MWAA environment now propagate to the compute that runs it, including workers, schedulers, and web servers. You can then track Amazon MWAA spend by tag in AWS Cost Explorer and AWS Cost and Usage Reports.\n\n\nWith this launch, platform teams can show back or charge back Airflow costs to the team, project, or cost center that owns each environment. You can use cost allocation tags when you create a new environment or update an existing one. To get started, tag your environment using the Amazon MWAA console, AWS CLI, or Amazon MWAA API, then activate the tag key as a cost allocation tag in the AWS Billing and Cost Management console.\n\n\nThis feature is available in all AWS Regions where Amazon MWAA is available. For more information, see the[AWS Region table](https://docs.aws.amazon.com/mwaa/latest/userguide/get-started.html#regions) . To learn more, visit[Cost allocation tags in Amazon MWAA](https://docs.aws.amazon.com/mwaa/latest/userguide/cost-allocation-tags.html) in the Amazon MWAA User Guide.",
+  "published_at": "2026-11-04T23:00:00+00:00",
+  "first_seen_at": "2026-11-05T20:18:59.419194+00:00",
+  "content_hash": "sha256:cb4a50ffff61c1cf46926695708955dea4aab59338324f6845f75cc2c6622ef0"
+}

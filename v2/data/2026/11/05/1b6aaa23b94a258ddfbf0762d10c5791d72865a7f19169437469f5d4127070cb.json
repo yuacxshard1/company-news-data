@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1b6aaa23b94a258ddfbf0762d10c5791d72865a7f19169437469f5d4127070cb",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/azure-databricks-pricing-dbu-rates-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/azure-databricks-pricing-dbu-rates-and-costs-2026",
+  "title": "Azure Databricks Pricing: DBU Rates and Costs (2026)",
+  "summary": "Azure Databricks pricing charges $0.30 to $0.95 per DBU-hour depending on compute type, with separate Azure VM costs.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Does Azure Databricks have a free tier or trial?\n\n\nAzure Databricks has offered a time-limited trial that waives the DBU charge. There's no permanent free tier, and the Azure VMs under your clusters still bill from the first minute.\n\n\nA trial therefore tests your workload, not your budget. Run it with auto-termination set, because an idle trial cluster still racks up the VM line. Confirm the current terms on the Azure pricing page before you plan around it.\n\n\n### Are DBU prices the same in every Azure region?\n\n\nNo. Both the DBU rate and the VM rate underneath it vary by region, so the same job can cost different amounts in two places.\n\n\nThe VM line is usually the larger of the two, which means a region that looks cheap on the DBU table can lose on the full bill.\n\n\nPrice the whole stack for each candidate region, using the VM sizes you'll actually run. Then weigh the result against data residency and latency, which often decide the region before cost does.\n\n\n### Is serverless compute cheaper than classic clusters?\n\n\nIt depends on how much of the time your compute sits idle. Serverless carries a higher effective rate because the VM cost's folded into it, but it starts quickly and stops billing when work ends.\n\n\nIf your classic clusters spend long stretches waiting between jobs, serverless can cost less overall. If they run hot all day, the premium for that bundled VM cost is pure overhead, and a well-sized classic cluster wins.\n\n\nMeasure your utilization over a typical week and compare the two rates against it. Don't pick on the headline DBU number.\n\n\n### Can I get a discount for committing to usage?\n\n\nYes. You buy Databricks Commit Units (DBCUs) through an Azure reservation, paying up front for a term in exchange for a lower effective DBU rate. Larger commitments and longer terms earn deeper discounts.\n\n\nA DBCU covers only the DBU portion of the bill, and that is the catch. The VM line needs its own reservation or savings plan, and an unused commitment is money spent on nothing.\n\n\nCommit only to the baseline you already run every month, and leave the spiky remainder on pay-as-you-go.",
+  "published_at": "2026-11-05T16:22:16+00:00",
+  "first_seen_at": "2026-11-05T20:16:29.939988+00:00",
+  "content_hash": "sha256:16eaf94640f61b356884a2babdc37b4279ff8e8da02647c66e9181869ce6ab9b"
+}

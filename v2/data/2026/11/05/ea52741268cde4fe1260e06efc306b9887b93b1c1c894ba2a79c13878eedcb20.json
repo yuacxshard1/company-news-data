@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ea52741268cde4fe1260e06efc306b9887b93b1c1c894ba2a79c13878eedcb20",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
+  "title": "IAM Roles Anywhere now supports automatic certificate revocation checking",
+  "summary": "Discover more about what's new at AWS with IAM Roles Anywhere now supports automatic certificate revocation checking",
+  "body_markdown": "[AWS Identity and Access Management (IAM) Roles Anywhere](https://aws.amazon.com/iam/roles-anywhere) now supports automatic revocation checking using certificate revocation list (CRL) distribution points (CDPs). This helps keep revocation checks in sync with your certificate authority (CA) and can help improve your security posture. When you enable this capability on a trust anchor, IAM Roles Anywhere reads the CDP URLs embedded in authenticating certificates, downloads the corresponding CRLs, and denies credential requests that use revoked certificates.\n\n\nPreviously, to check revocation status, you had to import CRLs into IAM Roles Anywhere and re-import them each time your CA published an update, which added operational overhead. With this launch, IAM Roles Anywhere downloads CRLs from your CDPs and refreshes them periodically, so you no longer need to re-import them. You can use this capability with[AWS Private Certificate Authority](https://aws.amazon.com/private-ca/) or your own public key infrastructure (PKI), provided your certificates include publicly accessible CDP URLs that meet the[distribution point requirements](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/trust-model.html#crl-distribution-point-revocation) . To enable it on a trust anchor, use the IAM Roles Anywhere console, AWS SDKs, or AWS CLI.\n\n\nThis feature is available at no additional cost in all commercial AWS Regions. To learn more, see[Automatic revocation checking with CRL distribution points](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/trust-model.html#crl-distribution-point-revocation) in the IAM Roles Anywhere User Guide.",
+  "published_at": "2026-11-05T17:38:00+00:00",
+  "first_seen_at": "2026-11-05T20:18:59.419194+00:00",
+  "content_hash": "sha256:2b4c11785202c66cc307b962dec9b4b4b89f1d38f265f670baffcee473d8c952"
+}
