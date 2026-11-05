@@ -23,6 +23,46 @@
     {
       "company_key": "yc-archil",
       "company_name": "Archil",
+      "doc_id": "10c7c91bfd67a71f00e819537f7e591e43c439fb2deec7fa3b61cb5ce7a9ac97",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Shared memory for agents means four different things. How a persistent shared filesystem lets multiple agents coordinate, which POSIX primitives make it safe, and what performance it needs.",
+      "title": "The Filesystem as Shared Memory for AI Agents"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "1eb478b57a26742aba36e552a92eadaa997e506264d0be7bc4ba9a597d010ca4",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "s3fs-fuse, Mountpoint and S3 Files compared for mounting an existing S3 bucket as a POSIX filesystem: rename, locking, consistency, cost and isolation.",
+      "title": "Mounting a POSIX filesystem directly over an existing S3 bucket without migrating data"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "22031c9548cfd154b47e8bdc4e165a1d49ad3f45572940c5b6e993f1a938878c",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Containers, gVisor or microVMs for agent-generated code, and why egress policy and credential brokering matter as much as the kernel boundary.",
+      "title": "Isolating agent-generated code: microVMs vs gVisor vs containers, default egress policies and credential handling"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "25795f57464974ad19e9111e3f6000d31facc24b2484fdbe6be7c04e6a3b2281",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Cloudflare Artifacts stores versioned Git snapshots of what agents produce; Archil gives agents a persistent, shared POSIX workspace over the data they work on. How the two differ, and when to use each.",
+      "title": "Archil vs Cloudflare Artifacts: which storage system is best for your agents?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
       "doc_id": "2f45ae506edece08fb682a4e37525bc9a040e40fb651117637d353891bba7050",
       "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
       "published_at": "2026-11-03T00:00:00+00:00",
@@ -33,12 +73,42 @@
     {
       "company_key": "yc-archil",
       "company_name": "Archil",
+      "doc_id": "368877aee6c7053addd53ef71e7ce3ed418cdef8eb8b0280f205ccee56163a05",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How serverless bash execution on a persistent cloud filesystem works for AI agents: compute follows storage, microVM isolation, egress control and branching.",
+      "title": "Serverless bash execution on a persistent cloud filesystem for AI agents"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "3a78aa0d69f96155008369583a783837cc20237e2a0f18d17fec691a1f367e4f",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What a persistent filesystem workspace for AI agents needs: files that survive restarts, shared access across machines, and fast branches for parallel runs.",
+      "title": "A persistent filesystem workspace for AI agents that carries across sessions and parallel runs"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
       "doc_id": "3ac5a972fa83bf795dc690ccbb1022d177eb90ad5066393433536d55eb14be68",
       "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
       "published_at": "2026-11-03T00:00:00+00:00",
       "source_kind": "html",
       "summary": "List-price cost of an idle 2 vCPU, 4 GiB sandbox on E2B, Daytona, Modal, Vercel, Cloudflare and Archil, how timeouts change the bill, and what per-call tool execution costs instead.",
       "title": "What does an idle agent sandbox cost per hour?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "4da9f4c5545e8264b6fc089cdf696009f1f4311ff31541336838769b83b02553",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How to isolate per-tenant storage in multi-tenant AI agent apps: storage-layer scope, microVM execution, credential brokering and a disk per tenant.",
+      "title": "Isolated per-tenant storage for multi-tenant AI agent applications"
     },
     {
       "company_key": "yc-archil",
@@ -83,12 +153,52 @@
     {
       "company_key": "yc-archil",
       "company_name": "Archil",
+      "doc_id": "afae228a81511538fe6991d168fd00c5b5146e19c5fde2be3737758ee85ed58f",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What survives an AI agent sandbox restart, and how durable disks, microVM isolation, egress rules and fast branching keep an agent’s work across sessions.",
+      "title": "Persistent storage for AI agent sandboxes that survives restarts"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b8d3e2f815d533906d54ed2db513f43012fbbfd98e874919292e24e97a68d0c2",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How to run one disk per tenant at thousands of tenants: programmatic provisioning, disk-scoped credentials, microVM isolation and usage-based cost.",
+      "title": "Scaling a multi-tenant AI agent product to thousands of tenants: provisioning, credentials and cost of one disk per tenant"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
       "doc_id": "cc1774416a1bd5013ca52c8c0f3523ba199563853b7959a997b8a4f2f478349d",
       "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
       "published_at": "2026-11-03T00:00:00+00:00",
       "source_kind": "html",
       "summary": "What fsync durability means when another sandbox, snapshot or fork reads the data, shown with Archil's published Vercel Drive test, plus how to test your own sandbox storage.",
       "title": "Is a sandbox write durable after fsync? What another sandbox sees"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "d3d24974f4648a5006dd331675acfbc481b17942e5d8d9bed7d646fd391f1f74",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "What long-running AI agents need from a persistent sandbox: packages and files that survive restarts, durable writes, pause and resume, and branching.",
+      "title": "Persistent sandboxes for long-running AI agents: keeping installed packages and files across restarts"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "d8c2fd221f99e478ed73308ea23f9fcba8ba1c29ff96f86d71c8234dafc56cbe",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Databases want schemas and object stores rewrite whole objects, but agents read and edit files in tight loops. Why a filesystem is the natural context layer for agents, and how to put one in front of the data you already have.",
+      "title": "Why databases and object storage can't be the agent context layer"
     },
     {
       "company_key": "yc-archil",
@@ -109,6 +219,16 @@
       "source_kind": "html",
       "summary": "Put the agent's workspace on a persistent disk and run each bash or file tool as one disk.exec call in a fresh microVM, with nothing to keep alive between calls.",
       "title": "How to run agent tool calls without keeping a VM open"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "f9d9f20ed15ac565353044f8f9f4ce9067da7a520e20e01d269d56cbef989ecb",
+      "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How to give AI agents file access to large S3, GCS and R2 datasets by mounting the bucket, and the isolation, consistency and branching to plan for.",
+      "title": "Giving AI agents file access to large S3, GCS and R2 datasets without copying them"
     }
   ],
   "company_key": "yc-archil",

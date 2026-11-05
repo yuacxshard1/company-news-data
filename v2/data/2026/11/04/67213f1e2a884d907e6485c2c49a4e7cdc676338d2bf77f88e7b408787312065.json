@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "67213f1e2a884d907e6485c2c49a4e7cdc676338d2bf77f88e7b408787312065",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-managed-migration-hive-to-iceberg/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-managed-migration-hive-to-iceberg/",
+  "title": "Amazon S3 Tables now provide a simple, cost-effective path for data lake modernization",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Tables now provide a simple, cost-effective path for data lake modernization",
+  "body_markdown": "Amazon S3 Tables now offer managed migration of your Apache Hive tables to Apache Iceberg. Iceberg adds ACID transactions, schema evolution, and time travel to your data lake, but moving off Hive usually means building a migration pipeline for each table, which can take weeks. You can now let S3 Tables manage your migration, resulting in query-ready Iceberg tables that stay optimized as data grows.\n\n\nS3 Tables validate, convert, and copy your data while production workloads keep running. To lower migration risk, you can review each step, sync destination tables with source changes as often as you need, or roll back to your source data. You pay only for the data that the job copies, with no charge for the Hive-to-Iceberg conversion, and source objects in S3 Intelligent-Tiering stay in their current access tier. If your tables use Snappy compression, S3 Tables recompress them to Zstandard (ZSTD) and compact them, which reduces storage and object count and improves query performance.\n\n\nTo get started, visit the AWS Management Console or use the Amazon S3 Tables migration APIs. A[migration skill](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/migrating-hive-tables-to-s3-tables) is also available in the Agent Toolkit for AWS to help AI agents orchestrate the workflow autonomously. At launch, S3 Tables managed migration supports AWS Glue-registered Hive tables stored in Parquet format within the same AWS account and AWS Region. It is available in the following AWS Regions: US East (N. Virginia, Ohio), US West (Oregon), Asia Pacific (Mumbai, Singapore, Sydney, Tokyo), Europe (Frankfurt, Ireland, Stockholm). For pricing information visit[Amazon S3 pricing](https://aws.amazon.com/s3/pricing/) . To learn more, see the Amazon S3 Tables[overview page](https://aws.amazon.com/s3/features/tables/) ,[documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-migrate.html) , and[AWS News Blog](https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/) .",
+  "published_at": "2026-11-04T08:00:00+00:00",
+  "first_seen_at": "2026-11-05T02:56:34.030879+00:00",
+  "content_hash": "sha256:31ebd883540e4540494305406bec3b9ca0cc2be78b2bbfc5fecac27257c189d0"
+}

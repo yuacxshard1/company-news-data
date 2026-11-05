@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f0538b2fc2e6494d8bf971739e5fb2a9dacdd553c5b9048cb8c94b576c4dd769",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/hindsight-models-inference-api-setup-and-pricing",
+  "canonical_url": "https://www.activepieces.com/blog/hindsight-models-inference-api-setup-and-pricing",
+  "title": "Hindsight Models Inference API: Setup and Pricing",
+  "summary": "Hindsight models inference API powers retrieval in agents and applications.",
+  "body_markdown": "## Missing rate limit defenses in the workflow\n\n\nWhoever owned the workflow found out from a customer, not from the system, after five missing controls stacked up and it failed. Each gap is ordinary, and each one stays invisible until the first real batch arrives.\n\n\n### Setting batch size within the tier limit\n\n\nSized by how many records needed processing, the batch ignored how many requests the account's tier allows per minute.\n\n\nTest a handful of records and you never come near a per-minute limit, so the first working request proves nothing about it. A full batch hits the gate within seconds, and everything past it is rejected.\n\n\nPut a queue between the records and the worker; that is the generic fix. The worker drains it at a rate set below the published limit.\n\n\nIf you move to a higher tier, that raises the ceiling and fixes volume only. It does nothing for the missing retry, cap and duplicate rules, so a larger batch just fails the same way, faster.\n\n\n### Retries that made the outage worse\n\n\nWhen the gate rejected a request, the flow retried immediately, with no pause and no stop condition. Each rejection produced another request, so the worker spent its whole run pressing against a limit that only eases when it stops pressing.\n\n\nLook at the illustration below: the retry arrows loop from the gate straight back to the worker with no gap between them, and the worker never gets a quiet minute in which the limit could reset.\n\n\nTo repair this, use backoff with jitter, the standard approach. The wait grows after each failure, and a random offset keeps parallel workers from retrying in step.\n\n\nPair it with a hard cap on attempts per record and a spend ceiling per run. Without those two, a retry loop is an open-ended bill with nobody assigned to watch it.\n\n\nWhat follows from the picture is the quieter half of the failure: the loop was noisy to the API, yet silent to the people who owned the flow.\n\n\n### Idempotency keys and alerts for API failures\n\n\nBefore the error came back, some retried requests had in fact succeeded, so the retry processed the same record twice. The duplicate cards in the illustration pile up past the gate for that reason.\n\n\nTo fix it, use an idempotency key per record and a done-marker written only after a confirmed result, so a repeat is recognised and skipped.\n\n\nThen there is the bell that never rang. Nothing counted rejections, nothing flagged a record that exhausted its attempts, and nothing paged a named person.\n\n\nA flow with no alert and no owner fails correctly, in the sense that it does exactly what it was built to do, **until someone notices the bill or the backlog** .",
+  "published_at": "2026-11-05T00:55:30+00:00",
+  "first_seen_at": "2026-11-04T22:37:09.827641+00:00",
+  "content_hash": "sha256:9f4970b2bb0596e33172edaf0d59f11c8012fcf080d3abf3e8c7e63eb4ec0f47"
+}

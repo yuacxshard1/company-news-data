@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1e93c8dc2ab7698fe892723b0ce4ec9350240962f264a7f04b10a56584b18070",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/openai-whisper-api-pricing-per-minute-rates-2026",
+  "canonical_url": "https://www.activepieces.com/blog/openai-whisper-api-pricing-per-minute-rates-2026",
+  "title": "OpenAI Whisper API Pricing: Per-Minute Rates (2026)",
+  "summary": "OpenAI Whisper API pricing charges per minute of audio processed. See the exact rates and understand how to estimate costs for your transcription usage.",
+  "body_markdown": "## What realistic monthly transcription volumes cost\n\n\nAt 1,000 audio hours a month you pay $360 on whisper-1 or gpt-4o-transcribe and $180 on gpt-4o-mini-transcribe. Volume alone rarely makes a transcription bill large, but **model choice halves it at every volume** .\n\n\n### Cost per audio hour\n\n\nStart from the rates in[Cartesia's pricing breakdown](https://www.cartesia.ai/learn/openai-whisper-api-pricing) . whisper-1 is $0.36 per audio hour (the familiar **$0.006 a minute** ). gpt-4o-transcribe lands at roughly the same $0.36, and gpt-4o-mini-transcribe at roughly $0.18.\n\n\nSo gpt-4o-transcribe, at the same rate, buys you no discount over Whisper; OpenAI's current GPT-Transcribe is the model to price against. The only saving is in the mini tier, and it's a flat 50%.\n\n\nThat flat ratio is the useful property. The bill scales linearly with hours, with no volume discount to model and no step change to plan around. You can project any month by multiplying hours by the rate.\n\n\nBefore trusting that projection, check whether the cheaper model's accuracy holds on your audio, because a 50% saving that triggers manual correction isn't a saving.\n\n\nAt 10 hours a month, the bill is $3.60 on the first two models and $1.80 on the mini. At 100 hours it is $36 against $18. At 1,000 hours it is $360 against $180.\n\n\nThe takeaway is that the bars grow with volume, but the gap between models only becomes worth arguing about at the right-hand group.\n\n\n### A podcast, a call centre and a solo consultant\n\n\nSay you are a solo consultant recording client calls, perhaps 10 hours a month. That's $3.60 or $1.80, so the model choice is a rounding error and you should pick on accuracy alone.\n\n\nAt 100 hours, which a podcast network publishing several weekly shows can plausibly reach, $36 versus $18 is still less than most teams spend on a single software seat. Neither profile justifies engineering time spent on rate optimisation.\n\n\nA call centre is different. At 1,000 hours, the **$180 monthly difference is $2,160 a year** , enough to justify a side-by-side accuracy test on a sample of real calls. Even then, $360 a month is small beside the agent salaries the recordings describe.\n\n\nThat's the point where the per-minute rate stops being the interesting number. Once the model line item is this small, the costs around it, such as splitting oversized files, retrying failures and fixing errors by hand, can easily exceed it.",
+  "published_at": "2026-11-04T20:05:12+00:00",
+  "first_seen_at": "2026-11-05T02:55:31.742563+00:00",
+  "content_hash": "sha256:63a24099cdee14d1f61eb3bac7eeebc097c7fbcd3f2ceb435de5f82a1977ecfb"
+}
