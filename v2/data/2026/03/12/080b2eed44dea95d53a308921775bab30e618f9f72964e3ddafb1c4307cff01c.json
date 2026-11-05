@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "080b2eed44dea95d53a308921775bab30e618f9f72964e3ddafb1c4307cff01c",
+  "company_key": "yc-flutterflow",
+  "company_name": "FlutterFlow",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flutterflow.io/blog/designer-release-notes-march-12-2026",
+  "canonical_url": "https://www.flutterflow.io/blog/designer-release-notes-march-12-2026",
+  "title": "What’s New in Designer - March 12, 2026",
+  "summary": "This month's release helps you spend less time clicking around and more time designing — with faster editing, smarter shortcuts, and a canvas that stays out of your way.",
+  "body_markdown": "## **9 New Features**\n\n\nThis month’s release helps you spend less time clicking around and more time designing — with faster editing, smarter shortcuts, and a canvas that stays out of your way.\n\n\nWe’ve also made sharing and accessibility smoother, and knocked out a batch of bug fixes to keep everything feeling solid.\n\n\n**1. Session state persistence** - The designer now remembers where you left off and returns you to the same project and view automatically, even when navigating from the dashboard.\n\n\n**2. Share link previews** - Share links now render rich Open Graph previews (thumbnail, title, description) when shared in Slack, iMessage, social media, and other platforms.\n\n\n**3. Inline Text Editing** - Double-click any text node on the canvas to edit its content directly, without leaving the canvas.\n\n\n**4. Color Picker Eye Dropper** - Pick any color from anywhere on your screen using the new eye dropper tool in the color picker.\n\n\n**5. Keyboard Zoom Controls** - Use Cmd+= / Cmd+- to zoom in and out on the canvas, and Shift+1 to fit the canvas to your screen.\n\n\n**6. Arrow-Key Stepping in Property Editors** i Nudge numeric property values up or down using the arrow keys for faster, precise adjustments.\n\n\n**7. Smart Paste Targeting** - Pasting elements now intelligently targets the nearest valid ancestor container when no direct target is selected.\n\n\n**Prompt History** - Added a Prompt History panel that records all generation prompts, supports auto-refresh, and lets you revisit and reuse previous inputs.\n\n\n**WCAG Contrast Normalization -** Text colors are now automatically adjusted to meet accessibility contrast standards, improving legibility across generated UIs.\n\n\n## **Bug Fixes**\n\n\n- Direct PNG export for single frames — Exporting a single frame now downloads a .png file directly instead of wrapping it in a ZIP archive, reducing friction especially on iPad and mobile.\n- Container Clip-to-Radius — Content inside containers now correctly clips to the container’s border radius, eliminating visual overflow artifacts.\n- Landscape design support improved\n- More reliable image and font rendering\n- Improved single-frame export naming\n- Gradient Editor more consistent",
+  "published_at": "2026-03-12T00:00:00+00:00",
+  "first_seen_at": "2026-11-05T06:03:06.142518+00:00",
+  "content_hash": "sha256:cbe9d229bf2a8fe843269ee94c103f1f637560ccfa49a649261fb137e9fcbc51"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "36e2ac79d49f3c3a74ff845686deb69af5112215b7f246d98c96c118a14d35a0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/smartsheet-api-rate-limits-auth-and-examples-2026",
+  "canonical_url": "https://www.activepieces.com/blog/smartsheet-api-rate-limits-auth-and-examples-2026",
+  "title": "Smartsheet API: Rate Limits, Auth and Examples (2026)",
+  "summary": "Smartsheet API authenticates with access tokens to read and write sheets, rows, and reports.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Access and plans\n\n\nWhichever side of that split a job lands on, five questions about access and environment come up before anything ships. Each answer points to the Smartsheet developer docs at[developers.smartsheet.com](https://developers.smartsheet.com/) , which are the authority on current terms.\n\n\nIs the Smartsheet API free to use?\n\n\nSmartsheet doesn't bill per API call, but access is tied to your plan, not offered as a standalone product.\n\n\nConfirm that your plan includes API access before you design around it, because a token generated on an account without it won't help you. The plan and access details are in the[developer docs](https://developers.smartsheet.com/) .\n\n\n### Testing environments\n\n\nDoes Smartsheet have a sandbox or test environment?\n\n\nSmartsheet documents a sandbox as part of certain plans, not as something every account gets. Without one, test against a dedicated sheet in a separate workspace so a faulty write can't touch production rows. Check the[developer docs](https://developers.smartsheet.com/) for whether your plan includes a sandbox.\n\n\nCan I use the Smartsheet API on a free trial?\n\n\nIt depends on what the trial includes, and trial terms change.\n\n\nTreat trial access as unconfirmed until you've generated a token and made a read call against a test sheet. If that call is rejected, the trial doesn't cover API use, and you shouldn't build a proof of concept on it.\n\n\nThe[developer docs](https://developers.smartsheet.com/) describe what access requires.\n\n\n### Regions and webhooks\n\n\nWhich Smartsheet region base URL should I use?\n\n\nUse the base URL for the region where your account is hosted. Smartsheet runs separate hosts for its regional and government environments, so a token issued in one region will fail against another region's host.\n\n\nThe symptom is authentication errors on a token you know is valid. Check the host list in the[developer docs](https://developers.smartsheet.com/) before you hard-code anything.\n\n\nDoes the Smartsheet API support webhooks?\n\n\nYes. Smartsheet webhooks send a callback to a URL you control when a sheet changes, so you can react to events instead of polling.\n\n\nYour endpoint must complete the verification handshake before callbacks are enabled, so build that first. The setup is in the[developer docs](https://developers.smartsheet.com/) .",
+  "published_at": "2026-11-05T03:52:59+00:00",
+  "first_seen_at": "2026-11-01T09:46:15.698859+00:00",
+  "content_hash": "sha256:76c1ef142c68cf334107adaea7d8fd987bae9000b50d82e1b6a9efe0ea419415"
+}
