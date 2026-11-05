@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a69d4d054952aa3d4b8b2332bd8a447b462ed67fd2b3da553bc13b673971f88a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/tailscale-pricing-plans-costs-and-features-2026",
+  "canonical_url": "https://www.activepieces.com/blog/tailscale-pricing-plans-costs-and-features-2026",
+  "title": "Tailscale Pricing: Plans, Costs and Features (2026)",
+  "summary": "Tailscale pricing uses a free Personal plan and per-user billing on paid plans. Check active user limits and costs across tiers to fit your team's needs.",
+  "body_markdown": "## Hidden costs of Tailscale pricing\n\n\nOnce your team needs the higher-tier features and nobody wants to pay per head for them, Tailscale is no longer the cheaper option. Per-user pricing grows with every hire while the alternatives barely move.\n\n\nHeadscale is a free community-built server that stands in for Tailscale's own coordination service and runs on a basic rented virtual server.\n\n\nWith each person added, the two paid lines climb and the Headscale line stays flat, so the distance between them is what you pay for not running the thing yourself.\n\n\nFeatures, not people, are usually what limit a growing team. Single sign-on, finer access rules and longer-kept logs tend to sit on the upper plans.\n\n\nSo one requirement from your security questionnaire can move everyone, including people who only need basic access, onto the pricier per-seat rate.\n\n\n**Budgeting on the entry price means budgeting for a plan you'll probably leave.**\n\n\nIf you route traffic through a machine you run in a cloud provider, that provider's data-out charges apply, and Tailscale's fee never shows them.\n\n\n> **Budgeting on the entry price means budgeting for a plan you'll probably leave.\n\n\n### Support tiers and minimum seats\n\n\nBeyond community forums, help is typically bought through higher plans, and some tiers may carry a minimum seat count.\n\n\nIf you need a human to answer during an outage, price that tier for the whole team, not for the two people who would ever file a ticket.\n\n\nHeadscale answers the cost question and replaces it with another: someone on your side now owns updates, backups and uptime. Where that person is already on payroll, self-hosting wins. Where they are not, you're paying in weekends.\n\n\nIf you automate that upkeep, say a flow that checks the user list and key expiry, the meter matters as much as the seat does.\n\n\n[Activepieces](https://www.activepieces.com/) charges 1 credit per flow run however many steps it has, where Zapier bills per task and Make per module, so a ten-step check costs the same as the two-step shortcut and nobody pays extra for splitting the work up properly.",
+  "published_at": "2026-11-05T08:11:18+00:00",
+  "first_seen_at": "2026-11-05T11:19:26.304002+00:00",
+  "content_hash": "sha256:fa786935b79b3d42ebece0897f96e977dc666ddef5d5cd0d6ae328415d0cd326"
+}

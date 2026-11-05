@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "25fbf10135398d663fcfecf6912604861555dd4712ef47ccd80355bdbbe6dd43",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/docs-update-2026-10-30-96b1ca3",
+  "canonical_url": "https://bird.com/changelog/docs-update-2026-10-30-96b1ca3",
+  "title": "mTLS for API requests and webhook deliveries",
+  "summary": "Require a client certificate on API requests through a dedicated mTLS endpoint, and have Bird present a client certificate on webhook deliveries.",
+  "body_markdown": "Bird introduces mTLS, available on request, for both directions of a connection.\n\n\nFor API requests, add your certificate authority's public certificate in **Workspace settings → mTLS** (or[POST /v1/workspace/mtls-certificate-authorities](https://bird.com/docs/api/reference/create-workspace-mtls-certificate-authority) ), then send requests to the new` mtls.<region>.platform.bird.com` endpoint with a client certificate. Run in` evaluating` mode while you move traffic over, then switch to` enforced` so the standard endpoint stops accepting API key and service account requests entirely.\n\n\nFor webhook deliveries, Bird generates a key pair and a certificate signing request under **Webhooks → mTLS** , your certificate authority signs it, and Bird presents the signed certificate whenever your receiver asks for one during the TLS handshake.[POST /v1/webhooks/{webhook_id}/test](https://bird.com/docs/api/reference/test-webhook) now returns a` client_certificate` field (` presented` ,` not_requested` , or` rejected` ) so you can confirm your receiver is checking it correctly before enforcing.\n\n\nBoth directions support certificate revocation checks against a certificate's CRL, and a required subject alternative name for API requests when your certificate authority also issues to other parties. See the[mTLS guide](https://bird.com/docs/guides/mtls) for setup, rotation, and troubleshooting.\n\n\nAlso in this release:\n\n\n- **WhatsApp templates can set a delivery time-to-live.**` message_send_ttl_seconds` on a template language controls how long WhatsApp keeps trying before dropping an undelivered message, from 30 seconds up to 30 days depending on category. See[Upsert WhatsApp template language](https://bird.com/docs/api/reference/upsert-whatsapp-template-language) .\n- **Workspace quotas report their type.**[GET /v1/workspace/quotas](https://bird.com/docs/api/reference/list-workspace-quotas) now returns` type` (` integer` or` boolean` ) and` label` alongside each quota, so a feature-switch quota no longer reports a misleading` unit` .\n- **Callback signing secrets now cover voice sequence webhooks.** Rotating your workspace's signing secret at[POST /v1/webhook-callbacks/rotate-signing-secret](https://bird.com/docs/api/reference/rotate-webhook-callback-signing-secret) re-signs both SMS callback URLs and voice sequence webhook requests, which now share one secret.",
+  "published_at": "2026-10-30T00:00:00+00:00",
+  "first_seen_at": "2026-11-05T10:07:51.223908+00:00",
+  "content_hash": "sha256:6bd3af27873a3a7a5ecd87a88dd3afd13079428b11d7e0e37f44d9df1ad0e4f4"
+}

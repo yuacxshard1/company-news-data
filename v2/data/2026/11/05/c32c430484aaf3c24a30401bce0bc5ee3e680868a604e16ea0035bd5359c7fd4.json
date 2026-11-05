@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c32c430484aaf3c24a30401bce0bc5ee3e680868a604e16ea0035bd5359c7fd4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/bitwarden-pricing-plans-free-vs-paid-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/bitwarden-pricing-plans-free-vs-paid-2026-guide",
+  "title": "Bitwarden Pricing & Plans: Free vs Paid (2026 Guide)",
+  "summary": "Bitwarden pricing is free for personal accounts and paid plans bill per account, household, or seat. Understand your costs before selecting a plan.",
+  "body_markdown": "## Automating member changes around Bitwarden with Activepieces\n\n\nWhen someone leaves, Activepieces can open an offboarding checklist and schedule a credential-rotation reminder, but it doesn't provision Bitwarden accounts, and it adds nothing to Bitwarden's bill.\n\n\nIts Free plan costs $0 and allows unlimited flows, so the leaver flow doesn't add a line to yours either.\n\n\nTreat it as an optional layer for a team that already has a leaver process in a scattered state.\n\n\n### What Bitwarden already does for provisioning\n\n\nProvisioning accounts isn't the gap, because Bitwarden's own tooling covers it. Its directory sync connects to an identity directory and creates or removes members from it, and its API lets a script manage members and collections directly.\n\n\nBoth sit on the Bitwarden side of the line. If a team wants removal from the organization to follow removal from the directory, that's a sync configuration, not a workflow.\n\n\nWhat neither does is notice that a person left in the first place. Sync reacts to the directory. It has no idea that a contractor's engagement ended in the HR tool or that someone was dropped from the team chat.\n\n\nIt also can't tell you which shared passwords that person could see and therefore which ones are now worth changing.\n\n\n### Where a workflow adds the missing steps\n\n\nThat gap is where Activepieces fits. It's an MIT-licensed workflow automation tool with 747 integrations, and here it receives a leaver event from the HR system or the chat tool and branches into two paths.\n\n\nOne opens an offboarding checklist as a task for whoever owns the process. The other schedules a reminder to rotate the credentials that person could reach.\n\n\nThe reminder is only a reminder. Activepieces doesn't rotate a password, and it can't see which items a departing member used unless someone records that elsewhere. One leaver run, both paths included, is 1 credit against the Free plan's 1,000 a month.\n\n\nWhat you gain is that the rotation task exists, has an owner, and doesn't depend on someone remembering. What you don't gain is any extra Bitwarden visibility or control.\n\n\nFor a five-person team the next step is a judgment call: a written checklist may do the same job without another tool to maintain.",
+  "published_at": "2026-11-05T08:12:30+00:00",
+  "first_seen_at": "2026-11-05T11:19:26.304002+00:00",
+  "content_hash": "sha256:2c592502686eeed81ba7eb985c0e08eb90f514adf3ee606736cb3e41e3f09cb8"
+}

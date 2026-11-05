@@ -39,6 +39,16 @@
       "source_kind": "html",
       "summary": "Patch Secure Access 14.60 to 14.61 for CVE-2026-97718. Check admin accounts, back up the Warehouse, upgrade the pool and verify access.",
       "title": "How to fix CVE-2026-97718 in Absolute Secure Access"
+    },
+    {
+      "company_key": "yc-casco",
+      "company_name": "Casco",
+      "doc_id": "f6bc30e0f7a514f475e7ac3fb64ef58e8335e6840bcebe99aae85a4f51fde42a",
+      "first_seen_at": "2026-11-05T09:59:08.200293+00:00",
+      "published_at": "2026-11-04T12:31:18.485+00:00",
+      "source_kind": "html",
+      "summary": "Upgrade Databasement to 1.10.9, require trusted OIDC email verification, and review existing identity links before restoring access.",
+      "title": "Fix CVE-2026-121939 in Databasement: upgrade and review OIDC links"
     }
   ],
   "company_key": "yc-casco",

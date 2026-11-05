@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9f40ea0b360ba6d675ba0c0ab1b97d230c212ebee52237ff8aa53008d58634dc",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/docs-update-2026-10-31-e383d1a",
+  "canonical_url": "https://bird.com/changelog/docs-update-2026-10-31-e383d1a",
+  "title": "Corrected field paths for Apple Messages for Business interactive replies",
+  "summary": "The Apple Messages for Business API reference now points to interactive_reply for quick reply, list picker and time picker responses.",
+  "body_markdown": "The API reference for[send message](https://bird.com/docs/api/reference/create-amb-message) ,[get message](https://bird.com/docs/api/reference/get-amb-message) ,[list messages](https://bird.com/docs/api/reference/list-amb-messages) ,[list conversation messages](https://bird.com/docs/api/reference/list-amb-conversation-messages) , and[get template version language](https://bird.com/docs/api/reference/get-amb-template-version-language) previously described a customer's quick reply, list picker, or time picker selection as arriving on` interactive_data.data.*` . That field no longer exists; selections arrive on` interactive_reply` .\n\n\nThe docs now point to the right paths:\n\n\n- A quick reply selection is` interactive_reply.quick_reply.selected_identifier` .\n- A list picker selection is` interactive_reply.list_picker.sections\\[\\].items\\[\\]` .\n- A time picker selection is` interactive_reply.reply_message.title` or a slot identifier under` interactive_reply` .\n- An image identifier referenced from a row or button resolves against` interactive.images` on the outbound message, or` interactive_reply.images` on a reply.\n\n\nIf you were parsing replies against the old` interactive_data.data` path, switch to` interactive_reply` .",
+  "published_at": "2026-10-31T00:00:00+00:00",
+  "first_seen_at": "2026-11-05T10:07:51.223908+00:00",
+  "content_hash": "sha256:efba60f67c0eced574729ad7ad710113e253dda999cd9ee13ce494e05ec6d21c"
+}

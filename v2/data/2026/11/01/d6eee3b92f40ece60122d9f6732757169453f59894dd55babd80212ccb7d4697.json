@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d6eee3b92f40ece60122d9f6732757169453f59894dd55babd80212ccb7d4697",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/docs-update-2026-11-01-99de40f",
+  "canonical_url": "https://bird.com/changelog/docs-update-2026-11-01-99de40f",
+  "title": "Guidance for building automatic SMS replies with Automations",
+  "summary": "The Automations and SMS docs now show how to auto-reply to an inbound SMS, check the number can send, and filter out opt-out and help keywords.",
+  "body_markdown": "[Send messages in an automation](https://bird.com/docs/guides/automations/messages#sms) now documents a complete pattern for auto-replying to an inbound SMS: start from an **Incoming SMS** trigger, map the reply's recipient to the incoming sender, and choose the receiving number as the reply's sender, noting that a number can accept inbound SMS without being eligible to send outbound. It also covers using a trigger filter to scope replies to one receiving number and to exclude opt-out and help keywords, so a` STOP` or` HELP` reply doesn't trigger your general acknowledgement. The[SMS overview](https://bird.com/docs/guides/sms/overview) now links to this pattern as the no-code way to handle replies.\n\n\nAlso clarified in the same guide:\n\n\n- The WhatsApp messaging step can respond to incoming messages, but built-in steps can't label a WhatsApp conversation or assign it to a teammate, that's still a dashboard action under[WhatsApp conversations](https://bird.com/docs/guides/whatsapp/conversations#keep-the-teams-work-organized) .\n- The failure path on a send step now explicitly covers sends blocked by your workspace's[send limits](https://bird.com/docs/guides/automations/send-limits) , not just channel rejections.",
+  "published_at": "2026-11-01T00:00:00+00:00",
+  "first_seen_at": "2026-11-05T10:07:51.223908+00:00",
+  "content_hash": "sha256:3950172a7d338f934de047a42a94527414779f27cce70836f5540f1f106f53b0"
+}

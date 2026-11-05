@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4735eb0083c7ae44e40d3502a027cbaae23203531f6141a8cd57727e22f488f0",
+  "company_key": "yc-gauge",
+  "company_name": "Gauge",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.withgauge.com/blog/launch-week-skills-and-schedules/",
+  "canonical_url": "https://www.withgauge.com/blog/launch-week-skills-and-schedules/",
+  "title": "Skills and Schedules in Ask Gauge",
+  "summary": "Teach Ask Gauge your team's playbooks with Skills, then run them on a schedule. Gauge does recurring AEO work for you and reports back in Slack or email.",
+  "body_markdown": "Today we're introducing Skills and Schedules in Ask Gauge. Skills are saved playbooks for work your team repeats. Schedules run that work automatically and send the results to Slack or email.\n\n\nAsk Gauge is the agent built into Gauge Chat. It has more than 50 tools for AEO work: keyword research, prompt, sentiment, and citation analysis, content ideas, briefs, drafting, and review. With Skills and Schedules, it does that work on a recurring basis without a prompt from you.\n\n\n## Skills\n\n\nA skill is a set of instructions for one job, such as a weekly competitor report or a checklist for refreshing old pages.\n\n\nThere are two ways to create a skill:\n\n\n1. **Describe the task.** Tell Ask Gauge what you want, for example: \"Help me create a skill for our Monday report. It should cover last week's visibility changes, what caused them, and three next steps.\" Ask Gauge asks about anything missing, then saves the skill.\n2. **Save a chat.** When Ask Gauge finishes a task the way you want, ask it to save that process as a skill.\n\n\nRun a skill in chat with` /skill-name` . Skills belong to your organization, so everyone on your team can use and edit them. Ask Gauge pulls current data each time it runs a skill.\n\n\n## Schedules\n\n\nA schedule runs a prompt, with or without a skill, daily, on weekdays, weekly, or monthly. The skill holds how to do the work. The schedule holds when it runs and where the result goes.\n\n\n> Help me create a skill for our weekly competitor review, then schedule it for Fridays at 4pm and post the result in #marketing.\n\n\nEach run can send up to 5 Slack messages and 5 emails to members of your organization.\n\n\n## Chain schedules into a workflow\n\n\nSchedules share work through the action items and drafts saved in Gauge. Set up a few schedules and Gauge works through the week for you:\n\n\n1. **Monday, 8am: plan.** Review competitor activity and your Gauge data, then add five actions to the Action Center.\n2. **Daily: do the work.** Pick up an open action and draft the content.\n3. **Daily, 5pm: report.** Post a Slack summary of new opportunities, finished drafts, and anything that needs your review.\n\n\n## Get started\n\n\nSkills and Schedules are available today in Gauge Chat. Open Ask Gauge and ask it to create your first skill. See[Skills](https://docs.withgauge.com/navigating/skills) and[Scheduled prompts](https://docs.withgauge.com/navigating/scheduled-prompts) for details.\n\n\nThis post is part of[Gauge Launch Week](https://www.withgauge.com/blog/gauge-launch-week) .",
+  "published_at": "2026-11-04T00:00:00+00:00",
+  "first_seen_at": "2026-11-05T09:27:46.216993+00:00",
+  "content_hash": "sha256:210f9b199f3ec9617d43631abb7d67e6384dd22bb819d6d323472311f994e067"
+}
