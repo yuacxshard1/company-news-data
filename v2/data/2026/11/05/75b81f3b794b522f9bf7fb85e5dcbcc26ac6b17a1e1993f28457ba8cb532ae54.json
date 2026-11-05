@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "75b81f3b794b522f9bf7fb85e5dcbcc26ac6b17a1e1993f28457ba8cb532ae54",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-does-the-square-api-work-keys-limits-errors",
+  "canonical_url": "https://www.activepieces.com/blog/how-does-the-square-api-work-keys-limits-errors",
+  "title": "How Does the Square API Work? Keys, Limits, Errors",
+  "summary": "Square API uses REST endpoints for managing orders, inventory, and customers. You can integrate it with custom code or automation tools like Activepieces.",
+  "body_markdown": "## Square's pricing and rate limits\n\n\n**Nothing is billed per API call** ; Square charges per processed payment, so the production cutover changes your costs only when real money moves. Rate limits and bulk caps are a separate constraint.\n\n\n### Pricing per unit: API calls versus processed payments\n\n\nBudget against the high end until your plan is confirmed, because sandbox payments carry no fee and won't show you this cost. The table shows the fee range for each way of taking a payment, with the plan setting the low and high ends.\n\n\nChannel Low High Note\n\n\nIn-person 2.4% + 15¢ 2.6% + 15¢ API access is separate\n\n\nOnline 2.9% + 30¢ 3.3% + 30¢ API access is separate\n\n\nInvoice 2.9% + 30¢ 3.3% + 30¢ API access is separate\n\n\nBecause of the fixed 30¢ on online and invoice payments, a $5 charge loses a larger share than a $500 one.\n\n\n### Documented rate limits and the 429 response\n\n\nWhen Square throttles you, it returns HTTP 429. Treat that as a signal to retry with backoff. Reuse the same idempotency key so the retry can't create a second payment.\n\n\nA big import hits the per-call cap first. Catalog's[batch upsert](https://developer.squareup.com/reference/square/catalog-api/batch-upsert-catalog-objects) accepts 10,000 objects per request in total, split into batches of 1,000 objects each.\n\n\nA 25,000-item import therefore needs at least three requests, and each request needs its own idempotency key. Bulk customer calls accept only 100 objects per request, so **importing 5,000 customers takes 50 calls** .\n\n\nIf a Square call you need has no ready-made action, Activepieces has a way round it: you can build the missing integration privately on your own instance, with no vendor release to wait for.\n\n\nIt starts from 746 integrations, counted straight from the open source monorepo on GitHub, and roughly 60% of them were contributed by the community, meaning most integration options come from community developers rather than from Square's own engineering efforts.\n\n\n### Where Square doesn't publish a number\n\n\nYou won't find a fixed requests-per-second figure in Square's documentation that I could verify for the endpoints in this article. Any number quoted elsewhere is unconfirmed, so don't hard-code one into a scheduler.\n\n\nBuild for the 429 instead: back off, retry with the same key, and log each throttle event. Your production logs will then show the real ceiling for your account, which no published page can.",
+  "published_at": "2026-11-05T09:17:33+00:00",
+  "first_seen_at": "2026-11-01T09:46:15.698859+00:00",
+  "content_hash": "sha256:a5e27aeb302ad364c68089b17d98e70f4f2cadd959700288b79b1e7c0d5619e1"
+}

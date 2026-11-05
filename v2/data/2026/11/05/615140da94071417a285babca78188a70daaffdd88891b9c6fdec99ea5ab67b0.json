@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "615140da94071417a285babca78188a70daaffdd88891b9c6fdec99ea5ab67b0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/qdrant-pricing-in-2026-and-what-a-real-bill-costs",
+  "canonical_url": "https://www.activepieces.com/blog/qdrant-pricing-in-2026-and-what-a-real-bill-costs",
+  "title": "Qdrant Pricing in 2026 and What a Real Bill Costs",
+  "summary": "Qdrant pricing spans five deployment options from free to managed cloud. Decide which fits your workflow and estimate your actual bill.",
+  "body_markdown": "## Estimating your Qdrant bill by RAM and scale\n\n\n**Count RAM, not vectors** : the invoice tracks the RAM your vectors occupy, not the vector count itself. The same 1536-dimension corpus costs very different amounts depending on how you store it and how many copies you keep running.\n\n\n### Sizing the RAM before the price\n\n\nAt 1M vectors, float32 needs 3.75 GB of RAM, according to the[VePrompts RAG architecture calculator](https://veprompts.com/tools/rag-architecture-calculator/vector-db/qdrant/) . At 10M it needs 37.5 GB, so the smallest paid node stops being enough somewhere between those two sizes.\n\n\nThe chart shows how far quantization pulls both figures down, and the takeaway is that int8 and binary cut the footprint by roughly 2.6x and 5x at either scale, so model size becomes tractable even for systems with limited storage budgets.\n\n\nWith int8, the two sizes drop to 1.45 GB and 14.5 GB. According to the VePrompts RAG architecture calculator, binary brings them to 0.7 GB and 7.02 GB, which could keep 10M vectors on a node that float32 would overflow.\n\n\nMemory scales linearly per the VePrompts RAG architecture calculator, so 50M vectors at float32 implies about 187.5 GB (5 × 37.5), a multi-node cluster before any replica is added.\n\n\nQuantization trades recall for memory, so test it on your own queries before you size around it.\n\n\n### Qdrant replication and backup costs\n\n\nAdd a replica and you add a full additional copy of the memory footprint. A 10M-vector int8 collection at 14.5 GB becomes 29 GB with one replica, and the bill doubles for that reason alone.\n\n\nAsk what a single-replica deployment does when its node or its cloud zone fails, because the answer is downtime or a restore, not degraded service.\n\n\nOnce backups are on, they add storage charges and a restore time. A snapshot you haven't restored is an untested control, so budget a restore drill.\n\n\n### Egress, support and cloud region\n\n\nYou pay for data leaving the cluster separately from compute. If your application runs in a different region or provider from the vector database, every query response crosses that boundary, and you pay for it on every request.\n\n\nWhen the cluster is down, the support tier decides who answers and how fast. Read the response-time terms of each plan line by line, and check whether they apply to your plan or only to a higher one.\n\n\nRegion choice also affects price and latency, so fix it before you compare plans.",
+  "published_at": "2026-11-05T10:33:40+00:00",
+  "first_seen_at": "2026-11-05T02:55:31.742563+00:00",
+  "content_hash": "sha256:409cf42fd7fded1de119520dfe69473e7de3926ad8a690cfc8a959f9db9e9eee"
+}

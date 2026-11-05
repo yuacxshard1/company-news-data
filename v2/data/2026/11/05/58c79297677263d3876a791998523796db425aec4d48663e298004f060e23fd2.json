@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "58c79297677263d3876a791998523796db425aec4d48663e298004f060e23fd2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/lightroom-pricing-in-2026-what-every-plan-costs-you",
+  "canonical_url": "https://www.activepieces.com/blog/lightroom-pricing-in-2026-what-every-plan-costs-you",
+  "title": "Lightroom Pricing in 2026: What Every Plan Costs You",
+  "summary": "Lightroom pricing varies by plan and storage tier. See what you'll pay for the standalone option, Photography bundle with Photoshop, and extra storage.",
+  "body_markdown": "## Automating Post-Export Chores with Activepieces\n\n\nActivepieces does nothing to your Lightroom bill, but it prices the way you'd want every tool to: one credit per flow run, however many steps the flow has, and unlimited flows even on the free plan.\n\n\nA ten-step flow that files, emails and logs costs the same as a two-step workaround, so you never trim steps to save money, whereas Zapier bills per task and Make per module, as their pricing pages show.\n\n\nIts core is MIT-licensed, with 747 integrations counted straight from its public GitHub monorepo.\n\n\nIf you've already matched your plan to your storage, this is a separate question: what you do with the files once they leave Lightroom.\n\n\n### Triggering the workflow from a Lightroom export folder\n\n\nLightroom itself offers no trigger an outside tool can listen for. It doesn't announce \"export finished\" to anything.\n\n\nSo the workflow starts one step later, at a folder. You export to a watched location, such as a folder on a synced drive, and Activepieces notices a new file land there and begins a run.\n\n\nAt one credit per run, the free plan's 1,000 credits a month cover 1,000 exported files.\n\n\nThat has a cost worth stating plainly: the automation only works if you export to that folder every time. Export to the desktop one afternoon and nothing fires, and nothing warns you. Pick one destination and make it your export preset.\n\n\nLook at the illustration below for the whole path.\n\n\nThe export folder is the trigger, a single Activepieces flow, billed at one credit per run, sits in the middle, and three things come out the other side, a sorted client folder, an email notification and a spreadsheet row.\n\n\nTake from it that one new file produces all three results without you touching it again.\n\n\nWhat follows is the work that flow replaces.\n\n\n### Manual Lightroom delivery chores this workflow replaces\n\n\nEvery delivery without it is the same three chores. You drag files into the right client's folder, write the \"your photos are ready\" email, and add a line to your job tracker so you know what has gone out.\n\n\nSkip one and you pay later: a client asks where their gallery is, or an invoice goes out late because nobody logged the job.\n\n\nFrom the same trigger, the flow does all three. It files the image by client, sends the notification, and adds the row.\n\n\nIt won't edit, cull or judge anything, and it won't fix a mislabeled export. If the file name is wrong, the filing is wrong too, so the work moves from repeating chores to naming things consistently.",
+  "published_at": "2026-11-05T12:46:44+00:00",
+  "first_seen_at": "2026-11-05T15:35:26.003846+00:00",
+  "content_hash": "sha256:bc8e0d4400599d8974bc2f5707647fa1ad73daa0ef7c3cae408c2c59f5f3d11a"
+}

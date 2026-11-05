@@ -9,7 +9,7 @@
   "url": "https://www.sixtyfour.ai/blog/how-we-use-agents-to-detect-rented-gig-worker-accounts",
   "canonical_url": "https://www.sixtyfour.ai/blog/how-we-use-agents-to-detect-rented-gig-worker-accounts",
   "title": "How to detect rented gig-worker accounts",
-  "summary": "A $65 Facebook transaction is all it takes to put an unvetted stranger behind the wheel. Here's how Sixtyfour closes that gap.",
+  "summary": "Rented gig-worker accounts put unvetted strangers behind the wheel for as little as $65. How to trace who is really using an account, and how Sixtyfour does it.",
   "body_markdown": "We use a single identifier (such as the account's phone number) to build a profile of the real owner, then compare it against operational signals like device ID and location to surface the likely renter's separate identity.\n\n\nKYC is a one-time onboarding check. Continuous identity verification is the ongoing process of ensuring the person using the account is still the verified owner — on every session or transaction.\n\n\nPlatforms can detect suspicious internal signals like a new device or location, but they typically cannot see external data — breach records, dark web chatter — needed to confirm two different people are involved.\n\n\nOur agents use an OSINT-based approach: take a known identifier, search across public records, social media, and breach databases, then resolve them into a single high-confidence identity graph.",
   "published_at": "2026-05-08T00:00:00+00:00",
   "first_seen_at": "2026-09-02T15:13:13.068112+00:00",

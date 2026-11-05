@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7503ac922a6baef9bb46b240253a301e877dd6c54c970d22f9050776b1544d33",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/dynamodb-pricing-guide-costs-and-tips-2026",
+  "canonical_url": "https://www.activepieces.com/blog/dynamodb-pricing-guide-costs-and-tips-2026",
+  "title": "DynamoDB Pricing Guide: Costs and Tips (2026)",
+  "summary": "DynamoDB pricing uses per-request or provisioned capacity models, with storage costs and a free tier. See which model matches your typical workload.",
+  "body_markdown": "## Fees and limits that change a DynamoDB bill\n\n\nSeven things move a DynamoDB bill beyond the headline rates: request-size rounding, transactional reads, index writes, cross-region transfer, global table replication, point-in-time backups and the 400 KB item cap.\n\n\nThe subsections that follow take them in order.\n\n\n### Request-size rounding and read consistency\n\n\n$19,425 a month goes to reads in[BoulderKV's analysis](https://boulderkv.com/blog/dynamodb-cost-analysis/) , against $3,840 for storage and $972 for writes. Reads are about four-fifths of that bill, so a client with a read-heavy table is where a shared account's cost concentrates.\n\n\nBecause reads round up to 4 KB and writes to 1 KB, **a 4.1 KB item costs two read units** and a 1.1 KB item costs two write units.\n\n\nTransactional reads cost 2 RRU each, double a strongly consistent read, so price any client using transactions at twice the read rate.\n\n\n### DynamoDB index, replica and transfer costs\n\n\nWith three secondary indexes, **a table bills the write four times** , since each base-table write also writes to every index. Global table replication also bills a write in every added region, and AWS charges cross-region transfer on top.\n\n\nData transfer was only $150 a month in the BoulderKV example, which is small beside reads, but it grows with each region you add, so you cannot ignore this line item if you deploy globally.\n\n\nOn a 1 TB table, point-in-time recovery at $0.20 per GB-month adds about $200 a month for restore protection alone, representing $2,400 in annual costs at this table size, a recurring expense you will incur for the lifetime of the table, so you're paying for this protection whether or not you ever need to use it.\n\n\nPut that on the client's line, not the shared overhead.\n\n\n### Throttling, item limits and support tiers\n\n\n**Past 400 KB, an item hits the cap** . Anything larger has to be split or moved to S3, which means extra requests and extra engineering time you should quote for.\n\n\nThrottling does not add a fee, but a throttled provisioned table forces you to raise capacity, and you pay for the new level around the clock.\n\n\nSupport-tier charges are billed at the account level, so in a shared account they land on whoever holds the invoice unless you allocate them.",
+  "published_at": "2026-11-05T09:50:20+00:00",
+  "first_seen_at": "2026-11-05T15:35:26.003846+00:00",
+  "content_hash": "sha256:d61cc8e1aca979073d3ed1f2686fce8f32f391d6007d54e2bf160f33b2bdb4fe"
+}

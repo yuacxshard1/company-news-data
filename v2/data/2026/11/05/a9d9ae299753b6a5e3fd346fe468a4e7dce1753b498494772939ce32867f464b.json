@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a9d9ae299753b6a5e3fd346fe468a4e7dce1753b498494772939ce32867f464b",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-goaccess-module-1-0-1-initial-release/138280",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-goaccess-module-1-0-1-initial-release/138280",
+  "title": "Virtualmin GoAccess module 1.0.1 initial release",
+  "summary": "Howdy, After a good deal of work and testing, I’m happy to announce a new Virtualmin GoAccess module. It is a modern replacement for the AWStats and Webalizer reports, with an interactive, good-looking dashboard that follows your Virtualmin theme in both light and dark modes. What it does: Builds a GoAccess report from each website’s access logs, including rotated and gzip-compressed ones Updates hourly, daily or on demand, with a one-click Update Report button Shows visitors, requested fil...",
+  "body_markdown": "[Ilia](https://forum.virtualmin.com/u/Ilia)\n\n\nNovember 5, 2026, 12:49pm 1\n\n\nHowdy,\n\n\nAfter a good deal of work and testing, I’m happy to announce a new Virtualmin GoAccess module.\n\n\nIt is a modern replacement for the AWStats and Webalizer reports, with an interactive, good-looking dashboard that follows your Virtualmin theme in both light and dark modes.\n\n\nWhat it does:\n\n\n- Builds a GoAccess report from each website’s access logs, including rotated and gzip-compressed ones\n- Updates hourly, daily or on demand, with a one-click Update Report button\n- Shows visitors, requested files, referrers, browsers, status codes and more\n- Lets domain owners view and update their own reports\n- Includes report settings and the last report in Virtualmin backups\n\n\nTo get started, install the plugin from the repository by package name` webmin-virtualmin-goaccess` , enable GoAccess reporting under “System Settings → Features and Plugins”, and then turn it on for a virtual server. The report appears under “Logs and Reports → GoAccess Report”.\n\n\nAll new Virtualmin installations will ship with GoAccess as the default statistics tool in place.\n\n\n[hero-light 1920×1107 377 KB](https://cdn.forum.virtualmin.com/uploads/default/original/3X/0/0/00b11fc27cd50bd36eeecdfb8d3c43a634482f4b.jpeg)\n\n\n[hero-dark 1920×1106 319 KB](https://cdn.forum.virtualmin.com/uploads/default/original/3X/7/d/7dbc5a9ae959b277e66f85231af5bf117635d9fd.jpeg)\n\n\nRequirements are Webmin 2.670 or later, Virtualmin 8.2 or later and GoAccess 1.7 or later.\n\n\nFeedback and bug reports are welcome!\n\n\n3 Likes\n\n\n[Randomz](https://forum.virtualmin.com/u/Randomz)\n\n\nNovember 5, 2026, 1:50pm 2\n\n\nWow! That’s a lot of information!\n\n\nWell done Ilia.\n\n\n[calport](https://forum.virtualmin.com/u/calport)\n\n\nNovember 5, 2026, 2:18pm 3\n\n\nDitto that!",
+  "published_at": "2026-11-05T12:49:05+00:00",
+  "first_seen_at": "2026-11-05T16:03:32.461918+00:00",
+  "content_hash": "sha256:3fb656b5bebcf76ded2ccc3cf38a648ca5e5a14e02e677a2d42949c4c3b6a5ca"
+}

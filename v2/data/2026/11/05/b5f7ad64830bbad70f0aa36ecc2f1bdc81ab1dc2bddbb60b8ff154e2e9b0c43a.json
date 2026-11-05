@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b5f7ad64830bbad70f0aa36ecc2f1bdc81ab1dc2bddbb60b8ff154e2e9b0c43a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-entra-id-pricing-plans-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-entra-id-pricing-plans-and-costs-2026",
+  "title": "Microsoft Entra ID Pricing: Plans and Costs (2026)",
+  "summary": "Microsoft Entra ID pricing tiers are billed per user monthly, and many teams reduce costs by licensing only admins and high-risk roles instead of everyone.",
+  "body_markdown": "## Fix Licence Waste with Activepieces\n\n\nDon't expect Activepieces to cut your Entra bill; it can stop you paying for licences that nobody is using. Once you've picked the plan that covers the features you must enforce, the remaining leak's people: leavers and movers who still hold a paid seat.\n\n\nActivepieces's an automation tool that chains triggers and actions into flows. Its connectors library, where each integration is called a piece, is what makes it usable here.\n\n\nBelow is a searchable grid of several hundred integrations, sorted by popularity, with Webhook, Google Sheets, Gmail and HTTP at the top.\n\n\nThose four are the ones to notice: HTTP lets a flow call the Microsoft Graph API directly, Google Sheets gives you a cheap place to keep an audit log. Gmail sends the review request. You aren't waiting for a dedicated Entra connector to exist.\n\n\nWhat matters is which parts you wire together and how much judgement you leave to a person, because the grid is only a menu of parts.\n\n\n### Scheduled licence-audit workflow\n\n\nEvery week or month, whichever matches how often your team changes, a schedule trigger starts the flow.\n\n\nNext, an HTTP step asks Microsoft Graph for the list of users along with their assigned licences and account status. A filter then keeps only the accounts that are disabled, or that your HR record marks as departed, and still hold a paid SKU.\n\n\nExpect a short list, not a verdict. Write it to a spreadsheet row per account, with the licence name and the date you flagged it.\n\n\nThat dated record's your evidence when someone asks why the seat count dropped, and it shows you which add-on SKUs keep appearing on accounts that should have none.\n\n\n### Joiner and leaver checks with human approval\n\n\nDon't let the flow remove licences on its own. A departed account can belong to a contractor who's returning, or a shared mailbox someone still relies on.\n\n\nTo pause the run until a named person responds, use the approval step that Activepieces supports.\n\n\nRoute the flagged list to the IT owner by email, and only on approval let a follow-up HTTP call strip the licence.\n\n\nThe same pattern covers joiners. When a new starter's added, the flow checks that they received the licence tier their role needs and not a more expensive one by default.\n\n\nYou still choose the plan by the features you must enforce. The workflow only makes sure you pay for the seats that plan actually requires.",
+  "published_at": "2026-11-05T09:00:41+00:00",
+  "first_seen_at": "2026-11-05T15:35:26.003846+00:00",
+  "content_hash": "sha256:a390f66eff9cdd85de9b491d74dae221048bbe0cf237ab57b41f5e7c97a71834"
+}

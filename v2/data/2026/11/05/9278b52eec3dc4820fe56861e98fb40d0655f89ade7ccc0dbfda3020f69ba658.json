@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9278b52eec3dc4820fe56861e98fb40d0655f89ade7ccc0dbfda3020f69ba658",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/originalityai-pricing-plans-and-credit-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/originalityai-pricing-plans-and-credit-costs-2026",
+  "title": "Originality.ai Pricing: Plans and Credit Costs (2026)",
+  "summary": "Originality.ai pricing covers three plans—pay-as-you-go, Pro, and Enterprise.",
+  "body_markdown": "## Automating Originality.AI checks with Activepieces\n\n\nOnce you scan often enough that manual pasting costs more than the setup,[Activepieces](https://www.activepieces.com/pricing) can watch for a new draft, send it to Originality.ai's API, and ask a human to approve the result in Slack.\n\n\nThe flow below shows the path from draft to approval; it also shows that the scan itself still spends Originality.ai credits exactly as a manual one does.\n\n\n### What the workflow does\n\n\nWhen a new or updated Google Docs draft appears, the flow triggers. An HTTP step then posts the text to Originality.ai's API (confirm the endpoint and request format in their API docs before building).\n\n\nA Slack message returns the score with Approve and Review buttons, so an editor decides on flagged items instead of reading every report.\n\n\n**The automation saves clicks, not credits.** Each scan draws from your Originality.ai balance at the same rate as a scan you run by hand.\n\n\nA workflow that scans every revision of a draft will burn through your plan cap faster than a person who scans once at the end. **Trigger on \"ready for review,\" not on every save.**\n\n\nActivepieces has its own meter. On[Activepieces Cloud](https://www.activepieces.com/pricing) , the Free plan ($0) includes 1,000 credits a month, which means developers can experiment without payment. Plus ($20) includes 10,000, and Team ($200) includes 50,000.\n\n\nEach step in a run, trigger included, counts against that allowance, so a four-step flow costs roughly four credits per draft. On Free, that's around 250 drafts a month before the automation itself stops.\n\n\nPlus gives you 2,500, and Team 12,500, which is more than most editorial teams will ever scan.\n\n\nBecause the steps are credit-priced, keep the flow short: one trigger, one HTTP call, one Slack message, no loops.\n\n\n### When Originality.AI automation is not worth building\n\n\nAt low volume, skip it. Someone scanning 20 drafts a month spends maybe an hour on the manual routine. Building, testing and maintaining a flow costs more than that hour saves, and you'll still pay Originality.ai per scan either way.\n\n\nIt starts to earn its place when several people submit drafts, when an approval step is a policy requirement, or when scans run past a few hundred a month.\n\n\nEven then, the Free plan covers the workflow's own cost. Pay for Plus only if you add steps or run more drafts than the Free allowance supports. The Team tier at $200 is hard to justify for this job alone.",
+  "published_at": "2026-11-05T10:04:43+00:00",
+  "first_seen_at": "2026-11-05T15:35:26.003846+00:00",
+  "content_hash": "sha256:76a810a213c16f1f02e32fc10a8371beb4cfe3369adeb19f998e738b8b53a2b0"
+}
