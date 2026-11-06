@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a4ed354fc61be6b1c12967433f51e890cb1eaa709e569ba365c95b77409b301b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-redshift-expands-super-to-16-million-bytes/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-redshift-expands-super-to-16-million-bytes/",
+  "title": "Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
+  "body_markdown": "[Amazon Redshift](https://aws.amazon.com/redshift/) now supports individual strings up to 16 million bytes within[SUPER data types](https://docs.aws.amazon.com/redshift/latest/dg/r_SUPER_type.html) . Once you opt in through a database parameter, this enhancement applies when ingesting structured or semi-structured data from JSON, PARQUET, TEXT, and CSV source files, and when transforming data through extract load and transform (ELT) processes. Previously, individual strings within SUPER data types were limited to 65,535 bytes.\n\n\nStoring large individual strings in the SUPER data type helps avoid complex pre-loading transformations needed to store the source data in Amazon Redshift. You can now directly ingest large individual strings greater than 65,535 bytes without extra processing (for example, lengthy documents like terms and conditions and contracts), making them queryable using SQL. Once the data is in Amazon Redshift, you can use the flexibility of PartiQL language to explore and navigate through the data or use string functions to transform the data. Functions such as[JSON_PARSE](https://docs.aws.amazon.com/redshift/latest/dg/JSON_PARSE.html) ,[CONCAT](https://docs.aws.amazon.com/redshift/latest/dg/r_CONCAT.html) , and[LISTAGG](https://docs.aws.amazon.com/redshift/latest/dg/r_LISTAGG.html) can now take input strings and return output strings up to 16 million bytes in length.\n\n\nThis enhancement is available in all AWS Regions, including the AWS GovCloud (US) Regions, where Amazon Redshift is available. See the[AWS Region Table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) for more details. To learn more, please visit our[documentation](https://docs.aws.amazon.com/redshift/latest/dg/r_enable_large_strings_opt_in.html) or[blog](https://aws.amazon.com/blogs/big-data/store-and-process-large-strings-in-amazon-redshift-super-columns) .",
+  "published_at": "2026-11-06T16:00:00+00:00",
+  "first_seen_at": "2026-11-06T22:50:57.687572+00:00",
+  "content_hash": "sha256:b0e46c331d8997fd2ada1f8b06129d8314442bf3df3d751f8cc82288c0a9bd29"
+}
