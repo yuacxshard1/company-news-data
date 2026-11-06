@@ -77,7 +77,7 @@
       "first_seen_at": "2026-10-07T00:29:49.645978+00:00",
       "published_at": "2026-10-02T12:06:00+00:00",
       "source_kind": "html",
-      "summary": "create a short excerpt Before an AI agent acts on a webhook, two things have to be true: the event is really from the provider, and it belongs to the right customer. This post walks the full chain of checks and compares how Corsair and Zapier handle each.",
+      "summary": "How to verify and route webhooks before an AI agent acts, covering signature verification, payload validation, event filtering, and multi tenant routing, with Corsair and Zapier compared at each step.",
       "title": "Corsair vs Zapier: How to Verify and Route Webhooks Before an AI Agent Acts"
     },
     {
@@ -97,7 +97,7 @@
       "first_seen_at": "2026-10-07T00:29:49.645978+00:00",
       "published_at": "2026-10-02T15:26:00+00:00",
       "source_kind": "html",
-      "summary": "An AI agent updating a CRM record is only half the job. The other half is your dashboard showing that change fast, and telling the truth when it fails. This post follows one update from agent to screen and compares how a trigger based pipeline and a database backed layer handle it.",
+      "summary": "How Corsair and Zapier differ when an AI agent's CRM update has to show in a customer dashboard, comparing persistence, refresh latency, webhook sync, and how each handles pending and failed states.",
       "title": "Corsair vs Zapier: Keeping AI Agent Actions and Customer Dashboards in Sync"
     },
     {
@@ -107,7 +107,7 @@
       "first_seen_at": "2026-10-07T00:29:49.645978+00:00",
       "published_at": "2026-10-03T12:14:00+00:00",
       "source_kind": "html",
-      "summary": "An agent reads a deal, a rep edits it moments later, and the agent saves the old values over the top. Nothing errors, and the rep's change is gone. Here's how to catch that conflict before the write, and where the guard lives in Corsair versus n8n.",
+      "summary": "How to prevent conflicting updates when AI agents and users edit the same CRM record, covering optimistic concurrency, version checks, retry versus merge versus review, and Corsair versus n8n.",
       "title": "Corsair vs n8n: Preventing Conflicting Updates When Agents and Users Edit the Same Record"
     },
     {

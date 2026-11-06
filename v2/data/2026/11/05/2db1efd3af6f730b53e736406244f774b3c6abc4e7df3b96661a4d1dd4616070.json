@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2db1efd3af6f730b53e736406244f774b3c6abc4e7df3b96661a4d1dd4616070",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
+  "title": "Amazon DynamoDB now supports bulk put items",
+  "summary": "Discover more about what's new at AWS with Amazon DynamoDB now supports bulk put items",
+  "body_markdown": "Today, AWS announces the general availability of bulk put items for Amazon DynamoDB, a fully managed feature that writes data from Amazon S3 into your existing DynamoDB tables. Many DynamoDB applications use data that other systems produce and store in Amazon S3. Writing this data into existing DynamoDB tables has typically meant building custom pipelines and managing table capacity. With bulk put items, developers and data engineers can write this data without impacting existing workloads or building a custom ingestion pipeline, in a cost-efficient way.\n\n\nYou point bulk put items at the S3 location of your input files, and DynamoDB handles the rest. Each item supports its own condition expression, so you can enforce insert-only or version-guarded writes. The Standard tier fits most workloads, and the Accelerated tier is for more time-sensitive workloads. Common use cases include daily refreshes, large catalog enrichments, backfills, and migrations.\n\n\nBulk put items with Standard tier is available in all commercial AWS Regions and the AWS GovCloud (US) Regions, to see the list where the Accelerated tier is available see the[regional availability.](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/BulkPutItems.Tiers.html#BulkPutItems.Tiers.Accelerated) To learn more, visit the[Introducing bulk put items for Amazon DynamoDB](https://aws.amazon.com/blogs/database/introducing-bulk-put-items-for-amazon-dynamodb-load-data-from-amazon-s3-into-existing-tables-at-scale/) blog and the[Amazon DynamoDB Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/BulkPutItems.HowItWorks.html) .",
+  "published_at": "2026-11-05T18:00:00+00:00",
+  "first_seen_at": "2026-11-06T01:09:10.872051+00:00",
+  "content_hash": "sha256:bf7484a6a09cbc893ebdc3d3b0aa76583b8599a72c9581b8846dc8deaa6d237c"
+}

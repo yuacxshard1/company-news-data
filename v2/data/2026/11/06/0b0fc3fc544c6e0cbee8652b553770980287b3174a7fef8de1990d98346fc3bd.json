@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b0fc3fc544c6e0cbee8652b553770980287b3174a7fef8de1990d98346fc3bd",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/cloudwatch-pricing-logs-metrics-and-alarms-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/cloudwatch-pricing-logs-metrics-and-alarms-in-2026",
+  "title": "CloudWatch Pricing: Logs, Metrics and Alarms in 2026",
+  "summary": "CloudWatch pricing charges per unit above a free allowance. Log ingestion and custom metrics, not dashboards, determine what a small team pays.",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce an alert has an owner and an approver, the remaining questions are mostly about who pays for what.\n\n\n### Is CloudWatch free for small projects?\n\n\nPartly. CloudWatch includes free allowances on several meters, such as metrics, alarms, dashboards and log ingestion, but each allowance is separate and none covers the whole service.\n\n\nA small project stays free only while every meter stays inside its own allowance, and log ingestion's usually the first to leave it.\n\n\nConfirm the terms that apply to your account on the vendor's pricing page before relying on the allowance in a budget.\n\n\n### Does CloudWatch charge for alarms that never fire?\n\n\nYes. An alarm's billed for existing, not for firing, so a silent alarm costs the same as a noisy one.\n\n\nAlarm type also matters: composite alarms and alarms built on metric math are priced differently from a plain alarm on one metric. Review the alarm list on a schedule and retire any that no longer has a named owner.\n\n\n### How do I see which log group costs the most?\n\n\n$17 is what the alarms and dashboards that most budgets itemise come to together, about 12% of the baseline, so eliminating them would reduce your bill by only $17 monthly.\n\n\nCloudWatch publishes an ingestion metric for each log group, which shows which groups receive the most data. Cost Explorer, filtered by usage type, shows what that volume cost.\n\n\nCompare the two, and keep a note of the comparison for audit. Running Logs Insights queries to investigate is itself billed by data scanned, so narrow the time range first.\n\n\nWhen a bill comes in higher than expected, it most often traces to log ingestion or custom metrics, not dashboards or alarms.\n\n\nCloudWatch bills verbose application logging by volume received, and a custom metric with many dimension combinations as many separate metrics. A single debug setting left on in production, or a user identifier added as a dimension, can therefore change the invoice without anyone approving it.\n\n\nPrice the workload in the region where it will actually run, because rates differ between regions. Take the figures from that region's entry on the pricing page, not from a figure quoted for another region.",
+  "published_at": "2026-11-06T00:01:57+00:00",
+  "first_seen_at": "2026-11-06T01:07:44.564432+00:00",
+  "content_hash": "sha256:7a97a10af17655623a6d68fabaa4db0c4f8c8af2a40e3299d606d12e286e6916"
+}

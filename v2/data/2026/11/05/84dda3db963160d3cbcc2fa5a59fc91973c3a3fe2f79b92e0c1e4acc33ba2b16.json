@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "84dda3db963160d3cbcc2fa5a59fc91973c3a3fe2f79b92e0c1e4acc33ba2b16",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
+  "title": "Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
+  "summary": "Discover more about what's new at AWS with Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
+  "body_markdown": "[Amazon FSx for Lustre](https://aws.amazon.com/fsx/lustre/) now supports up to 192,000 metadata I/O operations per second (IOPS) on file systems that use the Intelligent-Tiering storage class, 16x higher than the previous maximum of 12,000 IOPS.\n\n\nThe FSx for Lustre Intelligent-Tiering storage class delivers the lowest-cost and only fully elastic Lustre file storage in the cloud. It is optimized for workloads that mix hot and cold data and do not require consistent SSD-level performance. A file system's metadata IOPS determine how many files and directories you can create, list, read, and delete per second. Today's launch allows you to scale to even higher levels of performance, accelerate time-to-results, and optimize your storage costs for metadata-intensive machine learning research and high-performance computing (HPC) workloads.\n\n\nHigher metadata IOPS are available on new FSx for Lustre Intelligent-Tiering file systems in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where the Intelligent-Tiering storage class is available. For more information about the file system metadata performance, see the Amazon FSx for Lustre[User Guide](https://docs.aws.amazon.com/fsx/latest/LustreGuide/performance.html#dne-metadata-performance) .",
+  "published_at": "2026-11-05T15:39:00+00:00",
+  "first_seen_at": "2026-11-06T01:09:10.872051+00:00",
+  "content_hash": "sha256:51441c623cd3cf37c3a27e176b9814294294b2eff3a339f0b45242c42a32fb56"
+}

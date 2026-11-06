@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6624785ce306af6916c03d2665bafdd51d3accc5b9166503bf5599b7ae26eb0f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/digitalocean-pricing-plans-and-real-costs-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/digitalocean-pricing-plans-and-real-costs-in-2026",
+  "title": "DigitalOcean Pricing: Plans and Real Costs in 2026",
+  "summary": "DigitalOcean pricing depends on which services you add. See which plan and services work for your specific usage needs.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Does DigitalOcean offer a free tier or trial credit?\n\n\nNo free Droplet is permanent, though new accounts have often been offered a promotional trial credit. The offer changes, so check the signup page for what applies on the day you register.\n\n\nTreat any credit as a way to test your stack, not as a budget. Once it's spent or expires, the Droplet, database, and backups you leave running keep billing.\n\n\n### Is DigitalOcean billed hourly or monthly?\n\n\nShort experiments are cheap, because Droplets are billed per second with a 60-second minimum.\n\n\nA Droplet that runs all month costs the listed monthly rate, and one you destroy after an afternoon costs only the hours it ran.\n\n\nOne catch: a powered-off Droplet still holds its disk and IP, so it keeps billing until you destroy it. Powering off isn't the same as deleting.\n\n\n### Can I resize or downgrade a Droplet to cut costs?\n\n\nResizing up is easy, but downgrading depends on what you change. In the Droplet's Resize screen you can pick a \"CPU and RAM only\" option, which leaves the disk alone and lets you go back down later.\n\n\nGrow the disk too and that change is permanent, so you can't return to a smaller plan. If you're unsure of your load, grow CPU and RAM first and leave the disk where it is. That keeps the downgrade path open.\n\n\n### Does DigitalOcean charge for inbound traffic?\n\n\nNo. Inbound traffic to a Droplet isn't billed. What counts is outbound transfer, and each Droplet comes with an allowance that is pooled across your account. Overage on outbound traffic is charged per unit.\n\n\nFor a typical small site that serves pages and receives uploads, the allowance is rarely the issue.\n\n\nIt becomes a real line item when you serve large files, video, or downloads, so check your outbound usage before you add a load balancer or a second region that multiplies it.\n\n\n### How do I set a billing alert on DigitalOcean?\n\n\nOpen the Billing section of the control panel and look for the billing alerts setting. Enter a dollar threshold and the email address that should receive the notice.\n\n\nSet it a little above your expected monthly bill rather than at it. An alert set exactly at your normal spend fires every month, and you'll soon stop reading it.\n\n\nSet a little higher, it fires when something unexpected is running, such as a forgotten snapshot or a managed database you meant to remove.",
+  "published_at": "2026-11-05T22:59:32+00:00",
+  "first_seen_at": "2026-11-03T12:52:57.822665+00:00",
+  "content_hash": "sha256:cd438b75a9837d0360a19901e1d07789118e4df8b6dcaa70d7873de2484a470e"
+}

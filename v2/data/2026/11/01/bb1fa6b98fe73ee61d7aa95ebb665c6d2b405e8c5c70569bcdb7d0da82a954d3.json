@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bb1fa6b98fe73ee61d7aa95ebb665c6d2b405e8c5c70569bcdb7d0da82a954d3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
+  "title": "Amazon OpenSearch Service optimized engine now supports agent traces",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Service optimized engine now supports agent traces",
+  "body_markdown": "Today, the Amazon OpenSearch Service optimized engine adds support for agent traces, including OpenTelemetry traces. Your traces and logs now live in the same place. You can follow a request or an agent session from start to finish, find the step that failed or slowed down, and check the related logs without switching tools.\n\n\nThe optimized engine maps OpenTelemetry logs and traces to object, nested, and flat object fields, with support for multi-valued arrays. Span events, span links, prompts, and tool calls retain their nested structure, allowing field-level queries without flattening data during ingestion.\n\n\nOn hot-tier data, the engine supports update, delete, and upsert operations by document ID. When data arrives late or with errors, you can correct it in place, so your dashboards and alerts work from accurate data. In OpenSearch UI, you can analyze this data with Discover Traces, application performance monitoring, the service map, and the agent traces and sessions views.\n\n\nThese features are available on OpenSearch 3.7, at no additional charge in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Canada (Central), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Frankfurt), Europe (Ireland), Europe (London), and Europe (Spain). To get started, send OpenTelemetry data to your domain, for example by using Amazon OpenSearch Ingestion. To learn more, see the[documentation](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/optimized-log-analytics.html) .",
+  "published_at": "2026-11-01T17:00:00+00:00",
+  "first_seen_at": "2026-11-06T01:09:10.872051+00:00",
+  "content_hash": "sha256:e669453a4737268d553262fcbc8570f2a4996961161ce05002a37e964c694892"
+}

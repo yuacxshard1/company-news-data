@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "897c7edb65d3c5d75f6846d9d8a24c7cfffad43251eddec1fad8478971550ded",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+  "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub now provides an SBOM inventory for your compute resources",
+  "body_markdown": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software packages and applications installed on their compute resources.\n\n\nSecurity Hub builds the inventory from the SBOMs that Amazon Inspector generates for Amazon EC2 instances, Amazon ECR container images, and AWS Lambda functions, with no additional configuration. The SBOM page lists each package with its version, type, and the number of resources where it is installed. You can filter and group the list by package attributes, account, and region. On the resource detail page, the Installed software tab lists every package on that resource, so you can judge its function and criticality while triaging any finding. You can also query the inventory through the Security Hub API.\n\n\nThe SBOM inventory is included with Security Hub Essentials at no additional cost. It requires no new enablement and populates automatically where Amazon Inspector is enabled. It is available in all AWS Regions where Security Hub is available. To learn more, see the[AWS Security Hub User Guide](https://docs.aws.amazon.com/securityhub/latest/userguide/) and the[AWS Security Hub product page](https://aws.amazon.com/security-hub/) .",
+  "published_at": "2026-11-06T00:30:00+00:00",
+  "first_seen_at": "2026-11-06T01:09:10.872051+00:00",
+  "content_hash": "sha256:5e1a19d5bd47ae15556dbe40c22d09a9b4bc78e2ce40149c02fc5bffbe0c20a2"
+}

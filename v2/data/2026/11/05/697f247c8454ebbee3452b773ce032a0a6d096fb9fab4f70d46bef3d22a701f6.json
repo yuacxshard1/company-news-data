@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "697f247c8454ebbee3452b773ce032a0a6d096fb9fab4f70d46bef3d22a701f6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-kerberos-self-managed-ad/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-kerberos-self-managed-ad/",
+  "title": "Amazon RDS for Oracle now supports Kerberos authentication with self-managed Active Directory",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Oracle now supports Kerberos authentication with self-managed Active Directory",
+  "body_markdown": "Amazon Relational Database Service (Amazon RDS) for Oracle ([Amazon Relational Database Service (Amazon RDS) for Oracle](https://aws.amazon.com/rds/oracle/) ) now allows customers to join their RDS for Oracle DB instances directly to their self-managed Microsoft Active Directory (AD) domain. Your self-managed AD can run on premises, on Amazon EC2, or with another cloud provider. Users in your AD domain can authenticate to RDS for Oracle DB instances using Kerberos.\n\n\nPreviously, in order to use Kerberos authentication with self-managed AD for their RDS for Oracle instances, customers were required to deploy AWS Managed Microsoft AD and establish trust between AWS managed domain and self-managed domain. Now, customers can join their existing self-managed AD directly to authenticate and authorize users without setting up an additional directory or trust relationship. You can set this up using the AWS Management Console, AWS CLI, or AWS SDK. You can use self-managed AD without any additional charge.\n\n\nKerberos authentication with self-managed Active Directory in Amazon RDS for Oracle is available in[all commercial AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon RDS for Oracle is available. To learn more about Kerberos authentication with self-managed Active Directory, visit[Working with self-managed Active Directory with an Amazon RDS for Oracle DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/oracle-smad.html) in the Amazon RDS User Guide.",
+  "published_at": "2026-11-05T10:30:00+00:00",
+  "first_seen_at": "2026-11-06T01:09:10.872051+00:00",
+  "content_hash": "sha256:0bc28895d542898db1328520f472e443563ad203cfde674db9a9e13269c9f83e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "59fed39152593cb8ddb3329234c06950ef6345f0e988169cfd62297453f9fc70",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-network-scanning-govcloud/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-network-scanning-govcloud/",
+  "title": "AWS Security Hub Network Scanning now available in AWS GovCloud (US)",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub Network Scanning now available in AWS GovCloud (US)",
+  "body_markdown": "AWS Security Hub Network Scanning feature is now supported in AWS GovCloud (US).\n\n\nNetwork Scanning probes your resources from the internet to detect actual reachability, not just what could be reachable based on security group rules and route tables. It discovers public IP addresses, virtual machines, and load balancers across your AWS environments, identifies reachable ports, and determines what services are running behind them. This complements Security Hub's existing network reachability findings, which identify configurations that could make a resource reachable from the internet. Network Scanning confirms that configurations do exist which make a resource reachable from the internet. Each reachable port generates a Security Hub finding with evidence of the port and service discovered. Security Hub Exposures then automatically correlates these findings with other findings and resource configurations to determine broader risk.\n\n\nExisting customers can enable Network Scanning in individual accounts and regions, or across an organization via a configuration policy. For new Security Hub customers, Network Scanning is on by default. Network Scanning is included with Security Hub Essentials at no additional cost in all AWS commercial and GovCloud (US) Regions that support Security Hub. To learn more, see the[AWS Security Hub User Guide](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-v2-network-scanning.html) and the[AWS Security Hub product page](https://aws.amazon.com/security-hub/) . For the full list of Regions, see the[AWS Regional Services List](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .",
+  "published_at": "2026-11-05T09:00:00+00:00",
+  "first_seen_at": "2026-11-06T01:09:10.872051+00:00",
+  "content_hash": "sha256:e3a49b04f9b4ef9ded3868313c41aca00e71c08eb9540e8d740da5a72a6bd771"
+}
