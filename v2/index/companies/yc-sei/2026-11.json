@@ -1,0 +1,56 @@
+{
+  "articles": [
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "2341d7f25d2796bccfe1b69c3bd7fe1eda60e9c0ee74b92ad80a4171334a00fc",
+      "first_seen_at": "2026-11-06T07:44:43.224839+00:00",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Title and hazard insurance arrive from third parties, late in the process, and get a glance because someone else is responsible for them. Then the vesting does not match the note, the mortgagee clause names the wrong entity, or the deductible exceeds the investor limit, and the defect is found after funding. A technical account of the cross-document checks our pre-close QC agent runs on these two documents, the Fannie Mae B7-2 and B7-3 rules behind them, and where the TRID and fraud checks meet them.",
+      "title": "The Title Commitment and the Insurance Declaration: What Pre-Close QC Has to Check Against the Rest of the File"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "839ecdda594a67235fd5ce8e05fba99be3d6fa93597039db2b258fc62ca8b35e",
+      "first_seen_at": "2026-11-06T07:44:43.224839+00:00",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Mortgage operations already run on maker-checker: the underwriter decides, QC re-checks, a manager signs the exception. An AI agent that writes to the system of record should be held to the same separation, and a single model with a self-reported confidence score is not that. A technical account of how our three verification layers are built, what the checker is and is not allowed to see, why disagreements are never settled by a vote, and how the auto-clear threshold gets set.",
+      "title": "Maker, Checker, Threshold: Why a Mortgage AI Agent Gets Three Independent Chances to Say No Before It Writes to the LOS"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "b9f3617b709e0c43c90da88d92536a96045d04a5a2448664600091a9de0da8a8",
+      "first_seen_at": "2026-11-06T07:44:43.224839+00:00",
+      "published_at": "2026-11-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "By the time a defaulted loan reaches the claim, every mistake made since the first missed payment shows up as a number someone deducts. A claim package is hundreds of pages of servicing history, invoices and legal fees that have to agree with each other, and FHA's curtailment rules punish the dates that do not. What we learned running a claims agent in production for a post-default claims outsourcer, where it helps, and why a specialist still files.",
+      "title": "Curtailment Is Written Against Dates: Preparing FHA and Mortgage Insurance Claims With an AI Agent in Post-Default Servicing"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "c7168e58e33baece0d34fd55000a6dd683e3ebb3c69b4ae36980e8b6127a74f7",
+      "first_seen_at": "2026-11-06T07:44:43.224839+00:00",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Calling a web lead back in under a minute is the easy part. Doing it inside federal and state calling hours, on consent you can prove, without the agent drifting into loan-originator activity or qualifying the 9pm lead differently from the 9am one, is where speed-to-lead programs get into trouble. What we learned putting a voice agent on both ends of a top-25 IMB's funnel, including the 9.2x jump in booked appointments and what it did to the loan officers' calendars.",
+      "title": "The Mortgage Lead That Arrives at 9pm on a Sunday: Speed-to-Lead With an AI Voice Agent, and the Lines It Does Not Cross"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "e073b46a379c0384d1ecf05ef5f762d8781ecc57b17e29ef78ba934f4e797680",
+      "first_seen_at": "2026-11-06T07:44:43.224839+00:00",
+      "published_at": "2026-11-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "SAVE is gone, RAP has a $10 floor, and millions of credit reports still show a student loan payment that no longer exists. A technical account of how an underwriting agent reconciles every liability across the 1003, the tri-merge and the documents, why the same borrower carries a different DTI under Fannie Mae, Freddie Mac and FHA, and why we let the agent add a debt on its own but never remove one.",
+      "title": "The Student Loan Payment on the Credit Report Is Probably Stale: Liabilities, DTI and What an Underwriting Agent Has to Reconcile After SAVE"
+    }
+  ],
+  "company_key": "yc-sei",
+  "month": "2026-11"
+}
