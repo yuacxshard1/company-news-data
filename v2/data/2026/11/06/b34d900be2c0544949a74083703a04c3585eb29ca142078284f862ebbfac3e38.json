@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b34d900be2c0544949a74083703a04c3585eb29ca142078284f862ebbfac3e38",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/mcp-inspector-1-0-4-2-14-0-pattern-validation-split",
+  "canonical_url": "https://opentools.ai/news/mcp-inspector-1-0-4-2-14-0-pattern-validation-split",
+  "title": "MCP Inspector’s pattern checks diverge",
+  "summary": "The v1 security backport drops pattern evaluation, not every schema constraint.",
+  "body_markdown": "Source: OpenTools Team · Original comparison. Facts: MCP Inspector releases.\n\n\n·\n\n\n[Source image](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-66ca769f147f738915f3b455515c310ba7ea4d9016a895f695c45c07c4a28d67/editorialhero)\n\n\n# MCP Inspector’s pattern checks diverge\n\n\nBy OpenTools Team\n\n\n·\n\n\nNovember 6, 2026\n\n\nv1.0.4 skips patterns; v2.14.0 limits evaluation.\n\n\n##\n\n\nThe v1 backport skips patterns\n\n\nThe[1.0.4 security release](https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.4) for the deprecated v1 branch strips server‑supplied patterns before validating tool‑output and elicitation schemas, including patterns reached through` $ref` . Other constraints apply when validation runs. A value that violates a server’s pattern can therefore be accepted, with a skipped‑check note.\n\n\nIf a schema cannot be transformed safely, such as one declaring` $id` or anchors, the result is not validated. Read that qualifier before treating the result as a contract test.\n\n\n##\n\n\nv2 can leave patterns unverified\n\n\nFor tool‑output and app‑elicitation schemas,[2.14.0](https://github.com/modelcontextprotocol/inspector/releases/tag/2.14.0) uses a linear‑time matcher with per‑pattern and per‑schema limits. Patterns beyond those bounds are marked unverified and are not evaluated.\n\n\nBoth address **GHSA‑2fw8‑7jmw‑r937** . Skipped or unverified is not evidence of a pattern match. We did not test these implementations.\n\n\nOriginal graphic: OpenTools Team. Pattern‑evaluation modes from the linked release notes; not a test result.\n\n\n## Sources\n\n\n1. 1.\n\n\n[github.com](https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.4) (github.com)\n\n\n2. 2.\n\n\n[github.com](https://github.com/modelcontextprotocol/inspector/releases/tag/2.14.0) (github.com)\n\n\n## Tags\n\n\nMCP\n\n\n[Developer tools](https://opentools.ai/news/tags/developer-tools)",
+  "published_at": "2026-11-06T03:53:12.936+00:00",
+  "first_seen_at": "2026-11-06T10:08:36.093816+00:00",
+  "content_hash": "sha256:577e59e727a83d074ebdb8bb2ac8c3cf2472292c960aa97342415935039b473d"
+}

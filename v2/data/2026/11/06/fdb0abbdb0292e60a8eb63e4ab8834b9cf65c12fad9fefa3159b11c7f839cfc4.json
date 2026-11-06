@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fdb0abbdb0292e60a8eb63e4ab8834b9cf65c12fad9fefa3159b11c7f839cfc4",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/falcon-shield-lovable-scan-coverage-secret-row-project-findings",
+  "canonical_url": "https://opentools.ai/news/falcon-shield-lovable-scan-coverage-secret-row-project-findings",
+  "title": "Falcon Shield adds Lovable visibility",
+  "summary": "The integration uses workspace data and existing Security Center results.",
+  "body_markdown": "Source: OpenTools Team · Original field-scope diagram. Facts: Lovable docs.\n\n\n·\n\n\n[Source image](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-46678f7d0c927f4414684bc2fe74867ae2913af1cc2fffc0304a40c842e45ed5/editorialhero)\n\n\n# Falcon Shield adds Lovable visibility\n\n\nBy OpenTools Team\n\n\n·\n\n\nNovember 6, 2026\n\n\nExisting scans and secret inventories need different interpretations.\n\n\n##\n\n\nThe new feed\n\n\nCrowdStrike and Lovable’s[November 3 announcement](https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-and-lovable-secure-next-generation-ai-built/) brings Lovable workspaces into Falcon Shield using workspace data and existing Security Center results. It covers public applications and privately published projects shared with external viewers, projects storing secrets, scan gaps and access risks. This announced data flow is not evidence that each app received a new scan.\n\n\n##\n\n\nTwo unresolved questions\n\n\nLovable’s[source documentation](https://docs.lovable.dev/features/security-center) says the Security center shows latest scan results, flags missing or outdated scans, and lists secret names without values. Findings beside a secret belong to its project, not that individual credential.\n\n\nConsider a secret row with a warning while Code analysis shows a scan older than the last edit. The row does not attribute that warning to the named key; the old scan does not establish current coverage. Review the project finding and its scan evidence before calling this a credential‑exposure incident. That is a triage inference, not a scan we ran.\n\n\n##\n\n\nCheck at the source\n\n\nLovable directs individual findings and fixes to Project security. Its workspace view is for Business/Enterprise admins and owners. Those are Lovable’s documented access limits, not verified Falcon entitlement or field‑mapping rules. We have not tested the integration’s refresh interval or independent scanning capabilities.\n\n\nOriginal graphic: OpenTools Team; field‑scope facts from the linked Lovable documentation.\n\n\n## Sources\n\n\n1. 1.\n\n\n[ir.crowdstrike.com](https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-and-lovable-secure-next-generation-ai-built/) (ir.crowdstrike.com)\n\n\n2. 2.\n\n\n[docs.lovable.dev](https://docs.lovable.dev/features/security-center) (docs.lovable.dev)\n\n\n## Tags\n\n\n[AI development](https://opentools.ai/news/tags/ai-development)[Security](https://opentools.ai/news/tags/security)",
+  "published_at": "2026-11-06T05:05:53.071+00:00",
+  "first_seen_at": "2026-11-06T10:08:36.093816+00:00",
+  "content_hash": "sha256:152b28b7ce74d0059a7c85f1f185d782f814346c5d86ee6548ae11c4875bbb45"
+}

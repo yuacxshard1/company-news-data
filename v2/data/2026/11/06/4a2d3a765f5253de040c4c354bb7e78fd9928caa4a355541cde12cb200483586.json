@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4a2d3a765f5253de040c4c354bb7e78fd9928caa4a355541cde12cb200483586",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/workflow-atomic-start-hook-lifetime-tool-retries",
+  "canonical_url": "https://opentools.ai/news/workflow-atomic-start-hook-lifetime-tool-retries",
+  "title": "Workflow adds atomic starts",
+  "summary": "One admitted AI agent can still retry a tool execution.",
+  "body_markdown": "Source: OpenTools Team · Original lifecycle diagram. Facts: Workflow SDK docs.\n\n\n·\n\n\n[Source image](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-fbf5acd9338ac014197863563cb2d6c8c9cc5ff1b061565fba26d2a7b8498174/editorialhero)\n\n\n# Workflow adds atomic starts\n\n\nBy OpenTools Team\n\n\n·\n\n\nNovember 6, 2026\n\n\nRun admission and tool retries protect different identities.\n\n\n##\n\n\nAdmission\n\n\nVercel’s November 4[release](https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk) adds atomic run admission with a hook token in Workflow 5.4.0. A duplicate start is rejected before it becomes another run, closing the gap between a separate lookup and start. That does not permanently reserve an agent‑session key.\n\n\n##\n\n\nOwnership\n\n\nThe[contract](https://useworkflow.dev/docs/foundations/idempotency) releases a key at run end unless retention remains; a retention duration starts at admission. Explicit hook disposal, including an inner` using` scope ending, releases it earlier—even during execution—and defeats post‑run retention. Use` const` and keep the hook open through the work it must exclude.\n\n\n##\n\n\nTool effects\n\n\nWorkflow’s[durable‑agent guide](https://useworkflow.dev/docs/ai) makes tools retryable. The[step contract](https://useworkflow.dev/docs/foundations/idempotency) keeps an invocation’s` stepId` stable across retries, but unique per step.\n\n\nFor an early‑released chat key, a second run’s equivalent tool action is another invocation with another step key. Retry stability therefore does not deduplicate that business action across runs. Define which operation must be unique and check the receiving API’s matching‑key contract. This is design analysis, not an execution test.\n\n\nAtomic starts require compatible backend support; Postgres needs migration` 0028_add_start_hook_admissions` and older workers stopped.\n\n\nOriginal graphic: OpenTools Team; lifecycle facts from the linked SDK documentation.\n\n\n## Sources\n\n\n1. 1.\n\n\n[vercel.com](https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk) (vercel.com)\n\n\n2. 2.\n\n\n[useworkflow.dev](https://useworkflow.dev/docs/foundations/idempotency) (useworkflow.dev)\n\n\n3. 3.\n\n\n[useworkflow.dev](https://useworkflow.dev/docs/ai) (useworkflow.dev)\n\n\n## Tags\n\n\n[AI agents](https://opentools.ai/news/tags/ai-agents)[Developer tools](https://opentools.ai/news/tags/developer-tools)",
+  "published_at": "2026-11-06T04:26:47.455+00:00",
+  "first_seen_at": "2026-11-06T10:08:36.093816+00:00",
+  "content_hash": "sha256:62a9c05be407c722e98393f580875df25c12c0ff7cf09a9c8a0cda7850d4893d"
+}
