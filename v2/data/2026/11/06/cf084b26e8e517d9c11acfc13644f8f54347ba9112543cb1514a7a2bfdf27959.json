@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cf084b26e8e517d9c11acfc13644f8f54347ba9112543cb1514a7a2bfdf27959",
+  "company_key": "yc-gauge",
+  "company_name": "Gauge",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.withgauge.com/blog/launch-week-github-pr-checks/",
+  "canonical_url": "https://www.withgauge.com/blog/launch-week-github-pr-checks/",
+  "title": "Gauge PR Checks for GitHub",
+  "summary": "The Gauge GitHub App runs agent acceptance tests on every pull request. See whether your docs, CLI, SDK, or Skill changes still work for coding agents before you merge.",
+  "body_markdown": "Today we're launching Gauge PR checks for GitHub. The Gauge GitHub App runs agent acceptance tests on every pull request, using your actual pre-release changes.\n\n\n## Why we built this\n\n\nDeveloper tools are now used primarily by agents. A developer asks Claude Code or Codex to add auth, deploy an app, or call an API. The agent reads your docs, runs your CLI, and writes the integration. Often, the developer never opens your docs at all.\n\n\nThat changes what it means to ship a working change. For coding agents, subtle changes in your docs, Skills, or CLI can mean the difference between an onboarded user and a silent drop-off.\n\n\nWe already treat tests, type checks, and linting as table stakes for every pull request. Agent acceptance tests belong in the same list, and they should run in the same place.\n\n\n## How it works\n\n\n1. **Define your tests in your repository.**` gauge.json` declares what the agent gets from the PR, and each case in` gauge-cases/` is a Markdown file with a task and the criteria for success.\n2. **Open a PR.** Gauge waits for your existing build or preview, gives the agent the PR's version of your product, and runs the cases. When the agent requests your normal docs URL or runs your CLI, it gets the PR's version.\n3. **Review the check.** The **Gauge evaluations** check reports pass or fail, with links to every session and an explanation for each failed criterion.\n\n\n## What you can test\n\n\nInput Where Gauge gets it\n\n\nSkills The PR's commit or a CI artifact\n\n\nDocs Your PR's preview deployment\n\n\nnpm packages and SDKs The package your CI workflow builds\n\n\nNative CLIs The executable your CI workflow builds\n\n\nOther files The PR's commit or a CI artifact\n\n\nYou can also add Agent Preference cases. Give the agent an open-ended task, like \"add sign-in to this app,\" and the check reports which product it chose.\n\n\n## Get started\n\n\nInstall the GitHub App under **Settings → GitHub** in Gauge Agents. Then install the Gauge CLI and Skill, and ask your coding agent to set up PR checks for your repository:\n\n\n```text\nnpm install -g @withgauge/cli\ngauge install-skill\n\n\n```\n\n\nFor configuration options, see[GitHub PR Checks](https://docs.withgauge.com/agents/guides/github-pr-checks) . Not on GitHub?[Run the same cases from your own CI](https://docs.withgauge.com/agents/guides/cli#run-from-your-own-ci-or-local-build) .\n\n\nThis post is part of[Gauge Launch Week](https://www.withgauge.com/blog/gauge-launch-week) .",
+  "published_at": "2026-11-06T00:00:00+00:00",
+  "first_seen_at": "2026-11-06T16:35:32.416883+00:00",
+  "content_hash": "sha256:f43701452c41bc222609565f15af8f121312213c0ef8650d46c1b5f4dbb1df5e"
+}

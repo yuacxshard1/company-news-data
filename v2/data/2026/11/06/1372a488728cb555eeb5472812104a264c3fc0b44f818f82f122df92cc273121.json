@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1372a488728cb555eeb5472812104a264c3fc0b44f818f82f122df92cc273121",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-vended-credentials-iceberg/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-vended-credentials-iceberg/",
+  "title": "AWS Glue Data Catalog now supports catalog-vended credentials with Apache Iceberg REST catalog federation",
+  "summary": "Discover more about what's new at AWS with AWS Glue Data Catalog now supports catalog-vended credentials with Apache Iceberg REST catalog federation",
+  "body_markdown": "AWS Glue Data Catalog now supports external catalog's vended credentials in Apache Iceberg REST catalog federation. You can now read external Iceberg tables from Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue using coarse-grained table grants in your external Iceberg catalog.\n\n\nGlue Data Catalog already federates to external Iceberg REST catalogs through an AWS IAM role that you configure with access to your Amazon S3 buckets. This enhancement in Glue Data Catalog provides another way to connect to an external Iceberg catalog and read only the tables that the external catalog authorizes. It uses temporary security credentials that are scoped to the Amazon S3 storage prefix and vended by your external Iceberg catalog. AWS Lake Formation manages access control when you query an external table using any AWS analytics engine, letting you restrict access further down to specific rows and columns and share external Iceberg tables across AWS accounts.\n\n\nThis feature is available through the AWS Lake Formation Management Console, AWS CLI, and the AWS Glue and Lake Formation SDKs. This feature is available in all commercial AWS Regions where Glue and Lake Formation are supported. To learn more, visit the[documentation](https://docs.aws.amazon.com/lake-formation/latest/dg/catalog-federation.html) .",
+  "published_at": "2026-11-06T08:00:00+00:00",
+  "first_seen_at": "2026-11-06T18:46:35.811607+00:00",
+  "content_hash": "sha256:e10b16898de7d66be7277e2cae1eab3f12f24af5f339aef73bcd55f5a2df2ae5"
+}

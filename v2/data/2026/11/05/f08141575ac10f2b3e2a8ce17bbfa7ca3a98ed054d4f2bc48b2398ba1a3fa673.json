@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f08141575ac10f2b3e2a8ce17bbfa7ca3a98ed054d4f2bc48b2398ba1a3fa673",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/whatsapp-broadcasts",
+  "canonical_url": "https://bird.com/changelog/whatsapp-broadcasts",
+  "title": "Send WhatsApp broadcasts from the dashboard, CLI and MCP",
+  "summary": "Send one approved WhatsApp template to a whole audience, with a cost estimate, a test send and per-recipient delivery tracking.",
+  "body_markdown": "You can now send one approved WhatsApp template to an audience from one of your numbers. Open **WhatsApp** > **Broadcasts** in the dashboard, or use the` bird whatsapp broadcasts` commands and the matching MCP tools.\n\n\n- **Each recipient gets their own language.** Leave the language on **Auto** and each recipient gets the one for their phone number's country, or the template's default when the template allows it.\n- **Check before you send.** Review lists every problem at once, including an audience over your number's daily messaging limit. Marketing templates show a cost estimate before sending.\n- **Try it on one number.** Preview the message for a contact, then send that exact message to one number.\n- **Follow every recipient.** Track sent, delivered, read and failed counts, see why a message failed, and open the broadcast's messages in the message log.\n\n\nTemplates can also fill their values from Liquid parameter bindings, and most templates can now be filled by name with` template.parameters` .\n\n\n[Send a WhatsApp broadcast](https://bird.com/docs/guides/whatsapp/broadcasts) in the dashboard. On the CLI, start with[bird whatsapp broadcasts create](https://bird.com/docs/cli/reference/whatsapp-broadcasts-create) .\n\n\n## Related resources\n\n\nContinue with the documentation, guides and examples for this topic.\n\n\n[Explore the capability WhatsApp](https://bird.com/whatsapp-api)[Implementation guide Sending WhatsApp messages](https://bird.com/docs/guides/whatsapp/sending-whatsapp)[Watch the guide Connecting WhatsApp to Bird: from buying a number to a live channel](https://bird.com/learn/whatsapp/connecting-whatsapp-to-bird)[Use the tool WhatsApp message builder](https://bird.com/tools/whatsapp-message-builder)\n\n\n[Try the practice and get an implementation brief](https://bird.com/learn/workspace?topic=whatsapp)",
+  "published_at": "2026-11-05T00:00:00+00:00",
+  "first_seen_at": "2026-11-06T17:08:10.131008+00:00",
+  "content_hash": "sha256:64a423b1a72cccd25f01ddf6c2a01976998a83b2b132892a780658f74724d9b0"
+}
