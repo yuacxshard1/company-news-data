@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6c1a2ab13d07df06e63e3d51fd646dcd569ae9cb7ad3152e9667c2f664c3da1a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gemini-omni-12-flash-features-pricing-how-to-use",
+  "canonical_url": "https://www.activepieces.com/blog/gemini-omni-12-flash-features-pricing-how-to-use",
+  "title": "Gemini Omni 1.2 Flash: Features, Pricing & How to Use",
+  "summary": "Gemini Omni 1.2 Flash brings video generation to automation workflows. Decide whether this model is worth adopting for your automation needs.",
+  "body_markdown": "## Test Omni 1.2 against GPT-5.4 mini\n\n\nOn our three automation tasks, Omni 1.2 Flash got none right, while openai/gpt-5.4-mini got all three. That needs reading carefully, because Omni 1.2 Flash is a video-output model, and invoice extraction and email summaries are text tasks outside its purpose.\n\n\nThe result says nothing about how well it fits the work it was built for, so read it as a note on what not to use it for, not as a verdict on the model. This is a small, indicative test, not a benchmark.\n\n\n### How we tested Omni 1.2 Flash\n\n\nOn 2026-11-06, the test of google/gemini-omni-1.2-flash at default settings went through[OpenRouter](https://openrouter.ai/google/gemini-omni-1-2-flash) , a service that gives one interface to models from several vendors. openai/gpt-5.4-mini was run beside it.\n\n\nBoth received the same three tasks, which means you can attribute any performance gap to actual capability differences. Two of the tasks were to pull named fields from an invoice and to summarise an email thread.\n\n\nEach output was checked against a known answer, and a task counted as correct only if it matched. Three tasks is too few to generalise from, so treat the result as a record of one run, not as grounds for a purchasing decision.\n\n\n### Omni 1.2 vs GPT-5.4 mini results\n\n\n**Omni 1.2 Flash got 0 of 3 correct** , a complete failure, with no cost reported.\n\n\nBy contrast, openai/gpt-5.4-mini got 3 of 3 at a median of 0.9 seconds and $0.000142 per task, a cost so minimal budgets barely notice.\n\n\nOn these tasks, the speed of Omni 1.2 Flash bought nothing. Speed only counts once the answer is right, and a video model was never asked to produce this kind of answer in the first place.\n\n\nYou can't close the cost gap from this run. No figure was reported for Omni 1.2 Flash, so there's nothing to compare against GPT-5.4 mini's $0.000142, a small fraction of a cent.\n\n\nRerun it on your own inputs before drawing any conclusion, because a zero score on three text tasks may point to a settings or formatting mismatch, or simply to the category mismatch, rather than a hard limit.",
+  "published_at": "2026-11-06T01:11:29+00:00",
+  "first_seen_at": "2026-11-06T05:34:17.083249+00:00",
+  "content_hash": "sha256:a0538586e62b9f9c03b7d7cc08ca596d331b89461c59498a7347cbc8179bd1f1"
+}

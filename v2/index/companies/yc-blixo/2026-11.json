@@ -5,7 +5,7 @@
       "company_name": "Blixo",
       "doc_id": "3921fa57308ea15b3d0c9a94fdb8fd49a9cbb855180d51558aefecd3dabd158f",
       "first_seen_at": "2026-11-04T07:14:48.318686+00:00",
-      "published_at": "2026-11-02T04:29:50+00:00",
+      "published_at": "2026-11-01T04:35:50+00:00",
       "source_kind": "html",
       "summary": "The Short Version When a finalized invoice charges more than a customer actually owed, issue a credit note for the difference. Don’t edit or delete the original. Changing a finalized invoice can break the audit trail you’ll need for tax compliance. Depending on your agreement and the customer’s payment status, the credit can go back as a refund or sit on the account as an offset against a future charge.",
       "title": "When to Issue a Credit Note: 7 Cases Finance Teams Handle Wrong"
@@ -15,7 +15,7 @@
       "company_name": "Blixo",
       "doc_id": "6e5ee2b559716051701ca74d5d896f2053390ea5e66df28714964a6c925fef24",
       "first_seen_at": "2026-11-04T22:20:08.886966+00:00",
-      "published_at": "2026-11-03T04:29:50+00:00",
+      "published_at": "2026-11-02T04:35:50+00:00",
       "source_kind": "html",
       "summary": "Why Short Pays & Split Invoices Matter In B2B accounts receivable, the problem isn’t late payments. It’s the manual effort that builds up when payments arrive messy. A customer pays five invoices with one wire transfer. The remittance details show up two days later by email. Another customer short-pays an invoice by 8%, and the reason appears as “damaged goods” in a portal you need to log into separately. Until your team matches each payment to the right invoice, that cash sits unapplied—the money is in your bank, but your ERP still shows the invoice as outstanding.",
       "title": "Accounts Receivable Automation: Rule-Based vs AI Matching for Short Pays and Split Invoices"
@@ -25,7 +25,7 @@
       "company_name": "Blixo",
       "doc_id": "9319161d7eab577dac521c0e05f06f2ac31037734fe356f292edeaf40722f300",
       "first_seen_at": "2026-11-04T22:20:08.886966+00:00",
-      "published_at": "2026-11-04T04:29:50+00:00",
+      "published_at": "2026-11-03T04:35:50+00:00",
       "source_kind": "html",
       "summary": "The Short Version In short: AI cash application works — when the data cooperates. Clean customer identifiers, complete remittance fields, and accurate invoice records can drive meaningfully high touchless match rates. The problem is that your data almost certainly isn’t that clean yet, and getting there requires deliberate preparation before you configure a single matching rule. Two failure modes matter here. The first is the one your team already knows: a payment arrives with no remittance detail, the payer name on the bank statement doesn’t match the customer name in your ERP, and the transaction lands in the exception queue. Unapplied cash. Visible. Manageable.",
       "title": "AI Cash Application Matches More Invoices, Until Your Data Is Messy"
@@ -33,12 +33,22 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
-      "doc_id": "d596b08800faa5db841e98db44ba5813af83b3704878076157695ad3256a41ec",
-      "first_seen_at": "2026-11-04T07:14:48.318686+00:00",
-      "published_at": "2026-11-01T04:29:50+00:00",
+      "doc_id": "be6fcd5f5c9bd794031f480ed750c29bbf91a8d9634923a06a8fa6ff739d5d51",
+      "first_seen_at": "2026-11-06T04:38:21.500192+00:00",
+      "published_at": "2026-11-04T04:35:50+00:00",
       "source_kind": "html",
-      "summary": "In short Credit notes adjust invoices without erasing audit trails. They protect revenue recognition, tax filings, and accounts receivable entries. Credit notes reducing open invoices to zero mark them “paid” with no payment, creating phantom cash receipts in accounting syncs. Refund systems unapply entire payments rather than fractional amounts, pulling transactions in full before routing excess back. Retained credit notes skip cash refunds, applying balances to the next invoice while moving status to “paid” without recording payment.",
-      "title": "Credit Notes for Recurring Billing: Refunds, Downgrades, and Negative Invoices"
+      "summary": "In short: A credit note adjusts a finalized invoice without deleting it—preserving the original transaction while changing what your customer owes. The issued credit and the applied credit are separate steps; skip the second and your aging reports will overstate what’s collectible. Credits affect revenue, receivables, and tax treatment, so documentation and timing matter. Unapplied credits create the same reconciliation drag as unapplied cash. Applying credit to future invoices preserves cash; refunds close the obligation with an outbound payment.",
+      "title": "How Credit Notes Affect Cash Application and Customer Balances"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "bf8e433dd42f931519782b81b0b56e76a5de20da3fa3b49a4afa951e5eef9e83",
+      "first_seen_at": "2026-11-06T04:38:21.500192+00:00",
+      "published_at": "2026-11-05T04:35:50+00:00",
+      "source_kind": "html",
+      "summary": "In short: Manual reconciliation can create 10–15 day close lags because partial payments sit in exception queues while your team researches discrepancies and chases customer documentation. Many finance teams write off invalid deductions rather than contest them. Investigation costs can make sub-$500 write-offs a rational economic choice. Modern AR platforms can connect in days to weeks; legacy ERP migrations can take months. Continuous accounting can replace batch month-end audits. ERP matching logic clears full-amount payments but often leaves short pays for review. The exception queue is driven by outside-the-invoice context—remittance, promotion, delivery, and dispute data—not merely weak ERP matching algorithms. Your ERP closes the books. AR automation handles the work around it: cash application, exception handling, collections, and daily cash visibility. Traditional reconciliation is reactive and batch-driven. Continuous accounting keeps payment records and cash positions current while routing genuinely ambiguous items to review. The meaningful bottleneck is not the matching algorithm’s inability to compare amounts. It is that the algorithm lacks access to the promotion, delivery, trade-deduction, and dispute context that sits in email, portals, and PDFs outside the ERP.",
+      "title": "ERP Closes the Books. It Can't Match Short Pays Automatically."
     }
   ],
   "company_key": "yc-blixo",
