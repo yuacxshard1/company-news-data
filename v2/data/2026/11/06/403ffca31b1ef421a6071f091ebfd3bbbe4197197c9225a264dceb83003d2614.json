@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "403ffca31b1ef421a6071f091ebfd3bbbe4197197c9225a264dceb83003d2614",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/openai-embeddings-api-pricing-in-2026-dated-and-checked",
+  "canonical_url": "https://www.activepieces.com/blog/openai-embeddings-api-pricing-in-2026-dated-and-checked",
+  "title": "OpenAI Embeddings API Pricing in 2026, Dated and Checked",
+  "summary": "OpenAI embeddings pricing ranges from $0.02 to $0.13 per million tokens by model. Batch processing cuts these rates in half.",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce the cadence is settled, a handful of billing questions remain, and each one decides whether a client's line on the invoice matches what their runs cost you.\n\n\n### Is there a free tier for OpenAI embeddings?\n\n\nDon't plan on one. Embeddings are billed per token through the API, and any trial credit on a new account is a one-time cushion, not a recurring allowance.\n\n\nIf you fold a credit into a client quote, the second month's invoice will be short, so price from the published rate and treat credit as a bonus.\n\n\n### Can I reduce dimensions to save on storage?\n\n\nYes, with the current text-embedding-3 models, which accept a dimensions setting that returns shorter vectors. That cuts what you pay your vector database for storage and search, but it doesn't cut the embedding bill, because you are charged for the input tokens either way.\n\n\nTest on the client's own queries before shrinking an index you have already promised them, because shorter vectors give up some retrieval quality.\n\n\n### Do I have to re-embed if OpenAI releases a new model?\n\n\nOnly if you want to move to it. Existing vectors keep working with the model that made them, but vectors from two different models can't be compared with each other.\n\n\nSwitching therefore means re-embedding the entire corpus and rebuilding the index, which is a project in its own right.\n\n\nQuote it as a separate line item, not as part of the monthly run, and don't absorb it quietly for a client who never asked for the upgrade.\n\n\n### How do I track embedding spend?\n\n\nGive each client their own project and API key, then read usage per project in OpenAI's dashboard. This is the one habit that stops a shared account from hiding a heavy client inside an average.\n\n\nSet a spending limit per project as well, so a runaway re-embed trips an alert before it becomes a surprise you carry.\n\n\nPull the per-project figures at the same moment you build the invoice, so what you bill and what you spent come from one source.\n\n\nNo, ChatGPT Plus billing isn't the same as API billing. A ChatGPT subscription and API usage are separate products with separate billing, and the subscription doesn't pay for API calls.\n\n\nA client who says they already pay OpenAI is almost certainly describing the chat subscription, so the embedding spend still lands on whichever account holds your API key.",
+  "published_at": "2026-11-06T09:17:02+00:00",
+  "first_seen_at": "2026-11-04T18:32:41.339498+00:00",
+  "content_hash": "sha256:753af3cea014067d85cb774be19ed9f9e9b693b30dcb2a4f5bb0335777076c96"
+}

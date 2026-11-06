@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9c6ddc4150b0bb628a479e2d9dfbbf3283d9fd949d02a77bf237d42444959c54",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/latest-model-aliases",
+  "canonical_url": "https://docs.litellm.ai/blog/latest-model-aliases",
+  "title": "LiteLLM now supports -latest model aliases",
+  "summary": "Keep the same model name as newer versions arrive. Use -latest aliases in the LiteLLM SDK and AI Gateway.",
+  "body_markdown": "As providers release smarter, faster, cheaper models, you shouldn't have to update every app by hand.\n\n\nLiteLLM now supports` -latest` aliases. Pick a model family once. We update the model behind the alias as newer versions arrive, so you can keep the same name in your code.\n\n\nWith` litellm` installed and` OPENAI_API_KEY` set:\n\n\n```text\nfrom   litellm   import   completion       response   =   completion  (         model  =  \"openai/gpt-luna-latest\"  ,         messages  =  [  {  \"role\"  :     \"user\"  ,     \"content\"  :     \"Say hello.\"  }  ]  ,      )\n```\n\n\nThe same aliases work in the Python SDK and AI Gateway.\n\n\n## Supported models\n\n\nUse the provider prefix with any of its aliases below, as in` openai/gpt-luna-latest` .\n\n\nOpenAI` openai/`` gpt-luna-latest` ,` gpt-sol-latest` ,` gpt-terra-latest` ,` gpt-astra-latest` ,` gpt-mini-latest`\n\n\nAnthropic` anthropic/`` claude-opus-latest` ,` claude-sonnet-latest` ,` claude-haiku-latest` ,` claude-fable-latest`\n\n\nxAI` xai/`` grok-latest`\n\n\nMoonshot` moonshot/`` kimi-latest`\n\n\nZ.AI` zai/`` glm-latest` ,` glm-flash-latest`\n\n\nDeepSeek` deepseek/`` deepseek-pro-latest` ,` deepseek-flash-latest`\n\n\nDashScope` dashscope/`` qwen-max-latest` ,` qwen-flash-latest`\n\n\nMiniMax` minimax/`` minimax-latest`\n\n\nThese aliases call each provider's own API. Gemini and Mistral already offer provider-managed latest names, which LiteLLM passes through.\n\n\n[Get started with latest aliases ↗](https://docs.litellm.ai/docs/model_latest_aliases)",
+  "published_at": "2026-11-06T01:00:00+00:00",
+  "first_seen_at": "2026-11-06T16:12:38.716269+00:00",
+  "content_hash": "sha256:8c12611004b807d62f4afc633acf02d6cb94fe46a6f6b5f3abbd724bb476768f"
+}

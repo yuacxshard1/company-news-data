@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a31da37f0dbb46a2340653983de00f68a840acff8900163542f4057375dde3f9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/activepieces-vs-kestra-features-pricing-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/activepieces-vs-kestra-features-pricing-2026-guide",
+  "title": "Activepieces vs Kestra: Features, Pricing (2026 Guide)",
+  "summary": "Activepieces vs Kestra serve different purposes: the former for non-engineers automating apps, the latter for engineers orchestrating pipelines.",
+  "body_markdown": "## Who writes workflows in each platform\n\n\nKestra assumes the person writing the flow is an engineer who is comfortable with YAML, Git and a terminal, and it's built around that assumption. A visual-first tool assumes the opposite: the builder works in a browser and may never open a repository.\n\n\n### Visual builder versus YAML\n\n\nKestra's UI includes an editor with a topology view, so you can see the graph, but the file is the source of truth, and you edit the file.\n\n\nIf you read YAML daily, this suits you. For a finance analyst or a marketing operations lead, the first flow means learning syntax, plugin names and templating before anything runs. The learning curve is **short for engineers and steep for everyone else** .\n\n\nA visual builder reverses this: the builder picks a trigger, adds steps and maps fields on a canvas, and because no syntax is involved the learning curve is gentle for non-engineers.\n\n\n### Version control and review\n\n\nWith Kestra, versions live in Git. A change is a diff, a diff goes through a pull request, and a teammate reviews it before it merges.\n\n\nKestra can sync flows with a Git repository, and a Terraform provider exists for teams that manage flows as infrastructure.\n\n\nWhen a run fails, Kestra's error handlers and alerting send the failure to whoever is on call, usually the engineering team that wrote the flow.\n\n\nIn a visual builder, the author is often a business user. Review happens inside the product rather than in a pull request, and the person paged may not be the one who built the flow.\n\n\nActivepieces lets that business user skip the canvas as well: describe a process in its built-in chat and it builds and publishes the flow, the same kind of artifact a person would have assembled by hand.\n\n\nBecause RBAC, audit logs and run traces apply to it exactly as they do to hand-built flows, whoever is paged can read what happened without knowing who or what wrote it.\n\n\nAsk the chat for a process that touches your connected apps and you get a live flow in your account, and its first run leaves a trace you can read step by step. MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces.",
+  "published_at": "2026-11-06T09:17:14+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:bcdae0f8dfc161e6b111a4e0e3fb649daee9744dd89f6ba2e20fdd9ba53c740e"
+}

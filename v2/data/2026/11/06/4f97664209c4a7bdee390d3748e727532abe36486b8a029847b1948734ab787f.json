@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4f97664209c4a7bdee390d3748e727532abe36486b8a029847b1948734ab787f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/adobe-firefly-pricing-plans-and-credits-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/adobe-firefly-pricing-plans-and-credits-2026-guide",
+  "title": "Adobe Firefly Pricing: Plans and Credits (2026 Guide)",
+  "summary": "Adobe Firefly pricing uses monthly credits that don't roll over.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces can't change what Firefly charges, and it doesn't pretend to. What it can do is put a gate in front of the expensive draws, which is where this article says the cost sits.\n\n\nA flow can send a clip request at 540p, where a 10-second draft draws 200 credits, then pause for a person to approve it. Only an approved draft goes on to a 1080p render, which draws 1,000.\n\n\nThat turns \"draft low, render high only for the final cut\" from advice into a step nobody can skip.\n\n\nThe same flow can keep the count the decision section asks for.\n\n\nEach generation can be logged to a sheet or database with\n\n\n- the feature\n- the resolution\n- the date\n\n\n, so your monthly credit need comes from your own record rather than a guess from the Free tier.\n\n\nBuying by credit need requires that number, and most teams never write it down. If a request is headed for an empty balance, the flow can alert someone before a week-four deadline meets zero.\n\n\nFor calls to Adobe, the HTTP piece reaches any API your plan exposes, and Activepieces bills the run, not the step.\n\n\nAs the metering comparison earlier says, that is 1 credit per flow run however many steps it has, so adding an approval step or a logging step to a flow costs nothing extra on our side.\n\n\nZapier bills per task and Make per module, so on those platforms the same safeguards add to the bill.\n\n\nThe core of Activepieces is open source under the MIT licence, and you can self-host it. That matters if the logs hold client briefs or prompts you would rather keep off a third-party service.\n\n\nIt is the same caution as before: automate only once your credit estimate says the job is worth repeating, because a flow that draws Firefly credits will draw them faster than you do by hand.\n\n\nActivepieces is the better fit for teams automating Adobe Firefly work who want safeguards around costly generations, judged on how its billing treats those safeguards.\n\n\nBecause it bills 1 credit per flow run however many steps the flow has, an approval gate before the 1080p render and a logging step for your own credit record add nothing to the automation bill.\n\n\nOn Zapier's per-task and Make's per-module pricing, the same protections add to the cost, and Firefly's own charges stay the same on every platform.",
+  "published_at": "2026-11-06T05:01:09+00:00",
+  "first_seen_at": "2026-10-31T04:04:39.121884+00:00",
+  "content_hash": "sha256:c4d0ea8ef9b357b2a3a89b4e970282d5049364a6a0f6a8f9864d753238888260"
+}

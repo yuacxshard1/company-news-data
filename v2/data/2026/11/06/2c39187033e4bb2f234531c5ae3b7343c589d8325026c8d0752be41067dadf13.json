@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2c39187033e4bb2f234531c5ae3b7343c589d8325026c8d0752be41067dadf13",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/seed-unity-rendering-performance",
+  "canonical_url": "https://unity.com/blog/seed-unity-rendering-performance",
+  "title": "How SEED renders a world players never stop building",
+  "summary": "Unity rendering performance at scale: Klang Games profiles real player-built societies in SEED to find and fix CPU and memory bottlenecks on PC and mobile.",
+  "body_markdown": "## **Rendering a mature society within mobile memory**\n\n\nOn mobile, *SEED* ’s rendering hit a different constraint. “On the mobile side, we’re not CPU bound – we’re memory bound,” Fetisov says. “That is the main bane of our project.”\n\n\nA mature society can contain enormous numbers of buildings, outdoor objects, characters, and meshes. Every mesh and material the client renders has to fit in memory first. Klang Games relies heavily on the[Memory Profiler](https://docs.unity3d.com/Manual/com.unity.memoryprofiler.html) and[memory snapshot comparisons](https://unity.com/how-to/analyze-memory-usage-memory-profiling-tools) to track down where that memory goes. The team found textures stored three times because of a broken reference,[Addressables](https://docs.unity3d.com/Packages/com.unity.addressables@latest) dependencies that duplicated the same material, and C# collections far larger than they needed to be.\n\n\n“A lot came up where, on desktop, it was fine and people didn’t really notice it, but on mobile it was a big issue,” says Fetisov. “We relied on the Unity Memory Profiler quite a lot, especially \\[memory\\] snapshot diffs.”\n\n\nEven without textures, geometry adds up.\n\n\n“Some of the meshes were pretty chunky, especially the trees,” Fetisov says. “If you load all the LODs, a single tree can take megabytes of memory, and we have many tree variations.”\n\n\nBecause the team[builds Addressables per platform](https://unity.com/blog/engine-platform/addressables-planning-and-best-practices) , it can ship simplified trees to mobile without changing any game code. “The same code that loads the chair on desktop loads the chair on mobile,” Fetisov explains. “But the Addressables themselves can be assets optimized for mobile.”\n\n\nThe bigger shift was replacing LOD Groups on mobile altogether. Classic LODs meant storing multiple meshes per object type in memory – the same cost Fetisov describes with the trees.[Mesh LOD](https://docs.unity3d.com/Manual/lod/mesh-lod-introduction.html) , introduced in Unity 6.2, instead stores every level of detail inside a single mesh, and *SEED* ’s mobile variants now use it exclusively. It also reduced the workload for Klang Games’s small art team.\n\n\n“Switching from LODs to Mesh LOD was a crucial step in making it possible to render the game world on mobile devices,” says Fetisov.",
+  "published_at": "2026-11-06T00:00:00+00:00",
+  "first_seen_at": "2026-11-06T15:35:30.467090+00:00",
+  "content_hash": "sha256:06a59326aeb3bc5d945d55501b685c216606a5aba56afbca71210b6c086b4e8d"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6c7c35c6dfc36218ab483f27353efd5308e1f0b7163bbbb6159506361b2153f2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/muse-spark-open-api-pricing-per-token-rates-2026",
+  "canonical_url": "https://www.activepieces.com/blog/muse-spark-open-api-pricing-per-token-rates-2026",
+  "title": "Muse Spark Open API Pricing: Per-Token Rates (2026)",
+  "summary": "Muse Spark Open API pricing charges per token for input and output on a pay-as-you-go basis. You can estimate costs and decide if it fits your budget.",
+  "body_markdown": "## Tracking Muse Spark spend with Activepieces workflows\n\n\nIf you call Muse Spark from a business process, Activepieces, a workflow automation tool, can watch the bill for you, but it doesn't change what you pay.\n\n\nIt's a monitoring layer around the API, not a cheaper way to buy it. Skip the watching and you find out about a runaway job when the invoice arrives.\n\n\nTo see what that looks like, take the flow below.\n\n\nA weekly schedule pulls rows from a spreadsheet, loops over them, sends each one to the model through an HTTP step, records the result, and ends with a router that decides whether anyone gets an email.\n\n\nEvery step you can see is a place where cost either gets measured or goes unnoticed.\n\n\nWhat to take from it is that the model call is one box among ten, and the other boxes are where you keep track of it.\n\n\nActivepieces counts that ten-step flow as 1 credit per run, the same as a two-step version, so adding the logging and alert steps costs nothing extra, and the free plan's 1,000 credits a month, with unlimited flows, cover a weekly run many times over.\n\n\nThe published pricing page states the rule as 1 credit per flow run, any number of steps, whereas Zapier's pricing page bills per task and Make's pricing page bills per module. The token charges from Muse Spark still arrive on top.\n\n\n### Logging usage per run\n\n\nAt the HTTP step the call to Muse Spark happens, and the response that comes back reports how many tokens that request used.\n\n\nAdd a spreadsheet step right after it that writes one row per run: the date, which job it belonged to, and the input and output token counts.\n\n\nWith the log in place you have a ledger of your own, so when a month looks expensive you can point to the exact job that drove it instead of guessing from a single total.\n\n\nBecause the loop handles one item at a time, each row also shows you what a typical item costs, which is the number you need to forecast next month.\n\n\n### Budget alerts before the limit\n\n\nOnce the log exists, the router at the bottom of the flow can total it and compare the total to a ceiling you choose.\n\n\nIf the total crosses that line, one branch sends a message to a Slack channel or an email to whoever owns the budget; the other branch does nothing.\n\n\nSet the line below your real limit, not at it. An alert that fires when you're already over is only a receipt, while one that fires early leaves time to pause a job or switch to a cheaper model.",
+  "published_at": "2026-11-06T07:36:22+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:658369c03b0022e626ea57bbed49a2c8ebb6e74b8d1f55c15107ec8705a88d60"
+}
