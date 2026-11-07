@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6d0d85b445694886d21a5ce188ff68513a16a012b74160e24dcde79a874e9d1c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/daytona-pricing-2026-sandbox-costs-and-free-credits",
+  "canonical_url": "https://www.activepieces.com/blog/daytona-pricing-2026-sandbox-costs-and-free-credits",
+  "title": "Daytona Pricing 2026: Sandbox Costs and Free Credits",
+  "summary": "Idle sandboxes cost more in Daytona's pricing model than active compute, making this distinction essential for accurate infrastructure budgeting.",
+  "body_markdown": "## What Daytona costs at realistic usage levels\n\n\n**An always-on 2 vCPU / 4 GiB sandbox costs about $121 a month, so idle time is the largest cost you control.** Split out, that is $73.584 for vCPU, $47.304 for memory and $0 for disk, according to[Boxyard](https://boxyard.dev/providers/daytona/pricing) .\n\n\nOn a log scale,[Agent37](https://www.agent37.com/blog/daytona-pricing) 's chart compares developer testing, **100,000 one-minute runs at $276.00** , and an always-on month at roughly $120.89 to $122.07.\n\n\nFor a solo prototype, a handful of short sessions a week costs cents, so the free credits cover it. One sandbox left running all month costs the full $120.888, which is why the idle interval matters more than anything you build.\n\n\nFor a small team with bursty agent runs, 100,000 one-minute runs add up to about 1,667 sandbox-hours. That's more than double the 730 hours in a month, which is possible because the runs overlap across parallel sandboxes.\n\n\nAt $0.1656 an hour for this size, that's the $276.00 for the batch.\n\n\nHere, auto-stop doesn't save you, since the sandboxes were never idle. Per-run time is the lever, so trim startup and setup work inside each run.\n\n\n### Always-on sandboxes per user\n\n\nAt about $121 each, one persistent sandbox per user puts 50 users at roughly $6,044 a month. Auto-stop pays off most here, because users rarely work around the clock. Every hour a stopped sandbox isn't billed comes straight off that total.\n\n\nThree things would overturn the idle-time conclusion. The first is run volume high enough that active seconds outweigh idle ones, as in the 100,000-run case.\n\n\nThe second is larger sandboxes, which scale the vCPU and memory lines. The third is disk usage beyond whatever allowance makes the $0 line true, which would put a third charge on the bill.",
+  "published_at": "2026-11-07T09:17:00+00:00",
+  "first_seen_at": "2026-11-04T02:09:01.589822+00:00",
+  "content_hash": "sha256:9600d63209caa60aaad1b93d821d9be95ed7dfdd8ec1438d4283955284f02511"
+}

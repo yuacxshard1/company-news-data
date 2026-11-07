@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9b737b54ae1b7ac6b2f2dbc03492368af6f16016a4097ca430e91964cf641187",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/retell-ai-pricing-per-minute-in-2026-by-call-mix",
+  "canonical_url": "https://www.activepieces.com/blog/retell-ai-pricing-per-minute-in-2026-by-call-mix",
+  "title": "Retell AI Pricing per Minute in 2026 by Call Mix",
+  "summary": "Retell AI pricing stacks per-minute rates with additional fees on pay-as-you-go and enterprise plans. See each charge and calculate your actual costs.",
+  "body_markdown": "## Where Activepieces fits around a Retell AI voice agent\n\n\nOn a Retell bill,[Activepieces](https://www.activepieces.com/pricing) adds no line, and its meter is the run rather than the steps inside it: the follow-up to a call-ended webhook costs 1 credit whether it has two steps or ten, where Zapier bills per task and Make per module.\n\n\nFour minutes on the always-applied voice engine costs $0.22 before any other line is counted, going by[Retell's community thread on average cost](https://community.retellai.com/t/average-cost-per-minute-for-ai-voice-agents-built-on-retell/3118/2) , which lists it at $0.055 a minute. Retell's own lines are already substantial.\n\n\nAdd text-to-speech and the same thread lists $0.015 a minute, which adds $0.06 to that call. Neither figure covers what happens once the caller hangs up, so that work either gets done by a person or by a workflow tool.\n\n\n**Skip Activepieces and your Retell cost doesn't change** .\n\n\nIt doesn't replace Retell, the language model or the telephony, so it enters your model as one credit per finished call: 10,000 finished calls a month fit inside the 10,000 credits of the $20-a-month Plus plan, and each credit over that is $0.007.\n\n\nPicture a finished call leaving the Retell agent as a webhook, as in the flow below. It fans out into three branches: a CRM record, a team chat alert and a summary email.\n\n\nRead it as the full extent of what you're adding, which is three outputs from one event. It doesn't touch the minutes you're billed for.\n\n\nThose three branches come down to two jobs that decide whether the flow earns its place.\n\n\n### Receive the call-ended webhook\n\n\nWhen a call ends, Retell can send an HTTP request to a URL you give it.\n\n\nIn Activepieces, a flow that starts with a webhook trigger supplies that URL, and flows are unlimited on every plan, including the free one with 1,000 credits a month, so a separate webhook flow per agent adds nothing beyond its credits.\n\n\nPoint Retell at it and every finished call starts one run of the flow, carrying the call's details as the payload. This is the only connection between the two products, so you can test it with a single call before building anything else.\n\n\n### Write the call result to a CRM or sheet\n\n\nFrom that payload, the first branch takes fields and writes them to a customer record in a CRM, or to a row in a spreadsheet if you have no CRM. Choose a sheet when you want to audit call outcomes before trusting them.\n\n\nThe alert and email branches then reuse the same fields, so one mapping step serves all three outputs.",
+  "published_at": "2026-11-07T09:17:49+00:00",
+  "first_seen_at": "2026-11-02T18:31:51.278600+00:00",
+  "content_hash": "sha256:10e92fdafb748dd88816392a36e4b52c11f044d03fa8e7eb347532c045926756"
+}

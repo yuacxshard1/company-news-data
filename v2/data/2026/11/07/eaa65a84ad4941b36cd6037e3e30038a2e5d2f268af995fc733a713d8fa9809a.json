@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "eaa65a84ad4941b36cd6037e3e30038a2e5d2f268af995fc733a713d8fa9809a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/posthog-pricing-2026-which-plan-fits-your-team",
+  "canonical_url": "https://www.activepieces.com/blog/posthog-pricing-2026-which-plan-fits-your-team",
+  "title": "PostHog Pricing 2026 – Which Plan Fits Your Team?",
+  "summary": "PostHog pricing tiers range from free to enterprise options. Compare plans to find the right fit for your team's analytics needs.",
+  "body_markdown": "## Frequently asked questions\n\n\nIs PostHog really free? Yes, up to a monthly allowance on each product, and you pay only for usage beyond it.\n\n\nThe allowance resets every month and unused amounts don't carry forward, so a quiet month earns you no credit against a busy one. Treat the free tier as a monthly threshold, not a balance.\n\n\nDoes PostHog charge per seat or per user? No, team size doesn't change the price; usage does. Adding a colleague costs nothing, but that colleague's dashboards, replays and experiments generate events, and events are what you're billed for.\n\n\nCompare this with seat-based tools, where a hire raises the bill the day they join. Here the bill moves only when your volume does.\n\n\n### How do I stop PostHog bills from spiking?\n\n\nSet a billing limit on each product, then cut the events you don't need. A limit caps spend at a figure you choose, and once you reach it PostHog stops ingesting that product's data until the next cycle.\n\n\nSo a cap protects your budget but can leave a gap. Set it above your normal usage and alert on it before you hit it.\n\n\nThen trim at the source: drop noisy events, sample session recordings, and avoid autocapturing everything on high-traffic pages. The cap is a safety net, and volume control is what keeps the bill low.\n\n\n### Does PostHog offer startup or nonprofit discounts?\n\n\nIf you're a startup, you can get credits that offset usage charges through a PostHog program, and eligibility rules are set in its docs. I can't confirm a nonprofit program from the material here, so check PostHog's current pricing and program pages before assuming one.\n\n\nEither way, the free allowance already covers a small team. A discount matters only once your volume outgrows it.\n\n\n### Can I self-host PostHog to avoid usage fees?\n\n\nIf you self-host the open-source version, PostHog's usage fees go away, but it's not free. You take on the servers, storage, upgrades and on-call time, and those costs grow with event volume just as the cloud bill would.\n\n\nFor a small project, that trade can work. For a team without spare engineering hours, the cloud plan with a billing limit is usually the cheaper line once you count labor. Price both before deciding.",
+  "published_at": "2026-11-07T09:17:35+00:00",
+  "first_seen_at": "2026-11-03T01:01:58.050856+00:00",
+  "content_hash": "sha256:cfdf6e186dbc7d636d612525f6abb9948c24eb87594cb050a5259959ff43d0bf"
+}
