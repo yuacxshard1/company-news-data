@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5e29181b562c66e507d51de5b2aca01c51112af78e6af9ecfee9e194e8bac4d1",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/langsmith-byoc-copied-agent-secret-model-cutover",
+  "canonical_url": "https://opentools.ai/news/langsmith-byoc-copied-agent-secret-model-cutover",
+  "title": "LangSmith BYOC adds Azure and GCP betas",
+  "summary": "Verify the model before interpreting changed answers.",
+  "body_markdown": "Source: OpenTools Team · Original diagram. Facts: LangChain docs.\n\n\n·\n\n\n[Source image](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-7029dea78c55e0daa8522ad7f5c473cd8e4b8f0b43f04afddc6e4cb7ff133bad/editorialhero)\n\n\n# LangSmith BYOC expands cloud choice\n\n\nBy OpenTools Team\n\n\n·\n\n\nNovember 6, 2026\n\n\nInspect secrets and model choices before cutover.\n\n\n##\n\n\nThe November 3 expansion\n\n\nLangChain’s[November 3 announcement](https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure) expands LangSmith BYOC to Azure and Google Cloud in beta; AWS remains generally available. LangChain operates the control plane and manages the data plane in the customer’s cloud. Sales provisions access.\n\n\nThe launch separately limits trace migration to AWS. A copied workspace is not proof its history is present.\n\n\n##\n\n\nCheck the copied agent\n\n\nImagine an imported Fleet agent appears in the destination workspace. Before directing work there, separate two checks: restore required secret values and confirm its selected model. The[migration guide](https://docs.langchain.com/langsmith/byoc-migration) says secrets become empty placeholders and unavailable source models can be substituted, with substitutions logged.\n\n\nA successful object copy therefore cannot establish working credentials or unchanged model identity. If answers differ after cutover, verify the model choice before attributing the difference to the move. Each user must also reconnect OAuth. This is a documented acceptance scenario, not a migration or output comparison we ran.\n\n\nConceptual diagram: OpenTools Team; selected checks from LangChain’s migration guide, not a performed migration.\n\n\n##\n\n\nName the acceptance owners\n\n\nThe[responsibility model](https://docs.langchain.com/langsmith/byoc-shared-responsibility) leaves application validation with the customer while LangChain operates BYOC‑managed services. Give the credential/reconnection owner and application owner separate sign‑offs: one restores access, the other confirms the intended model and application behavior. The undated guides describe current requirements; their individual details are not all newly launched on November 3.\n\n\n## Sources\n\n\n1. 1.\n\n\n[langchain.com](https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure) (langchain.com)\n\n\n2. 2.\n\n\n[docs.langchain.com](https://docs.langchain.com/langsmith/byoc-migration) (docs.langchain.com)\n\n\n3. 3.\n\n\n[docs.langchain.com](https://docs.langchain.com/langsmith/byoc-shared-responsibility) (docs.langchain.com)\n\n\n## Tags\n\n\n[AI development](https://opentools.ai/news/tags/ai-development)",
+  "published_at": "2026-11-07T08:32:36.475+00:00",
+  "first_seen_at": "2026-11-06T10:08:36.093816+00:00",
+  "content_hash": "sha256:6f5c0f6fc67ab274eb35eea80c43c93e0bb80bdce95a8999b711a541fe4e3499"
+}

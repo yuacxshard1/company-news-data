@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "15b3f772475d07b76343d6581513d7893d490ef70105c8e1a983362d85f04462",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/chat-data-drive-imports-retrain-remove-source-copy",
+  "canonical_url": "https://opentools.ai/news/chat-data-drive-imports-retrain-remove-source-copy",
+  "title": "Chat Data broadens Drive imports",
+  "summary": "Check the imported source.",
+  "body_markdown": "##\n\n\nRetirement receipt\n\n\nSuppose a Drive owner retires a handbook, then a scheduled retrain completes. That completion is not a retirement receipt. The[training guide](https://cookbook.chat-data.com/docs/train-with-your-data) says missing Drive originals leave the last imported version; check the agent’s source list and manually remove the handbook before closing its knowledge‑retirement task.\n\n\nIf someone else owns Drive cleanup, assign the Chat Data source removal separately. Accepting that person’s deletion or a successful refresh would leave the documented imported‑copy question unresolved. Retraining updates previously imported files; it does not establish that an absent original was purged.\n\n\nThe undated guide still lists Docs and Sheets; the November 3 release expands formats without announcing new deletion behavior. This is documented analysis, not a test or a guarantee about logs, backups or permission changes.\n\n\nConceptual diagram: OpenTools Team, from Chat Data’s guide; no test performed.",
+  "published_at": "2026-11-07T05:42:43.520+00:00",
+  "first_seen_at": "2026-11-06T10:08:36.093816+00:00",
+  "content_hash": "sha256:a9fb3c8ae91a4a2f7f42f2160bf703d98f22511fca6cc42762efb5e31acb11dd"
+}

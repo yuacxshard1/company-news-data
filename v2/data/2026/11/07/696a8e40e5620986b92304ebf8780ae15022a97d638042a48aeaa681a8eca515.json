@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "696a8e40e5620986b92304ebf8780ae15022a97d638042a48aeaa681a8eca515",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/church-presenter-caption-profiles-speech-routing",
+  "canonical_url": "https://opentools.ai/news/church-presenter-caption-profiles-speech-routing",
+  "title": "Church Presenter rebuilds caption styling",
+  "summary": "Check server and screen routing.",
+  "body_markdown": "Source: OpenTools Team · Original diagram. Facts: Church Presenter guide.\n\n\n·\n\n\n[Source image](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-ac34c1aeabd8da5d39dd770e848d2d5daecf4175942091fdae9f5458cfd43a73/editorialhero)\n\n\n# Church Presenter rebuilds caption styling\n\n\nBy OpenTools Team\n\n\n·\n\n\nNovember 7, 2026\n\n\nDisplay settings do not supply speech.\n\n\n##\n\n\nOutput profiles\n\n\nChurch Presenter’s[November 1 update](https://www.churchpresenter.org/blog/november-2026-updates/) styles captions through named output profiles. Two outputs sharing a profile change together; linked profiles inherit settings but can override others. Captions now offer roll-up, pop-on or ticker presentation, with reading-speed limits and silence fading. Interface zoom affects only the operator UI. Caption overlays remain opt-in.\n\n\nIf captions reach both rooms but the overflow font is wrong, change a linked profile’s override; changing their shared profile changes both. Interface zoom fixes neither audience view.\n\n\n##\n\n\nFollow the speech feed\n\n\nThe[July guide](https://www.churchpresenter.org/blog/how-to-set-up-live-captions-and-translation-in-church-presenter) describes STT as a client for a networked Whisper server, not microphone capture. Enable the hidden STT tab, connect its server URL, then use Go Live and select STT for the intended output in Settings → Projection. Translation runs server-side.\n\n\nDiagnostic proposal, not a tested setup: if transcription arrives without translated text, check server-side translation before profile appearance. Incoming transcription proves neither translated input nor projection routing. If both languages reach STT but only one appears on a screen, inspect the STT display mode and that output’s assignment. Font changes cannot create missing translated input. Rehearse on a spare output.\n\n\nConceptual routing, not observed.\n\n\n## Sources\n\n\n1. 1.\n\n\n[churchpresenter.org](https://www.churchpresenter.org/blog/november-2026-updates/) (churchpresenter.org)\n\n\n2. 2.\n\n\n[churchpresenter.org](https://www.churchpresenter.org/blog/how-to-set-up-live-captions-and-translation-in-church-presenter) (churchpresenter.org)\n\n\n## Tags\n\n\n[AI development](https://opentools.ai/news/tags/ai-development)",
+  "published_at": "2026-11-07T01:34:34.606+00:00",
+  "first_seen_at": "2026-11-07T15:58:22.238033+00:00",
+  "content_hash": "sha256:00f5173e90b24292c3cc9b7364830643d85f37ee82c668b5760c7a284f939106"
+}
