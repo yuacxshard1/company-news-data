@@ -11,7 +11,7 @@
   "title": "Dependabot adds APM version updates",
   "summary": "Review the lockfile’s resolved commit.",
   "body_markdown": "##\n\n\nRead the resolved change\n\n\nImagine an APM skill pinned to` #main` . A Dependabot PR changes` apm.lock.yaml` but leaves` apm.yml` untouched. Under[GitHub’s documented rules](https://docs.github.com/en/code-security/reference/supply-chain-security/supported-ecosystems-and-repositories) , that can be a version change: inspect the resolved commit and skill diff before approval, rather than treating the unchanged branch name as an unchanged dependency.\n\n\nWithout an existing lockfile, the branch updater will not create one. No PR therefore does not prove the skill is current. Check lockfile presence and entry shape: object‑form and` mcp:` entries are excluded. Private git access is a separate prerequisite. This is a documented review scenario, not a PR we tested.\n\n\nConceptual diagram: OpenTools Team; expected file roles from GitHub’s reference, not an observed PR.",
-  "published_at": "2026-11-06T07:22:53.452+00:00",
+  "published_at": "2026-11-06T22:16:08.665+00:00",
   "first_seen_at": "2026-11-06T10:08:36.093816+00:00",
   "content_hash": "sha256:e7927be7d5a3ac5831a6feee125efe56ae701b07d1cd7bc76900343a372fd436"
 }

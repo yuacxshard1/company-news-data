@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5ce85b8f7188da4d6cda87c6c9d86b57833bff9c524b97749613f62def5d7f55",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/box-agent-controls-read-enforce-monitor-threshold-alerts",
+  "canonical_url": "https://opentools.ai/news/box-agent-controls-read-enforce-monitor-threshold-alerts",
+  "title": "Box Read isn’t Download",
+  "summary": "Verify policy.",
+  "body_markdown": "Source: OpenTools Team · AI-generated illustration\n\n\n·\n\n\n[Source image](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-5cc063eeacaf39de9bb00a1812c7bd87216c8e47dace11074301f00ca5680fcc/editorialhero)\n\n\n# Box Read isn’t Download\n\n\nBy OpenTools Team\n\n\n·\n\n\nNovember 6, 2026\n\n\nAlerts don’t prove blocking.\n\n\n##\n\n\nAvailability\n\n\nBox’s[November 5 update](https://blog.box.com/box-announces-new-controls-secure-ai-threats-and-automate-content-governance) lists classification policies, MCP write‑tool guardrails and download‑threshold alerts as generally available. Session governance and audit trails remain planned for Q4. Threshold crossings are alerts to investigate, not evidence that an action was blocked. Selected MCP write rules apply through Box’s server; they are not universal agent restrictions.\n\n\n##\n\n\nRead needs enforcement\n\n\nBox’s[architecture guide](https://blog.box.com/securing-ai-agent-access-inside-architecture-classification-based-access-policy-box-shield) defaults Read off, with independent integration lists and enforce/monitor modes. Check the connected integration’s Read setting; a download block or logged decision does not establish a read block. Enforced Read restrictions remove classified content, while metadata may remain. Existing decision logs are not the planned session audit feature.\n\n\n[Earlier Box skills coverage](https://opentools.ai/news/box-agent-skills-cli-mcp-sdk-integration-account-access) explains the connected‑account prerequisite. Documentation analysis, not security testing.\n\n\nAI‑generated illustration of enforcement, monitoring and alerts; not Box software or a security test. Image: OpenTools.\n\n\n## Sources\n\n\n1. 1.\n\n\n[blog.box.com](https://blog.box.com/box-announces-new-controls-secure-ai-threats-and-automate-content-governance) (blog.box.com)\n\n\n2. 2.\n\n\n[blog.box.com](https://blog.box.com/securing-ai-agent-access-inside-architecture-classification-based-access-policy-box-shield) (blog.box.com)\n\n\n## Tags\n\n\n[AI business](https://opentools.ai/news/tags/ai-business)",
+  "published_at": "2026-11-06T12:25:18.322+00:00",
+  "first_seen_at": "2026-11-07T00:59:42.832818+00:00",
+  "content_hash": "sha256:dedb4ab9c51af23b68ce54871c85be4887d17550df6fbafa9e48b3863d4f5efe"
+}

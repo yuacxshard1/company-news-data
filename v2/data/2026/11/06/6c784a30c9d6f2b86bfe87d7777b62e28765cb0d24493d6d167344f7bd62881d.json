@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6c784a30c9d6f2b86bfe87d7777b62e28765cb0d24493d6d167344f7bd62881d",
+  "company_key": "yc-opentools",
+  "company_name": "OpenTools",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://opentools.ai/news/canva-generation-errors-capacity-credits-retry",
+  "canonical_url": "https://opentools.ai/news/canva-generation-errors-capacity-credits-retry",
+  "title": "Canva 429 explained",
+  "summary": "Classify first.",
+  "body_markdown": "Source: OpenTools Team · AI-generated illustration\n\n\n·\n\n\n[Source image](https://imagedelivery.net/FCiXvK7dG4mSm_W_033WNA/editorial-news-d4e1d89cb91fa15c42715ee3eb95aabe60794b5856c9cbbf378a1f9cc6d70770/editorialhero)\n\n\n# Canva 429 explained\n\n\nBy OpenTools Team\n\n\n·\n\n\nNovember 6, 2026\n\n\nCredits aren’t capacity.\n\n\n##\n\n\nRequest\n\n\nCanva’s[November 5 changelog](https://www.canva.dev/docs/apps/rest-apis/changelog/) adds` model_capacity_reached` (429) for **Create image generation job** . October’s credit changes use 402:` credit_quota_exceeded` identifies the user allowance,` app_credit_quota_exceeded` the app’s. Waiting for model capacity does not resolve exhausted credits.\n\n\nCanva’s[error guide](https://www.canva.dev/docs/apps/rest-apis/error-responses/) prescribes exponential backoff for` too_many_requests` . Keep status and code distinct in logs; routing by 429 alone conflates capacity with throttling.\n\n\n##\n\n\nJob\n\n\nThe[preview endpoint](https://www.canva.dev/docs/apps/rest-apis/reference/generations/create-image-generation-job/) can return HTTP 200 before completion. Inspect job status.\n\n\nThe required` idempotency_key` replays the original job for 24 hours despite parameter changes. Changing models under that key does not start replacement work. Check identity. Documentation analysis; no API test.\n\n\nFor creator‑facing availability, see our[Craft report](https://opentools.ai/news/canva-craft-dream-lab-image-generation-api-mcp-coming-soon) .\n\n\nAI‑generated retry illustration; not Canva output. Image: OpenTools.\n\n\n## Sources\n\n\n1. 1.\n\n\n[canva.dev](https://www.canva.dev/docs/apps/rest-apis/changelog/) (canva.dev)\n\n\n2. 2.\n\n\n[canva.dev](https://www.canva.dev/docs/apps/rest-apis/error-responses/) (canva.dev)\n\n\n3. 3.\n\n\n[canva.dev](https://www.canva.dev/docs/apps/rest-apis/reference/generations/create-image-generation-job/) (canva.dev)\n\n\n## Tags\n\n\n[AI development](https://opentools.ai/news/tags/ai-development)",
+  "published_at": "2026-11-06T13:54:37.529+00:00",
+  "first_seen_at": "2026-11-07T00:59:42.832818+00:00",
+  "content_hash": "sha256:3e77e757f3f640a50206027f41ee8ec6c145cfac2697f2775813e908491fce63"
+}
