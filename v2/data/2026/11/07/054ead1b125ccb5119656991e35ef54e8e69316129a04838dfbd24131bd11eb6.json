@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "054ead1b125ccb5119656991e35ef54e8e69316129a04838dfbd24131bd11eb6",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-podman-module-2-2-0-released/138292",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-podman-module-2-2-0-released/138292",
+  "title": "Virtualmin Podman module 2.2.0 released",
+  "summary": "Howdy all, We’ve rolled out Virtualmin Podman 2.2.0 to all Virtualmin repos. Changes since Virtualmin Podman 2.1.0: Add a NetBox recipe with a private PostgreSQL database, Valkey services and a background worker Add an optional container user for rootless recipes, container forms and CLI commands Add per-service image pull policies to Compose imports Fix existing file bind mounts failing during Compose imports and container or pod creation Fix recipe image updates reporting completion before...",
+  "body_markdown": "# [Virtualmin Podman module 2.2.0 released](https://forum.virtualmin.com/t/virtualmin-podman-module-2-2-0-released/138292)\n\n\n[News](https://forum.virtualmin.com/c/news/5)\n\n\n[pro-only](https://forum.virtualmin.com/tag/pro-only)\n\n\n[Ilia](https://forum.virtualmin.com/u/Ilia)\n\n\nNovember 7, 2026, 12:17am 1\n\n\nHowdy all,\n\n\nWe’ve rolled out Virtualmin Podman 2.2.0 to all Virtualmin repos.\n\n\nChanges since Virtualmin Podman 2.1.0:\n\n\n- Add a NetBox recipe with a private PostgreSQL database, Valkey services and a background worker\n- Add an optional container user for rootless recipes, container forms and CLI commands\n- Add per-service image pull policies to Compose imports\n- Fix existing file bind mounts failing during Compose imports and container or pod creation\n- Fix recipe image updates reporting completion before the web application is ready\n\n\n---\n\n\nAs always, if you run into any problems, let us know in a *new* topic.",
+  "published_at": "2026-11-07T00:17:50+00:00",
+  "first_seen_at": "2026-11-07T03:20:10.479525+00:00",
+  "content_hash": "sha256:8ea0fed0bf6011b4ddaada0926020e26b6f7a4873529cd74cdde371dcca9a5de"
+}
