@@ -33,12 +33,32 @@
     {
       "company_key": "yc-cactus",
       "company_name": "Cactus",
+      "doc_id": "62b79becfeab662db817ee388cb76a0ec915542c1298c1885fbf178b74c5f098",
+      "first_seen_at": "2026-11-07T06:38:49.969082+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The forward pass of Mirage's channel mixer. Fixed Walsh transforms, three learned bands and a GELU gate, with the indexing, arithmetic and implementation details.",
+      "title": "HConvGLU for Channel Mixing in Image Encoders"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
       "doc_id": "672de5649062878cca2dcca513d4ba2b146415930dc975ef2fb8a61ded79575f",
       "first_seen_at": "2026-10-30T20:42:39.672086+00:00",
       "published_at": "2026-10-19T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Notes for anyone writing their own Whistle runtime or checking a fine-tune against the engine. The reference to test against and the numbers to expect, how the shipped file is rebuilt from the public checkpoint, the front end as the engine runs it, where each config value lives, the tensor order, the decode loop and keyword biasing, and the gates around the model.",
       "title": "Porting Whistle"
+    },
+    {
+      "company_key": "yc-cactus",
+      "company_name": "Cactus",
+      "doc_id": "a6e75b64e05e343bb4187dca37e519f9327171a2373385f36c02877ce9ca8be5",
+      "first_seen_at": "2026-11-07T06:38:49.969082+00:00",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Mirage removes prose construction from visual perception and uses spatial heads, region references and compact semantic fields.",
+      "title": "Structured Visuo-Semantic Perception"
     }
   ],
   "company_key": "yc-cactus",

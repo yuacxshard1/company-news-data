@@ -29,6 +29,16 @@
       "source_kind": "html",
       "summary": "Keep the same model name as newer versions arrive. Use -latest aliases in the LiteLLM SDK and AI Gateway.",
       "title": "LiteLLM now supports -latest model aliases"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
+      "doc_id": "b97da16fd607728dd38fccead33b1d456bdffc9de73ae9856df86bfdc4a34f4e",
+      "first_seen_at": "2026-11-07T07:25:18.420668+00:00",
+      "published_at": "2026-11-06T09:00:00+00:00",
+      "source_kind": "html",
+      "summary": "LiteLLM now steers each coding agent session by its tool execution history, keeping routine work on an efficient model and escalating to a capable model when the trajectory turns hard.",
+      "title": "Tool-Aware Model Routing for Coding Agents with NVIDIA NeMo Switchyard"
     }
   ],
   "company_key": "yc-litellm",
