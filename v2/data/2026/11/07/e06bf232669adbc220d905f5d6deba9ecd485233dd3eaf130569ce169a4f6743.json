@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e06bf232669adbc220d905f5d6deba9ecd485233dd3eaf130569ce169a4f6743",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/fireworks-ai-pricing-models-gpus-billing-2026",
+  "canonical_url": "https://www.activepieces.com/blog/fireworks-ai-pricing-models-gpus-billing-2026",
+  "title": "Fireworks AI Pricing: Models, GPUs & Billing (2026)",
+  "summary": "Fireworks AI pricing charges per token consumed plus GPU time for dedicated capacity. Your costs increase only with resources you actually use.",
+  "body_markdown": "## Frequently asked questions\n\n\nDoes Fireworks AI have a free tier? Treat it as a trial at most, not a place to run production.\n\n\nThe metered unit is the token, so any free allowance is a small credit that gets used up quickly. Check the pricing page at signup for what your account receives, and don't build a cost plan around it.\n\n\n### How do Fireworks AI credits work and do they expire?\n\n\nBecause credits are a prepaid balance that metered usage draws down, they lower your invoice but don't change the per-token price. Whether a given credit expires depends on how it was issued, since promotional credits and purchased balances are often treated differently.\n\n\nRead the terms shown beside the credit in your billing page. If a balance has an expiry date, you can only use it on serverless token usage before that date, and it won't cover a dedicated GPU left running past it.\n\n\n### Can I set a spending limit on Fireworks AI?\n\n\nLook in your account billing settings first, because that's where any account-level cap or alert would live, and use it if your account offers one.\n\n\nWhatever the dashboard offers, you have two controls of your own. Set a maximum output length on every request, since output tokens are the expensive side of the bill.\n\n\nAnd treat each dedicated deployment as a meter that runs until you shut it down, so delete it when the test is over.\n\n\n### Is Fireworks AI cheaper than OpenAI for open models?\n\n\nOnly compare like with like: the same open-weight model, the same input and output rates, and the same traffic. OpenAI's flagship models aren't open-weight models, so a price comparison against GPT-6 Astra or GPT-6.1 Sol is really a comparison of two different products.\n\n\nWhen an open model is good enough for your task, Fireworks AI wins, because you then pay that model's per-token rate instead of a frontier rate.\n\n\nIf a closed model needs fewer retries or shorter outputs, its higher unit price can still produce the lower bill.\n\n\n### What happens when I hit a Fireworks AI rate limit?\n\n\nRejected rather than queued, your request usually comes back as an HTTP 429 error. Handle it by retrying with a growing delay and a retry cap, so a burst doesn't turn into a storm of repeat calls.\n\n\nIf you hit the limit constantly, that's the signal to look at the limits attached to your account, or to move steady, predictable volume to a dedicated deployment and price it against the cheaper GPU clouds first.",
+  "published_at": "2026-11-07T16:27:03+00:00",
+  "first_seen_at": "2026-11-07T19:14:13.078292+00:00",
+  "content_hash": "sha256:4275110e0fdaa642338726f34c9aea7fbe0219660dcc23a57d3158385904c6a9"
+}

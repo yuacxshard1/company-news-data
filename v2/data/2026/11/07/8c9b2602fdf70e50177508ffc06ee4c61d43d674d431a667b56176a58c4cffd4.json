@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8c9b2602fdf70e50177508ffc06ee4c61d43d674d431a667b56176a58c4cffd4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/volcengine-ark-pricing-plans-and-quotas-2026",
+  "canonical_url": "https://www.activepieces.com/blog/volcengine-ark-pricing-plans-and-quotas-2026",
+  "title": "Volcengine Ark Pricing: Plans and Quotas (2026)",
+  "summary": "Volcengine Ark pricing uses two billing modes: pay per token or subscribe for a credit quota. Your choice depends on expected usage.",
+  "body_markdown": "## A Worked Monthly Bill for One Named Workload\n\n\nPrice the ticket summariser on Volcengine Ark as if no free usage exists: daily tickets times tokens, with input and output billed at separate rates. **A subscription wins only above a break-even volume** you can calculate yourself.\n\n\n### The workload and its token assumptions\n\n\nEach new ticket and its thread go in, and a short summary for the agent comes out.\n\n\nTake your token counts from a week of real tickets, and include the longest one, the angry customer email with a pile of forwarded replies.\n\n\nUse the average and you will miss that ticket, the one that blows through a budget. Output is short, but it's priced higher than input, so it still counts.\n\n\nBefore any single rate, get the order of the sum right, because it matters more. Follow these steps:\n\n\n1. Daily input tokens equal tickets per day times input tokens per ticket. Work out daily output tokens the same way.\n2. Monthly tokens equal daily tokens times the days in your billing month, so weekends and spikes are counted.\n3. List-price cost equals monthly input millions times the input rate, plus monthly output millions times the output rate.\n\n\nCost the summariser as a flow in[Activepieces](https://www.activepieces.com/) and the step count drops out of the sum: a run is 1 credit, whether fetch, trim, summarise and post sit in two steps or ten.\n\n\nZapier's pricing page bills per task and Make's per module, so the same split costs more there, which taxes the builder for choosing smaller, more reliable steps. MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.\n\n\n### Bill with cache and batch discounts\n\n\nWhen a request repeats its fixed instruction prompt, only that part benefits from caching. The ticket text is new every time, so it stays at the normal rate.\n\n\nSummaries nobody is waiting on suit batch pricing. I couldn't confirm the cache-hit or batch rates, so read them from your console and continue the sum.\n\n\nMove the share of input that repeats to the cache-hit rate, then move the share of tickets that can wait to the batch rate.\n\n\nTo cost a subscription, take the flat monthly fee, plus pay-as-you-go for anything beyond its quota. Break-even is the flat fee divided by your blended cost per ticket after those two moves.\n\n\nBelow that ticket count, stay on pay-as-you-go. Above it, the subscription wins only if its rate limits still let your busiest hour through. That's the next thing to check.",
+  "published_at": "2026-11-07T18:02:27+00:00",
+  "first_seen_at": "2026-11-07T19:14:13.078292+00:00",
+  "content_hash": "sha256:b61caaec1685d7ed0a93d62779b58ac3fb7f4d0016af6d7dccaae45bad053aac"
+}
