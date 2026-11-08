@@ -3,9 +3,19 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "0f6def8bc18d08b18108c639e1f643652588ab1f76f61bace8589881bafe38a0",
+      "first_seen_at": "2026-11-08T02:07:35.541441+00:00",
+      "published_at": "2026-11-06T04:25:45+00:00",
+      "source_kind": "html",
+      "summary": "In short: PayPal Invoicing can schedule recurring invoices and send payment reminders, but it doesn’t track subscriptions as financial records. You won’t find proration for mid-cycle upgrades, usage metering for overage billing, or structured dunning workflows for failed payments. A subscription business billing hundreds of customers needs more than invoice automation—it needs subscription-aware AR that ties billing logic to customer lifecycle changes. What you need to know up front PayPal Invoicing works for freelancers sending the same monthly retainer to a handful of clients. If your service business runs on tiered pricing, usage charges, or payment recovery workflows, you’re going to hit PayPal’s limits fast.",
+      "title": "Best Accounts Receivable Software for Subscription Service Businesses: Where PayPal Invoicing Fits"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "3bb68be16ff16ee2861a2a16c01d4a074af52176b28abfa9e2d6a72c89c6ad56",
       "first_seen_at": "2026-11-06T19:58:43.893694+00:00",
-      "published_at": "2026-11-06T04:35:06+00:00",
+      "published_at": "2026-11-05T04:25:45+00:00",
       "source_kind": "html",
       "summary": "Key Takeaways PayPal automatic payments are tied to the saved payment arrangement authorized during signup rather than the customer’s current wallet default, so a wallet change does not automatically redirect the subscription. PayPal Checkout automatic billing may have a different fee structure. Confirm whether your account and transaction type qualify for that rate. Paid PayPal invoices appear in your PayPal balance. Funds may be available for use once processed; review PayPal’s current funds availability policies for any delays. PayPal may suspend a subscription after repeated failed payments or carry an unpaid balance to a later bill instead of canceling immediately. That can create a retention buffer, but it also requires manual account tracking. PayPal’s public documentation does not confirm native dunning workflows, automatic retry schedules, or detailed reconciliation exports for failed recurring payments. In short: recurring invoices vs. automatic payments PayPal gives you two collection paths. Recurring invoices put the billing event in front of the customer—they see a bill, they choose to pay. Automatic payments charge a saved payment method in the background. The better fit depends on how much control your team needs over reminders, payment timing, and follow-up.",
       "title": "PayPal Automatic Payment vs Recurring Invoices: What Subscription Service Teams Need to Collect on Time"
@@ -13,19 +23,9 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
-      "doc_id": "6e5ee2b559716051701ca74d5d896f2053390ea5e66df28714964a6c925fef24",
-      "first_seen_at": "2026-11-04T22:20:08.886966+00:00",
-      "published_at": "2026-11-01T04:35:06+00:00",
-      "source_kind": "html",
-      "summary": "Why Short Pays & Split Invoices Matter In B2B accounts receivable, the problem isn’t late payments. It’s the manual effort that builds up when payments arrive messy. A customer pays five invoices with one wire transfer. The remittance details show up two days later by email. Another customer short-pays an invoice by 8%, and the reason appears as “damaged goods” in a portal you need to log into separately. Until your team matches each payment to the right invoice, that cash sits unapplied—the money is in your bank, but your ERP still shows the invoice as outstanding.",
-      "title": "Accounts Receivable Automation: Rule-Based vs AI Matching for Short Pays and Split Invoices"
-    },
-    {
-      "company_key": "yc-blixo",
-      "company_name": "Blixo",
       "doc_id": "7be4ad4a050fa57607bf833f8fd3420387ece4c85412f40015a9e31e6edf7e98",
       "first_seen_at": "2026-11-06T19:58:43.893694+00:00",
-      "published_at": "2026-11-05T04:35:06+00:00",
+      "published_at": "2026-11-04T04:25:45+00:00",
       "source_kind": "html",
       "summary": "What You Need to Know Many B2B invoices are overdue, and bad debts consume credit sales. Credit analysis teams spend much of their time gathering and reviewing data by hand. Manual credit note workflows break at every handoff when credits move through spreadsheets, email threads, and legacy ERP screens. One mistyped digit can send the credit to the wrong customer account and create reconciliation gaps. Duplicate adjustments happen when two people issue credits for the same dispute or when a credit posts twice. Automated approval routing directs requests to the right person based on rules rather than manual inbox coordination. Structured intake forms should capture the original invoice number, customer account, requested amount, reason code, and supporting documents. Why credit note workflows matter for B2B finance teams Those overdue-payment and bad-debt pressures show why credit note workflows matter. Every billing correction that stalls in approval or disappears in informal communication pushes cash farther out and makes your AR balance less trustworthy.",
       "title": "Credit Note Workflow for B2B Finance Teams: Approvals, Posting, and Audit Trail"
@@ -35,7 +35,7 @@
       "company_name": "Blixo",
       "doc_id": "9319161d7eab577dac521c0e05f06f2ac31037734fe356f292edeaf40722f300",
       "first_seen_at": "2026-11-04T22:20:08.886966+00:00",
-      "published_at": "2026-11-02T04:35:06+00:00",
+      "published_at": "2026-11-01T04:25:45+00:00",
       "source_kind": "html",
       "summary": "The Short Version In short: AI cash application works — when the data cooperates. Clean customer identifiers, complete remittance fields, and accurate invoice records can drive meaningfully high touchless match rates. The problem is that your data almost certainly isn’t that clean yet, and getting there requires deliberate preparation before you configure a single matching rule. Two failure modes matter here. The first is the one your team already knows: a payment arrives with no remittance detail, the payer name on the bank statement doesn’t match the customer name in your ERP, and the transaction lands in the exception queue. Unapplied cash. Visible. Manageable.",
       "title": "AI Cash Application Matches More Invoices, Until Your Data Is Messy"
@@ -43,9 +43,19 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "a3950746d374dac5c68921140c8dc4e9e823729384aaa311a4820505f23f318c",
+      "first_seen_at": "2026-11-08T02:07:35.541441+00:00",
+      "published_at": "2026-11-07T04:25:45+00:00",
+      "source_kind": "html",
+      "summary": "In short: Vendors claim 90–98% automation rates, but those figures often fail when remittance details are incomplete or customers bundle multiple invoices. A single incorrect payment match that triggers a false collection call can damage customer relationships more than delayed manual posting. Implementation timelines range from finance-team configuration in weeks to enterprise rollouts requiring months of professional services and ERP customization. Hidden costs include per-transaction fees, lockbox pass-throughs, AI-processing charges, and template setup fees that vendors rarely disclose upfront. Exception-handling transparency matters more than peak automation percentages because ambiguous payments reveal which systems protect accuracy versus inflate match-rate statistics. The Short Version The table below compares the most-cited cash-application vendors. Where public documentation lacks implementation timelines or pricing structures, we’ve marked those cells as validation questions rather than filling gaps with guesses.",
+      "title": "9 Cash Application Questions to Ask Before Buying AR Software"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "be6fcd5f5c9bd794031f480ed750c29bbf91a8d9634923a06a8fa6ff739d5d51",
       "first_seen_at": "2026-11-06T04:38:21.500192+00:00",
-      "published_at": "2026-11-03T04:35:06+00:00",
+      "published_at": "2026-11-02T04:25:45+00:00",
       "source_kind": "html",
       "summary": "In short: A credit note adjusts a finalized invoice without deleting it—preserving the original transaction while changing what your customer owes. The issued credit and the applied credit are separate steps; skip the second and your aging reports will overstate what’s collectible. Credits affect revenue, receivables, and tax treatment, so documentation and timing matter. Unapplied credits create the same reconciliation drag as unapplied cash. Applying credit to future invoices preserves cash; refunds close the obligation with an outbound payment.",
       "title": "How Credit Notes Affect Cash Application and Customer Balances"
@@ -55,7 +65,7 @@
       "company_name": "Blixo",
       "doc_id": "bf8e433dd42f931519782b81b0b56e76a5de20da3fa3b49a4afa951e5eef9e83",
       "first_seen_at": "2026-11-06T04:38:21.500192+00:00",
-      "published_at": "2026-11-04T04:35:06+00:00",
+      "published_at": "2026-11-03T04:25:45+00:00",
       "source_kind": "html",
       "summary": "In short: Manual reconciliation can create 10–15 day close lags because partial payments sit in exception queues while your team researches discrepancies and chases customer documentation. Many finance teams write off invalid deductions rather than contest them. Investigation costs can make sub-$500 write-offs a rational economic choice. Modern AR platforms can connect in days to weeks; legacy ERP migrations can take months. Continuous accounting can replace batch month-end audits. ERP matching logic clears full-amount payments but often leaves short pays for review. The exception queue is driven by outside-the-invoice context—remittance, promotion, delivery, and dispute data—not merely weak ERP matching algorithms. Your ERP closes the books. AR automation handles the work around it: cash application, exception handling, collections, and daily cash visibility. Traditional reconciliation is reactive and batch-driven. Continuous accounting keeps payment records and cash positions current while routing genuinely ambiguous items to review. The meaningful bottleneck is not the matching algorithm’s inability to compare amounts. It is that the algorithm lacks access to the promotion, delivery, trade-deduction, and dispute context that sits in email, portals, and PDFs outside the ERP.",
       "title": "ERP Closes the Books. It Can't Match Short Pays Automatically."

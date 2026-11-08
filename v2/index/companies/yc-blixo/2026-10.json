@@ -75,7 +75,7 @@
       "company_name": "Blixo",
       "doc_id": "3921fa57308ea15b3d0c9a94fdb8fd49a9cbb855180d51558aefecd3dabd158f",
       "first_seen_at": "2026-11-04T07:14:48.318686+00:00",
-      "published_at": "2026-10-31T04:35:06+00:00",
+      "published_at": "2026-10-30T04:25:45+00:00",
       "source_kind": "html",
       "summary": "The Short Version When a finalized invoice charges more than a customer actually owed, issue a credit note for the difference. Don’t edit or delete the original. Changing a finalized invoice can break the audit trail you’ll need for tax compliance. Depending on your agreement and the customer’s payment status, the credit can go back as a refund or sit on the account as an offset against a future charge.",
       "title": "When to Issue a Credit Note: 7 Cases Finance Teams Handle Wrong"
@@ -119,6 +119,16 @@
       "source_kind": "html",
       "summary": "In short: Payment and remittance data arrive through separate channels in the US. AR teams must manually connect bank deposits with explanations. Unmatched payments distort aging reports and inflate DSO, even when customers have paid. Standard ERP matching fails when customers combine invoices into one wire or short-pay by small percentages. Blixo’s matching engine uses machine learning to improve accuracy as teams correct exceptions. The fix is a specialized remittance-parsing layer. It normalizes data from email, EDI, and portals before posting reconciled transactions to your ERP.",
       "title": "When Your ERP Cannot Parse Remittance Data or Match Partial Payments"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "6e5ee2b559716051701ca74d5d896f2053390ea5e66df28714964a6c925fef24",
+      "first_seen_at": "2026-11-04T22:20:08.886966+00:00",
+      "published_at": "2026-10-31T04:25:45+00:00",
+      "source_kind": "html",
+      "summary": "Why Short Pays & Split Invoices Matter In B2B accounts receivable, the problem isn’t late payments. It’s the manual effort that builds up when payments arrive messy. A customer pays five invoices with one wire transfer. The remittance details show up two days later by email. Another customer short-pays an invoice by 8%, and the reason appears as “damaged goods” in a portal you need to log into separately. Until your team matches each payment to the right invoice, that cash sits unapplied—the money is in your bank, but your ERP still shows the invoice as outstanding.",
+      "title": "Accounts Receivable Automation: Rule-Based vs AI Matching for Short Pays and Split Invoices"
     },
     {
       "company_key": "yc-blixo",
