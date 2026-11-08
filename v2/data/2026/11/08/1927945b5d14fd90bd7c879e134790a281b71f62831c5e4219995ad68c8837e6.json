@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1927945b5d14fd90bd7c879e134790a281b71f62831c5e4219995ad68c8837e6",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-do-n8n-execution-limits-work-on-cloud-plans",
+  "canonical_url": "https://www.activepieces.com/blog/how-do-n8n-execution-limits-work-on-cloud-plans",
+  "title": "How Do n8n Execution Limits Work on Cloud Plans?",
+  "summary": "n8n execution limits count Cloud workflow runs as billing charges, not steps.",
+  "body_markdown": "## Treat execution limits as a billing meter\n\n\nAn n8n execution limit is the cap on how many workflow runs, with each run counted as one execution however many steps it contains, that a plan allows in a billing period before you must upgrade or pay for more.\n\n\nHowever many nodes sit in between, one full run of a workflow, from trigger to the last node, is one execution. A workflow that receives a webhook, enriches the record, branches, writes to a database and posts a notification is still one execution.\n\n\nThe meter ticks once per run, so the unit you are budgeting is the trigger, not the node.\n\n\n**Seven steps cost the same as one.**\n\n\nThe illustration below shows one workflow of seven connected nodes inside a bracket labelled \"1 execution\", beside a meter dial reading 1, so the expensive design is the one that splits a single job into several separately triggered workflows.\n\n\nBeside it, a second panel shows a self-hosted server with no meter attached. That's the other side of the same arithmetic, covered next.\n\n\n### Cloud quota versus self-hosted\n\n\nOn n8n Cloud, each plan includes a monthly allowance of executions. Teams that never counted can find the limit in production.\n\n\nBecause the allowance is a contract term, it moves with the plan, not with your hardware.\n\n\nRun self-hosted Community Edition and nothing caps your executions. You pay in servers, upgrades, backups and the hours someone spends keeping it alive, which is a different bill but not a per-run one.\n\n\nIf a vendor makes you book a call to learn what a run costs, treat that as a warning about its pricing.\n\n\nActivepieces publishes its unit: credits meter AI usage, and a flow with no AI step consumes no credits, with 1,000 credits a month on the free plan, so compare the unit before you compare the price.\n\n\nCheck n8n's public pricing page on the day you budget. This section was written on 26 October 2026, drawing on that page and on the documentation for how executions are defined and which edition carries a quota.\n\n\nPlan allowances and prices change, so the page itself is the authority.",
+  "published_at": "2026-11-08T03:23:32+00:00",
+  "first_seen_at": "2026-11-08T07:48:02.427766+00:00",
+  "content_hash": "sha256:f88874c939d168791137579a6a2d369bb7a82317463a908b4f263415fe080f99"
+}

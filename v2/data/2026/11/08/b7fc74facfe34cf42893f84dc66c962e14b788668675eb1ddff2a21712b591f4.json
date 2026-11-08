@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b7fc74facfe34cf42893f84dc66c962e14b788668675eb1ddff2a21712b591f4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/muse-spark-open-benchmarks-and-cost-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/muse-spark-open-benchmarks-and-cost-2026-guide",
+  "title": "Muse Spark Open: Benchmarks and Cost (2026 Guide)",
+  "summary": "Muse Spark Open is Meta's open-weight model for coding and agentic work. Download the weights to run locally or use hosted services like OpenRouter.",
+  "body_markdown": "## Connect Muse Spark Open in a workflow today\n\n\nTo run your side-by-side test you need a way to call the model, so you reach it through general building blocks. Three routes, simplest first:\n\n\n1. An HTTP request step to OpenRouter with the model` meta/muse-spark-open` .\n2. An AI step pointed at an OpenAI-compatible provider.\n3. An MCP server.\n\n\nWith option 1, the HTTP request step, send a POST to OpenRouter, an API gateway that exposes many models behind one endpoint, and set the model field to` meta/muse-spark-open` .\n\n\nYou control the exact payload, so your test prompts go through unchanged. The cost is that you parse the response JSON yourself.\n\n\nWith option 2, an AI step with an OpenAI-compatible provider, your platform's AI step needs to accept a custom base URL and API key. Point it at an OpenAI-compatible endpoint and enter the same model name.\n\n\nYou get the platform's normal prompt and output handling, but check that the step lets you override the model name. Some only offer a fixed dropdown, which rules this route out.\n\n\nOption 3 is an MCP server. MCP (Model Context Protocol) lets an agent call tools through a server.\n\n\nUse this route only if you want the model sitting inside an agent that also uses other tools. For a plain cost-and-speed comparison it adds moving parts without adding information.\n\n\nReselling you a model amounts to choosing your AI step for you, at a price you never got to test Muse Spark Open against.\n\n\nActivepieces has no Muse Spark Open integration, yet it runs whichever model you picked on your own provider key, so the spend sits on your provider account at your rate.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run it that way, and the pricing page lists Bring-Your-Own-Key availability by tier, which you can set against a reseller's per-task charge.\n\n\nWhichever route you pick, map the model's text field, not the whole response object, into the next step: the Slack message body, the ticket description, the spreadsheet cell. A wrong field mapping will make a good model look bad.",
+  "published_at": "2026-11-08T04:33:52+00:00",
+  "first_seen_at": "2026-10-16T03:38:54.071512+00:00",
+  "content_hash": "sha256:ec55058c34cbabc6ca9e2539705b869392314b9d97bc85e7888dc62d913aea43"
+}
