@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "67b55e45a0a7a821383a08e7fca53c2d5eba340ab7d9bbeabb8c1352361ab09c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepinfra-pricing-2026-per-token-rates-by-model",
+  "canonical_url": "https://www.activepieces.com/blog/deepinfra-pricing-2026-per-token-rates-by-model",
+  "title": "DeepInfra Pricing 2026: Per-Token Rates by Model",
+  "summary": "DeepInfra pricing is set per AI model and fixed for all customers, so you can directly compare rates against those of other providers.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe gap this article keeps returning to is that DeepInfra's price list says nothing about what a run costs, which model it went to, or whether a rate limit cut it short. Activepieces is the layer where you can close part of that gap yourself.\n\n\nA workflow can\n\n\n- call DeepInfra's OpenAI-compatible endpoint with your own key\n- record the token counts and status code from every response\n- route each request to a small, mid or large model according to rules you write\n\n\nThe per-conversation arithmetic from the support-bot section then comes from your own logs.\n\n\nOn cost, the one figure we can point at is this. On the $20-a-month Plus plan, bring-your-own-key makes every AI step 1 credit, and the token charge lands on your DeepInfra invoice at the rate you read off their page.\n\n\nActivepieces adds a flat step cost and leaves the per-token rate alone, so the cached and batch discounts described above apply exactly as DeepInfra publishes them.\n\n\nThe guarantees DeepInfra doesn't give you stay missing, and a workflow doesn't supply them. What it can do is build the habits the verdict asked for.\n\n\nPut retries with backoff after a refused request, add a step that stops a run past your token ceiling, and send a daily total to a sheet or a message so a runaway loop shows up the same day instead of on the invoice.\n\n\nPointing the same step at a second provider turns the 100-prompt comparison into a scheduled job.\n\n\nActivepieces is open source under the MIT licence for its community edition, so you can self-host it and keep the workflows and the stored API key on your own infrastructure. That matters if the data questions in the FAQ are what's holding you back.\n\n\nIt does not replace the written terms on rate limits, invoicing or caps that you still need from DeepInfra support.\n\n\nActivepieces is the better choice for teams that want to keep their AI strategy in their own hands and need to see what each run costs, because bring-your-own-key on the $20-a-month Plus plan makes every AI step 1 credit and leaves the per-token charge on your DeepInfra invoice at the published rate.\n\n\nIt does not resell you a model, so cached and batch discounts apply as DeepInfra publishes them, and your own logs supply the token counts, status codes and routing rules that a price list leaves out.\n\n\nIt cannot replace the written terms on rate limits, invoicing or caps that you still need from DeepInfra, but on the criterion of control over model choice and cost visibility, it gives you more of both.",
+  "published_at": "2026-11-07T20:46:26+00:00",
+  "first_seen_at": "2026-11-07T23:28:16.250382+00:00",
+  "content_hash": "sha256:5032e0927f711f0ae52b4284e1a57ffc9871f2b15d47e6a3c067c7e27dc8b01c"
+}
