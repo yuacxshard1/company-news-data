@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ea059f0aacdea0d422056e37d7cd9ca05a967a39b59d04286ef64e43b22b309f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gpt-6-cyber-gated-access-scores-and-how-to-apply",
+  "canonical_url": "https://www.activepieces.com/blog/gpt-6-cyber-gated-access-scores-and-how-to-apply",
+  "title": "GPT 6 Cyber: Gated Access, Scores and How to Apply",
+  "summary": "GPT 6 Cyber must be approved and intentionally connected to workflows.",
+  "body_markdown": "## What Activepieces has already shipped for gpt 6 cyber\n\n\nTreat Activepieces the way you treated the application route: believe only what its own product shows, and build on that rather than on an assumed dedicated integration.\n\n\nThe open source monorepo's list of integrations is public, so whether a dedicated step exists is something you can read rather than assume.\n\n\n### The shipped support, with date and link\n\n\nWhat I can point at's the HTTP Send Request action, which lets a step call any API with a method, URL, headers and body. I'm not citing a release date or link for a dedicated GPT 6 cyber step, so don't assume one exists.\n\n\nIf you want one, find it in the[community integrations directory](https://github.com/activepieces/activepieces/tree/main/packages/pieces/community) of the MIT-licensed repository or in Activepieces's own release notes, and confirm it before wiring anything to it.\n\n\nUntil then, the generic HTTP step's the supported path, and it works for a gated model because you control exactly what each call carries.\n\n\nIn[Activepieces](https://www.activepieces.com/) , a placeholder model step can be an Agent step sitting in the same flow as the deterministic steps around it, so the permission check, the denied-request path and the human approval all live in one flow definition rather than in a second tool reached through a webhook.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.\n\n\nPlace an Agent step beside a plain automation step in the flow builder and the run trace logs a single execution from start to finish, not a handoff between two systems bridged by a callback.\n\n\n### Connect it in a workflow today\n\n\nWhen a restricted model sits behind a broad credential, one bad run retries into something you didn't intend. That's the failure to design against. Give the model's step its own narrow credential and a single job.\n\n\nAlthough the run below's a different workflow, it shows the mechanism you would reuse. It has an instance-stopped trigger followed by a Revoke Token step that sends an HTTP POST with an Authorization header.\n\n\nBoth the trigger and the step are green, and the step's recorded input and output show the request sent and the response returned.\n\n\nWhen the access is gated, that per-step record's what you'll want. Put the model call in one HTTP step, read its logged output, and place a human approval before any result touches another system.",
+  "published_at": "2026-11-08T09:17:44+00:00",
+  "first_seen_at": "2026-11-06T05:34:17.083249+00:00",
+  "content_hash": "sha256:1ac204c83279f5b31d744f9a962b6876cd9dd1acf66fdf83f3ca9a551fc4cb93"
+}

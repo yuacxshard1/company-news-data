@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "809fc7e28306f8fdfeadd45c368978a627df8069bb76717668401a9d0a960f6b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/jumpcloud-api-documentation-rate-limits-pricing",
+  "canonical_url": "https://www.activepieces.com/blog/jumpcloud-api-documentation-rate-limits-pricing",
+  "title": "JumpCloud API: Documentation, Rate Limits, Pricing",
+  "summary": "JumpCloud API rate limits vary by pricing tier and trigger sync failures when exceeded.",
+  "body_markdown": "## JumpCloud API sync failure\n\n\n### What the JumpCloud API is, in one paragraph\n\n\nA script that has to create, update and suspend users without anyone clicking through the admin console goes through JumpCloud's REST API.\n\n\nJumpCloud's a cloud directory service: it holds the user accounts that decide who can sign in to laptops, apps and networks, and the API exposes that directory over HTTPS.\n\n\nThe key's tied to an admin identity, so whoever holds it can change the accounts it reaches.\n\n\nConfirm any limit or endpoint detail in JumpCloud's developer documentation, not here. The reference lives there.\n\n\n### The nightly job and its first error at 02:10\n\n\nPicture a 300-person company. HR drops an export file each night, and a sync script reads it and pushes every change into the directory.\n\n\nThe script's a plain cron job, though you can describe the sync to the built-in chat in[Activepieces](https://www.activepieces.com/) instead: it builds and publishes a real flow you can read, with retries and schedules, and each run appears in run history under the same RBAC and audit logs as a hand-built one.\n\n\nIt starts at 02:10, so nobody is watching when it fails.\n\n\n### Why the first full run failed\n\n\nIt worked in testing because testing used a handful of users. On the first full run it fired requests in a tight loop, and JumpCloud answered with **HTTP 429, \"too many requests.\"**\n\n\nAccording to JumpCloud, that status is a rate limit, not a verdict on the data, so the right response is to wait and retry. This script treated it as a fatal error and exited.\n\n\n### What the failure left behind\n\n\nNo existing staff account was touched, because the run went from export to script to directory and stopped at the rate-limit response. **That outcome was luck, not design** .\n\n\nThere was no backoff, no record of how far the script got, and no alert. The half-finished sync would sit unnoticed until someone's new-hire account failed to appear in the morning.\n\n\nNumbers change, and a copied number goes stale quietly, so this section deliberately carries no rate-limit values, page sizes or quota figures. Where later sections cite a limit, it comes from JumpCloud's own documentation with the check date beside it.",
+  "published_at": "2026-11-08T09:18:14+00:00",
+  "first_seen_at": "2026-11-08T11:29:38.264451+00:00",
+  "content_hash": "sha256:b33a64047f91a3edc4166667bd7a05130b63d0653a588e5c9296e401061418c5"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "34524bd32531b81c6cbe136df54c0e4cddeea003234036fd3219b20ab5c42ba0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/sentry-pricing-2026-developer-team-business-plans",
+  "canonical_url": "https://www.activepieces.com/blog/sentry-pricing-2026-developer-team-business-plans",
+  "title": "Sentry Pricing 2026: Developer, Team, Business Plans",
+  "summary": "Sentry pricing depends on plan type and error volume. Decide between Team and Business plans based on SSO needs and your team's error reporting…",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is Sentry free for small projects?\n\n\nYes, Sentry's free Developer plan is built for small projects and solo work. It meters each event type (errors, performance transactions, session replays, attachments) against its own small monthly quota.\n\n\nA hobby app rarely notices. A project with a noisy front end can use up the error quota early in the month, and then the free plan stops recording until the quota resets.\n\n\nIt also leaves out some collaboration and admin features that paid plans include, so check the plan comparison for the specific feature you need.\n\n\n### Does Sentry charge per seat?\n\n\nAdding a teammate doesn't by itself raise the bill, because Sentry's paid plans are priced on a base fee plus event volume, not per user.\n\n\nWhat does raise it is the traffic that teammate's work generates: a new service, a new environment, or a new release can multiply events. Budget for the number of events you'll send, not the number of people logging in.\n\n\nFeatures gated to a higher tier, such as single sign-on, are a separate reason to move up a plan.\n\n\n### What happens when I exceed my quota?\n\n\nIt depends on whether pay-as-you-go spend is enabled and capped. Without it, events past your quota are dropped, which means you lose visibility during the very spike you most want to see.\n\n\nWith it enabled, Sentry keeps accepting events and bills the overage at the metered rate. With it enabled and capped, you pay up to your cap and then events are dropped again.\n\n\nIt is the uncapped case that turns a small plan into a large invoice, so set the cap deliberately, and review it alongside your alert thresholds.\n\n\n### Is annual billing cheaper than monthly?\n\n\nGenerally yes: Sentry discounts annual commitments relative to paying month to month, though the size of the discount is on the pricing page and can change, so confirm it there.\n\n\nThe saving applies to the plan's included quota, not to overage. If you outgrow your event volume mid-year, you're still paying pay-as-you-go rates on the excess.\n\n\nChoose annual billing only when your volume has been steady for a few months. If it swings, stay monthly and spend the difference on a sensible overage cap.",
+  "published_at": "2026-11-08T09:18:38+00:00",
+  "first_seen_at": "2026-11-03T12:52:57.822665+00:00",
+  "content_hash": "sha256:746f975409bad204769124cd943c49d172fb0ab09c5a1715ea6f997fccd2806e"
+}
