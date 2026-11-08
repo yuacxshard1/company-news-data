@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "888df6ed372537d7b37daf9cabd8770e95726382126b15082f559e09b8e4cd09",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/launchdarkly-pricing-2026-plans-costs-and-usage-fees",
+  "canonical_url": "https://www.activepieces.com/blog/launchdarkly-pricing-2026-plans-costs-and-usage-fees",
+  "title": "LaunchDarkly Pricing 2026: Plans, Costs and Usage Fees",
+  "summary": "LaunchDarkly pricing combines plan tiers with usage meters for service connections, seats, and monthly active users—see what you'll actually pay per plan.",
+  "body_markdown": "## Frequently asked questions\n\n\nDoes LaunchDarkly have a free plan? It's offered a free entry plan for small projects, but its limits are set for evaluation, not production traffic.\n\n\nRead the current caps on the pricing page and measure your own connections against them before assuming it covers a live app.\n\n\nIs LaunchDarkly pricing per seat or per usage? Both. You pay for seats, and you pay separately for usage meters such as service connections, client-side monthly active users, and event volume.\n\n\nSeats are the predictable line; the meters are the ones that grow with traffic, so a small team with a busy app can still see a large bill.\n\n\nCan you pay for LaunchDarkly monthly instead of annually? Billing terms depend on the plan. Self-serve tiers have been offered with monthly payment, while larger plans are typically contracted annually, and the price for those is often available only through sales.\n\n\nAsk for the monthly figure in writing, because an annual-only quote hides what a month of overage costs.\n\n\n### Is there an open-source alternative to LaunchDarkly?\n\n\nYes. Unleash and Flagsmith are open-source flag platforms you can host yourself, and GrowthBook's an open-source tool that pairs flags with experimentation. **Self-hosting removes the per-connection and per-user meters** , but you take on hosting, upgrades, and uptime, which is a cost of its own.\n\n\nOpenFeature's a vendor-neutral standard for flag code, not a service, so adopting it makes a later switch cheaper.\n\n\nWhat should I check before signing a LaunchDarkly contract? Price your own traffic against each meter, then confirm these points:\n\n\n- How the vendor counts a service connection, and whether each server instance or process counts separately\n- How client-side users are counted, and whether anonymous visitors are included\n- What happens when you pass an included limit: a hard stop, an overage rate, or a forced upgrade\n- Whether the renewal price is fixed or resets\n- Whether the quote lists every meter, not just the headline plan\n\n\nIf the sales team can't state these plainly, treat that as part of the price.",
+  "published_at": "2026-11-08T19:15:08+00:00",
+  "first_seen_at": "2026-11-08T20:04:34.704635+00:00",
+  "content_hash": "sha256:927b1924eb09d5ed093188265610ce3b7aeab53e5560a0c2aa3759bda2cd13fb"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7bebd213028361dc46fdb08a89c4874d7f3b3d54a7d1a1e413269a0eb300a06d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/azure-functions-pricing-all-plans-compared-2026",
+  "canonical_url": "https://www.activepieces.com/blog/azure-functions-pricing-all-plans-compared-2026",
+  "title": "Azure Functions Pricing: All Plans Compared (2026)",
+  "summary": "Azure Functions pricing is consumption-based with multiple plan options. Compare 2026 rates across all plans to estimate your monthly bill.",
+  "body_markdown": "## The point where the next plan becomes cheaper\n\n\nWhen your steady pay-per-use charges climb past what a flat Premium instance costs to keep running, the next plan becomes cheaper. For a production app that crossover arrives sooner than the per-execution price suggests.\n\n\nUnder pay-per-use, you are billed for every execution and every second of memory, so a quiet app costs almost nothing and a busy one costs more with every request.\n\n\nA flat plan charges the same whether the instances are busy or idle. Somewhere between those two curves they cross, and past that point you're paying a premium for the privilege of paying per use.\n\n\nPast that crossover, the decision is about what you can defend on an invoice.\n\n\nIf several clients share the account, pay-per-use quietly lets the busiest one run up charges the others split, and a flat plan at least makes the shared cost visible so you can allocate it.\n\n\n### Limits that force a move to another plan\n\n\nCost isn't the only trigger. Some limits force the move before the arithmetic does. Cold starts, private networking and execution time are the usual three.\n\n\nIf users feel the cold-start delay, Flex with always-ready instances is usually cleaner than a timer function that pings your app to keep it warm. The ping burns executions and still doesn't guarantee a warm instance, while always-ready is a line item you can price.\n\n\nWhen a database sits locked behind a private network, Consumption is out, because it is the plan without virtual network integration. That pushes you to Flex or Premium regardless of volume.\n\n\nOn Consumption, long-running jobs hit the ceiling on per-run duration, and that ceiling ends the cost discussion.\n\n\nTreat any break-even figure you find online with suspicion, including ones that look authoritative. They rarely agree because they assume different memory sizes, run durations, regions and free-grant treatment.\n\n\nWhen the function being priced is glue code, a webhook that hands a payload from one app to another, the cheaper option may be not writing and hosting it at all.\n\n\nOn Azure, splitting that glue into smaller, more reliable integrations adds executions and GB-seconds to the bill, so the meter punishes good structure.\n\n\nActivepieces meters the run instead: a flow is 1 credit whether it has two steps or ten, and the Free plan's 1,000 credits a month come with unlimited flows.",
+  "published_at": "2026-11-08T19:28:21+00:00",
+  "first_seen_at": "2026-11-08T20:04:34.704635+00:00",
+  "content_hash": "sha256:a612e206e16be75a288639b0f0a8eb591e71b0128c3985fa82c87e37613033ae"
+}
