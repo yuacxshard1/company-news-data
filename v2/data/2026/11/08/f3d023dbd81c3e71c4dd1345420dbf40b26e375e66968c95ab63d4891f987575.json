@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f3d023dbd81c3e71c4dd1345420dbf40b26e375e66968c95ab63d4891f987575",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/fastly-pricing-2026-plans-per-tb-costs-and-add-ons",
+  "canonical_url": "https://www.activepieces.com/blog/fastly-pricing-2026-plans-per-tb-costs-and-add-ons",
+  "title": "Fastly Pricing 2026: Plans, Per-TB Costs and Add-Ons",
+  "summary": "Fastly pricing is based on usage, not your plan card selection. Determine your real monthly cost by calculating bandwidth, requests, and add-ons.",
+  "body_markdown": "## Every current Fastly plan with price and limits\n\n\nFastly sells three plans: a free developer tier, pay-as-you-go, and a committed contract. I couldn't verify any dollar minimum or free allowance for them, so each plan below carries a flag where a figure is missing.\n\n\nConfirm every price on fastly.com/pricing before it reaches your budget.\n\n\n### Fastly free developer tier pricing and limits\n\n\nThis is for developers testing a service or running a hobby project, and it's self-serve. Fastly describes its developer accounts in the post linked above. I couldn't verify the current free allowance, so read it off the pricing page.\n\n\nTreat it as a capped trial, not a place to run production.\n\n\n### Fastly pay-as-you-go plan pricing\n\n\nThis is the plan for most small production apps. It's self-serve, billed purely on usage, with rates published per unit. The only rates I could source are bandwidth: $0.12 to $0.08 per GB in North America and Europe, covered below, leaving request costs unavailable.\n\n\nI couldn't verify whether a monthly minimum applies. If one does, it is the real cost for a tiny app.\n\n\n### Fastly committed contract pricing for enterprises\n\n\nThis is for high-volume or security-heavy teams, and it's quote-only. The minimum, allowance and overage rate are set in negotiation, and the contract bundles CDN, WAF, DDoS, compute and support.\n\n\nNo published minimum exists, so I can't give you one, and no break-even calculation involving it is reliable until a quote arrives.\n\n\nAsk for the minimum commitment, the overage rate and the support terms in writing, then run your own traffic through them. Pay-as-you-go gives you rates to divide by; the committed contract doesn't until someone sends one.",
+  "published_at": "2026-11-08T22:10:11+00:00",
+  "first_seen_at": "2026-11-09T05:01:12.989749+00:00",
+  "content_hash": "sha256:cd6f23410c4932e9332f29ae732d65962ee93aeaf57fe1e7d4f96e345bf3282e"
+}

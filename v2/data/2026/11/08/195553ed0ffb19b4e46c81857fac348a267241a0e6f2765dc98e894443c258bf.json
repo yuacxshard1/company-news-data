@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "195553ed0ffb19b4e46c81857fac348a267241a0e6f2765dc98e894443c258bf",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/ideogram-api-pricing-in-2026-and-cost-per-image",
+  "canonical_url": "https://www.activepieces.com/blog/ideogram-api-pricing-in-2026-and-cost-per-image",
+  "title": "Ideogram API Pricing in 2026 and Cost per Image",
+  "summary": "Ideogram API pricing ranges from $15 to $60 monthly per seat, but you'll also pay per image generated, making total cost variable.",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce spend is logged per call, the questions left are about the terms around those rows. Each answer below depends on the page it came from, so treat it as true on the date you read it.\n\n\nWe haven't confirmed a standing free API tier. The free plan is a web allowance of limited credits and limited concurrency, and that allowance is a different meter from API calls.\n\n\nBudget the API from the first call, and treat any trial credit as a one-off that shouldn't appear in a monthly forecast.\n\n\n### Can I use Ideogram images commercially?\n\n\nWhether you can use an image commercially depends on the terms of the plan you generated under, not on the image itself. Free-plan terms are the ones to read most closely, because they tend to be the most restrictive.\n\n\nIf the images will go into a product or an ad, generate them on a paid plan or through the API, and keep a copy of the terms as they stood on that date.\n\n\nThe practical consequence is that a team prototyping on the free plan may have to regenerate the final assets, which adds discards to the budget.\n\n\n### Is the Ideogram API billed separately from a subscription?\n\n\nPlan on two meters. Subscription credits cover the web app, while API usage is charged on its own balance, so a paid plan doesn't make API calls free.\n\n\nThe cost is that a team using both pays twice for the same kind of image, and the monthly bill needs one line for each route.\n\n\nRecord which route produced each row in your per-call log, so the totals don't blend.\n\n\n### Do failed or blocked generations cost credits?\n\n\nWe haven't confirmed whether a failed or blocked request is refunded in every case, and the answer may differ between the web app and the API. Until you have tested it, assume a blocked prompt may still use up a call.\n\n\nRun a small batch of deliberately rejected prompts, compare the balance before and after, and record the result. That tells you whether blocked requests belong in your discard count or outside it.\n\n\n### How often does Ideogram change its prices?\n\n\nWe found no published schedule, so assume prices can change without notice. Annual and monthly rates, model tiers and credit allowances are all separate levers that can move independently.\n\n\nDate every price you copy into a budget sheet and recheck it before each billing cycle. A forecast built on an undated number can drift away from the invoice without anyone noticing.",
+  "published_at": "2026-11-08T23:39:10+00:00",
+  "first_seen_at": "2026-11-09T05:01:12.989749+00:00",
+  "content_hash": "sha256:342f783234b7a7152b5015ba0ddccbc316fe8ec25b5dbbe2e55169f57c064d8f"
+}

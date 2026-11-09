@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "607ac8b5d37a783bd1e2169eece2cdb901efd6118cd54446312104c65f51cf7d",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/reddit-rss-feeds-error-429-error-404/13890#post_15",
+  "canonical_url": "https://forum.newsblur.com/t/reddit-rss-feeds-error-429-error-404/13890",
+  "title": "Reddit RSS Feeds Error 429/Error 404",
+  "summary": "Not sure if this is related to this topic: All my reddit feeds as of yesterday were showing first Error 429 (API limit reached) now Error 404 (not found). If I manually paste one of these into a browser (example https://www.reddit.com/r/nvidia/hot/.rss ) it is able to load and shows content. Short term is there a fix? Long term: Is newsblur still using the RSS directly or does it actually use the API access on the backend and access will be able to continue?",
+  "body_markdown": "NewsBlur already uses Reddit’s authenticated API for subreddit feeds, even though the subscription URL still ends in .rss. I checked the server logs, and Reddit is currently rejecting API requests with 403 errors. NewsBlur is incorrectly displaying those failures as 404, which explains why the RSS URL can still work in your browser.\n\n\nThe earlier 429 errors indicate rate limiting. There isn’t a confirmed workaround yet, and using the API doesn’t guarantee continued access if Reddit changes its restrictions. You don’t need to change your subscription URLs.",
+  "published_at": "2026-10-27T23:41:59+00:00",
+  "first_seen_at": "2026-10-14T19:20:02.869652+00:00",
+  "content_hash": "sha256:2c4beb666da704ba00a4ab56559b8d8194f0edaf38650ece695564b2f72f4a3c"
+}
