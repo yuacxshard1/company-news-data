@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ebc41cc2776e4413da1689fbe4f4de56778f3838f6991fa9ccf9ab0f1595c76e",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/mcp-apps-cards",
+  "canonical_url": "https://www.windmill.dev/changelog/mcp-apps-cards",
+  "title": "Windmill cards in Claude and ChatGPT",
+  "summary": "MCP clients that support MCP Apps, such as Claude and ChatGPT, can show Windmill runs, run tables, deploy reviews and workspace items as interactive cards in the conversation, through four new tools on the /api/mcp server.",
+  "body_markdown": "### [Windmill cards in Claude and ChatGPT](https://www.windmill.dev/changelog/mcp-apps-cards)\n\n\nMCP\n\n\nAI\n\n\n[v1.851.0](https://github.com/windmill-labs/windmill/releases/tag/v1.851.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/mcp#cards-in-the-conversation)\n\n\nMCP clients that support MCP Apps, such as Claude and ChatGPT, can show Windmill runs, run tables, deploy reviews and workspace items as interactive cards in the conversation, through four new tools on the /api/mcp server.\n\n\n#### New features\n\n\n- show_run: a live run with its status, result, logs and flow steps, and a Cancel run button while it runs.\n- show_runs: up to 20 runs as a table.\n- show_deploy_review: drafts with their diff, deployed when you check them and click Deploy.\n- show_item: a script, flow, schedule, trigger, resource, app or saved AI agent, with links to its editor and page.\n- Each card has an inline view and a fullscreen view.",
+  "published_at": "2026-10-27T00:00:00+00:00",
+  "first_seen_at": "2026-11-09T12:15:25.957599+00:00",
+  "content_hash": "sha256:ad8fc695dc21ad4f670c82d267f072de7f762eddcd22ce449007159b87f52eac"
+}

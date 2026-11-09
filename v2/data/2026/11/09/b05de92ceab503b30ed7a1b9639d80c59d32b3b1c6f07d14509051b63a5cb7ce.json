@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b05de92ceab503b30ed7a1b9639d80c59d32b3b1c6f07d14509051b63a5cb7ce",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/nvidia-nim-pricing-in-2026-free-tier-and-license-cost",
+  "canonical_url": "https://www.activepieces.com/blog/nvidia-nim-pricing-in-2026-free-tier-and-license-cost",
+  "title": "NVIDIA NIM Pricing in 2026: Free Tier and License Cost",
+  "summary": "NVIDIA NIM pricing offers free access with limits plus paid tiers for production workloads. Compare costs across plans and the constraints of free usage.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is NVIDIA NIM free for commercial use?\n\n\nNo: the hosted API on build.nvidia.com's a prototyping allowance, and running NIM containers in production requires an NVIDIA AI Enterprise licence per GPU. The alternative is paying a partner host a per-token rate.\n\n\nA free trial that quietly becomes a product dependency is the expensive mistake here, so decide which paid route you are on before launch, not after.\n\n\n### Do I need a GPU to use NVIDIA NIM?\n\n\nOnly if you self-host. Calling the hosted API or a partner's endpoint needs nothing but an HTTP client, so your laptop is fine.\n\n\nRunning the container yourself needs an NVIDIA GPU that the specific model supports, and each model's documentation lists its supported hardware. Smaller models may fit on a workstation card, but check that list before you buy hardware. Don't assume a gaming card's covered.\n\n\n### How many free requests does build.nvidia.com allow?\n\n\nI won't quote a number for the free tier's per-minute cap, because NVIDIA can change it and your account page's the authority.\n\n\nWhat matters is the behaviour: once you pass the cap, requests are rejected or throttled rather than billed. That's fine for a demo and a poor foundation for anything with real users.\n\n\nTreat the limit as a signal that you have outgrown prototyping, not as a ceiling to engineer around with retries.\n\n\n### Is NIM cheaper than the OpenAI API?\n\n\nIt depends on volume, and that's the whole decision. A per-token rate from a partner scales with usage, so it wins while your traffic is light or uneven.\n\n\nThe AI Enterprise licence is a fixed cost per GPU, so it only wins once you keep that card busy enough to spread the fee across many tokens.\n\n\nAdd the engineering time to run and patch the containers, and the break-even sits higher than a simple price comparison suggests. Below saturation, pay per token. Run the arithmetic with your own monthly token count before committing to a licence.\n\n\n### Can I automate NIM calls without writing code?\n\n\nYes. NIM endpoints speak an HTTP API, so any tool that can send a web request can call one.\n\n\nOne optional way to do it is Activepieces, an open-source workflow automation tool: you configure an HTTP step against the endpoint and add a second step that logs each call's usage.\n\n\nThat log gives you a running token count, which is the number you need to decide whether a licence ever pays off.",
+  "published_at": "2026-11-09T09:18:34+00:00",
+  "first_seen_at": "2026-11-07T23:28:16.250382+00:00",
+  "content_hash": "sha256:e7f6fd4fe65320e19eeb378310536ccccecd7086ec74739c9fdefbd4d66f5017"
+}

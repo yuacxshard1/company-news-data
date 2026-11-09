@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "195822214e5ee88071e064ce469399eaa81435f00342561d8b066590b5799d98",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/mcp-ai-session-toolset",
+  "canonical_url": "https://www.windmill.dev/changelog/mcp-ai-session-toolset",
+  "title": "Build and run from your AI client over MCP",
+  "summary": "Windmill's MCP server now has one URL, /api/mcp, and serves the tools of an AI session. Claude, ChatGPT, Cursor or any MCP client can explore a workspace, write scripts, flows and apps as your drafts, test-run, diff and deploy them, and run what is deployed. The access chosen at sign-in or on the token decides which tools the client gets.",
+  "body_markdown": "### [Build and run from your AI client over MCP](https://www.windmill.dev/changelog/mcp-ai-session-toolset)\n\n\nMCP\n\n\nAI\n\n\n[v1.844.0](https://github.com/windmill-labs/windmill/releases/tag/v1.844.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/mcp)\n\n\nWindmill's MCP server now has one URL, /api/mcp, and serves the tools of an AI session. Claude, ChatGPT, Cursor or any MCP client can explore a workspace, write scripts, flows and apps as your drafts, test-run, diff and deploy them, and run what is deployed. The access chosen at sign-in or on the token decides which tools the client gets.\n\n\n#### New features\n\n\n- One URL, <base_url>/api/mcp: the client signs in and you choose its workspaces and access.\n- Access levels: Build and run (default), Read and run, Read only, or Scripts and flows as tools, each listing the tools the client gets.\n- A token reaches one workspace, several, or all of yours including ones you join later.\n- Scripts, flows, apps and their settings are written as your drafts; tools return links to runs, draft editors and deployed items.\n- Legacy MCP URLs keep serving existing tokens.",
+  "published_at": "2026-10-21T00:00:00+00:00",
+  "first_seen_at": "2026-11-09T12:15:25.957599+00:00",
+  "content_hash": "sha256:36c530b08ede451a0f8a549d2735d84e496e74eb1c2665311a1a05620f4b3d00"
+}
