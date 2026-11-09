@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f2d03ffeac81380262e76fb4200153a9d1c167b8f613afc8c4290236ffb0e031",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/linkedin-sales-navigator-pricing-2026-all-3-plans",
+  "canonical_url": "https://www.activepieces.com/blog/linkedin-sales-navigator-pricing-2026-all-3-plans",
+  "title": "LinkedIn Sales Navigator Pricing 2026: All 3 Plans",
+  "summary": "LinkedIn Sales Navigator pricing offers Core for solo users, Advanced for teams, and Advanced Plus with CRM sync.",
+  "body_markdown": "## Move Sales Navigator leads into your CRM with Activepieces\n\n\nOnce leads are saved or exported from Sales Navigator, Activepieces can create the CRM record, notify the owner and set a follow-up in a single run, and a run costs 1 credit however many steps it has.\n\n\nThe free plan includes 1,000 credits a month and unlimited flows, so the handoff costs $0 where a paid sync tier costs extra.\n\n\n### When a workflow beats paying for CRM sync\n\n\nThis fits at the early stage of adoption, when one team is handling a modest volume of leads and the handoff is the only manual step. It doesn't replace Sales Navigator.\n\n\nIt starts where your search and saving end, so you still pay for the plan that finds the people.\n\n\nThe gap it closes is the copy-and-paste between your saved list and your CRM.\n\n\nA sync tier only reaches the CRMs LinkedIn decides to build for, while a missing connector in Activepieces can be generated with AI and added privately to your own instance, with no vendor release to wait on.\n\n\nRoughly 60% of its 747 integrations are community-contributed, and the core is MIT-licensed, so the catalogue is open to inspect on GitHub.\n\n\nIf you need new contact data that LinkedIn doesn't supply, you're back at the database tools from the previous section.\n\n\n### What the workflow looks like\n\n\nWhen a lead arrives from your export or form, a typical flow catches it with a \"Catch Webhook\" trigger. It then runs a \"Code\" step to tidy names and company fields, writes the CRM record and messages the account owner.\n\n\nIn the builder's version history panel, two saved versions of exactly this kind of flow show, each with a timestamp and status, so you can see what changed and return to the earlier one when an edit breaks something.\n\n\nOpen the same builder menu and you'll find Duplicate and Push to Git, which is how a working flow becomes a template for the next team, and template reuse is the lever that spreads the pattern without another build.\n\n\n### What not to automate on LinkedIn\n\n\nKeep the automation on your side of the handoff. LinkedIn restricts scraping and automated activity on its own pages, so don't build flows that pull profiles out of Sales Navigator, click through results or send messages on your behalf.\n\n\nFeed Activepieces only what you have saved or exported through the product's own features, and your account stays clear of the rules the workflow was meant to respect.\n\n\nOnce exported, the lead data is encrypted in transit and at rest on Activepieces Cloud, which has an EU region in Frankfurt, or it can stay on your own servers.",
+  "published_at": "2026-11-09T18:54:04+00:00",
+  "first_seen_at": "2026-11-09T21:14:54.840761+00:00",
+  "content_hash": "sha256:e8bcd0f162fd5ad59a62f8165694f9ea0e4aef3adf019aedcec5b4536cfffa8e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2807abb030d405fe1bc45df9fbf0b83354ea88dc1a2ff2f6dd10ebee2e99d6a9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/",
+  "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
+  "summary": "Discover more about what's new at AWS with Amazon Athena introduces system tables for observability, auditing, and usage analytics",
+  "body_markdown": "[Amazon Athena](https://aws.amazon.com/athena/) now offers system tables which automatically capture your usage data and make it available for observability, usage analysis, and audit use cases. When you enable system tables, usage data is available within minutes of query completion across your workgroups and stored as service-managed, read-only Iceberg tables on[Amazon S3 Tables](https://aws.amazon.com/s3/features/tables/) with configurable retention. You can query it directly with Athena, while AWS manages the tables for you, including schema definition, partitioning, compaction, and snapshot maintenance, removing all operational burden.\n\n\nAthena provides usage data through APIs like GetQueryExecution, CloudWatch metrics, and CloudTrail logs. With this launch, usage data is also available as iceberg tables that you can search, filter, aggregate, and join directly without building or maintaining custom pipelines. Platform teams can query the query_executions table to build cost allocation dashboards that show data scanned by workgroup, by user, or by table using simple SQL statements, and without custom ETL. Additionally, the[AWS Agent Toolkit](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills) provides skills for querying system tables to surface usage patterns and optimization recommendations. Because the data is stored in the open Apache Iceberg format, you can also query it with[DuckDB](https://duckdb.org/) ,[Amazon Redshift,](https://aws.amazon.com/pm/redshift/?trk=de3518c5-eb66-4ef5-ab94-ec69c34b86df&sc_channel=ps&ef_id=CjwKCAjws_DTBhB_EiwAXZknGRt-CfJCeVl3UL127isQ9p0q7arv1kekRNZF_pd22P4m8ReyZkhvahoCNwYQAvD_BwE&gads_camp=23522747487&gads_ag=196433734207&gads_ad=795876995213&gads_kw=amazon%20redshift&gads_matchtype=e&gads_network=g&gads_device=c&gads_geo=1027744&gad_campaignid=23522747487&gbraid=0AAAAADjHtp9cwZBKiv30JXu5qrPDkKSyb&gclid=CjwKCAjws_DTBhB_EiwAXZknGRt-CfJCeVl3UL127isQ9p0q7arv1kekRNZF_pd22P4m8ReyZkhvahoCNwYQAvD_BwE)[Amazon EMR](https://aws.amazon.com/emr/) or any other Iceberg-compatible engine.\n\n\nAthena system tables are available in all AWS Regions where Athena and Amazon S3 Tables are available. To get started, enable system tables from the Athena console or API. To learn more, visit the Amazon Athena[documentation](https://docs.aws.amazon.com/athena/latest/ug/athena-system-tables.html) or the[blog](https://aws.amazon.com/blogs/big-data/amazon-athena-introduces-system-tables-for-query-execution-observability/) .",
+  "published_at": "2026-11-09T16:00:00+00:00",
+  "first_seen_at": "2026-11-09T21:15:27.380621+00:00",
+  "content_hash": "sha256:37bfe9145f57e668626f3f18ffad7d33a6185739bde248a78a1d0186483fac97"
+}

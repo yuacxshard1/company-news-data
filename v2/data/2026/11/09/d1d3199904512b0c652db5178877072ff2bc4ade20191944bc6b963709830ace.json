@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d1d3199904512b0c652db5178877072ff2bc4ade20191944bc6b963709830ace",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-graphover-datalakes-generally-available",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-graphover-datalakes-generally-available",
+  "title": "Introducing an open-source UI for graph analytics over data lakes with Amazon Neptune Analytics",
+  "summary": "Discover more about what's new at AWS with Introducing an open-source UI for graph analytics over data lakes with Amazon Neptune Analytics",
+  "body_markdown": "Today, AWS is introducing an open-source solution with a local web UI that helps customers turn data lake records into graphs for analysis with Amazon Neptune Analytics. By projecting selected records and relationships, customers can investigate connections across tables and run graph algorithms without building their own ETL pipelines.\n\n\nFor example, a customer could project accounts and transactions into a graph to explore how accounts are connected or identify communities that may warrant investigation. Doing this today often means writing queries to prepare node and relationship data, creating a Neptune Analytics graph, and managing the import. Customers may also need to build a selective projection so they do not load an entire dataset for a narrower question.\n\n\nThe new UI brings those steps into single workflow. To run graph analytics over iceberg tables, customers select an Athena catalog and database, define a property graph using SQL/PGQ, and preview rows before import. The solution runs the projection queries through Athena, stages the selected data in Amazon S3, and imports it into Neptune Analytics. The UI helps customers manage the resulting graph. They can open the loaded graph in Graph Explorer to query and visualize relationships.[\\[1\\]](https://github.com/awslabs/nx-neptune)\n\n\nThe UI runs locally and it is available in all regions where Amazon Neptune Analytics is available. To get started, see the[setup instructions](https://github.com/awslabs/nx-neptune/blob/main/proxy/README.md) .",
+  "published_at": "2026-11-09T17:00:00+00:00",
+  "first_seen_at": "2026-11-09T21:15:27.380621+00:00",
+  "content_hash": "sha256:803f7a4a48de1c63492637539a4470ea997fe292218fb95a3b471e16ef427807"
+}

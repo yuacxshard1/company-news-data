@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4d1c8ac5b4b25322fa7369ed72834553463653979df613bff6c0054c757a72bc",
+  "company_key": "yc-afterquery",
+  "company_name": "AfterQuery",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.afterquery.com/blog/crosssearch",
+  "canonical_url": "https://www.afterquery.com/blog/crosssearch",
+  "title": "CrossSearch: A Benchmark for Agents That Cross-Reference Local Files and the Web",
+  "summary": "CrossSearch is a benchmark of expert-written tasks that need both local files and live web evidence.",
+  "body_markdown": "Take the task example above. A hospital pharmacist wants to know if a new order of apixaban (a blood thinner) at 5 mg twice a day is right for this patient. The dosing rule is on DailyMed, which says the dose should drop to 2.5 mg twice a day if at least two of three conditions are met: age 80 or older, weight 60 kg or less, and serum creatinine 1.5 mg/dL or higher. We saved an archived copy of this label for grading, but the agent never sees it and has to find the current label on the web. The pharmacist’s workspace contains a PDF and photos with the patient’s details, including age 79, weight 59 kg and creatinine 1.7 mg/dL. The agent must combine the label’s rule with the patient’s details to see that two of the three conditions are met, making 2.5 mg the correct dose, and ignore distractors such as an older lab panel. The task has an atomic rubric listing every fact the answer needs and the evidence behind it. An answer gets full credit only if it meets every item. We used these rubrics to evaluate twelve models from six labs on all 100 tasks.",
+  "published_at": "2026-11-08T00:00:00+00:00",
+  "first_seen_at": "2026-11-09T21:07:24.698423+00:00",
+  "content_hash": "sha256:997938def536f4753009a96ae77c6a0c8090760c9e9ab2ec073e485026e45572"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5d3161b951358e6d47646c84c385b5ee2617849633d5b114043909cd666257ec",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-custom-operators/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-custom-operators/",
+  "title": "Amazon MWAA Serverless now supports custom and provider package operators",
+  "summary": "Discover more about what's new at AWS with Amazon MWAA Serverless now supports custom and provider package operators",
+  "body_markdown": "Amazon MWAA Serverless now supports operators from Apache Airflow provider packages, such as HTTP, Snowflake, or dbt, and custom operators that you write. This gives data engineers the flexibility to integrate with more systems and build specialized workflow tasks without provisioning infrastructure.\n\n\nTo get started, add the provider package or your own operator to a code package, upload it to Amazon S3, and reference the operator in your workflow definition when you create or update a workflow.\n\n\nThis feature is available in all AWS Regions where Amazon MWAA Serverless is available. For a list of supported Regions, see[Amazon MWAA Serverless Regions](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/what-is-mwaa-serverless.html#regions) . To learn more, see[Running custom code with Python, Bash, and custom operators](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/custom-code-operators.html) in the Amazon MWAA Serverless User Guide.",
+  "published_at": "2026-11-06T18:00:00+00:00",
+  "first_seen_at": "2026-11-09T21:15:27.380621+00:00",
+  "content_hash": "sha256:c384cd079ea9aa25ec07562f514c988818f28ac4e30c1db64abdae2de49ef046"
+}

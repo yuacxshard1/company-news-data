@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ac83de0c9ab46a0b9dc43037d58a5c6d10f7fa81c35ea3b8f0c971f534d9596b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-fsx-regions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-fsx-regions/",
+  "title": "Amazon S3 Access Points for Amazon FSx are now available in additional AWS Regions",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Access Points for Amazon FSx are now available in additional AWS Regions",
+  "body_markdown": "You can now attach Amazon S3 Access Points to your Amazon FSx for NetApp ONTAP file systems in 4 additional AWS Regions, and to your Amazon FSx for OpenZFS file systems in 20 additional AWS Regions. With this capability, your file data in Amazon FSx is accessible for use with the broad range of artificial intelligence, machine learning, and analytics services and applications that work with S3, while your data continues to reside on your FSx file system.\n\n\nAn S3 Access Point for Amazon FSx is an S3 endpoint that gives S3-based applications and services access to the data on your FSx file system through the Amazon S3 API, without copying or moving that data. For example, you can connect generative AI applications and agents to your file data with Amazon Bedrock Knowledge Bases so they deliver relevant, contextual responses. Users can query the same data in place with Amazon Athena or transform it with AWS Glue, and you can share files with partners over SFTP, FTPS, and FTP using AWS Transfer Family. You can also access your files from serverless compute such as Amazon ECS and AWS Fargate, or from your own S3-based applications.\n\n\nAmazon S3 Access Points for FSx for ONTAP and FSx for OpenZFS are now available in additional AWS Regions across North America, South America, Europe, Asia Pacific, and Africa. For the full list of AWS Regions supported for each file system, see the[FSx for ONTAP](https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/accessing-data-via-s3-access-points.html#access-points-for-fsx-ontap-supported-regions) and[FSx for OpenZFS](https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/s3accesspoints-for-FSx.html#access-points-for-fsx-openzfs-supported-regions) user guides. Get started by creating and attaching S3 Access Points using the Amazon FSx console, the AWS Command Line Interface (AWS CLI), or the AWS Software Development Kit (AWS SDK). To learn more, visit the[Amazon FSx for NetApp ONTAP](https://aws.amazon.com/fsx/netapp-ontap/) and[Amazon FSx for OpenZFS](https://aws.amazon.com/fsx/openzfs/) product pages, the[Amazon S3 Access Points page](https://aws.amazon.com/s3/features/access-points/) , and the FSx for[ONTAP](https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/accessing-data-via-s3-access-points.html) and[OpenZFS](https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/s3accesspoints-for-FSx.html) user guides.",
+  "published_at": "2026-11-09T08:00:00+00:00",
+  "first_seen_at": "2026-11-09T21:15:27.380621+00:00",
+  "content_hash": "sha256:762147496fe493a67a022acf348e7e67ae9f3dce9b7183d6b265c533a375f3c2"
+}

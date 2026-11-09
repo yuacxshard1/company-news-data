@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a2a904c1311d72e982c95216ec321fb41c8986514920861b98a09dfe67ab9b7a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-365-pricing-plans-and-costs-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-365-pricing-plans-and-costs-2026-guide",
+  "title": "Microsoft 365 Pricing: Plans and Costs (2026 Guide)",
+  "summary": "Microsoft 365 pricing varies by plan level, starting with basic options. Compare monthly costs and features across all tiers.",
+  "body_markdown": "## Fix Microsoft 365 licence drift with Activepieces\n\n\nReview seats monthly, write down the billing-term decision when you make it, and give every add-on a named owner.\n\n\nMicrosoft's own admin tools cover most of that, and Activepieces fills the one gap they leave, which is a recurring check of licences against the leaver list.\n\n\n### What Microsoft's admin tools already do\n\n\nTo spot a seat nobody has used lately, the Microsoft 365 admin centre is enough: it shows which licences are assigned and which are unassigned, and it can report on sign-in activity.\n\n\nA person doing the review has the evidence in front of them without buying anything.\n\n\nTie a licence to a group and removing someone from the group takes the licence away. That is group-based licensing in Microsoft Entra ID (the directory behind the tenant), and it goes further than the reports.\n\n\nThe drift then stops depending on whether someone remembered a separate step when a person left.\n\n\nNothing in the native tools tells you that a leaver on the HR list still holds a paid seat, and they don't remind you to review either.\n\n\nBoth depend on a person opening the right page on the right day, and that's the first thing to lapse in a busy month.\n\n\nWrite your decisions about billing term and add-on ownership in a record next to the review, because nothing in the admin centre records why you chose them.\n\n\n### A monthly licence audit workflow\n\n\nThis audit can run on a schedule in Activepieces, an open-source automation tool with a visual flow builder. The workflow is short: a timer trigger, a step that reads assigned licences from Microsoft 365, and a step that reads the leaver list from a spreadsheet.\n\n\nA last step compares the two and sends a message listing the matches.\n\n\nThe builder makes the wiring easy to see. The screenshot shows a three-step flow on the canvas with an hourly trigger, while the open step selector, searched for \"sheet\", lists Microsoft Excel 365 and Google Sheets among the integrations you can drop in.\n\n\nTake from the screenshot that the leaver list can live in whichever spreadsheet your team already keeps, and that you swap the trigger to monthly rather than hourly.\n\n\nNext, the design rule that matters more than the tooling: the workflow only flags. It posts the names of people who hold a licence and appear on the leaver list to whoever owns the review, and that person approves each removal.\n\n\nIf removal were automatic, it would eventually take a seat from someone who still needs it, and an unwanted removal costs more than a month of one unused seat.",
+  "published_at": "2026-11-09T18:58:11+00:00",
+  "first_seen_at": "2026-11-09T21:14:54.840761+00:00",
+  "content_hash": "sha256:a3b7fb23f176052b895537829a08b96ec9c9ab388147aea31a42c709078b92ec"
+}
