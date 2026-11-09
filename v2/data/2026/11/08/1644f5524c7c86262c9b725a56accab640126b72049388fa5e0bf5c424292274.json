@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1644f5524c7c86262c9b725a56accab640126b72049388fa5e0bf5c424292274",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/inngest-pricing-2026-plans-limits-and-overage-costs",
+  "canonical_url": "https://www.activepieces.com/blog/inngest-pricing-2026-plans-limits-and-overage-costs",
+  "title": "Inngest Pricing 2026: Plans, Limits and Overage Costs",
+  "summary": "Inngest pricing tiers include base fees plus per-invocation charges that vary by volume. Compare what you'll actually pay at different usage levels.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe problem in this article is that Inngest's bill follows steps, retries and fan-out, so the number you budget on is not the number you pay. Activepieces changes the unit. Its published pricing meters the flow run at 1 credit and nothing inside it.\n\n\n**A seven-step flow that bills as 8 executions** on Inngest is one credit, and so is the same flow after you add retries or branches. Step count stops being the thing you have to optimise.\n\n\nThat only helps for some workloads. Activepieces is not a replacement for Inngest's code-first durable functions, and if your busiest function is long-running application logic, the comparison doesn't apply. It fits where the \"background jobs\" are really business workflows: webhooks, CRM updates, email, approvals.\n\n\nThose are often the ones that fan out most and that non-developers end up maintaining. There are 747 integrations available for that kind of work. MoneyGram, Moneypenny, Alan and FundingSocieties run it in production.\n\n\nThe core is MIT-licensed, so the self-hosting option from the previous section is available without a licence negotiation. You still swap the per-run meter for servers and on-call hours, and that trade pays off only at high, steady volume.\n\n\nAt low volume, a managed free tier is usually cheaper, whichever tool you pick.\n\n\nTo test this against your own workload, take the step counts you pulled from your logs and split your functions into two groups. Price the code-heavy ones on Inngest as above.\n\n\nFor the workflow-shaped ones, count runs only, multiply by the credit rate on the Activepieces pricing page, and compare that total with the retry-adjusted Inngest figure.\n\n\nCheck the concurrency and retention limits on that page too, as you would for any plan, because a low sticker price is the wrong comparison there as well.",
+  "published_at": "2026-11-08T21:44:32+00:00",
+  "first_seen_at": "2026-11-09T00:25:21.282703+00:00",
+  "content_hash": "sha256:d86b50afc3b96ad0c9673066ab90c09f18d3fcdf19697afa0ef24c79a759837a"
+}

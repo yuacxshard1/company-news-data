@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a2a0f3d4f131766a0dc8e24c2f8c45da0d9ff2b81f4da218c398e806bcd82a7e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/honeycomb-pricing-2026-plans-costs-free-tier",
+  "canonical_url": "https://www.activepieces.com/blog/honeycomb-pricing-2026-plans-costs-free-tier",
+  "title": "Honeycomb Pricing 2026: Plans, Costs & Free Tier",
+  "summary": "Honeycomb pricing is based on event volume, not seats. Understand how each plan is charged to budget for your observability platform.",
+  "body_markdown": "## Routing Honeycomb alerts into workflows with Activepieces\n\n\nYour Honeycomb bill won't move because of[Activepieces](https://www.activepieces.com/) .\n\n\nIt only decides where an alert goes after Honeycomb fires it, and with an MIT-licensed core and 747 integrations it covers a lot of destinations, so it belongs in the stack only if your routing needs outgrow what Honeycomb already does itself.\n\n\nSince the units above only forecast once you've counted your own events, treat this as a question of plumbing, not of cost.\n\n\n### When Honeycomb's native alert integrations are enough\n\n\nIf an alert needs to land in one Slack channel, or page one on-call tool, Honeycomb's own notification integrations already do that.\n\n\nAdding a workflow tool in between means one more service to run, one more place for an alert to fail silently, and one more thing to debug at 3 a.m.\n\n\nFor a small team with a single destination per alert, the cheapest path is the one with the fewest hops, and that's the native integration.\n\n\n**You also gain nothing on volume** . Your trigger and SLO alerts fire at the same rate whether they go straight to Slack or through a flow. Event count and sampling still set the bill, and no routing layer touches either.\n\n\n### What a webhook-driven workflow adds\n\n\nWhen one alert has to do several jobs at once, a webhook starts to matter. Honeycomb triggers and SLO alerts can send a webhook, and Activepieces can receive it as the start of a flow.\n\n\nFlows are unlimited on every plan, including free, so one flow per alert type doesn't run into a cap.\n\n\nRead it as one alert fanning out to three destinations, with the branching logic living in the flow rather than in Honeycomb.\n\n\nActivepieces' published pricing is 1 credit per flow run, whatever the number of steps, so that three-way fan-out costs one credit, the same as a lone Slack post, and the free plan's 1,000 credits a month cover 1,000 such alerts.\n\n\nAI steps cost more credits, so the fan-out is flat only when it has none.\n\n\nYou can keep Honeycomb alerts simple and put the rules elsewhere:\n\n\n- Page on-call only for the SLO burn\n- Open a ticket for the slower trigger\n- Post both to Slack\n\n\nChanging who gets told then means editing a flow, not every alert definition.\n\n\nWhat follows from this is a narrow recommendation. Start with native integrations, and add Activepieces when you catch yourself wanting one alert to reach several systems with conditions between them.\n\n\nThe free plan costs $0 and takes up to 5 users, so trying it before you commit costs nothing.",
+  "published_at": "2026-11-08T20:11:49+00:00",
+  "first_seen_at": "2026-11-09T00:25:21.282703+00:00",
+  "content_hash": "sha256:99bc1306b6686910d691cae1a3a07681b752288ea3058f931d949e19e604069e"
+}

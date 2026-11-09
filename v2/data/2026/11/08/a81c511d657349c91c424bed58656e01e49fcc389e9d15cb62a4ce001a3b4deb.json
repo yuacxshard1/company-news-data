@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a81c511d657349c91c424bed58656e01e49fcc389e9d15cb62a4ce001a3b4deb",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/redis-cloud-pricing-plans-compared-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/redis-cloud-pricing-plans-compared-2026-guide",
+  "title": "Redis Cloud Pricing: Plans Compared (2026 Guide)",
+  "summary": "Redis Cloud pricing is determined by dataset memory, throughput and replication, not the plan name.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe upgrade point arrives earlier than the plan page suggests because memory, ops rate and egress each move on their own. Nobody is watching all three. Activepieces is an automation tool, and we use it to watch them.\n\n\n> The upgrade point arrives earlier than the plan page suggests because memory, ops rate and egress each move on their own.\n\n\nA scheduled flow reads your database metrics from Redis Cloud's API through the HTTP integration, compares memory use and throughput against the ceiling of your current tier, and posts to Slack or email when either crosses a line you set, such as 70% of the tier's limit.\n\n\nIt costs little to run. A run is the unit we bill, so an hourly check is about 720 runs a month. That fits inside the 1,000 credits on the free plan, however many steps the flow has.\n\n\nThe flow can also log each reading to a sheet or database. After a few weeks you have your own ops-rate and dataset-growth history to set against the $200 Pro minimum and the $216 12 GB Essentials tier discussed above.\n\n\nThe core of Activepieces is open source under the MIT licence, so you can self-host the same flow instead of using our cloud. It will not tell you which Redis plan is cheaper, and it does not change what Redis charges.\n\n\nWhat it does is tell you when the comparison needs rerunning, before the first invoice does.\n\n\nActivepieces is the better fit for anyone who wants to monitor Redis memory, ops rate and egress on a schedule, judged on the cost of running that check.\n\n\nBecause a run is the unit billed, a flow with as many steps as the job needs (API call, threshold comparison, alert, logging) still costs one credit per run, so an hourly check stays inside the free plan's 1,000 credits.\n\n\nPer-task and per-module billing, which you can verify on Zapier's and Make's own pricing pages, count the steps inside the run, so the same flow would use more of your allowance.\n\n\nNeither tool changes what Redis charges, but this one makes the watching cheap enough to leave on.",
+  "published_at": "2026-11-08T21:07:06+00:00",
+  "first_seen_at": "2026-11-09T00:25:21.282703+00:00",
+  "content_hash": "sha256:08c48f85bbb8cb69ef62f75eabebf925c68826d90ab3e1a4fddde3419def675d"
+}
