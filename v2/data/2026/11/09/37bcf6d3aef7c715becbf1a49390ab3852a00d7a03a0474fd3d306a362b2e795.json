@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "37bcf6d3aef7c715becbf1a49390ab3852a00d7a03a0474fd3d306a362b2e795",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-are-webhooks-and-how-do-they-work",
+  "canonical_url": "https://www.activepieces.com/blog/what-are-webhooks-and-how-do-they-work",
+  "title": "What Are Webhooks and How Do They Work?",
+  "summary": "Understanding what are webhooks allows developers to build reliable event-driven integrations. This guide clarifies idempotency to prevent duplicate data.",
+  "body_markdown": "## Webhooks: automated push notifications for server-to-server communication\n\n\nWhen a specific event occurs, a webhook functions as a reverse API, transmitting data to a predefined listener URL. This mechanism eliminates the need for periodic manual requests.\n\n\nWhile a standard API requires your system to ask for an update, a webhook allows the source system to initiate the conversation. This allows downstream processes like those managed via[Activepieces](https://www.activepieces.com/) to receive data in real-time.\n\n\n### The difference between polling and webhooks\n\n\nPolling requires a client to make repeated requests to a server to check for new information. By contrast, webhooks allow the server to push a single notification only when data is actually available.\n\n\nIn a polling model, a client might ask \"Any new data?\" 1,000 times an hour and receive \"No\" for 999 of them, wasting CPU cycles and network bandwidth.\n\n\nThe webhook model sends a single packet only when a state change occurs, reducing infrastructure overhead and ensuring immediate action.\n\n\n### The three components of a webhook delivery\n\n\nA functional webhook requires a source to trigger the event, a payload containing the data, and a listener URL to receive the packet. The source, such as a payment gateway, monitors for specific actions like a completed transaction.\n\n\nFormatted usually as JSON, the payload carries the details of that transaction. Finally, the listener is the endpoint on your server that must acknowledge receipt within strict time limits.\n\n\n### Why webhook push beats polling architectures\n\n\nModern distributed systems favor push architectures for superior resource efficiency. However, they impose rigorous performance requirements on the receiver. If your listener is slow, the source will drop the connection.\n\n\n**15 seconds is the maximum timeout** allowed by the communication provider Twilio, according to[Hookdeck](https://hookdeck.com/webhooks/platforms/how-to-solve-adyen-webhook-timeout-errors) . This means your logic must execute or queue the task almost instantly to avoid delivery failure.\n\n\nHookdeck reports that the payment processor Adyen is even more restrictive with a 10-second timeout. This forces developers to move heavy processing to background workers to prevent data loss.\n\n\nThe tightest constraint comes from the incident response platform PagerDuty, which permits only 5 seconds for a response, leaving almost no margin for complex diagnostic processing, so automated troubleshooting must be extremely lightweight.\n\n\nAny delay in your network stack will result in a missed critical alert.",
+  "published_at": "2026-11-09T04:27:59+00:00",
+  "first_seen_at": "2026-09-29T08:38:05.928587+00:00",
+  "content_hash": "sha256:c9137f2f2a598f7dccbb1d5103ce34457552ea45b70f28dfd80ea09bdc1f69a0"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c663c78f70de4dc4c68d7b6bf10e64fc73374c7f28319ac6f85ab44f817fad5a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/jina-ai-api-pricing-token-costs-limits-2026",
+  "canonical_url": "https://www.activepieces.com/blog/jina-ai-api-pricing-token-costs-limits-2026",
+  "title": "Jina AI API Pricing: Token Costs & Limits (2026)",
+  "summary": "Jina AI API pricing offers several plans with different monthly costs and rate limits. Determine which tier works for your application's usage.",
+  "body_markdown": "## Frequently asked questions\n\n\nEach answer below is short on purpose, because the details that decide your bill sit on Jina AI's own pages and can change. Confirm anything that affects spend against the current pricing page before you commit a budget.\n\n\n### Is the Jina AI API free to use?\n\n\nPartly. A new API key typically comes with a starter allowance of free tokens, so you can test the endpoints before paying. That allowance is metered like paid usage and runs out, so it's a trial, not a free plan.\n\n\nWhether you can use it in a commercial product is a terms-of-service question. Read the current terms before you build a paid feature on it.\n\n\nCheck the pricing page for the current expiry terms before you buy a large balance. Tokens are the unit of billing, so an expiry rule decides whether a bulk purchase is a discount or a write-off.\n\n\nIf the page doesn't state expiry clearly, buy in small amounts and watch your balance until it does.\n\n\nFor some models, yes. Jina has published open weights for several of its models, but licenses differ from model to model, and some restrict commercial use.\n\n\nSelf-hosting also swaps a per-token bill for GPU hosting and maintenance work. Read the license on each model you plan to deploy. Don't assume the hosted API's terms carry over.\n\n\n### What happens when I hit the rate limit?\n\n\nPast the limit, the API rejects further requests until your allowance resets, usually with an HTTP 429 response. Your code should catch that status, wait, and retry with a growing delay rather than hammering the endpoint.\n\n\nIf a batch job stalls on a free key, it may run cleanly on a funded one, because your key's tier sets the ceiling.\n\n\nIf you hit the limit regularly, you're paying for it in delayed jobs, so work out whether a higher tier costs less than the delay.\n\n\n### Can a scheduler call the Jina API?\n\n\nYes, in the sense that matters here. Jina's endpoints are ordinary HTTPS requests authenticated with a bearer key, so any scheduler that can send a request with custom headers can call them. The scheduler adds no Jina charge of its own.\n\n\nYou still pay per token for whatever each run sends, so a frequent schedule over long pages costs more than a rare one over short pages.",
+  "published_at": "2026-11-09T05:40:06+00:00",
+  "first_seen_at": "2026-11-09T09:12:36.180458+00:00",
+  "content_hash": "sha256:88c95af94a79ae97a6cfd5b0ee7f3ae9a14f90f1d0ad4bdfe82c15ec0cb1fee9"
+}
