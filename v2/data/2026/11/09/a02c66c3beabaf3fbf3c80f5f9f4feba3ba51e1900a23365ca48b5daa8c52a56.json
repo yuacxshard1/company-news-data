@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a02c66c3beabaf3fbf3c80f5f9f4feba3ba51e1900a23365ca48b5daa8c52a56",
+  "company_key": "nvidia",
+  "company_name": "NVIDIA",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+  "canonical_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+  "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+  "summary": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models.",
+  "body_markdown": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from\n\n\nSK Telecom\n\n\n, K-EXAONE 2.0 from\n\n\nLG AI Research\n\n\n, Solar Open 2 from\n\n\nUpstage\n\n\nand Motif-3 from\n\n\nMotif Technologies\n\n\n.\n\n\nAs models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing and communication to maintain performance.\n\n\n[NVIDIA Dynamo](https://www.nvidia.com/en-us/ai/dynamo/) is an open source, distributed inference-serving framework built to deploy models in multi-node environments at data center scale. It handles this routing and communication to maximize inference performance.\n\n\nOptimized for NVIDIA B200 GPUs, these recipes take the guesswork out of deployment, delivering up to 2x performance out of the box. They help developers bring Korea’s open models into production faster and turn them into broadly accessible AI for All services.\n\n\n*Learn more about[NVIDIA Dynamo](https://www.nvidia.com/en-us/ai/dynamo/) .*",
+  "published_at": "2026-11-09T05:00:00+00:00",
+  "first_seen_at": "2026-11-09T07:58:27.053503+00:00",
+  "content_hash": "sha256:7d3430c72af5f10d791e72e64f1e2ea7cc7c1514de5e0bd9b6b8f81886177e2c"
+}
