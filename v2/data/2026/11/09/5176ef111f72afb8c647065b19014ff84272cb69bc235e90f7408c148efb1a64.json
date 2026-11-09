@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5176ef111f72afb8c647065b19014ff84272cb69bc235e90f7408c148efb1a64",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+  "title": "Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
+  "summary": "Discover more about what's new at AWS with Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
+  "body_markdown": "AWS Nitro Sandboxes are now available as lightweight VMs managed by the Nitro Hypervisor. You can use Nitro Sandboxes for an Amazon EKS pod, or Amazon ECS task, or lightweight Virtual Machines (VMs), including AI agents running inside them, in their own hardware-isolated virtual machine powered by the[AWS Nitro System](https://aws.amazon.com/ec2/nitro/) . Each workload gets the isolation boundary of a Nitro isolated virtual machine. This allows you to safely run untrusted, multi-tenant, or regulated workloads within the resources of a single instance.\n\n\nNitro Sandboxes run on your EC2 instances with near-native EC2 performance and inherits Nitro-hypervisor isolation. You can also validate your workloads through cryptographic attestation, so that secrets are released only to Nitro Sandboxes that have proven their integrity. With Nitro Sandboxes, you can safely execute LLM-generated code in an isolated environment of its own all while improving utilization and lowering compute costs by securely sharing a single EC2 instance across multiple agentic workloads. You can easily enable EKS pods or ECS tasks to run on Nitro Sandboxes and each pod or task gets its own isolated environment. Enabling Nitro Sandboxes in EKS or ECS is a one-line change and each pod or task gets its own VM, with your workloads remaining fully native (Pod Identity, VPC CNI, EBS/EFS/S3 storage, and CloudWatch all work out of the box). If you want full control, run Nitro Sandboxes directly on EC2 with your own AMI, orchestration, and with virtual machine monitors (VMMs). Amazon Linux and Firecracker are natively supported, and patches for other options are available today.\n\n\nAWS Nitro Sandboxes are available today on most nitro-based ec2 instances, in all commercial regions worldwide, at no additional charge.\n\n\nTo learn more and get started, see the[EKS User Guide](https://docs.aws.amazon.com/eks/latest/userguide/sandboxing.html) or[ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/isolated-confidential-tasks.html) . For implementation details or to fully customize your Nitro Sandbox usage, see the[Nitro Sandboxes documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-ec2-nitro-sandboxes.html) in the EC2 user guide.",
+  "published_at": "2026-11-09T08:00:00+00:00",
+  "first_seen_at": "2026-11-09T17:13:20.960869+00:00",
+  "content_hash": "sha256:43a0286525a6ae76f3d5a1b7454f09972a9afa975aa1242a150978b4bdd9b01e"
+}

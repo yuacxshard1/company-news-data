@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1f18b4f48b471f7312985aae51bedfdcb673079680936eb848d074cc96b14ce4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-connections-variables/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-connections-variables/",
+  "title": "Amazon MWAA Serverless supports Apache Airflow connections and variables",
+  "summary": "Discover more about what's new at AWS with Amazon MWAA Serverless supports Apache Airflow connections and variables",
+  "body_markdown": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports Apache Airflow connections and variables, so your workflows can reach databases, APIs, and other external systems. You can manage credentials and configuration outside your workflow code.\n\n\nYou store sensitive connections and variables in the secrets backend of your choice, such as AWS Secrets Manager, AWS Systems Manager Parameter Store, or your own custom backend, configure it on your workflow, and grant your workflow execution role access. Tasks retrieve them at run time through standard Apache Airflow methods. You can define non-secret values as environment variables on the workflow.\n\n\nThis feature is available in all AWS Regions where Amazon MWAA Serverless is available. For more information, see[Amazon MWAA Serverless Regions](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/what-is-mwaa-serverless.html#regions) .\n\n\nTo learn more, see[Managing connections and variables](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/connections.html) and[Using environment variables in Amazon MWAA Serverless workflows](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/workflows-environment-variables.html) in the Amazon MWAA Serverless User Guide.",
+  "published_at": "2026-11-06T18:00:00+00:00",
+  "first_seen_at": "2026-11-09T17:13:20.960869+00:00",
+  "content_hash": "sha256:8197b4dd6d0f2042c7f401f861242b6ad750f663a21688f8b5f1ba9a12fc4182"
+}
