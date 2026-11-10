@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5d4c977972ab5b340a14464d6a963749a7495101b26989cd093073c00e8c74dd",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/mem0-pricing-plans-limits-and-what-you-pay-2026",
+  "canonical_url": "https://www.activepieces.com/blog/mem0-pricing-plans-limits-and-what-you-pay-2026",
+  "title": "Mem0 Pricing: Plans, Limits and What You Pay (2026)",
+  "summary": "Mem0 pricing relies on metered charges for memory operations, varying by platform and usage. Compare costs across tiers and estimate your monthly spend.",
+  "body_markdown": "## View all Mem0 plans and pricing limits\n\n\nEvery time a workflow step writes or reads memory, it spends one of Mem0's two metered units, adds or retrievals. The limits on the[pricing page](https://mem0.ai/pricing) are the ones to read first.\n\n\n### Mem0 free plan limits and allowances\n\n\nI read the page on 2026-11-10. The free plan has two limit regimes, depending on whose model calls pay for extraction.\n\n\nFor the first 30 days with model calls on Mem0, it costs $0 and allows 10,000 adds and **1,000 retrievals a month** ; with your own LLM key it costs $0 and allows 50,000 adds and 10,000 retrievals a month.\n\n\nBring your own LLM key and the add ceiling rises fivefold while the **retrieval ceiling rises tenfold** . That means you carry the model cost in exchange for headroom.\n\n\n### Mem0 Starter, Pro and Enterprise plan pricing\n\n\nStarter is the first paid step at $19 a month. It is the plan a team lands on when the free allowance runs out but the workload is still one product with modest traffic.\n\n\nI did not record its memory or retrieval caps, so read both numbers off the pricing page before you rely on it.\n\n\n**Pro costs $249 a month** , roughly thirteen times Starter, and adds graph memory. That jump is worth paying only when your retrieval count or your need for graph memory clearly passes what Starter covers.\n\n\nAs with Starter, I have no verified caps to quote, so check them against your own monthly request count.\n\n\nEnterprise has no listed price; it is a quote. Expect it to matter when you exceed Pro's limits or need terms a self-serve plan doesn't offer, such as data residency. Treat any number you hear before that conversation as a guess.\n\n\n### Which Mem0 limit decides your plan\n\n\nOn both regimes, **retrievals run out first** .\n\n\nUnder the trial allowance, adds outnumber retrievals ten to one, but an agent that recalls memory on every turn reverses that ratio fast.\n\n\nC17 reports that at 1,000 retrievals a month, a workflow that fires 50 recalls a day stops about three weeks in, and anything after that fails or forces an upgrade.\n\n\nWith your own key, the 10,000-retrieval ceiling is roughly 330 recalls a day. That's comfortable for a single-agent prototype and thin for a team's shared assistant.",
+  "published_at": "2026-11-10T07:59:24+00:00",
+  "first_seen_at": "2026-11-10T10:59:30.711135+00:00",
+  "content_hash": "sha256:d2b8ebe69fccbfb767b31a475a61aa052be2c9937c199322810427a7561c5121"
+}

@@ -1227,7 +1227,7 @@
       "first_seen_at": "2026-08-12T09:55:46.579162+00:00",
       "published_at": "2026-08-08T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "How Sim tracks the secrets an agent run actually uses, carries that provenance across tools and storage, redacts values at every egress boundary, and records which run touched which credential.",
+      "summary": "How Sim tracks which secrets an agent run uses, carries that provenance across tools and storage, redacts values on the way out, and logs each use.",
       "title": "Tracking Secrets Through an Agent Run"
     },
     {

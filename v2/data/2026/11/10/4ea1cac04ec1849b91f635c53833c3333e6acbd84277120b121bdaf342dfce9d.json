@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4ea1cac04ec1849b91f635c53833c3333e6acbd84277120b121bdaf342dfce9d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/slack-ai-agents-slackbot-skills-by-plan-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/slack-ai-agents-slackbot-skills-by-plan-2026-guide",
+  "title": "Slack AI Agents: Slackbot Skills by Plan (2026 Guide)",
+  "summary": "Slack AI agents now feature shareable Slackbot skills that extend team automation.",
+  "body_markdown": "## Activepieces has shipped nothing specific to slackbot skills\n\n\nWe checked the Activepieces repository and connector catalog on 2026-10-16 and **found nothing built for slackbot skills** , and we haven't run a skill against it ourselves.\n\n\nSo the connection is one you assemble from general building blocks, and three apply, simplest first. The first is an HTTP request step, where you configure a URL, method, headers and body.\n\n\nThe second is an AI step with a custom provider, where you configure a base URL, API key and model name. The third is an MCP server, where you configure which flows or tools are exposed, and the client that connects to them.\n\n\nMCP, the Model Context Protocol, is an open standard that lets an AI client call outside tools and data through a server.\n\n\nYou set the HTTP request yourself, so the field mapping is on you: which Slack value goes into which body field, and what the other app returns. It's the least magical route, and the easiest to debug.\n\n\n### The AI step and the MCP server\n\n\nWhen a flow needs a model inside it, not just a request, use option 2, the AI step with a custom provider. Point the step at an OpenAI-compatible endpoint and the flow can draft, classify or summarise mid-run.\n\n\nThat gives the flow a model, but it doesn't give it a skill. Slackbot's skills stay inside Slack.\n\n\nIf you want an agent to call your flows as tools, option 3 is an MCP server. It takes the most setup and depends on the client supporting MCP. Confirm that on the Slack side before you build anything on it.\n\n\nEach of its 741 integrations is a integration, and a integration you've connected for a flow is also a tool on the per-project MCP server, callable from Claude, ChatGPT, Cursor or an agent you wrote, so your flows can reach hundreds of services.\n\n\nThe code sits in packages/pieces of the open source repo, where the action definition behind a flow step is the same one the MCP server exposes as a tool, and the Integrations Framework and MCP Server documentation describe that mechanism.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.",
+  "published_at": "2026-11-10T07:14:41+00:00",
+  "first_seen_at": "2026-10-16T08:17:27.828918+00:00",
+  "content_hash": "sha256:ab9f0fbef61ea9d993b0ac9907fb9e0a3ae0d17e0088f091a9d7f68b6403c6dc"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ebeed5c03d03be063bbade209cc79509f29e90deee034eb2c3f6b00a38be0d67",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/poe-subscription-pricing-2026-plans-and-point-costs",
+  "canonical_url": "https://www.activepieces.com/blog/poe-subscription-pricing-2026-plans-and-point-costs",
+  "title": "Poe Subscription Pricing 2026: Plans and Point Costs",
+  "summary": "Poe subscription pricing charges based on a monthly compute point allocation rather than message count. Find out which plan fits your usage and budget.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe unpredictability in Poe's pricing comes from one thing: the cost of an answer depends on the model, and you only find out after the points are gone.\n\n\nActivepieces can't change Poe's meter, but it can take the model choice out of your head and put it in a workflow you can read.\n\n\n> The unpredictability in Poe's pricing comes from one thing: the cost of an answer depends on the model, and you only find out after the points are gone.\n\n\nA flow can send routine drafting and classification to a cheap model, then escalate to a premium one only when a branch condition says the task needs it.\n\n\nThat is the \"default cheap, escalate deliberately\" rule from earlier, written down so it runs the same way every time.\n\n\nActivepieces' own cost for that flow is easy to forecast. A run costs 1 credit however many steps it contains, and an AI step costs more only by model tier.\n\n\nIf you connect your own AI keys, each AI step is 1 credit and the model spend goes to your OpenAI, Anthropic or Google bill.\n\n\nThat bill comes with the vendor's own usage limits, which is the predictability the direct plans offered in the comparison above.\n\n\nIf even the platform fee is something you'd rather not forecast, the community edition is MIT-licensed and self-hostable. You then pay for your own infrastructure and your model providers, and nothing per run to us.\n\n\nIt's a heavier setup than a chat subscription, so it only makes sense if you already have scheduled or multi-step AI work.\n\n\nFor an individual who mostly types into a chat window, none of this changes the verdict. Start on Poe's entry plan and read your counter.\n\n\nActivepieces becomes relevant when your heavy use is a repeating chain of prompts and you want its cost fixed before it runs.",
+  "published_at": "2026-11-10T07:53:56+00:00",
+  "first_seen_at": "2026-11-10T10:59:30.711135+00:00",
+  "content_hash": "sha256:9ebd8dcfebbd02f6a4c68bb5d55bb7c2bc69f222e5f2e0839f2943bd8d61940b"
+}

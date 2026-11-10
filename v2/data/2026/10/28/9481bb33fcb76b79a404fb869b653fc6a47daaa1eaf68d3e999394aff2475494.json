@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9481bb33fcb76b79a404fb869b653fc6a47daaa1eaf68d3e999394aff2475494",
+  "company_key": "yc-frigade",
+  "company_name": "Frigade",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://frigade.com/updates/integrations-roundup",
+  "canonical_url": "https://frigade.com/updates/integrations-roundup",
+  "title": "Integration updates: Segment, Mixpanel, and Pylon",
+  "summary": "Three changes to how Frigade Assistant talks to the tools you already run.",
+  "body_markdown": "Three changes to how Frigade Assistant talks to the tools you already run.\n\n\n**Segment.** Frigade Assistant now connects to Segment. Assistant events arrive as track calls: opens, questions, answers, feedback, Suggestion clicks, tickets created, and the rest. From there they go to every destination you already have connected to that source.\n\n\n**Mixpanel.** Events sent to Mixpanel now carry more context. You can see which pages start the most conversations, and compare conversations that ended in a ticket with the ones the assistant resolved. Nothing to set up, the new properties are on the events already.\n\n\n**Pylon.** When a conversation hands off to Pylon, the ticket gets a summary. If your team would rather read the conversation itself, turn on\n\n\n**Include full transcript** in the Pylon integration settings and each ticket carries the conversation (up to the last 40 messages) in place of the summary. Off by default.",
+  "published_at": "2026-10-28T00:00:00+00:00",
+  "first_seen_at": "2026-11-10T08:36:45.115375+00:00",
+  "content_hash": "sha256:1a93a538ab8fff4a6a1dbd3c82704998e1f3632e5f21a0047219c4e3b72c3f49"
+}
