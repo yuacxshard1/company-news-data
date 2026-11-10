@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d62d8394abcc650266b9adbd6f4bb5635f1c486afbb6600d5f81d8b314d426d1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-supports-duckdb-operators/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-supports-duckdb-operators/",
+  "title": "Amazon MWAA now supports DuckDB operators",
+  "summary": "Discover more about what's new at AWS with Amazon MWAA now supports DuckDB operators",
+  "body_markdown": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports DuckDB operators. DuckDB is an embedded analytical database that lets customers perform data quality checks, summaries, and transformations on data from sources DuckDB supports, including Amazon S3.\n\n\nNative support is available for DuckDB on Amazon MWAA Provisioned environments running Apache Airflow 3.3.1. DuckDB comes preinstalled and preconfigured for AWS connections in the latest MWAA Airflow 3.3.1 update. After updating their MWAA environment to Airflow 3.3.1 and adding execution role access to their data stores, customers can start writing tasks with DuckDBExecuteQueryOperator with no additional setup.\n\n\nThis feature is available in all AWS Regions where Amazon MWAA is available. For more information, see the[AWS Region table](https://docs.aws.amazon.com/mwaa/latest/userguide/get-started.html#regions) .\n\n\nTo learn more, see[Using DuckDB with Amazon MWAA](https://docs.aws.amazon.com/mwaa/latest/userguide/samples-duckdb.html) in the Amazon MWAA User Guide.",
+  "published_at": "2026-11-09T18:00:00+00:00",
+  "first_seen_at": "2026-11-10T06:26:16.876047+00:00",
+  "content_hash": "sha256:dced96a9edd74d1394d6e9953a89b86a00ef9fc2d2caf9d69251e717a282371a"
+}

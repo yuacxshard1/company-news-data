@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a684975eb275807c2f1cc161aa2ea91083ac33e30120461c459d60eb04aed178",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/arcjet-ai-security-models-pricing-and-features-2026",
+  "canonical_url": "https://www.activepieces.com/blog/arcjet-ai-security-models-pricing-and-features-2026",
+  "title": "Arcjet AI Security Models: Pricing and Features (2026)",
+  "summary": "Arcjet AI security models detect threats in application traffic. Review their coverage areas and false positive rates for deployment decisions.",
+  "body_markdown": "## Activepieces has no Arcjet integration; connect it today\n\n\n**There is no Arcjet integration in Activepieces,** the open-source AI automation platform. The repository and integration catalog, checked on 2026-11-10, hold nothing for Arcjet's AI security models, so you connect them with generic steps. That implies no native support.\n\n\nArcjet is the only source for what its models do, and a missing integration is not a dead end on the Activepieces side.\n\n\nOf its 747 integrations, counted from the open-source monorepo, **roughly 60% were contributed by the community,** and you can generate a missing one with AI and add it privately to your own instance with no vendor release to wait on, so you move at your pace, not the vendor's.\n\n\nMeanwhile, here are the three routes, simplest first. We haven't run any of them.\n\n\n1. HTTP request step before the AI step: call Arcjet's endpoint, pass the text, and branch on the verdict. Untested.\n2. AI step pointed at a custom or OpenAI-compatible provider: enter the base URL and key from Arcjet's docs. Untested.\n3. MCP server: register Arcjet's server so the agent can call it as a tool. Untested.\n\n\nWhichever you pick, test it with a real, ugly input before it guards anything live.\n\n\nStart with option 1, an HTTP request step, because every part is visible in the run log. A wrong block costs you a legitimate customer message sitting unanswered, so route \"blocked\" to a human queue, not to deletion.\n\n\nCheck the request shape against Arcjet's[docs](https://docs.arcjet.com/) before you build.\n\n\nIf you pick option 2, an AI step with a custom provider, it only works if the model sits behind an interface the step accepts, and we haven't confirmed that. If it doesn't, fall back to option 1.\n\n\n**Decide what happens when the call errors, because a guard that silently fails open is worse than none.**\n\n\nLoosest of all is option 3, an MCP server. The agent chooses whether to call the tool, so a skipped check looks the same as a passed one. Use it only where a step you control can't do the job.",
+  "published_at": "2026-11-10T02:42:58+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:28dafbefaac92ea63b509685296958442da8254d59a9cff4244b02292c0b11f1"
+}

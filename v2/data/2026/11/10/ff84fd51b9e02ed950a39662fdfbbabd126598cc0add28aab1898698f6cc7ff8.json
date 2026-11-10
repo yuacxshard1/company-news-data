@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ff84fd51b9e02ed950a39662fdfbbabd126598cc0add28aab1898698f6cc7ff8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-duet-pricing-plans-limits-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/claude-duet-pricing-plans-limits-and-costs-2026",
+  "title": "Claude Duet Pricing: Plans, Limits, and Costs (2026)",
+  "summary": "Claude Duet pricing lacks official confirmation from Anthropic. You'll identify actual Claude plans and why outside price claims may be unreliable.",
+  "body_markdown": "## Controlling automated Claude Duet spend with Activepieces\n\n\nIf your Claude Duet use runs on a schedule rather than at a keyboard, put a run cap, an approval step and model routing in front of it using Activepieces.\n\n\nActivepieces chains triggers and steps into one workflow, with unlimited flows on every plan including free, so a scheduled job passes through a cap and an approval before it can use up your limits. It changes none of Claude Duet's prices.\n\n\nFor list prices, go back to the plan table earlier in this article; nothing here alters a line of it. What Activepieces changes is how fast an automated job spends the allowance that table describes.\n\n\nA scheduled run has no one watching it. A person stops when the answer looks wrong, while a job repeats the same expensive mistake every time it fires, and your limits drain faster than any one human could drain them.\n\n\n### The order of the guards\n\n\nFollow the order of the guards in the workflow below. A schedule starts the job and a counter step with a run cap stops it after a set number of runs.\n\n\nAn approval step waits for a person to say go, and a router sends simple tasks to Haiku 5.5 and hard ones to Opus 5.5.\n\n\nRead it as a series of gates. The cap sets the most a runaway job can cost you. The approval step catches a bad batch before it starts, and the router stops you paying for the heavier model on work the lighter one handles.\n\n\n**Doing nothing is the pricier option** , because the first sign of an uncapped job is usually a limit hit or an overage line you didn't expect. Adding the gates costs an afternoon of setup.\n\n\n### Claude Duet spend the workflow limits don't cover\n\n\nThe table can't show your workload, so the cap you set and the line you draw between simple and hard tasks are yours to decide.\n\n\nThose gates also only cover runs that pass through the workflow. Anyone using Claude Duet directly, and the seat rules that govern them, sit outside it.",
+  "published_at": "2026-11-10T01:20:50+00:00",
+  "first_seen_at": "2026-11-03T12:52:57.822665+00:00",
+  "content_hash": "sha256:2058825d8ba213a60a87928bd05eb302725406906d0358453233bfb2a10831a9"
+}

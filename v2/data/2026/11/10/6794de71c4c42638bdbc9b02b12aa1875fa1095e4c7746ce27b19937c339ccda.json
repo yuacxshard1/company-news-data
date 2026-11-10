@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6794de71c4c42638bdbc9b02b12aa1875fa1095e4c7746ce27b19937c339ccda",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-duet-features-cost-and-workflow-setup-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/claude-duet-features-cost-and-workflow-setup-in-2026",
+  "title": "Claude Duet Features, Cost and Workflow Setup in 2026",
+  "summary": "Claude Duet is Anthropic's agent for team workflow automation. You'll understand which processes change and what new capabilities become available.",
+  "body_markdown": "## Activepieces and Claude Duet: what we can confirm\n\n\nWe couldn't confirm a Duet-specific release from Activepieces: no dated announcement and no dedicated integration we can link, only its general Claude integration.\n\n\n### What shipped, when, and where to find it\n\n\nIn[Activepieces](https://www.activepieces.com/pieces/claude) , an automation builder, integrations are called pieces. Its catalog lists an[Anthropic Claude piece](https://www.activepieces.com/pieces/claude) (@activepieces/piece-claude) with 3 actions and 0 triggers.\n\n\nZero triggers means Claude can never start a flow, so every workflow has to begin with something else, such as a schedule or a webhook.\n\n\nWe found no date tying that integration to Duet, so treat any claim that it covers Duet as unverified until the page says so.\n\n\nActivepieces also serves each connected integration action as a tool on a per-project MCP server, so Claude, ChatGPT, Cursor or an agent you wrote yourself can call the very action a flow would run.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run it.\n\n\n### Using it in a workflow today\n\n\nSince we haven't run Duet ourselves, this is the cautious route. Build the flow around the integration you can see, and check at the last step whether Duet is selectable. If it isn't, you've lost an afternoon of wiring at most, not a deployment.\n\n\nIn the builder, an Every Hour Schedule trigger is selected, with the spreadsheet integrations open for the step after it. That's the shape to copy: the schedule supplies the trigger Claude lacks, and a sheet row gives each result a place a human can review.\n\n\nThe successful Generate Sample Data result in the settings panel is your proof the skeleton runs before any model is involved.\n\n\nBuild that skeleton first and test it. Then add the Claude action and look for Duet in its options. Until Duet appears there, keep the flow on whatever model you already trust.",
+  "published_at": "2026-11-10T02:13:13+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:8b501abd132d652573d0ab5b592e2fe25e50db5ff9e1afbcde8260d883b4a549"
+}

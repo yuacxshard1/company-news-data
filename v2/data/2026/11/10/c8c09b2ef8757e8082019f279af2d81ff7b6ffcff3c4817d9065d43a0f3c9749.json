@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c8c09b2ef8757e8082019f279af2d81ff7b6ffcff3c4817d9065d43a0f3c9749",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-max-workflow-how-to-set-it-up-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/claude-max-workflow-how-to-set-it-up-2026-guide",
+  "title": "Claude Max Workflow: How to Set It Up (2026 Guide)",
+  "summary": "Claude Max workflow setup takes 30 minutes. See what components you need to configure and which platforms to integrate first.",
+  "body_markdown": "## Stage 2: Build a Project with standing instructions\n\n\nBuild one Project per recurring task and load its instructions and files once, so every chat inside starts with that context instead of spending your usage re-creating it.\n\n\n### Create a Claude Project named by task\n\n\nName the Project for the job, such as \"Weekly client report\", not for the client or the quarter. A task name tells you which Project to open without thinking.\n\n\nIt also stops one Project from becoming a dumping ground for unrelated chats that each carry context they don't need. Start with one. Add a second only when a second task actually recurs.\n\n\n### Write custom instructions for your Project\n\n\nState the role, the output format, and what Claude should do when information is missing. Write them as the rules you would otherwise retype: length, tone, the sections every output needs. Each rule set here is one you stop paying for in every later prompt.\n\n\nBelow, a variables panel lists one stored value that a later step picks up by name through its context field. That's the pattern to copy: define a thing once, then reference it wherever you need it.\n\n\nKeep your instructions short enough that you could re-read them in a minute and spot a rule that has gone stale, since they do the same job.\n\n\n### Add Project knowledge files and check size limits\n\n\nBecause files count against the chat's context window, the model you pick caps how much material you can lean on.\n\n\nAccording to the[Claude Help Center](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans) , the chat window on Max is 1000 thousand tokens for both Sonnet 5.5 and Haiku 5.5; the same page listed 500 thousand tokens for the older Opus 4.8.\n\n\nOpus 4.8 fit half as much as the other two in that listing, so check the current window for Opus 5.5 before leaning on it. For a long document set or a transcript archive, choose Sonnet 5.5, or Haiku 5.5 if the job is extraction across many files.\n\n\nKeep Opus 5.5 for material where the reasoning matters more than the volume.\n\n\nCheck Anthropic's documented per-file limits before you upload, and attach only the files the task uses. Every unused file takes room from the window and gains you nothing.\n\n\nWhen you finish this stage you should have one Project, for one recurring task, that you can open and use without pasting anything.",
+  "published_at": "2026-11-10T04:32:50+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:d1c0752d397afa462383103dcb927dc15d4bacdb2a4bcfcb3e53040601d7e556"
+}

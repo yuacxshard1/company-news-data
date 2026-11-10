@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2904bee3a73cbb376aca0fa1fbf5b01f32e51940847270d765cbf690848bbc88",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/cloudflare-workers-automation-free-vs-paid-limits",
+  "canonical_url": "https://www.activepieces.com/blog/cloudflare-workers-automation-free-vs-paid-limits",
+  "title": "Cloudflare Workers Automation: Free vs Paid Limits",
+  "summary": "Cloudflare Workers automation runs your code on a schedule or when events trigger it, without keeping a server alive, using Cron, Queues, or Workflows.",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce the pricing date settles what you pay today, five questions about limits and testing stay open. Each answer below names its Cloudflare docs source or says where to check.\n\n\n### Can Cloudflare Workers run a job every minute?\n\n\nYes, in the sense that a Cron Trigger accepts standard cron expressions, and a schedule at the finest granularity cron syntax allows is valid.\n\n\nThe catch is that a scheduled run has its own CPU limits, separate from those of an HTTP request, so a job that fits once may fail when it overlaps with itself.\n\n\nSource: Cron Triggers in the Workers docs. Check the current limit on triggers per Worker for your plan.\n\n\n### Is Cloudflare Workers automation free?\n\n\nOn the free plan, small scripts are covered, but daily request caps and tighter CPU limits apply.\n\n\nA script that works in testing can start returning errors once real traffic or a larger schedule pushes past the daily cap, and nothing in your code will have changed.\n\n\nSource: the Workers pricing and limits pages. Check both on the day you decide, as the previous section said.\n\n\n### Can a Worker run longer than its CPU limit?\n\n\nNot within a single invocation. The limit applies to CPU time, not the clock, so waiting on a slow response from another app doesn't count against it, but parsing, transforming and looping do.\n\n\nFor work that outgrows one invocation, Cloudflare offers Queues, Workflows and Durable Objects, each of which you then have to design, deploy and maintain. Source: the Workers Limits page. Check which plan's CPU ceiling applies to scheduled runs.\n\n\n### How do I test a Cron Trigger without waiting for it?\n\n\nRun the Worker locally with Wrangler's scheduled-testing option, then send a request to the local scheduled route. That fires your` scheduled` handler on demand.\n\n\nA pass locally isn't proof of a pass live, because the local run doesn't reproduce production data or secrets. Source: the \"Test Cron Triggers\" section of the Cron Triggers docs. Check the exact flag against your installed Wrangler version.\n\n\n### Can any tool call a Worker?\n\n\nBecause a Worker answers requests at its URL, any tool that can send an HTTP request can call it. Protect that URL with a secret header or token, or anyone who finds it can start your job.\n\n\nSource: the Workers fetch handler docs. Whether a ready-made connector exists isn't covered by Cloudflare's docs, so check the tool's own documentation.",
+  "published_at": "2026-11-10T05:32:10+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:5d06a836814e452f9c9e6b5b60d66c5774a6d07337a9f042592fcae64926e7a8"
+}

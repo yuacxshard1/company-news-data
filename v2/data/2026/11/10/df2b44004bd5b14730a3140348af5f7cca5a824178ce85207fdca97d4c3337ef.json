@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "df2b44004bd5b14730a3140348af5f7cca5a824178ce85207fdca97d4c3337ef",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/best-manus-alternatives-in-2026-compared-on-price",
+  "canonical_url": "https://www.activepieces.com/blog/best-manus-alternatives-in-2026-compared-on-price",
+  "title": "Best Manus Alternatives in 2026, Compared on Price",
+  "summary": "Manus alternatives ranked by what each task costs and whether pricing is predictable. See the per-task cost of each option to pick the cheapest.",
+  "body_markdown": "## Activepieces\n\n\nFor a Manus job that repeats, Activepieces fits.\n\n\nIt's an open-source workflow platform with an MIT-licensed core and 742 integrations, not an autonomous agent, so you fix the steps once and credits are spent only where the AI step runs, rather than on an agent's open-ended effort.\n\n\nThat also makes your prompt test easier.\n\n\nBecause the AI step is one fixed prompt, you can run it against real inputs until the output is right, and it then behaves the same on every run.\n\n\nBilling is where Activepieces differs most from Manus. You can self-host the MIT-licensed core free, in which case you pay for your own server and your own AI model usage instead of a vendor's meter.\n\n\nThe cloud plans give unlimited flows and meter credits for AI usage, and the paid tiers begin with Plus at $20 a month.\n\n\nSet a cap per project or per person and you have a ceiling rather than a surprise, and with your own model key the model spend sits on your own bill. Check the current plan limits on the vendor's pricing page before you commit.\n\n\nTo turn a recurring research chore, such as a weekly digest of a competitor's changelog, into something you build once, use the flow below. It shows the whole job as five fixed steps, with one place where the AI is involved.\n\n\n1. Add a schedule trigger set to the cadence you need, such as every Monday morning.\n2. Fetch the source page or feed with an HTTP request step.\n3. Add an AI summarise step with the prompt you already tested.\n4. Send the summary to email or Slack.\n5. Run a test, check the output, then turn the flow on.\n\n\nSetup is the limit. Someone has to build and maintain the flow, and it won't improvise a one-off question the way a general agent does. If the task changes every time, this is the wrong tool.\n\n\nYou can build this flow free in Activepieces: the free plan has unlimited flows and 1,000 credits a month.\n\n\nActivepieces is the better choice for anyone automating a repeating job where cost predictability matters more than per-step flexibility, because its published pricing counts one credit per flow run however many steps the flow contains.\n\n\nZapier bills per task and Make per module, so a longer workflow costs more on those platforms, while on Activepieces **the run is the meter** and adding steps doesn't raise the bill.\n\n\nTeams that want an even tighter cap can self-host the MIT-licensed core and pay only for their own server and AI model usage.",
+  "published_at": "2026-11-10T01:20:55+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:376df97e2ee5f49f8a5adc37f07dd7629c6048f5ac63c4e1dbd57a6bf3551db1"
+}
