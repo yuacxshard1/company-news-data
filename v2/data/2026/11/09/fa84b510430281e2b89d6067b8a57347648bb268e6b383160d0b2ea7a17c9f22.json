@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fa84b510430281e2b89d6067b8a57347648bb268e6b383160d0b2ea7a17c9f22",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-fable-52-price-specs-and-benchmarks-2026",
+  "canonical_url": "https://www.activepieces.com/blog/claude-fable-52-price-specs-and-benchmarks-2026",
+  "title": "Claude Fable 5.2: Price, Specs and Benchmarks (2026)",
+  "summary": "Claude Fable 5.2 upgrades automations for complex technical work. See what changed and whether these improvements affect your current workflows.",
+  "body_markdown": "## How Fable 5.2 stacks on cost and speed\n\n\nWhether a slower model earns its wait depends on cost per task and error rate, and the listed price is the weakest evidence of either. Cost per task, measured on your own runs, is the number to compare.\n\n\n### Fable 5.2 listed API price per million tokens\n\n\nOn drafting-heavy workflows, output tokens drive the bill.[CompareAI](https://compareai.today/blog/ai-api-pricing-november-2026) lists Haiku 5.5 at $0.50 per million output tokens, so a classification or routing step costs almost nothing there.\n\n\nFurther up the list, DeepSeek V4 Pro is $3.96, GPT-6.1 Sol and[Gemini](https://gemini.google/subscriptions) 4 Argon are $10 each, Kimi K3 is $15, and Opus 5.5 is $20 per million.\n\n\nThat's a more than tenfold spread from cheapest to dearest, so choosing a model per step matters more than choosing one default for the whole workflow.\n\n\n### Scorecard for measuring Fable 5.2 speed and cost\n\n\nKeep a scorecard for Fable 5.2 against a current fast model such as GPT-6.1 Terra or Claude Haiku 5.5.\n\n\nFor each model, record the vendor's listed input and output rates, the median seconds per task, the cost per task (total spend divided by tasks done correctly), the correct results out of the total, and the day of the run.\n\n\nFill the scorecard from your own run, because a price list can't tell you how many tokens your task burns.\n\n\nDivide by correct tasks, not by calls, so a model that needs retries pays for them in the comparison. If the cheaper model's cost per correct task is lower and its results match, the extra seconds buy you nothing.",
+  "published_at": "2026-11-09T21:25:22+00:00",
+  "first_seen_at": "2026-11-10T01:34:10.689726+00:00",
+  "content_hash": "sha256:9520bf7c21e7e1e69d0bdc9069b6836b9fb0ce982249594e833ba0401d90da75"
+}

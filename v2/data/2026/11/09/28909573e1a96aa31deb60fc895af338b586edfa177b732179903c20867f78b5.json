@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "28909573e1a96aa31deb60fc895af338b586edfa177b732179903c20867f78b5",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/releases/java-applet-support-ai-test-generation-from-jira-more/",
+  "canonical_url": "https://testrigor.com/releases/java-applet-support-ai-test-generation-from-jira-more/",
+  "title": "testRigor Release: Java Applet Support, AI Test Generation from Jira & More",
+  "summary": "Support for Java Applets testRigor now supports testing applications that use Java Applets, expanding its automation capabilities to include legacy Java-based applications. With this update, users can incorporate Java Applets into their automated testing workflows, making it easier to validate applications that rely on this technology. Generating Tests Based on a Jira Ticket We’ve introduced ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## Support for Java Applets\n\n\ntestRigor now supports testing applications that use Java Applets, expanding its automation capabilities to include legacy Java-based applications.\n\n\nWith this update, users can incorporate Java Applets into their automated testing workflows, making it easier to validate applications that rely on this technology.\n\n\n## Generating Tests Based on a Jira Ticket\n\n\nWe’ve introduced a new way to generate test cases using Jira tickets.\n\n\nWhen generating a test case from a description, users can now attach a Jira ticket as a reference. testRigor will use the ticket’s description to automatically generate a test case based on its requirements.\n\n\n## Automatic Test Data Updates in Live Mode\n\n\nLive Mode sessions now automatically update global variables and dataset variables when their values are modified during a session.\n\n\nThis enhancement ensures that changes made to test data during Live Mode are automatically reflected in the corresponding variables, eliminating the need for starting a new live mode session when making such changes.",
+  "published_at": "2026-11-09T21:50:45+00:00",
+  "first_seen_at": "2026-11-10T00:21:46.398899+00:00",
+  "content_hash": "sha256:dde9db318f6036efacea4548dfc5aa5fe5cc1ca3fe753867a47f52412709a589"
+}

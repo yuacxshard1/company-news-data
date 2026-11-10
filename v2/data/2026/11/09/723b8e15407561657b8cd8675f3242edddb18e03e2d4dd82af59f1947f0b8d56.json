@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "723b8e15407561657b8cd8675f3242edddb18e03e2d4dd82af59f1947f0b8d56",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-analytics-workday-data-cloud/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-analytics-workday-data-cloud/",
+  "title": "AWS Analytics services now support Workday Data Cloud integration",
+  "summary": "Discover more about what's new at AWS with AWS Analytics services now support Workday Data Cloud integration",
+  "body_markdown": "Today, AWS announces a new bi-directional, zero-copy integration between AWS Analytics services and Workday Data Cloud. Instead of building and maintaining ETL pipelines to replicate data between systems, joint customers can now query across their AWS and Workday datasets in place, without moving or copying data, while retaining existing security controls in both environments.\n\n\nFrom AWS, you can use Amazon SageMaker Unified Studio, Amazon EMR, AWS Glue, Amazon Redshift, and Amazon Athena to query Workday data through Workday Live Data Query or federate to Apache Iceberg tables in Workday Data Cloud through catalog federation. Configure a connection in SageMaker Unified Studio, AWS Glue, or AWS Lake Formation consoles and begin querying immediately. Access is governed by AWS and Workday permissions.\n\n\nFrom Workday, you can register your AWS Glue Data Catalog Iceberg REST endpoint as an external catalog in Workday Analytics and query your AWS Iceberg tables directly. Common use cases include joining workforce data with business data for talent analytics, workforce planning, and machine learning.\n\n\nThis integration is available in all AWS commercial regions where AWS Glue is available. To learn more, see the[AWS Glue User Guide](https://docs.aws.amazon.com/glue/latest/dg/connecting-to-data-workday.html) , the[Workday Data Cloud integration with AWS on Workday Data Cloud](https://doc.workday.com/admin-guide/en-us/workday-data-cloud/data-out/workday-data-lake/workday-data-lake.html) , and the[AWS Big Data Blog post](https://aws.amazon.com/blogs/big-data/introducing-the-workday-data-cloud-integration-with-aws/) .",
+  "published_at": "2026-11-09T08:00:00+00:00",
+  "first_seen_at": "2026-11-10T01:34:53.914574+00:00",
+  "content_hash": "sha256:d0e2c5df6f7127b9c96d8cbac0d30027cad417d48944b0865da5f7a8eae0753f"
+}

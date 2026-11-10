@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3d9758befe3c6cfc2227675d4ca90abf3cecd8df3064e288b9453009e0903f75",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/muse-ember-metas-new-ai-model-explained-2026",
+  "canonical_url": "https://www.activepieces.com/blog/muse-ember-metas-new-ai-model-explained-2026",
+  "title": "Muse Ember: Meta's New AI Model Explained (2026)",
+  "summary": "Muse Ember is Meta's new AI model for automations. You'll understand what capabilities it offers and how they change automation systems.",
+  "body_markdown": "## How Activepieces handles a new model\n\n\nA platform that resells you a model has chosen it and priced it before you open the product. Activepieces runs any major model, or your own provider key, so spend lands on your provider account at your rates.\n\n\nA model that's new this week is a change to one step's setting, not a rebuild of the flow.\n\n\n### The dated pull request or integration page\n\n\nTo let platform admins connect their own keys,[pull request 17037](https://github.com/activepieces/activepieces/pull/17037) adds Meta, alongside NVIDIA.\n\n\nIt points at the Meta Model API (api.meta.ai/v1) through the Responses API with store: false, which asks the API not to keep responses, a sensible default when test prompts contain client data.\n\n\n19 provider types appear in the[Activepieces](https://www.activepieces.com/docs/admin-guide/guides/setup-ai-providers)[provider setup guide](https://www.activepieces.com/docs/admin-guide/guides/setup-ai-providers) . Twelve are model makers, so most connections run on the maker's own key. Four are cloud platforms, which means billing through an existing cloud account.\n\n\nTwo are gateways, one key fronting many models. One's OpenAI-compatible, the fallback for any endpoint speaking that protocol if a model never gets its own entry.\n\n\n### Using it in a workflow today\n\n\nAn admin adds the Meta key once, and the Ask AI step can then select it.\n\n\nThe \"Test Flow\" canvas below runs weekly, reads Google Sheets rows in a loop, and calls Ask AI at steps 6 and 8, which are the two places to compare gpt-5.4-mini against a Muse model.\n\n\nFor the cost comparison, write per-task results at step 7, Insert Row.",
+  "published_at": "2026-11-09T20:49:39+00:00",
+  "first_seen_at": "2026-11-10T01:34:10.689726+00:00",
+  "content_hash": "sha256:f34ec33dcc7370aae02e97f1ddb2bc424dd8aa5f5fcb44c70c94e5bbbcb15182"
+}

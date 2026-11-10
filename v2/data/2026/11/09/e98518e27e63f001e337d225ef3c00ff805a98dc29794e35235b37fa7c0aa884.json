@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e98518e27e63f001e337d225ef3c00ff805a98dc29794e35235b37fa7c0aa884",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/documentdb-serverless-platform-version-4/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/documentdb-serverless-platform-version-4/",
+  "title": "Amazon DocumentDB Serverless now provides up to 35% higher throughput",
+  "summary": "Discover more about what's new at AWS with Amazon DocumentDB Serverless now provides up to 35% higher throughput",
+  "body_markdown": "Amazon DocumentDB Serverless now provides up to 35% higher throughput with the launch of platform version 4. Platform versions represent improvements in performance, scaling capabilities, or features, and are automatically managed at the cluster level.\n\n\nAll new serverless clusters launch on the latest platform version available in your AWS Region. You can upgrade existing clusters on platform version 3 to platform version 4 by applying the serverless-platform-version-update pending maintenance action. This gives you control over when to apply the update, either immediately or during your next scheduled maintenance window. After you upgrade to a newer platform version, you can't downgrade to a previous version.\n\n\nYou can view the platform version of a cluster in the AWS Management Console or through the ServerlessV2PlatformVersion field of the DescribeDBClusters API. For more information, see[Amazon DocumentDB serverless scaling capacity](https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-serverless-how-it-works.html#docdb-serverless-scaling-capacity) and[Checking and upgrading the platform version of a serverless cluster](https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-serverless-managing.html#docdb-serverless-platform-version) .",
+  "published_at": "2026-11-09T16:00:00+00:00",
+  "first_seen_at": "2026-11-10T01:34:53.914574+00:00",
+  "content_hash": "sha256:d8ad97e521619dfec1d191e80bdffcf3711bb6d3984eb5118a3a8c0bc0afa410"
+}

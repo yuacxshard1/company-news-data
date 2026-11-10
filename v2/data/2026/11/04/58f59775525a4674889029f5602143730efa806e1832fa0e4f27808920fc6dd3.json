@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "58f59775525a4674889029f5602143730efa806e1832fa0e4f27808920fc6dd3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-signin-token-exchange/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-signin-token-exchange/",
+  "title": "AWS Sign-In now supports OAuth 2.0 Token Exchange",
+  "summary": "Discover more about what's new at AWS with AWS Sign-In now supports OAuth 2.0 Token Exchange",
+  "body_markdown": "AWS Sign-In now supports OAuth 2.0 Token Exchange (RFC 8693), enabling applications to exchange third-party OpenID Connect (OIDC) tokens for short-lived, AWS service-scoped OAuth access tokens. This allows customers to securely integrate third-party applications with supported AWS services without sharing AWS credentials, while maintaining access controls through AWS Identity and Access Management (IAM).\n\n\nThis capability is available for supported[AWS services that use AWS Sign-In OAuth](https://docs.aws.amazon.com/signin/latest/userguide/oauth-services-supporting.html) , enabling customers to use existing identity providers to securely access AWS services without managing additional credentials.\n\n\n**To learn more** , see the[AWS Sign-In User Guide](https://docs.aws.amazon.com/signin/latest/userguide/oauth-sign-in-overview.html#oauth-sign-in-authorization-models) ,[AWS MCP Server User Guide](https://docs.aws.amazon.com/signin/latest/userguide/aws-mcp-server.html#aws-mcp-server-auth-models) and the[AWS Glue launch announcement](https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/) .",
+  "published_at": "2026-11-04T19:00:00+00:00",
+  "first_seen_at": "2026-11-10T01:34:53.914574+00:00",
+  "content_hash": "sha256:80c900c7357e06016dc285410bf88a74a161d6469663c239f306708d3824880d"
+}

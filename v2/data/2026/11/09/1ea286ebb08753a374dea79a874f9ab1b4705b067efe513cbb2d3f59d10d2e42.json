@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1ea286ebb08753a374dea79a874f9ab1b4705b067efe513cbb2d3f59d10d2e42",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-profiles-multiple-per-vpc/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-profiles-multiple-per-vpc/",
+  "title": "Amazon Route 53 Profiles now supports multiple Profiles per VPC",
+  "summary": "Discover more about what's new at AWS with Amazon Route 53 Profiles now supports multiple Profiles per VPC",
+  "body_markdown": "[Amazon Route 53 Profiles](https://aws.amazon.com/route53/) now lets you associate more than one Profile with a VPC. Previously, a VPC could have only one Profile, so teams that managed Route 53 configurations separately (for example, security teams managing DNS Firewall rule groups while cloud infrastructure and network admin teams manage private hosted zones and Resolver forwarding rules) all had to share a single Profile and associate their private hosted zones, Resolver rules, and DNS Firewall rule groups with it.\n\n\nWith this launch, you can now associate multiple Profiles with the same VPC and set a priority for every Profile. Route 53 evaluates a VPC's Profiles in priority order, starting with the lowest number, so you can keep shared Route 53 configurations in one Profile and team-specific configurations in another without merging them, while assigning them the right priority. Combined with[the granular IAM permissions](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-profiles-granular-iam/) launched in March 2026, multiple Profiles per VPC improves security posture by letting each team own and manage its own Profile with least-privilege permissions.\n\n\nThis capability is available in all AWS Regions where Route 53 Profiles is available.\n\n\nEach Profile-VPC association is billed at standard Route 53 Profiles pricing. For details, see[Amazon Route 53 pricing](https://aws.amazon.com/route53/pricing/) . To learn more, see[Route 53 Profiles](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/profiles.html) in the Amazon Route 53 Developer Guide.",
+  "published_at": "2026-11-09T08:00:00+00:00",
+  "first_seen_at": "2026-11-10T01:34:53.914574+00:00",
+  "content_hash": "sha256:4f432c4ad00d766e389de43e640c0219b35e08f0c6192b2a2cfa86dce91de8a8"
+}
