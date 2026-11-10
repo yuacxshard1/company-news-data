@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0bb013099cf8f2a2d39abcda1311a0b1576a5ada9377ef6f0795a2b26b9b484c",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/verify-send-your-own-email-template",
+  "canonical_url": "https://bird.com/changelog/verify-send-your-own-email-template",
+  "title": "Verify: send your verification codes in your own email template",
+  "summary": "Pin one of your email templates to a Verify custom email sender, and codes arrive in your own design, copy, and translations instead of Bird's built-in email.",
+  "body_markdown": "Verify can now send the one-time passcode in an email you designed. Build the email in[Email Templates](https://bird.com/docs/guides/email/templates) , publish it, and choose it as the body of your custom email sender. Your users get your layout, wording, and languages; Verify keeps checking codes, attempts, and expiry exactly as before. The guide[Your own verification email](https://bird.com/docs/guides/verify/email-template) walks through the setup, with the rules the template must meet and how to troubleshoot a refused save.\n\n\n**Get started**\n\n\n- [Your own verification email](https://bird.com/docs/guides/verify/email-template) : design the template, pin it to your sender, and check what your user receives\n- [Senders and branding](https://bird.com/docs/guides/verify/senders) : the Bird-managed and custom senders for every Verify channel\n\n\n## What's new\n\n\n- **Your template, your domain** : pick a published transactional template under **Email** when you set up a custom sender on **Verify** › **Configure** › **Channels** , or for a single country in Destinations. Templates only send from an address on your own verified domain; the Bird Verify and Authifly senders keep Bird's built-in email.\n- **Two variables** : show the passcode with` {{ code }}` and the minutes it stays valid at send time with` {{ expires_in_minutes }}` . Add up to 25 languages; the template's default language is the fallback.\n- **Checked when you save and when you send** : every published language must show the code in the body, outside the subject and outside any link. A template that stops meeting the rules after a republish fails that email instead of sending a code-less message, and a pinned template cannot be deleted.\n- **Safe in your logs** : the Verify log and message details keep the code masked, as they do for Bird's built-in email.\n\n\nReady to try it? Start with[Your own verification email](https://bird.com/docs/guides/verify/email-template) .\n\n\n## Related resources\n\n\nContinue with the documentation, guides and examples for this topic.\n\n\n[Explore the capability Customer verification](https://bird.com/verify-api)[Implementation guide Verify your first customer](https://bird.com/docs/get-started/verify-your-first-customer)[Watch the guide Verify phone numbers at signup](https://bird.com/learn/series/verify-phone-numbers-at-signup)[Understand the concept What does OTP mean? One-time passwords explained](https://bird.com/explained/verify/what-does-otp-mean)\n\n\n[Try the practice and get an implementation brief](https://bird.com/learn/workspace?topic=verify)",
+  "published_at": "2026-11-09T00:00:00+00:00",
+  "first_seen_at": "2026-11-10T12:55:40.890639+00:00",
+  "content_hash": "sha256:19010fce88cc67e6076dc7ddd7e13e89b822c737892134bee2f8ac705abbefd9"
+}

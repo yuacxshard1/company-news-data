@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "86137a193068de4dd0967cf3b071442845feccb4043601c0b669d76b01c7e085",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/3d-asset-management-defense-training",
+  "canonical_url": "https://unity.com/blog/3d-asset-management-defense-training",
+  "title": "10 teams, 3 programs, and 7 years: Efficiently managing 3D assets in defense training",
+  "summary": "i3 Corps maintains military digital twins for years. See how its 10 art teams manage 3D assets with Unity Addressables and Unity Asset Manager.",
+  "body_markdown": "## **The last mile is a ten-year-old computer**\n\n\nConsumer software deals with storage pressure by ignoring it. It downloads tens of gigabytes and expects you to delete something else to make room.\n\n\nWe can’t do that. Our applications land on government machines that may be older, carry significant security controls, and have firm limits on how much space anyone can use. A classroom machine might hold every training course we have ever built for that platform. Compiled the conventional way, with models baked into each application, that’s hundreds of gigabytes of largely identical geometry.\n\n\nWe use[Unity Addressables](https://unity.com/how-to/simplify-your-content-management-addressables#production) to avoid that. Models live in a catalog rather than inside the build, they’re pulled on demand, and they are cached locally. Deduplication is the default rather than an optimization, because an asset referenced by fifteen applications is stored once. Applications only need to change when their code changes. It also means a developer does not need the entire library on one machine to assemble a scene.\n\n\nSecurity is also a critical factor. Classified material never touches the cloud, Controlled Unclassified Information (CUI) can, but it needs to be wrapped so nobody can open the model on the machine and walk out with it. Knowing which category an asset falls into, reliably and at a glance, is not administrative overhead. It determines where the asset is allowed to exist.\n\n\nA related question comes up constantly and has nothing to do with security: who owns this? Some assets are i3 property, and some are government property, and the distinction determines whether we can reuse an asset on the next contract, or reference it in a proposal.",
+  "published_at": "2026-11-10T00:00:00+00:00",
+  "first_seen_at": "2026-11-10T12:25:03.148312+00:00",
+  "content_hash": "sha256:d833c64ad06b6fd666c37d6be2b63fe7ee59c9e677d14f510172bfb26b1307aa"
+}

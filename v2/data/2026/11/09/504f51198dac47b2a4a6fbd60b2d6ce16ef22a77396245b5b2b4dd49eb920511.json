@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "504f51198dac47b2a4a6fbd60b2d6ce16ef22a77396245b5b2b4dd49eb920511",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/auth0-verify-phone-provider",
+  "canonical_url": "https://bird.com/changelog/auth0-verify-phone-provider",
+  "title": "Auth0: guided setup for Bird as your phone provider",
+  "summary": "A guided setup connects Auth0's Custom Phone Provider to Bird for MFA and passwordless codes through Bird Verify and account notifications through Bird SMS.",
+  "body_markdown": "A guided integration for Auth0 is now available. It walks through using Bird as Auth0's Custom Phone Provider, with screenshots of each step in Auth0 and Bird and the provider code to paste.\n\n\nAuth0 generates and checks each sign-in code, and Bird Verify delivers it by SMS or voice call for MFA, and by SMS for passwordless login. If your tenant also sends account notifications, such as blocked-account, password-change and password-breach messages, they go out through Bird SMS with the text from your Auth0 templates. Setup needs a Bird API key stored as an Auth0 secret, plus an SMS sender for account notifications, and no OAuth client.\n\n\n[Set up Auth0 with Bird](https://bird.com/docs/knowledge-base/integrations/auth0) .",
+  "published_at": "2026-11-09T00:00:00+00:00",
+  "first_seen_at": "2026-11-10T12:55:40.890639+00:00",
+  "content_hash": "sha256:186fbd03083b13d6b6d2d41804cb5da57d655dca12ecfc6c2fce8566a6d4a451"
+}
