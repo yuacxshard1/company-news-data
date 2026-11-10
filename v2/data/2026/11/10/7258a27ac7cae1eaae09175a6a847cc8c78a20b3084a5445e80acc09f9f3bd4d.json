@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7258a27ac7cae1eaae09175a6a847cc8c78a20b3084a5445e80acc09f9f3bd4d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/nscale-pricing-vs-nebius-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/nscale-pricing-vs-nebius-in-2026",
+  "title": "Nscale Pricing vs Nebius in 2026",
+  "summary": "Nscale pricing varies by product: serverless inference by usage, on-demand GPUs per hour, reserved GPUs by commitment. Limits differ for each plan.",
+  "body_markdown": "## Frequently asked questions\n\n\nIf an answer can't be tied to a vendor page and a date, it's the same kind of empty pass: it looks like a result and tells you nothing. Treat each answer below as a prompt to re-read the named page before you sign.\n\n\n### Does nscale have a free tier or free credits?\n\n\nBudget as if it doesn't. Nscale's pricing pages are the only authority here, and any credit that isn't printed on them is **a sales concession, not a published term** .\n\n\nAsk for it in writing, with an expiry date and the products it covers, because a credit that applies to serverless inference doesn't offset a reserved GPU invoice.\n\n\n### Is nscale cheaper than Nebius for inference?\n\n\nIt depends on the workload, so a headline rate can't settle it. Compare the two on the same monthly bill: the same model, the same input and output token mix, and the same commitment level. Check each vendor's page on the same day.\n\n\nAt low volume a rate can win, then lose once a committed discount applies on the other side.\n\n\n### Does nscale charge for data egress?\n\n\nRead the egress line on the vendor's current pricing or terms page before you assume either answer. Nebius publishes a per-gigabyte egress rate, which makes it easy to price.\n\n\nIf Nscale's page doesn't state one for your product, ask the sales team and get the answer in writing.\n\n\nEgress matters most when you move large outputs or datasets out of the vendor's cloud, and it's the line most often missing from a comparison.\n\n\n### Can I get a discount for committing to nscale GPUs for a year?\n\n\nOn reserved GPU capacity, commitment length normally moves the price, so ask for a quote at each term you'd accept. Get the discount stated against the on-demand rate, and ask what happens to the commitment if the hardware's unavailable or the service goes down.\n\n\nRead the SLA clause verbatim, since uptime credits are only as good as the clause that defines them.\n\n\n### How often does nscale change its prices?\n\n\nI've no confirmed cadence, so I won't state one. Treat every price in this article as true on the date it was checked, and nothing more.\n\n\nBefore you rely on a figure, reopen the vendor's page and compare its date against the date in this article. If you're signing a contract, a price-protection clause matters more than any list rate.",
+  "published_at": "2026-11-10T09:25:45+00:00",
+  "first_seen_at": "2026-11-09T09:12:36.180458+00:00",
+  "content_hash": "sha256:56c18c3f6c1098e7b1d1a75adc33e7c97e813b2e00e5016dfd648ee12a33718e"
+}

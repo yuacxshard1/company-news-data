@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "17d23c39825d304616ff59dbfcd924c51278a8176a96b55beb1ee3116f301910",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/speechmatics-pricing-2026-plans-rates-and-limits",
+  "canonical_url": "https://www.activepieces.com/blog/speechmatics-pricing-2026-plans-rates-and-limits",
+  "title": "Speechmatics Pricing 2026: Plans, Rates and Limits",
+  "summary": "Speechmatics pricing ranges from $0.30 to $0.80 per hour by model, with built-in calculators to estimate costs and compare against alternative services.",
+  "body_markdown": "## Factors behind the bill overrun\n\n\nBecause four things sit between the listed hourly rate and the total, the invoice didn't reconcile, and the docs confirm only some of them.\n\n\nEach cause below is marked \"confirmed in docs\" or \"not stated\", so you know which to budget for and which to ask support about.\n\n\n### Speechmatics Accuracy Tiers and Add-On Feature Costs\n\n\nConfirmed in docs. The pricing page separates accuracy levels and optional features such as speaker labelling and translation. The headline rate covers only the base tier.\n\n\nSwitching on the higher accuracy setting \"just for the noisy calls\" meant paying a different rate on every hour of audio, not only the noisy ones. Check each job's configuration before multiplying hours by one rate.\n\n\n### Speechmatics Billing Rounding and Retried Jobs\n\n\nNot stated. The docs give no clear statement of how short files are rounded, or whether Speechmatics still bills the audio a job processed before it failed partway.\n\n\nSend many short clips and you could pay for far more than the raw duration, and a retry may mean paying twice for the same minutes. Ask support in writing, and keep your own per-job duration log to compare against the invoice.\n\n\n### Concurrency and rate limits\n\n\nConfirmed that limits exist, not stated how they affect the bill. When a batch hits the cap, jobs get rejected or queued, and most automation tools respond by retrying. Whether a rejected request costs anything is the unclear part.\n\n\n**The practical fix is on your side: cap how many jobs your workflow submits at once, so the limit never triggers retries.**\n\n\nThrottling logic tempts you to add steps: a counter, a wait, a check before each submit.\n\n\n[Activepieces](https://www.activepieces.com/) charges 1 credit per flow run however many steps the flow holds, so a ten-step throttle costs the same as the two-step workaround it replaces, unlike Zapier's per-task billing, which counts each step.\n\n\n### Free-tier and plan boundaries\n\n\nPartly confirmed. Speechmatics publishes the free allowance and plan boundaries, but the docs say little about what happens at the edge, such as whether it bills overage automatically or the service stops. Assume automatic billing until support tells you otherwise.\n\n\nTreat reprocessed audio, the fourth cause, as charged. It shows up in the same place as the retries above: the docs are silent on whether Speechmatics charges a re-submitted file as new audio.",
+  "published_at": "2026-11-10T08:37:00+00:00",
+  "first_seen_at": "2026-11-10T16:34:02.314044+00:00",
+  "content_hash": "sha256:15e6f85c96a93c74de0badda39fa7f1738b138d78c0687225d88efc724b8261d"
+}

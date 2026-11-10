@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3c299526d13a4efb7446bca70326b9b6265e42a4a1dd467aa4e24893f3adf92a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/jetbrains-junie-pricing-every-plan-compared-2026",
+  "canonical_url": "https://www.activepieces.com/blog/jetbrains-junie-pricing-every-plan-compared-2026",
+  "title": "JetBrains Junie Pricing: Every Plan Compared (2026)",
+  "summary": "JetBrains Junie pricing includes free, team, and pro plans, plus AI Pro add-ons. Review the complete pricing table to select the plan matching your needs.",
+  "body_markdown": "## Activepieces for the Work Around a Coding Agent\n\n\nActivepieces can't change what Junie costs or how fast its tasks drain your JetBrains AI quota.\n\n\nWhat it does is run the work around the agent at 1 credit per run however many steps the flow has, with unlimited flows on every plan, including the free one with 1,000 credits a month.\n\n\nThat matters here because every task you stop wasting on a vague brief is a task that doesn't burn credits twice.\n\n\n### Where it genuinely fits\n\n\nStart with the jobs that sit around the agent. A ticket moves to \"ready\" in your tracker, and a flow turns its fields into a structured brief that a person pastes into Junie.\n\n\nOr a flow posts a weekly reminder in Slack telling the team to open their JetBrains AI usage page and check the quota.\n\n\nNobody sees a quota running down until a task stalls, so the reminder is the point: a scheduled nudge is cheaper than finding out mid-sprint.\n\n\nThe screenshot below shows the shape of such a flow. A two-step canvas has a Stripe \"Payment Failed\" trigger feeding a Slack \"Send Message To A Channel\" action, and the run panel reports the run succeeded.\n\n\nIt's a billing alert, not a Junie workflow, but the pattern is the same: an event fires, a templated message lands in a channel, and the run log shows each step completing.\n\n\nThe sentence to take from it is that the build is small. A trigger, one action, a channel and a message template are all it takes, and the run details tell you whether it worked.\n\n\nSwapping in a ticket trigger or a weekly schedule means the same two-step skeleton does the job.\n\n\n### Where it does not\n\n\nThere is no Junie integration in Activepieces, so I claim none.\n\n\nWhat it does put in one product is the work around the agent: the ticket trigger, the brief, the quota reminder, plus an AI chat and MCP tools, all governed by the same custom RBAC, SSO, SCIM, audit logs, environments and git sync, on cloud or self-hosted.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run it in production, on a core that is MIT-licensed. Build those handoffs from point tools and you have six vendors, six bills, and six separate places to prove what happened when a brief went wrong.\n\n\nThe reminder above is a prompt for a human to look, not a meter.\n\n\nIt also can't lower the burn rate. If agent tasks consume your quota quickly, a tidier brief may help at the margin, but only your own usage page says by how much.",
+  "published_at": "2026-11-10T11:12:36+00:00",
+  "first_seen_at": "2026-11-10T16:34:02.314044+00:00",
+  "content_hash": "sha256:b7230548816d30ed39314a48ce22a72760a34b30aa3cb32caffc59be1e46bebf"
+}

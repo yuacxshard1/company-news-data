@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8299561026dbb87ca6eeefdcd63395db245c2c9ac6806ed110e0004380e73933",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-haiku-55-api-pricing-rates-and-costs-for-2026",
+  "canonical_url": "https://www.activepieces.com/blog/claude-haiku-55-api-pricing-rates-and-costs-for-2026",
+  "title": "Claude Haiku 5.5 API Pricing: Rates and Costs for 2026",
+  "summary": "Claude Haiku 5.5 API pricing is $0.10 per million input tokens and $0.50 per million output tokens. You can calculate costs for your specific workload.",
+  "body_markdown": "## Choosing Haiku on list price alone\n\n\n### When list price is a fair guide\n\n\nBelow a certain monthly spend, list price is the right way to choose, because the work of modelling cost per task costs more than the gap you would find. The numbers are public, they're easy to compare, and they've fallen with each Haiku generation.\n\n\n### How Haiku input prices have moved\n\n\nAccording to[AI Change Watch](https://aichangewatch.com/anthropic/pricing) , Haiku 3 listed input at $0.25 per million tokens. Haiku 3.5 rose to $0.80, and Haiku 4.5 to $1. Haiku 5.5 now lists at $0.10.\n\n\nSo the trend isn't a straight line down: **input cost quadrupled across two generations** before dropping to a tenth of the previous model's rate.\n\n\nHad a team waited for prices to fall, it would have waited through two increases. A team that simply picked the cheapest current rate would have landed on a sound choice today.\n\n\n### Why small spend can stop at list price\n\n\nStopping there is fair enough. At a few hundred dollars a month, a week of instrumenting retries and cache hit rates is paid for in engineer time that exceeds any saving.\n\n\nOver that range, a ten-cent list price is a good enough proxy, and you shouldn't build a spreadsheet to defend it.\n\n\n### When Haiku 5.5 behaviour outweighs list price\n\n\nThat changes once spend is large enough that **a modest swing in behaviour moves real money** .\n\n\nAt that point the list gap between two models is a fixed percentage, while output length, retries and cache misses can each move the bill by a larger and less predictable amount.\n\n\nIf a model is cheaper per token but writes longer answers, or fails and reruns more often, it can cost more per finished task.\n\n\nOn the scale below, the list price gap sits on one side, the behaviours that multiply your token count on the other, and a monthly-spend dial beside them.\n\n\n> If a model is cheaper per token but writes longer answers, or fails and reruns more often, it can cost more per finished task.\n\n\nRead it as a question of which side is heavier for your volume, not as a general ruling.\n\n\n### When Haiku 5.5 list price predicts your bill\n\n\nIt all comes down to one condition: whether your tasks behave alike from run to run. If outputs are short and fixed in length and retries are rare, list price predicts the bill and you can trust it.\n\n\nIf lengths vary or failures cluster, the list price stops predicting anything, and measuring cost per finished task is the only reliable guide.",
+  "published_at": "2026-11-10T10:03:45+00:00",
+  "first_seen_at": "2026-10-11T03:15:43.584115+00:00",
+  "content_hash": "sha256:b64a96b276d4a8b3231cd77a1c0cd0c37843b07e3327fecfd51e896836edbf13"
+}

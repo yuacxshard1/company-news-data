@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e629bc840e67d429e08606731da8cefc686e27ae027aee9f5fc46133e5d15589",
+  "company_key": "yc-easypost",
+  "company_name": "EasyPost",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.easypost.com/blog/easypost-mcp-puts-live-shipping-data-in-claude-and-openai/",
+  "canonical_url": "https://www.easypost.com/blog/easypost-mcp-puts-live-shipping-data-in-claude-and-openai/",
+  "title": "EasyPost MCP Puts Live Shipping Data In Claude and OpenAI",
+  "summary": "EasyPost - EasyPost MCP Puts Live Shipping Data In Claude and OpenAI %",
+  "body_markdown": "Shipping isn’t easy. Finding the perfect label that fits within budget and meets the customer’s delivery speed expectations used to require hand picking a service out of a long list of rates. With EasyPost, it’s as simple as asking a question in Claude or ChatGPT.\n\n\nEasyPost MCP allows you to instantly rate shop, purchase labels, add insurance, and more. Quickly get the shipping answers you need to run your business without opening the EasyPost dashboard.\n\n\nFor a full list of commands, see our\n\n\n[EasyPost MCP documentation here](https://docs.easypost.com/guides/mcp-guide#current-tools) .\n\n\n##\n\n\n**Support questions answered in seconds**\n\n\nFor anyone who’s ever pasted the same tracking number into three different windows before lunch, you know the struggle of hunting down the answer to a seemingly simple support ticket. EasyPost MCP takes that whole fiasco and turns it into a simple question.\n\n\n“Where’s order 4417?” gets a real status. “Which packages are stuck in transit?” gets a list. The repetitive lookups that eat up a morning become a quick question and answer without any technical background. Ask ChatGPT or Claude questions in plain language and get a reply in seconds.\n\n\n##\n\n\n**How to connect to EasyPost MCP**\n\n\nTo use EasyPost MCP you’ll need an EasyPost account, a production API key, and an MCP client. EasyPost MCP is only for production mode.\n\n\n1. Set a production API key to connect EasyPost to your MCP client.\n\n\n2. Configure your MCP client using our guide\n\n\n[here](https://docs.easypost.com/guides/mcp-guide#step-2-configure-your-mcp-client) .\n\n\n3. Verify the connection is live with a test question.\n\n\n##\n\n\n**Frequently asked questions**\n\n\n**Q: Which clients work?**\n\n\nAny MCP client that supports remote servers over Streamable HTTP with custom request headers. This includes: Claude, ChatGPT (OpenAI), Cursor, VS Code, and more.\n\n\n**Q: Do I need to install anything?**\n\n\nNo. EasyPost hosts the server. Your client connects to it over HTTPS.\n\n\n**Q: Does connecting change anything in my EasyPost account?**\n\n\nNo. The current tools retrieve existing records. They do not create, modify, or purchase anything.\n\n\n**Q: Can I use a test API key?**\n\n\nNo. EasyPost MCP sends requests in production mode, so it requires a production API key.\n\n\n**Q: Can I use the same key in more than one client?**\n\n\nYes. EasyPost rate limits apply to the account, not to each client.",
+  "published_at": "2026-11-10T17:20:55+00:00",
+  "first_seen_at": "2026-11-10T19:44:46.591353+00:00",
+  "content_hash": "sha256:71d27bbccfee8e4bb4b944a19ea07dcb577ec2e45fefbded3b753e048e0cc224"
+}

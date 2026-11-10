@@ -9,6 +9,26 @@
       "source_kind": "html",
       "summary": "A full trading day of US equities, 354 million top-of-book events, streamed back from QuestDB as Arrow. In strict time order the client peaks at 194 MiB; parallel connections reach 14 Gb/s, using more memory as more results arrive at once. Code, commands and hardware included so you can rerun it.",
       "title": "Market data replay for backtesting: a full day of US equities from QuestDB"
+    },
+    {
+      "company_key": "yc-questdb",
+      "company_name": "QuestDB",
+      "doc_id": "92b3e58b5e83a0c19ffe665de2fe2a0ec847f9ecef7eebed1b919b9e3e9229f4",
+      "first_seen_at": "2026-11-10T19:12:24.542455+00:00",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How Port Context Engine turns the free public AIS feed into live port congestion data with five Go services, NATS JetStream and a single QuestDB container capped at 2 CPUs and 1 GB.",
+      "title": "Measuring port congestion from free AIS data with NATS and QuestDB"
+    },
+    {
+      "company_key": "yc-questdb",
+      "company_name": "QuestDB",
+      "doc_id": "94dedfd55700969272b817e35f6c9d0e9686ff0af8826efb07dad6b2bf75ee80",
+      "first_seen_at": "2026-11-10T19:12:24.542455+00:00",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "QuestDB 10.2 adds power-loss durability for WAL tables, GROUPING SETS, passthrough views with row-level retention, and a DEDUP SKIP mode that keeps the first copy of a row.",
+      "title": "QuestDB 10.2: commits that survive a power loss"
     }
   ],
   "company_key": "yc-questdb",

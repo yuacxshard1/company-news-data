@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e26d19508c99975b12b66b1b91223dd7893e7e086bfd7ad802ba3a4ae5aa55e9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-alarms-autoscaling-group-actions",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-alarms-autoscaling-group-actions",
+  "title": "CloudWatch PromQL alarms now support EC2 and Application Auto Scaling",
+  "summary": "Discover more about what's new at AWS with CloudWatch PromQL alarms now support EC2 and Application Auto Scaling",
+  "body_markdown": "Amazon CloudWatch alarms that use Prometheus Query Language (PromQL) can now trigger Amazon EC2 and Application Auto Scaling step and simple scaling policies. You can scale your EC2 Auto Scaling groups on CloudWatch OpenTelemetry metrics using the same kind of PromQL queries you use for dashboards and alerting.\n\n\nIn this release, PromQL alarms also support EC2 Auto Scaling simple and step scaling policies. Target tracking is not currently a supported policy type for PromQL alarms. Teams moving to OpenTelemetry can scale capacity on the same metrics as the rest of their monitoring, instead of keeping separate classic metric alarms for scaling. For step scaling, how far the value is past the threshold in your PromQL query decides which step applies. The query must return a single series and compare it to a threshold.\n\n\nYou can add EC2 Auto Scaling and Application Auto Scaling actions in the CloudWatch console when you create or edit an alarm, or with the PutMetricAlarm API, AWS CLI, AWS SDKs, or AWS CloudFormation. You can also use the PutMetricAlarm API, AWS CLI, AWS SDKs, or AWS CloudFormation.\n\n\nThis feature is available in all AWS Regions where CloudWatch PromQL alarms are available. Standard CloudWatch alarm pricing applies. To get started, see[Using PromQL in alarms](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PromQL-Alarms.html) and[Alarm actions](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/alarm-actions.html) in the Amazon CloudWatch User Guide.",
+  "published_at": "2026-11-10T03:00:00+00:00",
+  "first_seen_at": "2026-11-10T16:34:57.345005+00:00",
+  "content_hash": "sha256:e2f9238cc4935d7f1764d6695ad6f3df02b99af4f7d492a0958a7aae7963cec8"
+}

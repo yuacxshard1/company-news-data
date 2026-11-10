@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cd0610a62f025d0590a136d1dd5611f8e05a0a7faf74bb25aeca803f7c52fb1d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/aleph-alpha-pricing-in-2026-quoted-deals-and-costs",
+  "canonical_url": "https://www.activepieces.com/blog/aleph-alpha-pricing-in-2026-quoted-deals-and-costs",
+  "title": "Aleph Alpha Pricing in 2026: Quoted Deals and Costs",
+  "summary": "Aleph Alpha pricing works through negotiated quotes rather than set rates. You'll understand this approach and what to expect when requesting pricing.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces can't publish Aleph Alpha's rate for you, and no tool can. What it can do is keep the part of the bill you control separate from the part a contract sets.\n\n\n[Activepieces](https://www.activepieces.com/) runs your workflow on your own provider key, so whatever Aleph Alpha quotes you is billed on your Aleph Alpha account, not marked up through us.\n\n\nWhen the quote arrives, you put its input and output rates into the 16 million and 1.6 million token formula above and get a monthly figure you can check against the invoice.\n\n\nOur side of the bill is published. The Plus plan is $20 a month, and from that plan every AI step costs 1 credit, so the platform cost of the 2,000-contract workload doesn't depend on which model sits behind the step.\n\n\nThe model cost is the only number you're waiting on a quote for, and you can keep it apart from the rest.\n\n\nFor a vendor with no native connector, the generic HTTP step does the job described in the last answer: credentials in the secrets store, a request to the endpoint your contract names, and the text passed on to the next step.\n\n\nThe retry and per-run call cap that answer recommends are settings you add to that flow.\n\n\nThe same flow can later point at Mistral, OpenAI or Anthropic by swapping the endpoint and key, which makes the side-by-side comparison on your own workload a change to one step and not a rebuild.\n\n\nThe core is open source under the MIT licence, so if the contract you sign involves on-prem or private-cloud inference, the automation layer can run on your own infrastructure too. You can also reach your workflows from Claude, ChatGPT, Cursor or any MCP client.\n\n\nMoneyGram and Moneypenny run Activepieces in production. That doesn't answer what Aleph Alpha will charge, but it means that once the quote exists, the rest of the cost is already a known number.",
+  "published_at": "2026-11-10T12:48:03+00:00",
+  "first_seen_at": "2026-11-10T16:34:02.314044+00:00",
+  "content_hash": "sha256:3467900b5fb9f102a6100fd7b40b242f1feb4fb55d5196b3b27bb188d976bb36"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "507a03ed5af39b5c5fc2a6d6e5c73f1bbe449d6989c7b4248b2a5813fc1e13ed",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/azure-virtual-machines-pricing-types-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/azure-virtual-machines-pricing-types-and-costs-2026",
+  "title": "Azure Virtual Machines Pricing: Types and Costs (2026)",
+  "summary": "Azure virtual machines pricing varies by commitment. A D4s v5 costs $140/month pay-as-you-go, or $30–$87 with advance reservations.",
+  "body_markdown": "## Cut an Azure VM bill with Activepieces\n\n\nMachines left running that nobody is using **account for most of the waste** on a small team's Azure bill. Azure's own tools should catch the first round of it before you add anything else.\n\n\n### Built-in Azure cost controls to enable first\n\n\nStart with three things that cost nothing extra to turn on. Cost Management budgets let you set a monthly ceiling and send an email when spending approaches it, so an overrun reaches you during the month instead of on the invoice.\n\n\nAzure Advisor reviews your resources and flags virtual machines that sit mostly idle, which tells you what to shrink or remove.\n\n\nAuto-shutdown, found in each VM's settings, powers a machine off at a fixed time every day, which stops a test server from billing through the night and the weekend.\n\n\nDo these first. If the problem is one forgotten machine, they solve it, and you've added no new software to maintain.\n\n\n### Automate Azure VM shutdown and orphan checks\n\n\nNative controls leave gaps. Auto-shutdown is set machine by machine, so a new VM someone creates next week has no schedule unless they remember it.\n\n\nBudget alerts tell you that you overspent, not which machine did it. And a deleted VM often leaves its disk behind, still billing.\n\n\nActivepieces lets you build a sequence of steps on a canvas across its 747 integrations, with unlimited flows on every plan including free, and that is how it fills those gaps, so you can automate your entire workflow without upgrading to a paid plan.\n\n\nThe screenshot below is the vendor's own example, a lead-handling flow, not an Azure one.\n\n\nIt shows a trigger, an AI step that makes a judgment, a yes-or-no condition, and actions that follow. Take from it how the integrations connect, since a cost workflow uses the same parts.\n\n\n*(screenshot)*\n\n\nBuilt that way, one workflow runs on a schedule, finds VMs carrying a non-production tag, and deallocates them. Deallocating matters: a stopped VM still reserves its compute and keeps billing, while a deallocated one doesn't.\n\n\nA second workflow lists disks attached to no machine and sends you the list to review. A third sends a budget warning to chat, where your team will see it.\n\n\nThis is housekeeping. It doesn't replace a VM or change what you commit to, and it depends on your tagging being consistent.",
+  "published_at": "2026-11-10T09:23:57+00:00",
+  "first_seen_at": "2026-11-05T11:19:26.304002+00:00",
+  "content_hash": "sha256:01d5044b38b16078424f7a479c71c7455fd338d6112cc54c9baaa264b4211d74"
+}

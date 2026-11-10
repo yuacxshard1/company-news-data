@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1d2025cdd5ebd3fb0e5c84ed629c5b675f03a8637f8b5b7ac674262cbab62ef5",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/fly-io-pricing-in-2026-for-machines-volumes-and-ips",
+  "canonical_url": "https://www.activepieces.com/blog/fly-io-pricing-in-2026-for-machines-volumes-and-ips",
+  "title": "Fly.io Pricing in 2026 for Machines, Volumes and IPs",
+  "summary": "Fly.io pricing charges only for resources you use, with no mandatory plans or tiers. Payment is based on actual usage and support plans are optional.",
+  "body_markdown": "## Catching Fly.io bill surprises with Activepieces\n\n\nSomeone has to watch the sum, and Activepieces, an open-source AI automation platform with an MIT-licensed core and 746 integrations (which means most services you depend on are probably already supported) can do it: a scheduled flow pulls your Fly.io billing data and alerts you when spend crosses a threshold.\n\n\nA scheduled workflow counts your machines and volumes, compares them with a budget you set, and posts to Slack or email when you drift past it.\n\n\nIt monitors cost; it doesn't reduce it.\n\n\nBecause every extra machine or volume is a separate meter, the cheapest alert is one that fires on the count of those meters before the invoice does.\n\n\n### What Fly.io's own billing tools cover\n\n\nStart with what Fly.io gives you, because it's closer to the source of truth. The dashboard shows your current usage and past invoices, and the CLI lists every machine and volume in an app. Those tell you what you're running and what you've been charged.\n\n\nWhat they leave to you is the habit of looking. Until someone opens the dashboard, a forgotten staging machine or an orphaned volume keeps accruing on its own meter.\n\n\nActivepieces fills that gap and nothing more, and because every plan including free allows unlimited flows, a separate watcher for each app adds no tier to buy. It can't change a machine's size, stop idle machines, or alter your invoice.\n\n\nTreat Fly.io's tools as the place where you find and fix the cause, and the workflow as the prompt to go there.\n\n\n### A scheduled spend-check workflow\n\n\nA daily check is one run per day, and the Activepieces pricing page states 1 credit per flow run, any number of steps, so the five-step flow above costs what a two-step shortcut would.\n\n\nZapier's pricing page bills per task and Make's bills per module, so on those pages each added step is a charge, which penalises the habit of splitting work into small, reliable parts.\n\n\nThe Free plan's 1,000 credits a month cover a daily check with room to spare, and MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.\n\n\nBecause the Activepieces core is MIT-licensed and the Community Edition is free to self-host, you can run it on Fly.io itself.\n\n\nThe software costs nothing, but it adds a machine, and probably a volume, to the very bill it watches, so count them in your budget.\n\n\nOnce the alert fires, the next step is Fly.io's own tools: find the machine or volume responsible and resize or remove it.",
+  "published_at": "2026-11-10T09:24:50+00:00",
+  "first_seen_at": "2026-11-03T22:44:07.295388+00:00",
+  "content_hash": "sha256:69efc0fa59c66fa3bc017c5cbab00220e6a243b9ab5ecee99edcbea7dddea007"
+}

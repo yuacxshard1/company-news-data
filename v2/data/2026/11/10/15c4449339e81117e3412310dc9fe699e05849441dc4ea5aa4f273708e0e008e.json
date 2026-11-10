@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "15c4449339e81117e3412310dc9fe699e05849441dc4ea5aa4f273708e0e008e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/google-document-ai-pricing-cost-per-page-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/google-document-ai-pricing-cost-per-page-2026-guide",
+  "title": "Google Document AI Pricing: Cost per Page (2026 Guide)",
+  "summary": "Google Document AI pricing charges per page for each processor type, with add-ons affecting costs, so you can forecast expenses for your workflows.",
+  "body_markdown": "## Frequently asked questions\n\n\nBecause quotas cap your throughput, not your invoice, the questions that move the bill are the ones below. Google revises its rates, so confirm each answer against the current pricing page before you budget.\n\n\n### Does Google Document AI have a free tier?\n\n\nNot as a standing per-page allowance that I can confirm for any processor.\n\n\nNew Google Cloud accounts get trial credit, but that credit is attached to the account, not to Document AI.\n\n\nIt'll cover a proof of concept, then stop, so don't build a steady-state budget on it. Price your first production month as if the credit didn't exist.\n\n\n### Is Document AI billed per page or per document?\n\n\nPer page for the document processors, which means a 40-page contract costs forty times what a one-page receipt does. Counting documents gives you the wrong denominator.\n\n\nCount pages, and use your longest realistic files in the estimate, because averages hide the outliers that carry the cost.\n\n\n**Custom models add charges beyond pages** , such as training and keeping a deployed version hosted, so a custom processor needs its own line in the estimate.\n\n\n### Can I get a discount on Document AI for committed volume?\n\n\nVolume pricing exists, and Google has published lower per-page rates once usage passes a threshold for some processors. Whether a given threshold applies to your processor, and whether it resets monthly, is exactly what you should read off the pricing page, not assume.\n\n\nBe wary of any tier you can only understand by booking a call. If the rate for your volume isn't published, treat the unpublished price as unknown and leave it out of your comparison until someone puts a number in writing.\n\n\n### Which Document AI processor is cheapest for scanned PDFs?\n\n\nOf the general processors, plain OCR is the least expensive per page, because it only reads text and doesn't extract structure. That advantage disappears if you then need tables or key-value pairs, since the specialised parsers charge more per page.\n\n\nEnabling OCR add-ons also raises the rate. Compare on the output you need, not on the lowest line in the table.\n\n\n### Do I pay for pages that fail to process?\n\n\n**Requests that return an error aren't generally billed** , but a request that succeeds with unusable output is billed in full.\n\n\nThe second case is the expensive one: a badly scanned page that comes back garbled costs you once, and costs you again when you re-run it. Budget for a re-run rate, and fix scan quality before you pay to repeat the work.",
+  "published_at": "2026-11-10T09:26:02+00:00",
+  "first_seen_at": "2026-11-04T22:37:09.827641+00:00",
+  "content_hash": "sha256:61014c14f34301c9d94b959c53315e08baac527cead5d3ccae274ce7849a4af6"
+}
