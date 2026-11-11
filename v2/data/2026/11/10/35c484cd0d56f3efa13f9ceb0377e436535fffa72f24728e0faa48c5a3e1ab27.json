@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "35c484cd0d56f3efa13f9ceb0377e436535fffa72f24728e0faa48c5a3e1ab27",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-8-0-3/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-8-0-3/",
+  "title": "Amazon DocumentDB (with MongoDB compatibility) now supports post-quantum TLS, wildcard indexes, and $unionWith in version 8.0.3",
+  "summary": "Discover more about what's new at AWS with Amazon DocumentDB (with MongoDB compatibility) now supports post-quantum TLS, wildcard indexes, and $unionWith in version 8.0.3",
+  "body_markdown": "Amazon DocumentDB (with MongoDB compatibility) 8.0.3 adds hybrid post-quantum key exchange for TLS, wildcard indexes, the $unionWith aggregation stage, and new change stream events. Post-quantum TLS protects data in transit from traffic that is recorded today and decrypted later with a quantum computer. The new MongoDB APIs let you move more MongoDB workloads to Amazon DocumentDB without changing application code.\n\n\nWhat's new in 8.0.3:\n\n\n-\n\n\nPost-quantum TLS: TLS 1.3 connections use hybrid key exchange based on the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) when the client supports it. Other clients keep using classical key exchange. Two new Amazon CloudWatch metrics, TLSHandshakesClassical and TLSHandshakesPostQuantum, count the handshakes of each type.\n\n\n-\n\n\nWildcard indexes: index every field, or every field under a path, to query documents with dynamic schemas.\n\n\n-\n\n\nAggregation: $unionWith combines results from multiple collections in one pipeline. $lookup and $graphLookup work in views, and correlated $lookup sub-pipelines accept $unionWith and $facet.\n\n\n-\n\n\nChange streams: dropIndex() and dropIndexes() now emit dropIndexes events.\n\n\n-\n\n\nCompression metrics: collStats and stats() report per-collection input bytes, output bytes, and compression ratio.\n\n\nAmazon DocumentDB 8.0.3 is available in all AWS Regions where Amazon DocumentDB is offered. To learn more, see the[Amazon DocumentDB Developer Guide](https://docs.aws.amazon.com/documentdb/latest/developerguide/) .",
+  "published_at": "2026-11-10T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T03:24:42.143359+00:00",
+  "content_hash": "sha256:353c250ff3611aadbcbcdc0460e84b4c162cd54c1eef82861075583bb3d6f103"
+}

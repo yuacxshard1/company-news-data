@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0aa5b400c67ddcade0d2afe5bf205e85b149d9787c66d39727b4837b2764d3f2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-access-grants-list-across-regions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-access-grants-list-across-regions/",
+  "title": "Amazon S3 Access Grants now support listing grants across multiple AWS accounts",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Access Grants now support listing grants across multiple AWS accounts",
+  "body_markdown": "Amazon S3 Access Grants can now discover and list all your grants across multiple AWS accounts with a single API call, eliminating the need to query each account separately. A single *ListCallerAccessGrants* call returns grants from your own S3 Access Grants instance and every instance shared with you, giving you a complete view of the S3 data you can access.\n\n\nBy setting the new *InstanceScope* parameter to *ALL* in your *ListCallerAccessGrants* request, S3 Access Grants queries every instance shared with you through AWS Resource Access Manager (AWS RAM) and returns all the grants in one combined response, each identifying the account that owns it. Additionally, when you request credentials with *GetDataAccess* for an S3 path and set *InstanceScope* to *ALL* , S3 Access Grants locates the owning account for you, routes the request to its instance, and returns credentials for the matching grant.\n\n\nThis capability is now available in all AWS Regions where S3 Access Grants is available, at no additional cost. You can use the AWS SDK, API, or CLI to list and access grants across accounts. To learn more, visit the[S3 Access Grants overview page](https://aws.amazon.com/s3/features/access-grants/) and the[S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-grants-list-grants.html) .",
+  "published_at": "2026-11-10T14:00:00+00:00",
+  "first_seen_at": "2026-11-11T03:24:42.143359+00:00",
+  "content_hash": "sha256:5d24145cfd6bbced44279a0b2045e44efd7f04fcc32e30cf778e6b48c1f365b7"
+}

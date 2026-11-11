@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9847a63407e900e32466501c882cd26be207fefb7d2e8bbc6d7a8f18041afe25",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-and-cost-management-multi-source-custom-billing-views",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-and-cost-management-multi-source-custom-billing-views",
+  "title": "AWS Billing and Cost Management now supports AWS Billing Conductor and AWS Billing Transfer views as source views for custom billing views",
+  "summary": "Discover more about what's new at AWS with AWS Billing and Cost Management now supports AWS Billing Conductor and AWS Billing Transfer views as source views for custom billing views",
+  "body_markdown": "Custom billing views now support AWS Billing Conductor and AWS Billing Transfer views as source views. These are the views AWS maintains per billing group and per billing transfer relationship. You can combine them into a single custom billing view, apply filters, and use that view in Cost Explorer, AWS Budgets, and the Billing and Cost Management console. There are three source view types. Billing group views contain the cost of each Billing Conductor billing group, which you can combine for chargeback and showback across business units. Billing transfer views contain the cost transferred to you for each end customer, and transfer showback views contain the cost that end customer sees. Aggregating each type gives you your total transferred cost and the total bill your end customers see.\n\n\nYour access does not change: you can use an AWS-managed view as a source only where you can already access it. Once created, you can share a custom billing view using AWS Resource Access Manager with accounts inside or outside your organization, so your finance team or a downstream seller works with the data in their own account. Whether you are an AWS Partner reselling AWS services or an organization using billing groups for pro forma billing, you get one consolidated view instead of one per customer or group.\n\n\nThis feature is available in all commercial AWS Regions at no additional cost. To get started, navigate to Billing Views in the AWS Billing and Cost Management console or view the[user guide](https://docs.aws.amazon.com/cost-management/latest/userguide/billing-view.html) .",
+  "published_at": "2026-11-10T23:22:00+00:00",
+  "first_seen_at": "2026-11-11T03:24:42.143359+00:00",
+  "content_hash": "sha256:33c41892f2c5224cc0da34de4fb73e2f9b7af3fa48b1d7f19acef1e7a425c592"
+}

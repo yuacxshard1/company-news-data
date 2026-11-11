@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "87ce8a438b0643b340df40a0d11bb48f4b52353bd3a8e1bc17a1e41133372518",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-managed-cross-region-disaster-recovery/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-managed-cross-region-disaster-recovery/",
+  "title": "Amazon OpenSearch Service announces managed cross-Region disaster recovery",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Service announces managed cross-Region disaster recovery",
+  "body_markdown": "Amazon OpenSearch Service now offers managed cross-Region disaster recovery, so you can meet strict availability and business continuity requirements for mission-critical search, AI, and analytics workloads without building or maintaining replication yourself. After you create domains in two Regions, you can pair them with a single API call or a few steps in the AWS Management Console.\n\n\nManaged disaster recovery delivers a recovery point objective (RPO) of under one minute and a recovery time objective (RTO) of under 20 minutes. The secondary domain stays continuously in sync with the primary. For planned events such as maintenance or Region rotation, a switchover swaps the two domains' roles with zero data loss. If your primary domain becomes unavailable, a failover promotes the secondary, with data loss limited to the replication lag. After a failover, you restore protection by pairing the new primary with a secondary domain. You can monitor replication health and lag with Amazon CloudWatch metrics.\n\n\nManaged disaster recovery requires OpenSearch 3.7 or later and supports domains in the same AWS account, including domains encrypted with customer managed AWS Key Management Service (AWS KMS) keys. Domains that use UltraWarm storage or OpenSearch Optimized instances (OR1 or OR2) aren't supported. If you're on an earlier version,[clone-based upgrades](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html) let you test OpenSearch 3.7 against your workload, cut over when you're ready, and roll back if needed.\n\n\nThere's no additional charge for managed disaster recovery. You pay standard rates for the secondary domain and cross-Region data transfer. For details, see[Amazon OpenSearch Service pricing](https://aws.amazon.com/opensearch-service/pricing/) .\n\n\nManaged disaster recovery is available today in all commercial AWS Regions where Amazon OpenSearch Service is available ([Region list](https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html) ). To get started, see the[disaster recovery documentation](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/disaster-recovery.html) .",
+  "published_at": "2026-11-10T19:00:00+00:00",
+  "first_seen_at": "2026-11-11T03:24:42.143359+00:00",
+  "content_hash": "sha256:2ede7164d2470453be594075284734d4a6f93b922e8c75e9efee30e86359dd91"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f1c29cfce2eb020f04f8e7e7eb75cff15e75f2ba8aceb09498c0bad2963b6bd2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-server-access-logging/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-server-access-logging/",
+  "title": "Amazon S3 Tables now support S3 server access logging",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Tables now support S3 server access logging",
+  "body_markdown": "Amazon S3 Tables now support server access logging, providing you detailed records of the requests made to your table buckets. You can now track table operations, namespace management, and data access to support security audits, access analysis, and cost attribution. Log delivery is available at no additional cost, and you pay only for the storage of the log files.\n\n\nWhen you enable server access logging on a table bucket, S3 delivers logs for requests to all tables and namespaces in that bucket to a general purpose bucket in the same account and Region. Each record captures the requester, operation, table name, namespace, response status, and request timing, using the same space-delimited format as S3 server access logs for general purpose buckets. This lets you reuse your existing log analysis workflows to query S3 Table logs with any query engine of your choice such as Amazon Athena and DuckDB.\n\n\nServer access logging for S3 Tables is available in all[AWS Regions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-regions-quotas.html#s3-tables-regions) where S3 Tables are available. You can enable it using the AWS Management Console, AWS CLI, AWS SDKs, or AWS CloudFormation. To learn more, visit the[S3 Tables overview page](https://aws.amazon.com/s3/features/tables/) and[S3 Tables server access logging](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-server-logs) in the Amazon S3 User Guide.",
+  "published_at": "2026-11-10T08:00:00+00:00",
+  "first_seen_at": "2026-11-11T03:24:42.143359+00:00",
+  "content_hash": "sha256:34523acd028450e1d7cf10b9caffde2129e5a376ce284625e01dcde11b9d921f"
+}

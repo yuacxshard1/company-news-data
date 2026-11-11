@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7049781e806f8bbbca58af090918691664c31007ca1d595dfc2478fa2df648c2",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
+  "canonical_url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
+  "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
+  "summary": "State Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2604.14191)\n\n\nState Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and higher throughput at generation compared to their Attention-based counterparts. On the other hand, the community has built up a considerable body of knowledge on how to train Transformers, and many pretrained Transformer models are readily available. To facilitate the adoption of SSMs while leveraging existing pretrained Transformers, we aim to identify an effective recipe to distill an Attention-based model into a Mamba-like architecture. In prior work on cross-architecture distillation, however, it has been shown that a naïve distillation procedure from Transformers to Mamba fails to preserve the original teacher performance, a limitation often overcome with hybrid solutions combining Attention and SSM blocks. The key argument from our work is that, by equipping Mamba with a principled initialization, we can recover an overall better recipe for cross-architectural distillation. To this end, we propose a principled two-stage approach: first, we distill knowledge from a traditional Transformer into a linearized version of Attention, using an adaptation of the *kernel trick* . Then, we distill the linearized version into an adapted Mamba model that does not use any Attention block. Overall, the distilled Mamba model retains most of the original Pythia-1B Transformer performance, reaching a perplexity of 14.01 close to the teacher’s 13.86. This largely carries over to downstream tasks, although some gaps appear on tasks relying more on in-context recall. To show the efficacy of our recipe, we conduct thorough ablations at 1B scale with 10B tokens varying sequence mixer architecture, scaling analysis on model sizes and total distillation tokens, and a sensitivity analysis on tokens allocation between stages.\n\n\n- † Concordia University and MILA Research Institute\n- ‡ Johns Hopkins University and Flatiron Institute\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-11-11T02:45:46.248003+00:00",
+  "content_hash": "sha256:70b99aa72107552b8b0ec4b5eae43efd2f37304e2751511ffe23d2d9ff7c12dd"
+}

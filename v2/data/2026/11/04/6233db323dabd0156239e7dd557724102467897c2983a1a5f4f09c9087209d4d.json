@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6233db323dabd0156239e7dd557724102467897c2983a1a5f4f09c9087209d4d",
+  "company_key": "yc-ekho",
+  "company_name": "Ekho",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.ekho.com/blog/lender-waterfall-in-checkout",
+  "canonical_url": "https://www.ekho.com/blog/lender-waterfall-in-checkout",
+  "title": "Configurable Lender Submission and Offer Priority in Checkout",
+  "summary": "A lender waterfall decides which lenders receive a credit application in checkout, in what order and when, and how the offers that come back reach the buyer: when they appear, and whether they sort by lowest APR or lowest monthly payment.",
+  "body_markdown": "Summary\n\n\nA lender waterfall decides which lenders receive a credit application in checkout, in what order and when, and how the offers that come back reach the buyer: when they appear, and whether they sort by lowest APR or lowest monthly payment.\n\n\nWhen a buyer applies for financing in the[Transaction Engine](https://www.ekho.com/transaction-engine) checkout, the credit application follows a lender waterfall. The waterfall is a configuration: it says which lenders get the application, in what order and when, and how the offers that come back reach the buyer.\n\n\n##\n\n\nWhich lenders get the application, and when\n\n\nA waterfall is a list of lender blocks. The first block goes out when the buyer submits. Each block after it has a start rule, such as once the block above finishes, so a decline from one lender moves the application on to the next instead of ending the deal. Every lender has a decision deadline, so a lender that does not answer in time does not hold up the rest. New and used deals each have their own waterfall.\n\n\n##\n\n\nWhich offers the buyer sees first\n\n\nThe waterfall also sets when offers appear and in what order. Offers can show as they come in, once every lender has answered, or once every automated lender has answered. They sort by lowest APR or lowest monthly payment, and the buyer sees which lenders are still deciding. The buyer fills in one credit application and never a second.\n\n\n##\n\n\nWhat your team sees\n\n\nThe order's Financing section shows each block of the waterfall and where every lender stands: not started, waiting on a decision, past its deadline, approved or declined. A lender that was not eligible for the deal shows why. If no lender approves and your store reviews financing itself, the deal reaches you as a lead with the buyer's credit tier.\n\n\n##\n\n\nChanging the waterfall\n\n\nEkho configures the lender waterfalls today, and changes to the lenders, their order or how offers are shown go through your Ekho team. A change applies to the next credit application. A deal already under way keeps the waterfall it started with.\n\n\n## Frequently asked questions\n\n\nYes. Ekho configures the waterfall today, so ask your Ekho team. A change applies to the next credit application.\n\n\nYes. Offers appear by the waterfall's settings, sorted by lowest APR or lowest monthly payment, so the buyer can compare them and choose one.",
+  "published_at": "2026-11-04T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T03:36:35.701935+00:00",
+  "content_hash": "sha256:7758c28e47a706a1ec02ae2f2e7cba9022219938aa5159a6c098330ba341f43f"
+}

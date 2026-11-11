@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7e1f0eceebcbef91f062582d7b7622f09457b223317a219e521f09a5d32b1928",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/gamelift-game-session-insights/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/gamelift-game-session-insights/",
+  "title": "Amazon GameLift Servers now supports Game Session Placement Insights",
+  "summary": "Discover more about what's new at AWS with Amazon GameLift Servers now supports Game Session Placement Insights",
+  "body_markdown": "Amazon GameLift Servers now offers Game Session Placement Insights, delivering detailed, per-placement diagnostic logs for game session queue routing. Amazon GameLift Servers routes game session placement requests through queues that evaluate multiple fleet locations based on latency and cost factors. This feature is designed for game developers and engineers who need greater transparency into how their game session queues operate.\n\n\nPreviously, developers had limited visibility into why placements succeeded, failed, or timed out, making queue optimization difficult. Game Session Placement Insights captures which fleet locations were evaluated, the player latency and cost factors that influenced routing decisions, and the final placement outcome for every placement. This enables teams to identify patterns such as consistently slow placements, repeated failures, or sessions landing in unexpected locations, and to tune their queues to improve the overall player experience.\n\n\nYou can enable this feature per queue and deliver logs to Amazon CloudWatch Logs, Amazon S3, and Amazon Data Firehose. Game Session Placement Insights is available in all supported Amazon GameLift Servers regions.\n\n\nTo learn more about Game Session Placement Insights and how to get started, visit the[Amazon GameLift Servers documentation](https://docs.aws.amazon.com/gameliftservers/latest/developerguide/queues-placement-insights.html) .",
+  "published_at": "2026-11-10T08:00:00+00:00",
+  "first_seen_at": "2026-11-11T03:24:42.143359+00:00",
+  "content_hash": "sha256:3950a1ae66bcf6c1164d097bc212e295162d58622a7e148d3ef8d610cfe7cd94"
+}
