@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ee383beaefa10d59457295f030bd35a195ba87d6a0b8975c361ece46e07633dc",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-mysql-26-10-preview-environment/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-mysql-26-10-preview-environment/",
+  "title": "Amazon RDS for MySQL 26.10 is now available in Amazon RDS Database Preview Environment",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for MySQL 26.10 is now available in Amazon RDS Database Preview Environment",
+  "body_markdown": "Starting today,[Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql/) 26.10 is available in the[Amazon RDS Database Preview Environment](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html) , allowing you to evaluate the pre-release of MySQL 26.10 on Amazon RDS for MySQL.\n\n\nMySQL 26.10 includes bug fixes, security patches, and some improvements to READ COMMITTED workload performance and purge lag warnings in the error log. On busy READ COMMITTED workloads, NUMA systems performance could be impacted as each read view that closed required a global mutex. Read-view objects can now be reused which eliminates the global mutex on closure. The error log now reports warnings when the history-list length (HLL) crosses innodb_max_purge_lag and when purge lag begins delaying DML, so you can detect purge backlogs before they affect performance. To learn more, please refer to the[MySQL 26.10 release notes](https://dev.mysql.com/doc/refman/26.10/en/mysql-nutshell.html) .\n\n\nAmazon RDS Database Preview Environment database instances are retained for a maximum period of 60 days and are automatically deleted after the retention period. Amazon RDS database snapshots that are created in the Preview Environment can only be used to create or restore database instances within the Preview Environment. Amazon RDS Database Preview Environment database instances are priced as per the[pricing](https://aws.amazon.com/rds/mysql/pricing/) in the US East (Ohio) Region.",
+  "published_at": "2026-11-10T17:00:00+00:00",
+  "first_seen_at": "2026-11-10T22:03:56.745394+00:00",
+  "content_hash": "sha256:da50f6b722f99ffa27cb90c9bed8b2e1e764699dc3fa01cb1e08ce817d48df5d"
+}

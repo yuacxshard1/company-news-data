@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1e9ca9390e38462d34e325a4b9c6deef4a5262bec998c29ad8dd64401e253c2d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-elasticache-serverless-search-aggregations/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-elasticache-serverless-search-aggregations/",
+  "title": "Amazon ElastiCache Serverless now supports vector, full-text and hybrid searches plus aggregations",
+  "summary": "Discover more about what's new at AWS with Amazon ElastiCache Serverless now supports vector, full-text and hybrid searches plus aggregations",
+  "body_markdown": "[Amazon ElastiCache](https://aws.amazon.com/elasticache/) Serverless for Valkey now supports vector, full-text, and hybrid search, along with aggregations. Applications searching live data often face a hard trade-off between latency and recall, along with delays before updates become searchable. With search on ElastiCache Serverless, applications can search data with latency as low as microseconds at up to 99% recall for vector search, while serving billions of queries per day. Updates are searchable in as little as microseconds, as soon as writes complete.\n\n\nSearch on ElastiCache Serverless is ideal for latency-sensitive applications with unpredictable traffic and for teams that want to get started with search quickly. You can combine search types in a single query, tune recall as needed, and analyze results with server-side aggregations. Developers can give every agent, session, or task its own datastore for memory and context retrieval, so agents can experiment, fail, and retry without touching production or each other. Each datastore is ready in seconds, reachable over a[public endpoint](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/Endpoints.html) with no network setup, and billed only for what it uses, with zero infrastructure to manage. Applications can also power product discovery, recommendation systems, and retrieval-augmented generation (RAG).\n\n\nSearch is available on ElastiCache Serverless for Valkey in all commercial AWS Regions, AWS GovCloud (US) Regions, and the AWS European Sovereign Cloud Region on ElastiCache version 9 for Valkey. Valkey is the most permissive open source and vendor-neutral alternative to Redis and the recommended engine for ElastiCache. To get started, create a new serverless cache or upgrade an existing one to Valkey 9 using the AWS Management Console, AWS SDK, or AWS CLI. To learn more, see the[ElastiCache documentation](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/search.html) . For pricing, see the[ElastiCache pricing page](https://aws.amazon.com/elasticache/pricing/) .",
+  "published_at": "2026-11-10T08:00:00+00:00",
+  "first_seen_at": "2026-11-10T22:03:56.745394+00:00",
+  "content_hash": "sha256:12b9685700bc6dca30d9756fef5ebe02735f56dd0b925dd7e50d2a06abbc1d9c"
+}

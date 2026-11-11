@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "33d5b53b512409725228b6e4c1e72f410c1b30a1df21c259f9bf1675bb4bc3e5",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/correlated-logs",
+  "canonical_url": "https://supabase.com/changelog/correlated-logs",
+  "title": "Correlated Logs",
+  "summary": "Correlated Logs",
+  "body_markdown": "Correlated Logs is now available in Beta. The Studio Logs tab now lets you connect log events using three meaningful identifiers:` requestId` ,` traceId` , and` userId` .\n\n\n## What's new#\n\n\nEvery log item now has four tabs: a structured **Overview** , **Raw JSON** , and two contextual tabs that appear when relevant:\n\n\n- **Timeline** — where a` requestId` is present, fetches all log items for that request and shows them as a timeline. You can select any item in the chain to see its details and navigate back to the full list.\n- **User** — where a log item is associated with an authenticated user, shows their details and links directly to that user in Auth. From the Auth user page, you can view all their logs in the same unified view.\n\n\nYou can also filter the logs list by user attributes to see all log items for a specific user, in the same way you filter by` requestId` or` traceId` .\n\n\nFor AI agents using the Supabase MCP server, the` query_logs` tool supports the same identifiers. See[MCP debugging](https://supabase.com/docs/guides/ai-tools/mcp#debugging) .\n\n\n## How to use it#\n\n\nOpen the[Logs tab](https://supabase.com/dashboard/project/_/logs) in your project dashboard and filter by` requestId` ,` traceId` , or user attributes. Click into any log item to see the Timeline or User tab where available.\n\n\nTo send a` traceId` from your application, see[client-side tracing](https://supabase.com/docs/guides/observability/client-side-tracing) .\n\n\n## Logs in CLI v3#\n\n\nInspect hosted logs in your terminal:\n\n\n`\n_10\n\n\nsupabase logs --remote --service postgres --level error --since 30m\n\n\n`\n\n\nFilter by service, severity, or time range. Use` --from` and` --to` for fixed UTC bounds.\n\n\nIn an interactive terminal, use the up and down arrows to select a row, Enter to inspect it,` C` to copy the full record as JSON, and` L` to load newer logs on demand.\n\n\nFor scripts and agents,` --output-format json` and` --output-format stream-json` read once and exit. Query hosted logs with` --sql` or load SQL with` --file` .\n\n\nThe command defaults to local logs, which require the experimental stack runtime.\n\n\nRead the[CLI logs guide](https://supabase.com/docs/guides/observability/cli-logs) for setup and examples.\n\n\n## Why we built this#\n\n\nWhen something goes wrong, the signal is spread across log items from different services, and tracking it back to a specific request or user means cross-referencing timestamps by hand. These connections should be a click away.\n\n\nThis is a Beta release. Try it and share feedback in the GitHub Discussion below.",
+  "published_at": "2026-11-10T00:00:00+00:00",
+  "first_seen_at": "2026-11-10T20:18:37.393822+00:00",
+  "content_hash": "sha256:51712726656bf623e12f95b076f7ffeedf8fe57a379f0e4f72f264e7251ca02a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e887a064d875408e066065f33b3b97f854a20e1fe420b217ac08b04bd9e02b2f",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/android-opening-a-folder-intermittently-marks-top-6-stories-as-read/13927#post_1",
+  "canonical_url": "https://forum.newsblur.com/t/android-opening-a-folder-intermittently-marks-top-6-stories-as-read/13927",
+  "title": "[Android] Opening a folder intermittently marks top ~6 stories as read",
+  "summary": "Environment: NewsBlur Android App Setting: “Mark as read on scroll” is disabled Description: Roughly 10%–20% of the time when tapping to open a folder view, the top ~6 stories in the feed load already marked as read, while the rest remain unread. No scrolling or manual interaction takes place before this occurs. Behavior: Expected: All unread stories in the folder remain unread when folder is opened. Actual: Top ~6 stories load in a read state. Workaround attempt: Backing out of the folde...",
+  "body_markdown": "**Environment:**\n\n\n- NewsBlur Android App\n- Setting: “Mark as read on scroll” is disabled\n\n\n**Description:**\n\n\nRoughly 10%–20% of the time when tapping to open a folder view, the top ~6 stories in the feed load already marked as read, while the rest remain unread. No scrolling or manual interaction takes place before this occurs.\n\n\n**Behavior:**\n\n\n- **Expected:** All unread stories in the folder remain unread when folder is opened.\n- **Actual:** Top ~6 stories load in a read state.\n- **Workaround attempt:** Backing out of the folder and re-entering sometimes restores them to unread, but not consistently.\n\n\nI’ve noticed this issue for a very long time, but I just manually mark each as unread and go about my day. It just happened again so I thought I should report it. Thanks as always!",
+  "published_at": "2026-11-10T20:36:41+00:00",
+  "first_seen_at": "2026-11-10T21:25:35.182210+00:00",
+  "content_hash": "sha256:18f2e6991ca111e0754e1f42f86391be26be268169c206afc597aeb1e3d6cb4a"
+}
