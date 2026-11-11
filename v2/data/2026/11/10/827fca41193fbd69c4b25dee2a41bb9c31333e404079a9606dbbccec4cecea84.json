@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "827fca41193fbd69c4b25dee2a41bb9c31333e404079a9606dbbccec4cecea84",
+  "company_key": "yc-dagger",
+  "company_name": "Dagger",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://dagger.io/blog/dagger-for-gitlab/",
+  "canonical_url": "https://dagger.io/blog/dagger-for-gitlab/",
+  "title": "Dagger for GitLab",
+  "summary": "Run Dagger checks on every GitLab merge request, without a GitLab CI job or runner.",
+  "body_markdown": "*Dagger can now run your checks on every GitLab merge request, without a GitLab CI job or runner. The same checks run on your machine before push and on Dagger Cloud after push, with one cache.*\n\n\n## Try it now\n\n\nSet up Dagger for GitLab: 1. If needed, set up Dagger: https://docs.dagger.io/getting-started 2. Run \\`dagger cloud checks on\\`, so that Dagger Cloud runs my checks on every merge request. 3. Walk me through a test merge request, to verify that it all works.\n\n\n## Cut out the middleman\n\n\nSince the first release of Dagger, many teams have used Dagger and GitLab together. After we launched integrations for[GitHub](https://dagger.io/blog/dagger-for-github/) and[Entire](https://dagger.io/blog/dagger-for-entire/) , GitLab had to be next.\n\n\nDagger already ran your checks before push. Now Dagger Cloud also runs them after push, directly from GitLab events. You do not need GitLab CI, a runner or a` .gitlab-ci.yml` file.\n\n\nRun` dagger cloud checks on` , connect your GitLab account, and choose your projects. Each push to a merge request runs the same checks as` dagger check` on your machine. Each check shows in the merge request’s pipeline, and “Pipelines must succeed” blocks the merge until they pass.\n\n\n## Scale without wasting compute\n\n\nDagger Cloud uses one cache for your organization, so an operation that already ran does not run again. You pay for CPU, memory, and data in and out. Idle time is free. See our[pricing](https://dagger.io/pricing) page for more details.\n\n\nTo give your agents the same cache,` export DAGGER_ENGINE=cloud` . When they push, checks that passed before push do not run again.\n\n\n## Debug without wasting tokens\n\n\nEach check links to its Dagger trace. There, an agent sees the failed command, its output, its inputs and its container, instead of a job log.\n\n\nJoin us[on Discord](https://discord.com/invite/dagger-io) and tell us what you think.",
+  "published_at": "2026-11-10T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T08:52:47.930654+00:00",
+  "content_hash": "sha256:016537f69c0c47c6f2d8897aec24d818a06f643491e9c2a8517b0f2003a282c8"
+}
