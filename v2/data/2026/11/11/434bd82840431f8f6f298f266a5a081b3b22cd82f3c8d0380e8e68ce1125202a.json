@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "434bd82840431f8f6f298f266a5a081b3b22cd82f3c8d0380e8e68ce1125202a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-arete-27b-the-new-nous-research-model",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-arete-27b-the-new-nous-research-model",
+  "title": "What Is Arete 27B, the New Nous Research Model?",
+  "summary": "What is Arete 27B? This 27-billion parameter model from Nous Research is built on Alibaba's Qwen. You'll understand its architecture and capabilities.",
+  "body_markdown": "## Connecting Arete 27B to a workflow in Activepieces\n\n\nAs of 2026-11-10, Activepieces, the workflow automation tool, has shipped nothing specific to Arete 27B, and we haven't run the model, so it is untested here.\n\n\nActivepieces works with any major model or your own provider key (bring-your-own-key from Plus up), and for an API that has no integration you can generate a integration with AI and add it privately to your instance.\n\n\nTake from it that the plan you start on limits how large a trial you can run.\n\n\n[Activepieces](https://www.activepieces.com/pricing) monthly credits by pricing tier\n\n\n1,000 credits a month is what the[Activepieces pricing page](https://www.activepieces.com/pricing) lists on Free ($0), so a small test set fits but a repeated evaluation may not. Plus ($20) gives 10,000, enough for several passes, so any developer can afford multiple attempts.\n\n\nTeam ($200) gives 50,000, which only matters if the pilot becomes a standing workflow, so plan for scale before committing to this tier. Work in this order:\n\n\n1. Get the model answering at a URL you can reach, through a major model or a provider key you already hold, or through a private integration generated for its API.\n2. Test it with a curl call to the chat completions path before touching Activepieces.\n3. Add an HTTP request step using the same call.\n4. Switch to an AI step with a custom provider.\n5. Wrap it as an MCP server, last.\n\n\nBecause the HTTP request step sends the curl call you already proved, a failure points at the workflow, not the model. It's also the most transparent way to see exactly what goes in and out.\n\n\nFor the AI step, point a custom provider at your endpoint and model name. Whether to trust an unproven model is your decision, and a platform that resells you its own model has made that call and set the price before you start.\n\n\nActivepieces leaves it with you: on Plus ($20) you bring your own AI keys, every AI step costs 1 credit whichever model sits behind it, and the model spend for Arete or your Qwen baseline lands on your own provider account.\n\n\nAny MCP client, including Claude, ChatGPT or Cursor, can reach the same workflow, so the strategy stays yours to set.\n\n\nWrapping it as an MCP server comes last. It exposes the workflow as a tool for other agents, which spreads an unproven model's output further, so wait until your own test set justifies it.",
+  "published_at": "2026-11-11T02:44:32+00:00",
+  "first_seen_at": "2026-11-10T22:01:52.872695+00:00",
+  "content_hash": "sha256:bf160b776b4f76943465ae92ffb2652b2c669a50b29e230f5aaa92aa738cd8be"
+}

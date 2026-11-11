@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "62c3301e9fc0d508bcf8edb38172937691c11def5fd90177b81aba23407c73a8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/opus-clip-automation-how-to-set-it-up-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/opus-clip-automation-how-to-set-it-up-2026-guide",
+  "title": "Opus Clip Automation: How to Set It Up (2026 Guide)",
+  "summary": "Opus clip automation uses Opus Clip's built-in features or integrates with Activepieces. Decide which approach works best and access troubleshooting steps.",
+  "body_markdown": "## Automate Opus Clip branding and publishing\n\n\nSet the brand template, connect your accounts, and schedule from inside Opus Clip, so clips leave the dashboard already styled and routed without a manual hand-off.\n\n\nThe failure to design against is an unbranded clip going out on the wrong account because someone exported by hand at the end of a long day.\n\n\n### Save an Opus Clip brand template\n\n\nStyle one clip the way you want every clip to look: captions, fonts, colors, logo placement. Then save that styling as a brand template from the editor's template controls.\n\n\nBefore you build around it, confirm the menu labels and which plan unlocks custom templates on[Opus](https://www.opus.pro/pricing) 's pricing page, since both change. Once the template is saved, new projects can start from it, and nobody restyles captions per clip.\n\n\n### Connect social accounts to Opus Clip\n\n\nLink each destination account from the dashboard's account or integrations settings, signing in as the account owner. Connect only the accounts this workflow publishes to. A stale or personal login left attached is how a clip lands on a profile it was never meant for.\n\n\nA cap on connected accounts quietly stops a multi-channel plan, so check the pricing page for how many your plan allows.\n\n\n### Schedule or auto-post clips\n\n\nPick a finished clip, choose the connected account, set the date and time, and confirm the caption. That leaves one scheduled clip and one saved template, which is the exit condition for this stage.\n\n\nIf your plan supports auto-posting, use it for clips you trust the template to handle, and keep manual scheduling for anything that needs a human read first.\n\n\nFor the posting itself, Opus's scheduler is enough.\n\n\nFor the steps around it, such as pulling the next topic from a spreadsheet, a connector you need may not exist in a closed catalogue, and then you wait on the vendor's priorities; Activepieces has AI build the missing integration and keeps it private to your own instance, and roughly 60% of its 747 integrations were contributed by the community, which you can count in the open-source monorepo.\n\n\nPicture that pattern on the canvas below.\n\n\nA weekly trigger set for Monday at 10 am New York time starts a six-step flow that reads the next spreadsheet row, asks an AI step for copy, stamps the date, and creates and then finds a Google Docs document.",
+  "published_at": "2026-11-11T04:12:15+00:00",
+  "first_seen_at": "2026-11-11T07:59:57.850855+00:00",
+  "content_hash": "sha256:5b27fce01af697cfbab94600da830ce4a182012f36db4749f8d46e7c8b0cffc1"
+}

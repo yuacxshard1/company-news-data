@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ba3e9fc447bb3091ae0115dd6fe116f22adb01ef0b6fac62949199b5f920473d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/resemble-ai-pricing-2026-plans-rates-add-on-costs",
+  "canonical_url": "https://www.activepieces.com/blog/resemble-ai-pricing-2026-plans-rates-add-on-costs",
+  "title": "Resemble AI Pricing 2026: Plans, Rates & Add-On Costs",
+  "summary": "Resemble AI pricing covers four tiers but omits per-run costs, concurrency limits and cloning rules. You'll learn what's missing.",
+  "body_markdown": "## Resemble AI against ElevenLabs, Cartesia and Play.ht\n\n\nAt 10,000 minutes a month, Resemble's Flex plan and[Cartesia](https://www.cartesia.ai/pricing) 's promotional rate both come to $300, while ElevenLabs agents come to $1,000, **over triple the cost** , so cost-conscious teams will default to Flex or Cartesia.\n\n\nThat's the spread the last line warned about, and the cheapest row may not stay cheapest.\n\n\nThe figures below come from[Cartesia's pricing page](https://www.cartesia.ai/pricing) .\n\n\n### Price per minute at each volume\n\n\nRead the table for what each priced option costs at 10,000 minutes. Take from it the per-minute rate, and note which rows are promotional.\n\n\nProvider and plan Cost at 10,000 minutes Per minute\n\n\nResemble Flex $300 $0.03\n\n\nCartesia promo $300 $0.03\n\n\nCartesia regular $600 $0.06\n\n\nElevenLabs agents $1,000 $0.10\n\n\nWhile it lasts, the promo halves the bill, but Cartesia's regular rate is $600 a month, so you should build your budget assuming this higher rate. Budget at $600 and treat $300 as a bonus, meaning you're protected regardless of whether the promo lasts.\n\n\nIt's not a like-for-like comparison: ElevenLabs agents at $1,000 a month is a conversational-agent product, not plain synthesis. It's dearer because it bundles more, and you pay for that bundle on every minute whether you use it or not.\n\n\nI have no confirmed 10,000-minute figure for Play.ht, so I don't rank it here.\n\n\nScale this linearly only as a first pass. At 100,000 minutes the same rates imply $3,000 for Resemble Flex and $10,000 for ElevenLabs agents, a $7,000 monthly gap that's worth a written quote before you commit.\n\n\n### Concurrency, languages and latency\n\n\nI have no verified concurrency caps, language counts or latency claims for these four, so I'm not printing any. Those are the limits that force a plan upgrade, and a rate card that omits them is the one to distrust.\n\n\nGet each cap in writing, then load-test your peak simultaneous calls before you pick a plan.\n\n\n### Which one fits which kind of build\n\n\nFor plain synthesis at volume, Resemble Flex and Cartesia are the cheapest on the evidence above.\n\n\nTheir rates are $0.03 and $0.06 a minute respectively once the promo ends, leaving Resemble at exactly half Cartesia's rate, which means at 10,000 minutes Resemble costs $300 versus Cartesia's $600.\n\n\nElevenLabs agents suits a build where you want the agent layer bought rather than assembled. Play.ht stays unpriced until you can verify a figure.\n\n\nCost your own volume against two or three of these before you write any code.",
+  "published_at": "2026-11-11T02:11:07+00:00",
+  "first_seen_at": "2026-11-11T07:59:57.850855+00:00",
+  "content_hash": "sha256:9fb805f3c997e135c3d5831f96d398a8db163d0f7eb889b3d03d2fce107dab2d"
+}

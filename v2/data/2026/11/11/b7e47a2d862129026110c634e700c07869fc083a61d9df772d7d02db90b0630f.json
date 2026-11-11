@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b7e47a2d862129026110c634e700c07869fc083a61d9df772d7d02db90b0630f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/hume-ai-pricing-free-tier-plans-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/hume-ai-pricing-free-tier-plans-and-costs-2026",
+  "title": "Hume AI Pricing: Free Tier, Plans and Costs (2026)",
+  "summary": "Hume AI pricing has no fixed monthly rate because each product uses different meters. You can decide which plan best matches your needs and budget.",
+  "body_markdown": "## Hume AI limits that force a plan upgrade\n\n\nYou will rarely hit minutes first:\n\n\n- You have one concurrent connection on Free\n- You have 15 requests per minute\n- You have 5,000 characters per utterance\n- You have a 30-minute inactivity timeout\n\n\nWhile the first caller is talking, a second is refused, because **Free allows one concurrent connection** . That's fine for a demo and breaks a public phone line.\n\n\nThe cap of 15 requests per minute means a burst faster than one every four seconds gets throttled, so a batch job needs pacing or a higher tier.\n\n\nPacing that batch job means a retry with a wait in it, and Activepieces meters the run rather than the steps inside it: 1 credit per flow run, so the ten-step flow with the retry costs the same as the two-step workaround without it.\n\n\nZapier's pricing page counts per task, which bills you again for every step you add and so taxes the habit of splitting work into smaller, more reliable integrations.\n\n\nThe free plan includes 1,000 credits a month, and MoneyGram, Moneypenny, Alan and FundingSocieties run it in production. None of this changes Hume's bill, which still arrives in characters.\n\n\n### Languages, voices and latency\n\n\nPast 5,000 characters, a single utterance has to be split before sending, so budget for that code. The 30-minute inactivity timeout closes an idle session, which means a kiosk or support widget has to reconnect without the user noticing.\n\n\nI have no confirmed language, voice-count or latency limits to quote, so check those on the plan page before committing.\n\n\n### Costs outside Hume's invoice\n\n\nOne slice of a voice-agent minute is Hume's charge. The[HireFinn calculator](https://www.hirefinn.ai/tools/voice-ai-cost-calculator) puts text to speech at 25.8% of cost per minute and speech to text at 20%, which means text-to-speech is the costlier component.\n\n\nPrompt tokens to the language model take 16.7%, and generated tokens only 2.1%, so most of your costs come from what you send, not what you get back.\n\n\nThose four add up to 64.6%, so more than a third of the minute goes to other line items.\n\n\n> Prompt tokens to the language model take 16.7%, and generated tokens only 2.1%, so most of your costs come from what you send, not what you get back.\n\n\nHume's EVI (its conversational voice product) runs on a language model that's not priced in the figures here, and telephony is unpriced too. Until you have quotes for both, any per-minute total you give your client is an estimate that can only go up.",
+  "published_at": "2026-11-11T02:06:22+00:00",
+  "first_seen_at": "2026-11-11T07:59:57.850855+00:00",
+  "content_hash": "sha256:ac3237d907ea4ae40e73b5ba0aa35ea48d3febc932e9ccfedff7f88f6dd487d4"
+}

@@ -343,16 +343,6 @@
     {
       "company_key": "yc-activepieces",
       "company_name": "Activepieces",
-      "doc_id": "1e93c8dc2ab7698fe892723b0ce4ec9350240962f264a7f04b10a56584b18070",
-      "first_seen_at": "2026-11-05T02:55:31.742563+00:00",
-      "published_at": "2026-11-07T09:17:42+00:00",
-      "source_kind": "rss",
-      "summary": "OpenAI Whisper API pricing charges per minute of audio processed. See the exact rates and understand how to estimate costs for your transcription usage.",
-      "title": "OpenAI Whisper API Pricing: Per-Minute Rates (2026)"
-    },
-    {
-      "company_key": "yc-activepieces",
-      "company_name": "Activepieces",
       "doc_id": "1f7417861b55e1dfc0dea46ce8a2931ccc7f18b8791742793580976b1b56aacf",
       "first_seen_at": "2026-10-18T06:53:58.688600+00:00",
       "published_at": "2026-11-07T03:29:06+00:00",
@@ -1459,6 +1449,16 @@
       "source_kind": "html",
       "summary": "See why healthcare IT reliability starts with the service clinicians use and extends across the technologies, dependencies and teams that support it.",
       "title": "Look Beyond Uptime to Measure Healthcare IT Reliability"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
+      "doc_id": "895cfc3ff537b41acc1fd7876a527686e1b0f9c7cb607f36b4c8ad81f006afeb",
+      "first_seen_at": "2026-11-09T23:39:18.610723+00:00",
+      "published_at": "2026-11-07T04:45:29+00:00",
+      "source_kind": "html",
+      "summary": "Key Takeaways In short: if your match rates look healthy but unapplied cash keeps piling up, check the integration before you blame the matching model. Weak AR automation can delay payment posting by up to three days and leave as much as 6% of receivables unapplied, according to a vendor-cited benchmark. A payment can be matched correctly and the invoice can still stay open. This happens when the result never posts back to the ERP or lands in an unmapped field. While a posting is lagging, a customer who already paid can look past due in the ERP. Flat-file, SFTP, and lockbox feeds can trail API or ERP-native connections. No reliable figure puts a cost on that lag. The Short Version: Fix the Handoffs First Your cash-application problem may have nothing to do with the matching model. Accounts receivable automation can match a payment perfectly and still leave the invoice open, because a file leaving your cash app tool is not the same event as a payment posting in the ERP. The result may never write back. It may arrive late through a batch run. It may land in a field the ERP doesn’t use for clearing.",
+      "title": "6 Accounts Receivable Automation Integration Failures That Block Cash Application"
     },
     {
       "company_key": "yc-activepieces",
@@ -2669,16 +2669,6 @@
       "source_kind": "html",
       "summary": "Learn how to automate sales prospecting: scrape a chosen source, qualify accounts, enrich contacts and hand a reviewed list to your sales team.",
       "title": "How to automate sales prospecting with web scraping and AI"
-    },
-    {
-      "company_key": "yc-blixo",
-      "company_name": "Blixo",
-      "doc_id": "f8fd616da760c034c8b2fd04c71a14feafb6692507b71d84c8bac8b1a04c94d9",
-      "first_seen_at": "2026-11-08T17:05:30.171575+00:00",
-      "published_at": "2026-11-07T04:19:53+00:00",
-      "source_kind": "html",
-      "summary": "In short: ERPs track when invoices go overdue. They don’t track what happens next. Without workflow context—whether the customer opened your last email, whether they’re disputing a line item, who owns follow-up—every late invoice looks the same. Your team sorts by dollar value or invoice age instead of collection probability. Blixo builds structured follow-up on top of ERP data so you can prioritize by actual risk and behavior, not just aging buckets.",
-      "title": "Your ERP Records Overdue Invoices. It Won't Collect Them."
     },
     {
       "company_key": "yc-opentools",

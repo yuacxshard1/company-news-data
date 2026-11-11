@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fc1ce77bd14d9ad3a11a6585feba24b411535f49e672d9e5cbcea06319a4aba4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/alibaba-cloud-model-studio-automation-2026-api-guide",
+  "canonical_url": "https://www.activepieces.com/blog/alibaba-cloud-model-studio-automation-2026-api-guide",
+  "title": "Alibaba Cloud Model Studio Automation: 2026 API Guide",
+  "summary": "Alibaba Cloud Model Studio automation uses APIs from scheduled workflows instead of manual work. Rate limits determine job reliability during peak periods.",
+  "body_markdown": "## Frequently asked questions\n\n\nThese are the questions that come up once a scheduled job has a test run behind it and someone has to own it in production.\n\n\nIs Alibaba Cloud Model Studio the same as DashScope? Yes in practice: Model Studio is the current product name for the console and platform, and DashScope is the older name for its API service.\n\n\nYou'll still see it in endpoint hostnames and older SDK packages, so searching either name in the docs finds the same thing.\n\n\nCan I use the OpenAI SDK with Model Studio? Yes, through its OpenAI-compatible mode. Keep your existing client code, point the base URL at the compatible-mode endpoint for your region, and use a Model Studio key and model name.\n\n\nCheck that your region's endpoint matches the one your key was issued for, because a mismatch fails with an authentication error that looks like a bad key.\n\n\n### Does Model Studio have a free tier in 2026?\n\n\nFor new accounts, a free token quota per model has been the norm, expiring after a set period. The amount and window vary by model and region, so read the quota shown beside each model in your console before planning around it.\n\n\nTest your scheduled job against the free quota, but design its rate-limit handling as if you were already paying, since a quota running out mid-run looks like an outage.\n\n\n### How do I rotate or restrict a Model Studio API key?\n\n\nRotate by overlap: create a second key, deploy it to the workflow, confirm a run succeeds, then delete the old one.\n\n\nNever paste a key into a workflow step or a repository. Keep it in environment variables or your secret store, and use a separate key for each automation.\n\n\nWhen one key leaks or misbehaves, you can revoke it without stopping everything else, and the usage log tells you which job was responsible.\n\n\n### Can I run Model Studio workflows on a schedule without code?\n\n\nYes, but the schedule lives outside Model Studio. I haven't found a built-in cron for applications in the console, so use a no-code automation tool with a schedule trigger and an HTTP request step that calls the Application API.\n\n\n**Add a retry-with-delay step for rate-limit responses** , because the scheduler won't do that for you.",
+  "published_at": "2026-11-11T01:27:18+00:00",
+  "first_seen_at": "2026-11-11T07:59:57.850855+00:00",
+  "content_hash": "sha256:bd3367eb2f801c5c598f809ab296d73f3c0c354213253342203ed1651e66858e"
+}

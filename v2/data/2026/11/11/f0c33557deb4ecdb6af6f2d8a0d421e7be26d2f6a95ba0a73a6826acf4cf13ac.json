@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f0c33557deb4ecdb6af6f2d8a0d421e7be26d2f6a95ba0a73a6826acf4cf13ac",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/openai-tts-pricing-cost-per-model-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/openai-tts-pricing-cost-per-model-2026-guide",
+  "title": "OpenAI TTS Pricing: Cost Per Model (2026 Guide)",
+  "summary": "OpenAI TTS pricing in 2026 includes per-minute rates that vary by model selected. Compare options to determine the cost for your specific use case.",
+  "body_markdown": "## Frequently asked questions\n\n\nBefore you quote a client, re-verify against the page named in each answer below; each rests on an OpenAI page, checked 2026-11-11.\n\n\nTreat tts-1 as fully billed from the first call. OpenAI's pricing page lists a per-character rate for it with no standing free allowance, so any trial credit on your account is a one-off, not a monthly budget.\n\n\nPut test runs on the same cost line as production, or a client's project quietly absorbs your experiments.\n\n\nWhether gpt-4o-mini-tts is cheaper than tts-1 is not automatic, because the two bill in different units. OpenAI's pricing page charges tts-1 per character and gpt-4o-mini-tts by tokens, so the headline rates can't be compared directly.\n\n\nConvert both to cost per minute of finished audio using your own typical script length, then compare. Until you do, you're quoting a client a price you haven't computed.\n\n\n### Can I use OpenAI TTS audio commercially?\n\n\nYes, you can use the audio in products and client work, with one condition on how you present it. OpenAI's usage policies and its text-to-speech guide require that listeners be told the voice is AI-generated, not a human recording.\n\n\nBuild that disclosure into the deliverable itself, such as an on-screen note or a line in the intro, so it doesn't depend on someone remembering at handoff.\n\n\n### How do I cap my OpenAI TTS spending?\n\n\nSet the limits OpenAI offers in the billing and usage-limits section of your dashboard, but don't rely on them as the only brake. Those settings are controls on the account, and a shared account spreads one client's runaway loop across everyone's budget.\n\n\nAdd your own ceiling inside the workflow: count characters before each call, keep a running total per client, and stop the job when it reaches the monthly allowance you quoted.\n\n\n### Does OpenAI TTS charge for failed requests?\n\n\nWhen a request returns an error before any audio is produced, it is the case least likely to cost you. OpenAI's API reference and pricing page don't promise that every retry is free.\n\n\nWhen a client-side timeout hits, the audio may have been generated and billed while your workflow never received it, and the retry then bills it again.\n\n\nCap the number of retries per job, and log each attempt against the client so duplicate generations show up on your side before they show up on the invoice.",
+  "published_at": "2026-11-11T05:30:36+00:00",
+  "first_seen_at": "2026-11-11T07:59:57.850855+00:00",
+  "content_hash": "sha256:3cefa757e0dc176919417a75e3d00ac9f246bba962b8348f9b3ff025ae7b40f1"
+}

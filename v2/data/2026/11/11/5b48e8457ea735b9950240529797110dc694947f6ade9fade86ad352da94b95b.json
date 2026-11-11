@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5b48e8457ea735b9950240529797110dc694947f6ade9fade86ad352da94b95b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/dailyco-pricing-2026-per-minute-rates-and-plans",
+  "canonical_url": "https://www.activepieces.com/blog/dailyco-pricing-2026-per-minute-rates-and-plans",
+  "title": "Daily.co Pricing 2026: Per-Minute Rates and Plans",
+  "summary": "Daily.co pricing starts with a free monthly allowance then charges per participant-minute across tiers, so you can calculate what each option costs.",
+  "body_markdown": "## Understand hidden costs and tier limits\n\n\nIt is the add-ons, not the base rate, that push a build past its estimate, and plan limits then decide when you have to move up a tier. Daily's own pricing page lists the add-on rates separately from video.\n\n\n### Daily add-on costs beyond video minutes\n\n\nOn Daily's[video SDK pricing page](https://www.daily.co/pricing/video-sdk/) , the base video rate is $0.004 per minute. That makes 100,000 minutes of plain video about $360. Every add-on is priced against that number.\n\n\nAdd transcription and it is $0.0059 per minute, about one and a half times the base, so organizations must be selective about where they enable it.\n\n\nCloud recording is $0.01349 per minute, more than three times the base, which means most deployments cannot afford comprehensive coverage. The AI voice agent, billed through Pipecat Cloud, is $0.02 per minute, five times the base.\n\n\nTurn on video, recording and transcription together and you pay about $0.0234 per minute, so 100,000 minutes costs roughly $2,339, not $400.\n\n\nThose are the rates as listed in November 2026. The voice agent rate covers the hosting, not whether the agent holds up in your conversations. Test that before you budget around it.\n\n\n### Daily plan limits that force an upgrade\n\n\nThe first time many calls overlap, a product that works in testing can hit the caps. Daily applies caps on concurrent usage and participants per room, and they vary by plan, which is why peak simultaneous calls matter more than monthly minutes.\n\n\nCheck your plan's limits on the pricing page against your expected peak before you commit.\n\n\nSometimes the minute count is not what moves you off the entry plan.\n\n\nSupport level, available regions and commercial terms also differ by plan, so if you need a faster response, a region close to your users or specific contract terms, those may be the trigger.\n\n\nRead them before launch, not after the first invoice.",
+  "published_at": "2026-11-11T05:39:53+00:00",
+  "first_seen_at": "2026-11-11T07:59:57.850855+00:00",
+  "content_hash": "sha256:7926ac6a7077e1adc44ba18cfd44a7a2708df65018a8969f85a6c03bd3f03107"
+}
