@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "47ae781a56afea836942402c3207a8dbb1de54bc3e6dec91b4fdb5b7096e2217",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/google-cloud-storage-automation-without-code-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/google-cloud-storage-automation-without-code-in-2026",
+  "title": "Google Cloud Storage Automation Without Code in 2026",
+  "summary": "Automate Google Cloud Storage using four native tools that handle lifecycle policies, object notifications, and bulk transfers without code.",
+  "body_markdown": "## Schedule copies and syncs with Storage Transfer Service\n\n\nWhen data has to move between buckets, or in from other clouds or on-premises storage, Storage Transfer Service copies and syncs it on a timetable you set, with no code to write or host.\n\n\n### Create the transfer job\n\n\nPick a source type first: another Cloud Storage bucket, Amazon S3, Azure Blob Storage, a list of URLs, or a file system reached through an agent. Then pick the destination bucket.\n\n\nA missing grant is the usual reason a first run fails. The service account Google manages for transfers needs read access on the source and write access on the destination.\n\n\nThe overwrite and delete options decide what kind of job this is. Overwrite only when the source differs keeps reruns cheap. \"Always overwrite\" rewrites everything.\n\n\nDeleting objects from the destination that are missing from the source turns a copy into a true mirror. That also means a mistaken delete at the source propagates on the next run. Leave that option off until the job has run cleanly a few times.\n\n\n### Set the schedule and filters\n\n\nYou can narrow the job by object prefix, by name pattern, or by last-modified time. Use filters so a nightly job picks up only the folder you care about instead of rescanning the whole bucket.\n\n\nThen choose a start time and a repeat: once, daily, or a custom interval. A job set to run once is a migration. A job with a repeat is a sync, so check which one you built before you save it.\n\n\n### When Cloud Scheduler plus a function is the better fit\n\n\nIf each run must rename files, check contents, call a third-party API or skip a run on a condition, Transfer Service is not enough. It moves objects and does nothing else to them.\n\n\nUse Cloud Scheduler, Google's managed cron, to trigger a function that does that work.\n\n\nThe trade is ownership. Once your own code runs the job, you also own its retries, its failures and the visibility into both.\n\n\nLook at a queue dashboard such as Bull-Board, which tracks jobs in Node queues, to see the cost: a dozen queues, each with its own count of active and failed jobs. Failures can pile up as quickly as the work in flight.\n\n\nNothing in a bare function tells you that, and Transfer Service gives you run history without building anything.\n\n\nPick the managed job whenever the work is only copying. The cases that remain are the ones where the data leaves Google's tools.",
+  "published_at": "2026-11-11T08:11:40+00:00",
+  "first_seen_at": "2026-11-11T12:16:27.337829+00:00",
+  "content_hash": "sha256:e12372d486835adf443336427c535f8f11dc460fb3641a950bdd78bd0f851ab2"
+}

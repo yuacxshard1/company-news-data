@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "90976ce80d84d91991e21d7ca69ad98e1a2b8f235435ab924c89f991e2dccbdb",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/opus-clip-integration-how-to-set-it-up-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/opus-clip-integration-how-to-set-it-up-2026-guide",
+  "title": "Opus Clip Integration: How to Set It Up (2026 Guide)",
+  "summary": "Opus Clip integration with Zapier works through the native app, official API, or third-party tools. You can identify the fastest option for your plan.",
+  "body_markdown": "## Stage-by-stage Zapier Setup for Opus Clip\n\n\nWork the stages in order, because each one leaves something that runs, and a failure at any stage points to that stage alone: access, trigger, submission, collection, then test.\n\n\n### Stage 1: Get Opus Clip API access\n\n\n**Check your account's API access before you open Zapier.** If the key option is missing from your Opus Clip settings, or an application or plan gates access, the rest of the build has nothing to call.\n\n\nGenerate the key, store it in a password manager, and never paste it into a shared Zap description. You're done when you hold a key and know which account owns it.\n\n\nIf the docs don't say who can issue keys, ask Opus Clip support, and treat the answer as the real rule.\n\n\n### Stage 2: Build a trigger that fires\n\n\nPick a trigger that produces a public, reachable video URL. Examples are a new file in a watched cloud folder or a new row in a spreadsheet where someone pastes a link.\n\n\nRun Zapier's test and confirm the URL field has a value. A trigger that fires with an empty or private link just moves the failure into Stage 3, where it looks like an Opus Clip error.\n\n\n### Stage 3: Send the video to Opus Clip\n\n\nAdd a Webhooks by Zapier custom request step set to POST. Take the endpoint, the authorization header format and the required body fields from[Opus](https://www.opus.pro/pricing) Clip's current API reference, not from a forum post or a template.\n\n\nMap the trigger's video URL into the body field the docs name for the source video. The mapping view below shows which Zapier values feed which request fields; check that you typed none of them in by hand.\n\n\nLeave out any body option the docs don't describe rather than guess.\n\n\n### Stage 4: Collect the finished clips\n\n\nDon't expect the submission response to contain finished clips, because clip generation takes time. Read the docs for how results are returned.\n\n\nIf they describe a callback, point it at a Zapier catch hook and make sure failed deliveries are visible somewhere you'll look. If they describe polling, use a delay and a lookup step.\n\n\nIf they describe neither, that's an undocumented step. Ask support before building around an assumption.\n\n\nIn Stage 5, run one short video end to end and open the task history to confirm each step succeeded.\n\n\nThen publish, and send a second video through the live Zap, because **a test that passes only in the editor** proves less than it appears to.\n\n\nNext comes what breaks once real volume arrives.",
+  "published_at": "2026-11-11T08:08:34+00:00",
+  "first_seen_at": "2026-11-11T12:16:27.337829+00:00",
+  "content_hash": "sha256:d0f9d24be0409861ab90ebae031005abc1f679e164398cdae231298b048ee6e1"
+}

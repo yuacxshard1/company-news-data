@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0ad634b3caa1512a447477bcc1134e076f314ad17170b007d607748c85fbf82e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/ai21-api-pricing-for-every-jamba-model-per-1m-tokens",
+  "canonical_url": "https://www.activepieces.com/blog/ai21-api-pricing-for-every-jamba-model-per-1m-tokens",
+  "title": "AI21 API Pricing for Every Jamba Model per 1M Tokens",
+  "summary": "AI21 API pricing is tiered by model and usage. Find the cost per token for each Jamba variant and choose which suits your budget.",
+  "body_markdown": "## Run recurring AI21 calls with Activepieces\n\n\nIf the same large prompt keeps going out, the cheapest fix is to control when it goes out and how many times.\n\n\nActivepieces, an automation tool that chains steps together, does that job, with unlimited flows on every plan including the free one, and a run costs 1 credit however many steps it has.\n\n\nIt doesn't lower AI21's price. It sits in front of the API and decides what gets sent.\n\n\nIn the screenshot you can see the kind of workflow this suits: a five-step flow called \"Competitor Pricing Change Alert,\" set to run every Friday at noon UTC.\n\n\nIt reads a list from Google Sheets, clears a storage step, loops through each row, and scrapes a page per row.\n\n\nSwap the last step for an AI21 call and you have a weekly job with a fixed rhythm instead of someone pasting prompts by hand. The point to take from it is the schedule: the bill is one run a week, not whenever someone remembers.\n\n\nYou reach AI21 through a generic HTTP step that posts to its API with your key, since it has no dedicated step here.\n\n\nThat works, but you build the request yourself. Triggers can just as easily be a form submission, a new email or a new ticket.\n\n\n### Cap and log spend per workflow\n\n\nWithout a ceiling, a loop that misfires can send the same expensive call hundreds of times before anyone notices. Put a counter in the flow's storage and stop the run when it passes your limit.\n\n\nAfter each call, write the model name, the input size and the output size to a sheet row. Multiply those by the list price once a month and you have your own bill, per workflow, before the invoice arrives.\n\n\n### Batch inputs before the API call\n\n\nWhen calls are triggered one ticket at a time, each carries the full instructions again.\n\n\nInstead, let the flow collect items for a day or a week, then send them together in one request where the model's context allows. You pay for the shared instructions once rather than per item.\n\n\nCheck the result against the cost log, because a batch that overruns the context window fails entirely.",
+  "published_at": "2026-11-11T07:58:41+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:9d44203f32b6903ea4510216c26cbe4e2b9e7b745a7c09064185f95e51892536"
+}

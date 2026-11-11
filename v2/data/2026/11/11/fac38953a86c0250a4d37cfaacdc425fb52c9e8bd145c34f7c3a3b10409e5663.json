@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fac38953a86c0250a4d37cfaacdc425fb52c9e8bd145c34f7c3a3b10409e5663",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/opus-clip-mcp-explained-what-it-is-and-what-it-needs",
+  "canonical_url": "https://www.activepieces.com/blog/opus-clip-mcp-explained-what-it-is-and-what-it-needs",
+  "title": "Opus Clip MCP Explained: What It Is and What It Needs",
+  "summary": "Opus Clip MCP servers power integrations. Whether a vendor or community maintainer supports yours determines your options when problems arise.",
+  "body_markdown": "## Where Activepieces fits around an Opus Clip workflow\n\n\n### Who owns the Opus Clip MCP workflow\n\n\nWhen it fails at 2am, someone still has to own that workflow, and Activepieces fits around the clipping step, not inside it. It can run the Slack approval, the logging and the scheduling.\n\n\nMCP's a protocol that lets an AI assistant call a tool. Activepieces registers each integration once, as a integration, and that single integration action runs both as a flow step and as a tool on its per-project MCP server.\n\n\nThe Integrations Framework and MCP Server documentation describes this, and the mechanism sits in packages/integrations in the open source repo (MIT-licensed core, 747 integrations), where the action a flow executes is the very one handed to an assistant as an MCP tool, so you likely have support for most platforms your organization uses.\n\n\nSo an assistant can start a workflow, but the workflow's limits still come from each service it touches.\n\n\nCheck before you build: Activepieces counts 747 integrations in its open source monorepo, but we can't point to an Opus Clip piece on Activepieces' own pages, so any Opus Clip step depends on whatever Opus Clip's API or webhooks allow.\n\n\n### Testing the approval step\n\n\nIn the screenshot, a three-step workflow has the Slack step selected: Catch Webhook, Read Connection, then Send Message To A User. The right panel shows the Slack step's Connection, User, Message and Username fields, plus a Test Step button for sample data.\n\n\nTake from it that approval and notification are ordinary steps you can test one at a time. Once a step passes, the next question's cost.\n\n\n### Task and credit allowances for batch runs\n\n\nOnce you run batches, allowances bite. Make's entry allowances run from[1,000 to 10,000 tasks or credits a month](https://www.activepieces.com/pricing) , so a batch of long videos is unlikely to exhaust it.\n\n\nAgainst Zapier's 100 to 750, a workflow with several steps per clip can use a whole month's allowance in a few batches.\n\n\nThe units aren't identical: a Make credit and a Zapier task count different things, so compare them against your own step count, not the headline numbers.",
+  "published_at": "2026-11-11T08:43:47+00:00",
+  "first_seen_at": "2026-11-11T12:16:27.337829+00:00",
+  "content_hash": "sha256:e5422d9d98b83a561a061b267d82b1d33fad91122bbf7130fcd0e38545dfcfa2"
+}
