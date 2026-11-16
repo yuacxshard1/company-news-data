@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b5f52e1afe3ad2002517a85e5eb48fb02111ae9c69dd83b3e289cd44e1555073",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/google-antigravity-integration-setup-guide-2026",
+  "canonical_url": "https://www.activepieces.com/blog/google-antigravity-integration-setup-guide-2026",
+  "title": "Google Antigravity Integration: Setup Guide (2026)",
+  "summary": "Google Antigravity integration links MCP servers to business apps. Find out what to configure, the limits, and how to resolve issues.",
+  "body_markdown": "## Connect tools through MCP servers and extension\n\n\nThree moves connect one external tool: register an MCP server in the agent's configuration, authenticate it, and optionally add the browser extension. The working result is a single tool the agent can call and you can verify.\n\n\nFrom the agent panel's menu, open the MCP store. Its raw-config option opens` mcp_config.json` , the file that holds every server the agent can reach. Servers installed from the store write themselves into that file, so you can read exactly what was added.\n\n\n### Add a server and authenticate\n\n\nStart with the store. The[MCP Census](https://mcpcensus.com/stats) counts **64,473 servers in the official registry** and 2,169 from all other sources.\n\n\nThat puts **about 97 percent of public servers** in one place, so a server you can't find there deserves extra scrutiny before it goes into your config.\n\n\nFor anything the store lacks, add an entry to` mcp_config.json` yourself. A hosted server's setup page typically ends in a JSON block under` mcpServers` , with a launch command and an endpoint URL.\n\n\nCopy it verbatim and keep the existing entries intact, because **a stray comma invalidates the whole file** .\n\n\nAfter saving, authenticate when prompted. A server that loads but shows no tools has usually failed here, on a missing token or a scope you didn't grant.\n\n\nA token is the secret string that proves the server may act on your behalf, and a scope is the limit on what that token may do, such as read-only access to records.\n\n\nRoute Setup effort Reach Permission prompts\n\n\nMCP store Lowest; one click, then sign-in Servers listed in the store Per server, at sign-in\n\n\nCustom config Highest; hand-edited JSON Any server you can address Whatever the server enforces\n\n\nBrowser extension Moderate; install and pair Pages open in your browser Per browser action\n\n\nInstall the extension from the browser's own extension store and pair it with your signed-in Google account. It gives the agent reach into web pages that no MCP server covers, such as an internal dashboard with no API.\n\n\nThe cost is more permission prompts, since each browser action asks for approval.\n\n\n### Check that the agent can use the tool\n\n\nAsk the agent to perform one small, read-only task through the new tool, such as listing items or opening a page. Confirm that the tool appears in the agent's own record of the call, not just in its answer.\n\n\nIf the call is refused, check the account's permissions and quota in Google's documentation before editing the config again. Most refusals trace back to those limits rather than to the JSON.",
+  "published_at": "2026-11-15T23:19:52+00:00",
+  "first_seen_at": "2026-11-16T03:04:50.771641+00:00",
+  "content_hash": "sha256:2c671f09c7384e987d6054e69f86072429f1ccab283f09e5bceae5ceb47845b1"
+}
