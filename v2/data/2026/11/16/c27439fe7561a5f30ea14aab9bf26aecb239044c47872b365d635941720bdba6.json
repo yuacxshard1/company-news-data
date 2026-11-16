@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c27439fe7561a5f30ea14aab9bf26aecb239044c47872b365d635941720bdba6",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/picsart-mcp-what-it-is-and-how-it-works-2026",
+  "canonical_url": "https://www.activepieces.com/blog/picsart-mcp-what-it-is-and-how-it-works-2026",
+  "title": "Picsart MCP: What It Is and How It Works (2026)",
+  "summary": "Picsart MCP connects AI chat to Picsart's image tools for background removal, upscaling, and generation without switching apps.",
+  "body_markdown": "## Rules Added After the Picsart MCP Incident\n\n\nTo make that review step enforceable instead of optional, six controls apply in order across the run, and each one blocks a specific failure.\n\n\nOne image before ten. Run a single image through the full edit and inspect it. A bad instruction repeated across a batch costs the whole batch.\n\n\nSet a hard credit cap. **Use a spending limit on the Picsart account, not a sentence in the prompt.** The chat will **keep calling tools until something external stops it** , and a prompt isn't external.\n\n\nScope the key and keep it out of shared chats. Issue a key with the narrowest access available, and never paste it into a thread others can read.\n\n\nAn admin view shows what a key did afterward, but it won't always tell you who used it.\n\n\nFor test passes, point the chat at a cheaper model such as Claude Haiku 5.5. The model only decides which tool to call, so the cheaper one usually costs less per attempt without changing the edit.\n\n\nUnless you name the tools in the prompt, the model picks them itself, and an unrequested upscale or generation call spends credits you never budgeted. Say which Picsart tools the chat may use, for example background removal only.\n\n\n### Review, logging and where MCP fits\n\n\nBefore anything is published, a human checks it: someone opens every output and approves it. The chat reports success when a call returns, not when the image is correct.\n\n\nWhen the balance drops unexpectedly, the log is the only way to find which run caused it, so keep a run log. Record the prompt, the tools called, the image count and the credits used.\n\n\nFor one-off edits and tests, where a person is watching and the volume is small, Picsart MCP is a good fit.\n\n\nIt suits repeat jobs poorly: a recurring batch needs fixed steps and predictable cost, and a chat that interprets its instructions fresh each time can't guarantee either.",
+  "published_at": "2026-11-16T10:48:22+00:00",
+  "first_seen_at": "2026-11-15T16:05:13.725186+00:00",
+  "content_hash": "sha256:f05cd83b5b705f3770d874ab38c00ae2bd048434c85da08a5f41ffca2213a6f7"
+}

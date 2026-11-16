@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d8a4d38d91618948fcc127d4b73a33f3ec65dae824a55a32ad1c455b9c59b045",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/discord-trello-integration-setup-without-code",
+  "canonical_url": "https://www.activepieces.com/blog/discord-trello-integration-setup-without-code",
+  "title": "Discord Trello Integration Setup Without Code",
+  "summary": "Discord Trello integration lets you automatically create and update Trello cards from Discord messages. Set it up without writing any code.",
+  "body_markdown": "## Build the Discord-to-Trello card workflow step by step\n\n\nFive stages, each leaving something that works.\n\n\n### Stage 1: Create the workflow and connect Discord\n\n\nCreate a new flow and pick the Discord trigger for a new message in a channel. Connect your Discord account, or a bot added to the server, and choose the one channel you want watched.\n\n\n### Stage 2: Test the trigger with a real message\n\n\nPost a message in that channel, something like \"Login page 500s on Safari\", then run the trigger's test.\n\n\nLook for the message text, the author's name and the message link, because those are the fields you'll map later.\n\n\n### Stage 3: Add the Trello action and pick the list\n\n\nAdd a step, choose Trello, and select the action that creates a card. Connect your Trello account, then choose the board and the list where new cards should land.\n\n\nPoint it at a dedicated intake list such as \"Inbox\", not your working list.\n\n\nYou can also skip the clicking: type the process into Activepieces' built-in chat, say \"a message containing 'bug' in the bug-report channel becomes a card in Inbox\", and it builds and publishes the flow you just assembled by hand in stages 1 to 3.\n\n\nThe result is an ordinary live flow in your account, under the same RBAC and audit logs as any other, and each run leaves a trace anyone on the team can read. MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.\n\n\n### Stage 4: Map fields from Discord to the card\n\n\nMap the message text into the card description, the author and message link into the description's first line, and the first line of the message into the card name.\n\n\nDiscord caps a message at[2,000 characters on a free account and 4,000 with Nitro](https://support.discord.com/hc/en-us/articles/33694251638295-Discord-Account-Caps-Server-Caps-and-More) , while a Trello description holds 16,384, so even the longest Nitro message fits roughly four times over and you never need a truncation step.\n\n\nThe risk is the card name: map the whole message there and you get an unreadable title.\n\n\n### Test and publish the Discord-to-Trello workflow\n\n\nRun the action test and open Trello. Check that the card sits in the right list, the title is short, and the link goes back to the message.\n\n\nThen post two more messages: one with a line break and one with a mention.",
+  "published_at": "2026-11-16T12:27:03+00:00",
+  "first_seen_at": "2026-11-16T15:35:22.390331+00:00",
+  "content_hash": "sha256:7d53f76f7b93687ec693cce8561edfa99c36d57694872ea38e544b3f56efdc06"
+}

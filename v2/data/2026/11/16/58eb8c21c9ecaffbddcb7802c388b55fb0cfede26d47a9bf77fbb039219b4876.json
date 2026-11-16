@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "58eb8c21c9ecaffbddcb7802c388b55fb0cfede26d47a9bf77fbb039219b4876",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/hubspot-xero-integration-how-to-connect-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/hubspot-xero-integration-how-to-connect-2026-guide",
+  "title": "HubSpot Xero Integration: How to Connect (2026 Guide)",
+  "summary": "A HubSpot Xero integration automates the handoff from sales to accounting. When deals close, customers and invoices sync between the two systems.",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce the handoff is built, five questions come up, and each has a short answer: the standard flow is one-way, needs no developer, and fails in ways you can plan for.\n\n\nWhether you can self-host is the one answer that depends on your choice of tool, so it follows the volume decision above.\n\n\nNo, HubSpot and Xero can't sync both ways with this flow: it moves a closed deal into Xero as a contact and an invoice, and stops there.\n\n\nPayment status coming back to HubSpot is a second flow with its own trigger, so scope it separately instead of assuming it comes free.\n\n\n**You don't need a developer to connect** HubSpot and Xero for the standard handoff. It's a trigger on the deal, a contact step and an invoice step, all configured in forms.\n\n\nYou need a developer only if you add a custom step the listed triggers and actions don't cover.\n\n\nYou can self-host the automation only if the tool offers a self-hosted edition. Zapier runs only as a hosted service, so self-hosting is a reason to choose a different tool, not a setting to switch on.\n\n\nThe trade-off is plain: you take on hosting and upgrades in exchange for owning where the data runs.\n\n\n### What happens if a workflow run fails halfway?\n\n\nOnce a step has completed, it stays completed. The common case is a contact created in Xero with no invoice behind it, because the invoice step failed. Replaying the whole run can then create a duplicate contact.\n\n\nPut a search-before-create step on the Xero contact so a replay finds the existing record and carries on to the invoice. Turn on failure notifications too, so a half-finished deal doesn't sit unnoticed until someone asks why a customer was never billed.\n\n\n### Can I connect more than one Xero organisation?\n\n\nYes, but each connection authorises a single Xero organisation. For a group with separate entities, the simplest scoping is one flow per organisation, each filtered on a deal property that says which entity is billing.\n\n\nYou can route by that property in a single flow, but it's harder to debug when an invoice lands in the wrong books. Decide the routing property before you build, because retrofitting it means touching every deal already in the pipeline.",
+  "published_at": "2026-11-16T11:49:25+00:00",
+  "first_seen_at": "2026-11-16T15:35:22.390331+00:00",
+  "content_hash": "sha256:e3f0b063cd581acc23f59f3be6235473c9fbfe58486a70baff955bd8215775cc"
+}

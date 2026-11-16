@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5d0f5e737f52e4866b9e04446932d5214443265f967545220edcc82996bb5b26",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/edge0-145b-automation-how-to-set-it-up-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/edge0-145b-automation-how-to-set-it-up-2026-guide",
+  "title": "Edge0-145B Automation: How to Set It Up (2026 Guide)",
+  "summary": "Edge0-145b automation reaches its first constraint at 256K tokens, so you can design long-running workflows that work with the documented interface.",
+  "body_markdown": "## Two ways to reach edge0-145b\n\n\nEdge0-145b ships as open weights, not as an account on a hosted service. That means there are two real routes to a working call, and the six steps below read differently on each.\n\n\n> A run that works on a short test input and fails on a real 300K-token export hasn't been automated, only demonstrated.\n\n\n### Self-hosting edge0-145b with a local inference server\n\n\nDownload a quantised file from the[Hugging Face model page](https://huggingface.co/Edge0/Edge0-145B-q3k) and serve it with a local inference server such as llama.cpp's` llama-server` or vLLM.\n\n\nEither one exposes an HTTP endpoint, and most speak the OpenAI-style chat format, so the rest of your automation sees an ordinary URL.\n\n\nOn this route, access is a file download, and a credential exists only if you set one yourself, for example with the server's API-key option.\n\n\nHardware sizing and out-of-memory on load are fully yours: pick the file that fits your VRAM before you start, because a model that doesn't fit fails at load, not at the first request.\n\n\nAn Activepieces HTTP step against such a server looks like this. Use method POST, the URL` http://your-server:8080/v1/chat/completions` , a` Content-Type: application/json` header, and an` Authorization: Bearer` header if you set a key. The body is JSON with a` messages` array holding your prompt.\n\n\nThe server must be reachable from wherever Activepieces runs, since a cloud-hosted flow can't see your` localhost` .\n\n\n### Using a third-party host for edge0-145b\n\n\nIf a provider hosts edge0-145b, you get a vendor-style endpoint with an account and a key, and the access and credential steps apply as written, including any approval queue.\n\n\nI found no such host in the ModelRigs listing, so confirm one exists and read its documentation before planning around it.\n\n\nHere hardware sizing and load-time out-of-memory drop out of your hands, but the host's own context, rate and timeout limits take their place. Those limits are the ones to write down in each step.",
+  "published_at": "2026-11-16T09:34:12+00:00",
+  "first_seen_at": "2026-11-15T02:53:26.346629+00:00",
+  "content_hash": "sha256:ac8b8b050a2b1dc8d21a962014dbbd6050945fba5684bb32e2cf00b580e346e7"
+}

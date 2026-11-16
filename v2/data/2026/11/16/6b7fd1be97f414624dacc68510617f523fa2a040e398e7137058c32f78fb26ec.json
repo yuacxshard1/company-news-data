@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6b7fd1be97f414624dacc68510617f523fa2a040e398e7137058c32f78fb26ec",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-fable-52-automation-setup-guide-2026",
+  "canonical_url": "https://www.activepieces.com/blog/claude-fable-52-automation-setup-guide-2026",
+  "title": "Claude Fable 5.2 Automation: Setup Guide (2026)",
+  "summary": "Claude Fable 5.2 automation handles tasks like sorting messages or drafting replies. You'll understand what it can do, its limits, and error fixes.",
+  "body_markdown": "## Set up API key, model ID, first request\n\n\nFour stages take you from nothing to a working request, and each one leaves something you can test before moving on.\n\n\n### Stage 1: Create an API key in the Console\n\n\nSign in to Anthropic's Console, the web dashboard where billing and keys live, and create a key under its API keys page.\n\n\nCopy it when it appears, because it's shown once, and a lost key means making another. Treat it like a card number: anyone holding it spends your money.\n\n\nWhere it goes is shown in the provider dialog below, from the admin area of an automation tool. It asks for a base address, already filled in, and a masked key field, with Anthropic listed behind it next to its own Enable button.\n\n\n### Stage 2: Copy the model ID exactly\n\n\nOpen the Console's models page and copy the ID of the model you want, character for character. For Sonnet 5.5 that's` claude-sonnet-5-5` .\n\n\nWhen an ID is guessed or half-remembered, it comes back as an error, or worse, quietly points at an older model than you meant to pay for.\n\n\nThe display name's for people; the ID's what the system matches.\n\n\n### Stage 3: Send one request and read the response\n\n\nTo make a first request to the Messages API, you need three body fields.\n\n\nThey're` model` (the ID from stage 2),` max_tokens` (a cap on how long the reply may run, which also caps what one call can cost) and` messages` (the conversation so far, starting with your question).\n\n\nAlongside those fields, send two headers:` x-api-key` carries your key, and` anthropic-version` pins the API version so behavior doesn't shift under you.\n\n\nRead the reply for the text inside its content, and for the stop reason. If it says the cap was hit, the answer was cut off and your limit was too low.\n\n\n### Stage 4: Add a system prompt and structured output\n\n\n**Without a system prompt, each call drifts** and you tidy the output by hand afterward. It's a standing instruction sent with every request: who the model's acting as, what it must never do, what shape the answer takes.\n\n\nAsk for a fixed shape, such as JSON with named fields, and show one example of it. Then run the same request several times. If the shape holds, the next step can read the output without a person checking each one.",
+  "published_at": "2026-11-16T09:33:51+00:00",
+  "first_seen_at": "2026-11-15T16:05:13.725186+00:00",
+  "content_hash": "sha256:b577ed48ecc321cae6f69bb6d28e402be401ed3108f11c1973a42aad6001d7c3"
+}

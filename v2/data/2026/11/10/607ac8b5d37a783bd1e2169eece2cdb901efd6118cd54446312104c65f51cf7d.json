@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "607ac8b5d37a783bd1e2169eece2cdb901efd6118cd54446312104c65f51cf7d",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/reddit-rss-feeds-error-429-error-404/13890#post_21",
+  "canonical_url": "https://forum.newsblur.com/t/reddit-rss-feeds-error-429-error-404/13890",
+  "title": "Reddit RSS Feeds Error 429/Error 404",
+  "summary": "Not sure if this is related to this topic: All my reddit feeds as of yesterday were showing first Error 429 (API limit reached) now Error 404 (not found). If I manually paste one of these into a browser (example https://www.reddit.com/r/nvidia/hot/.rss ) it is able to load and shows content. Short term is there a fix? Long term: Is newsblur still using the RSS directly or does it actually use the API access on the backend and access will be able to continue?",
+  "body_markdown": "Hi Sam,\n\n\nI’m Tim, the developer of SubStory, an iOS app for browsing Reddit media. We’re seeing exactly the same block, so I’m adding our data points in case they help narrow it down.\n\n\n**Timeline:** our OAuth requests started returning the “You’ve been blocked by network security” HTML page around 20:14 UTC on October 13. From October 14, anonymous requests to the public` .json` endpoints failed the same way.\n\n\n**What we see (retested October 17):**\n\n\n-\n\n\n` POST /api/v1/access_token` still works. An app-only (` installed_client` ) token comes back with a 200.\n\n\n-\n\n\nEvery request to` oauth.reddit.com` with that token gets a 403` text/html` block page with no` x-ratelimit-*` headers. It looks exactly like sending no token at all.\n\n\n-\n\n\nAnonymous` www.reddit.com/r/<sub>/new.json` and` api.reddit.com` get the same 403.` old.reddit.com` redirects them to` /login/?reason=lor2` .` .rss` gave us a 429.\n\n\n-\n\n\nNormal HTML pages on[www.reddit.com](http://www.reddit.com/) still load.\n\n\n-\n\n\nChanging the User-Agent, the HTTP client (curl, Node, Bun, Python) or the token type makes no difference.\n\n\n**Why I don’t think it’s your IP:** our requests come from users’ phones on home and mobile networks, plus my own home connection in Belgium. None of that has anything in common with your server, and we use a different client ID and User-Agent. We’re also nowhere near the limits: our median across all users is about 6 requests per minute. Two unrelated apps on unrelated networks got the same block on the same day, which looks like a Reddit-wide change for third-party API clients, not something either of us did.\n\n\nWe’ve also submitted a request through Reddit’s form. If either of us hears back, it would be great to share it here. I’ll post an update if I learn anything.\n\n\nTim",
+  "published_at": "2026-11-10T16:10:33+00:00",
+  "first_seen_at": "2026-10-14T19:20:02.869652+00:00",
+  "content_hash": "sha256:97c89d731406c172a7dcd80944e32e179db289c1cecda81ed0c1f54523b4d60a"
+}

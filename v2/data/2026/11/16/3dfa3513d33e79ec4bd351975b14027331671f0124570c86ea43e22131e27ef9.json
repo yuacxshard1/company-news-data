@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3dfa3513d33e79ec4bd351975b14027331671f0124570c86ea43e22131e27ef9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/stripe-shopify-integration-how-to-set-it-up-2026",
+  "canonical_url": "https://www.activepieces.com/blog/stripe-shopify-integration-how-to-set-it-up-2026",
+  "title": "Stripe Shopify Integration: How to Set It Up (2026)",
+  "summary": "A Stripe Shopify integration syncs payment and order data between platforms. Five no-code workflows handle customer, order, and refund sync operations.",
+  "body_markdown": "## Frequently asked questions\n\n\nDoes Stripe have a native Shopify integration? Not one that gives you a combined money picture.\n\n\nShopify can take payments through Stripe-backed checkout in some setups, but the payout, fee and refund records stay in Stripe while orders stay in Shopify. Someone still has to join them, and that someone's your workflow.\n\n\n### Can I connect Stripe and Shopify without code?\n\n\nYes. Build it from the real triggers and actions each app offers, such as a new order on one side and a payment or refund event on the other. Use a plain webhook or HTTP request only where no listed step exists.\n\n\nWhen an endpoint isn't exposed by the app's own steps, the Custom API Call action covers it, so you're filling a gap rather than rebuilding the workflow around it.\n\n\n### Can I self-host the Stripe and Shopify workflow?\n\n\nYes, if the automation tool you pick can be self-hosted. The workflow is only triggers and actions, so it doesn't care where it runs.\n\n\nWhat changes is who pays for the server and who gets paged when it stops. Hosted tools charge per run or per task, and self-hosting swaps that metered bill for a fixed one, so do the arithmetic at your real volume before choosing.\n\n\n### Will the workflow break if Stripe or Shopify changes its API?\n\n\nIt can, and you should assume it eventually will. Steps built from a listed trigger or action are maintained by whoever publishes that step, so most changes reach you as an update.\n\n\nAnything you wired by hand through a webhook or Custom API Call is yours to fix, which is the cost of choosing it. Failure alerts on every run are what turn a silent gap in your books into a message you see the same day.\n\n\n### Is it safe to put my Stripe keys in an automation tool?\n\n\nIt's safe enough if you limit what the key can do. Create a restricted Stripe key with read access to only the objects the workflow touches, and give Shopify a custom app with only the scopes it needs.\n\n\nIf the key leaks, the damage is bounded by those permissions.",
+  "published_at": "2026-11-16T07:00:22+00:00",
+  "first_seen_at": "2026-11-16T15:35:22.390331+00:00",
+  "content_hash": "sha256:bb4d9e1f413c0bd0a2c114415edf63050c05ad9f7bc3039f670cbb9ba86637f5"
+}
