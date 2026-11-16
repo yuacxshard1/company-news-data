@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4f88fe5ec7953093462370cc410b41d2297bf99e845aef63b91db34a358b2d23",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/posts/browser-use-evervault",
+  "canonical_url": "https://browser-use.com/posts/browser-use-evervault",
+  "title": "Browser Use agents can now check out without ever seeing your card, with Evervault",
+  "summary": "Evervault Browser Tokens let a Browser Use agent fill checkout forms with stand-in card numbers. Evervault swaps in the real card only in the request to the payment host you allow.",
+  "body_markdown": "Agents that buy things need a card. Giving a model your real card number is a bad idea.[Evervault](https://evervault.com/) fixes that.\n\n\nWith Evervault in front of a Browser Use browser, the agent types a token that looks exactly like a card: Luhn-valid, same length, same BIN, a CVV with the same number of digits. The checkout form accepts it. When the browser sends it to a host you allowed, Evervault swaps in the real card on the way out. The real number never reaches the model, the agent, or the browser.\n\n\n## How it works\n\n\n1. **Create tokens on your server.** Call Evervault's Browser Tokens API with the card and the hosts allowed to receive it. You get tokens plus a proxy login.\n2. **Start a Browser Use browser on that proxy.** Pass the proxy login as` customProxy` and trust the Evervault CA. Every other site keeps full certificate checks.\n3. **Give the agent the tokens.** It fills the checkout like a person would.\n4. **Evervault swaps the real values** only in requests to the hosts you allowed. Tokens expire with their TTL.\n\n\n```text\ncurl   https://api.browser-use.com/api/v4/browsers   \\\n-H   \"X-Browser-Use-API-Key:   $BROWSER_USE_API_KEY  \"   \\\n-H   \"Content-Type: application/json\"   \\\n-d   '{\n\"customProxy\": {\n\"host\": \"us-va.browser.relay.evervault.app\",\n\"port\": 443,\n\"username\": \"PROXY_USERNAME\",\n\"password\": \"PROXY_PASSWORD\",\n\"caBundleUrl\": \"https://ca.evervault.com\"\n}\n}'\n```\n\n\n## Built for real checkouts\n\n\n- **Residential IPs still work.** Evervault can forward to the Browser Use residential proxy, so the merchant sees a normal residential exit: browser → Evervault → Browser Use proxy → merchant.\n- **Switch only at the payment step.** Shop on the residential proxy, then change a running browser to Evervault when the agent reaches the payment form. Tabs and cookies stay.\n- **EU too.** EU accounts use the EU Browser Use API and Evervault's EU relay.\n\n\n## Try it\n\n\nRead the[Evervault guide](https://docs.browser-use.com/cloud/tutorials/integrations/evervault) in our docs. Custom proxies are an enterprise feature: emailsales@browser-use.com . Browser Tokens are in preview at Evervault, so ask[Evervault](https://evervault.com/) for access.\n\n\nAlso see:[passwords with 1Password](https://browser-use.com/posts/browser-use-1password) and[paying with Stripe Link](https://browser-use.com/posts/pay-with-link) .",
+  "published_at": "2026-11-16T00:00:00+00:00",
+  "first_seen_at": "2026-11-16T12:00:14.298530+00:00",
+  "content_hash": "sha256:84e82da21f885784ed74d0d5f9dafd46eedd7340b63c79e0fc9f21fc589f6ac3"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cf39dd680cfc5f40d5eb662185aac839795e638d83e1cc5c3619db9b394167d1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/azure-openai-pricing-in-2026-batch-standard-ptu",
+  "canonical_url": "https://www.activepieces.com/blog/azure-openai-pricing-in-2026-batch-standard-ptu",
+  "title": "Azure OpenAI Pricing in 2026: Batch, Standard & PTU",
+  "summary": "Azure OpenAI pricing offers two billing approaches: per-token charges that scale with usage, or provisioned throughput units for fixed monthly costs.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe part of the bill Activepieces touches is the automation around the model, and we leave the deployment-type decision with you.\n\n\nOur Azure OpenAI integration runs on the key you already hold, so whichever deployment you chose (Global Standard, Batch or a PTU reservation) and whatever rate you negotiated with Azure carry straight through. The tokens land on your Azure invoice, not ours.\n\n\nWe don't resell the model, so we never pick one for you or mark it up.\n\n\nThat gives you two lines to price instead of one blurred together. On the Plus plan, at $20 a month with bring-your-own-key, each AI step costs 1 credit, and that is the whole of what Activepieces charges for the call.\n\n\nThe model's cost stays on Azure's pricing page and the automation's cost stays on ours, so the baseline in the measuring steps above can be built from two figures that don't overlap.\n\n\nThe code is open as well. Activepieces is MIT-licensed at its core, so you can self-host the flows that trigger your model calls and keep the orchestration out of the surrounding Azure services (storage, networking, logging) that add lines to the invoice.\n\n\nIf a flow can wait overnight, you can point its Azure OpenAI step at a Batch deployment and let it run at the half-price rate from Dana's example, while a customer-facing flow stays on Standard.\n\n\nWe don't set your quota, lower your token rate or tell you whether a PTU reservation will fill. Those stay with Azure and your logs.\n\n\nWhat we can do is make the flow that spends the tokens easy to see, change and switch off, and you can reach it from Claude, ChatGPT, Cursor or any MCP client.",
+  "published_at": "2026-11-16T04:42:24+00:00",
+  "first_seen_at": "2026-11-02T18:31:51.278600+00:00",
+  "content_hash": "sha256:4b32ea4faafed523135b9ebf765ae9e69ae42c094f747bd9e4cc10a1853a5fe1"
+}

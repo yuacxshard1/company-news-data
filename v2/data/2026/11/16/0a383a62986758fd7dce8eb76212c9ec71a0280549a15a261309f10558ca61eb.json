@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0a383a62986758fd7dce8eb76212c9ec71a0280549a15a261309f10558ca61eb",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gemini-4-carbon-benchmarks-pricing-and-review-2026",
+  "canonical_url": "https://www.activepieces.com/blog/gemini-4-carbon-benchmarks-pricing-and-review-2026",
+  "title": "Gemini 4 Carbon: Benchmarks, Pricing and Review (2026)",
+  "summary": "Gemini 4 Carbon, released as Google's strongest model, affects AI automations. Understand what changed and how it impacts your automation tools.",
+  "body_markdown": "## What Activepieces has already shipped for Gemini 4 Carbon\n\n\nThere's **no shipped support to cite** , because we found no[Activepieces](https://www.activepieces.com/pieces/google-gemini) announcement naming Gemini 4 Carbon, and we haven't run the model ourselves. Anything below about Carbon in a flow's a method, not a result.\n\n\n### The shipped support, with date and link\n\n\nThere's no date and no link, because we've found nothing that names the model. Activepieces lists a Google Gemini integration, but that says little about whether a specific model has a dedicated action with the right fields.\n\n\nUntil Activepieces or Google publishes one, assume Carbon has no built-in step. The Google Gemini integration lists 11 actions and 0 triggers, and none of that listing names Carbon, so it isn't proof that the model is covered.\n\n\n### Trying Gemini 4 Carbon in a workflow\n\n\nTest it as a plain API call you control, so a failure points at the model rather than at the connector.\n\n\nTake the model identifier and request format from Google's own model page, not from a blog post or from us, because we can't confirm either.\n\n\nTo see the shape of the test, look at the builder. It has a Schedule trigger set to every hour, the integration selector open on spreadsheet actions such as Insert Row and Find Rows, and a successful sample-data run in the settings panel.\n\n\nBefore any model is involved, settle that the trigger fires and passes data on, which is what the sample-data run proves.\n\n\nOnce that run is clean, add an HTTP request step after the trigger that calls Google's endpoint with a fixed test prompt. Then add an Insert Row action that writes the raw response beside the prompt.\n\n\nMap the response field explicitly instead of dumping the whole body, so a changed output shape breaks visibly. If the call is rejected, the identifier's the first thing to check.",
+  "published_at": "2026-11-16T04:41:27+00:00",
+  "first_seen_at": "2026-11-12T22:47:49.735684+00:00",
+  "content_hash": "sha256:d02f183e57c8d186dd34d30f02c4d3094fe65fa4155049f9976fe13443370b8e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2e5dec45872b4c4cda178a44ba2f28115449d3f02b6c542a1a245d89042e75ca",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-entra-id-mcp-how-to-secure-mcp-servers",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-entra-id-mcp-how-to-secure-mcp-servers",
+  "title": "Microsoft Entra ID MCP: How to Secure MCP Servers",
+  "summary": "Microsoft Entra ID MCP broke at 09:12 due to an over-permissioned query. You'll find the root cause and the exact steps to apply the fix.",
+  "body_markdown": "## The over-permissioned Entra MCP query\n\n\n### What Entra ID MCP is\n\n\nMicrosoft Entra ID MCP is Microsoft's MCP server that lets an AI assistant read your Entra identity data through Microsoft Graph, much as teams using[Activepieces](https://www.activepieces.com/) connect assistants to other systems they already run. It gives the assistant a live, permissioned path into your tenant.\n\n\nWhat goes wrong is rarely the protocol. Someone gave that path more reach than anyone chose, and too little logging to see it. The facts here come from Microsoft's own pages, checked 16 November 2026.\n\n\n### What an MCP server is\n\n\nAn MCP server's a small program that lets an AI assistant call another system's functions, using only the permissions you hand it. Think of a hotel key card. The card doesn't decide which rooms it opens. Whoever programmed it did.\n\n\nTwo terms need pinning down. Entra's Microsoft's identity service, the record of who your people are and what they may touch.\n\n\nMicrosoft Graph's Microsoft's single interface for reading that record and the rest of its cloud. Connect the two through MCP and the assistant can ask your directory questions in plain English.\n\n\nIf the permissions are too wide, the assistant can read too much, and nobody notices until the answer turns up somewhere it shouldn't.\n\n\n[Activepieces](https://www.activepieces.com/) hands an assistant its 750 integrations as tools, so the same question of how much reach it gets applies well beyond Microsoft.\n\n\n### An example Entra MCP privileged roles query\n\n\nHere's an illustrative case, not a reported incident. At 09:12 an admin asks their assistant, \"Who holds privileged roles?\"\n\n\nThe assistant has broad directory read access, so it answers in full. Because the admin is working in a shared team chat, the full answer lands there.\n\n\nLeft to right, the path below runs like this. The admin's assistant sends a request through the MCP server to the directory, and the reply, a list of every privileged-role user, arrives in a chat with colleagues' avatars beside it.\n\n\nTake away that the directory did nothing wrong. It answered a permitted question, and the leak happened where the answer landed.\n\n\nOnce it lands in that chat, the list is a map of the accounts an attacker would most like to impersonate. It sits in a place with a much wider audience than the admin ever intended.\n\n\nUnless you switched logging on, nobody can say who asked or what came back.",
+  "published_at": "2026-11-16T05:34:55+00:00",
+  "first_seen_at": "2026-11-16T09:37:33.113195+00:00",
+  "content_hash": "sha256:3e3de9ea0f25dacde3e10411666096ec38b1e48bf407cfccb8c802f4c2a57f87"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cc14f5b3fe7a1c72b57d3fd8a12372837ab43fa2844b8c1c4dec95a28e8bb157",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-office-mcp-servers-for-ai-agents-2026",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-office-mcp-servers-for-ai-agents-2026",
+  "title": "Microsoft Office MCP Servers: Which One to Use (2026)",
+  "summary": "Microsoft Office MCP operates as multiple separate servers working together. You'll learn what each server does and why they're built that way in 2026.",
+  "body_markdown": "## Avoid Office MCP deployment mistakes\n\n\nWhen an Office MCP deployment fails, it is **usually one of four mistakes** : over-broad permissions, unvetted servers, unreviewed writes, and stale setup guides. All four follow from treating several separate servers as one product with one permission model.\n\n\nBecause Microsoft Graph, the API that exposes mail, files and calendars in Microsoft 365, issues permissions per scope, a server that summarises a folder needs read access to that folder, not tenant-wide` Files.Read.All` .\n\n\nConsent once at the wide scope and every prompt, bug and compromised token inherits it. Start narrow, and widen only when a specific call fails.\n\n\n### Untrusted servers and prompt injection\n\n\nNobody has audited its code for you, and a community server runs with whatever token you hand it. Prompt injection is the second half of the problem: an email or document the assistant reads can contain instructions it then follows, using your permissions.\n\n\nThe count of published MCP-related vulnerabilities shows how fast this surface is growing.\n\n\nZero were recorded in 2024, **99 in 2025, and 474 in 2026** as of 14 November. A server you vetted last year was vetted against a much smaller body of known attacks.\n\n\nThat trend argues for pinning versions, reading the code of anything third-party, and treating all retrieved content as untrusted input.\n\n\n### Risks of unchecked Office MCP write access\n\n\nWhen a read-only call goes wrong, data leaks. When a write goes wrong, the data changes: a sent email, an overwritten spreadsheet, a deleted event.\n\n\nPrefer read-only connections, and where writes are needed, make the assistant propose the change and require a person to approve it.\n\n\nAn approval step costs seconds. Cleaning up after a mass edit costs an afternoon, and some sends can't be recalled.\n\n\nOften a guide written for one server describes another server's auth flow, tool names or limits. Check each guide against the current documentation of the exact server you are installing, and note its publication date.\n\n\n> An approval step costs seconds. Cleaning up after a mass edit costs an afternoon, and some sends can't be recalled.\n\n\nA guide that predates the server's last release is describing a schema that has probably moved.",
+  "published_at": "2026-11-16T04:47:50+00:00",
+  "first_seen_at": "2026-11-16T09:37:33.113195+00:00",
+  "content_hash": "sha256:75f1cbf00c4cf9a5bb39081f09a9a2b1d6470b48cc04ec105dc1d9d143cfbdfb"
+}

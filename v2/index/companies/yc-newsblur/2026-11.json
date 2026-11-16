@@ -25,7 +25,7 @@
       "company_name": "NewsBlur",
       "doc_id": "25385ad1d7fa26b8c9c8b91746badc7eb78148c288635c39f9b38282adba3dce",
       "first_seen_at": "2026-10-30T16:36:52.127527+00:00",
-      "published_at": "2026-11-01T15:58:10+00:00",
+      "published_at": "2026-11-05T14:49:50+00:00",
       "source_kind": "rss",
       "summary": "<p>Every story in NewsBlur now has a Listen button. Press it and NewsBlur reads the story to you, starting with the headline and going paragraph by paragraph, highlighting each one as it goes. When the story ends, the next one starts. It works on the web, iPhone, iPad, Mac, and Android starting today, and it can read stories in all 21 languages NewsBlur speaks.</p> Here’s Jon, the default English voice, reading that paragraph: And if you’re reading this in NewsBlur, you can press Listen ri...",
       "title": "Listen: NewsBlur reads your stories aloud on the web, iOS, Mac, and Android"
@@ -45,7 +45,7 @@
       "company_name": "NewsBlur",
       "doc_id": "3c88f730f613bc5d7afc33f99f93115a6cc2f9b6575c337c987cb7e3ba182109",
       "first_seen_at": "2026-09-23T03:31:40.688177+00:00",
-      "published_at": "2026-11-02T12:49:47+00:00",
+      "published_at": "2026-11-03T00:49:09+00:00",
       "source_kind": "rss",
       "summary": "On a feed view, long article titles are not correctly wrapping and have an odd line break between parts of the title. The titles show as expected when clicking into an article.",
       "title": "Android app not correctly wrapping titles"
@@ -89,6 +89,16 @@
       "source_kind": "rss",
       "summary": "long reblog chains for tumblr posts are unreadable on mobile because of the nested blockquotes. this isn’t your fault, but they’re definitely not going to fix it. in my ideal world you’d automatically rewrite them to un-nest the blockquotes, but i don’t know how you feel about silently modifying the items. or how i’d feel about it if you did it to feeds i hadn’t explicitly requested, for that matter. so failing that, css that doesn’t make the quoted text one character per line would be great. ...",
       "title": "Android: better format for tumblr"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "72cab35d6a8cf212b41700cb6bfe077e74027f40e8c1cbd4ff315054810bdc74",
+      "first_seen_at": "2026-11-16T08:58:44.272827+00:00",
+      "published_at": "2026-11-16T06:31:57+00:00",
+      "source_kind": "rss",
+      "summary": "When I try to change the folder of my Newsletters, new articles appear again in the Newsletter folder and create a new feed with the same name. For example My_Folder My_Newsletter ← added manually to “My_Folder” Newsletters My_Newsletter ← recreated by NewsBlur after new articles appear. “My_Newsletter” in “My_Folder” stops being updated Is there a way to make Newsletters remember the folder they are in?",
+      "title": "Changing Newsletter folder"
     },
     {
       "company_key": "yc-newsblur",

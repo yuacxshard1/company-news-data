@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6c1659947f9916b2dfed0c4c8a9c5b9fc48ef7bb5c86bc74f426b379f90ee0b8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-power-bi-pricing-2026-plans-and-licensing",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-power-bi-pricing-2026-plans-and-licensing",
+  "title": "Microsoft Power BI Pricing 2026: Plans and Licensing",
+  "summary": "Microsoft Power BI pricing includes Pro, Premium, and Premium Gen2 tiers.",
+  "body_markdown": "## Frequently asked questions\n\n\nAsk about alerts and dashboards and the same licensing questions come back each time; these four have short answers in Microsoft's documentation.\n\n\nBuilding reports on your own machine costs nothing, because Power BI Desktop is free to download and use.\n\n\nThe cost starts when you publish to the Power BI service and share, because that step needs a licence for you and, in most setups, for the people reading.\n\n\n### Do viewers need a Pro licence to see shared reports?\n\n\nUsually, yes. Microsoft's docs say that sharing in the standard way requires viewers to hold Pro or Premium Per User licences as well.\n\n\nThere is one exception: content hosted in a workspace on a large enough Fabric capacity, where viewers with a free licence can read it. So the licence you pick depends on how many readers you have. Count them before you choose.\n\n\n### Can I pause a Fabric capacity to stop charges?\n\n\nYes, with limits. A pay-as-you-go capacity can be paused in the Azure portal, and compute billing stops while it's paused. Anything running on it stops too, so reports and scheduled refreshes go dark.\n\n\nPausing doesn't help with a reserved capacity you have already committed to, and stored data may still be billed. If people rely on reports overnight, check what pausing will break before you do it.\n\n\nBecause Microsoft's licensing documentation lists Power BI Pro as part of the Microsoft 365 E5 suite, those users don't need a separate Pro purchase. E5 doesn't include a Fabric capacity, so a large audience of free-licence viewers or heavy refresh still needs capacity bought separately.",
+  "published_at": "2026-11-16T04:34:22+00:00",
+  "first_seen_at": "2026-11-08T07:48:02.427766+00:00",
+  "content_hash": "sha256:c9b25b95196362a6b282d358752a2df31a4fafc746da69c4112a44d95bf1c965"
+}

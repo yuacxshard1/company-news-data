@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "68df6ebf82207cdf31f027249957278da77847d5aa673f3d165da5b3dddeb398",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/automate-fal-ai-with-workflow-integrations",
+  "canonical_url": "https://www.activepieces.com/blog/automate-fal-ai-with-workflow-integrations",
+  "title": "Automate Fal AI: Queue, Webhooks and Workflows (2026)",
+  "summary": "Automate fal ai by posting jobs to the queue endpoint. Receive request IDs back, then poll for status updates or wait for webhooks to fetch results.",
+  "body_markdown": "## The submit, wait, and fetch workflow\n\n\nWhichever way you wait, the workflow is the same three HTTP calls: submit, wait, fetch. The table shows what differs across the three tools.\n\n\nTool API key stored in How to wait Receive a webhook Completion status\n\n\nZapier Header field of the Webhooks by Zapier step Delay by Zapier step, then a second request Catch Hook trigger in a separate Zap` COMPLETED`\n\n\nMake Keychain entry or a scenario variable Sleep module inside a repeater loop Custom webhook module` COMPLETED`\n\n\nn8n Header Auth credential Wait node, plus an IF node looping back Webhook node, or a Wait node set to resume on webhook` COMPLETED`\n\n\nActivepieces — — — —\n\n\nIf you poll in Zapier, expect chained steps and a fixed number of attempts, since only Make and n8n loop natively.\n\n\nThe reply carries` request_id` ,` status_url` and` response_url` . Map all three into later steps, because the status and fetch calls are built from them.\n\n\nAppend your receiving URL as the` fal_webhook` query parameter on the submit call. fal posts the result to it when the job finishes. No loop runs and no tasks burn while you wait.\n\n\nZapier and n8n handle this with a second trigger, so match it to the original row by` request_id` .\n\n\n### Option B: poll the status URL on a delay\n\n\nGET the` status_url` until it returns` COMPLETED` , then GET the` response_url` . Size the delay to the model, because the slow tail varies a lot.\n\n\nOn[Lumenfall's measurements](https://lumenfall.ai/models/black-forest-labs/flux.2-max) , FLUX.1 schnell takes 3.7 to 6.4 seconds, so one 10-second wait usually covers it. FLUX.2 klein runs 4.6 to 9.1 seconds, which fits with little margin.\n\n\nOn the slow runs of FLUX.2 dev Turbo, a fixed 10-second wait fails, since it spans 6.4 to 22.5 seconds in Lumenfall's measurements. **FLUX.2 max takes 33 to 46.2 seconds** , so a single short delay never works there.\n\n\nPoll every 5 to 10 seconds and cap the loop above the slowest figure for your model.\n\n\nWhen the status reads` COMPLETED` , fetch the response and take the image URL from the output. Write that URL to a spreadsheet or database row next to the` request_id` .",
+  "published_at": "2026-11-16T04:48:51+00:00",
+  "first_seen_at": "2026-11-16T03:04:50.771641+00:00",
+  "content_hash": "sha256:2a28bd159350112c54d4e110ae85f8ed5502ca513a210c6aea95b4f07c2d2513"
+}

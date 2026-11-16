@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bec635e4fb433ef261550b064a3eedbbfeac9c0a0fd780733cc07f6d836b9b57",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-gemini-4-argon-features-pricing",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-gemini-4-argon-features-pricing",
+  "title": "What Is Gemini 4 Argon? Features, Pricing",
+  "summary": "What is Gemini 4 Argon, and how does this hypothetical model integrate with industrial robotics? Readers can evaluate its projected capabilities and costs.",
+  "body_markdown": "## Understand Gemini Robotics ER 2 for robotics\n\n\nDesigned by[Google DeepMind](https://deepmind.google/models/gemini/) to bridge the gap between abstract reasoning and physical execution,[Gemini](https://gemini.google/subscriptions) Robotics ER 2 is a specialized vision-language model that can be integrated into automated workflows using[Activepieces](https://www.activepieces.com/) to streamline complex tasks.\n\n\nIt functions as the cognitive core of a robotics stack, interpreting visual environments to generate high-level plans that your system translates into specific motor actions.\n\n\n### A vision-language model for physical reasoning\n\n\nAs a general-purpose physical reasoning model, it processes visual streams and text instructions to understand spatial relationships and object permanence in real-world settings. This capability makes it applicable across the entire robotics lifecycle, from initial task planning to execution.\n\n\nBy maintaining this separation, the high-level logic remains decoupled from specific joint configurations, allowing you to swap hardware without retraining the primary reasoning engine.\n\n\nThe moment a new vision capability is connected in[Activepieces](https://www.activepieces.com/) , an agent can immediately utilize it as a tool.\n\n\nBy registering a integration once, it functions simultaneously as a step in a structured automation and as a schema on the per-project MCP server, accessible by Claude, ChatGPT, or a custom robotics agent.\n\n\nThis unified approach eliminates the need to maintain a separate tool catalog for agents or perform a second migration when moving from flows to chat-based control.\n\n\nThe MIT-licensed core ensures that the same integration action defined in the open source repository is the one exposed to the MCP client, providing a single source of truth for hardware commands.\n\n\n### Gemini Robotics ER 2 release date and availability\n\n\nGoogle DeepMind offers Gemini Robotics ER 2, marking the transition of embodied AI from experimental labs to production environments.\n\n\nThe model is currently available in public preview through Google AI Studio and the Gemini API, providing immediate access for you if you're building autonomous systems.\n\n\nA standard Google Account does not grant access to Gemini Robotics ER 2; it is available only with the paid tier of the Gemini API in AI Studio. Using Gemini Robotics ER 2 in Google Antigravity requires a Google AI Ultra subscription.",
+  "published_at": "2026-11-16T04:41:40+00:00",
+  "first_seen_at": "2026-10-13T22:33:37.988742+00:00",
+  "content_hash": "sha256:9a6d5eb681459cff6a26d422aacc4da4d12bf94b448d61f0a86bd7fbd8b6c50d"
+}

@@ -1427,7 +1427,7 @@
       "first_seen_at": "2026-10-17T07:33:47.406757+00:00",
       "published_at": "2026-10-16T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "How go-to-market teams and their coding agents turn an email address, or a name and a company, into a full person record with Cargo: reverse email lookup, name-and-company matching, the fields each provider returns, and what a miss costs.",
+      "summary": "Turn an email address, or a name and a company, into a full person record: title, company, LinkedIn. What 1.97M enrichment runs show and which lookup to use for what you have.",
       "title": "Enrich a Person from an Email Address or a Name and Company"
     },
     {
@@ -2897,7 +2897,7 @@
       "first_seen_at": "2026-10-17T12:02:10.072190+00:00",
       "published_at": "2026-10-16T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Compare DORA metrics tools by data sources, metric definitions, and setup. See how delivery dashboards and Weave’s code output analysis fit together.",
+      "summary": "Compare Weave, GitLab, Datadog, Apache DevLake and DX for delivery measurement. See why code output and review quality belong beside your DORA dashboard.",
       "title": "Best DORA Metrics Tools for Engineering Leaders in 2026"
     },
     {
@@ -4361,6 +4361,16 @@
       "title": "M3016316045NX0PBCY"
     },
     {
+      "company_key": "yc-s2-dev",
+      "company_name": "s2.dev",
+      "doc_id": "746558ed8e21bf282fb3ba64d18eeb13fd6a9f3d5f715dde1879a2b1f1524137",
+      "first_seen_at": "2026-11-16T11:33:00.013648+00:00",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "This will be a rollercoaster story on how we ended up replacing Route53 and running our own authoritative DNS server.",
+      "title": "It’s always DNS, so why are we running our own?"
+    },
+    {
       "company_key": "jfrog-ltd-ordinary-shares",
       "company_name": "JFrog Ltd.",
       "doc_id": "74741e4e0c0135b218c63f45b5a390941912bc3bf48aea5d6391178bee5f9cc9",
@@ -4397,7 +4407,7 @@
       "first_seen_at": "2026-10-17T07:33:47.406757+00:00",
       "published_at": "2026-10-16T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "How go-to-market teams and their coding agents resolve LinkedIn profile URLs from a name and company with Cargo: linkedin.findProfileUrl returns a URL only when exactly one profile matches, then a validation step confirms the current employer. Why the found rate is low, and why that is the point.",
+      "summary": "Turn a name and a company into a verified LinkedIn profile URL. What 72,000 lookups show about match rates, why a miss beats a wrong match, and the call to run.",
       "title": "Find a LinkedIn Profile URL from a Name and Company"
     },
     {
@@ -7497,7 +7507,7 @@
       "first_seen_at": "2026-10-17T07:04:17.214387+00:00",
       "published_at": "2026-10-16T16:05:00+00:00",
       "source_kind": "html",
-      "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.",
+      "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.",
       "title": "Managing open-weight model risk in enterprise deployments"
     },
     {

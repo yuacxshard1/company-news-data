@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "68d424ea9d0fd4263f41bdf45e0933cca2cdd03a5c94581e5f88086299e320a4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/github-models-pricing-2026-free-tier-and-paid-costs",
+  "canonical_url": "https://www.activepieces.com/blog/github-models-pricing-2026-free-tier-and-paid-costs",
+  "title": "GitHub Models Pricing 2026: Free Tier and Paid Costs",
+  "summary": "GitHub Models pricing includes free and paid tiers. Review the costs and quotas for each to determine which plan matches your requirements.",
+  "body_markdown": "## Run GitHub Models Calls in Workflows With Activepieces\n\n\nIt does nothing to what GitHub charges per call.[Activepieces](https://www.activepieces.com/blog/mistral-api-free-tier-limits-models-credits-2026) is an MIT-licensed automation platform with 747 integrations that can fire on a GitHub event and send an HTTP request to the GitHub Models inference endpoint. It's plumbing, not a discount.\n\n\n### The task it automates\n\n\nDon't expect Activepieces to choose a model, trim your prompts or lower your token count. It runs the call you define when an event arrives, and a plain run counts as 1 credit however many steps it has.\n\n\nFor the workload in the worked bill above, that means a trigger on a GitHub event and one HTTP step that posts the prompt to the inference endpoint with your token in the Authorization header. Without it, you'd write and host that glue yourself.\n\n\nIn the run below, a different job appears, revoking a Square payments OAuth token when an instance stops, but it has the same shape.\n\n\nOn screen, a trigger feeds a single HTTP step, with the POST method, the endpoint URL and the Authorization header set in the right-hand panel, and the JSON input and output for each run listed on the left.\n\n\nWhen a call fails or returns something odd, you can read exactly what was sent and what came back, and that run-details view is the part worth testing. Swap the URL and body for the GitHub Models endpoint and the structure holds.\n\n\n### What it adds to the bill\n\n\nOn a separate invoice from GitHub, Activepieces adds a second cost, metered in credits: $0.007 a credit over the monthly allowance on the Plus and Team plans.\n\n\nReselling you a model settles the choice and the price before you've opened the product, so the small-versus-large model question, with its sizeable gap, is answered for you.\n\n\nActivepieces runs the model you already picked: from the $20 a month Plus plan up, you attach your own AI keys, every AI step counts as 1 credit, and the token charges from the worked bill above land on your provider account at your rate.\n\n\nClaude, ChatGPT, Cursor or any MCP client can reach it too, so the strategy stays yours to set.\n\n\nEvery HTTP step that reaches the inference endpoint is still a metered call at GitHub's rate. A workflow that retries a failed step is making a second paid call, so set retries deliberately.",
+  "published_at": "2026-11-16T05:30:34+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:7fe0315eaa51ff36fb2cbb5334e3bd4989271a7fc981e9d9921ced8508aca3d1"
+}

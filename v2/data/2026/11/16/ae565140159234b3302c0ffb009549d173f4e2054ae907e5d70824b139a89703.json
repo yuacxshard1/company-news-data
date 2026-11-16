@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae565140159234b3302c0ffb009549d173f4e2054ae907e5d70824b139a89703",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/postmark-pricing-plans-costs-by-volume-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/postmark-pricing-plans-costs-by-volume-2026-guide",
+  "title": "Postmark Pricing: Plans, Costs by Volume (2026 Guide)",
+  "summary": "Postmark pricing ranges from $15/month for 10,000 emails to $775/month for 1.5 million. See plan costs and your actual expense at different volumes.",
+  "body_markdown": "## Hidden costs and limits Postmark users hit\n\n\nDon't read the headline per-email rate as the bill, because add-ons, retention, stream rules and overage handling all change it. Overage rates are published, but the add-ons and retention costs vary, so check them before budgeting.\n\n\n### Postmark dedicated IP pricing and eligibility\n\n\nYou pay extra for a dedicated IP, since it's an add-on and not part of the plan, and Postmark gates it by sending volume.\n\n\nLow-volume senders don't qualify, which matters because a dedicated address you can't keep warm can hurt your reputation rather than help it.\n\n\nCheck the current price and the volume threshold on Postmark's pricing page before you budget for one. The same applies to the other optional extras, including DMARC monitoring, which Postmark bills per domain, so every extra sending domain adds to it.\n\n\n### Postmark message history and retention costs\n\n\nIf a customer disputes a receipt email after the window closes, you can't pull the delivery record to answer them. Message history is kept for a default window, and longer retention is a paid extra.\n\n\nIf you need that record for support or compliance, price the extended retention into the comparison with a rival. I haven't confirmed the current retention rates, so verify them rather than trusting any third-party summary.\n\n\n### Broadcast versus transactional streams\n\n\nPostmark separates transactional mail from broadcast mail into message streams, and the two are held to different standards. Transactional's the stream the premium buys.\n\n\nMarketing-style sends belong on the broadcast stream, and pushing bulk mail through the transactional one is the quickest way to invite a review.\n\n\nIf your volume is mostly newsletters or promotions, you're paying transactional prices for mail that didn't need them. Also confirm how Postmark bills CC and BCC recipients, since each may count as a separate message and quietly inflate a send count.\n\n\n### Postmark overage charges and account review\n\n\nRead the overage terms before launch, not after the first spike. Whether Postmark bills a spike at an overage rate or throttles it is a contract detail I couldn't confirm, and the difference decides whether a busy day costs money or loses mail.\n\n\nPostmark also reviews accounts, particularly new ones and those with high bounce or spam-complaint rates. A review can pause sending, so ask support in writing how long one usually takes before you move production traffic.",
+  "published_at": "2026-11-16T04:38:43+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:101e4fd9b2119d32e4393ba80b660283ee6076488442a503dfdd0db4d818c08f"
+}

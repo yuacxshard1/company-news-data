@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "353ee53851a34c4f7d90fdbfeddba58d437c901d8619fad1d1a323f7ef94aa72",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepgram-pricing-2026-per-minute-rates-and-add-ons",
+  "canonical_url": "https://www.activepieces.com/blog/deepgram-pricing-2026-per-minute-rates-and-add-ons",
+  "title": "Deepgram Pricing 2026: Per-Minute Rates and Add-Ons",
+  "summary": "Deepgram pricing charges by usage, with rates that vary by speech recognition model.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe problem in this article is a gap between the rate you budgeted and the invoice that arrived. Activepieces closes it with two small flows. The first prices a month before you commit. The second watches spend once you're live.\n\n\nBoth are ordinary workflows: a schedule trigger, an HTTP call to Deepgram's API, a bit of arithmetic, and a message to Slack or email.\n\n\nFor the pre-launch pricing step, build a flow that takes a sample of last month's recordings and sends each one to Deepgram twice, once on the bare model and once with diarization, keyterm prompting and redaction switched on.\n\n\nThe output is the pair of totals the $86 versus $192 example turns on, built from your own audio.\n\n\nYou can run it against the starting credit and never pay a list rate to find out.\n\n\nFor the spend alert, a scheduled flow reads usage through the HTTP integration, compares it with the monthly budget you wrote down, and posts to a channel at half, most and all of it.\n\n\nRun the schedule more often than daily if your traffic is bursty, because the weakness named earlier is the gap between checks. Metering is simple here: a flow run costs 1 credit, however many steps it has.\n\n\nA check with a dozen steps costs the same as one with two, so you don't have to cut corners on it.\n\n\nActivepieces is open source under the MIT licence, so you can self-host the community edition and keep the usage and billing data in your own infrastructure. You can read the code of every step in your alert before you trust it.\n\n\nIt won't cap Deepgram spend or fix a bad estimate, but it moves the surprise from the invoice to a Tuesday message.",
+  "published_at": "2026-11-16T04:39:44+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:58973965c4b738a89aa194306475878060a942409ea909d48d0c59ca0bd10f9c"
+}
