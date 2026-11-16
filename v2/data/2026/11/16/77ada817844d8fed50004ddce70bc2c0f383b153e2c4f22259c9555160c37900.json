@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "77ada817844d8fed50004ddce70bc2c0f383b153e2c4f22259c9555160c37900",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-air-gapped-vault-rds/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-air-gapped-vault-rds/",
+  "title": "AWS Backup adds logically air-gapped vault support for Amazon RDS",
+  "summary": "Discover more about what's new at AWS with AWS Backup adds logically air-gapped vault support for Amazon RDS",
+  "body_markdown": "AWS Backup logically air-gapped vault now supports Amazon Relational Database Service (Amazon RDS) DB instances. Logically air-gapped vaults are a type of AWS Backup vault that stores immutable, isolated backups, which are locked by default with AWS Backup Vault Lock in compliance mode. Secure sharing across accounts and AWS Organizations enables direct restore, reducing recovery time from a data loss event.\n\n\nYou can now protect your Amazon RDS DB instances in logically air-gapped vaults. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed keys. This helps reduce the risk of downtime, ensure business continuity, and meet compliance requirements.\n\n\nTo get started, use the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. Assign your RDS DB instances to a backup plan and specify a logically air-gapped vault in the same AWS Region as the copy destination. Share the vault for recovery or restore testing with other accounts using AWS Resource Access Manager (RAM), or safeguard vault access during account compromise using[Multi-party approval](https://docs.aws.amazon.com/aws-backup/latest/devguide/multipartyapproval.html) . Once shared, you can initiate direct restore jobs from that account.\n\n\nThis support is available in most AWS Regions where both logically air-gapped vault and Amazon RDS are available. For more information and detailed regional availability, visit the[AWS Backup documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-resource) . To learn more about logically air-gapped vaults for RDS, read the[launch blog](https://aws.amazon.com/blogs/storage/introducing-aws-backup-logically-air-gapped-vault-support-for-amazon-rds/) and visit the[feature documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html) and[pricing page](https://aws.amazon.com/backup/pricing/) .",
+  "published_at": "2026-11-16T08:00:00+00:00",
+  "first_seen_at": "2026-11-16T20:51:50.879554+00:00",
+  "content_hash": "sha256:a5e3af85958910baf9f6783b339d60c77c3325083400c99c66930dc09ce5e95e"
+}

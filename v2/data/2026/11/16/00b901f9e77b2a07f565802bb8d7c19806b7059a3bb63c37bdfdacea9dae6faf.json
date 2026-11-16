@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "00b901f9e77b2a07f565802bb8d7c19806b7059a3bb63c37bdfdacea9dae6faf",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
+  "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
+  "summary": "Discover more about what's new at AWS with AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
+  "body_markdown": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now aggregate requests using custom keys and choose a 1 or 2 minute evaluation window in addition to the existing 5 and 10 minute options, the same capabilities already available in other AWS Regions.\n\n\nA rate-based rule counts requests and applies an action, such as Block or CAPTCHA, when the request rate exceeds a limit you set. Previously, rate-based rules in these Regions could aggregate requests only by IP address and used a 5 or 10 minute evaluation window. Now you can aggregate by request components such as HTTP headers, cookies, query strings, URI paths, HTTP methods, and label namespaces, and combine up to five of them into a composite key. For example, you can limit login attempts per IP address and User-Agent pair, or per session cookie, which helps against attacks spread across many IP addresses. A shorter evaluation window detects request floods sooner, and a longer window catches slower, sustained attacks.\n\n\nYou can configure these options in the AWS WAF console, the AWS CLI and SDKs, and AWS CloudFormation. There is no additional charge for these capabilities, and standard AWS WAF pricing applies. Advanced rate-based rules are now available in all commercial AWS Regions where AWS WAF is available and in the AWS GovCloud (US) Regions. To learn more, see[Using rate-based rule statements](https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-rate-based.html) in the AWS WAF Developer Guide.",
+  "published_at": "2026-11-16T08:00:00+00:00",
+  "first_seen_at": "2026-11-16T20:51:50.879554+00:00",
+  "content_hash": "sha256:668a9d8d612ccf511bc2036e20a3d2053b738229750b55676fda9156247f8952"
+}

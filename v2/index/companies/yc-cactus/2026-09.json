@@ -107,7 +107,7 @@
       "first_seen_at": "2026-09-17T21:20:32.074413+00:00",
       "published_at": "2026-09-17T00:00:00+00:00",
       "source_kind": "html",
-      "summary": "Needle replaces the transformer's feed-forward layer with three Kronecker-factored mixes that start as the Walsh-Hadamard transform and learn from there. 25.6K parameters per layer instead of 4.7M, and a fifth of the compute per token.",
+      "summary": "Needle replaces the transformer's feed-forward layer with three Kronecker-factored mixes that start as the Walsh-Hadamard transform and learn from there. 25.6K parameters per layer instead of 4.7M, and about 0.21M multiply-adds per token instead of 4.7M.",
       "title": "The Hadamard MLP for Channel Mixing for Almost No Parameters"
     },
     {

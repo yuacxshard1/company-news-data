@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0c78ec9fe348ea2b54338cb925f8a65b68f4426385a404f69e2f0545314b91dd",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/automate-azure-devops-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/automate-azure-devops-2026-guide",
+  "title": "Automate Azure Devops (2026 Guide)",
+  "summary": "Automate Azure DevOps using Power Automate triggers that respond to events and modify work items without manual board updates.",
+  "body_markdown": "## Frequently asked questions\n\n\nBecause most of these come back to the connection identity, each answer says whose credentials are doing the work. Checked 16 November 2026.\n\n\n### Can Power Automate trigger an Azure DevOps pipeline?\n\n\nYes: the connector's \"Queue a new build\" action starts a pipeline run from any flow.\n\n\nBecause the run is queued under the connection's identity, that account needs permission to queue builds on that pipeline. A flow that worked in testing under your own login often fails in production for this reason alone.\n\n\n### Is the Azure DevOps connector free in Power Automate?\n\n\nIt's listed as a Standard connector, so it normally works under the Power Automate rights included with a Microsoft 365 licence, with no Premium licence needed.\n\n\nLicensing terms change, so confirm against your own tenant's plan and the connector's reference page before you build anything the business depends on.\n\n\nOn the Azure DevOps side, users and parallel pipeline capacity are priced separately, and none of that comes from Power Automate.\n\n\n### Does Azure DevOps have built-in automation without Power Automate?\n\n\nYes. Service hooks push events to other services, notification rules email people on changes, pipeline triggers chain builds, and work item rules can set fields and states automatically.\n\n\nReach for these first when everything stays inside Azure DevOps, because they run under the platform's own identity and have no connection to expire.\n\n\nWhen the other end is outside Azure DevOps, Power Automate earns its place.\n\n\n### Why does my Azure DevOps workflow stop after a password change?\n\n\nBecause the flow's connection holds a sign-in token for whoever created it, the token can stop working when that person's password changes, is reset, or their sign-in is revoked.\n\n\nThe flow then fails on its next run with an authentication error, even though nothing in the logic changed.\n\n\nRe-authenticate the connection to get it running again, and for anything long-lived, create the connection under a dedicated service account that's not tied to one person's password cycle.\n\n\n### Can I update many work items in a single workflow run?\n\n\nYes, with an \"Apply to each\" loop around the \"Update a work item\" action, but each update is its own call. A large batch'll hit throttling limits, so lower the loop's concurrency and let failed calls retry rather than pushing everything through at once.\n\n\nIf a flow routinely touches very large batches, move that step to a script against the Azure DevOps REST API and keep the flow for the trigger and notification.",
+  "published_at": "2026-11-16T17:09:16+00:00",
+  "first_seen_at": "2026-11-16T20:52:39.006340+00:00",
+  "content_hash": "sha256:07ef91f65e57be688c8953abd1220addeb5f20d9e0f9d95b0a26291492c51372"
+}
