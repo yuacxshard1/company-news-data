@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3c19441752faedb8e2ebdf1cb9daaafd7c832676e6a830b73b046794ed2dcb4a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-security-groups-for-pods/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-security-groups-for-pods/",
+  "title": "Amazon EKS Auto Mode now supports security groups for Pods",
+  "summary": "Discover more about what's new at AWS with Amazon EKS Auto Mode now supports security groups for Pods",
+  "body_markdown": "Amazon EKS Auto Mode now supports security groups for Pods, letting you apply dedicated Amazon EC2 security group rules to individual Pods. Different workloads on the same node can carry different security groups, giving your Pods network-level segmentation without creating separate node pools for each application.\n\n\nSecurity groups for Pods extends your existing AWS network controls to the Pod level, so your Pods can reach resources such as Amazon RDS and Amazon ElastiCache databases that authorize connections by security group under the same rules the rest of your VPC uses. You define which Pods receive which security groups with a SecurityGroupPolicy resource, and Pods not matched by a policy keep using their node’s security groups.\n\n\nSecurity groups for Pods is included as part of EKS Auto Mode at no additional charge and is available on clusters running Kubernetes version 1.36 or later, in all AWS Regions where EKS Auto Mode is supported. To learn more, see[Security groups for Pods](https://docs.aws.amazon.com/eks/latest/userguide/auto-sgp.html) in the Amazon EKS User Guide and the[Amazon EKS Auto Mode](https://aws.amazon.com/eks/auto-mode/) product page.",
+  "published_at": "2026-11-11T17:26:00+00:00",
+  "first_seen_at": "2026-11-11T21:58:06.819345+00:00",
+  "content_hash": "sha256:9193d0d92f66207472a37b38398626d8abfb3f73b8349996031045f982a09075"
+}

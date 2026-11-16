@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ba1f9f7dd1d366d5eaa82913130acb2ab391b52364ca3e83eb502d8ab877388e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/automate-github-copilot-issues-to-pull-requests",
+  "canonical_url": "https://www.activepieces.com/blog/automate-github-copilot-issues-to-pull-requests",
+  "title": "Automate GitHub Copilot: Issues to Pull Requests",
+  "summary": "Automate GitHub Copilot by assigning it issues to open pull requests. You'll set up workflows and scripts to label and test the generated code.",
+  "body_markdown": "## Trigger Copilot from scripts, CLI, workflows\n\n\nTo assign hands-off, create an issue and assign it to Copilot from code. That can be an API call, a` gh` command, or an Actions workflow step, with no one clicking the assignee box.\n\n\n### Assign through the API\n\n\nLook for an assignee named` copilot-swe-agent\\[bot\\]` : that's how Copilot's coding agent shows up. Add it through the normal issue assignees endpoint and the agent starts work, exactly as if you'd picked it in the UI.\n\n\n**The catch is authentication: the built-in` GITHUB_TOKEN` inside a workflow won't do it, so you need a personal access token or a GitHub App user token stored as a repo secret.**\n\n\nFor the shortest route, reach for the` gh` CLI:` gh issue create` with` --assignee \"@copilot\"` creates and assigns in one line.\n\n\nA workflow that fires on a label, say` copilot-ok` , and then runs that step gives you a clean gate: humans triage, the label's the permission slip.\n\n\nYou won't find a built-in \"assign every new issue\" or \"assign on schedule\" switch in the docs. You build that yourself, and your issue-count cap from the last stage has to live in that same workflow, or nothing enforces it.\n\n\n### Copilot CLI in scripts\n\n\nCopilot CLI is a separate thing from the agent. It runs on your machine or a runner, in your working directory.\n\n\nIts programmatic mode takes a prompt on the command line (` copilot -p \"...\"` ), so you can drop it into a shell script or a CI step.\n\n\nUse it for jobs you want done right now and locally: summarizing a failing test log, drafting a changelog from a diff.\n\n\nPin down which tools it's allowed to use before you leave it running unsupervised. Usage draws on your plan's premium requests, so check your billing page before looping it over a whole repo.\n\n\n### Keep request intake separate from automation\n\n\nKeep the intake outside Copilot; that's the useful trick. A form submission or a Slack message becomes a GitHub issue assigned to Copilot, and the agent's pull request lands in front of a human reviewer.\n\n\nThat split is also where things break as you add workflows. Every form and channel becomes another flow to maintain, each with its own token, so rotate them in one place and keep a single shared issue template. Activepieces runs that intake as a flow.",
+  "published_at": "2026-11-15T03:58:03+00:00",
+  "first_seen_at": "2026-11-15T10:17:52.315257+00:00",
+  "content_hash": "sha256:160fa40a90ee012a72a5d218ba8fb621c763e96799da34e161a1950e6359809b"
+}

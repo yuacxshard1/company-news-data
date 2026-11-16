@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "db3ba73b9243494b0cd6ddf89791388bf256531bbba2f0a68816793f5eec47b2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/github-copilot-pricing-2026-plans-credits-and-costs",
+  "canonical_url": "https://www.activepieces.com/blog/github-copilot-pricing-2026-plans-credits-and-costs",
+  "title": "GitHub Copilot Pricing 2026: Plans, Credits and Costs",
+  "summary": "GitHub Copilot pricing starts at $10/month for individuals and $19 for teams. Compare each plan's usage limits and features to choose your tier.",
+  "body_markdown": "## Uncovering costs and limits that trigger upgrades\n\n\nExpect to be pushed up a tier by one of three limits: premium requests running out, Enterprise requiring a separate GitHub plan, or free access depending on eligibility you can lose. Each starts with the model choice, because the heavier models count for more.\n\n\n### Copilot premium request limits and overage budgets\n\n\nPer GitHub's documentation, each plan includes an allowance of premium requests, and different models consume it at different multipliers. A heavy reasoning model can use up the allowance several times faster than a light one.\n\n\nOnce the allowance is gone, one of two things happens. If an administrator set an overage budget, you keep working and pay per request.\n\n\nIf no budget exists, premium models stop until the allowance resets. **Doing nothing therefore costs you a stalled afternoon, and setting a budget costs you an open-ended bill.** Set a ceiling on purpose.\n\n\nLook at a settings screen from a different tool and the same kind of default appears. Its concurrency field reads \"Default (5)\", a cap you inherit unless you go looking.\n\n\nIn Copilot too, the ceilings sit in settings, and nobody chooses them until the work queues up behind them.\n\n\nThe automation you build around Copilot shouldn't punish you for splitting work into smaller steps.\n\n\nActivepieces'[pricing page](https://www.activepieces.com/pricing) lists 1 credit per flow run, so a ten-step flow costs the same as the two-step shortcut it replaced, where Zapier bills per task and Make per module.\n\n\n### Copilot Enterprise requirements and free plan eligibility\n\n\n**You cannot buy Copilot Enterprise on its own** . GitHub's documentation says it requires an organization on GitHub Enterprise Cloud, so the real price is the Copilot seat plus the platform seat underneath it.\n\n\nIf your team is on a lower GitHub plan, the upgrade is two purchases, and the platform one is easy to miss when comparing headline prices.\n\n\nIf you have free access, including Pro for verified students, teachers and open-source maintainers, it depends on GitHub continuing to recognize you as eligible.\n\n\nWhen verification lapses or your status changes, the free plan ends and you go back to paid pricing. Check how your access is verified before building a workflow on it.",
+  "published_at": "2026-11-12T04:32:25+00:00",
+  "first_seen_at": "2026-11-03T01:01:58.050856+00:00",
+  "content_hash": "sha256:a537548543489bc20cb46000aceff209cb6d8bc494c68e47b881bdfd659eadff"
+}

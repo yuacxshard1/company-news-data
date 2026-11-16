@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ab0a18e2fc65f9bb4b803247918de0e6ad327816bf0f557bb627b63f0573adb6",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/runway-api-pricing-per-second-for-every-video-model",
+  "canonical_url": "https://www.activepieces.com/blog/runway-api-pricing-per-second-for-every-video-model",
+  "title": "Runway API Pricing Per Second for Every Video Model",
+  "summary": "Runway API pricing charges credits per second per model. Your cost is the per-second rate times total seconds you generate, including rejected attempts.",
+  "body_markdown": "## Fix runaway video spend with Activepieces\n\n\nDon't expect Activepieces to lower what Runway charges. It can stop you paying for takes you never see, never save or never count, which is where unknown retry costs pile up.\n\n\nActivepieces runs a sequence of steps on a schedule or trigger across its 744 integrations, and the same flow reaches other video vendors by swapping the HTTP request.\n\n\nHere is one build, the flow below. A schedule trigger reads a prompt sheet in Google Sheets, loops over the rows, submits each prompt to Runway over HTTP, runs two AI steps, and writes a log row.\n\n\nIt then branches on a condition before sending a Gmail message.\n\n\nRead it left to right as a record of every attempt, because each attempt's a billable run and each row it writes is a retry you can count later.\n\n\nBefore you loop over a long prompt sheet, check how your plan counts a run, because Activepieces meters usage in flow runs. A loop that fires many steps per row can use up allowance faster than the clip count suggests.\n\n\n### Queue Runway video jobs and save outputs\n\n\nOn each schedule, the trigger pulls pending prompts from the sheet. The loop sends them to Runway one at a time instead of all at once, so a bad prompt batch can't spend your budget in a single burst.\n\n\nAfter submission, the flow polls the task status until it reports done or failed. A failed task gets marked in the sheet, so a discard's recorded rather than silently repeated.\n\n\nOn success, the flow downloads the file and stores it in your own storage straight away. Runway output links aren't permanent, so a clip you didn't save is a clip you pay for again. Saving at completion turns a possible regeneration into a one-time cost.\n\n\n### Log credits and cap the spend\n\n\nFor every job, a row gets written with the prompt, the model called, the task result and the credits it consumed.\n\n\nTake the credit figure from Runway's pricing page for the model you used, and record it per attempt, including failures. Summing that column gives you cost per kept clip, which is the number the headline credit price hides.\n\n\nNext, the router checks the running total against a limit you set. In Branch 1, where the total crosses it, Gmail sends an alert and the loop stops. In Otherwise, the run continues.\n\n\nThat one branch's the cap that keeps a bad week of retries from becoming a bad invoice.",
+  "published_at": "2026-11-11T09:41:12+00:00",
+  "first_seen_at": "2026-11-11T17:06:23.973017+00:00",
+  "content_hash": "sha256:bef205ab63e0d56bd416907f6847dba8cb138d4e486acf82823f4e125599d887"
+}

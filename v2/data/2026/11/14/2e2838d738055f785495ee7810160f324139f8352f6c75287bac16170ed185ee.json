@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2e2838d738055f785495ee7810160f324139f8352f6c75287bac16170ed185ee",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/meta-llama-api-pricing-cost-per-million-tokens-2026",
+  "canonical_url": "https://www.activepieces.com/blog/meta-llama-api-pricing-cost-per-million-tokens-2026",
+  "title": "Meta Llama API Pricing: Cost per Million Tokens 2026",
+  "summary": "Meta Llama API pricing changes by model, access tier, and usage limits—not the published rate. Find which factors determine what you actually pay.",
+  "body_markdown": "## Run a Llama API job on a schedule with Activepieces\n\n\nMeta's charges stay exactly where they were when you run a recurring Llama API job from Activepieces, the open-source AI automation platform, as a scheduled flow whose AI step runs on your own provider key.\n\n\nWhat it gives you is a place to enforce the limits you already decided on, so a retainer-style job doesn't quietly cost more than you billed.\n\n\n### Scheduled Llama API summarisation workflow example\n\n\nTake a weekly job that summarises a client's support tickets. The flow starts with a schedule trigger, pulls the tickets, and sends them to the model with an HTTP Send Request action.\n\n\nThat action points at Meta's endpoint or at any third-party host serving the same open weights, since both are just a URL, a key and a request body.\n\n\nAfter the job, the same HTTP step can do housekeeping. The run below fired when an instance stopped and made a single POST to Square's API to revoke a token.\n\n\nBoth the trigger and that one step finished with green checks, the step's input and output are recorded, and the response came back 200 \"OK\".\n\n\n*(The screenshot sits here.)*\n\n\n### Keeping spend visible and the model swappable\n\n\nPut a per-run cap in the flow itself: limit how many tickets go into one request and stop the run if the input exceeds that count.\n\n\nWithout it, a client with a busy week gets a bigger job at the same fee, and the shared account absorbs the difference.\n\n\nLog the token counts the API returns for every run, with the client's name beside them. That turns one pooled bill into per-client costs, so you can see who is being cross-subsidised.\n\n\nKeep the model name and base URL in one field at the top of the flow. Swapping to a cheaper model, or to another host of the same weights, becomes a one-field edit, and the logged tokens show whether the switch saved anything.",
+  "published_at": "2026-11-14T05:37:22+00:00",
+  "first_seen_at": "2026-11-08T07:48:02.427766+00:00",
+  "content_hash": "sha256:24253721ed54761c27f517c1d210e54c18796beef8264cea6c24d4dd6eaf5633"
+}

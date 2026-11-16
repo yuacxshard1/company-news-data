@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "42218d8782eb90186bf915221f4107d32d9cd51e7417884eb73706af60bf5a90",
+  "company_key": "yc-oneleet",
+  "company_name": "Oneleet",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.oneleet.com/blog/mdm-enrollment-mac",
+  "canonical_url": "https://www.oneleet.com/blog/mdm-enrollment-mac",
+  "title": "MDM Enrollment on Mac: Profile vs. Apple Business Manager",
+  "summary": "Profile or Apple Business Manager? How to choose the right MDM enrollment for each Mac, what each method can and can't guarantee, and what we recommend.",
+  "body_markdown": "Which MDM enrollment method should I choose? +\n\n\nMost teams should use both: the profile for the Macs you have today, and Apple Business for every new Mac. If your employees must not be able to remove management, then use Apple Business for every Mac.\n\n\nDo I have to wipe my Mac to enroll it in Oneleet MDM? +\n\n\nNo. The profile enrolls a Mac without wiping it. Moving an existing Mac into Apple Business with Apple Configurator does wipe it.\n\n\nDo I need Apple Business Manager to use Oneleet MDM? +\n\n\nNo. The profile works on any Mac, with no Apple Business Manager account. You'll want one for zero-touch enrollment of new Macs.\n\n\nCan employees remove MDM from their Mac? +\n\n\nProfile enrollment can be removed by someone with admin rights on the Mac. Apple Business enrollment can't, apart from Apple's 30-day window for Macs added with Apple Configurator.\n\n\nWhat about personal devices? +\n\n\nPersonal devices stay monitored by the Oneleet agent, not managed. Oneleet MDM is for company-owned devices.",
+  "published_at": "2026-11-12T16:52:53.451+00:00",
+  "first_seen_at": "2026-11-13T00:37:23.267421+00:00",
+  "content_hash": "sha256:faa0ae9307eabaa5de24acdbce9f040cf3ac5af4f971205c41eb2014936f2d45"
+}

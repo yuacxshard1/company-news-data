@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e588373cd234af89d563560907f9da85164684a15a8d342c7f22e27c0e150251",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/contract-renewal-reminder-automation-how-to-set-it-up",
+  "canonical_url": "https://www.activepieces.com/blog/contract-renewal-reminder-automation-how-to-set-it-up",
+  "title": "Contract Renewal Reminder Automation: How to Set It Up",
+  "summary": "Contract renewal reminder automation reduces missed deadlines by syncing your database with communication tools.",
+  "body_markdown": "## Building the automated renewal workflow in Activepieces\n\n\nActivepieces automates contract renewals by triggering a search through your existing spreadsheets and routing the results to your sales team through a logic-based canvas.\n\n\nA granular renewal flow often requires multiple steps (checking dates, looking up owners, and branching by contract value) which can become expensive on platforms that bill per task.\n\n\nActivepieces uses a per-run metering model where one credit covers a single flow run regardless of how many steps or loops are inside it.\n\n\nThis allows teams to build highly detailed, multi-step renewal logic without the cost scaling with the complexity of the flow, as shown on the published pricing page: 1 credit per flow run, any number of steps, check it against Zapier's per-task billing and Make's per-module billing on their own pricing pages.\n\n\n### Connecting your contract database to the workflow\n\n\nThe flow begins with a Schedule trigger. You can set this to \"Every Day\" to ensure the system checks for upcoming deadlines.\n\n\nThis trigger initiates a search in your database using the \"Find Rows\" action to isolate every contract where the \"Expiry Date\" matches your renewal window.\n\n\n### Processing multiple contract expiries automatically\n\n\nA single daily check might uncover dozens of expiring contracts. The \"Loop\" integration is required to handle each record individually. This integration takes the list of rows found and repeats the subsequent actions for every single contract.\n\n\nWithout a loop, your automation would only process the first name on the list.\n\n\n### Customizing the email template with dynamic data\n\n\nThe final step uses the Gmail or Outlook integration to send a personalized message. It pulls dynamic values like \"Client Name\" and \"Contract Value\" directly from the spreadsheet row currently in the loop.\n\n\nIf the \"Find Rows\" step fails to return an email address, the engine can route a notification to a Slack channel instead, preventing the renewal from stalling.\n\n\nZapier is best for teams who need the library of niche apps and a higher monthly cost per task.\n\n\nMake is best for complex data transformations where you need to map hundreds of variables across advanced functions.\n\n\nActivepieces is best for teams who want a clean, self-hosted, or cloud-based builder that prioritizes reliability and ease of use for standard business operations.\n\n\nTo start building your own logic-based renewal engine, browse the available[integrations](https://www.activepieces.com/pieces) and[start for free](https://www.activepieces.com/pieces) .",
+  "published_at": "2026-11-14T04:33:02+00:00",
+  "first_seen_at": "2026-11-14T07:33:40.365175+00:00",
+  "content_hash": "sha256:0a8f4d56b6080ee880ae06a95610fa12c7b8c3bf635001fac7339aaf9114c410"
+}

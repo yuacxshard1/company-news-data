@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7854a7c3d0da687128461bbc0db4cceaa01d0839a5361a7a21bc599e9ac8a10a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-enterprise-automation-routes-for-admins",
+  "canonical_url": "https://www.activepieces.com/blog/claude-enterprise-automation-routes-for-admins",
+  "title": "Claude Enterprise Automation Routes for Admins",
+  "summary": "Claude Enterprise automation comes in three routes. Pick the right one to determine who owns the connection and controls your bills.",
+  "body_markdown": "## Enterprise workspace and access setup\n\n\nMake every access, identity, and spending decision in the Enterprise console, in a fixed order, so that when execution moves elsewhere nothing in the runtime holds governance settings. Each step depends on the one before it:\n\n\n1. Verify the domain.\n2. Configure SSO.\n3. Enable SCIM provisioning.\n4. Assign roles.\n5. Set spend and usage controls.\n6. Set retention.\n\n\nWrite down a named owner beside each step before you start.\n\n\n### Verify the domain and turn on SSO\n\n\nBefore SSO or anything after it can work, you need proof that your organization controls the email domain, and domain verification is that proof. Have whoever manages your DNS records add the verification record, because the console can't confirm a domain that someone else controls.\n\n\nThen configure SSO against your identity provider, the system that holds your employee accounts. Record which administrator owns that connection and which token or certificate it uses, and set a renewal date.\n\n\nAn SSO connection that expires unnoticed **locks out the whole workspace, not one user** .\n\n\n### Provision users with SCIM and set roles\n\n\nWithout SCIM, offboarding depends on someone remembering to remove access by hand, and a departed employee keeps working credentials until they do. SCIM provisioning lets your identity provider create and remove accounts in the workspace automatically.\n\n\nAssign roles after provisioning, not before, so that every account you grant permissions to arrives through the identity provider. Give the admin role to as few people as the job allows, and record each holder.\n\n\nAnyone who can change connectors or limits can change what your automations can reach.\n\n\n### Set spend and usage controls\n\n\n**Set spend and usage controls before any automation runs.** They cap what the organization, and the groups within it, can consume. An automated flow keeps consuming until something stops it, and without a cap **a faulty loop becomes a billing event** that nobody approved.\n\n\nFinish with retention, which decides how long conversation data is kept. Choose it deliberately, because it applies to what your later flows produce as well as to what people type by hand.\n\n\n> An automated flow keeps consuming until something stops it, and without a cap a faulty loop becomes a billing event that nobody approved.",
+  "published_at": "2026-11-12T09:30:18+00:00",
+  "first_seen_at": "2026-11-10T10:59:30.711135+00:00",
+  "content_hash": "sha256:680cfa7fe00d49f6bde82fa325f629abbc64268cd9e52ec7f76ec062865b311a"
+}

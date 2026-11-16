@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d77df86fb578826565f50056017b5da1dd5717f4442fac06477262b55bf145d6",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/activepieces-error-handling-retries-and-alerts",
+  "canonical_url": "https://www.activepieces.com/blog/activepieces-error-handling-retries-and-alerts",
+  "title": "Activepieces Error Handling: Retries and Alerts",
+  "summary": "Activepieces error handling prevents workflow interruptions by retrying failed steps or skipping errors. Determine which setting suits each step.",
+  "body_markdown": "## Frequently asked questions\n\n\nDoes the platform retry failed steps automatically? Only where you switch it on. Retry is a setting on each step, not a blanket policy for the flow, so a write step that must succeed needs it enabled deliberately.\n\n\nThe 65.8% of rejected calls that are 429s are the ones a retry may clear, meaning most of your rejects aren't permanent failures.\n\n\nRetrying suits transient failures such as timeouts and rate limits. It doesn't fix a bad payload, which fails the same way every time.\n\n\nDoes Continue On Fail mark the run as failed? No. The step is allowed to fail and the flow keeps going, so the run can finish looking healthy while the work was never done.\n\n\nThat's why it belongs only on steps that really are optional. If the invoice write is skipped, nobody sees a red run, and the gap surfaces later in someone's reconciliation.\n\n\nIs error handling available in the free Community Edition? Yes. Per-step retry and continue settings are part of the builder, and the MIT-licensed Community Edition is self-hostable.\n\n\nPaid plans cover things like team features and SSO. Audit logs, embedding and self-hosted enterprise support go through the sales team.\n\n\n### How do I get alerted when a workflow fails?\n\n\nDon't rely on the run status alone. Check the output of the step that matters and branch on it.\n\n\nThe point is that the alert fires on missing output, which is the symptom you care about, not on an error that Continue On Fail may have swallowed. A separate alert flow also gives you one place to change who gets notified.\n\n\nAfter the diagram, the practical step is to build the check on your most important write step first, then work outward.\n\n\nWhere do I start with error handling? Pick one flow with a write step you can't afford to lose, set retry on it, and add the output check and alert branch.\n\n\nThe free plan's 1,000 credits a month cover the trial, since a run costs 1 credit however many steps it has.\n\n\nThen review every step marked Continue On Fail and ask whether it was ever optional.\n\n\n- Builders can[start free](https://cloud.activepieces.com/sign-up?ap_cta=blog_body&ref=%2Fblog%2Factivepieces-error-handling-retries-and-alerts) .\n- For plans, see the[pricing page](https://www.activepieces.com/pricing) .\n- For self-hosted enterprise, SSO beyond Team, audit logs or embedding, use the[sales form](https://www.activepieces.com/sales) .",
+  "published_at": "2026-11-14T00:33:10+00:00",
+  "first_seen_at": "2026-11-14T03:11:34.323016+00:00",
+  "content_hash": "sha256:24a8f150722e250ad51de3a75e84b77541035ec8f1c5261649ceb61e24fea2c5"
+}

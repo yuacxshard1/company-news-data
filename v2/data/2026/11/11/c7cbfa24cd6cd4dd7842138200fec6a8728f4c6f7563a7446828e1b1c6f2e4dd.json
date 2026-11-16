@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c7cbfa24cd6cd4dd7842138200fec6a8728f4c6f7563a7446828e1b1c6f2e4dd",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepinfer-pricing-token-rates-and-limits-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/deepinfer-pricing-token-rates-and-limits-in-2026",
+  "title": "DeepInfer Pricing: Token Rates and Limits in 2026",
+  "summary": "DeepInfer pricing depends on usage patterns, not just headline rates. See what actual bills look like at different scales.",
+  "body_markdown": "## Frequently asked questions\n\n\nDoes DeepInfer have a free plan? Check the pricing page on the day you buy, because this article quotes no free-plan figures.\n\n\nIf a free tier exists, treat it as a way to measure your workload against the limits, not as a place to run production. Its caps decide whether your real traffic fits.\n\n\n### Does DeepInfer charge more when I exceed my plan limit?\n\n\nRead the overage rule before you read the plan price. A limit can be handled in three ways: requests are throttled, they are rejected, or the extra usage is billed at a higher rate.\n\n\nEach gives a different bill from the same traffic. Find which one applies to the metered unit you use most, then run your peak month through it.\n\n\nI haven't confirmed a rate here, so I won't give one.\n\n\n### Can I switch DeepInfer plans mid-month?\n\n\nLook for how the change is billed, not only whether it's allowed. The questions that set your cost are whether an upgrade is prorated, whether a downgrade waits until the next cycle, and whether usage already counted carries over.\n\n\nIf a plan change resets nothing, upgrading late in a month costs the same as upgrading early. Confirm these terms in the billing documentation before relying on a mid-month fix.\n\n\n### Is DeepInfer cheaper billed annually?\n\n\nBefore you commit annually, know that it can lower the monthly rate but also commits you to a tier before you know your usage.\n\n\nIf the tier turns out too small, you pay overage on top of a prepaid plan. If it turns out too large, you have prepaid for headroom you don't use.\n\n\nModel one workload at monthly pricing first. Move to annual only when several months of real usage show a stable tier.\n\n\n### Where do I find DeepInfer's current price?\n\n\nUse DeepInfer's own pricing page and its plan-limits documentation, and record the date you read each one. Prices and limits change, so a figure with no check date is a guess.\n\n\nCopy the plan price, the concurrency limit, the context length and the overage rule into your own sheet, each with its source and date. Then price your workload against that sheet, not against a number remembered from an article.",
+  "published_at": "2026-11-11T10:06:02+00:00",
+  "first_seen_at": "2026-11-11T17:06:23.973017+00:00",
+  "content_hash": "sha256:0b09d15e639b90274780b8723c1675f61b2428a19693b80c3ab9971655744403"
+}

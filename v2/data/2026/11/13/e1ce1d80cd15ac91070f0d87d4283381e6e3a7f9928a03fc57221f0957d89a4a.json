@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e1ce1d80cd15ac91070f0d87d4283381e6e3a7f9928a03fc57221f0957d89a4a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/chutes-ai-pricing-plans-limits-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/chutes-ai-pricing-plans-limits-and-costs-2026",
+  "title": "Chutes AI Pricing: Plans, Limits and Costs (2026)",
+  "summary": "Chutes AI pricing starts at $3 monthly with plans up to $20. The daily request limit is what determines which tier fits light versus heavy usage.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe problem in this article is that the $3 sticker price hides what you pay once the 300-request cap is gone, and nobody notices until the invoice arrives. Activepieces is an automation tool, so it can't change Chutes AI's limits.\n\n\nWhat it can do is put the tracking routine described above into a flow you set up once.\n\n\nA flow calls the Chutes API through an HTTP step, writes one row per request to a sheet (date, model, the token counts the response reports), and a scheduled monthly run multiplies the totals by the per-model rates.\n\n\nYou find out whether you've outgrown the Base plan from your own data.\n\n\nThe same flow can handle the 402 failure.\n\n\nAdd a branch after the call, and if the response is a 402 or any error, the flow can send the request to a second provider, such as OpenRouter at $0.89 per million DeepSeek V3 output tokens against $1.20 on Chutes, or just alert you to top up the balance.\n\n\nThat is the fallback this article keeps recommending, built so a changed cap doesn't leave you without a working tool. Both integrations use the generic HTTP step, since I haven't confirmed a dedicated Chutes integration, so check the integrations list before assuming one.\n\n\nThe automation bill stays out of the way. Activepieces' pricing page meters 1 credit per flow run regardless of step count, and the Free plan includes 1,000 credits a month, enough for a daily summarisation job with room for the logging run.\n\n\nThe Community edition is MIT-licensed, so you can self-host it and keep prompts and logs on a machine you control, which matters if you take the data-handling warning above seriously.\n\n\nThe Chutes overage is still yours to price, but you will be pricing it from your own logs rather than from a guess.",
+  "published_at": "2026-11-13T10:45:07+00:00",
+  "first_seen_at": "2026-11-07T23:28:16.250382+00:00",
+  "content_hash": "sha256:35ed0bd45902b5dea94356f0d8c1d9d7a2ae705e449605217ae3900d023ff049"
+}

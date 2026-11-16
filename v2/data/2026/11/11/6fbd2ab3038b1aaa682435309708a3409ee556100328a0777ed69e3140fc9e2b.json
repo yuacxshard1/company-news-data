@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6fbd2ab3038b1aaa682435309708a3409ee556100328a0777ed69e3140fc9e2b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-microvms-x86-architecture/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-microvms-x86-architecture/",
+  "title": "AWS Lambda MicroVMs now supports the x86 CPU architecture",
+  "summary": "Discover more about what's new at AWS with AWS Lambda MicroVMs now supports the x86 CPU architecture",
+  "body_markdown": "AWS Lambda MicroVMs now supports the x86 CPU architecture, so you can run your existing x86 applications, tools, and software dependencies without recompiling or porting them. When you create a MicroVM image, you can now choose between x86 and Arm (AWS Graviton) to give each user or job an isolated MicroVM on the architecture your workload uses.\n\n\nLambda MicroVMs is a serverless compute primitive that provides VM-level isolation, near-instant launch and resume, and state preservation for running user or AI-generated code, in applications such as AI coding assistants, CI/CD runners, interactive development environments, and vulnerability scanners. Today’s launch enables you to run x86-based workloads on Lambda MicroVMs as-is. For workloads that run on Arm, you can continue using AWS Graviton processors which is the default CPU architecture option.\n\n\nTo start building x86 workloads on Lambda MicroVMs, choose the x86 architecture when you create a MicroVM image from your Dockerfile, then launch MicroVMs from that image. You can use MicroVMs through the AWS Lambda console, AWS CloudFormation, AWS Cloud Development Kit, or with your preferred agentic development tools using the[Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-microvms) .\n\n\nSupport for the x86 CPU architecture is available in all AWS Regions where Lambda MicroVMs is available, except Asia Pacific (Hong Kong), Asia Pacific (Malaysia), Asia Pacific (Thailand), and Europe (Spain). To learn more, visit the[AWS Lambda MicroVMs developer guide](https://docs.aws.amazon.com/lambda/latest/dg/lambda-microvms-guide.html) . For information on pricing, see[Lambda MicroVMs pricing](https://aws.amazon.com/lambda/pricing/) .",
+  "published_at": "2026-11-11T18:00:00+00:00",
+  "first_seen_at": "2026-11-11T21:58:06.819345+00:00",
+  "content_hash": "sha256:bc94b06b05998cf1e100d557d7dfbf95bf3b8a532e0b48547267f7041a3b170c"
+}

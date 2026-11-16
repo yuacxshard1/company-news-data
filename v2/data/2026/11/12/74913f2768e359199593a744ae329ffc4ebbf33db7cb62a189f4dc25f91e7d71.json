@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "74913f2768e359199593a744ae329ffc4ebbf33db7cb62a189f4dc25f91e7d71",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
+  "title": "Amazon Aurora and RDS now support Graviton5-based R9g database instances",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora and RDS now support Graviton5-based R9g database instances",
+  "body_markdown": "AWS Graviton5-based R9g database instances are now generally available for Amazon Aurora with PostgreSQL compatibility and MySQL compatibility, and for Amazon RDS for PostgreSQL, MySQL, and MariaDB.\n\n\nGraviton5-based R9g instances provide up to a 30% performance improvement and up to a 22% price-performance improvement for on-demand pricing over Graviton4-based instances of equivalent sizes on Amazon Aurora, depending on database engine, version, and workload. Built on the AWS Nitro System, R9g instances are available in nine sizes, from large to 48xlarge. They deliver up to 192 vCPUs, an 8:1 ratio of memory to vCPU, up to 100 Gbps of networking bandwidth, and up to 72 Gbps of bandwidth to Amazon Elastic Block Store (Amazon EBS).\n\n\nYou can get started using the R9g database instances through the[Amazon RDS Management Console](https://console.aws.amazon.com/rds/home?refid=35100cff-4aaa-46ac-bc1d-71576bef47be) or by using the[AWS Command Line Interface](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.CreateInstance.html?refid=35100cff-4aaa-46ac-bc1d-71576bef47be#Aurora.CreateInstance.Creating) (CLI). The instances are available in US East (N. Virginia, Ohio), US West (Oregon), and Europe (Frankfurt) regions. For the specific engine versions that support these instance classes, see the[Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.DBInstanceClass.SupportAurora.html?refid=35100cff-4aaa-46ac-bc1d-71576bef47be) and[RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.Support.html?refid=35100cff-4aaa-46ac-bc1d-71576bef47be) documentation. For pricing, see[Amazon Aurora pricing](https://aws.amazon.com/rds/aurora/pricing/) and[Amazon RDS pricing](https://aws.amazon.com/rds/pricing/) .",
+  "published_at": "2026-11-12T19:02:00+00:00",
+  "first_seen_at": "2026-11-13T03:41:42.562938+00:00",
+  "content_hash": "sha256:34bffae0b8ab3d2200627e46c08b7eb57d7a647af73c11ce523632bc257cc326"
+}

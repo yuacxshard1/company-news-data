@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "82de579d5dacd557698afaaf376d80b964fee3f1ab8e45ede3fa7d37f000706c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/supabase-pricing-free-tier-limits-pro-costs-egress",
+  "canonical_url": "https://www.activepieces.com/blog/supabase-pricing-free-tier-limits-pro-costs-egress",
+  "title": "Supabase Pricing: Free Tier Limits, Pro Costs & Egress",
+  "summary": "Supabase pricing relies on resource usage rather than seat counts.",
+  "body_markdown": "## Frequently asked questions about Supabase billing?\n\n\n### Does Supabase charge for idle projects?\n\n\nSupabase does not charge a fee for projects that sit idle, but it will pause them on the Free Tier to reclaim resources for active users. When a project is paused, the REST API and database connections become unavailable.\n\n\nAny application attempting to fetch data will receive a connection error until the project is manually resumed through the dashboard.\n\n\nOn the Pro plan, projects remain active regardless of traffic levels. You are paying for the guaranteed availability of your compute instance even if it processes zero requests.\n\n\n### What happens if I exceed the Free Tier limits?\n\n\nRather than triggering an automatic bill, exceeding the limits on a Free Tier project results in the service becoming read-only or restricted.\n\n\nBecause the Free Tier lacks a payment method by default, the platform prevents overages by disabling writes to the database or blocking further file uploads to storage.\n\n\nYour application will effectively break for your users until you upgrade to a paid tier.\n\n\nOnce you move to the Pro plan, these hard stops are replaced by metered surcharges, ensuring the service remains functional while your monthly invoice scales with your usage.\n\n\n### Can I set a hard spending cap on the Pro plan?\n\n\nTo prevent your monthly bill from exceeding the base subscription price plus any pre-configured add-ons, Supabase allows you to toggle \"Spend Caps\".\n\n\nEnabling the spend cap ensures you are never surprised by viral traffic spikes or runaway egress costs, but it also means your project will return errors once the included quota is exhausted.\n\n\nIf your application relies on high-reasoning models like Claude Opus 5.5 or GPT-6 Astra for agentic workflows, a hard cap might shut down your backend mid-task.\n\n\nMost production environments opt for notifications rather than strict enforcement.\n\n\n### Is there a discount for annual Supabase billing?\n\n\nAvailable for the Pro plan, annual billing provides a reduced effective monthly rate compared to paying month-to-month. Choosing the yearly option commits you to a fixed term, so you lose the flexibility to downgrade or cancel instantly if your project requirements change.\n\n\nThis trade-off benefits established businesses with predictable workloads. The upfront payment lowers the total cost of ownership for the infrastructure over the course of the year.",
+  "published_at": "2026-11-12T03:17:29+00:00",
+  "first_seen_at": "2026-09-30T11:13:10.283473+00:00",
+  "content_hash": "sha256:81d36d6bd4d152c82f1677baa35e14254c70296bb2aacb8ef28b5b33f883a5a7"
+}

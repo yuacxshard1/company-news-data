@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2b65597238ac9058c7bfa73d85cd6ee63e093d148b7bba94be78c77646656d94",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
+  "title": "EC2 Image Builder console now integrates with the DevOps Agent for troubleshooting and resource creation",
+  "summary": "Discover more about what's new at AWS with EC2 Image Builder console now integrates with the DevOps Agent for troubleshooting and resource creation",
+  "body_markdown": "EC2 Image Builder now integrates with the AWS DevOps Agent directly in the Image Builder console, enabling you to troubleshoot failed image pipelines and create resources directly from the console chat panel. You can diagnose up to 50 failed pipelines at once and ask follow-up questions in the same conversation. You can also choose to create resources by describing what you want, and the agent populates the console with values the service has already validated.\n\n\nWith this integration, diagnosing a failed pipeline no longer requires manually inspecting build logs, cross-referencing error codes, or iterating through configuration fixes, saving you significant time and expertise. The agent reads build logs, workflow steps, components, and network configuration, then provides the root cause and the steps to fix it. For resource creation, the agent verifies the configuration before populating the console for you to review and submit. If you troubleshoot or build with your own AI agents, the new EC2 Image Builder skill in the AWS Agent Toolkit provides you the same troubleshooting and creation capabilities.\n\n\nThis feature is available in all commercial regions. To get started, open the EC2 Image Builder console and use the DevOps Agent from the console panel. For more information, see the[EC2 Image Builder documentation](https://docs.aws.amazon.com/imagebuilder/latest/userguide/ai-image-builder.html) and for pricing refer[DevOps agent Pricing page](https://aws.amazon.com/devops-agent/pricing/) .",
+  "published_at": "2026-11-12T08:00:00+00:00",
+  "first_seen_at": "2026-11-12T22:48:56.490557+00:00",
+  "content_hash": "sha256:a9aa39e13dbd49fec042706497d058d6314ecbcf44da5de9f70080c7ba6172b0"
+}

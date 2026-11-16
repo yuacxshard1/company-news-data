@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "acfcdeb7e82126711aecf89f4236da845dd303a778aa315387cd6761f0cd1e36",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-agents-in-slack",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-agents-in-slack",
+  "title": "AI agents answer in Slack",
+  "summary": "Share a saved AI agent in Slack channels and it answers bot mentions in the thread, for workspace members as themselves or for anyone in the channel as its run-on-behalf-of identity.",
+  "body_markdown": "### [AI agents answer in Slack](https://www.windmill.dev/changelog/ai-agents-in-slack)\n\n\nAI\n\n\nSlack\n\n\nIntegrations\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\n[v1.842.0](https://github.com/windmill-labs/windmill/releases/tag/v1.842.0)\n\n\n[Docs](https://www.windmill.dev/docs/integrations/slack#ai-agents)\n\n\nShare a saved AI agent in Slack channels and it answers bot mentions in the thread, for workspace members as themselves or for anyone in the channel as its run-on-behalf-of identity.\n\n\n#### New features\n\n\n- Pick the agent with +name, by thread, or by a channel default set by an admin.\n- Each person in a thread has their own conversation with the agent.\n- Requires the Slack app signing secret and the users:read, users:read.email and channels:read scopes.",
+  "published_at": "2026-10-20T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T21:06:22.562319+00:00",
+  "content_hash": "sha256:895748037007f17c2c2c8c9048cf62cf665c3e475e3c89144d1cd08545579e0c"
+}

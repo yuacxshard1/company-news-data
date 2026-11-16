@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dcee7e75223eeaebe9a38bcef95e2694da6fa209ab4417515d0b5c8d9e06c9ee",
+  "company_key": "yc-pgdog",
+  "company_name": "PgDog",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://pgdog.dev/blog/mcp",
+  "canonical_url": "https://pgdog.dev/blog/mcp",
+  "title": "Adding MCP support to PgDog",
+  "summary": "PgDog is a connection pooler, load balancer, and sharding proxy for PostgreSQL. Scale Postgres horizontally without rewriting your application.",
+  "body_markdown": "LLMs are pretty useful for debugging. Bugs that used to take us days to figure out can be resolved in a few minutes with a couple tailored prompts.\n\n\nGiving your agent access to production telemetry however can be difficult. Most APMs, e.g., Datadog, Grafana, etc. are delayed by 15 seconds or more, and may not have all the context. During an incident, this could become a problem.\n\n\nOur latest release of PgDog Enterprise (` v2026-11-12` ) now ships with a built-in MCP server. It provides real time access to metrics, logs, configuration and system status, so your agent can quickly diagnose and resolve issues.\n\n\n## Getting started\n\n\nIf you’re using our[Helm chart](https://github.com/pgdogdev/helm-ee) , you can enable MCP pretty easily:\n\n\n```text\n# values.yaml\ncontrol  :\nconfig  :\nmcp  :\nenabled  :    true\n\n\n```\n\n\nThis will launch an MCP server on the control plane’s` /mcp` endpoint. The server uses token-based authentication, which protects it from unauthorized access.\n\n\nThe server ships four tools:\n\n\nTool Description\n\n\n` proxy_instances` Up-to-date list of running PgDog containers and their status.\n\n\n` proxy_metrics` Fetch real time metrics for each configured database in` pgdog.toml` , direclty from the PgDog instances.\n\n\n` proxy_logs` Fetch real time PgDog container logs from Kubernetes.\n\n\n` proxy_config` Fetch latest configuration applied on all PgDog containers.\n\n\nAll tools are read-only. Agents can’t make any changes to PgDog’s settings or deployment configuration.\n\n\nThey are also self-explanatory and an agent doesn’t require special instructions to use them. LLMs are able to figure out in which order to call each tool and how to use output of one tool as an input of another.\n\n\n## Enterprise edition\n\n\nPgDog Enterprise is stable and publicly available. You can run it in your staging / local dev environments by pulling our Docker images directly from GitHub:\n\n\n```text\n# PgDog\ndocker pull ghcr.io/pgdogdev/pgdog-enterprise:v2026-11-12\n# Control plane\ndocker pull ghcr.io/pgdogdev/pgdog-enterprise/control:v2026-11-12\n\n\n```\n\n\nWe provide Helm charts for both[PgDog](https://docs.pgdog.dev/installation/) and its[control plane](https://docs.pgdog.dev/enterprise_edition/control_plane/installation/) , so installing it into your Kubernetes cluster is relatively simple.\n\n\nIf you need help or about to deploy PgDog to production, we’re always[one call](https://calendly.com/lev-pgdog/) away.\n\n\n## Read more\n\n\n- [MCP documentation](https://docs.pgdog.dev/enterprise_edition/mcp/)\n- [PgDog Enterprise](https://docs.pgdog.dev/enterprise_edition/)",
+  "published_at": "2026-11-12T00:00:00+00:00",
+  "first_seen_at": "2026-11-13T02:37:49.351692+00:00",
+  "content_hash": "sha256:feb0cf0b799fdc3979f1ffd89da5af38bdcbb38b870bf158b404fe8c5aa66c75"
+}

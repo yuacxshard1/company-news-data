@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a5da8519f9acad276031ede5905256c786a5c852f63a49f202eded263b3db483",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/activepieces-human-in-the-loop-a-complete-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/activepieces-human-in-the-loop-a-complete-2026-guide",
+  "title": "Activepieces Human in the Loop: A Complete 2026 Guide",
+  "summary": "Activepieces human in the loop pauses workflows for approval or input from someone specific.",
+  "body_markdown": "## Automation slowdown from approval gates\n\n\n### Rubber-stamp approvals in human in the loop\n\n\nThe critics are right that a gate slows automation down, and the timeout above only handles the request nobody answers, not the one everybody answers too fast. The objection starts with the approver's screen.\n\n\nPicture the message: a title, a record ID, and two buttons, Approve and Reject. After the tenth identical request, nobody opens the record. They click Approve, **and the gate becomes a rubber stamp** that records a name next to a decision no one made.\n\n\nApproval rates sit very high from the start, and the rate at which reviewers override the automation falls as the weeks go on.\n\n\nCritics read this as reviewers learning to stop looking. Defenders read it as the automation being right. The data alone can't tell you which.\n\n\n### Approval latency and approver fatigue\n\n\nLatency is the second cost. A flow that finished in seconds now waits on a person who is in a meeting, on leave, or in another time zone.\n\n\nThat's the bottleneck: **throughput is capped by the slowest human** , not by the flow.\n\n\nFatigue compounds both. The more requests a person gets, the less attention each one receives, so adding gates lowers the quality of the gates you already have.\n\n\n### When validation rules beat approval gates\n\n\nThe sharpest version of the objection is that a human is the wrong tool for most of these checks. A validation rule that rejects a record when the amount exceeds a limit, or a required field is empty, runs every time and never gets tired.\n\n\nSampling a fraction of outcomes after the fact catches drift without holding up each run. If the failure can be written as a condition, a condition is faster and more consistent than a click.\n\n\nThat's a strong case, and it holds for any step where a wrong action is cheap to undo.\n\n\n> If the failure can be written as a condition, a condition is faster and more consistent than a click.\n\n\nThe gates that survive that test still need a record of who answered, and the best setup keeps the pause in the same flow as the rules that filter it.\n\n\nThe audit log that records the answer is a paid, platform-level feature, available on the Ultimate plan and Enterprise control, with SSO, SCIM and custom roles, and it is priced through sales.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run it in production.",
+  "published_at": "2026-11-14T00:32:32+00:00",
+  "first_seen_at": "2026-11-14T03:11:34.323016+00:00",
+  "content_hash": "sha256:07adcaa52f3bf4aa5680c2f720f78b2834e81cf1457b738554f57c5c6d63c179"
+}

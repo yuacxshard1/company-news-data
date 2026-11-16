@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0d8ae2729823b6100d7cc1f6c14c9e7ed5e17df21eda6c7a3929a8358a4a7139",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/alibaba-cloud-model-studio-pricing-for-qwen-2026",
+  "canonical_url": "https://www.activepieces.com/blog/alibaba-cloud-model-studio-pricing-for-qwen-2026",
+  "title": "Alibaba Cloud Model Studio Pricing for Qwen (2026)",
+  "summary": "Alibaba Cloud Model Studio pricing uses pay-per-token billing with no subscription. You can calculate costs for specific models and regions.",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce the first month's usage is in, the same few questions tend to come back from clients and finance teams. Here are the short answers.\n\n\nOnly within a free quota that is granted per model and expires. Beyond it, every call is billed per token.\n\n\n**Keep the quota out of your client quote** : if you price against it, the client's paying for a discount that will have run out by the time they renew, and you absorb the difference.\n\n\n### Does Model Studio charge a monthly subscription?\n\n\nNo. API usage is billed per token, with prices that vary by model, region and mode.\n\n\nA fixed-fee coding plan exists as a separate product for coding tools, but it isn't how API calls from a client workflow are billed. Check its terms before routing any client automation through it.\n\n\nFor a retainer, this means the monthly line item should be a usage estimate with a stated range, not a flat fee you hope the vendor matches.\n\n\n### Is Qwen cheaper than GPT or Gemini?\n\n\nIt depends on which tiers you compare. Qwen models are priced across several tiers, and OpenAI and Google price theirs differently, so a single \"cheaper\" verdict wouldn't survive contact with your workload.\n\n\nCompare the tier that matches the task, in the region you'll run it, in the same mode (real-time or batch). Then multiply by your measured input and output tokens from the first month, not by a headline rate.\n\n\n### Can I cap my Model Studio spending?\n\n\nTreat the cap as something you build. Because billing's pay-as-you-go, no plan sets a ceiling for you. Give each client a separate workspace and API key so their usage is visible on its own, and set a token limit per run inside the workflow.\n\n\nOn a shared key, one chatty client can quietly run up a bill that gets spread across the others.\n\n\nNo fixed schedule that we could verify is published by Alibaba. Prices are listed per model, region and mode on its pages, and any of those can change.\n\n\nQuote with a stated review date, re-check the pricing page before each renewal, and write into the contract that token rates pass through at the vendor's current price.",
+  "published_at": "2026-11-15T02:27:08+00:00",
+  "first_seen_at": "2026-11-08T20:04:34.704635+00:00",
+  "content_hash": "sha256:c3ef7c89501f57d3f10de25f4f3180f3bba5933ace5de82cfec3a6817d70704d"
+}

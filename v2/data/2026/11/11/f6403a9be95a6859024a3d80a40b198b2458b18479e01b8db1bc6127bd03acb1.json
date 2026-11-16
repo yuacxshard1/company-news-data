@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f6403a9be95a6859024a3d80a40b198b2458b18479e01b8db1bc6127bd03acb1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepinfer-mcp-explained-for-2026-setup-cost-pitfalls",
+  "canonical_url": "https://www.activepieces.com/blog/deepinfer-mcp-explained-for-2026-setup-cost-pitfalls",
+  "title": "DeepInfer MCP Explained for 2026: Setup, Cost, Pitfalls",
+  "summary": "DeepInfer MCP is a Model Context Protocol server for AI integrations. Evaluate setup requirements, costs, and pitfalls to determine if it meets your needs.",
+  "body_markdown": "## Mistakes that break DeepInfer MCP setups\n\n\nWhen a setup breaks, it is usually one of four mistakes, and each is a gap between what you assumed and what the vendor's pages publish:\n\n\n- broad keys\n- unmetered calls\n- unreviewed writes\n- stale config\n\n\n### Keys with more access than the task needs\n\n\nNobody notices until something **calls a tool you never meant to expose** ; the chain starts with one key that can do everything, pasted into a client that needs one read.\n\n\nAsk how often servers ship without authentication and the answers disagree sharply.[binary.ph](https://arxiv.org/abs/2605.22333) put it at 37.4% of 539 servers in February 2026,[AgentGrade](https://arxiv.org/abs/2605.22333) at 71.7% of 1,321 in March, and an[arXiv study](https://arxiv.org/abs/2605.22333) at 40.55% of 7,973 in May.\n\n\n> Nobody notices until something calls a tool you never meant to expose; the chain starts with one key that can do everything, pasted into a client that needs one read.\n\n\nWith a spread that wide, none of the figures describes your server, so test it yourself.\n\n\nWhen a call fails, an agent loop retries, each retry is a billed call, and once the rate limit answers, the loop retries again. That is where surprise usage charges and rate limits come from.\n\n\nRead the per-call price and the limit on the vendor's pricing page on a dated visit, then set a client-side cap below it. A cap you can't point to in config isn't a cap.\n\n\nUnreviewed write actions are the third trap. A tool that can write will write whenever the model decides it should. Before enabling one, list what it can modify and whether the change can be undone. Leave anything irreversible behind human approval.\n\n\n### DeepInfer MCP config drift after vendor updates\n\n\nThe ecosystem moves fast.[CyberMaxTools](https://cybermaxtools.com/charts/mcp-servers-by-month/) counted 296 new servers in January 2026, 913 in February, 1,573 in March, 1,894 in April, 2,440 in May and 3,284 in June.\n\n\nBy June the intake was roughly eleven times January's, so a tool list you checked in spring is a snapshot, not a standing fact. Record the date you checked, and re-check after every vendor update.\n\n\n1. Day 1: issue a key scoped to read-only and record the date you verified the tool list.\n2. Day 2: write down the per-call price and rate limit from the vendor's page.\n3. Day 3: set a call cap below that limit and test that it trips.\n4. Day 4: list every write-capable tool and put approval in front of the irreversible ones.\n5. Day 7: re-read the vendor's pages and diff them against your day-1 notes.",
+  "published_at": "2026-11-11T09:47:05+00:00",
+  "first_seen_at": "2026-11-11T17:06:23.973017+00:00",
+  "content_hash": "sha256:7f79d104c150063813c3368ff022c582352efafe132a63e5d51ffbec915e0d3e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1e1336c87e6e10f211bdf080d9f8b16d0e26e3b80bfc6111453969178aca70e3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/fish-audio-pricing-plans-and-api-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/fish-audio-pricing-plans-and-api-costs-2026",
+  "title": "Fish Audio Pricing: Plans and API Costs (2026)",
+  "summary": "Fish Audio pricing covers Free, Plus and Pro tiers, plus a pay-as-you-go API for integrated pipelines. See what each plan includes and costs.",
+  "body_markdown": "## Frequently asked questions\n\n\nIs Fish Audio free to use? Yes, there's a free tier, but it's for testing, not for running a product on.\n\n\nTreat it as a way to hear the voices and prove your workflow works. Once real traffic arrives, the limits on usage and features are what push you onto a paid plan, so check them before you build around the free tier.\n\n\n### Can I use Fish Audio output commercially?\n\n\nIt depends on the plan you're on. Free usage is generally the most restricted, and paid plans are where commercial rights are normally granted.\n\n\nRead the license terms for your specific plan before shipping audio to customers. If you skip that, the cost of getting it wrong is a takedown or a rebuild, which is worse than any monthly fee.\n\n\n### Does Fish Audio charge per character or per minute?\n\n\nIt depends on which meter you're on. The app is a subscription, and the API is billed by usage, measured by how much you generate.\n\n\nBecause the unit can differ between the two, compare them on your own text volume rather than on the headline rate. Confirm the current unit on the pricing page before you do the math.\n\n\n### How do I stop a runaway workflow from burning credits?\n\n\nStart with the cheapest fix: store every generated file and reuse it, so a retry never pays twice. Then cap how many times a step can retry, and put a ceiling on how much text any single run may send.\n\n\nIf your account offers spending limits or usage alerts, switch them on.\n\n\nWhen a loop misfires overnight, a small bill becomes a large one, and these limits take minutes to set up.\n\n\nHow often does Fish Audio change its prices? There's no schedule you can plan around, so assume prices can change.\n\n\nKeep the rate and plan details in one configuration spot in your workflow rather than scattered through it. When the pricing page changes, you update one place and re-run your estimate instead of hunting through every step.",
+  "published_at": "2026-11-12T04:12:19+00:00",
+  "first_seen_at": "2026-11-11T07:59:57.850855+00:00",
+  "content_hash": "sha256:a0757e04d741557814c1365a46744bc97dda61060f559c9b3f7c10748e720ec0"
+}

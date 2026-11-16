@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b80f97e9e27cd1927e16d0647d10708b5925d107e1551711d975994c828674b1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/lovable-cloud-mcp-cost-in-2026-credits-and-caps",
+  "canonical_url": "https://www.activepieces.com/blog/lovable-cloud-mcp-cost-in-2026-credits-and-caps",
+  "title": "Lovable Cloud MCP Cost in 2026: Credits and Caps",
+  "summary": "Lovable Cloud MCP offers four pricing tiers. Free works for solo testing, Pro for small teams, and Business/Enterprise when SSO or heavy spending matters.",
+  "body_markdown": "## Fix approvals with Activepieces, where it fits\n\n\nAn MCP connection or an SDK gives an agent code to run, and the 09:12 setup shows what that leaves out: no tenant, no role, no record of what the agent did. Activepieces isn't Lovable's MCP.\n\n\nIt sits beside it as a separate workflow layer and treats the agent as a user, the way you'd treat an employee.\n\n\nSSO, SCIM and RBAC set what the agent may connect to, and the run detail view lists each tool call on its own line with its input and output, so a bad write traces back to one step.\n\n\nThe trigger's the agent proposing a change. The approval step's a person saying yes. The order below shows where the change waits, and the point to take from it's that **nothing reaches Lovable Cloud until step five** .\n\n\n1. The agent proposes a change, such as a schema edit or a bulk row update, and sends it to the flow instead of applying it.\n2. The flow catches the proposal as its trigger and holds it.\n3. The flow messages the approver in Slack or by email, with the change spelled out.\n4. The approver accepts or rejects.\n5. The change applies only on approval; a rejection ends the run.\n6. The flow logs the decision, who decided and when.\n\n\nMost setups skip step six, the log. When a run goes wrong, it tells you who said yes to what.\n\n\nNow the cost.[Activepieces](https://www.activepieces.com/pricing) gives the Free tier ($0) 1,000 credits a month, enough to test whether the flow works and to cover a solo builder who proposes few changes.\n\n\nPlus ($20) gives 10,000, which suits a small team where several agents propose changes daily, so they'll comfortably stay within their approval budget.\n\n\nAt Team ($200) you get 50,000, which only makes sense once many agents run in parallel, which means it's overkill below that scale.\n\n\nBefore picking, run the flow a few times and see how many credits one proposal burns. That figure, not the tier name, tells you how long a month lasts.\n\n\nIn two cases the extra layer isn't worth it. One's a throwaway project with no real user data, where a bad run costs you an afternoon. The other's an agent limited to read-only permissions, since there's nothing to approve.\n\n\nAnd a flow nobody reads's the \"set and forget\" version of this, so name the approver before you turn it on.",
+  "published_at": "2026-11-12T05:43:32+00:00",
+  "first_seen_at": "2026-11-12T11:32:58.142530+00:00",
+  "content_hash": "sha256:ec2d34e31bbd7dd91104bca6914ed8f8ea44a9b1ba112a00093ee23e0194480d"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2a47d2359660f41f742dd4fa610ee7f0aa9d4359d9b2795913cde73961d04fa2",
+  "company_key": "tetra-tech-inc-common-stock",
+  "company_name": "Tetra Tech Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://www.tetratech.com/projects/streamlining-crusher-analytics-and-reporting-for-iron-ore-mining-operations/",
+  "canonical_url": "https://www.tetratech.com/projects/streamlining-crusher-analytics-and-reporting-for-iron-ore-mining-operations/",
+  "title": "Streamlining Crusher Analytics and Reporting for Iron Ore Mining Operations",
+  "summary": "Tetra Tech integrated Seeq analytics and real-time workflows to streamline crusher reporting and support optimized iron ore mining operations.",
+  "body_markdown": "Tetra Tech Digital Systems integrated Seeq analytics and real-time workflows to streamline crusher reporting, speed anomaly response, and support optimized iron ore mining operations.\n\n\nAn Australian iron ore company used an analytics platform to monitor crusher assets and generate predictive maintenance and process optimization events through a low latency event stream processing platform. Limited visibility between its analytics and workflow systems made it difficult to track anomalies and turn them into action items, affecting predictive maintenance response times and asset performance. Its crusher reporting process was also time consuming because parameters and signals came from multiple data sources. The company engaged Tetra Tech to minimize tramp events, improve production throughput, and support autonomous plant operations.\n\n\nWe developed and implemented an industrial analytics solution using Seeq that triggers workflows and alerts in response to analytics events. Our team configured leading indicators, including oil temperatures, pressures, runtime, power draw, and vibration readings to define normal and ideal operating conditions and identify deviations requiring action. We integrated Seeq with the client’s existing messaging platform to receive analytics events and convert them into action items through our proprietary workflow system. This system uses Message Queuing Telemetry Transport (MQTT) brokers to manage real-time data ingestion and enable publication and subscription by other systems.\n\n\nTo improve reporting performance, we redesigned the crusher report in Seeq with a more user-friendly interface and automatic periodic report generation. Our subject matter experts in crushing optimization further refined the report. After a successful site pilot, the client requested development for deployment across multiple sites.\n\n\n## Benefits\n\n\n- Triggered workflows and alerts from Seeq analytics events\n- Automated periodic crusher report generation\n- Converted anomaly events into action items\n\n\n## Explore related solutions\n\n\n- [Digital Systems](https://www.tetratech.com/solutions/digital-systems/)\n- [Mining Operations Automation](https://www.tetratech.com/solutions/digital-systems/solutions/mining-operations-automation/)\n- [Mining and Manufacturing](https://www.tetratech.com/solutions/mining-and-metals-processing/)",
+  "published_at": "2026-11-12T20:47:37+00:00",
+  "first_seen_at": "2026-11-13T01:34:34.867674+00:00",
+  "content_hash": "sha256:7047bac20b0056121dfbc07ded95116fb1a58de6546d0ce6a4514c5b5d939c3d"
+}

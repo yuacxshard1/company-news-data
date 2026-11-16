@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "00a98efb4d1fb6dfc0ef8043639f50ea3db40bdc2587fb0cc1d45c9c1363f0a3",
+  "company_key": "yc-raycast",
+  "company_name": "Raycast",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.raycast.com/changelog/macos/0-66",
+  "canonical_url": "https://www.raycast.com/changelog/macos/0-66",
+  "title": "📏 Interface Size",
+  "summary": "View what's new in Raycast v0.66",
+  "body_markdown": "[v0.66](https://www.raycast.com/changelog/macos/0-66) June 24, 2026\n\n\nThis release introduces a new **Interface Size** setting which lets you scale Raycast interfaces so you can find a comfortable size on your display. Choose one of three sizes available:\n\n\n- **Default** — the standard size\n- **Large** — a bit bigger\n- **Larger** — the biggest option\n\n\nWhen you change the size, every Raycast window resizes to match, and all Ul elements scale with it, including text, buttons, and fields.\n\n\n*Note* : Interface Size can also affect the content zoom in Notes and Al Chat windows. If a window's content zoom is smaller than the new interface size, it grows to match. And if you scale Raycast back down while the two sizes are equal, they stay in sync. You can of course still customise those content zoom levels separately.\n\n\n## ✨ New\n\n\n- **Settings** : Added a new **Interface Size** setting\n\n\n## 💎 Improvements\n\n\n- **AI** : Show richer error messages when completion fails in certain cases\n- **AI Chat** : Pressing Esc only closes history sidebar when in overlay mode\n- **Hyper Key** : Improved diagnostics when Hyper Key is not working because another process is keeping Secure Input active\n- **Raycast Focus** : Added missing *Import Focus Categories* command and *Export Category* action in *Search Focus Categories*\n- **UI** : Improved performance of hover state in list views\n- **Root Search** : Store and restore latest dropdown argument values\n- **MCP** : Add support for CIMD\n\n\n## 🐞 Fixes\n\n\n- **AI:** Fix provider icons in the auto model popover wrapping when they shouldn’t\n- **Applications** : Fixed applications not always discovered in sub directories\n- **Dictation** : Fixed occasional crash in the equalizer\n- **Dictation** : Fix Styles hotkey not being cleaned up on deletion\n- **Dictionary** : Fixed blank window for some definitions\n- **Dictionary** : Fixed occasional crash when loading definitions\n- **File Search:** Better handling of mixed Latin and CJK filenames\n- **Raycast Focus** : Fixed “Restore Terminated Apps” not restoring apps after the session ends\n- **Root Search** : Fixed an issue where selection was wrongly preserved after a item stopped being suggested\n- **Snippets** : Fixed expansion mis deleting the keyword in some editors\n- **Snippets** : Fixed the *{cursor}* placeholder landing in the wrong position in some editors\n- **Updater** : Added privileged daemon process to ease updates for non admin users. If you’re in that case, you’ll be prompted to authorize the daemon in System Settings > Login Items & Extensions > App Background Activity. Once authorized, you can update it manually without entering admin credentials anymore.",
+  "published_at": "2026-06-24T15:44:51+00:00",
+  "first_seen_at": "2026-11-13T14:37:12.242201+00:00",
+  "content_hash": "sha256:94504c35fc3d53006b8b2c51b8bc2365bf99a331bbc015b18de47c5a233c0783"
+}

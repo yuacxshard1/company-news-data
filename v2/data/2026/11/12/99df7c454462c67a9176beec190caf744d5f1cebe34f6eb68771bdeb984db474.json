@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "99df7c454462c67a9176beec190caf744d5f1cebe34f6eb68771bdeb984db474",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/firebase-alternatives-for-predictable-pricing",
+  "canonical_url": "https://www.activepieces.com/blog/firebase-alternatives-for-predictable-pricing",
+  "title": "Firebase Alternatives for Predictable Pricing",
+  "summary": "Firebase alternatives like Supabase and Appwrite have different pricing and architecture. Compare their features and costs to select the right backend.",
+  "body_markdown": "## Supabase for online applications\n\n\nFor an app that lives online, Supabase is the first alternative to try: a hosted, open-source backend built on Postgres, with auth, storage and realtime bundled in.\n\n\n### Predictable pricing\n\n\nYour bill follows database size and resources, not how many times a screen re-reads a document. Supabase sells a free starter plan, a paid plan, a team plan and custom enterprise terms, with metered charges for extras such as storage, bandwidth and compute.\n\n\n> Your bill follows database size and resources, not how many times a screen re-reads a document.\n\n\nWhen a bug loops a query on Supabase, spend caps are on by default on Pro, but if you turn them off, extra usage is billed. Check the spend-cap setting before launch, since that's what turns \"predictable\" from a claim into a ceiling.\n\n\n### Supabase portable Postgres data and SQL exports\n\n\nBecause your data sits in ordinary tables, you can query it in SQL. You can export it with standard Postgres tools and restore it on any Postgres host, including a cheap server in your own country.\n\n\nIf you've ever untangled a spreadsheet where every tab used different column names, you'll like having one schema that every report and script reads the same way.\n\n\nThe platform itself is open source, so self-hosting stays available if the hosted price or region ever stops working for you.\n\n\n### What the move costs you\n\n\nDon't expect your Firestore documents to copy across as they are. You'll redesign them as related tables, and that takes real planning time.\n\n\nAccess control moves into row-level security, which are policies written in SQL on each table. They're powerful, but a missing policy either locks users out or exposes rows, and the failure is easy to miss until production.\n\n\nOffline sync is also weaker. Supabase doesn't ship the built-in local cache and automatic reconnect merge that Firebase's mobile SDKs give you, so apps used on patchy connections need extra work.\n\n\n### Who Supabase suits best\n\n\nSupabase suits web-first and mostly online products, especially teams that already know SQL or want an exit route. If your field staff work for hours without signal, it's the wrong swap.",
+  "published_at": "2026-11-12T04:32:27+00:00",
+  "first_seen_at": "2026-11-12T11:32:58.142530+00:00",
+  "content_hash": "sha256:547933e896f2bb90ee59a387fea28287cb7794150ed2f0cc4203e5a578656386"
+}

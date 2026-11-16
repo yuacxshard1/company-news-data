@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "125912801f93ac8205c0b3517484e527c63d1b08a747057c1f4213327328a4d1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/openai-embeddings-automation-how-to-schedule-it",
+  "canonical_url": "https://www.activepieces.com/blog/openai-embeddings-automation-how-to-schedule-it",
+  "title": "OpenAI Embeddings Automation: How to Schedule It",
+  "summary": "OpenAI embeddings automation generates vectors from your text. Identify the services, APIs, and storage needed for your specific use case.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe pipeline in this article is four stages with a retry rule and a failure alert wrapped around them, and Activepieces is the place we built to run that wrapper.\n\n\nYou describe the job in plain language, something like \"every night, embed rows whose hash changed and write vectors back with the row ID\", and the built-in chat builds and publishes the flow in your account.\n\n\nThe result is the same schedule trigger, row query, batch loop, OpenAI step, write-back and error branch listed above, so you can open it and check each stage against the article.\n\n\nThe failures that matter here are the ones a cron script hides: a 429 at midnight, a quota error that no retry can fix, a hash check that quietly stopped matching.\n\n\nIn Activepieces the retry setting lives on the OpenAI step itself, every run is listed with its failed step shown, and the error branch can message a person with the batch that failed.\n\n\nThat is step 6 in the build order, and it is the step the platform makes hard to leave out. You still decide the batch size, the dimension count and what counts as a change. The flow does not decide those for you.\n\n\nThe platform is open source under the MIT licence for the community edition, so you can self-host it and keep the API key and the vectors inside your own network.\n\n\nFlows built through chat get the same RBAC, audit logs and run traces as any other flow.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production, which is the kind of operations team that wants a failed run to be readable by someone other than the person who wrote it.\n\n\nTo start, build the flow from the six steps above, run it by hand, run it again with no edits to confirm it embeds nothing, then break the key on purpose and watch the error branch fire.\n\n\nIf all three behave, the job is safe to leave on a schedule.",
+  "published_at": "2026-11-12T11:11:55+00:00",
+  "first_seen_at": "2026-11-12T16:44:30.971019+00:00",
+  "content_hash": "sha256:84dad6e6470fe73270171f4151375510c2d2a166e5ec59db6c2e83ad2dd4a4ed"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c761be2154efe4d9369765825aa263bf305eb76478ae761e60605d8468caebb5",
+  "company_key": "atlassian-corporation-class-a-common-stock",
+  "company_name": "Atlassian Corporation",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://www.atlassian.com/blog/context/context-quality-score",
+  "canonical_url": "https://www.atlassian.com/blog/context/context-quality-score",
+  "title": "Introducing the Context Quality Score (CQS): a new framework for measuring and optimizing AI context",
+  "summary": "After 25+ years partnering with customers to unlock teamwork, we’ve seen firsthand the hardest challenge isn’t executing the task, but connecting the right context to the flow of work. And as AI takes on more work, the advantage isn’t a smarter model but the context you feed it. To better map and measure the quality […]",
+  "body_markdown": "After 25+ years partnering with customers to unlock teamwork, we’ve seen firsthand the hardest challenge isn’t executing the task, but connecting the right context to the flow of work. And as AI takes on more work, the advantage isn’t a smarter model but the context you feed it. To better map and measure the quality of the context our AI models use, Atlassian built the Context Quality Score™ (CQS).\n\n\nThe Context Quality Score evaluates your enterprise data across three key dimensions: completeness, connectedness, and relevance. Each one uncovers a different blind spot in your data, giving teams a clear roadmap to improve what feeds their AI. To evaluate how well your data actually fuels AI, look at three questions every enterprise model has to answer:\n\n\n- **Completeness –** *Do your agents have the whole picture?*\n\n\n- Measures the depth of the context being ingested into the Teamwork Graph from the full breadth of your enterprise systems.\n\n\n- **Connectedness –** *Can your agents connect the dots across tools?*\n\n\n- Measures and maps the connections from the seven different types of context ingested into the Teamwork Graph. It is the algorithm that traverses pre-mapped connections to return cohesive, permission-aware context in a single call.\n\n\n- **Relevance –** *Can agents access the right context without crossing permission boundaries?*\n\n\n- Measures whether your AI model is provided with the context that your organization has curated and follows strict permission-aware access controls.\n\n\nThe Context Quality Score is a single metric built on three core pillars which our research has proven delivers higher quality AI outputs, while using significantly fewer tokens per run. When used with the Teamwork Graph, teams have been able to effectively engineer and activate the seven types of context stored in their graph.\n\n\nWant to see how this works in practice? Read the[Context Quality Score](https://www.atlassian.com/whitepapers/context-quality-score) whitepaper to learn how CQS evaluates context health and see how the Teamwork Graph powers a more reliable, context-aware software development lifecycle. You will discover practical ways to spot gaps across the SDLC and give your AI tools the connected data they need to build, test, and ship faster.",
+  "published_at": "2026-10-29T15:55:00+00:00",
+  "first_seen_at": "2026-11-13T02:33:11.719392+00:00",
+  "content_hash": "sha256:8eec039c04ae2fbd39816173173f02992f37273ecc4cc42a64d00c2a8743b4dc"
+}

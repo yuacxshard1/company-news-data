@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3bccfd34dea1c310f1e5d76d4bb0d41e3013f5731e716535a8b841730df0d13f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/muse-wonder-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/muse-wonder-2026-guide",
+  "title": "Muse Wonder (2026 Guide)",
+  "summary": "Muse Wonder streamlines asset production by converting detailed design requirements into finished visual media for high-volume marketing campaigns.",
+  "body_markdown": "## How Muse Wonder performs in automation tests\n\n\nMuse Wonder can respond to automation tasks in under a second. While text-heavy models struggle with the overhead of complex reasoning, Muse Wonder is built for the immediate execution required in production pipelines.\n\n\n### Muse Wonder automation test setup\n\n\nTo simulate a standard operations desk, we evaluated the models using a three-task automation suite. This suite included support ticket classification, invoice data extraction, and email thread summarization.\n\n\nOn 2026-10-13,[Muse Wonder](https://openrouter.ai/meta/muse-wonder) was tested via OpenRouter against GPT-5.4-mini to measure how quickly a known correct answer could be returned for these specific triggers.\n\n\n### Creative engines as text processors\n\n\nThe inclusion of text-based benchmarks like invoice extraction in a creative engine test may seem counterintuitive. However, Muse Wonder is a truly multimodal model that processes text as a native data type alongside visual pixels.\n\n\nBy using these administrative tasks as a baseline, developers can measure the model's efficiency in the \"logic\" phase of a creative workflow. A system that can summarize an email thread instantly is better equipped to then generate the corresponding visual assets without context switching.\n\n\n### Muse Wonder responds faster than GPT-5.4-mini\n\n\nWith a **median latency of 0.1 seconds** , Muse Wonder gave no answer on any of the three tasks in our test, so its speed did not translate into a seamless experience for the end user. The model is fast enough to power \"while-you-type\" UI updates without jarring the user.\n\n\nIn contrast, GPT-5.4-mini recorded a median time of 1.1 seconds, making it noticeably slower for real-time applications, so users will experience a perceptible delay. This introduces a full second of \"loading state\" lag that can break the flow of an automated agent.\n\n\nMuse Wonder responds quickly, though it did not reliably produce correct answers for everyday automation tasks. The following data reflects the median task completion time in seconds across our three-task automation test.\n\n\nA choice must be made between the deep reasoning of larger models and the near-instant execution of Muse Wonder due to this performance gap.\n\n\n### Muse Wonder's cost per task\n\n\nSpeed gains only matter if the model maintains accuracy at a sustainable price point for high-volume API calls.\n\n\nIn our test, Muse Wonder's 0.1-second response time did not translate into savings on invoice processing, since it gave no answer on the invoice-extraction task. The compute resources are active for a fraction of the time required by GPT-5.4-mini.",
+  "published_at": "2026-11-12T04:29:23+00:00",
+  "first_seen_at": "2026-10-13T13:48:22.337210+00:00",
+  "content_hash": "sha256:19185f899fa53facc0ba824d6d2caa88c6a9bd41915c9687e084ebc723ed97f4"
+}

@@ -3,9 +3,29 @@
     {
       "company_key": "yc-beam",
       "company_name": "Beam",
+      "doc_id": "064c9cd24fdc6ec0786a4fc011e97a62a3852a602abcfdc40af1a38c3a76f2f8",
+      "first_seen_at": "2026-09-30T10:52:35.077133+00:00",
+      "published_at": "2026-11-14T15:44:02+00:00",
+      "source_kind": "html",
+      "summary": "Compare E2B and Beam for RL environments: GPU sandboxes, session caps, forking, and what 1,000 parallel rollouts cost on each. Pick the right fit in minutes.",
+      "title": "E2B vs Beam for RL Environments"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "1b2ec1a66f31d4984272cb7a99c214ca7e739fca4d0b486f447b5435d78d4bba",
+      "first_seen_at": "2026-11-12T04:05:14.834263+00:00",
+      "published_at": "2026-11-11T13:52:58+00:00",
+      "source_kind": "html",
+      "summary": "Learn Codex's three sandbox modes and approval policies, then run codex exec with full access in a VM with an egress allowlist and a brokered API key.",
+      "title": "Codex Sandbox: Modes, Approvals and Running Codex in a VM"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
       "doc_id": "3ac6d2504886d561b90e3035a648ad20b26d2474a5fa9c37fb6bb6f6bda17751",
       "first_seen_at": "2026-11-05T02:26:15.838595+00:00",
-      "published_at": "2026-11-04T14:07:03+00:00",
+      "published_at": "2026-11-13T15:45:02+00:00",
       "source_kind": "html",
       "summary": "Run code your AI agent writes in a fresh sandbox with egress blocked, brokered secrets and hard timeouts, so a prompt injection never reaches your keys.",
       "title": "Sandbox for AI-Generated Code: Running Agent Code Safely"
@@ -23,12 +43,52 @@
     {
       "company_key": "yc-beam",
       "company_name": "Beam",
+      "doc_id": "98caf58637647e20753f93e4f3dd1d5557b947f986fb248c4a0b8899626af2c4",
+      "first_seen_at": "2026-11-14T03:54:26.682624+00:00",
+      "published_at": "2026-11-13T15:45:19+00:00",
+      "source_kind": "html",
+      "summary": "See what Fly.io really costs: per-second Machine presets, stopped-Machine and volume storage, Sprites metering and egress, compared with Beam VMs for agents.",
+      "title": "Fly.io Pricing Explained: Machines, Sprites, and Real Costs"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
       "doc_id": "9f5ffb85f905e65c8a8c73d2f7893da1b50bb8c5ad1a2f1806eec0cef30fd63c",
       "first_seen_at": "2026-11-02T10:06:28.662155+00:00",
       "published_at": "2026-11-01T17:12:10+00:00",
       "source_kind": "html",
       "summary": "Learn what a microVM is, how it boots its own kernel behind KVM, and how it compares with containers and gVisor. Then run agent code in one with one argument.",
       "title": "What Is a MicroVM? MicroVMs vs Containers Explained"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "9ff330b45bd13759f3726135d932b017068c2ee4feb4342e3cd3c6c304c06868",
+      "first_seen_at": "2026-11-01T01:50:04.545461+00:00",
+      "published_at": "2026-11-12T14:17:42+00:00",
+      "source_kind": "html",
+      "summary": "Compare Modal Sandboxes alternatives for AI agents: memory snapshots and forking, GPUs, Docker support, sessions past 24 hours and per-hour rates.",
+      "title": "Modal Sandbox Alternatives for AI Agents"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "c12f7b75c5f38d4836f641460fe7805dde22457ff037861947170fcb05d40bcf",
+      "first_seen_at": "2026-11-12T20:55:04.728056+00:00",
+      "published_at": "2026-11-12T14:17:42+00:00",
+      "source_kind": "html",
+      "summary": "Set up a Claude Code sandbox for unattended runs: compare built-in sandboxing, dev containers and VMs, fix the root-user error, and lock down egress and API keys.",
+      "title": "Claude Code Sandbox: Running Unattended Agents Safely"
+    },
+    {
+      "company_key": "yc-beam",
+      "company_name": "Beam",
+      "doc_id": "e4f3479eea954f60946803b7b217d05a7d9774d646cb7a3cb06befcf5cfff7b0",
+      "first_seen_at": "2026-11-01T01:50:04.545461+00:00",
+      "published_at": "2026-11-11T13:59:51+00:00",
+      "source_kind": "html",
+      "summary": "Compare Docker Sandboxes alternatives for AI agents: microVM isolation, Docker and Compose inside the sandbox, GPUs, session limits and per-hour rates.",
+      "title": "Docker Sandbox Alternatives for AI Coding Agents"
     }
   ],
   "company_key": "yc-beam",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0a4fbb1d0d33eaf08dc702b98afc5425e94810fadb842ab20519bff39a23955c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/poe-integration-how-points-and-plan-costs-work-2026",
+  "canonical_url": "https://www.activepieces.com/blog/poe-integration-how-points-and-plan-costs-work-2026",
+  "title": "Poe Integration: How Points and Plan Costs Work (2026)",
+  "summary": "Poe integration starts at Premium, $19.99/month, which suits testing alone or integration via workflow tools. Upgrade when monthly API points run out.",
+  "body_markdown": "## Which Poe connection direction fits you\n\n\nTwo things count as a Poe integration. Either Poe's models run inside your own app or workflow, or your own code runs inside Poe. The direction of the call decides everything else.\n\n\nBefore you write any code, sort out which side sends the request, because that determines what you build, who hosts it, and where the errors land. It's the same split that separates an inbox rule you write from a forwarding address someone else controls.\n\n\nIn the left diagram below, your app sends a request to the Poe API; in the right, Poe sends a webhook to a server you run.\n\n\nTake away that the arrow points opposite ways, so the failure you debug in one case is on a different machine in the other.\n\n\nBefore you pick, know that each route comes with its own limits, covered next.\n\n\n### Poe API: your app calls Poe\n\n\nYou create a key in your Poe account, put it in your app, and send requests. Your app's the caller and Poe's the service answering.\n\n\nYou need the key and a place to make HTTP calls, which can be a script, a backend, or a workflow tool with a request step.\n\n\nWhen a loop retries on failure, it can drain the pool and trip the limit at the same moment, and that's the billing catch people miss. Every call draws on your plan's points and is subject to your plan's rate limits.\n\n\nNothing in the integration changes that.\n\n\nBuild in backoff before you build anything else. This route fits you if you want Poe's models inside something you already run.\n\n\n### Server bots: Poe calls your app\n\n\nHere the direction flips. You run a server, register it as a bot, and Poe sends requests to it when someone talks to that bot.\n\n\nYou need a publicly reachable endpoint, code that accepts Poe's requests and returns a reply, and a way to keep that server up.\n\n\nYou pay for your hosting and for any outside services your bot calls, and keeping them up is your problem, separate from the points a Poe user spends.\n\n\nThis route fits you if you want your own logic, data, or model to be available to people inside Poe. If your goal is to use Poe's models in your app, it's the wrong tool and adds a server to maintain for nothing.\n\n\nDon't assume a third route exists. The API path doesn't come with a ready-made trigger-and-action connector, so for no-code tools you're supplying the HTTP request and the key yourself.\n\n\nNor does a key lift your plan's limits. If you hit a ceiling, the fix is pacing your calls or changing your plan, not finding a different door.",
+  "published_at": "2026-11-12T03:48:52+00:00",
+  "first_seen_at": "2026-11-12T07:09:44.740030+00:00",
+  "content_hash": "sha256:a375f3157d61e106f046f8a142172ab81c9b923c35203d84d1b9859598668e53"
+}

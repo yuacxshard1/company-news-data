@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "62e0568eca5ed820fffe601b5a372ce92736b4933328f0d5d91fe827d09737b3",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/standalone-ai-agents",
+  "canonical_url": "https://www.windmill.dev/changelog/standalone-ai-agents",
+  "title": "Standalone AI agents",
+  "summary": "Saved AI agents are listed on the home page, created from + New, and run or chatted with from their own page without a flow around them. Anyone who can read an agent can run it, operators included, and it runs as them.",
+  "body_markdown": "### [Standalone AI agents](https://www.windmill.dev/changelog/standalone-ai-agents)\n\n\nAI\n\n\n[v1.821.0](https://github.com/windmill-labs/windmill/releases/tag/v1.821.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_agents#standalone-agents)\n\n\nSaved AI agents are listed on the home page, created from + New, and run or chatted with from their own page without a flow around them. Anyone who can read an agent can run it, operators included, and it runs as them.\n\n\n#### New features\n\n\n- A new agent starts with managed memory on, so its page is a chat; turn memory off for an agent only reused in flows.\n- An agent runs as the caller, who needs access to its provider resource and to what its tools use.\n- POST /api/w/<workspace>/jobs/run/agent/<path> runs a saved agent from the API, and a jobs:run:agents:<path> token scope limits a token to one agent.",
+  "published_at": "2026-10-01T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T21:06:22.562319+00:00",
+  "content_hash": "sha256:d976e003a4be9fb7b54ccd527e6a106e53ac3a25fbcb8e35898220fafb8e9e0a"
+}

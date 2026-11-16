@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "05935e496a8ed23f675c08256ee76b921ab476a26cdbefa6663cd08613e2d7a2",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/performance-alerts",
+  "canonical_url": "https://docs.litellm.ai/blog/performance-alerts",
+  "title": "Performance alerts in LiteLLM | liteLLM",
+  "summary": "Get alerts for spend spikes, traffic spikes, higher error rates, and slower responses. Monitoring is on by default, with five free alerts before Enterprise.",
+  "body_markdown": "Published: Nov 11, 2026\n\n\n[Moe Khalil](https://www.linkedin.com/in/moe-khalil-73a2371a1/) AI Product Engineer, LiteLLM\n\n\nPerformance alerts flag spend spikes, traffic spikes, higher error rates, and slower responses in your gateway.\n\n\nOpen **Alerts** in LiteLLM to review findings alongside model deprecations. Monitoring is on by default for gateways with a database and recorded Usage. You do not need to write rules.\n\n\nA spend alert in the inbox. Demo data.\n\n\n## What triggers an alert\n\n\nLiteLLM compares the last complete day with the previous seven days across your gateway, model groups, teams, users, and virtual keys.\n\n\nSpend spikesA rise in daily spend compared with your recent average.\n\n\nTraffic spikesA sharp increase in request volume.\n\n\nSlower responsesRequests taking longer to complete.\n\n\nError ratesA larger share of requests failing.\n\n\nThese are daily findings based on recorded Usage. Detection is best effort, and missing Usage can affect the comparison.\n\n\n## Review an alert\n\n\nSelect an alert to see the daily graph, the baseline, and the affected resource. Follow its link to inspect activity or model routing. Mark it resolved after addressing it, or dismiss it if no action is needed.\n\n\nCompare the daily chart, then open the resource’s activity. Demo data.[View full size](https://docs.litellm.ai/img/alerts/spend-detail.webp)\n\n\n## Notifications\n\n\nThe notification bell shows up to five open alerts. Select one to open it, or **See all** for the full inbox.\n\n\nModel deprecations and performance alerts together. Demo data.\n\n\n## Five free alerts\n\n\nYou get five saved performance alerts per gateway database. After the fifth, monitoring stops until you add an Enterprise license. Your saved alerts remain available.\n\n\nEnterprise includes continued monitoring. Resolving or dismissing an alert does not reset the free allowance, and model deprecations do not count toward it.\n\n\nYou can opt out with the **Performance monitoring** switch on the Alerts page.",
+  "published_at": "2026-11-11T20:00:00+00:00",
+  "first_seen_at": "2026-11-12T11:40:37.146524+00:00",
+  "content_hash": "sha256:67b3b682252d4e6c7dab170b49bff4d7954e2978c4d98c00e0c0ed4c540c43eb"
+}

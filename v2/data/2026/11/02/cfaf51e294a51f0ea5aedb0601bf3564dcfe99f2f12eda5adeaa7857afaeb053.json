@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cfaf51e294a51f0ea5aedb0601bf3564dcfe99f2f12eda5adeaa7857afaeb053",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/vault-secret-references",
+  "canonical_url": "https://www.windmill.dev/changelog/vault-secret-references",
+  "title": "Vault secret references",
+  "summary": "A variable can read its value from an existing HashiCorp Vault secret instead of storing a copy in Windmill. Only the reference is stored, and the value is read from Vault on every access.",
+  "body_markdown": "### [Vault secret references](https://www.windmill.dev/changelog/vault-secret-references)\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\nInstance settings\n\n\n[v1.856.0](https://github.com/windmill-labs/windmill/releases/tag/v1.856.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/variables_and_secrets#vault-secret-references)\n\n\nA variable can read its value from an existing HashiCorp Vault secret instead of storing a copy in Windmill. Only the reference is stored, and the value is read from Vault on every access.\n\n\n#### New features\n\n\n- New Vault reference type for variables, with a Vault path and an optional key; without a key, the whole secret is read as a JSON object.\n- Superadmins allow Vault path prefixes per workspace from Instance settings > Secret Storage > External secret references.\n- References reuse the Vault secret backend connection or use their own, with AppRole, JWT auth or a static token.\n- AppRole authentication for the Vault secret backend, with the secret_id read from the VAULT_APPROLE_SECRET_ID environment variable.",
+  "published_at": "2026-11-02T00:00:00+00:00",
+  "first_seen_at": "2026-11-12T15:49:24.684344+00:00",
+  "content_hash": "sha256:e7f7da1f3ea95e04ed817b05cd8cdb581ede01577fee4a2497f180080ccfd23a"
+}

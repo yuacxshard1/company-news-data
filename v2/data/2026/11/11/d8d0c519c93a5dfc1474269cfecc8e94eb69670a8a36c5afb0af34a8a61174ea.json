@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d8d0c519c93a5dfc1474269cfecc8e94eb69670a8a36c5afb0af34a8a61174ea",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-max-automation-what-it-covers-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/claude-max-automation-what-it-covers-and-costs-2026",
+  "title": "Claude Max Automation: What It Covers and Costs (2026)",
+  "summary": "Claude Max automation uses subscription features like Claude apps and Code, while custom scripts and workflow tools are billed separately per token.",
+  "body_markdown": "## Automate across other apps with Activepieces\n\n\nActivepieces suits event-triggered jobs that span several apps, with 747 integrations counted in its open source repo, but it calls Claude through the API, billed per token, so it adds a second cost that your Max subscription doesn't cover.\n\n\nIts platform fee's a third line on top of that, though flows are unlimited on every plan, including free.\n\n\n### A sample workflow\n\n\nIn the screenshot below, a small flow named \"Test Flow\" starts with a weekly schedule trigger, a Google Sheets step pulls the next rows from an \"Invoice\" spreadsheet's \"Bill reminder\" sheet beginning at row 2, and a loop step handles each row.\n\n\nThe highlighted configuration shows how plain the setup is: a connection, a sheet and a start row. Nothing in it needs Claude yet, which is the point. Add a Claude step to the loop and each row becomes a billable API call.\n\n\n### What it costs\n\n\n[Activepieces](https://www.activepieces.com/pricing) has a free plan with unlimited flows, self-serve Plus and Team plans at $20 and $200 a month, and custom-priced Ultimate and Embed plans through sales (pricing checked 2026-10-23).\n\n\nFor one weekly flow, the free plan's 1,000 credits a month can cover the platform side before a single token is spent. None of these plans includes Claude usage, so the real cost per run is the platform fee spread over your runs, plus tokens.\n\n\nIf a task lives inside Claude, a scheduled task or Claude Code covers it under Max, and no platform fee applies.\n\n\nReach for Activepieces when something in one app, such as a new spreadsheet row, must trigger work in another; a run is 1 credit however many steps it has, and with your own Anthropic key on Plus or above, the Claude step is 1 credit while the token cost lands on your own provider bill.\n\n\nCost per run then depends on your volume, so work it out before you build.",
+  "published_at": "2026-11-11T10:42:45+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:343aeeda80530d38e730c74ee40202921cb513204c7da6d1e28c47ec9c1bc8e0"
+}

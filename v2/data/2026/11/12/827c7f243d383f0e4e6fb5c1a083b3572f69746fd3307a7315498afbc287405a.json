@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "827c7f243d383f0e4e6fb5c1a083b3572f69746fd3307a7315498afbc287405a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gemini-decisions-api-launch-what-google-released",
+  "canonical_url": "https://www.activepieces.com/blog/gemini-decisions-api-launch-what-google-released",
+  "title": "Gemini Decisions API Launch: What Google Released",
+  "summary": "Gemini Decisions API launch gives automations a faster way to handle routing and classification. Evaluate whether it fits your automation needs.",
+  "body_markdown": "## Frequently asked questions\n\n\nFour questions keep coming up, and the answers below come only from what Google has published, so several read \"not published\". Each gap is a thing to test yourself, not a thing to assume.\n\n\nGoogle lists $0 for output tokens, with input at $0.10 per 1M tokens, and a no-cost tier in Google AI Studio for prototyping. Don't budget around a guess. Check Google's pricing page for the exact rate before you route real volume through it.\n\n\nDo I need a developer to use the Gemini Decisions API? Google's page doesn't say. It is an API, so expect to send a request and read a response.\n\n\nIf you've wired a webhook into a spreadsheet before, you're likely close. Whether it needs more than that is not published.\n\n\nCan I call it from a no-code workflow? A native connector for any automation tool is not published. The generic route is an HTTP request step in whatever builder you use.\n\n\nThat's the thing to try first in a single workflow, on a throwaway trigger, before you rely on it.\n\n\nHow is it different from calling a Gemini model directly? Google describes Gemini Decision as a model for fast yes/no and score decisions. A general Gemini model answers in open text, so the practical difference is a narrower job.\n\n\nLimits, output format and availability are not published.\n\n\nThose gaps are why the next step is a small comparison on your own tasks.",
+  "published_at": "2026-11-12T18:10:49+00:00",
+  "first_seen_at": "2026-11-12T22:47:49.735684+00:00",
+  "content_hash": "sha256:f6947f5a423f9d6356bf93438622420be050f3216f5e0126a80cbaa4ddfaca1c"
+}

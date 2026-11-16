@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "507d7651af01b6ff76ac46b2d372ac730883649af2df497dc82c245661ac6c40",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/flow-timeout",
+  "canonical_url": "https://www.windmill.dev/changelog/flow-timeout",
+  "title": "Flow-level timeout",
+  "summary": "A flow can carry a timeout, in seconds, for its whole run, counted from when it starts running and including time spent sleeping or waiting at an approval. Set it under Runtime > Execution policy > Timeout in the flow settings.",
+  "body_markdown": "### [Flow-level timeout](https://www.windmill.dev/changelog/flow-timeout)\n\n\nFlow editor\n\n\n[v1.861.0](https://github.com/windmill-labs/windmill/releases/tag/v1.861.0)\n\n\n[Docs](https://www.windmill.dev/docs/flows/custom_timeout#flow-timeout)\n\n\nA flow can carry a timeout, in seconds, for its whole run, counted from when it starts running and including time spent sleeping or waiting at an approval. Set it under Runtime > Execution policy > Timeout in the flow settings.\n\n\n#### New features\n\n\n- When the timeout is reached, the running steps are cancelled, the error handler runs if the flow has one, and the run ends as cancelled by timeout.\n- A pending approval is abandoned, even with continue on disapproval/timeout set.\n- The timeout also applies when the flow runs as a subflow step, unless the calling step sets its own.\n- A subflow that times out appears to its caller as a failed step, handled like any step failure.",
+  "published_at": "2026-11-04T00:00:00+00:00",
+  "first_seen_at": "2026-11-12T21:47:55.619883+00:00",
+  "content_hash": "sha256:0697a275daf038dea7644b946cc447c8ac9b7a77ad14cc843e04cb0bf56f4c1f"
+}

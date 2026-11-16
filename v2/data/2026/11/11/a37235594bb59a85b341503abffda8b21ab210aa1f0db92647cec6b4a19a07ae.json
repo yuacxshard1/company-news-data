@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a37235594bb59a85b341503abffda8b21ab210aa1f0db92647cec6b4a19a07ae",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
+  "title": "Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
+  "summary": "Discover more about what's new at AWS with Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
+  "body_markdown": "[Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/pm/eks/) now offers a larger 24 GB etcd database, up from 16 GB, for 4XL and 8XL[Provisioned Control Plane](https://docs.aws.amazon.com/eks/latest/userguide/eks-provisioned-control-plane.html) clusters. etcd is the key-value store in the Kubernetes control plane that holds your cluster state, so its size limits how many Kubernetes objects your cluster can store. With 50% more capacity, you can run bigger clusters with more pods, jobs, events, and custom resources.\n\n\nThe larger database gives more headroom to workloads that create and update many Kubernetes objects, such as large-scale AI/ML training and inference, batch processing, and CI/CD pipelines. When the etcd database fills up, you can’t add or change objects in your cluster, so the extra headroom helps keep these workloads running as they scale.\n\n\nTo get the larger database, choose the 4XL or 8XL tier of Provisioned Control Plane on a cluster running EKS version 1.34 or later. Existing clusters on the 4XL and 8XL tiers running these versions get the larger database automatically, with no action required. The 24 GB etcd database is available in all commercial AWS Regions where Provisioned Control Plane is available. To learn more, see the[Amazon EKS Provisioned Control Plane user guide](https://docs.aws.amazon.com/eks/latest/userguide/eks-provisioned-control-plane.html) .",
+  "published_at": "2026-11-11T19:45:00+00:00",
+  "first_seen_at": "2026-11-12T02:43:50.804061+00:00",
+  "content_hash": "sha256:31c2bdacfe723bb8b294acb1cf418596623a120d9375e6e3e14f52c35e42dcde"
+}

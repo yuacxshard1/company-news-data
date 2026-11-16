@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ca56cb904854d5996ab8b8f63592abb877f73e423a60d79c7049fd2e53e13fe4",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/tailwind-v4-full-code-apps",
+  "canonical_url": "https://www.windmill.dev/changelog/tailwind-v4-full-code-apps",
+  "title": "Tailwind CSS v4 in full-code apps",
+  "summary": "Full-code apps that declare tailwindcss v4 in package.json now get their Tailwind stylesheets compiled, in the web editor and the CLI, with utilities generated from classes in the app and the workspace's shared /ui folder.",
+  "body_markdown": "### [Tailwind CSS v4 in full-code apps](https://www.windmill.dev/changelog/tailwind-v4-full-code-apps)\n\n\nApp Builder\n\n\nReact\n\n\nSvelte\n\n\n[v1.868.0](https://github.com/windmill-labs/windmill/releases/tag/v1.868.0)\n\n\n[Docs](https://www.windmill.dev/docs/full_code_apps/frontend#styling)\n\n\nFull-code apps that declare tailwindcss v4 in package.json now get their Tailwind stylesheets compiled, in the web editor and the CLI, with utilities generated from classes in the app and the workspace's shared /ui folder.\n\n\n#### New features\n\n\n- Add tailwindcss (^4) to package.json and start index.css with @import \"tailwindcss\".\n- Utilities are generated from the app files and the shared /ui folder, along with @theme, @utility, @apply and @custom-variant.\n- A shared theme can live in /ui and be imported with @import \"/ui/theme.css\".\n- @plugin and @config are compiled by the CLI (wmill app bundle, wmill app push), not by the web editor.\n- Apps without the tailwindcss dependency build exactly as before.",
+  "published_at": "2026-11-11T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T16:04:08.218753+00:00",
+  "content_hash": "sha256:d9324f78348a213774cbd949297dddc854239babd93f963c8071b8e141a15c25"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "13c4985aba8b12897f157813d2fd8fbca79924828e6b4ed65d82e940f87a3df3",
+  "company_key": "yc-basedash",
+  "company_name": "Basedash",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.basedash.com/blog/introducing-granular-permissions/",
+  "canonical_url": "https://www.basedash.com/blog/introducing-granular-permissions/",
+  "title": "Introducing granular permissions in Basedash",
+  "summary": "Enterprise admins can let a group manage models, AI context, data sources, verification, groups, and invites in Basedash.",
+  "body_markdown": "Today we’re launching **granular permissions** for Basedash Enterprise. Admins can now choose who else gets to do eight kinds of workspace work, without making anyone an admin.\n\n\nThe people who keep a workspace in shape, curating models, writing AI context, and connecting data sources, usually had to be admins to do that work. Admin also meant billing, member roles, and everything else. Now you can hand out the work and keep the admin role where it is.\n\n\n## Eight permissions, one Settings page\n\n\nGranular permissions live on a new **Settings → Permissions** page that only admins can open. It lists eight permissions:\n\n\n- **Create and edit models**\n- **Verify models**\n- **Verify dashboards**\n- **Manage organization-wide context**\n- **Manage data source context**\n- **Add and configure data sources**\n- **Manage groups**\n- **Invite members**\n\n\n**Verify dashboards** covers last week’s[verified dashboards](https://www.basedash.com/blog/introducing-verified-dashboards) , so your data team can vouch for the numbers without being admins.\n\n\n## Grant a permission to a group\n\n\nOpen a permission to choose who holds it besides admins. You can turn it on for all members with one switch, or add specific groups or specific members.\n\n\n## Admins keep the rest\n\n\nGranular permissions have firm limits:\n\n\n- **Admins always keep every permission.**\n- **View-only members never get one.**\n- **Billing, member roles, SSO, and SCIM stay admin-only.**\n- **Every change is in the audit log.** Each update or reset is recorded.\n\n\n## Nothing changes until you change it\n\n\nEvery permission starts on today’s defaults, so nothing changes for your team until an admin configures it. Change only the permissions you want, and use **Reset to default** to put any one of them back.\n\n\n## Getting started\n\n\nGranular permissions are available today on Basedash Enterprise.\n\n\n1. Log in to Basedash as an admin\n2. Open **Settings → Permissions**\n3. Pick a permission and grant it to all members, a group, or specific members\n\n\nTo learn more about the Enterprise plan, see the[Enterprise](https://www.basedash.com/enterprise) page.\n\n\n**Share the work. Not the admin role.**",
+  "published_at": "2026-11-14T00:00:00+00:00",
+  "first_seen_at": "2026-11-13T23:13:09.362561+00:00",
+  "content_hash": "sha256:8ef43cccd31bf0cb5640d3357c7af812dd57f787155a4658744c6bdba901b5d5"
+}

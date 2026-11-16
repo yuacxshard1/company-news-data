@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "44a8be9d05cbef511249c84d5106e3727a27bcf2a4eedbe6f621b58b542790d9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-nextgen-time-series-intelligent-ingestion",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-nextgen-time-series-intelligent-ingestion",
+  "title": "Amazon OpenSearch Serverless supports intelligent ingestion for time series collection",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Serverless supports intelligent ingestion for time series collection",
+  "body_markdown": "The next generation of Amazon OpenSearch Serverless now supports intelligent ingestion for time series collections. You can bring logs and event data from Amazon S3 into a time series collection without operating an ingestion pipeline. With intelligent ingestion, you can now complete the setup and get data ingested with a few clicks in the AWS Management Console or with a single API call.\n\n\nIntelligent ingestion detects the data type, parses each record, and indexes it into your collection. It works with observability logs in JSON, NDJSON, and JSON arrays. Use an ingestion job for one-time loads, use an ingestion stream to keep the collection up to date as new objects arrive in S3, or backfill and then stream. Source buckets can be in the same AWS account as the collection or in a different one. Capacity scales with your workload up to the collection's configured limit, and you pay only for active processing.\n\n\nOnce ingested, your data gets everything time series collections already provide. The collection absorbs ingest spikes automatically and keeps recent data in the hot tier for fast queries. Older data moves to the lower-cost warm tier based on the retention you set. Because tiering and retention are based on time, each document must include a valid timestamp field, and documents with a missing or invalid timestamp are rejected. Alerting and anomaly detection run directly on the ingested logs and events. Together, these make it simpler to put large S3 log archives to work for log analytics, application monitoring, and IoT telemetry.\n\n\nIntelligent ingestion for time series collections is available in seven regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (Ireland), Europe (Frankfurt) and Asia Pacific (Tokyo). To get started, open the Amazon OpenSearch Service console, choose your time series collection, and select the Ingestion tab. To learn more, see theintelligent ingestion documentation and theOpenSearch Serverless documentation . For pricing, seeAmazon OpenSearch Service pricing .",
+  "published_at": "2026-11-11T20:54:00+00:00",
+  "first_seen_at": "2026-11-14T03:11:15.144654+00:00",
+  "content_hash": "sha256:81c4e22f5fbb10c578cf9cd5b691b6f089bf78b43de7984846d12ff19249ea9e"
+}

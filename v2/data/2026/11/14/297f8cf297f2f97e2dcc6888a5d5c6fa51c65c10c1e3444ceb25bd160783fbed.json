@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "297f8cf297f2f97e2dcc6888a5d5c6fa51c65c10c1e3444ceb25bd160783fbed",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/newsletter-forwarding-displays-as-raw-html/13421#post_4",
+  "canonical_url": "https://forum.newsblur.com/t/newsletter-forwarding-displays-as-raw-html/13421",
+  "title": "Newsletter forwarding: displays as raw html",
+  "summary": "Hi, I have forwarded a couple of newsletters to my newsblur, and all work perfectly except the Politic Berlin Playbook ( Berlin Playbook – Newsletters – POLITICO ). This one just appears as raw html (I think) so cannot read anything. I’ve attached a screenshot of todays newletter. Is there a way to fix this? Thank you!",
+  "body_markdown": "[pws3141](https://forum.newsblur.com/u/pws3141)\n\n\nFebruary 26, 2026, 3:16pm 1\n\n\nHi,\n\n\nI have forwarded a couple of newsletters to my newsblur, and all work perfectly except the Politic Berlin Playbook ([Berlin Playbook – Newsletters – POLITICO](https://www.politico.eu/newsletter/berlin-playbook/) ). This one just appears as raw html (I think) so cannot read anything. I’ve attached a screenshot of todays newletter. Is there a way to fix this?\n\n\nThank you!\n\n\n[Screenshot 2026-02-26 at 16.16.09 1538×800 153 KB](https://forum.newsblur.com/uploads/default/original/2X/e/ef6113b7eaf94fe684535cb373d7e42ad12f843b.png)\n\n\n[samuelclay](https://forum.newsblur.com/u/samuelclay)\n\n\nFebruary 26, 2026, 5:48pm 2\n\n\nFound the bug and just pushed a fix. ImprovMX was sending the HTML content with entities already encoded (` &lt;table&gt;` instead of` <table>` ), so NewsBlur was storing and displaying the raw HTML source as text instead of rendering it.\n\n\nThe fix detects entity-encoded HTML and decodes it before processing. This should be deployed shortly. Once it is, new newsletters you receive should render properly. Unfortunately the already-stored broken story won’t fix itself, but any future Berlin Playbook issues should display correctly.\n\n\n1 Like\n\n\n[pws3141](https://forum.newsblur.com/u/pws3141)\n\n\nFebruary 26, 2026, 8:49pm 3\n\n\nOh amazing, thanks so much for fixing it so quickly!\n\n\n[pws3141](https://forum.newsblur.com/u/pws3141)\n\n\nNovember 14, 2026, 11:55am 4\n\n\nHey Samuel, this doesn’t seem to working still. Here’s a screenshot from today.\n\n\n[Screenshot 2026-11-14 at 12.55.16 1920×1320 564 KB](https://forum.newsblur.com/uploads/default/original/2X/f/f85307f464f4961dcc9dc1a97fa1c508cf0055cd.jpeg)",
+  "published_at": "2026-11-14T11:55:36+00:00",
+  "first_seen_at": "2026-11-14T12:31:45.436387+00:00",
+  "content_hash": "sha256:bce55b39b63ff7641bd9bc6ad5fad1fa06ef24c8ac9c6f385a849f3187b312be"
+}

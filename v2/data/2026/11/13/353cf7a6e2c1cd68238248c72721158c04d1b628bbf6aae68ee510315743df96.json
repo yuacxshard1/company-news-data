@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "353cf7a6e2c1cd68238248c72721158c04d1b628bbf6aae68ee510315743df96",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+  "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+  "summary": "Discover more about what's new at AWS with AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+  "body_markdown": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings. For EKS clusters that enforce the Kubernetes Pod Security Standards restricted profile, you can now run AWS Batch jobs with only the privileges and system calls they require.\n\n\nTo get started, use the *RegisterJobDefinition* API to set *capabilities* and *seccompProfile* in a container's *securityContext* , or set *securityContext* in *podProperties* to define pod-wide settings such as *fsGroup* . Container-level settings override pod-level defaults. You can configure these settings through the AWS Management Console, AWS CLI, AWS SDKs, or AWS CloudFormation.\n\n\nThe additional security context settings for AWS Batch on Amazon EKS are now supported in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AWS Batch is available. For more information, see the Amazon EKS properties section in the[AWS Batch User Guide](https://docs.aws.amazon.com/batch/latest/userguide/job_definition_parameters.html#job-definition-parameters-eks-properties) .",
+  "published_at": "2026-11-13T08:00:00+00:00",
+  "first_seen_at": "2026-11-13T22:53:51.281678+00:00",
+  "content_hash": "sha256:43e16899f7c5412e8d83ec5189162390c8483bd40cf05533ae4ed8ce1ede855a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1d1a124bca424f977a24c74e87c7f4c19db025247371423772bbc401e0223b47",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-resource-modifiers-eks/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-resource-modifiers-eks/",
+  "title": "AWS Backup now supports resource modifiers for Amazon EKS restores",
+  "summary": "Discover more about what's new at AWS with AWS Backup now supports resource modifiers for Amazon EKS restores",
+  "body_markdown": "Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a restore, so you can adapt a restored cluster to its target environment.\n\n\nWhen you restore an EKS backup that has been copied across accounts or across AWS Regions, the restored cluster can carry references tied to the source environment, such as IAM roles, database endpoints, and Amazon ECR registry URIs. Previously, you had to locate and update these references manually after every restore, which was time consuming and error prone. With resource modifiers, you can define transformation rules once via a YAML file, and AWS Backup applies them automatically as part of the restore, improving the reliability of your cross-account and cross-Region disaster recovery workflows.\n\n\nAWS Backup support for resource modifiers for Amazon EKS backups is available in all commercial AWS Regions and AWS GovCloud (US) Regions. To get started, see the[AWS Backup Documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/restoring-eks.html) and read the[launch blog](https://aws.amazon.com/blogs/storage/remap-amazon-eks-namespaces-on-restore-with-aws-backup-resource-modifiers/) .",
+  "published_at": "2026-11-12T08:00:00+00:00",
+  "first_seen_at": "2026-11-12T22:48:56.490557+00:00",
+  "content_hash": "sha256:6e2bce98028f32fdd7a8fb0b9d7cbe62ef52143586fed43645c08d7fa33e34b1"
+}

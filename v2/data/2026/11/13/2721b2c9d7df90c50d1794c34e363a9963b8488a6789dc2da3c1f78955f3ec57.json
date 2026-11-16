@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2721b2c9d7df90c50d1794c34e363a9963b8488a6789dc2da3c1f78955f3ec57",
+  "company_key": "yc-dot",
+  "company_name": "Dot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getdot.ai/blog/dabstep",
+  "canonical_url": "https://www.getdot.ai/blog/dabstep",
+  "title": "GetDot on DABStep: 450+ financial analysis tasks from Adyen",
+  "summary": "DABStep is Adyen's benchmark of 450+ multi-step financial analysis tasks. GetDot scored 67% out of the box and 90% after eight hours of training. On the easy tasks it beat trained human analysts, in seconds.",
+  "body_markdown": "## You can train GetDot to get better\n\n\nOut of the box, with no domain context, GetDot scored 67%. Then we gave it context with its context agent, one step at a time:\n\n\n- **1 hour: 73%.** A data dictionary and the table relationships.\n- **2 hours: 80%.** Golden query examples.\n- **4 hours: 85%.** Business logic and domain rules.\n- **8 hours: 90%.** Instructions for edge cases.\n\n\nFor comparison, Google's Data Science Agent scores about 52%.\n\n\n## Hours of analysis in seconds\n\n\nOn the easy tasks, trained human analysts at Adyen got 62% right, with more than three hours of work. GetDot got 96% right in about 60 seconds.\n\n\nOn the hard tasks, GetDot got 89% right in about 130 seconds. There is no human baseline for those: they need domain expertise across several files.\n\n\nOur scores are on the public[DABStep leaderboard](https://huggingface.co/spaces/adyen/DABstep) , as GetDot 0.3.",
+  "published_at": "2026-11-13T00:00:00+00:00",
+  "first_seen_at": "2026-11-13T19:52:20.129553+00:00",
+  "content_hash": "sha256:d3ce952a5221ad1f4ea8190a7a7141c2ee0ae3ddc372236f2e6d12fa4cbef5f7"
+}

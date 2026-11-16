@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ad98091dbc867893f064acca9403cf07f926f1d9c8e8e86c17afa5cf581e7876",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/product-hunt-mcp-model-context-protocol-server-guide",
+  "canonical_url": "https://www.activepieces.com/blog/product-hunt-mcp-model-context-protocol-server-guide",
+  "title": "Product Hunt MCP: Model Context Protocol Server Guide",
+  "summary": "Product Hunt MCP is a connector letting AI assistants reach Product Hunt via automation platforms. You'll know which tools can support the integration.",
+  "body_markdown": "## Connect Product Hunt MCP in an Activepieces workflow today\n\n\nYou build the connection yourself from three generic routes, and we haven't run any of them ourselves.\n\n\nIts library lists 559 integrations, but a count that size says nothing about whether one of them covers your use case; this one is missing the integration you need, so you cannot ship with it.\n\n\nDon't expect the newest entries to help, since the catalogue is sorted by last updated. Search it for Product Hunt and expect to fall back on the routes below.\n\n\nBefore building, note what[Product Hunt MCP](https://www.producthunt.com/products/producthunt) is meant to do: let an assistant explore launches, compare alternatives and see what the community thinks. Each route is a different way to get that into a flow.\n\n\n### Route 1: an HTTP request step\n\n\nThis is the least setup: one plain step that calls an endpoint. It needs the maker to publish the endpoint address and the authentication method, and we haven't seen neither confirmed. It fits when you want one fixed lookup on a schedule.\n\n\nAt 1 credit per operation for a plain flow run, per[Activepieces pricing](https://www.activepieces.com/pricing) , a fixed lookup stays the cheapest option here.\n\n\n### Connect Product Hunt MCP with an AI step\n\n\nThis takes more setup, because you configure a provider and write the prompt that decides what to fetch. It needs the maker's connection details and a clear statement of which tools the server exposes. It fits when the question changes each run.\n\n\nIt gets expensive fast.\n\n\n[Activepieces](https://www.activepieces.com/pricing) ' pricing shows a Fast AI step is 2 credits per operation, a Smart step is 10, and a Frontier step is 20. So a Frontier step costs twenty times a plain run, and a nightly flow with several of them adds up quickly.\n\n\nIf the agent should explore rather than repeat one call, Route 3 is the fit: an MCP server, the closest match to what Product Hunt MCP is, and the most setup.\n\n\nYou register the server and let the agent choose tools. It needs the maker's server address and an auth method we can't yet confirm, and it carries the AI-step costs above.",
+  "published_at": "2026-11-12T15:19:44+00:00",
+  "first_seen_at": "2026-11-10T01:34:10.689726+00:00",
+  "content_hash": "sha256:a45c5359e1e9b94051074f90fcfdb17cb3b3edb2c7a7a3c80932ebc9543e0243"
+}

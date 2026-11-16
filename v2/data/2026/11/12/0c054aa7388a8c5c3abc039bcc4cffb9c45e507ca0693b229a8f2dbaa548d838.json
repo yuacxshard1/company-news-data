@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0c054aa7388a8c5c3abc039bcc4cffb9c45e507ca0693b229a8f2dbaa548d838",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-domains-self-service-restore/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-domains-self-service-restore/",
+  "title": "Amazon Route 53 Domains now supports self-service restore for expired and deleted domains",
+  "summary": "Discover more about what's new at AWS with Amazon Route 53 Domains now supports self-service restore for expired and deleted domains",
+  "body_markdown": "Amazon Route 53 Domains now lets you restore an expired or recently deleted domain yourself, using the Amazon Route 53 console, AWS CLI, or AWS SDKs. Previously, restoring a domain required a request to AWS Support. Now you can recover a domain lost to a missed renewal, an expired payment method, or an accidental deletion, and restore the website, email, and applications that depend on it.\n\n\nTo restore a domain, you enter the domain name, review the restoration price, accept the charge, and submit the request. Route 53 works with the top-level domain (TLD) registry to reactivate the registration and return the domain to your AWS account. Most TLD registries support restoration, and each registry sets how long after expiration or deletion a domain can still be restored. Restoring a domain typically costs more than registering or renewing one.\n\n\nTo learn more, see[Restoring an expired or deleted domain](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-restore-expired.html) in the Route 53 Developer Guide, or visit the[Amazon Route 53 Domains page](https://aws.amazon.com/route53/domains/) . For a complete list of supported TLDs, see the[Route 53 TLD list](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar-tld-list.html) . For pricing, visit the Route 53[pricing page](https://aws.amazon.com/route53/pricing/) .",
+  "published_at": "2026-11-12T08:00:00+00:00",
+  "first_seen_at": "2026-11-12T22:48:56.490557+00:00",
+  "content_hash": "sha256:cd927b955cc7bca970d4136579b7d2a69f3fdbe188f5f9df624776a57a98f0da"
+}

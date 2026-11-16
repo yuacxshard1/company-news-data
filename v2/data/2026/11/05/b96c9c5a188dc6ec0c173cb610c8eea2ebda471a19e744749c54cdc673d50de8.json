@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b96c9c5a188dc6ec0c173cb610c8eea2ebda471a19e744749c54cdc673d50de8",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/docs-update-2026-11-05-5601b0f",
+  "canonical_url": "https://bird.com/changelog/docs-update-2026-11-05-5601b0f",
+  "title": "Send WhatsApp templates with named parameters and dynamic bindings",
+  "summary": "WhatsApp template sends accept a `parameters` object keyed by name instead of the `components` array, and Liquid parameter bindings can compute values.",
+  "body_markdown": "Sending most WhatsApp templates no longer requires building the` components` array by hand.` POST /v1/whatsapp/messages` now accepts a` template.parameters` object keyed by each variable's name (or position, for a numbered placeholder), plus fixed keys for a media header, a location header, a button URL suffix, or an authentication code. The template version's` variables` array lists the keys the template takes and which are required, so you can build the object from the API response instead of guessing.\n\n\nA template language can also define **parameter bindings** : Liquid that computes a value from the` parameters` you send, set with[PUT a template language](https://bird.com/docs/api/reference/upsert-whatsapp-template-language) . A binding can read a recipient's contact record, which isn't possible for a single send, so a language with contact-reading bindings returns` 422` on` create-whatsapp-message` and instead resolves per recipient in a[broadcast](https://bird.com/docs/guides/whatsapp/broadcasts) . A template with parameter bindings, or with named variables in a carousel card or a button URL, accepts only` parameters` ; sending it with` components` is rejected. See[Components and parameters](https://bird.com/docs/guides/whatsapp/sending-whatsapp#components-and-parameters) for the full key reference.\n\n\nAlso in this release:\n\n\n- **10DLC brand registration now fills in your support email automatically.** The support email on a brand is the address you sign in with, and it can't be edited; free providers like Gmail aren't accepted, so sign in with an address on your business domain before registering. See[10DLC registration](https://bird.com/docs/guides/sms/10dlc) .",
+  "published_at": "2026-11-05T00:00:00+00:00",
+  "first_seen_at": "2026-11-14T12:55:55.988447+00:00",
+  "content_hash": "sha256:efd03cb7c8c62c0fd8beb97abdb336ec5d6355e369b1f933ef2343da8c4d77a1"
+}

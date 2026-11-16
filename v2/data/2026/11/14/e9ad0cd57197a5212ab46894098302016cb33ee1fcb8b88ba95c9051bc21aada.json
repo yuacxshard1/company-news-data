@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e9ad0cd57197a5212ab46894098302016cb33ee1fcb8b88ba95c9051bc21aada",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/activepieces-embed-pricing-real-costs-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/activepieces-embed-pricing-real-costs-in-2026",
+  "title": "Activepieces Embed Pricing: Real Costs in 2026",
+  "summary": "Activepieces Embed pricing requires direct sales negotiation, with costs starting at $36k yearly. Different plan tiers accommodate various business sizes.",
+  "body_markdown": "## Hidden costs and limits teams hit before signing\n\n\nFive costs sit outside the sticker price: credit overage, SSO needs beyond the Team plan, the user cap, engineering time to embed, and self-hosting operations. Each one's a reason the quote you receive differs from the list price.\n\n\n### Credit overage from loops and retries\n\n\nMetered plans charge per credit, and on Activepieces the allowance runs from 1,000 credits a month on Free to 50,000 on Team, consumed by runs, not by every business outcome.\n\n\nA loop over a large list or a retry policy on a flaky API multiplies step counts.\n\n\nActivepieces counts the run rather than the steps inside it: **a flow run is 1 credit** whether it has two steps or ten, so splitting a brittle two-step workaround into ten small, testable steps doesn't raise the bill.\n\n\nZapier's pricing page bills per task, so the same refactor costs more there, and a model that rises with granularity taxes the builder for breaking work down properly.\n\n\nWhat you budget for on Activepieces is run volume, plus the extra credits AI steps use (2 for a fast model, 10 for a smart one, 20 for a frontier one, or 1 per AI step with your own keys).\n\n\nBudget against your worst-case run volume, not your average, and cap retries before launch.\n\n\nAt the top of the self-serve range, Team has a user cap. If your rollout will pass that cap, or if your identity provider requirements go beyond what Team's SSO covers, you're into a sales conversation whatever your credit usage.\n\n\n### Self-hosting and engineering time\n\n\nYou pay in operations rather than licence fees on the free Community Edition, which costs nothing to license: upgrades, backups, monitoring, scaling and incident response all land on your team.\n\n\nFor a small team, the engineering time to wire authentication, tenant separation and the user interface into your own product can exceed the licence fee it was meant to avoid, so price it in staff weeks.\n\n\nIf your procurement process requires a finished report, don't assume one: SOC 2 certification is in progress, not complete.\n\n\nAsk sales for the current status, a timeline, and what interim security documentation they can supply, and get the answer in writing before the contract is signed.",
+  "published_at": "2026-11-14T00:34:30+00:00",
+  "first_seen_at": "2026-11-14T03:11:34.323016+00:00",
+  "content_hash": "sha256:ed60903abf76b9dfbd06d7c20ede8cc4b87f6fb5e01448e9fc38945c9b90d896"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b63cc6cb078cb1cb80361d38fcd18e692ebb4661882eaf5421a57ab3e5c7637b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepinfer-workflow-how-it-works-and-its-limits-2026",
+  "canonical_url": "https://www.activepieces.com/blog/deepinfer-workflow-how-it-works-and-its-limits-2026",
+  "title": "DeepInfer Workflow: How It Works and Its Limits (2026)",
+  "summary": "A DeepInfer workflow chains steps you configure once and run on different inputs. Follow the vendor's documented steps in order, checking limits first.",
+  "body_markdown": "## Create account, first workflow, and first run\n\n\nKeep the limits page open in a second tab, because the first run is where a skipped limit shows up as an error. The order below is the order that works, and each step leaves something you can check before moving on:\n\n\n1. Create an account.\n2. Open the dashboard.\n3. Click the new-workflow button and fill in its named fields.\n4. Run the workflow once on sample input.\n5. Read the result.\n\n\nTake a screenshot of the dashboard, the editor and the first result, since they're the three places a setup step done out of order becomes visible. Keep them in your own notes with the date.\n\n\n### Create your DeepInfer account and get access\n\n\nCreate the account with an address you can receive mail at, confirm it, and stop at the dashboard. Don't build anything yet.\n\n\nWhat you leave with is a signed-in dashboard that shows your plan, and that plan is the one whose limits you just re-read.\n\n\nIf the dashboard shows something different from what the limits page described, you've found the discrepancy before it cost you a failed run.\n\n\n### Stage 2: build the workflow with exact field values\n\n\nClick the new-workflow button and fill every named field using the wording in the vendor's setup guide, not your paraphrase of it. Copy values rather than retyping them.\n\n\nA field filled with a near-match is accepted at save time and rejected at run time, and the error will point at the run, not the field. You leave this stage with a saved workflow in the editor and nothing yet executed.\n\n\n### Stage 3: run it once and read the result\n\n\nRun the workflow once on a small sample input, then read the full result before changing anything. Use a sample deliberately smaller than any stated limit, so that a failure can't be blamed on size.\n\n\nA clean result means the account, fields and input all agree. A failure message is the useful outcome here, because it can be checked against the limits page you already have open.\n\n\nThe next section moves from this single run to the limits themselves.",
+  "published_at": "2026-11-11T09:15:39+00:00",
+  "first_seen_at": "2026-11-11T17:06:23.973017+00:00",
+  "content_hash": "sha256:fb9cc3abab857b331d2c35f83b85a98a575ecd84d42d2bfd7bd77363a47aa187"
+}

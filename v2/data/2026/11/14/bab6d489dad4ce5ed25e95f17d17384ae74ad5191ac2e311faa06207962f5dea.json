@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bab6d489dad4ce5ed25e95f17d17384ae74ad5191ac2e311faa06207962f5dea",
+  "company_key": "yc-virtualmin",
+  "company_name": "Virtualmin",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.virtualmin.com/t/virtualmin-goaccess-module-1-1-0-released/138322",
+  "canonical_url": "https://forum.virtualmin.com/t/virtualmin-goaccess-module-1-1-0-released/138322",
+  "title": "Virtualmin GoAccess module 1.1.0 released",
+  "summary": "Howdy all, We’ve rolled out Virtualmin GoAccess 1.1.0 to Virtualmin repos. Changes since Virtualmin GoAccess 1.0.1: Add module settings for GeoIP2 Country, City and ASN databases Add a link from reports to the website’s access-log search Fix to use /var/tmp to reduce memory use during report generation Fix to keep reports working when local referrers exceed GoAccess’s filter limit Fix to hide local referrers by default while preserving traffic statistics Fix vertical report layouts to fill t...",
+  "body_markdown": "# [Virtualmin GoAccess module 1.1.0 released](https://forum.virtualmin.com/t/virtualmin-goaccess-module-1-1-0-released/138322)\n\n\n[News](https://forum.virtualmin.com/c/news/5)\n\n\n[Ilia](https://forum.virtualmin.com/u/Ilia)\n\n\nNovember 14, 2026, 3:24pm 1\n\n\nHowdy all,\n\n\nWe’ve rolled out Virtualmin GoAccess 1.1.0 to Virtualmin repos.\n\n\nChanges since Virtualmin GoAccess 1.0.1:\n\n\n- Add module settings for GeoIP2 Country, City and ASN databases\n- Add a link from reports to the website’s access-log search\n- Fix to use` /var/tmp` to reduce memory use during report generation\n- Fix to keep reports working when local referrers exceed GoAccess’s filter limit\n- Fix to hide local referrers by default while preserving traffic statistics\n- Fix vertical report layouts to fill the available width\n- Fix report padding, header alignment, pagination and corner styles to follow the active theme\n- Fix report theme synchronization when stylesheets load, change or are removed\n- Fix report sandbox bypass during in-page navigation\n- Fix report worker isolation and user and group checks\n- Fix worker startup warnings and scheduled report error output\n\n\n---\n\n\nAs always, if you run into any problems, let us know in a *new* topic.",
+  "published_at": "2026-11-14T15:24:56+00:00",
+  "first_seen_at": "2026-11-14T18:27:04.685325+00:00",
+  "content_hash": "sha256:6754d90dc7c0ccc25fc5a30c916854ebc2d19018e8780d3c6ce310bd73efb1c9"
+}

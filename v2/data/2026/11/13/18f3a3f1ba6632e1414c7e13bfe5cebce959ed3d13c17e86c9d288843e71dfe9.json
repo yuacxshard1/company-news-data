@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "18f3a3f1ba6632e1414c7e13bfe5cebce959ed3d13c17e86c9d288843e71dfe9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/",
+  "title": "AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
+  "body_markdown": "[AWS Security Hub CSPM](https://aws.amazon.com/security-hub/cspm/) now supports AWS Organizations declarative policies. You can use them to enable Security Hub CSPM across all accounts and Regions in your organization and to define which security standards and controls are enabled.\n\n\nPolicies can apply broadly to every account and Region, or target specific account and Region combinations. Declarative policies help keep each account's configuration aligned with its attached policy, which helps prevent configuration drift. You can also apply them automatically to new accounts, so each account starts with a baseline configuration as soon as it's created.\n\n\nDeclarative policies are now the recommended way to manage Security Hub CSPM across an organization. They align with how other security services, such as Amazon GuardDuty, Amazon Inspector, and AWS Security Hub allow customers to manage configuration of the service. They also provide more flexibility, such as configuring Region-specific settings. You can continue to use central configuration until you're ready to migrate. When you are, use the migration process in the Security Hub CSPM console. It converts your existing central configuration policies into declarative policies and applies them to the appropriate accounts and regions.\n\n\nDeclarative policies for Security Hub CSPM are available in all commercial, AWS GovCloud (US), and China Regions. To get started, see[Migrating central configuration policies](https://docs.aws.amazon.com/securityhub/latest/userguide/orgs-policies-and-central-config.html#orgs-policies-import-tool) . To learn more, see[Declarative policies](https://docs.aws.amazon.com/securityhub/latest/userguide/accounts-orgs-policies.html) in the AWS Security Hub CSPM User Guide and[Security Hub CSPM policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_security_hub_cspm.html) in the AWS Organizations User Guide. To receive notifications about new Security Hub CSPM features and controls, subscribe to the[Security Hub SNS topic](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-announcements.html) . You can also[try Security Hub CSPM at no cost for 30 days](https://aws.amazon.com/security-hub/cspm/pricing/) with the AWS Free Tier offering.",
+  "published_at": "2026-11-13T08:00:00+00:00",
+  "first_seen_at": "2026-11-13T22:53:51.281678+00:00",
+  "content_hash": "sha256:48134f148fac5f66e07877fbac8a316e34f074273611bd714e99ac8e59d27070"
+}

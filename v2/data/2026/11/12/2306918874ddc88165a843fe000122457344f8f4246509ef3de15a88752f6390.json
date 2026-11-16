@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2306918874ddc88165a843fe000122457344f8f4246509ef3de15a88752f6390",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-automate-google-workspace-with-apps-script",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-automate-google-workspace-with-apps-script",
+  "title": "How to Automate Google Workspace With Apps Script",
+  "summary": "Google Workspace automation starts with built-in tools. You'll know which features suit your workflows and whether you need anything beyond your current…",
+  "body_markdown": "## Scheduled Apps Script automation\n\n\nWith a bound script in the Google Sheet you already have, plus one trigger, your job runs unattended with nothing installed or paid for. The whole setup is five steps, and the subsections below explain what each does and where it fails.\n\n\n1. Open the Sheet and choose Extensions > Apps Script.\n2. Paste the append-row or email-summary function.\n3. Run it once and accept the consent screen.\n4. Open Triggers in the left sidebar.\n5. Choose Add Trigger and set a time-driven schedule.\n\n\nOpening the editor from inside the Sheet makes the script bound to it, so` SpreadsheetApp.getActiveSpreadsheet()` works without an ID.\n\n\nPaste a function that either appends a row with a timestamp (` sheet.appendRow(\\[new Date(), \"checked\"\\])` ) or builds a short summary and sends it with` MailApp.sendEmail` .\n\n\nKeep it to one job. A trigger runs exactly one named function, so a function that does too much is harder to debug when it fails.\n\n\n### Authorize Apps Script scopes and permissions\n\n\nRun the function once by hand from the editor. Google shows a consent screen listing the scopes the code touches, such as spreadsheet access and sending mail.\n\n\nBecause the script is yours and unreviewed, you'll likely see \"Google hasn't verified this app.\" Choose Advanced, then continue.\n\n\nSkip this manual run and the trigger will fail later with \"Authorization is required to perform that action,\" and nobody will be there to click the screen.\n\n\n### Add a time-driven Apps Script trigger\n\n\nIn Triggers, choose Add Trigger, select your function, set the event source to Time-driven, then pick a timer type such as day or hour. The trigger runs as you, with the scopes you just approved.\n\n\nWhen a run fails, the Executions page shows the exact error, so check it first. Look there too for \"Exceeded maximum execution time,\" which means the function is doing too much per run and should be split.\n\n\n### Add an on-form-submit Apps Script trigger\n\n\nFor a Google Form feeding this Sheet, add a second trigger with the event source \"From spreadsheet\" and the event type \"On form submit.\" Your function receives an event object, usually named` e` , and reads the answers from` e.namedValues` .\n\n\nRunning that function by hand from the editor passes no event, so you'll get \"TypeError: Cannot read properties of undefined (reading 'namedValues').\" That error is normal. Test it by submitting the form instead.",
+  "published_at": "2026-11-12T01:09:53+00:00",
+  "first_seen_at": "2026-11-12T07:09:44.740030+00:00",
+  "content_hash": "sha256:2796c3e505ca726857206c64776bd683fc019bf36e6a94b8056ca4ff3a3c11d6"
+}

@@ -3,6 +3,16 @@
     {
       "company_key": "yc-windmill",
       "company_name": "Windmill",
+      "doc_id": "03f81ec3c7a97655e3abc0176db29667e8672e24286b915561b4ef6ea67b2bc0",
+      "first_seen_at": "2026-11-11T21:06:22.562319+00:00",
+      "published_at": "2026-09-29T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "An AI agent can now keep its whole conversation: as it nears the model's context window, the older part is summarized instead of dropped. The run details still show every message and tool result. Chat mode turns this on by default, and steps already set to Last messages keep it.",
+      "title": "Compaction memory for AI agents"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
       "doc_id": "0e1236f462c7b1b688cc1b22916c021271e4e8ccdaac306f346de6d7bc828307",
       "first_seen_at": "2026-09-21T16:44:27.359817+00:00",
       "published_at": "2026-09-14T00:00:00+00:00",
@@ -57,7 +67,7 @@
       "first_seen_at": "2026-10-12T16:41:18.643663+00:00",
       "published_at": "2026-09-15T00:00:00+00:00",
       "source_kind": "rss",
-      "summary": "The windmill-chat npm package puts a chat over a deployed chat mode flow in any frontend or full-code app. It is headless - it runs the flow per message, follows the streamed answer and keeps conversation history - with entry points for the Vercel AI SDK, assistant-ui, React and framework-agnostic stores.",
+      "summary": "The @windmill-labs/chat-sdk npm package puts a chat over a deployed chat mode flow in any frontend or full-code app. It is headless - it runs the flow per message, follows the streamed answer and keeps conversation history - with entry points for the Vercel AI SDK, assistant-ui, React and framework-agnostic stores.",
       "title": "Chat SDK for flows in chat mode"
     }
   ],

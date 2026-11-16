@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e57ba55d10f128f56b08671c08fdbc09fa36d889c06cb13ebc841481e367265f",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/instance-groups-linked-to-idp-groups",
+  "canonical_url": "https://www.windmill.dev/changelog/instance-groups-linked-to-idp-groups",
+  "title": "Instance groups linked to IdP groups without SCIM",
+  "summary": "A superadmin can link an instance group to an IdP group by group id or full path, and each SAML or OIDC login then adds or removes the user from the groups claim, without SCIM.",
+  "body_markdown": "### [Instance groups linked to IdP groups without SCIM](https://www.windmill.dev/changelog/instance-groups-linked-to-idp-groups)\n\n\n[Enterprise](https://www.windmill.dev/pricing)\n\n\nSAML\n\n\nGroups\n\n\nAccess control\n\n\n[v1.861.0](https://github.com/windmill-labs/windmill/releases/tag/v1.861.0)\n\n\n[Docs](https://www.windmill.dev/docs/advanced/saml_and_scim#linking-an-instance-group-to-an-idp-group)\n\n\nA superadmin can link an instance group to an IdP group by group id or full path, and each SAML or OIDC login then adds or removes the user from the groups claim, without SCIM.\n\n\n#### New features\n\n\n- Link an instance group to an IdP group from \"Link to an IdP group\", by group id or full path such as /operators/network-team.\n- Each SSO login adds the user to the linked groups named in the groups claim and removes them from the others.\n- Works with the groups claim of OIDC and SAML logins, set with the \"SSO groups claim\" instance setting.\n- SCIM-provisioned groups keep the IdP group SCIM records.",
+  "published_at": "2026-11-04T00:00:00+00:00",
+  "first_seen_at": "2026-11-12T15:49:24.684344+00:00",
+  "content_hash": "sha256:99ade722798738750b9a170461f836e74b32fc93e65c00176ceb4f205c6716dd"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "900fd78981c63081517f1d52ac42f2eb363850bd7365e0ef99d6210dc340f2a0",
+  "company_key": "yc-sunsama",
+  "company_name": "Sunsama",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://roadmap.sunsama.com/changelog/parallel-timers-track-time-on-more-than-one-task-at-once",
+  "canonical_url": "https://roadmap.sunsama.com/changelog/parallel-timers-track-time-on-more-than-one-task-at-once",
+  "title": "Parallel timers: track time on more than one task at once",
+  "summary": "Real work overlaps. You're answering a message while a build runs, or half-listening to a meeting while you finish a doc.",
+  "body_markdown": "[Sunsama](https://roadmap.sunsama.com/)\n\n\n[Home](https://roadmap.sunsama.com/)[Feedback](https://roadmap.sunsama.com/improvements)\n\n\nFeedback\n\n\n[Changelog](https://roadmap.sunsama.com/changelog)\n\n\n[← Back to changelog](https://roadmap.sunsama.com/changelog)[Powered by Canny](https://canny.io/powered-by-canny?utm_source=changelog_subdomain&utm_medium=powered&utm_campaign=sunsama&company=Sunsama)\n\n\nReal work overlaps. You're answering a message while a build runs, or half-listening to a meeting while you finish a doc. Until now, starting a timer stopped every other timer. Now it doesn't have to.\n\n\nHow it works:\n\n\n- Mark a task as Parallel, and you can run its timer alongside other Parallel tasks' timers.\n- Time is split evenly between the timers that are running. Two timers each log half of the elapsed time, and three each log a third. Stop one, and the rest speed back up.\n- Tasks that aren't Parallel (Focused, the default) still work as before. Starting a Focused timer pauses the Parallel ones, and starting a Parallel one pauses the Focused one.\n- Nothing changes unless you opt in by marking a task Parallel.\n\n\nTried it? Tell us what you'd change, or what's missing, in the comments below or reach out in support!",
+  "published_at": null,
+  "first_seen_at": "2026-11-12T20:10:04.813372+00:00",
+  "content_hash": "sha256:bbc3ef30215ec5763032b8083892770490ad85d41289313551b92674d65ae75f"
+}

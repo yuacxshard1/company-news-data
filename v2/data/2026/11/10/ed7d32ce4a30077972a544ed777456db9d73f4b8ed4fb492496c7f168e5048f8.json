@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ed7d32ce4a30077972a544ed777456db9d73f4b8ed4fb492496c7f168e5048f8",
+  "company_key": "yc-svix",
+  "company_name": "Svix",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.svix.com/blog/custom-domains/",
+  "canonical_url": "https://www.svix.com/blog/custom-domains/",
+  "title": "Introducing Svix Custom Domains",
+  "summary": "Svix now supports custom domains, allowing you to serve Svix on your own domain instead of ours.",
+  "body_markdown": "Svix now offers Custom Domains, giving you a powerful new feature for integrating Svix within your own product offering. Instead of redirecting customers to the svix.com domain for services like the Svix Application Portal, Svix Ingest, and Polling Endpoints, you can now host those services from domains you manage. And enabling it is as simple as configuring a DNS entry.\n\n\n## How it works\n\n\nProfessional and Enterprise tier customers can simply go to the Custom Domain section of the Svix Dashboard settings to start configuring domains.\n\n\nLet's say you want to create` webhooks.mydomain.com` , which will forward to Svix's App Portal. When you create the Custom Domain in the Svix dashboard, you'll be given a randomized Svix-managed domain.\n\n\nIn your own DNS provider, you'll need to create` webhooks.mydomain.com` as a` CNAME` that points to the Svix-managed domain.\n\n\nOnce you do that, we'll handle the rest, including provisioning a valid TLS certificate and forwarding traffic as needed to our backend. Your customers will never have to leave your domain to access Svix services!\n\n\nNote that as of now, custom domains may send traffic to servers outside of your selected region. Custom domains for Ingest and Polling Endpoints are not covered by the Svix BAA for HIPAA purposes. Please reach out to your account manager or contact Support if you need this coverage.\n\n\n## Get started\n\n\nServing Svix from your own web domain is easy. Log into the Svix dashboard now to complete your company's integration with Svix!\n\n\nFor more details, check out our[documentation](https://docs.svix.com/custom-domains) .\n\n\nFor the latest updates, make sure to follow us on[X](https://x.com/SvixHQ) ,[Github](https://github.com/svix) ,[RSS](https://www.svix.com/blog/rss/) , the[Svix newsletter](https://www.svix.com/newsletter/) , and join the discussion on[our community Slack](https://www.svix.com/slack/) .",
+  "published_at": "2026-11-10T12:00:00+00:00",
+  "first_seen_at": "2026-11-14T09:08:56.760812+00:00",
+  "content_hash": "sha256:ed4202077d7826f212816a77bdd3725d2473f89c5af7f393103101e0bb685260"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f1abf17cf419dbf46c13074e84224ae1958ccbd039f5af75d6e1c45241fee0c1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-strands-decider-a-small-decision-model-2026",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-strands-decider-a-small-decision-model-2026",
+  "title": "What Is Strands Decider? A Small Decision Model Guide",
+  "summary": "What is Strands Decider? It's an open source framework for structured decision-making. Apply its methodology to evaluate complex choices systematically.",
+  "body_markdown": "## Connecting Strands Decider to a Workflow Today\n\n\nStart with a plain HTTP request step, and move to the other two only if the maker's serving docs support them. There's **no native connector as of 2026-11-10** , and we haven't run the model ourselves.\n\n\nThe list below runs from least glue code to most, and the serving docs decide how far down you can go:\n\n\n1. HTTP request step: needs a documented endpoint.\n2. AI step with a custom provider: needs an OpenAI-compatible interface.\n3. MCP server: needs a documented tool interface.\n\n\nFor the HTTP step, the docs must give a URL, an auth method, and a request and response schema. If they do, you can wire it up today, and the work is mapping fields.\n\n\nIf the response shape is undocumented, you are guessing, and that guess becomes a bug in production.\n\n\n[Activepieces](https://www.activepieces.com/) has no native Strands Decider support either, so the connection is one of the three routes above, and that link is a weak one.\n\n\nWhere it earns its place is the security review a model with no track record will face: the core is reported to be MIT-licensed, so reviewers can clone the repository, read how the queue passes jobs to workers, load-test it, and run the whole thing self-hosted or fully air-gapped with the model beside it.\n\n\nReviewers who have inspected the code have evidence to sign off on, where a closed platform offers only its own assurance, and that is what stalls go-live.\n\n\nUnless the docs state the endpoint accepts OpenAI-style chat requests, the custom-provider AI step won't work: it will fail on the first malformed payload, and you'll have written an adapter anyway.\n\n\nA narrow decision model may also return a label rather than prose, so check that the step tolerates it.\n\n\nThe maker would need to document a server, or you would write and host one yourself, which means a new service to maintain for one decision.\n\n\nTake it only if several workflows need the model, so the upkeep is shared.\n\n\nWhichever you pick, run your own sample through it first.",
+  "published_at": "2026-11-12T15:18:05+00:00",
+  "first_seen_at": "2026-11-10T16:34:02.314044+00:00",
+  "content_hash": "sha256:1c042f413690c930e864143f9c98d470107c4a6bedd3112be7c287d0160dcf58"
+}

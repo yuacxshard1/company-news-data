@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "18bb40375e1c290bfcec55abf40c2e483bd0c3f545fb57f4c136a9fb79ab07a2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gemini-agent-what-google-launched-pricing-and-limits",
+  "canonical_url": "https://www.activepieces.com/blog/gemini-agent-what-google-launched-pricing-and-limits",
+  "title": "Gemini Agent: What Google Launched, Pricing and Limits",
+  "summary": "Gemini agent combines knowledge work, coding and content creation in one tool.",
+  "body_markdown": "## What Gemini agent means for automation teams\n\n\nSince the agent has no price of its own, its value to an automation team depends on something else: **whether your existing workflows can call it** .\n\n\nGoogle has launched a Gemini agent, and its own pages confirm that it exists. What we found on those pages is **a product description, not a documented endpoint** .\n\n\nAn automation team needs a trigger to start it, an action to invoke it, and a field mapping for what comes back. Without those, the agent is a place people go, not a step a workflow runs.\n\n\n### Gemini agent access and plan availability\n\n\nTreat access as whatever Google's launch pages state for your account type, and nothing wider. If a page doesn't confirm that your plan or workspace gets the agent, assume it doesn't.\n\n\n> An automation team needs a trigger to start it, an action to invoke it, and a field mapping for what comes back. Without those, the agent is a place people go, not a step a workflow runs.\n\n\nCheck this before you build anything around it, because a workflow that depends on an unavailable agent fails on its first run.\n\n\nBecause the agent has no price of its own, the Gemini Enterprise edition chart is the only figure to budget against.\n\n\nYou can cost the edition, but you can't forecast a per-run cost for the agent, so any estimate of what an automated step will cost is a guess.\n\n\n### Can workflows call the Gemini agent?\n\n\nTo see the test, look at the illustration below. On the left is the Gemini agent. On the right is a workflow canvas with a trigger, a Gemini step, then Slack (team chat) and Google Sheets (spreadsheet) steps in a row.\n\n\nThe gap between them, labelled \"callable endpoint?\", is the question that decides everything: until the answer is yes, **the agent stays outside the flow** . The rest of this integration weighs the launch by that gap.",
+  "published_at": "2026-11-12T14:15:25+00:00",
+  "first_seen_at": "2026-10-16T08:17:27.828918+00:00",
+  "content_hash": "sha256:cbce7532d5ae66e8d3387dfeb39a81fdc39b9c10fae1f3fb4fb6d7d1f42459e0"
+}

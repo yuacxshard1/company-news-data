@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c74be909fb050f75b80eca1035c1e2f5d0c414344bbe484270d45e1b4acf57f4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/doubao-api-pricing-2026-models-tiers-and-rate-limits",
+  "canonical_url": "https://www.activepieces.com/blog/doubao-api-pricing-2026-models-tiers-and-rate-limits",
+  "title": "Doubao API Pricing 2026: Models, Tiers and Rate Limits",
+  "summary": "Doubao API pricing is not just the per-token rate. Your region, usage tier, and rate limits affect the final cost for each model.",
+  "body_markdown": "## Fix runaway model spend with Activepieces\n\n\n### What factors determine your costs?\n\n\nResell you a model and someone else has already picked your Doubao tier and marked up the rate before you send a single request. Activepieces doesn't sell you one, so nothing in it moves a price on Doubao's page.\n\n\nThe calls go out on your own Volcano Engine or BytePlus key, so the spend lands on your provider account at the rate you hold, and Flagship versus Lite stays your decision.\n\n\nThe pricing page shows the difference: from Plus up, bring-your-own-key makes every AI step 1 credit, where a built-in model costs 2, 10 or 20 credits by class.\n\n\nClaude, ChatGPT, Cursor or any MCP client can reach it, so the routing strategy gets set wherever you already work.\n\n\nA workflow there is just a chain of steps: an HTTP request to the Doubao API, a branch, a stored value, a message.\n\n\nEverything it does for your bill, it does by controlling which requests reach the expensive model and how many go out per day.\n\n\nAcross the cost problems described above, each is a decision made per request: long prompts landing in a higher context tier, and flagship output tokens on jobs a small model could do.\n\n\nNobody makes them unless something sits in the path. The workflow below is that something.\n\n\n### How the router and counter work\n\n\nFirst, a request arrives at a webhook trigger. A router step checks the prompt length and a simple flag you set, such as \"needs reasoning\". Short, routine prompts go to the cheap model; anything hard goes to the flagship.\n\n\nAfter each call, its reported token usage is added to a daily counter kept in the platform's storage.\n\n\nWhen the counter crosses a limit you choose, a branch posts a message to a team chat channel and, if you want, stops sending to the flagship until the counter resets.\n\n\nFollow the path in the diagram: request, router, two model calls, the running counter, and the alert branch leading to chat. Take from it that the cap sits before the spend, not after the invoice.\n\n\n### Where the workflow falls short\n\n\nTwo honest limits. The router is only as good as your rule, so test it against real prompts and read what the cheap model returns.\n\n\nAnd the counter tracks tokens your workflow sent, not what Doubao billed, so check it against the usage page on the vendor's console.",
+  "published_at": "2026-11-15T04:31:21+00:00",
+  "first_seen_at": "2026-11-11T17:06:23.973017+00:00",
+  "content_hash": "sha256:c396807f4e063d3960e142e1edcbd318e1046e6a0b801424c520716d17d9bdda"
+}

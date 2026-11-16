@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5e3690d9a1f9775fcca8c19fde07cfb1425fe5bfc09d5e23f90e5503ba3022eb",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges",
+  "canonical_url": "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges",
+  "title": "Evaluating the Evaluators: Investigating LLM Judges for Personalized Writing Style Assessment",
+  "summary": "This paper was accepted at the Can We Trust AI Evaluation? Workshop at NeurIPS 2026. We evaluate how good large language model (LLM) judges…",
+  "body_markdown": "[View publication](https://openreview.net/forum?id=cyU5BnO6nN)\n\n\nThis paper was accepted at the Can We Trust AI Evaluation? Workshop at NeurIPS 2026.\n\n\nWe evaluate how good large language model (LLM) judges are for personalized writing tasks. This is important when a user’s preferred writing style is known (e.g., “upbeat”) and an LLM judge is used to evaluate whether generated text adheres to this preference. We examine how the writing task, the combination of generator and judge LLM, the evaluation objective, and general commonsense and reasoning ability impact LLM judge performance. To this end, we generate text with four LLMs for three long-form writing tasks, collect human labels evaluating which of two responses is better, collect judge-LLM, pairwise-ranking annotations, and then compare the human and judge LLM annotations. We find that judge quality correlates weakly with general LLM ability measured using MMLU (Pearson’s ρ ≤ 0.2) and varies by both writing task and evaluation criteria (i.e., general helpfulness versus style personalization). We also find that LLM evaluators are more consistent and performant using paired comparisons rather than scoring responses independently. Finally, we find that the “strongest” LLMs do not most reliably reproduce the human evaluations, which we hypothesize relates to exaggerated sensitivity to subtle details that human annotators and weaker LLMs ignore.\n\n\n- ‡ Equal contribution\n- † University of Southern California\n- § University of Copenhagen\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-11-11T19:03:35.677349+00:00",
+  "content_hash": "sha256:06bd69a694b2e3c4dee80a76d7b6202e70a39b68c7fa97c1b411f7ea96f080f3"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1dda3ffc022513acad397d574991576a91fe7d8064a4a180a94e86fe50a14d77",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/elevenlabs-scribe-v3-api-limits-and-pricing-2026",
+  "canonical_url": "https://www.activepieces.com/blog/elevenlabs-scribe-v3-api-limits-and-pricing-2026",
+  "title": "ElevenLabs Scribe v3 API Limits and Pricing for 2026",
+  "summary": "The elevenlabs scribe v3 api converts recorded audio to text. You'll understand pricing, rate limits, and how to authenticate your first call.",
+  "body_markdown": "## Monday checklist before Scribe v3 goes live\n\n\nSkip these five checks and you find out the limits the way most teams do: a batch stalls, or an invoice arrives, and nobody can say which page would have warned them.\n\n\nDone in this order, they protect the bill and the launch better than anything inside the workflow itself.\n\n\n### Checks one and two: limits\n\n\nThe first two steps decide whether your first real batch runs or gets refused, so your project's viability depends entirely on those two decisions.\n\n\nFirst, open the pricing page and write down your tier, its concurrency allowance, and the file limits. Whatever your plan assumed, the page governs.\n\n\nIf your longest recording exceeds the file limit, you want to learn that from a note on your desk rather than from a failed job in front of a client.\n\n\nSecond, set your own concurrency cap below the tier limit. Sitting right at the ceiling means one burst of uploads gets rejected, and every rejection is a retry that costs you time. Leave headroom so a busy hour slows you down instead of breaking you.\n\n\n### Checks three to five: money and change\n\n\nThe remaining three steps are about money and about the vendor changing things under you, which means you face escalating costs and changing terms.\n\n\nThird, set a spend alert, calculated as the unit price on the pricing page multiplied by the hours of audio you expect. Set it a little above that figure.\n\n\nIf the alert fires early, something is looping or someone is testing with real files, and you hear about it that day instead of at month end.\n\n\nFourth, move every key out of the workflow and into a secret store. A key pasted into a step can be copied by anyone who can open that step, and whoever holds it can run up your charges without touching your system.\n\n\nFifth, put a recurring reminder in the calendar to re-read the vendor's pages. The model is new, so prices, tiers, and limits are more likely to shift than on a mature product. A change you never read still bills you.",
+  "published_at": "2026-11-12T22:01:39+00:00",
+  "first_seen_at": "2026-11-12T22:47:49.735684+00:00",
+  "content_hash": "sha256:a31ae813bed38f9bb5392232f4a03f2048039f444b41d39f88e10a4ccf4acc6e"
+}

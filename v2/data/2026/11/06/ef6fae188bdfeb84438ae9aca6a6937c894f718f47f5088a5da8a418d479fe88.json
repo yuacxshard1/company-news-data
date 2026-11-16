@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ef6fae188bdfeb84438ae9aca6a6937c894f718f47f5088a5da8a418d479fe88",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-dms-schema-conversion-expands-offline-source-conversion-to-oracle/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-dms-schema-conversion-expands-offline-source-conversion-to-oracle/",
+  "title": "AWS DMS Schema Conversion expands offline source conversion to Oracle",
+  "summary": "Discover more about what's new at AWS with AWS DMS Schema Conversion expands offline source conversion to Oracle",
+  "body_markdown": "[AWS Database Migration Service (DMS) Schema Conversion](https://aws.amazon.com/dms/) now supports offline source conversion for Oracle Database. You can convert Oracle schemas and code without direct connectivity to your source databases. You can extract metadata using standard database commands in your own environment, then upload it to DMS Schema Conversion for processing. This removes the need for security reviews, firewall changes, and VPN setup that delay migration projects, and delivers the same conversion results as the connected approach.\n\n\nOffline Source suits organizations whose security policies restrict external tool access to production Oracle databases. Database administrators can generate human-readable metadata files within their existing environment. Security teams can review the commands and output before upload, simplifying approval. By removing the connectivity requirement, Offline Source turns weeks of security reviews into a simple command-and-upload workflow.\n\n\nOffline Source supports all DMS Schema Conversion targets at no additional conversion charge. For regional availability, see the[Supported AWS Regions](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_SchemaConversion.html#schema-conversion-supported-regions) page. To get started, see[Using Offline Source](https://docs.aws.amazon.com/dms/latest/userguide/virtual-data-provider.html) in the DMS Schema Conversion documentation. To learn how to run offline assessment and conversion with AI agents, read the launch[blog post](https://aws.amazon.com/blogs/database/offline-assessment-and-conversion-with-ai-agents-in-aws-dms/) .",
+  "published_at": "2026-11-06T23:53:00+00:00",
+  "first_seen_at": "2026-11-13T18:05:59.620876+00:00",
+  "content_hash": "sha256:efa059981bc84432e696c2e3baf98206c9a0d8b9703c66d20adc49584e997c51"
+}

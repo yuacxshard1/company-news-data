@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "41d8a55aa7987191783a055990a1d7e68c98272bf7fd62840195d178ed3c5a44",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-automate-a-telegram-bot-with-ai-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-automate-a-telegram-bot-with-ai-in-2026",
+  "title": "How to Automate a Telegram Bot With AI in 2026",
+  "summary": "Automate telegram bot to respond to messages using AI instead of manual coding. You can have a working bot set up in roughly 30 minutes.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is automating a Telegram bot free?\n\n\nThe bot itself is never the line item: creating it and using Telegram's Bot API cost nothing. The bills come from the two things around it: the AI model that writes replies and whatever runs the webhook.\n\n\nUnder real traffic, a bot on a free AI tier answers the first few messages in a test and then goes quiet, because those tiers usually cap requests per minute and per day. Reproduce a burst of messages before you call it done.\n\n\n### Can a Telegram bot message someone first?\n\n\nNo, not until that person has started the conversation. Telegram only lets a bot send to users who've messaged it or pressed Start, so a \"welcome\" push to a list of usernames fails with an error, not a delivery.\n\n\nA user who later blocks the bot produces the same error. Treat those failures as an unsubscribe signal and stop sending to that chat, rather than retrying.\n\n\n### How do I keep my bot token from leaking?\n\n\nKeep the token in your automation tool's credential store and nowhere else: not in a shared workflow export, a screenshot, or a public repository. Anyone holding it can send as your bot and take over its webhook.\n\n\nIf you suspect exposure, revoke it in BotFather, which issues a new token and kills the old one immediately, then update the credential in one place. Setting a secret token on the webhook also lets your endpoint reject requests that didn't come from Telegram.\n\n\n### Can one bot serve many groups and users at once?\n\n\nYes. Every update carries the chat it came from, so a single bot and a single webhook can serve any number of private chats and groups.\n\n\nThe mistake is in the workflow: if the AI step has no chat identifier attached, replies and any remembered context bleed between conversations. Key everything on the chat ID.\n\n\n### What happens to messages while my webhook is down?\n\n\nIf the webhook is down for a short while, Telegram keeps undelivered updates and retries them, so nothing is normally lost.\n\n\nThe catch is that the queue isn't permanent, and when your endpoint comes back, the backlog arrives in a rush that can hit the AI model's rate limits and trigger a second failure.\n\n\nWhen you ask for webhook status, Telegram reports the last delivery error, which is the first place to look when a bot has gone silent. If the outage was long, assume some messages are gone and tell users to resend.",
+  "published_at": "2026-11-13T09:30:40+00:00",
+  "first_seen_at": "2026-11-11T17:06:23.973017+00:00",
+  "content_hash": "sha256:c1eca922439f4d20b00f43fb4f22620e052ca269184d34acbb4142c9853f1aa5"
+}

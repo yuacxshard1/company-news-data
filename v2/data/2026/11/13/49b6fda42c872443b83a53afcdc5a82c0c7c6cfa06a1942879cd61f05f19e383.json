@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "49b6fda42c872443b83a53afcdc5a82c0c7c6cfa06a1942879cd61f05f19e383",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
+  "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
+  "summary": "Discover more about what's new at AWS with Aurora PostgreSQL with express configuration now supported in CloudFormation",
+  "body_markdown": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora clusters through CloudFormation templates while benefiting from the speed of express configuration.\n\n\nAurora PostgreSQL clusters created with express configuration allow you to create and query an Aurora serverless database in seconds. The new withExpressConfiguration createOnly property on the AWS::RDS::DBCluster resource creates both the cluster and its primary database instance from one property declaration. You don't need to model or manage the instance separately in your CloudFormation template. This simplifies your templates and makes it easier to manage Aurora clusters with express configuration through infrastructure as code.\n\n\nThe CloudFormation support is available in all AWS Regions where Aurora PostgreSQL with express configuration is offered. To learn more, see the[Aurora User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.AuroraPostgreSQL.ExpressConfig.html) and the AWS::RDS::DBCluster resource reference in the[AWS CloudFormation documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-rds-dbcluster.html) .",
+  "published_at": "2026-11-13T16:00:00+00:00",
+  "first_seen_at": "2026-11-13T22:53:51.281678+00:00",
+  "content_hash": "sha256:143e9b2d66a8fa44eac86c29a7a1e54343dba89ac2c61a82f85b3b4c855f937a"
+}

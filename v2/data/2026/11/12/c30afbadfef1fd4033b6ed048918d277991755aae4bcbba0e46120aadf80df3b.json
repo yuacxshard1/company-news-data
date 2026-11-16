@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c30afbadfef1fd4033b6ed048918d277991755aae4bcbba0e46120aadf80df3b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/plaid-workflow-in-2026-link-tokens-and-transactions",
+  "canonical_url": "https://www.activepieces.com/blog/plaid-workflow-in-2026-link-tokens-and-transactions",
+  "title": "Plaid Workflow in 2026: Link, Tokens and Transactions",
+  "summary": "Plaid workflow handles account linking, token management, and transaction retrieval in order. Implement each step efficiently with the correct approach.",
+  "body_markdown": "## Send Plaid webhook data onward with Activepieces\n\n\nOnce your backend has accepted and verified a Plaid webhook,[Activepieces](https://www.activepieces.com/blog/plaid-pricing-2026-cost-per-connection-and-request) can receive it and fan it out to a spreadsheet, a chat alert or an accounting tool, and because every plan including the free one has unlimited flows, each destination can be its own flow.\n\n\nIt doesn't replace Link, token exchange or signature verification. The failure to avoid is a workflow that trusts any POST to its URL and pushes forged transaction events into your books.\n\n\n### Running routine automation self-hosted\n\n\nOnce the event is trusted, what remains is routine plumbing, and the MIT-licensed core of Activepieces can run that plumbing self-hosted on your own infrastructure.\n\n\nYour backend verifies the webhook, then forwards the payload to an Activepieces \"Catch Webhook\" trigger. From there a flow can look up the stored connection for that item, add a row to a sheet, or notify a person when something needs attention.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.\n\n\nPicture a three-step flow of that shape on the canvas below. Step 1 is the Catch Webhook trigger, step 2 is a Read Connection action that fetches the stored credentials, and step 3, selected, is a Slack \"Send Message To A User\" action.\n\n\nIn the step 3 panel, the Connection field points at the output of step 2, alongside User, Message and Username fields and a Test Step button. Take from it that the credential is referenced from an earlier step, not pasted into the message step.\n\n\nAfter the screenshot, the useful next move is to run Test Step with sample data, then confirm the message renders the fields you expect before any real event arrives.\n\n\n### Plaid steps to keep in your backend\n\n\nKeep four things in your own backend, because each depends on a secret or on the ordering the article has argued for.\n\n\nLink token creation needs your Plaid client credentials. The public token exchange returns the long-lived access token, which should live in your own storage, not in a flow's logs.\n\n\nWebhook signature verification must happen before anything is forwarded. And the calls that fetch transactions belong where you control retries and pagination.\n\n\nIf you reverse that split, an unauthenticated caller can trigger your downstream actions, and the sequence is broken at its first step instead of its last.",
+  "published_at": "2026-11-12T02:25:45+00:00",
+  "first_seen_at": "2026-11-12T07:09:44.740030+00:00",
+  "content_hash": "sha256:e9557d3435211a1e7eb7e71e904c5dfe66d3040ad628e7606d57a76d71392bd1"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1d716efd1015d74dc7342a9e7302168cfb70976d3407083250fb4e5d8f347594",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/activepieces-rbac-pricing-plans-and-roles-2026",
+  "canonical_url": "https://www.activepieces.com/blog/activepieces-rbac-pricing-plans-and-roles-2026",
+  "title": "Activepieces RBAC Pricing: Plans and Roles (2026)",
+  "summary": "Activepieces RBAC costs $200 monthly on the Team plan, which includes 25 users, 50,000 credits and SSO. Additional credits are $0.007 each.",
+  "body_markdown": "## How Activepieces RBAC assigns roles inside projects\n\n\n**Activepieces meters by consumption, not seats** : credits track usage and every plan ships unlimited flows, so adding a person costs nothing until they run automation.\n\n\nEach team works in its own project, with the apps a platform admin has allowed and credentials held centrally, and Alan and Funding Societies run production automation this way.\n\n\n### Project-level roles and what each permits\n\n\nTeam includes SSO and standard roles, and Ultimate adds custom roles (custom RBAC) through sales. The[permissions docs](https://www.activepieces.com/docs/admin-guide/guides/permissions) are where the exact permissions behind each role are listed.\n\n\nStandard roles arrive with Team at $200 a month, so separating the people who administer a project from the people who build or only look inside it needs no sales call.\n\n\nProjects stay isolated from one another, so a role applies inside the project where it was granted.\n\n\nWhen the standard roles are too coarse for your design, custom RBAC on Ultimate is the route, and it is quoted by sales.\n\n\nIf you hand everyone the top role, you give away the separation the plan pays for, and the plan you paid for does nothing.\n\n\nPick the lowest role that lets each person do their job, then raise it only when someone is blocked.\n\n\n### Who can see and use connections\n\n\nOf everything a role can touch, **connections are the most sensitive** , because they hold the credentials a workflow uses to reach other tools. The docs list connection management among the permissions, and the roles differ in how much of it they get.\n\n\nBefore you roll this out, check the exact connection rows in the permissions table on the day you buy, because the table can change.\n\n\nRun a simple test. Invite a throwaway account as Viewer, then try to open and edit a connection. Repeat as Editor. What each account can and cannot do tells you more than the table does, and it takes ten minutes.\n\n\n### How SSO and invitations fit in\n\n\nYou assign the role when you invite someone to a project and choose it at that moment, so a rushed invite with the top role selected is how the \"everyone is Admin\" problem starts.\n\n\nSSO changes how people sign in, not what they can do.\n\n\nTeam includes SSO, so you can have central login and still keep roles tight, but a person who signs in through SSO still needs a project role.\n\n\nCheck how your identity provider's users are assigned roles at the check date, and confirm that a new SSO user doesn't land with more access than intended.",
+  "published_at": "2026-11-14T00:35:02+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:152a9f71986f105cced0259380bd8386c7ba805ad4fd3ec01169347ec05248d9"
+}

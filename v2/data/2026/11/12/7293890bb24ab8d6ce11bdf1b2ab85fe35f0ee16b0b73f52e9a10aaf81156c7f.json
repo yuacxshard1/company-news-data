@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7293890bb24ab8d6ce11bdf1b2ab85fe35f0ee16b0b73f52e9a10aaf81156c7f",
+  "company_key": "yc-bird",
+  "company_name": "Bird",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bird.com/changelog/docs-update-2026-11-12-cc737ac",
+  "canonical_url": "https://bird.com/changelog/docs-update-2026-11-12-cc737ac",
+  "title": "Available numbers show which business-address area applies",
+  "summary": "Available numbers now name the area a local number's business address must be in for its ownership paperwork, when that area is known.",
+  "body_markdown": "[Get](https://bird.com/docs/api/reference/get-available-number) and[list available numbers](https://bird.com/docs/api/reference/list-available-numbers) can now return` ownership_address_area_name` (for example` Amsterdam` ) for a local number whose` ownership_address_scope` is` number_area` , meaning its ownership paperwork needs a business address inside the number's own area. The field names the area when it is known and is omitted otherwise. The[buying numbers guide](https://bird.com/docs/guides/numbers/buying-numbers) also now states that a number carrying` ownership_address_scope` is removed if its paperwork isn't approved by the registration deadline, with any setup fee credited back but its first recurring charge not refunded.\n\n\nAlso in this release:\n\n\n- **WhatsApp and Apple Messages for Business conversation labels match in any casing.** Updating a conversation's` labels` , or filtering conversations by` label` , now matches your workspace's labels regardless of case, and responses return the workspace's spelling. Updating with a name your workspace doesn't have creates a new workspace label (up to 100 per workspace), unless it uses a reserved name, which now also includes` archive` ,` blocked` ,` outbox` ,` scheduled` , and` sent` ; labels your workspace already has keep working. Filtering by a name your workspace doesn't have matches nothing. See[update a WhatsApp conversation](https://bird.com/docs/api/reference/update-whatsapp-conversation) and[update an Apple Messages for Business conversation](https://bird.com/docs/api/reference/update-amb-conversation) .\n- **10DLC brand registration now requires your website and sign-in email to share a domain.** Submitting or resubmitting a brand needs a live website whose main domain matches the domain of the email address you sign in with; an address on a subdomain or a free email provider is refused. See[Register a 10DLC brand](https://bird.com/docs/guides/sms/10dlc) .\n\n\n## Related resources\n\n\nContinue with the documentation, guides and examples for this topic.\n\n\n[Explore the capability SMS numbers](https://bird.com/sms-api/features/numbers)[Implementation guide Number types](https://bird.com/docs/guides/numbers/number-types)[Understand the concept What is a virtual phone number (VMN)?](https://bird.com/explained/numbers/what-is-a-virtual-phone-number)\n\n\n[Get an implementation brief](https://bird.com/learn/workspace?topic=phone-numbers)",
+  "published_at": "2026-11-12T00:00:00+00:00",
+  "first_seen_at": "2026-11-14T12:55:55.988447+00:00",
+  "content_hash": "sha256:9a14a874a2b57aedc905c66e320f2954bccf6d2db389c004754250cca4f83865"
+}

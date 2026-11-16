@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "90867d96ef2fa7f525ecee5d696c1cd2aec6b375225b0538aa48c3cf69f4fcf5",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/whatsapp-workflow-setup-options-and-examples-2026",
+  "canonical_url": "https://www.activepieces.com/blog/whatsapp-workflow-setup-options-and-examples-2026",
+  "title": "WhatsApp Workflow: Setup Options and Examples (2026)",
+  "summary": "WhatsApp workflows contain four parts: trigger, rule, reply, handoff. You'll understand what each does and how Meta wires them in different routes.",
+  "body_markdown": "## Workflow setup on the WhatsApp Business Platform\n\n\nWhen you set up on the Platform API, the seven steps come in a fixed order, and each blocks the next, so do them in sequence.\n\n\n1. Create the business portfolio in Meta Business Suite and start verification.\n2. Create the developer app and attach the WhatsApp product.\n3. Add a phone number.\n4. Generate the access token.\n5. Verify the webhook.\n6. Send a first message.\n7. Submit templates.\n\n\nStart verification first, because it is the step people start last and wait on longest; build while it processes.\n\n\nYou can't add a number that's already registered on the WhatsApp consumer or Business app. **If it's, you'll have to delete that account first, and the chat history on it goes with it.**\n\n\nThe temporary token in the developer console expires quickly, so your workflow will fail overnight without warning. Create a system user in the portfolio and generate a permanent token for it instead.\n\n\n### WhatsApp webhook setup and first message\n\n\nBefore it'll send anything, Meta calls your webhook URL with a verification request, and your endpoint must echo back the challenge value.\n\n\nOnce it passes, send the first message to a test recipient. Without an open conversation window, only a template will deliver, which is why the first send usually uses the pre-approved sample template.\n\n\n### WhatsApp templates and the 24-hour window\n\n\nOnce a template is filed under a category, such as marketing, utility or authentication, Meta can still recategorize it on review, which changes what it costs you. Approval isn't instant, and rejections are common for vague variables.\n\n\nWhen a customer messages you, a 24-hour window opens in which you can reply freely. After it closes, only an approved template can reach them.",
+  "published_at": "2026-11-12T14:57:58+00:00",
+  "first_seen_at": "2026-11-12T22:47:49.735684+00:00",
+  "content_hash": "sha256:cc0caa570b6679442ac1537fcf0c99d03e1b77e682d87d2bc179c49587183ce6"
+}

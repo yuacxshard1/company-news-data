@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c91f2d43fd90a8c30f8f01820168ed57d5a4767270241b387557a0c853a2a774",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/arete-27b-by-nous-research-what-we-know-2026",
+  "canonical_url": "https://www.activepieces.com/blog/arete-27b-by-nous-research-what-we-know-2026",
+  "title": "Arete 27B by Nous Research: What We Know (2026)",
+  "summary": "Arete 27B is designed for automation systems. You'll learn its specifications and identify which automation scenarios work best with this model.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces has shipped nothing specific to Arete 27B, and no one here has tested the model, so this section only covers what the platform lets you do with it today.\n\n\nThe Webhook and HTTP integrations are the two the article leans on, and both sit near the top of the library when you sort by popularity.\n\n\nOnce you have an OpenAI-compatible endpoint in front of your own host, the HTTP integration can send the chat request and return the response to the next step. That is Option 1 above, and you can run it before anyone writes an integration.\n\n\nThe same reasoning applies to cost. On the Plus plan at $20 a month you bring your own AI keys.\n\n\nThe tokens, or the GPU time if you self-host, are billed to you at your own rate, which is the number the model page leaves empty. Activepieces can't fill that cell in for you, but it doesn't add a markup to it either.\n\n\nThe platform also doesn't decide which model you run. A tool that resells its own model has made that choice before you log in.\n\n\nHere the choice is yours, so you can run Arete 27B beside a model you already trust and compare the outputs on your own data.\n\n\nThat comparison covers the properties the model card doesn't state: clean JSON on the fifth retry, how long a reply takes on your hardware, and whether the licence lets you ship it to a client.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces, though none of them has told us they use Arete.\n\n\nIf you want to act on this, start with one HTTP step against a test endpoint, and keep the step out of production flows until Nous Research states the licence and context length.\n\n\nIf the model needs to call tools later, you can reach Activepieces from Claude, ChatGPT, Cursor or any MCP client, which covers the last step of the ladder without building anything new.",
+  "published_at": "2026-11-15T13:18:12+00:00",
+  "first_seen_at": "2026-11-10T16:34:02.314044+00:00",
+  "content_hash": "sha256:f51955aca811190c6b30b3aa58f9cce3e19295ed255596985784afa7a1cc5d31"
+}

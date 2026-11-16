@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bebb846c10914d0aa7ee399d17d3f8ca30db0a8780564b46556d08847e3ab812",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/didit-mcp-server-186-identity-verification-tools",
+  "canonical_url": "https://www.activepieces.com/blog/didit-mcp-server-186-identity-verification-tools",
+  "title": "Didit MCP Server: 186 Identity Verification Tools",
+  "summary": "Didit MCP is a Model Context Protocol server for AI automations launched in June 2026.",
+  "body_markdown": "## Connecting Didit MCP in an Activepieces workflow today\n\n\nTo reach Didit from Activepieces you go through its general building blocks, simplest first, because there is no Didit-specific integration as of 2026-11-12. We haven't run any of them against Didit MCP.\n\n\nWhatever you do connect there is an agent tool the moment it exists: the integration action that runs as a flow step is the one the per-project MCP server hands to Claude, ChatGPT, Cursor or an agent you built, and the MCP Server documentation and the open source` packages/pieces` directory both bear that out.\n\n\nNothing gets published or exported a second time for the agent.\n\n\n### Option 1: an HTTP request step\n\n\nStart here. Activepieces can send an HTTP request from any flow, so you can call Didit's regular API directly, with your Didit key in the request headers.\n\n\nFlows are unlimited on every Activepieces plan, the free one included, and a run costs 1 credit however many steps it has, so the free plan's 1,000 credits a month cover 1,000 test runs without an upgrade.\n\n\nThis skips MCP entirely: you handle the endpoints and payloads yourself, from Didit's API documentation.\n\n\nYou get verification results into your flow with the least moving parts, but none of the agent-style tool access that MCP is meant to offer.\n\n\n### Option 2: an AI step with a custom provider\n\n\nIf you want a model to decide when to call Didit, an AI step can point at a custom, OpenAI-compatible provider. Be clear about what this buys you. It gives the model a place to run, not a connection to Didit's tools.\n\n\nUnless you add the Didit calls yourself, the model has nothing to call, so treat this as a stepping stone rather than a finished route.\n\n\n### Option 3: an MCP server\n\n\nIf you want what Didit describes, point an MCP client at` https://mcp.didit.me/mcp` . For Activepieces with MCP support, this is the only option here that reaches Didit's 186 tools through Didit's MCP endpoint itself.\n\n\nCheck first that your Activepieces version lets a flow or agent connect to an MCP server, and how it passes credentials. If it doesn't, fall back to Option 1.",
+  "published_at": "2026-11-12T09:36:46+00:00",
+  "first_seen_at": "2026-11-12T11:32:58.142530+00:00",
+  "content_hash": "sha256:8c6b753999b31442d49a4ce0796b3c9f17236b2b71d07036838c23c11d6294e7"
+}

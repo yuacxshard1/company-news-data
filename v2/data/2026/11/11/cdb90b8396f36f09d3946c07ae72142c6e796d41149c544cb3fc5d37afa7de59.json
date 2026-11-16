@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cdb90b8396f36f09d3946c07ae72142c6e796d41149c544cb3fc5d37afa7de59",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/",
+  "title": "AWS Cloud WAN now supports Flow Logs",
+  "summary": "Discover more about what's new at AWS with AWS Cloud WAN now supports Flow Logs",
+  "body_markdown": "AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how traffic moves across your core network without leaving your AWS Cloud WAN account.\n\n\nUntil now, network administrators had to stitch together VPC Flow Logs from many VPCs, accounts, and Regions to see traffic across their global network. They often depended on other teams for access to those logs. Cloud WAN Flow Logs give core network owners one consolidated view of traffic between VPCs, Regions, and on-premises networks connected over AWS Direct Connect, AWS Site-to-Site VPN, or SD-WAN. You can use this data to troubleshoot connectivity and performance problems, plan capacity from historical bandwidth trends, find unusual traffic patterns, and keep records for security and compliance. Flow log records include IP addresses, ports, protocol, traffic volume, and packet-loss counters, along with Cloud WAN metadata such as segment, Region, service insertion hops and attachment details. You can turn on Flow Logs for an entire core network, a single core network edge, or individual attachments. You can publish them to Amazon CloudWatch Logs, Amazon Simple Storage Service (Amazon S3), or Amazon Data Firehose. Cloud WAN adds no charge for Flow Logs. Standard charges apply for each destination.\n\n\nCloud WAN Flow Logs are available in all AWS Regions where AWS Cloud WAN is available. You can get started with the AWS Management Console, AWS CLI, or API. To learn more, see AWS Cloud WAN Flow Logs[user guide](https://docs.aws.amazon.com/network-manager/latest/cloudwan/cwan-flow-logs) .",
+  "published_at": "2026-11-11T20:05:00+00:00",
+  "first_seen_at": "2026-11-12T02:43:50.804061+00:00",
+  "content_hash": "sha256:85c3f1663f217d581f9ff3b5b102a5ff2d3ad57be466184c14ee59e5cbc5b736"
+}

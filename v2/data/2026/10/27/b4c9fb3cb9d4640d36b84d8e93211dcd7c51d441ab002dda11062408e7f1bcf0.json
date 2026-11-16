@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b4c9fb3cb9d4640d36b84d8e93211dcd7c51d441ab002dda11062408e7f1bcf0",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-agent-tool-approval",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-agent-tool-approval",
+  "title": "Tool approval and questions for AI agents",
+  "summary": "AI agents can now wait for a person without holding a worker. A script, flow or MCP tool can require approval before it runs, and the built-in Ask a question tool lets the agent ask for a choice or missing information, answered from the run page or the chat.",
+  "body_markdown": "### [Tool approval and questions for AI agents](https://www.windmill.dev/changelog/ai-agent-tool-approval)\n\n\nAI\n\n\nFlow editor\n\n\n[v1.850.0](https://github.com/windmill-labs/windmill/releases/tag/v1.850.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_agents#require-approval)\n\n\nAI agents can now wait for a person without holding a worker. A script, flow or MCP tool can require approval before it runs, and the built-in Ask a question tool lets the agent ask for a choice or missing information, answered from the run page or the chat.\n\n\n#### New features\n\n\n- Turn on Require approval in a tool settings tab: the call waits until someone approves or rejects it, and a rejected call, or one unanswered within 30 minutes, reaches the model as not run.\n- The Ask a question tool can offer single or multiple choices, and a free-text answer is always possible.\n- While it waits, the agent releases its worker and resumes where it stopped once answered.",
+  "published_at": "2026-10-27T00:00:00+00:00",
+  "first_seen_at": "2026-11-12T15:49:24.684344+00:00",
+  "content_hash": "sha256:d5203719926601d685ff74d8a712d5fec63a38d834e33a6f1ff9443aab8b9d02"
+}

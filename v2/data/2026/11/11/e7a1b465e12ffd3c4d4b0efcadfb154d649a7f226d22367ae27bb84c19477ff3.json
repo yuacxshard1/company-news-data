@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e7a1b465e12ffd3c4d4b0efcadfb154d649a7f226d22367ae27bb84c19477ff3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/freepik-pricing-2026-plans-credits-and-what-you-pay",
+  "canonical_url": "https://www.activepieces.com/blog/freepik-pricing-2026-plans-credits-and-what-you-pay",
+  "title": "Freepik Pricing 2026: Plans, Credits and What You Pay",
+  "summary": "Freepik pricing varies by plan, from free to premium options with monthly credits.",
+  "body_markdown": "## Activepieces for automating Freepik image generation\n\n\nSet it on a timer and Activepieces, the open-source AI automation platform with an MIT-licensed core that runs repetitive steps for you, can generate Freepik images in scheduled batches. Whichever tool you land on, only people producing in volume will get their setup time back.\n\n\n### When automating Freepik generation is worth it\n\n\nIf you make a handful of images a week, skip this. Typing prompts by hand costs you minutes, while building a workflow costs you an afternoon plus upkeep when something breaks.\n\n\nIt starts paying off when the same batch recurs: a set of product shots every Monday, or social images for a content calendar. Then the hand-clicking is the real cost, and it grows with your output.\n\n\nActivepieces adds nothing to your Freepik bill: it spends the credits your Freepik plan already gives you, and spends them faster if you set it loose carelessly.\n\n\nIts own free plan costs $0 and comes with 1,000 credits a month and unlimited flows, which means the monthly credit limit is your real constraint, not the number of flows you can create.\n\n\nFreepik's API, the doorway that lets other software place requests, may also be billed separately from your subscription. Check Freepik's API pricing and your plan's terms before you build anything.\n\n\n### What a Freepik generation workflow looks like\n\n\nIf Freepik isn't in the catalogue of 747 integrations, roughly 60% of which are community-contributed, you can generate the integration with AI and add it privately to your own instance.\n\n\nThe flow below shows four steps in a row: a schedule starts the run, an HTTP step asks Freepik to generate, a check reads your remaining credits, and a final step saves the results to a cloud folder.\n\n\nActivepieces' pricing page bills that as 1 credit, because the run is the meter and not the steps inside it.\n\n\nSplit the flow into ten smaller steps, each doing one job, and the bill stays at 1 credit, where Zapier's pricing page bills per task and Make's per module, so more steps means a bigger bill there.\n\n\nThe credit check is the one to take seriously, because it stops a batch before it drains the allowance you were counting on.\n\n\nNothing here runs itself without care. Start with a small batch, watch what it spends, and only then widen it. Once you know your real monthly output, you're also better placed to judge whether a bigger plan or an annual commitment makes sense.",
+  "published_at": "2026-11-11T09:22:34+00:00",
+  "first_seen_at": "2026-11-09T21:14:54.840761+00:00",
+  "content_hash": "sha256:3e06874d0f5e7788debe06a6d6b1b215e6bb01698785c93b085923a45eb12d52"
+}

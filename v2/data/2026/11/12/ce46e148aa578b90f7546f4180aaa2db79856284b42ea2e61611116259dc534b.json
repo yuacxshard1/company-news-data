@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ce46e148aa578b90f7546f4180aaa2db79856284b42ea2e61611116259dc534b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/suno-mcp-automation-how-to-set-it-up-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/suno-mcp-automation-how-to-set-it-up-2026-guide",
+  "title": "Suno MCP Automation: How to Set It Up (2026 Guide)",
+  "summary": "Suno MCP automation links your song tool to a local client with community servers. You'll have it running with your Suno account in about twenty minutes.",
+  "body_markdown": "## Connecting a Suno MCP server in four steps\n\n\nFollow four steps and a community Suno server answers in your client, and each one leaves something you can check before you move on.\n\n\n### Step 1: Check prerequisites\n\n\nYou need Node.js installed, because most community servers launch through` npx` , and a desktop MCP client. Claude Desktop is the usual choice.\n\n\nSome setup pages warn that MCP works only in the desktop app, not the web version, so a browser tab will silently show no tools.\n\n\nRun` node --version` in a terminal. A version string means this step is done.\n\n\n### Step 2: Pick a server and read its README\n\n\nUse the GitHub stars chart to see which servers have traction, then treat stars as a filter, not a verdict. Open the top candidates and check the last commit date, open issues mentioning login or generation failures, and whether the README states how it authenticates.\n\n\nIf a popular repository has no recent commits, it is a breakage risk. Keep the one whose README you can follow end to end.\n\n\n### Step 3: Get your Suno credential\n\n\nBecause these servers are unofficial, the credential is whatever the README says it's. Many ask for a session cookie or token copied from your logged-in Suno account, which means it expires and a working setup can stop without warning.\n\n\nStore it in an environment variable or the config's` env` field, never in a file you commit. Note the date you captured it.\n\n\n### Adding the Suno MCP config block and restarting\n\n\nOpen` claude_desktop_config.json` and add an entry under` mcpServers` . The screenshot below shows a client setup page with tabs for Claude, Cursor, Windsurf and other clients, plus a JSON` mcpServers` block that launches a server through` npx` . The shape is what to copy:\n\n\n- one named entry\n- a` command`\n- an` args` array\n- an optional` env`\n\n\nCopy that shape for your Suno entry, using the command and args from the README. Save the file, fully quit the client, and reopen it. If the tools list stays empty, read the client's MCP log before changing anything.\n\n\nYour coding assistant can also be the automation builder:[Activepieces](https://www.activepieces.com/) exposes a per-project MCP server, and Claude, Cursor or Windsurf connected to it can create, edit and explain a flow through real tool calls, with no separate builder UI open.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces. Ask it to build the schedule that calls your Suno server, then read the tool calls and the resulting changes in the run trace.",
+  "published_at": "2026-11-12T15:36:41+00:00",
+  "first_seen_at": "2026-11-12T22:47:49.735684+00:00",
+  "content_hash": "sha256:093a5682ca440242ee4bd06ffa9864919591a86e9ca60059fc9b2708088b07f6"
+}

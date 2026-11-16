@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "628b418475ad23a244c5c5ed5413ef48d68f26a6e539ae547fc06141150733a4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
+  "title": "AWS Secrets Manager now supports cross-account replication",
+  "summary": "Discover more about what's new at AWS with AWS Secrets Manager now supports cross-account replication",
+  "body_markdown": "AWS Secrets Manager now supports cross-account replication, enabling you to maintain a synchronized copy of a primary secret in a secondary AWS account for cross-account access, backup, and disaster recovery. Cross-account replication extends the existing multi-Region replication capability across account boundaries.\n\n\nWith cross-account replication, platform or security teams can own and rotate a secret centrally, and each consuming account gets a local, always-current copy without any shared KMS keys or cross-account secret policies. The replica secret is a full, independent resource, encrypted with a customer managed KMS key owned by the replica account. Secrets Manager updates it automatically whenever the primary secret's value changes, including rotations.\n\n\nYou can keep a live copy of critical secrets in a dedicated recovery or failover account, isolated from ransomware or a compromised primary account. If needed, the replica can be promoted to a standalone secret.\n\n\nCross-account replication is available in all AWS Regions where Secrets Manager is available. For a list of regions where Secrets Manager is available, see the[AWS Region table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .\n\n\nTo learn more, see[Replicate secrets across AWS accounts in the Secrets Manager User Guide](https://docs.aws.amazon.com/secretsmanager/latest/userguide/cross-account-replicate-secrets.html) and the[AssociateCrossAccountReplica API reference](https://docs.aws.amazon.com/secretsmanager/latest/apireference/API_AssociateCrossAccountReplica.html) . For pricing details, see[AWS Secrets Manager pricing](https://aws.amazon.com/secrets-manager/pricing/) .",
+  "published_at": "2026-11-13T08:00:00+00:00",
+  "first_seen_at": "2026-11-13T22:53:51.281678+00:00",
+  "content_hash": "sha256:62d0ced3637447946e522204de566f1470397fde0f797794f4b0aca359fb287e"
+}

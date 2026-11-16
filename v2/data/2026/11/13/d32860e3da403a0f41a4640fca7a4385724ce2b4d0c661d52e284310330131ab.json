@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d32860e3da403a0f41a4640fca7a4385724ce2b4d0c661d52e284310330131ab",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-ripple-65b-preview-open-coding-model-guide",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-ripple-65b-preview-open-coding-model-guide",
+  "title": "What Is Ripple-65B Preview? Hardware and Trial Tips",
+  "summary": "What is Ripple 65B? A 65-billion-parameter coding model you can download with open weights, though its Preview status means behavior may shift.",
+  "body_markdown": "## Connect Ripple 65B Preview to a workflow in Activepieces\n\n\nYou won't find a native Ripple integration in the Activepieces catalogue. You connect it through one of three routes, and the first is the one that costs you least if it goes wrong.\n\n\nStart at the top and move down only when the simpler route stops being enough.\n\n\nFor the first two options, assume you or a host serves Ripple behind an HTTPS endpoint you control.\n\n\n### Option 1: HTTP request step\n\n\nGenerate a Ripple integration with AI and add it privately to your own instance, with no public contribution.\n\n\nRipple can also run on your own provider key, so the spend lands on your provider account.\n\n\nRun the integration against one real task from your test set before wiring anything downstream. A wrong response here only lands in the step output, not in a customer's inbox.\n\n\n### Option 2: AI step with custom provider\n\n\nReselling you a model settles your AI strategy before you open the product, whereas Activepieces runs the model you already chose, so Ripple goes in on your own provider key and the spend lands on your provider account, not ours.\n\n\nIf your endpoint speaks the OpenAI chat format, add a custom OpenAI-compatible provider in the AI settings with a display name, base URL, key and the model name as your host spells it.\n\n\nBring-your-own-key starts on Plus at $20 a month, where every AI step is 1 credit, against 2, 10 or 20 credits when a fast, smart or frontier model is billed through the platform, so you save 50% to 95% per operation.\n\n\nAfter that, any AI step can pick Ripple from the model dropdown. Keep your current model in that same dropdown so rolling back is one selection, not a rebuild.\n\n\n### Option 3: MCP server\n\n\nUse this route only if Ripple sits behind a server that exposes tools over the Model Context Protocol (MCP). Add the MCP integration to your flow and enter the server's URL and whatever authentication it requires.\n\n\nThis is the most moving parts of the three, so it's the hardest to debug when a run fails. Choose it when you need the model to call tools, not just return text.",
+  "published_at": "2026-11-13T22:30:25+00:00",
+  "first_seen_at": "2026-11-08T07:48:02.427766+00:00",
+  "content_hash": "sha256:4d57a0a6dd5fe3cef66792aac2717e31520a478caddbfe8c1e2432db855995ac"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ad62b9b2ab195e1471c99bd5a151926c3c1143e83be719020b6fa55baee2e7e5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
+  "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
+  "summary": "Discover more about what's new at AWS with AWS Glue announces automatic version upgrades for Apache Spark jobs",
+  "body_markdown": "AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported runtimes gives your jobs the latest security patches, performance improvements, and support for evolving table formats such as Apache Iceberg. Auto upgrades include multiple levels of validations including assessing jobs for compatibility with the upgraded runtime, obtaining your consent before executing jobs on a newer version, and validating upgraded job runs against each job's established output profile, so your jobs upgrade with the right guardrails in place.\n\n\nBy setting a job's version to \"Auto\", upgrades that once required weeks of planning and execution now happen automatically. Platform teams can standardize runtime versions across large fleets without chasing individual job owners, and business units without a central upgrade team can keep their jobs current hands-free. Each job is validated against its established output schema, data volume, latency, and format before it upgrades, so you can advance with confidence. Jobs that need code changes keep running safely on their current version, and AWS Glue provides an upgrade analysis with specific fixes you can apply directly or with the Apache Spark upgrade agent.\n\n\nAuto upgrades for AWS Glue are available in all AWS Commercial Regions.\n\n\nTo get started, select \"Auto\" as the AWS Glue version when creating or updating an Apache Spark job using the AWS Glue Studio or AWS CLI, API, and SDKs. Alternatively, you can update multiple jobs at once using the AWS Glue[skill to manage your jobs](https://github.com/aws-samples/aws-glue-samples/blob/8d52b2c004d48b4d15c20cb1b0bd161da0c98a0d/utilities/skills/managing-glue-jobs/README.md) . To learn more, visit the[AWS Glue documentation](https://docs.aws.amazon.com/glue/latest/dg/auto-version-upgrades.html) .",
+  "published_at": "2026-11-12T08:00:00+00:00",
+  "first_seen_at": "2026-11-13T03:41:42.562938+00:00",
+  "content_hash": "sha256:b66be20d10ca54bda778167cb9d80dfd2eb8c632f1eef253e62e69bf4beeb73b"
+}

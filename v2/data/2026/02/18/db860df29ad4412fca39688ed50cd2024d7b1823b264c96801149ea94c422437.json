@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "db860df29ad4412fca39688ed50cd2024d7b1823b264c96801149ea94c422437",
+  "company_key": "digitalocean-holdings-inc-common-stock",
+  "company_name": "DigitalOcean Holdings Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "atom",
+  "url": "https://www.digitalocean.com/blog/ai-platform-llamaindex-integration",
+  "canonical_url": "https://www.digitalocean.com/blog/ai-platform-llamaindex-integration",
+  "title": "DigitalOcean Now Integrates with LlamaIndex",
+  "summary": "We're excited to announce that DigitalOcean now integrates natively with LlamaIndex - one of the most popular frameworks for building RAG applications.",
+  "body_markdown": "We’re excited to announce that DigitalOcean now integrates natively with LlamaIndex - one of the most popular frameworks for building RAG applications.\n\n\nThis means you can now connect your Knowledge Base and LLMs directly to LlamaIndex workflows, using the abstractions you already know. No additional infrastructure. No complex setup. Just install two packages and start building.\n\n\n## Why This Matters\n\n\nIf you’ve built RAG applications before, you know the drill: provision a vector database, set up an embedding pipeline, manage credentials across services, and stitch everything together. It’s a lot of overhead before you write a single line of application logic.\n\n\nWith these new integrations, we’ve done the heavy lifting. Your Knowledge Base handles document ingestion, chunking, and embeddings. The LlamaIndex retriever connects directly to it. Add our LLM integration, and you have a complete RAG pipeline running on managed DigitalOcean infrastructure.\n\n\n## What’s New\n\n\nTwo packages are now available on PyPI:\n\n\n[llama-index-retrievers-digitalocean](https://pypi.org/project/llama-index-retrievers-digitalocean-gradientai/) Connect to your Knowledge Base as a LlamaIndex retriever. Supports hybrid search (keyword + semantic), metadata filtering, and async operations.\n\n\n[llama-index-llms-digitalocean](https://pypi.org/project/llama-index-llms-digitalocean-gradientai/) Use Gradient AI Platform-hosted LLMs in your LlamaIndex workflows. Supports streaming responses and async for high-throughput applications.\n\n\nBoth packages work with LlamaIndex query engines, chat engines, callbacks, and the broader ecosystem.\n\n\n## Get Started in Minutes\n\n\nInstall the packages:\n\n\n```text\npip install llama-index-retrievers-digitalocean-gradientai llama-index-llms-digitalocean-gradientai\n\n\n```\n\n\nFrom there, configure your credentials and drop the retriever and LLM into your existing LlamaIndex code. Check out ourdocumentation for a complete walkthrough and code examples.\n\n\n## What You Can Build\n\n\nThese integrations open up a range of possibilities:\n\n\n- **Support assistants** grounded in your product documentation\n- **Internal tools** that query company wikis and runbooks\n- **Code assistants** with context from private repositories\n- **Research tools** for document-based Q&A\n\n\nIf you’re already using LlamaIndex, you can integrate DigitalOcan into your existing application. If you’re starting fresh, you now have a fully managed path from Knowledge Base to production RAG app.",
+  "published_at": "2026-02-18T20:23:52.293+00:00",
+  "first_seen_at": "2026-11-13T07:30:47.745692+00:00",
+  "content_hash": "sha256:fc7fbe8abf01793ece3934792085b79699b397d8dbff9f1881c13953e4908f40"
+}

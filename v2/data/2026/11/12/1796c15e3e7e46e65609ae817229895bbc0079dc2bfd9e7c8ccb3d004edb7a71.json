@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1796c15e3e7e46e65609ae817229895bbc0079dc2bfd9e7c8ccb3d004edb7a71",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
+  "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+  "summary": "Discover more about what's new at AWS with Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+  "body_markdown": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an Apache Airflow environment. Fine-grained access control is delivered through two new capabilities: IAM Identity Center integration and multi-team environments.\n\n\nWith IAM Identity Center integration, users sign in to the Apache Airflow UI with their corporate identity provider. Authorization is evaluated per request using IAM policies attached to IAM Identity Center Permission Sets, with condition keys that scope access by resource type (DAGs, connections, variables, pools, and more), action, and specific resource ID.\n\n\nWith multi-team environments, several teams can share a single MWAA environment. Each team gets its own DAG folder in Amazon S3, and users see only shared DAGs plus their own teams' DAGs based on IAM Identity Center group membership. Teams reduce cost through shared infrastructure and simplify management by configuring environment settings once. Multi-team environments are based on the Apache Airflow multi-team feature, which is currently in preview.\n\n\nThese features are available in all[AWS Regions](https://docs.aws.amazon.com/mwaa/latest/userguide/get-started.html#regions) where Amazon MWAA is available.\n\n\nTo learn more, visit the[IAM Identity Center integration documentation](https://docs.aws.amazon.com/mwaa/latest/userguide/identity-center-integration.html) and the[multi-team environments documentation](https://docs.aws.amazon.com/mwaa/latest/userguide/multi-team-environments.html) .",
+  "published_at": "2026-11-12T18:00:00+00:00",
+  "first_seen_at": "2026-11-12T22:48:56.490557+00:00",
+  "content_hash": "sha256:b8d883d4288a35fa669e7ca491cf98befea942e4131aa0a7340587eb9963f560"
+}

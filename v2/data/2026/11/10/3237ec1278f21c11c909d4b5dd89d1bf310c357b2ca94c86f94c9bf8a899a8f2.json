@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3237ec1278f21c11c909d4b5dd89d1bf310c357b2ca94c86f94c9bf8a899a8f2",
+  "company_key": "yc-raindrop",
+  "company_name": "Raindrop",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.raindrop.ai/blog/building-for-agents/",
+  "canonical_url": "https://www.raindrop.ai/blog/building-for-agents/",
+  "title": "Building for Agents",
+  "summary": "Ben was right. Your agent can now sign you up for Raindrop, instrument your app, and keep working with Raindrop through MCP.",
+  "body_markdown": "A couple of weeks ago, our CTO Ben tweeted this and it went viral:\n\n\nBen Hylak on X\n\n\nIt went viral because (a) it’s funny and (b) it’s true. Increasingly, people interact with products through agents, including ours.\n\n\nMore than half of our users reach Raindrop through an agent: Claude Code, Codex, Cursor, Devin, or\n\n\n[one they built](https://www.raindrop.ai/blog/sprinkle/) . Until now, though, you still had to sign up for Raindrop yourself. Now your agent can do that too. It creates your Raindrop account, instruments your app, checks its own work, and hands you a link to claim it.\n\n\n## How agent signup works\n\n\nAsk your coding agent:\n\n\n> Set up Raindrop using\n>\n>\n> [raindrop.ai/auth.md](https://www.raindrop.ai/auth.md)\n\n\nThe agent runs\n\n\n` npx -y create-raindrop` . This creates an org, saves a write key to your\n\n\n` .env` , and returns a claim link. The key can only write. Until someone claims the org, nobody can read its events.\n\n\nThen the agent instruments your app, sends one real event, and checks its work until satisfied your tools, subagents and prompts all appear. See the\n\n\n[docs](https://www.raindrop.ai/docs/integrations/agent-signup) for more info.\n\n\n## Then the agent keeps working for you\n\n\nAfter your agent onboards, the same agent connects to the\n\n\n[Raindrop MCP](https://www.raindrop.ai/docs/mcp/overview) . We generate the tools from the API the app uses, with the same permission checks, so when we ship a feature, the agent gets it too.\n\n\nA year ago, the common advice was to give an MCP server as few tools as possible. Today, first-class harnesses\n\n\n[load tools on demand](https://executor.sh/blog/why-mcp-had-growing-pains) with deferred tool search, so a server can cover a whole product. What matters now is\n\n\n[how well those tools are designed](https://www.raindrop.ai/blog/mcp-design/) .\n\n\n## Get started\n\n\nAsk your agent to set up Raindrop using\n\n\n[raindrop.ai/auth.md](https://www.raindrop.ai/auth.md) . If you already have an account,\n\n\n[connect the MCP](https://www.raindrop.ai/docs/mcp/overview) .",
+  "published_at": "2026-11-10T00:00:00+00:00",
+  "first_seen_at": "2026-11-12T21:08:52.443628+00:00",
+  "content_hash": "sha256:b7ad899766bb1bf52e805f3acbef3ab323c09e7763772bd33332f597b24959e0"
+}

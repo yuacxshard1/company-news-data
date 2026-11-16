@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "abca50cee511e1bc9e99ad2ec062dfe870fe5a672c2b3eccca2e9d3559d2d879",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/skills-gateway",
+  "canonical_url": "https://docs.litellm.ai/blog/skills-gateway",
+  "title": "Share your team's skills with LiteLLM",
+  "summary": "Share agent skills through one registry. Upload ZIPs, review submissions before publication, and see who downloads them with LiteLLM Skills Gateway.",
+  "body_markdown": "Give your team one place to find and share useful agent skills. With **LiteLLM Skills Gateway** , teammates can reuse a skill's instructions and supporting files in their own AI agents.\n\n\nTo help you manage those skills, we've added:\n\n\n- ZIP uploads\n- Admin review\n- Version history\n- Download tracking\n\n\n## Upload a complete skill​\n\n\nSelect **Add Skill** , choose **Upload ZIP** , and select a ZIP with` SKILL.md` and its supporting files.\n\n\n## Review skills before publication​\n\n\nTeam members can submit new skills or propose updates. **Admins approve or reject submissions** before teammates can access the changes. Admins can publish their own uploads without review.\n\n\nOpen **Submissions** to compare a proposal with the published skill, then choose **Approve and publish** or **Reject** .\n\n\nWith a[scanner configured](https://docs.litellm.ai/docs/skills_gateway#optional-security-scans) , an admin can select **Scan for threats** and review the findings before approving a skill. The scan is optional and advisory; the admin decides whether to publish.\n\n\n*Example scan of a test skill, with findings for the admin to review.*\n\n\n## Keep earlier skill versions​\n\n\nUpdate a skill under the same name to publish a new version. You can inspect its version history and download a retained ZIP from an earlier version.\n\n\nNew skills start at` 1.0.0` . Publish the next update as` 1.0.1` with the default patch increment, or set a higher version number.\n\n\n## See who downloads your skills​\n\n\nAdmins can inspect each skill's **download count and authenticated download history** , including who downloaded it and when. Use those records to see which skills teammates pick up and who to ask for feedback.\n\n\n*Example download history for a test skill.*\n\n\nAnonymous and repeat downloads count toward totals. Shared keys identify the key's owner. Downloads do not confirm skill executions or completed installs.\n\n\nOpen **Skills Hub** in the LiteLLM dashboard to share a skill your team uses.\n\n\n[Get started with Skills Gateway](https://docs.litellm.ai/docs/skills_gateway) .",
+  "published_at": "2026-11-11T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T20:16:23.697633+00:00",
+  "content_hash": "sha256:fb2f031098f65f2915546658a4f8a5d274eab5566588c7f9516aba014f501a38"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "97889e07b990cca153c92aedbb2d7cfe2d1163f0adf35c0eba03d263877ee16d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-copilot-api-the-3-options-explained-2026",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-copilot-api-the-3-options-explained-2026",
+  "title": "Microsoft Copilot API: The 3 Options Explained (2026)",
+  "summary": "Microsoft Copilot API is actually multiple APIs, not one. Determine which you need and how to authenticate and manage rate limits.",
+  "body_markdown": "## Run Copilot-backed calls in Activepieces workflows\n\n\nWhen the Copilot-backed call is one step in a larger automation, Activepieces helps; when the call's the whole product, it adds little.\n\n\nIts value is the plumbing around the model call: triggers, branching on failure, and a record of each run, with 742 integrations in the open source monorepo supplying the steps on either side.\n\n\n### When a workflow tool helps\n\n\nLook at the screenshot below: a four-step recruitment flow.\n\n\nIt has a schedule trigger, a Google Sheets lookup for open job offers, a Text AI step selected and configured with the OpenAI provider, GPT-4o (an older model, as shown in the screenshot) as the model and the prompt \"Extract top keywords from the job description\", then an HTTP step that calls a search endpoint.\n\n\nThe thing to take from it is that the model call is a single box with three fields, and everything useful happens in the boxes on either side.\n\n\nThat shape fits Azure OpenAI deployments reached through the HTTP step. You point the step at your deployment's endpoint, pass the key in a header, and then use the step's retry setting and an error branch to decide what happens on a failure.\n\n\nThe branch is where the previous section's advice lives: on a capacity error, route to a second HTTP step aimed at your fallback deployment instead of re-running the first one.\n\n\nBe precise about what the screenshot proves. It shows an OpenAI provider step, not an Azure OpenAI or Copilot Studio one. Treat the HTTP step as the route to Azure, and check any pre-built integration against your own tenant before relying on it.\n\n\n### When to call the API directly\n\n\nCall the API directly when the work is latency-sensitive, streaming, or high-volume. A workflow engine puts a hop between your application and the model, and it gives you no per-token control over quota handling beyond what an HTTP step exposes.\n\n\nIf your code already needs custom backoff, request queuing, or usage tracking across deployments, write it where you can test it.\n\n\nKeep Activepieces for scheduled or event-driven jobs where a failed run should show up in a run trace for someone who doesn't read your codebase.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run it, and every plan, including free, allows unlimited flows, so giving each job its own flow adds nothing to the bill.",
+  "published_at": "2026-11-12T04:28:52+00:00",
+  "first_seen_at": "2026-11-03T12:52:57.822665+00:00",
+  "content_hash": "sha256:0a2d27af232273bea732e25c36468853bfdc9f589d23c1d3035d673992635485"
+}

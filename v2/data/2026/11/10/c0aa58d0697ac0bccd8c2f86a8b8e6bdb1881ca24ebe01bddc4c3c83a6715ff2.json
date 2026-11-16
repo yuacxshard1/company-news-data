@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c0aa58d0697ac0bccd8c2f86a8b8e6bdb1881ca24ebe01bddc4c3c83a6715ff2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-serverless-duckdb-operators/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-serverless-duckdb-operators/",
+  "title": "Amazon MWAA Serverless supports DuckDB operators",
+  "summary": "Discover more about what's new at AWS with Amazon MWAA Serverless supports DuckDB operators",
+  "body_markdown": "Amazon MWAA Serverless now supports DuckDB operators, enabling you to analyze and transform data with high-performance in-memory analytics directly in your workflows. You can query data in Amazon S3 or run analytics locally, without manual credential configuration. DuckDB operators are also supported in SageMaker Unified Studio visual workflows.\n\n\nTo get started in MWAA Serverless, add a DuckDB task to your workflow definition. A pre-created default connection automatically uses your workflow's execution role credentials for S3 access, so you can start analyzing data immediately. In SageMaker Unified Studio, add DuckDB operators from the task panel to your visual workflow canvas.\n\n\nDuckDB operators are available in all[Regions](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/what-is-mwaa-serverless.html#regions) where Amazon MWAA Serverless is available. To learn more, see[Using DuckDB in Amazon MWAA Serverless workflows](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/code-examples-duckdb.html) and[Using serverless visual workflows](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/serverless-visual-workflows.html) .",
+  "published_at": "2026-11-10T18:00:00+00:00",
+  "first_seen_at": "2026-11-12T22:48:56.490557+00:00",
+  "content_hash": "sha256:fd67adde81c46fb5ec2275225387cb703fa12ab501779263d82d3d42361a2205"
+}

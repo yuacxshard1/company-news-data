@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6e943cd20cb894bb417b57d2c689cd0a0cfa92d3bb9654c8e682e1ad6807bcf4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+  "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+  "summary": "Discover more about what's new at AWS with AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+  "body_markdown": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event.\n\n\nYou can now archive Amazon EBS backups held in a logically air-gapped vault to Amazon EBS Snapshots Archive, a low-cost tier for snapshots you rarely access. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed keys. This helps you meet long-term retention and compliance requirements at lower storage cost.\n\n\nYou can get started using the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. In a backup plan rule that runs monthly or less often, specify a logically air-gapped vault as the primary backup destination or copy destination. Then enable Archive Amazon EBS snapshots in the backup rule lifecycle or copy lifecycle and set the time in warm storage before the backup transitions.\n\n\nThis support is available in all AWS Regions where both logically air-gapped vault and Amazon EBS Snapshots Archive are available. For more information and detailed regional availability, visit the[AWS Backup documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region) . To learn more about logically air-gapped vaults, visit the[product documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html) and[pricing page](https://aws.amazon.com/backup/pricing/) .",
+  "published_at": "2026-11-12T08:00:00+00:00",
+  "first_seen_at": "2026-11-13T03:41:42.562938+00:00",
+  "content_hash": "sha256:2b229228db1e35c24dfbf05bcb4a14dd745e3e9ca9b498c8ac9147a2f77be6fa"
+}

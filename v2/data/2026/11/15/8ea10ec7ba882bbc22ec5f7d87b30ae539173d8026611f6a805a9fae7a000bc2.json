@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8ea10ec7ba882bbc22ec5f7d87b30ae539173d8026611f6a805a9fae7a000bc2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/adobe-creative-cloud-automation-a-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/adobe-creative-cloud-automation-a-2026-guide",
+  "title": "Adobe Creative Cloud Automation: A 2026 Guide",
+  "summary": "Adobe Creative Cloud automation lets you speed up design and editing tasks. Find the fastest workflows for your specific job and get working today.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Can I automate Photoshop without writing code?\n\n\nYes: Photoshop's Actions panel records your steps and replays them, and Batch or Droplets apply that recording to a folder of files without any scripting. Most teams stop here, and for resizing, sharpening and export presets, they should.\n\n\nThe gap I see in rollouts is that one person builds a good action and it never leaves their laptop. Export it, name it clearly and put it on a shared drive, or you have automated one person's week and nobody else's.\n\n\n### Is Creative Cloud automation included in my plan?\n\n\nIn-app automation such as actions, batch processing and scripting comes with the app subscription you already pay for. Generative features draw on a credit allowance that differs by plan, so check yours in Admin Console before a team leans on them.\n\n\nAdobe's cloud APIs are a different matter: they're generally licensed separately from seats, so don't assume a Creative Cloud for teams subscription covers them. Ask your Adobe contact before anyone builds a workflow on that assumption.\n\n\n### Does Adobe Creative Cloud work with Zapier or Make?\n\n\nYou can connect either Zapier or Make to Adobe services. They do so either through native connectors where one exists for the action you need, or through their generic web request modules calling Adobe's APIs.\n\n\nCheck the connector's action list against your actual job before you commit, because a connector that exists isn't the same as one that does what you need.\n\n\nWhere Adobe's API is involved, the API licensing above applies no matter which tool sits in front of it.\n\n\n### Can I run Adobe automation on a schedule?\n\n\nNot from inside the apps themselves. Actions and Batch run when someone opens the app and starts them.\n\n\nFor unattended runs, put the schedule in the layer built for it: an outside workflow tool that fires on a timer and calls Adobe's APIs, or your operating system's task scheduler launching a script on a machine that stays on.\n\n\nThat machine becomes infrastructure someone has to own, which is the part executives forget to budget for.\n\n\n### What should I set up first on Monday?\n\n\nPick the single most repetitive job your team does by hand and record it as an action. Run it on a real batch, and note who still has to touch the files afterward.\n\n\nIf the answer is one person on one machine, you're done and the in-app layer was the right call.\n\n\nIf the work crosses people, tools or a clock, that's your evidence for moving up a layer, and you'll have a concrete case to put in front of whoever approves the spend.",
+  "published_at": "2026-11-15T02:33:15+00:00",
+  "first_seen_at": "2026-11-15T02:53:26.346629+00:00",
+  "content_hash": "sha256:0c019e472f0500626e524f9bb950d01483042cf083a38b2b2a4bb4e41e41c09f"
+}

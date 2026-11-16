@@ -19,6 +19,16 @@
       "source_kind": "rss",
       "summary": "Howdy, After a good deal of work and testing, I’m happy to announce a new Virtualmin GoAccess module. It is a modern replacement for the AWStats and Webalizer reports, with an interactive, good-looking dashboard that follows your Virtualmin theme in both light and dark modes. What it does: Builds a GoAccess report from each website’s access logs, including rotated and gzip-compressed ones Updates hourly, daily or on demand, with a one-click Update Report button Shows visitors, requested fil...",
       "title": "Virtualmin GoAccess module 1.0.1 initial release"
+    },
+    {
+      "company_key": "yc-virtualmin",
+      "company_name": "Virtualmin",
+      "doc_id": "bab6d489dad4ce5ed25e95f17d17384ae74ad5191ac2e311faa06207962f5dea",
+      "first_seen_at": "2026-11-14T18:27:04.685325+00:00",
+      "published_at": "2026-11-14T15:24:56+00:00",
+      "source_kind": "rss",
+      "summary": "Howdy all, We’ve rolled out Virtualmin GoAccess 1.1.0 to Virtualmin repos. Changes since Virtualmin GoAccess 1.0.1: Add module settings for GeoIP2 Country, City and ASN databases Add a link from reports to the website’s access-log search Fix to use /var/tmp to reduce memory use during report generation Fix to keep reports working when local referrers exceed GoAccess’s filter limit Fix to hide local referrers by default while preserving traffic statistics Fix vertical report layouts to fill t...",
+      "title": "Virtualmin GoAccess module 1.1.0 released"
     }
   ],
   "company_key": "yc-virtualmin",

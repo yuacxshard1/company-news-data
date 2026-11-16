@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1464c43005e49e3be2d4f2140e153c49b241f4fe1510bca133d4c0caf7e2b1d4",
+  "company_key": "yc-riot",
+  "company_name": "Riot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://tryriot.com/blog/ai-phishing/",
+  "canonical_url": "https://tryriot.com/blog/ai-phishing/",
+  "title": "AI Phishing in 2026: What's Changed, and What’s Next in 2027",
+  "summary": "AI phishing in 2026 is faster, hyper-personalized, and harder to spot. See what’s coming in 2027 and how CISOs and IT leaders can respond.",
+  "body_markdown": "## What is AI phishing?\n\n\n**AI phishing** is a form of cyberattack that uses generative AI to research targets and impersonate trusted people or organizations across email, chat, voice, and video.\n\n\nHere's what a 'typical' AI phishing attack looks like in practice:\n\n\nMel, a finance manager, receives an email from her CEO, Simon, asking her to authorize an urgent payment to a new vendor before EOD. She hesitates because the amount is larger than usual, but a minute later her phone rings: it's Simon. His voice is warm and friendly, if not a little rushed.\n\n\n\"Mel, did you get my email? Yes, push that through; it's time-sensitive.\"\n\n\nShe has no reason to doubt it's him, so she approves the payment. But the email was AI-generated to match the tone of Simon’s LinkedIn posts, the call was a cloned voice based on Simon’s appearance on a business podcast last week, and the account for the ‘new vendor’ actually belonged to the attacker. Mel transfers the payment – and the money is gone before anyone realizes the real Simon never sent the original email.\n\n\nAI phishing removes all the classic warning signs of phishing, such as awkward grammar and generic greetings, and lets scammers personalize tailored attacks at scale.\n\n\n### How an AI phishing attack works:\n\n\n1. **Research:** A scammer uses AI to scrape LinkedIn, company websites, press releases, and breach data. In one[Harvard-led study](https://www.schneier.com/academic/archives/2026/06/evaluating-large-language-models-ability-to-automate-spear-phishing.html) , an automated tool built accurate target profiles in 88% of cases.\n2. **Generate:** Language models write fluent, on-brand messages in any language, matching the tone and context of the desired communication.\n3. **Personalize:** Each message names real colleagues, projects, or suppliers.\n4. **Send and adapt:** Lures that underperform are rewritten and resent automatically, improving the performance of the attack over time.",
+  "published_at": null,
+  "first_seen_at": "2026-11-13T02:34:10.773744+00:00",
+  "content_hash": "sha256:d5836335bf678bd0a67ad981d383305f8afea686d42a50eefa7c32c9a8675cd0"
+}

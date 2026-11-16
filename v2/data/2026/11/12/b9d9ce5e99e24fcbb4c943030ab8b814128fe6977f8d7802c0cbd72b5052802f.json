@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b9d9ce5e99e24fcbb4c943030ab8b814128fe6977f8d7802c0cbd72b5052802f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/exa-3-0-workflow-setup-for-agents-one-stage-at-a-time",
+  "canonical_url": "https://www.activepieces.com/blog/exa-3-0-workflow-setup-for-agents-one-stage-at-a-time",
+  "title": "Exa 3.0 Workflow Setup for Agents, One Stage at a Time",
+  "summary": "Exa 3.0 workflow runs authenticated searches returning page contents in one response. Set up your system, understand its limits, and fix common issues.",
+  "body_markdown": "## Which Exa plan fits you\n\n\nStart on the Lite search type at **$4 per 1,000 requests** , and move up only when the results force you to, meaning you spend nothing on premium search power until you actually need it.\n\n\nThese rates come from[Usagepricing](https://www.usagepricing.com/blueprint/exa-ai) , checked 2026-11-12. They're per-request rates, not seat plans, so every monthly figure below is request volume multiplied by rate.\n\n\n### Which Exa plan for solo testing\n\n\nAt $4 per 1,000 requests, a solo builder running 1,000 test searches in a month pays $4 on Lite, making early experimentation financially negligible.\n\n\nLite is the cheapest type, not the most capable. That is the catch. If your results come back thin, Fast and Auto both cost $7 per 1,000, so the same 1,000 searches become $7.\n\n\n> Lite is the cheapest type, not the most capable. That is the catch.\n\n\n### Which Exa plan for a team of five\n\n\nIf five people run 1,000 searches each, that makes 5,000 requests a month. On Lite that's $20, and on Auto at $7 per 1,000 it's $35.\n\n\nThe $15 gap is small, which means the choice should follow result quality, not budget. Pick Auto if your team can't tolerate misses, and Lite if speed of iteration matters more.\n\n\n### Team of 25 with SSO or admin needs\n\n\nAt 1,000 searches each, 25 people make 25,000 requests. That's $100 on Lite, $175 on Auto, or $300 on Deep at $12 per 1,000.\n\n\nSettle SSO, admin controls and seat floors with Exa directly before you commit. The published per-request rates don't cover them, and the request cost won't be the part that changes your bill.\n\n\n### Heavy API volume\n\n\n**At 100,000 requests a month** , Lite costs $400, Fast or Auto cost $700, and Deep costs $1,200, turning the technical choice of search tier into one with genuine budget consequences.\n\n\nAt this volume a single search-type decision moves the bill by $800 a month, a difference that becomes nearly $10,000 annually if you select the wrong tier.\n\n\nRun Lite as the default, send only the queries that need depth to Deep, and measure the split before you scale.\n\n\nIf 10% of 100,000 requests go to Deep, you pay $360 for those and $360 for the Lite remainder, $720 in total instead of $1,200.",
+  "published_at": "2026-11-12T06:19:02+00:00",
+  "first_seen_at": "2026-11-12T11:32:58.142530+00:00",
+  "content_hash": "sha256:7f3d4cd03435ff536c4e6df91534c70e90557a9d6110d93ab5d51bfa5c23e70f"
+}

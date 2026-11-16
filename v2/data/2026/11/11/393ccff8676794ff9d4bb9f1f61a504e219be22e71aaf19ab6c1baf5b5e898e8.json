@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "393ccff8676794ff9d4bb9f1f61a504e219be22e71aaf19ab6c1baf5b5e898e8",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/ungodly-azra-games-mobile-rpg-unity",
+  "canonical_url": "https://unity.com/blog/ungodly-azra-games-mobile-rpg-unity",
+  "title": "The gods are dead. But not forever: Inside Azra Games’ UnGodly",
+  "summary": "UnGodly is a dark-fantasy action RPG built with Unity for iPhone Duo, Android, Mac, PC, and Apple Vision Pro. Azra Games explains its console-like mobile vision.",
+  "body_markdown": "## **Console quality on mobile hardware, built on Unity**\n\n\nWe want the richness and visual engagement of a modern console game with the convenience of a mobile device, but we also need to reach players on devices with very different performance profiles. That means balancing visual fidelity, memory, rendering cost, and content delivery.\n\n\nWe built *UnGodly* on Unity 6.3 LTS, using URP with Forward+ rendering. Forward+ gives us the flexibility to support the dynamic lighting and visual effects that define the game, from atmospheric environments and imposing architecture to combat encounters filled with spectacular abilities.\n\n\nWe combine baked and real-time lighting to give *UnGodly* its distinctive atmosphere while keeping rendering costs under control. That balance matters most during combat, where multiple Primals, enemies, and visual effects can be active at once.\n\n\nOur central technical challenge has been maintaining responsive real-time action combat without compromising the visual spectacle. Players need to read enemy attacks, execute precise dodges, switch between Primals, and unleash powerful Essence Bursts, all while the world around them stays visually rich and alive. Unity’s rendering pipeline gives our artists and engineers the tools to make deliberate choices about where visual complexity matters most and where performance must take priority.\n\n\nBut rendering is only half the job. An RPG of this scale carries a large and constantly growing library of characters, environments, animations, and effects. Unity’s[Addressables](https://unity.com/how-to/simplify-your-content-management-addressables) system helps us organize and manage that content, supporting a development pipeline built for both launch and years of ongoing updates. *UnGodly* is a live game, and a shared technology foundation lets our teams spend their time on gameplay and content instead of re-solving the same problems for every device.",
+  "published_at": "2026-11-11T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T23:10:05.555895+00:00",
+  "content_hash": "sha256:92ce3284086d7d26fb317b4dccabbb235b40d2f1facf27177a7ee94e2e7f592e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "03f81ec3c7a97655e3abc0176db29667e8672e24286b915561b4ef6ea67b2bc0",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/ai-agent-compaction-memory",
+  "canonical_url": "https://www.windmill.dev/changelog/ai-agent-compaction-memory",
+  "title": "Compaction memory for AI agents",
+  "summary": "An AI agent can now keep its whole conversation: as it nears the model's context window, the older part is summarized instead of dropped. The run details still show every message and tool result. Chat mode turns this on by default, and steps already set to Last messages keep it.",
+  "body_markdown": "### [Compaction memory for AI agents](https://www.windmill.dev/changelog/ai-agent-compaction-memory)\n\n\nAI\n\n\nFlow editor\n\n\n[v1.820.0](https://github.com/windmill-labs/windmill/releases/tag/v1.820.0)\n\n\n[Docs](https://www.windmill.dev/docs/core_concepts/ai_agents#memory-auto--manual)\n\n\nAn AI agent can now keep its whole conversation: as it nears the model's context window, the older part is summarized instead of dropped. The run details still show every message and tool result. Chat mode turns this on by default, and steps already set to Last messages keep it.\n\n\n#### New features\n\n\n- Compaction memory keeps the whole conversation and summarizes its older part as it nears the context window.\n- The context window comes from the model, with 128K tokens for an unrecognized model; set Context window under the memory setting for a custom model.\n- Enabling chat mode turns managed memory on, with compaction.\n- Each step keeps up to 100KB of memory, unless instance object storage is configured (Enterprise Edition).",
+  "published_at": "2026-09-29T00:00:00+00:00",
+  "first_seen_at": "2026-11-11T21:06:22.562319+00:00",
+  "content_hash": "sha256:f598655bbe7ecbfb932121c14ea7ac09ae99ef83cb8010bfff6689286cc5c1fc"
+}

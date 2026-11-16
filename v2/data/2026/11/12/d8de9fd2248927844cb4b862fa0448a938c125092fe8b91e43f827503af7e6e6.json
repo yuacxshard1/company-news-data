@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d8de9fd2248927844cb4b862fa0448a938c125092fe8b91e43f827503af7e6e6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/",
+  "title": "Apache Airflow UI available in Amazon MWAA Serverless",
+  "summary": "Discover more about what's new at AWS with Apache Airflow UI available in Amazon MWAA Serverless",
+  "body_markdown": "Amazon MWAA Serverless provides the native Apache Airflow UI for your workflows. You can browse workflows, inspect workflow runs and task instances, read task logs, view a workflow's source and versions, and start a workflow run. The UI uses the permissions of the IAM identity that opens it and shows only what that identity can read, so read-only access is possible. AWS CloudTrail records the calls the UI makes under your identity.\n\n\nYou can open the Airflow UI from the Amazon MWAA console, the AWS CLI, or the API. Teams already familiar with Airflow can use the interface they know to work with their workflows.\n\n\nThis feature is available in all AWS Regions where Amazon MWAA Serverless is available. For more information, see the[AWS Region table](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/what-is-mwaa-serverless.html#regions) .\n\n\nTo get started, see[Access the Airflow UI](https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/workflows-airflow-ui.html) . Apache Airflow is a trademark of the[Apache Software Foundation](https://www.apache.org/) .",
+  "published_at": "2026-11-12T18:00:00+00:00",
+  "first_seen_at": "2026-11-14T03:11:15.144654+00:00",
+  "content_hash": "sha256:02c1e5c7af5cc5453a2c303d53eecf30687c33420cd8f00fb17a2e36f34b307c"
+}

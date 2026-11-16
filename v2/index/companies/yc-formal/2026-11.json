@@ -5,60 +5,60 @@
       "company_name": "Formal",
       "doc_id": "3c3aaa1acd6f2a290c69c0c861f76735087bedd9c07a3df25ff86de89724c039",
       "first_seen_at": "2026-11-10T11:59:42.442424+00:00",
-      "published_at": "2026-11-09T00:00:00+00:00",
+      "published_at": "2026-11-10T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Claude Managed Agents isolate each session and keep vault secrets out of the sandbox. What stays on you: MCP servers, egress by host, keys and logs.",
-      "title": "Claude Managed Agents: Who Secures What"
+      "title": "Claude Managed Agents: What Stays on You"
     },
     {
       "company_key": "yc-formal",
       "company_name": "Formal",
       "doc_id": "71a18cf63ec7104e5dab464fce3ded0589420f7efce774c63b99b1c4a856cc7b",
       "first_seen_at": "2026-11-07T07:41:31.933949+00:00",
-      "published_at": "2026-11-06T00:00:00+00:00",
+      "published_at": "2026-11-10T00:00:00+00:00",
       "source_kind": "html",
       "summary": "MCP vs skills: an MCP server gives an agent access, a skill teaches it a task and can ship scripts. When to use each, and how to govern both.",
-      "title": "MCP vs Skills: When to Use Each, Govern Both"
+      "title": "MCP vs Skills: When to Use Each, Secure Both"
     },
     {
       "company_key": "yc-formal",
       "company_name": "Formal",
       "doc_id": "8239dfcbc6f42a3f4694149994061c2865f5c3aa2532eb8dbf1fb776d6b7197b",
       "first_seen_at": "2026-11-04T03:29:29.365373+00:00",
-      "published_at": "2026-11-03T00:00:00+00:00",
+      "published_at": "2026-11-10T00:00:00+00:00",
       "source_kind": "html",
       "summary": "What Claude Code dangerously-skip-permissions turns off, what still applies, and how to run YOLO mode with egress policy and keys kept off the machine.",
-      "title": "Claude dangerously-skip-permissions, Safely"
+      "title": "dangerously-skip-permissions: Run It Safely"
     },
     {
       "company_key": "yc-formal",
       "company_name": "Formal",
       "doc_id": "a26a9ee28b712579ea95bd0d1718e44ac43d5d76cf9585809c3b6b03b9fce7cf",
       "first_seen_at": "2026-11-07T07:41:31.933949+00:00",
-      "published_at": "2026-11-06T00:00:00+00:00",
+      "published_at": "2026-11-10T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Claude Code hooks can block a tool call before it runs. We tested what a PreToolUse hook sees, where it fails open, and who can turn it off.",
-      "title": "Claude Code Hooks: What They Can't Stop"
+      "title": "Claude Code Hooks: I Tried to Get Past Them"
     },
     {
       "company_key": "yc-formal",
       "company_name": "Formal",
       "doc_id": "cc3f6e0535d18331a6522d4ba8832c206d18b93c9eb934de1c5e8515fd5a94b3",
       "first_seen_at": "2026-11-10T11:59:42.442424+00:00",
-      "published_at": "2026-11-09T00:00:00+00:00",
+      "published_at": "2026-11-10T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Claude Code Router points Claude Code at other models through a local gateway. We installed 3.1.3: where it keeps keys, what it logs, what it rewrites.",
-      "title": "Claude Code Router on Company Laptops"
+      "title": "Claude Code Router Tested on a Work Laptop"
     },
     {
       "company_key": "yc-formal",
       "company_name": "Formal",
       "doc_id": "f3e3ff0fc0804f79fa17066dff75cc88a23db0542231024b322183fb91bf4fd2",
       "first_seen_at": "2026-11-04T03:29:29.365373+00:00",
-      "published_at": "2026-11-03T00:00:00+00:00",
+      "published_at": "2026-11-10T00:00:00+00:00",
       "source_kind": "html",
       "summary": "The Claude Code sandbox limits writes and domains, but reads ~/.ssh by default and doesn't inspect TLS. How we add egress rules and key injection.",
-      "title": "Claude Code Sandbox: What It Misses"
+      "title": "Claude Code Sandbox: Setup and Blind Spots"
     }
   ],
   "company_key": "yc-formal",

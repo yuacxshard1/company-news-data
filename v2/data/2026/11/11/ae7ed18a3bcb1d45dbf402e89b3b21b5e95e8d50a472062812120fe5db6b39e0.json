@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ae7ed18a3bcb1d45dbf402e89b3b21b5e95e8d50a472062812120fe5db6b39e0",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ses-higher-resource-limits/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ses-higher-resource-limits/",
+  "title": "Amazon SES now supports higher limits for email identities, tenants, and configuration sets",
+  "summary": "Discover more about what's new at AWS with Amazon SES now supports higher limits for email identities, tenants, and configuration sets",
+  "body_markdown": "Amazon Simple Email Service (Amazon SES) now supports higher limits for email identities, tenants, and configuration sets. You can view your current usage against each limit and request increases in the AWS Service Quotas console. A single account can now keep pace with your growth, so you no longer need to split email workloads across several accounts to stay within per-account limits.\n\n\nCustomers running multi-tenant workloads often create a separate email identity, tenant, or configuration set for each customer, brand, or AI agent they serve. As you add more customers, brands, and AI agents, these resources can multiply quickly, and higher limits let all of these workloads grow in one account. To help you manage larger accounts, you can now also search these resources by name or status.\n\n\nHigher limits for email identities, tenants, and configuration sets are available in all AWS Regions where Amazon SES is available.\n\n\nTo learn more, see[Service quotas in Amazon SES](https://docs.aws.amazon.com/ses/latest/dg/quotas.html) in the *Amazon SES Developer Guide* and the[Amazon SES](https://aws.amazon.com/ses/) product page.",
+  "published_at": "2026-11-11T08:00:00+00:00",
+  "first_seen_at": "2026-11-11T21:58:06.819345+00:00",
+  "content_hash": "sha256:f42912fa8a9dad66aef7c126c56890f6509427b5c420325d463b013390fa7d27"
+}

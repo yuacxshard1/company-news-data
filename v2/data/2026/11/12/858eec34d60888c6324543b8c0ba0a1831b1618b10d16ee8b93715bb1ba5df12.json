@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "858eec34d60888c6324543b8c0ba0a1831b1618b10d16ee8b93715bb1ba5df12",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-structured-data-source-restrictions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-structured-data-source-restrictions/",
+  "title": "AWS Quick enhances granular governance with the ability to restrict structured data sources",
+  "summary": "Discover more about what's new at AWS with AWS Quick enhances granular governance with the ability to restrict structured data sources",
+  "body_markdown": "Today, AWS Quick is announcing the general availability of structured data connector restrictions through custom permissions. This capability gives administrators granular control over which types of data sources users can create, update, or share, helping organizations enforce data governance requirements while enabling self-service analytics.\n\n\nWith this feature, administrators can configure[custom permissions profiles](https://docs.aws.amazon.com/quick/latest/userguide/custom-permissions.html) in Enterprise edition through the Quick UI, APIs, or AWS Command Line Interface. For example, an organization can allow users to create Amazon Redshift data sources while restricting the creation of file-upload data sources. Administrators can also prevent users from sharing data sources for a particular connector. Create, update, and share restrictions can be configured independently, providing more precise controls than restrictions that apply to all data source types.\n\n\nThis feature is now available in all supported AWS Quick Regions listed[here](https://docs.aws.amazon.com/quick/latest/userguide/regions.html) . To learn more, check our documentation[here](https://docs.aws.amazon.com/quick/latest/userguide/custom-permissions.html) .",
+  "published_at": "2026-11-12T09:00:00+00:00",
+  "first_seen_at": "2026-11-12T22:48:56.490557+00:00",
+  "content_hash": "sha256:d2b7fbb4e07e82ad059d982a7be291896b195289ab41586a2344182426647598"
+}

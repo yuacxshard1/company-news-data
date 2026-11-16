@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2e1f9dc0f8732b337f12f15e98ef571a3dabbe09f74d60e4ce2d61fb746c8883",
+  "company_key": "yc-boundary",
+  "company_name": "Boundary",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://boundaryml.com/blog/transparency-as-a-tenet",
+  "canonical_url": "https://boundaryml.com/blog/transparency-as-a-tenet",
+  "title": "Transparency as a Tenet",
+  "summary": "Exposing the inner workings of BAML",
+  "body_markdown": "BOOM! A new feature for BAML: the Raw cURL Panel. This addition allows users to view the raw request that BAML dynamically generates for you based on the provider you're using and your use cases, providing full transparency through BAML's abstractions.\n\n\nError rendering video\n\n\nOur request builder seamlessly renders the changes in your prompt and the client you're using! The requests are execution-ready — no further modifications are needed. You can run them with your preferred providers in just one click.\n\n\nTransparency is a core principle at BoundaryML, particularly in an industry where complex abstraction layers often obscure the underlying processes. BAML achieves this transparency because **WE DEVELOPED OUR OWN PROGRAMMING LANGUAGE.** Unlike imported libraries, which lack the flexibility to support such transparency, BAML allows us to effortlessly showcase our core values.\n\n\nNo other LLM querying library offers this capability.\n\n\nThis feature even came in handy for our own debugging! Notice in our cURL that we were sending an empty text object before each image (patched that!)\n\n\nNow you can see all that goes into BAML's magic! We're excited to see how you use this feature to understand and optimize your own models.\n\n\n### [Try it yourself here!](https://www.promptfiddle.com/See-the-cURL--iqwcX) or[visit our repo here!](https://github.com/BoundaryML/baml)\n\n\n---",
+  "published_at": "2024-06-28T00:00:00+00:00",
+  "first_seen_at": "2026-11-12T01:26:56.040316+00:00",
+  "content_hash": "sha256:7495467f0e94d30541c50727aa5c2937bfabbe5b8532ec98a2c10b096e3ea146"
+}

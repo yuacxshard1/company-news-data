@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "adac413ddd52437d3c414089281c3b9db06849942f5e9bff185fa47748b74b72",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/nod-by-n8n-what-it-is-and-whats-known-2026",
+  "canonical_url": "https://www.activepieces.com/blog/nod-by-n8n-what-it-is-and-whats-known-2026",
+  "title": "Nod by n8n: What It Is and What's Known (2026)",
+  "summary": "Nod by n8n runs automation locally, contrasting with cloud services like Activepieces. See whether local execution benefits your specific automation needs.",
+  "body_markdown": "## How to connect nod to a workflow in Activepieces today\n\n\nYou connect through its general steps, because Activepieces has no native nod support: its repository and integration catalog, checked on 2026-11-11, contain nothing specific to nod. We haven't run nod, so every route below depends on what nod actually exposes.\n\n\nSimplest comes first, and each step applies only if the check before it turns up a matching interface:\n\n\n1. Check nod's docs for an exposed endpoint.\n2. Call it with an HTTP request step.\n3. If the endpoint is OpenAI-compatible, point an AI step at it.\n4. If nod has an MCP server, connect that.\n\n\nWhichever route you take, settle ownership first: name the credential nod requires, its scope, and the person who'll rotate it.\n\n\nFor the HTTP request route, none of the 747 integrations counted in Activepieces' open source monorepo is specific to nod, so the endpoint nod's docs list is the whole interface, with no integration between you and it.\n\n\nNote the authentication header nod expects and store it as a connection, not as text typed into the flow.\n\n\nBecause nod runs locally, the machine hosting Activepieces must be able to reach it, which a cloud-hosted instance usually can't. Every Activepieces plan can run on its cloud or on-prem, and the Community Edition is free to self-host under the MIT licence.\n\n\nThat reachability requirement points toward a self-hosted install, where the usual trade is a stripped build with the controls held back.\n\n\nActivepieces doesn't make that trade: the enterprise controls (single sign-on, SCIM provisioning, custom roles, audit logs, release management and secret managers) are the same list in the air-gapped build as in the managed cloud, so whoever owns nod's credential works under the same roles and audit trail either way.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production, and regulated and public-sector organisations run the air-gapped edition today.\n\n\nIf nod's docs say its endpoint follows the OpenAI request format, an AI step can take nod's base URL and key in place of a hosted provider's. Confirm that claim in the docs rather than inferring it, because a near-match fails on the first call.\n\n\nIf nod ships an MCP server, connect it; MCP is the Model Context Protocol, a standard for exposing tools to agents. Record which tools it exposes and what each can change. Read the docs for the transport and authentication it uses before wiring it in.",
+  "published_at": "2026-11-11T10:52:03+00:00",
+  "first_seen_at": "2026-11-11T17:06:23.973017+00:00",
+  "content_hash": "sha256:c69392f4616da3740dd63b4678726d91c7da995403a5f7d2ed224fafc8cde74c"
+}

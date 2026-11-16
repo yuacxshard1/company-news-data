@@ -23,6 +23,16 @@
     {
       "company_key": "yc-windmill",
       "company_name": "Windmill",
+      "doc_id": "62e0568eca5ed820fffe601b5a372ce92736b4933328f0d5d91fe827d09737b3",
+      "first_seen_at": "2026-11-11T21:06:22.562319+00:00",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Saved AI agents are listed on the home page, created from + New, and run or chatted with from their own page without a flow around them. Anyone who can read an agent can run it, operators included, and it runs as them.",
+      "title": "Standalone AI agents"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
       "doc_id": "72f56069674fca406e3b19cb3a1134f214fa01463433101dc5deb504e7928770",
       "first_seen_at": "2026-10-15T12:24:33.338412+00:00",
       "published_at": "2026-10-09T00:00:00+00:00",
@@ -49,6 +59,26 @@
       "source_kind": "rss",
       "summary": "How do you keep who can do what, and what runs as whom, on an automation platform reviewable? In Windmill, roles, identity mapping, run-as rules and protection rulesets are YAML in git, applied by CI.",
       "title": "Governance for your automation platform, in a git repo"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "acfcdeb7e82126711aecf89f4236da845dd303a778aa315387cd6761f0cd1e36",
+      "first_seen_at": "2026-11-11T21:06:22.562319+00:00",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Share a saved AI agent in Slack channels and it answers bot mentions in the thread, for workspace members as themselves or for anyone in the channel as its run-on-behalf-of identity.",
+      "title": "AI agents answer in Slack"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "b4c9fb3cb9d4640d36b84d8e93211dcd7c51d441ab002dda11062408e7f1bcf0",
+      "first_seen_at": "2026-11-12T15:49:24.684344+00:00",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "AI agents can now wait for a person without holding a worker. A script, flow or MCP tool can require approval before it runs, and the built-in Ask a question tool lets the agent ask for a choice or missing information, answered from the run page or the chat.",
+      "title": "Tool approval and questions for AI agents"
     },
     {
       "company_key": "yc-windmill",

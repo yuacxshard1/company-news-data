@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d6a04e111cb35114e708b62a1e6825b0bd3f055a668bd80014a0f5c46fda8bc8",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
+  "canonical_url": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
+  "title": "Theoretical Limits of Language Model Alignment",
+  "summary": "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2605.07105)\n\n\nLanguage model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning, which maximizes the expected reward under a KL-divergence constraint, and (ii) best-of- NN\n\n\nN\n\n\nalignment, which selects the highest-reward output among NN\n\n\nN\n\n\nindependent samples. Despite their widespread use, the fundamental limits of reward improvement under a KL budget remain poorly understood. We characterize the information-theoretic limits of KL-regularized alignment by deriving the maximum *achievable* expected reward gain for a fixed KL-divergence budget. Our first result provides a closed-form expression for the optimal reward improvement, governed by a Jeffreys divergence term rather than the √KL√KL\n\n\n√\n\n\nK\n\n\nL\n\n\nused in prior analyses. We further reformulate this expression as a covariance under the base model, yielding a practical estimator that predicts achievable alignment gains from base model samples alone. We extend our analysis to the proxy reward setting, showing that the gap between ideal and proxy alignment ( *reward hacking* ) grows with the magnitude of reward error and when the KL penalty factor decreases. We then prove that reward ensembling mitigates reward hacking, providing a theoretical justification for this technique used in practice. Empirically, we compute the KL–reward Pareto frontier for two tasks for LMs, safety and summarization, and show that best-of- NN\n\n\nN\n\n\nclosely approaches the theoretical limit, while PPO and GRPO remain substantially suboptimal. Our theoretical results shed light on several empirically observed phenomena in the alignment literature and suggest that algorithmic improvements are needed to achieve optimal alignment without high inference costs.\n\n\n- * Equal contribution",
+  "published_at": null,
+  "first_seen_at": "2026-11-13T02:30:45.948665+00:00",
+  "content_hash": "sha256:fc64662b35c1aa44132a31671aa4ad80051ba4693f26337509098495e17c87ee"
+}

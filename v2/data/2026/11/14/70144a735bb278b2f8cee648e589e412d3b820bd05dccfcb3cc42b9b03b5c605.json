@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "70144a735bb278b2f8cee648e589e412d3b820bd05dccfcb3cc42b9b03b5c605",
+  "company_key": "yc-flick",
+  "company_name": "Flick",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://flick.art/blog/pixel-art",
+  "canonical_url": "https://flick.art/blog/pixel-art",
+  "title": "AI Pixel Art Generator",
+  "summary": "Make pixel art with AI, from 8-bit sprites to 16-bit game scenes, and animate it. Describe the scene, pick a pixel style, and Flick makes it. Free to try.",
+  "body_markdown": "### Can AI make pixel art?\n\n\nYes. Flick generates pixel art from a text description; name the era (8-bit or 16-bit), ask for hard pixels with no anti-aliasing and give a limited palette, and the image reads as real pixel art rather than a blurred one.\n\n\n### What is the difference between 8-bit and 16-bit pixel art?\n\n\n8-bit pixel art copies 1980s consoles, with large pixels, very few colours and simple shapes, while 16-bit copies early 1990s consoles, with smaller pixels, larger palettes, shading and dithered gradients.\n\n\n### How do I animate pixel art with AI?\n\n\nGenerate the pixel art image, use it as the start frame of an image to video model in Flick, and describe one small motion such as rain or a character breathing, asking the model to keep hard pixels and the same palette. Pruna Draft runs on the free plan.\n\n\n### Can I make a sprite sheet with AI?\n\n\nYes. Ask for one character in several frames of a walk or attack cycle in a single row, every frame the same size and on the same baseline, on a plain background, with no labels or grid lines.\n\n\n### Can I use AI pixel art in my game?\n\n\nYes for prototypes and backgrounds; for sprites a game will animate frame by frame, generate at the pixel size you need and clean up the palette, since a generated image is not tied to an exact pixel grid.\n\n\n### Is the pixel art generator free?\n\n\nYes, it is free to start: the free plan gives 100 credits every week with no credit card, and GPT Image 2.6 runs on it. Video models such as Seedance 2.5 need the Standard plan ($20 a month).",
+  "published_at": null,
+  "first_seen_at": "2026-11-14T12:11:30.559785+00:00",
+  "content_hash": "sha256:726d6f18f5da6da17b3ddb7d1b1b4dd748dffc9c4863d7a03bca8940df908a7c"
+}

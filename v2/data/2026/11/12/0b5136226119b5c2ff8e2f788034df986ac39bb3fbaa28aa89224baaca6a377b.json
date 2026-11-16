@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b5136226119b5c2ff8e2f788034df986ac39bb3fbaa28aa89224baaca6a377b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/automate-poe-api-setup-limits-and-automation-gem",
+  "canonical_url": "https://www.activepieces.com/blog/automate-poe-api-setup-limits-and-automation-gem",
+  "title": "Automate Poe: API Setup, Limits and Automation Gem",
+  "summary": "Automate Poe through its API with usage limits based on points: Premium ($19.99/month) for solo users, while teams calculate total consumption to pick a…",
+  "body_markdown": "## Poe API setup in five numbered steps\n\n\nYou get from no access to a working Poe API call in five steps: get a key, check your points, send a request, add instructions, and store the key safely.\n\n\nEach one is short, and the order matters because a request fails at the first step you skipped.\n\n\nSign in to Poe and open the API key page in your account settings. Copy the key once and treat it like a password.\n\n\nIt's tied to your personal account, so anyone holding it spends your points, and if it leaks you generate a new one and the old one stops working.\n\n\n### Step 2: Check your points balance\n\n\nOpen the balance screen before you write any code. Every API call draws from the same points your chats use.\n\n\nA call that fails with a quota error usually means the balance is empty or a rate limit was hit, not that your code is wrong. Checking first saves you from debugging a problem that isn't in your script.\n\n\n### Step 3: Send the first request\n\n\nBecause Poe's API is OpenAI-compatible, you can use any OpenAI client library with two changes. Set the base URL to the one in Poe's API documentation, and send your key in the` Authorization` header as a Bearer token.\n\n\nIn the` model` field, use a bot name exactly as Poe's docs spell it, since a near-miss returns an error rather than a guess. Send one short user message.\n\n\nA text reply in the response means the key, balance, URL and model name all work, and that's the point where setup is done.\n\n\n### Step 4: Add instructions and options\n\n\nOnce the plain call works, add a system message that says what the bot is for, then set options such as temperature. The configuration panel below comes from a spreadsheet-driven workflow rather than from Poe, and it shows the pattern.\n\n\nUnder the instruction field, which spells out exactly which facts to gather about each company, sits a temperature setting. A test run returned sample output that confirms the step works before anything runs for real.\n\n\nYour Poe call should be built the same way: detailed instructions, one deliberate option, and a test before you rely on it.\n\n\nWhen instructions are written this carefully, a teammate can also rerun the task without asking you what you meant.\n\n\nPut the key in an environment variable and read it at runtime. Never paste it into a script, a shared sheet or a repository.\n\n\nThe practical benefit is that you can share the code freely and rotate the key in one place when you need to.",
+  "published_at": "2026-11-12T03:08:28+00:00",
+  "first_seen_at": "2026-11-12T07:09:44.740030+00:00",
+  "content_hash": "sha256:f8025646e47249869ef1c274046a1efb0d8444c62757cc303a16794e558fd588"
+}

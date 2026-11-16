@@ -10,8 +10,8 @@
   "canonical_url": "https://authologic.com/blog/identity-verification-provider-failover",
   "title": "What happens when an identity verification provider goes down? | Identity Infrastructure Explained",
   "summary": "When an identity verification provider goes down, users finish onboarding only if another route exists. How failover works, what SLAs cover and what to ask.",
-  "body_markdown": "*Last updated: 12 October 2026*\n\n\nWhen an identity verification provider goes down, users can finish onboarding only if another route to the same data exists: a parallel provider for the same method, or another method that returns an equivalent data set. Whether that route opens, and what the user sees, depends on how the flow was set up. Authologic, a trust infrastructure platform, agrees these failure scenarios with each customer at setup.\n\n\n*Written by Helena Suska (Head of Customer Success), Authologic.*",
+  "body_markdown": "When an identity verification provider goes down, users can finish onboarding only if another route to the same data exists: a parallel provider for the same method, or another method that returns an equivalent data set. Whether that route opens, and what the user sees, depends on how the flow was set up.\n\n\nAuthologic, which builds eID-native identity infrastructure for regulated businesses, agrees failure scenarios with each customer at setup.",
   "published_at": "2026-10-12T12:05:50.803+00:00",
   "first_seen_at": "2026-10-12T17:16:55.238457+00:00",
-  "content_hash": "sha256:60e1fa38804d6f7834f93bbba2e183165f93c94cf61076e5ec89d8279bd609eb"
+  "content_hash": "sha256:d3e6f49ff15ce21feefe48f299cbc7c145d4186aa1574056aebef5ffd886f893"
 }

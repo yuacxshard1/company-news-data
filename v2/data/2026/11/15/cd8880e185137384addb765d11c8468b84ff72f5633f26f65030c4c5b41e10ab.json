@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cd8880e185137384addb765d11c8468b84ff72f5633f26f65030c4c5b41e10ab",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/modal-labs-pricing-2026-gpu-rates-plans-and-credits",
+  "canonical_url": "https://www.activepieces.com/blog/modal-labs-pricing-2026-gpu-rates-plans-and-credits",
+  "title": "Modal Labs Pricing 2026: GPU Rates, Plans and Credits",
+  "summary": "Modal Labs pricing charges by the second with no startup fee for basic plans, ideal for bursty workloads. You can compare all tiers and their costs.",
+  "body_markdown": "## Connect Modal endpoints to business workflows with Activepieces\n\n\nActivepieces, an MIT-licensed core with 746 integrations, lets people who don't write code start a Modal job from a form, a CRM event or a timer, so you're likely to find your existing tools already supported. It does nothing to Modal's compute or pricing.\n\n\nThose small runs still bill the way the last section described. What changes is who can start them, and how often.\n\n\n### When a workflow tool fits\n\n\nLeaving a job in a developer's hands has a cost. Every run waits for someone to type a command, or a script sits on a laptop that has to stay on.\n\n\nIf your job should fire when a customer record changes, or at the top of every hour, a workflow tool does that start for you.\n\n\nIn the screenshot, the builder has a test flow open. A Schedule trigger labeled \"Every Hour\" is selected, and the settings panel beside it has a \"Run on weekends\" toggle.\n\n\nBelow the trigger, a step picker lists spreadsheet apps and their actions, such as Insert Row and Find Rows. The \"Generate Sample Data\" panel shows a successful test.\n\n\nTake from this that the trigger, the schedule and the test all sit on one screen, so someone in operations can set the timing without opening code.\n\n\nEvery run's compute you pay for, so a job that doesn't need to run on Saturday shouldn't. That is why the weekend toggle matters for your bill. Activepieces has its own plan and charges, separate from Modal's, so count both when you estimate.\n\n\n### What the Modal call looks like\n\n\nOn the Modal side, a developer exposes a function as a web endpoint, which gives it an ordinary web address.\n\n\nIn Activepieces, you add an HTTP step that sends a request to that address, passing along fields from the form, spreadsheet row or CRM record. Modal starts the function, runs it, and returns the result to the next step in the flow.\n\n\nTwo checks keep the estimate honest. Confirm with your developer how long one call runs, since Modal bills by the second. And confirm how often the trigger fires, since an hourly schedule means a call every hour whether or not there's work to do.",
+  "published_at": "2026-11-15T01:08:23+00:00",
+  "first_seen_at": "2026-11-15T02:53:26.346629+00:00",
+  "content_hash": "sha256:3b6c122320d31a5c7ea1f3766ab90c0d97a334e68ee36e8c4d9957116fccca51"
+}

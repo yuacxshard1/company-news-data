@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2b945290ccb1e292cd0de41deccb50bf9b8663dc0c311ea1323c2086347e6c04",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/fastbrowse-browser-automation-tool-review-2026",
+  "canonical_url": "https://www.activepieces.com/blog/fastbrowse-browser-automation-tool-review-2026",
+  "title": "Fastbrowse: Browser Automation Tool Review (2026)",
+  "summary": "Fastbrowse is a browser-automation tool that changes how AI agents interact with web interfaces. See what capabilities it adds to automation workflows.",
+  "body_markdown": "## How to connect fastbrowse in an Activepieces workflow today\n\n\n### Starting point and plan limits\n\n\nAs of 2026-10-30, Activepieces, the workflow automation platform, had shipped nothing specific to fastbrowse, so there's no native integration to drop in, and we haven't run fastbrowse ourselves.\n\n\nAnything below is a general route, ordered from simplest to most involved, and each one depends on what agent-labs-dev documents.\n\n\nYou'll burn credits while testing, so plan size matters. Free carries[1,000 credits a month](https://www.activepieces.com/pricing) , Plus 10,000, and Team 50,000.\n\n\nA Free account is enough to prove one workflow works, but a retry loop against a flaky endpoint could eat it quickly. Check how many credits each step type consumes before sizing anything.\n\n\nWhichever plan you pick, the three routes follow.\n\n\n### Connect fastbrowse with an HTTP request step\n\n\nStart with an HTTP request step. If fastbrowse exposes an HTTP API, a single request step is the lightest wiring: one URL, one method, headers, a JSON body.\n\n\nConfirm in the maker's docs that an API exists at all, how it authenticates, and what the response shape is, because every downstream field mapping depends on that shape.\n\n\n### Connect fastbrowse as a custom AI provider\n\n\nNext comes an AI step with a custom provider. This works only if fastbrowse speaks an OpenAI-compatible interface, meaning the same request format many model providers copy.\n\n\nConfirm that claim in the docs, along with the base URL and the model names it accepts. If the docs say nothing, treat this route as unavailable.\n\n\n### Connect fastbrowse through an MCP server\n\n\nIf the first two are closed, the heaviest route is left: an MCP server. MCP, the Model Context Protocol, lets an AI agent call external tools through a server. Confirm whether agent-labs-dev ships one, how it runs, and which tools it exposes.\n\n\nActivepieces covers the other direction of MCP too.\n\n\nOnce a piece wraps the HTTP call from route one, that same piece action runs as a step in a flow and appears as a tool on the project's MCP server, so Claude, ChatGPT, Cursor or an agent you built can call it without a second integration.\n\n\nThe code lives in packages/pieces of the MIT-licensed repo, next to the 746 integrations counted there, and an action defined in any of those integrations is the very one the MCP server hands to an agent as a tool, as the Integrations Framework and MCP Server documentation lay out.",
+  "published_at": "2026-11-12T08:01:35+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:a163e14ab971e4678e20945e391439e57115c6ff62141d3a5c462bc4211feda0"
+}

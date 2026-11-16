@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "97965187314f0bc4ede1ad4c104a34ce68a35b2806a643a3f4b34ae634b383c5",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/fusion-360-automation-the-fastest-working-path-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/fusion-360-automation-the-fastest-working-path-in-2026",
+  "title": "Fusion 360 Automation: The Fastest Working Path in 2026",
+  "summary": "Fusion 360 automation combines scripting and cloud APIs. Understand the differences between each method and when to use them for your projects.",
+  "body_markdown": "## Set up a Fusion script step by step\n\n\nGeometry and export work passes that test.\n\n\nThe setup is five steps: open the Scripts and Add-Ins dialog, create a script from the template, add API calls, run and debug it, then optionally promote it to an add-in, so you have a clear sequential path from script creation to deployment.\n\n\n### Step 1: Open Scripts and Add-Ins\n\n\nIn Fusion, open the Utilities tab, choose Add-Ins, then Scripts and Add-Ins. The Shift+S shortcut opens the same dialog. It lists the samples Autodesk ships and any scripts you have made, so you can read working code before writing your own.\n\n\nMenu placement can shift between Fusion releases, so check Autodesk's current API documentation.\n\n\n### Step 2: Create a script from the template\n\n\nUse the create button in the dialog and pick Python or C++. For most shop-floor automation, Python is the shorter path; C++ pays off when you need compiled speed.\n\n\nFusion writes a folder containing the source file and a manifest, a small JSON file that names the script, its author, its description and its type. A folder without a manifest never appears in the list.\n\n\n### Step 3: Add the API calls\n\n\nOpen the template and you get a` run` function with a message box. Replace the body with your calls: get the application object, reach the active design, and create or read geometry from there.\n\n\nWrap the body in a try/except that reports the error to a dialog. Without it, an exception can end the script with no visible sign, and you'll think it ran.\n\n\n### Run and debug a Fusion script\n\n\nSelect the script and press Run. For Python, the dialog's debug option attaches an external editor, typically Visual Studio Code, so you can set breakpoints. C++ debugs in your usual environment.\n\n\nDebug against a small throwaway design first, because a script that edits geometry will edit your real model just as readily.\n\n\n### Step 5: Turn a script into an add-in that loads at startup\n\n\nA script exits once it runs. An add-in stays loaded, so it needs a` stop` function alongside` run` to clean up, and the manifest type changes from script to add-in.\n\n\nTick the run-on-startup option and it loads every time Fusion opens. Use that for toolbar buttons and event handlers, not one-off exports.",
+  "published_at": "2026-11-15T16:42:39+00:00",
+  "first_seen_at": "2026-11-15T20:49:25.744740+00:00",
+  "content_hash": "sha256:d28bbc9bd8c20478be4dd93225e26f9a40fab94889e74a1f91bbbbabb28d466e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8a6f573445ca1eb846d233ce90fed0ccab7f59e583a4feac95e5e1e859057802",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/modal-labs-mcp-what-it-is-setup-and-cost-2026",
+  "canonical_url": "https://www.activepieces.com/blog/modal-labs-mcp-what-it-is-setup-and-cost-2026",
+  "title": "Modal Labs MCP: What It Is, Setup and Cost (2026)",
+  "summary": "Modal Labs MCP is an MCP server letting AI clients call Python functions as tools on serverless compute. Evaluate whether it suits your needs and budget.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is Modal Labs MCP free to use?\n\n\nNot as a single thing, because the MCP part costs nothing and the hosting part doesn't. The protocol is open; what you pay for is the compute your server uses on Modal, billed by usage.\n\n\nTo test, the Starter plan is enough, but a server that stays warm all day is a running cost you should price before you commit.\n\n\nDon't expect Modal's own MCP access to run your tools, because it is aimed at its documentation. Treat it as a way for your coding assistant to read Modal's docs.\n\n\nIt's separate from hosting your own MCP server on Modal, and its current status is worth checking in Modal's docs before you rely on it.\n\n\n### Can Claude or Cursor connect to an MCP server on Modal?\n\n\nYes, if the server is exposed over HTTP. Modal serves a web endpoint at a URL, and a client that supports remote MCP servers connects to that URL with whatever authentication you put in front of it.\n\n\nIf a client only launches local stdio processes, it needs a small local bridge to reach the server, which is extra setup you should plan for.\n\n\nWhere it lives is the difference between Modal MCP and a local server. A local server runs on one person's machine with that person's credentials, and it disappears when they close the laptop.\n\n\nA server on Modal is shared, reachable by URL, and billed by usage. That makes it useful for a team, and it also makes access control and secrets handling your job rather than your laptop's.\n\n\nIf the tools your client needs are CRM, email or Sheets actions, you may not need a Modal server at all.\n\n\nEvery connector in Activepieces is already an agent tool: a integration you connect once runs as a step in a flow and is also a tool schema on the project's MCP server, open to Claude, ChatGPT, Cursor or an agent you built.\n\n\nSo there is no catalog to publish to, no export step and no function to host, which is the work a Modal server would have cost you.\n\n\nThe same integration action serves both uses, and you can see it in packages/integrations in the open source repo, whose core is MIT-licensed; Modal stays for the custom Python and GPU work it's built for.",
+  "published_at": "2026-11-12T14:21:37+00:00",
+  "first_seen_at": "2026-11-12T22:47:49.735684+00:00",
+  "content_hash": "sha256:a69134a6a32b920c33473e2c06bdbfd11bb4374b6623eef877270cf8d5f7b25c"
+}

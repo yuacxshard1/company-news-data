@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1bb2d86d44378539f49f6f17a51b03e2d86ed6360ffa122d4394fadce16a1d9e",
+  "company_key": "yc-dot",
+  "company_name": "Dot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getdot.ai/blog/business-analytics-bench",
+  "canonical_url": "https://www.getdot.ai/blog/business-analytics-bench",
+  "title": "Business Analytics Bench: GetDot, Snowflake and Databricks on real analyst work",
+  "summary": "Business Analytics Bench tests AI data analysts on real analyst work, from a quick number to a finished deck. We ran GetDot, Snowflake Cortex Agent and Databricks Genie on it. GetDot Frontier scored 88.0, Snowflake's agent 77.6 and Genie 39.9.",
+  "body_markdown": "We build[GetDot](https://www.getdot.ai/) , an AI data analyst. Snowflake and Databricks ship their own: Cortex Agent and Genie. Text-to-SQL benchmarks check one query. Real analyst work is a conversation, and it often ends in a chart, a deck or an alert. So we built a benchmark for that work: Business Analytics Bench. Then we ran all three on it.\n\n\n## What the benchmark tests\n\n\nEach task is a business user's request, most of them a follow-up in a longer conversation. They ask for a number, an explanation, a chart, a deck, an Excel workbook, a PDF, a dashboard app or a scheduled alert. The tasks run on three data sets: 90 tables, about 1.1 million rows.\n\n\nAbout 400 checks grade the answers: 42% on accuracy, 19% on thoroughness, 27% on communication and 11% on deliverables. About one in five is critical. Fail one and the task scores zero, because a confident wrong number is worse than no answer.",
+  "published_at": "2026-11-13T00:00:00+00:00",
+  "first_seen_at": "2026-11-13T19:52:20.129553+00:00",
+  "content_hash": "sha256:ca5862649697f01c4a4f2ee3c065c4fc85810e06643b44380b28b7d0a61c3065"
+}

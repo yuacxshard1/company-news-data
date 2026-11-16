@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f58f63ce65139800019e08b409ec858a6901fc1e92aad78f2de7951c9770b370",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gpt-61-terra-pro-pricing-speed-and-capabilities",
+  "canonical_url": "https://www.activepieces.com/blog/gpt-61-terra-pro-pricing-speed-and-capabilities",
+  "title": "GPT 6.1 Terra Pro: Pricing, Speed and Capabilities",
+  "summary": "GPT 6.1 Terra Pro adds new automation capabilities. Understand which workflow tasks could benefit from this model and how it changes what's automatable.",
+  "body_markdown": "## Terra Pro's cost and speed\n\n\nYou **pay about 15 times more per task** for GPT 6.1 Terra Pro than for gpt-5.4-mini on our test, so the gap has to show up in your results.\n\n\n### Terra Pro price on OpenAI's pricing page\n\n\nOn[OpenAI's pricing page](https://developers.openai.com/api/docs/pricing) , gpt-5.4-mini is listed at $0.75 input, $0.075 cached input and $4.50 output per million tokens. Its cheaper neighbours on that page were gpt-6.1-terra at $1, $0.05 and $5. The other is gpt-6-luna at $0.10, $0.01 and $0.50.\n\n\nBecause Luna's input rate is 7.5 times below gpt-5.4-mini's, a high-volume classification step may not need either. Gpt-6.1-sol, a current model, was listed at $2, $0.10 and $10, and gpt-5.6-terra at $2, $0.20 and $12, so a \"Terra\" name does not tell you the tier.\n\n\n### Cost per task in practice\n\n\nOn our small workflow test, Terra Pro cost $0.0022 per task against $0.000142 for gpt-5.4-mini, over fifteen times as much. Median seconds per task are labelled on each bar.\n\n\nRead the chart as a price for the whole task, not per token. At 10,000 runs a month, that's about $22 against $1.42, trivial either way, but it scales linearly if you run millions.\n\n\nWhen steps chain, the seconds on the bars matter more than the dollars. Latency compounds: a model that is slower on one call is slower on every call in a five-step flow, and the wait lands on whoever is watching the run.\n\n\nCheck the bars against your own timeout settings before you change a model field.",
+  "published_at": "2026-11-14T13:07:03+00:00",
+  "first_seen_at": "2026-11-01T17:55:51.870232+00:00",
+  "content_hash": "sha256:14dda93376350dd84e0f4123f50b331585eb913904effc8ba4d65555de0f889c"
+}

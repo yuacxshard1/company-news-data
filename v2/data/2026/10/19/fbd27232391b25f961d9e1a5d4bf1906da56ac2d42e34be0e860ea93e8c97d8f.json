@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fbd27232391b25f961d9e1a5d4bf1906da56ac2d42e34be0e860ea93e8c97d8f",
+  "company_key": "yc-mintlify",
+  "company_name": "Mintlify",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.mintlify.com/blog/improved-admin-mcp",
+  "canonical_url": "https://www.mintlify.com/blog/improved-admin-mcp",
+  "title": "Improved Admin MCP",
+  "summary": "The Mintlify Admin MCP server can now leave comments and suggestions, and its edits no longer need a pull request.",
+  "body_markdown": "The[Mintlify Admin MCP server](https://www.mintlify.com/docs/ai/mintlify-mcp) can now leave comments and suggestions, and its edits no longer need a pull request. Connect any MCP-compatible agent, like Claude Code, Cursor, Codex, or ChatGPT, and it can edit pages, flag changes for your team to review, and publish small fixes straight to main.\n\n\nUntil now, every MCP change went through a git branch and a pull request. Your agent could draft, but someone still had to find the PR and merge it before anything shipped. Now branches commit automatically and show up in the web editor, so the work lands where your team already[reviews changes](https://www.mintlify.com/docs/editor/review) .\n\n\n## Your agent works where your team works\n\n\nInstead of rewriting pages outright, your agent can propose changes for a person to accept. With these additions, the MCP covers everything the[Mintlify agent](https://www.mintlify.com/docs/agent) does. On our internal evals, Claude Code connected to the MCP scores roughly the same as the editor agent, so you can use whichever tool you already have open.\n\n\n## Faster, leaner tool calls\n\n\nWe optimized every tool call for speed and token usage, so long editing sessions cost less and finish sooner.\n\n\n## Get started\n\n\n1. Add` https://mcp.mintlify.com` as an MCP server in your client.\n2. Sign in with your Mintlify account when prompted.\n3. Ask your agent for a change, like *\"Update the authentication guide to reflect our new token expiry and leave a comment for the API team to review.\"*\n\n\nSee the[Mintlify MCP docs](https://www.mintlify.com/docs/ai/mintlify-mcp) for setup by client and the full tool list.\n\n\nNew to Mintlify?[Sign up](https://app.mintlify.com/signup) and connect your agent today.",
+  "published_at": "2026-10-19T00:00:00+00:00",
+  "first_seen_at": "2026-11-12T22:20:18.703287+00:00",
+  "content_hash": "sha256:9e86cfc0971094b4ad56c0cd7363b1490c0a472ed74c092c479cb230c52ddddd"
+}

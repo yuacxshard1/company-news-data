@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "976c79db4e48489e9796fe2687ae9da7c82ce9270b7547928c962f6e770224e5",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/gating-memorization-in-context",
+  "canonical_url": "https://machinelearning.apple.com/research/gating-memorization-in-context",
+  "title": "On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models",
+  "summary": "State Space Models (SSMs) have emerged as a compelling alternative to Transformers, enabling sequence modeling with constant memory and…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2609.16540)\n\n\nState Space Models (SSMs) have emerged as a compelling alternative to Transformers, enabling sequence modeling with constant memory and linear compute. Although SSMs exhibit reasonable performance and favorable computational characteristics, they continue to lag behind Transformers on tasks that require in-context learning and precise retrieval, slowing their adoption for large-scale language modeling. In this work, we demonstrate that both the success and failure of SSMs in these domains can be explained by studying the role of the gating mechanism, a prevalent component in modern recurrent networks. Specifically, we show through theory and experiments that this gating mechanism causes SSMs to first learn an in-weights “memorization” solution, while delaying, or even preventing, convergence to a correct in-context learning solution. Importantly, this happens even in cases where there are no fundamental limitations due to the architecture or its memory capacity. On the other hand, we find that gating is often beneficial for improving generalization to long sequence lengths. Our results illuminate the crucial role of the gating mechanism in shaping both the training dynamics and generalization of SSMs, and provide a basis for understanding and improving linear-time models.\n\n\n- † Harvard University\n- ** Work done while at Apple",
+  "published_at": null,
+  "first_seen_at": "2026-11-11T19:03:35.677349+00:00",
+  "content_hash": "sha256:941410b0d1a06eb4cd0795e408420fda7b01b7b96f07d070ff54b67ce2ac7290"
+}

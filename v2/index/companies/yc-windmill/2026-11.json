@@ -23,12 +23,62 @@
     {
       "company_key": "yc-windmill",
       "company_name": "Windmill",
+      "doc_id": "507d7651af01b6ff76ac46b2d372ac730883649af2df497dc82c245661ac6c40",
+      "first_seen_at": "2026-11-12T21:47:55.619883+00:00",
+      "published_at": "2026-11-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A flow can carry a timeout, in seconds, for its whole run, counted from when it starts running and including time spent sleeping or waiting at an approval. Set it under Runtime > Execution policy > Timeout in the flow settings.",
+      "title": "Flow-level timeout"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "52731f5c4c7bfa8ed4294d52120bd59e6c81e8d6f10849772c0a0bd8e5a08973",
+      "first_seen_at": "2026-11-11T15:25:25.287132+00:00",
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Is it safe to let a SaaS vendor hold your production credentials? After Zeabur, Railway, Vercel and Klue, we think defaulting to it is irresponsible.",
+      "title": "Not self-hosting critical software is irresponsible"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "ca56cb904854d5996ab8b8f63592abb877f73e423a60d79c7049fd2e53e13fe4",
+      "first_seen_at": "2026-11-11T16:04:08.218753+00:00",
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Full-code apps that declare tailwindcss v4 in package.json now get their Tailwind stylesheets compiled, in the web editor and the CLI, with utilities generated from classes in the app and the workspace's shared /ui folder.",
+      "title": "Tailwind CSS v4 in full-code apps"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "cfaf51e294a51f0ea5aedb0601bf3564dcfe99f2f12eda5adeaa7857afaeb053",
+      "first_seen_at": "2026-11-12T15:49:24.684344+00:00",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A variable can read its value from an existing HashiCorp Vault secret instead of storing a copy in Windmill. Only the reference is stored, and the value is read from Vault on every access.",
+      "title": "Vault secret references"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
       "doc_id": "d18a72be102ce4c365216f3a2d8d8e406d4952de0cf63a448ee62626e49a1915",
       "first_seen_at": "2026-11-01T12:20:55.067566+00:00",
       "published_at": "2026-11-01T00:00:00+00:00",
       "source_kind": "rss",
       "summary": "How big is a VMware vRO or vRA migration, really? Run an open source inventory on your export and sort every workflow into retire, merge, wrapper, rebuild or convert.",
       "title": "Size your vRO migration before you price it"
+    },
+    {
+      "company_key": "yc-windmill",
+      "company_name": "Windmill",
+      "doc_id": "e57ba55d10f128f56b08671c08fdbc09fa36d889c06cb13ebc841481e367265f",
+      "first_seen_at": "2026-11-12T15:49:24.684344+00:00",
+      "published_at": "2026-11-04T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A superadmin can link an instance group to an IdP group by group id or full path, and each SAML or OIDC login then adds or removes the user from the groups claim, without SCIM.",
+      "title": "Instance groups linked to IdP groups without SCIM"
     }
   ],
   "company_key": "yc-windmill",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "74b4b48c544c68a8e14599556d4c110eba58e245bcc5394881836153986605a3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
+  "title": "The next generation AgentCore runtime is now the default",
+  "summary": "Discover more about what's new at AWS with The next generation AgentCore runtime is now the default",
+  "body_markdown": "Starting today, new runtimes in Amazon Bedrock AgentCore use the next generation of AgentCore runtime by default. The new runtime restores each session from a snapshot of your initialized agent, scales compute and memory with the work, and scales idle agents to zero. Every session still runs in its own hardware-isolated Firecracker microVM. Your agents can run heavy work like compiling a large codebase, driving a browser, or loading a local model inside the session.\n\n\nSessions scale to 8 vCPU and 32 GB of memory and support container images up to 10 GB. On a 2 GB image, sessions start in under 2 seconds at P75, down from 29.7 seconds on the previous generation. Idle agents scale to zero, and memory is reclaimed within minutes of release. For multi-turn agents, that means up to 68% less billed memory per session.\n\n\nExisting runtimes stay on the current version until you move them. To move an existing runtime, or to use the next generation in a Region where it isn't the default yet, set platformVersion to V2 when you create or update a runtime. To keep a new runtime on the current version, set platformVersion to V1.\n\n\nThe new AgentCore Runtime is now the default runtime in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Canada (Central), South America (São Paulo), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Milan), Europe (Paris), Europe (Spain), Europe (Stockholm), Asia Pacific (Malaysia), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Thailand), and Asia Pacific (Tokyo). To learn more, visit the[AgentCore runtime documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agents-tools-runtime.html) or the AWS Blog. For pricing details, visit[AgentCore pricing](https://aws.amazon.com/bedrock/agentcore/pricing/) .",
+  "published_at": "2026-11-12T05:00:00+00:00",
+  "first_seen_at": "2026-11-12T22:48:56.490557+00:00",
+  "content_hash": "sha256:bbd062b3c7ee51a84bc8475101999802bb388864af2734615db3d599495e57a2"
+}
