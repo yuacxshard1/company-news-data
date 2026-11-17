@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e2bdea55a53469de0e1de47e5bdc061dc0baf1f451777527c625d0d265534b7e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/adobe-acrobat-mcp-server-what-it-does-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/adobe-acrobat-mcp-server-what-it-does-2026-guide",
+  "title": "Adobe Acrobat MCP Server: What It Does (2026 Guide)",
+  "summary": "Adobe Acrobat MCP is a connector that links your AI assistant to Adobe's PDF tools, leaving the intelligence with your assistant and document work with…",
+  "body_markdown": "## Where Activepieces fits around PDF work\n\n\nWhen the PDF job has to run without anyone typing a prompt, Activepieces runs it from a trigger instead of a chat, across 750 integrations in an MIT-licensed core.\n\n\nIt's a workflow tool that reacts to events, and it sits beside Adobe's connector rather than replacing it.\n\n\n### When a chat connector is the wrong shape\n\n\nInside a conversation, Acrobat MCP serves an assistant: a person asks, the assistant calls an Adobe tool, and the person reads the result. That suits ad hoc work, and it fails when the work is recurring.\n\n\nA supplier contract that arrives by form at 2 a.m. will wait until someone opens a chat. Nobody records who approved what, either, because the approval lives in a conversation rather than a process.\n\n\nFrom a control standpoint, the gap is the audit trail. An unattended job needs a defined trigger, a defined step order and a named point where a human decides. Chat gives you none of these by default.\n\n\n### Extract and approve form submission data\n\n\nIn the workflow below, a web form starts it, an AI step extracts structured data from the submission, and a to-do holds the result for human approval.\n\n\nA router then checks that decision. An accepted item continues to a customer record in Stripe, the payment platform. A rejected one triggers an email through Gmail.\n\n\nLook at the approval step. The automation does the extraction, but a person authorizes the consequence, and both outcomes are handled. Activepieces can also expose workflows to MCP clients, so an assistant could trigger one of these flows rather than improvising.\n\n\nThe Integrations Framework and MCP Server documentation describes the mechanism, and packages/integrations in the open source repo, an MIT-licensed core with 750 integrations, holds the code: a integration action that runs as a step in a flow is the same one an MCP client sees as a tool, so you write each integration once and it works in both flow and MCP.\n\n\nHere too, each connection is a new liability line. The form, the extraction service, Stripe and Gmail each see the document's contents.\n\n\nBefore building, search the 750 integrations in the open source repo for PDF handling, and confirm whether Adobe's tools are available as a step. If they aren't, you're assembling a different toolchain, not extending Acrobat.",
+  "published_at": "2026-11-17T09:13:32+00:00",
+  "first_seen_at": "2026-11-17T14:32:43.730564+00:00",
+  "content_hash": "sha256:9f57b44f48fd38ab30d733dba934766753c92ea79367e400639758f98a49d2a7"
+}

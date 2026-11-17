@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a6db2166d8da4d9434c5a581e5ef68dceb088783b8935d8e48f880751c3479d4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/manus-mcp-what-it-is-and-how-it-works-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/manus-mcp-what-it-is-and-how-it-works-2026-guide",
+  "title": "Manus MCP: What It Is and How It Works (2026 Guide)",
+  "summary": "Manus MCP supports the Model Context Protocol, letting autonomous agents call external apps and read data during tasks.",
+  "body_markdown": "## What Manus MCP costs and requires\n\n\nOn every run, a connected chain through Manus costs credits, and **the paid tiers start at $20 a month** , so users choosing a paid plan must budget at least $20 monthly.\n\n\nThe Manus help page lists prices and credits, but not which plan unlocks custom MCP.\n\n\nviz type=dumbbell title=\"What annual billing saves on Manus Pro plans\" unit=\"$ per month\" source=\"Manus Help Center -[https://help.manus.im/en/articles/11711111](https://help.manus.im/en/articles/11711111) \" before=\"Monthly billing\" after=\"Annual billing\"67 a month.\" Pro entry: 20 -> 17 Pro mid: 40 -> 34 Pro high: 200 -> 167\n\n\n[Manus](https://manus.im/blog/manus-100m-arr) 's[help center](https://help.manus.im/en/articles/11711111) lists three Pro tiers:\n\n\n- Billed monthly they cost $20; billed annually they drop to $17 a month, a saving of $36 a year\n- Billed monthly they cost $40; billed annually they drop to $34 a month, a saving of $72 a year\n- Billed monthly they cost $200; billed annually they drop to $167 a month, a saving of $396 a year\n\n\nCheck the connector settings in your own account before you pay, because the page gives no per-plan MCP eligibility I can quote.\n\n\n### Credits used by tool-heavy tasks\n\n\nOn the Free tier you get 300 refresh credits a day. Pro at $20 gets 4,000, Pro at $40 gets 8,000 and Pro at $200 gets 40,000, so there's no efficiency gain from choosing a higher-priced tier.\n\n\nCredits meter AI usage, and a workflow vendor's live[pricing page](https://www.activepieces.com/pricing) is where its current rates are published.\n\n\nAccording to EasyClaw, a web lookup costs 10-20 credits, a research report 200-500 and an 8-slide deck 555. One deck uses more than a full day of free credits.\n\n\nOn the $20 Pro plan that includes 4,000 credits a month, a run is 1 credit however many steps it has, AI steps cost more by model tier, and with your own AI keys every AI step is 1 credit, so your spending is driven by AI usage, not by workflow complexity.\n\n\nI couldn't find a published credit cost per MCP tool call, so measure your own chain's burn before you commit to a tier.\n\n\n### What you host and maintain for Manus MCP\n\n\nYou run a remote MCP server. Manus connects to it, but you keep it online, patch it and rotate its credentials. **If it goes down mid-task, the agent stalls** and the credits already spent are gone.",
+  "published_at": "2026-11-17T12:16:38+00:00",
+  "first_seen_at": "2026-11-17T14:32:43.730564+00:00",
+  "content_hash": "sha256:25108b7325a9653afad1b42557cebc3cae99c70a187f33ff1ab3505316e4af2a"
+}

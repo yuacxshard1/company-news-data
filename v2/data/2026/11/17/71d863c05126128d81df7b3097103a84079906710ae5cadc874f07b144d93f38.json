@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "71d863c05126128d81df7b3097103a84079906710ae5cadc874f07b144d93f38",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/linode-automation-cli-api-and-tools-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/linode-automation-cli-api-and-tools-2026-guide",
+  "title": "Linode Automation: CLI, API and Tools (2026 Guide)",
+  "summary": "Linode automation works through a single Akamai API v4 that all tools wrap. You'll determine which tool or no-code platform fits your needs.",
+  "body_markdown": "## Connect Linode events to other apps with Activepieces\n\n\nFor the narrow job of reacting to a Linode event, Activepieces fits. It calls the Linode API from an HTTP step, using the API token stored as a connection, and posts the result to Slack, while provisioning stays with the CLI and Terraform.\n\n\nA run is 1 credit however many steps it has, and the free plan includes 1,000 credits a month.\n\n\n### When a workflow tool helps and when it does not\n\n\nA workflow tool earns its place where one system's event has to reach a person or another app. A scheduled flow that asks the Linode API for instance status and sends a message to a Slack channel when something is off is a good example.\n\n\nBecause it lives in one connection, rotating the token means editing one record instead of hunting through scripts. And because the token is scoped, a leaked connection can only do what you granted it, such as reading instances, not deleting them.\n\n\n### What a run looks like\n\n\nOn a different service, the screenshot below shows the shape of that pattern.\n\n\nAn \"Instance Stopped\" trigger feeds a single \"Revoke Token\" step, which is a Send HTTP Request action set to POST against an OAuth revoke URL, with the Authorization header supplied by the flow.\n\n\nBoth steps carry green success marks, and the run details show the request input and a 200 response with OK.\n\n\nRead the screenshot as proof that an HTTP step is enough. No custom plugin sits between the flow and the API, so a Linode call is the same kind of step with a different URL and token.\n\n\nIt also shows what you can audit afterward. Each run records the exact request and response, which is the first place to look when a notification never arrived.\n\n\n### Where the boundary sits\n\n\nWhat follows from this is a boundary. Don't have a flow create or resize servers. Provisioning needs to be repeatable, reviewable and diffable, and a canvas of steps gives you none of that.\n\n\n**Terraform keeps state and shows a plan** before it changes anything, and the CLI suits a one-off task you run once and discard. Keep those two in charge of building infrastructure.\n\n\nGive Activepieces, which MoneyGram, Moneypenny, Alan and FundingSocieties run in production, the read-and-notify work around it: telling a channel that a machine changed state, opening a ticket, or handing a payload to another app.\n\n\nRespect the API's documented rate limits by keeping polling flows infrequent, because a flow that checks too often spends the same request budget your scripts depend on.",
+  "published_at": "2026-11-17T12:17:57+00:00",
+  "first_seen_at": "2026-11-17T14:32:43.730564+00:00",
+  "content_hash": "sha256:d1ca6c7e80b22edba9feedb0e9999821b00b2e86e155cbb2d81f185bae83ba0e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7b20d41f19e87f5c3f80b3805079ec681d850a095dfe3d64951aaa81b9180f70",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-office-automation-with-power-automate-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-office-automation-with-power-automate-in-2026",
+  "title": "Microsoft Office Automation with Power Automate in 2026",
+  "summary": "Microsoft Office automation combines Power Automate and Office Scripts. See why one Excel workflow failed at 02:10 and the steps to debug similar failures.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Can Power Automate run Office Scripts on desktop Excel?\n\n\nNo: the Run script action works on workbooks stored in OneDrive for Business or SharePoint and executes the script in the cloud, not in the desktop app on someone's machine.\n\n\nSo a flow that depends on a local file, or on a desktop session being open, belongs on the \"rework before pilot\" list. Move the workbook into Microsoft 365 storage first, then build the flow against it.\n\n\n### Do I need a paid Power Automate licence to run scripts?\n\n\nNot necessarily, but it depends on what else the flow touches. The Excel Online (Business) connector that hosts the Run script action is a standard connector, and eligible Microsoft 365 business and education plans carry Power Automate rights for standard connectors.\n\n\nWhen a flow adds a premium connector or a trigger outside Microsoft 365, the licence question usually surfaces, and that's when a pilot budget stops covering it.\n\n\nCheck your own tenant's plan against Microsoft's current licensing pages before you scale, because the entitlements change and a flow that quietly crosses the line will be flagged late.\n\n\n### Why does my Run script action time out?\n\n\nAlmost always because the script does too much work per run, most often by reading or writing cells one at a time in a loop. Read a whole range into an array, process it in memory, and write it back in a single call.\n\n\nIf the workload is still too heavy, split it across several script runs with a flow loop or a filter step in between. Then set a retry and an alert on the action, so a timeout reaches a person instead of sitting in run history.\n\n\nMicrosoft documents the current execution limits on its Office Scripts platform pages, so read the figure from there rather than from a forum post.\n\n\n### Can VBA macros be converted to Office Scripts?\n\n\nThere's no automatic conversion, so plan on a rewrite. Office Scripts are written in TypeScript against a different object model, and VBA features that rely on the desktop interface, local files or other applications have no direct equivalent.\n\n\nTreat each macro as a requirement: list what it does, check that the behaviour is available in Office Scripts, and rebuild it. Start with the macros that run most often, since those save the most time once they work in a flow.",
+  "published_at": "2026-11-17T10:52:50+00:00",
+  "first_seen_at": "2026-11-17T14:32:43.730564+00:00",
+  "content_hash": "sha256:47fb3f742430894e818c3729f00558905b601d51737303e24b9cd2e6d773bf51"
+}

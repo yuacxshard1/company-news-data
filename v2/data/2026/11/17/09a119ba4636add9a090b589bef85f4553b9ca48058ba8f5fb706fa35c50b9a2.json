@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "09a119ba4636add9a090b589bef85f4553b9ca48058ba8f5fb706fa35c50b9a2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/zoom-calendly-integration-how-to-set-it-up-2026",
+  "canonical_url": "https://www.activepieces.com/blog/zoom-calendly-integration-how-to-set-it-up-2026",
+  "title": "Zoom Calendly Integration: How to Set It Up (2026)",
+  "summary": "Zoom Calendly integration consists of two parts: Calendly's native connector and automation tools.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Does Calendly create Zoom meetings without any automation tool?\n\n\nYes. Calendly's own Zoom integration, set up once in the event type's location setting, generates a unique Zoom link for every booking and puts it in the invite. An automation tool isn't needed for that.\n\n\nWhat it adds is everything around the meeting: reminders, CRM updates, follow-ups, notes.\n\n\n### Can I connect Zoom and Calendly for free?\n\n\nFor the native link, you only need the two accounts and whatever plans they require for the Zoom location option. For the surrounding workflow, free tiers of automation platforms usually cover a small flow like this one.\n\n\nCheck the task or run limits on your plan before you rely on it. A flow that fires on every booking will eat through a low cap faster than you expect.\n\n\n### Can I self-host the automation that links Zoom and Calendly?\n\n\nYes, if you pick an automation platform that offers a self-hosted edition. The flow itself doesn't change: a Calendly trigger, a Zoom action, and an HTTP request or webhook for anything the connectors don't cover.\n\n\nWhat changes is that you now maintain updates, backups and uptime. Your inbound webhook also needs a public address Calendly can reach, so a server behind a firewall needs a proper tunnel or reverse proxy.\n\n\n### Why did my Zoom link not appear in the Calendly invite?\n\n\nMost often the event type's location isn't set to Zoom, or the Calendly-to-Zoom authorization has lapsed and needs reconnecting. Check the event type first, then the connected account.\n\n\nA second cause is a flow of your own that creates a separate Zoom meeting, which leaves two links in play. If your workflow makes meetings, the native link should be switched off for that event type so the invitee sees only one.\n\n\n### Can I add an AI summary after a Zoom meeting booked through Calendly?\n\n\nYes, as an extra step after the meeting ends. Trigger on the Zoom event that signals the meeting finished, fetch the transcript or recording details, and pass the text to a language model through an HTTP request.\n\n\nClaude Sonnet 5.5 is a sensible pick for summaries, balancing speed and quality.\n\n\nThis only works if the meeting was actually recorded or transcribed. No transcript means nothing to summarize, so confirm that setting in Zoom before you test.",
+  "published_at": "2026-11-17T09:31:13+00:00",
+  "first_seen_at": "2026-11-17T14:32:43.730564+00:00",
+  "content_hash": "sha256:43e8f9dcfd90bff5bcc9c6f6b74b79ef6a10cf377c5bd4299e092211234bf929"
+}

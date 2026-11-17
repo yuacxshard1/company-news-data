@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a80149688d4284118a1de3b189d5b614c3d7f3b1b25c174a9d0584354f412bc8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/calendly-hubspot-integration-how-to-set-it-up-2026",
+  "canonical_url": "https://www.activepieces.com/blog/calendly-hubspot-integration-how-to-set-it-up-2026",
+  "title": "Calendly HubSpot Integration: How to Set It Up (2026)",
+  "summary": "Calendly HubSpot integration in Activepieces syncs bookings to your CRM. You can automate contact creation and meeting logging without writing code.",
+  "body_markdown": "## Frequently asked questions\n\n\nFour questions come up once the first booking works, and each has a firm answer in the vendors' own documentation.\n\n\n### Does Calendly connect to HubSpot for free?\n\n\nOnly partly, and the limit's on the Calendly side. **Calendly gates webhook access by plan, so a free Calendly account may not be able to fire the trigger this workflow depends on.** Check your plan in Calendly's help center before you build anything.\n\n\nOn HubSpot's side, the free CRM can create and update contacts, but confirm in the HubSpot knowledge base that the specific actions you want, such as logging a meeting, are open to your tier. If the trigger's blocked, no amount of mapping will fix it.\n\n\n### Can I sync Calendly cancellations to HubSpot?\n\n\nYes. Calendly sends a separate event when an invitee cancels, distinct from the one it sends when they book, and the developer documentation at developer.calendly.com lists both. That means a cancellation needs its own trigger and its own HubSpot action.\n\n\nWithout that trigger, the contact keeps showing a meeting that no longer exists, and a rep will prepare for a call that isn't happening.\n\n\nBuild it as a second, small workflow rather than a branch bolted onto the booking one, so a failure in one can't hide a failure in the other.\n\n\n### Do I need to write code to connect Calendly and HubSpot?\n\n\nNo. A no-code automation builder can take the Calendly booking as its trigger and run HubSpot actions from it. The knowledge base at knowledge.hubspot.com documents the contact properties those actions write to.\n\n\nWhat you'll do instead of coding is decide where each Calendly answer lands in HubSpot, and what happens when a field is empty or a contact already exists.\n\n\nThat's configuration, but it's still the part that breaks, so test it with awkward bookings: a missing phone number, a shared inbox address, a repeat booker.\n\n\n### Can I self-host the workflow?\n\n\nYou can self-host the part you control, not the two services on either end. Calendly and HubSpot are both hosted products, so only the automation layer in the middle can run on your own server, and only if the tool you choose offers that option.\n\n\nIf your chosen tool does, you take on a public endpoint that Calendly can reach, uptime, and retries when your server is down at the moment someone books.\n\n\nMiss a booking during an outage and it's gone unless you've set up a way to replay it. For a single scheduling flow, that overhead is usually the reason to stay with a hosted runner.",
+  "published_at": "2026-11-17T09:58:32+00:00",
+  "first_seen_at": "2026-11-17T14:32:43.730564+00:00",
+  "content_hash": "sha256:1eb8a33f923e2de7b8f803a3dde0fa08a587d685de22f2afadacfcb276e7820c"
+}

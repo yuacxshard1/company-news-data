@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ed64750940bfc614fb11065209fa7950c02f9786b4e74ffcac99e9db809b78e7",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/custom-oidc-third-party-auth",
+  "canonical_url": "https://supabase.com/changelog/custom-oidc-third-party-auth",
+  "title": "Add custom OIDC providers for third-party auth from the Dashboard",
+  "summary": "Add custom OIDC providers for third-party auth from the Dashboard",
+  "body_markdown": "The Third-Party Auth page in the Dashboard now supports custom OIDC providers, in addition to Firebase, Clerk, WorkOS, Auth0, and Amazon Cognito.\n\n\n### What's new\n\n\n- A **Custom OIDC** option in the **Add provider** menu on the Third-Party Auth page. Enter the issuer URL and Supabase registers it for your project.\n- Issuer URLs must use` https://` and can't include a query string, fragment, or credentials. The Dashboard shows an inline error for invalid values.\n- Custom issuers already registered through the Management API now appear in the provider list, labeled **Custom OIDC** with their issuer URL. You can delete them from the Dashboard.\n\n\n### How to use it\n\n\n1. Open **Authentication** > **Third-Party Auth** and select **Add provider** > **Custom OIDC** .\n2. Enter your provider's issuer URL. Its signing keys must be available at the issuer's` /.well-known/openid-configuration` .\n3. Select **Add provider** . Supabase then accepts JWTs signed by that issuer.\n\n\nThe Dashboard doesn't yet support custom JWKS URLs or inline JWKS. Use the Management API for those.\n\n\nSee the[custom OIDC guide](https://supabase.com/docs/guides/auth/third-party/custom-oidc) for the Management API option, the` role` claim, client setup, and RLS policies.",
+  "published_at": "2026-11-17T00:00:00+00:00",
+  "first_seen_at": "2026-11-17T15:10:35.193851+00:00",
+  "content_hash": "sha256:d88360d827091dae08cf6b08c67d5193cd73c31cea17b3ca63bca87f1b70eb2d"
+}

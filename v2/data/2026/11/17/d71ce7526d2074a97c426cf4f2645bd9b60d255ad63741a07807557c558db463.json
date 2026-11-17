@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d71ce7526d2074a97c426cf4f2645bd9b60d255ad63741a07807557c558db463",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepseek-automation-how-to-get-started-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/deepseek-automation-how-to-get-started-2026-guide",
+  "title": "DeepSeek Automation: How to Get Started (2026 Guide)",
+  "summary": "DeepSeek automation triggers API requests from events like emails or schedules. Set it up in code or a workflow builder without intervention.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is the DeepSeek API free to use?\n\n\nNo, API calls are billed by usage, so the trimming advice above's also your cost control. The free chat app's a separate product with its own limits, and it doesn't give your automation a key or a budget.\n\n\nCheck the usage and balance pages in your platform account before a workflow goes live, and decide who gets the alert when the balance runs low.\n\n\n### Can I run DeepSeek locally instead of using the API?\n\n\nYou can, for models whose weights are published, but you then own the hardware, the updates and the 2am page when the server falls over. The hosted API's the quicker route to a working automation.\n\n\nWhen data can't leave your network, local hosting makes sense, and even then smaller or distilled variants are usually what fits on a single machine. Treat it as an infrastructure project rather than a setting.\n\n\n### Does DeepSeek work with the OpenAI SDK?\n\n\nYes. The API is OpenAI-compatible, so you point the SDK's base URL at DeepSeek, supply your DeepSeek key, and use a DeepSeek model name.\n\n\nLeave an OpenAI model name in place and the DeepSeek endpoint won't recognise it, which is where most failures here come from. For anything beyond plain chat requests, such as JSON mode or tool calls, test against DeepSeek's documentation rather than assuming identical behaviour.\n\n\n### Is it safe to send company data to DeepSeek?\n\n\nThat depends on your data classification, not on the API itself. Requests go to a hosted service run by a company under a different legal jurisdiction from yours, so read its data-handling terms before sending anything personal, regulated or contractually restricted.\n\n\nSomeone with authority, usually security or legal, should sign off, and that name belongs in the runbook. Where sign-off's withheld, strip identifying fields before the call or keep that workflow off the API.\n\n\n### Which DeepSeek model should an automation use?\n\n\nStart with deepseek-flash for routine, high-volume steps such as classification, extraction and short drafting; it's the fast and cheap option. Move a step to deepseek-v4-pro only when its output fails on your own sample inputs.\n\n\nPick per step rather than per workflow, since one automation often has both easy and hard calls. Record the exact model name in the workflow so whoever inherits it knows what it was tested against.",
+  "published_at": "2026-11-17T09:36:16+00:00",
+  "first_seen_at": "2026-11-15T02:53:26.346629+00:00",
+  "content_hash": "sha256:8d2395f8a375caa77d19bdbb4f220b8a8919330ad2e9ff685f5c986f80d5e05e"
+}
