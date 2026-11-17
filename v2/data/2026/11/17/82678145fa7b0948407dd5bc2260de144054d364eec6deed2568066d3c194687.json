@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "82678145fa7b0948407dd5bc2260de144054d364eec6deed2568066d3c194687",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/eks-auto-mode-pod-rightsizing-preview/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/eks-auto-mode-pod-rightsizing-preview/",
+  "title": "Amazon EKS Auto Mode now rightsizes Pods to reduce compute costs (Preview)",
+  "summary": "Discover more about what's new at AWS with Amazon EKS Auto Mode now rightsizes Pods to reduce compute costs (Preview)",
+  "body_markdown": "Amazon Elastic Kubernetes Service (Amazon EKS) introduces resource optimization for EKS Auto Mode, a new capability that rightsizes the CPU and memory requests of running Pods based on their actual usage. CPU and memory requests are often set at deploy time and rarely revisited, and Auto Mode provisions EC2 instances to fit them. Rightsizing lets Auto Mode run the same Deployments and StatefulSets on fewer or smaller instances, without hand tuning and at no additional charge.\n\n\nTurn on resource optimization by creating a ClusterResourceOptimizationPolicy in your EKS cluster, review its recommendations in the default Recommend mode, and switch to Apply mode when you're ready to resize running Pods in place, without recreating them. For example, a platform team running Java services under Argo CD can rightsize every application namespace without editing templates or creating GitOps drift, while resource optimization keeps memory above each Java heap and raises memory after an out-of-memory kill. It doesn't change the CPU or memory that a Horizontal Pod Autoscaler or KEDA scales on, and you can exclude workloads that the Vertical Pod Autoscaler already manages.\n\n\nYou can use resource optimization on EKS Auto Mode clusters running Kubernetes 1.36 or later in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (Frankfurt), Europe (Ireland), Asia Pacific (Seoul), and Asia Pacific (Tokyo).\n\n\nTo learn more, see[Rightsize workloads with resource optimization](https://docs.aws.amazon.com/eks/latest/userguide/auto-resource-optimization.html) in the Amazon EKS User Guide and the[EKS Auto Mode product page](https://aws.amazon.com/eks/auto-mode/) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-17T19:11:28.644900+00:00",
+  "content_hash": "sha256:70dd7762015230d81f032f3b2f6517320129f2d568fa4596f7b9ecbf488244fb"
+}

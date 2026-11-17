@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "72b1e6cfd891e860917d8ab93479cbc2376fe17317ca2fbe41413dc96e7ad141",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-access-troubleshooter/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-access-troubleshooter/",
+  "title": "AWS IAM announces Access Troubleshooter to debug access denied errors",
+  "summary": "Discover more about what's new at AWS with AWS IAM announces Access Troubleshooter to debug access denied errors",
+  "body_markdown": "AWS Identity and Access Management (IAM) introduces[Access Troubleshooter](https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_access-denied-authorization-id.html) , a new capability that gives you visibility into the full authorization context behind access denied errors so you can resolve them without trial-and-error. Previously, developers relied on the Amazon Resource Name (ARN) of the denying policy to debug a denial, with no visibility into the authorization context or other policies evaluated in the request that could contribute to the denial. This made troubleshooting access issues time-consuming and inefficient.\n\n\nStarting today, access denied error messages for[supported services](https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_access-denied-authorization-id.html#access-troubleshooter-supported-services) and APIs will include a unique identifier that you can use to retrieve details of the authorization performed by the service. You gain visibility into what policies were evaluated for each request, the authorization context of those requests, and the results of the evaluation. This enables you to identify the root cause of authorization issues quickly, streamlining your access management workflows and reducing time spent debugging permission problems.\n\n\nTo learn more about Access Troubleshooter and how it can help you resolve access denied errors efficiently, see the[User Guide on troubleshooting access denied error messages](https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_access-denied-authorization-id.html) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-17T19:11:28.644900+00:00",
+  "content_hash": "sha256:5f0e68e4b6e7b04579a531ffe489e201d5ea6f70b0530a55994efb6d12e71029"
+}

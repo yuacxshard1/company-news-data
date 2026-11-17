@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a274eecaec294b366e9a9437727c247c82fe5082cf11a8a2e65accb0a5b4afc6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-split-cost-allocation/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-split-cost-allocation/",
+  "title": "AWS Split Cost Allocation Data now supports Amazon S3",
+  "summary": "Discover more about what's new at AWS with AWS Split Cost Allocation Data now supports Amazon S3",
+  "body_markdown": "You can now allocate the storage and request costs of a shared Amazon S3 general purpose bucket to its prefixes in the AWS Cost and Usage Report (CUR). Many organizations store data for multiple teams, applications, or tenants in one bucket under different prefixes such as \"marketing/\" and \"finance/\". Previously, splitting that bucket's bill by prefix required custom pipelines and your own pricing logic.\n\n\nWith this new capability, S3 Storage Lens publishes prefix-level storage and request metrics to AWS Billing and Cost Management. Billing and Cost Management then allocates the bucket's storage and Tier 1 and Tier 2 request costs to the deepest matching prefix in the range of prefix levels you choose. Each prefix line item carries its full prefix path as AWS-generated cost allocation tags, so you can total costs by top-level prefix, team, or application, and reconcile it back to the bucket. You can use this data for chargeback and showback, and to see which prefixes drive your S3 spend.\n\n\nTo get started, enable AWS Billing and Cost Management publishing in your S3 Storage Lens advanced tier configuration, then enable split cost allocation data for S3 in the AWS Billing and Cost Management console. This feature is available in all AWS Regions, except the AWS China Regions and the AWS GovCloud (US) Regions, at no additional charge beyond S3 Storage Lens advanced tier pricing. To learn more, visit the AWS Cost and Usage Reports product page, Understanding split cost allocation data, and Estimating Amazon S3 costs by prefix with S3 Storage Lens.",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-17T19:11:28.644900+00:00",
+  "content_hash": "sha256:95078494b2a4821acc811dfc8de8d24ecc2431339c8885e2d544c731729ec3ba"
+}

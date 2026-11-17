@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "919791aab55a15a3536fdd774a186ca529599ac5be09f9e54c84675e170703d5",
+  "company_key": "yc-sid",
+  "company_name": "SID",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sid.ai/research/baseten-model-partners",
+  "canonical_url": "https://www.sid.ai/research/baseten-model-partners",
+  "title": "Launch Partner for Baseten’s Model Labs",
+  "summary": "We’re partnering with Baseten to bring agentic search to every dataset: 20x lower latency and 100x lower cost than a general frontier model, at equal or better accuracy.",
+  "body_markdown": "We’re partnering with Baseten to bring agentic search to every dataset. Together we offer agentic search at 20x lower latency and 100x lower cost than a general frontier model, at equal or better accuracy. You can now use SID straight from the Baseten Model Library, on the inference platform you already run on.\n\n\nAnnouncement\n\n\nSID, Baseten\n\n\nJuly 29, 2026\n\n\n[Try on Baseten](https://www.sid.ai/go/baseten-sid-1)[Try on SID](https://platform.sid.ai/)\n\n\nPeople often misinterpret The Bitter Lesson, which is about using general methods, not about creating general models. One of Sutton’s examples of a Bitter-Lesson model is AlphaGo, which is the opposite of general1 1\n\n\nIt only plays Go.\n\n\nbut was trained using general methods. That the most general method to pretrain a text transformer happened to create a very general model is less a law of nature than a property of the data: the biggest dataset (the internet) also happens to be the most general.\n\n\nBut even the most general language models aren’t very good at playing Go. There is value to general models, but this generality comes at the cost of outright performance. What you really want to maximize is leverage on computation: capability per FLOP, whether spent in training or at inference. A better training objective gives you more leverage. A way to use less human data gives you leverage.2 2\n\n\nAlbeit indirectly.\n\n\nFor Go, AlphaZero training has orders of magnitude more leverage than retrofitting a language model.\n\n\nAt SID, we have found ways to get much more leverage for the task of search; incidentally, one of the two tasks Sutton believes scales arbitrarily.3 3\n\n\nYes, he meant search as in MCTS, but we’ll take it.\n\n\nWe don’t know the full extent of our leverage, but SID-1 gives a lower bound: it matches frontier models on retrieval accuracy at roughly 1/500th the inference compute, more than 2 OOMs.\n\n\nUnlike Go, search is very useful. We’re thrilled to be a[launch partner for Baseten’s Model Labs](https://www.sid.ai/go/baseten-model-labs) to bring this utility to everyone. Together we offer agentic search at 20x lower latency and 100x lower cost than a general frontier model, at equal or better accuracy.\n\n\nWe expect many other tasks to go this way. The future will be multi-model not as a compromise to save money, but because specialized models are simply better: faster, cheaper, and more accurate at the thing you actually need.\n\n\n## Footnotes\n\n\n1.\n\n\nIt only plays Go.↩\n\n\n2.\n\n\nAlbeit indirectly.↩\n\n\n3.\n\n\nYes, he meant search as in MCTS, but we’ll take it.↩\n\n\n[All research](https://www.sid.ai/research)",
+  "published_at": "2026-07-29T00:00:00+00:00",
+  "first_seen_at": "2026-11-17T19:05:33.374447+00:00",
+  "content_hash": "sha256:26f40b48685ac13c7372117cedabebace295d2734363d27320b28b00759cbbf4"
+}

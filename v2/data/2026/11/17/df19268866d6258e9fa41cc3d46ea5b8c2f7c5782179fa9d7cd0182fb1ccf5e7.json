@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "df19268866d6258e9fa41cc3d46ea5b8c2f7c5782179fa9d7cd0182fb1ccf5e7",
+  "company_key": "rapid7-inc-common-stock",
+  "company_name": "Rapid7 Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
+  "canonical_url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
+  "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
+  "summary": "On November 17, 2026, public reports described CVE-2026-114938 as a memory corruption vulnerability in Java 17 and above that could allow a remote attacker to execute code without authentication. The reported severity is Critical, with a CVSSv4 score of 9.2. These CVE-specific details remain preliminary, pending confirmation in Oracle or OpenJDK advisories; Rapid7 is actively monitoring the situation and will update this blog as new information arrives.",
+  "body_markdown": "## Overview\n\n\nOn November 17, 2026, public reports described\n\n\n[CVE-2026-114938](https://www.cve.org/CVERecord?id=CVE-2026-114938) as a memory corruption vulnerability in Java\n\n\n17\n\n\nand above that could allow a remote attacker to execute code without authentication. The reported severity is Critical, with a CVSSv4 score of 9.2. These CVE-specific details remain preliminary, pending confirmation in Oracle or OpenJDK advisories.\n\n\nRapid7 is actively monitoring the situation and will update this blog as new information arrives.\n\n\nFor the latest vendor release information, refer to\n\n\n[Oracle's November security update notice](https://www.oracle.com/security-alerts/cspunov2026.html) and\n\n\n[OpenJDK's vulnerability advisories](https://openjdk.org/groups/vulnerability/advisories/) .\n\n\n## Rapid7 customers\n\n\n### Exposure Command, Vulnerability Management, and Nexpose\n\n\nExposure Command, Vulnerability Management, and Nexpose customers can assess exposure to CVE-2026-114938 with an authenticated vulnerability check available in the November 17 content release (1.1.4115).\n\n\n## Updates\n\n\n-\n\n\n**November 17, 2026**\n\n\n: Initial publication.",
+  "published_at": "2026-11-17T18:26:55+00:00",
+  "first_seen_at": "2026-11-17T20:14:27.985411+00:00",
+  "content_hash": "sha256:76c43fb452444538c02689302fa9d31513a4c2f0448d25cdd7b6cc797c431754"
+}

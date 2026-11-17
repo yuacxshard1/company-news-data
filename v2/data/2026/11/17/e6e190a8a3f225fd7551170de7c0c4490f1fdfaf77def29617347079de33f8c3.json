@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e6e190a8a3f225fd7551170de7c0c4490f1fdfaf77def29617347079de33f8c3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-gcp/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-gcp/",
+  "title": "AWS Security Hub extends unified security management to Google Cloud Platform",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub extends unified security management to Google Cloud Platform",
+  "body_markdown": "Today, AWS announces that AWS Security Hub now monitors Google Cloud Platform (GCP) resources, extending risk analytics, cloud security posture management, vulnerability management, and security response management across both clouds. Many AWS customers running workloads in AWS and GCP have had to operate separate security tools for each environment, making it difficult to prioritize risks holistically or respond consistently. Security Hub now provides a single, unified experience to detect and respond to risks across your AWS and GCP environments in addition to existing support for monitoring Microsoft Azure environments.\n\n\nSecurity Hub automatically discovers GCP resources, including GCP Virtual Machines (VMs), GCP Google Artifact Registry (GAR) container images, GCP Cloud Run functions, and GCP identities, and evaluates them for misconfigurations, internet exposure, and software vulnerabilities. You receive posture checks against security standards including the CIS Benchmarks™ for Google Cloud Platform Foundations, unified resource inventory, risk and exposure analysis, and automated response through existing EventBridge integrations. AWS and GCP findings appear in the same prioritized view with the same finding formats and automation workflows, so security teams can operate from one console rather than switching between tools.\n\n\nSecurity Hub includes an independent 30-day free trial to monitor GCP resources that begins once you create your integration with Google Cloud Platform. After the trial, you pay the same price for monitoring GCP resources and equivalent AWS resources. You can create an integration to GCP from all AWS Regions where Security Hub is available except Middle East (UAE), Middle East (Bahrain), Asia Pacific (Taipei), and Asia Pacific (New Zealand). You can also create integrations to Google Cloud Platform for AWS Security Hub CSPM for posture management checks and Amazon Inspector for vulnerability management independently from AWS Security Hub. To learn more, see[AWS Security Hub Pricing](https://aws.amazon.com/security-hub/pricing/) and[AWS Security Hub documentation](https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-17T19:11:28.644900+00:00",
+  "content_hash": "sha256:21413a4b3aa67b044ce2778ba36514c8ba1366b5f5d31f3de051fd9746deba2c"
+}
