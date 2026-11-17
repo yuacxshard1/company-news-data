@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b9d17471341c35843d6d1e0878d1a2c98e41ee7caedd191b153ed27aa7a534fb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-metering-service-decimal-usage-quantities/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-metering-service-decimal-usage-quantities/",
+  "title": "AWS Marketplace Metering Service now supports decimal usage quantities",
+  "summary": "Discover more about what's new at AWS with AWS Marketplace Metering Service now supports decimal usage quantities",
+  "body_markdown": "[AWS Marketplace](https://aws.amazon.com/marketplace) Metering Service now supports decimal usage quantities in the MeterUsage and BatchMeterUsage APIs. Previously, AWS Marketplace sellers reported usage to both APIs in whole numbers, and now they can report usage with up to six decimal places.\n\n\nSellers can price and meter in the units that match how customers consume their product, for example reporting 1.5 terabytes (TB) of storage instead of 1 or 2 TB. To report decimal quantities, sellers use the new UsageQuantityAsDecimal parameter in MeterUsage and QuantityAsDecimal parameter in BatchMeterUsage, and existing integrations that report whole numbers continue to work without changes. Usage allocations, which split reported usage into buckets by tags, also support decimal quantities with the new AllocatedUsageQuantityAsDecimal parameter.\n\n\nThis new feature is available in all AWS[Regions](https://docs.aws.amazon.com/marketplace/latest/developerguide/metering-regions.html) where AWS Marketplace Metering Service is available. To learn more, see[MeterUsage](https://docs.aws.amazon.com/marketplace/latest/APIReference/API_marketplace-metering_MeterUsage.html) and[BatchMeterUsage](https://docs.aws.amazon.com/marketplace/latest/APIReference/API_marketplace-metering_BatchMeterUsage.html) in the AWS Marketplace API Reference.",
+  "published_at": "2026-11-16T17:39:00+00:00",
+  "first_seen_at": "2026-11-17T05:04:29.424262+00:00",
+  "content_hash": "sha256:58fe570b3ba58b182fde524c254e2ab5279d0a941113ffd5a49934f8d533f75b"
+}

@@ -5,7 +5,7 @@
       "company_name": "LanceDB",
       "doc_id": "2b056ba86d9ea1e8ef7440112dd78afce3cf362dd0695a4cb9c744f1ec9b6af9",
       "first_seen_at": "2026-11-16T13:19:24.572605+00:00",
-      "published_at": "2026-11-16T00:24:20.138+00:00",
+      "published_at": "2026-11-16T03:46:31.692+00:00",
       "source_kind": "html",
       "summary": "What is a table format, and why does it matter? Learn how table formats help data grow and evolve, and the problems they’re designed to solve.",
       "title": "Lance Table Format in Depth: What is a Table Format?"
@@ -25,7 +25,7 @@
       "company_name": "LanceDB",
       "doc_id": "768efd83dfe726a5ed5f21f1c32d579692cc9aede61b1c1d445391e5f8ac8a9c",
       "first_seen_at": "2026-08-11T18:45:28.304453+00:00",
-      "published_at": "2026-11-10T16:46:54.724+00:00",
+      "published_at": "2026-11-10T18:23:24.657+00:00",
       "source_kind": "html",
       "summary": "One day with the researchers and engineers building generative video, world models, physical AI, and the data systems beneath them.",
       "title": "Announcing Reverie Summit: What AI’s Next Breakthroughs Are Made On"
@@ -35,7 +35,7 @@
       "company_name": "LanceDB",
       "doc_id": "9a9a8648b1a3875f4a5a48c7e842e80804d2529ebb82bafef9322531ef0c91b9",
       "first_seen_at": "2026-11-11T04:42:11.314489+00:00",
-      "published_at": "2026-11-16T06:19:28.662+00:00",
+      "published_at": "2026-11-16T17:23:42.786+00:00",
       "source_kind": "html",
       "summary": "LEIAA, Augmetec's investigation platform, combines semantic search, precise filtering, and document-level ranking to help investigation teams work more efficiently, preserve context, and pursue better lines of inquiry.",
       "title": "Augmetec helps investigators find critical evidence faster with LanceDB Enterprise"
@@ -43,12 +43,32 @@
     {
       "company_key": "yc-lancedb",
       "company_name": "LanceDB",
+      "doc_id": "b675255e5a9e89feba66aaadd8c5156ac06a1c13b0b5c2f81e76ed9470da59c7",
+      "first_seen_at": "2026-07-24T14:00:34.339937+00:00",
+      "published_at": "2026-11-16T17:19:37.196+00:00",
+      "source_kind": "html",
+      "summary": "How Bytedance Volcano Engine LAS (Lake for AI Service) leverages Lance as the core storage format, rapidly constructing a next-gen AI data lake to efficiently store, manage, and process multimodal data (text, images, audio/video).",
+      "title": "Volcano Engine LAS's Lance-Based PB-Scale Autonomous Driving Data Lake Solution"
+    },
+    {
+      "company_key": "yc-lancedb",
+      "company_name": "LanceDB",
       "doc_id": "ba6e63f0d743df339dc83a390295389691ce17f6c4bb19a3441ba4c380c3d4dc",
       "first_seen_at": "2026-11-12T12:26:11.624806+00:00",
-      "published_at": "2026-11-12T04:00:07.619+00:00",
+      "published_at": "2026-11-12T15:15:57.429+00:00",
       "source_kind": "html",
       "summary": "LeRobot v0.7.0 trains on Lance tables straight from object storage, ASOF joins contributed upstream to DataFusion, and GPT-2 pretrained from one LanceDB table, plus Feature of the Week, upcoming events, and community updates.",
       "title": "🤖 LeRobot v0.7.0 on Lance, 🤝 ASOF Joins in DataFusion, 🔄 LLM Pretraining from One LanceDB Table"
+    },
+    {
+      "company_key": "yc-lancedb",
+      "company_name": "LanceDB",
+      "doc_id": "e535dcff69f3b823c15775b2c29f2389de95f67e884428b480c37fa3e75be3c8",
+      "first_seen_at": "2026-08-03T16:19:08.114136+00:00",
+      "published_at": "2026-11-16T17:21:17.624+00:00",
+      "source_kind": "html",
+      "summary": "CrewAI replaced a two-system memory stack with LanceDB, then rebuilt agent memory to resolve contradictions and gate recall on confidence. It now ships by default across 12 million monthly downloads and 2B+ agent executions.",
+      "title": "Why CrewAI Rebuilt Agent Memory on LanceDB, Powering 2B+ Agent Executions"
     }
   ],
   "company_key": "yc-lancedb",

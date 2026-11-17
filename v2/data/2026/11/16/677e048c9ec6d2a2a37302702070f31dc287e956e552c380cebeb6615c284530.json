@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "677e048c9ec6d2a2a37302702070f31dc287e956e552c380cebeb6615c284530",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-reauth/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-reauth/",
+  "title": "AWS IAM Identity Center now supports ForceAuthn in SAML requests",
+  "summary": "Discover more about what's new at AWS with AWS IAM Identity Center now supports ForceAuthn in SAML requests",
+  "body_markdown": "AWS IAM Identity Center now gives you the option to require workforce users to re-authenticate with your external identity provider (IdP) each time their user interactive session expires. By default, when a user's session expires, IAM Identity Center renews it through the user's existing IdP session, and the user isn't prompted to sign in again. For organizations with strict security or compliance requirements that mandate explicit user verification at regular intervals, this automatic renewal may not meet policy requirements.\n\n\nWhen you set user re-authentication to Required and a user's user interactive session expires, IAM Identity Center prompts the user to re-authenticate with your external IdP. This helps you enforce stronger sign-in controls for regulated workloads. IAM Identity Center implements this by adding the SAML 2.0 ForceAuthn attribute to the SAML request sent to your IdP.\n\n\nYou can configure user re-authentication for any IAM Identity Center instance (organization or account) that's connected to an external IdP as its identity source. The setting applies only to service provider initiated sign-ins, where users sign in through your AWS access portal URL. Changes to the user re-authentication setting are logged in AWS CloudTrail, so you can audit when it was turned on or off.\n\n\nUser re-authentication is available in all AWS Regions where IAM Identity Center is available at no additional cost. To learn more, see[Require user re-authentication](https://docs.aws.amazon.com/singlesignon/latest/userguide/require-user-reauthentication.html) in the AWS IAM Identity Center User Guide.",
+  "published_at": "2026-11-16T08:00:00+00:00",
+  "first_seen_at": "2026-11-17T05:04:29.424262+00:00",
+  "content_hash": "sha256:5a952ea78e9d708565f38125f13995136420d5a76064ab82754689bb2b5eee6b"
+}

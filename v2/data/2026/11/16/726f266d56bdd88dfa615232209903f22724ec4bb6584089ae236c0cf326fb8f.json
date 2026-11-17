@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "726f266d56bdd88dfa615232209903f22724ec4bb6584089ae236c0cf326fb8f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-managed-external-secrets-auth0-okta-palo-alto/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-managed-external-secrets-auth0-okta-palo-alto/",
+  "title": "AWS Secrets Manager adds managed external secrets support for Auth0, Okta, and Palo Alto Networks",
+  "summary": "Discover more about what's new at AWS with AWS Secrets Manager adds managed external secrets support for Auth0, Okta, and Palo Alto Networks",
+  "body_markdown": "AWS Secrets Manager now supports managed external secrets for Auth0, Okta, and Palo Alto Networks. Long-lived credentials that are not rotated increase the risk of unauthorized access if exposed. Rotating a third-party credential requires coordinated updates to the external service and every application that uses it. You set a rotation schedule from the AWS Management Console or API. Secrets Manager rotates the credential and stores the current value without a custom rotation Lambda function.\n\n\nSecrets Manager offers self-rotation and administrator-assisted rotation for Auth0 credentials. With self-rotation, the target application replaces its own secret. With administrator-assisted rotation, a separate Auth0 application with Management API permissions replaces the target application's secret. For Okta, Secrets Manager offers administrator-assisted rotation with a separate administrator JSON Web Token (JWT) key and validates the replacement before deactivating the old secret. For Palo Alto Networks, Secrets Manager offers self-rotation, in which the current API key authorizes its replacement.\n\n\nApplications that already retrieve credentials from Secrets Manager receive the rotated value without a code change or deployment.\n\n\nThese integrations join existing managed external secrets support for BigID, Cisco Security Platform, Confluent Cloud, Databricks, Datadog, GitLab, Jenkins, MongoDB Atlas, Netskope, Paddle, Salesforce, Snowflake, SonarQube, and Twilio.\n\n\nAuth0, Okta, and Palo Alto Networks managed external secrets are available in all AWS Regions where AWS Secrets Manager managed external secrets is supported. To learn more, visit the[AWS Secrets Manager managed external secrets documentation](https://docs.aws.amazon.com/secretsmanager/latest/userguide/managed-external-secrets.html) .",
+  "published_at": "2026-11-16T08:00:00+00:00",
+  "first_seen_at": "2026-11-17T05:04:29.424262+00:00",
+  "content_hash": "sha256:f0303101bfe81122d0544647250002de963949be8f73061b5ba4bb95c2cb8945"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c1602e3855f1d96d2eceb2065c173a107e2fd44a79c285a1d08ef8cdebbd4835",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-vpc-endpoints/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-vpc-endpoints/",
+  "title": "IAM Identity Center now supports VPC endpoints and network access controls",
+  "summary": "Discover more about what's new at AWS with IAM Identity Center now supports VPC endpoints and network access controls",
+  "body_markdown": "AWS IAM Identity Center now supports interface VPC endpoints powered by AWS PrivateLink and network access controls, enabling you to keep IAM Identity Center traffic private and restrict which networks can reach your IAM Identity Center services.\n\n\nPreviously, IAM Identity Center rejected traffic arriving through VPC endpoints, requiring all sign-in and API traffic to use public endpoints. With this launch, you can create interface VPC endpoints for AWS access portal and service APIs to route traffic over the AWS private network. IAM Identity Center sign-in traffic flows through the AWS Sign-in VPC endpoint. You can attach VPC endpoint policies to each endpoint to scope which AWS organizations, accounts and resources are reachable through your private connection.\n\n\nNetwork access controls add a second layer of enforcement at the IAM Identity Center instance level. When enabled, you can require that all access arrive through a VPC endpoint, allow specific IP address ranges or VPCs as trusted sources, and exclude individual applications from enforcement to accommodate services that connect from outside your VPC. SCIM provisioning traffic from your external identity provider can be independently restricted to known IP address ranges. Network access controls are configured through the IAM Identity Center API and are disabled by default.\n\n\nThis capability is available in all commercial AWS Regions and the AWS GovCloud (US) Regions at no additional cost. To learn more, see[Interface VPC endpoints](https://docs.aws.amazon.com/singlesignon/latest/userguide/vpc-interface-endpoints.html) in the IAM Identity Center User Guide. For more information, visit the[IAM Identity Center product page](https://aws.amazon.com/iam/identity-center/) .",
+  "published_at": "2026-11-16T08:00:00+00:00",
+  "first_seen_at": "2026-11-17T05:04:29.424262+00:00",
+  "content_hash": "sha256:bc25ca51393d7ac6f4cdd69cce2a146de5ca952cd92971ceba6a8fcf7bbc065f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ce12f51f6cda0523debf6ace00673ab2cab3d172fc01c61b2246da13742e604d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr",
+  "title": "Amazon ECR now replicates image deletions across regions and accounts",
+  "summary": "Discover more about what's new at AWS with Amazon ECR now replicates image deletions across regions and accounts",
+  "body_markdown": "Amazon Elastic Container Registry (Amazon ECR) now supports replicating image deletions and tag removals to your replication destinations. Previously, ECR replication copied images to destination regions and accounts but did not replicate deletions, requiring you to manage deletions separately in each location. With replication of deletes, your destination repositories stay consistent with the source automatically.\n\n\nTeams running multi-region or multi-account architectures no longer need to script or manually track image cleanup across every destination. When you delete an image or remove a tag in your source registry, whether directly or through a lifecycle policy, ECR propagates that deletion to each destination in the replication rule. Replicated deletions emit EventBridge events and are recorded in CloudTrail, so you have the same visibility into deletions as you do for image pushes.\n\n\nReplication of deletes is available in all AWS Regions where Amazon ECR is available, at no additional cost. To get started, update your replication configuration in the Amazon ECR console or AWS CLI. For more information, see the[Amazon ECR User Guide](https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication-delete.html) .",
+  "published_at": "2026-11-16T22:07:00+00:00",
+  "first_seen_at": "2026-11-17T05:04:29.424262+00:00",
+  "content_hash": "sha256:b7fb52e0138cae2b90e146f3072f45d86f1d721423c89bf57238affce6985c0a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8e5b2df54261f5b622b767d2ca33455fe60003f586545f40b18b453e5b075a8d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
+  "title": "Amazon EBS now supports associating additional KMS keys with snapshots",
+  "summary": "Discover more about what's new at AWS with Amazon EBS now supports associating additional KMS keys with snapshots",
+  "body_markdown": "Amazon Elastic Block Store (EBS) now supports associating additional AWS Key Management Service (KMS) keys with EBS snapshots. This new capability enables you to share and copy encrypted snapshots across accounts without first re-encrypting them, simplifying your disaster recovery and backup workflows.\n\n\nCustomers use EBS snapshots as durable, point-in-time backups of EBS volumes. By associating an additional customer-managed KMS key (CMK) with a snapshot encrypted with an AWS managed key (AMK), for example, you enable cross-account sharing for that snapshot without re-encrypting its data. This feature accelerates your disaster recovery workflows and enhances operational efficiency for enterprise backup administrators and disaster recovery teams.\n\n\nSupport for associating additional KMS keys with Amazon EBS snapshots is available in all AWS commercial, China, AWS GovCloud (US), and AWS European Sovereign Cloud (Germany) Regions, plus AWS Local Zones and AWS Outposts. You can access this capability through the AWS Console, AWS Command Line Interface (CLI), and AWS SDKs. To learn more, see the[Amazon EBS documentation](https://docs.aws.amazon.com/ebs/latest/userguide/associated-kms-keys.html) .",
+  "published_at": "2026-11-16T22:00:00+00:00",
+  "first_seen_at": "2026-11-17T05:04:29.424262+00:00",
+  "content_hash": "sha256:c6e69a85001bd4886557b806d2ca8a971eeae020e0b16dd9df6403fe28e2ae37"
+}

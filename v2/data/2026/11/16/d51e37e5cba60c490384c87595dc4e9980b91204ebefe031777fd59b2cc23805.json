@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d51e37e5cba60c490384c87595dc4e9980b91204ebefe031777fd59b2cc23805",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/",
+  "title": "Amazon S3 Vectors now supports hybrid search combining vector and full text for more relevant search results",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Vectors now supports hybrid search combining vector and full text for more relevant search results",
+  "body_markdown": "Amazon S3 Vectors now supports hybrid search that combines vector similarity search with full-text search within a single query. By combining semantic meaning and exact term matching into a single ranked list of results, hybrid search captures both intent and precise terms for retrieval-augmented generation (RAG), agent memory, and search applications. This can deliver more relevant ranked results than either method alone. Hybrid search works with the same S3 Vectors APIs and maintains subsecond latency for infrequent queries and latency around 100 milliseconds or less for frequent queries.\n\n\nS3 Vectors is designed to provide the same elasticity, durability, and availability as Amazon S3, and it reduces the total costs of storing and querying vectors by up to 90% compared to alternative vector solutions. With hybrid search, customers can now store the data that they want to make full-text searchable alongside the vectors. Customers write data with the PutVectors API as they do today and include the searchable text as another metadata field. S3 Vectors then automatically indexes that field for full-text search with BM25 relevance scoring. By default, S3 Vectors uses a language-agnostic text analyzer to index this data which works across most languages, and customers can optionally select a language-specific analyzer for more accurate language-aware matching. To perform a hybrid query, customers send their query text strings alongside their query vector in a single QueryVectors call; S3 Vectors runs both a vector search and a full-text search, fuses the two with Reciprocal Rank Fusion (RRF), and returns a single ranked list of the top K requested results. Customers can also run full-text and vector queries separately to apply own ranking logic, search across multiple text fields in a single query, and enable full-text search on existing data in place.\n\n\nHybrid search is available today in all commercial AWS Regions where Amazon S3 Vectors is available, and in the AWS China Regions. To get started, use the AWS CLI, AWS SDKs, or the Amazon S3 console. To learn more, visit the Amazon S3 Vectors[documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-hybrid-search.html) , and the Amazon S3[pricing page](https://aws.amazon.com/s3/pricing/) for pricing.",
+  "published_at": "2026-11-16T21:00:00+00:00",
+  "first_seen_at": "2026-11-17T05:04:29.424262+00:00",
+  "content_hash": "sha256:665ece17267278954de78ea0fd291fe03a01252cd483442c550331e16f464564"
+}

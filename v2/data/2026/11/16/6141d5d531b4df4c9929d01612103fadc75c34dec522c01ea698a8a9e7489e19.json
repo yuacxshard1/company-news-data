@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6141d5d531b4df4c9929d01612103fadc75c34dec522c01ea698a8a9e7489e19",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/soniox-pricing-in-2026-rates-and-alternatives",
+  "canonical_url": "https://www.activepieces.com/blog/soniox-pricing-in-2026-rates-and-alternatives",
+  "title": "Soniox Pricing in 2026: Rates and Alternatives",
+  "summary": "Soniox pricing splits across three products—speech-to-text, text-to-speech and translation—each with separate usage meters. Compare actual costs.",
+  "body_markdown": "## Why Soniox headline rate matters most\n\n\n### Strongest argument for ranking by headline rate\n\n\nIf you rank on headline rate, the strongest argument is that it's the only price you can check before building. A vendor that wins on it has at least committed to a number in public.\n\n\nEverything else is a guess. Add-on estimates, usage forecasts and \"contact sales\" tiers all give the vendor room to move the figure after you have integrated.\n\n\nYou can audit, screenshot and hold a published per-minute rate against an invoice. If two vendors have comparable accuracy, the cheaper published rate wins, and any extra analysis just adds assumptions to the comparison.\n\n\nThat's a sound rule for a pure transcription job: one language, no speaker labels, no redaction, and audio you send once. In that case the headline is close to the bill.\n\n\n### Why the ranking still shifts with billing unit and limits\n\n\nIn practice, real pipelines are not that job. Billing unit changes the arithmetic first: a vendor that bills per second of audio and one that rounds up per request charge differently on short clips, even at identical rates.\n\n\nThen come the add-ons. Take Deepgram, a speech API vendor, priced for its Nova-3 monolingual pre-recorded model.\n\n\nSwitching on diarization, keyterm prompting and redaction **more than doubles the hourly cost** , so a vendor that looked cheapest as a bare model can finish behind a rival that bundles those features.\n\n\nRead it as the size of the gap an unbundled feature can open.\n\n\nWhether the cheap tier is usable at all comes down to concurrency caps and language limits. If your peak load exceeds the cap, you either queue jobs or move up a plan, and the plan you move to is the one you should have priced.\n\n\n### What would disprove the Soniox pricing claim\n\n\nIf the cheapest headline rate doesn't stay cheapest, the claim fails. Test that across vendors you actually shortlist, after you add the features you need, count billing in your real clip lengths, and stay under every limit at your peak.\n\n\nRun that check on a sample of your own audio. If the order never changes, take the pricing-page figure and stop. If it changes even once, the headline was never the number that mattered.",
+  "published_at": "2026-11-16T23:34:29+00:00",
+  "first_seen_at": "2026-11-11T07:59:57.850855+00:00",
+  "content_hash": "sha256:ad5b181e59778adb5c73ebe8cd95cf9125295d27e9de261c7d3e5b87d1ed8eaf"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "801e40d73b9055257d683e1a7d794f532f12bfa5835f21bcb97ce2f3d4243d05",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/cursor-subscription",
+  "canonical_url": "https://docs.litellm.ai/blog/cursor-subscription",
+  "title": "Use your Cursor subscription through LiteLLM",
+  "summary": "Route Cursor CLI through LiteLLM with your existing subscription. Keep your login, stream replies, and use tools with separate gateway access.",
+  "body_markdown": "## Supported controls and limits\n\n\nLiteLLM supports virtual keys, request logs, request-rate limits, and concurrency limits. Cursor manages your login, models, and subscription allowance.\n\n\nLiteLLM forwards the native session without inspecting its contents. Token and spend tracking, model restrictions, and content guardrails are not supported. Keys or gateway configurations that require these controls are rejected.\n\n\nRequest-rate and concurrency limits apply to individual calls, rather than whole sessions. Allow overlapping requests so Cursor can send tool results while a response is streaming.\n\n\nThis setup is for Cursor CLI. The[Cursor desktop integration](https://docs.litellm.ai/docs/tutorials/cursor_integration) uses models configured on your gateway. See the[setup guide](https://docs.litellm.ai/docs/tutorials/cursor_cli_subscription) for troubleshooting and the full list of limits.",
+  "published_at": "2026-11-16T20:00:00+00:00",
+  "first_seen_at": "2026-11-17T07:02:40.299968+00:00",
+  "content_hash": "sha256:57c0344a95c1da005d4db523a4a2da17fcac7dc6b4f0eeab7739bb14440afde5"
+}

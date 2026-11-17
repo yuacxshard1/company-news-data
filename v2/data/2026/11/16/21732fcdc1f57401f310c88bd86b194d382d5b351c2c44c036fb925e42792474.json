@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "21732fcdc1f57401f310c88bd86b194d382d5b351c2c44c036fb925e42792474",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/resend-mcp-server-safe-setup-for-ai-agents",
+  "canonical_url": "https://www.activepieces.com/blog/resend-mcp-server-safe-setup-for-ai-agents",
+  "title": "Resend MCP Server Safe Setup for AI Agents",
+  "summary": "Resend MCP exposes Resend's email API as callable functions within AI clients. Workflow tools like Activepieces can trigger emails from chat prompts.",
+  "body_markdown": "## Fix repeatable sends with Activepieces\n\n\nRun repeatable emails as a fixed Activepieces workflow that ends in a Resend step, so the model never decides whether to send. That covers any email that goes out every time something happens, such as a signup, a failed payment, or a shipped order.\n\n\n### A fixed workflow for the send\n\n\nActivepieces counts Resend among its 750 integrations, all of which sit in the open source monorepo under` packages/pieces/community` , beside an MIT-licensed core, which means you can audit or fork any of them.\n\n\nA trigger fires on an event, the steps run in the order you set, and the last step sends through Resend.\n\n\nThe recipient comes from the event data, the template is fixed, and the sender is whatever you configured. Nothing in that path improvises.\n\n\nThat's the point. An assistant with a raw send tool can be talked into the wrong recipient by a pasted email or a vague instruction.\n\n\nA workflow has no instruction to misread. If it misfires, the run detail view lists each step with its input and output, so you can see the exact recipient the Resend step received, and you fix a step, not a prompt.\n\n\n> A workflow has no instruction to misread.\n\n\n### An assistant that triggers approved workflows only\n\n\nBecause Activepieces also has MCP support, an assistant can start workflows you have exposed to it. Check its docs for the current setup and what it can and cannot expose, because I wouldn't assume the details.\n\n\nKeep the design narrow: the assistant gets a \"start this workflow\" capability and no Resend send tool at all.\n\n\nCompare the two paths. An event flows straight into a fixed workflow that ends in a send, while the assistant can only call an approved workflow and has no route to the send step except through it.\n\n\nTake from it that the model can ask for an email but can't compose a new way to deliver one.\n\n\nThis doesn't fix everything. If an approved workflow accepts free-text fields, the model still controls what goes in them, so keep the inputs few and validated.",
+  "published_at": "2026-11-16T20:15:39+00:00",
+  "first_seen_at": "2026-11-17T05:05:08.238476+00:00",
+  "content_hash": "sha256:4ce5ed69afcb23cbd8c59066f4abb89f9be74b0cad0db2d7d5c999a9ba51ad0c"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cea0a4e6c25b829e15d47aa650e38b0ed31c0667386fb2b310eb19a8569432e0",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/global-control-plane",
+  "canonical_url": "https://docs.litellm.ai/blog/global-control-plane",
+  "title": "LiteLLM Global Control Plane API is now available",
+  "summary": "Manage independent LiteLLM deployments through one API. Isolate regional data and limit the impact of PostgreSQL and Redis failures.",
+  "body_markdown": "The **LiteLLM Global Control Plane API is now available** . Manage deployments across regions and clouds while keeping their databases, Redis instances, and credentials separate.\n\n\nThe Global Control Plane previously provided a[UI for managing multiple deployments](https://docs.litellm.ai/docs/proxy/global_control_plane/legacy_ui) . The new API brings that management to scripts, automation, and internal platforms.\n\n\n## Isolate database and Redis failures​\n\n\nEach regional gateway uses its own PostgreSQL database and Redis instance. This limits the impact of a database or Redis outage to the affected deployment. Other deployments continue serving inference with their own dependencies.\n\n\nApplications send inference requests directly to their regional gateway. Regional inference also continues if the control plane is unavailable.\n\n\n## Keep data isolated​\n\n\nSeparate deployments by region or team, with local keys, teams, budgets, provider credentials, and storage. Each deployment's database and Redis stay in its own environment. The control plane receives management and usage data.\n\n\nUse the API to manage keys, teams, models, and budgets on a selected deployment. You can restrict operators to specific deployments and roles, and each gateway also checks the caller's local permissions.\n\n\n## Get started​\n\n\nThe Global Control Plane API requires a LiteLLM Enterprise license.[Read the setup guide](https://docs.litellm.ai/docs/proxy/global_control_plane) for configuration, API examples, and reference architectures for AWS, Azure, GCP, and hybrid cloud.",
+  "published_at": "2026-11-16T00:00:00+00:00",
+  "first_seen_at": "2026-11-17T07:02:40.299968+00:00",
+  "content_hash": "sha256:62536d82d420ae229e09a5c7540f1f8af8e5c892b3968e5b7f5e9691630837b8"
+}

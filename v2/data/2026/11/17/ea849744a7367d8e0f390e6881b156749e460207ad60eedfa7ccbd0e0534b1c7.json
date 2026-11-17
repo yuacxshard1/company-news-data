@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ea849744a7367d8e0f390e6881b156749e460207ad60eedfa7ccbd0e0534b1c7",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/nvidia-nim-automation-how-to-set-up-the-api-2026",
+  "canonical_url": "https://www.activepieces.com/blog/nvidia-nim-automation-how-to-set-up-the-api-2026",
+  "title": "NVIDIA NIM Automation: How to Set Up the API (2026)",
+  "summary": "NVIDIA NIM automation: Obtain API credentials, verify connectivity with curl, and schedule automated calls via Activepieces or cron with failure logging.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is NVIDIA NIM free to use for automation?\n\n\nYou get limited free access on the hosted API, meant for prototyping, not for running a production workflow indefinitely. Treat it as a test bench.\n\n\nA scheduled job that fires often enough will hit the rate limit and start returning errors, which looks like a flaky workflow but is the quota doing what it was built to do.\n\n\nSelf-hosted containers have their own licensing terms for production use, so read them before you commit a workflow to that route.\n\n\n### Can I use NIM with the OpenAI client library?\n\n\nYes. NIM exposes an OpenAI-compatible endpoint, so the official OpenAI client works once you change two things: the base URL and the key.\n\n\nChange only the key and the client keeps calling OpenAI's servers, which returns an authentication error that looks like a bad NIM key. That is the usual failure. Set the base URL explicitly and confirm where the request goes before you debug anything else.\n\n\n### Do I need my own GPU to automate with NIM?\n\n\nNo, not to get started. The hosted endpoint runs on NVIDIA's hardware, and your workflow only needs to make an HTTPS call.\n\n\nYou need a GPU only if you self-host, and what fits depends on the model you pick and the card's memory.\n\n\nIf a self-hosted container won't start or runs out of memory, the model's too large for the card. Pick a smaller model before you suspect the workflow.\n\n\n### How do I keep my NIM API key out of my workflow?\n\n\nStore the key in your workflow tool's credential store or in an environment variable, and reference it by name. Never paste it into a node, a script body or a file that gets committed.\n\n\nExported workflow definitions and shared screenshots are how keys leak in practice.\n\n\nIf a key has ever appeared in either, revoke it and issue a new one instead of hoping nobody saw it. Give each workflow its own key where the platform allows, so one revocation doesn't take down everything.\n\n\n### Which NIM model should I start with?\n\n\nStart with a small instruct-tuned model from the catalog and prove one authenticated call works before you try anything larger. Small models answer faster and cost you less when a prompt's wrong.\n\n\nCopy the model name exactly as the catalog lists it, including the publisher prefix. A mistyped or outdated name returns a \"not found\" error that's easy to mistake for an access problem.\n\n\nOnce the call's stable, swap in a larger model by changing that one string and re-running the same test.",
+  "published_at": "2026-11-17T00:48:45+00:00",
+  "first_seen_at": "2026-11-17T05:05:08.238476+00:00",
+  "content_hash": "sha256:7b74f8bd1c7df9d5c213a7644e2eff6c78caeadaf910e6b3db11cd2a34f8e6b9"
+}

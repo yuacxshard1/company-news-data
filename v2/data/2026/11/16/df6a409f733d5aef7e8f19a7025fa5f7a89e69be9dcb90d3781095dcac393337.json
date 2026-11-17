@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "df6a409f733d5aef7e8f19a7025fa5f7a89e69be9dcb90d3781095dcac393337",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+  "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+  "summary": "Discover more about what's new at AWS with Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+  "body_markdown": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines directly on Iceberg tables and audit the results, with the transaction semantics you expect from a data warehouse. This helps anyone writing to Iceberg tables at production scale. Batch jobs get all-or-nothing commits across multiple steps. Streaming and scheduled jobs can write to the same tables at the same time. Analysts, auditors, and AI agents can query a table as it existed at any point in time.\n\n\nWith multi-statement transactions, you group several statements in a single BEGIN…COMMIT statement and publish them as one atomic Iceberg snapshot. This means a multi-step load such as a MERGE followed by a DELETE, can be commited together as one atomic operation, are never queryable in a half-applied state, and roll back cleanly if there's a failure. Automatic conflict resolution lets concurrent writes, such as streaming inserts alongside scheduled deletes, write to the same table and commit together when their changes don't overlap, instead of failing and retrying. Time travel lets you query a table as it existed at a past point in time with AS OF TIMESTAMP. You can use it to reproduce reports, audit changes, or recover from a bad write without keeping extra copies. These capabilities are available in all AWS commercial Regions for Amazon Redshift’s provisioned RG or serverless clusters that are writing to or querying Iceberg tables.. To get started, see the following list of resources:\n\n\n1/[Resolving concurrent writes for Apache Iceberg tables using Amazon Redshift](https://aws.amazon.com/blogs/big-data/resolving-concurrent-write-conflicts-for-apache-iceberg-tables-in-amazon-redshift/)\n\n\n2/[Multi-statement transactions for Apache Iceberg tables in Amazon Redshift](https://aws.amazon.com/blogs/big-data/multi-statement-transactions-for-apache-iceberg-tables-in-amazon-redshift/)\n\n\n3/[Time travel support for Apache Iceberg](https://docs.aws.amazon.com/redshift/latest/dg/iceberg-time-travel.html)",
+  "published_at": "2026-11-16T20:30:00+00:00",
+  "first_seen_at": "2026-11-17T05:04:29.424262+00:00",
+  "content_hash": "sha256:a5df8d20f4f7694db8db6cf4f3834af4a6d9cf2bd5ef0eff8c12675f2ebaa448"
+}
