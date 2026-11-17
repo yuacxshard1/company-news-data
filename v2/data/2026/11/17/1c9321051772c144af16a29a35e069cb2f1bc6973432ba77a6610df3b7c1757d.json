@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1c9321051772c144af16a29a35e069cb2f1bc6973432ba77a6610df3b7c1757d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/genspark-automation-features-limits-pricing-2026",
+  "canonical_url": "https://www.activepieces.com/blog/genspark-automation-features-limits-pricing-2026",
+  "title": "Genspark Automation: Features, Limits, Pricing 2026",
+  "summary": "Genspark automation applies only to documented features. Know which tasks you can reliably automate and why undocumented ones fail when issues arise.",
+  "body_markdown": "## The first failed run's limits\n\n\nOn the first repeat, a calendar-to-email flow failed, and the error names a run, not a cause. At 2am on a Tuesday, whoever gets paged receives only \"Run failed\" and an ID string.\n\n\nThe screenshot shows the three-step flow: a calendar trigger, a send-email action and an end node. Run details sit on the left with step timings and input/output JSON, and the failure banner with its \"Edit Run\" button sits at the bottom.\n\n\nThe JSON is the only diagnostic, so someone has to own reading it.\n\n\n### Credit and usage limits\n\n\nYou can predict this failure, because the plan pages write the caps down. Each plan page states what's capped and what happens at the cap, whether the task stops, queues or bills extra.\n\n\nWhen a repeating job stops silently at month-end, that is an ownership problem before it's a technical one. Someone must watch the meter, since nothing in the run output will say the cap caused the stop.\n\n\nIf a token expires or a permission is revoked, the email step fails while the trigger keeps firing, because that step depends on an authorized account.\n\n\nEach run then fails again, and the person who authorized the account may no longer be the person on call. Record who holds each connection before the flow goes live.\n\n\n### Output that looks finished but is wrong\n\n\nEven a run that succeeds can be wrong. On the GAIA benchmark of multi-step assistant tasks,[Genspark](https://www.genspark.ai/helpcenter/membership-plans) 's reported success rate[falls with difficulty](https://developer.cloud.tencent.com.cn/article/2510441) : **87.8% at Level 1** , 72.7% at Level 2 and 58.8% at Level 3, meaning the tool becomes unreliable for harder tasks.\n\n\nPut practically, a simple, single-purpose task is mostly safe, while anything with several dependent steps fails about four times in ten at the hardest level. Those failures often arrive as plausible output, not as an error banner.\n\n\n**So any step that sends something to a customer needs a human check or a deterministic validation before it fires.**",
+  "published_at": "2026-11-17T03:21:19+00:00",
+  "first_seen_at": "2026-11-17T10:06:45.710725+00:00",
+  "content_hash": "sha256:30e15fdce87602b5a05170d99c0dee11d7b6dc23e0dce881535f2ad813a4c26e"
+}

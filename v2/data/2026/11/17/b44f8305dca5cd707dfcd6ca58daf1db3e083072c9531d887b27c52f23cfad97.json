@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b44f8305dca5cd707dfcd6ca58daf1db3e083072c9531d887b27c52f23cfad97",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/picovoice-automation-in-2026-set-up-voice-workflows-step",
+  "canonical_url": "https://www.activepieces.com/blog/picovoice-automation-in-2026-set-up-voice-workflows-step",
+  "title": "Picovoice Automation in 2026: Set Up Voice Workflows Step",
+  "summary": "Picovoice automation processes voice input on-device and forwards it to webhooks for workflow triggers. You'll build a working system in under an hour.",
+  "body_markdown": "## Frequently asked questions\n\n\nWhat's left mostly concerns where the engines stop and your glue code starts, and the answers below stay on that line.\n\n\n### Does Picovoice work offline?\n\n\nYes for audio processing: the engines run on the device, so audio is never streamed to a server. The AccessKey's the one dependency to check. It's validated against Picovoice's licensing, so confirm what your plan requires for a device that's offline for long stretches.\n\n\nWhatever your glue code sends onward, such as a webhook call, needs a network of its own.\n\n\n### Is Picovoice free to use for a personal automation project?\n\n\nFor personal and non-commercial use, Picovoice has a free tier, and it requires an AccessKey from the Picovoice Console.\n\n\nIf the project turns into something a business depends on, or ships to customers, the licence changes and you should read the current terms first. Limits here come from the plan, not from the code you write.\n\n\n### Can voice events trigger automation workflows?\n\n\nIndirectly, and that's the intended design. **Picovoice has no workflow engine** , so your script listens with Porcupine or Rhino, then sends an HTTP request to a webhook URL that the automation platform exposes.\n\n\nZapier and Make both accept incoming webhooks. Log the response status, as the previous section set up, so a rejected call shows up as an event and not as a voice command that did nothing.\n\n\n### Can I run Picovoice on a Raspberry Pi or a microcontroller?\n\n\nOn a Raspberry Pi, yes: it's a supported target, and it's the easiest place to start for an always-on voice trigger.\n\n\nMicrocontrollers are supported for some engines and boards, not all of them. Check the platform list for each engine you want, because a board that runs wake word detection may not run speech-to-text.\n\n\nModel files are also built per platform, so a file trained for one target won't load on another.\n\n\n### Why does my custom wake word fire too often or not at all?\n\n\nStart with sensitivity, the setting that trades false alarms against missed detections. Raise it if the word is ignored and lower it if it fires on background speech.\n\n\nNext, look at the phrase itself. Short phrases, or ones that sound like common words, trigger falsely, while longer and more distinctive phrases behave better.\n\n\nLast, confirm the model file was trained for the platform you're running on. A mismatch there looks like erratic detection but it's a configuration error.",
+  "published_at": "2026-11-17T03:41:26+00:00",
+  "first_seen_at": "2026-11-17T10:06:45.710725+00:00",
+  "content_hash": "sha256:44505dc2458ef737791c00d33186f09c36de775d7723ae20ddec4a039da98c63"
+}

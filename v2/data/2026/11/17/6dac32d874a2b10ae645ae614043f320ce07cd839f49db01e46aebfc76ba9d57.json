@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6dac32d874a2b10ae645ae614043f320ce07cd839f49db01e46aebfc76ba9d57",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/ticktick-automation-setup-and-plan-limits-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/ticktick-automation-setup-and-plan-limits-in-2026",
+  "title": "TickTick Automation Setup and Plan Limits in 2026",
+  "summary": "TickTick automation starts with recurring tasks, reminders, and email-to-task, then adds external connectors as needed. Determine which approach suits you.",
+  "body_markdown": "## Fix TickTick automation errors and limits\n\n\nCheck your largest list against the table before blaming the connector. Most automation failures come from hitting a plan cap or a broken connector login, and the caps are the easier half because TickTick publishes them.\n\n\n### Plan and quota limits\n\n\nLimit Free Premium Source page\n\n\nLists 9 299[TickTick upgrade](https://ticktick.com/upgrade)\n\n\nTasks per list 99 999[TickTick upgrade](https://ticktick.com/upgrade)\n\n\nSubtasks per task 19 199[TickTick upgrade](https://ticktick.com/upgrade)\n\n\nReminders per task 2 5[TickTick upgrade](https://ticktick.com/upgrade)\n\n\n> Most automation failures come from hitting a plan cap or a broken connector login, and the caps are the easier half because TickTick publishes them.\n\n\nCreate a list per client or per project and the automation stops working at the tenth, because the free cap is 9 lists.\n\n\nPush every email or form entry into one inbox list and it will start failing once that list holds 99 tasks, the free cap per list.\n\n\nAt the twentieth subtask a checklist generator will break, because free accounts also stop at 19 subtasks per task.\n\n\nThe 2-reminder limit matters most if a connector adds a reminder at creation, because it leaves one slot for you.\n\n\n### TickTick authorisation and sync errors\n\n\nWhen a connector run fails with an authorisation error, reconnect the TickTick account inside the connector before changing anything else. A token that has expired or been revoked looks the same as a bad trigger, so reconnecting rules it out in under a minute.\n\n\nIf the run succeeds but the task never appears on your phone, the write went through and the app hasn't synced. Pull to refresh before you rebuild the workflow.\n\n\nIf a bulk import fails partway, split it into smaller batches and add a delay between runs. The TickTick pages I was given publish no API rate limit, so that's a workaround, not a documented threshold.\n\n\n### TickTick time zone and repeat task problems\n\n\nWhen a connector sends UTC and your account is set to a local zone, tasks created with a due time can land hours off. Test with one task due \"today at 17:00\" and compare it with what the app shows.\n\n\nIf they differ, set the zone explicitly in the connector's field mapping.\n\n\nWatch repeats as well, the other weak spot. A connector that creates a task with a repeat rule may not re-create it correctly when you complete it.\n\n\nThe sources I have don't describe how completion interacts with repeats, so test one repeating task through a full cycle before you rely on it.",
+  "published_at": "2026-11-17T07:32:33+00:00",
+  "first_seen_at": "2026-11-17T10:06:45.710725+00:00",
+  "content_hash": "sha256:d519d59fe6cdd3ce9be73a1b71dd08b9dd0817743a101437fc22bae5afc33c2c"
+}

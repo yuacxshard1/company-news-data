@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ec3f5196ffa80073f2b006af5b385125a907fdb3ed2e0aec02155ba3cc1ab32a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-kajabi-mcp-what-it-does-and-doesnt-do",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-kajabi-mcp-what-it-does-and-doesnt-do",
+  "title": "What Is Kajabi MCP? What It Does and Doesn't Do",
+  "summary": "Kajabi MCP lets you access customer and course data directly from Claude or ChatGPT, managing your Kajabi account without switching between applications.",
+  "body_markdown": "## The case against Kajabi MCP\n\n\n**It buys you little** , and that is the strongest case against it. A CSV export or Kajabi's own AI can already do what it does, while the bill is unpredictable and the security record is young and uneven.\n\n\nIf what you need is scheduled work across several apps, such as a Kajabi form feeding a CRM and then an email with no one sitting in a chat, that is a separate job from Kajabi MCP, and[Activepieces](https://www.activepieces.com/) is one option for it.\n\n\nConnect an app there once and it works as a flow step and as a tool on the project's MCP server, so Claude or ChatGPT can call the same 750 integrations without a second integration pass, and packages/integrations in the open repo shows one action serving both.\n\n\nOnce an assistant has a live connection to your account, it can read customer names, emails and purchase history, and a mistake there is a data incident, not a formatting error.\n\n\nAudited by Securin, **nearly one in four MCP servers** came out at critical risk, which means the MCP ecosystem **cannot yet be trusted for casual, low-scrutiny adoption** .\n\n\nThat audit covers servers in general, not Kajabi's, but it means 'it is a standard protocol' isn't evidence that a given connection is safe.\n\n\n### When to skip Kajabi MCP for security reasons\n\n\nNearly one in four audited servers sat at critical risk. Take from that figure that the risk is common enough to justify a check before connecting, not that Kajabi's server is among the exposed ones. Skip MCP when any of these applies:\n\n\n- You only need a one-off list, because a CSV export gets it with no standing connection.\n- Kajabi's native AI already covers the task.\n- No one on your team can review what permissions the assistant holds.\n- Your customer data policy forbids third-party AI access.\n\n\nIf none of those describes you, the objection weakens, and the reason is the kind of question you are asking.\n\n\n### Why Kajabi MCP should start read-only\n\n\nMost questions worth asking an assistant are reads: which offer sold least last quarter, which members went quiet.\n\n\nStart with read-only access, so the worst outcome of a bad answer is a wrong summary and not an edited record. Grant write access only after you have reviewed what the assistant actually did, and revoke whatever you stop using.",
+  "published_at": "2026-11-17T02:40:45+00:00",
+  "first_seen_at": "2026-11-17T10:06:45.710725+00:00",
+  "content_hash": "sha256:9a8bd6a8f7096a7853198e51ac0990804ca3872c379d4c99f3c67eca03079e4b"
+}
