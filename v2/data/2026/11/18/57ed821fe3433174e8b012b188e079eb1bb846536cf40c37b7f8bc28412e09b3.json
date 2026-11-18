@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "57ed821fe3433174e8b012b188e079eb1bb846536cf40c37b7f8bc28412e09b3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/agents-api-by-recallai-what-it-is-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/agents-api-by-recallai-what-it-is-2026-guide",
+  "title": "Agents API by Recall.ai: What It Is (2026 Guide)",
+  "summary": "Agents API by Recall.ai automates workflow management for AI teams. See which capabilities were released and when.",
+  "body_markdown": "## Agent capabilities beyond meeting bots\n\n\n### Recall.ai meeting bot API basics\n\n\nA meeting-bot API lets your software send a participant into a video call. The bot joins as a named attendee, records the audio and video, produces a transcript, and can read and post chat messages.\n\n\nYou ask for all of that with HTTP calls instead of building a client for each meeting platform.\n\n\nRecall.ai's existing bot endpoints work at this level. Create Bot, List Bots and Retrieve Bot, the three rows in the limits table further down, each act on one bot as a thing you create, look up and manage.\n\n\n### What \"agent\" adds\n\n\nIn general usage, an agent is a bot that acts on what it hears instead of only capturing it. It can respond in the chat, take an instruction mid-call or hand a result to another system while the meeting is still running.\n\n\nThe maker's own one-sentence definition of the Agents API is missing from this article, so read that wording on their pages before treating my paraphrase as theirs.\n\n\nThat is the general distinction between a recorder and an agent. Whether the Agents API draws the line in its endpoints, with its own calls and parameters, is exactly what I could not confirm.\n\n\nWhat I can say is that the maker presents it as its interface for putting automated agents into meetings.\n\n\n### Which capabilities are confirmed, and for what\n\n\nCapability by capability, the position is the following.\n\n\nJoining a meeting, recording, transcription, chat send and receive, and calendar-scheduled recording are bot-only as far as my sources go: they are described for the bot endpoints, and I found no page stating that the Agents API adds to them or replaces them.\n\n\nThe rate limits are also bot-only, since they are published for Create Bot, List Bots and Retrieve Bot. Nothing I read is labelled Agents API only, so I list no capability under that heading.\n\n\nIf you find a documented Agents API request format or capability on the maker's pages, treat that as the missing half of this section.\n\n\n### Bot endpoint rate limits and the Agents API\n\n\nThe rate limits tabled below are published for the bot endpoints. I have no published limit for the Agents API itself, so do not assume those figures apply to it.\n\n\nTreat them as a guide to the sort of ceiling to expect, and confirm the Agents API numbers on the maker's reference pages.",
+  "published_at": "2026-11-18T09:09:56+00:00",
+  "first_seen_at": "2026-11-18T17:35:41.201411+00:00",
+  "content_hash": "sha256:ac7ccb99526630d9784e4876b1850dea925f82a9e2d9a7a3a7526efb427bd051"
+}

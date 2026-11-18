@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0e04d628d832576a4bc8eb92b9d17bd5928cf22abba577123d5f04c97de9243f",
+  "company_key": "yc-lemonslice",
+  "company_name": "LemonSlice",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://lemonslice.com/blog/flash-default-model",
+  "canonical_url": "https://lemonslice.com/blog/flash-default-model",
+  "title": "Flash is now the default model",
+  "summary": "LemonSlice Flash, our fastest real-time avatar model, is now the default on every plan and aspect ratio. No code changes needed.",
+  "body_markdown": "Flash, our fastest model, is now the default for every avatar on every plan. Every session gets Flash's lower latency — no configuration change required.\n\n\n## What changes\n\n\nFlash responds about 200–300ms faster than our previous default, LemonSlice 2.1. In our April 2026[benchmarks](https://lemonslice.com/blog/lemonslice-flash) , it reached a 471ms time-to-first-byte and ~2s end-to-end response times when paired with third-party speech-to-text, LLM and text-to-speech. Faster LLM and speech models available today reduce perceived latency even further.\n\n\nFlash used to be limited to Ultra and Enterprise plans and to 2:3 avatars. It now runs on every plan, in every aspect ratio, at 24 fps.\n\n\n## Do I need to change anything?\n\n\nNo. Sessions that don't set` model` now run Flash. If your code passes` model: \"flash\"` , it keeps working and gets the same default model, so you can remove it whenever it's convenient.",
+  "published_at": "2026-11-18T00:00:00+00:00",
+  "first_seen_at": "2026-11-18T18:29:17.532881+00:00",
+  "content_hash": "sha256:d8811557090fcc8eb440ade35466731490e20b6653f30f036397802a1379188a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "112863b1878e5ea2e5b889b607d456073e0ceada88963d005ec605e938833c2e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-f5-big-ip-migration/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-f5-big-ip-migration/",
+  "title": "AWS Transform now provides F5 BIG-IP load balancer migration",
+  "summary": "Discover more about what's new at AWS with AWS Transform now provides F5 BIG-IP load balancer migration",
+  "body_markdown": "AWS Transform now migrates F5 BIG-IP load balancer configurations to Elastic Load Balancing as part of network migration. Applications cut over with Application Load Balancers (ALB) and Network Load Balancers (NLB) already in place allowing you to adopt cloud-native load balancing during migration rather than after it.\n\n\nMoving to ALB and NLB has typically been a separate post-migration project because of time and cost. Teams rebuilt each F5 BIG-IP virtual server by hand, a slow and error-prone process that could break when traffic moved. AWS Transform compresses that timeline and enables the F5 to Elastic Load Balancing transition during migration, allowing you to run your cloud migration with network, load balancing, and compute moving as a coordinated unit.\n\n\nYou can migrate F5 BIG-IP load balancers in every[AWS Transform for migrations target Region](https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-connect-target-account.html#transform-vmware-cta-supported-regions) . To get started, see the[AWS Transform documentation](https://docs.aws.amazon.com/transform/latest/userguide/transform-app-vmware.html) , or visit the[AWS Transform product page](https://aws.amazon.com/transform/) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T17:35:35.972254+00:00",
+  "content_hash": "sha256:2c480cc9c13f06b6ede279a45f8668789ba6cdfe2f8f6437945292880910ae52"
+}

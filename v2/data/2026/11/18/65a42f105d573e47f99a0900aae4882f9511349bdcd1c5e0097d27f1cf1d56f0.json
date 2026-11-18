@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "65a42f105d573e47f99a0900aae4882f9511349bdcd1c5e0097d27f1cf1d56f0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/hubspot-constant-contact-integration-no-code-setup",
+  "canonical_url": "https://www.activepieces.com/blog/hubspot-constant-contact-integration-no-code-setup",
+  "title": "HubSpot Constant Contact Integration: No-Code Setup",
+  "summary": "HubSpot Constant Contact integration automates data flow between both apps in Activepieces.",
+  "body_markdown": "## Limits and Errors When HubSpot Meets Constant Contact\n\n\nOnce live, the first failures come from expired connections, duplicate or malformed emails, blank required fields, contacts who opted out, and API caps. Each leaves a different trace in your run history.\n\n\nWhen someone revokes access, changes a password, or loses permission to a list, a **connection that worked in testing can stop working** . The run fails at the first step that calls the expired account, so reconnect it and rerun rather than debugging the data.\n\n\n### Duplicates, invalid emails and missing fields\n\n\nIf the email in HubSpot is empty or malformed, the step fails, because Constant Contact keys contacts on email address. Filter for a non-empty email before the action runs.\n\n\nWhen two HubSpot records share one address, they should update one Constant Contact contact, not create two. Test with a record missing a first name, because that's the gap you'll meet first.\n\n\nIf a contact unsubscribed in Constant Contact, a sync that only reads HubSpot shouldn't re-add them. Check subscription status before writing, and never let the workflow overwrite an opt-out. Treat it as a stop condition, not an error to retry.\n\n\n### HubSpot API rate limits and failed workflow runs\n\n\nHubSpot's daily API allowance rises with plan.[Scopious Digital](https://www.scopiousdigital.com/blog/hubspot-api-rate-limits-production) lists **250,000 requests per day on Free and Starter** , so a one-contact-at-a-time workflow is safe, but a job that re-reads every contact on each run can burn through it.\n\n\nAt Professional, you get 625,000 per day, enough headroom to run a sync several times daily on a mid-sized list. Enterprise gets 1,000,000, which matters only if several integrations share the same account's quota.\n\n\nIn the run view below, a three-step flow has a trigger, email action, and end node, with step timings and input/output data on the left, and a failed run flagged at the bottom with an edit option.\n\n\nOpen the failed step first, read its output, and compare it with the input to see whether the cause was the connection, the data, or a limit.\n\n\nAfter diagnosing a failure, fix the one cause and rerun that single contact before releasing the next batch.",
+  "published_at": "2026-11-18T13:49:25+00:00",
+  "first_seen_at": "2026-11-18T17:35:41.201411+00:00",
+  "content_hash": "sha256:3b9af43673c90d2504ec62d16ce41a4497716822bf83829e06887903e33f08a1"
+}

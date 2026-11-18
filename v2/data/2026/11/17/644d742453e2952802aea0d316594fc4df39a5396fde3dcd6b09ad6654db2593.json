@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "644d742453e2952802aea0d316594fc4df39a5396fde3dcd6b09ad6654db2593",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transform-well-architected-agent/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transform-well-architected-agent/",
+  "title": "AWS Transform now provides Well-Architected Agent reviews",
+  "summary": "Discover more about what's new at AWS with AWS Transform now provides Well-Architected Agent reviews",
+  "body_markdown": "AWS Transform for migrations now includes Well-Architected reviews of target networks as it migrates and modernizes infrastructure to AWS. These recommendations, provided by the AWS Well-Architected Agent in public preview, are based on the latest best practices across security, reliability, and cost optimization pillars, and are applied directly to your target network, so you don't have to update the infrastructure after deployment on AWS.\n\n\nWhile migrating networks, design gaps typically surface after deployment, making fixes costly, requiring separate review and update cycles. For teams migrating large on-premises networks, this capability catches improvement opportunities early in the planning stage. AWS Well-Architected Agent provides recommendations, such as re-addressing spoke VPCs using non-RFC1918 addresses and governing CIDR allocation, and AWS Transform applies them to the network design. Post-deployment recommendations are documented for you as downloadable artifact from AWS Transform chat, so you can address them in your AWS accounts once your network is live.\n\n\nThe capability is available in commercial[AWS Regions](https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html) . Well-Architected Agent is delivered by AWS Support and included with paid Support plans.\n\n\nTo get started, see AWS Transform for migrations. To learn more about AWS Well-Architected Agent, visit the[product documentation](https://docs.aws.amazon.com/wellarchitected/latest/userguide/agent.html) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T17:35:35.972254+00:00",
+  "content_hash": "sha256:f6f0bb01bd096c375f4c7f84e8632fe86b65d50282d7d9a0577ef952882641b6"
+}

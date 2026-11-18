@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d411c6cd3a79756a94994f5e783fe68495407e60d8f6641ea1d741207cf7994a",
+  "company_key": "rapid7-inc-common-stock",
+  "company_name": "Rapid7 Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.rapid7.com/blog/post/tr-self-hosted-ai-renting-compute-exposed-servers",
+  "canonical_url": "https://www.rapid7.com/blog/post/tr-self-hosted-ai-renting-compute-exposed-servers",
+  "title": "Open by Default, Already Occupied: Threat Actors are Renting your Compute",
+  "summary": "A snapshot of 20,354 internet-facing hosts shows self-hosted AI deployed the way we deployed databases a decade ago. The more interesting part is what other people had already left inside.",
+  "body_markdown": "### Exposure research needs a second question.\n\n\n“Is it open?” is the easy part. “Has it been touched?” is the useful part, and for AI runtimes the answer is often sitting in a read-only API response. Defenders should triage on artifacts, not banners.\n\n\n### Model runtimes are becoming credential brokers.\n\n\nOnce a local daemon can route to paid cloud models with a key on disk, compromising it is about access and money, not just CPU cycles. That's a different threat model from the one most teams had in mind when they typed` OLLAMA_HOST=0.0.0.0` .\n\n\n### The attackers here didn't need AI.\n\n\nWe spend a lot of energy debating whether AI will make attackers faster. On these servers the playbook is old: an unauthenticated service, path traversal, server-side request forgery, outbound callbacks. Familiar primitives, new location. The controls we already know work. They just haven't followed the workload.\n\n\n### Internet measurement is polluted, and we should say so.\n\n\nA meaningful slice of “critical AI exposure” is other people's sensors watching each other. Anyone publishing exposure numbers, vendors included, should show how they filter.",
+  "published_at": "2026-11-18T14:38:55+00:00",
+  "first_seen_at": "2026-11-18T18:42:58.074763+00:00",
+  "content_hash": "sha256:9b9a92da3aaeae123e505c936d196601ac8bce887be3737632e859f26303bb36"
+}
