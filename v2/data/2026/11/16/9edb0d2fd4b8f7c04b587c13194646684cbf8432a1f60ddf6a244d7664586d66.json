@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9edb0d2fd4b8f7c04b587c13194646684cbf8432a1f60ddf6a244d7664586d66",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-network-scanning-rds/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-network-scanning-rds/",
+  "title": "AWS Security Hub Network Scanning now supports scanning Amazon Relational Database Service (Amazon RDS) database instances",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub Network Scanning now supports scanning Amazon Relational Database Service (Amazon RDS) database instances",
+  "body_markdown": "AWS Security Hub Network Scanning now scans Amazon RDS DB instances to identify those that are reachable from the internet. Network Scanning automatically discovers existing and new RDS DB instances in your accounts and scans each instance that has Public Access configured. For each reachable port associated with a DB instance, Security Hub creates a finding with details about the instance and the reachable port.\n\n\nRDS scanning gives you more visibility into which resources in your environment are reachable from the internet. You can then investigate and update their access settings as needed. RDS scanning is turned on automatically for all customers who already have Network Scanning enabled.\n\n\nNetwork Scanning probes your resources from the internet to detect reachability, beyond what security group rules and route tables suggest. Security Hub Exposures then correlates these findings with other findings and resource configurations to assess broader risk.\n\n\nExisting Security Hub customers can enable Network Scanning in individual accounts and Regions, or across an organization with a configuration policy. For new Security Hub customers, Network Scanning is on by default. Network Scanning is included with Security Hub Essentials at no additional cost in all AWS commercial and AWS GovCloud (US) Regions that support Security Hub. To learn more, see the[AWS Security Hub User Guide](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-v2-network-scanning.html) and the[AWS Security Hub product page](https://aws.amazon.com/security-hub/) . For the full list of Regions, see the[AWS Regional Services List](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .",
+  "published_at": "2026-11-16T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:432499c706bc2c96b068b40c98d3bf3dca9733254a5263c47ebb9a2957c75e88"
+}

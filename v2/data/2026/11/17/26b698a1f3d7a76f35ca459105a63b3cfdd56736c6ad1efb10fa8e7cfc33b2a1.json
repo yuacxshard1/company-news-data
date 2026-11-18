@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "26b698a1f3d7a76f35ca459105a63b3cfdd56736c6ad1efb10fa8e7cfc33b2a1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-ai-data-prep-capabilities/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-ai-data-prep-capabilities/",
+  "title": "Amazon SageMaker now supports AI data preparation capabilities to build high-quality datasets for model development",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker now supports AI data preparation capabilities to build high-quality datasets for model development",
+  "body_markdown": "Building high-quality training datasets has traditionally required weeks of manual labeling and data cleaning. Amazon SageMaker now offers AI data preparation capabilities that help data scientists and ML engineers build high-quality training and evaluation datasets for both text-based model customization and traditional ML.\n\n\nTeams can generate synthetic examples grounded in their own documents, auto-label records at scale with confidence scores, incorporate expert feedback through human review, evaluate data quality, and transform data for their chosen training or evaluation technique. Synthetic data generation creates training, evaluation, and test data from a specification grounded in your documents. Auto-labeling labels data at scale with built-in task types including classification, named entity recognition, extractive question answering, ordinal rating, and summarization, plus custom tasks. Rows below your confidence threshold go to a human review queue in the Label Studio Community Edition in SageMaker AI Studio. Data quality evaluation finds duplicates and surfaces issues such as tone and insufficient diversity with both quality metrics and rules. Data transformation cleans and reshapes data for your training or evaluation technique, using operators such as dedupe, filter, and format conversion.\n\n\nTeams can start with just a few examples, production traces, or existing data in[Amazon S3](https://aws.amazon.com/s3/) ,[Amazon Athena](https://aws.amazon.com/athena/) , or[AWS Glue Data Catalog](https://aws.amazon.com/glue/) . Developers access these capabilities directly through the SageMaker Python SDK API or in natural language through the latest version of the[AWS AI-ML skill in the Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-ai-ml) . Your source data, generated datasets, and labels stay in your own Amazon S3 buckets, controlled by an IAM role you manage.\n\n\nThese capabilities are available in the US East (N. Virginia) (us-east-1) and US West (Oregon) (us-west-2) regions.\n\n\nTo learn more, see the[AI data preparation documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/ai-data-prep.html) .",
+  "published_at": "2026-11-17T19:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:c789da45b7606264eea15e3c6c634ba5a4f79595f13c7e5452f655b994c08f98"
+}

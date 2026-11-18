@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b85dfa83032179b465e66eb3222894a9dc31212267eac6223816ba75efceeb2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/dynamodb-caching-elasticache/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/dynamodb-caching-elasticache/",
+  "title": "Amazon DynamoDB caching is now available with Amazon ElastiCache Serverless for Valkey",
+  "summary": "Discover more about what's new at AWS with Amazon DynamoDB caching is now available with Amazon ElastiCache Serverless for Valkey",
+  "body_markdown": "Today, AWS announces the general availability of DynamoDB caching with Amazon ElastiCache Serverless for Valkey, enabling sub-millisecond read latency for frequently accessed DynamoDB data. Previously, if you required faster reads than DynamoDB's single-digit millisecond latency, you had to manually manage cache infrastructure or keep a separate cache in sync. Now you can access DynamoDB table data from a write-through cache that updates as data changes and automatically scales to meet changing workload demands.\n\n\nDynamoDB caching requires no application logic changes and minimal configuration. You choose which DynamoDB tables and APIs to cache and how long to retain cached data. Your application's IAM credentials are used to access DynamoDB, so existing access control policies are automatically applied.\n\n\nDynamoDB caching is available in all commercial and AWS GovCloud (US) Regions. DynamoDB caching is offered at no additional cost, so you pay only for the ElastiCache Serverless and DynamoDB resources your applications use. To get started, see the[ElastiCache Developer Guide](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/ddb-caching.html) .",
+  "published_at": "2026-11-17T18:54:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:f36371decf299d46d9477984f3f0466446aa51002e640bab037a906a33a26d74"
+}

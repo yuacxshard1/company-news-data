@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6c17069bd4570b74aef94b3d3a22a38e895d7fb77ad70d1c9a4e8c65d78b23ad",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-dns-firewall-auto-allowlists/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-dns-firewall-auto-allowlists/",
+  "title": "Amazon Route 53 Resolver DNS Firewall now supports automated allow-list generation",
+  "summary": "Discover more about what's new at AWS with Amazon Route 53 Resolver DNS Firewall now supports automated allow-list generation",
+  "body_markdown": "Amazon Route 53 Resolver DNS Firewall now automatically generates domain allow-lists from your VPCs' observed DNS query traffic, helping you enforce least-privilege DNS access and reduce the risk of DNS-based data exfiltration.\n\n\nPreviously, implementing a least-privilege model required security teams to manually analyze DNS query logs to identify the domains their VPCs depend on before deploying allow-list rules. This created operational overhead and delayed enforcement of a deny-by-default (walled-garden) posture.\n\n\nWith automated allow-list generation, DNS Firewall analyzes DNS query traffic using a lookback window configurable from 1 hour to 7 days to create an allow-list of observed domains. It then continuously monitors DNS queries and flags newly observed domains, so you can review them before adding them to the allow-list. You can deploy the rule across multiple VPCs and accounts using AWS Firewall Manager or Route 53 Profiles.\n\n\nThis capability is available at no additional cost to DNS Firewall Advanced customers, in all AWS Regions where Route 53 DNS Firewall is supported, except in AWS GovCloud (US) and Amazon Web Services China Regions. To get started, use the Route 53 DNS Firewall console, AWS CLI, or API.\n\n\nTo learn more, visit the[Amazon Route 53 Resolver DNS Firewall product page](https://aws.amazon.com/route53/resolver-dns-firewall/) and the[Route 53 DNS Firewall Developer Guide](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/firewall-advanced.html) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:c3e49d9ee7645f4f8cf18f863c1464595a67c8e2d0ec0605a6340bdf99fadd66"
+}

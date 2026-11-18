@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "864a4cd9fc29a27e597a19ed46ff5b47564c561a3368651d8c3257e99108d9a5",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-memory-full-session-summaries",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-memory-full-session-summaries",
+  "title": "Amazon Bedrock AgentCore Memory now provides full session summaries",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock AgentCore Memory now provides full session summaries",
+  "body_markdown": "Amazon Bedrock AgentCore Memory now keeps a full session summary for every session. It's a single record that gives a snapshot of what happened in the conversation. Summary chunks cover the conversation in more detail, while the full session summary captures the overall picture of where the session stands. AgentCore Memory updates it as new events arrive, so it always reflects the session so far. This works well for developers who want a quick recap rather than a play-by-play.\n\n\nFull session summaries come with the summary strategy and need no extra setup. Every memory that has a summary strategy gets them automatically, including existing sessions. Each summary is stored as a long-term memory record next to the session's summary chunks. You retrieve it with the Memory operations you already use, and you can filter by record type to return only full session summaries.\n\n\nThis feature is available in all AWS Regions where AgentCore Memory is available. To get started, see the[Summary strategy documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/summary-strategy.html#summary-strategy-full-session-summary) .",
+  "published_at": "2026-11-17T19:17:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:19484da354f1f7f3aa6487108b2df865fd6d4fd19c15a56c27cf543bf66e3ed9"
+}

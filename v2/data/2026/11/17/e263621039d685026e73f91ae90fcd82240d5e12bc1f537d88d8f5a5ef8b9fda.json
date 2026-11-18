@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e263621039d685026e73f91ae90fcd82240d5e12bc1f537d88d8f5a5ef8b9fda",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/acm-certificates-container-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/acm-certificates-container-support/",
+  "title": "AWS Workload Credentials Provider adds container support for ACM certificates",
+  "summary": "Discover more about what's new at AWS with AWS Workload Credentials Provider adds container support for ACM certificates",
+  "body_markdown": "The open source[AWS Workload Credentials Provider](https://github.com/aws/aws-workload-credentials-provider) can now export AWS Certificate Manager (ACM) certificates to applications running in containers on Amazon Elastic Container Service (Amazon ECS), including AWS Fargate, Amazon Elastic Kubernetes Service (Amazon EKS), and Docker on Amazon EC2. You can now automate certificate deployment and renewal for containerized TLS workloads the same way you do on EC2 instances, on both Linux and Windows.\n\n\nThe provider runs as a sidecar in your ECS task or EKS pod. It exports each certificate and private key to a shared volume and writes the renewed files when ACM rotates the certificate. For TLS servers that don't reload certificate files on their own, such as NGINX, Apache, HAProxy, or IIS, a companion watcher in the TLS container runs your reload command after each renewal. The watcher needs no AWS credentials. TLS servers that reload automatically, such as Envoy, Traefik, and Caddy, need only the shared volume. Access is controlled through IAM: the sidecar assumes a per-workload role that is allowed to export only that workload's certificates.\n\n\nTo get started, download the provider and watcher binaries for Linux (x86_64 and Arm64) or Windows, and follow the[setup steps and ECS and EKS examples](https://github.com/aws/aws-workload-credentials-provider#-running-as-a-container-sidecar-) in the AWS Workload Credentials Provider README on GitHub. The provider is available at no additional charge, and standard[ACM charges](https://aws.amazon.com/certificate-manager/pricing/) apply to exported certificates. To learn more, see the[AWS Certificate Manager documentation](https://docs.aws.amazon.com/acm/) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:7f9539f73e5fdd5859483b5cda9ccf8783d7dee507623e7e78353c9244f16226"
+}

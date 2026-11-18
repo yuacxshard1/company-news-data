@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b650ac5dc9c73fd51b4d96f120de6c83bdcb4b6382cf1f49397459f5c3cf31d6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-post-quantum-tls-aws-cloudtrail/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-post-quantum-tls-aws-cloudtrail/",
+  "title": "Amazon S3 now provides post-quantum TLS visibility in AWS CloudTrail",
+  "summary": "Discover more about what's new at AWS with Amazon S3 now provides post-quantum TLS visibility in AWS CloudTrail",
+  "body_markdown": "Amazon S3 now records the TLS key exchange algorithm in AWS CloudTrail for S3 requests, so you can see which requests and clients use post-quantum TLS (PQ-TLS). With this visibility, you can measure the share of your S3 traffic that is protected with post-quantum cryptography, and identify the applications, SDK versions, and IAM principals that still connect with classical key exchange and need to be upgraded.\n\n\nThe new keyExchange value in the tlsDetails field of CloudTrail management and data events shows the key exchange negotiated on each TLS connection, such as the hybrid post-quantum algorithm X25519MLKEM768 or a traditional algorithm such as x25519. For example, you can query your CloudTrail logs to find the user agents of S3 requests that did not use ML-KEM, then prioritize those clients for your post-quantum migration. The keyExchange value is recorded for requests to general purpose buckets, directory buckets, table buckets, and vector buckets, including requests made through AWS PrivateLink.\n\n\nKey exchange details for S3 requests are available in all AWS Regions at no additional cost. Standard AWS CloudTrail pricing applies for S3 data events. To learn more, visit[post-quantum TLS in the Amazon S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingEncryptionInTransit.PQ-TLS.html) and the[CloudTrail record contents reference](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-record-contents.html) .",
+  "published_at": "2026-11-17T14:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:4a49b8ef331ff71d2bc722db9e70de2c16eb1f129efc1e21480b204ca6279f38"
+}

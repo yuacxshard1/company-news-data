@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4fe03b394b4b31866257d5d44ccd71330689d8e7addb38e9c52b5a99d588eec7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-authentication-amazon-ecr",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-authentication-amazon-ecr",
+  "title": "Amazon ECR now supports global authentication tokens for private registries",
+  "summary": "Discover more about what's new at AWS with Amazon ECR now supports global authentication tokens for private registries",
+  "body_markdown": "Amazon Elastic Container Registry (Amazon ECR) now supports global authentication tokens for private registries. Previously, you needed to request a separate authentication token in each AWS Region where you push or pull container images. Now, you can request a single token from the AWS Sign-In CreateBearerToken API and use it across all ECR private registries in the same AWS partition.\n\n\nTeams that run proxy services to route container pulls across Regions, a common pattern for optimizing latency or availability, previously had to request, refresh, and coordinate a separate token for every Region behind the proxy. With global tokens, the proxy manages one token for all Regions in the AWS partition. Global tokens are valid for 12 hours by default, but can be configured to be as low as 5 minutes. These tokens work with the Docker CLI, and the Amazon ECR Docker Credential Helper. Existing regional authentication tokens continue to work as before.\n\n\nGlobal authentication tokens are available in all commercial AWS Regions where Amazon ECR is supported. To learn more, see Private registry authentication in the[Amazon ECR User Guide](https://docs.aws.amazon.com/AmazonECR/latest/userguide/registry_auth.html) .",
+  "published_at": "2026-11-17T21:37:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:63bd3f43c6c593696f587a0f26c241dbcb3fa8febc00b0db428222433d8d0590"
+}

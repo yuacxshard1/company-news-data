@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "20cf451019a8c9a448128c42ec72c2d80450a8e8aa8f67142e9b8b10e925d2bf",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rtmp-support-aws-elemental-mediaconnect/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rtmp-support-aws-elemental-mediaconnect/",
+  "title": "AWS Elemental MediaConnect expands routing control and protocol support",
+  "summary": "Discover more about what's new at AWS with AWS Elemental MediaConnect expands routing control and protocol support",
+  "body_markdown": "With[AWS Elemental MediaConnect](https://aws.amazon.com/mediaconnect/) , you now have more protocol support and routing control for your live video workflows.\n\n\nFirst, MediaConnect now supports more protocols, including RTMP, RTMPS, and eRTMP, across both[flows](https://docs.aws.amazon.com/mediaconnect/latest/ug/flows.html) and[router](https://docs.aws.amazon.com/mediaconnect/latest/ug/routers.html) . RTMP is widely used by live streaming encoders and software such as OBS. With this support, you can now bring RTMP sources into MediaConnect and deliver to RTMP endpoints, such as social and live streaming platforms.\n\n\nSecond, the service adds three new routing capabilities:\n\n\n- PID remapping on MediaConnect router reassigns transport stream PIDs inline, without transcoding.\n- Clean switch aligns input transitions on video boundaries for a more seamless switching experience.\n- SRT merge input mode bonds redundant SRT streams of the same content, reconstructing a clean feed when one path degrades to add resilience for lossy or long-haul contribution.\n\n\nThese capabilities are available in all AWS Regions where MediaConnect Router is available.\n\n\nTo learn more, see the[AWS Elemental MediaConnect documentation](https://docs.aws.amazon.com/mediaconnect/latest/ug/what-is.html) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:9b06addc41c8f16430850997af80b892a14be7a29eb39476e61cbc9857e24598"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "587b56e13f96b0297f74e5164bf60ccb5006aed6899bee352cd818b4bf9f2d9e",
+  "company_key": "yc-1code-21stdev",
+  "company_name": "1code (21st.dev)",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://21st.dev/blog/ui-reward-model-grpo",
+  "canonical_url": "https://21st.dev/blog/ui-reward-model-grpo",
+  "title": "Can a model learn developer taste in UI?",
+  "summary": "Trained on what developers choose on 21st, Qwen started filling the screen, adding colour and building a whole page around one component.",
+  "body_markdown": "Time picker, 0.38 → 1.28, is the figure at the top of the post.\n\n\nLooping shapes\n\n\n> Build a single looping decorative animation built from shapes, not a page with animated sections and not a collection of different effects. It is for \"Nimbus Weather\", a hyperlocal forecast app. Required: one self-contained animated composition of at least 5 moving elements, a seamless infinite loop, and smooth easing. Visual style is up to you. Show only this component on the page: no headline, hero, navigation or other sections around it. Use a light theme.\n\n\nBefore training\n\n\naverage score −0.19\n\n\nscore 0.11\n\n\nscore −0.17\n\n\nscore −0.28\n\n\nscore −0.42\n\n\n↓\n\n\n→\n\n\nAfter training\n\n\naverage score 0.58\n\n\nscore 0.93\n\n\nscore 0.89\n\n\nscore 0.79\n\n\nscore −0.28\n\n\nGallery hero\n\n\n> Build a single hero section whose main feature is an image gallery, not a full landing page and not a standalone lightbox. It is for \"Casa Alba\", a boutique hotel in Lisbon. Required: a headline, a short subtext, 1 call-to-action button, and exactly 5 gallery images (use placeholder image URLs). Visual style is up to you. Use a light theme.\n\n\nBefore training\n\n\naverage score 0.65\n\n\nscore 0.99\n\n\nscore 0.66\n\n\nscore 0.30\n\n\nbroke the brief · no score\n\n\n↓\n\n\n→\n\n\nAfter training\n\n\naverage score 1.23\n\n\nscore 1.63\n\n\nscore 1.17\n\n\nscore 1.16\n\n\nscore 0.96\n\n\nAurora hero\n\n\n> Build a single hero section with an animated aurora-borealis style background, not a full landing page and not a bare background without content. It is for \"Northlight Analytics\", a product analytics platform. Required: the aurora-style animated background, exactly 1 headline, 1 supporting paragraph and 2 call-to-action buttons. Visual style is up to you. Use a dark theme.\n\n\nBefore training\n\n\naverage score −0.37\n\n\nscore 0.53\n\n\nscore −0.35\n\n\nscore −0.79\n\n\nscore −0.87\n\n\n↓\n\n\n→\n\n\nAfter training\n\n\naverage score 0.13\n\n\nscore 0.48\n\n\nscore 0.36\n\n\nscore 0.03\n\n\nscore −0.35",
+  "published_at": "2026-11-16T00:00:00+00:00",
+  "first_seen_at": "2026-11-17T23:06:19.079413+00:00",
+  "content_hash": "sha256:2526c863ed7341064248b9596dce3916379fdf23daaef6d1ae47db5d75b79071"
+}

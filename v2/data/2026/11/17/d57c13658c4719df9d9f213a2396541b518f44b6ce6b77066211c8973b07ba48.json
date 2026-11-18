@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d57c13658c4719df9d9f213a2396541b518f44b6ce6b77066211c8973b07ba48",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-resource-criticality/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-resource-criticality/",
+  "title": "AWS Security Hub now infers resource criticality from installed software and usage",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub now infers resource criticality from installed software and usage",
+  "body_markdown": "Today, AWS Security Hub adds installed software and resource usage as signals for resource criticality, which indicates how important a resource is to your business. Security Hub uses criticality to rank exposure findings, so that central security teams can prioritize the exposures that affect their most important resources.\n\n\nSecurity Hub already infers criticality from resource tags and names, but inconsistently tagged resources often have an Unknown criticality, which makes their exposures harder to prioritize. With installed software and resource usage as additional signals, more of your resources receive a meaningful criticality with no tagging or configuration required. For example, an EC2 instance that runs a database engine and serves steady traffic receives a higher criticality than an instance that runs only monitoring agents and sits idle.\n\n\nThese signals are included with the Security Hub Essentials plan at no additional cost and require no new enablement. To learn more, see Resources in Security Hub in the AWS Security Hub[User Guide](https://docs.aws.amazon.com/securityhub/latest/userguide/resources-adv.html) and the AWS Security Hub[product page](https://aws.amazon.com/security-hub/) . For a list of AWS Regions where Security Hub is available, see the[AWS Region table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .",
+  "published_at": "2026-11-17T20:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:e0622a0d6b0454104d76c84281b9eb44fede9ba15bb1e4107fbe0069756487e1"
+}

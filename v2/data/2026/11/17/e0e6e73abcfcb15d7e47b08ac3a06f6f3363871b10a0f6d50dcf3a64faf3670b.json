@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e0e6e73abcfcb15d7e47b08ac3a06f6f3363871b10a0f6d50dcf3a64faf3670b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-managed-conformance-packs",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-managed-conformance-packs",
+  "title": "AWS Config announces managed conformance packs",
+  "summary": "Discover more about what's new at AWS with AWS Config announces managed conformance packs",
+  "body_markdown": "AWS Config now offers managed conformance packs. AWS builds and maintains these packs for specific compliance and governance frameworks. When you deploy one, you choose a framework, and AWS Config evaluates your resources against it. AWS keeps the pack up to date as things change. When new AWS Config managed rules map to the framework's controls, or when the framework itself is revised, AWS updates your deployed pack automatically. Because AWS maintains a consistent pack definition in every supported Region, you can deploy the same framework across Regions without building or maintaining Region-specific rule sets. With managed conformance packs you no longer have to track framework changes or update rules yourself.\n\n\nPreviously, to evaluate resources against a framework such as PCI DSS or SOC 2, you started from a sample conformance pack template, customized it for your environment, and then updated it yourself whenever new rules became available or the framework changed. Managed conformance packs remove that work, so your coverage stays current without manual template changes. Each pack includes the managed rules available in the Region where you deploy it and adds new rules as they become available there, so you don't need a separate template for each Region. You can set rule parameters to fit your environment. Compliance results and compliance scores appear in the AWS Config console alongside your other rules and conformance packs.\n\n\nManaged conformance packs cover frameworks including PCI DSS v4, SOC 2, NIST SP 800-53 Rev. 5, ISO/IEC 27001:2022, and CIS Controls, along with AI governance frameworks such as the EU AI Act and NIST AI RMF 1.0. For the full list, see the[AWS Config documentation page](https://docs.aws.amazon.com/config/latest/developerguide/conformance-packs.html) .\n\n\nManaged conformance packs are available in all AWS commercial Regions except Middle East (UAE) and Middle East (Bahrain). For the full list of supported Regions, see[AWS Capabilities by Region](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . Evaluations are billed at standard conformance pack evaluation rates. To get started, open the AWS Config console and choose Conformance packs. To learn more, see the[AWS Config Developer Guide](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html) and the[AWS Config pricing page](https://aws.amazon.com/config/pricing/) .",
+  "published_at": "2026-11-17T17:49:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:853cacdcb2a4f126feccf8efdbee268e7059ba627fb3b049a8aedab21692321b"
+}

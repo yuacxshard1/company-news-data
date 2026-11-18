@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "319f02ce937e93a41812313390560eaa0da6e41d1ef1f34e38075d40b667e0eb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
+  "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
+  "summary": "Discover more about what's new at AWS with Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
+  "body_markdown": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR Serverless console or through the SageMaker Unified Studio MCP Server.\n\n\nThe agent takes the job's configuration, logs, and Spark telemetry together with your chosen intent and returns recommendations computed by a deterministic recommendation engine. The engine reads all job artifacts together to identify what is driving runtime and cost: too little parallelism, a skewed join key, memory pressure forcing spill, idle executors, or capacity provisioned beyond what the job uses. The configurations the engine targets are the settings most commonly tuned across millions of Spark jobs running on AWS. When cost and performance trade off, the recommendation improves the metric you asked for while keeping degradation of the other within defined limits. The engine also evaluates a best practices checklist covering platform-level improvements such as upgrading to a newer Spark version or using Graviton processors. Each recommendation is labeled by the surface it modifies: infrastructure, Spark configuration, code, or data layout. Data engineers can also use the agent during development to tune configurations before promoting to production. All access is authenticated with AWS IAM and logged in AWS CloudTrail.\n\n\nThe Apache Spark Optimization Agent is available at no additional charge in all Regions where EMR Serverless is available, except GovCloud (US) and China Regions, for EMR release versions 7.6 and later. To get started, see[Apache Spark Optimization Agent for Amazon EMR Serverless](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/spark-optimization-agent.html) .",
+  "published_at": "2026-11-17T22:25:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:f1d899b882819bee1f944473b161cc7b8fb0d4778af54929a9b555be99de58b9"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "03034f12b5fa0950068f27098278dac0374336647dc6ffbb155831c8074f42e1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/split-cost-allocation-data-s3/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/split-cost-allocation-data-s3/",
+  "title": "AWS Split Cost Allocation Data now supports Amazon S3",
+  "summary": "Discover more about what's new at AWS with AWS Split Cost Allocation Data now supports Amazon S3",
+  "body_markdown": "Starting today, you can allocate the storage and request costs of a shared Amazon S3 general purpose bucket to the prefixes in that bucket in the AWS Cost and Usage Report (CUR). Organizations often store data for many teams, applications, or tenants in one bucket under different prefixes, such as \\`marketing/\\` and \\`finance/\\`. Until now, attributing that bucket's bill to each prefix required custom pipelines built on S3 Inventory or Storage Lens reports and your own pricing logic.\n\n\nWith Split Cost Allocation Data for Amazon S3, Amazon S3 Storage Lens publishes prefix-level storage and request metrics to AWS Billing and Cost Management, which allocates the bucket's storage and Tier 1 and Tier 2 request costs to the deepest matching prefix in the range of prefix levels you choose. Each prefix line item carries its full prefix path as AWS-generated cost allocation tags, so you can total cost by top-level prefix, team, or application, and reconcile it back to the bucket. You can use this data for chargeback, showback, and to see which prefixes drive your S3 spend.\n\n\nTo get started, enable AWS Billing and Cost Management publishing in an S3 Storage Lens advanced tier dashboard configuration, then enable split cost allocation data for Amazon S3 in the AWS Billing and Cost Management console. Prefix cost data appears in your CUR after the next daily Storage Lens metrics are published. Split Cost Allocation Data for Amazon S3 is available in all AWS commercial Regions where S3 Storage Lens advanced metrics are available, at no additional charge beyond S3 Storage Lens advanced tier pricing. To learn more, visit the[AWS Cost and Usage Reports](https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/) product page,[Understanding split cost allocation data](https://docs.aws.amazon.com/cur/latest/userguide/split-cost-allocation-data.html#split-cost-allocation-data-s3) , and[Estimating Amazon S3 costs by prefix with S3 Storage Lens](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-lens-cost-and-usage-reports.html) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:34d2245587e82648a7d12a68b3fbbb44a0848a567a072d37d4b4a626907afba3"
+}

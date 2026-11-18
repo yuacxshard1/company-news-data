@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b01c782a238af974085c6f0621a87f5be2736bb0e7bddce8250e6f889b15396",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-detects-vulnerable-software/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-detects-vulnerable-software/",
+  "title": "AWS Security Hub now detects when vulnerable software is running on Amazon EC2 instances",
+  "summary": "Discover more about what's new at AWS with AWS Security Hub now detects when vulnerable software is running on Amazon EC2 instances",
+  "body_markdown": "AWS Security Hub now detects when software with a known vulnerability is actively running on your Amazon EC2 instances. Exposure findings now include a new trait, *The EC2 instance is running software with a known vulnerability*. These findings get a higher severity rating than findings for the same vulnerability where the software isn't running. This helps your security team focus on the vulnerabilities that pose the greatest risk, without investing time and resources to investigate if the software is actually in use.\n\n\nSecurity teams managing thousands of instances can now prioritize patching based on actual runtime risk. Security Hub correlates data from Amazon GuardDuty Runtime Monitoring and Amazon Inspector VM Scanner to detect running vulnerable software. It then combines this with other signals to generate exposure findings for EC2 resources that may be at risk, so you can prioritize response and remediation.\n\n\nThis capability is available at no additional cost with the AWS Security Hub Essentials plan in all AWS Regions where Security Hub is available . To learn more, see the[AWS Security Hub User Guide](https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html) , the exposure definition in[Remediating exposures for EC2](https://docs.aws.amazon.com/securityhub/latest/userguide/exposure-ec2-instance.html#vulnerable-software-currently-running) , the[AWS Security Hub product page](https://aws.amazon.com/security-hub/) , the[GuardDuty Runtime Monitoring User Guide](https://docs.aws.amazon.com/guardduty/latest/ug/runtime-monitoring.html) , and the[Amazon Inspector VM Scanner User Guide](https://docs.aws.amazon.com/inspector/latest/user/inspector-vm-scanner.html) . For the full list of Regions, see the[AWS Regional Services List](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .",
+  "published_at": "2026-11-16T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:7386a9fc24d1764ab9dd54c95a7ce723cd067a48a3c4baa981470000574d4e35"
+}

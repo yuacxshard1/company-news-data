@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2db6a19e48cac360fe6f43c6be96f73661cc694445776e3fabe0c255dea9bfa9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-context-aware-rules/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-context-aware-rules/",
+  "title": "AWS Network Firewall now supports context-aware rules with AWS Transit Gateway-attached firewalls",
+  "summary": "Discover more about what's new at AWS with AWS Network Firewall now supports context-aware rules with AWS Transit Gateway-attached firewalls",
+  "body_markdown": "AWS Network Firewall attached to AWS Transit Gateway now allows you to use context-aware rules in your firewall policy. Network Firewall is a managed firewall and intrusion prevention service that inspects and filters traffic across your virtual private clouds (VPCs). With context-aware rules, you write rules that reference context from VPC resources instead of IP addresses. This makes it easier to apply consistent security controls as your organization grows. Existing rules automatically cover new workloads, so you don't need to update rules manually.\n\n\nContext-aware rules match traffic using VPCs, subnets, security groups, and Transit Gateway attachment identifiers, collectively known as context identifiers. You can reference context identifiers in a rule's source for any protocol, and in its destination for TCP-based protocols such as HTTP, TLS, and SSH. Flow and alert logs include context identifiers, so you can investigate activity based on context.\n\n\nContext-aware rules are available at no additional charge in all commercial and AWS GovCloud (US) Regions. For a full list of supported Regions, see the[AWS Capabilities by Region page](https://builder.aws.com/build/capabilities/explore?f=eJxVirEKg0AQBX9FXq1FWiGFjZAmRVKkcC0uusji4cneqYj477lcEUg3b94c8Gy5C9w_eBA3eZRoCIsv2PhQXAgt8l9TrUaseYuVsMewmvbsT-WY1c2sYa_FBtbYHIRAKJs2J8wRCE4JcQxfG98xSc-6Sse3Pn0uuWviNXH1emZ3DpvTMatFeTPWEs72xPkBR_VAow&tab=service-feature&refid=d08148e0-c462-4c19-ae34-467de69e31c6) .\n\n\nTo learn more, see the AWS Network Firewall[product page](https://aws.amazon.com/network-firewall/) and[documentation](https://docs.aws.amazon.com/network-firewall/latest/developerguide/context-aware-rules.html) .",
+  "published_at": "2026-11-16T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:fb1c965953e7ddd1d470b4a863ce3c7f4966aa5e492e794bb7b0235ebd889f09"
+}

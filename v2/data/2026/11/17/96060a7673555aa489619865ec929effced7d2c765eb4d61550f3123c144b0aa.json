@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "96060a7673555aa489619865ec929effced7d2c765eb4d61550f3123c144b0aa",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-post-quantum-tls-key-exchange-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-post-quantum-tls-key-exchange-support/",
+  "title": "Amazon S3 adds post-quantum TLS key exchange support to additional S3 endpoints",
+  "summary": "Discover more about what's new at AWS with Amazon S3 adds post-quantum TLS key exchange support to additional S3 endpoints",
+  "body_markdown": "Amazon S3 adds post-quantum TLS (PQ-TLS) key exchange support to S3 Vectors and AWS PrivateLink for Amazon S3 interface endpoints. This extends the post-quantum cryptography support already available on regional S3, S3 Tables, and S3 Express One Zone endpoints.\n\n\nS3 Vectors endpoints and PrivateLink interface endpoints now support Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), one of the National Institute of Standards and Technology (NIST) standardized post-quantum cryptographic algorithms. PQ-TLS key exchange is available to all clients configured to use the ML-KEM key exchange algorithm. S3 Vectors and PrivateLink endpoints automatically negotiate the strongest key exchange that your client software supports, so clients that support ML-KEM receive the benefits of PQ-TLS key exchange without any changes to your applications or endpoint configuration.\n\n\nPQ-TLS key exchange for S3 Vectors and AWS PrivateLink for S3 is supported at no additional cost in all AWS Regions. To learn more about PQ-TLS support in S3, visit the[Amazon S3 User Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingEncryptionInTransit.PQ-TLS.html) .",
+  "published_at": "2026-11-17T14:00:00+00:00",
+  "first_seen_at": "2026-11-18T01:26:29.655426+00:00",
+  "content_hash": "sha256:78272614ef5cc723aa4bd5b47476c175bfb8f2c082b3bcfcc73d381cd47f8ca1"
+}
