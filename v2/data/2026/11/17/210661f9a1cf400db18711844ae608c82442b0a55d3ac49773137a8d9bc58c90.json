@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "210661f9a1cf400db18711844ae608c82442b0a55d3ac49773137a8d9bc58c90",
+  "company_key": "yc-cinder-2",
+  "company_name": "Cinder",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://cinder.ai/resources/blog/how-to-choose-an-ai-safety-layer",
+  "canonical_url": "https://cinder.ai/resources/blog/how-to-choose-an-ai-safety-layer",
+  "title": "How to Choose a Safety Layer for an AI Product Built on Open-Weight Models",
+  "summary": "Compare self-hosted classifiers, managed classifiers, and trust and safety platforms for AI products built on open-weight models.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Are open-source safety classifiers good enough for production?\n\n\nFor narrow, lower-risk products with ML staff to host and retrain them, yes. They are a component, not a program. You still need policy, review, logging, and measurement, and you may outgrow public categories as your policy gets more specific.\n\n\n### What's the difference between open-source classifiers and managed classifiers?\n\n\nOpen-source classifiers are trained on their authors' definition of harm, and you run and retrain them yourself. Managed classifiers are tuned to your policies and maintained by the vendor, so detection keeps pace as users adapt without pulling your engineers off the product.\n\n\n### How much does a managed setup cost compared with building?\n\n\nThe answer depends on volume and scope. Compare the full cost of building: engineering time, labeling, review staff, retraining, and the audit evidence you will need to produce.\n\n\n### Can I start with open-source classifiers and move to a managed setup later?\n\n\nYes. Log every decision from the start and keep your policies written down. Both make a later move easier.\n\n\n### What should I look for in a trust and safety vendor for an AI product?\n\n\nDetection tuned to your policies that you can test on your own data, human review workflows, enforcement tooling for API customers, and reporting you can show to regulators and customers.\n\n\n### Do I need human review if my classifier is accurate?\n\n\nYes for the cases that matter most. Appeals, borderline content, and child safety escalations need people. Accuracy lowers the volume that reaches them.",
+  "published_at": "2026-11-17T14:56:24.799+00:00",
+  "first_seen_at": "2026-11-18T04:01:19.336875+00:00",
+  "content_hash": "sha256:b13e31f9b1fb5b2013fc21833ff3cca9e20185d029c3ef23449dd24d616b877e"
+}
