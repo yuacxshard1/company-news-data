@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b2c6957a9b62261064fdaaa37adcd536e74d751efd615e8f59686311dab29617",
+  "company_key": "yc-raindrop",
+  "company_name": "Raindrop",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.raindrop.ai/blog/mcp-analytics/",
+  "canonical_url": "https://www.raindrop.ai/blog/mcp-analytics/",
+  "title": "Introducing MCP Analytics",
+  "summary": "MCP Analytics connects individual tool calls into complete sessions, so you can understand how agents interact with your MCP server and where they run into trouble.",
+  "body_markdown": "When we talk with customers about a new feature, they often ask whether it will be available over MCP.\n\n\n[More than half of our users already access Raindrop through agents](https://www.raindrop.ai/blog/building-for-agents/) , so we now build every feature for both.\n\n\nBuilding for agents also meant understanding how they interacted with our MCP server. We had analytics and error tracking, but they only showed us individual tool calls. We couldn't see what agents were trying to accomplish, how they moved between tools, or where things went wrong.\n\n\nSo we pointed Raindrop at our own MCP server.\n\n\nFor the first time, we could follow each session from the agent's first tool call to its last. We could see what the agent was trying to do, which tools it called, and where it got stuck. Issue Detection even caught failures before customers reported them.\n\n\nNow you can do the same.\n\n\n## Understand how agents use your MCP server\n\n\nMCP servers are stateless, but understanding agent behavior requires seeing the entire session.\n\n\nMCP Analytics connects individual tool calls into complete sessions, so you can understand how agents interact with your MCP server and where they run into trouble.\n\n\n-\n\n\n**Sessions.** Follow an agent's activity from its first tool call to its last, with every call in order.\n\n\n-\n\n\n**Intent.** Understand what the agent was trying to accomplish, not just which tools it called.\n\n\n-\n\n\n**Dashboards.** See how agents interact with your MCP server, with dashboards ready out of the box.\n\n\n-\n\n\n**Signals and Issues.** Monitor the behaviors that matter to you and get alerted when something goes wrong.\n\n\n## Get started\n\n\n**JavaScript**\n\n\n```text\nnpm install @raindrop-ai/mcp\nRAINDROP_WRITE_KEY=... node --import @raindrop-ai/mcp/hook server.js\n```\n\n\n**Python**\n\n\n```text\npip install raindrop-mcp\nRAINDROP_WRITE_KEY=... raindrop-mcp python server.py\n```\n\n\nSend events to a project with\n\n\n` mcp` in its name, and Raindrop opens it in a dedicated MCP view.\n\n\n[Read the docs](https://www.raindrop.ai/docs/integrations/mcp#zero-code) .",
+  "published_at": "2026-11-17T00:00:00+00:00",
+  "first_seen_at": "2026-11-18T11:50:14.843240+00:00",
+  "content_hash": "sha256:fa7d8c5473b807055d92bef8e727d869cf2894fa677d248e0a36c39ec50af508"
+}

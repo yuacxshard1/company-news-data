@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2270bdd9ba8f42d49fc7737fee3f3743f6be11f3fa550cc08ee55b8efc565451",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/microsoft-sql-server-alternatives-7-top-picks-2026",
+  "canonical_url": "https://www.activepieces.com/blog/microsoft-sql-server-alternatives-7-top-picks-2026",
+  "title": "Microsoft SQL Server Alternatives: 7 Top Picks (2026)",
+  "summary": "Choosing Microsoft SQL Server alternatives requires identifying your switching reason: cost, control, deadlines, or cloud mandates.",
+  "body_markdown": "## Frequently asked questions\n\n\nIs PostgreSQL really a drop-in replacement for SQL Server? No. **It's a replacement, not a drop-in** .\n\n\nTables, indexes, and most queries move with modest changes. Procedural code, data type quirks, and application-side assumptions don't.\n\n\nTreat any vendor who says \"drop-in\" as having skipped the audit. Your trial migration is where the real gaps show up.\n\n\n### Is there a free version of SQL Server I can keep using?\n\n\nYes, but each free edition is fenced. Express is permitted in production, with hard caps on database size and compute. Developer carries full features, but its license forbids production use.\n\n\nIf your workload fits inside the Express caps, it's a legitimate stopgap. If it doesn't, you're paying for an upgrade or running a license violation, and only the first is cheap to fix.\n\n\n### Can I move SQL Server to the cloud without leaving Microsoft?\n\n\nYes, through Azure SQL Database, Azure SQL Managed Instance, or SQL Server on an Azure virtual machine. Managed Instance has the highest compatibility with on-premises SQL Server, so it's the lowest-effort move.\n\n\nCheck what that buys you, though. The engine is still Microsoft's, and so is the pricing model.\n\n\nYou've changed where the bill is generated, not who generates it. For a team whose complaint is lock-in, that's a relocation, not an exit.\n\n\n### How long does a SQL Server migration usually take?\n\n\nIt depends on four things you can measure: database size, volume of procedural code, how tightly the application is bound to T-SQL, and how much testing your sign-off requires.\n\n\nSize matters least. Code volume and testing matter most. A small database with heavy stored procedure logic can take longer than a large database that is mostly tables.\n\n\nRun the trial on your own schema and time it. That figure beats any published range.\n\n\n### Do I need to rewrite stored procedures?\n\n\nUsually, yes, at least in part. PostgreSQL uses its own procedural language, PL/pgSQL, and T-SQL doesn't translate one-to-one.\n\n\nConversion tools handle a large share of the schema automatically. **Procedural code is where they leave work behind** : error handling, temporary tables, and cursor logic tend to need manual review.\n\n\nBudget for reading every converted procedure, then testing it against production-shaped data. A procedure that compiles isn't a procedure that returns the same rows.",
+  "published_at": "2026-11-17T23:53:33+00:00",
+  "first_seen_at": "2026-11-18T10:32:40.344697+00:00",
+  "content_hash": "sha256:28690601f70b58bfc0542b35bea7e02794a7a186b617bb9d5d1a8594aff04dd0"
+}

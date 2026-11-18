@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a089617ef59b8c56cf69035e64d951199d99dd458e697f63aa087a8f5a2bfdfb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-bot-control-onboarding/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-bot-control-onboarding/",
+  "title": "AWS WAF announces simplified onboarding for Bot Control targeted protection",
+  "summary": "Discover more about what's new at AWS with AWS WAF announces simplified onboarding for Bot Control targeted protection",
+  "body_markdown": "Today, AWS WAF announces a simplified console experience for Bot Control at the targeted inspection level. A single setting, Targeted bot control, turns on targeted protection for your Amazon CloudFront distributions with the configuration AWS recommends. It comes with two additions to the Bot Control managed rule group: bot confidence levels, which summarize the targeted detections on each request as High, Medium, or Low, and a LATEST version that keeps you on the newest detections automatically. Together, they help you protect your applications against sophisticated and AI-powered bots without writing label match rules or changing application code.\n\n\nThe targeted inspection level uses machine learning and client-side signals to detect evasive bots. Previously, acting on those signals meant integrating the AWS WAF JavaScript SDK into every page, learning dozens of labels, and writing label match rules to combine them. Now, the rule group combines the detections into one confidence level per request, with one rule per level, and the Targeted bot control setting adds the rule group, applies the recommended action for each level, sets the version to LATEST, and turns on automatic SDK integration so CloudFront adds the SDK to your pages. You can change any action or start in Count.\n\n\nThe Targeted bot control setting is available today for protection packs (web ACLs) used with Amazon CloudFront. Bot confidence levels and the LATEST version are available in all AWS Regions where AWS WAF Bot Control is available. Standard pricing for the targeted inspection level applies, with no additional charge for the setting or automatic SDK integration. To get started, open the AWS WAF console. To learn more, see[Turning on Targeted bot control](https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-targeted-console.html) and[Bot confidence levels](https://docs.aws.amazon.com/waf/latest/developerguide/aws-managed-rule-groups-bot-confidence.html) in the AWS WAF Developer Guide, and read the[AWS Security Blog post](https://aws.amazon.com/blogs/security/introducing-simplified-onboarding-for-aws-waf-bot-control-at-the-targeted-inspection-level/) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T10:32:29.225115+00:00",
+  "content_hash": "sha256:5f9c60074f27089592dcd576a23e7ffb6dc6fd0512105521220f7cafbf2cd8ef"
+}

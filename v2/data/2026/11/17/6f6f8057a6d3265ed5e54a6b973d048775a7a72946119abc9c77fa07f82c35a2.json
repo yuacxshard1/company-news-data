@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6f6f8057a6d3265ed5e54a6b973d048775a7a72946119abc9c77fa07f82c35a2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-managed-instances-scale-to-zero/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-managed-instances-scale-to-zero/",
+  "title": "AWS Lambda now supports scale to and from zero for Lambda Managed Instances",
+  "summary": "Discover more about what's new at AWS with AWS Lambda now supports scale to and from zero for Lambda Managed Instances",
+  "body_markdown": "AWS Lambda now supports scale to and from zero for Event Functions running on[Lambda Managed Instances](https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances.html) (LMI). Lambda automatically scales execution environments for your function to zero during idle periods and scales them back up when requests arrive, without requiring you to provision minimum capacity. This makes LMI cost-effective for intermittent workloads such as asynchronous processing, development, and test environments.\n\n\nLambda Managed Instances lets you run Lambda functions on your Amazon EC2 instances while maintaining the operational simplicity of Lambda. With Lambda Managed Instances, you can access specialized compute configurations and drive cost efficiency through EC2 pricing advantages, without managing infrastructure. Previously, customers needed to keep a minimum number of execution environments running even when there was no traffic. With this launch, Lambda scales execution environments for your function to zero after a period with no activity, and provisions them again when requests arrive. This improves cost efficiency for workloads with periods of no traffic.\n\n\nThis feature is available today in all[AWS commercial Regions](https://builder.aws.com/build/capabilities) where Lambda Managed Instances is available. To get started, set MinExecutionEnvironments to zero for your function using the Lambda console, AWS CLI, AWS SDKs, AWS CloudFormation, AWS SAM, or AWS CDK. To learn more, visit the[AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances-scaling.html) and[AWS Lambda pricing](https://aws.amazon.com/lambda/pricing/) .",
+  "published_at": "2026-11-17T19:00:00+00:00",
+  "first_seen_at": "2026-11-18T10:32:29.225115+00:00",
+  "content_hash": "sha256:dd3a29dac2812cc5db40c3d9b54f9f771759ccdee0a1fc9ef1f1455ed03388b3"
+}

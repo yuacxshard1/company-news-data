@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7c2fd34ee9202b1f5833ed6a1326d5cc8efacab46efdd3416a2f86803cf45d5f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-case-and-calculated-attributes/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-case-and-calculated-attributes/",
+  "title": "Amazon Connect Customer now supports case and calculated template variables",
+  "summary": "Discover more about what's new at AWS with Amazon Connect Customer now supports case and calculated template variables",
+  "body_markdown": "[Amazon Connect Customer](https://aws.amazon.com/connect/) message templates, which personalize each message with details about its recipient, now support case fields from Cases and calculated attributes from Customer Profiles, such as a customer's most frequent contact channel. Companies that send updates about a claim, an order, or an application need each message to reflect that customer's record. Template authors can insert case fields, including custom fields that administrators define, and Connect Customer fills in the current value for each recipient every time it sends a message that uses the template.\n\n\nA claims manager at an insurance company can build one email template that pulls each claim's reference number and status from its case, so every policyholder receives an update about their own claim. A retailer can add a custom calculated attribute, such as each customer's total orders in the past year, to a loyalty email so every customer sees their own count. Developers can pass these values when they render a template with the[RenderMessageTemplate](https://docs.aws.amazon.com/connect/latest/APIReference/API_amazon-q-connect_RenderMessageTemplate.html) API.\n\n\nYou can use case and calculated attributes in message templates in the following AWS Regions: US East (N. Virginia), US West (Oregon), Africa (Cape Town), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt), and Europe (London).\n\n\nTo learn more, see[Add personalized content to message templates](https://docs.aws.amazon.com/connect/latest/adminguide/personalize-templates.html) in the Amazon Connect Customer Administrator Guide.",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T10:32:29.225115+00:00",
+  "content_hash": "sha256:bfdfa58ad7cac90e65b85b29a01f343d14de0ee560a8c22202b75d507a99ce5d"
+}

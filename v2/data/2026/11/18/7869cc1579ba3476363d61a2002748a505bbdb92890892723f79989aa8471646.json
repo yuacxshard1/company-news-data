@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7869cc1579ba3476363d61a2002748a505bbdb92890892723f79989aa8471646",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-set-up-the-gamma-mcp-server-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-set-up-the-gamma-mcp-server-2026-guide",
+  "title": "How to Set Up the Gamma MCP Server (2026 Guide)",
+  "summary": "Gamma MCP links your AI client to Gamma so it can create presentations and documents in your account from chat conversations.",
+  "body_markdown": "## Frequently asked questions\n\n\nThese are the questions the rest of the article leaves open, answered short. Where a figure matters, the answer points you to Gamma's own pages, because plan details change and a number copied from an article goes stale.\n\n\n### Is Gamma MCP free to use?\n\n\nDon't assume so. Whether your plan includes MCP access, and how many credits a generated deck spends, is set by Gamma's pricing and help pages, not by the MCP server.\n\n\n**Generation spends credits whichever way you call it** , so a chat that regenerates a deck five times pays for five decks. Check your plan and credit balance before you connect anything.\n\n\nIf an assistant can connect to an MCP server and complete the sign-in flow, Gamma MCP works with it. The practical test is whether your client lets you add a remote server and shows you its tool list afterwards.\n\n\nIf the tools never appear, the problem is the client's MCP support, not your Gamma account.\n\n\n### What is the difference between Gamma MCP and the Gamma API?\n\n\nMCP lets an assistant call Gamma for you inside a conversation, under your sign-in, with you watching. The API's for code you write and run yourself, which is what you want for anything scheduled or unattended.\n\n\nA chat session needs a person present to start it and to read the result. A job that has to run without one needs the API.\n\n\nTreat Gamma MCP as create-only unless your client's tool list shows an editing tool. The dependable pattern's to revise your input in chat and generate a new deck from it.\n\n\n### Is it safe to give an AI client access to my Gamma account?\n\n\nIt's as safe as the access you grant and the content the assistant reads. Read the permission screen before approving, and use an account you'd be comfortable seeing it act in.\n\n\nBe wary of pasting in documents or web pages you don't trust, because text inside them can steer the assistant into calls you never asked for. If something looks off, revoke the connection from both the client and your Gamma account settings.",
+  "published_at": "2026-11-18T05:43:04+00:00",
+  "first_seen_at": "2026-11-18T10:32:40.344697+00:00",
+  "content_hash": "sha256:662e079b01f4d53d3d87f97dc31408aad8247e7aa40c3514f9be1779a9811be5"
+}

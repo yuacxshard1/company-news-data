@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cab133e35b87c6211917db7419a60755590410229eb8c66c7ae0b32a5cd46636",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/airtable-hubspot-integration-how-to-set-it-up-2026",
+  "canonical_url": "https://www.activepieces.com/blog/airtable-hubspot-integration-how-to-set-it-up-2026",
+  "title": "Airtable HubSpot Integration: How to Set It Up (2026)",
+  "summary": "An Airtable HubSpot integration automates data syncing between your CRM and Airtable, eliminating manual record updates across both platforms.",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce the create path holds, the same five questions tend to come up. Each has a short answer.\n\n\nYes, but build it as two separate one-way flows, not one two-way one. Each flow needs its own field mapping and its own test contacts.\n\n\nWithout a rule for which side wins, an edit in one app triggers an update in the other, which triggers an update back, and you get a loop. Get the first direction stable before you add the second.\n\n\n### Do I need a paid HubSpot or Airtable plan to connect them?\n\n\nIt depends on your current plans, so check before you build. Both apps need to give you API credentials: a private app token on the HubSpot side and a personal access token on the Airtable side.\n\n\nOn top of that, plan tiers can change how many API calls you get and which automation features are included.\n\n\nConfirm both on each vendor's pricing and limits pages, because a plan that blocks the connection is cheaper to find out about on day one than after the test run fails.\n\n\n### How do I load my existing HubSpot contacts into Airtable?\n\n\nTreat the backfill as its own job, separate from the live flow. Export the contacts from a HubSpot list as a CSV and import it into the Airtable table. Alternatively, run the same flow once over a saved list in small batches.\n\n\nBecause a large one-off load is where rate limits bite hardest, batching matters. Before you switch the live flow on, make sure the backfill carries the HubSpot record ID, so new contacts don't create duplicates of records you've already imported.\n\n\n### Can I use other tools instead?\n\n\nYes. Other automation platforms offer HubSpot and Airtable connectors, and Airtable has its own built-in automations. You can also write a small script against both public APIs.\n\n\nWhichever tool you pick, the design advice doesn't change: one small tested one-way flow, mapped fields confirmed on both sides, and the rate limits planned for up front. Choose based on who will maintain it, not on which tool has the longer connector list.\n\n\n### Is a self-hosted setup possible for this integration?\n\n\nPartly. HubSpot and Airtable both run as hosted services, so only the middle layer, the thing that listens for changes and writes them across, can be self-hosted.\n\n\nYou can run that layer on your own server with some automation tools, and a script on your own infrastructure works too. Even self-hosted, that layer won't lift the rate limits, because HubSpot and Airtable set those on their side.",
+  "published_at": "2026-11-18T06:20:07+00:00",
+  "first_seen_at": "2026-11-18T10:32:40.344697+00:00",
+  "content_hash": "sha256:5b8506d0dc2646340285f2d12576932cc97c8a00090e74710a70bf5ea5ccde25"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e673c24b80e1c2a23e4dd41c82a6e4b0924f0468f5ba553c624919b73608d5ad",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/elemental-inference-functions-decisions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/elemental-inference-functions-decisions/",
+  "title": "Customize AWS Elemental Inference with custom models, prompts, and decisions",
+  "summary": "Discover more about what's new at AWS with Customize AWS Elemental Inference with custom models, prompts, and decisions",
+  "body_markdown": "# Customize AWS Elemental Inference with custom models, prompts, and decisions\n\n\nPosted on: Nov 17, 2026\n\n\nAWS Elemental Inference now lets you customize how it analyzes your live video in two ways. You can create functions that ask custom questions of the video using multi-modal foundational models in Amazon Bedrock, or add contextual metadata decisions using labels and questions you define. Both run on the same pipeline as built-in features such as vertical video creation and smart subtitles, and return results through the GetMetadata API, with no separate pipeline to build.\n\n\nUse contextual metadata decisions when the answer you need fits labels and yes/no questions. You define yes/no questions, such as whether a scene is a weather report, or \"pick-one\" categories, such as genre. For each scene, contextual metadata returns a decision and a confidence score for every label and question, alongside the standard Interactive Advertising Bureau (IAB), Global Alliance for Responsible Media (GARM), and mood fields, so your workflows can act when confidence meets a threshold you set. No model selection or prompt writing is required.\n\n\nUse functions for open-ended answers, custom response formats, or analysis contextual metadata doesn't cover, such as sponsor logo exposure. A function specifies an Amazon Bedrock model and JSONata expressions that shape the request and response. You attach it to a feed and choose how frequently it runs.\n\n\nContextual-metadata decisions configuration is included in the contextual metadata price. Functions are available at no additional charge on feeds with at least one feature active; Amazon Bedrock usage is billed separately. Both are available in all AWS Regions where AWS Elemental Inference is available.\n\n\nTo learn more, see the[AWS Elemental Inference user guide](https://docs.aws.amazon.com/elemental-inference/latest/userguide/what-is.html) .\n\n\nAWS Elemental Inference is available in US East (N. Virginia), US West (Oregon), Europe (Ireland), Asia Pacific (Mumbai), and Asia Pacific (Sydney).​",
+  "published_at": "2026-11-17T20:00:00+00:00",
+  "first_seen_at": "2026-11-18T10:32:29.225115+00:00",
+  "content_hash": "sha256:485868087c4e846af3fe5401314eb1270bbe96108ee48bc29d962cb6b0b58d72"
+}

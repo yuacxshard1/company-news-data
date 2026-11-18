@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "87eb1f56ceaf1cf05d216ae398e60962c97b8e3c484cd5b422f5e6a8c043aed1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gpt-62-astra-review-pricing-speed-and-benchmarks",
+  "canonical_url": "https://www.activepieces.com/blog/gpt-62-astra-review-pricing-speed-and-benchmarks",
+  "title": "GPT 6.2 Astra Review: Pricing, Speed, and Benchmarks",
+  "summary": "GPT 6.2 Astra is now live with new automation features. You'll know what changed and whether to integrate it into your current systems.",
+  "body_markdown": "## GPT 6.2 Astra cost and speed benchmark\n\n\nBefore the swap makes sense, any quality gain has to pay for a multiple of roughly nine to ten times GPT-5.4 mini's per-token cost. That is what GPT 6.2 Astra charges.\n\n\n### GPT 6.2 Astra and GPT-5.4 mini token prices\n\n\nOpenAI's[pricing page](https://developers.openai.com/api/docs/pricing) lists these prices per million tokens.\n\n\nToken type Astra GPT-5.4 mini Gap\n\n\n[Input](https://developers.openai.com/api/docs/pricing) $8 $0.75 about ten times\n\n\n[Cached input](https://developers.openai.com/api/docs/pricing) $0.40 $0.075 roughly five times\n\n\n[Output](https://developers.openai.com/api/docs/pricing) $40 $4.50 nearly nine times\n\n\nBefore a single output token is counted, a prompt-heavy workflow therefore pays about ten times more. Workflows that resend the same long instructions narrow the difference through caching. Output is where verbose agent steps spend most.\n\n\nRead the distance between the bars in the chart, since that distance is what you'd pay for the swap.\n\n\nIt shows monthly cost at 10,000 runs for Astra, GPT-5.4 mini and other named options, using list prices and our measured tokens per task, letting you estimate your own costs at that scale, which means you don't need to request a custom quote.\n\n\n### What GPT 6.2 Astra speed and cost mean\n\n\nTokens per task, not list price, set the real bill. To break even with mini on output cost, Astra would need to use about 89% fewer output tokens for the same task. A frontier model rarely writes that much less, so that saving is unlikely.\n\n\n> Tokens per task, not list price, set the real bill.\n\n\nIn a chain where each step waits on the last, a slower model stretches every run and holds your workers longer. So Astra earns its place only on the steps where mini fails, not on the whole workflow.",
+  "published_at": "2026-11-18T01:57:27+00:00",
+  "first_seen_at": "2026-11-18T01:26:38.581795+00:00",
+  "content_hash": "sha256:1da21617d8d59326652e1ca17739cb157f713e598849c95fddb77e71c99da44d"
+}

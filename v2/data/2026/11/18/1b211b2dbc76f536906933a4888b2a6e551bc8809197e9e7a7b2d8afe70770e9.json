@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1b211b2dbc76f536906933a4888b2a6e551bc8809197e9e7a7b2d8afe70770e9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gpt-62-sol-pricing-and-benchmarks-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/gpt-62-sol-pricing-and-benchmarks-2026-guide",
+  "title": "GPT 6.2 Sol: Pricing and Benchmarks (2026 Guide)",
+  "summary": "GPT 6.2 Sol is OpenAI's new model for everyday automations. You'll see how it differs from Astra and what changes for your AI workflows.",
+  "body_markdown": "## What Activepieces has already shipped for GPT 6.2 Sol\n\n\nLook for a confirmed release, date or announcement from Activepieces for GPT 6.2 Sol and nothing turns up that we can link. The safe assumption is that **nothing Sol-specific has shipped** and the test has to run on existing building blocks.\n\n\n### GPT 6.2 Sol release date and integrations\n\n\nWe found no changelog entry or documentation page naming the model, so we won't state a date. The strongest case for waiting is that a dedicated integration might add convenience.\n\n\nBut your question is cost, speed and reliability, and a native step doesn't change what the model does.\n\n\nWhether Sol is cheaper or steadier than your current model depends on the model, not on who wrote the connector. Check the OpenAI integration's model field and the release notes yourself before relying on any claim that support has landed.\n\n\n[Activepieces](https://www.activepieces.com/) runs the model you have already chosen, so a Sol test doesn't depend on adopting anyone's default: bring-your-own-key starts on the Plus plan at $20 a month, Sol calls are billed by OpenAI to your provider account at your own rate, and each AI step counts as 1 credit on our side.\n\n\nA platform that resells its own model has picked yours and priced it before you sign in, which is deciding your AI strategy for you.\n\n\nYou can also reach Activepieces from Claude, ChatGPT, Cursor or any MCP client, and MoneyGram, Moneypenny, Alan and FundingSocieties run it in production.\n\n\n### Connect GPT 6.2 Sol in a workflow today\n\n\nThere are two routes, and both work without waiting for a release:\n\n\n1. Open the existing OpenAI step in your workflow. If the model field accepts typed text, enter Sol's identifier as OpenAI publishes it.\n2. If it only offers a fixed list, replace the step with an HTTP Send Request action pointed at OpenAI's API, with your key in the Authorization header and the model name in the request body.\n3. Run the same inputs through both models and compare the run details.\n\n\nTo see what that looks like, take the completed run below, which uses the same HTTP step type to revoke a token against a different service, Square.\n\n\nIt shows a request, an authorization header and a successful response recorded step by step, which is the evidence you need for a model comparison. Each Sol call will leave the same trail, and the next step is deciding what to measure in it.",
+  "published_at": "2026-11-18T02:00:58+00:00",
+  "first_seen_at": "2026-11-18T01:26:38.581795+00:00",
+  "content_hash": "sha256:8433ae99cfc0d8da0e18dc1bd0bb582d5ab85812620c1e23f6cf95be767e13f8"
+}

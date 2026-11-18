@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "71200c69b5b2421e4182f5abebbc4c19ccd1b113b539be7f98d6805b7cdf4389",
+  "company_key": "yc-mintlify",
+  "company_name": "Mintlify",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.mintlify.com/blog/claude-linked-billing",
+  "canonical_url": "https://www.mintlify.com/blog/claude-linked-billing",
+  "title": "Mintlify Enterprise now supports linked billing with Claude Platform",
+  "summary": "Mintlify Enterprise customers can now link their Claude Platform organization to Mintlify. Anthropic bills Claude API usage in assistant, agent, Autopilot, and automations directly to their Claude organization. No API key to paste, store, or rotate.",
+  "body_markdown": "## API keys were the only way to use your own Claude organization until now\n\n\nUntil now, Enterprise teams running Mintlify's docs AI on their own Claude organization had to generate a Claude API key, paste it into[bring your own model](https://www.mintlify.com/docs/ai/bring-your-own-model) settings, and rotate it on their security schedule.\n\n\n## Link once, billed to your Claude organization\n\n\nLinked billing replaces the shared key with an approval step. An admin sets the billing method to linked billing, then reviews and approves the link. Anthropic then bills Claude API usage from that project directly to your Claude organization, on your existing terms. Admins can set a monthly spend limit and unlink at any time, and API keys are still supported. Read more in[Anthropic's announcement](https://claude.com/blog/linked-billing-on-claude-platform) .\n\n\nOne link covers the[assistant](https://www.mintlify.com/docs/assistant) , the[Mintlify agent](https://www.mintlify.com/docs/agent) ,[Autopilot](https://www.mintlify.com/docs/autopilot) , and[automations](https://www.mintlify.com/docs/automations) .\n\n\n## Get started\n\n\nLinked billing is available to Enterprise customers with bring your own model on their contract. It works with Claude Platform organizations billed directly by Anthropic.\n\n\n1. Open[API keys](https://app.mintlify.com/settings/organization/api-keys) in your dashboard and select your project.\n2. In **AI model** , turn on **Bring your own model** , choose **Anthropic** , and set the billing method to **Linked billing** .\n3. Click **Link your Claude organization** and approve the link. You need to be an Owner, Admin, or Billing admin in your Claude organization.\n\n\nSee the[bring your own model docs](https://www.mintlify.com/docs/ai/bring-your-own-model) for full setup. Not on Enterprise yet?[Talk to sales](https://www.mintlify.com/contact/sales) .",
+  "published_at": "2026-11-17T00:00:00+00:00",
+  "first_seen_at": "2026-11-18T12:36:58.206412+00:00",
+  "content_hash": "sha256:31222215644b0e5c91febdd02ded643db70ecba1b672ede1bc3ded36bef8597d"
+}

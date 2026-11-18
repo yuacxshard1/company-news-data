@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5ed6a2b40c8d081d80b6670a4178d4aeeb2302db34902e12cdf243426e82a29b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cost-hub-stop-idle-ec2/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cost-hub-stop-idle-ec2/",
+  "title": "Cost Optimization Hub now supports stopping idle Amazon EC2 instances",
+  "summary": "Discover more about what's new at AWS with Cost Optimization Hub now supports stopping idle Amazon EC2 instances",
+  "body_markdown": "AWS Cost Optimization Hub now lets you stop idle Amazon EC2 instances directly from your recommendations. Cost Optimization Hub consolidates and prioritizes cost optimization recommendations across your AWS accounts and Regions, including idle resources. Previously, stopping an idle instance required you to leave Cost Optimization Hub and identify the specific instance in the Amazon EC2 console. Now you can stop it from the Savings opportunities page in Cost Optimization Hub.\n\n\nWhen you choose Stop next to an idle instance recommendation, a confirmation shows the instance, its account and Region, what the instance loses when it stops, such as instance store data and data in memory, and what continues to bill, such as EBS volumes and Elastic IP addresses. Stopping does not terminate the instance or delete its EBS volumes, and you can start it again from the EC2 console. Stop needs no separate setup and uses your existing permissions. To receive idle resource recommendations, turn on Cost Optimization Hub and AWS Compute Optimizer.\n\n\nThis feature is available at no additional charge in all AWS Regions except the AWS GovCloud (US) Regions and the China Regions.\n\n\nTo get started, open Cost Optimization Hub in the AWS Billing and Cost Management console and go to Savings opportunities. To learn more, see the[Cost Optimization Hub product page](https://aws.amazon.com/aws-cost-management/cost-optimization-hub/) and[user guide](https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T10:32:29.225115+00:00",
+  "content_hash": "sha256:2ebad42ed017834bb20f5d0c340fb217d866ff1105e506dd983c4b854aaecb50"
+}

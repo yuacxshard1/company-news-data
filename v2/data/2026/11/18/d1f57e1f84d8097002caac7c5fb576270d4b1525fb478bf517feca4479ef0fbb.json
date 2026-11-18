@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d1f57e1f84d8097002caac7c5fb576270d4b1525fb478bf517feca4479ef0fbb",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepl-api-for-translation-automation-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/deepl-api-for-translation-automation-2026-guide",
+  "title": "DeepL API for Translation Automation (2026 Guide)",
+  "summary": "DeepL automation sends text to the service's API directly or via workflow tools like Activepieces. This eliminates manual copy-pasting.",
+  "body_markdown": "## Frequently asked questions\n\n\nYou just checked the usage figure, and it is also the quickest answer to the first question people ask.\n\n\nIs DeepL automation free? Yes, up to a cap. The Free API plan lets you build and test a workflow without paying, but it stops at a monthly character allowance.\n\n\nA backlog bigger than that allowance will halt mid-run with a quota error, not slow down. Keep Free for prototypes, and move to a paid API plan before anything runs unattended.\n\n\nCan I use a Translator Pro login for the API? No. A Translator Pro subscription covers the web and app translator. **API access is a separate plan** with its own authentication key.\n\n\nYour password won't work in a connector, and a Pro subscription doesn't give you API credits. Create the key from the API plan's account page and paste that.\n\n\n### Does DeepL store text sent through the API?\n\n\nIt depends on the plan. DeepL's paid API plans are documented as not retaining submitted text for training. The Free plan has different terms, and its text can be used to improve the service.\n\n\nIf the content is confidential, read the data terms for your plan before you send anything, and choose the paid plan if the terms for Free don't fit.\n\n\n### Which languages can the API translate?\n\n\nFewer than the web translator lists in some cases, and the set changes. The API has a languages endpoint that returns what your key can use as source and target. Query it instead of hard-coding a list.\n\n\nThe formality setting, which switches between formal and informal address, only works for some target languages. Where it's unsupported, the request can fail instead of being ignored, so check the response before you rely on it.\n\n\nCan I automate DeepL Write too? Yes, there is a separate Write API for rewriting and improving text in the same language.\n\n\nIt's a different endpoint from translation, and its language coverage is narrower. Treat it as its own integration: confirm your plan includes it, then test with a short sample before wiring it into a pipeline.",
+  "published_at": "2026-11-18T03:43:19+00:00",
+  "first_seen_at": "2026-11-18T10:32:40.344697+00:00",
+  "content_hash": "sha256:f1b0ea57b01bff730e2db3f32467e296c62b396c514a08bed5a828a49adef283"
+}

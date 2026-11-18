@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4086182cae564dc59ad22b917d75dcd83fc5a57295be4101e149d8f1d07dc899",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transit-gateway-gwlb-integration/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transit-gateway-gwlb-integration/",
+  "title": "AWS Transit Gateway supports native integration with Gateway Load Balancer",
+  "summary": "Discover more about what's new at AWS with AWS Transit Gateway supports native integration with Gateway Load Balancer",
+  "body_markdown": "AWS Transit Gateway now supports network function attachments of type Gateway Load Balancer, simplifying the deployment and management of network security across your AWS network.\n\n\nWith a network function attachment, you can connect your transit gateway to a Gateway Load Balancer VPC endpoint service that fronts firewalls and other security appliances without complex VPC configurations. Transit Gateway creates and manages the Gateway Load Balancer endpoints in the Availability Zones you choose, removing the need to create dedicated endpoint subnets and route tables. The endpoint service can be in another AWS account.\n\n\nNetwork function attachments also support context sharing with security services. Transit Gateway adds resource context to traffic sent to your firewall, including the transit gateway attachment, VPC, subnet, and security groups. Your firewall can use this context alongside IP addresses to enforce segmentation policies.\n\n\nThis capability is available in all commercial AWS Regions where both AWS Transit Gateway and Gateway Load Balancer are available, except Middle East (Bahrain) and Middle East (UAE). It is also available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions.\n\n\nTo get started, see[Network function attachments](https://docs.aws.amazon.com/vpc/latest/tgw/tgw-nf-fw.html) in the AWS Transit Gateway Guide and visit the[AWS Transit Gateway product page](https://aws.amazon.com/transit-gateway/) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T10:32:29.225115+00:00",
+  "content_hash": "sha256:12d66d01fc14e601ba575dfcd106ec131253dcc18e48b3eec69d55a8da2b1a56"
+}

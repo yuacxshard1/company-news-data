@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "74e1d28c980626164288a6933bfc752a777e2fc96d015e9e3312d3d0f8d334a2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kinesis-data-streams-queues/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kinesis-data-streams-queues/",
+  "title": "Amazon Kinesis Data Streams announces queues to simplify and reduce costs of real-time processing",
+  "summary": "Discover more about what's new at AWS with Amazon Kinesis Data Streams announces queues to simplify and reduce costs of real-time processing",
+  "body_markdown": "[Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams/) now supports queues, a simpler and more cost-effective way to process a stream. Because queues track the delivery state of each record, your consumer instances receive records instead of leasing shards, acknowledge each record when processing is complete, and scale beyond the number of shards. Kinesis Data Streams consumers can reduce the cost of processing data by up to 43% by using queues instead of the Kinesis Client Library. You no longer run a DynamoDB table or custom metrics, and you use compute more efficiently.\n\n\nQueues in Kinesis Data Streams are powered by Amazon SQS. Built on that foundation, a queue delivers records at least once, redelivers records your consumers do not acknowledge, and provides built-in dead-letter handling for records that keep failing. Each queue publishes its own CloudWatch metrics, so you can scale consumer instances on records waiting to be received and alarm on records that repeatedly fail.\n\n\nUse queues for applications that process each record independently, such as log processing, order fulfillment, and notifications. Use a stream consumer when processing one record depends on the records before it, such as live analytics, personalization, and anomaly detection. You ingest data once and let each application consume records through a queue or directly from the stream, with no change to your producers or existing stream consumers. For point-to-point messaging between application components, start with Amazon SQS. Choose queues in Kinesis Data Streams when the same records are needed by multiple applications.\n\n\nQueues are available for data streams in On-demand capacity mode. For regional availability, see[Supported AWS Regions](https://docs.aws.amazon.com/streams/latest/dev/consuming-with-queues.html#queues-supported-regions) . To get started, see the[developer guide](https://docs.aws.amazon.com/streams/latest/dev/consuming-with-queues.html) , install the[Kinesis Data Streams skill](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/managing-amazon-kinesis-data-streams) from the Agent Toolkit for AWS, read the[launch blog](https://aws.amazon.com/blogs/big-data/reduce-the-complexity-and-cost-of-real-time-processing-with-queues-in-amazon-kinesis-data-streams/) , and see the[pricing page](https://aws.amazon.com/kinesis/data-streams/pricing/) .",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T10:32:29.225115+00:00",
+  "content_hash": "sha256:4f9b6eec1d19a60bf78a9859551911b5b29b137805caec79a518a8a68c24f164"
+}

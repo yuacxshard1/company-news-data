@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9864c3b1d2f7d096fe7e57e4b0a9df48765f1f0ab875da8c935023fce8471561",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/deepl-mcp-server-vs-deepl-api-for-ai-agents-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/deepl-mcp-server-vs-deepl-api-for-ai-agents-in-2026",
+  "title": "DeepL MCP Server vs DeepL API for AI Agents in 2026",
+  "summary": "DeepL MCP is an MCP server for AI tools using DeepL's translation API. Configure it correctly with guidance on pricing, setup, and mistakes to avoid.",
+  "body_markdown": "## Run DeepL translation on triggers with Activepieces\n\n\nIf you want translation to run on a trigger,[Activepieces](https://www.activepieces.com/blog/deepl-api-pricing-free-vs-pro-plans-2026-guide) has a DeepL integration among its 750 integrations, all counted from an MIT-licensed open source monorepo, so you can likely integrate translation with the services you already use.\n\n\nAs a workflow builder, it lets translation run when an event fires, and the glossary and formality choices live in the step instead of in whatever someone typed into a chat that day.\n\n\n### When a workflow beats a chat tool\n\n\nMCP waits for a person to ask. A workflow doesn't. If translation should happen every time a form is submitted or a row lands in a spreadsheet, a chat assistant is the wrong shape, because nobody's there to prompt it and nobody can forget to.\n\n\nBelow is a canvas for a CV-scanning flow, not a translation one, but it shows the pattern.\n\n\nA Web Form trigger labelled \"Human Input\" starts the run, and Google Sheets steps, a PDF text extractor and a text summarizer follow in order. The form step is open, with its draft and published URLs and a warning about \"Wait for Response\".\n\n\nSwap the middle steps for a DeepL step and you have the same skeleton, with the trigger doing the asking.\n\n\nThat warning matters. A form that waits for a response holds the run open, so test the trigger before you trust it with real submissions.\n\n\n### What happens after a DeepL translation trigger fires\n\n\n**Nobody catches a bad translation before it lands** , because everything after the trigger runs without a human in the loop. Decide what the glossary and formality settings must cover before you switch it on.\n\n\nActivepieces doesn't change what translation costs. The DeepL step authenticates with your DeepL API key, so characters are counted and billed on your DeepL account exactly as they would be through MCP or a direct call.\n\n\nWhat Activepieces adds is its own run count: a run is 1 credit however many steps it has, and the free plan includes 1,000 credits a month and unlimited flows.\n\n\nThe workflow tool is a different front door to the same API, and it replaces MCP only where no one's chatting.",
+  "published_at": "2026-11-18T03:42:21+00:00",
+  "first_seen_at": "2026-11-18T10:32:40.344697+00:00",
+  "content_hash": "sha256:ac1894309146e41f85d07dd21aa6b3f6240864fe88b18f677b34df5056826671"
+}
