@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "374494c5903437074b6743704a3b6d3a81a315a37fbcc3cb0086bf9e7c9a841e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-mai-code-2-maker-and-pricing-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-mai-code-2-maker-and-pricing-2026-guide",
+  "title": "What Is MAI Code 2? Maker and Pricing (2026 Guide)",
+  "summary": "What is MAI Code 2? Understand what it does, who created it, and pricing to decide if the platform meets your coding needs.",
+  "body_markdown": "## Connecting MAI Code 2 to a workflow with Activepieces\n\n\nYou won't find a MAI Code 2 integration in the catalog of Activepieces, the open-source workflow automation tool, today, meaning Code 2 workflows can't integrate through Activepieces. You connect through one of three general routes, and only those the vendor's docs expose.\n\n\nFrom least to most demanding, the three routes below each ask more of the vendor's published material than the last, so what the docs show decides how far down you can go. Read each with the docs open.\n\n\nWith Route 1, an HTTP request step, you need a documented endpoint, an authentication method and a stated request and response shape.\n\n\nIt breaks at the edges: you build retries and error handling yourself, and unless you capture the usage figures the response returns, you can't bill a client for their runs.\n\n\n### Route 2: an AI step with a custom or OpenAI-compatible provider\n\n\nThis needs the vendor to publish a compatible endpoint: a base URL and a model name. It breaks where compatibility is partial. Tool calling and some parameters can differ from what the step assumes.\n\n\nIt also breaks on money: a key stored once for the workspace means every flow draws on one account, so light clients quietly subsidize the heavy ones.\n\n\n### Route 3: an MCP server\n\n\nA server exposes tools, and MCP, the Model Context Protocol, lets a model call them. This needs a server the vendor publishes, and a version of your workflow tool that can reach it.\n\n\nIt breaks on trust and metering. A server you didn't write is code you must vet, and its tool calls may not show up in any per-client usage figure.\n\n\nActivepieces runs the other way round: each project has its own MCP server, so Claude, Cursor or Windsurf can build, change and explain a flow directly, with no builder UI open.\n\n\nThat is full create-and-edit control over an open protocol, and the tool calls it makes, along with the changes they produce, are there to read in the run trace.\n\n\nTake the lowest rung the docs support. A single generation fits Route 1, and a conversational step fits Route 2. Agent-style tool use is the only case that justifies Route 3.",
+  "published_at": "2026-11-19T05:05:55+00:00",
+  "first_seen_at": "2026-11-18T17:35:41.201411+00:00",
+  "content_hash": "sha256:cf607fcb32c06d1b5e218e191d2a8579e3e7b03dfd53266d2ffb55ef7074ee8c"
+}

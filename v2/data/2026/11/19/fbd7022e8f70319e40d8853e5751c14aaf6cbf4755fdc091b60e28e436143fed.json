@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fbd7022e8f70319e40d8853e5751c14aaf6cbf4755fdc091b60e28e436143fed",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/zendesk-gmail-integration-how-to-set-it-up-2026",
+  "canonical_url": "https://www.activepieces.com/blog/zendesk-gmail-integration-how-to-set-it-up-2026",
+  "title": "Zendesk Gmail Integration: How to Set It Up (2026)",
+  "summary": "Zendesk Gmail integration automatically triggers actions when tickets or emails appear. See the five most common workflows other teams automate.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Can Zendesk send replies from my own Gmail address?\n\n\nYes. Connect the Gmail account as a support address in Zendesk, and agent replies go out from that address.\n\n\nA Gmail \"send email\" step in your workflow also sends from whichever account you authorized, so the sender your customers see is the account you connected.\n\n\n### Does the integration work with Google Workspace shared inboxes?\n\n\nIt depends on how the shared inbox is built. The Gmail connection signs in as one real user, so a shared mailbox you can open from that user's account works.\n\n\nA shared address that's only a Google Group has no login of its own, so a trigger has nothing to authenticate against. In that case, have the group deliver into a normal mailbox and point the workflow at that.\n\n\n### Can I self-host this workflow instead of using a cloud service?\n\n\nYes, if the workflow tool you picked offers a self-hosted edition. Only the tool that runs the workflow moves onto your server. Zendesk and Gmail stay cloud services.\n\n\nSelf-hosting also makes uptime and updates your job. If you use a webhook, Zendesk must be able to reach your server's public address, so a machine behind a firewall will silently receive nothing.\n\n\n### What happens to emails that arrive while the workflow is off?\n\n\nThe emails still land in Gmail, and tickets still exist in Zendesk. What you lose is the automation's reaction to them.\n\n\nMany Gmail triggers poll for new mail and may not go back for what arrived during the outage, and a webhook sent to a receiver that's down isn't guaranteed to be retried.\n\n\nApply a label such as` ticketed` at the end of every successful run. After an outage, search` label:support-inbox -label:ticketed` to see what was missed and process those messages by hand or re-run them.\n\n\n### Is the Zendesk Gmail integration free?\n\n\nNeither app charges separately for the connection itself, but the integrations around it may. Zendesk access depends on your plan, and API-based actions can be limited on some plans, so confirm what yours allows.\n\n\nA regular Gmail account costs nothing, while Workspace is paid. Workflow tools differ: some have a free tier with limits on runs, and self-hosting trades a subscription for your own server costs.",
+  "published_at": "2026-11-19T06:58:13+00:00",
+  "first_seen_at": "2026-11-19T11:58:47.642599+00:00",
+  "content_hash": "sha256:602604922793400d7c8e99f69f273ce80f0bf5a64aef3c116ffe30c2e62265d2"
+}

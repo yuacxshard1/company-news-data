@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "099723f9c2801cd4344df588711933fd2df470aa78304ae0bbe95ab8596a01fa",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-automates-source-actions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-automates-source-actions/",
+  "title": "AWS Transform automates source and migration target actions to accelerate cutover",
+  "summary": "Discover more about what's new at AWS with AWS Transform automates source and migration target actions to accelerate cutover",
+  "body_markdown": "AWS Transform now automates the tasks that prepare and validate your servers during a migration, before they move and after they launch on AWS. AWS Transform is the agentic AI service that speeds up cloud migration, application modernization, and continuous tech debt reduction. With the new source actions capability, you can create actions and run them securely on your source servers at the right point in the migration, from the early stages through cutover. Post-launch actions complement this by automatically configuring and validating each workload as soon as it launches on AWS.\n\n\nCutover preparation and validation are often manual, time-consuming tasks in large-scale migrations. Traditionally, migration teams log in to each source server to stop services and freeze database writes before shutdown, and then check connectivity, application health, and monitoring on each server after it launches.\n\n\nWith source actions in AWS Transform, you define each action once, run it in bulk on the servers and waves you choose, and reuse it across accounts and migrations. AWS Transform manages these actions centrally, so you can reuse them across accounts and migrations instead of rebuilding them each time. You can monitor the status of each action and confirm your go/no-go decision before moving to the next step. Source preparation and post-launch actions are now part of the migration plan itself, so you no longer have to coordinate and run these activities by hand.\n\n\nThis capability is available in all[AWS Regions where AWS Transform for migrations is available](https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-connect-target-account.html#transform-vmware-cta-supported-regions) . To get started, see the[AWS Transform documentation](https://docs.aws.amazon.com/transform/latest/userguide/transform-app-vmware.html) or visit the[AWS Transform product page](https://aws.amazon.com/transform/migrations/) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T11:59:30.838248+00:00",
+  "content_hash": "sha256:54a302eccd780b9fdaec8e2ef6b1bc9207fc9e245a6b6725ca8c21071517ae80"
+}

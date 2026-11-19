@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "208bb4f9b9759ea377e3fc9fa14b52118510e7ed0292a6d21b6e9e353e52332a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/aws-lightsail-pricing-plans-and-extra-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/aws-lightsail-pricing-plans-and-extra-costs-2026",
+  "title": "AWS Lightsail Pricing: Plans and Extra Costs (2026)",
+  "summary": "AWS Lightsail pricing offers fixed monthly bundles for different instance sizes, so you can compare costs and select a plan matching your performance…",
+  "body_markdown": "## Automate Lightsail cost alerts with Activepieces\n\n\nMaking Lightsail cheaper isn't what Activepieces does; it sends each client's overage warning to the person who owns it, so one client's overrun stops disappearing into a shared total.\n\n\nActivepieces takes the alert AWS Budgets already produces and decides where it lands: a Slack channel, an email, or a ticket, across 750 integrations under an MIT-licensed core, so budget warnings reach whoever can act.\n\n\nWith a different trigger, the screenshot below shows the pattern. A Stripe \"Payment Failed\" event fires a Slack \"Send Message To A Channel\" action, and the run details mark the first step completed and the run as succeeded.\n\n\nSwap the trigger for a budget notification and you have the same two-step flow, which is all a cost alert needs.\n\n\nActivepieces' published pricing page lists 1 credit per flow run, any number of steps, where Zapier's pricing page bills per task and Make's bills per module, and the Free plan includes 1,000 credits a month with unlimited flows, so a separate alert flow per client doesn't add to the bill.\n\n\nFor a personal site, one budget and one email is enough. The risk is a traffic spike pushing transfer past the bundle's allowance, so route the alert somewhere you read daily, not to an inbox you check monthly.\n\n\nFor a small business app with a database, managed databases and snapshots are add-ons, so the bill can drift while the plan stays the same.\n\n\nPost the alert to the channel your team already watches, and name the client in the message so it's clear who's over.\n\n\nWith several billable parts, a scheduled usage check earns its place alongside the budget alert. Have the flow open a ticket per client, so an overage becomes a line item someone reviews before the invoice goes out, not a loss you absorb.\n\n\nYou still decide whether to move a client up a plan or bill the overage, because the flow only reports.",
+  "published_at": "2026-11-19T05:45:44+00:00",
+  "first_seen_at": "2026-11-19T11:58:47.642599+00:00",
+  "content_hash": "sha256:8153e6102ce661c21c5598506372f70256c199e74526bb8b618668e5cd877b74"
+}

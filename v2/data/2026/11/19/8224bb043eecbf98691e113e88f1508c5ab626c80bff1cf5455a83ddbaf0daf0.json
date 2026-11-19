@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8224bb043eecbf98691e113e88f1508c5ab626c80bff1cf5455a83ddbaf0daf0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/azure-ai-search-pricing-costs-by-tier-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/azure-ai-search-pricing-costs-by-tier-2026-guide",
+  "title": "Azure AI Search Pricing: Costs by Tier (2026 Guide)",
+  "summary": "Azure AI Search pricing is split into tiers, with costs varying by search unit count and usage level. See real monthly bills for each tier.",
+  "body_markdown": "## Hidden Azure AI Search costs and limits\n\n\nPast the tier, replicas and partitions, the bill moves through a handful of charges outside the base rate. Each one comes from a feature you switch on or a limit you hit.\n\n\n### Semantic ranker and agentic retrieval charges\n\n\nBecause **the semantic ranker is billed per 1k requests** (the first 1k each month are free), cost follows traffic rather than index size. A free monthly allowance exists, and past it you pay by query volume.\n\n\nSwitch on agentic retrieval and a second meter starts. The model that plans and rewrites queries bills in tokens, and the search service bills its own reasoning usage.\n\n\n### AI enrichment and indexer costs\n\n\nAlthough indexers themselves are part of the service, skills that call vision, language or document-processing models bill through the attached Azure AI resource. Image extraction from documents is charged separately from text.\n\n\nIf the repeat bill comes from syncing source data into the index on a schedule, and the system feeding it has no connector in the tool you use, you are waiting on someone else's roadmap.\n\n\nActivepieces can generate the missing integration with AI and add it privately to your own instance, so that sync can be triggered and monitored without a vendor release.\n\n\nAbout 60% of its 750 integrations were contributed by the community, and you can count them yourself in the open source monorepo on GitHub under the MIT-licensed core.\n\n\n### No pause and no in-place tier change\n\n\n**You can't pause a search service.** Billing accrues whether or not anyone queries it, which means a forgotten dev service costs the same as a busy one until it's deleted.\n\n\n**There is no in-place move between tiers** , as Microsoft documents it. Moving from a smaller tier to a larger one means provisioning a second service, reloading the index and repointing clients.\n\n\n> **You can't pause a search service.** Billing accrues whether or not anyone queries it, which means a forgotten dev service costs the same as a busy one until it's deleted.\n\n\n### Egress, private endpoints and quotas\n\n\nGetting data in is free; outbound traffic to the internet or across regions bills under Azure bandwidth rates.\n\n\nWhen indexers need to reach locked-down data sources, private endpoints and shared private links appear as separate networking charges on the invoice.\n\n\nVector quota's the hardest limit: it caps how much vector data a partition set holds, so adding partitions is the only lever, and it raises the base rate with it.",
+  "published_at": "2026-11-19T05:34:19+00:00",
+  "first_seen_at": "2026-11-19T11:58:47.642599+00:00",
+  "content_hash": "sha256:717680c8cdf9f1a4876a44cfae28f483610ea5ab850b407918595262dbb91873"
+}

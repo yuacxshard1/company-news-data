@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "16b810cdcc471d87f3730e6453f3e8125afb85b4c812942a38ddf19c60180066",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/google-one-mcp-what-it-is-and-what-it-isnt-2026",
+  "canonical_url": "https://www.activepieces.com/blog/google-one-mcp-what-it-is-and-what-it-isnt-2026",
+  "title": "Google One MCP: What It Is and What It Isn't (2026)",
+  "summary": "Google One MCP is not a real product. Find out why this term exists and what actual services it might relate to.",
+  "body_markdown": "## Frequently asked questions\n\n\nIs there an official Google One MCP server? No. Google One is a consumer storage and subscription plan, and I know of no Google page that describes an MCP server under that name.\n\n\nGoogle's MCP offerings are tied to specific services, so confirm any claim against Google's own developer documentation.\n\n\n### Does my Google One or Google AI plan include MCP access?\n\n\nNo. A subscription pays for storage and Google's consumer AI features, not for a protocol endpoint.\n\n\nWhen a Google-run MCP server is available, billing follows the underlying service. A cloud project pays for cloud usage, so the invoice lands where the project's billing account sits, not on your personal plan.\n\n\nAssume the underlying API's limits apply, since Google hasn't published separate MCP quota figures, and check that API's quota page.\n\n\n### Can Claude or ChatGPT read my Google Drive through MCP?\n\n\nYes, but the route depends on the product. Inside each app, you switch on its own Drive connector and authorize it with your Google account. That's a vendor-built integration, not something you host.\n\n\nIf you want a custom MCP server in front of Drive, you build or install one, and then you own the authorization setup.\n\n\nFor personal use, an app requesting sensitive Drive scopes may display an unverified-app warning until it passes Google's verification review. Verification matters when other people use your app, not when you test it yourself on your own account.\n\n\n### Is a community Google MCP server safe to use?\n\n\nIt's as safe as the code and the permissions you grant it, which is a decision you make, not Google.\n\n\nRead the source, check who maintains it and how recently, and grant the narrowest scope that does the job. A read-only Drive scope limits the damage if something goes wrong.\n\n\nGrant a full-access scope and a stranger's code gets your whole file history. Run it under a Google account you can afford to lose until you trust it.\n\n\nIf a team will use it, the platform owner should approve it first, because a personal experiment that touches shared documents becomes a departmental risk.\n\n\nDoes Gemini support MCP servers? Yes, in some Google products. Google's developer tooling, including its command-line agent and its SDKs, documents MCP support.\n\n\nThe consumer Gemini app is a different surface, and its connector options are set by Google, not by you. Check the specific product's documentation before you build around it.",
+  "published_at": "2026-11-19T09:52:53+00:00",
+  "first_seen_at": "2026-11-15T16:05:13.725186+00:00",
+  "content_hash": "sha256:20c4ecaa2978ebb235fa0c4c7a71f6e0207be8029277d6ece3220b3f2d0b97ea"
+}
