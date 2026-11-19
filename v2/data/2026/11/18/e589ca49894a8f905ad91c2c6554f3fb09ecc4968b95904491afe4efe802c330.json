@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e589ca49894a8f905ad91c2c6554f3fb09ecc4968b95904491afe4efe802c330",
+  "company_key": "yc-middesk",
+  "company_name": "Middesk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.middesk.com/blog/best-ai-tools-for-detecting-business-identity-fraud",
+  "canonical_url": "https://www.middesk.com/blog/best-ai-tools-for-detecting-business-identity-fraud",
+  "title": "What are the best AI tools for detecting business identity fraud?",
+  "summary": "Evaluate AI tools for business identity fraud through Middesk and partner Sardine. Compare business records, fraud signals, and reviewer evidence.",
+  "body_markdown": "Middesk lists Sardine in its[partner directory](https://www.middesk.com/partners) . Evaluate the business verification and fraud checks each product performs, and confirm which capabilities are included in the integration.\n\n\n### **Sardine: behavioral telemetry and consortium risk signals**\n\n\n[Sardine](https://docs.sardine.ai/guides/public/risk/account-risk/kyb) focuses on detecting commercial fraud at the perimeter and during payment execution. Rather than treating onboarding as an isolated event, Sardine evaluates applicant interaction behavior, device telemetry, and cross-industry consortium data in real time.\n\n\nIts detection engine identifies high-risk technical signals, such as proxy masking, device emulators, and automated form-filling scripts. Sardine pairs perimeter intelligence with an AI rule builder that allows fraud teams to model risk typologies using behavioral attributes. For U.S. business verification, Sardine partners with Middesk on state registration checks, business name and tax ID matching, and business sanctions screening. When suspicious patterns emerge, the platform can trigger automated step-up reviews or route the application to fraud analysts.\n\n\n### **Middesk: authoritative registry validation and agentic investigation**\n\n\n[Middesk](https://www.middesk.com/products/verify) focuses on foundational business identity verification by connecting directly to official government registries across all 50 states and the District of Columbia. It checks business registration status, matches the submitted business name and Employer Identification Number against IRS records, and returns registered-agent and officer details when available.\n\n\nWhen verification surfaces ambiguous signals, such as mismatched trade names or altered corporate records, Middesk deploys autonomous AI agents to investigate the findings. As detailed in the[Middesk Agents](https://docs.middesk.com/work-with-agents/run-agents) documentation, these agents formulate research plans, gather records across government sources, and return structured artifacts. Every artifact includes confidence scoring and explicit source citations, creating an auditable evidence trail for compliance teams. Middesk allows institutions to configure[interrupt policies](https://docs.middesk.com/work-with-agents/interrupt-policy) , ensuring runs pause for human analyst review by default while allowing automatic approval for clear low-risk records under defined rules.",
+  "published_at": "2026-11-18T22:47:19.094+00:00",
+  "first_seen_at": "2026-11-19T02:40:12.356126+00:00",
+  "content_hash": "sha256:f04fc59d961acc576c475ab64c571450702d907742760b1f375c99b2260f02f9"
+}

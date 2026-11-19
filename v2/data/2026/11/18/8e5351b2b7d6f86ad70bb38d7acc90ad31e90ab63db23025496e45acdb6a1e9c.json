@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8e5351b2b7d6f86ad70bb38d7acc90ad31e90ab63db23025496e45acdb6a1e9c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-account-access-manager-easier/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-account-access-manager-easier/",
+  "title": "AWS IAM account access manager is now even easier to deploy and use",
+  "summary": "Discover more about what's new at AWS with AWS IAM account access manager is now even easier to deploy and use",
+  "body_markdown": "Deploying and using AWS Identity and Access Management (IAM) account access manager is now even easier: you can use AWS managed policies to enable and administer it; you can include it in your infrastructure-as-code (IaC) configurations; and its role assignments are integrated in a growing number of third-party identity and entitlement management solutions.\n\n\nAdministering workforce access with account access manager requires permissions across several services, including AWS IAM Identity Center, AWS Organizations, AWS KMS, and AWS IAM. Previously, defining administrative access required hand-assembling multi-service IAM policies. The new AWS managed policies enable faster ramp up with broadly scoped job-aligned permissions for: 1/ Full administrator (AWSAccountAccessManagerAdministrator) - used to enable and manage account access manager in the AWS organization management account and to map users/groups to IAM roles; 2/ Entitlement Manager (AWSAccountAccessManagerEntitlementManager) - used to assign and remove user access without the ability to change service configuration; and 3/ ReadOnly (AWSAccountAccessManagerReadOnlyAccess) - used by auditors and compliance reviewers for visibility into user access.\n\n\nAccount access manager streamlines assignment of IAM roles to workforce users and groups in IAM Identity Center, bringing together access management flexibility, user awareness, and a single point of federation. You can include account access manager in your IaC configurations managed through Terraform, Pulumi, or AWS CloudFormation. The entitlements that you assign with account access manager are reflected in your identity provider (IdP) and entitlements management system, including those offered by AWS partners Okta, PingIdentity, Cisco Duo, Apono, BeyondTrust, Britive, Sonrai Security, C1.ai, Lumos, and SailPoint.\n\n\nIAM account access manager is provided at no additional cost and available in all AWS Commercial Regions enabled by default. To learn more and get started, visit the[AWS Identity and Access Management User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/account-access-manager.html) .",
+  "published_at": "2026-11-18T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:4e0cc82d2a08f2b88bd7da5009feae063bc744f19c3743e17a35d65c2db9fe94"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fe9a261c78a56e8ea4039b2c882b3081c9b15aefa48afb058426ce6c24761526",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/opensearch-serverless-support-ingest-pipelines",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/opensearch-serverless-support-ingest-pipelines",
+  "title": "Amazon OpenSearch Serverless now supports ingest pipelines",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Serverless now supports ingest pipelines",
+  "body_markdown": "Amazon OpenSearch Serverless now supports ingest pipelines, so you can clean, enrich, and vectorize documents inside your collection as they are indexed, without running separate preprocessing infrastructure. Teams building search, log analytics, and generative AI applications can replace data-prep code in Lambda functions or ETL jobs with transformations that apply consistently to every document, regardless of how it is ingested.\n\n\nYou can use ingest pipelines to normalize and clean data with processors such as copy, date, dot_expander, join, lowercase, uppercase, remove, rename, set, and trim. For semantic and AI search, you can chunk long text with text_chunking and generate embeddings at ingest time with text_embedding, text_image_embedding, and sparse_encoding. The ml_inference processor calls any model you have connected and lets you map its input and output fields yourself. You create and manage pipelines with the familiar OpenSearch _ingest/pipeline APIs. You can test a pipeline against sample documents with the _simulate API before sending it live traffic, then apply it as an index's default pipeline or on individual indexing and bulk requests.\n\n\nPipeline processing uses your collection's indexing OpenSearch Compute Units (OCUs) and is billed the same way as other indexing activity. If you use a remote model with an ML processor, the model provider bills inference separately. Ingest pipelines are available in all AWS Regions where Amazon OpenSearch Serverless is[available](https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html) .\n\n\nTo get started, see[Ingest pipelines in Amazon OpenSearch Serverless](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-ingest-pipelines.html) in the Amazon OpenSearch Service Developer Guide. To learn more about OpenSearch Serverless, visit the[Amazon OpenSearch Serverless product page](https://aws.amazon.com/opensearch-service/features/serverless/) .",
+  "published_at": "2026-11-17T18:43:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:9139294076dac680bb8c6cafda2b15228a7af08f8520c45c73a02934d1593efa"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "346c6e5ea5fe8b193cba457efb4def13ab044a8c0b19909538834e10e821a5fa",
+  "company_key": "yc-bitrig",
+  "company_name": "bitrig",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://bitrig.com/blog/track-pull-requests",
+  "canonical_url": "https://bitrig.com/blog/track-pull-requests",
+  "title": "Bitrig Can Now Track Your Pull Requests",
+  "summary": "Stop working for your agent. Have it watch your PRs and fix what comes up until they're ready to merge.",
+  "body_markdown": "A few months ago, I still opened all my own pull requests. Now I have the agent make the branch, push it, create the PR, and draft the summary.\n\n\nBut there’s often a bunch of manual work left before I can merge my code. CI fails. A teammate asks for changes. The branch falls behind main and picks up a conflict. Each one arrives on its own schedule and pulls me away from my current focus.\n\n\nIt’s easy to fall into the trap of working for your agents, clicking buttons and fetching information on their behalf, especially with[several running at once](https://bitrig.com/blog/run-parallel-agents) . That’s backwards. Your tool should take care of the grunt work. It should protect your attention, so you can focus on the tasks that need your judgment.\n\n\nStarting today:\n\n\n**Bitrig can track every pull request in your workspace and help get each one ready to merge.**\n\n\nThat means:\n\n\n-\n\n\n**Live status at a glance.** See whether your PR is open, merged, or closed. Whether its checks are running, passing, or failing. And whether the branch has fallen behind, has conflicts, or is ready to go.\n\n\n-\n\n\n**One-click fixes.** When a check fails, a reviewer asks for changes, or the branch falls behind, you can ask the agent to fix it with one click.\n\n\n-\n\n\n**Automatic tracking.** A workspace tracks the PR for its branch and every PR its agents open, including stacks and side fixes.\n\n\n-\n\n\n**Hands-off follow-up.** Ask the agent to keep an eye on a PR, and it checks back on a schedule, fixing what comes up until it’s ready to merge.\n\n\nYou choose how Bitrig connects to GitHub, so you control which repositories it can access and what it can do with them.\n\n\nAnd with[Bitrig Remote](https://bitrig.com/remote) , you can check on your PRs and easily fix any issues on the go.\n\n\nMore than any feature we’ve shipped, this one is a product of us using Bitrig to build Bitrig. We work in GitHub every day, with automated tests and frequent code review, and we built the workflow we wanted for keeping every open PR on track.\n\n\nThe next time your agent finishes a change, have *it* open the PR so *you* can turn to what’s next. Bitrig keeps your work moving and your attention where it belongs.",
+  "published_at": "2026-11-18T00:00:00+00:00",
+  "first_seen_at": "2026-11-19T01:39:02.886961+00:00",
+  "content_hash": "sha256:85601d36f4c8dbdfed27171f0b23dba935c8f4d3365f490248c733f58371816d"
+}

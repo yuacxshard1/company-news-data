@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "07562f16ea763c0ceafbdfa8fa0a7d1b9db6abb6de4d7072df4cf851759e3cda",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-ingestion-service-nextgen-time-series-collections",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-ingestion-service-nextgen-time-series-collections",
+  "title": "Amazon OpenSearch Ingestion Service now supports next-generation time series collections",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Ingestion Service now supports next-generation time series collections",
+  "body_markdown": "Amazon OpenSearch Ingestion service now supports time series collections in the next generation of Amazon OpenSearch Serverless as a pipeline destination. You can stream logs, metrics, traces and event data into time series collections with fully managed pipelines. You don't have to run your own collectors or write custom ingestion code.\n\n\nOpenSearch Ingestion delivers data from the sources you already use, including OpenTelemetry, Amazon S3, Amazon Kinesis Data Streams, Amazon MSK, Amazon DynamoDB, and HTTP endpoints. Before indexing, pipelines can filter, enrich, transform, and route data with built-in processors. For example, you can parse and normalize log fields, mask sensitive data, or split a stream into separate indexes. Pipelines scale automatically with your workload. Time series collections add a lower-cost warm storage tier and built-in alerting and anomaly detection. Together they give you an observability pipeline from collection to analysis with no clusters to manage.\n\n\nTo get started, create a pipeline in the Amazon OpenSearch Service console, through the AWS CLI, or with AWS CloudFormation, and choose a time series collection as the sink. OpenSearch Ingestion is billed in Ingestion OpenSearch Compute Units (OCUs), separately from your collection. For details, see[Amazon OpenSearch Service pricing](https://aws.amazon.com/opensearch-service/pricing/) .\n\n\nThis capability is available in all AWS Regions where both Amazon OpenSearch Ingestion and the next generation of Amazon OpenSearch Serverless are[available](https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html) . To get started, create a pipeline in the Amazon OpenSearch Service console, through the AWS CLI, or with AWS CloudFormation, and choose a next-generation time series collection as the sink. To learn more, see[Overview of Amazon OpenSearch Ingestion](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/ingestion.html) in the Amazon OpenSearch Service Developer Guide.",
+  "published_at": "2026-11-17T18:20:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:e9805cb5396c23610f36e8bbb8239e71c6612f2ca2cd0774a9463558d831a181"
+}

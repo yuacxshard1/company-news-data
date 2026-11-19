@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "83020c59c23993786d658ff39e49f5b6f19dcafa96e85ba7e13756b85b43fbac",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-dsql-audit-logging/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-dsql-audit-logging/",
+  "title": "Amazon Aurora DSQL now supports audit logging",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora DSQL now supports audit logging",
+  "body_markdown": "[Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/?refid=f1097432-a884-4027-abe8-3dbd6d9c5cdc) now supports database-internal audit logging, a fully managed capability that captures SQL statements executed on your cluster. Previously, AWS CloudTrail recorded who connected to a DSQL cluster, but not what they did once inside it. Now, financial institutions and regulated enterprises can meet production compliance requirements by capturing DDL, DML, DCL, and SELECT statements with full statement text, bind parameters, acting principal (both PostgreSQL role and AWS IAM identity), timestamp, table name, and transaction identifier.\n\n\nWith audit logging, you can feed SIEM systems directly from Amazon S3, satisfy auditor requirements for change accountability, and reconstruct events after security incidents. Logs are delivered as structured JSON to your S3 bucket via CloudWatch Vended Logs. Configuration requires a single SQL setting—no extension to load and no log-shipping pipeline to build.\n\n\nAudit logging is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Aurora DSQL is available. Audit logging will incur Aurora DSQL DPU charges, charges for log delivery through CloudWatch Logs, and charges for storing audit records in Amazon S3. For pricing information, see[Aurora DSQL pricing](https://aws.amazon.com/rds/aurora/dsql/pricing/) . To learn more, see[audit logging](https://docs.aws.amazon.com/aurora-dsql/latest/userguide/audit-logging.html) in the Aurora DSQL User Guide.",
+  "published_at": "2026-11-18T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:a0e22f7ee6abb1183abb6abf473dbcbe1c671155c70dbd7cc764c11bad6d4ae4"
+}

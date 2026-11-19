@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1088bb636ed399999551a0ec849047983964868092c5f1d5005035b96eb92a36",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-974-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-974-available/",
+  "title": "Amazon RDS for MySQL now supports MySQL major version 9.7",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for MySQL now supports MySQL major version 9.7",
+  "body_markdown": "Starting today, Amazon RDS for MySQL supports MySQL major version 9.7, the latest Long-Term Support release from MySQL community. Amazon RDS for MySQL 9.7 launches with community MySQL 9.7.4. This launch introduces support for the Replication Applier Metrics component, JSON Duality Views, and Hypergraph Optimizer.\n\n\nThe Replication Applier Metrics help you diagnose replication lag by adding two Performance Schema tables that report per-channel applier backlog, throughput, and wait statistics, along with each worker's progress on its current transaction. JSON Duality Views let applications read and write the same relational tables as JSON documents. The Hypergraph Optimizer is an opt-in query optimizer that can improve execution plans for complex, multi-join queries. For more details, refer to the[MySQL 9.7.4 release notes](https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-4.html) and the[Amazon RDS for MySQL release notes](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html) .\n\n\nYou can upgrade your database using[Amazon RDS Blue/Green Deployments](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments.html) , in-place upgrade, or restore from a snapshot. Learn more about performing version upgrades in the[Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MySQL.html) . This release is supported in all[AWS Regions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html) where Amazon RDS for MySQL is available. Learn more about pricing details at[Amazon RDS for MySQL pricing](https://aws.amazon.com/rds/mysql/pricing/) .\n\n\nAmazon RDS for MySQL makes it simple to set up, operate, and scale MySQL deployments in the cloud. Create or update a fully managed Amazon RDS database in the[Amazon RDS Management Console](https://console.aws.amazon.com/rds/) or by using the AWS Command Line Interface (AWS CLI).",
+  "published_at": "2026-11-18T17:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:f3ca9be84f812674768a20a092d676d04d051396d0d7cdc68d0738978ea9df48"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3bd9d0e9d63de1cec7f28125b661e4a2f3fe2eb502a07a08bd7f64aaf2d0bc3b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-acr-amr-token/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-acr-amr-token/",
+  "title": "Amazon Cognito now supports authentication level and method token claims",
+  "summary": "Discover more about what's new at AWS with Amazon Cognito now supports authentication level and method token claims",
+  "body_markdown": "Amazon Cognito now supports authentication context class reference (ACR) and authentication methods reference (AMR), by adding ACR and AMR claims to access, ID, and refresh tokens. Your application can use the authentication level (ACR) to make authorization decisions, such as requiring additional factors for sensitive operations. It can also use completed methods (AMR), such as time-based one-time password (TOTP), for auditing and compliance.\n\n\nAmazon Cognito defines four authentication levels based on the factors a user completes, from password-only (level 1) to a password with a TOTP (level 4). Each token reflects the level achieved during sign-in, so your application can make authorization decisions based on how a user authenticated. If your application requires a stronger level, you can request a target level in your application's sign-in flow or through managed login, and Amazon Cognito issues new tokens once the user completes the required factors. You can also customize ACR level URIs for your user pool. For federated users from an OpenID Connect (OIDC) provider, Amazon Cognito maps the provider's ACR and AMR values to your levels.\n\n\nACR and AMR token claims are available in all AWS Regions where Amazon Cognito is offered. Every user pool includes ACR and AMR token claims, regardless of feature plan. Requesting a target authentication level and configuring custom ACR level URIs are available with the Essentials or Plus feature plan. To get started, configure ACR and AMR using the AWS Management Console, AWS CLI, or AWS SDKs. See[developer guide](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-step-up-authentication.html) for details.",
+  "published_at": "2026-11-17T19:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:a4f221e402de050fb1b6a72c28ee81d9682022969a6bd992539c587fec8b6341"
+}

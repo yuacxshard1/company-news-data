@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "25f85424b583082ef4f4d343c5a9ed6ec31c30bfa68ffdb0f098b39004a5f035",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-customer-managed-runtimes/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-customer-managed-runtimes/",
+  "title": "AWS Lambda now supports customer-managed runtimes, giving platform teams centralized control over runtime contents and updates",
+  "summary": "Discover more about what's new at AWS with AWS Lambda now supports customer-managed runtimes, giving platform teams centralized control over runtime contents and updates",
+  "body_markdown": "AWS Lambda now supports customer-managed runtimes for Lambda Event Functions (formerly Lambda functions). Customer-managed runtimes are a standalone resource type that fully decouples runtime management from function deployment. Platform teams gain centralized control over the runtime contents, updates, access, and lifecycle, including the ability to push updates to shared components without per-function redeployments. Application teams consume the runtime from their functions in the same way as a Lambda-managed runtime, preserving their familiar developer experience.\n\n\nMany organizations require every function to include approved components, such as SDKs, certificates, and security or monitoring tools. Previously, sharing these through Lambda Layers or container images meant redeploying every function to pick up a change. With customer-managed runtimes, platform teams manage these components in a central runtime, packaged as OCI container images in Amazon ECR and compatible with existing Docker and CI/CD tooling. Functions pick up updates automatically as Lambda recycles execution environments, so there's no need to redeploy each function or coordinate rollouts. Updates can be scheduled and staged to match change control policies, with centralized health metrics and rapid rollback. With this launch, the existing custom runtimes feature is renamed \"bring your own language.\"\n\n\nAWS Lambda customer-managed runtimes is now generally available in all commercial AWS Regions. There is no additional charge for customer-managed runtimes; functions are billed at standard Lambda rates and standard Amazon ECR pricing applies to runtime images.\n\n\nTo get started, build your runtime as a container image in Amazon ECR, starting from a Lambda base image or from scratch, then create a runtime, a version, and an alias. Application teams reference the runtime alias in their function configuration and keep deploying their code as .zip files. Share runtimes with other accounts or an AWS Organization by using a resource-based policy. You can create and manage customer-managed runtimes using the AWS CLI, AWS SDKs, CloudFormation, or AWS CDK. To learn more, see the[customer-managed runtimes documentation](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-customer-managed.html) and[launch blog post](https://aws.amazon.com/blogs/compute/control-your-aws-lambda-runtimes-with-customer-managed-runtimes/) .",
+  "published_at": "2026-11-18T15:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:eb41515d16d5b786afa2dfb5beda605f01bffdf3093814c397382b6a1abe6f89"
+}

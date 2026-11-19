@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cc317939cda7514a9ea93d70b63935de1da3d81305a65796e8433f303fb19b2a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-functions-network-calls/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-functions-network-calls/",
+  "title": "Amazon CloudFront Functions now supports network calls",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront Functions now supports network calls",
+  "body_markdown": "Amazon CloudFront Functions can now make network calls and act on the response during a request. CloudFront Functions runs lightweight JavaScript at CloudFront edge locations to customize requests and responses. Previously, if your logic depended on data from another service, you had to use Lambda@Edge or move that logic to your origin. Now your functions can use real-time data to personalize, authenticate, or route requests at the edge, close to your viewers.\n\n\nWith the new *cf.fetch()* method, your functions can call your API endpoints and use the response to decide how to handle each request. For example, you can check an AI agent's permissions and usage budget so that only authorized requests reach your API or MCP server, or send request signals to a security or fraud detection service to block or challenge bad traffic. With *cf.beacon()* , you can send analytics events in the background without slowing down viewers, even for content served from cache. Both methods take advantage of the origin settings already on your distribution, including origin access control (OAC), VPC origins, and connection reuse.\n\n\nNetwork calls are available at all CloudFront edge locations. They cost $0.10 per million calls, on top of CloudFront Functions invocation charges, and are included at no additional cost in the Pro plan and above in CloudFront flat-rate plans. To learn more, see[Helper methods for network calls](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/helper-functions-network-calls.html) in the *Amazon CloudFront Developer Guide* and[Amazon CloudFront pricing](https://aws.amazon.com/cloudfront/pricing/) .",
+  "published_at": "2026-11-18T16:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:b9673a019c815fee9efa99358c4aad856750eebb5ca274a34c7a8efccc624eb7"
+}

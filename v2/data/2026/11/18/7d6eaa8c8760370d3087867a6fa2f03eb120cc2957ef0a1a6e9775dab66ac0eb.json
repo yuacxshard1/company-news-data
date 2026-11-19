@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7d6eaa8c8760370d3087867a6fa2f03eb120cc2957ef0a1a6e9775dab66ac0eb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
+  "title": "Amazon OpenSearch Memory is now generally available",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Memory is now generally available",
+  "body_markdown": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores agent interactions as searchable events, derives useful memories, and retrieves relevant context across sessions, so agents can recall prior decisions, earlier interactions, and user preferences without replaying the full conversation history to the model. Customers can give agents long-term memory without provisioning infrastructure or building separate extraction, indexing, consolidation, and retrieval systems.\n\n\nOpenSearch Memory stores the original events verbatim, makes them searchable within seconds, and asynchronously derives structured memories. It manages the full memory lifecycle, including extraction, embedding, indexing, consolidation (adding, updating, or skipping memories as new information arrives), and retrieval using keyword, semantic, and hybrid search. Customers control access with AWS Identity and Access Management (IAM) for each memory store, with actor and session scoping, and can set expiration periods for events and memories. Because it is serverless, there are no clusters to provision, instance types to choose, or indexes to create, and capacity for extraction and search scales automatically.\n\n\nAmazon OpenSearch Memory is available today in US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt), and Asia Pacific (Tokyo) Regions. For pricing details about Amazon OpenSearch Memory, visit the[pricing page](https://aws.amazon.com/opensearch-service/pricing/) .\n\n\nTo learn more about Amazon OpenSearch Memory, see the[technical documentation](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/memory.html) and[launch blog](https://aws.amazon.com/blogs/big-data/introducing-amazon-opensearch-memory-persistent-memory-for-ai-agents/) . You can get started by visiting the technical launch blog that details how to add persistent memory to your agents with Amazon OpenSearch Memory.",
+  "published_at": "2026-11-18T21:09:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:69e41d7a65e5a3a8f031f15f9e280729bba143cba2a374bdf1a0f23dd2346b60"
+}

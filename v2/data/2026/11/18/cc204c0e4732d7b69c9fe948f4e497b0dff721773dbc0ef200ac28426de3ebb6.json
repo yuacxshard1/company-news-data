@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cc204c0e4732d7b69c9fe948f4e497b0dff721773dbc0ef200ac28426de3ebb6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-8413-available/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-8413-available/",
+  "title": "Amazon RDS for MySQL supports MySQL minor version 8.4.13",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for MySQL supports MySQL minor version 8.4.13",
+  "body_markdown": "Starting today,[Amazon Relational Database Service (Amazon RDS) for MySQL](https://aws.amazon.com/rds/mysql/) supports MySQL minor version 8.4.13, the latest minor released by community MySQL. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in prior versions of MySQL and to benefit from bug fixes, performance improvements, and new functionality added by the MySQL community. Learn more about the enhancements in RDS for MySQL 8.4.13 in the[Amazon RDS user guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html) and[MySQL 8.4.13](https://dev.mysql.com/doc/relnotes/mysql/8.4/en/news-8-4-13.html) release notes.\n\n\nYou can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable[automatic minor version upgrades](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Upgrading.html) and use the AWS Organizations[Upgrade Rollout Policy](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDS.Maintenance.AMVU.UpgradeRollout.html) to orchestrate upgrades across your instances in phases, validating on lower-priority environments before upgrading your most critical ones. You can perform minor version upgrades in-place or via snapshot restore. Learn more about performing version upgrades in the[Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MySQL.html) . This release is supported in all[AWS Regions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html) where Amazon RDS for MySQL is available.\n\n\nAmazon RDS for MySQL makes it simple to set up, operate, and scale MySQL deployments in the cloud. Create or update a fully managed Amazon RDS database in the[Amazon RDS Management Console](https://console.aws.amazon.com/rds/) or by using the AWS Command Line Interface (AWS CLI).",
+  "published_at": "2026-11-18T17:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:046fef9d579d55755296a1019132597a65bd5e5e2e86abdad40ef0b0d3413104"
+}

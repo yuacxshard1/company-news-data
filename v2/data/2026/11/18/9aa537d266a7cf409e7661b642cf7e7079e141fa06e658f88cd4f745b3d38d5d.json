@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9aa537d266a7cf409e7661b642cf7e7079e141fa06e658f88cd4f745b3d38d5d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-replication-exclusions-multi-region-key-resolution/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-replication-exclusions-multi-region-key-resolution/",
+  "title": "Amazon S3 Replication adds exclusions and Multi-Region key resolution",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Replication adds exclusions and Multi-Region key resolution",
+  "body_markdown": "You can now replicate data in Amazon S3 buckets with fewer replication rules using two new S3 Replication capabilities, exclusions and Multi-Region key resolution. Buckets that many tenants or applications share often need many rules to skip certain data or to match encryption keys in each AWS Region. With these capabilities, customers who manage multi-tenant and shared buckets can replace many replication rules with a single rule.\n\n\nWith exclusions, you can replicate an entire bucket while skipping specific prefixes or tagged objects, such as logs or experimental data. With Multi-Region key resolution, S3 Replication encrypts each replica with the matching AWS Key Management Service (AWS KMS) Multi-Region key in the destination Region, so replicas meet the same encryption requirements as their source objects. For example, a bucket that stores data for hundreds of tenants, each with its own Multi-Region key, can replicate with a single rule, including tenants you add later.\n\n\nExclusions and Multi-Region key resolution are optional and available at no additional charge in all AWS Regions. To get started, use the AWS SDKs, AWS CLI, S3 API, or S3 console. To learn more, visit the[S3 Replication product page](https://aws.amazon.com/s3/features/replication/) and[Replicating objects within and across Regions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html) in the S3 User Guide.",
+  "published_at": "2026-11-18T07:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:01ef259afe0c2487b7911ea5d2821d75a248dd12b44f5ede3eacb28700407837"
+}

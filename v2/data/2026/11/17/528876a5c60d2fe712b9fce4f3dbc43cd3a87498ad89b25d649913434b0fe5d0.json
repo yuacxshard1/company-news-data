@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "528876a5c60d2fe712b9fce4f3dbc43cd3a87498ad89b25d649913434b0fe5d0",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-nvidia-dynamo/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-nvidia-dynamo/",
+  "title": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for disaggregated and multi-node inference",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for disaggregated and multi-node inference",
+  "body_markdown": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo. You can now serve models that are too large for a single instance, and keep token generation fast when prompts are long. You don't have to build or operate distributed serving infrastructure yourself. HyperPod manages Dynamo for you through the Inference Operator add-on.\n\n\nAs models grow, two problems limit inference. A large model can need more GPU memory than one instance has. Long prompts also slow token generation, because the prefill and decode stages compete for the same GPUs. Until now, customers had to build and run their own distributed serving stack to work around both.\n\n\nWith Dynamo on HyperPod, you can run a single model across multiple nodes. You can also split prefill and decode into separate GPU pools that scale independently, so a long prompt no longer stalls token generation for other requests. KV-aware routing sends each request to a worker that already holds the relevant cached context. This cuts recomputation and raises throughput. HyperPod runs the underlying infrastructure: EFA networking, GPU capacity management, node replacement, endpoint registration, autoscaling, and observability. Your team can spend its time on the models instead.\n\n\nTo get started, bring your existing Dynamo manifests if you want full control. You can also use a simplified configuration that HyperPod translates into the underlying infrastructure.\n\n\nAmazon SageMaker HyperPod Inference with NVIDIA Dynamo support is available in US East (N. Virginia, Ohio), US West (N. California, Oregon), Europe (Frankfurt, Stockholm, Ireland, London, Spain), Asia Pacific (Mumbai, Hyderabad, Singapore, Sydney, Jakarta, Melbourne, Tokyo), and South America (São Paulo). To learn more, see the[Amazon SageMaker HyperPod documentation.](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-model-deployment-dynamo.html)",
+  "published_at": "2026-11-17T08:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:d5beb147de4a45dce24852623bc4a15dd9eb7cd747e0e334208cc065f3b3e12e"
+}

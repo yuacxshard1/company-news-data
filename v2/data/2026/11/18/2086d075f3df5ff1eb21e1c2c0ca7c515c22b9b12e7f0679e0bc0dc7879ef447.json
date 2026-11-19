@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2086d075f3df5ff1eb21e1c2c0ca7c515c22b9b12e7f0679e0bc0dc7879ef447",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-standard-logging-cmcd-fields",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-standard-logging-cmcd-fields",
+  "title": "Amazon CloudFront standard logging now supports CMCD and additional log fields",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront standard logging now supports CMCD and additional log fields",
+  "body_markdown": "Amazon CloudFront standard logging now supports additional access log fields that were previously available only in CloudFront real-time logs. You can now include these fields in your standard logs and deliver them to Amazon S3, Amazon CloudWatch Logs, or Amazon Data Firehose, without setting up an additional data stream for real-time logs.\n\n\nThe new fields include the IP address of the CloudFront server that handled the request, identifiers that separate traffic on a primary distribution from traffic on a staging distribution, and a media quality confidence score. They also include Common Media Client Data (CMCD) fields, which video players send with each request to report details like bitrate, buffer length, and playback session ID. Streaming teams can use these fields to match playback problems that viewers see with CloudFront delivery data, which makes troubleshooting faster.\n\n\nThese fields are available in all CloudFront edge locations, and standard logging pricing applies. To learn more, see[Standard logging page in the Amazon CloudFront Developer Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/standard-logging.html) .",
+  "published_at": "2026-11-18T19:28:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:3a5ee6d9f0d809a9ab0f2e2a2ea7e1b1e2c7994c9624d5a82b663b0e0dc17550"
+}

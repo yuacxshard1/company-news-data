@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2c338a3355a53486da25b66d5587bfbe8d7fbb7a8e5995426e0d87fd0b036a5c",
+  "company_key": "quicklogic-corporation-common-stock",
+  "company_name": "QuickLogic Corporation",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.quicklogic.com/2026/11/18/from-plain-english-to-bitstream/",
+  "canonical_url": "https://www.quicklogic.com/2026/11/18/from-plain-english-to-bitstream/",
+  "title": "From Plain English to Bitstream",
+  "summary": "A Week of AI-Assisted FPGA Development Can AI take an FPGA design from a plain-English description to a bitstream running on real silicon? Mao Wang spent a week finding out. Working on QuickLogic’s EOS S3 MCU + eFPGA with the Qomu and QuickFeather development kits, he built a fully open-source flow with AI in the [...]Read More... from From Plain English to Bitstream",
+  "body_markdown": "Posted on[November 18, 2026](https://www.quicklogic.com/2026/11/18/from-plain-english-to-bitstream/)\n\n\nby[Mao Wang](https://www.quicklogic.com/author/maowang/)\n\n\n**A Week of AI-Assisted FPGA Development**\n\n\nCan AI take an FPGA design from a plain-English description to a bitstream running on real silicon?\n\n\nMao Wang spent a week finding out. Working on QuickLogic’s EOS S3 MCU + eFPGA with the Qomu and QuickFeather development kits, he built a fully open-source flow with AI in the loop:\n\n\n1. **Describe it** in plain English\n2. **Generate** Verilog RTL and testbenches with AI\n3. **Simulate** in Icarus Verilog\n4. **Build** with Yosys + VPR\n5. **Flash** the bitstream to the EOS S3 fabric\n\n\nHis bench notes cover what the AI got right, where it still needed an engineer, and what this could mean for how FPGA development gets done.\n\n\n**Read the full bench notes on[LinkedIn](https://www.linkedin.com/pulse/from-plain-english-bitstream-quicklogic-72qxc/)**\n\n\n*Want to try it yourself? Explore the[Qomu](https://www.quicklogic.com/devices/qomu-mcu-development-kit/) and[QuickFeather Lite](https://www.quicklogic.com/devices/quickfeather-lite-development-kit/) development kits.*",
+  "published_at": "2026-11-18T17:45:39+00:00",
+  "first_seen_at": "2026-11-18T22:47:38.582592+00:00",
+  "content_hash": "sha256:a12c73e454568224a593635f93643a0fb5ced58d1270f643078ec4197bc9a3ee"
+}

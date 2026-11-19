@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c9270832758d0639e5e20bc8a57ecd6159b9a7e7a14d2ac410981c0534489226",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
+  "title": "Amazon Cognito now supports point-in-time recovery",
+  "summary": "Discover more about what's new at AWS with Amazon Cognito now supports point-in-time recovery",
+  "body_markdown": "[Amazon Cognito](https://aws.amazon.com/cognito/) now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices. Previously, you had to build and maintain your own export and restore process, and restored users received new identifiers and had to reset their passwords.\n\n\nWith PITR, you choose a recovery point, preview how many users, groups, multi-factor authentication (MFA) settings, and passkeys the recovery will create, update, or delete, and then start or cancel the recovery. Recovered users keep their identifiers, passwords, MFA settings, and passkeys, so they can sign in without resetting their credentials. For example, if a script deletes or modifies users by mistake, you can restore the user data to the moment before it ran.\n\n\nPITR is enabled automatically for user pools on the Essentials and Plus feature plans at no additional charge. The recovery window is up to 1 day on Essentials and up to 14 days on Plus. You can initiate and manage a recovery using the AWS Management Console, the Amazon Cognito API, AWS Command Line Interface (AWS CLI), or AWS SDKs. PITR is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon Cognito is available. To learn more, see[Point-in-time recovery](https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-point-in-time-recovery.html) in the Amazon Cognito Developer Guide.",
+  "published_at": "2026-11-18T17:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:4212d16f4b2f6a2872be39de13227b3af69864c26b2ffd55fc43c49a548e144e"
+}

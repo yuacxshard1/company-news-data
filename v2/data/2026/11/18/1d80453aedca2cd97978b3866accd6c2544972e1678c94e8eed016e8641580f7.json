@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1d80453aedca2cd97978b3866accd6c2544972e1678c94e8eed016e8641580f7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudfront-origin-mtls-websockets-grpc/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudfront-origin-mtls-websockets-grpc/",
+  "title": "Amazon CloudFront Announces WebSocket and gRPC Support for Origin Mutual TLS",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront Announces WebSocket and gRPC Support for Origin Mutual TLS",
+  "body_markdown": "Amazon CloudFront (CF) now supports WebSocket and gRPC traffic to application origins in AWS regions, with mutual TLS authentication between CF and the application origin (origin mTLS). Customers can now use TLS certificates to authenticate requests from CloudFront while setting up WebSocket or gRPC connections to their origins. Origin mTLS protects internet facing applications that need persistent, bidirectional or streaming connections, such as chat platforms, collaborative editing tools or live dashboards from unauthenticated requests.\n\n\nPreviously, customers serving WebSocket or gRPC traffic through CloudFront had to use shared secrets or IP allow-lists to identify requests originating from CloudFront. This was operationally complex and did not provide strong authentication. With Origin mTLS, customers can use one TLS based authentication for HTTP, WebSocket and gRPC traffic to an application origin. This works with application origins within AWS such as Application Load Balancer and API Gateway, on-premises origins, and origins hosted outside AWS.\n\n\nThere is no additional charge for origin mTLS, and it is available with pay-as-you-go pricing and in the Business and Premium flat-rate pricing plans. To learn more, visit the CloudFront[origin mutual TLS documentation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/origin-mtls-authentication.html) .",
+  "published_at": "2026-11-18T18:00:00+00:00",
+  "first_seen_at": "2026-11-18T23:41:39.780893+00:00",
+  "content_hash": "sha256:e27046deda0659e612135a4bd087319e038626ae44daa0d50eed2d25c4db0b15"
+}
