@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cccf2260250cfacdf6d1f5aeb928812a48a83c27bc292b038a228b2deb617e51",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/activepieces-credits-pricing-and-usage-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/activepieces-credits-pricing-and-usage-2026-guide",
+  "title": "Activepieces Credits: Pricing and Usage (2026 Guide)",
+  "summary": "Activepieces credits cost $0.007 each beyond your monthly allowance. Compare free (1,000), Plus ($20 for 10,000), and Team ($200 for 50,000) credits.",
+  "body_markdown": "## Spotting hidden costs and team limits\n\n\nWatch for five limits that cost more than extra credits. The first two are the users and SSO that decide whether Team's $200 a month is enough:\n\n\n- Team's 25-user cap\n- Which tier carries SSO\n- Whether unused credits roll over\n- What level of support is included\n- Engineering time to run a self-hosted install\n\n\n### User and SSO ceilings\n\n\nWith 25 users and SSO included, Team can't hold a 40-person company building flows. Past 25 seats, or if you need SSO beyond what Team offers, you move to a sales quote, priced on users, credits, deployment and support.\n\n\nAsk for rollover and support terms in writing during that quote, because they aren't part of the self-serve price either. **SOC 2's in progress, not certified** , so a procurement team that demands a report can't be satisfied today.\n\n\n### Self-hosting: Community Edition versus a paid licence\n\n\nWhen one technical team runs its own flows, needs no SSO and has someone to patch the server, the free Community Edition's enough.\n\n\nA paid self-hosted licence is quoted by sales, and the quote buys the whole product rather than a trimmed build: SSO, SCIM, custom RBAC, audit logs, release management and secret managers work in the air-gapped edition as they do on the managed cloud.\n\n\nRegulated and public-sector organisations run that edition in production, and MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces too. What never appears on the invoice is the hour spent on upgrades and incidents.\n\n\n### Overage and budget surprises\n\n\nUsers run out of free credits before the month ends, because AI steps shrink the Free plan's 1,000 monthly credits faster than the headline suggests.\n\n\nAccording to[Notelinker](https://www.notelinker.com/activepieces-pricing) , a flow with no AI step gets 1,000 runs a month, one with the cheapest AI step gets 333, and one with the priciest gets 47.\n\n\nThat means a flow built around the costliest AI step **exhausts Free in under two working days** of heavy use.\n\n\nPast the allowance, those 21 credits a run cost about $0.147 at $0.007 a credit, so test your real flow before assuming the per-credit rate makes it cheap.",
+  "published_at": "2026-11-19T04:39:16+00:00",
+  "first_seen_at": "2026-11-14T03:11:34.323016+00:00",
+  "content_hash": "sha256:7ed316a2947d5ee9a6c839e15891b4d6d1db5486ceec02a9a5a723c097e9a670"
+}

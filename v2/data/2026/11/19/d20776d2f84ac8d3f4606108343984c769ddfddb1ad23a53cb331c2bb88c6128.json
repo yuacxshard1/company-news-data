@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d20776d2f84ac8d3f4606108343984c769ddfddb1ad23a53cb331c2bb88c6128",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/langflow-pricing-free-software-hosting-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/langflow-pricing-free-software-hosting-costs-2026",
+  "title": "Langflow Pricing: Free Software, Hosting Costs (2026)",
+  "summary": "Langflow pricing is free, but you'll pay for hosting, API calls, and model usage. This breakdown shows what your actual monthly costs will be.",
+  "body_markdown": "## Activepieces for agents that act across business apps\n\n\nChoose Activepieces, an open source automation platform, if the agent's job is to act inside business apps rather than hold a conversation.\n\n\nIts AI agent step works across the same 741[integrations](https://www.activepieces.com/pieces) as every other step, and it has human approval and self-hosting under an MIT-licensed core.\n\n\nThe workflow below shows what that looks like.\n\n\nA new lead arrives from HubSpot, a customer-relationship tool, and an AI agent step qualifies it. A condition then routes qualified leads into Salesforce and a Slack notification, while the rest enter a nurture loop that ends in a Gmail message.\n\n\nJust one of the seven steps is a model call, making the build primarily integration and orchestration work. The model bill therefore tracks lead volume, while the other six are ordinary integration steps. That makes the cost per run easy to estimate before you commit.\n\n\n### Approval, self-hosting and pricing\n\n\nTwo features matter for business use. A human approval step lets you pause before the agent writes to a CRM or sends an email, so a bad qualification costs you a review rather than a wrong record.\n\n\nIf you self-host, your lead data and credentials stay on infrastructure you control, but you then pay for the servers and the upkeep yourself, which is the cost the sticker price hides.\n\n\nOn pricing, Activepieces publishes its plans, with Plus at $20 a month and Team at $200, and only Ultimate going through sales, so you can price a run without a sales call.\n\n\nDo that against your own run volume, and count model calls separately from platform charges.\n\n\nWhen the agent's reasoning is the product, Langflow is the better tool. Its visual builder suits retrieval pipelines, custom Python components and step-by-step inspection of prompt chains.\n\n\nActivepieces earns its place when the hard part is getting the agent to act in the right apps, and with 741 integrations, roughly 60% of them community-contributed, that is the part it has already covered, with a person able to stop the agent.\n\n\nYou can try it free, with 1,000 credits a month, unlimited flows and up to 5 users, at[https://cloud.activepieces.com/sign-up](https://cloud.activepieces.com/sign-up?ap_cta=blog_body&ref=%2Fblog%2Flangflow-pricing-free-software-hosting-costs-2026) , which means small teams can explore all capabilities.",
+  "published_at": "2026-11-19T04:37:16+00:00",
+  "first_seen_at": "2026-10-17T10:30:02.983539+00:00",
+  "content_hash": "sha256:3acb06be75885c6ed89e44e33962dec653a2419987fd019db70e445b083d0f6e"
+}

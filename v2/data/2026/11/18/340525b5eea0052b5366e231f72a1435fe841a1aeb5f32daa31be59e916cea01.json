@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "340525b5eea0052b5366e231f72a1435fe841a1aeb5f32daa31be59e916cea01",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-custom-cross-account-td/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-custom-cross-account-td/",
+  "title": "AWS Transform custom now supports cross-account sharing of transformation definitions",
+  "summary": "Discover more about what's new at AWS with AWS Transform custom now supports cross-account sharing of transformation definitions",
+  "body_markdown": "AWS Transform custom now enables you to share transformation definitions (TDs) and their associated lessons across AWS accounts, organizational units (OUs), or your entire organization in AWS Organizations through AWS Resource Access Manager (AWS RAM). AWS Transform custom is a capability of AWS Transform that performs transformations across your technology stack, including API and framework upgrades, migrations, and language translations.\n\n\nWith this launch, you can share TDs as live resources rather than static copies, so consumers run the owner's latest published version by default while the owner maintains full control. As the TD owner, you select from four managed permissions ranging from execute-only (the default) to permissions that allow consumers to use your lessons, contribute lessons back to you, or download the TD. Lessons flow back to the owner only when the permission allows it and the consumer opts in.\n\n\nThis capability is particularly valuable for platform engineering teams and AWS Partners who need to deploy standardized transformations across multiple accounts. A central team can create a TD once and share it organization-wide.\n\n\nThis feature is available via the AWS Transform CLI and AWS RAM in US East (N. Virginia), Europe (Frankfurt), Europe (London), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Sydney), Asia Pacific (Tokyo), and Canada (Central) Regions. To learn more, visit the[AWS Transform User Guide](https://docs.aws.amazon.com/transform/latest/userguide/custom-sharing.html) .",
+  "published_at": "2026-11-18T19:30:00+00:00",
+  "first_seen_at": "2026-11-19T06:17:47.847425+00:00",
+  "content_hash": "sha256:2af546d8971d28d35508c0cbe2662397ce3a157fffb7c6ff9f7422ee59a21fc6"
+}

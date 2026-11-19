@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "816edad582ad6db2a94758a760b2f9660f4b9400d84d98ad64b278635df1508b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/mixpanel-pricing-plans-and-what-youll-pay-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/mixpanel-pricing-plans-and-what-youll-pay-in-2026",
+  "title": "Mixpanel Pricing: Plans and What You'll Pay in 2026",
+  "summary": "Mixpanel pricing includes Free, Growth, and Enterprise plans with event-based costs. Compare feature limits and pricing tiers to select the right plan.",
+  "body_markdown": "## Activepieces for Mixpanel event routing and reporting\n\n\nIt won't lower what Mixpanel charges you, but Activepieces, a no-code automation tool, can keep unwanted events from being counted and move non-product events into Mixpanel without an engineer.\n\n\nIts free plan costs $0 with 1,000 credits a month, so you can test the routing before it touches your budget.\n\n\nIf your bill is driven by volume, that matters, because every event you send is one you pay for.\n\n\n**Doing nothing has its own cost** . Without a gatekeeper, whatever your form, CRM, or billing tool pushes into Mixpanel counts toward your volume, useful or not. You find out when the bill arrives, not when the events do.\n\n\n### Sending non-product events into Mixpanel\n\n\nProduct events usually reach Mixpanel through code on your site or app. Sign-ups, deal stages, and payments happen elsewhere: in a web form, a customer database (your CRM), or the tool that charges cards.\n\n\nActivepieces connects to those tools through 742 integrations, counted from its open source monorepo, and sends each action to Mixpanel as an event, so you can see a sign-up next to the behavior that led to it. No developer needs to write the connection.\n\n\nThere's a catch: this adds events. Each one you route in counts toward your monthly total, so decide which ones you need before you switch anything on.\n\n\n### Trimming events before they hit your quota\n\n\nYour form, CRM, and billing tool on the left feed one Activepieces flow, which filters and batches before anything reaches your Mixpanel project, and a second path sends a summary to Slack.\n\n\nFlows are unlimited on every plan, including free, so splitting the routing across several of them adds nothing to the plan price.\n\n\nTake from it that the filter sits in front of Mixpanel, so events it drops never count against your plan.\n\n\nDrop whatever you'd never look at, such as internal test submissions or repeated status updates, with a filter step. A batch step groups the remaining events and sends them together, which keeps the flow tidy and the arrival of events predictable.\n\n\nBatching doesn't reduce how many events are counted. Only the filter does that.\n\n\nYou get a running tally to hold against your plan's limit from the Slack summary, a scheduled message with the count of what was sent and what was dropped. That way you catch a runaway source in days, not at invoice time.\n\n\nWhat follows from this is practical: price your real monthly volume after filtering, not before, and use that number when you compare Mixpanel with its rivals.",
+  "published_at": "2026-11-19T04:36:19+00:00",
+  "first_seen_at": "2026-11-12T11:32:58.142530+00:00",
+  "content_hash": "sha256:e9feb0174921514bde068338e3af903c051848811a38addcbf3396b209fc5b6e"
+}

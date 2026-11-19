@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "72cdd0d8174b051045ca99ae6b34f3c625a8aa17e15e80ceb57a41e2bb85f9e0",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-network-path-monitoring/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-network-path-monitoring/",
+  "title": "Amazon CloudWatch simplifies network performance monitoring for your Amazon Virtual Private Cloud (VPC)",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch simplifies network performance monitoring for your Amazon Virtual Private Cloud (VPC)",
+  "body_markdown": "Amazon CloudWatch Network Monitoring now allows you to monitor the health of the AWS network paths that your workloads take by using performance monitors. Performance monitors provide near real-time visibility into whether the AWS network is healthy for your workloads, without installing any software.\n\n\nPerformance monitors report per-path metrics such as latency, a network impact score that shows network health, and traffic volume across all flows in your VPCs. You simply select the VPCs you want to monitor, and metrics are available within minutes. Using telemetry AWS already collects, with no additional services to enable, performance monitors determine the paths your traffic takes, within and across Availability Zones, across AWS Regions, and to AWS services, for TCP, UDP, and ICMP traffic. They then score each path by comparing it with its own recent history and with all other paths AWS measures at the same time. For example, a path that suddenly degrades, or degrades with many other paths during an AWS network event, scores high. Metrics publish to Amazon CloudWatch for dashboards and alarms, and AWS Organizations integration lets you monitor VPCs across accounts and Regions.\n\n\nPerformance monitors complement flow monitors in CloudWatch Network Monitoring. When a checkout application slows down, a performance monitor shows whether the path from the web tier in one Availability Zone to the database in another is degraded. A high network impact score points to the AWS network, so your team can engage AWS Support instead of investigating your application. If the path is healthy, you can focus on your own stack, where flow monitors use software agents on Amazon EC2 and Amazon EKS to find affected connections, such as a payment pod retransmitting to the database.\n\n\nFor available AWS Regions, see the[Regions list](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PerformanceMonitor-Regions.html) . To learn more, visit the Amazon CloudWatch Network Monitoring[documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PerformanceMonitor.html) .",
+  "published_at": "2026-11-18T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T06:17:47.847425+00:00",
+  "content_hash": "sha256:2c65e55cf48aa16999d0eea7ae8c21ca7e2576d5d6c0d3b2622729cebd8e5194"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "47b2eaff4ba2eb81e312e4b4c8c6df082e462a89d0f5dcc7c015f0bc67153550",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/aws-amplify-pricing-free-tier-and-costs-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/aws-amplify-pricing-free-tier-and-costs-2026-guide",
+  "title": "AWS Amplify Pricing: Free Tier and Costs (2026 Guide)",
+  "summary": "AWS Amplify pricing runs on pay-as-you-go with a free tier. See cost breakdowns by usage level so you can determine what your project will cost.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is AWS Amplify free?\n\n\nNot as a standing arrangement. Amplify Hosting has no monthly plan fee, but it meters build minutes, data transfer and storage, and a small site can stay inside the free allowance.\n\n\nThat allowance is a usage threshold, not a promise of zero. Once traffic or build frequency passes it, you pay the per-unit rates, and the services Amplify starts beside it are billed on their own terms.\n\n\n### Does the Amplify free tier expire after 12 months?\n\n\nTreat it as temporary. The free allowance is tied to the age and terms of your AWS account, so check the current conditions on AWS's pricing page rather than relying on a remembered date.\n\n\nBudget the metered rates from the first day. If the free allowance covers part of year one, you have a cushion, not a baseline, and the bill won't step up in surprising ways once it ends.\n\n\n### Is Amplify cheaper than Vercel?\n\n\nIt depends on what drives your bill. Amplify charges no plan fee and bills for build minutes and data transfer, so it tends to suit teams with modest traffic and several contributors, because adding people doesn't add a line item.\n\n\nAs the team grows, the comparison changes, because Vercel's pricing is organised around plans and seats. Price both with your own build frequency and monthly transfer before you decide. A headline per-unit rate says little about what you'll actually pay.\n\n\n### Can I cap my Amplify bill?\n\n\nNot with a single switch that stops the service at a ceiling.\n\n\nWhat you can do is set AWS Budgets alerts on the account, so a runaway build loop or a traffic spike reaches you by notification before the invoice does.\n\n\nPair those with a deliberate limit on how often branches build, and keep preview environments from multiplying quietly.\n\n\nA budget alert tells you spend is rising; it's your configuration that stops it rising.\n\n\n### Do I pay for Amplify Gen 2 backend separately?\n\n\nYes, in the sense that matters for your budget. A Gen 2 backend is assembled from other AWS services, such as functions, a database, file storage and user authentication, and each is billed under its own pricing, not folded into Amplify Hosting.\n\n\nThose services run in the AWS region you choose, which also decides where personal data is stored and processed. That matters if you have transfer restrictions under GDPR. Choose the region deliberately, then add every backend service to the same budget as hosting.",
+  "published_at": "2026-11-19T04:40:11+00:00",
+  "first_seen_at": "2026-11-19T06:16:57.001185+00:00",
+  "content_hash": "sha256:84784768b24f8dcc59444f6941c91e55b86f92f087711bf782dba0c94d003c0c"
+}

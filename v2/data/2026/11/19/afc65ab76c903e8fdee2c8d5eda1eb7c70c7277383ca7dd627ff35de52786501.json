@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "afc65ab76c903e8fdee2c8d5eda1eb7c70c7277383ca7dd627ff35de52786501",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/browserless-pricing-plans-and-overage-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/browserless-pricing-plans-and-overage-costs-2026",
+  "title": "Browserless Pricing: Plans and Overage Costs (2026)",
+  "summary": "Browserless pricing splits into four plans by concurrency: 2 on Free to 100 on Scale. Match your peak concurrency requirement to find the right plan.",
+  "body_markdown": "## Sending Browserless output into business apps with Activepieces\n\n\nYou still have a second problem once you know your session length and parallel jobs. Browserless gives you a browser that does the work, but it does nothing with what comes back.\n\n\nA page capture or scraped table lands in the response and sits there until something picks it up.\n\n\nActivepieces picks it up. It doesn't replace Browserless, and it doesn't make a browser run any cheaper or faster.\n\n\nIts core is MIT-licensed, as the repository's LICENSE file on GitHub states, and the 742 integrations on the far side of the browser are counted directly from the` packages/pieces/community` folder of that same open-source monorepo, not taken from a marketing page.\n\n\nWhat it does is run on a schedule, call the Browserless REST API through an HTTP step, and pass the result along to the places your team already looks.\n\n\nIn practice, a scheduler starts an Activepieces flow, the flow's HTTP step calls Browserless, and the result fans out to a spreadsheet that gains new rows, a PDF saved in a storage folder, and a Slack message.\n\n\nThe browser is one box in the middle, and everything on either side of it is plumbing you would otherwise build or do by hand.\n\n\n### When a workflow tool fits and when it does not\n\n\nIt fits if your job is \"every morning, grab this page, and get the answer to people who will never open a terminal.\" Without a tool like this, someone copies results into a sheet by hand, or the check simply stops happening the week that person is busy.\n\n\nSkip the flow and you carry a recurring chore with a person attached; setting one up costs an afternoon.\n\n\nIt doesn't fit if you already run code. If a script of yours calls Browserless today, adding a row to a sheet or posting to Slack is a few more lines in that same script.\n\n\nA second tool just gives you another place for things to break and another account to manage.\n\n\nIt also doesn't fix a bad plan choice. A flow that fires many Browserless calls at once still meets the same concurrency and session limits you sized earlier, so schedule jobs with that ceiling in mind.",
+  "published_at": "2026-11-19T04:36:58+00:00",
+  "first_seen_at": "2026-11-12T11:32:58.142530+00:00",
+  "content_hash": "sha256:0a532a590eff20933c60bee7a9f3a5aca4753751e592cc1a8675d68883f146b3"
+}

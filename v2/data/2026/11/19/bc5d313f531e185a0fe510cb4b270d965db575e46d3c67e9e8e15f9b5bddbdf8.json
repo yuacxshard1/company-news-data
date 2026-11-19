@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bc5d313f531e185a0fe510cb4b270d965db575e46d3c67e9e8e15f9b5bddbdf8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/render-pricing-2026-free-tier-workers-total-cost",
+  "canonical_url": "https://www.activepieces.com/blog/render-pricing-2026-free-tier-workers-total-cost",
+  "title": "Render Pricing 2026: Free Tier, Workers & Total Cost",
+  "summary": "Render pricing includes a workspace tier with compute, database, and bandwidth charges. Estimate what you'll spend on APIs, jobs, and hosting services.",
+  "body_markdown": "## Where Activepieces Fits Next to Render\n\n\nIf your Render bill's mostly background workers and cron jobs gluing apps together, a workflow tool can replace that code. It won't replace the web app or database you host there.\n\n\n### Jobs that are really workflows\n\n\nLook at what each cron service and worker on your invoice actually does. A script that wakes every hour, pulls rows from one system, reshapes them and writes them to a spreadsheet's a workflow, not an application.\n\n\nYet on Render that script's a separate service with its own compute line, and it counts against your build minutes every time you touch it. Ten of those, and the \"small\" part of the bill's no longer small.\n\n\nActivepieces is built for exactly this shape of job. The flow builder shows a schedule trigger set to run every hour, with a single step labeled \"1. Every Hour.\"\n\n\nThe panel beside it offers spreadsheet actions such as Insert Row, Update Row and Find Rows, and a sample-data test marked \"Tested Successfully.\"\n\n\nRead the panel as the whole job: a trigger, an action, a test, with no service to size, deploy or keep awake. The schedule setting also has a weekend toggle, so a report nobody reads on Saturday stops running on Saturday.\n\n\n### What does the same job cost elsewhere?\n\n\nPriced on[Activepieces](https://www.activepieces.com/pricing) , an hourly sync like the one above is a flow on a plan, not a service with its own instance, and every plan, including the free one, allows unlimited flows.\n\n\nThe meter there is the run: 24 runs a day comes to about 720 credits in a 30-day month, inside the 1,000 credits on the $0 free plan.\n\n\nWhat changes in practice is that you stop paying compute for a process that mostly sleeps between runs.\n\n\nKeep the boundary clear. Activepieces doesn't host your web app, your API or your Postgres database, so those Render lines stay.\n\n\nWhat moves is the glue, and the 746 integrations in its open source monorepo are what connect it to the apps on either end, so any change must be tested across all 746 integration paths.\n\n\nWhen you audit the invoice, tag every worker and cron service as \"serves users\" or \"moves data between tools.\" The second group's your candidate list, and each one you retire removes a compute line you were carrying for a job that's really a flow.",
+  "published_at": "2026-11-19T04:37:37+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:db4b89aaa6437aee7cf3a5bf16baf588faed75f5b0c16d6e1a627c8707b330b6"
+}

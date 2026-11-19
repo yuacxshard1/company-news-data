@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b6c0095b28d6331bda2e0495951a226cdd69b78de0cad6701d2591c127486fb4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/announcing-distributed-kv-caching-for-self-hosted-llms-with-amazon-elasticache/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/announcing-distributed-kv-caching-for-self-hosted-llms-with-amazon-elasticache/",
+  "title": "Amazon ElastiCache now supports distributed KV caching for self-hosted LLM inference",
+  "summary": "Discover more about what's new at AWS with Amazon ElastiCache now supports distributed KV caching for self-hosted LLM inference",
+  "body_markdown": "[Amazon ElastiCache for Valkey](https://aws.amazon.com/elasticache/) now offers fully managed distributed KV caching, a new capability that reduces self-hosted large language model (LLM) inference costs by up to 40% and time to first token (TTFT) by up to 80%. Customers who self-host LLMs pay for redundant GPU work because small, isolated caches on each server can't hold or share the growing context AI agents and chat applications resend. Distributed KV caching extends GPU-local caches with a shared tier so any server can reuse KV state for days across sessions, routing shifts, and server failures. GPUs can fetch cached KV state in milliseconds to serve more requests and respond faster.\n\n\nDistributed KV caching runs on cache.i8ge.48xlarge nodes in the same Availability Zone as the GPU fleet and connects to GPUs through Remote Direct Memory Access (RDMA) over[Elastic Fabric Adapter (EFA).](https://aws.amazon.com/hpc/efa/) Distributed KV caching works with open-weight, fine-tuned, and custom models, whether they use full, sparse, hybrid, or other attention designs. You can add distributed KV caching to the inference engines you already use, including vLLM, SGLang, and TensorRT-LLM, through the LMCache connector with a configuration change. You can also use the[open-source KVTrace tool](https://github.com/aws-samples/amazon-elasticache-samples/tree/main/kvtrace) to estimate the cost and latency reductions on your own application traffic before deploying anything, at no charge.\n\n\nDistributed KV caching is available today on ElastiCache for Valkey in 13 AWS Regions across the US, Europe, and Asia Pacific. To get started, create a cluster with cache.i8ge.48xlarge nodes using the[AWS CLI](https://aws.amazon.com/cli/) in the same AZ as your GPU fleet and adding the endpoint to your inference engine. To learn more, read the[AWS blog](https://aws.amazon.com/blogs/database/announcing-distributed-kv-caching-for-self-hosted-llms-with-amazon-elasticache/) for a technical deep dive and performance results, or visit the[Amazon ElastiCache documentation](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/distributed-kv-caching.html) . For pricing, see the[Amazon ElastiCache pricing page](https://aws.amazon.com/elasticache/pricing/) .",
+  "published_at": "2026-11-18T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T06:17:47.847425+00:00",
+  "content_hash": "sha256:d1f28bf35fbaccea4c4099d71caa9716ae72fb7b5cfa19a08aef634a82f8b1e8"
+}

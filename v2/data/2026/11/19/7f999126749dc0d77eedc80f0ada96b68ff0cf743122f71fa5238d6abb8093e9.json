@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7f999126749dc0d77eedc80f0ada96b68ff0cf743122f71fa5238d6abb8093e9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/activepieces-cloud-pricing-plans-2026-price-guide",
+  "canonical_url": "https://www.activepieces.com/blog/activepieces-cloud-pricing-plans-2026-price-guide",
+  "title": "Activepieces Cloud Pricing Plans: 2026 Price Guide",
+  "summary": "Activepieces cloud pricing plans range from free to enterprise tiers. Determine which plan matches your automation needs and budget.",
+  "body_markdown": "## How automation platforms meter usage and pricing\n\n\n### Three ways to count the work\n\n\nThe first model charges per step, which is what task and operation meters do. It is easy to understand and punishes long workflows. The second charges per run or execution, which rewards long, branching flows and penalises very frequent short ones.\n\n\nThe third charges for capacity instead of activity: seats, workspaces or a licence for software you host yourself.\n\n\nCredit systems sit between these. A credit is an abstraction the vendor can tie to steps, runs or heavier operations such as AI calls, which is why two credit-priced tools can behave very differently on the same workflow.\n\n\n### Ways to keep the meter low\n\n\nFilter early so a workflow stops at its first step when an event isn't relevant, rather than running to the end and discarding the result. Prefer webhooks over polling, since a trigger that checks every few minutes can consume allowance while nothing happens.\n\n\nBatch items instead of looping over them one at a time where the destination supports it, and cap retries so a broken integration fails quietly instead of spending all night.\n\n\nThe alternative to metering at all is to host an open-source engine yourself, which swaps a usage bill for an operations bill.\n\n\n### Cloud versus self-hosted automation deployment options\n\n\nMetered cloud is one of four common arrangements. A hosted platform charges by usage and removes the operations work. A self-hosted open-source engine trades the usage bill for servers, upgrades and on-call time, as the Community Edition section above describes.\n\n\nEnterprise integration suites sell capacity contracts with governance and support built in, and suit organisations whose procurement already runs through such vendors.\n\n\nPlain code, such as a scheduled script or a queue worker, costs nothing per run but needs a developer to write, monitor and maintain every integration.\n\n\n### Matching the approach to the workload\n\n\nThe cheapest option depends on volume, how often the logic changes and who maintains it. Low volume with frequent changes favours hosted tools, because a builder can edit a flow without a deploy.\n\n\nVery high volume with stable logic favours code or self-hosting, where cost stays flat as runs grow.\n\n\nStrict data residency or audit demands push toward self-hosting or an enterprise contract regardless of price. Whichever route you take, the meter only matters once you know how many steps your real workflows execute.",
+  "published_at": "2026-11-19T04:39:22+00:00",
+  "first_seen_at": "2026-11-14T03:11:34.323016+00:00",
+  "content_hash": "sha256:02c41f8e78161d357a80b835897adac4a2094ee10e1b9627f44b6567ecf20289"
+}
