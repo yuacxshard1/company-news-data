@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "eb0f02f9280e20e1ac651cb0094788f9272b3949501dbff45b74b1f06375c24d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-optimized-storage/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-optimized-storage/",
+  "title": "AWS Transform supports optimized storage for server migration",
+  "summary": "Discover more about what's new at AWS with AWS Transform supports optimized storage for server migration",
+  "body_markdown": "AWS Transform for migrations now recommends the optimized storage type and configuration for every server you migrate, so you no longer do it server by server. Building on[recent storage assessment capabilities](https://aws.amazon.com/blogs/migration-and-modernization/assess-and-migrate-storage-to-the-cloud-with-aws-transform/) , AWS Transform's recommendations use each server's observed performance and capacity data to reduce overprovisioning costs and avoid performance issues after cutover. You see the expected cost before you migrate, and AWS Transform applies the approved settings automatically at launch.\n\n\nRecommendations cover Amazon EBS and Amazon FSx for NetApp ONTAP. For FSx for NetApp ONTAP, they include the file system layout and sizing. You choose whether to optimize for cost or for performance, and recommendations stay consistent from assessment through launch.\n\n\nThis capability is available in all[AWS Regions where AWS Transform for migrations is available](https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-connect-target-account.html#transform-vmware-cta-supported-regions) .\n\n\nTo learn more, see the[AWS Transform user guide](https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-migrate-servers.html) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T17:06:41.746029+00:00",
+  "content_hash": "sha256:a901c7c15ae906de17a3be25c207e9823c0482020d7d9e5ca703184f21c1704f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "971f15b5db260631279184a1f88d108f55aa99259bb54816fb48e98ecc762258",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/discord-api-rate-limits-errors-and-auth-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/discord-api-rate-limits-errors-and-auth-2026-guide",
+  "title": "Discord API: Rate Limits, Errors and Auth (2026 Guide)",
+  "summary": "Discord API powers server bots through REST and Gateway connections. Set up authentication, manage rate limits, and handle API errors.",
+  "body_markdown": "## Calling Discord endpoints without code in Activepieces\n\n\nFor the jobs that need no Gateway connection, Activepieces covers you without code, and with unlimited flows on every plan, free included, each alert can be its own flow. Sending messages, reacting to new ones and posting alerts from other apps don't need one.\n\n\n### When no-code is enough\n\n\nThe Discord integration offers a Send Message action and a new-message trigger. For routes it doesn't wrap, an HTTP step can call Discord's REST API with the same bot token.\n\n\nThe table shows where each task sits. Every row is still subject to Discord's rate limits, so a no-code flow can be throttled just like a script.\n\n\nTask Supported without code Still needs code (Gateway bots) Rate limits apply\n\n\nSend Message Yes No Yes\n\n\nNew-message trigger Yes No Yes\n\n\nHTTP step with bot token Yes No Yes\n\n\nPresence, voice, or sharded Gateway connections No Yes Yes\n\n\nPlan for a 429 response in any flow that posts in bursts, and spread the sends out instead of relying on retries.\n\n\n### Setting up the Discord connection\n\n\nCreate the bot in the Discord developer portal, copy its token, and add it as a connection in Activepieces. Invite the bot to your server with only the permissions the flow needs, because a missing permission shows up as a failed step.\n\n\nA run costs 1 credit however many steps it has, so the extra HTTP step adds nothing to the bill.\n\n\nCheck each run's history to see which step failed and why.\n\n\nOn cost, the Free cloud plan is[$0 per month](https://www.activepieces.com/pricing) , enough to prototype an alert flow before spending anything. Plus is $20 per month. Team is $200 per month, ten times Plus, so move up only when you need what it adds.\n\n\nIf the bot must hold a persistent Gateway connection, handle presence or voice, or shard across processes, write code. The integration works with requests and triggers, not a long-lived connection. Everything else, start in Activepieces, whose MIT-licensed core is free to self-host.",
+  "published_at": "2026-11-19T15:58:31+00:00",
+  "first_seen_at": "2026-11-19T17:05:57.373381+00:00",
+  "content_hash": "sha256:d9b76752b3299a41705361e5f678120788bcd843919c8e93a4138d5b83191161"
+}

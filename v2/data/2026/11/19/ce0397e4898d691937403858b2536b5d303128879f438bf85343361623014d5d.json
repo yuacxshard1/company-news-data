@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ce0397e4898d691937403858b2536b5d303128879f438bf85343361623014d5d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/",
+  "title": "AWS Systems Manager Parameter Store raises API throughput limits",
+  "summary": "Discover more about what's new at AWS with AWS Systems Manager Parameter Store raises API throughput limits",
+  "body_markdown": "# AWS Systems Manager Parameter Store raises API throughput limits\n\n\nPosted on: Nov 19, 2026\n\n\nAWS Systems Manager[Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) has increased the default throughput limits for five API operations. For accounts that have turned on the higher throughput setting, the quotas have changed as follows, in transactions per second (TPS):\n\n\n- GetParametersByPath (from 100 to 500 TPS)\n- PutParameter (10 to 50)\n- DeleteParameter (5 to 50)\n- DescribeParameters (10 to 100)\n- GetParameterHistory (10 to 100)\n\n\nParameter Store provides powerful, hierarchical storage for configuration data. The higher quotas give more headroom to workloads that call these operations in bursts. Examples include applications that load configuration by path when many AWS Lambda functions start at once, infrastructure as code deployments that create or update many parameters, and cleanup jobs that bulk-delete stale parameters.\n\n\nThe new limits apply to the higher throughput tier automatically at no additional cost. Any customers that have custom API limits will retain their custom limits. The new limits are available in all AWS Regions where Parameter Store is available. To learn more, see[Managing Parameter Store throughput](https://docs.aws.amazon.com/systems-manager/latest/userguide/parameter-store-throughput.html) in the *AWS Systems Manager User Guide* .",
+  "published_at": "2026-11-19T09:00:00+00:00",
+  "first_seen_at": "2026-11-19T17:06:41.746029+00:00",
+  "content_hash": "sha256:5b536160fefd85295f8cd25a812c93a3e2a90025dd235c56da8f40460eba7e7e"
+}

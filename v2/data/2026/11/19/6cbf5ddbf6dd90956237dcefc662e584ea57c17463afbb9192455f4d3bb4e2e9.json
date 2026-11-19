@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6cbf5ddbf6dd90956237dcefc662e584ea57c17463afbb9192455f4d3bb4e2e9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/assemblyai-stt-37-accuracy-and-pricing-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/assemblyai-stt-37-accuracy-and-pricing-in-2026",
+  "title": "AssemblyAI STT 3.7: Accuracy and Pricing in 2026",
+  "summary": "AssemblyAI STT 3.7 updates speech-to-text capabilities for automations. See which features shipped and whether you need to update workflows.",
+  "body_markdown": "## What Activepieces has already shipped for AssemblyAI\n\n\nIf you'd switch a step to the new model, it has a home in Activepieces today:[Activepieces](https://www.activepieces.com/pieces/assemblyai) , the workflow builder, already lists an AssemblyAI integration, and its pricing page charges 1 credit per flow run however many steps sit inside it.\n\n\nSplitting a flow into transcribe, extract and route therefore costs the same as the two-step workaround that lumps them together, so the smaller, more reliable steps don't raise the bill. We haven't run 3.7 ourselves and have no test results to report.\n\n\n### The shipped support, with date and link\n\n\nOn the[Activepieces AssemblyAI page](https://www.activepieces.com/pieces/assemblyai) , the package` @activepieces/piece-assemblyai` is described as transcribing and extracting data from audio using AssemblyAI's Speech AI. According to Activepieces, it exposes **14 actions and 0 triggers** .\n\n\nWith no triggers, nothing in the integration starts a flow when audio arrives, so you need a schedule or another app to kick off the run.\n\n\nThe page gives no date. We found nothing on it saying the integration covers 3.7. Treat compatibility as unconfirmed until you check the integration's action fields against the maker's API reference.\n\n\n### Connecting transcription to a workflow today\n\n\nStart from a flow you already run, so the comparison is against your own baseline. In the screenshot, the builder shows a three-step flow on the canvas: an Every Hour trigger, an Ask ChatGPT action and an End node.\n\n\nOn the right, the Select Step panel's open with \"sheet\" typed into the search field. The search returns spreadsheet integrations such as Google Sheets and Microsoft Excel 365.\n\n\nAdding any integration works this way, so the AssemblyAI integration is one search away, and the same panel is where you'd add a spreadsheet step to log results.\n\n\nFrom there, put the transcription action between your trigger and your next step. Run it on a handful of recordings you already know well, and compare the output with what your current step produced.",
+  "published_at": "2026-11-19T15:06:21+00:00",
+  "first_seen_at": "2026-11-19T17:05:57.373381+00:00",
+  "content_hash": "sha256:1ca1cd6eb6949ff1581915eabae2837fd99f65225b42bb9574eeeb7122904e5f"
+}
