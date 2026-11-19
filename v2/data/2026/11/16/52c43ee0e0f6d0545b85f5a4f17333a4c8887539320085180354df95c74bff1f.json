@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "52c43ee0e0f6d0545b85f5a4f17333a4c8887539320085180354df95c74bff1f",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/branch-merge-requires-production-write",
+  "canonical_url": "https://supabase.com/changelog/branch-merge-requires-production-write",
+  "title": "Merging a branch now requires Production Branches read-write",
+  "summary": "Merging a branch now requires Production Branches read-write",
+  "body_markdown": "## What changed\n\n\nSince November 12, 2026, merging a branch into your main project needs a scoped personal access token with **Production Branches: Read-write** . A token that only has **Development Branches: Read-write** gets a permission error when it calls[Merge a branch](https://supabase.com/docs/reference/api/v1-merge-a-branch) or the MCP` merge_branch` tool.\n\n\nCreating, pushing, resetting, and deleting preview branches with a development-only token works as before.\n\n\n## Why we made this change\n\n\nA merge applies a branch's changes to your production project. Before this change, a token meant only for development branches could still write to production through a merge. Requiring production access closes that gap. A token you give to CI or an AI agent for preview work can no longer write to production.\n\n\n## Who is affected\n\n\nYou're affected if you merge branches with a scoped personal access token that has Development Branches read-write but not Production Branches read-write. Classic personal access tokens are not affected.\n\n\n## What happens if you take no action\n\n\nMerges made with a development-only token fail with a permission error. Your projects, branches, and data stay the same.\n\n\n## Migration steps\n\n\n1. Create a new token in[Account > Access Tokens](https://supabase.com/dashboard/account/tokens) with Production Branches read-write. You can't change the permissions of an existing token.\n2. Use the new token for the merge step in your CI or scripts.\n3. Keep your development-only token for everything else, such as creating and resetting preview branches.\n\n\n## Rollout timeline\n\n\nDate Milestone User action\n\n\n2026-11-12 Merge requires Production Branches read-write Use a token with Production Branches read-write\n\n\nWe plan to add a separate Merge permission later, so a token can merge without full production write access.",
+  "published_at": "2026-11-16T00:00:00+00:00",
+  "first_seen_at": "2026-11-19T21:11:58.741622+00:00",
+  "content_hash": "sha256:7cc34256ba6436a3de7b37cd21358cb85a16c04f0597f6eb00ea99e07ba95668"
+}

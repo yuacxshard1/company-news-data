@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8adb31af057b0a039f8a68b40df72533ac8762fb4694b1a3fb486c7af241b9fc",
+  "company_key": "yc-depot",
+  "company_name": "Depot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://depot.dev/blog/how-to-choose-the-right-ci-runner-size",
+  "canonical_url": "https://depot.dev/blog/how-to-choose-the-right-ci-runner-size",
+  "title": "How to choose the right CI runner size",
+  "summary": "Bigger runners don't always make CI faster. We compare three jobs across five runner sizes to find the smallest option that meets each job's timing and memory needs.",
+  "body_markdown": "I'd start with the smallest runner that leaves enough memory headroom and finishes within the time the workflow needs. Compare nearby sizes using the same revision and commands, then check duration and peak memory across at least five representative runs. In our runtime test comparison, eight CPUs kept roughly the speed of sixteen, while four added another 18 seconds.",
+  "published_at": "2026-11-19T00:00:00+00:00",
+  "first_seen_at": "2026-11-19T19:46:16.823612+00:00",
+  "content_hash": "sha256:ed0122b4b2d5600e1d732540cadd44daf88c74f2c394f53ba1c80819523fe7e8"
+}
