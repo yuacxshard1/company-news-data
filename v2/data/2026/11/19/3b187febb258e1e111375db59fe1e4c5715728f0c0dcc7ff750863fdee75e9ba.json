@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3b187febb258e1e111375db59fe1e4c5715728f0c0dcc7ff750863fdee75e9ba",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/gpt-6-2-instructions-caching-incident",
+  "canonical_url": "https://docs.litellm.ai/blog/gpt-6-2-instructions-caching-incident",
+  "title": "Cost Update: OpenAI’s GPT-6.2 caching change may increase input costs",
+  "summary": "On November 17, OpenAI released a breaking change that stopped caching the instructions field on GPT-6.2, which is where LiteLLM puts your system prompt when it forwards /v1/chat/completions and /v1/messages requests to OpenAI. Requests still worked, but GPT-6.2 users paid full price for their system prompt on every call. We are proactively shipping a fix and backporting it to 5 release lines.",
+  "body_markdown": "On November 17, OpenAI released a breaking change that stopped caching the` instructions` field on GPT-6.2, which is where LiteLLM puts your system prompt when it forwards` /v1/chat/completions` and` /v1/messages` requests to OpenAI. Requests still worked, but GPT-6.2 users paid full price for their system prompt on every call. We are proactively shipping a fix and backporting it to 5 release lines.\n\n\n## Action items​\n\n\n- Upgrade to the version for your release line, or any later version. No config changes are needed.\n\n\nRelease line Upgrade to\n\n\n1.108 LTS` v1.108.13` or later\n\n\n1.111 RC` v1.111.0rc3` or later\n\n\n1.110 stable` v1.110.2` or later\n\n\n1.109 stable` v1.109.3` or later\n\n\n1.106 stable` v1.106.12` or later\n\n\n## Am I affected?​\n\n\nYou were affected if you sent GPT-6.2 traffic through LiteLLM in one of these ways.\n\n\n- ` /v1/chat/completions` to a GPT-6.2 deployment that uses the Responses API, such as the` openai/responses/` prefix,` chatgpt/` or Bedrock Mantle GPT-6.2\n- ` /v1/messages` to GPT-6.2, for example from Claude Code or another Anthropic-format client\n\n\n## Root cause​\n\n\nThe Responses API accepts a system prompt in two places, the top-level` instructions` field or a message at the start of` input` . Up to GPT-6.1 both were cached the same way, so LiteLLM used` instructions` .\n\n\nOn November 17, OpenAI updated its docs to say that starting with GPT-6.2,` instructions` are billed at the uncached rate on every request, even when they are identical, and that reusable prompts should go in a` developer` message at the start of` input` instead. Nothing failed on our side, so none of our error alerts fired, and a customer reported the missing cache hits on November 18.\n\n\n## Our fixes​\n\n\n- LiteLLM now sends the system prompt as a` developer` message at the start of` input` on GPT-6.2, where OpenAI caches it. See[PR #52599](https://github.com/BerriAI/litellm/pull/52599) , backported to every release line in the table above.\n- Our bot that watches provider changelogs now flags changes to what gets cached, so we catch the next change like this before you do.",
+  "published_at": "2026-11-19T10:00:00+00:00",
+  "first_seen_at": "2026-11-20T20:52:52.883208+00:00",
+  "content_hash": "sha256:4484945f8b9e7e13a0b738114298129f6e666fa52b1b25b14327d0470754fcb6"
+}

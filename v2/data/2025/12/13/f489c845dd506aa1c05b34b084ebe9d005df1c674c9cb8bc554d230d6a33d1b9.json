@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f489c845dd506aa1c05b34b084ebe9d005df1c674c9cb8bc554d230d6a33d1b9",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
+  "canonical_url": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
+  "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+  "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for…",
+  "body_markdown": "[Sharp Monocular View Synthesis in Less Than a Second](https://machinelearning.apple.com/research/sharp-monocular-view)\n\n\nDecember 13, 2025\n\n\n[research area Computer Vision](https://machinelearning.apple.com/research/?domain=Computer%20Vision) ,[research area Methods and Algorithms](https://machinelearning.apple.com/research/?domain=Methods%20and%20Algorithms)\n\n\n[conference ICLR](https://machinelearning.apple.com/research/?event=ICLR)\n\n\nWe present SHARP, an approach to photorealistic view synthesis from a single image. Given a single photograph, SHARP regresses the parameters of a 3D Gaussian representation of the depicted scene. This is done in less than a second on a standard GPU via a single feedforward pass through a neural network. The 3D Gaussian representation produced by SHARP can then be rendered in real time, yielding high-resolution photorealistic images for nearby…\n\n\n[Read more](https://machinelearning.apple.com/research/sharp-monocular-view)\n\n\n[Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://machinelearning.apple.com/research/depth-pro)\n\n\nOctober 9, 2024\n\n\n[research area Computer Vision](https://machinelearning.apple.com/research/?domain=Computer%20Vision)\n\n\n[conference ICLR](https://machinelearning.apple.com/research/?event=ICLR)\n\n\nWe present a foundation model for zero-shot metric monocular depth estimation. Our model, Depth Pro, synthesizes high-resolution depth maps with unparalleled sharpness and high-frequency details. The predictions are metric, with absolute scale, without relying on the availability of metadata such as camera intrinsics. And the model is fast, producing a 2.25-megapixel depth map in 0.3 seconds on a standard GPU. These characteristics are enabled by…\n\n\n[Read more](https://machinelearning.apple.com/research/depth-pro)",
+  "published_at": "2025-12-13T00:00:00+00:00",
+  "first_seen_at": "2026-11-20T19:50:49.166631+00:00",
+  "content_hash": "sha256:a57d2d38782c3e40fca5db360f366bdac31d73da17b3b2eeacc5222205de9785"
+}

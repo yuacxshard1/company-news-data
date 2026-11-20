@@ -63,6 +63,16 @@
     {
       "company_key": "yc-litellm",
       "company_name": "LiteLLM",
+      "doc_id": "3b187febb258e1e111375db59fe1e4c5715728f0c0dcc7ff750863fdee75e9ba",
+      "first_seen_at": "2026-11-20T20:52:52.883208+00:00",
+      "published_at": "2026-11-19T10:00:00+00:00",
+      "source_kind": "html",
+      "summary": "On November 17, OpenAI released a breaking change that stopped caching the instructions field on GPT-6.2, which is where LiteLLM puts your system prompt when it forwards /v1/chat/completions and /v1/messages requests to OpenAI. Requests still worked, but GPT-6.2 users paid full price for their system prompt on every call. We are proactively shipping a fix and backporting it to 5 release lines.",
+      "title": "Cost Update: OpenAI’s GPT-6.2 caching change may increase input costs"
+    },
+    {
+      "company_key": "yc-litellm",
+      "company_name": "LiteLLM",
       "doc_id": "3e9a85ee5c8da4336f7ddefcee579ba479cb19e9545f8312b4f52b0a6719479b",
       "first_seen_at": "2026-11-20T03:55:05.943011+00:00",
       "published_at": "2026-11-19T00:00:00+00:00",

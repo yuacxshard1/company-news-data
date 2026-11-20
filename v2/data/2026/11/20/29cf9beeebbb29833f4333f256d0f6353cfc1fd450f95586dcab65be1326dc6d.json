@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "29cf9beeebbb29833f4333f256d0f6353cfc1fd450f95586dcab65be1326dc6d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-microvms-customer-managed-keys/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-microvms-customer-managed-keys/",
+  "title": "AWS Lambda MicroVMs now supports customer managed keys in AWS KMS",
+  "summary": "Discover more about what's new at AWS with AWS Lambda MicroVMs now supports customer managed keys in AWS KMS",
+  "body_markdown": "AWS Lambda MicroVMs now supports customer managed keys (CMK) in[AWS Key Management Service](https://aws.amazon.com/kms/) (KMS) for data encryption at rest. CMK gives you full control over the lifecycle and usage of your KMS keys[,](https://aws.amazon.com/cloudtrail/) helping meet compliance requirements in regulated industries like financial services and healthcare.\n\n\nLambda MicroVMs is a serverless compute primitive that provides VM-level isolation, near-instant launch and resume, and state preservation for executing user or AI generated code. Use MicroVMs to build applications like AI coding assistants, interactive development environments, and vulnerability scanners.\n\n\nTo get started, create a CMK in AWS KMS and configure its cryptographic properties, metadata, and[AWS IAM](https://aws.amazon.com/iam/) access permissions. Then, specify this CMK as a parameter when you create a MicroVM image or run a MicroVM. Lambda uses this CMK to encrypt your MicroVM image, MicroVM image environment variables, and the payload passed to the MicroVM run hook. You can use CMK with Lambda MicroVMs through the[AWS Lambda console](https://console.aws.amazon.com/lambda/) ,[AWS CloudFormation](https://aws.amazon.com/cloudformation/) ,[AWS Cloud Development Kit](https://aws.amazon.com/cdk/) , or with your preferred Agentic development tools using the[Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-microvms) .\n\n\n​​CMK support for MicroVMs is available in the following AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Malaysia), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Thailand), Asia Pacific (Tokyo), Europe (Frankfurt), Europe (Ireland), Europe (Spain), Europe (Stockholm), South America (São Paulo), US East (N. Virginia), US East (Ohio), and US West (Oregon). To learn more about Lambda MicroVMs, visit the[AWS Lambda MicroVMs developer guide](https://docs.aws.amazon.com/lambda/latest/dg/lambda-microvms-guide.html) . For information on pricing for CMK, see[AWS KMS pricing](https://aws.amazon.com/kms/pricing/) .​",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:395d8d1bc110463cd7b0143c0d58c3cf09d7c366d31b3ac299f4159e75b74d42"
+}

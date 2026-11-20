@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dd3ab3bef19600181e1961ad873670402cd63059aa789a2670f8c34135b77c5b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agent-registry-webbotauth-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agent-registry-webbotauth-support/",
+  "title": "AWS Agent Registry now supports WebBotAuth bot registration",
+  "summary": "Discover more about what's new at AWS with AWS Agent Registry now supports WebBotAuth bot registration",
+  "body_markdown": "AWS Agent Registry now supports registering[WebBotAuth](https://datatracker.ietf.org/wg/webbotauth/about/) (WBA) bots as a new record type, making it easier to verify legitimate bot traffic through a standardized protocol. Previously, organizations lacked a standardized way to distinguish verified bots from malicious traffic. Now, bots can prove domain ownership through WebBotAuth, and you can integrate this verification with[AWS WAF Bot Control](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-bot-control-onboarding/) to write rules that combine verification status and bot identity.\n\n\nThis new capability gives content providers and application developers fine-grained control over which bots can access your resources. You can enhance security and improve traffic management by distinguishing legitimate bots from malicious actors. For example, you can allow WBA verified search engine crawlers while blocking unverified traffic or create custom access policies based on both bot identity and verification status.\n\n\nThis feature is available in all AWS Regions where AWS Agent Registry is available. To learn more, visit the[AWS Agent Registry documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry.html) and the[AWS WAF Bot Control documentation](https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control.html) .",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:f305cf606fe446176e06a54790f8518a23616f88fbae053572cca5dec858c2b4"
+}

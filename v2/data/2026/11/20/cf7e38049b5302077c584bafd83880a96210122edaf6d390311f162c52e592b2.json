@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cf7e38049b5302077c584bafd83880a96210122edaf6d390311f162c52e592b2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/calendly-api-authentication-and-rate-limits-2026",
+  "canonical_url": "https://www.activepieces.com/blog/calendly-api-authentication-and-rate-limits-2026",
+  "title": "Calendly API: Authentication and Rate Limits (2026)",
+  "summary": "Calendly API v2 uses personal access tokens or OAuth authentication. Set up each method, manage rate limits, and handle API errors.",
+  "body_markdown": "## Call Calendly endpoints without code using Activepieces\n\n\nYou can use Calendly without writing code through Activepieces, a workflow automation tool. Its Calendly connector has an invitee created trigger and an invitee canceled trigger, and an HTTP step covers endpoints the connector doesn't expose.\n\n\nThat connector is one of the 750 integrations counted directly from Activepieces' MIT-licensed open source monorepo on GitHub, so its trigger list is source code, not a marketing figure.\n\n\nBefore building, ask who owns the connection. Every run acts as the Calendly account that authorized it, so if that person leaves or loses their plan, the workflow stops. Check the connector's current trigger list and your Calendly plan against both products' docs.\n\n\nWhen someone books or cancels, a trigger starts a run. Each run can pass the invitee's details to a customer-record system (your CRM), a Slack message or a Google Sheets row. That's the whole pattern the connector supports.\n\n\n### When a no-code Calendly workflow is enough\n\n\nWhen one Calendly account feeds your own tools, a workflow fits: log each booking in a sheet, notify a channel on cancellation, create or update a CRM contact.\n\n\nActivepieces receives the event for you, so you skip hosting a webhook endpoint, and each booking is one run that costs 1 credit however many steps it has, against 1,000 credits a month and unlimited flows on the free plan.\n\n\nThat also removes the polling-versus-webhook decision for these two events.\n\n\nIt stops fitting when your product serves many customers, each connecting their own Calendly account.\n\n\nEvery run acts as the one Calendly account that authorized it, as above, so that case needs code: your own OAuth app, your own token storage per customer, your own webhook subscriptions.\n\n\n### Call other Calendly API endpoints with HTTP step\n\n\nFor anything the connector lacks, such as an endpoint you found in Calendly's API reference, add an HTTP step. You enter the endpoint URL, the method and an authorization header carrying a Calendly token.\n\n\nUse the token type your Calendly plan and docs allow, and store it as a secret rather than pasting it into the step. The step returns the raw response, so you handle errors and pagination yourself.",
+  "published_at": "2026-11-20T19:28:02+00:00",
+  "first_seen_at": "2026-11-20T23:15:40.522163+00:00",
+  "content_hash": "sha256:3e58230cb72aa691c361826b6ddd7243e6c836a5c8fc3e8b89b8af6fccf5eeee"
+}

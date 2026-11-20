@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ad82d22c0ddb7bb3e15ca4d2e854b6f60220b62ee908d491c03335a32e589ad7",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cur-cost-explorer/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cur-cost-explorer/",
+  "title": "AWS launches standardized cost and rate columns in CUR 2.0 and Cost Explorer",
+  "summary": "Discover more about what's new at AWS with AWS launches standardized cost and rate columns in CUR 2.0 and Cost Explorer",
+  "body_markdown": "AWS Data Exports for Cost and Usage Report (CUR) 2.0 now includes standardized cost and rate columns that represent cost consistently across AWS purchase options, including On Demand, Savings Plans, Reserved Instances, EC2 Spot, and EC2 Capacity Blocks for ML. These 14 columns are added when you enable Include Standardized cost and rate columns while setting up a new CUR 2.0 export or editing an existing CUR 2.0 and these columns have the prefix cost_analytics_. With these new columns, you can quantify the savings you realize from commitments, discounts, and tiered pricing, and analyze amortized cost the same way for every pricing model with multiple payment options, directly in CUR 2.0.\n\n\nPreviously, calculating savings required combining CUR with Savings Plans rates and public price lists, and amortized cost used different columns for each pricing model. Now each line item carries billed, effective, list, contracted, public on-demand cost, the public equivalent of billed and effective cost before discounts, and a rate for each, so you can measure savings and amortized cost without building your own calculations. To add the columns, select Include standardized cost and rate columns when you create or edit a CUR 2.0 export. In Cost Explorer, choose the new cost types under Advanced options to see the same costs.\n\n\nStandardized cost and rate columns are available at no additional charge in all AWS Regions except the AWS GovCloud (US) Regions and the China Regions. To learn more, see the[CUR 2.0 data dictionary](https://docs.aws.amazon.com/cur/latest/userguide/table-dictionary-cur2.html) and the[user guide for Cost Explorer](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-advanced.html) .",
+  "published_at": "2026-11-20T14:00:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:604b16a7a20d93916adff5bc766c9cfd2144cd65ec393bf7d9d5e08abad227fa"
+}

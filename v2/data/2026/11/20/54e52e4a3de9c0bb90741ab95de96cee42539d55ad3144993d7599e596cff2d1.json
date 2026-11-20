@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "54e52e4a3de9c0bb90741ab95de96cee42539d55ad3144993d7599e596cff2d1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/pinterest-api-guide-2026-setup-pins-and-rate-limits",
+  "canonical_url": "https://www.activepieces.com/blog/pinterest-api-guide-2026-setup-pins-and-rate-limits",
+  "title": "Pinterest API Guide 2026: Setup, Pins and Rate Limits",
+  "summary": "The Pinterest API v5 integration process allows developers to automate content scheduling and retrieve performance metrics for their business accounts.",
+  "body_markdown": "## Automating Pinterest workflows without manual API maintenance\n\n\n### Connecting Pinterest to your tech stack in Activepieces\n\n\nActivepieces manages the entire Pinterest authentication lifecycle for enterprise teams. When you create a new connection, the platform initiates a secure OAuth flow that requests specific scopes (such as` boards:read` or` pins:write` ).\n\n\nThis abstraction handles the background exchange of authorization codes for refresh tokens, bypassing the need to build a custom callback listener or a secure database for storing sensitive client secrets.\n\n\nActivepieces allows teams to generate missing integrations with AI and add them privately to their own instance, ensuring that a missing connector never blocks a Pinterest sync.\n\n\nCheck the open-source monorepo, the catalogue of 750 integrations is counted directly from it, not published as a marketing figure, ensuring that the number reflects actual, deployable code.\n\n\nRoughly 60% of these integrations are community-contributed, built by users who needed specific functionality that wasn't yet in the vendor's queue, meaning the platform's utility is heavily driven by its own user base.\n\n\n### Triggering actions on new Pins or Board updates\n\n\nMapping a creative workflow starts with defining a trigger that monitors account activity. This allows you to bridge the gap between design tools and social distribution without writing polling scripts.\n\n\nOnce a Pin is detected, the flow passes the metadata to subsequent steps for analysis or cross-posting. This modular approach allows for complex logic, such as using AI to generate SEO descriptions for a WordPress post based on the original Pin’s image context.\n\n\nActivepieces syncs these flows to git and promotes them through Release Management, ensuring that changes to a Pinterest marketing pipeline are versioned and reviewed like software.\n\n\nCheck Activepieces' own documentation for Git Sync and Release Management to see how this works across both self-hosted and cloud environments.",
+  "published_at": "2026-11-20T22:07:45+00:00",
+  "first_seen_at": "2026-11-20T23:15:40.522163+00:00",
+  "content_hash": "sha256:e23f78875a419ffdb9c81dd410336802d0400d0f10a1366cf52b469ec866ed0a"
+}

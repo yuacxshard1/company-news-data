@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f513ccbdb1aedcad4ef43c0ef16b22a708ff74a6c6a7cfeb56c9480e5cce39de",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-group-assignments-custom-permissions-limit-profiles/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-group-assignments-custom-permissions-limit-profiles/",
+  "title": "AWS Quick now supports group assignments for custom permissions and limit profiles",
+  "summary": "Discover more about what's new at AWS with AWS Quick now supports group assignments for custom permissions and limit profiles",
+  "body_markdown": "AWS Quick now supports assignments for custom permissions and limit profiles to groups from your enterprise identity provider (IdP). Administrators can now apply feature restrictions and per-user resource limits to IdP groups, in addition to the existing user, role, and account assignments. Organizations can align governance with their enterprise identity structure without maintaining assignments for individual users.\n\n\nAdministrators manage user, account or group assignments in the Quick administration console or through new policy assignment APIs. For example, an organization can assign its finance group a custom permissions profile that blocks members from creating agents, or apply Deny by Default so that, within selected feature categories, the group can use only capabilities an administrator explicitly allows. Administrators can also assign a limit profile to a group to set each member’s index capacity and agent hours. Quick enforces these limits automatically as users consume resources.\n\n\nWhen group-level assignments apply to a user who belongs to multiple groups, Quick resolves overlapping assignments as follows: for custom permissions, a capability denied by any group stays denied, and for limit profiles, the user receives the highest value for each limit type across those groups.\n\n\nGroup assignments are available in Quick for Professional and Enterprise plans. For feature availability by AWS Region, see AWS[Quick Regions](https://docs.aws.amazon.com/quick/latest/userguide/regions.html#regions-qs) . To learn more, see the[custom permissions](https://docs.aws.amazon.com/quick/latest/userguide/custom-permissions.html) and[limit profiles](https://docs.aws.amazon.com/quick/latest/userguide/limit-profiles.html) documentation.",
+  "published_at": "2026-11-20T20:42:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:bb7b7faa1018fe02d9762c17068f7ab969dfcdab76eb23a3e757936356f2c6ae"
+}

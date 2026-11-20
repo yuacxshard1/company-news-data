@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a4d03f554d24f9a0937555cf1dcd73193afac7ab33b57029b005a326eaf2748b",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/stacksets-custom-execution-roles/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/stacksets-custom-execution-roles/",
+  "title": "AWS CloudFormation Service-Managed StackSets adds custom execution roles with nested stacks support",
+  "summary": "Discover more about what's new at AWS with AWS CloudFormation Service-Managed StackSets adds custom execution roles with nested stacks support",
+  "body_markdown": "[AWS CloudFormation StackSets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-concepts.html) now supports custom execution roles for service-managed stack sets, which enables you to scope the permissions StackSets uses in each target AWS account. StackSets deploys the same infrastructure, such as networking and security settings, across thousands of accounts and Regions in one operation. With a custom execution role, you can also use nested stacks, macros, and transforms in service-managed stack sets, which allows you to deploy the reusable templates you use for individual stacks across your organization.\n\n\nWith a custom execution role, you define what StackSets can do in each account. By default, service-managed stack sets use a role in each account that can provision any resource in a template without additional setup, and that default remains available. Now, you can provide a template that defines an IAM role, called the execution role, and StackSets creates it in each account before deploying. For example, a stack set that creates Amazon S3 buckets can use an execution role limited to CloudFormation and Amazon S3 permissions. When you update the execution role template, StackSets updates the role in every account it deployed to.\n\n\nTo get started, choose Set execution role when you create a stack set in the CloudFormation console, or use the AWS CLI or AWS SDKs. To learn more, visit the[documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-custom-execution-role.html) and the[AWS DevOps Blog](https://aws.amazon.com/blogs/devops/announcing-custom-execution-roles-for-aws-cloudformation-stacksets/) . This feature is available at no additional charge in all commercial AWS Regions, the AWS GovCloud (US) Regions, and the China Regions. Refer to the[AWS Region table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) for details.",
+  "published_at": "2026-11-20T17:45:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:558b8b91a497434dfeba9d52430516478be32ae03f44b3935ddfc1a2290a48e7"
+}

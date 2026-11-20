@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e9e4b08b465ba46bd491e145c8311340f4a0ea63cb65e71c1def3ff26406676b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gpt-6-2-sol-pro-api-pricing-and-limits-for-developers",
+  "canonical_url": "https://www.activepieces.com/blog/gpt-6-2-sol-pro-api-pricing-and-limits-for-developers",
+  "title": "GPT-6.2 Sol Pro API Pricing and Limits for Developers",
+  "summary": "The GPT 6.2 Sol Pro API requires a key and bills by usage on your account. Set up requests, determine costs, and check your rate limits.",
+  "body_markdown": "## Minimal GPT 6.2 Sol Pro request\n\n\nUntil you have one call that returns generated text and a usage count, your cost cap has nothing to count.\n\n\n> **Your cost cap should fire before the vendor's does.\n\n\n### Stage 4: send the first request with curl\n\n\nOpen the reference page for GPT 6.2 Sol Pro and copy four things exactly: the endpoint, the authentication header, the model string, and the smallest body the page shows. Write down the date you copied them.\n\n\nI'm not reproducing them here, because a string typed from memory or from a blog post is how people end up calling a retired alias and reading a 404 as a networking problem.\n\n\nKeep the prompt short and the output limit low. Send it from curl first, with the key read from an environment variable rather than pasted into the command. Then the shell history and the support ticket you may file later contain no secret.\n\n\nSave the raw response to a file. When something fails later, you'll compare against a response you know was good.\n\n\n### Stage 5: read the usage fields and log cost\n\n\nFind two things in the response: the generated text and the usage object. Look for the input and output token counts in the docs' own field names, and read those names off the page rather than guessing them.\n\n\nCost depends on both counts, so a logger that records only one will under-report every long answer.\n\n\nWrite one log line per call: timestamp, model string, input count, output count, and the price table date you checked. With that line you can multiply counts by the published rates and compare against the invoice.\n\n\nIf the two disagree, you have a dated record to bring to the vendor.\n\n\nBelow, a screenshot shows the same habit in a low-code workflow builder. A two-word chat message, \"hi\", runs through an agent step backed by an OpenAI chat model. The execution panel reports success with a latency and token counts.\n\n\nEven a hello-world surfaces usage, though one trivial call's latency tells you nothing about your real prompts.\n\n\n### Sol Pro API call in Python or JavaScript\n\n\nUse whichever language your service runs in, and send the same endpoint, header, model string and body that worked in curl. Don't reach for a wrapper library first.\n\n\nIf the docs publish an official SDK, use it only after the raw call works, so you can tell an SDK default from the API's behaviour.\n\n\nSet an explicit timeout and an explicit output limit in code, since defaults are the vendor's choice, not yours. Then reuse the Stage 5 log line unchanged, so every later retry is counted in the same format.",
+  "published_at": "2026-11-20T21:26:58+00:00",
+  "first_seen_at": "2026-11-20T23:15:40.522163+00:00",
+  "content_hash": "sha256:6af5055d012067b589ea7db7c96ab8e3b1082c65bc481c038530ed7b8c959df2"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a8ed3fd75a050917768ce1a1e8e742657d163fb420d4307e2f2e9c581b706cce",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-estimate-fivetran-pricing-before-you-sign",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-estimate-fivetran-pricing-before-you-sign",
+  "title": "How to Estimate Fivetran Pricing Before You Sign",
+  "summary": "Fivetran pricing is based on monthly data changes, not seats. Understand what actually drives your bill and why entry prices don't tell the full story.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe problem in this article is a bill you can't forecast until the rows have already moved.[Activepieces](https://www.activepieces.com/) is our answer for the small end of that range, where a sync is really a scheduled job.\n\n\n**It meters runs, not rows** , so the cost of a workflow doesn't depend on how many records changed overnight.\n\n\nA nightly sheet-to-database copy costs one credit **whether it touches ten rows or ten thousand** , and the Free plan's 1,000 credits a month cover that nightly run with room to spare.\n\n\nYou can work out the monthly figure in one line of arithmetic, which is the opposite of the heavy-month gap described in Stage 3.\n\n\nThe second answer is the hosting trade-off covered in the Airbyte section. The Activepieces community edition is released under the MIT licence, so you can run it on your own servers and read the code that does the work.\n\n\nIts integrations, which we call pieces, are open source too. That means a connector you depend on isn't a black box you can only change by filing a ticket.\n\n\nSelf-hosting carries the same cost of engineer time described above, so it suits teams that already run their own infrastructure.\n\n\nThis doesn't replace Fivetran. If you are replicating a whole warehouse, keeping large tables exactly in step or pulling from dozens of sources, a dedicated connector tool is the right choice and you should price it with your own row counts.\n\n\nWhat we offer is a way to check whether the job needs that tool at all. Build the small version as a workflow first. If the run count stays flat and a person can verify the output by eye, you've avoided a usage-based contract.\n\n\nIf it outgrows the schedule, you'll have a measured row volume to take into the Fivetran quote.",
+  "published_at": "2026-11-20T18:50:19+00:00",
+  "first_seen_at": "2026-11-20T23:15:40.522163+00:00",
+  "content_hash": "sha256:f18cdeeab9cd51e88101fd6d2e5c1085178de71d6efad66de9e90f1efc4c73e2"
+}

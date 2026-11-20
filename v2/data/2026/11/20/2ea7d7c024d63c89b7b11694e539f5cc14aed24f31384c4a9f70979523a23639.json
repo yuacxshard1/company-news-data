@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2ea7d7c024d63c89b7b11694e539f5cc14aed24f31384c4a9f70979523a23639",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eventbridge-webhook-events",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eventbridge-webhook-events",
+  "title": "Amazon EventBridge Custom event bus now supports Webhook Events",
+  "summary": "Discover more about what's new at AWS with Amazon EventBridge Custom event bus now supports Webhook Events",
+  "body_markdown": "Amazon EventBridge now supports Webhook Events for the enhanced Custom event bus, so SaaS applications, AI agents, and custom integrations can send events to a bus over HTTPS. You no longer need to deploy and operate your own API endpoint and compute to receive webhooks and publish them to your bus.\n\n\nThe EventBridge Custom event bus is a serverless event broker that enables you to create scalable event-driven applications by routing events between your applications, SaaS integrations, and AWS services. When you create a webhook event source on your bus, EventBridge provides a managed HTTPS URL and verifies each request using an HMAC signature, a static token, or basic authentication. EventBridge then publishes accepted events to the bus, where Subscribers filter and deliver them like any other event. For example, shipment status updates from a logistics partner can reach your order tracking and customer notification Subscribers as soon as the partner sends them.\n\n\nWebhook Events are available in all AWS Regions where the enhanced Custom event bus is available. Events received through a webhook are billed as standard Custom event bus ingress, with no additional charge for the webhook.\n\n\nTo learn more, see[Webhook Events](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-custom-bus-webhook-sources.html) in the Amazon EventBridge User Guide and the[Amazon EventBridge product page](https://aws.amazon.com/eventbridge/) . Install the[Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws) to start building with your AI coding agent.",
+  "published_at": "2026-11-20T17:30:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:aa14d2f494c682c8b191b07585b1f5bd3d720c49a8bbc5339cb9c1ebf21a04de"
+}

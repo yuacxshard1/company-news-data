@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cc682418a269e0938fb17ba4a685d50526a7402edf7e5387a139d51608af51cc",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-msk-standard-brokers-to-express-brokers-in-place-upgrade",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-msk-standard-brokers-to-express-brokers-in-place-upgrade",
+  "title": "Amazon MSK now supports in-place upgrade from Standard brokers to Express brokers",
+  "summary": "Discover more about what's new at AWS with Amazon MSK now supports in-place upgrade from Standard brokers to Express brokers",
+  "body_markdown": "You can now upgrade existing[Amazon MSK](https://aws.amazon.com/msk/) Provisioned clusters from Standard brokers to Express brokers in place, with fully managed data migration and no application changes. Express brokers are designed to deliver up to 3x more throughput per broker, scale up to 20x faster, and recover up to 90% faster compared to Standard brokers. With in-place upgrade, you can get the performance and operational benefits of Express brokers in hours, without needing to create a new cluster or having to migrate your data and applications to it. The upgrade keeps cluster endpoints unchanged, eliminating application cutovers, and preserves consumer offsets, so stateful applications such as Apache Flink and Kafka Streams continue without reprocessing or duplicates.\n\n\nExpress brokers make Apache Kafka simpler to manage and more cost-effective to run at scale, with pay-as-you-go storage that scales automatically and built-in best practice defaults for higher resilience. Previously, upgrading to Express brokers meant creating a new cluster and migrating workloads to it, which required careful planning and cross-team coordination. With this launch, you can upgrade your existing Standard brokers to Express brokers in-place, without interrupting your applications, while maintaining complete control over the upgrade process. The upgrade adds Express brokers to your cluster and moves your topics to them, either automatically or in batches you control. Your Standard brokers stay in the cluster until you choose to decommission them to complete the upgrade, so you can validate your applications and roll back if needed.\n\n\nIn-place upgrade is available for MSK Provisioned clusters running Standard brokers on Apache Kafka version 3.9 with KRaft, in all AWS Regions where Express brokers are available. You can upgrade to Express brokers on M7g or M8g instances. Express brokers on M8g deliver up to 30% cost savings compared to Express brokers on M7g. There's no additional charge for the upgrade itself. You pay for both Standard and Express brokers while the upgrade is in progress. To get started, visit the[Amazon MSK Developer Guide](https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html) and the[Migration to Express brokers](https://aws.amazon.com/msk/features/express-brokers-for-amazon-msk/) product page.",
+  "published_at": "2026-11-20T16:00:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:0dc0e7a659b6b987e88b4f13db11c04ae0829452bf56d4d02cae3c448130f9a5"
+}

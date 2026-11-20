@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5e150e6bfa11cc598a5b05d73ea724c918f0d8c6848fa5cc57a29e54b619dc3b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/asana-api-guide-get-tasks-projects-and-users-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/asana-api-guide-get-tasks-projects-and-users-in-2026",
+  "title": "Asana API Guide: Get Tasks, Projects, and Users in 2026",
+  "summary": "Asana API retrieves tasks using personal access tokens via REST calls.",
+  "body_markdown": "## Asana API rate limits and pricing, as documented\n\n\nYou pay for every page in requests. Asana caps them at 1,500 per minute on a paid domain, 150 on a free domain and 60 for the Search API, according to[Asana's rate-limits page](https://developers.asana.com/docs/rate-limits) .\n\n\n> **A loop that reads only the first page will pass every test on a small project and silently drop tasks on a large one.\n\n\n### What Asana API rate limits mean in practice\n\n\nAt 150 requests per minute on a free domain, a project with 10,000 tasks, paged at 100 per request, uses about 100 calls for one full read.\n\n\nA second read in the same minute would exceed your quota, so you may need to wait for the Retry-After period before refreshing that data.\n\n\nMove to a paid domain at 1,500 and you get roughly ten times that room.\n\n\nTightest of all is the Search API at 60 per minute. A workflow that searches once per task will stall after one minute's worth of tasks and need backoff on the 429 responses.\n\n\nThese are the only limits I have confirmed figures for. Asana's page also covers concurrent-request and cost-based limits, which this article doesn't quote, so read that page before sizing a bulk job. Figures checked 2026-11-20.\n\n\n### What API access costs\n\n\nYou won't find a per-call price in the documentation. Access appears to come with the plan, so the cost is the seat price.[G2's Asana pricing page](https://www.g2.com/products/asana/pricing) lists **Personal at $0 per user per month** , Starter at $10.99 and Advanced at $24.99.\n\n\nBecause Personal is free, you can build and test against the API at no cost, but it sits under the 150-per-minute free ceiling. Starter at $10.99 per user is the cheapest tier listed above that free plan.\n\n\n### Which Asana plan to build on\n\n\nSince the 1,500 figure applies to paid domains, a production sync is better planned on a paid plan. Asana's rate-limits page doesn't tie the cap to a specific tier, so confirm which plan your workspace is on before you rely on it.\n\n\nTreat the pricing figures as a snapshot, since they come from a third-party listing rather than Asana's own pricing page.",
+  "published_at": "2026-11-20T15:12:46+00:00",
+  "first_seen_at": "2026-11-20T23:15:40.522163+00:00",
+  "content_hash": "sha256:e021332f7c5019b1b9acd3ded354ab249989448f065452885448bb822818fb67"
+}

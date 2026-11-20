@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ca3817494523e756612a06c45c09b5d1abd2b752b9b05b107b8367b59f737268",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-ui-windows/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-ui-windows/",
+  "title": "AWS Transform announces UI component modernization for Windows web applications",
+  "summary": "Discover more about what's new at AWS with AWS Transform announces UI component modernization for Windows web applications",
+  "body_markdown": "Today, AWS announced the general availability of third-party UI component porting for ASP.NET web site modernization in AWS Transform. When AWS Transform modernizes a legacy ASP.NET web site, it now detects dependencies on popular third-party UI component libraries. You can replace them with license-free Microsoft-native and open-source components, or you can keep using vendor UI libraries.\n\n\nAWS Transform rewrites legacy ASP.NET web sites for ASP.NET Core UI frameworks. When the AWS Transform for .NET modernization agent finds a dependency on a popular third-party UI library, it offers two options. The first option is for customers who require open-source software only. The agent replaces each proprietary control with a Microsoft-native or open-source control on the target UI framework and removes the original dependency. The second option is for customers who want to keep using vendor libraries. The agent adds code comments and next-step instructions for moving to an equivalent vendor library on the target UI framework. You then arrange licensing with the vendor and finish the port using an AI coding companion.\n\n\nThis capability is available at no additional cost in all eight AWS Regions where AWS Transform is offered: US East (N. Virginia), Canada (Central), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Frankfurt), and Europe (London).\n\n\nTo learn more, see[Porting UI layer code](https://docs.aws.amazon.com/transform/latest/userguide/dotnet-porting-ui.html) in the AWS Transform User Guide.",
+  "published_at": "2026-11-20T16:30:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:caa11997e59ce9c12e86a1b45a7cfcdedb394ec9a41b020a89a645695a2942a2"
+}

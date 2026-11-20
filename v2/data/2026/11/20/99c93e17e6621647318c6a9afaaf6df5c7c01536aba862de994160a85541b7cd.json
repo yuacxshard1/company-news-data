@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "99c93e17e6621647318c6a9afaaf6df5c7c01536aba862de994160a85541b7cd",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-pricing-calculator-api/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-pricing-calculator-api/",
+  "title": "AWS Pricing Calculator now estimates workload costs through a new API",
+  "summary": "Discover more about what's new at AWS with AWS Pricing Calculator now estimates workload costs through a new API",
+  "body_markdown": "AWS Pricing Calculator now offers GetUsageLinesEstimatedCost, a new API that returns the estimated cost of a planned workload in a single API call. You send up to 500 usage lines in one request and get the cost back right away, without saving an estimate to your account. While workload estimates let you create and save an estimate in Pricing Calculator, GetUsageLinesEstimatedCost returns a cost on demand, directly in your own tools and workflows.\n\n\nYou can choose from three rate types: public On-Demand rates, your rates after discounts, or your rates after discounts plus Savings Plans and Reserved Instances. The API returns the cost of each line and the total. For example, you can check what a design will cost before you deploy it, or let an AI coding agent call the API to price a workload while it helps you design it.\n\n\nGetUsageLinesEstimatedCost is generally available at no additional charge in all AWS Regions, except the AWS GovCloud (US) Regions and the China Regions.\n\n\nTo learn more, see[GetUsageLinesEstimatedCost](https://docs.aws.amazon.com/cli/latest/reference/bcm-pricing-calculator/get-usage-lines-estimated-cost.html) in the AWS Billing and Cost Management API Reference, or visit the AWS Pricing Calculator[product page](https://calculator.aws/#/) .",
+  "published_at": "2026-11-20T18:35:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:00fed6be4edfdd544000770ec1b81c9aa5d1ae9d7b5c9653c9a7761357305ae8"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "02a2b64a0d76e581447350e98e384f452816054d95b2e2ee05788873fae23f40",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-db2-supports-object-level-audit-policies",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-db2-supports-object-level-audit-policies",
+  "title": "Amazon RDS for Db2 now supports object-level audit policies",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Db2 now supports object-level audit policies",
+  "body_markdown": "Amazon RDS for Db2 now supports object-level audit policies, giving you fine-grained control over which database objects are audited. You can create custom audit policies and attach them to specific tables, users, groups, roles, and authorities in your RDS for Db2 databases.\n\n\nWith object-level audit policies, you can focus on auditing the objects that matter most — for example, a single table that contains sensitive data or a specific user — without generating audit records for your entire database. Object-level audit policies complement the existing database-level audit logging in Amazon RDS for Db2. You can use both at the same time, and they operate independently.\n\n\nAmazon RDS provides stored procedures to create, modify, attach, detach, and drop object-level audit policies. Audit records are uploaded to the same Amazon S3 bucket that you configured for Db2 audit logging.\n\n\nObject-level audit policies for Amazon RDS for Db2 are available in all AWS Regions where Amazon RDS for Db2 is available. To get started see the[Amazon RDS User Guide.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/db2-object-level-audit.html)",
+  "published_at": "2026-11-20T08:34:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:31ce12c6d97452e8577de8df60cba661e3b1a51ee3f586929c736a9d1283ab63"
+}

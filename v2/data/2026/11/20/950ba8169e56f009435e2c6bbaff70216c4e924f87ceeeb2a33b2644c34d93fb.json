@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "950ba8169e56f009435e2c6bbaff70216c4e924f87ceeeb2a33b2644c34d93fb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-db2-supports-rename-databases",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-db2-supports-rename-databases",
+  "title": "​​​Amazon RDS for Db2 now supports renaming databases​",
+  "summary": "Discover more about what's new at AWS with ​​​Amazon RDS for Db2 now supports renaming databases​",
+  "body_markdown": "​​Amazon Relational Database Service (Amazon RDS) for Db2 now supports renaming databases in place. You can rename a database on your DB instance by calling the new rdsadmin.rename_database stored procedure. Previously, renaming a database required you to back it up and restore it under a new name. With rename, the database keeps its data in place, so it's faster than backing up and restoring the database.​\n\n\n​​Database rename simplifies workflows such as replacing a database with a restored copy. For example, after you restore a copy of a database from a backup, you can rename the original database, and then give its name to the restored copy, without changing your application connection strings. Database rename runs as a background task that you can monitor with rdsadmin.get_task_status.​\n\n\n​​Database rename is available in all AWS Regions where Amazon RDS for Db2 is offered. To get started, see the[Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/db2-managing-databases.html#db2-renaming-database) .​​",
+  "published_at": "2026-11-20T08:53:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:0ea302fc206cf49065e7662b500e4574a3dd07cac7aab9e87c2e04abaecd6e5d"
+}

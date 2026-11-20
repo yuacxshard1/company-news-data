@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c510bd4091af8307947c7e1fa0bd92c32f830722678925b4e197b3e1f01bf513",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/eventbridge-scheduler-new-api-actions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/eventbridge-scheduler-new-api-actions/",
+  "title": "Amazon EventBridge Scheduler adds 589 new API actions and event bus targets",
+  "summary": "Discover more about what's new at AWS with Amazon EventBridge Scheduler adds 589 new API actions and event bus targets",
+  "body_markdown": "Amazon EventBridge Scheduler expands its AWS SDK integrations with 589 new API actions across 81 AWS services, and adds templated targets for the enhanced EventBridge Custom event bus. You can now schedule direct invocations of a broader set of AWS services without writing custom integration code.\n\n\nEventBridge Scheduler is a serverless scheduler that allows you to create, run, and manage billions of scheduled events and tasks across more than 270 AWS services, without provisioning or managing the underlying infrastructure. With a new templated target, you can schedule event delivery directly to the Custom event bus using its PutEvents or PutRawEvents API. The templated target also makes it easier to add metadata fields to each event. For example, you can send an event to your bus every night at midnight to start a reconciliation workflow, with no function in between to call the API.\n\n\nThe new API actions are available in all commercial AWS Regions where Amazon EventBridge Scheduler is available, subject to the availability of each target service in the Region. The templated targets for the Custom event bus are available in all AWS Regions where the enhanced Custom event bus is available. To learn more, see[Using templated targets in EventBridge Scheduler](https://docs.aws.amazon.com/scheduler/latest/UserGuide/managing-targets-templated.html) and[Using universal targets in EventBridge Scheduler](https://docs.aws.amazon.com/scheduler/latest/UserGuide/managing-targets-universal.html) in the Amazon EventBridge Scheduler User Guide. Install the[Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws) to start building with your AI coding agent.",
+  "published_at": "2026-11-20T18:00:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:c1b74325db3e92ec4979bb6f748e0f1713d684c7636fb15a6aad3e39670f558b"
+}

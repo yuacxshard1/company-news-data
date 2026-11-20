@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4ebb0ee41edbfd9e955fb04b047095d67a16a37373ef57738435d05b71690166",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-action-logs-expanded-troubleshooting",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-action-logs-expanded-troubleshooting",
+  "title": "Amazon ECS Action Logs now cover tasks, container instances, and capacity providers",
+  "summary": "Discover more about what's new at AWS with Amazon ECS Action Logs now cover tasks, container instances, and capacity providers",
+  "body_markdown": "[Amazon Elastic Container Service](https://aws.amazon.com/ecs/) (Amazon ECS) now extends Action Logs to include tasks, container instances, clusters, and capacity providers, so you can see why your tasks failed or why your clusters didn't scale as desired. Action Logs provide detailed, timestamped records of the actions Amazon ECS performs on your behalf, and until now covered service deployments and managed daemon updates. With the expanded coverage, you can diagnose task failures and scaling issues yourself, and resolve them faster than before, without contacting AWS support. If you use Action Logs already, you receive the new events automatically with no configuration changes.\n\n\nWhen a task fails to start, Action Logs show the reason. Examples include image pull failures, missing permissions for Amazon EBS volumes, or lack of available IP addresses in the subnet. When a running task stops, you can see the container exit code and the health check that triggered the stop. For cluster infrastructure, Action Logs record container instance registration and draining, Amazon EC2 instances that fail to register with a cluster, capacity provider changes, and managed scaling actions, including when an Amazon EC2 Auto Scaling group reaches its maximum size. Each log entry includes the event name, log level (INFO, WARN, or ERROR), relevant resource ARNs, and a status reason.\n\n\nAction Logs is available in AWS Regions, including the AWS GovCloud (US)[Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . You can opt in at the cluster level through the Amazon ECS console or the Amazon CloudWatch vended logs APIs, and deliver logs to Amazon CloudWatch Logs, Amazon S3, or Amazon Data Firehose. Standard pricing for each destination applies. To learn more, see[Monitor Amazon ECS operations with Action Logs](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/action-logs.html) in the Amazon ECS Developer Guide.",
+  "published_at": "2026-11-20T16:50:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:5a2587bafd31241157104c5115b9a1850e88db6183d4e84f806f4c0f52d96712"
+}

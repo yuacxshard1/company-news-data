@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2105c35a72763fdd4e65fa044e621e178f20e3d70f5fa10b6f8a8ad33e277c9a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-cost-management-apis-payment-status/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-cost-management-apis-payment-status/",
+  "title": "AWS Billing and Cost Management now offers APIs to track payment status",
+  "summary": "Discover more about what's new at AWS with AWS Billing and Cost Management now offers APIs to track payment status",
+  "body_markdown": "Today, AWS Billing and Cost Management announces new APIs that let you view your AWS payment information through the AWS SDKs and the AWS CLI. With these APIs, you can check your account balance, find invoices that are due or past due, see which payments and credit memos were applied to each invoice, and confirm that the payment methods on your account are active. You can call the APIs from your own tools or through an AI agent.\n\n\nPreviously, finance teams had to sign in to the console to find past-due invoices, match payments to invoices, or check whether a payment method was still active. Now you can automate these checks with APIs such as GetFinancialRecord, BatchGetFinancialRecord, ListFinancialRecords, GetAccountBalance, GetPaymentInstrument and ListPaymentInstruments. You can integrate the APIs with your accounts payable systems to monitor past-due balances and reconcile AWS invoices on your own schedule.\n\n\nThe APIs are available in the US East (N. Virginia) Region, and available to customers in all commercial AWS Regions.\n\n\nTo learn more, visit the[AWS Payments API Reference](https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_Operations_AWS_Payments.html) .",
+  "published_at": "2026-11-20T18:30:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:61b161eab4f7c26ed931da79a22e6360de91c0faf499a28b14d9f87f35116c7d"
+}

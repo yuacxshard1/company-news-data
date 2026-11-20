@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8c511f52da41a5b28c14e482c1bb5ea1a0941854021644b6e332114e0f983470",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-msk-standard-version-42/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-msk-standard-version-42/",
+  "title": "Amazon MSK Standard Brokers adds support for Apache Kafka version 4.2",
+  "summary": "Discover more about what's new at AWS with Amazon MSK Standard Brokers adds support for Apache Kafka version 4.2",
+  "body_markdown": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) now supports Apache Kafka version 4.2 on Standard brokers. A key highlight of this release is Queues for Kafka, which is now production ready. With Queues, multiple consumers can process messages from the same topic partitions, which improves parallelism and throughput for workloads that need point-to-point message delivery. This release also includes Eligible Leader Replicas (ELR) enhancements that improve leader election correctness and strengthen availability. The new consumer rebalance protocol makes consumer group rebalances smoother and faster. The new Streams Rebalance Protocol extends broker-side coordination to Kafka Streams applications so tasks get assigned more efficiently. For the full list of improvements and bug fixes, see the[Apache Kafka 4.2 release notes](https://archive.apache.org/dist/kafka/4.2.0/RELEASE_NOTES.html) .\n\n\nTo start using Apache Kafka 4.2 on Amazon MSK, select version 4.2.x when creating a new cluster with the AWS Management Console, AWS CLI, or AWS SDKs. You can also upgrade existing MSK provisioned clusters with an in-place rolling update. Amazon MSK orchestrates broker restarts to maintain availability and protect your data during the upgrade. Kafka version 4.2 support is available today in all[AWS regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon MSK Standard brokers is offered. To learn how to get started, see the[Amazon MSK Developer Guide](https://docs.aws.amazon.com/msk/latest/developerguide/getting-started.html) .",
+  "published_at": "2026-11-20T17:00:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:ca556c60bdcf8701bb48f77dfa379b511183a93760a415fff51677d02fd07384"
+}

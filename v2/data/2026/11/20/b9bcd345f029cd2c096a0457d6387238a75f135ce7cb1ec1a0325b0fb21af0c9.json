@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b9bcd345f029cd2c096a0457d6387238a75f135ce7cb1ec1a0325b0fb21af0c9",
+  "company_key": "yc-dot",
+  "company_name": "Dot",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.getdot.ai/blog/dbt-semantic-layer",
+  "canonical_url": "https://www.getdot.ai/blog/dbt-semantic-layer",
+  "title": "dbt Semantic Layer: What It Is & How To Use It In 2026",
+  "summary": "dbt Semantic Layer and MetricFlow give AI governed metrics; the dbt MCP server exposes them. When that is enough, and when AI should read your dbt project.",
+  "body_markdown": "###\n\n\nPartly. MetricFlow has been open source under Apache 2.0 since October 2025, so you can use it with dbt Core; the hosted Semantic Layer comes with the dbt platform's Starter, Enterprise and Enterprise+ plans as of October 2026.\n\n\n###\n\n\nIt gives MCP clients such as Claude and Cursor tools to list and query metrics, read models and lineage, generate and run SQL, operate jobs and, locally, run dbt commands. Run it with` uvx dbt-mcp` or use dbt's remote server.\n\n\n###\n\n\nNo. An agent can read your models, docs, tests and lineage and write SQL, which is how Ramp's analyst works. The Semantic Layer adds deterministic computation for the metrics several tools must agree on.\n\n\n###\n\n\nIt can draft semantic models and metrics from your dbt project and flag definitions that drifted from the SQL, which makes a semantic layer much cheaper to build. Review every definition anyway: the point of a definition is the decision behind it, and a draft can encode the same ambiguity you were trying to remove.\n\n\n###\n\n\nBoth. Dot reads any dbt project from GitHub, GitLab or Bitbucket and re-syncs it daily; on a dbt platform plan with the Semantic Layer, it can also query your MetricFlow metrics.\n\n\n###\n\n\nCheck what it stores, which LLM sees your data, and whose permissions apply. Dot parses your repo in a sandbox without your warehouse credentials, queries the warehouse in place without copying data, runs every LLM provider with zero data retention, and is SOC 2 Type II and GDPR compliant. It applies your warehouse's own permissions and row-level security; on a Semantic Layer connection, the access of the dbt token you connect applies, so scope it accordingly.\n\n\nWant to see which of your dbt models Dot would match, and what it would say about them?[Connect your repo for free](https://app.getdot.ai/register) ; the Free plan includes 300 one-time credits with full Pro features.",
+  "published_at": "2026-11-20T00:00:00+00:00",
+  "first_seen_at": "2026-11-20T21:11:19.854338+00:00",
+  "content_hash": "sha256:1079f2da8657c2a053575a8e34afd6b203a4d6516c168fa33e22de6286904576"
+}

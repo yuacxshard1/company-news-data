@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3b5bbe7a8f43f98f8820a57506150df3c8aeaeba111d8747f860fe15af0645ca",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
+  "title": "Amazon CloudWatch extends the PromQL query window to 30 days",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch extends the PromQL query window to 30 days",
+  "body_markdown": "Amazon CloudWatch now supports a 30-day query window for PromQL queries against OpenTelemetry metrics, up from 7 days. You can query a month of data in a single request, chart month-over-month and week-over-week trends on one dashboard, and alarm on a 30-day baseline.\n\n\nTeams typically define service level objectives (SLOs) over a 30-day rolling window, longer than a 7-day query can measure. You can now calculate availability and remaining error budget for a full SLO period in one query, and alarm when a service is on track to exhaust its budget. A month of history also makes capacity forecasts more reliable, because a 7-day baseline skews to a single busy weekend.\n\n\nThis feature is available at no additional cost in all AWS Regions where PromQL queries against OpenTelemetry metrics in Amazon CloudWatch are available.\n\n\nTo get started, see Query OpenTelemetry metrics with PromQL in the Amazon CloudWatch[User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PromQL.html) .",
+  "published_at": "2026-11-20T21:23:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:d95ea50a83d94993bd85625839777cb12db36018ca4b3c84a67f5be70ecb4259"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5fc04bcefe64dd2c21addfa62cbb0a60ace0329e3a6b2596294f720c8642d24d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-increases-read-request-rate/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-increases-read-request-rate/",
+  "title": "Amazon S3 increases the read request rate for general purpose buckets by up to 2x",
+  "summary": "Discover more about what's new at AWS with Amazon S3 increases the read request rate for general purpose buckets by up to 2x",
+  "body_markdown": "Amazon S3 now supports at least 11,000 GET/HEAD requests per second, up from 5,500, for general purpose buckets.\n\n\nWith this higher request rate, you can retrieve data faster for read-intensive workloads such as machine learning training, data analytics, and data transfers. To maximize throughput, distribute your requests across multiple prefixes so that S3 can scale each one independently.\n\n\nThis increase applies automatically to your existing read requests in all AWS Regions, with no changes required to your applications and at no additional charge beyond standard S3 request pricing. To learn more, visit the[Amazon S3 user guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html) and the[S3 product page](https://aws.amazon.com/s3/) .",
+  "published_at": "2026-11-20T15:00:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:708f93f717c0182e58e811f07dca7606b93e30daac75bc504018b886a83edb7d"
+}

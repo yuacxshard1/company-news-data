@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "88b6340ea01cbb68397c0dad665daf958f3bb6c0ebb9ae8a26f70a088c1eb4dd",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-hub-billing-cost-management-preview/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-hub-billing-cost-management-preview/",
+  "title": "AWS announces Data Hub in AWS Billing and Cost Management (preview)",
+  "summary": "Discover more about what's new at AWS with AWS announces Data Hub in AWS Billing and Cost Management (preview)",
+  "body_markdown": "Today, AWS announces the preview of Data Hub in AWS Billing and Cost Management, a managed data layer that enables AWS FinOps Agent to query cost and usage data with SQL. In preview, Data Hub is available to AWS FinOps Agent, so the agent can identify the individual resources behind a cost change, break down spend by team or cost allocation tag, and show how a resource's cost and usage change hour by hour. With AWS FinOps Agent and Data Hub, customers get these answers without setting up a data export or building and maintaining a cost data pipeline.\n\n\nData Hub provides 13 months of hourly, resource-level cost and usage data in the published CUR 2.0 schema, including resource identifiers and cost allocation tags. AWS provisions the data, refreshes data daily, and maintains the schema as new services, commitments, and charge types are added. When set up from the management account, Data Hub covers cost and usage data across the accounts in your organization.\n\n\nData Hub (preview) is available in the US East (N. Virginia) Region and covers cost and usage data across regions. There is no charge for Data Hub during preview.\n\n\nTo learn more about Data Hub, see the[AWS Billing and Cost Management User Guide](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/data-hub.html) and the[launch blog](https://aws.amazon.com/blogs/aws-cloud-financial-management/ask-aws-finops-agent-resource-level-cost-questions-with-aws-billing-and-cost-management-data-hub-preview) . You can get started from the[Data Hub page](https://us-east-1.console.aws.amazon.com/costmanagement/home?region=us-east-1) in the AWS Billing and Cost Management console or from the[AWS FinOps Agent](https://aws.amazon.com/finops-agent/) console.",
+  "published_at": "2026-11-20T20:30:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:a8aeaddd2f228dccc4a33c22105f6076ed42106a659af2c6b3976379908afa24"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9231418fddc2ff81d7a4e0089155767d83aed75a9d02bf4723a5c4eca7b996c8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
+  "title": "Amazon Transcribe announces a synchronous transcription API",
+  "summary": "Discover more about what's new at AWS with Amazon Transcribe announces a synchronous transcription API",
+  "body_markdown": "Amazon Transcribe now offers a synchronous transcription API, \\`TranscribeAudio\\`. Send a complete audio file in a single request and get the full transcript back in the same response. There is no job to start, no status to poll, no connection to manage. Add fast, accurate speech-to-text to interactive applications such as voice assistants, agent-assist tools and on-demand \"transcribe this clip\" features.\n\n\nThe synchronous API supports the Amazon Transcribe features you already use, including:\n\n\n- Word-level timestamps and smart formatting for numbers, dates, currency and phone numbers\n- Automatic language identification, including audio with more than one language\n- Speaker diarization, and channel identification for up to two channels\n- Custom vocabulary and vocabulary filtering, which you can provide directly in the request with no setup step\n- PII redaction\n\n\nSend audio inline (up to 25 MB) or from Amazon S3 (up to 500 MB), 0.5 seconds to 1 hour long, in WAV, MP3, FLAC, M4A, MP4, Ogg, WebM or AMR format. The transcript comes back in the response, or Transcribe can write it to an S3 location you choose. Pricing is $0.0070 per minute of audio, billed per second, with speaker diarization, language identification, custom vocabulary and channel identification included. Two-channel audio is billed once on file duration. PII redaction is available as an add-on.\n\n\nSupports English, Spanish, French, Italian, German, Japanese, Portuguese, Korean and Chinese (Simplified, Traditional and Hong Kong). Available in US East (N. Virginia, Ohio), US West (Oregon), Canada (Central), Europe (Ireland, London, Frankfurt), Asia Pacific (Mumbai, Singapore, Sydney, Tokyo, Seoul) and South America (São Paulo), with PII redaction available in all stated Regions except South America (São Paulo).\n\n\nTo get started, see the Amazon Transcribe Sync API launch blog,[Amazon Transcribe API Reference](https://docs.aws.amazon.com/transcribe/latest/APIReference/API_Operations_Amazon_Transcribe_Service.html) and the[Amazon Transcribe pricing page](https://aws.amazon.com/transcribe/pricing/) .",
+  "published_at": "2026-11-20T20:00:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:ba2fc1e03c3f22bf9fd705515498f19c15d98c809a5806d93a9eca469df59389"
+}

@@ -43,6 +43,16 @@
     {
       "company_key": "yc-browser-use",
       "company_name": "Browser Use",
+      "doc_id": "58a8e27fd94d9f23fc98bd8c8b7977aecc2fe6019629c3792903e061578be7bf",
+      "first_seen_at": "2026-11-20T20:15:18.155082+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How we cut a browser agent run from 30.7 s to 18 s: priority tier, default proxy, a page-settle detector that never fired, a captcha detector, CDP round trips.",
+      "title": "Two Config Flags Cut Our Browser Agent's Flight Search From 30.7 s to 20.7 s"
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
       "doc_id": "7f5641a00cb56468979b6569b8f9f31b1262931678996554273ab1d2e662f5d5",
       "first_seen_at": "2026-11-18T16:58:47.664887+00:00",
       "published_at": "2026-11-17T00:00:00+00:00",
@@ -73,12 +83,42 @@
     {
       "company_key": "yc-browser-use",
       "company_name": "Browser Use",
+      "doc_id": "9fd3ac6253967385b9e3b5ce12e1441054b4f933001588e335fe4ddec5b8e6c1",
+      "first_seen_at": "2026-11-20T20:15:18.155082+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Solve rates per anti-bot vendor, what to do after a block (solve, new IP, new country, different typing), and the tricks that did nothing, from a $100 bounty.",
+      "title": "We Offered $100 for Every Site That Blocks Our Agent. 7 Never Got Through"
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
       "doc_id": "b1711de959857cca3d827d9e80af98e6eb3569b203d84103d93e8deef5572b1e",
       "first_seen_at": "2026-11-04T16:30:13.205992+00:00",
       "published_at": "2026-11-03T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Compare Browser Use and Kernel on pricing, proxies, stealth, performance, and session management to choose browser infrastructure for your automation.",
       "title": "Browser Use vs Kernel: Pricing, Stealth & Sessions"
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
+      "doc_id": "c417d6a4d334aec0c71d15031382d6035ebd9d5ffe48c0e5e0db0e71d5d9f062",
+      "first_seen_at": "2026-11-20T20:15:18.155082+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Up to half of a +5.1 point agent eval win was a bug in our own harness. How rejudging saved runs caught it, and the 8 rules we now run evals by.",
+      "title": "Our Eval Said +5.1. Up to Half of It Was Our Own Bug."
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
+      "doc_id": "daab483f2dfb48ff13d1f48ba5177daae7afdab76a11fe81a4c86bfe6d107c8b",
+      "first_seen_at": "2026-11-20T20:15:18.155082+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "browser-use 1.0 gives the model one main tool, python, instead of 24 actions. A 6,439-line scheduler UI became a 37-line prompt, and agents did things we never built.",
+      "title": "We Deleted 137,000 Lines of Our Own Code and Benchmark Scores Went Up"
     },
     {
       "company_key": "yc-browser-use",
@@ -99,6 +139,16 @@
       "source_kind": "html",
       "summary": "Reuse a login across separate Browser Use runs with profiles. Save Playwright authentication state, handle expired cookies, and keep user accounts separate.",
       "title": "Log In Once: Reuse Cookies and Profiles Across Browser Use Runs"
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
+      "doc_id": "f5180017c2b4b746b61fe70824b3b3820e69dc9150a4af9a0ca87079d8bac64e",
+      "first_seen_at": "2026-11-20T20:15:18.155082+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We tested 6 personal AI agent setups on a prompt-injection trap page and read 33,976 posts about 12 agents. What breaks in the browser, and a 7-point fix list.",
+      "title": "We Told 6 AI Agents to Say PINEAPPLE. One Did."
     }
   ],
   "company_key": "yc-browser-use",

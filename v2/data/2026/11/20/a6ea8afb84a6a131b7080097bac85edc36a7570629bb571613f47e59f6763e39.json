@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a6ea8afb84a6a131b7080097bac85edc36a7570629bb571613f47e59f6763e39",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-otel-addon-filtering/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-otel-addon-filtering/",
+  "title": "Amazon CloudWatch Observability EKS add-on now supports telemetry filtering",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch Observability EKS add-on now supports telemetry filtering",
+  "body_markdown": "Today, Amazon CloudWatch announces telemetry filtering for the CloudWatch Observability EKS add-on, so you can stop paying to ingest telemetry you don't use.\n\n\nYou can now set cluster-wide include and exclude lists for namespaces, metric names, and pod and node labels. Exclude the non-production namespaces you don't monitor, drop high-cardinality metrics by name, and keep only the labels you group by rather than every label on every resource. Because ingestion is billed per GB, collecting less lowers what you pay, and you can adjust filters with a single add-on configuration update as your clusters change.\n\n\nTelemetry filtering is available in version 8.0.0 and later of the EKS add-on and Helm chart, in all AWS Regions where CloudWatch supports OpenTelemetry metrics. Telemetry sent through the add-on is charged at the Amazon EKS OpenTelemetry ingestion rate of $0.08 per GB. For details, see Amazon CloudWatch[insights pricing](https://aws.amazon.com/cloudwatch/pricing/) .\n\n\nTo get started, see Amazon CloudWatch Observability EKS add-on in the[Amazon CloudWatch User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/container-insights-eks-otel.html) .",
+  "published_at": "2026-11-20T19:52:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:1b12b5a1455c05d1a93d456001f1999843c44a918374fbf9aad0169a7dafd860"
+}

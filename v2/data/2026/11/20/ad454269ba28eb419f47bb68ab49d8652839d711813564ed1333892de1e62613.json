@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ad454269ba28eb419f47bb68ab49d8652839d711813564ed1333892de1e62613",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gpt-62-sol-pro-pricing-and-benchmarks-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/gpt-62-sol-pro-pricing-and-benchmarks-2026-guide",
+  "title": "GPT 6.2 Sol Pricing and Benchmarks for Automation Teams",
+  "summary": "GPT 6.2 Sol Pro pricing and performance benchmarks help you compare value across tiers. Determine which subscription level matches your needs and budget.",
+  "body_markdown": "## Test GPT 6.2 Sol Pro on three tasks\n\n\nRun this test yourself: the same three tasks through GPT-6.2 Sol and through GPT-6 Luna, with each answer checked against a known correct one, so you can compare how both models perform.\n\n\nIf a Sol Pro tier appears on the vendor's list, swap it in for Sol. I have not run it, so this article contains no measured results from it. It's a small test and indicates a direction, nothing more.\n\n\n### The three tasks\n\n\nPick chores a team would plausibly hand to a model: sorting a support ticket into a category, pulling fields out of an invoice, and summarising an email thread.\n\n\nChoose tasks that have a right answer you can check, so \"good\" means \"matched,\" not \"sounded fine.\"\n\n\nRun both models through[OpenRouter](https://openrouter.ai/) , a service that lets you call many models by name from one account, after confirming the model you want is listed there. Leave every setting at its default, so anyone can repeat it with the same inputs.\n\n\n### Recording Results per task\n\n\nBuild a table with one row per task and columns for each model's result quality, seconds per run and cost per task, then read it row by row and not as a single winner.\n\n\nA model that's better at summaries may be no better at sorting tickets, and you only pay for the upgrade where it earns its keep. Note the date and the small sample on every row.\n\n\n### Speed and cost per task\n\n\nFor most teams, the last two columns matter more than the first. A task that runs slower or costs more per run does that on every ticket, invoice and thread, so a small gap per task becomes a large bill at volume.\n\n\nIf the cheaper model matches the known answer on a task, the extra spend buys you nothing there. Run your own three tasks the same way before you commit, in case you've introduced a regression.",
+  "published_at": "2026-11-20T21:05:22+00:00",
+  "first_seen_at": "2026-11-20T23:15:40.522163+00:00",
+  "content_hash": "sha256:f473994f3cd6d2ea8aac102a76d9d5e4503c4cf4daa7ae323f5a0f6ecc7b64d4"
+}

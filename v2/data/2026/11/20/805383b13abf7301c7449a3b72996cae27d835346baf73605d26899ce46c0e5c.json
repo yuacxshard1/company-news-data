@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "805383b13abf7301c7449a3b72996cae27d835346baf73605d26899ce46c0e5c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-kubernetes-tools/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-kubernetes-tools/",
+  "title": "Amazon CloudWatch EKS Container Insights now offers built-in monitoring for open source Kubernetes tools",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch EKS Container Insights now offers built-in monitoring for open source Kubernetes tools",
+  "body_markdown": "Today, Amazon CloudWatch announces built-in monitoring for open source tools running on your Amazon EKS clusters, including Karpenter, KEDA, vLLM, KServe, SGLang, Ray and Knative Serving. You get dashboards for the tools you already use without running Prometheus or Grafana yourself.\n\n\nMonitoring starts automatically when you enable OTel Container Insights. For your AI inference workloads, you can see queued requests, time to first token, and KV cache usage for each model server. For autoscaling, you can see which scalers are failing and how long your scale loop takes. CloudWatch tags every metric with its pod, workload, and node, so you can trace a slow model server to the node it runs on.\n\n\nThese EKS solutions are available in version 8.0.0 and later of the add-on and Helm chart, in all AWS Regions where CloudWatch supports OpenTelemetry metrics. Metrics are charged at the Amazon EKS OpenTelemetry ingestion rate of $0.08 per GB. For details, see Amazon CloudWatch[insights pricing](https://aws.amazon.com/cloudwatch/pricing/) .\n\n\nTo get started, see Solutions in the Amazon CloudWatch[User Guide.](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/container-insights-eks-otel.html)",
+  "published_at": "2026-11-20T20:47:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:83fc985bf647c2d93d9e479341b6b3db2918bf22d5383324a296f39eb7fb2be0"
+}

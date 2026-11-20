@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "60fdb7c9f2224748d6524a29a94179f88e4768284bc0e648d134acabe8dc0281",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-enterprise-guardrails-preview/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-enterprise-guardrails-preview/",
+  "title": "AWS Quick introduces enterprise guardrails (preview)",
+  "summary": "Discover more about what's new at AWS with AWS Quick introduces enterprise guardrails (preview)",
+  "body_markdown": "AWS Quick now includes enterprise guardrails, giving administrators configurable content safety and sensitive-information controls for user prompts. Administrators can apply guardrail policies to individual users or enterprise identity provider (IdP) groups or set a policy as the account default. User-level policies take precedence over group policies and account defaults. When multiple group policies apply, Quick combines their content restrictions, using the stricter setting when controls overlap.\n\n\nAdministrators create guardrail policies in the Quick administration console using content filters, denied topics, blocked words and phrases, prompt-attack detection, and controls for selected types of personally identifiable information (PII). For example, an administrator can create a policy that blocks prompts containing confidential project names and assign it to an IdP group.\n\n\nDetect-only mode lets administrators test prompt-filtering rules against real production traffic before enforcing them. In this mode, Quick evaluates user prompts and logs policy matches without blocking requests, so administrators can assess the impact on business workflows and refine policies. When administrators enable enforcement, Quick blocks matching prompts and displays a message to the user. Administrators can review detected and blocked events in Amazon CloudWatch Logs.\n\n\nEnterprise guardrails are available in preview for select Quick customers with Professional and Enterprise plans. For feature availability by AWS Region, see[AWS Quick Regions](https://docs.aws.amazon.com/quick/latest/userguide/regions.html#regions-qs) . To learn more, see the[enterprise guardrails documentation](https://docs.aws.amazon.com/quick/latest/userguide/guardrails.html) .",
+  "published_at": "2026-11-20T20:30:00+00:00",
+  "first_seen_at": "2026-11-20T23:16:00.391601+00:00",
+  "content_hash": "sha256:c828deec4727047662b4c46015f1d081d878c30149a577b5804bf1fb2bc69a43"
+}

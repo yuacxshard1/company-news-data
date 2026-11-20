@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "74a3ea805b5ffb16a861835ea4639e0dc2951ac25266bc417c3b0e98ba61e2ff",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/figma-api-how-to-use-the-rest-api-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/figma-api-how-to-use-the-rest-api-2026-guide",
+  "title": "Figma API: How to Use the REST API (2026 Guide)",
+  "summary": "Figma API rate limits are per plan and seat, not per account. This sync example clarifies quota mechanics and how to structure requests within your limits.",
+  "body_markdown": "## Frequently asked questions\n\n\nRe-check before you build on any of these answers, because plan terms and limits are the parts most likely to change. Figma's developer docs were checked on 2026-11-20 for every answer below.\n\n\nIs the Figma API free to use? Yes, calling the REST API doesn't carry a separate charge, and there's no API-only price tier in Figma's docs.\n\n\nWhat does vary by plan is how much you can call. Rate limits depend on the plan and the seat type behind the token, so \"free to call\" doesn't mean \"free to call in a loop.\"\n\n\n### Can I use the Figma API on a free plan?\n\n\nYes, you can generate a token and make requests from a free plan, but expect the lowest rate limits. A nightly sync that works on a paid Full seat can start returning 429 responses when pointed at a free-plan file or a View seat.\n\n\nRead the` Retry-After` header and the` X-Figma-Rate-Limit-Type` header on those responses. Together they tell you how long to wait and which kind of limit you hit.\n\n\n### Does the Figma API support writing to files?\n\n\nMostly no: the REST API is built for reading files, images, components and comments, and its write surface is narrow. It can post comments, and Figma documents a Variables API for managing variables, which is gated to certain plans.\n\n\nChanging the contents of a design file is the job of the Plugin API, which runs inside Figma rather than over HTTP. For a read-only sync, request only the read scope your endpoints need, so the token can't do more than the job requires.\n\n\n### How long do Figma personal access tokens last?\n\n\nThey expire. Figma has moved personal access tokens to a set expiry that you choose when you create them, with a maximum lifetime. A token that was fine last quarter can therefore start failing authentication with no change on your side.\n\n\nPut the expiry date somewhere your team will see it, and treat a sudden 403 on a long-running job as a possible expired token before you suspect the code.\n\n\nDoes Figma offer webhooks for file changes? Yes. Figma documents webhooks (version 2) that fire on events such as file updates, version updates, library publishes and comments.\n\n\nInstead of polling every file nightly and spending your rate-limit budget on files that didn't change, you can fetch only the files a webhook reports as changed.",
+  "published_at": "2026-11-20T20:46:18+00:00",
+  "first_seen_at": "2026-11-20T23:15:40.522163+00:00",
+  "content_hash": "sha256:5addac40eef2884d7d0453da3bc2fe9efca48c8e4a35af1ec284417887010da7"
+}
