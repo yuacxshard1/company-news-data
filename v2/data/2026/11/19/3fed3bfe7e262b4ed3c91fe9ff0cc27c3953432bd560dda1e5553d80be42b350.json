@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3fed3bfe7e262b4ed3c91fe9ff0cc27c3953432bd560dda1e5553d80be42b350",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/google-calendar-api-setup-quotas-and-pricing-2026",
+  "canonical_url": "https://www.activepieces.com/blog/google-calendar-api-setup-quotas-and-pricing-2026",
+  "title": "Google Calendar API: Setup, Quotas and Pricing (2026)",
+  "summary": "Google Calendar API lets you read and write events to any Google account at no cost. Set up OAuth and integrate calendar functionality into your app.",
+  "body_markdown": "## Create Google Calendar events without code in Activepieces\n\n\nTo create Google Calendar events without code, chain a trigger to a create-event action in Activepieces, an MIT-licensed open-source automation tool whose Google Calendar integration sits in the public monorepo under` packages/pieces/community` .\n\n\nIt calls the same Calendar API, so the same Google quotas and error codes apply.\n\n\nStart with a new form row as the trigger and a create-event action with the Google OAuth connection attached, with Google's quotas still applying underneath. Take from it that the tool replaces your code, not Google's limits.\n\n\nTest Activepieces' failed-run handling before you trust it. That matters given the rule about never retrying 400, 403, 404 or 409. Run a deliberately bad row through and see what happens to it.\n\n\nInstead of building a request body, you map form fields to event fields, because the Activepieces Google Calendar integration has actions that create and update events through the same API you would otherwise call yourself. You still decide the calendar, the times and the attendees.\n\n\nThat integration is one of the 750 counted straight from the MIT-licensed open source monorepo, under` packages/pieces/community` , so the code behind each action is readable rather than described.\n\n\nIt does the consent screen and the connection for you: you sign in with Google once and the connection is stored for every flow that uses it.\n\n\nWhen to stay with direct calls: bulk imports, anything needing per-error branching, and any job where you want to control backoff yourself.\n\n\nOn the Google side, the Calendar API itself is free to enable. You need an account that owns the calendar you are writing to, and a Workspace admin may restrict which apps can connect.\n\n\nOn the Activepieces side, every plan including the free one has unlimited flows, and the free plan includes 1,000 credits a month, with a run costing 1 credit however many steps it has.\n\n\nYou will find no figures in this section. Quota numbers are Google's, and you should read them from your own project's quotas page in the Google Cloud console, since they can differ by project.\n\n\nThe Activepieces behavior described here is what the integration offers as of 2026-11-19; confirm it in the integration's own documentation before you build on it.",
+  "published_at": "2026-11-19T19:54:29+00:00",
+  "first_seen_at": "2026-11-20T04:33:25.555383+00:00",
+  "content_hash": "sha256:dcc7ef8d7a4ede02f4a3a63abff333055a224d5ad5639efe2fa9579ed936cd2a"
+}

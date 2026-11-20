@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "96c38cd94435c41d8777dd00319bf9b9094b0a71a90cd5bc5d87bf0c431016ba",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-webauthn-redirection/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-webauthn-redirection/",
+  "title": "Amazon WorkSpaces Applications now supports WebAuthn redirection",
+  "summary": "Discover more about what's new at AWS with Amazon WorkSpaces Applications now supports WebAuthn redirection",
+  "body_markdown": "Amazon WorkSpaces Applications now supports WebAuthn redirection, so users can sign in to websites and applications in their streaming session with a FIDO2 authenticator on their local device, such as a security key, Windows Hello, or Touch ID. Previously, an authenticator attached to the user's computer was not available inside the streaming session, so organizations that require phishing-resistant multi-factor authentication (MFA) had to use weaker sign-in methods or keep those applications off WorkSpaces Applications. This helps organizations with FIDO2 requirements stream those applications.\n\n\nWhen an application in the session makes a WebAuthn request, WorkSpaces Applications forwards it to the user's device, where the authenticator signs it and returns the response. Private keys never leave the user's device. Administrators turn it on per stack in the console or API, and on Windows fleets can limit it to an allow list of processes. For example, a bank can let employees sign in to Microsoft 365 in their streaming session with the same security key they use on their laptop.\n\n\nWebAuthn redirection is available at no additional charge in all AWS commercial Regions and AWS GovCloud (US) Regions where WorkSpaces Applications is available.\n\n\nTo get started, select Enable WebAuthn redirection under User Settings for your stack, use an image with the WorkSpaces Applications agent released on or after October 20, 2026, and connect with the WorkSpaces Applications client for Windows (1.5.0 or later) or macOS (1.6.0 or later). To learn more, see[WebAuthn redirection](https://docs.aws.amazon.com/appstream2/latest/developerguide/feature-support-webauthn-redirection.html) in the Amazon WorkSpaces Applications Administration Guide, or visit the[Amazon WorkSpaces Applications](https://aws.amazon.com/workspaces/applications/) product page.",
+  "published_at": "2026-11-19T19:57:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:2dc6670a5f7c00f874fb728a36d3f3c976811d20896351247f2549c8ff0b7fd0"
+}

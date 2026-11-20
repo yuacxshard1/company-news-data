@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "759198ef0125353f7eaeade10a21cfa9319bf2a0d69da4bb1c24af36cae5954f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-replication-writable-tables/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-replication-writable-tables/",
+  "title": "Amazon S3 Tables now support promoting replicas to writable tables",
+  "summary": "Discover more about what's new at AWS with Amazon S3 Tables now support promoting replicas to writable tables",
+  "body_markdown": "Amazon S3 Tables replication now lets you make a read-only replica of your Apache Iceberg table a standalone, writable table with a single API call. S3 Tables replication keeps read-only replica tables in sync with your source tables across table buckets, AWS Regions, and accounts. Instead of copying a replica into a new table, you can promote it in place to move writes to another Region.\n\n\nWhen you disassociate a replica from replication, the standalone table keeps its namespace and table name, so your queries and pipeline code carry over when you point your applications at it. The promoted table then works like an S3 table you created, and you can use it as a source for new replicas.\n\n\nThis capability is available in all AWS Regions where S3 Tables replication is supported. You can use the AWS Management Console, AWS CLI, AWS SDKs, or S3 Tables API. For pricing details, visit the[Amazon S3 pricing page](https://aws.amazon.com/s3/pricing/) . To learn more, see the[S3 Tables overview page](https://aws.amazon.com/s3/features/tables/) and[documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-replication-tables.html) .",
+  "published_at": "2026-11-19T06:00:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:1f46eccd84d97e0f68ee8aea74edc5f422285605b8a5982471fd4d3f8fdab6f6"
+}

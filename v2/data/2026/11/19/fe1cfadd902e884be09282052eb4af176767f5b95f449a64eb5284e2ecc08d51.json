@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fe1cfadd902e884be09282052eb4af176767f5b95f449a64eb5284e2ecc08d51",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/salesforce-api-types-access-and-limits-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/salesforce-api-types-access-and-limits-2026-guide",
+  "title": "Salesforce API: Types, Access and Limits (2026 Guide)",
+  "summary": "Salesforce API access eligibility depends on your edition, with rate limits and error codes that affect your integration design.",
+  "body_markdown": "## Strategies for Salesforce API limits\n\n\n10,000 record updates can **cost anywhere from 50 to 10,000 API calls** , depending on how you batch them, meaning your implementation choice could swing costs by a factor of 200. You spend the daily allocation by call count, not by record count.\n\n\nRead the call counts in the chart that follows before you pick a pattern; it sets the three approaches side by side.\n\n\nUpdating one record per request through single REST takes[10,000 API calls](https://developer.salesforce.com/docs/platform/api-rest/guide/resources-composite-sobjects-collections-update.html) , so one nightly sync can empty a day's allocation.\n\n\nComposite requests bring that to 400 calls, and sObject Collections to 50. **Collections are the cheapest of the three** for this job, which leaves your budget for everything else.\n\n\n### Daily API request allocation by edition\n\n\nEvery integration draws from one pool, because Salesforce sets the daily allowance across the whole org, by edition and licence count. A runaway job therefore starves the others.\n\n\nRun each integration under its own integration user, and check the` /limits` resource on a schedule. Its raw output shows remaining calls before a failure does.\n\n\nDaily totals are one gate and concurrency is another. Long-running requests can be refused even when the daily pool's nearly full.\n\n\nBulk API suits large loads because it processes asynchronously in batches. The cost is that results arrive later, so it's a poor fit for anything a user is waiting on.\n\n\nAdd exponential backoff for refused calls. Prefer selective SOQL filters on indexed fields, and cache reference data that rarely changes.\n\n\n### Cost of extra Salesforce API capacity\n\n\nTreat extra allocation as the last lever: it can be bought, but only after the cheaper fixes. Change data capture replaces polling, so you stop spending calls to learn that nothing changed.\n\n\nBatching, caching and a dedicated integration user cost design time once. Bought capacity is a recurring cost that hides an inefficient request pattern.\n\n\nSet the call budget first, then decide whether you need more.",
+  "published_at": "2026-11-19T23:10:22+00:00",
+  "first_seen_at": "2026-11-20T04:33:25.555383+00:00",
+  "content_hash": "sha256:4fabd3059105244fd9f694f88f97b88a6937b470cc4cd215097ac18805a9a3c3"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5ba2c14c47f61d55ffc4d7716b2118d3da1544416d47537b9a47772e0cf3a722",
+  "company_key": "yc-unlayer",
+  "company_name": "Unlayer",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://docs.unlayer.com/changelog/1-531-0-5T5gcZRQ",
+  "canonical_url": "https://docs.unlayer.com/changelog/1-531-0-5T5gcZRQ",
+  "title": "1.531.0",
+  "summary": "The following fixes and features are available on the stable channel: Features & Improvements Added custom theme support to the Image Editor . Retired legacy AI tools and moved AI access to per-subscription extensions. Added shared rate lim",
+  "body_markdown": "The following fixes and features are available on the[stable](https://docs.unlayer.com/builder/latest/version-management#production-environment) channel:\n\n\n### Features & Improvements\n\n\n-\n\n\nAdded[custom theme](https://docs.unlayer.com/builder/latest/image-editor/configuration#theme) support to the[Image Editor](https://docs.unlayer.com/builder/latest/image-editor/quickstart) .\n\n\n-\n\n\nRetired legacy AI tools and moved AI access to per-subscription extensions.\n\n\n-\n\n\nAdded shared rate limiting across Unlayer services, with consistent` 429` responses and guidance on when to retry.\n\n\n-\n\n\nReplaced the retired Gemini models used by Magic Image and the Image Editor for AI image generation and editing.\n\n\n-\n\n\nAdded a one-time $10 Inbox Previews trial for Scale, Optimize, and Enterprise plans.\n\n\n-\n\n\nAdded image generation and AI image editing to the AI Assistant and the public Images API.\n\n\n-\n\n\nAdded WebMCP tools and the` unlayer.agent` API so agents can read, modify, validate, preview, and export designs while preserving undo support and protected content.\n\n\n-\n\n\nAdded` Cmd+K` and` Ctrl+K` shortcuts for inserting links in the Paragraph and Heading tools.\n\n\n-\n\n\nApplied Document Builder page margins consistently in the editor and in PDF and HTML exports.\n\n\n-\n\n\nUpdated the Paragraph tool to preserve links pasted from Google Docs and automatically turn URLs into links.\n\n\n### Bug Fixes\n\n\n-\n\n\nFixed Page Anchors failing to scroll to their targets in the editor preview.\n\n\n-\n\n\nFixed exports omitting image width CSS unless the width slider had been adjusted.\n\n\n-\n\n\nFixed URL encoding for apostrophes in image filenames.\n\n\n-\n\n\nFixed an issue where using the AI Assistant in edit mode cancelled generation of the entire design.\n\n\n-\n\n\nFixed missing AI-generated image alt text, incorrect success messages, and overlapping merge tag menus.\n\n\n-\n\n\nFixed synced blocks shifting down one row after each refresh.\n\n\n-\n\n\nFixed typing and text selection around smart merge tags in the Paragraph and Heading tools.\n\n\n-\n\n\nFixed Countdown Timers disappearing when Outlook blocks images. The timer now displays its end date as alternate text.\n\n\n-\n\n\nFixed the Save Block dialog hanging. Failed saves now explain the problem and preserve your entries. The dialog closes after a successful update to a saved block.\n\n\n-\n\n\nFixed extra blank pages in Document Builder PDF exports so the exported pages match the canvas.",
+  "published_at": "2026-11-20T03:00:00+00:00",
+  "first_seen_at": "2026-11-14T00:51:30.618972+00:00",
+  "content_hash": "sha256:68f89a3409dfaf579b7096ad5636984b929298d67edccccc38064f5622d05744"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f87d7c706435d968e99501f9854bbdef7fdc9260d2e69c867719152da12a4fb4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-identity-private-ca/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-identity-private-ca/",
+  "title": "Amazon Bedrock AgentCore Identity adds private certificate authority support",
+  "summary": "Discover more about what's new at AWS with Amazon Bedrock AgentCore Identity adds private certificate authority support",
+  "body_markdown": "Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs) for custom OAuth 2.0 credential providers. If you already connect your agents to identity providers (IdPs) hosted in your VPC, you can now configure those connections to trust certificates issued by your own CA — including AWS Private CA, enterprise CAs, and self-signed root CAs.\n\n\nAgentCore Identity has supported private IdP connectivity through Amazon VPC Lattice, but until now the IdP still had to present a publicly trusted TLS certificate over that private connection. With private CA support, you store your CA certificate in AWS Secrets Manager or Amazon S3 and reference it from your credential provider configuration. AgentCore Identity uses it to verify the IdP's server certificate directly, removing the need for a publicly trusted certificate or additional infrastructure on the private network path.\n\n\nYou can rotate the CA certificate without downtime by combining the current and new certificates in a single PEM file, and remove private CA trust by updating the credential provider without the certificate reference.\n\n\nPrivate CA support for AgentCore Identity is available in all AWS Regions where AgentCore Identity supports private IdP connectivity. To get started, see[Connect to private identity providers](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-private-idp.html) in the Amazon Bedrock AgentCore Developer Guide. To learn more, visit the[Amazon Bedrock AgentCore product page](https://aws.amazon.com/bedrock/agentcore/) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:38cb73810be52516a687789572b3a47345e89143602f0f4b3e8361c425f996d5"
+}

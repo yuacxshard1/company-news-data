@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2f78216b222a32fc0ec3796c33107b703d972ef2021356265a1c3ccc72cd4561",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/continuum-pentest-pause-resume/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/continuum-pentest-pause-resume/",
+  "title": "AWS Continuum for Penetration Testing now supports pause and resume",
+  "summary": "Discover more about what's new at AWS with AWS Continuum for Penetration Testing now supports pause and resume",
+  "body_markdown": "AWS Continuum for Penetration Testing (formerly AWS Security Agent) now lets you pause a running penetration test job and resume it later from its last saved checkpoint. Continuum for Penetration Testing runs on-demand, AI-driven penetration tests against your web applications and APIs. Previously, a pen test job that failed due to client configuration error could not continue, so security teams had to start a new pen test job and repeat work the agent had already done.\n\n\nWhen you resume a paused or failed pen test job, it keeps its findings and completed work and continues where it left off. You can pause a pen test job during a deployment or maintenance window, raise the task-hour limit of a pen test job that has reached it, or replace test credentials that expired mid-test. Before you resume, you can also update the network traffic settings or VPC configuration, while the pen test job's scope, including its target endpoints, stays the same.\n\n\nYou can pause and resume pen test jobs in the web application or with the StopPentestJob and ResumePentestJob APIs. You can resume a pen test job within 7 days of its creation. Pause and resume is available in all AWS Regions where AWS Continuum for Penetration Testing is available. To learn more, visit our[documentation page](https://docs.aws.amazon.com/securityagent/latest/userguide/pause-resume-penetration-test.html) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:ea05a505060ca4c64d9272ffc0c0f8d456ea6caf94a5906a7783640a27ab12a7"
+}

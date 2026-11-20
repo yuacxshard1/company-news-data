@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fc4e5701047f2bf27838264cde4c2f340980581e0e5495ad3b2e8bc89a4a246b",
+  "company_key": "yc-litellm",
+  "company_name": "LiteLLM",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://docs.litellm.ai/blog/litellm-database-course",
+  "canonical_url": "https://docs.litellm.ai/blog/litellm-database-course",
+  "title": "Learn the LiteLLM database with a guided course",
+  "summary": "Every table, what it does, and why it was added. Learn how the LiteLLM database works with a guided course based on the code and its change history.",
+  "body_markdown": "The[LiteLLM database course](https://www.litellm.ai/course) goes through every table, what it does, and why it was added. We built it for developers working on LiteLLM and anyone who wants to understand the database behind their deployment.\n\n\n## Follow the data behind a request​\n\n\nThe first lessons start with a team called Search. An admin creates a virtual key for that team, and its app sends a request that costs two cents. Follow the rows that give the key access, apply its budget, record the request, and update spend.\n\n\nLater chapters cover users, models, MCP servers, guardrails, and agents. You'll see which tables hold their settings and how those tables connect to the rest of the gateway.\n\n\n## Understand why each table exists​\n\n\nThe course goes through every table and column in the reviewed schema, with links to the code and the PRs or commits that added them. Read what a field does, then open the original change to understand the problem it solved.\n\n\nFor example, a key's` spend` resets each budget period. The` total_spend` column preserves its lifetime spend. The course explains both and links to the PR that introduced the separate counter.\n\n\nYou can follow the database's evolution from its first key table through the schema we use today, or jump to a table you've come across in the code.\n\n\n## Take the course​\n\n\nThe course has 69 lessons in 16 chapters, with a quiz after each chapter and a completion certificate. Your progress is saved in your browser. No login is required.\n\n\nOpen[LiteLLM Academy](https://www.litellm.ai/course) and choose **Database course** . The[gateway course](https://docs.litellm.ai/blog/litellm-gateway-course) is in the same library if you want to follow the request path first.",
+  "published_at": "2026-11-19T21:00:00+00:00",
+  "first_seen_at": "2026-11-20T03:55:05.943011+00:00",
+  "content_hash": "sha256:44d45fbaa7e6cd56628e3d39080eb75445aabebc70453c10a758be95f3c67f1c"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "65760fc387e9d2ff963b3cef651ccb7bd13115da0b02449995a5509ea0144ae1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-nested-virtualization/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-nested-virtualization/",
+  "title": "AgentCore runtime instances now support Nested Virtualization",
+  "summary": "Discover more about what's new at AWS with AgentCore runtime instances now support Nested Virtualization",
+  "body_markdown": "Amazon Bedrock AgentCore[runtime instances](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-instances.html) now support nested virtualization, so your agents can run their own virtual machines and emulators inside a session with Kernel-based Virtual Machine (KVM). Runtime instances run your agents on Amazon EC2 instances while AgentCore handles provisioning, patching, scaling, and lifecycle management. Nested virtualization serves agents that rely on tools that run in a virtual machine, such as mobile emulators or virtual machine sandboxes.\n\n\nYou turn on nested virtualization when you create a Linux capacity provider, and agents in every session on its instances can use KVM. For example, your agents can run Android emulators to build and test mobile apps, or start lightweight virtual machines to isolate the code that they run. Nested virtualization works on supported Intel-based instance types, including the C7i, C8i, M7i, M8i, R7i, and R8i families.\n\n\nNested virtualization is available on supported instance types in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AgentCore runtime instances are available.\n\n\nTo get started, see the following resources:\n\n\n- [Run virtual machines in agents on runtime instances](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-instances-nested-virtualization.html) in the Amazon Bedrock AgentCore Developer Guide\n- [AgentCore pricing](https://aws.amazon.com/bedrock/agentcore/pricing/)",
+  "published_at": "2026-11-19T10:00:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:829e361bbf7dbcece1b2146a4492430c75d67d212db24428d9ad1bf010a08ba5"
+}

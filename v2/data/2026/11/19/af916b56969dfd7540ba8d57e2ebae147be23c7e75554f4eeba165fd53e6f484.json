@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "af916b56969dfd7540ba8d57e2ebae147be23c7e75554f4eeba165fd53e6f484",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-dynamic-client-registration/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-dynamic-client-registration/",
+  "title": "Amazon Cognito now supports dynamic client registration",
+  "summary": "Discover more about what's new at AWS with Amazon Cognito now supports dynamic client registration",
+  "body_markdown": "[Amazon Cognito](https://aws.amazon.com/cognito/) now supports OAuth dynamic client registration (DCR, RFC 7591). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With DCR support, Model Context Protocol (MCP) clients and AI agents can register themselves at runtime. Previously, you had to create an application client in advance for each AI client before it could connect to an MCP server that uses Cognito for authorization.\n\n\nWith DCR, Cognito advertises a registration endpoint in its OAuth authorization server metadata. MCP clients that support dynamic client registration discover the endpoint, register to receive a client ID, and then sign users in. You control who can register: either require registration requests to present an access token with a registration scope, or turn on open registration so that any client can register. Dynamically registered clients appear with your other app clients with a client ID prefix and a client type you can filter on, so you can manage them with the same console and APIs.\n\n\nDCR is available on the Essentials and Plus feature plans in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon Cognito is available. To learn more, see[Dynamic client registration](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-dynamic-client-registration.html) in the Amazon Cognito Developer Guide.",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:d798b649cc5700e4bfd0612bf2a29197d266e8467767346a62ac157fd389b1b8"
+}

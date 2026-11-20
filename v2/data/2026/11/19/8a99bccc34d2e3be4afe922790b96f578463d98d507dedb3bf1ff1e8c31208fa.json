@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8a99bccc34d2e3be4afe922790b96f578463d98d507dedb3bf1ff1e8c31208fa",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-client-id-metadata-documents/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-client-id-metadata-documents/",
+  "title": "Amazon Cognito now supports client ID metadata documents",
+  "summary": "Discover more about what's new at AWS with Amazon Cognito now supports client ID metadata documents",
+  "body_markdown": "[Amazon Cognito](https://aws.amazon.com/cognito/) now supports OAuth client ID metadata documents (CIMD). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With CIMD, Model Context Protocol (MCP) clients and AI agents can sign users in to your user pool without registering a separate app client. Previously, each external client needed its own app client, either created in advance or through dynamic client registration, and you had to manage and clean up those clients over time.\n\n\nWith CIMD, a client uses an HTTPS URL as its client ID and publishes a JSON metadata document at that URL. When the client starts sign-in, Cognito fetches and validates the document and uses it to identify the client and validate its sign-in request. You decide which clients to accept with CIMD policies that map URL patterns to one of your app clients, and Cognito grants only the scopes and grant types that both the app client and the metadata document allow. For example, a company that runs an MCP server can accept an AI assistant by allowing the URL where that assistant publishes its metadata without creating or maintaining an app client for it.\n\n\nCIMD is available on the Essentials and Plus feature plans in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon Cognito is available. To learn more, see[Client ID metadata documents (CIMD)](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-client-id-metadata.html) in the Amazon Cognito Developer Guide.",
+  "published_at": "2026-11-19T21:00:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:34d9bd8fcd6e2049a754cdd5ef631aae99043b35aecdb48c6a9a96c89e682fb7"
+}

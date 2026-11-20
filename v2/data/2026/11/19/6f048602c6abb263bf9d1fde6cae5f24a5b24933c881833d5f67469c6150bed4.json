@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6f048602c6abb263bf9d1fde6cae5f24a5b24933c881833d5f67469c6150bed4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-load-balancer-mtls/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-load-balancer-mtls/",
+  "title": "AWS Network Load Balancer now supports mutual TLS authentication",
+  "summary": "Discover more about what's new at AWS with AWS Network Load Balancer now supports mutual TLS authentication",
+  "body_markdown": "AWS Network Load Balancer (NLB) now supports mutual TLS (mTLS) authentication for clients that present X.509 certificates. Until now, customers who needed mTLS with NLB built their own solutions or ran third-party proxies to authenticate clients. With this launch, NLB verifies client certificates on its TLS listeners, so only trusted clients can reach your targets. You can offload the compute-intensive processing required for mTLS authentication to NLB, without adding certificate logic to your backend applications.\n\n\nMutual TLS is commonly used to secure communication between IoT devices, APIs, and microservices, and in regulated environments where both sides must prove their identity. To use mTLS, create a trust store with a certificate authority (CA) certificate bundle from a CA of your choice or AWS Private Certificate Authority, and attach it to a new or existing NLB TLS listener. To block certificates you no longer trust, add one or more certificate revocation lists (CRLs) to the trust store. To admit only specific clients, add client certificate filters that match the Common Name, Organizational Unit, or the DNS name or URI in the Subject Alternative Name, such as a SPIFFE ID. You can set up mTLS with the AWS Management Console, AWS Command Line Interface (AWS CLI), or APIs.\n\n\nMutual TLS for NLB is available in all AWS commercial and AWS GovCloud (US) Regions where NLB is available. To learn more, visit the[AWS Blog](https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-mtls-for-network-load-balancer/) and the NLB[User Guide.](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/mutual-authentication.html)",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:4ac5c46f629be1a1c8812d867c1f6301e582aed5e132a0b7ec2de4fd2a2ccede"
+}

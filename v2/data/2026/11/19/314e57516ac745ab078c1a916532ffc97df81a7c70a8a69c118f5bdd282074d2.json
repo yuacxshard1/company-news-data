@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "314e57516ac745ab078c1a916532ffc97df81a7c70a8a69c118f5bdd282074d2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants",
+  "title": "Amazon CloudFront simplifies domain moves and onboarding for SaaS Manager",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront simplifies domain moves and onboarding for SaaS Manager",
+  "body_markdown": "Amazon CloudFront now lets web development platforms and SaaS providers move a customer's domain to their platform in a single request with no downtime, and serve requests to the domain while the TLS certificate is being configured. The CloudFront multi-tenant distributions allow these platforms to serve many customer domains from one shared configuration. Together, these features help move existing AWS customers to multi-tenant distributions without impacting their traffic.\n\n\nPreviously, moving a domain that was already in use required disabling the original distribution, using a wildcard workaround, or contacting AWS Support. Now you can bring customer domains onto your multi-tenant setup as part of creating or updating a tenant. With the new OnDomainTakeover option, CloudFront checks domain ownership through DNS records and then moves one or more domains in a single request. This works within an AWS account or across accounts. If you add a domain before its certificate is issued, CloudFront serves it over HTTP until you attach a certificate. That gives you time to validate the domain with AWS Certificate Manager (ACM) or another certificate authority and attach the certificate once it's issued.\n\n\nThese features are available in all edge locations at no additional cost. To learn more, see[Move domains](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/alternate-domain-names-move-options.html) and[Domains without a certificate](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/tenant-domains-without-certificate.html) in the Amazon CloudFront Developer Guide.",
+  "published_at": "2026-11-19T20:22:00+00:00",
+  "first_seen_at": "2026-11-20T04:34:25.638369+00:00",
+  "content_hash": "sha256:8b877cdfa09477e567560354158afdf5ff4c25c12cd876af56e7ecf6a612385b"
+}
