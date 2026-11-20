@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "186fdb4c92538332cdb87722880c8ba0e289e5c9441ca5c22a2877fdd9fc5b82",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-elemental-mediatailor-dynamic-avail-sizing-live-hls",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-elemental-mediatailor-dynamic-avail-sizing-live-hls",
+  "title": "AWS Elemental MediaTailor adds Dynamic Avail Sizing for live HLS",
+  "summary": "Discover more about what's new at AWS with AWS Elemental MediaTailor adds Dynamic Avail Sizing for live HLS",
+  "body_markdown": "# AWS Elemental MediaTailor adds Dynamic Avail Sizing for live HLS\n\n\nPosted on: Nov 19, 2026\n\n\nAWS Elemental MediaTailor now supports Dynamic Avail Sizing, which reduces the slate viewers see when ad breaks, also called avails, in live HLS streams go unfilled. MediaTailor is a server-side ad insertion and channel assembly service that personalizes ads in live and on-demand video streams.\n\n\nWhen the ad decision server returns fewer ads than a break allows, dynamic avail sizing omits the unfilled time and resumes programming early instead of showing slate. To keep playback continuous, MediaTailor holds back a configurable reserve of content behind the live edge and draws on it when a break ends early. When the reserve runs low, MediaTailor requests extra ad time in later breaks to refill it. Free ad-supported streaming TV (FAST) channel operators can use dynamic avail sizing to keep viewers watching programming instead of filler content.\n\n\nCustomers turn on dynamic avail sizing for each playback session by adding query parameters to the session initialization URL, with no change to their playback configuration. To learn more, see[Dynamic avail sizing](https://docs.aws.amazon.com/mediatailor/latest/ug/dynamic-avail-sizing.html) in the AWS Elemental MediaTailor User Guide.\n\n\nDynamic avail sizing is available in all AWS Regions where AWS Elemental MediaTailor is available. For the full list of Regions, see the[AWS Regional Services List](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .",
+  "published_at": "2026-11-19T18:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:c4daa03da9110f7dfb800c4dc5787a8cee19cc75159373b5f151a296e1a2d280"
+}

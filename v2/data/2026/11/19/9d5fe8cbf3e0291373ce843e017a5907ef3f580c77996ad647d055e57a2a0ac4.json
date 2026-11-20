@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9d5fe8cbf3e0291373ce843e017a5907ef3f580c77996ad647d055e57a2a0ac4",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-health-supports-tags/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-health-supports-tags/",
+  "title": "AWS Health now supports resource and account tags",
+  "summary": "Discover more about what's new at AWS with AWS Health now supports resource and account tags",
+  "body_markdown": "AWS Health now supports resource and account tags in Health events. This new capability enables you to enrich Health events with resource tags and account tags, providing additional context to help you manage and respond to events more effectively.\n\n\nWith this feature, you can now view resource tags directly within Health events for supported AWS services. This allows you to quickly identify which resources are affected and understand their business context without needing to navigate to individual service consoles. Additionally, account-level tags help you categorize and filter events across your organization, making it easier to route notifications and automate responses based on your organizational structure.\n\n\nThis enhancement is particularly valuable for organizations managing large-scale AWS deployments. By leveraging tags in Health events, you can streamline incident response workflows, improve cost allocation tracking for health-related events, and enable more granular event filtering in AWS Health Dashboard and AWS Health API responses.\n\n\nThe feature integrates seamlessly with Amazon EventBridge, allowing you to create event-driven automation that responds to tagged resources and accounts. This enables sophisticated routing and handling of Health events based on tag values, supporting use cases such as automatically creating tickets in your IT service management system or sending targeted notifications to specific teams.\n\n\nTo enable tag enrichment, visit the[AWS Health Dashboard](https://health.console.aws.amazon.com/health/home?region=us-east-1#/account/configurations) or view the[AWS Health User Guide](https://docs.aws.amazon.com/health/latest/ug/health-tags.html) for more information.",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:118e64ace06ada58a0228ec5785ff8da54204825e7639defc8bab1baf9adef7c"
+}

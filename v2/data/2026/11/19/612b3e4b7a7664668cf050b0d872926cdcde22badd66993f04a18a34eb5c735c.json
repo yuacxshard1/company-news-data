@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "612b3e4b7a7664668cf050b0d872926cdcde22badd66993f04a18a34eb5c735c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-higher-write-throughput/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-higher-write-throughput/",
+  "title": "Amazon Aurora DSQL now delivers up to 50% higher write throughput",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora DSQL now delivers up to 50% higher write throughput",
+  "body_markdown": "With upgrades to its storage layer,[Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/) now delivers up to 50% higher write throughput for many transactional workloads. Data loads finish sooner, and tables whose primary key always increases, such as tables keyed by a timestamp, an identity column, or a time-ordered ID like ULID or UUIDv7, see even greater benefits.\n\n\nApplications such as audit logs, ledgers, and event feeds are read in time order, and keying them by time keeps those reads fast. You can now use that design for write-heavy tables too. In our tests, an audit log table keyed by event time accepted up to 200% more inserts per second.\n\n\nThe improvement is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Aurora DSQL is available, for new and existing clusters, at no additional cost. To learn more, see the[Aurora DSQL User Guide](https://docs.aws.amazon.com/aurora-dsql/latest/userguide/what-is-aurora-dsql.html) .",
+  "published_at": "2026-11-19T20:53:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:509170a2d536c55242d8c5215acfa7a9be46ccbb5d1e5d59a289ca0326bb0a65"
+}

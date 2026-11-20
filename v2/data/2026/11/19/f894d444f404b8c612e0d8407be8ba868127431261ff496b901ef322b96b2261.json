@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f894d444f404b8c612e0d8407be8ba868127431261ff496b901ef322b96b2261",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-plpgsql-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-plpgsql-support/",
+  "title": "Amazon Aurora DSQL now supports PL/pgSQL functions and procedures",
+  "summary": "Discover more about what's new at AWS with Amazon Aurora DSQL now supports PL/pgSQL functions and procedures",
+  "body_markdown": "[Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/) now supports PL/pgSQL, enabling developers to create and execute stored functions and procedures directly in the database. Amazon Aurora DSQL is a serverless, distributed SQL database designed for applications requiring active-active availability across multiple AWS Regions with fast reads and writes. You can now encapsulate procedural programming constructs such as IF/ELSE statements, loops, and variable assignments alongside SQL operations within the database.\n\n\nPL/pgSQL support reduces network round trips and improves application performance for data validation workflows, complex calculations, and transactional operations requiring multiple steps. Financial applications can implement account transfer procedures that validate balances, update multiple tables, and handle error conditions within a single database function.\n\n\nPL/pgSQL support is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Aurora DSQL is available. To learn more, see[PL/pgSQL](https://docs.aws.amazon.com/aurora-dsql/latest/userguide/working-with-plpgsql.html) in the Aurora DSQL User Guide.",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:e06d725c848dd40e1447624407384acc9f667682753c305032da8703a7dfd83d"
+}

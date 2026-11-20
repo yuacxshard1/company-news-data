@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "840fa7cd4dd87c1733333d793b9cee3395aea23afd6ee2a4b105e86e4b070885",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-security-analytics-dashboard/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-security-analytics-dashboard/",
+  "title": "AWS WAF launches new Security Analytics Dashboard for real-time investigations",
+  "summary": "Discover more about what's new at AWS with AWS WAF launches new Security Analytics Dashboard for real-time investigations",
+  "body_markdown": "AWS WAF now gives you one place to find and stop unwanted traffic across every application in your account. The new AWS WAF security analytics dashboard brings together traffic from all of your protection packs (web ACLs), whether they protect Regional resources or Amazon CloudFront distributions, into a single view. The dashboard also lets you search request logs right in the console, with no logging pipeline to build, and includes 21 days of full-fidelity request data at no additional cost. It is available alongside the existing dashboard for each protection pack (WebACL), which continues to work as it does today.\n\n\nUntil now, spotting a trend across your applications, such as a bot campaign hitting several endpoints or a spike in blocked requests, meant opening each web ACL in turn or individually querying AWS WAF logs. With the AWS WAF security analytics dashboard, you can analyze traffic data from every protection pack (WebACL) at once. You can filter and group traffic by dimensions such as client IP address, country, ASN, user agent, JA4 fingerprint, host, path, rule triggered, and labels. You can see which endpoints are affected and how traffic is changing across all of them. The data is full-fidelity rather than sampled, and filters apply across the whole dashboard.\n\n\nInvestigating individual requests has also required delivering AWS WAF logs to Amazon CloudWatch Logs, Amazon S3, or Amazon Data Firehose and writing queries. AWS WAF Security analytics dashboard includes a logs widget that lets you search and explore raw request logs in the console, down to the full HTTP request, with no log delivery to configure. When you find unwanted traffic, you can block an IP address or a country directly from the page. You can also filter by the labels that managed rules attach to requests to see what a rule in Count mode would block before you enforce it.\n\n\nThe AWS WAF security analytics dashboard is available at no additional cost in all commercial AWS Regions where AWS WAF is available. This feature is not available in the AWS GovCloud (US) Regions and China Regions. To get started, open the AWS WAF console and choose Security analytics in the navigation pane. To learn more, see the[AWS WAF Developer Guide](https://docs.aws.amazon.com/waf/latest/developerguide/web-acl-security-analytics.html) and[launch blog post](https://aws.amazon.com/blogs/security/introducing-the-new-aws-waf-security-analytics-dashboard/) .",
+  "published_at": "2026-11-19T18:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:31c59f7d8c2702e90abf60bbb1b248591e8712701dd2800b480f7db8dc3e5781"
+}

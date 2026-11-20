@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "15c7ae342eddc62e62a8af89ec4a4b5a0e88bd878b732f89072bb48062abb33a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-healthomics-nextflow-version-26-10/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-healthomics-nextflow-version-26-10/",
+  "title": "AWS HealthOmics now supports Nextflow version 26.10",
+  "summary": "Discover more about what's new at AWS with AWS HealthOmics now supports Nextflow version 26.10",
+  "body_markdown": "AWS HealthOmics now supports Nextflow version 26.10, which adds enhancements such as static typing, pipeline composition, and configurable report directories.[AWS HealthOmics](https://aws.amazon.com/healthomics/) is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows.\n\n\nIn Nextflow 26.10, static typing lets workflow developers declare types for parameters, inputs, and outputs, and the nextflow lint command reports type errors before any task is submitted. Pipeline composition lets developers include a statically typed pipeline from their workflow package and call it like a sub-workflow, so validated pipelines can be reused as building blocks. For example, you can include an alignment pipeline and a variant-calling pipeline in one workflow, and each sample moves to variant calling as soon as alignment finishes. Collection parameters can now be loaded directly from CSV, JSON, or YAML sample sheets into record types. Execution reports, timelines, and traces can be written to a directory inside the workflow output, and HealthOmics exports them with the run outputs.\n\n\nYou can use Nextflow 26.10 in the following AWS Regions: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), Israel (Tel Aviv), and Asia Pacific (Singapore, Seoul, Tokyo). To learn more, visit the[Nextflow version release notes](https://docs.aws.amazon.com/omics/latest/dev/nextflow-version-release-notes.html) documentation.",
+  "published_at": "2026-11-18T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:c2eacb74b38e9e4b782c98aaf79c70f6de25927d9fa09ce50e9e1a7627d8e27b"
+}

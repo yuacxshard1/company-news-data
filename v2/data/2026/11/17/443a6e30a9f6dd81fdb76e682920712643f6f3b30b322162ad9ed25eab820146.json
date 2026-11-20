@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "443a6e30a9f6dd81fdb76e682920712643f6f3b30b322162ad9ed25eab820146",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-serverless/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-serverless/",
+  "title": "Amazon EMR Serverless introduces Flex execution",
+  "summary": "Discover more about what's new at AWS with Amazon EMR Serverless introduces Flex execution",
+  "body_markdown": "Amazon EMR Serverless now supports Flex execution, a new option that reduces the cost of non-urgent Spark batch jobs by up to 60% by running them on spare compute capacity. With Flex, you enable a single configuration when submitting a job, with no changes to Spark scripts or job definitions.\n\n\nFlex execution is designed for workloads that have flexible completion requirements, such as nightly batch ETL, backfill jobs, and development or testing pipelines. Start and execution times of Flex jobs vary because spare compute resources may not always be available immediately and may be reclaimed during execution. To reduce the likelihood and impact of interruptions, EMR Serverless spans availability zones, diversifies across instance types, places the Spark driver on dedicated capacity to protect job state, and retries interrupted tasks through Spark's built-in fault tolerance. You can also use Flex execution with Serverless Storage to offload shuffle data, adding another layer of resilience where retried tasks can resume from stored intermediate results instead of recomputing previous stages. Regardless of the execution option, Spark jobs on EMR Serverless have the same capabilities, including AWS Lake Formation fine-grained access control, AWS Graviton-based workers, and AWS Glue Data Catalog integration. Flex workers are billed at Flex rates for vCPU-hours and memory GB-hours, while the Spark driver and storage are billed at Standard rates.\n\n\nAmazon EMR Serverless Flex execution is available on all EMR releases and in all AWS Regions where Amazon EMR Serverless is available, including the AWS GovCloud (US) Regions, except the China Regions. To learn more, see[Flex execution](https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/jobs-flex-execution.html) in the Amazon EMR Serverless User Guide and the blog post -[Introducing Amazon EMR Serverless Flex](https://aws.amazon.com/blogs/big-data/introducing-amazon-emr-serverless-flex-run-non-urgent-spark-jobs-at-a-discount/) . For pricing details, visit the[Amazon EMR pricing page](https://aws.amazon.com/emr/pricing/) .",
+  "published_at": "2026-11-17T22:48:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:793392fa76e22b7a6564ae0b151a628af3449054b7a99a617f7a065a66f068b8"
+}

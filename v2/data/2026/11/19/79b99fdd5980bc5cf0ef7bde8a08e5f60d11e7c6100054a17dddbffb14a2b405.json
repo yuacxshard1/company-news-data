@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "79b99fdd5980bc5cf0ef7bde8a08e5f60d11e7c6100054a17dddbffb14a2b405",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-monitors-endpoints/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-monitors-endpoints/",
+  "title": "Amazon SageMaker AI now detects rising response times, idle GPUs, and missed optimizations on your generative AI inference endpoints",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker AI now detects rising response times, idle GPUs, and missed optimizations on your generative AI inference endpoints",
+  "body_markdown": "Amazon SageMaker AI now monitors the response time and GPU use of generative AI inference endpoints by default and notifies customers when responses slow down, GPUs sit mostly idle, or a configuration falls behind. Customers run GenAI Inference Recommendations to test configurations designed to restore response time or lower cost on their recent traffic, and they see measured results before anything changes in production.\n\n\nThe best configuration for generative AI inference endpoints changes after deployment, as traffic shifts and new serving techniques become available. An endpoint whose latency rises or whose GPUs sit idle keeps running until users complain or the bill arrives.\n\n\nWith this launch, SageMaker AI tracks response time and GPU capacity use and checks each endpoint's configuration. It does not read customer requests or responses. Findings include slower response times, unused GPU capacity, and configuration gaps such as an older serving container, missing speculative decoding, or missing GPU kernel tuning. When a change holds across the past week or a configuration gap is found, customers receive one AWS Health notification per endpoint in the AWS Management Console.\n\n\nEach notification links to the SageMaker AI Agentic Experience in SageMaker Studio with the endpoint and recent traffic already filled in. Customers run Generative AI Inference Recommendations, which compares the current configuration and options on response time, traffic handled, and cost per million tokens. Tests leave the production endpoint untouched, and nothing changes until the customer applies a result. Customers can turn off monitoring anytime.\n\n\nThis capability is available in US East (N. Virginia, Ohio), US West (Oregon), Europe (Ireland, Frankfurt), Asia Pacific (Singapore, Tokyo) with no additional charge for monitoring. Standard compute costs apply for recommendation jobs. To learn more, visit the[blog post](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/) or the[documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints-improvement-notifications.html) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:ca9393514c150d4be55f051486088be31a81cdd0268a92a92897e6bd727b5fc3"
+}

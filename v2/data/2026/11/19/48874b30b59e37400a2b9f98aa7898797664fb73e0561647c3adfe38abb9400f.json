@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "48874b30b59e37400a2b9f98aa7898797664fb73e0561647c3adfe38abb9400f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-performance-status-checks/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-performance-status-checks/",
+  "title": "Amazon EC2 launches performance status checks and new utilization metrics for EC2 Detailed Monitoring",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 launches performance status checks and new utilization metrics for EC2 Detailed Monitoring",
+  "body_markdown": "Customers can now use Amazon EC2 performance status checks and new utilization metrics for EC2 Detailed Monitoring to observe and act on the performance of their EC2 workloads without setup within the instance, complementing their in-guest tooling. Customers running performance-sensitive EC2 workloads can use these signals to monitor their CPU and GPU resources, tune capacity needs, and troubleshoot application issues.\n\n\nEC2 performance status checks identify nonterminal hardware conditions that impact performance on accelerated computing instances. These checks also recommend an action, such as rebooting to complete GPU memory row remapping without replacing the instance. The additions to Detailed Monitoring include support for OpenTelemetry metrics, one-minute GPU metrics that help teams tune accelerated workloads, and a new, higher resolution 10-second CPU utilization metric that helps customers size and scale compute capacity using EC2 Application Auto Scaling. Customers can selectively opt into these new metrics using categories that they can easily apply to their instances across their fleet. Together, these new capabilities make it easier for customers to manage their compute resources.\n\n\nEC2 performance status checks are available at no additional charge. EC2 Detailed Monitoring metrics are opt-in and incur standard CloudWatch charges for EC2 Detailed Monitoring. These capabilities are available in all commercial AWS Regions and the AWS GovCloud (US) Regions.\n\n\nTo learn more, see[EC2 Detailed Monitoring documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/manage-detailed-monitoring.html) and[EC2 performance status checks documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring-system-instance-status-check.html) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:4d80403ee1afdde741c245f5a8141b987d3a939211eccdf18ccf368e1e63cd22"
+}

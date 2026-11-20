@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8b7d327870fa6fca29c7a7d16f245eb3215456da56108b62096fb4015fcc4b0c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-msk-connect-restart-existing-connectors",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-msk-connect-restart-existing-connectors",
+  "title": "Amazon MSK Connect now supports restarting existing connectors",
+  "summary": "Discover more about what's new at AWS with Amazon MSK Connect now supports restarting existing connectors",
+  "body_markdown": "[Amazon MSK Connect](https://aws.amazon.com/msk/features/msk-connect/) (Amazon Managed Streaming for Apache Kafka Connect) now supports restarting both existing and newly created connectors and their tasks in place, enabling fast recovery for streaming data pipelines.\n\n\nAmazon MSK Connect is a fully managed service that allows you to deploy, monitor, and scale Apache Kafka Connect connectors with Amazon MSK (Managed Streaming for Apache Kafka). Previously, recovering from failures required deleting and recreating the connector, resulting in downtime and operational overhead. With this feature, you can restart your connector and all its tasks in place, or selectively restart only the failed tasks, making recovery seamless. You can also restart connectors that have no failed tasks to recover from transient issues or to pick up changes in external systems or dependencies.\n\n\nThis restart capability is available at no additional cost through the Amazon MSK Console, AWS CLI, AWS SDK, and AWS CDK in all AWS Regions where Amazon MSK Connect is available. To learn more, visit the[Amazon MSK Connect documentation](https://docs.aws.amazon.com/msk/latest/developerguide/mskconnect.html) . To get started, visit the[Amazon MSK Console](https://console.aws.amazon.com/msk) .",
+  "published_at": "2026-11-19T16:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:d6c9465cf684f8c881b8dbcec41929567a8e3adcb542e84bbe9e868ee2accf71"
+}

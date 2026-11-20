@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b40745ebd477796c57e01283d30b304c4412b698703c6b43343b99ebb92dc0e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gmail-api-scopes-quotas-and-error-codes-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/gmail-api-scopes-quotas-and-error-codes-2026-guide",
+  "title": "Gmail API: Scopes, Quotas and Error Codes (2026 Guide)",
+  "summary": "The Gmail API lets you read, send and manage emails through code. You'll understand OAuth setup, quotas and how to fix common errors.",
+  "body_markdown": "## Call the Gmail API without code in Activepieces\n\n\nWherever a workflow sends, reads or labels mail on a trigger, Activepieces fits, because its Gmail integration handles the request plumbing for you. It doesn't remove the Google OAuth consent or the quota limits underneath.\n\n\n> A retried send can deliver twice, so record each send before you retry it.\n\n\nA send that fails once can still be retried and delivered twice, so the duplicate-send record from the previous section belongs in the workflow too.\n\n\nThe screenshot shows a failed run in the Activepieces builder. A Google Calendar event trigger feeds a Gmail Send Email action, and the run stops with a 403 for insufficient authentication scopes.\n\n\nThe right panel shows the Gmail connection chosen for that step, and the left panel holds the error output.\n\n\nThe lesson: the connection was authorised without the scope that sending needs, and the builder can't fix that for you. Someone has to reconnect with the right permission.\n\n\n### What the Gmail integration covers\n\n\nThe integration has a new-email trigger, a send-email action and a custom API call action. Those cover the common jobs: start a flow when mail arrives, send a message from a flow, and label or read mail through the third action.\n\n\nEach step uses a connection, and that connection holds the Google token. So ask first who owns it. If it belongs to one person's account, the workflow stops working when that person leaves or revokes access.\n\n\n### Call any Gmail API endpoint with custom HTTP\n\n\nWhen no ready-made action exists, the custom API call lets you send a request to a Gmail endpoint using the same connection. You supply the method, the path and the body, as you would in code.\n\n\nStep outside the scopes granted at connection time and you get the same 403 as in the screenshot, because those scopes still decide what Google will accept. Choose scopes before building the flow, not after the first failed run.\n\n\nIf you need your own retry and backoff behaviour, per-user quota handling across many mailboxes, or a send record checked before every retry, stay with code.\n\n\nA visual flow gives you less control over those. For a single mailbox with modest volume, the workflow is enough.",
+  "published_at": "2026-11-19T17:08:29+00:00",
+  "first_seen_at": "2026-11-19T22:39:14.147622+00:00",
+  "content_hash": "sha256:547dd5e7383536d042ec923ee200b71e3ac86c555dfa9891fa0c8293d2e6adbb"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ebc91a7bad19bd8a10e5accf481de66cb1078841382265b0835bbd4641b9ec31",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/revenue-measurement-account-tagging/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/revenue-measurement-account-tagging/",
+  "title": "AWS Revenue Measurement now supports Account Tagging for SaaS Products",
+  "summary": "Discover more about what's new at AWS with AWS Revenue Measurement now supports Account Tagging for SaaS Products",
+  "body_markdown": "AWS Revenue Measurement (previously Partner Revenue Measurement) provides measurement of AWS consumption driven by Partner solutions. Today, AWS announces Account Tagging for SaaS Products for AWS Revenue Measurement. Partners can now measure the AWS revenue impact of their SaaS solutions by tagging the AWS accounts that host them, instead of tagging individual resources.\n\n\nUntil now, Partners with SaaS listings measured that impact through Resource Tagging, User Agent strings, or AWS Marketplace Metering. With Account Tagging for SaaS products, a Partner uses AWS Organizations to tag partner-owned member accounts dedicated to a single SaaS product. The tag key is aws-apn-id-<partner-central-aws-account-id> and the tag value is pc:<AWS Marketplace product-code>. AWS Revenue Measurement then attributes all eligible AWS consumption in each tagged account to that product.\n\n\nAccount Tagging for SaaS Products is available for products with a SaaS listing on AWS Marketplace. Each tagged account must be dedicated to one product. Partners whose products share an account can continue to use Resource Tagging, User Agent string, or Identity Tagging. AWS Revenue Measurement is generally available in all commercial regions. To learn more about implementing AWS Revenue Measurement, review the[onboarding guide](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html) for more information.",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:c25a64fe4d69fff5cdaeacb2d6f216c91786e6d70053f38fe75043c7adf27d60"
+}

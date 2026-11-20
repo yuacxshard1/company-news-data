@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9df9b777a7970f6ad3d8c0fdff62f9932eea950f3f2e4d9d1137051182437fc6",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/revenue-measurement-identity-tagging/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/revenue-measurement-identity-tagging/",
+  "title": "AWS Revenue Measurement now supports Identity Tagging",
+  "summary": "Discover more about what's new at AWS with AWS Revenue Measurement now supports Identity Tagging",
+  "body_markdown": "AWS Revenue Measurement (previously Partner Revenue Measurement) provides measurement of AWS consumption driven by Partner solutions. Today, AWS announces Identity Tagging in AWS Revenue Measurement, a new way for Partners to get attributed revenue visibility for the AWS usage their solutions drive. Partners can now tag the IAM user or role their solution uses instead of tagging individual resources or decorating individual SDK/API calls. This makes attribution simpler and needs no code changes.\n\n\nUntil now, Partners using Resource Tagging had to apply tags to each resource their solution created or managed. That could be hard to keep consistent across customer environments. With Identity Tagging, Partners apply a tag to the IAM role or user their solution uses in the AWS account. AWS Revenue Measurement then attributes usage from resources created by that identity to the Partner's product. Identity Tagging works alongside existing methods such as Resource Tagging, User Agent string, and SaaS Account Tagging, so Partners can pick the method that best fits their architecture.\n\n\nAWS Revenue Measurement is generally available in all commercial regions. To learn more, review the AWS Revenue Measurement[onboarding guide](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:4cf929355bab5ebb40b1d777b8fbec1fa2fec7e6ff7a0a9054dba447ce515998"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c29c268aa29b79dfc1ff2dfea362c699edb27ebc687eff21d27853b9139b12cc",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/",
+  "title": "AWS Marketplace now supports agentic payments with AgentCore",
+  "summary": "Discover more about what's new at AWS with AWS Marketplace now supports agentic payments with AgentCore",
+  "body_markdown": "AWS Marketplace now supports agentic payments over the x402 protocol, so AI agents can discover and buy select products and pay per request in US dollars through AgentCore payments, part of Amazon Bedrock AgentCore. Agents often need paid APIs, data, or content mid-task, but access usually requires a person to sign up, add a payment method, and create an API key. With agentic payments, customers skip that per-seller setup, and charges settle on their existing AWS bill with no crypto wallet required.\n\n\nCustomers enable the AWS Marketplace payment connector in AgentCore payments, then they or their agents find listings through the AWS Marketplace connector in AgentCore Gateway. For example, a research agent can buy a single web search, or a coding agent can call a paid guardrail service. Customers can set spending limits, approved sellers, and guardrails before agents transact, Private Marketplace policies still apply, and transactions appear in AWS CloudTrail and AWS Cost Explorer.\n\n\nAWS Marketplace sellers can charge AI agents per request without building a sign-up flow or billing system. They register with AWS Marketplace, configure agentic payments for their listings, and integrate the[AWS Marketplace x402 SDK](https://github.com/aws/fiat-extension-for-x402/blob/main/docs/sdk-guide.md) . AWS Marketplace collects customer payments and pays sellers through their AWS Marketplace seller disbursements, like other AWS Marketplace transactions.\n\n\nThe capability is available in all AWS Regions where AgentCore payments is available. To learn more, see[AWS Marketplace](https://aws.amazon.com/marketplace/solutions/ai-agents-and-tools?ams%23interactive-card-vertical%23pattern-data-843993407.filters=((id:GLOBAL%23local-tags-aws-marketplace-agentic-ai-x402-support.and,value:(x402-support)))) and the[Amazon Bedrock AgentCore Developer Guide](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/payments-process-payment.html) . To list as a seller, see the[AWS Marketplace Seller Guide.](https://docs.aws.amazon.com/marketplace/latest/userguide/agentic-commerce-products.html)",
+  "published_at": "2026-11-19T21:30:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:48dc526755a6dcec833e5ba70ec87bbd6f2257624a337907e796395c64d26126"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "84766f0dd254f247f1c9b7731184200a2caf34add00599973c37a80fc63008f2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-elevated-privileges/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-elevated-privileges/",
+  "title": "AgentCore runtime instances now support privileged mode",
+  "summary": "Discover more about what's new at AWS with AgentCore runtime instances now support privileged mode",
+  "body_markdown": "Amazon Bedrock AgentCore[runtime instances](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-instances.html) now support privileged mode, which lets your agents install system-level software and run nested containers. Runtime instances run your agents on Amazon EC2 instances while AgentCore handles provisioning, patching, scaling, and lifecycle management.\n\n\nYou turn on privileged mode when you create or update an agent runtime that runs on runtime instances. For example, a coding agent can start its service dependencies, such as Postgres and Redis, as containers and run its integration tests against them. A code-modernization agent can install the compilers and libraries that a migration needs. A session that runs a privileged agent runs only that agent, so elevated privileges stay with one agent on its instance. Agents that don't use privileged mode keep the default standard mode, so existing agents don't change. Standard mode suits most agents. Use privileged mode only if your agent needs to install system-level software or run containers.\n\n\nPrivileged mode is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AgentCore runtime instances are available.\n\n\nTo get started, see the following resources:\n\n\n- [Configure the privilege mode for runtime instances](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-instances-privilege-mode.html) in the Amazon Bedrock AgentCore Developer Guide\n- [AgentCore pricing](https://aws.amazon.com/bedrock/agentcore/pricing/)",
+  "published_at": "2026-11-18T07:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:a252bc340d0bd30a384b2cc7bd7fd81531f0bad0aa7426d94ef38a81f37f8dd1"
+}

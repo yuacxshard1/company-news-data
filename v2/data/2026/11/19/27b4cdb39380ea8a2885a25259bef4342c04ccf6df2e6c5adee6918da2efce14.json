@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "27b4cdb39380ea8a2885a25259bef4342c04ccf6df2e6c5adee6918da2efce14",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-nested-virtualization/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-nested-virtualization/",
+  "title": "Amazon WorkSpaces now lets developers enable Nested Virtualization",
+  "summary": "Discover more about what's new at AWS with Amazon WorkSpaces now lets developers enable Nested Virtualization",
+  "body_markdown": "Developers on Amazon WorkSpaces Personal can now turn on Nested Virtualization for their own WorkSpaces from the Windows WorkSpaces client, without asking an administrator to make each change. Once an administrator grants self-service permission for the directory, developers can run Docker Desktop, Windows Subsystem for Linux (WSL2), and Android emulators directly on their WorkSpaces.\n\n\nAdministrators can now grant a directory-level self-service permission for Nested Virtualization. Once granted, end users can turn the setting on or off for their own Windows WorkSpace from the WorkSpaces client. Administrators keep control because the permission is set per directory.\n\n\nSelf-service is supported on WorkSpaces Personal, using the Desktop Cloud Visualization (DCV) protocol, on Standard bundles and higher. Power (4 vCPU) or higher is recommended. Value and Graphics bundles are not supported. Nested virtualization is available in all AWS Regions where Amazon WorkSpaces is available, excluding the China (Ningxia) Region. There is no additional charge for supported bundles. For more information, visit the[Amazon WorkSpaces documentation on Nested Virtualization](https://docs.aws.amazon.com/workspaces/latest/adminguide/nested-virtualization.html) . For pricing, visit the[Amazon WorkSpaces pricing page](https://aws.amazon.com/workspaces/pricing/) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:22c3e32295e5a5145b68dc39e30fca0f849478477fa62b858af3662ad833d654"
+}

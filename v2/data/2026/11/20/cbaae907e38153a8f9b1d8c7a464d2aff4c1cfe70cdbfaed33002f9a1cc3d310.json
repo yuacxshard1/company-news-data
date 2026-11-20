@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cbaae907e38153a8f9b1d8c7a464d2aff4c1cfe70cdbfaed33002f9a1cc3d310",
+  "company_key": "apple",
+  "company_name": "Apple",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "html",
+  "url": "https://machinelearning.apple.com/research/differentially-private-selection",
+  "canonical_url": "https://machinelearning.apple.com/research/differentially-private-selection",
+  "title": "Complexity of Differentially Private Selection via Federated APIs",
+  "summary": "Differential privacy (DP) has become the standard for privacy-preserving data analysis, yet its practical implementation in federated or…",
+  "body_markdown": "[View publication](https://arxiv.org/abs/2610.38789)\n\n\nDifferential privacy (DP) has become the standard for privacy-preserving data analysis, yet its practical implementation in federated or distributed settings often faces a significant utility gap compared to the central model. While existing frameworks, including local, shuffle, and secure aggregation models, offer vetted primitives, they can incur high error for important tasks such as selection. Our first contribution is to show that this is inherent in the aggregation model: any private selection algorithm relying on the standard noisy aggregation primitive requires Ω(d/ϵ)Ω(\\\\sqrt{d} / \\\\epsilon)\n\n\nΩ\n\n\n(\n\n\nd\n\n\n​\n\n\n/\n\n\nϵ\n\n\n)\n\n\nsamples. To address this limitation, we propose adding a new primitive that implements a version of the *Sparse Vector Technique* (SVT) and argue that it has simple implementations under various trust models. We demonstrate its power by developing an εε\n\n\nε\n\n\n-differentially private algorithm for the selection problem. For selection in dimension dd\n\n\nd\n\n\n, our algorithm achieves an additive error of O(log⁡(dn)ε)O\\\\left(\\\\frac{\\\\log(dn)}{\\\\varepsilon}\\\\right)\n\n\nO\n\n\n(\n\n\nε\n\n\nl\n\n\no\n\n\ng\n\n\n(\n\n\nd\n\n\nn\n\n\n)\n\n\n​\n\n\n)\n\n\n, matching that of the central model when nn\n\n\nn\n\n\nis polynomially bounded in dd\n\n\nd\n\n\n. Furthermore, we show that this can be done using a near-optimal expected number O(dlog⁡∗d)O(d \\\\log^* d)\n\n\nO\n\n\n(\n\n\nd\n\n\nlo g\n\n\n∗\n\n\nd\n\n\n)\n\n\nof SVT queries. Together with existing lower bounds for the shuffle model, this result establishes an exponential separation between the SVT model and shuffle or aggregation-based models. We demonstrate the model’s broad applicability to diverse tasks such as FpF_p\n\n\nF\n\n\np\n\n\n​\n\n\nloss minimization, heavy-hitter identification, and sparse mean estimation.\n\n\n- † Anthropic; work done while at UC Berkeley\n- ‡ Northeastern\n- § Texas A&M University",
+  "published_at": null,
+  "first_seen_at": "2026-11-20T02:46:50.885578+00:00",
+  "content_hash": "sha256:b252a0da3ca27b2007d35a4f9c62c64ed7fdcca37a8dcf5b525b91a37ccfe980"
+}

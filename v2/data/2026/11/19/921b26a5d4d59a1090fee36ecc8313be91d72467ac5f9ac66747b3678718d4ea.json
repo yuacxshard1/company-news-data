@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "921b26a5d4d59a1090fee36ecc8313be91d72467ac5f9ac66747b3678718d4ea",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+  "title": "Amazon Route 53 now supports health checks for private endpoints",
+  "summary": "Discover more about what's new at AWS with Amazon Route 53 now supports health checks for private endpoints",
+  "body_markdown": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind internal load balancers or in private subnets, to use native health monitoring and automatic DNS failover. Customers can health-check any reachable private target by IP address, domain, or port over HTTP, HTTPS, or TCP. Customers can associate these health checks with Route 53 DNS records across routing policies in private hosted zones, so Route 53 routes traffic only to healthy endpoints and manages failover automatically.\n\n\nPreviously, teams built custom control loops using Amazon CloudWatch alarms, AWS Lambda functions, and the Route 53 API to achieve DNS failover for private resources. With t\n\n\nhis approach\n\n\n, failover took several minutes and added\n\n\noperational\n\n\nburden. Detection and DNS failover with Private Endpoint Health Checks are designed to complete in seconds rather than\n\n\nminutes,\n\n\nthe service is fully managed, and nothing is exposed to the public internet.\n\n\nThe feature supports on-premises and hybrid endpoints reachable from the VPC over AWS Direct Connect or AWS Site-to-Site VPN, enabling resilience patterns such as active-passive disaster recovery and cross-Region DR over AWS Transit Gateway or AWS Cloud WAN. Amazon Route 53 Private Endpoint Health Checks is available today in all AWS commercial regions. To learn more, visit the\n\n\n[Amazon Route 53 Developer Guide](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/health-checks-private-endpoints.html) and the\n\n\n[Route 53 pricing page.](https://aws.amazon.com/route53/pricing/)",
+  "published_at": "2026-11-19T19:50:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:b9509faeecd507b5f98b1a9ed908a446fe6f87f9ad0fdb12cb3e2c179ec236a5"
+}

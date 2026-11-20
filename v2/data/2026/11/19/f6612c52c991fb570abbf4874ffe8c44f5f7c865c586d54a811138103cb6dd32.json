@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f6612c52c991fb570abbf4874ffe8c44f5f7c865c586d54a811138103cb6dd32",
+  "company_key": "yc-oneleet",
+  "company_name": "Oneleet",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.oneleet.com/blog/ruby2shell-cve-2026-132825",
+  "canonical_url": "https://www.oneleet.com/blog/ruby2shell-cve-2026-132825",
+  "title": "Ruby2Shell (CVE-2026-132825): affected versions, how to check, and how to fix it",
+  "summary": "Ruby2Shell is a Ruby heap overflow reachable without login in default Rails and Sinatra apps. Check affected versions, GitLab, and how to fix it.",
+  "body_markdown": "ID\n\n\nWhat it is\n\n\nRuby's rating\n\n\nRuby says its private PoCs reach\n\n\nCVE-2026-132825 / GHSA-34m4-m9fh-gqp5 (\"Ruby2Shell\")\n\n\nHeap overflow in String case conversion (ß)\n\n\nCritical\n\n\nRCE\n\n\nGHSA-87fm-7w84-j2px\n\n\nInteger overflow to heap overflow in case conversion\n\n\nHigh\n\n\nRCE\n\n\nGHSA-7x2q-68qv-6p8x\n\n\nDouble free when compiling a regexp with` &&`\n\n\nCritical\n\n\nRCE\n\n\nGHSA-3p8q-wmhx-vm2w\n\n\nInteger overflow to heap overflow when compiling a regexp\n\n\nCritical\n\n\nRCE\n\n\nGHSA-7whj-cfh7-xgm4\n\n\nHeap overflow in` Regexp#to_s`\n\n\nHigh\n\n\nRCE\n\n\nGHSA-wpqw-5qxg-m68r\n\n\nOut-of-bounds read in case-insensitive matching\n\n\nHigh\n\n\nMemory corruption\n\n\nGHSA-pvgc-g7gj-pv6h\n\n\nOut-of-bounds read in case-insensitive backreferences\n\n\nMedium\n\n\nNot stated",
+  "published_at": "2026-11-19T15:41:00+00:00",
+  "first_seen_at": "2026-11-20T00:31:50.535095+00:00",
+  "content_hash": "sha256:68c6f09fed1ddae9940e66428dbe8ffd066b6eb110e0b9e81f1ae496febc6e43"
+}

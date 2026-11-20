@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "19c8f8b03090fdf0efcfa4ff0ecfb1dd8254c3b80a04ca7534a1f2079c736356",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/license-manager-hybrid-ad-support/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/license-manager-hybrid-ad-support/",
+  "title": "AWS License Manager now supports AWS Managed Microsoft AD (Hybrid Edition)",
+  "summary": "Discover more about what's new at AWS with AWS License Manager now supports AWS Managed Microsoft AD (Hybrid Edition)",
+  "body_markdown": "[AWS License Manager](https://aws.amazon.com/license-manager/) now supports[AWS Managed Microsoft AD (Hybrid Edition)](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/aws-hybrid-directory.html) , so you can use your existing Microsoft Active Directory (AD) to manage user-based subscriptions for Microsoft Office, Visual Studio, and Remote Desktop Services Subscriber Access License (RDS SAL). Hybrid Edition, a feature of AWS Directory Service for Microsoft Active Directory, extends your existing directory into AWS. License Manager now works with that directory directly, so you no longer need to bear the cost of duplicating and maintaining the directory in AWS for licensing.\n\n\nPreviously, onboarding Microsoft user-based subscriptions required a trust relationship between your directory and a second directory in AWS. If your security policies didn't allow that trust, you couldn't onboard without changing those policies. Now, license-included Microsoft Office and Visual Studio instances that you launch on Amazon Elastic Compute Cloud (Amazon EC2) join your existing directory and apply the same Group Policy settings, such as security baselines and audit policies, so you don't need to recreate them in a second directory.\n\n\nThis feature is available in[all AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AWS License Manager user-based subscriptions and AWS Managed Microsoft AD (Hybrid Edition) are available. To learn more, see the[AWS License Manager User Guide](https://docs.aws.amazon.com/license-manager/latest/userguide/user-based-subscriptions.html) , or get started in the[AWS License Manager console](https://us-east-1.console.aws.amazon.com/license-manager/home?region=us-east-1#/) .",
+  "published_at": "2026-11-19T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:ecda6a371e515cf6cc6950715f466631777cf86f8d72a8ef456001000a9803e2"
+}

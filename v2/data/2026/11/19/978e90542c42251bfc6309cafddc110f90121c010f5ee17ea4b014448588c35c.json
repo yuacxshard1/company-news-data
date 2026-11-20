@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "978e90542c42251bfc6309cafddc110f90121c010f5ee17ea4b014448588c35c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-appconfig-native-ai-model-invocation-prompt-configurations/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-appconfig-native-ai-model-invocation-prompt-configurations/",
+  "title": "AWS AppConfig launches support for managing native AI model and AI prompt configuration",
+  "summary": "Discover more about what's new at AWS with AWS AppConfig launches support for managing native AI model and AI prompt configuration",
+  "body_markdown": "# AWS AppConfig launches support for managing native AI model and AI prompt configuration\n\n\nPosted on: Nov 19, 2026\n\n\nToday, AWS AppConfig introduces two new configuration profile types to help you manage the settings for your generative AI applications: AI model invocation configurations, and AI prompt configurations. You can now change model settings and prompts while your application is running, without redeploying code. These updates use AWS AppConfig's safe deployment practices, including gradual rollouts and automatic rollback. This can allow you to move faster and safer, and avoid unexpected behaviors and tokenomics results with rapidly evolving AI solutions.\n\n\nAI model invocation configurations store the settings your application uses to call an AI model. These include the model identifier, inference parameters such as temperature and maximum tokens, and messages such as system prompts and example conversation turns. Provider-specific options are managed in custom parameters, so the same schema works across AI providers. Similarly, AI prompt configurations store prompts as separately versioned artifacts. You can update and optimize a prompt on its own,without changing the model configuration, and reuse it across multiple applications. This allows for powerful prompt engineering.\n\n\nYou can roll out a change to these gradually, for example to 10%, then 20%, then 30% of your traffic. Along the way, you can measure the change's effect on operational metrics, customer experience, and token usage. If an alarm in Amazon CloudWatch, Datadog, New Relic, or another observability solution goes off during the rollout, AWS AppConfig can automatically roll the change back to the previous state.\n\n\nAI model invocation and AI prompt configurations are available today in all AWS Regions where AWS AppConfig is available, at no additional cost. To get started, see[Creating an AI model invocation configuration profile](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-creating-ai-model-configuration.html) and[Creating an AI prompt configuration profile](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-creating-ai-prompt-configuration.html) in the AWS AppConfig User Guide.",
+  "published_at": "2026-11-19T05:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:1baa37ccbad4730cdcb9b35e55f876a7f091b12fcdcc58ae5ab7ffc0b43a0f68"
+}

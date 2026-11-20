@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "41f0f0ad277f0c7e205289b565b2fd8f518be15d91224f34e246172ec144ec1f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/braket-new-device-state/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/braket-new-device-state/",
+  "title": "Amazon Braket adds PAUSED device status",
+  "summary": "Discover more about what's new at AWS with Amazon Braket adds PAUSED device status",
+  "body_markdown": "Amazon Braket now offers a new device status, PAUSED, to give customers clear and actionable information on when they can submit quantum tasks and hybrid jobs and when those tasks and jobs will run. Device status now tells you:\n\n\n- ONLINE: The device is accepting quantum tasks and hybrid jobs and is actively processing them during its availability window.\n- (New) PAUSED: The device is accepting quantum tasks and hybrid jobs but isn't processing them right now, because it is outside its availability window, in short-term maintenance, or in a reservation. Tasks and jobs you submit stay QUEUED and run once the device is ONLINE.\n- OFFLINE: The device is unavailable and isn't accepting new quantum tasks or hybrid jobs, for example due to scheduled maintenance, upgrades, or operational issues.\n- RETIRED: The device has been permanently decommissioned and is no longer available on Amazon Braket.\n\n\nWhen a device is PAUSED, a Status Reason is provided with additional information on why it's paused, when the status began, and an estimated end time if one is available. You can view device status on the[Devices page](https://us-east-1.console.aws.amazon.com/braket/home?region=us-east-1#/devices) in the Amazon Braket console, or programmatically with the GetDevice and SearchDevices APIs or the Amazon Braket SDK. For example, the GetDevice API will return one of the following status reasons for PAUSED state: OUTSIDE_AVAILABILITY_WINDOW, MAINTENANCE, or RESERVATION.\n\n\nAmazon Braket is available in the US East (N. Virginia), US West (N. California), US West (Oregon), Europe (London), and Europe (Stockholm) AWS Regions. To learn more, see the[Amazon Braket Developer Guide](https://docs.aws.amazon.com/braket/latest/developerguide/braket-task-when.html) .",
+  "published_at": "2026-11-18T08:00:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:afa279fbc67b136477a1946c6f7372f9023b0eb1a23380233e8c76057498c255"
+}

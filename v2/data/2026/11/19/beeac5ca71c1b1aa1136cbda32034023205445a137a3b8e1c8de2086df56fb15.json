@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "beeac5ca71c1b1aa1136cbda32034023205445a137a3b8e1c8de2086df56fb15",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-stacksets-progress/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-stacksets-progress/",
+  "title": "AWS CloudFormation StackSets adds progress visibility to simplify tracking deployments at scale",
+  "summary": "Discover more about what's new at AWS with AWS CloudFormation StackSets adds progress visibility to simplify tracking deployments at scale",
+  "body_markdown": "[AWS CloudFormation StackSets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-concepts.html) now shows stage-by-stage progress for deployments across accounts and AWS Regions, whether you target tens of accounts or thousands. You can follow each deployment as it progresses and take action when needed, without waiting for it to finish. StackSets lets you consistently apply the same infrastructure or application components, such as networking and security settings, across many accounts and Regions in one operation. With this launch, you can see how many stack instances are deployed, how many remain, and which ones need attention. This gives you confidence that a rollout is on track at every stage.\n\n\nStage-level progress gives you a clear, detailed view of where each deployment stands. Previously, a StackSets deployment showed an overall status while it ran. Now, StackSets also reports progress for two stages. The first is role provisioning, which prepares access in each target account of a service-managed stack set. The second is stack deployment, which deploys your template as a stack instance in each account and Region. For example, in a deployment to 2,000 accounts in 3 Regions, you can see that role provisioning is complete and stack deployment has reached 40 percent, with 2,400 stack instances completed and 3,600 pending. Progress for each Region and the result of each stage remain available after the deployment completes.\n\n\nTo get started, open the Progress view for a stack set operation in the CloudFormation console, or use the AWS CLI or AWS SDKs. Existing integrations continue to work without changes. Visit the[StackSets documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-concepts.html#stackset-operation-progress) to learn more.\n\n\nDeployment progress is available at no additional charge in all AWS Regions where CloudFormation StackSets is supported. Refer to the[AWS Region table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) for service availability details.",
+  "published_at": "2026-11-19T00:45:00+00:00",
+  "first_seen_at": "2026-11-19T22:39:59.612021+00:00",
+  "content_hash": "sha256:6d373b069d67d1ba1819968644216a65797b212ced4305dbb57a732ad3a1e65e"
+}
