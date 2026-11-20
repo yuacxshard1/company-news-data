@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "981fbef700bb826248d64f9717254d3ab6a8654e7702d4c1ffd21e5e9a15881d",
+  "company_key": "unity-software-inc-common-stock",
+  "company_name": "Unity Software Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://unity.com/blog/video-game-controls-phone-or-computer",
+  "canonical_url": "https://unity.com/blog/video-game-controls-phone-or-computer",
+  "title": "Phone or computer? How to plan your video game controls",
+  "summary": "Plan video game controls for phone and computer in six steps, from mapping actions to testing on real devices, before your first Unity Spark prompt.",
+  "body_markdown": "### **2. Match each device to your actions**\n\n\nEvery device is good at some things and awkward at others. Your players will most likely use one of two setups: a phone, where they touch the screen, or a computer (a desktop or laptop), where they use a keyboard and a mouse or trackpad.\n\n\nOn a phone, players control your game by touching the screen. Touch works best for taps, drags, and short sessions. Thumbs also cover part of the screen, so give them room. The[Xbox Accessibility Guidelines](https://learn.microsoft.com/en-us/gaming/accessibility/xbox-accessibility-guidelines/107) suggest making each on-screen button, called a touch target, at least 15 mm square on a phone, and spacing buttons far enough apart that players don’t hit the wrong one. Leave a little empty space around each one so a slip doesn’t trigger its neighbor. Also, consider supporting both portrait (held upright) and landscape (held sideways) play, because some players mount their phones in a fixed position.\n\n\nOn a desktop or laptop, players use a keyboard and a mouse, or a trackpad, the touch-sensitive pad below a laptop keyboard. A keyboard gives you plenty of keys, and a mouse points precisely, which suits games with many actions or fast aiming. Keyboards also ask more of players, who must learn where each key sits, so keep your list of keys short. Some players can’t use a mouse, so offer a keyboard option for anything you ask a mouse to do. Many laptop players use a trackpad instead of a mouse, so avoid actions that demand fast, precise pointer movement.\n\n\nA controller, also called a gamepad, is optional here. It’s the handheld device with thumbsticks, the two small joysticks, and buttons that console players use, and it can connect to a phone or a computer. Players need to own one and set it up first, so treat controller support as a bonus, not a requirement. If you do support one, avoid designs that need both thumbsticks, the two small joysticks, at once. According to the Xbox guidelines, even shooters can offer a single-stick option.",
+  "published_at": "2026-11-20T00:00:00+00:00",
+  "first_seen_at": "2026-11-20T17:48:57.101422+00:00",
+  "content_hash": "sha256:bb8aef33bb431f7ae93618d0898f2a946922894d52dade9d4b2d30f602236c7e"
+}

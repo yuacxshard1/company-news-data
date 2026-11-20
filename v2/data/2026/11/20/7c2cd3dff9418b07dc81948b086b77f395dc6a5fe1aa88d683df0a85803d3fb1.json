@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7c2cd3dff9418b07dc81948b086b77f395dc6a5fe1aa88d683df0a85803d3fb1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/malwarebytes-pricing-and-plans-costs-by-device-2026",
+  "canonical_url": "https://www.activepieces.com/blog/malwarebytes-pricing-and-plans-costs-by-device-2026",
+  "title": "Malwarebytes Pricing and Plans: Costs by Device (2026)",
+  "summary": "Malwarebytes pricing varies by plan and billing cycle. Compare plans to understand the actual costs and pick one that fits your security needs.",
+  "body_markdown": "## Track Malwarebytes Renewals with Activepieces\n\n\nDon't expect Activepieces, an MIT-licensed automation tool, to make Malwarebytes cheaper. It makes sure you're never surprised by what you already agreed to pay, which is the cheapest saving available once you've decided to stay.\n\n\nThe free plan is $0 with unlimited flows and 1,000 credits a month, and a run costs 1 credit however many steps it has.\n\n\nRead the flow left to right. It starts from a spreadsheet where you keep one row per license: renewal date, plan, seats purchased, devices in use.\n\n\nActivepieces reads that sheet on a schedule, checks the renewal date, compares devices in use against the cap, and then posts a Slack message and sends an email to whoever owns IT, with 750 integrations to choose the sheet, chat and mail tools from.\n\n\nNothing here talks to Malwarebytes itself.\n\n\n### Renewal and auto-renewal\n\n\nA set number of days before each renewal, the date check fires, so the IT owner has time to decide, not just to be billed. That window's where renewal pricing gets challenged or a rival gets priced.\n\n\nIf nobody sees the date, the card is charged at the renewal rate, and that rate's the one this article says to buy on.\n\n\nAfter the date comes the second check, which compares devices in use against what the plan covers. A row over the cap gets flagged, which means you buy the extra capacity deliberately instead of discovering it when a laptop quietly goes unprotected.\n\n\n### Malwarebytes features locked to higher tiers\n\n\nAdd a column for the tier each license sits on and the feature someone asked for. When a request needs something the current tier lacks, the alert can say so, and you price the upgrade against a rival before approving it.\n\n\nIt can't tell you which tier has what; the tool only surfaces the mismatch, so that column is yours to fill from the vendor's page.\n\n\nTrack add-ons and support as their own rows with their own renewal dates. They often renew on a different cycle from the base license, and they're the lines that slip through unreviewed.",
+  "published_at": "2026-11-20T10:41:44+00:00",
+  "first_seen_at": "2026-11-20T17:18:27.693500+00:00",
+  "content_hash": "sha256:f06cff1885af24dae403d543ac9da76d0c6af31152f7e5476a760ee99c22a3d6"
+}
