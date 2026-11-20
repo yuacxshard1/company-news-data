@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c7dd7c767e18a78e286cad10c90c3987cd956231b64fc0344f0e455b207e741e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/zendesk-api-authentication-and-creating-a-ticket",
+  "canonical_url": "https://www.activepieces.com/blog/zendesk-api-authentication-and-creating-a-ticket",
+  "title": "Zendesk API Authentication and Creating a Ticket",
+  "summary": "Zendesk API access requires either an API token or OAuth token on a paid Suite plan. Find out what authentication method works for your setup.",
+  "body_markdown": "## Calling Zendesk Without Code Using Activepieces\n\n\nTo call Zendesk without code, Activepieces, whose MIT-licensed core ships with 750 integrations, moves the credential and the retry rule out of your script and into a settings panel on each step.\n\n\nActivepieces addresses one part of this article.\n\n\nThe secret lives in a connection you set once, and on the Ultimate plan or an enterprise self-hosted install that connection's secret can sit in your own secret manager, while a failing call can be retried by a toggle instead of a loop you have to write.\n\n\n### What the Zendesk integration covers\n\n\nWhen the ticket starts somewhere else, the Zendesk integration (one of those 750, roughly 60% of which are community-contributed) handles the common case.\n\n\nA form submission, a chat message or a row in a spreadsheet triggers the flow, and a step creates the ticket in Zendesk.\n\n\nYou enter authentication in the connection dialog rather than in code, so rotating a token means editing one connection and every flow that uses it picks up the new value. That's the run-time read the previous section asked for, supplied by the product.\n\n\nYou set retries per step. The screenshot below shows the configuration panel of a different integration, Skyvern's Get Workflow/Task Run. The controls are the same ones you get on a Zendesk step: a \"Continue on Failure\" toggle and a \"Retry on Failure\" toggle.\n\n\nJust above it sits step 6, a \"Delay For\" step, which is the pattern to copy for a backlog night: pause, then call, then retry only if the call fails.\n\n\nTake two things from this. The toggles are blunt: they switch retrying on or off, and the panel gives you no place to say \"back off on a 429, stop on a 401.\"\n\n\nAnd \"Continue on Failure\" lets the flow carry on past a dead step, which on a backlog night means silent gaps instead of a visible stop.\n\n\n### Where the raw API is still needed\n\n\nIf you need an endpoint the integration doesn't expose, such as a bulk operation or a specific search, you reach it through the HTTP step in the same flow, which sends a raw request to the Zendesk API.\n\n\nAn integration covers only the actions its authors built.\n\n\nAt that point you're back to specifying the endpoint, the token type and the error handling yourself, just inside a box instead of a file.\n\n\nEither way, the rule from earlier still holds. Decide your retry and cap behaviour before building, then open the run history after a real batch and check that the steps retried and stopped as you specified.\n\n\nA green test run with one ticket proves none of that.",
+  "published_at": "2026-11-20T05:33:59+00:00",
+  "first_seen_at": "2026-11-20T11:22:39.086486+00:00",
+  "content_hash": "sha256:2fcea4afdf7ec7de7a1e42531933e3801fcf9bccd8effc4e79467270c3719fd3"
+}

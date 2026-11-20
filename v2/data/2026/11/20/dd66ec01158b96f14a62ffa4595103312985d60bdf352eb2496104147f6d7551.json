@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dd66ec01158b96f14a62ffa4595103312985d60bdf352eb2496104147f6d7551",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/pixtral-large-2502-mistral-model-specs-and-pricing",
+  "canonical_url": "https://www.activepieces.com/blog/pixtral-large-2502-mistral-model-specs-and-pricing",
+  "title": "Pixtral Large 2502: Mistral Model Specs and Pricing",
+  "summary": "Pixtral Large 2502 is Mistral's new multimodal model. Teams using Mistral for automations can now incorporate this updated version into their workflows.",
+  "body_markdown": "## What Activepieces has already shipped for Pixtral Large\n\n\n[Activepieces](https://www.activepieces.com/pieces/mistral-ai) has shipped a general Mistral integration, and nothing in it is specific to Pixtral Large. The[Activepieces catalog entry](https://www.activepieces.com/pieces/mistral-ai) (` @activepieces/piece-mistral-ai` ) describes open-weight and hosted language models for text generation, embeddings and reasoning, with 6 actions and 0 triggers.\n\n\nWith no triggers, the integration can't start a workflow, so it only works as a step after something else fires. Nothing in that description mentions image input, so test it before you build on it.\n\n\nWhether Pixtral Large earns a step is also your decision to make, not ours.\n\n\nA platform that resells its own model has already picked and priced that swap before you open the product.\n\n\nMistral's current flagship open-weight multimodal model is Mistral Large 4 (v26.10), so Pixtral Large's an older generation. That matters for the swap: if you're choosing a vision model today, the newer one belongs in the comparison.\n\n\nCheck Mistral's own model page for the exact model identifier and access terms, then put that identifier into the piece's action. If the action's model field doesn't accept it, the integration's the limit, not the model.\n\n\nBelow is the admin screen: the Integrations page with the \"Install a integration\" dialog open, set to NPM Registry, with fields for the package name and version.\n\n\nIt is the route for adding a integration that isn't in your instance yet, and it needs the admin interface.\n\n\nOnce the integration's installed, the work's mapping an image field from your trigger into the Mistral action.",
+  "published_at": "2026-11-20T08:50:26+00:00",
+  "first_seen_at": "2026-11-20T11:22:39.086486+00:00",
+  "content_hash": "sha256:b2812ab3886c695f5298e95f1b2ac2494b7cad8ef1dc9efc9c3c042cd9bb7d4d"
+}

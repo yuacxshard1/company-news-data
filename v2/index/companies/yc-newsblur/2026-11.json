@@ -5,7 +5,7 @@
       "company_name": "NewsBlur",
       "doc_id": "0e2eed18b5b210d06083f6ff7c095591301afe4964fee806babf32cd71665df5",
       "first_seen_at": "2026-10-06T19:54:12.256543+00:00",
-      "published_at": "2026-11-11T04:10:50+00:00",
+      "published_at": "2026-11-11T12:50:38+00:00",
       "source_kind": "rss",
       "summary": "See https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/ Will I still be able to see updates in my subreddits using Newsblur? If so, how?",
       "title": "On November 13, Reddit is phasing out RSS feeds"
@@ -193,6 +193,16 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "79733c7f0bb29b940974a2bc6b2076ca1003b0fc30732773f3b5eb4981e6f662",
+      "first_seen_at": "2026-11-20T11:43:45.146732+00:00",
+      "published_at": "2026-11-20T08:04:49+00:00",
+      "source_kind": "rss",
+      "summary": "<p>NewsBlur has a mobile web version again. On a phone, newsblur.com used to give you the desktop reader squeezed onto a tiny screen. Now it works like the iOS and Android apps, with screens that slide over each other, swiping between stories, and going back the way you’d expect. The web reader also draws your feed list the moment the page loads, instead of waiting on the server.</p> The mobile web version of NewsBlur This isn’t the first time. Back in June 2011, I built a mobile web version ...",
+      "title": "A rewritten mobile web version of NewsBlur, and feeds that load instantly"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "8d4504070a5960e9969291de43012c7e39983a7836bf28e8642108d190ca0737",
       "first_seen_at": "2026-11-18T09:32:37.446621+00:00",
       "published_at": "2026-11-18T06:53:29+00:00",
@@ -325,7 +335,7 @@
       "company_name": "NewsBlur",
       "doc_id": "e887a064d875408e066065f33b3b97f854a20e1fe420b217ac08b04bd9e02b2f",
       "first_seen_at": "2026-11-10T21:25:35.182210+00:00",
-      "published_at": "2026-11-10T20:36:41+00:00",
+      "published_at": "2026-11-12T03:50:04+00:00",
       "source_kind": "rss",
       "summary": "Environment: NewsBlur Android App Setting: “Mark as read on scroll” is disabled Description: Roughly 10%–20% of the time when tapping to open a folder view, the top ~6 stories in the feed load already marked as read, while the rest remain unread. No scrolling or manual interaction takes place before this occurs. Behavior: Expected: All unread stories in the folder remain unread when folder is opened. Actual: Top ~6 stories load in a read state. Workaround attempt: Backing out of the folde...",
       "title": "[Android] Opening a folder intermittently marks top ~6 stories as read"

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "38f63f82d92ad6e1cabec7f39834fc6fd841eaa1129c7e3141e1a6488b6a7c0c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/baidu-qianfan-pricing-2026-api-costs-per-token",
+  "canonical_url": "https://www.activepieces.com/blog/baidu-qianfan-pricing-2026-api-costs-per-token",
+  "title": "Baidu Qianfan Pricing 2026: API Costs per Token",
+  "summary": "Baidu Qianfan pricing for ERNIE models ranges from 3.2 to 18 RMB per million tokens. Model selection affects your costs more than discounts do.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces can't change Baidu's rate card, but it can stop your workflow tool from adding a second meter on top of it. A Qianfan call is just an HTTP request, so you can run it from a flow with the HTTP integration.\n\n\nYou can then route each request to the tier and discount path that fits it. Tickets that need an instant reply go to the live endpoint on the lighter model. Summaries and tagging go into a batch job.\n\n\nOnly the hard cases escalate to a flagship. That is the routing the support-bot arithmetic above depends on, and it lives in a branch step you can read, not in application code.\n\n\nThe pricing is the part I can point at. Activepieces charges 1 credit per flow run, however many steps the run has. Splitting a job into classify, summarise, tag and reply calls costs you tokens on the Qianfan side, as it would anywhere.\n\n\nIt adds nothing on the workflow side. Per-task and per-module billing penalises exactly the design that keeps Qianfan bills down.\n\n\nThe Community Edition is MIT-licensed and you can self-host it, so the orchestration layer has no per-run charge. That matters because the hidden costs above are all things you want to see before they land on an invoice.\n\n\nA flow can record the token usage each call returns, add it up per model, and alert you when a model's spend or throttling crosses a threshold you set. That gives you a budget alarm, which I couldn't confirm Qianfan offers as a hard cap.\n\n\nIt can also pause a retry loop that keeps paying for the same content-review rejection.\n\n\nNone of this removes the need to check your console quota or confirm the discount terms I flagged as unconfirmed. I haven't verified a ready-made Qianfan integration, so plan on the HTTP integration and your own API key.\n\n\nWhat you get is the tier and discount choices becoming explicit steps in a flow, instead of defaults you find out about when the bill arrives.",
+  "published_at": "2026-11-20T05:47:55+00:00",
+  "first_seen_at": "2026-11-08T11:29:38.264451+00:00",
+  "content_hash": "sha256:1552cec78e3afe69eca3a808d23c36ab83c1d1276b9a6c8a0711a0798a85dfa9"
+}

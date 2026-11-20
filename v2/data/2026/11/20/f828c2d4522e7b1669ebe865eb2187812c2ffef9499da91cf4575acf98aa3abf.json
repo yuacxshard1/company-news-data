@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f828c2d4522e7b1669ebe865eb2187812c2ffef9499da91cf4575acf98aa3abf",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/binance-api-setup-keys-and-rate-limits-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/binance-api-setup-keys-and-rate-limits-2026-guide",
+  "title": "Binance API: Setup, Keys and Rate Limits (2026 Guide)",
+  "summary": "Binance API provides free market data and trading capabilities. Create API keys, make REST requests, and comply with rate limits to prevent account bans.",
+  "body_markdown": "## Frequently asked questions\n\n\nSettle these before the first scheduled run, because each answer decides who is accountable when the integration misbehaves.\n\n\n### Is the Binance API free to use?\n\n\nYes. Binance doesn't charge for API access, and the public market-data endpoints cost nothing to call. What you pay for is trading: orders placed through the API incur the same fees as orders placed in the app.\n\n\n**Free access also doesn't mean unlimited access** . The weight-based limits and IP bans described earlier apply to every caller, so a free integration still needs an owner who watches its request budget.\n\n\n### Does Binance API work in the United States?\n\n\nNot through Binance.com for most purposes. Binance.com restricts users in the United States, and requests from US addresses may be refused or the account may be limited. US residents are directed to Binance.US, which has its own API.\n\n\nCheck the current terms for your jurisdiction before you build, because a deployment on a US-hosted server can fail even when your own account is in good standing.\n\n\n### Can I use the Binance API without KYC?\n\n\nOnly for public data. Market-data endpoints such as prices and order books need no key and no account.\n\n\nAnything tied to an account, including balances, orders and key creation, requires a registered account, and which identity-verification steps apply depends on your region and Binance's current rules.\n\n\nDon't plan a production trading workflow around skipping verification. Confirm the requirements in Binance's own documentation first.\n\n\n### What's the difference between Binance.com and Binance.US APIs?\n\n\nThey are separate exchanges that run separate APIs. Each has its own accounts, its own API keys and its own base URL, so a key from one won't authenticate against the other.\n\n\nAvailable markets, products and rules also differ. Pick the platform your legal entity is allowed to use, then read that platform's documentation for its limits rather than assuming the two match.",
+  "published_at": "2026-11-20T06:01:17+00:00",
+  "first_seen_at": "2026-11-20T11:22:39.086486+00:00",
+  "content_hash": "sha256:58ee2e2b27dc210fb5576ca505e1b6f26eb77fb9d3dd098557e385ede6dc74f5"
+}

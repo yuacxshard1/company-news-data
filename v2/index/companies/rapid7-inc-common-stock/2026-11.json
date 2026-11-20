@@ -23,6 +23,16 @@
     {
       "company_key": "rapid7-inc-common-stock",
       "company_name": "Rapid7 Inc.",
+      "doc_id": "264cc293e1c69fc483ed6b23e53e8d4a84e3d2ad42a5b2291ab5153416f63a82",
+      "first_seen_at": "2026-11-20T12:20:06.651969+00:00",
+      "published_at": "2026-11-20T10:30:36+00:00",
+      "source_kind": "rss",
+      "summary": "This release we have three pull requests from jburgess-r7 building out coverage for the identity-boundary issues detailed in Rapid7's Breaking Zimbra Identity Boundaries, Part One research. First up is a new shared mixin, Msf::Exploit::Remote::HTTP::Zimbra, which gives every current and future Zimbra module a common foundation for account/admin SOAP authentication, canonical identity resolution, mailbox-server lookup, and version parsing, allowing future modules to stay focused on the vulnerability instead of re-implementing Zimbra's SOAP plumbing. Built on top of that mixin are two new modules targeting CVEs from the same research track.",
+      "title": "Metasploit Wrap Up: Breaking Zimbra's Identity Boundaries"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
       "doc_id": "3ac3c73639749a8315177db5d3c03b2f10714dee260405119f5d477221f35d26",
       "first_seen_at": "2026-11-06T15:23:35.885077+00:00",
       "published_at": "2026-11-06T13:52:11+00:00",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b62cb7bd37a4b54827b0e982e869acd3a862746236a2706874129e684ba88b91",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/set-up-claude-duet-workflow-in-small-stages",
+  "canonical_url": "https://www.activepieces.com/blog/set-up-claude-duet-workflow-in-small-stages",
+  "title": "Claude Duet Workflow: How to Set It Up (2026 Guide)",
+  "summary": "Claude duet workflow pairs two collaborators with shared instructions who exchange work between turns.",
+  "body_markdown": "## Five stages of Claude duet workflow setup\n\n\nBy the end of five stages you have a working two-party Claude setup, and each one ends with something you can see running before you start the next.\n\n\nSkip the check at the end of a stage and the failure shows up two stages later, where it's harder to trace.\n\n\n### Stage 1: Sign in and confirm your plan\n\n\nStage 1 is signing in and confirming your plan includes the feature. Sign in at claude.ai, open your profile menu and choose Settings, then look at the sidebar. If Projects is listed there, your plan includes it.\n\n\nIf the entry is missing or the create button is greyed out, stop. Nothing in the later stages will work, and the plan page in Anthropic's help center is the place to resolve it.\n\n\n### Stage 2: Create the Drafter\n\n\nCreate the first session or project with a role prompt; that is stage 2. Open Projects and select the button to create a project. Name it for the role, such as \"Drafter\".\n\n\nOpen the project's instructions field and write one sentence stating what this party does and one stating what it never does. The result's a project whose first chat already behaves as that role, without you restating it.\n\n\n### Stage 3: Create the Reviewer\n\n\nOnce the Drafter exists, stage 3 is creating the second session with the same context. Create a second project the same way and name it \"Reviewer\".\n\n\nGive it the same background material as the first, uploaded to project knowledge, but opposite instructions: it critiques and doesn't write.\n\n\nIf anything is missing from this second copy, it is invisible to the Reviewer, because Claude doesn't share memory between separate projects. Ask it to summarize the background and compare the summary with the first project's.\n\n\n### Running the round trip and saving the setup\n\n\nNow pass work between the two and run one round trip; that is stage 4.\n\n\n1. Give the Drafter a small task and copy its full reply.\n2. Paste that reply into a new chat in the Reviewer, with a line saying it's a draft to critique.\n3. Copy the critique back into the Drafter and ask for a revision.\n\n\nIf the revision visibly answers the critique, that's your proof. If it ignores the critique, the paste lost something, so fix that before adding any automation.\n\n\nStage 5 is saving the setup so it repeats. Copy both instruction texts into a plain document kept outside Claude, along with the list of knowledge files each project holds.\n\n\nProjects can be edited by accident, and a document is the only record of what they said when they worked. Rebuilding from it should take minutes, not an afternoon.",
+  "published_at": "2026-11-20T09:54:09+00:00",
+  "first_seen_at": "2026-11-17T14:32:43.730564+00:00",
+  "content_hash": "sha256:f2d0cdc862d97b0b427636f01c60852ed25864bf85836a852d3683f38ae419a7"
+}

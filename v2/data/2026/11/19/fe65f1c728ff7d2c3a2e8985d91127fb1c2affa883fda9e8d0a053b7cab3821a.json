@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fe65f1c728ff7d2c3a2e8985d91127fb1c2affa883fda9e8d0a053b7cab3821a",
+  "company_key": "yc-windmill",
+  "company_name": "Windmill",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.windmill.dev/changelog/test-flows-from-the-sdks",
+  "canonical_url": "https://www.windmill.dev/changelog/test-flows-from-the-sdks",
+  "title": "Test flows from the SDKs with mocked or replaced steps",
+  "summary": "Test scripts can run a deployed flow with some steps overridden, using wmill.testFlow (TypeScript) or wmill.test_flow (Python). An override mocks a step's result or replaces its logic with a function of the test script, steps inside subflows included.",
+  "body_markdown": "### [Test flows from the SDKs with mocked or replaced steps](https://www.windmill.dev/changelog/test-flows-from-the-sdks)\n\n\nFlow editor\n\n\nTypeScript\n\n\nPython\n\n\n[v1.880.0](https://github.com/windmill-labs/windmill/releases/tag/v1.880.0)\n\n\n[Docs](https://www.windmill.dev/docs/flows/test_flows#test-a-deployed-flow-from-a-script)\n\n\nTest scripts can run a deployed flow with some steps overridden, using wmill.testFlow (TypeScript) or wmill.test_flow (Python). An override mocks a step's result or replaces its logic with a function of the test script, steps inside subflows included.\n\n\n#### New features\n\n\n- Map a step id to a value to mock its result, or to a function exported from the test script to run that function with the step inputs.\n- Name a step inside a subflow by the path of step ids to it, such as sub:inner, at any depth.\n- testFlowAsync and test_flow_async return the job id instead of waiting for the result.\n- Requires a role with the Write code capability; replacing a step with a function only works from a script running in Windmill.\n- The flow's preprocessor does not run and result caching is off for the test run.",
+  "published_at": "2026-11-19T00:00:00+00:00",
+  "first_seen_at": "2026-11-20T10:23:18.313192+00:00",
+  "content_hash": "sha256:51e77b627804747600576e71a6dc81985929fb8b5207c3fa4fa502113e61b263"
+}

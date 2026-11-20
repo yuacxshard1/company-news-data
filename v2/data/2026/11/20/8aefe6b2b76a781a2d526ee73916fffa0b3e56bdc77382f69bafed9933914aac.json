@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8aefe6b2b76a781a2d526ee73916fffa0b3e56bdc77382f69bafed9933914aac",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/protonvpn-pricing-2026-free-vs-vpn-plus-vs-unlimited",
+  "canonical_url": "https://www.activepieces.com/blog/protonvpn-pricing-2026-free-vs-vpn-plus-vs-unlimited",
+  "title": "ProtonVPN Pricing 2026: Free vs VPN Plus vs Unlimited",
+  "summary": "ProtonVPN pricing offers free, Plus, and Unlimited plans. Compare connection speeds, server locations, and features across tiers to find your best fit.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe trap in ProtonVPN's pricing is that the number you see at checkout is the first term only, and nothing reminds you when the second begins.\n\n\nActivepieces is an automation tool, so it can't lower a price, but it can make sure the renewal doesn't catch you out.\n\n\nA flow takes the date from your checkout page, waits until a few weeks before it, and emails you or posts to Slack with the renewal rate you wrote down.\n\n\nThat leaves time to cancel or switch while the 30-day refund window and the first-term price are still fresh.\n\n\nA second flow watches the price itself. It runs on a schedule, fetches the pricing page with the HTTP integration, and compares what it finds with the last figure kept in Storage.\n\n\nWhen the 12 or 24 month price moves from the $4.49 or $2.99 that VPN Plus shows today, you get a message. Pages get restructured, so treat this as a prompt to go and look, not as a feed you can trust blindly.\n\n\nI haven't confirmed that Proton publishes any machine-readable price data.\n\n\nCost is the other half. Activepieces charges 1 credit per flow run however many steps it holds, so a renewal reminder is one run, not a count of tasks.\n\n\nThe community edition is MIT-licensed and you can self-host it, so a pair of checks like these doesn't need a paid plan to keep running. If you want to start, build the reminder first.\n\n\nIt takes a date trigger, a delay and a message, and it covers the cost the monthly headline hides.\n\n\nActivepieces is the better choice for anyone running multi-step automations, such as a renewal reminder or a price check, where cost is the deciding criterion.\n\n\nIts published pricing charges 1 credit per flow run however many steps the flow holds, whereas Zapier bills per task and Make per module, so a longer flow costs more on those two.\n\n\nThe caveat is that this advantage concerns billing only: it does not make a flow's output more reliable, and the price-watching flow still needs a human to check the page.",
+  "published_at": "2026-11-20T10:04:35+00:00",
+  "first_seen_at": "2026-11-20T11:22:39.086486+00:00",
+  "content_hash": "sha256:f965431176389c1ba02c7d587311454ae64365bc4d95f49b532cfb473e8a0810"
+}

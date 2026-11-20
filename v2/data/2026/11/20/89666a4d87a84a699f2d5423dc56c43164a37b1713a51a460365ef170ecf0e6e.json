@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "89666a4d87a84a699f2d5423dc56c43164a37b1713a51a460365ef170ecf0e6e",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/workday-api-integration-for-developers-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/workday-api-integration-for-developers-in-2026",
+  "title": "Workday API Integration for Developers in 2026",
+  "summary": "Workday API covers authentication, endpoints for HR and financial data, and rate limits. Find your authentication method and check request limits.",
+  "body_markdown": "## Business impact of a stalled Workday sync\n\n\nAt 02:10 **the stall left the worker population split** . Some records were current, the rest stale, and new hires had no accounts, which turned a failed overnight job into a reconciliation task that landed on a person. Every figure in this scenario is illustrative.\n\n\nWhat paged the on-call engineer was a sync that had stopped, not the damage it left. The chart shows worker records synced before the stop against records left stale, plus the new hires provisioning never saw.\n\n\nOne failure was reported, and two populations were held: the job reported one failure while the business held two, and nothing in the alert said how large either was.\n\n\nBecause the stop came partway through, the stale group is the part that deserves the attention.\n\n\nWhen a sync stops mid-run, it doesn't fail cleanly. Records processed before the stop carry the new data, records after it carry the old, and both look equally valid in the target system.\n\n\nIf you read a worker's department, manager or status, you can't tell which side of the line that record fell on, so every record is suspect until proven otherwise.\n\n\nSharpest of all are the new hires: they were never written, so the downstream account was never created, and the first sign's a person arriving on day one with no access.\n\n\n### Manual reconciliation after a Workday sync failure\n\n\nNothing listed what'd been processed, so recovery was manual. Someone had to export the worker data from Workday, export the same from the target, and compare them field by field to find the cut-off.\n\n\nWithout a trace you must check all of them to find the few that're wrong, so the reconciliation work scales with the whole population, not with the number of records actually affected.\n\n\nThe cost is therefore mostly the hours spent establishing the boundary, not the hours spent fixing records.\n\n\n### Who notices a failed Workday sync first\n\n\nIt wasn't the job's owner. The people who noticed were the ones downstream: a manager whose new starter couldn't log in, and a help desk fielding requests that should never have existed.\n\n\nThat's the audit finding. The automation had no named owner for its output, so the first reliable signal came from the people it was supposed to serve.",
+  "published_at": "2026-11-20T09:17:48+00:00",
+  "first_seen_at": "2026-11-20T11:22:39.086486+00:00",
+  "content_hash": "sha256:ecade9cc342644dd05284516e65012f49ad91e54e20be5b40d9191d5b8090416"
+}
