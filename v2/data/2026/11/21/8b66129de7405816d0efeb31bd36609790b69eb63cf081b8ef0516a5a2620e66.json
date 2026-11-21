@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8b66129de7405816d0efeb31bd36609790b69eb63cf081b8ef0516a5a2620e66",
+  "company_key": "yc-sixtyfour",
+  "company_name": "Sixtyfour",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.sixtyfour.ai/blog/case-study-hiring-platform-candidate-verification",
+  "canonical_url": "https://www.sixtyfour.ai/blog/case-study-hiring-platform-candidate-verification",
+  "title": "A real identity. A résumé that needed a closer look.",
+  "summary": "How a hiring platform uses Sixtyfour to research candidate claims and return structured assessments inside its screening workflow.",
+  "body_markdown": "It connects Sixtyfour to its screening pipeline through an API webhook. Applicant information, including contact details, profile information and résumé text, goes to a saved research workflow, which investigates employment, education and identity consistency and returns an assessment with the supporting rationale.\n\n\nNo. A candidate can have a real identity and a long-standing online presence while their application still contains claims that need checking. For a hiring platform screening applicants at scale, the two are separate questions.\n\n\nA separate assessment step converts the research into a category, score, confidence level, red flags and a written explanation. These outputs describe the workflow's assessment of the evidence. They do not, by themselves, establish fraud or record a hiring decision.\n\n\nA name mismatch in a reverse lookup cannot be the sole basis for a fraud classification. A missing professional profile is treated as neutral, and an unverified claim remains missing information.",
+  "published_at": "2026-11-21T00:00:00+00:00",
+  "first_seen_at": "2026-11-20T20:36:43.072967+00:00",
+  "content_hash": "sha256:76c9531beed073a750486225900599e8ec77f3fc9fd780148ed964f0b8197307"
+}

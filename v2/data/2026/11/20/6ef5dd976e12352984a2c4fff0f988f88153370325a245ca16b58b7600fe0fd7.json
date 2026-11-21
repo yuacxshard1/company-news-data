@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6ef5dd976e12352984a2c4fff0f988f88153370325a245ca16b58b7600fe0fd7",
+  "company_key": "yc-nucypher-aka-threshold-network",
+  "company_name": "NuCypher (aka Threshold Network)",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.threshold.network/blog/tbtc-is-now-exit-only-on-bob-optimism-and-polygon",
+  "canonical_url": "https://www.threshold.network/blog/tbtc-is-now-exit-only-on-bob-optimism-and-polygon",
+  "title": "tBTC is now exit-only on BOB, Optimism, and Polygon",
+  "summary": "tBTC is now exit-only on BOB, Optimism, and Polygon, three chains with minimal tBTC activity.",
+  "body_markdown": "### What changed\n\n\nAs of November 19, 2026, tBTC is in exit-only mode on **BOB, Optimism and Polygon** , three chains with minimal tBTC activity. Bridging tBTC into these chains is disabled. Withdrawals are not affected: tBTC on these chains remains fully backed. If you hold tBTC on these chains, we recommend bridging back to Ethereum or another supported chain.\n\n\n#### The cost of each network\n\n\nMost of the work a network demands doesn’t depend on how much tBTC it holds. These costs grow with every network added, so a network holding a small share of supply needs the same baseline as one with heavy adoption:\n\n\n- **Contract maintenance.** Gateways and tokens have to keep up with changes to the destination chain, its tooling and the messaging layer. Network upgrades, deprecated features and fee market changes all need review.\n- **Messaging dependencies.** Each network takes on the configuration and operational risk of its messaging layer. Verifier sets, rate limits and pause controls have to be reviewed and kept correct over time.\n- **Key and governance management.** Every deployment has admin roles and upgrade keys that must be held, rotated and audited.\n- **Monitoring and alerting.** Supply invariants, relayer health, message latency and unusual mint or burn activity have to be watched on every network, around the clock.\n- **Incident response.** Each network needs a tested pause procedure, a communications path, and people who know its specifics well enough to act quickly.\n- **Reviews and audits.** Every change to shared code has to be checked against every deployment that uses it.\n\n\n#### What exit-only mode means\n\n\n- Bridging tBTC into these networks is disabled.\n- **BOB:** exit via Chainlink CCIP. New transfers from Ethereum to BOB will revert.\n- **Optimism and Polygon:** exit via Wormhole. Transfers into these chains now arrive as Wormhole-wrapped tBTC, not canonical tBTC. Please don’t bridge in.\n- Redemption to BTC happens on Ethereum: bridge your tBTC out first, then redeem.\n- tBTC already on each network stays fully backed. As holders exit, the bridged supply on that network shrinks to match.\n- There is no exit deadline at this time, but we recommend bridging back to Ethereum or another supported network.\n\n\n### Contract references\n\n\nContract addresses are listed in the[Threshold documentation](https://docs.threshold.network/contract-addresses/tbtc#l2-other-tbtc-application-contracts) . Always check addresses against the official documentation before interacting with them.",
+  "published_at": "2026-11-20T00:00:00+00:00",
+  "first_seen_at": "2026-11-21T00:03:51.057373+00:00",
+  "content_hash": "sha256:23bd763090b5a3a49a86471473fb3332521c17fa3e08ebd57e824f1bc006ea75"
+}
