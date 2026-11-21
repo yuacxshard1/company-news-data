@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7fe0a2c481fd1daa56bc800003d1652c10c15c4dc8b3943b1b4ac7eb2501b408",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
+  "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
+  "summary": "Discover more about what's new at AWS with Amazon Cognito extends multi-Region replication to additional AWS Regions",
+  "body_markdown": "[Amazon Cognito](https://aws.amazon.com/cognito/) multi-Region replication (MRR) now supports additional AWS Regions, extending the resilience benefits of MRR to more workloads. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes, and MRR lets you synchronize user and machine identity data, including credentials, user pool configurations, and federation setups, to a secondary user pool in a standby Region you designate in near real-time. With user data in the standby Region, you can redirect traffic and keep authentication available if there is a disruption in your primary Region.\n\n\nPreviously, MRR was available in 16 commercial Regions and the AWS GovCloud (US) Regions. You can now also use MRR to replicate your user data to Asia Pacific (Hyderabad, Hong Kong, Jakarta, Malaysia, Melbourne, New Zealand, Osaka, Taipei, Thailand), Canada West (Calgary), Europe (Milan, Spain, Zurich), Israel (Tel Aviv), Mexico (Central), Africa (Cape Town) Regions, helping you meet resilience, data residency, and compliance requirements in the Regions that best align with your needs.\n\n\nMRR is available as an add-on for user pools on the Essentials or Plus feature plans, and requires a multi-Region[AWS KMS](https://aws.amazon.com/kms/) customer managed key (CMK). For the full list of AWS Regions where Amazon Cognito is available, see[AWS Capabilities by Region](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . To get started, visit the[developer guide](https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-multi-region.html) for instructions and the[pricing page](https://aws.amazon.com/cognito/pricing/) for pricing details.",
+  "published_at": "2026-11-20T22:00:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:b718e09e4de1430096ac5893f2c332ef2d106f168f5e75c8f8d3a840563b3748"
+}

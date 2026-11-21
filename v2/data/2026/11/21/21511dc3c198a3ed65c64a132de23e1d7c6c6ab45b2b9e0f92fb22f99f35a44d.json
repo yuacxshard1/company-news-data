@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "21511dc3c198a3ed65c64a132de23e1d7c6c6ab45b2b9e0f92fb22f99f35a44d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
+  "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
+  "body_markdown": "Amazon CloudWatch Omni now supports collecting Azure resource logs, Azure Monitor platform metrics, virtual network (VNet) flow logs, and traces from Application Insights. Teams that run workloads on both AWS and Azure no longer need separate monitoring tools or custom pipelines to see their whole environment. Central operations, DevOps, and site reliability engineering (SRE) teams can now view Azure telemetry alongside their AWS telemetry in one place.\n\n\nTo get started, connect a Microsoft Entra ID tenant to your AWS account and Region. You can choose the telemetry types, subscriptions, Azure regions, resource types, and tags to collect. Azure telemetry lands in Amazon CloudWatch, and Omni spaces can monitor applications and infrastructure across cloud providers. For example, during an incident you can trace a slow request from an Azure-hosted service to its AWS dependencies without switching consoles. You can set up the connectors in the Amazon CloudWatch Omni console or with the AWS CLI.\n\n\nAzure telemetry collection is available in all Azure Public Regions and can be ingested to all regions where CloudWatch Omni is available. To get started, visit the[CloudWatch Omni User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/omni-send-platform-telemetry-from-microsoft-azure.html) and for pricing visit[pricing page.](https://aws.amazon.com/cognito/pricing/)",
+  "published_at": "2026-11-21T01:10:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:acb4e86551312803bbd5de54d3f8c46bb72c47d017981386801f1497d0745900"
+}

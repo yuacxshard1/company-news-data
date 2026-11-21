@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c7ff1804cc2071a44fdeafa01f3a3a7bb68afb9bd39b95fd05c627a2480ea0ad",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-function-state-events/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-function-state-events/",
+  "title": "AWS Lambda now publishes Event Function state change events to Amazon EventBridge",
+  "summary": "Discover more about what's new at AWS with AWS Lambda now publishes Event Function state change events to Amazon EventBridge",
+  "body_markdown": "[AWS Lambda](https://aws.amazon.com/lambda/) now publishes Event Function state change events to[Amazon EventBridge](https://aws.amazon.com/eventbridge/) . Lambda emits an event each time an Event Function version changes state because of a customer action, such as creating, updating, publishing, or deleting a function. These events help platform and DevOps teams to trigger automation as soon as a function becomes ready to invoke, an update finishes, or an operation fails, without polling the[GetFunction](https://docs.aws.amazon.com/lambda/latest/api/API_GetFunction.html) API.\n\n\nCustomers use Lambda Event Functions to build APIs, event processing workloads, multi-step workflows, and data pipelines. As organizations grow to thousands of functions, platform teams need to know when a function changes state so they can take the next step. For example, a deployment pipeline can run integration tests and then shift alias traffic once a new version becomes active. Until now, these tools had to poll the GetFunction API to track state changes. Polling consumed API quota, slowed down pipelines, and required custom retry logic, which added operational overhead. With this launch, you can create[EventBridge rules](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html) that match on fields such as the function ARN, detail type, or state, and route matched events to targets such as[AWS Step Functions](https://aws.amazon.com/step-functions/) , AWS Lambda,[Amazon SNS](https://aws.amazon.com/sns/) , or[Amazon SQS](https://aws.amazon.com/sqs/) . This helps you build reliable, event-driven deployment pipelines across all of your functions, without writing or maintaining custom polling logic.\n\n\nThis feature is available in all commercial[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) . You can create rules by using the EventBridge console, AWS Command Line Interface (AWS CLI), AWS SDKs, AWS CloudFormation, AWS Cloud Development Kit (AWS CDK), or AWS Serverless Application Model (AWS SAM). Lambda publishes these events automatically at no additional cost. Standard pricing applies to the targets that your EventBridge rules invoke. To learn more, see the[AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/monitoring-eventbridge-function-state.html) and the[Amazon EventBridge User Guide.](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html)",
+  "published_at": "2026-11-20T22:40:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:5ae7ee52d9a33bcd8512ddb1f405b6ee1752b1403fa93b43865d5f67e786bd5c"
+}

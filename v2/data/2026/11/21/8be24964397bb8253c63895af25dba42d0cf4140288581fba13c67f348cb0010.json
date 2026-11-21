@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8be24964397bb8253c63895af25dba42d0cf4140288581fba13c67f348cb0010",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/factory-ai-mcp-how-to-prevent-autonomous-agent-failures",
+  "canonical_url": "https://www.activepieces.com/blog/factory-ai-mcp-how-to-prevent-autonomous-agent-failures",
+  "title": "Factory AI MCP: How to Prevent Autonomous Agent Failures",
+  "summary": "Factory AI MCP provides a structured framework to prevent unpredictable agent behavior during complex software development tasks.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces mitigates the risk of agentic drift by exposing its 750 integrations as discrete, sandboxed tools within a structured framework, which means developers can automate complex workflows without fearing unpredictable system behavior.\n\n\nRather than allowing an agent to interact directly with an open-ended API, the platform functions as a governed execution layer where each connection is registered as a specific MCP schema.\n\n\nThis architecture ensures that when an agent calls a tool, it is executing a predefined, versioned function that has already been vetted for security.\n\n\nBecause these integrations are the same enterprise-grade connectors used by teams at MoneyGram and Alan, developers can deploy automation across their agentic stack without building bespoke, error-prone wrappers for every new service.\n\n\nThe platform enforces operational safety by decoupling the reasoning engine from the actual credentials. Under the MIT License, Activepieces provides a self-hosted environment where authentication tokens remain encrypted in the server database, never entering the model's context window or reasoning trace.\n\n\nThis setup prevents prompt injection attacks from exfiltrating sensitive keys, as the agent only sees the tool's input requirements and the resulting observation, never the underlying OAuth handshake or API secret.\n\n\nBy wrapping autonomous agents in explicit conditional logic, Activepieces transforms them from unverified callers into governed participants in a workflow.\n\n\nThe builder allows for the insertion of mandatory human-in-the-loop steps, such as a \"Wait for Approval\" gate, before an agent can proceed with high-stakes actions like merging code or processing a financial transaction.\n\n\nThis structure ensures that the 33% acceptance rate of agent-generated pull requests does not translate into production failures, as a senior engineer must explicitly validate the logic within the Activepieces flow before the execution environment permits a write operation, effectively creating a human-in-the-loop safeguard against automated errors, so two-thirds of all AI-proposed code changes are being discarded before they can ever reach the codebase.",
+  "published_at": "2026-11-21T00:49:27+00:00",
+  "first_seen_at": "2026-11-21T04:53:57.369103+00:00",
+  "content_hash": "sha256:e14e3e8cbb1e362fd709287cfd1ef7586a8ce25632a9b72804ba77c3e3742c8e"
+}

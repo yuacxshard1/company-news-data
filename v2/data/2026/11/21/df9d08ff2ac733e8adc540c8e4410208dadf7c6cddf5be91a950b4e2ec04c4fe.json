@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "df9d08ff2ac733e8adc540c8e4410208dadf7c6cddf5be91a950b4e2ec04c4fe",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/writer-palmyra-api-pricing-model-costs-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/writer-palmyra-api-pricing-model-costs-2026-guide",
+  "title": "Writer Palmyra API Pricing: Model Costs (2026 Guide)",
+  "summary": "Writer Palmyra API pricing is token-based, with costs varying across three models. Only X4 and X5 have published rates.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe levers in this article all sit in the shape of the workflow around the model, and that is where Activepieces works.\n\n\nIt is an automation builder where each step is a node you can see and edit, so the controls that decide a Palmyra bill become steps instead of habits. Trim the retrieved passages to the top two or three before the model call.\n\n\nSummarise old turns before they are re-sent. Route classification to a cheaper model and keep Palmyra for drafting.\n\n\nIn the support-bot example, trimming retrieval from 4,000 to 2,000 tokens per answer removes 40 million of the 101 million monthly tokens, and a flow can enforce that cut on every run.\n\n\nActivepieces doesn't hide the cost of doing this. It charges 1 credit per flow run whatever the step count, so a guard step that checks length or a retry step that waits out a rate limit adds no run credit.\n\n\nOnly the AI steps draw extra, at 2 credits for a fast model, 10 for a smart one and 20 for a frontier one, or 1 credit each if you bring your own AI keys.\n\n\nWith your own keys, the Palmyra token cost stays on your Writer invoice, so the two bills stay separate and you can read each one.\n\n\nThe community edition is open source under the MIT licence, and you can self-host it. That matters if your prompts carry customer records and you want the glue between systems running on infrastructure you control.\n\n\nIt doesn't change Writer's data terms, so the no-training question above still needs an answer in writing.\n\n\nFor Writer itself, the integration is a plain HTTPS request with your API key in the header, as the FAQ above notes. I haven't confirmed a dedicated Writer integration, so don't plan around one.\n\n\nStart with one flow: log the token counts from each response, cap the context before the call, and queue retries with a delay. A week of that log gives you the averages to put into the monthly table.",
+  "published_at": "2026-11-21T02:58:31+00:00",
+  "first_seen_at": "2026-11-09T05:01:12.989749+00:00",
+  "content_hash": "sha256:c2d4e382e824a43b286a65048a76ba1254f15f85446689da9d39fb59be82400a"
+}

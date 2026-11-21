@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "eaebe3b479f4247e3f9da4015d39cf923f268b8f2d7cc099e705c89b1c8dd8fb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-offers-advanced-hosted-zones/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-offers-advanced-hosted-zones/",
+  "title": "Amazon Route 53 now offers Advanced Hosted Zones",
+  "summary": "Discover more about what's new at AWS with Amazon Route 53 now offers Advanced Hosted Zones",
+  "body_markdown": "Amazon Route 53 now offers Advanced Hosted Zones, a new hosted zone tier with additional guardrails, visibility, and resilience features. Advanced Hosted Zones include Change Guardrails that prevent accidental record deletions, record-level Change History, and public DNS fallback in private hosted zones.\n\n\nA single mistaken DNS change can take part of your domain offline, such as deleting a record that is still serving traffic or removing a delegation that resolvers are still using. To protect against this, customers build their own validation pipelines, review processes, and audit tooling. With Change Guardrails turned on, Route 53 checks each change before applying it. It blocks deleting a record that is still receiving DNS queries, a record that an alias record in the same hosted zone points to, or a delegation that is still in use. When a guardrail blocks a change, Route 53 rejects the whole request with an error that explains why, and no records change. Guardrails apply to every change, including changes from infrastructure as code tools. Change History gives you a record-level history of changes to your hosted zone, retained for 365 days, so you can see what changed and when.\n\n\nTo get started, create a new Advanced Hosted Zone or upgrade an existing hosted zone, then turn on the guardrails you want. You can use the Route 53 console, API, AWS CLI, AWS SDKs, or AWS CloudFormation. Advanced Hosted Zones are priced separately from Standard Hosted Zones. For rates, see the[Route 53 pricing page](https://aws.amazon.com/route53/pricing/) .\n\n\nAdvanced Hosted Zones are available in all AWS commercial Regions where Route 53 public and private hosted zones are available. To learn more, see[Advanced Hosted Zones](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zone-tiers.html) in the Route 53 Developer Guide.",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:9c93a0788735d96fc51679a3cb3f3ab8dec8d01b3df81b9a0e9c163ade7dd4d3"
+}

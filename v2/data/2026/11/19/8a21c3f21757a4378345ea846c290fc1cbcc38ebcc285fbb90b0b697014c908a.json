@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8a21c3f21757a4378345ea846c290fc1cbcc38ebcc285fbb90b0b697014c908a",
+  "company_key": "yc-mintlify",
+  "company_name": "Mintlify",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.mintlify.com/blog/direct-support-ticketing",
+  "canonical_url": "https://www.mintlify.com/blog/direct-support-ticketing",
+  "title": "The assistant now files support tickets for you",
+  "summary": "When the Mintlify assistant can't answer a question, it can now create a ticket in Plain or Zendesk with the user's details and conversation attached. Available on Enterprise plans.",
+  "body_markdown": "Direct support ticketing is now live for Mintlify Enterprise customers. When the[Mintlify assistant](https://www.mintlify.com/docs/assistant/index) can't resolve a question, it creates a ticket in Plain or Zendesk with the user's contact details and the conversation attached. Your support team starts from the problem instead of asking for it again.\n\n\n## Direct ticketing passes the context automatically\n\n\nAs more teams built help centers on Mintlify, we kept hearing the same thing: deflection rates were up, but the tickets that did come in were harder to triage. Agents had no context for what the user had already tried, and teams routing users to the assistant had no way to know if the conversation resolved the issue or quietly ended without an answer. The only path customers had was to view the[assistant thread API](https://www.mintlify.com/docs/api/analytics/assistant-thread) themselves, which wasn't ideal.\n\n\n## File tickets from the assistant\n\n\nWith direct support ticketing on, the assistant can show the user a contact form for submitting a ticket. When the user submits it, the ticket goes straight to your ticketing platform with the full assistant conversation attached for context.\n\n\nSales questions still go to your sales email, so your support queue only gets support requests.\n\n\nPlain and Zendesk are supported today, with more platforms on our roadmap. For setup details, see our[support routing guide](https://www.mintlify.com/docs/assistant/support-routing) .\n\n\n## Get started\n\n\n1. Open the[Assistant](https://app.mintlify.com/products/assistant) page in your dashboard.\n2. In the **Response handling** section, open the **Support** menu.\n3. Select **Direct support ticketing** .\n4. Choose **Plain** or **Zendesk** as the **Ticketing platform** .\n5. Click **Connect** and complete authorization.\n\n\nDirect support ticketing is included on Enterprise plans, so you can set it up from your dashboard today. To upgrade to Enterprise,[talk to sales](https://www.mintlify.com/contact/sales) .",
+  "published_at": "2026-11-19T00:00:00+00:00",
+  "first_seen_at": "2026-11-21T08:40:02.135254+00:00",
+  "content_hash": "sha256:ad86c6d8aba0f7abf1beb007995b018616752db1d333792972a579fd20e42a83"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "83b127cb4d8a5eddc57f5a192223eebffd0dcb7d792eec3ab720374399028e5e",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-neptune-serverless-r8g-generally-available",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-neptune-serverless-r8g-generally-available",
+  "title": "Amazon Neptune Serverless now delivers up to 30% better performance and smarter scaling",
+  "summary": "Discover more about what's new at AWS with Amazon Neptune Serverless now delivers up to 30% better performance and smarter scaling",
+  "body_markdown": "[Amazon Neptune Serverless](https://docs.aws.amazon.com/neptune/latest/userguide/neptune-serverless.html)\n\n\nnow delivers up to 30% better performance at the same price per Neptune Capacity Unit, running on AWS Graviton4 processors. The new Graviton4-based platform also brings an improved scaling algorithm that adjusts Neptune Capacity Units (NCUs) more closely to your workload. This especially helps applications with many concurrent graph queries, such as real-time fraud detection, recommendation engines and generative AI applications that run graph lookups on every request.\nNeptune Serverless scales database capacity automatically as your application’s demand changes, so you can run graph applications with spiky or unpredictable traffic, such as fraud detection, recommendation engines, and generative AI applications, without provisioning for peak capacity. You pay only for the capacity you use. All newly created Neptune Serverless instances will be using AWS Graviton4 processors.\n\n\nYou can create new Neptune Serverless instances using[AWS Management Console](https://console.aws.amazon.com/neptune/)\n\n\nor theAWS CLI\n\n\n. You can upgrade existing clusters to the latest version in the next release. For more information on pricing and regional availability, refer to theAmazon Neptune pricing page\n\n\nandNeptune Serverless documentation\n\n\n.",
+  "published_at": "2026-11-20T21:50:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:84a42841f22bdc753f1fb44b6358f9bb5421d94c93fe45a366cc9f28588db31f"
+}

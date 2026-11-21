@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7684a1e06253d9b20f0820dbbac83f47531bc6f09f7e0e5667142d3c41f9fa09",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-test-insights/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-test-insights/",
+  "title": "Announcing Test Insights for AWS Device Farm",
+  "summary": "Discover more about what's new at AWS with Announcing Test Insights for AWS Device Farm",
+  "body_markdown": "[AWS Device Farm](https://aws.amazon.com/device-farm/) , a service for testing mobile and web apps, now provides Test Insights for Appium, Espresso, and XCUITest runs across multiple devices. Test Insights helps you and AI agents understand the health of your tests and resolve failures faster by providing a detailed breakdown of your test suite by device and by test.\n\n\nWith Test Insights, Device Farm's existing APIs now return enhanced test metadata, failure root cause with stack trace, a video for each test, start and stop times, median and average times spent on each device and test, and test counts by result. With this data in one place, your agents spend less time and fewer tokens looking for the root cause of test failures, and the[AWS Device Farm troubleshooting skill](https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/web-and-mobile-development/troubleshooting-aws-device-farm-runs) uses it to help diagnose failed runs and suggest fixes. Test Insights is available alongside any default and custom test reports you generate, at no additional cost.\n\n\nTest Insights is included in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Device Farm is available.\n\n\nTo get started, see[Test Insights](https://docs.aws.amazon.com/devicefarm/latest/developerguide/reports.html#reports-test-insights) in the AWS Device Farm Developer Guide.",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:5bba47f2d3c1e81d05379d9b8509b285928269cf81732458e661d443fc29b98c"
+}

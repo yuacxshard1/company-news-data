@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3c6a69de3c4e302044db373a5194d6e6c788c7b13fa5a7c218de4bb9a92ca192",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+  "title": "Web Search on Amazon Bedrock expands language support and country-aware search",
+  "summary": "Discover more about what's new at AWS with Web Search on Amazon Bedrock expands language support and country-aware search",
+  "body_markdown": "Web Search on Amazon Bedrock, the tool that grounds AI agents and applications in cited, current web information, now supports five new languages, plus non-US English, on Amazon Bedrock AgentCore and Amazon Bedrock: Spanish, French, German, Italian, and Japanese. Agents serving users in these languages get results that draw on local-language sources.\n\n\nWe are also introducing a new optional country field that biases results toward sources from a specific country - just pass an ISO 3166-1 alpha-2 country code, such as “JP” or “DE”. This is useful for agents that serve users in multiple countries, for questions whose answer depends on the user's actual or preferred location (e.g., local regulations, prices or public officials), and for surfacing regional sources.\n\n\nBoth the expanded language support and the optional country field are available today in every Region where Web Search is offered: US East (N. Virginia), US East (Ohio), US West (Oregon), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland) and Europe (Frankfurt) for Web Search on Amazon Bedrock AgentCore, and US Regions for Web Search on Amazon Bedrock. Queries are processed in the Region you call, helping organizations meet data residency requirements. Existing customers get the new language capabilities automatically, with no code changes, and pricing is the same in every language.\n\n\nTo get started with Web Search on Amazon Bedrock, checkout the developer[guide](https://docs.aws.amazon.com/bedrock/latest/userguide/web-search.html#:~:text=User%20location,time%20zone%20identifier) and the web search product[page](https://aws.amazon.com/bedrock/grounding/web-search/) .",
+  "published_at": "2026-11-21T00:17:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:d0f5d228309d1f72e050c5de4c6fb131b34745cd43cadfa555144d23a335efb7"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "39039508996c70f69c980ababcb59a17406977275c1b63bdb4ad236825fee12a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
+  "title": "Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
+  "summary": "Discover more about what's new at AWS with Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
+  "body_markdown": "[Amazon Relational Database Service (Amazon RDS) for Oracle](https://aws.amazon.com/rds/oracle/) now supports Replica First Patching, which reduces downtime during minor version upgrades. Replica First Patching is available for Enterprise Edition DB instances. With Replica First Patching, you apply a minor version upgrade to a replica in the same AWS Region first while your primary DB instance continues to serve traffic, and then switch over to the replica when you're ready to complete the upgrade. If the replica is in read-only mode, you can validate the new minor engine version with your read traffic.\n\n\nReplica First Patching helps you keep mission-critical Oracle workloads current on minor versions with less disruption. You choose when to switch over within the switchover window, for example during a low-traffic period. If you don't switch over within the window, Amazon RDS rolls back the replica to its original minor engine version. After the switchover, Amazon RDS completes the upgrade on the new primary DB instance. Amazon RDS then upgrades your other replicas, including your former primary DB instance, to the same minor engine version.\n\n\nWe recommend that you connect your applications through the[Primary Endpoint](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/oracle-primary-endpoint.html) when you use Replica First Patching. The Primary Endpoint is a DNS name that resolves to the current primary DB instance, so your applications reach the new primary DB instance after the switchover without connection string changes.\n\n\nReplica First Patching is available at no additional charge in all commercial AWS Regions where Amazon RDS for Oracle is available. Standard pricing applies to the replica DB instance. To learn more, see[Upgrading with Replica First Patching](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/oracle-upgrade-replica-first.html) in the Amazon RDS User Guide.",
+  "published_at": "2026-11-20T22:00:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:b8dbe7037d9d5ea55f2a296cb77e00633336369079b18b4ea57f8e674084015f"
+}

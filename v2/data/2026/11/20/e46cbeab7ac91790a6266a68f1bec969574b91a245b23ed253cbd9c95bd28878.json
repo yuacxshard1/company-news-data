@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e46cbeab7ac91790a6266a68f1bec969574b91a245b23ed253cbd9c95bd28878",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/liquid-ai-pricing-models-and-api-costs-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/liquid-ai-pricing-models-and-api-costs-2026-guide",
+  "title": "Liquid AI Pricing: Models and API Costs (2026 Guide)",
+  "summary": "Liquid AI pricing in 2026 varies by plan. Understand the costs for each tier so you can select the option that fits your budget.",
+  "body_markdown": "## Connecting the Liquid API to workflows with Activepieces\n\n\nOut of Activepieces' 747 integrations, none needs to be Liquid-specific, because[Activepieces](https://www.activepieces.com/pricing) can call Liquid AI's hosted API through its generic HTTP request step.\n\n\nIts credit allowance caps how many automated calls you can pay for in a month. That ceiling matters less than the approval step in front of any call that sends text to a customer.\n\n\nBelow is a two-step example workflow: a trigger flows into a single HTTP request that sends a POST with an Authorization header and a body. A Liquid call would be built the same way.\n\n\nOn the left-hand side, the run details show each step's input and output. When a call returns something odd, you can see exactly what was sent and what came back before anyone blames the model.\n\n\n*(screenshot sits here)*\n\n\n### What the plan costs\n\n\nPick a plan and you've set the monthly ceiling on this automation. According to[Activepieces' own pricing guide](https://www.activepieces.com/blog/activepieces-cloud-pricing-plans-2026-price-guide) , Cloud costs $0 a month on Free with 1,000 credits, $20 on Plus with 10,000 credits, and $200 on Team with 50,000 credits.\n\n\nAnyone needing more than 1,000 monthly credits must therefore pay at least $20. Free's enough to test one workflow against real tickets, but a busy inbox will exhaust it.\n\n\nPlus works out to $0.002 per credit. Team works out to $0.004, so moving up buys more volume at **double the per-credit rate, not a discount** . Those totals are Activepieces' fee only, and Liquid's usage charges come on top.\n\n\nA wrongly worded refund promise sent to an angry customer costs far more than the minutes a reviewer spends checking a draft, so put a human approval step before any action that can't be undone.\n\n\nCap the number of runs as well, so a loop or a flood of retries can't drain credits unnoticed overnight.\n\n\nFigures were read from Activepieces' pages on 2026-11-09.",
+  "published_at": "2026-11-20T23:58:09+00:00",
+  "first_seen_at": "2026-11-09T09:12:36.180458+00:00",
+  "content_hash": "sha256:361f7cd1bf912e41dcadddfd1b4114e759a79a4a07349d78f1cc080ee05aec18"
+}

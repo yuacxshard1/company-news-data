@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a68dcdb426876afb071b8229458741515ee93d32322fef66da6e9cedd5ebe772",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-textract-core-skill-ai-agents/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-textract-core-skill-ai-agents/",
+  "title": "Announcing a new skill for AI agents in Amazon Textract Core",
+  "summary": "Discover more about what's new at AWS with Announcing a new skill for AI agents in Amazon Textract Core",
+  "body_markdown": "Amazon Textract Core now lets AI agents extract text, tables, forms, and other data from documents through a skill, with no server to run or infrastructure to deploy. The skill guides an agent to the right Amazon Textract Core API for each document and includes a tested parser that converts the output into reading-order text and structured fields, such as answers to questions, receipt and invoice details, and identity document fields. Previously, teams that connected an agent to Amazon Textract had to build and maintain their own integration.\n\n\nYou ask in natural language, and the agent returns the answers you need. The skill processes multi-page PDFs and returns every page in reading order. It uses confidence scores to accept high-confidence results and flags the rest, so you can route them to your own review process. For example, you can ask an agent to turn a patient's intake form into structured data and flag unclear fields for staff review.\n\n\nThe skill is available at no additional charge, and standard[Amazon Textract pricing applies](https://aws.amazon.com/textract/pricing/) . It is available in all commercial AWS Regions where Amazon Textract is available, including: US East (Ohio), US East (N. Virginia), US West (N. California), US West (Oregon), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Paris), Europe (Spain), and Europe (Zurich). If you use the AWS MCP server with the aws-core plugin, your agent can load the skill automatically. The skill is also published in the AWS Agent Toolkit, so agents including Kiro, Claude Code, and Cursor can use it. To learn more, see the AWS[Agent Toolkit on GitHub](https://github.com/aws/agent-toolkit-for-aws) .",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:9145ab02366c065a9bc4a62d94d9776cd72f23707f57e15fa4563a6f63aa0b7f"
+}

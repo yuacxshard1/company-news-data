@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ea4a57a340c42b778c75f724b60448a4f4452286b90d015332f7bf421d6ac13f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-cost-optimization-recommendations/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-cost-optimization-recommendations/",
+  "title": "AWS Lambda now provides cost optimization recommendations for Event Functions",
+  "summary": "Discover more about what's new at AWS with AWS Lambda now provides cost optimization recommendations for Event Functions",
+  "body_markdown": "AWS Lambda now provides cost optimization recommendations for[Event Functions](https://docs.aws.amazon.com/lambda/latest/dg/lambda-functions-chapter.html) in[AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) . These recommendations identify on-demand functions where moving to[Lambda Managed Instances](https://aws.amazon.com/lambda/lambda-managed-instances/) (LMI) is estimated to reduce costs, and provide configuration guidance for running on LMI. With these recommendations, you can lower your Lambda costs by focusing your efforts on the functions with the greatest estimated savings.\n\n\nLMI lets you run Lambda functions on Amazon EC2 instances while maintaining the operational simplicity of Lambda. With LMI, you can access specialized compute configurations and drive cost efficiency through EC2 pricing options such as Savings Plans and Reserved Instances, without managing infrastructure. Previously, to determine whether a function was a good fit for LMI, you had to analyze its invocation patterns, estimate LMI costs, and select the right instance type and memory-to-vCPU ratio yourself. This manual process added overhead and delayed savings. With this launch, Lambda automatically analyzes the invocation patterns, duration, and resource utilization of your high-volume Event Functions and recommends those where LMI is estimated to reduce costs. Estimates are based on a simulation of each function's invocation patterns, using public Lambda pricing and Amazon EC2 On-Demand pricing. Each recommendation includes the function ARN, the recommended EC2 instance type and memory-to-vCPU ratio, the estimated current cost, the estimated LMI cost, and the estimated savings. You can use the recommended configuration to run a function on LMI without sizing it yourself and realize cost savings sooner.\n\n\nThese recommendations are available in the following AWS Regions: US East (N. Virginia), US West (Oregon), Europe (Ireland), and Europe (Milan). Customers with eligible AWS Support plans can access them in the Trusted Advisor console alongside other cost optimization checks. To learn more, visit the[AWS Lambda Developer Guide,](https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances.html) the AWS Trusted Advisor[User Guide,](https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html) and the[AWS Lambda pricing.](https://aws.amazon.com/lambda/pricing/)",
+  "published_at": "2026-11-20T19:00:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:91b1bcc6b22ccc023b183d9b92eececb82d4b3c811a92379cac6e469b1692863"
+}

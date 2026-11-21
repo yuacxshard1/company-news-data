@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "290a82ea8bd0ee56bec8020f95f82791abdbc16a08c9e0fd63ad1015bece6c69",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-incremental-backups-dynamodb/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-incremental-backups-dynamodb/",
+  "title": "AWS Backup now supports incremental backups for Amazon DynamoDB",
+  "summary": "Discover more about what's new at AWS with AWS Backup now supports incremental backups for Amazon DynamoDB",
+  "body_markdown": "AWS Backup now supports incremental backups of Amazon DynamoDB tables, enabling you to reduce backup storage while maintaining backup schedules as frequent as one hour.\n\n\nUntil now, AWS Backup created a full copy of your DynamoDB tables. With this launch, after an initial full backup, each incremental backup now captures only the data that changed, and AWS Backup takes a new full backup every 15 days. This lets you store less data and back up more often. You can restore from any recovery point in the chain, and you can schedule incremental backups anywhere from hourly to weekly frequencies. You can store incremental backups in both AWS Backup vaults and logically air-gapped vaults. Cross-Region backup copies are also incremental, further increasing your savings.\n\n\nAWS Backup turns on incremental backups automatically for new customers who protect DynamoDB. If you already back up DynamoDB with AWS Backup, you can turn on incremental backups under advanced features in AWS Backup settings, which lets you manage your backup preferences at the account and region level. You can create and manage incremental backups from the AWS Backup console, the AWS CLI, or the API.\n\n\nIncremental backups for DynamoDB are available in all AWS Regions where AWS Backup protects DynamoDB. To learn more, see[working with supported services](https://docs.aws.amazon.com/aws-backup/latest/devguide/working-with-supported-services.html#working-with-ddb) in the AWS Backup Developer Guide, read the[launch blog](https://aws.amazon.com/blogs/storage/reduce-amazon-dynamodb-backup-storage-costs-with-incremental-backups-in-aws-backup/) , and visit the[AWS Backup product page](https://aws.amazon.com/backup/) . To get started, open the AWS Backup console.",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:7641f8b8b7301403cd86bb64bae8242b2fc205d16e018107a633a2f1507d6b19"
+}

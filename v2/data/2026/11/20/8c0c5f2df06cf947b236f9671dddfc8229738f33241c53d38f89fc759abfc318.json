@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8c0c5f2df06cf947b236f9671dddfc8229738f33241c53d38f89fc759abfc318",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-public-dns-fallback/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-public-dns-fallback/",
+  "title": "Amazon Route 53 private hosted zones now support public DNS fallback",
+  "summary": "Discover more about what's new at AWS with Amazon Route 53 private hosted zones now support public DNS fallback",
+  "body_markdown": "Amazon Route 53 private hosted zones now support public DNS fallback. When a query for a name in your private hosted zone's domain doesn't match a record in the zone, Route 53 returns the answer from public DNS instead of a \"name not found\" (NXDOMAIN) error. Public DNS fallback is part of the[Advanced Hosted Zones](https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-offers-advanced-hosted-zones/) offering.\n\n\nUntil now, Route 53 treated an associated private hosted zone as fully authoritative for its domain, so queries for names that weren't in the zone returned NXDOMAIN. To resolve a few names privately, customers also had to copy every other record from their public zone into the private hosted zone and keep the two in sync. With public DNS fallback, you add only the names you need privately, and every other name resolves from your existing public DNS. For example, your private hosted zone for example.com points example.com to a private endpoint, while partner.example.com exists only in public DNS. Before, a lookup for partner.example.com returned NXDOMAIN. Now it resolves from public DNS.\n\n\nTo get started, create a private Advanced Hosted Zone or upgrade an existing private hosted zone, and then turn on public DNS fallback. You can use the Route 53 console, API, AWS CLI, AWS SDKs, or AWS CloudFormation.\n\n\nPublic DNS fallback is available in all AWS commercial Regions where Route 53 private hosted zones are available. To learn more, see[Enabling public DNS fallback for a private hosted zone](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zone-private-public-dns-fallback.html) in the Route 53 Developer Guide and the[Route 53 pricing page](https://aws.amazon.com/route53/pricing/) .",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:025548c16fed6419ffe94d52daced5a7781695be2544e7154cea0244630fda9d"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b1a14134c0d09c26f7491ff0fd7a78440344fa18599f588d3a5e2519e1fce43d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/vpc-ipam-policies-firewall-lambda/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/vpc-ipam-policies-firewall-lambda/",
+  "title": "Amazon VPC IPAM policies now support automated internet firewall and AWS Lambda Web Functions and MicroVMs",
+  "summary": "Discover more about what's new at AWS with Amazon VPC IPAM policies now support automated internet firewall and AWS Lambda Web Functions and MicroVMs",
+  "body_markdown": "Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) policies now support AWS Network Firewall automated internet firewall and AWS Lambda Web Functions and MicroVMs. You can centrally configure IPAM policies across AWS accounts and AWS Regions to allocate public IPv4 addresses to these resources from specific IPAM pools, such as Bring Your Own IP (BYOIP) addresses or Amazon-provided contiguous IPv4 blocks. This enables a stronger security posture, simplifies network and security operations, and can reduce public IPv4 costs when you use BYOIP.\n\n\nMany customers allowlist the public IPs of their AWS resources in network access control lists (ACLs) and firewalls. Previously, keeping these resources on allowlisted addresses depended on each application team. With this launch, you can define allocation rules for them alongside existing resource types, so security teams can add IP-based filters with confidence that these resources draw addresses from approved ranges. For Lambda Web Functions and MicroVMs, this covers the public IPv4 addresses used for outbound traffic through Lambda Network Connectors. If a pool runs out of addresses, resources fall back to Amazon-provided addresses. You can also share allocated ranges with partners through IPAM integration with AWS prefix lists.\n\n\nThe feature is available in all AWS commercial Regions, in both the Free Tier and Advanced Tier of VPC IPAM. To learn more, see the[IPAM policies documentation page](https://docs.aws.amazon.com/vpc/latest/ipam/define-public-ipv4-allocation-strategy-with-ipam-policies.html) and the[IPAM documentation](https://docs.aws.amazon.com/vpc/latest/ipam/what-it-is-ipam.html) . For pricing details, see the IPAM tab on the[Amazon VPC Pricing page](https://aws.amazon.com/vpc/pricing/)",
+  "published_at": "2026-11-20T08:06:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:253cd341b43db37424c58a2de3a5a9bb2785a09b5e4289e8091ee5017dc4f60a"
+}

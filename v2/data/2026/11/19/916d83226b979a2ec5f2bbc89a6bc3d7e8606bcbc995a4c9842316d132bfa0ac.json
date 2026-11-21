@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "916d83226b979a2ec5f2bbc89a6bc3d7e8606bcbc995a4c9842316d132bfa0ac",
+  "company_key": "yc-captain",
+  "company_name": "Captain",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.captain.dev/blog/evaluating-sid-2-captain-agentic-rag/",
+  "canonical_url": "https://www.captain.dev/blog/evaluating-sid-2-captain-agentic-rag/",
+  "title": "Evaluating SID-2 + Captain for Agentic RAG",
+  "summary": "SID-2, SID-2 Swarm, Claude Haiku 5.5 and Claude Opus 5.5 searching Captain, compared with one Captain query on WixQA, SciFact and FeTaQA tables. nDCG@10, time and cost per question.",
+  "body_markdown": "An agent loop is not automatically better than a single search. On two of the three datasets we tested, one Captain query was as good as or better than the agents. On support questions, where customer wording differs from the article, SID-2 improved nDCG@10 by 0.109 over the best single query for roughly a quarter of a cent in model cost per question.\n\n\nWe would start with one Captain query and measure it on a few hundred questions from the actual use case. Where that misses, test an agent loop. SID-2 is a useful candidate: it was close to Opus 5.5 on WixQA at about 1/18 of the model cost, and on SciFact at about 1/11. It did not decline any questions.\n\n\nReranking also depends on the corpus. It added about five nDCG points on the spreadsheet set, but scored five to eight points below plain vector search on the two text sets. For SID-2, the model accounted for about 1.4 to 2.5 seconds per question. Searches and the 100-requests-per-minute workspace limit also affected end-to-end speed.",
+  "published_at": "2026-11-19T00:00:00+00:00",
+  "first_seen_at": "2026-11-21T08:26:38.002994+00:00",
+  "content_hash": "sha256:6693a994605882218621d39ebb35198c23a5af95596d9b0fab6dbd12eea429a8"
+}

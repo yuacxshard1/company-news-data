@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "68d7ae99e7e099eec499f3b96094ee252dfb61adf60fbe246b1a499a0528d10d",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-stacks-per-account-quota/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-stacks-per-account-quota/",
+  "title": "AWS CloudFormation increases the default stacks per account quota to 300,000",
+  "summary": "Discover more about what's new at AWS with AWS CloudFormation increases the default stacks per account quota to 300,000",
+  "body_markdown": "AWS CloudFormation now supports up to 300,000 stacks in each AWS account and Region by default (previously 2,000), which enables you to add stacks as your workloads grow without requesting a quota increase. CloudFormation manages related AWS resources as a stack that you create, update, and delete as one unit. Teams that deploy a separate stack for each customer, environment, or developer can now scale those patterns within a single account.\n\n\nA higher default quota allows you to keep growing workloads in the accounts where they already run. Previously, accounts that needed more than 2,000 stacks in a Region requested a quota increase through Service Quotas. Now, the default quota covers these workloads without a request. For example, a software provider that deploys one stack for each customer can grow from 2,000 to 300,000 customer stacks in one account and Region. Existing stacks work without changes.\n\n\nThe higher quota applies to stacks you create in the CloudFormation console or with the AWS CLI, AWS SDKs, AWS CDK, or AWS SAM. To view your stacks per account quota, open the Service Quotas console. For more information, see[CloudFormation quotas](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html) in the AWS CloudFormation User Guide. The increased quota is available at no additional charge in all AWS Regions where AWS CloudFormation is supported. For Region availability, see the[AWS Region table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) .",
+  "published_at": "2026-11-20T12:35:00+00:00",
+  "first_seen_at": "2026-11-21T04:54:55.004067+00:00",
+  "content_hash": "sha256:d41829298111db57c04a88bd2270281fe4e6f32c7592997b3b2ed25bfbd0659e"
+}

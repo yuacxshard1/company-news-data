@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "d4e2601609f386d02b2fce62dde7259d79a370bbe14404b4b868037e8350117b",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/what-is-nod-by-n8n-explained-from-n8ns-own-pages",
+  "canonical_url": "https://www.activepieces.com/blog/what-is-nod-by-n8n-explained-from-n8ns-own-pages",
+  "title": "What Is Nod by n8n? Explained From n8n's Own Pages",
+  "summary": "What is Nod by n8n and what can it accomplish in your workflows. Review what n8n officially states about its capabilities.",
+  "body_markdown": "## Connecting Nod to an Activepieces workflow today\n\n\nAs of 2026-11-11, Activepieces has no Nod-specific integration. Any connection runs through generic steps that nobody has tested against Nod. Treat each one like an unreviewed journal entry until a log supports it.\n\n\nPut the caution at the action step, and keep it in the same flow as the rules around it.\n\n\nActivepieces places an Agent step next to ordinary deterministic steps inside one flow, so one run trace records the whole execution, start to finish, rather than leaving the judgment in one product and the rules in another joined by a webhook.\n\n\nThe research explains why that matters:[arXiv](https://arxiv.org/abs/2608.10530) puts 66% of 85 papers on the perception layer and 12% on tool-augmented setups, but **only 4.7% on the action layer** and 3.5% on code execution.\n\n\nStart with reversible actions, because the steps that change something in another system are the least studied.\n\n\n### Three ways to connect Nod to workflows\n\n\nOption 1 is an HTTP request step. This is the simplest route, and it applies only if Nod's docs publish an endpoint. You see every request and response, so each run leaves a record you can check.\n\n\nOption 2 is an AI step with a custom or OpenAI-compatible provider. This applies only if Nod's docs say it speaks that protocol. If they don't, skip it, because guessing at compatibility produces failures you can't trace.\n\n\nOption 3 is an MCP server. Use this only if Nod documents one. It lets a model call tools directly, which is the action layer where the 4.7% sits, so grant it read-only access first.\n\n\nBefore any of the three, confirm the endpoint, the authentication method, the supported protocol, any rate limits, and whether Nod keeps its own run history. Until each answer is written down, the established tool stays the system of record.",
+  "published_at": "2026-11-21T00:39:50+00:00",
+  "first_seen_at": "2026-11-12T02:42:10.344373+00:00",
+  "content_hash": "sha256:71b42598162f35cd099c856ea95c484958ab0edb0e0be716de9c69d01f0b1b1a"
+}
