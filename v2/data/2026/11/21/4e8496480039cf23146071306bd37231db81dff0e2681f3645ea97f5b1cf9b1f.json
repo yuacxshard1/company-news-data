@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4e8496480039cf23146071306bd37231db81dff0e2681f3645ea97f5b1cf9b1f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/automate-gpt-62-astra-api-setup-guide-for-2026",
+  "canonical_url": "https://www.activepieces.com/blog/automate-gpt-62-astra-api-setup-guide-for-2026",
+  "title": "Automate GPT 6.2 Astra: API Setup Guide for 2026",
+  "summary": "Automate GPT 6.2 Astra by confirming your model ID, testing an API call manually, then setting up triggers that respect rate limits.",
+  "body_markdown": "## Run GPT-6 Astra on a trigger with Activepieces\n\n\nWhen you want this on a trigger, Activepieces, a workflow automation tool, runs it as a trigger followed by an OpenAI or HTTP step. The same authenticated call from your script becomes a few configured blocks, with retries on the step that can be rate-limited.\n\n\nThe pricing page lists bring-your-own AI keys on the $20-a-month Plus plan, where every AI step counts as 1 credit, against 2, 10 or 20 credits for a fast, smart or frontier model on Activepieces' own keys; the model charge lands on your own provider bill, which keeps the spend cap from Stage 1 where you set it.\n\n\nA script does the same job.\n\n\n### Build the workflow\n\n\nGreen run, wrong model. The model field was left at whatever a template shipped with, and that is the usual symptom.\n\n\nLook at the canvas below, a four-step recruitment flow: a schedule trigger, a Google Sheets lookup, a text AI step selected for configuration, and an HTTP call.\n\n\nThe selected step's panel shows Provider set to OpenAI, Model set to GPT-4o and a one-line prompt. The model is a field you set by hand, and nothing in the flow checks it for you.\n\n\nFor this article's model, replace that value with the ID you confirmed in OpenAI's own documentation.\n\n\nIf the built-in step's dropdown doesn't list it, use the HTTP step against the API with your key stored as a connection, and put the confirmed ID in the request body.\n\n\nTest the flow with a single sheet row before you let the schedule fire.\n\n\n### Handle GPT-6 Astra API failures and retries\n\n\nWhen a 429 comes back, you have hit a rate limit, so the step needs to wait and try again instead of failing the run.\n\n\nSeparating retryable errors from permanent ones takes extra steps in the flow, and on Activepieces a run is 1 credit however many steps it has, so the error-handling branch adds nothing to the credit count.\n\n\nIf the model ID is wrong, the client error it returns is one no retry will fix, so route that case to a Slack message naming the step and the ID it sent.\n\n\nCap the retries, as the previous section said, and let the run fail visibly once the cap is reached.\n\n\nKeep the Sheets action idempotent where you can, such as writing to a row keyed by job ID. Otherwise a retried run appends duplicates, and the first sign is a spreadsheet nobody trusts.\n\n\nWhen the logic is branchy, when you need unit tests, or when your team already deploys code and reviews it in pull requests, a script is the better choice.\n\n\nThe call, the limits and the model-ID check are identical either way. Choose the tool your team can debug at 2 a.m.",
+  "published_at": "2026-11-21T09:54:37+00:00",
+  "first_seen_at": "2026-11-18T17:35:41.201411+00:00",
+  "content_hash": "sha256:b9c47a3c98d2c79d8874a1083267882f7225d9169d626f2f71672c0c4447a905"
+}

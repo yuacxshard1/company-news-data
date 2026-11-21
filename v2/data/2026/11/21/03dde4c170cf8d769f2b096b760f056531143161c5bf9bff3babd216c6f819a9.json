@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "03dde4c170cf8d769f2b096b760f056531143161c5bf9bff3babd216c6f819a9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-use-the-granola-api-to-pull-notes-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-use-the-granola-api-to-pull-notes-2026-guide",
+  "title": "How to Use the Granola API to Pull Notes (2026 Guide)",
+  "summary": "Granola API documentation provides the technical details required to sync meeting transcripts and AI summaries into your internal enterprise systems.",
+  "body_markdown": "## Authentication and securing your Granola API credentials\n\n\nA long-lived secret key serves as the foundation for Granola API authentication, granting full access to meeting transcripts and AI-generated summaries. Granola restricts access to users on Business or Enterprise plans. Free-tier accounts don't see the developer options required to interface with the service programmatically.\n\n\n### Generating your first API key\n\n\nYou obtain your credentials directly from the Granola desktop app rather than through a command-line interface or email request. This self-service portal ensures that the account owner retains control over credential rotation without waiting for manual support intervention.\n\n\n### Provisioned access for beta participants\n\n\nThe developer settings are hidden from the standard interface until your account is explicitly whitelisted. If you are currently on the waitlist, the navigation paths described below will not be visible in your account profile.\n\n\nOnce you receive your invitation and your account is provisioned, the system unlocks the administrative tools necessary for integration. You will then see the developer tab appear within your workspace settings.\n\n\nLog into Granola Web, navigate to Settings > Developer, click 'Generate New Key', copy the secret, and store it in a secure vault. The dashboard masks the string permanently for security after the system generates the secret.\n\n\nIf you lose the value, you'll have to revoke the existing key and generate a new one. This immediately breaks any active integrations using the old credential.\n\n\n### Bearer token implementation in request headers\n\n\nEvery call to the Granola API must include a standard Authorization header using the Bearer scheme. Failing to include this header or omitting the \"Bearer\" prefix results in a 401 Unauthorized error. This stops the request before it reaches the processing layer.\n\n\nThe Authorization header uses the Bearer token to verify the requestor identity. The Content-Type header must be set to application/json to ensure the server parses the body as JSON.\n\n\nAgents like Claude Sonnet 5.5 or GPT-6.2 Astra can receive the key for automated meeting analysis thanks to this stateless authentication method. After verifying the handshake, you can begin polling for meeting objects.",
+  "published_at": "2026-11-21T04:30:11+00:00",
+  "first_seen_at": "2026-11-21T12:07:48.737459+00:00",
+  "content_hash": "sha256:3786aefb4b86676144cb58b21812e23ae793f4d62f36d548bbd7a2e550f33c12"
+}

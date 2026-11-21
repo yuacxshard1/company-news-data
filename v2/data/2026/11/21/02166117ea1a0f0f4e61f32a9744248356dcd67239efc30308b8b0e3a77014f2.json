@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "02166117ea1a0f0f4e61f32a9744248356dcd67239efc30308b8b0e3a77014f2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/inkling-2-mini-vs-inkling-2-small-pricing-comparison",
+  "canonical_url": "https://www.activepieces.com/blog/inkling-2-mini-vs-inkling-2-small-pricing-comparison",
+  "title": "Inkling 2 Mini vs Inkling 2 Small: Pricing Comparison",
+  "summary": "Inkling 2 mini provides automation teams with a lightweight architecture to reduce latency and infrastructure costs for routine agentic workflows.",
+  "body_markdown": "## Performance benchmarks from our internal automation tests\n\n\nInkling 2 Mini can outperform general-purpose small models in specialized background workflows by delivering higher cost-efficiency on repetitive data processing tasks.\n\n\nOur internal testing on 2026-11-21 compared[Thinking Machines](https://openrouter.ai/thinkingmachines/inkling-2-mini) Inkling 2 Mini against OpenAI GPT-5.4-mini across three core automation categories: support ticket sorting, invoice field extraction, and email thread summarization, so you can evaluate performance benchmarks based on the most recent comparative data.\n\n\n### Inkling 2 Mini vs GPT-5.4-mini speed\n\n\nGPT-5.4-mini maintains a lower median response time than Inkling 2 Mini, which reduces the total execution time for synchronous API calls in your customer-facing middleware.\n\n\nWhile GPT-5.4-mini remains a versatile tool for general chat, its overhead in processing prompt templates results in higher latency during extraction tasks.\n\n\nIn contrast, the specialized architecture of Inkling 2 Mini allows it to bypass generalized reasoning layers for high-volume batch jobs.\n\n\n### Inkling 2 Mini vs GPT-5.4-mini accuracy\n\n\nBoth models achieved high precision in basic classification tasks in our test.\n\n\nThis reliability means you spend less time writing validation logic to catch malformed responses, directly reducing the technical debt of your automation pipeline.\n\n\n### Cost efficiency per thousand executions\n\n\nThe financial advantage of using specialized models becomes evident when calculating the overhead of millions of monthly triggers. For identical workloads, GPT-5.4-mini costs $0.147 per 1,000 tasks while Inkling 2 Mini costs $0.096, meaning you achieve a lower cost per unit of work performed.\n\n\nThis price difference can allow for greater scalability within your existing infrastructure budget. If you're running one million invoice extractions per month, you save $51.00 on that single workflow.\n\n\nBy decoupling low-complexity tasks from flagship models, you can allocate your remaining budget toward higher-reasoning models like Claude Fable 5.2 for tasks that require long-horizon cognitive work, ensuring your capital is spent only where it provides the most value, which results in a more efficient overall deployment of your AI resources.",
+  "published_at": "2026-11-21T09:33:03+00:00",
+  "first_seen_at": "2026-11-21T12:07:48.737459+00:00",
+  "content_hash": "sha256:07ddf1a22b82379c3925d272231a8882fa4eca914de95263ab45117d6400b924"
+}

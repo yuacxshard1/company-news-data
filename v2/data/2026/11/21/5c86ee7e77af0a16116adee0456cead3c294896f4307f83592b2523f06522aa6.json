@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5c86ee7e77af0a16116adee0456cead3c294896f4307f83592b2523f06522aa6",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/glean-mcp-explained-how-the-integration-works-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/glean-mcp-explained-how-the-integration-works-in-2026",
+  "title": "Glean MCP Explained: How the Integration Works in 2026",
+  "summary": "Glean MCP provides a universal bridge for AI agents to access internal company data securely. Engineers can evaluate if this protocol fits their stack.",
+  "body_markdown": "## Glean MCP connects enterprise data to AI agents\n\n\n### The role of the Model Context Protocol (MCP)\n\n\nDevelopers can now use the Model Context Protocol (MCP) to provide a universal standard for data exchange instead of building bespoke \"plugins\" for every new AI tool. The traditional method of manual mapping is replaced by connecting the agent directly to an MCP server.\n\n\nCurrent models like Claude Opus 5.5 or GPT-6.2 Astra use this architecture to discover available data sources and tools dynamically.\n\n\nBy using this protocol, a company ensures that any compliant agent can immediately understand the schema of internal data. This reduces the engineering overhead required to deploy new AI assistants from weeks to minutes.\n\n\n### How Glean acts as the authoritative data provider\n\n\nGlean functions as the central hub in this ecosystem by indexing the entirety of a company's digital footprint into a single, searchable graph.\n\n\nThe AI doesn't have to navigate 10 different APIs to find a project status; it asks Glean, which has already crawled and unified those sources.\n\n\nYour AI agent is not code; it is a user, and treating it like one requires a platform rather than just a library.\n\n\n[Activepieces](https://www.activepieces.com/) brings every agent under the same governance as your employees, using RBAC, SSO, and SCIM to control what it may connect to.\n\n\n> Your AI agent is not code; it is a user, and treating it like one requires a platform rather than just a library.\n\n\nInstead of collapsing actions into an opaque result, every tool call is logged with its specific input and output in a granular run detail view. This auditability is why companies like MoneyGram and Alan run the platform to manage agentic access at scale.\n\n\n### Security and permissions in the MCP handshake\n\n\nWhen an agent requests data through Glean, the MCP handshake enforces that an AI agent never sees information the human user cannot access. The system validates the user's existing credentials against the source system's Access Control Lists (ACLs) at the moment of the request.\n\n\nSensitive payroll data or private Slack channels are prevented from leaking to unauthorized employees by blocking prompt injection or agentic errors.\n\n\nBecause Glean maintains a real-time map of permissions, the security boundary is moved from the agent's logic to the data layer itself. Enterprise governance remains intact even as autonomous agents perform complex, multi-step tasks across the organization.",
+  "published_at": "2026-11-21T09:13:24+00:00",
+  "first_seen_at": "2026-11-21T12:07:48.737459+00:00",
+  "content_hash": "sha256:b52b3a336552b923f11ada672f758fc47e541ae1c7748d5ef1ffc5243a560edd"
+}

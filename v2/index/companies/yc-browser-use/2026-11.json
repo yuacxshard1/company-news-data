@@ -3,12 +3,52 @@
     {
       "company_key": "yc-browser-use",
       "company_name": "Browser Use",
+      "doc_id": "032d13500907b7163967729ecdf5f9eb58d7854a702310aa32872ad14caf69c1",
+      "first_seen_at": "2026-11-21T15:05:53.580489+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Our LLM-as-a-judge read 433 of 2,102 characters per answer, and up to half of a +5.1 point agent eval win was that bug. How rejudging saved runs caught it.",
+      "title": "LLM-as-a-Judge Bug: Our Judge Read a Fifth of Each Answer"
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
+      "doc_id": "0a4ba24d689b0a96b4ef7cc7d461a4388859c1e2251dc657999218d44385793b",
+      "first_seen_at": "2026-11-21T15:05:53.580489+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "We tested 4 personal AI agents on a prompt-injection trap page and read 33,976 posts about 12 agents. What breaks in the browser, and a 7-point fix list.",
+      "title": "What a Personal AI Agent Needs From Its Browser (We Told 4 to Say PINEAPPLE)"
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
+      "doc_id": "253651dbca02496d8349974fb0b324152383733fc1c29b84927deda63e94b0e0",
+      "first_seen_at": "2026-11-21T15:05:53.580489+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "How to make a browser agent faster: two config flags cut a Google Flights run from 30.7 s to 20.7 s. The six causes, from CDP round trips to a page-settle bug.",
+      "title": "How to Make a Browser Agent Faster: Six Causes We Found"
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
       "doc_id": "26774823830de211b424200921d576d25d997a41c5f60bd6c7165cdb328543dc",
       "first_seen_at": "2026-11-10T10:43:25.161635+00:00",
       "published_at": "2026-11-09T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Connect 1Password to Browser Use, give an agent read-only vault access through a service account, and automate and verify a login.",
       "title": "Autofill Passwords with 1Password and Browser Use"
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
+      "doc_id": "3832e3915a0f1250d053cc455f709b9fe60516a7029cd6100ee382140ede2a0f",
+      "first_seen_at": "2026-11-21T15:05:53.580489+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Why a browser agent gets blocked: captchas, banned IPs, sensor flags and geo-blocks. What fixed each one in our tests, from a $100 bounty and 1.4M captcha encounters.",
+      "title": "Browser Agent Blocked? How to Tell Which Wall You Hit and Get Past It"
     },
     {
       "company_key": "yc-browser-use",
@@ -109,6 +149,16 @@
       "source_kind": "html",
       "summary": "Up to half of a +5.1 point agent eval win was a bug in our own harness. How rejudging saved runs caught it, and the 8 rules we now run evals by.",
       "title": "Our Eval Said +5.1. Up to Half of It Was Our Own Bug."
+    },
+    {
+      "company_key": "yc-browser-use",
+      "company_name": "Browser Use",
+      "doc_id": "d5b9ded750968795061e021d37a9e878de72f35da79db86e523719d43a56d70b",
+      "first_seen_at": "2026-11-21T15:05:53.580489+00:00",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "browser-use 1.0 replaces 24 browser actions with one python tool and raw CDP. The same models scored 14 to 33 points higher on BU Bench v2.1 and cost 2.7x to 5.2x less.",
+      "title": "browser-use 1.0: Why We Replaced 24 Agent Tools With One"
     },
     {
       "company_key": "yc-browser-use",

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "733e4b46f43bee2b4e26e87cee1359dda919bd4b3d23fd133189bf3242787a6f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/hubspot-twilio-integration-for-sms-workflows-no-code",
+  "canonical_url": "https://www.activepieces.com/blog/hubspot-twilio-integration-for-sms-workflows-no-code",
+  "title": "HubSpot Twilio Integration: No-Code Setup Guide (2026)",
+  "summary": "A HubSpot Twilio integration sends automated text messages triggered by customer events in your CRM. You can build one using a no-code automation platform.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Does HubSpot have a native Twilio integration?\n\n\nTreat it as something you build, not something you switch on. The reliable pattern is a HubSpot event, such as a new contact or a form submission, wired to a Twilio send-message action.\n\n\nCheck HubSpot's marketplace for a Twilio listing on your plan, but a listing's existence tells you nothing about which triggers it covers. Read what it fires on before you rely on it.\n\n\n### Can I send WhatsApp messages from HubSpot through Twilio?\n\n\nYes, through Twilio's messaging API, but it needs more setup than SMS. WhatsApp sending requires a WhatsApp-enabled sender registered with Twilio, and business-initiated messages generally have to use pre-approved templates.\n\n\nLook at whether the Twilio action in your builder accepts a WhatsApp-formatted sender and recipient. If it only handles plain SMS, a generic HTTP request step calling Twilio's Messages endpoint can do the job. Prove the plain SMS flow first, then change the channel.\n\n\n### Can I log incoming Twilio texts in HubSpot without code?\n\n\nUsually, yes, as long as your builder has the right integrations. You need an incoming-message trigger on the Twilio side, a lookup that matches the sender's phone number to a HubSpot contact, and an action that writes a note or activity onto that record.\n\n\nWhere it breaks is the match. If your contacts store phone numbers in inconsistent formats, the lookup will miss them, so normalize the number before searching. Confirm the HubSpot side actually exposes a note-creating action before you promise the team this feature.\n\n\n### Can I self-host the workflow so contact data stays on my servers?\n\n\nYou can self-host the automation layer, provided the tool you build in is open source and has a self-hosted edition. That keeps the workflow runner and its run logs on your own infrastructure. It doesn't pull the data out of HubSpot or Twilio, though.\n\n\nContact records still live in HubSpot, and message content still passes through Twilio. Self-hosting narrows where the workflow's copies of that data sit. It doesn't make the whole path private.\n\n\nDo you need a paid Twilio account to test the workflow? No. A Twilio trial account is enough for a first test, with restrictions: it can only message numbers you have verified, and trial messages carry a notice in the text.\n\n\nSince the test is \"send a text to my own phone,\" those limits cost you nothing. Upgrade when you want to message real contacts who haven't been verified.",
+  "published_at": "2026-11-21T05:05:41+00:00",
+  "first_seen_at": "2026-11-18T17:35:41.201411+00:00",
+  "content_hash": "sha256:461a0616645d3137f595372c8c618dcb16c05b61e12fe127e92994b69ff5dfaa"
+}
