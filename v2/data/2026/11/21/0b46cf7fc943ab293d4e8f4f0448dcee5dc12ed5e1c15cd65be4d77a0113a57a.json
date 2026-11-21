@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0b46cf7fc943ab293d4e8f4f0448dcee5dc12ed5e1c15cd65be4d77a0113a57a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/klaviyo-api-keys-scopes-rate-limits-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/klaviyo-api-keys-scopes-rate-limits-2026-guide",
+  "title": "Klaviyo API: Keys, Scopes, Rate Limits (2026 Guide)",
+  "summary": "Klaviyo API requests hit rate limits that trigger specific errors for throttling or versioning issues.",
+  "body_markdown": "## Activepieces for Klaviyo workflows without custom code\n\n\n### Building Klaviyo workflows for smaller jobs\n\n\nFor the smaller, steadier jobs that sit well under those bulk limits, Activepieces lets a team that doesn't write code build the flow itself, with the Klaviyo connection among its 750 integrations and unlimited flows on every plan, including the free one, which means there's no cost barrier to getting started.\n\n\nThese are syncing events, profiles or list membership between Klaviyo and other tools, built by a team that doesn't write code. That's the use its own Klaviyo page describes, and it's the fit to hold it to.\n\n\n### The connection and who owns it\n\n\nStart with the connection, because it decides everything after it. The Klaviyo connection holds a private API key, and that key's scopes set what a flow may read or write.\n\n\nRecord who created it and who is responsible when it's rotated or revoked. If the owner leaves and someone removes the key, every flow using it stops, and the failure appears in the run history rather than in anyone's inbox.\n\n\n### Reading the builder and the run trace\n\n\nThe builder below uses a Discord workflow rather than a Klaviyo one, but the layout is the same.\n\n\nIt shows a trigger, a record write, an AI check, a router and a send step, with the trigger's connection and read limit set in a side panel. A publish button and an unpublished-changes notice sit at the top.\n\n\nYou can audit who owns the credentials and how much a step pulls without reading code, because each step names its connection and its read size in a plain field.\n\n\nWhat follows from that layout is the run trace.\n\n\nDescribe a Klaviyo process in the built-in chat, one that also touches your other connected apps, and what it publishes is a live flow in your account, listed beside any flow built by hand, plus a run trace for every run that names the step that hit the 429, the 409 or the unapplied 202.\n\n\nYou still have to read that trace. What you skip is building the plumbing first.\n\n\n### Rate limits and async behavior persist\n\n\n**Don't expect Activepieces to lift Klaviyo's limits** . Flows run under the same rate limits and the same asynchronous behavior as hand-written calls. For high-volume bulk loads, or for retry logic tuned to your own data, hand-written code remains the better choice.",
+  "published_at": "2026-11-21T17:47:33+00:00",
+  "first_seen_at": "2026-11-21T19:58:28.378376+00:00",
+  "content_hash": "sha256:44ee827b299cb7adfb9a2146a0568fcae3b2614f3444284f668afc97e888e506"
+}

@@ -15,9 +15,9 @@
       "company_name": "NewsBlur",
       "doc_id": "0ef4a7e992a0df9cfc0e583a5fdb34361ed7ffa3d6a6fcf90abce200e99e92cd",
       "first_seen_at": "2026-11-12T22:11:04.965531+00:00",
-      "published_at": "2026-11-12T17:57:53+00:00",
+      "published_at": "2026-11-18T09:24:59+00:00",
       "source_kind": "rss",
-      "summary": "Are you able to just set a bool flag to show that the original Url might have a paywall? This would just be informational,",
+      "summary": "good idea. bumped into a lot recently especially on agregated news-sites",
       "title": "Can you add a PayWall Flag?"
     },
     {
@@ -123,6 +123,16 @@
     {
       "company_key": "yc-newsblur",
       "company_name": "NewsBlur",
+      "doc_id": "4825aca4b406b597e727df12d6394737898b088179097f5f1ef476564e3b8149",
+      "first_seen_at": "2026-11-21T19:35:08.575087+00:00",
+      "published_at": "2026-11-21T13:37:12+00:00",
+      "source_kind": "rss",
+      "summary": "Hi, I’m really happy with how Newsblur ingests and formats newsletters in general (aside from some image sizing issues here and there) but one newsletter I came across with a big rendering problem is the LeMonde English’s daily newsletters. I’m not sure what goes wrong but I’m attaching a screenshot from my browser as an example. It looks same on iOS, iPadOS and macOS apps as well. Samuel, if you need anything else from me to figure out the problem just let me know.",
+      "title": "LeMonde Newsletter Problem"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
       "doc_id": "4a74c55c43429c948db195c24cf6d58451b3abbcc66ba4115651f319f713b1dc",
       "first_seen_at": "2026-11-18T09:32:37.446621+00:00",
       "published_at": "2026-11-18T07:26:12+00:00",
@@ -209,6 +219,26 @@
       "source_kind": "rss",
       "summary": "<p>NewsBlur has a mobile web version again. On a phone, newsblur.com used to give you the desktop reader squeezed onto a tiny screen. Now it works like the iOS and Android apps, with screens that slide over each other, swiping between stories, and going back the way you’d expect. The web reader also draws your feed list the moment the page loads, instead of waiting on the server.</p> The mobile web version of NewsBlur This isn’t the first time. Back in June 2011, I built a mobile web version ...",
       "title": "A rewritten mobile web version of NewsBlur, and feeds that load instantly"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "80167c49ee2d501985e34eccf3583eb1d001af5aabaaaa1c341a5b8ee5848903",
+      "first_seen_at": "2026-11-21T19:35:08.575087+00:00",
+      "published_at": "2026-11-21T13:40:38+00:00",
+      "source_kind": "rss",
+      "summary": "Any thoughts on letting users “subscribe” to all posts from spepfic user or organizations on LinkedIn?",
+      "title": "Support gettings Posts from LinkedIn?"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "820d2854d57840d46ba1801cdb13813ae6da9110d261bd9e57cb522ebcbad024",
+      "first_seen_at": "2026-11-21T20:16:42.948262+00:00",
+      "published_at": "2026-11-21T19:26:47+00:00",
+      "source_kind": "rss",
+      "summary": "<p>In the middle of October, Reddit started refusing NewsBlur’s requests for subreddit feeds, and by early November every Reddit feed in NewsBlur had stopped updating. It <a href=\"https://forum.newsblur.com/t/13890\">came up on the forum</a> right away. Reddit is also retiring its RSS feeds.</p> Since November 10, NewsBlur gets Reddit posts from RedListen, a service that serves Reddit’s own listings. Subreddit, user, multireddit, comment, and search feeds all update again, and you don’t need t...",
+      "title": "Reddit feeds are back on NewsBlur"
     },
     {
       "company_key": "yc-newsblur",
@@ -369,6 +399,16 @@
       "source_kind": "rss",
       "summary": "I have my Subscriptions setup like this. Topic1 Folder –English Folder –French Folder Topic2 Folder –English Folder –French Folder Topic3 Folder –English Folder –French Folder The issue is when I select a subscription and attempt to Change Folder, the app seems to be confused that the same folder name re-appears, the onyl way I have been able to change folders is by using the API endpoint",
       "title": "Found a potential Bug when using Folders"
+    },
+    {
+      "company_key": "yc-newsblur",
+      "company_name": "NewsBlur",
+      "doc_id": "fd0ccec2762e53dd5236ed097a136239936d6c82551bf684d6dccca3a159a2ce",
+      "first_seen_at": "2026-11-21T19:35:08.575087+00:00",
+      "published_at": "2026-11-21T15:48:51+00:00",
+      "source_kind": "rss",
+      "summary": "Hi, I’m trying to figure out if NewsBlur supports private, authenticated feeds? (using http basic auth) Does any one know if this works? Here’s an example feed which includes images: https://JuGm_xWWYF:P9tfN7N8bJ@demo.havenweb.org/rss Thanks! Matt",
+      "title": "Authenticated Feed Support"
     }
   ],
   "company_key": "yc-newsblur",

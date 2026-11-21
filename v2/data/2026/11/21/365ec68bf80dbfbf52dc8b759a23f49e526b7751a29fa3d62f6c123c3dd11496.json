@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "365ec68bf80dbfbf52dc8b759a23f49e526b7751a29fa3d62f6c123c3dd11496",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/inkling-2-small-mcp-cost-and-requirements-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/inkling-2-small-mcp-cost-and-requirements-in-2026",
+  "title": "Inkling 2 Small MCP Cost and Requirements in 2026",
+  "summary": "Inkling 2 Small MCP is an AI model using Model Context Protocol. Find its costs, requirements and capabilities to determine if it's right for you.",
+  "body_markdown": "## Connecting an MCP client to business apps with Activepieces\n\n\nActivepieces has no connection to Inkling itself; it matters only if you want an MCP-capable assistant to reach your business apps.\n\n\nEvery integration you connect there is an agent tool: the same integration that runs as a step in a flow is exposed as a tool on a per-project MCP server, which Claude, ChatGPT, Cursor or an agent you built can call.\n\n\nThat means no separate catalog to publish and nothing to wire twice. The mechanism is visible in` packages/pieces` in the open source repo, which counts 750 integrations, so you're looking at a substantial, proven ecosystem.\n\n\nThe Integrations Framework and MCP Server documentation describe this mechanism, and the core is MIT-licensed, so the repo is there to read alongside them. Record the date you read each, as you did for each setup step.\n\n\nWhen an assistant calls a tool that exists on paper but is wired to the wrong account, nobody notices until the output is wrong. That is the failure this guards against, the one the earlier tests produced.\n\n\nA hosted integration layer moves that risk. You no longer maintain the connector, but you still choose which connections the assistant can reach.\n\n\n### When Inkling 2 Small MCP fits\n\n\nIt fits when the work is routine actions in business apps you already use: creating a record, posting a message, reading a row from a sheet.\n\n\nThe assistant gets a defined set of tools instead of free-form access, so you can see what it was able to call when something goes wrong.\n\n\nIt also fits when you want to try an MCP client against real apps before deciding whether to build anything custom.\n\n\n### When Inkling 2 Small MCP does not fit\n\n\nIt doesn't explain or replace Inkling 2 Small.\n\n\nActivepieces connects your apps to an MCP client through its 750 integrations, but connecting it tells you nothing about how Inkling behaves, which versions support MCP, or why an earlier setup failed, leaving you to troubleshoot blindly when issues arise.\n\n\nIf your problem is the model's own MCP behavior, this layer adds a second variable to the test.\n\n\nIt also doesn't help when the app you need has no integration. Roughly 60% of the 750 are community-contributed, so look for your app by name in the[community pieces directory](https://github.com/activepieces/activepieces/tree/main/packages/pieces/community) before assuming coverage from the product name.\n\n\nPricing and usage limits change, so read the current plans page before committing a team to it.",
+  "published_at": "2026-11-21T15:43:57+00:00",
+  "first_seen_at": "2026-11-21T19:58:28.378376+00:00",
+  "content_hash": "sha256:d5a5d4150467bafeb45c79d0c3229f3564b8132e51130bed1ab3d144837181b7"
+}

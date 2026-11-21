@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7387b10c822f769b244c57cde686caa4509a72dfc94d00b29265d615c7a55cee",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/amazon-workspaces-pricing-autostop-vs-alwayson-2026",
+  "canonical_url": "https://www.activepieces.com/blog/amazon-workspaces-pricing-autostop-vs-alwayson-2026",
+  "title": "Amazon WorkSpaces Pricing: AutoStop vs AlwaysOn (2026)",
+  "summary": "Amazon WorkSpaces pricing offers two models: flat monthly or hourly rates.",
+  "body_markdown": "## What WorkSpaces costs at scale\n\n\nTake the Standard Windows bundle in us-east-1: AlwaysOn (flat monthly billing) costs $35 per user.\n\n\nThat puts 10, 50 and 200 users at $350, $1,750 and $7,000 a month before directory, licence, storage and transfer charges, which means these baseline costs are only part of the total monthly bill.\n\n\nThose add-ons ride on top at every size.\n\n\nA user below that costs less on AutoStop and a user above it costs less on AlwaysOn.\n\n\nAt 84 hours, AutoStop works out to $9.75 plus $25.20, or $34.95, which is the flat rate to the cent. That crossover is about four working days of eight hours a week.\n\n\nThe decision is per user, not per company, and the rest of this section applies it at three headcounts.\n\n\n### WorkSpaces cost for 10 full-time users\n\n\nTen people at a desk all day run well past 84 hours each, so AlwaysOn is the cheaper mode for every one of them. The bill is $350, and the interesting question is not the desktop rate.\n\n\nWith ten seats, a directory service that costs a fixed amount per month is a large share of the total, so the choice of directory provider becomes a major cost lever. Price it before you compare against laptops.\n\n\n### WorkSpaces cost for 50 mixed-schedule users\n\n\nHere the split matters. Staff who log in a few hours a day sit under the 84-hour line and belong on AutoStop. Count them separately and multiply each group by its own rate.\n\n\nPut all 50 on AlwaysOn and the bill is $1,750, which overpays for every part-timer, meaning the model penalizes flexible staffing.\n\n\nPut all 50 on AutoStop and every full-timer is overpaid, and the penalty grows with each extra hour, at $0.30 apiece, which means each full-timer's cost depends entirely on hours worked.\n\n\nAudit actual connected hours for a month before you commit. Guessed hours are where mixed fleets go wrong.\n\n\n### 200 users: shift work and pooling\n\n\nA flat $7,000 at 200 users only makes sense if every seat is in use for most of the month, which makes the model fragile to staffing swings.\n\n\nShift teams break that assumption: three shifts can share one desk's worth of hours, yet per-user billing charges for each person.\n\n\nPooled sessions, where desktops are shared and not assigned to named people, change the unit you pay for from people to concurrent sessions.\n\n\nCheck the pricing page for the pooled rate and its limits, then compare it against 200 individual AutoStop users at your real hours.\n\n\n> Pooled sessions, where desktops are shared and not assigned to named people, change the unit you pay for from people to concurrent sessions.",
+  "published_at": "2026-11-21T15:10:09+00:00",
+  "first_seen_at": "2026-11-21T19:58:28.378376+00:00",
+  "content_hash": "sha256:c10842839ecd34bf8ef05b993ed67e943011de482c31b27d9e2743a74e8f0d35"
+}

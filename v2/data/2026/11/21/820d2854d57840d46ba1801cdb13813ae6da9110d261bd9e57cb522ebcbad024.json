@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "820d2854d57840d46ba1801cdb13813ae6da9110d261bd9e57cb522ebcbad024",
+  "company_key": "yc-newsblur",
+  "company_name": "NewsBlur",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://forum.newsblur.com/t/reddit-feeds-are-back-on-newsblur/13966",
+  "canonical_url": "https://forum.newsblur.com/t/reddit-feeds-are-back-on-newsblur/13966",
+  "title": "Reddit feeds are back on NewsBlur",
+  "summary": "<p>In the middle of October, Reddit started refusing NewsBlur’s requests for subreddit feeds, and by early November every Reddit feed in NewsBlur had stopped updating. It <a href=\"https://forum.newsblur.com/t/13890\">came up on the forum</a> right away. Reddit is also retiring its RSS feeds.</p> Since November 10, NewsBlur gets Reddit posts from RedListen, a service that serves Reddit’s own listings. Subreddit, user, multireddit, comment, and search feeds all update again, and you don’t need t...",
+  "body_markdown": "```text\n<p>In the middle of October, Reddit started refusing NewsBlur’s requests for subreddit feeds, and by early November every Reddit feed in NewsBlur had stopped updating. It <a href=\"https://forum.newsblur.com/t/13890\">came up on the forum</a> right away. Reddit is also retiring its RSS feeds.</p>\n\n\n```\n\n\nSince November 10, NewsBlur gets Reddit posts from[RedListen](https://redlisten.com/) , a service that serves Reddit’s own listings. Subreddit, user, multireddit, comment, and search feeds all update again, and you don’t need to change anything.\n\n\n### What’s different\n\n\nRedListen has a monthly limit on how many posts it returns, so NewsBlur reads Reddit a little differently than it used to:\n\n\n- **Subreddits are checked about once an hour,** many at a time. Quiet subreddits get every post. The busiest ones get a share of their posts, and that share grows with the number of NewsBlur readers following them.\n- **Hot and Top feeds read the same as New.**\n- **Reddit’s front page, r/all, and r/popular aren’t available,** and those feeds will say so.\n- **Comment thread and search feeds update at most twice a day,** and less often while they’re quiet. Comment threads older than 30 days can’t be fetched anymore.\n- **Refreshing a Reddit feed yourself still fetches it right away,** and so does adding a new one.\n- **Posts keep their formatting.** Reddit sends post text as plain text with formatting marks, and NewsBlur turns it into paragraphs, links, emphasis, code, quotes, and lists. Images come through too.\n- **Personal Reddit RSS feeds,** the ones with` ?feed=` in the address, still come straight from Reddit for as long as Reddit serves them.\n\n\n### Availability\n\n\nIt’s been live since November 10. It all happens on NewsBlur’s servers, so it works on the web and in every app without an update. If a subreddit isn’t coming through the way you’d expect, let me know on the[NewsBlur forum](https://forum.newsblur.com/) .\n\n\n---\n\n\nThis is a companion discussion topic for the original entry at[https://blog.newsblur.com/2026/11/21/reddit-feeds-are-back/](https://blog.newsblur.com/2026/11/21/reddit-feeds-are-back/)",
+  "published_at": "2026-11-21T19:26:47+00:00",
+  "first_seen_at": "2026-11-21T20:16:42.948262+00:00",
+  "content_hash": "sha256:a28c032ad5e3e9b2870ca1cd2e2404b7d216b9b1874bcd47af9c1251de9b6e5a"
+}

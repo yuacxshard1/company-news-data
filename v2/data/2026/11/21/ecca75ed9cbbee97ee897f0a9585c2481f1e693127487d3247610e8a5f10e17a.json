@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ecca75ed9cbbee97ee897f0a9585c2481f1e693127487d3247610e8a5f10e17a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/stitch-loop-what-googles-skill-does-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/stitch-loop-what-googles-skill-does-2026-guide",
+  "title": "Stitch Loop: What Google's Skill Does (2026 Guide)",
+  "summary": "Stitch Loop adds looping to Google automations. Decide how to structure workflows for repeated actions and when to use this capability.",
+  "body_markdown": "## What routes connect Stitch Loop today?\n\n\nTry an HTTP request step first, an AI step second, an MCP server third; each is a general route, and we haven't run any of them with Stitch Loop.[Stitch Loop](https://github.com/google-labs-code/stitch-skills) is a skill that generates multi-page websites from one prompt.\n\n\nBecause Stitch Loop is a skill, the order above may be wrong for it. A skill is instructions an agent follows, not a service with an address, so an HTTP request step is the less likely fit.\n\n\nAn agent that runs the skill, or an MCP server that fronts such an agent, is the more plausible route. Neither is confirmed by Google's pages, so treat that as a hypothesis to test.\n\n\nMCP, the Model Context Protocol, is a standard that lets an agent expose tools to other software. In a flow, a step would call an MCP server, which has an agent run the skill and return the pages.\n\n\n\"OpenAI-compatible\" simply means a model endpoint that accepts the same request format as OpenAI's API, so a flow's AI step can talk to it.\n\n\nA skill could also be run from a flow without MCP, for example by a headless agent, one running with no chat window, that a step invokes with the brief and that writes the pages out when it finishes.\n\n\nThat is my own design idea, not something Google's pages describe.\n\n\n**Google Sheets has 27 actions and 4 triggers** , GitHub 19 and 14,[Gemini](https://gemini.google/subscriptions) 11 and 0, MCP 1 and 1.\n\n\nSomething else must start the run, because Gemini has no trigger. The routes follow.\n\n\nHTTP request step: use this if Stitch Loop, or anything wrapping it, exposes an endpoint you can call. Nothing we have read says it does, so confirm that first. Untested with Stitch Loop.\n\n\nAI step with a custom or OpenAI-compatible provider: use this if you can put Stitch Loop behind an OpenAI-compatible interface, or point a custom provider at whatever model drives it. Gemini's 11 actions cover calling a model, not triggering on one. Untested with Stitch Loop.\n\n\nMCP server: use this only if Stitch Loop can be served over MCP. MCP's single action and single trigger mean the server must carry the whole job. Untested with Stitch Loop.",
+  "published_at": "2026-11-21T16:14:33+00:00",
+  "first_seen_at": "2026-11-21T19:58:28.378376+00:00",
+  "content_hash": "sha256:2b019605ead3bcc6ff235dc0f65c50ea00ffe83c95af2dcf8994810c2634e187"
+}

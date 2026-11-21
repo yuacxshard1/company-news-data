@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7725601cea37b6f3190ef4a540754d13d636712bbb3ca5bed89d6c3301acc238",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/calendly-google-drive-integration-without-code",
+  "canonical_url": "https://www.activepieces.com/blog/calendly-google-drive-integration-without-code",
+  "title": "Calendly Google Drive Integration Without Code",
+  "summary": "Calendly Google Drive integration needs automation tools, as they lack native support. Automate file creation from bookings in 15 minutes without code.",
+  "body_markdown": "## Frequently asked questions\n\n\nAfter a first working folder, the questions that follow are short, and each has a short answer.\n\n\nBecause **no native link worth relying on** exists between Calendly and Google Drive, the connection has to run through an automation tool: a Calendly trigger on one side, Google Drive actions on the other.\n\n\nCheck Calendly's own integrations page before you build, but plan around the workflow, not around a native option.\n\n\n### Can I connect Calendly and Google Drive on a free plan?\n\n\nIt depends on the plan limits at each end, and both can block you. Calendly decides which of its plans can send booking events to outside tools, and your automation tool decides how many runs and steps you get.\n\n\nConfirm both before you promise anyone a working setup. A flow that silently stops after a limit is worse than no flow, because the first sign is a client with no folder.\n\n\n### Does the workflow work with shared drives?\n\n\nTest it with one real booking before you trust it. If the Google Drive folder picker lists your shared drive, the listed actions can write there.\n\n\nIf it doesn't, fall back to an HTTP request against the Drive API and set the parameter that tells Drive you are working in a shared drive.\n\n\nWithout that parameter, Drive can behave as if the folder doesn't exist, and the failure looks like a permissions problem when it isn't one.\n\n\n### Can I run this on my own server?\n\n\nOnly if your automation tool can be self-hosted. Calendly and Google Drive stay cloud services either way, so the server runs only the workflow.\n\n\nTo deliver booking events, Calendly has to reach your instance over a public address, which means a machine behind a firewall with no inbound route will never see a booking.\n\n\nSort that out first, because a trigger that never fires looks exactly like a quiet week.\n\n\n### What happens to Drive files when a booking is cancelled?\n\n\nNothing, unless you build for it. The creation flow never hears about a cancellation, so the folder stays where it is.\n\n\nCalendly has a separate \"Event Canceled\" trigger, and a second flow on that trigger can find the folder and add a note. **I wouldn't have it delete anything.**\n\n\nPicture someone cancelling and rebooking within the hour, annoyed and in a hurry, and finding that their intake notes are gone. A folder marked cancelled can be recovered, and a deleted one may not be.",
+  "published_at": "2026-11-21T18:14:12+00:00",
+  "first_seen_at": "2026-11-21T19:58:28.378376+00:00",
+  "content_hash": "sha256:71ff2a77dbe7a19f161cee628aa6936c87a093d54b7deb44494229338a5ef81a"
+}

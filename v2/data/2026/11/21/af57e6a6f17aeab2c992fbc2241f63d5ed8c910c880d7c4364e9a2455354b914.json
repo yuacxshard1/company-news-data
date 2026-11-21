@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "af57e6a6f17aeab2c992fbc2241f63d5ed8c910c880d7c4364e9a2455354b914",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/datadog-salesforce-integration-a-2026-setup-guide",
+  "canonical_url": "https://www.activepieces.com/blog/datadog-salesforce-integration-a-2026-setup-guide",
+  "title": "Datadog Salesforce Integration: A 2026 Setup Guide",
+  "summary": "Datadog Salesforce integration wires events from one app to trigger actions in the other. You'll see how to build and test this workflow on real data.",
+  "body_markdown": "## Frequently asked questions\n\n\nAfter a handover like that one, most of the questions that follow come down to ownership, cost and scope, and each has a short answer.\n\n\n### Does Datadog have a native Salesforce integration?\n\n\nBuild it with a webhook trigger, which is the reliable route, since the Datadog piece offers no triggers of its own, and a Salesforce action creates or updates a record. Datadog's integrations catalog changes over time, so check it for a current Salesforce tile before building anything.\n\n\nEven if one exists, confirm which direction it moves data. A native tile may only pull Salesforce metrics into Datadog, while you need alerts pushed into Salesforce.\n\n\n### Can I connect Salesforce and Datadog for free?\n\n\nPossibly, but the cost sits in three places, and you should check each. Whether API access is included depends on your Salesforce edition, since some editions restrict it.\n\n\nYour Datadog plan decides which alerting and webhook features you can use. Your workflow tool decides how many runs you get before a paid tier starts.\n\n\nTest on one real event first: a single run shows whether you'll stay inside the free limits before you widen the workflow.\n\n\n### Can I send Datadog alerts to Salesforce as cases?\n\n\nYes. A Datadog monitor alert fires the trigger, and a Salesforce action creates a record on the Case object.\n\n\nThree things decide whether this works well. Map the alert's title, severity and link to specific Case fields, and confirm that every required Case field has a value.\n\n\nAdd a step that checks for an existing open case from the same alert, or a flapping monitor will open a new case on every state change.\n\n\nName the person or team who owns the cases it creates, because unowned cases are the ones nobody closes.\n\n\n### Is it safe to give Datadog access to Salesforce data?\n\n\nIt's safe when the access is narrow and has a named owner. Create a dedicated integration user in Salesforce rather than borrowing a person's login, and grant a permission set limited to the objects and fields the workflow touches.\n\n\nIf the workflow only creates cases, it needs no read access to accounts or contacts.\n\n\nRecord who owns that user and who renews its credentials.\n\n\nIn the other direction, Datadog should receive only the fields it needs, so keep customer personal data out of alert payloads. If the integration user is tied to one person, it's the departed-employee failure from above all over again.",
+  "published_at": "2026-11-21T18:52:40+00:00",
+  "first_seen_at": "2026-11-21T19:58:28.378376+00:00",
+  "content_hash": "sha256:7f464d13f91fec3686c4ad865a038b259b93d707095f79a256146b651c229a4e"
+}
