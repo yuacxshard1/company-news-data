@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cb1d66931f0e4e4b61375007df1a312ec9f33228ef4b66953eed88f19b2a5c84",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/trello-api-keys-tokens-rate-limits-and-webhooks",
+  "canonical_url": "https://www.activepieces.com/blog/trello-api-keys-tokens-rate-limits-and-webhooks",
+  "title": "Trello API: Keys, Tokens, Rate Limits and Webhooks",
+  "summary": "Trello API calls require both an API key and user token. Find out authentication requirements, rate limits, and what errors you might encounter.",
+  "body_markdown": "## Use the Trello integration in Activepieces\n\n\nActivepieces has a Trello integration among its 750 integrations, in which a card event can act as the trigger that starts a flow, and a flow can create a card, so you can automate workflows initiated by Trello activity.\n\n\nThat covers both directions of the plumbing this article has been working through: reacting to a card moving, and writing a card from somewhere else, without you hand-building either side against the raw API.\n\n\nThe failure it addresses is specific. A webhook callback URL goes down or changes, Trello stops delivering, and nobody notices until a card is missing downstream.\n\n\nThe Trello key and token live in a stored connection that the flow references, so they don't sit in your repository, your deploy config or a chat thread. MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.\n\n\n### When a workflow tool is enough\n\n\nStart with the Activepieces Trello integration page, which lists the triggers and actions available, including the card events that can start a flow and the operations a flow can perform on a board.\n\n\nTrello is one of the 750 integrations counted in the open source monorepo, whose core is MIT-licensed, so the integration's triggers and actions are readable in source as well as on the page.\n\n\nIf the thing you need is there, you're describing a process, not building plumbing.\n\n\nDescribe the card-move process in the built-in chat and what comes back is a published flow in your account, whose Trello trigger and actions match that integration page and whose run trace lists every step of every run.\n\n\nWhat follows is the test for fit. A flow that reacts to a card moving, posts to another app and records the result is a good fit. So is a form that opens a card with the right fields filled in.\n\n\n### When to call the API directly\n\n\nWrite direct code when the flow needs something the integration doesn't expose. That includes an endpoint absent from the integration page, a bulk operation over a whole board, or request-level control such as the field selection from the previous section.\n\n\nUse code too when the logic's a program in its own right, with branching, state and tests that belong in your repository's review process. In those cases keep the scoped token and the managed webhook, and write only the part the tool can't.",
+  "published_at": "2026-11-22T03:33:55+00:00",
+  "first_seen_at": "2026-11-22T06:22:48.967679+00:00",
+  "content_hash": "sha256:087ebb556241fd6c3a938990abdc9e5c8b4fa2ff575fa5389fcab2a511c3c08b"
+}

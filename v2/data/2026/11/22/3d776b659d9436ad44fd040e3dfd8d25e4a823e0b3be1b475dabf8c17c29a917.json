@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3d776b659d9436ad44fd040e3dfd8d25e4a823e0b3be1b475dabf8c17c29a917",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-fable-52-pricing-plans-api-rates-2026",
+  "canonical_url": "https://www.activepieces.com/blog/claude-fable-52-pricing-plans-api-rates-2026",
+  "title": "Claude Fable 5.2 Pricing: Plans, API Rates (2026)",
+  "summary": "Claude Fable 5.2 pricing includes options for individual and team users. You'll understand the cost structure and which plan best fits your needs.",
+  "body_markdown": "## Tracking Claude Fable 5.2 spend with Activepieces\n\n\nActivepieces won't change what Claude Fable 5.2 costs. What it can do is show you which task or team is using the model, so you find out about a runaway month before the invoice does.\n\n\nActivepieces traces every tool call an agent makes, the data it touched and the order it decided things in, right beside the fixed steps in the same run, and exports that trace as audit logs and event streams to your SIEM.\n\n\nA login record can't tell you what a Fable 5.2 agent did mid-job, and MoneyGram and Moneypenny run Activepieces in production.\n\n\nIf your team works on a flat seat plan, skip it. It earns its place when Fable 5.2 is called through the API or from scheduled jobs, where nobody is watching the meter.\n\n\nPicture a flow titled \"Test Flow\" that runs on a schedule. It reads rows from Google Sheets, loops through them, calls an outside service over HTTP and passes the results through two AI steps.\n\n\nIt then writes a row back to the sheet, splits into a branch, and sends an email through Gmail.\n\n\nTake from the flow that every model call sits at a known step. Each step is somewhere you can record who asked and what for, and the branch is somewhere you can send a warning.\n\n\nThat's how you get per-team and per-task tracking: one logging step per model call, plus a branch that emails you when a running total crosses a line you set.\n\n\n### About Claude Fable 5.2 and its cost drivers\n\n\nLong jobs make many calls, so they're the ones whose cost surprises people. Claude Fable 5.2 is Anthropic's model for demanding reasoning and long-horizon agentic work. Anthropic's Haiku 5.5 and Sonnet 5.5 are the lighter options for routine work.\n\n\nThe model description was checked against Anthropic's model page on 15 November 2026.\n\n\nI didn't verify plan prices, usage limits or any Activepieces pricing, so confirm those on each vendor's page before you build the flow.",
+  "published_at": "2026-11-22T03:06:42+00:00",
+  "first_seen_at": "2026-11-16T03:04:50.771641+00:00",
+  "content_hash": "sha256:0f63fa7c3f9db0823e83a107b5cdaecb1563cee243e0dfa10467c53bb5bda361"
+}

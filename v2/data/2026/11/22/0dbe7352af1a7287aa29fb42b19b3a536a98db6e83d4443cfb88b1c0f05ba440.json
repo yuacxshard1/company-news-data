@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0dbe7352af1a7287aa29fb42b19b3a536a98db6e83d4443cfb88b1c0f05ba440",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/mailchimp-api-keys-rate-limits-and-requests-2026",
+  "canonical_url": "https://www.activepieces.com/blog/mailchimp-api-keys-rate-limits-and-requests-2026",
+  "title": "Mailchimp API: Keys, Rate Limits and Requests (2026)",
+  "summary": "Mailchimp API manages email audiences, contacts, campaigns and reports via REST. Authenticate with API keys or OAuth and understand rate limit handling.",
+  "body_markdown": "## Call the Mailchimp API without code using Activepieces\n\n\nReach for Activepieces when you want to drive Mailchimp from a visual workflow. It suits contact syncs and event reactions, but not heavy bulk jobs or custom retry logic, which are still better written in code.\n\n\nThat split follows from the last section. A workflow tool can receive an event and act on it, yet it won't give you the queueing and backoff control you would build yourself.\n\n\nThe screenshot below shows the shape of a typical build, a weekly competitor price monitor.\n\n\nA schedule trigger fires on Friday at noon UTC, a Google Sheets step finds the rows, a loop walks each competitor, Firecrawl scrapes the pricing page, and an AI utility step checks for changes.\n\n\nThe workflow isn't a Mailchimp flow. It shows the pattern you would reuse: one trigger, then a chain of steps that each do one small thing, with a sample-data test on each step before you turn it on.\n\n\nThat tested-sample habit is the useful part, because it lets you see a real response before the workflow touches live audiences.\n\n\n### Using the Mailchimp integration\n\n\nFor the common jobs, the Mailchimp integration has triggers and actions: adding or updating a contact in an audience, and reacting to events such as a new subscriber.\n\n\nConnect it once with your account credentials, and the integration handles authentication and the data center URL for you.\n\n\nUse it where the call is a single, small operation per event. A new signup arrives, the workflow adds a contact, and the work is done.\n\n\nKeep the loop shape in mind. A loop step that adds one contact per iteration makes one request per contact, which is exactly the unbatched pattern this article warns against. For a large import, write the job in code.\n\n\n### Calling other endpoints with the HTTP step\n\n\nWhen the integration doesn't wrap an endpoint you need, the HTTP step reaches it directly. You supply the same API key and the same data center URL you would use in code, and the step sends the request as written.\n\n\nYou get the endpoint coverage of the full API without leaving the builder.\n\n\nYou also take on the details the integration would have handled: the correct base URL, the authorization header and the request body. Test the step against sample data first, and read any error response before you trust the flow.",
+  "published_at": "2026-11-22T02:39:34+00:00",
+  "first_seen_at": "2026-11-22T06:22:48.967679+00:00",
+  "content_hash": "sha256:e4999a39d35ecc07956cdd1dbecf3fd0fb886bf911839b95564137869b0dd72f"
+}

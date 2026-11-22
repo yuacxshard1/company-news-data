@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2caf2c29bde1fd1e26a32ab56b70df50e5f0e97282e03d94b76c6709427c5c79",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/xai-workflow-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/xai-workflow-2026-guide",
+  "title": "Xai Workflow (2026 Guide)",
+  "summary": "xAI workflow connects Grok to apps via a single authenticated API call between an event and a response step. You'll understand how to integrate Grok.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is the xAI API free to use?\n\n\nNo: API calls are billed against usage on your console account, and any free credits or promotional balance depend on what xAI offers when you sign up. **Treat credits as a bonus, not a plan** .\n\n\nA workflow that assumes free calls will fail the moment the balance reaches zero, and that failure looks like an authentication or quota error. It's another silent one unless step 4 catches it and alerts you.\n\n\n### Can I use the OpenAI SDK with xAI?\n\n\nYes. The xAI API accepts OpenAI-style requests, so you can keep the OpenAI SDK, point its base URL at xAI's endpoint, and supply an xAI key and a Grok model name.\n\n\nThe consequence's that a workflow built on OpenAI's request shape needs only three changes: base URL, key, model string. If the call fails after the swap, check those three first. A leftover OpenAI model name's the most common cause.\n\n\n### Does a Grok subscription include API access?\n\n\nNo. A subscription to Grok as a chat product and an API account are separate billing relationships. Paying for one doesn't authenticate calls made with the other.\n\n\nIf your workflow returns an authorization error even though you pay for Grok, the key was probably created under an account with no API balance, or you're using no key at all.\n\n\n### Which Grok model should I pick for a workflow?\n\n\nStart with Grok 4.7, xAI's flagship for code, chat and agentic tool calling. It's the model to use while you prove one authenticated call end to end, because a failure then points to your setup, not to a weak model.\n\n\nOnce the flow works, test whether a cheaper or faster option from xAI's current list holds up on your real inputs. Change the model name in one place, and rerun the same test input, so a difference in output has one explanation.\n\n\n### Can xAI workflows run on a schedule without code?\n\n\nYes. The shape is: a schedule trigger fires, an HTTP request step sends the prompt to xAI with the key in an authorization header, and a final step writes or sends the result.\n\n\nZapier and Make can both do this through their generic HTTP or webhook modules, so no custom connector is required.\n\n\nKeep the key in the tool's stored credentials or secrets feature. Don't paste it into the request body or a shared prompt, so anyone who can view the flow can't copy it.\n\n\nAdd a failure branch that retries once after a pause on a rate-limit response, then alerts you if the second attempt fails. Without that branch, a scheduled run that breaks overnight leaves no record until someone notices missing output.",
+  "published_at": "2026-11-22T03:06:51+00:00",
+  "first_seen_at": "2026-11-15T20:49:25.744740+00:00",
+  "content_hash": "sha256:2ea8e0626d01f6f677d2bfdfd6eacebba83ca367b849420740bff4674982e280"
+}

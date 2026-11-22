@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8b2b288f84997d02b148e7af18b0b530f52e1cd03f6c99fb984373ea8d491516",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/ai-agent-workflow-examples-7-templates-to-copy-2026",
+  "canonical_url": "https://www.activepieces.com/blog/ai-agent-workflow-examples-7-templates-to-copy-2026",
+  "title": "AI Agent Workflow Examples: 7 Templates to Copy (2026)",
+  "summary": "AI agent workflow examples score leads and alert teams via CRM and Slack. Choose which to implement in your sales process.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces is built for the narrow shape this article keeps returning to. A flow starts with one trigger, hands one step to a model, and puts a condition or an approval step in front of anything irreversible.\n\n\nThe Agent step, the branch, the Slack approval and the Stripe or Sheets write all sit in a single flow definition. A bad run therefore shows up as one trace you can open and read, not a model call buried in someone else's webhook.\n\n\nThe refund and invoice flows above map directly onto it. You give the model step only the integrations it needs, and the gate stays outside the model as an ordinary condition.\n\n\nEach integration linked in this article, including OpenAI, HubSpot, Slack and Zendesk, is a step you drop in.\n\n\nThe core is open source under the MIT licence, so you can self-host it when invoice or ticket text must stay on your own servers. MoneyGram, Moneypenny, Alan and FundingSocieties run it.\n\n\nYou can build the lead qualification flow from section 1[free on Activepieces cloud](https://cloud.activepieces.com/sign-up?ap_cta=blog_body&ref=%2Fblog%2Fai-agent-workflow-examples-7-templates-to-copy-2026) , then replay your ten past cases through it before you switch it on.",
+  "published_at": "2026-11-22T00:41:42+00:00",
+  "first_seen_at": "2026-10-15T09:00:03.756744+00:00",
+  "content_hash": "sha256:8529701acc889afd3494a5bc9e259bf805d1b258b5d3bbcf569148a851f7f7df"
+}

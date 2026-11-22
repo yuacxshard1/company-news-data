@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1982a7a01c603b1ba7ce48c1ab81bad926f92035888733ceb439e0d0be1d6c27",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/aws-config-pricing-how-costs-add-up-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/aws-config-pricing-how-costs-add-up-2026-guide",
+  "title": "AWS Config Pricing: How Costs Add Up (2026 Guide)",
+  "summary": "AWS Config pricing uses a pay-as-you-go model with no free tier or plans. Understand your likely monthly costs based on the resources you need to monitor.",
+  "body_markdown": "## Frequently asked questions\n\n\nDoes AWS Config have a free tier? No. Every configuration item recorded and every rule evaluation is billed from the first one, so even a small test account produces a charge.\n\n\nIn this billing system, the bill will be small if little changes, but it's never zero, and the only way to keep it near zero is to record fewer resource types.\n\n\n### Is AWS Config charged per region?\n\n\nYes. Config is enabled and billed region by region, so the same recorder switched on in every region you use produces a separate set of charges in each.\n\n\nA multi-region footprint multiplies the exposure, and a region you forgot about still bills if its recorder is running and resources there change. Check which regions have a recorder before you assume the total is one account's worth.\n\n\n### Can I stop AWS Config billing without deleting my data?\n\n\nYes, in the sense that matters. Stopping the configuration recorder ends new charges for recording, and your existing history stays in the S3 bucket you chose as the delivery target.\n\n\n**Rules also bill on evaluations, so a stopped recorder with active rules isn't a clean stop.**\n\n\nPause or remove the rules as well, and note that you'll have a gap in the record for the period the recorder was off, which matters if an auditor asks for continuous history.\n\n\nDoes Security Hub cost extra on top of AWS Config? Yes. Security Hub is priced as its own service, and its checks depend on Config recording being enabled.\n\n\nThat means you pay for **Security Hub and also for the Config items** and evaluations that feed it. When you price a compliance setup, count both lines rather than treating Security Hub as a wrapper over what you already pay.\n\n\nHow do I estimate AWS Config cost before turning it on? Work from change volume, not resource count. Take these steps in order:\n\n\n1. List the resource types you actually need recorded, and exclude the high-churn ones you don't.\n2. Estimate how often those resources change in a normal month, using your deployment frequency and any autoscaling.\n3. Multiply that change count by the per-item rate on the AWS Config pricing page.\n4. Add the number of rules, the resources each one evaluates, and how often they run, priced at the per-evaluation rate.\n5. Repeat for every region you plan to enable.\n\n\nThen switch it on in one account for a week and compare the real usage against your estimate before rolling it out wider. A fast-changing environment will break a static estimate quickly, so the trial week is the check that counts.",
+  "published_at": "2026-11-22T01:57:58+00:00",
+  "first_seen_at": "2026-11-22T06:22:48.967679+00:00",
+  "content_hash": "sha256:4e53d926bb4de4b0b651c1b5c6dfdc7b693166d6d6eda74600d593f580a09052"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f63e17350dec1d1b1edb91d90f0606c3dca2ea5ecaa762028043da7f2174d2ec",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/suno-pricing-2026-free-pro-and-premier-compared",
+  "canonical_url": "https://www.activepieces.com/blog/suno-pricing-2026-free-pro-and-premier-compared",
+  "title": "Suno Pricing 2026: Free, Pro and Premier Compared",
+  "summary": "Suno pricing offers three plans—Free, Pro, and Premier—each with different features and credit limits. Compare them to pick the right tier for your needs.",
+  "body_markdown": "## Tracking Credit Use With Activepieces\n\n\nIf the cheaper plan only works when nobody retries, you need a running count of what each track costs, and[Activepieces](https://www.activepieces.com/blog/n8n-pricing-2026-plans-free-tier-costs-explained) , which counts 747 integrations in its open source repository, the spreadsheet apps among them, can keep that count for you.\n\n\nIt's a workflow tool: you pick a trigger, chain a few actions after it, and it runs them without anyone watching.\n\n\nFor this problem, the useful job is narrow. Each time a track is finished, Activepieces adds a row to a spreadsheet, and when your estimated credit use for the month passes a line you set, posts a warning in Slack.\n\n\nThat is one flow, and flows are unlimited on every plan, including free.\n\n\nActivepieces charges 1 credit per flow run, whether the flow holds two steps or ten.\n\n\nA tracker split into small steps (log the row, tag the model, add the retry count, check the threshold) costs the same as a two-step shortcut, so nothing nudges you to cut corners on the part that makes the count reliable.\n\n\nZapier bills per task and Make per module, and on both pricing pages the same split gets dearer with every step. On the free plan's 1,000 credits a month, the tracker for a team spending 2,500 Suno credits stays a rounding error.\n\n\nA row per track means you can see, in your own sheet, how many generations a project took, including the retries nobody mentioned.\n\n\n### Building the workflow\n\n\nYou don't need to have written code to use the builder. The screen below shows a three-step workflow on the canvas, a timer trigger, an action that asks ChatGPT something, and an end node.\n\n\nThe step picker is open on the right, with \"sheet\" typed into its search box.\n\n\nWith \"sheet\" typed in, the list that comes back includes Google Sheets and Microsoft Excel 365, which tells you the logging half needs no custom work. You choose the spreadsheet you already use and add a step that writes to it.\n\n\n### What it can't see\n\n\nBe honest about the next part, because it decides whether this is worth your afternoon. **Activepieces can't read your live Suno balance** .\n\n\nIf you generate outside the workflow, the estimate drifts.\n\n\nThe credit figure in your sheet is built from the tracks you log and the per-generation cost you assume. Treat the Slack alert as a prompt to go check the real balance in Suno, not as the balance itself.\n\n\nWhat follows is the rule you set around it: pick the threshold, and decide in advance what you do when it fires.",
+  "published_at": "2026-11-22T00:41:17+00:00",
+  "first_seen_at": "2026-11-09T17:12:08.575338+00:00",
+  "content_hash": "sha256:8ce073b53469d1d9def43ba4a8c5854b7ff7ebec59bb7d919bd8d29c417fe9a2"
+}
