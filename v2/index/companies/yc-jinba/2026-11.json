@@ -13,6 +13,16 @@
     {
       "company_key": "yc-jinba",
       "company_name": "Jinba",
+      "doc_id": "05fc615864508eb590170a0a4f95218b8754fbab5b52acbb44efa8a7cea96520",
+      "first_seen_at": "2026-11-21T18:29:36.949585+00:00",
+      "published_at": "2026-11-22T16:00:00+00:00",
+      "source_kind": "html",
+      "summary": "AI-drafted Intercom replies cut triage time without auto-send risk. Classify intent, draft with Claude, gate on WAIT_FOR_APPROVAL, then send only after a human signs off.",
+      "title": "How to Draft (and Approve) Support Replies in Intercom with AI"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
       "doc_id": "06562ed1e810a8077323263deb8da1bf713ab4ae392615b873cdb6f12d1f6d7b",
       "first_seen_at": "2026-11-13T05:38:34.181663+00:00",
       "published_at": "2026-11-12T14:12:18.252+00:00",
@@ -99,6 +109,16 @@
       "source_kind": "html",
       "summary": "Receive an HTTP POST, validate the HMAC-SHA256 signature, send via Twilio SMS, and log the message.sid. Includes idempotency to stop duplicate texts.",
       "title": "How to Send a Twilio SMS on a Webhook Event"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "4f097880301a442040ea8024e012a84ea7ec830b85ce9f082134927c002f5c92",
+      "first_seen_at": "2026-11-21T18:29:36.949585+00:00",
+      "published_at": "2026-11-22T16:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Bad data enters a CSV silently and surfaces expensively. This three-step guide shows how to read raw, validate every row, and route rejects to Slack before your database is touched.",
+      "title": "How to Reconcile a CSV or Excel File Before It Hits Your System of Record"
     },
     {
       "company_key": "yc-jinba",
@@ -203,6 +223,16 @@
     {
       "company_key": "yc-jinba",
       "company_name": "Jinba",
+      "doc_id": "91df21cc16a3b3921c764235217a28585fcab67ca4de25ccaf4d7373ef8934c4",
+      "first_seen_at": "2026-11-21T18:29:36.949585+00:00",
+      "published_at": "2026-11-22T16:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Meeting summaries sit in inboxes. This pipeline turns Zoom transcripts into structured JSON, then auto-creates HubSpot tasks, Notion records, and Slack updates with named owners.",
+      "title": "How to Turn Meeting Recordings into a Summary and Action Items Automatically"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
       "doc_id": "adc0ebe9f81a827a78bbead392706ffa9f32566ed0012aae8fd76ced3c158c4d",
       "first_seen_at": "2026-11-09T06:56:58.244755+00:00",
       "published_at": "2026-11-09T03:16:46.098+00:00",
@@ -239,6 +269,16 @@
       "source_kind": "html",
       "summary": "No API? No problem. Browser Use drives a real Playwright-controlled browser via natural-language task strings, extracting validated JSON from any portal.",
       "title": "How to Automate a Website With No API Using Browser Automation"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "d9224e59087832a81e72e2dc7e99b2c2ae23f2204cf221e799db864f97de23de",
+      "first_seen_at": "2026-11-21T18:29:36.949585+00:00",
+      "published_at": "2026-11-22T16:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Translating a PPTX manually breaks layouts and eats hours. Submit your file with target_lang set to ja, es, or fr and get a formatted deck back.",
+      "title": "How to Translate a PowerPoint Deck into Japanese (and 15 Other Languages) Automatically"
     },
     {
       "company_key": "yc-jinba",
@@ -299,6 +339,16 @@
       "source_kind": "html",
       "summary": "Jira's native Slack app fires per-event noise your team learns to mute. Build a JQL-filtered daily digest posted via Block Kit so every issue gets seen.",
       "title": "How to Turn Jira or GitHub Issues into a Daily Slack Digest"
+    },
+    {
+      "company_key": "yc-jinba",
+      "company_name": "Jinba",
+      "doc_id": "f9a82fa603c3d9d46b45472a16f7d5cc22208bd15996ed027566cb6a641eaf07",
+      "first_seen_at": "2026-11-21T18:29:36.949585+00:00",
+      "published_at": "2026-11-22T16:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Stop hand-rolling wkhtmltopdf. This guide covers Puppeteer, Gotenberg, WeasyPrint, and commercial APIs to generate invoices and reports as PDF or DOCX in seconds, not hours.",
+      "title": "How to Convert HTML to PDF or DOCX in a Workflow"
     }
   ],
   "company_key": "yc-jinba",

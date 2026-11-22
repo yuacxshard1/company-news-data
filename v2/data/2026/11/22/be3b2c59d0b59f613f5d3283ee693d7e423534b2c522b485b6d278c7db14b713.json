@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "be3b2c59d0b59f613f5d3283ee693d7e423534b2c522b485b6d278c7db14b713",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/perplexity-decider-pricing-2026-plans-and-api-costs",
+  "canonical_url": "https://www.activepieces.com/blog/perplexity-decider-pricing-2026-plans-and-api-costs",
+  "title": "Perplexity Decider Pricing 2026: Plans and API Costs",
+  "summary": "Perplexity Decider pricing doesn't exist as a product. Plans range from Pro ($20/month) to Enterprise Max ($325/month).",
+  "body_markdown": "## Fix Perplexity API Spend With Activepieces\n\n\nIn Activepieces a run is 1 credit, so the ten-step guarded flow (counter, stop condition, 80% warning and the rest) costs the same as the two-step version with no guardrails.\n\n\nZapier bills per task and Make per module, so on their pricing pages each added check is a charge, and the careful builder pays more than the careless one.\n\n\nThat matters because a scheduled research job is the easiest place for a shared account to quietly bill one client's curiosity to another. The loop below puts the budget in the workflow itself, so the job can't spend past what the client agreed to pay.\n\n\nThe diagram shows the whole run. A schedule trigger starts the day, a counter is read, and a branch checks it against the cap. Only then does the Perplexity call go out, with a Slack alert and a fallback path on the other side.\n\n\nTake the order from it: the check comes before the call, never after. The two parts are laid out below.\n\n\n### Set a Daily Perplexity API Call Budget\n\n\nStart with the schedule trigger, then read a counter that holds how many calls this client's job has made today.\n\n\nRun once a day, that costs about 30 of the Free plan's 1,000 monthly credits.\n\n\nA branch compares it with the daily cap you set from the client's approved budget.\n\n\nIf the counter is under the cap, the workflow makes the Perplexity API call through an HTTP step and adds one to the counter. If it's at the cap, the run stops.\n\n\nBecause the stop sits ahead of the call, a runaway loop or a retried failure ends at the limit instead of landing on next month's invoice. Keep one counter per client, so a busy account never spends another client's allowance.\n\n\n### Perplexity Usage Cap Alerts and Fallback\n\n\nAt 80% of the cap, a second branch posts to Slack, the team chat where the account owner will actually see it, ensuring the owner can respond before the account hits its limit, which provides room for corrective action, leaving 20% of quota as a response window.\n\n\nThat gives a person time to approve more budget or let the run end, rather than finding out from the invoice.\n\n\nWhen the stop condition fires, the fallback path decides what happens to the remaining work.\n\n\nIt can queue the requests for tomorrow or send a short message saying the day's allowance is used. Either way the client sees a cap they agreed to, not a surprise.",
+  "published_at": "2026-11-22T08:43:41+00:00",
+  "first_seen_at": "2026-11-22T11:50:53.349456+00:00",
+  "content_hash": "sha256:992332205c030af9775d49f5fb916aa79ee2fd2cab34b829934ae3e20cc06db0"
+}

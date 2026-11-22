@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2c3d7ed49113722403a2953abea36e5c2215bc6c28bad39c9ddf11bd88506f31",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/mistral-ocr-pricing-2026-cost-per-1000-pages",
+  "canonical_url": "https://www.activepieces.com/blog/mistral-ocr-pricing-2026-cost-per-1000-pages",
+  "title": "Mistral OCR Pricing 2026: Cost Per 1,000 Pages",
+  "summary": "Mistral OCR pricing is $4 per 1,000 pages. You'll be able to calculate costs for your needs knowing this rate applies whether you use the API or…",
+  "body_markdown": "## Automating Mistral OCR Document Intake with Activepieces\n\n\nDon't expect Activepieces to lower Mistral's per-page price. It's the layer that decides how many pages reach Mistral, so the controls you set there are the ones that keep the bill predictable.\n\n\nThe flow below runs as a single chain of steps, and each step is a place to stop a page from being billed twice.\n\n\n### Trigger, dedupe, extract, route\n\n\nOn each run, a schedule trigger fires, and Google Sheets holds the list of files already processed. A loop walks through the new items, a date helper stamps each one, and an HTTP request step sends the document to Mistral OCR.\n\n\nTwo AI steps then clean and classify the extracted text, and a Google Sheets insert logs the result, making your output clean, classified, and permanently auditable, so you can always prove what was extracted.\n\n\nAfter the AI steps, a router splits the output: Branch 1 handles documents that meet your conditions, and the Otherwise path catches the rest. A Gmail step then sends a notification email.\n\n\nIn the builder canvas, titled \"Test Flow\", the screenshot shows this 10-step flow. What to take from it is the order: the lookup against the sheet sits before the HTTP request, so a duplicate file is dropped before it can cost you a page.\n\n\nActivepieces' pricing page lists 1 credit per flow run, any number of steps, so this 10-step flow costs the same single credit as a two-step version; Zapier's pricing page bills per task and Make's per module, so on those the same chain costs more with every step you add.\n\n\nThe extra lookup and the page-budget check cost nothing to add.\n\n\nIf a file lands in the inbox twice and that lookup has no condition on it, the file is processed twice, and you pay twice for the same page. Skipping a duplicate is a plain condition on the lookup.\n\n\n### Retries and a page budget\n\n\nRe-processing creeps in at the rate limits. Set the HTTP step to retry on a rate-limit response, and have the flow wait before it tries again.\n\n\nA retry that fires on a failed call is cheap; a retry that fires after a call already succeeded isn't, so check that the earlier attempt actually failed before sending the document again.\n\n\nFor the page budget, keep a running page count in a sheet row and compare it with your cap before each call.\n\n\nIf the next document would push you past it, send it down the Otherwise path and notify yourself instead of calling Mistral. Price the workload from Mistral's own pricing page, then set the cap to match.",
+  "published_at": "2026-11-22T09:07:56+00:00",
+  "first_seen_at": "2026-11-10T16:34:02.314044+00:00",
+  "content_hash": "sha256:1768b67637941fb427d230f7772dc2bcc53caaacd89b29ca0ce27664333357e3"
+}

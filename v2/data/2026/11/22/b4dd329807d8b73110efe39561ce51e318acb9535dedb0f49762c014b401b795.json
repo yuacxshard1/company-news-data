@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b4dd329807d8b73110efe39561ce51e318acb9535dedb0f49762c014b401b795",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/set-up-a-workday-slack-integration-without-code",
+  "canonical_url": "https://www.activepieces.com/blog/set-up-a-workday-slack-integration-without-code",
+  "title": "Set Up a Workday Slack Integration Without Code",
+  "summary": "Workday Slack integration sends messages to channels when system events occur. Build these trigger workflows using no-code automation tools.",
+  "body_markdown": "## Frequently asked questions\n\n\nMost have short answers, since every extension prompts the same few questions.\n\n\nFive of them appear below as people type them, such as whether Workday needs code to post to Slack and how fast a trigger fires, each with a one-line answer.\n\n\nTake from it whatever settles your doubt and skip the rest. The five that need more than a line follow.\n\n\n### Does Workday have a native Slack integration?\n\n\nNot one that replaces this workflow. Workday has its own ways of surfacing notifications, but they don't give you a trigger of your choosing posting a message of your choosing into a Slack channel.\n\n\nCheck what your tenant exposes before you build, because that varies by configuration. If the native option covers your event, use it and skip the build.\n\n\n### Can I connect Workday and Slack for free?\n\n\nPossibly on the Slack side, less likely on the Workday side. Slack lets workspaces add apps and incoming messages on its free plan, subject to its current limits.\n\n\nExpect the costs elsewhere: the automation tool you run the workflow in, and whether your Workday agreement includes the integration access you need. Ask your Workday administrator before assuming it costs nothing.\n\n\nCan the workflow send private direct messages? Yes, if the Slack app has permission to message individuals and you can match each Workday worker to a Slack user, usually by work email.\n\n\nThe matching's where it breaks. A mismatched or missing email means the message goes nowhere or to the wrong person, so test with a real record before anyone depends on it.\n\n\n### Is it safe to send HR data into Slack?\n\n\nOnly if you decide what leaves Workday. Slack messages are copied, searched and retained by workspace rules, so treat anything posted as readable by everyone in that channel.\n\n\nSend the minimum, such as \"a request needs your approval\" with a link back to Workday, and keep pay, performance and personal details out of the message body. Use a private channel or a direct message when the audience is narrow.\n\n\nCan I self-host the workflow? It depends on the tool running it. Some workflow tools can be installed on your own infrastructure and others are hosted only.\n\n\nIf you self-host, the machine must still reach your Workday tenant and Slack, and keeping the tool patched and its credentials protected becomes your job.",
+  "published_at": "2026-11-22T07:22:36+00:00",
+  "first_seen_at": "2026-11-22T11:50:53.349456+00:00",
+  "content_hash": "sha256:a70bf15461dd528e59aab3617719d78d30b25a35911fe1f2dc4d0bf011108627"
+}

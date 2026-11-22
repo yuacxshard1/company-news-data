@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f7ed85f9888444587a78a8429b83f3634133e428bd316a9bc0525f4184963c8d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/loom-integration-setup-pricing-and-fixes-2026",
+  "canonical_url": "https://www.activepieces.com/blog/loom-integration-setup-pricing-and-fixes-2026",
+  "title": "Loom Integration: Setup, Pricing and Fixes (2026)",
+  "summary": "Loom integration describes three connection methods: direct app links, embedded video players, or automations that move data between Loom and other apps.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Does Loom have an API I can use?\n\n\nBefore you build anything that depends on pulling videos out in bulk, know that Loom has an SDK for recording and embedding, but its developer pages don't describe a general API for reading or managing your video library.\n\n\nCheck Loom's developer documentation and its \"last updated\" date first.\n\n\nOnly the triggers Loom exposes to them are available to automation tools.\n\n\n### Is Loom's Slack integration available on the free plan?\n\n\nRead plan availability off Loom's current pricing page and the Slack integration's help article, not off this article, because it changes.\n\n\nThe Slack connection is switched on from Loom's own integration settings, and your Slack workspace may require an admin to approve it. If the option is missing, the cause is usually plan or permissions, not a fault.\n\n\n### Can I connect Loom to Google Drive or Notion without code?\n\n\nFor Notion, yes: pasting a Loom share link into a page turns it into an embed, with no automation involved. Google Docs and Slides accept pasted Loom links the same way.\n\n\nIf you want recordings copied into a specific Drive folder automatically, that's a different job, and as far as Loom's help pages describe, that's where an automation tool earns its place. Confirm the current behavior on Loom's integrations page.\n\n\n### Why did my Loom integration stop working?\n\n\nWhen a Loom integration stops working, the usual causes are a revoked permission, a connected account that left the workspace, a password or single sign-on change, or an admin restricting which apps may connect.\n\n\nStart by reconnecting from Loom's integration settings, using the account that originally authorized it.\n\n\nIf that fails, collect the video URL, the workspace name and the exact error text, as above, and send them to support.\n\n\n### How do I remove a Loom integration?\n\n\nOpen the integrations area in your Loom settings and disconnect the app there. Then also remove Loom from the other app's list of authorized or installed apps, such as Slack's app management page.\n\n\nDisconnect on one side only and a stale authorization can stay behind. Loom's help center covers each integration's removal steps, so check the date on the page you follow.",
+  "published_at": "2026-11-22T09:39:53+00:00",
+  "first_seen_at": "2026-11-22T11:50:53.349456+00:00",
+  "content_hash": "sha256:0dc224f35291ac88807914209d3f67bcab5822fdb0bd2fdc0d671c6e60fee2e4"
+}
