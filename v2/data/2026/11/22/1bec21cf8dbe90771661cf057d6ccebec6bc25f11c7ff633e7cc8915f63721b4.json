@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1bec21cf8dbe90771661cf057d6ccebec6bc25f11c7ff633e7cc8915f63721b4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/magnific-ai-pricing-2026-plans-and-credit-costs",
+  "canonical_url": "https://www.activepieces.com/blog/magnific-ai-pricing-2026-plans-and-credit-costs",
+  "title": "Magnific AI Pricing 2026: Plans and Credit Costs",
+  "summary": "Magnific AI pricing differences come down to monthly credit allowance, not plan cost. Find which of the four plans matches your upscaling workflow.",
+  "body_markdown": "## What Activepieces does about this\n\n\nThe cost problem in this article is a metered one: you pay per upscale, and the retries you don't plan for are where the budget goes.\n\n\nActivepieces can't change what Magnific charges, but it can keep the work around those upscales from adding a second meter. A flow that runs a 2K test, checks the result and only then queues the 4K render is a run of several steps.\n\n\nActivepieces bills that as one credit per run, however many steps it has. Zapier's per-task billing charges for each step, so the same routine costs more there. Splitting a batch into smaller checks never adds to the bill, and the cheap 2K test stays cheap.\n\n\nThat matters most when the same kind of batch arrives every week. The test-then-render routine, the log of credits spent per image and the count of images you kept are the numbers this article tells you to measure.\n\n\nA flow can record them for you, so your credits-per-usable-image ratio comes from a running log instead of a spreadsheet you update by hand. Check first whether your Magnific plan includes API access, because the automation only works if the upscale step can be called.\n\n\nIf it can't, keep the process manual.\n\n\nActivepieces is open source under the MIT licence, so you can self-host it and the orchestration around your upscales has no per-task fee at all. MoneyGram, Moneypenny, Alan and FundingSocieties run it in production, so it isn't a hobby tool.\n\n\nFor a small team with one weekly batch, the sensible order is the one the article already gives: size the Magnific plan to your measured image count, stay on monthly billing until the ratio holds, and automate the repeats only when hand-feeding files becomes the expensive part.",
+  "published_at": "2026-11-22T10:59:04+00:00",
+  "first_seen_at": "2026-11-18T10:32:40.344697+00:00",
+  "content_hash": "sha256:6a0908509a6b91db60328695de61ab2b7cf1b83ca92c2a86feaeb17ba2396004"
+}

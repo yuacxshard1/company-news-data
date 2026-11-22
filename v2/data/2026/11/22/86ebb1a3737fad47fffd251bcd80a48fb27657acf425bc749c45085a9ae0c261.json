@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "86ebb1a3737fad47fffd251bcd80a48fb27657acf425bc749c45085a9ae0c261",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/proton-drive-pricing-2026-free-plan-and-paid-plans",
+  "canonical_url": "https://www.activepieces.com/blog/proton-drive-pricing-2026-free-plan-and-paid-plans",
+  "title": "Proton Drive Pricing 2026: Free Plan and Paid Plans",
+  "summary": "Proton Drive pricing starts free and scales to premium options with different storage limits. Compare features and costs to select the right tier for you.",
+  "body_markdown": "## Moving Files Into Proton Drive With Activepieces\n\n\nSorting incoming invoices into a shared folder is the kind of filing work Activepieces can automate, with 750 integrations counted in its open source monorepo to draw on, so your current tools are probably already supported.\n\n\nI can't point to a documented route that lets it write into Proton Drive today.\n\n\nChain steps together in Activepieces and one event, like a form being submitted, sets off the next task without anyone retyping anything. The free plan costs $0 and includes 1,000 credits a month, and that does nothing for Proton's price.\n\n\nIt only saves the hours spent on repetitive handling.\n\n\n### When Proton Drive automation is worth it\n\n\nDo the sum before you build anything. If someone on your team drags invoices into folders by hand every week, that time's a cost you already pay, and it never shows up on Proton's pricing page.\n\n\nAutomation earns its place when the same steps repeat and a mistake, like a misfiled invoice, costs you later.\n\n\n[Activepieces](https://www.activepieces.com/) publishes its metering on its pricing page: 1 credit per flow run, whether the filing job is two steps or ten, where Zapier's pricing page bills each task.\n\n\nBreaking the work into smaller, safer steps costs nothing extra, though none of it touches the 5 GB cap.\n\n\nThe workflow below shows the pattern. A web form collects a document, an AI step reads out the fields you need, and a person approves it.\n\n\nThe flow then branches: an accepted item creates a customer record in Stripe, the payment processor, and a rejected one sends a Gmail message back to the sender.\n\n\nLook at the approval step in the middle. The automation does the typing, and a person still makes the call.\n\n\n### What Proton Drive's own docs allow\n\n\nProton Drive isn't in the workflow above. It ends in Stripe and Gmail, because those are tools with published connections, and the list of Activepieces integrations sits in its MIT-licensed open source repository where anyone can read it.\n\n\nFor Proton Drive, I can't point to a documented integration or public interface that Activepieces could use, so I won't promise one.\n\n\nIf you're weighing the plan, treat that as a finding. Before you build, search Proton's help pages and developer documentation for an official way to send files in automatically.\n\n\nIf you find none, point the automation at a different tool that does offer one, and keep Proton for the files people open and share by hand.",
+  "published_at": "2026-11-22T12:07:06+00:00",
+  "first_seen_at": "2026-11-22T17:26:02.147530+00:00",
+  "content_hash": "sha256:e8beff265be519fa993375bc25ae24ff8eb5154ce3c5d42d573305033dfc24a4"
+}

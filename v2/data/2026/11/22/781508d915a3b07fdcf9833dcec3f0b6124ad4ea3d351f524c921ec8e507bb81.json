@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "781508d915a3b07fdcf9833dcec3f0b6124ad4ea3d351f524c921ec8e507bb81",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/workflow-automation-247-support-a-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/workflow-automation-247-support-a-2026-guide",
+  "title": "Workflow Automation 24/7 Support: A 2026 Guide",
+  "summary": "Workflow automation 24/7 support varies by plan tier, not platform choice. Ask vendors about severity levels, support hours, and channels available to you.",
+  "body_markdown": "## n8n support and pricing\n\n\nNo n8n tier is confirmed here as carrying round-the-clock support. Where you run n8n decides who answers an outage: on Cloud the vendor runs the servers, and self-hosted it's you.\n\n\n### Cloud versus self-hosted support\n\n\nOn n8n Cloud the vendor operates the servers, so a platform outage is the vendor's to fix. Whether that fix is staffed overnight depends on the plan's written support terms, not on the product's reputation.\n\n\nAsk for the severity table and the stated response hours, and treat anything said only in a sales call as unconfirmed.\n\n\nOnce you self-host, the question splits. The Community, Business and Enterprise editions run on your hardware, so **the vendor doesn't own your uptime** . A paid self-hosted licence may buy help with the software, but a crashed server or a full disk is still yours.\n\n\nSo a self-hosted buyer is also buying an on-call rota, and that cost belongs in the comparison before any licence fee.\n\n\nI give no price here because I have no confirmed figure to quote. Read n8n's own pricing page on the day you buy, and check which tier names its support hours and severity levels.\n\n\nIf you want the vendor to carry the servers and will accept whatever support the chosen plan writes down, Cloud suits you. Self-hosting suits teams that already staff an on-call engineer and need data to stay in their own environment.\n\n\nActivepieces takes the pressure off that choice by making it reversible.\n\n\nGit Sync and Releases is a documented feature in the Activepieces docs, and the self-hosted edition deploys with Docker, Compose or Kubernetes while sharing its codebase with the managed cloud, so a flow built on one side can be promoted to the other.\n\n\nA team can start on cloud, where the vendor carries the servers, and bring the flows onto its own infrastructure once it has the on-call rota to match.\n\n\nMoneyGram, Moneypenny, Alan and FundingSocieties run it in production, and the core is MIT-licensed, with 750 integrations counted from the open source monorepo on GitHub.",
+  "published_at": "2026-11-22T14:02:31+00:00",
+  "first_seen_at": "2026-11-22T17:26:02.147530+00:00",
+  "content_hash": "sha256:5a1b065a1290d4f639406c88fddafdbd53ec9922455fff5a2e624d6534a03310"
+}

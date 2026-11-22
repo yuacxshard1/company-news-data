@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3ca3f22eeed6eba53a5611945d2444b86e3616331d27fe7c45b2c5f58db4139d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/restrict-app-connections-automation-platform-2026",
+  "canonical_url": "https://www.activepieces.com/blog/restrict-app-connections-automation-platform-2026",
+  "title": "Restrict App Connections Automation Platform: 2026",
+  "summary": "Restrict app connections automation platforms vary in features and cost. You'll know which platform suits your security and automation needs.",
+  "body_markdown": "## 2. Power Automate for tenant-wide policy\n\n\n**A disallowed connector never reaches a flow** . Power Automate enforces connector restrictions through data loss prevention (DLP) policies, which an administrator sets for the whole tenant and which block it before any flow can use it.\n\n\n### How connector restrictions work\n\n\nOnce an administrator sorts each connector into one of three groups, Business, Non-business or Blocked, the rules follow. A flow can't combine connectors from the Business and Non-business groups, and it can't use a Blocked connector at all.\n\n\nPower Automate stops a violating flow when someone saves or runs it, not in a later review.\n\n\nYou can set a policy for every environment in the tenant or only for chosen ones. A tenant-wide policy is the closest match to a central allow-list, because individual makers can't opt out of it.\n\n\n### Power Automate Premium plan and connector pricing\n\n\n$15 per user per month is the Premium plan's price on Microsoft's pricing page. Premium connectors are generally the ones a policy needs to govern, so each maker who builds with them needs a seat, and cost grows with headcount.\n\n\n$150 per bot per month is Microsoft's Process price, so a single bot costs the same as ten Premium users. Microsoft prices unattended robotic process automation per bot.\n\n\nPer Microsoft, Hosted Process is $215 per bot per month, which is $65 per bot more than Process and includes a Microsoft-hosted machine for the bot.\n\n\nThe organization's monthly costs therefore scale linearly with the number of bots deployed.\n\n\nSettle with Microsoft in writing which licence tier covers the admin tooling, since the pricing page doesn't say.\n\n\n### Limit and best for\n\n\nEvery connector needs a classification decision, and a catalogue that Microsoft keeps extending leaves the policy owner with new connectors to review. That is the limit: administrative weight.\n\n\nWhen policies are layered across tenant and environment, they can also conflict, so someone must own the ruleset and test it. Licensing adds a second layer of approval beside the technical one.\n\n\nIf your organisation is already on Microsoft 365 and has a platform administrator and a change-approval process able to maintain a classification list, this model suits it. It's a poorer fit for a small team with no one to own that list.",
+  "published_at": "2026-11-22T16:49:27+00:00",
+  "first_seen_at": "2026-11-22T17:26:02.147530+00:00",
+  "content_hash": "sha256:d610d19beabaa49369347868a8db387d7465cdec872c684527bfcb74a108d287"
+}
