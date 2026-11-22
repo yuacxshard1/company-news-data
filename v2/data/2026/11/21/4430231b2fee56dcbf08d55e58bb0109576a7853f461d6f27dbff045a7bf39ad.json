@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4430231b2fee56dcbf08d55e58bb0109576a7853f461d6f27dbff045a7bf39ad",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-use-jina-ai-in-a-workflow-with-one-api-key",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-use-jina-ai-in-a-workflow-with-one-api-key",
+  "title": "How to Use Jina AI in a Workflow With One API Key",
+  "summary": "Jina AI workflow chains separate API endpoints for Search, Reader, and Embeddings. You'll see which endpoints to combine to create a working integration.",
+  "body_markdown": "## Frequently asked questions\n\n\nThese are the questions most likely to have different answers by the time you read them, so confirm each against Jina's pricing page and model cards before building on it.\n\n\n### Keys and access\n\n\nIs there a free Jina AI API key? Yes, signing up gives you a key with a starter token allowance.\n\n\nIt's enough to reproduce your whole chain in a test environment, but not enough to assume production volume. Check the allowance on your dashboard before a batch job, because an exhausted balance shows up as failed calls partway through a run.\n\n\nCan I use Jina Reader without an API key? Yes, Reader accepts unauthenticated requests, but at a lower rate limit than keyed ones.\n\n\nA chain that works in a single manual test can start returning throttling errors once a loop fires many URLs. Add the key from the start so that your test conditions match production.\n\n\n### Tooling and hosting\n\n\nDoes Jina AI have a visual workflow builder? No. Jina publishes APIs, not a canvas.\n\n\nThe chain of Reader, Search, Embeddings and Reranker calls is assembled in an outside automation tool or in your own code, and the retries, token limits and key storage are yours to design.\n\n\nCan I self-host Jina models? Partly. Jina publishes weights for many of its embedding and reranker models on Hugging Face, so you can run those yourself.\n\n\nThose weights are often released under non-commercial terms, so read the license on each model card before putting one behind a paid product. Reader and Search are hosted services, not downloads.\n\n\n### Choosing a model\n\n\nWhich Jina model suits multilingual search? Start with a multilingual embedding model from the jina-embeddings family and pair it with the multilingual reranker.\n\n\nThe embedding model retrieves candidates across languages, and the reranker reorders them. Test both on a sample of your own queries and documents, since language coverage differs between model versions.",
+  "published_at": "2026-11-21T20:02:40+00:00",
+  "first_seen_at": "2026-11-22T01:27:18.200495+00:00",
+  "content_hash": "sha256:d69043a30e3202208124d7ff1f005100879b7f96ee5ebe74991de9ea2024ab65"
+}
