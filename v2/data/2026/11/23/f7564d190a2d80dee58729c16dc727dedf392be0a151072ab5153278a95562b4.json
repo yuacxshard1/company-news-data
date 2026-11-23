@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f7564d190a2d80dee58729c16dc727dedf392be0a151072ab5153278a95562b4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/sambanova-api-pricing-cost-per-million-tokens-2026",
+  "canonical_url": "https://www.activepieces.com/blog/sambanova-api-pricing-cost-per-million-tokens-2026",
+  "title": "SambaNova API Pricing: Cost per Million Tokens (2026)",
+  "summary": "SambaNova API pricing ranges from $0.22 to $3 per million tokens based on model choice. Knowing the 13.6x spread helps you benchmark against competitors.",
+  "body_markdown": "## Automating SambaNova API Calls with Activepieces\n\n\nTo run SambaNova API calls on a schedule or in response to an event, you use Activepieces, a workflow automation tool.\n\n\nIt bills 1 credit per flow run however many steps sit inside it, so a ten-step flow with a retry branch, an error handler and a database write costs what the two-step workaround did, whereas Zapier charges per task and Make per module for the same care.\n\n\nThe price per token and the tier limits stay exactly where they were. What changes is how many calls you make, and how many of them fail and get paid for twice.\n\n\n### Calling the API from a workflow\n\n\nStart with a trigger: a timer, a webhook, a new row in a spreadsheet, an incoming email. After it you add a step that sends an HTTP request to SambaNova's endpoint with your API key and a prompt built from the trigger's data.\n\n\nOnce SambaNova replies, the reply goes to the next step, which might write a summary to a database or post it to a chat channel.\n\n\nCount the run, because each time the trigger fires, one run starts, and each run makes at least one model call. So the number of runs is the number of requests your SambaNova tier has to absorb.\n\n\nSummarize a day's tickets in one nightly job and that's one run. A webhook that fires on every incoming support message's as many runs as you have messages.\n\n\nDecide which pattern you're building before you choose a plan, because the second one's what pushes you into a higher rate-limit tier.\n\n\n### Handling SambaNova rate-limit errors and capping spend\n\n\nWhen SambaNova returns a rate-limit error, the request didn't complete, so the right response is to wait and send it again, not to drop the task.\n\n\nWith Activepieces you can set a step to retry on failure and branch on the error, so a rejected call can pause and try again instead of ending the run as a failure.\n\n\nThat protects your completed-task count, which is the figure you compared vendors on.\n\n\nBut retries cost something. A loop that retries without a limit can turn one stuck workflow into a stream of calls.\n\n\nCap the number of attempts per step, and cap the runs a workflow may start in a period. With both caps in place, the worst month your automation can produce has a ceiling you can calculate in advance from your model's per-token price.",
+  "published_at": "2026-11-23T04:34:00+00:00",
+  "first_seen_at": "2026-10-30T20:25:30.509725+00:00",
+  "content_hash": "sha256:e3d069075b577bce8da2fc9e6f264a7a4c0c8a79434547e058f38f050fbaf767"
+}

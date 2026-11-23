@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "18c8fe1f60bfe4b40389e1045e8baea6f4c1eb0db54c5e9a2295ebdbc03122be",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/trello-api-keys-tokens-and-rate-limits-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/trello-api-keys-tokens-and-rate-limits-2026-guide",
+  "title": "Trello API: Keys, Tokens and Rate Limits (2026 Guide)",
+  "summary": "Trello API in 2026 covers authentication, costs, and technical limits. Determine whether your plan supports API calls and what constraints you'll face.",
+  "body_markdown": "## Understand Trello API rate limits\n\n\nAt 300 requests per API key and 100 per token in each 10-second window, **the token's the tighter limit** , making per-token throughput your actual bottleneck, so **you need more tokens, not more keys** , to scale.\n\n\n### Per-key and per-token windows\n\n\nBoth limits run over the same window, according to the[Trello Developer Docs](https://developer.atlassian.com/cloud/trello/guides/rest-api/rate-limits/) . According to Atlassian[Developer](https://developer.atlassian.com/cloud/trello/guides/rest-api/rate-limits/) , the per-minute equivalents are 1,800 for the key and 600 for the token.\n\n\nIf 20 users each run on their own token, the key ceiling is reached long before the token ceilings are, because the 300-per-10-seconds key limit is shared by every user of your integration. The token limit is your real budget.\n\n\nPer Atlassian Developer, the 600-per-minute token limit is the figure for one user's board sync or bulk import. A job that loops over cards without pacing can exhaust it within seconds.\n\n\nNowhere on the rate-limit page, checked on 2026-11-23, is there a tier table. It states the two limits above without varying them by Trello plan, so treat 300 and 100 per 10 seconds as the numbers to build against.\n\n\nWhen a window is exceeded, Trello rejects the request with HTTP status 429. Treat it as a pacing signal, not a failure. Wait out the 10-second window before retrying, and queue your calls so a burst never reaches the ceiling in the first place.\n\n\nThe token scoping, pacing and queueing above is work someone has to build and own, and[Activepieces](https://www.activepieces.com/) lets you describe the process to its built-in chat instead.\n\n\nThe chat publishes a live flow, the same artifact a builder would have assembled by hand, under the same RBAC and audit logs as every other flow, and each run leaves a trace anyone can read. MoneyGram, Moneypenny, Alan and FundingSocieties run Activepieces in production.",
+  "published_at": "2026-11-23T02:57:58+00:00",
+  "first_seen_at": "2026-11-23T06:23:48.905346+00:00",
+  "content_hash": "sha256:5146cee18dd52ed5599d73d858f5859e673e0d89948d4706f71d6bab89be6381"
+}

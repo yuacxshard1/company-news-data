@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "055b63c1d8da0e276ceaf4602a182bd19ba1162fc27bcef96ad3f6f2a4bda82a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/snowflake-api-for-developers-which-one-to-use",
+  "canonical_url": "https://www.activepieces.com/blog/snowflake-api-for-developers-which-one-to-use",
+  "title": "Snowflake API for Developers: Which One to Use?",
+  "summary": "Snowflake API has four access methods: SQL, Python, Python Connector, and Cortex REST. Understand which fits your use case and their constraints.",
+  "body_markdown": "## Call Snowflake without code using Activepieces\n\n\nWithout writing the HTTP calls, token handling or polling yourself, you can run Snowflake queries on a schedule, move the results into other tools and send alerts, all through Activepieces: an hourly schedule is about 720 runs a month, and since a run is 1 credit however many steps it has, that fits inside the free plan's 1,000 credits a month, **so the automation itself never incurs charges** .\n\n\nThat covers the routine jobs; it doesn't cover everything the raw surfaces can do.\n\n\n### Where a no-code workflow fits\n\n\nStart with the trigger. The screenshot shows the builder with a Schedule trigger labeled \"Every Hour\" selected, a \"Run on weekends\" toggle in its settings panel, and a \"Generate Sample Data\" section reporting a successful test.\n\n\nRun the trigger once and you see real output before anything downstream is built, which is the useful part of the sample-data test. A wrong schedule or an empty result then shows up in the editor, not in a Monday morning report.\n\n\nBelow the trigger, the integration selector modal is open on spreadsheet apps, with actions such as Insert Row and Find Rows.\n\n\nThat's the shape of the common Snowflake job: a scheduled query, then rows written to a sheet, or a message sent when a result crosses a line you chose.\n\n\nBecause the connector holds the credentials for you, the key-pair or token handling from the authentication section sits in one saved connection instead of in each script. Anyone who edits the flow reuses that connection, which means they inherit its role.\n\n\nScope that role to the tables the flow needs.\n\n\nNext comes the limit of that convenience.\n\n\n### When to stay with the raw API\n\n\nStay with the SQL API or the Python API for the jobs a flow step can't express.\n\n\nThat means a statement that runs long enough that you need to control the async handling yourself, a case where you must keep the statement handle to log and give to support, or a result you need to page through in large partitions.\n\n\nA flow step hides those details, which is helpful until a run fails and you want them.\n\n\nCortex REST is the same story. If the task is a model call with streaming and fine control over parameters, call it directly.\n\n\nUse Activepieces for the scheduling, the hand-off and the alert, since the hand-off can reach any of its 750 integrations, letting you send results directly to your existing tools, and keep the heavy query logic where you can see every request.",
+  "published_at": "2026-11-23T03:32:19+00:00",
+  "first_seen_at": "2026-11-23T06:23:48.905346+00:00",
+  "content_hash": "sha256:3d5cc2723b4610202d32741d68624fd00974835d116197dfe1d0d0e0e4563b3c"
+}

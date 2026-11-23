@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1910457e17c4ac163abfa14c935d84c8981300037b25545e43818b954d07f5c2",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/scribe-v3-launches-what-elevenlabs-speech-to-text-model",
+  "canonical_url": "https://www.activepieces.com/blog/scribe-v3-launches-what-elevenlabs-speech-to-text-model",
+  "title": "Scribe v3 Launches: What ElevenLabs' Speech-to-Text Model Changes",
+  "summary": "Scribe v3 is ElevenLabs' speech-to-text model for converting audio to text. Find out how this version improves on previous releases.",
+  "body_markdown": "## What's measurably new in Scribe v3\n\n\n**27% fewer word errors than Scribe v2** on recorded audio across 102 languages: that is what ElevenLabs claims, per its[launch post](https://elevenlabs.io/blog/scribe-v3) . Every figure below is the maker's own, not independently tested.\n\n\n### What ElevenLabs lists for Scribe v3 features\n\n\nScribe v3 is the[recorded-audio model](https://elevenlabs.io/docs/overview/models) , and Scribe v3 Live is the low-latency realtime variant. The 27% batch cut, as ElevenLabs states it, means roughly one fewer wrong word in four.\n\n\nFor a voice workflow that acts on what was said, that second number matters more. The chart shows both headline cuts against the earlier models, as claimed.\n\n\n*\\[chart\\]*\n\n\n17% fewer errors on audio with three or more speakers, and 12% fewer in batch diarization overall: speaker labelling improves too.\n\n\nFewer misattributed lines means a meeting summary is less likely to assign an action item to the wrong person.\n\n\nThe smaller 12% shows that labelling gains are more modest than the word-accuracy gains, meaning users focused on labelling should expect less dramatic gains than those prioritizing word accuracy.\n\n\n### How to access Scribe v3 and pricing\n\n\nThe model overview page lists Scribe v3 among ElevenLabs' API models. The pages this article draws on don't spell out access routes or plan limits, so treat those as unstated. Confirm them on ElevenLabs' docs before you plan an integration.\n\n\nThe ElevenLabs Speech to Text page gives Scribe pricing starting from $0.22 per hour of transcribed audio, with no separate figure for Scribe v3 Live.\n\n\nCost is the one input you can't yet model, so get the number from ElevenLabs' pricing page before you size a pipeline.",
+  "published_at": "2026-11-23T03:47:01+00:00",
+  "first_seen_at": "2026-11-12T22:47:49.735684+00:00",
+  "content_hash": "sha256:ecc916ec37f04e8ce20573c098b5ff26378bb42b7802012fbc6a1e47dd729fcd"
+}

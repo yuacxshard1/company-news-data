@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b53b32114a3ccafe51d6af04d00ab0c1b17615f4fe8ec47df4f837bd448f4135",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/netsuite-api-limits-and-permissions-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/netsuite-api-limits-and-permissions-2026-guide",
+  "title": "NetSuite API: Limits and Permissions (2026 Guide)",
+  "summary": "NetSuite API uses OAuth 2.0 authentication and has no per-call costs, but concurrency limits and role restrictions determine what your integration can do.",
+  "body_markdown": "## Frequently asked questions\n\n\nIs the NetSuite API free to use? I have **no per-call price** to quote, and the failures in this article never came from one. The usual error is` CONCURRENCY_LIMIT_EXCEEDED` , which is a limit on parallel requests.\n\n\nWhether API access is included in your contract is a question for your NetSuite account manager, so don't assume it from a pricing page.\n\n\n### Should I use REST or SOAP for a new NetSuite integration?\n\n\nUse REST. SOAP is the older interface, and starting new work on it means migrating later. Where REST can't express your logic, a RESTlet (a custom server-side script exposed as an endpoint) is the escape hatch.\n\n\nWhen a RESTlet loops over records, it will stop partway through, because every run is capped by the governance units a script can spend. Keep the loop in your flow and the RESTlet small.\n\n\n### Does NetSuite have a sandbox for API testing?\n\n\nYes, and you should test there first. Don't assume it behaves like production, though. Sandbox data is a copy from the time of the last refresh, so you may be testing against stale records.\n\n\nDon't assume the concurrency limits and the SuiteCloud Plus licence that raises them match production either. A retry policy that passes in the sandbox can still fail on the first busy day in production, so check the limits on both accounts directly.\n\n\n### Can I use the NetSuite API without writing code?\n\n\nYes. A described flow can call the same REST endpoints, as long as it's built around the real constraints: a role scoped to the records it touches, retries that back off on a concurrency error, and a trace that shows which call failed.\n\n\nWithout code, you still need the role and the retry policy. The no-code builder doesn't remove them.\n\n\n### How do I raise my NetSuite API concurrency limit?\n\n\nYou can't toggle concurrency in a setting, because it's tied to your account's licensing. Extra capacity generally comes from adding the SuiteCloud Plus licence through your account manager. Before you buy, check whether your flow is wasting what you already have.\n\n\nOn any plan, parallel branches that all hit NetSuite at once will trip the limit, so serialise them or queue them first.",
+  "published_at": "2026-11-23T01:29:17+00:00",
+  "first_seen_at": "2026-11-23T06:23:48.905346+00:00",
+  "content_hash": "sha256:3e6c740dcaa0085c2cfb4f601316f1cd4961445933e15ed91546e846d7c46db9"
+}

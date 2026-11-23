@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "50bca07c81a9f1173545d1a3c0b2ff9c7837812087e1e26dcd257663b1a1b442",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/spotify-web-api-free-access-modes-scopes-limits",
+  "canonical_url": "https://www.activepieces.com/blog/spotify-web-api-free-access-modes-scopes-limits",
+  "title": "Spotify Web API Free? Access Modes, Scopes, Limits",
+  "summary": "Spotify API requires application registration and OAuth authentication. You'll register your app, create valid requests, and interpret error codes.",
+  "body_markdown": "## Spotify API rate limits and how they behave\n\n\nSend too many calls and you get HTTP 429 and a` Retry-After` header, because Spotify measures call volume per app over a **rolling 30-second window** . A 429 means the token and the query were fine, but the app behind them sent too much.\n\n\n### The rolling window and what is unpublished\n\n\nBecause the window is rolling, there's no clock-minute boundary at which your count resets. Bursts are judged against the last 30 seconds, whatever happens to be inside them.\n\n\nSpotify doesn't publish a fixed request count for that window, so any number in a blog post or forum thread is an observation, not a guarantee. Don't hard-code one.\n\n\nRead` Retry-After` , wait that long, and retry, with the delay owned by a single queue rather than by each caller.\n\n\nRequest size matters as much as request count. **Search now returns smaller pages** than it used to, as the chart shows: the old maximum was 50 and the old default 10, against a new default of 5 and a new maximum of 10.\n\n\nAnything above 10 returns HTTP 400, not a trimmed page.\n\n\nIf your code asked for 50 results per call, it will now fail outright, and code relying on the default gets half the results per request. Either way, collecting the same results takes more calls inside the same window.\n\n\n### Development mode versus extended quota\n\n\nWith a lower quota and a limited set of authorised users, an app starts in development mode. Extended quota is a separate approval that Spotify grants to the app, not something you switch on.\n\n\nSpotify doesn't publish the numerical gap between the two, so the only way to find your ceiling is to log every 429 and its` Retry-After` value in production-like conditions.\n\n\nName an owner for the app registration before launch. That person holds the quota request, and if they leave, nobody can answer Spotify's questions about it.",
+  "published_at": "2026-11-23T04:36:02+00:00",
+  "first_seen_at": "2026-11-15T02:53:26.346629+00:00",
+  "content_hash": "sha256:087930f6d6f3fe459c43bb2d1fd44a9e811a4e809dfaa65c23696fb4714ef835"
+}
