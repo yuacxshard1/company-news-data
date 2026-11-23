@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "1f95f41376c0b5ddfd38584dc883271cd10a6af057328b3f50e41b2a7c823bf5",
+  "company_key": "yc-browseros",
+  "company_name": "BrowserOS",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.browseros.com/blog/codex-chrome-extension/",
+  "canonical_url": "https://www.browseros.com/blog/codex-chrome-extension/",
+  "title": "Codex Chrome extension: setup, fixes and limits",
+  "summary": "How to set up the Codex Chrome extension, which permission to pick, how to fix it when it won’t connect, and when Codex needs its own browser, like BrowserOS neo.",
+  "body_markdown": "## FAQ\n\n\n### Does the Codex Chrome extension work with the Codex CLI?\n\n\nOpenAI documents the extension for Codex and ChatGPT Work chats in the ChatGPT desktop app. Its browser docs say the built-in browser “isn’t available in Codex CLI or the Codex IDE extension”, and we found no doc that says the CLI can drive the extension. To give the Codex CLI a browser, add one over MCP, like Playwright MCP or BrowserOS neo.\n\n\n### Is the Codex Chrome extension free?\n\n\nIt comes with ChatGPT rather than being sold on its own. OpenAI’s pricing page says ChatGPT Work and Codex are included in the Free, Go, Plus, Pro, Business, Edu and Enterprise plans, and that browser availability can depend on rollout and workspace settings.\n\n\n### Which browsers does the Codex extension support?\n\n\nGoogle Chrome, Microsoft Edge, Brave, Opera and Vivaldi. All five support browser control from the desktop app. Opera has no side chat, so you start its tasks in the desktop app.\n\n\n### Why is the Codex Chrome extension not connecting?\n\n\nCheck the site is not on your blocklist, update the ChatGPT desktop app, restart the browser, and confirm the browser shows Manage in Settings > Computer Use. Use the browser profile where the extension is installed, start a new chat, and reinstall the extension from Computer Use if it still fails.\n\n\n### Is the Codex extension the same as ChatGPT Atlas?\n\n\nNo. The extension drives the browser you already use. Atlas was OpenAI’s separate browser and has been retired. A third option, the built-in browser you call with @Browser, runs inside the ChatGPT desktop app with a profile of its own.",
+  "published_at": "2026-11-20T00:00:00+00:00",
+  "first_seen_at": "2026-11-23T10:10:46.335211+00:00",
+  "content_hash": "sha256:c36f344eea1bd9ccc3f96cf3d7856b0e91135b365efdf3f6ca9051ac4ae103fd"
+}

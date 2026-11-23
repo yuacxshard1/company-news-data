@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "69ae1c792f2ab9a998fb7a2e3d97467dcdb54897dff23f55da81a2c16e47f2aa",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-query-studio-saved-queries",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-query-studio-saved-queries",
+  "title": "Amazon CloudWatch Query Studio now supports saved queries",
+  "summary": "Discover more about what's new at AWS with Amazon CloudWatch Query Studio now supports saved queries",
+  "body_markdown": "Amazon CloudWatch Query Studio now lets you save your PromQL and SQL metrics queries and reuse them. You no longer need to rewrite or search for queries you run often, such as a latency query you check during every incident.\n\n\nYou can save a query under a name and use \"/\" in the name to organize queries into folders. In the Saved tab of the Queries panel, you can search, sort, and preview your saved queries. You can then apply one to replace what's in the studio, append it to your current queries, edit it, or delete it. Saved queries are stored in your account and Region, and you control who can create, view, and delete them by using AWS Identity and Access Management (IAM) permissions. You can also manage them programmatically with the new PutMetricDataQueryDefinition, GetMetricDataQueryDefinition, ListMetricDataQueryDefinitions, and DeleteMetricDataQueryDefinition APIs.\n\n\nYou can use saved queries in Amazon CloudWatch Query Studio in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), Canada (Central), South America (São Paulo), Europe (Ireland), Europe (London), Europe (Paris), Europe (Frankfurt), Europe (Stockholm), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Osaka), Asia Pacific (Tokyo), Asia Pacific (Singapore), and Asia Pacific (Sydney).\n\n\nTo learn more, see[Saving and reusing queries](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PromQL-QueryStudio.html#CloudWatch-PromQL-QueryStudio-SavedQueries) in the *Amazon CloudWatch User Guide* . For product information, see[Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) .",
+  "published_at": "2026-11-21T03:00:00+00:00",
+  "first_seen_at": "2026-11-23T13:37:12.619451+00:00",
+  "content_hash": "sha256:1a24e9772079823c8063715f671c522aab5b754f741e32480084fd293d25232e"
+}

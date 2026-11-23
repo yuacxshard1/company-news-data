@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f1fb3f548942dd5307501d9a2cf9c55bc7aad4bd58bd75025d2e42539ff829a3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/claude-pro-pricing-in-2026-plans-limits-and-cost",
+  "canonical_url": "https://www.activepieces.com/blog/claude-pro-pricing-in-2026-plans-limits-and-cost",
+  "title": "Claude Pro Pricing in 2026: Free Plan, Limits and Cost",
+  "summary": "Claude Pro pricing is $20 monthly or $200 yearly upfront. Evaluate which billing method provides the best value for your usage.",
+  "body_markdown": "## Moving Repetitive Work Off Chat Seats with Activepieces\n\n\nBilled per use through the API, email summaries, ticket tagging and standard drafts can run in an[Activepieces](https://www.activepieces.com/blog/activepieces-credits-pricing-and-usage-2026-guide) workflow. They stop drawing on the chat allowance your people need for judgment work.\n\n\nActivepieces runs a flow from a trigger you define through the steps you chain after it, across its 746 integrations, and nobody has to open a chat window for it to go; the free plan includes unlimited flows.\n\n\nIt doesn't raise your plan's limits, and it doesn't make a chat seat bigger. A person who hits the cap mid-afternoon still hits it. What changes is how much of the allowance gets burned on work that never needed a person.\n\n\nLook at the picture below for the split. On the left, someone at a laptop uses a chat seat for judgment work, and the cap marker sits there because that's where the cap applies.\n\n\nOn the right, an email arrives, the flow calls the API, and a step tags the ticket, labelled \"billed per use\" with no cap marker.\n\n\nTake from it that the two lanes are paid for differently, so the same task costs you something different depending on where it runs.\n\n\n*(Illustration)*\n\n\nWhat follows is how to sort your own jobs into those lanes.\n\n\n### Which jobs belong in a workflow\n\n\nWhen the input is predictable, the output has a fixed shape, and nobody needs to steer it halfway through, a job belongs in a workflow.\n\n\nSummarising incoming email into a standard format, tagging tickets from a fixed set of labels, and producing a first draft from a template all qualify. If you can write the instruction once and it works the hundredth time, it's a candidate.\n\n\nAnything where you read the answer, push back and refine it stays in the chat seat. A flow can't do that, and a flow that guesses wrong at scale fails quietly.\n\n\nTest it on a batch of real inputs and read the outputs before you trust it.\n\n\n### Workflow costs versus a Claude Pro seat\n\n\nFlat price, with a ceiling: that is a seat. A workflow has no ceiling, but you pay for every run.\n\n\nThat's cheaper when the volume is modest and the prompts are short, and it can become more expensive than a seat if a flow loops or a busy inbox sends large volumes through it.\n\n\nYou also pay in setup time and maintenance. Someone has to build the flow, watch it, and fix it when an input format changes.\n\n\nSet a spending alert on the API account before the first live run, and move a job over only when the chat hours it frees are worth more than the metered bill plus that upkeep.",
+  "published_at": "2026-11-23T06:29:15+00:00",
+  "first_seen_at": "2026-11-10T06:25:31.663937+00:00",
+  "content_hash": "sha256:ccea8ac30bcd75cdb995dc142a19ab604ef127726161957de51afe6b2b9d02bd"
+}

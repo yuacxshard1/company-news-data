@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "339011aa81f3a0555200b7790c2ca09317300976ad28aeee0d9dc600394b044d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/google-chat-api-auth-types-and-quotas-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/google-chat-api-auth-types-and-quotas-2026-guide",
+  "title": "Google Chat API: Auth Types and Quotas (2026 Guide)",
+  "summary": "The googlechat api is a REST service for managing spaces and messages. You can set it up, understand rate limits, and resolve common errors.",
+  "body_markdown": "## Connect Google Chat to other tools with Activepieces\n\n\nActivepieces, an open-source automation platform, has a Google Chat integration. It lets a workflow post into a space when something happens in another tool, so the \"post the result later\" step needs no API code of your own.\n\n\nIt doesn't remove the auth decision or the quota problem.\n\n\n### When a no-code workflow is enough\n\n\nUse it when the message is a notification: a deploy finished, a form was submitted, a ticket changed state. The workflow starts from a trigger in some other tool, formats a message, and posts it with a Google Chat action.\n\n\nActivepieces holds the connection, so you're not storing credentials in a script someone will forget about.\n\n\nWorth using early: the builder's test mode. The screenshot below shows a single step, \"1. Chat UI\", a Human Input action, with a Published Chat URL for production viewing and a Draft Chat URL for testing and generating sample data.\n\n\nTreat the draft URL as your sandbox: run the flow there until the data shape is right, and only then publish.\n\n\nNote that this step is Activepieces' own chat front end, not Google Chat, so it's a way to exercise a flow, not a substitute for testing the post into a real space.\n\n\n### When you still need the API directly\n\n\nStop reaching for the canvas when you need control over how a request fails. An integration gives you a step that either worked or errored.\n\n\nIt doesn't give you your own backoff policy, request-level handling of quota responses, or deduplication so a retried run doesn't post the same message twice. Those are the retry-first design problems this article keeps returning to.\n\n\nGo to the API directly when:\n\n\n- the message must come from a specific identity and you need to choose the auth mode yourself\n- you need to update or delete a message you posted earlier, tracked by its ID\n- volume is high enough that quotas shape the design\n\n\nIf a Google Chat action you need isn't in the catalogue, you don't wait on a vendor's roadmap: you can build the missing integration yourself, with AI assisting, and keep it private to your own Activepieces instance.\n\n\nIt helps that roughly 60% of the 750 integrations, counted from the open-source monorepo, were built by the community.",
+  "published_at": "2026-11-23T08:50:09+00:00",
+  "first_seen_at": "2026-11-23T13:36:24.693505+00:00",
+  "content_hash": "sha256:a7736ba7c79c73df32152534d053a6345f653095043534fdb7b0774e76523f28"
+}

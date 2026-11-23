@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "449191bee80dae6f253660853c39afe91edfdc2efe364a98f1a3ed71d88c53e9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-replay-a-failed-workflow-run-on-each-platform",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-replay-a-failed-workflow-run-on-each-platform",
+  "title": "How to Replay a Failed Workflow Run on Each Platform",
+  "summary": "Replay failed workflow run by comparing platforms: some let you restart from the broken step, others require starting from the beginning.",
+  "body_markdown": "## Zapier, Make and n8n replay features\n\n\nAll three let you re-run a failed run. They differ on where the re-run starts and on how much of the failed run's data you still have to start from.\n\n\nThat second point decides whether a replay is safe for your steps. As of November 2026, the vendors' docs describe the three behaviors below.\n\n\n### Zapier replay and autoreplay\n\n\nWhen a Zap run errors, Zap history lets you replay it, and autoreplay retries errored runs without anyone clicking. Autoreplay picks up the failed steps, while replaying the entire Zap run starts at the trigger, using the data Zapier saved for that run.\n\n\nIf the failed step is a lookup or a read, resuming at it is convenient. If the failed step is \"create invoice\" and the first attempt actually landed before the timeout, it's a problem. Autoreplay doesn't know that, so it'll send the create call again.\n\n\nReplay depends on run history, which is only kept for a limited window that varies by plan. Check the plan page for your tier.\n\n\nThis fits teams whose steps are idempotent or protected by a lookup-then-create pattern.\n\n\n### Make incomplete executions\n\n\nBy default, **Make doesn't keep a failed run for replay** . You switch on storage of incomplete executions in the scenario settings, and only then does a run that hits an error get parked.\n\n\nFrom there you fix the cause, such as a bad field mapping or an expired connection, and resume it from the module that failed.\n\n\nAnything you didn't enable beforehand is gone. So the setting belongs in the scenario's setup checklist, not in the post-mortem.\n\n\nOn retention, stored data follows your plan, so confirm it on Make's pricing page. It suits people who want a human to inspect each failure before it continues.\n\n\n### n8n retry of failed executions\n\n\nOn a failed execution in the executions list, n8n gives you a retry button. The editor gives a choice between retrying with the workflow as currently saved and retrying with the workflow as it was when the run happened.\n\n\nThat choice matters. Retrying against the saved version picks up your fix but may not match the data the original run saw.\n\n\nOn a self-hosted install you control the pruning settings that decide how long executions stay; on n8n Cloud they vary by plan. n8n fits teams that want to decide how long failure data lives.",
+  "published_at": "2026-11-23T10:56:51+00:00",
+  "first_seen_at": "2026-11-23T13:36:24.693505+00:00",
+  "content_hash": "sha256:1b2be513b5456d5d74e06adbed6ed328643ca6b573c046160f892abf32d62001"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "143cad1bd50a33a0b72429f584305a7e55d02c206dccbdbaa32f43b61dac3bde",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/snowflake-okta-integration-how-to-set-it-up-2026",
+  "canonical_url": "https://www.activepieces.com/blog/snowflake-okta-integration-how-to-set-it-up-2026",
+  "title": "Snowflake Okta Integration: How to Set It Up (2026)",
+  "summary": "Snowflake Okta integration links identity events to database actions through workflows that automate user provisioning and access control updates.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Can I connect Snowflake and Okta without writing code?\n\n\nYes: pair one trigger from either app with actions from the other, and build it in the visual editor. A new or deactivated Okta user can fire an insert or Update Row in Snowflake, and nothing needs a script.\n\n\nYou may type something that looks like code in exactly one place: a cast in a field mapping, which the earlier section covered.\n\n\nMind the Update Row case: if an Okta user's deactivated, the flow can set a status column to inactive in a table you own. **It doesn't touch that person's Snowflake login, so access removal still happens on the identity side.**\n\n\n### Is this the same as setting up Okta SSO for Snowflake?\n\n\nNo. SSO decides how people sign in to Snowflake, and it's configured in the two products' own admin settings.\n\n\nThe flow in this article moves data and events between them: it writes rows, updates rows, and reacts to Okta changes. You can run both, and many teams do.\n\n\nNeither replaces the other. If your goal's \"staff log in with their Okta account,\" stop here and follow the SSO documentation from Okta and Snowflake instead.\n\n\n### Can I self-host the workflow so data stays in my network?\n\n\nThat depends on whether your automation tool offers a self-hosted edition, so check before you build, not after. Even then, the flow only moves where the step in the middle runs.\n\n\nOkta and Snowflake are both hosted services, so each event still travels from one vendor's cloud to the other.\n\n\nSelf-hosting keeps the intermediate payloads, credentials and run logs on infrastructure you control. It doesn't make the connection private. If your policy requires network isolation between the two vendors, that's a conversation with their network settings, not with the flow.\n\n\n### What do I do if the step I need is not available?\n\n\nUse an HTTP request step, often labelled Custom API Call, and call the vendor's API directly. For Okta, that means sending your request to your Okta domain with an API token in the Authorization header.\n\n\nFor Snowflake, the SQL API accepts a statement over HTTPS, so you can run SQL the listed actions don't cover.\n\n\nTest the request with a single harmless read first. When the call fails, the error body from the vendor's usually more useful than the step's status line, so open it before you change anything.",
+  "published_at": "2026-11-23T06:32:33+00:00",
+  "first_seen_at": "2026-11-23T13:36:24.693505+00:00",
+  "content_hash": "sha256:07194a600e61576297131e423dad8f4ba14be42b6f87818aaa744240115b2f19"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bf6a7d2210ca747e1616e7ff39179e7ff70bf77376a9bd230683916503ec96ef",
+  "company_key": "n-able-inc-common-stock",
+  "company_name": "N-able Inc.",
+  "category_key": "technology-3169ce6442acdc81",
+  "category_name": "Technology",
+  "source_kind": "rss",
+  "url": "https://www.n-able.com/blog/mail-assure-incident-update",
+  "canonical_url": "https://www.n-able.com/blog/mail-assure-incident-update",
+  "title": "Mail Assure Incident Update",
+  "summary": "Mail Assure Incident Update, November 22, 2026, 2:30 pm EST We have continued to make progress following the recent security incident affecting the Mail Assure and SpamExperts environments. We remediated...",
+  "body_markdown": "## Mail Assure Incident Update, November 22, 2026, 2:30 pm EST\n\n\nWe have continued to make progress following the recent security incident affecting the Mail Assure and SpamExperts environments.\n\n\nWe remediated the identified vulnerability, restored access to the dashboard and APIs as of November 21 at 23:45 UTC, and communicated the update to customers. Inbound and outbound email flow and spam filtering continued to operate throughout the incident.\n\n\nSince completing these remediation actions, we have continued scanning and monitoring the Mail Assure environments and have found no evidence of exploitation beyond the single N-able-hosted server identified in our initial investigation. We have also engaged an independent third-party Digital Forensics and Incident Response (DFIR) team to support a deeper investigation into the incident to help us validate our findings and determine the root cause.\n\n\nWe know transparency is important, particularly when it comes to security. To support that, we have published[CVE-2026-134624](https://www.cve.org/CVERecord?id=CVE-2026-134624) to track this vulnerability. Our investigation remains a priority, and we are preparing a formal Root Cause Analysis (RCA) within the next two weeks that will provide more detail on what occurred and the actions we have taken in response. We will continue to share material updates as that work progresses.",
+  "published_at": "2026-11-22T19:27:21+00:00",
+  "first_seen_at": "2026-11-23T10:58:50.375828+00:00",
+  "content_hash": "sha256:610fcb8dcfd65a7434923ba9e489acbcea67841fbdef56035182a0c9a71dac65"
+}

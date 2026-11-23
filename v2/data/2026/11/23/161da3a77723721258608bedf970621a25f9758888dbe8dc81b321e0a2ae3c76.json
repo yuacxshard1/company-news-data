@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "161da3a77723721258608bedf970621a25f9758888dbe8dc81b321e0a2ae3c76",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/captions-mcp-server-for-ai-agents-and-assistants",
+  "canonical_url": "https://www.activepieces.com/blog/captions-mcp-server-for-ai-agents-and-assistants",
+  "title": "Captions MCP Server: Tools, Setup and Costs (2026)",
+  "summary": "Captions MCP refers to either the Captions video app or subtitle servers. Find out which definition applies and check 2026 pricing options.",
+  "body_markdown": "## Frequently asked questions\n\n\nIs there an official Captions app MCP server? I can't confirm one, so check before you assume it.\n\n\nThe Captions app is one vendor, and \"captions MCP\" can also mean a server from a different transcription or subtitling company. Find the server's publisher, confirm it matches the vendor whose billing you intend to use, and record that in your review.\n\n\n### Is a captions MCP free to use?\n\n\nNot as a rule. The connector itself may cost nothing, but each tool call usually draws on the vendor's metered account, so the bill follows the vendor's plan rather than the protocol.\n\n\nRead the vendor's pricing page and ask who approves the spend. An assistant that calls a transcription tool in a loop consumes your allowance as readily as a person would.\n\n\nWhich AI assistants can connect to a captions MCP server? Any assistant or agent framework that supports MCP clients can connect in principle, but support differs by product and by plan.\n\n\nSome hosts limit which servers you may add, or require an administrator to approve them. Check your assistant's connector settings and your organisation's approval chain before you promise a colleague that it will work.\n\n\nCan a captions MCP translate subtitles into other languages? Only if the specific server exposes a translation tool. Many expose transcription and caption export alone.\n\n\nRead the server's tool list, run a short test file through it, and have a fluent reader check the output before it goes to an audience. Translation may also be billed separately from transcription.\n\n\n### Is it safe to give an MCP server my API key?\n\n\nSafe enough only with controls, and the audit comes before the convenience. A key stored in a server's configuration can be read by anyone with access to that file, and by the server's code.\n\n\nUse a key scoped to the least access the vendor allows, keep it out of shared documents and chat, and prefer a server whose source and publisher you can verify.\n\n\nSet a spending limit on the account, and rotate the key when a contractor or tester leaves the project.",
+  "published_at": "2026-11-23T05:09:37+00:00",
+  "first_seen_at": "2026-11-22T11:50:53.349456+00:00",
+  "content_hash": "sha256:2eca9dc56ec9a3fb7b6603a00b41a460d27e18e2af61ddffc9c67b554d38acd7"
+}

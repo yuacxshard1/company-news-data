@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "44bb9db817b3f30333b6cc3ef80cf9334074787272d6ff3b6a123f27a2ff93d4",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/leonardo-ai-pricing-2026-plans-tokens-and-cost",
+  "canonical_url": "https://www.activepieces.com/blog/leonardo-ai-pricing-2026-plans-tokens-and-cost",
+  "title": "Leonardo AI Pricing 2026: Free Tier, Plans and Token Costs",
+  "summary": "Leonardo AI pricing is based on monthly token allowances. Determine how many tokens your actual output needs to choose the right amount.",
+  "body_markdown": "## Leonardo token plans running out early\n\n\nSized on the cheapest generation but billed at the dearest one: that is how the allowance ran out early.\n\n\n[Scopeful](https://www.scopeful.org/tools/leonardo) lists Phoenix at 12 to 50 tokens per generation, so 100 images cost anywhere from 1,200 to 5,000 tokens depending on settings. Plan for the low end and you can overspend fourfold.\n\n\n### How retries and upscales multiply Leonardo token costs\n\n\nSwitch models and the gap widens. Nano Banana Pro runs 140 to 250 tokens per generation, so 100 images cost 14,000 to 25,000 tokens, **roughly ten times Phoenix at its low setting** .\n\n\nAt the top setting, one Veo 3 clip costs as much as 32 Phoenix images at their highest cost, since Veo 3 runs 800 to 1,600 tokens per generation, making video a choice about token allocation rather than daily output.\n\n\nWithout counting, teams reach for the settings that push a job toward the top of those ranges. Each retry is a new generation billed at full price, so a 3-try average triples your per-keeper cost.\n\n\nA larger output setting moves a generation up its model's range.\n\n\nStart a clip on Veo 3 and the floor is 800 tokens, so a single clip outweighs a whole batch of stills. You pay again for an upscale, because it is a second pass on an image you already paid for.\n\n\nIf several people draw on one allowance, each person's retries come out of everyone's month.\n\n\nThose five compound. A retried, upscaled, high-resolution still can cost several times the number you used when choosing the plan, which is why a weekly count of finished assets, not generations, is the figure to track.\n\n\n### Leonardo plan rollover, concurrency and privacy limits\n\n\nEach of these can turn a spare allowance into a stuck one: rollover, concurrent jobs, private versus public generations and commercial-use terms all differ by plan. Read them on Leonardo's own plan page before you buy.\n\n\nAsk whether unused tokens carry over, how many jobs can run at once, whether your work stays private, and whether your use is licensed commercially. If the answer to any of these is no, price the next tier up.\n\n\nIf your workflow calls Leonardo through code, assume its credits are billed apart from the app's token allowance. Budget the two separately, because a full app allowance doesn't cover API calls, and an empty one doesn't mean the API is drained.",
+  "published_at": "2026-11-23T06:29:09+00:00",
+  "first_seen_at": "2026-11-23T13:36:24.693505+00:00",
+  "content_hash": "sha256:bcc2fc26ea496582fdb54980a59ade8afc21df3aa4f2464a3eb5d72cc9c4a42d"
+}

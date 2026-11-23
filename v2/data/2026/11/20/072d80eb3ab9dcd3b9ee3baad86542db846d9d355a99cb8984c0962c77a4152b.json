@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "072d80eb3ab9dcd3b9ee3baad86542db846d9d355a99cb8984c0962c77a4152b",
+  "company_key": "yc-browseros",
+  "company_name": "BrowserOS",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.browseros.com/blog/claude-code-browser-automation/",
+  "canonical_url": "https://www.browseros.com/blog/claude-code-browser-automation/",
+  "title": "Claude Code browser automation: 6 ways compared (2026)",
+  "summary": "Six ways to give Claude Code a browser, compared: Claude in Chrome, Playwright MCP, Chrome DevTools MCP, Browser MCP, Browser Use and BrowserOS neo. With setup commands and our own test runs.",
+  "body_markdown": "## FAQ\n\n\n### What is the best browser for Claude Code?\n\n\nThe best browser for Claude Code depends on the job. To test your own app, Playwright MCP needs no logins. To debug a page, Chrome DevTools MCP. For work on sites where you are signed in, use a browser that has your logins: Claude in Chrome, Browser MCP or Browser Use drive your own Chrome, and BrowserOS neo is a separate browser for agents, signed in as you.\n\n\n### Can Claude Code use my logged-in Chrome?\n\n\nYes. Claude in Chrome shares your browser’s login state when you start Claude Code with claude --chrome. Browser MCP and Browser Use also drive your own Chrome profile. Playwright MCP and Chrome DevTools MCP start with a profile of their own unless you connect them to your Chrome.\n\n\n### Does Claude in Chrome work with an API key?\n\n\nNo. Claude Code’s docs say Chrome integration needs a direct Anthropic plan and a /login sign-in. With an API key, a setup token, Amazon Bedrock or another third-party provider, it stays off. MCP browsers like Playwright MCP and BrowserOS neo work with any Claude Code login.\n\n\n### Should I use Playwright MCP or Chrome DevTools MCP with Claude Code?\n\n\nPlaywright MCP for driving and testing pages: it reads the accessibility tree and works with Chromium, Firefox and WebKit. Chrome DevTools MCP for debugging: console messages, network requests and performance traces in Chrome.",
+  "published_at": "2026-11-20T00:00:00+00:00",
+  "first_seen_at": "2026-11-23T10:10:46.335211+00:00",
+  "content_hash": "sha256:385a32de35993f1961b7ac34c458c0cf0baafb2a953911f07018373026d7d144"
+}

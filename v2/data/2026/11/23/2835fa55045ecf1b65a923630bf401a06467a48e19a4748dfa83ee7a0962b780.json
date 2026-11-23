@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2835fa55045ecf1b65a923630bf401a06467a48e19a4748dfa83ee7a0962b780",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/aws-workspaces-pricing-in-2026-and-what-seats-really-cost",
+  "canonical_url": "https://www.activepieces.com/blog/aws-workspaces-pricing-in-2026-and-what-seats-really-cost",
+  "title": "AWS WorkSpaces Pricing in 2026 and What Seats Really Cost",
+  "summary": "AWS WorkSpaces pricing mixes monthly fees with optional hourly charges. Compare costs across the five available plans to fit your virtual desktop budget.",
+  "body_markdown": "## Automate WorkSpaces Chores with Activepieces\n\n\nDo not expect Activepieces to lower your WorkSpaces rate. It can stop you paying for desktops nobody uses, because a $35 AlwaysOn seat left running for someone who has gone costs $35 every month until a person remembers to terminate it.\n\n\nPricing mode and add-ons still decide the bill; a workflow only keeps your headcount honest.\n\n\nIf you pay a fixed monthly seat for a person who left, the platform doesn't care, and the charge continues until someone terminates it.\n\n\nIn Activepieces, a no-code automation tool, you chain a trigger to a series of steps. Its connector library, shown below, lists 502 integrations at the time of capture, sorted by popularity, with Webhook, Google Sheets, Gmail and a generic HTTP integration at the top.\n\n\nThose four are the steps of the offboarding flow below: Webhook starts it, HTTP calls the AWS API, Google Sheets logs the saving and Gmail sends the confirmation.\n\n\nA flow run is 1 credit on Activepieces whether it has four steps or ten, so adding an approval check before termination costs nothing extra, while Zapier's per-task billing and Make's per-module billing both charge for each added step.\n\n\nGood offboarding means many small, checkable steps, and pricing that rises with step count taxes exactly that habit; here the run is the meter, and what happens inside it is not.\n\n\nBroad as the library is, check it for an AWS WorkSpaces integration before assuming one exists, and expect to fall back on HTTP calls.\n\n\nBuild these two flows first.\n\n\n### Offboarding that removes the desktop\n\n\nWhen someone's employment ends, your HR system fires a webhook. The flow receives it, looks up the user's WorkSpace, and calls the terminate action. A confirmation email goes to IT, and a row goes into a sheet so finance can see the saving.\n\n\nNobody waits for the next audit: a departed employee's seat stops billing the day they leave. Keep a human approval step before termination if the desktop holds data, since termination isn't reversible.\n\n\n### Weekly idle-desktop report\n\n\nEvery week a scheduled flow runs, lists every WorkSpace, and pulls the last-active time for each. Anything untouched beyond your threshold goes into a report emailed or posted to a team channel.\n\n\nThis is where the billing-mode question from earlier gets answered with evidence. A desktop that sits idle on a fixed monthly seat is a candidate for hourly billing or removal, and the report names it. The flow only flags; deciding stays with you.",
+  "published_at": "2026-11-23T08:47:32+00:00",
+  "first_seen_at": "2026-11-23T13:36:24.693505+00:00",
+  "content_hash": "sha256:08e1b94ebb7912e85b2244374c63176ae18834a1c40bcdd7efacf06d830c6d65"
+}

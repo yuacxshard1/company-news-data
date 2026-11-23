@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7bc60768f90a0436a88ab8aa29028271f5c245d74b0ab5b05a52adc1e130ac06",
+  "company_key": "yc-browseros",
+  "company_name": "BrowserOS",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.browseros.com/blog/claude-in-chrome-alternatives/",
+  "canonical_url": "https://www.browseros.com/blog/claude-in-chrome-alternatives/",
+  "title": "Claude in Chrome: setup, limits, and the alternatives",
+  "summary": "Who can use Claude in Chrome, how to set it up, how to fix it when it stops working, and four alternatives: Chrome DevTools MCP, Playwright MCP, Aside and BrowserOS neo.",
+  "body_markdown": "## FAQ\n\n\n### Is Claude in Chrome free?\n\n\nNo. It is included with Anthropic’s paid plans: Pro, Max, Ultra, Team and Enterprise. Free users are asked to upgrade. Browser use counts against the same plan limits as your other Claude chats.\n\n\n### Does Claude in Chrome work in other browsers?\n\n\nAnthropic’s help centre says the extension is not supported on other Chromium browsers or on mobile. Claude Code’s docs say Claude Code works with it in Chrome and Edge, and also detects it in Brave, Arc, Vivaldi and Opera.\n\n\n### Why does Claude in Chrome say “Browser extension is not connected”?\n\n\nThe extension is not running, it is signed in to a different Claude account or organization than Claude Code, or your network blocks bridge.claudeusercontent.com. Sign in to the same account and organization, restart Chrome and Claude Code, and run /chrome to reconnect.\n\n\n### What is the difference between Claude in Chrome and Chrome DevTools MCP?\n\n\nClaude in Chrome is Anthropic’s extension that works in your own Chrome with your logins, for Claude only. Chrome DevTools MCP is Google’s open-source MCP server that any MCP agent can use. It starts its own Chrome and is built for debugging: console, network and performance traces.\n\n\n### What is the best alternative to Claude in Chrome?\n\n\nFor testing your own app, Playwright MCP. For debugging, Chrome DevTools MCP. For a browser with its own built-in agent, Aside. For giving Claude Code or another agent a separate browser signed in as you, BrowserOS neo.",
+  "published_at": "2026-11-20T00:00:00+00:00",
+  "first_seen_at": "2026-11-23T10:10:46.335211+00:00",
+  "content_hash": "sha256:fd292cc8f565825808e41e1a0d99c900791cd8a8659d9677122a35103f940823"
+}
