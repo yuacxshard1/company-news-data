@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dda489393585958887d320800b14170728d097056ee678210e296158ef091966",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/automation-tools-that-dont-train-on-your-data-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/automation-tools-that-dont-train-on-your-data-2026-guide",
+  "title": "Automation Tools That Don't Train on Your Data: 2026 Guide",
+  "summary": "Automation tools that don't train on your data keep your inputs out of AI training models. Compare which ones match your workflow and privacy requirements.",
+  "body_markdown": "## Zapier and Make for hosted simplicity\n\n\nBecause Zapier and Make both run only on the vendor's cloud, your protection against training use is whatever their written terms say. You can't move the workload onto servers you control, which leaves the contract and published policy as your only controls.\n\n\n### Why an AI step adds a second set of terms\n\n\nThat matters more once you add an AI step. In the workflow below, the automation reads a spreadsheet row, loops over it, and passes it to a third-party Perplexity model with a prompt asking for product, industry, audience, company size and location.\n\n\nAt the selected step, company data leaves the automation vendor for a second provider. The automation platform's no-training promise doesn't automatically cover that second hop, so you need to read two sets of terms, not one.\n\n\nTo apply the same check to each vendor in turn, work through the entries that follow.\n\n\n### Zapier entry\n\n\nIf you want your own network controls behind a data-handling promise, Zapier can't give you that: it is hosted only, with no self-hosted edition. Whether the promise holds depends entirely on Zapier's published terms and privacy material.\n\n\nBefore relying on any statement about training, find where Zapier's own pages make it and note which plan the statement covers.\n\n\nA promise written for one tier doesn't carry to another, and a free account may sit under different wording than a paid or enterprise agreement.\n\n\nDon't take list prices from a comparison table. They change often, so confirm them on Zapier's pricing page. If Zapier's AI features call an outside model provider, ask which provider and under what terms.\n\n\n### Make entry\n\n\nThere's no self-hosting route with Make either, because it is cloud only. As with Zapier, the document you hold is the control, because you can't inspect or isolate the infrastructure yourself.\n\n\nRead Make's own security and privacy pages for the training statement, and record which plan the statement is attached to. Check the pricing page for the plan that actually includes the protection you need, since a cheaper tier may not.\n\n\nWhere a scenario calls an external AI module, treat that provider's terms as a separate document to obtain, because Make's commitments describe Make's handling, not the model vendor's.",
+  "published_at": "2026-11-22T16:56:38+00:00",
+  "first_seen_at": "2026-11-22T22:40:45.539156+00:00",
+  "content_hash": "sha256:ec3f26baafeceb3acf2f61b210e93f68de5abd341163314f9fa4ef100a0c027e"
+}

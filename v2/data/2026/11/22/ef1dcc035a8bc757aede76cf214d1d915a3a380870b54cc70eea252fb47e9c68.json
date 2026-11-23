@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ef1dcc035a8bc757aede76cf214d1d915a3a380870b54cc70eea252fb47e9c68",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/ai-agent-sla-monitoring-tools-compared-for-teams",
+  "canonical_url": "https://www.activepieces.com/blog/ai-agent-sla-monitoring-tools-compared-for-teams",
+  "title": "AI Agent SLA Monitoring Tools Compared for Teams",
+  "summary": "AI agent SLA monitoring tools track performance and costs. Compare tracing, evaluation, and cost-tracking capabilities across different platforms.",
+  "body_markdown": "## LangSmith for LangChain agent tracing\n\n\n### Where the tool's job ends\n\n\n**When the alert fires, LangSmith's job ends** . It traces, evaluates and alerts on latency and errors, and it's strongest for agents built on LangChain and LangGraph. Nothing in that description says who gets paged, who approves a fix, or what runs next.\n\n\nOpen any run and you see a tree of steps: the prompt, each model call, each tool call, and the output. The tracing is good. When an agent returns a wrong answer, you open the trace and see which step produced it.\n\n\nBefore a change ships, evaluation lets you score runs against test cases, which matters more than any dashboard, because it catches a regression before a customer does.\n\n\nIn a LangChain or LangGraph app, instrumentation's close to free, since the framework already knows its own step boundaries.\n\n\n### What a trace shows\n\n\nIn the run record below, the execution log lists input and output for each step: a user sends \"hi\", the agent replies \"Hello! How can I assist you today?\", and the chat panel shows an error raised by the memory sub-node.\n\n\nThe log is what a trace gives you, and the memory error shows what a trace can't do. It tells you the failure happened and where. It doesn't decide whether to wake anyone up.\n\n\n### Checking agent alerting before you buy\n\n\nThat's the gap to check before you buy.\n\n\nAlerting on latency and error rate is only useful if you have defined the threshold, the window you measure it over, and the person who answers it. An alert rule that posts to a channel nobody watches is a dashboard with extra steps.\n\n\nAsk the vendor how the alert leaves the tool, what receives it, and whether you can attach an approval or a ticket to it without writing your own glue.\n\n\n### LangSmith limits outside LangChain agents\n\n\nOutside LangChain and LangGraph, you wire in the tracing yourself, and the value drops with every custom component you instrument by hand. That is the limit.\n\n\nA team whose agent lives in a visual workflow builder, or who has no engineers to maintain instrumentation, pays for depth it can't use.\n\n\nLangSmith fits an engineering team that owns a LangChain or LangGraph codebase and needs to see inside it. It doesn't fit a business team whose SLA is a promised response time and a named person on the other end of the alert.",
+  "published_at": "2026-11-22T19:00:14+00:00",
+  "first_seen_at": "2026-11-22T22:40:45.539156+00:00",
+  "content_hash": "sha256:6dc7be59d8fb74f6fced53e27afb00c20f64a7120c227f9fd917f1e1f923a598"
+}

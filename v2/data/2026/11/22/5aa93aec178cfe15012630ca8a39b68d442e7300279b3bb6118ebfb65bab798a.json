@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5aa93aec178cfe15012630ca8a39b68d442e7300279b3bb6118ebfb65bab798a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/automation-platform-deploy-in-your-own-vpc-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/automation-platform-deploy-in-your-own-vpc-2026-guide",
+  "title": "Automation Platform Deploy in Your Own VPC: 2026 Guide",
+  "summary": "Automation platforms you can deploy in your own VPC let you run workflows on infrastructure you control. Compare the available self-hosted options.",
+  "body_markdown": "## Windmill Self-Hosted Deployment\n\n\nYes, Windmill runs inside your own VPC. The question that matters is which edition the license lets you run there, because the open-source build and the enterprise build carry different license terms.\n\n\n### Self-hosting and licensing\n\n\nIn a self-hosted deployment, as Windmill's docs describe it, you run the servers and the workers on your own infrastructure. That puts the data plane, meaning the place where scripts execute and run history is stored, in your account rather than the vendor's.\n\n\n**If their cloud goes down, your instance doesn't** .\n\n\nThe core is published under an open-source license, and I understand it to be AGPLv3. An enterprise edition sits on top under a separate commercial license. Read the license file in the repository and the enterprise terms before you commit.\n\n\nWhich controls you need, such as single sign-on or audit logging, decides which edition you have to hold. I haven't named a control as satisfied here because that depends on the edition and the contract text you are given.\n\n\n### Windmill self-hosted pricing and limits\n\n\nI'm not reproducing a figure here. Windmill's own pricing page sets the enterprise price (checked 2026-11-22), so confirm it on that page and keep a dated copy for your records.\n\n\nNot everyone can use it, and that is the limit. Windmill is built around code: scripts in several languages, chained into workflows.\n\n\nA marketing or finance user who expects a drag-and-drop connector library will depend on an engineer to build and maintain flows. That's a staffing cost the license fee doesn't show.\n\n\nIf your team is engineering-led, already writes scripts and wants them turned into scheduled jobs and multi-step workflows, with execution kept inside its own network, Windmill suits you.\n\n\nIt fits teams with an owner for upgrades, backups and worker scaling. It fits less well where non-technical staff are expected to build their own automations.",
+  "published_at": "2026-11-22T17:28:20+00:00",
+  "first_seen_at": "2026-11-22T22:40:45.539156+00:00",
+  "content_hash": "sha256:317fbfb494d00be355d67527fdc31b2b77b9ce56365001b9ef372e32e6aaefaf"
+}

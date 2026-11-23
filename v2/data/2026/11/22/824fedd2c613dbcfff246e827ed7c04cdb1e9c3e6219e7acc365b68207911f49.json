@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "824fedd2c613dbcfff246e827ed7c04cdb1e9c3e6219e7acc365b68207911f49",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/adobe-acrobat-automation-without-code-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/adobe-acrobat-automation-without-code-in-2026",
+  "title": "Adobe Acrobat Automation Without Code in 2026",
+  "summary": "Adobe Acrobat automation uses different tools: Action Wizard for manual triggers, PDF Services API for schedules, or connectors. Determine the right fit.",
+  "body_markdown": "## Creating your first Action Wizard action\n\n\nOpen Tools > Action Wizard, choose Create New Action, add your steps, save, then point it at a folder of PDFs. The trigger is you clicking Start, and that's the whole design: a person at a desktop decides when the batch runs.\n\n\nPick a name that says what the action does to a file, such as \"OCR and flatten\", because a vague name is how someone runs the wrong batch on a client folder three months from now.\n\n\n### Adding steps and prompts in Action Wizard\n\n\nTop to bottom, the editor lists steps in the order they run. Add each one from the left-hand categories, then set its options.\n\n\nWhere a step offers \"Prompt User\", that's your approval point: Acrobat stops and waits for a person before continuing, which is what you want for anything irreversible, such as redaction.\n\n\nOn a separate automation canvas the same anatomy shows at a glance: the step list runs down the left, and the selected step, \"5. Page Audit\", opens its configuration panel on the right.\n\n\nThat step sends text to OpenAI's GPT-6.1 Sol with a prompt asking for a 0-100 score and a 120-word summary.\n\n\nApply the same takeaway to Action Wizard: each step's settings are visible and editable on their own, so when output looks wrong you open that one step instead of rereading the whole flow.\n\n\nIf OCR comes after a step that searches text, the search runs against pixels and finds nothing, so put OCR first. Order matters.\n\n\n### Running an Action Wizard action on a folder\n\n\nSave the action, reopen it from Action Wizard, choose the files or folder, and run it. Then open a sample of the results before you trust the batch.\n\n\nA messy file, such as a scan at an odd rotation or a password-protected PDF, is where a \"set and forget\" action quietly fails.\n\n\nAccording to[Wonder-Ware](https://wonder-ware.com/2025/07/23/batch-processing-1000-pdfs-automation-tools-compared-adobe-action-wizard-vs-pdf-xchange/) , the payoff is time: Action Wizard processes **100 PDFs in about 3 minutes** . The same source puts a fast person doing it by hand at 50 minutes per 100 PDFs, and a slow one at 200 minutes.\n\n\nThat makes the manual route roughly 17 to 67 times slower.",
+  "published_at": "2026-11-22T18:09:12+00:00",
+  "first_seen_at": "2026-11-17T14:32:43.730564+00:00",
+  "content_hash": "sha256:8e66c6338ccf6dbcc741de79a4834c92979ee8eb54c32be1f8707c843d8911e3"
+}
