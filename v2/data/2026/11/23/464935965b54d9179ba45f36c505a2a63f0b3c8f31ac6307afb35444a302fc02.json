@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "464935965b54d9179ba45f36c505a2a63f0b3c8f31ac6307afb35444a302fc02",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/inspector-runtime-reachability/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/inspector-runtime-reachability/",
+  "title": "Amazon Inspector expands runtime reachability analysis for ECR and EC2 findings",
+  "summary": "Discover more about what's new at AWS with Amazon Inspector expands runtime reachability analysis for ECR and EC2 findings",
+  "body_markdown": "Amazon Inspector has expanded its vulnerability management capabilities with runtime reachability analysis for findings originating from Amazon Elastic Container Registry (Amazon ECR) and Amazon Elastic Compute Cloud (Amazon EC2) instances. Previously, Inspector reported every vulnerability found in a resource, including packages that were never used by applications. Security teams had to manually assess which vulnerabilities actually posed risk in their deployed environments. Now, Inspector automatically identifies which vulnerabilities are potentially reachable by analyzing package placement in container images and process activity on EC2 instances.\n\n\nWith runtime reachability analysis, you can focus remediation efforts on vulnerabilities that matter most to your security posture. For container images, Inspector determines whether a vulnerable package is within your application's dockerfile paths defined by WORKDIR, ENTRYPOINT, or CMD instructions. For EC2 instances, Inspector identifies whether a vulnerable package was observed running as a process during the most recent scan. For EC2, customers must use the[Inspector VM Scanner](https://docs.aws.amazon.com/inspector/latest/user/inspector-vm-scanner.html) for agent-based scanning to get this capability. This helps organizations managing large container fleets or complex applications prioritize remediation by distinguishing between vulnerabilities that are potentially reachable versus those in unused dependencies, reducing noise and enabling development and security teams to work more efficiently. Newly generated findings will have runtime reachability analysis included, and backfill of existing findings will be completed over time.\n\n\nRuntime reachability for Inspector findings is available at no additional charge and is available in all AWS Regions where Inspector is already available.\n\n\nTo learn more, visit the[Amazon Inspector product page](https://aws.amazon.com/inspector/) .",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:50ae19e25dc09f04831c75b123c940e545ef4189722854212a8617ea8dae3d00"
+}

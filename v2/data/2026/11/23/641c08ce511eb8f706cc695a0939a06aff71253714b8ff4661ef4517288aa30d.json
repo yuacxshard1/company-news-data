@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "641c08ce511eb8f706cc695a0939a06aff71253714b8ff4661ef4517288aa30d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/mai-code-2-pricing-specs-and-api-access-2026",
+  "canonical_url": "https://www.activepieces.com/blog/mai-code-2-pricing-specs-and-api-access-2026",
+  "title": "MAI Code 2: Pricing, Specs and API Access (2026)",
+  "summary": "MAI Code 2 is a new coding model priced the same as Claude Haiku 4.5.",
+  "body_markdown": "## Connecting MAI Code 2 in a workflow today\n\n\nThree general routes work without native support, in order of simplicity: an HTTP request, a custom AI provider, or MCP. We have not tested any of them against MAI Code 2. Each depends on what the maker's docs actually publish.\n\n\n### Route 1: an HTTP request step\n\n\nTake three things from the docs: the endpoint URL, the auth method, and the exact model name. Put the endpoint in the step's URL field and the key in a header, using your platform's stored credentials rather than pasting it into the step.\n\n\n**Copy the model name character for character** , because a near miss returns an error that reads like an auth failure. Check the docs for rate limits too, since a looping workflow hits them first.\n\n\n### Connect MAI Code 2 as custom AI provider\n\n\nOnly if the maker documents an OpenAI-compatible endpoint does the second route exist, an AI step with a custom or OpenAI-compatible provider.\n\n\n\"OpenAI-compatible\" means the endpoint accepts the same request and response format as OpenAI's API, so any tool built for that format can be pointed at it by changing the base URL.\n\n\nIf the maker documents one, you enter the base URL, the key, and the model name once. Every AI step in your workflows can select it.\n\n\nA platform that sells you its own model has made your AI decision and priced it before you open the product, and a custom provider setting exists to undo exactly that.\n\n\nActivepieces takes whichever model you point it at, MAI Code 2 included once its endpoint qualifies, using your own provider key, so the model spend lands on your provider account at your rate.\n\n\nFrom the Plus plan up, bringing your own key makes every AI step 1 credit, against 2, 10 or 20 when the model is supplied for you, and the same flows can be reached from Claude, ChatGPT, Cursor or any MCP client.\n\n\nIf the docs describe a different request format, do not force it. Fall back to Route 1.\n\n\n### Route 3: an MCP server\n\n\nIf MAI Code 2 is the one calling your tools, not your workflow calling it, MCP is the route. You need the server's address and its auth method from the maker's docs.\n\n\nIf the maker publishes no MCP server, there is nothing to connect. Stop here and use Route 1.\n\n\nPick the first route the documentation supports, and the next section covers what to verify before you rely on it.",
+  "published_at": "2026-11-23T18:14:16+00:00",
+  "first_seen_at": "2026-11-18T17:35:41.201411+00:00",
+  "content_hash": "sha256:284c03ec0a608a9c54e42d2eb5c69e26e70fc4f4600556cda623756b097ede72"
+}

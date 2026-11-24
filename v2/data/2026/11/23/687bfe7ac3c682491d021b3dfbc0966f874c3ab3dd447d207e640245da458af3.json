@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "687bfe7ac3c682491d021b3dfbc0966f874c3ab3dd447d207e640245da458af3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-blocks-ml-flex-search/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-blocks-ml-flex-search/",
+  "title": "Amazon EC2 Capacity Blocks for ML now supports search across multiple instance types and AWS Regions",
+  "summary": "Discover more about what's new at AWS with Amazon EC2 Capacity Blocks for ML now supports search across multiple instance types and AWS Regions",
+  "body_markdown": "Amazon EC2 Capacity Blocks for ML now lets customers search across multiple instance types and AWS Regions in a single search, making it easier to find and reserve the capacity their ML workloads need. With Capacity Blocks for ML, customers can reserve accelerated compute instances such as Amazon EC2 P6-B300, P6-B200, and Trn2 instances, for a future start date and for up to 6 months.\n\n\nUntil now, customers looking to buy Capacity Blocks had to run a separate search for every instance type and Region combination. Starting today, customers can use a single search in the AWS Management Console to look for Capacity Blocks across multiple instance types and Regions, making it easier to secure capacity without repeated searches. Customers can also programmatically search for capacity across multiple instance types within a Region with a single API call using DescribeCapacityBlockOfferings.\n\n\nThis feature is available for all Instance Capacity Blocks in AWS Regions where EC2 Capacity Blocks for ML are offered. For a complete list of supported regions, refer to[Capacity Blocks documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-blocks.html#capacity-blocks-considerations) . To get started, visit the[Capacity Blocks page in the Amazon EC2 console](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CreateCapacityBlockReservation:) .",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:4571b115332f4b425bc01bc7268e5467f143166816ba06e69b102606a2d47af9"
+}

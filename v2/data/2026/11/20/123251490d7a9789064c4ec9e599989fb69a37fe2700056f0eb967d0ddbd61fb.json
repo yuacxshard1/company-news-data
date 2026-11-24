@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "123251490d7a9789064c4ec9e599989fb69a37fe2700056f0eb967d0ddbd61fb",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cdk-blocks-ga/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cdk-blocks-ga/",
+  "title": "AWS CDK Blocks reaches general availability",
+  "summary": "Discover more about what's new at AWS with AWS CDK Blocks reaches general availability",
+  "body_markdown": "AWS Cloud Development Kit (AWS CDK) Blocks, known as AWS Blocks in preview, is now generally available. It is an expansion of the CDK that simplifies building production-grade applications on AWS, by providing production-ready building blocks for common app features, such as data storage and processing, background jobs, and building AI agents.\n\n\nCDK Blocks build upon CDK constructs. CDK constructs are reusable pieces of code that define AWS infrastructure, such as a database or a storage bucket. CDK Blocks packages a CDK construct along with the connecting code applications need to use that infrastructure, incorporating AWS service-specific best practices, such as safe retries, dead-letter routing and partial-batch failures, and a local testing setup, reducing the code and configuration you need to write and maintain. It also enables you to compose and share your own custom components that incorporate your organization's requirements, helping teams build production ready applications faster.\n\n\nCDK Blocks is available to use in all regions.\n\n\nCDK Blocks has no additional service fee, and you pay only for AWS resources when you deploy to AWS. Its source code is published under the Apache License 2.0. To get started, see the[CDK Blocks documentation](https://docs.aws.amazon.com/cdk/blocks/devguide/what-is-blocks.html) , or view the source in the[CDK Blocks GitHub repository](https://github.com/aws/cdk-blocks) .",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:183f5f452192db59f7457cd2cf002f38cd96e4c023622ef7e27fce17e6ff06f6"
+}

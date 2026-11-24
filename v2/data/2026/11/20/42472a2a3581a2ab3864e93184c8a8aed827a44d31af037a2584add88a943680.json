@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "42472a2a3581a2ab3864e93184c8a8aed827a44d31af037a2584add88a943680",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-pcs-instance-health-checks/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-pcs-instance-health-checks/",
+  "title": "AWS Parallel Computing Service now supports managed instance health checks",
+  "summary": "Discover more about what's new at AWS with AWS Parallel Computing Service now supports managed instance health checks",
+  "body_markdown": "AWS Parallel Computing Service (AWS PCS) now supports instance health checks, which can find hardware faults and software problems on accelerated instances beyond what Amazon EC2 detects today. For example, a fault such as an uncorrectable GPU memory error can stop or slow every job on a compute node. Instead of losing the next job to the same bad GPU, AWS PCS can take the compute node out of scheduling and replace its instance with a new one.\n\n\nYou can turn on instance health checks for a compute node group in the AWS PCS console, AWS CLI, or AWS SDKs. Health monitoring watches NVIDIA GPUs, AWS Neuron devices, and Elastic Fabric Adapter (EFA) devices continuously, including while jobs run. Optional deep health checks run NVIDIA Data Center GPU Manager (DCGM) diagnostics each time an instance starts, from the GPU software stack to stress tests of the hardware, so a faulty GPU can be caught before a job lands on it. You choose what AWS PCS does next: replace the instance, isolate the compute node for investigation, or only report the fault. You can see each result and repair action in Slurm, alongside the compute node's other status information.\n\n\nAWS PCS is a managed service that simplifies running and scaling high performance computing (HPC) workloads on AWS using Slurm. You can build complete, elastic environments that integrate compute, storage, networking, and visualization tools, and the service manages cluster updates and provides built-in observability.\n\n\nTo learn more, see[Detecting and repairing hardware faults with instance health checks](https://docs.aws.amazon.com/pcs/latest/userguide/cng-instance-health-checks.html) in the AWS PCS User Guide. Instance health checks require Slurm 26.05 or later and an AMI with AWS PCS agent 1.6.0-1 or later, and are available in all AWS Regions where AWS PCS is available.",
+  "published_at": "2026-11-20T08:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:37d0aeef8f47ad05180ba0e116a60b373f843b21d9d81b7c23b05cc2c56ed76a"
+}

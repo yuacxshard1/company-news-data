@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "145c0fd375f2c627febf8efc1649ceee38c8218ad5418834661c9684beb92b60",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codedeploy-suspend-asg-processes/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codedeploy-suspend-asg-processes/",
+  "title": "AWS CodeDeploy now supports suspending Amazon EC2 Auto Scaling processes",
+  "summary": "Discover more about what's new at AWS with AWS CodeDeploy now supports suspending Amazon EC2 Auto Scaling processes",
+  "body_markdown": "AWS CodeDeploy can now suspend Amazon EC2 Auto Scaling processes during EC2 in-place deployments to Auto Scaling groups. CodeDeploy is a fully managed service that automates application deployments to Amazon EC2 instances, on-premises servers, AWS Lambda functions, and Amazon ECS services. This launch helps prevent scaling activities from terminating or replacing instances while CodeDeploy is updating them, which can cause a deployment to fail.\n\n\nYou can choose to suspend any combination of these processes (Terminate, AZRebalance, InstanceRefresh, and ScheduledActions) on a deployment group, or on a single deployment. CodeDeploy suspends the processes you choose before it deploys and resumes them when the deployment succeeds, fails, or is stopped, so you don't need custom scripts to suspend and resume processes during deployments. A setting on the deployment group applies to every deployment in that group, including deployments that your existing pipelines start.\n\n\nYou can configure this feature by using the CodeDeploy console, AWS Command Line Interface (AWS CLI), or AWS SDKs. This feature is available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) , including the AWS GovCloud (US) Regions and the China Regions.\n\n\nTo learn more, see[Suspending Amazon EC2 Auto Scaling processes during deployments](https://docs.aws.amazon.com/codedeploy/latest/userguide/integrations-aws-auto-scaling-suspend-processes.html) in the *AWS CodeDeploy User Guide* , or visit the[AWS CodeDeploy product page](https://aws.amazon.com/codedeploy/) .",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:e76403fd7c0ed8fedd8981ed84d310bf4191c574bc00bda1592130b18def6d63"
+}

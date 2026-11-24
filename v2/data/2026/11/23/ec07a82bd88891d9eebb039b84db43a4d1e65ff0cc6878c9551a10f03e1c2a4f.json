@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ec07a82bd88891d9eebb039b84db43a4d1e65ff0cc6878c9551a10f03e1c2a4f",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/",
+  "title": "AWS Global Accelerator now preserves client IPs for NLBs with TLS listeners",
+  "summary": "Discover more about what's new at AWS with AWS Global Accelerator now preserves client IPs for NLBs with TLS listeners",
+  "body_markdown": "AWS Global Accelerator now preserves the client IP address for traffic sent to Network Load Balancer (NLB) endpoints with TLS listeners. You can terminate TLS at your NLB and still see the original client IP address in your application. This means you can apply security groups, geo-blocking, rate limiting, fraud detection, audit logging, allowlists, and compliance controls based on the real client IP.\n\n\nPreviously, you couldn't add an NLB with a TLS listener to an accelerator that had client IP address preservation enabled. You had to choose between terminating TLS at the NLB and seeing the real client IP address. With this launch, you get both. This helps with workloads that need TLS termination at Layer 4, such as non-HTTP TCP protocols, applications that require static or Elastic IP addresses, and high-throughput traffic where a Layer 7 load balancer isn't a fit.\n\n\nTo enable this feature, add an NLB with a TLS listener as an endpoint to an accelerator with client IP address preservation setting turned on, the same way you add any NLB. No additional configuration is required! Client IP address preservation for NLBs with TLS listeners is available at no additional charge in all AWS commercial Regions, excluding the AWS GovCloud (US) and China Regions. Standard Global Accelerator pricing applies.\n\n\nTo learn more, see[Client IP address preservation](https://docs.aws.amazon.com/global-accelerator/latest/dg/preserve-client-ip-address.html) in the AWS Global Accelerator Developer Guide and[Create a listener for your Network Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/create-listener.html) in the User Guide for Network Load Balancers.",
+  "published_at": "2026-11-23T16:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:ce2b840e395fcdcb2c9aaa2ae7cb344172d3753ab993e0c321f40a13358afe37"
+}

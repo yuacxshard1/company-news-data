@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b9abee1752d1bfa272b154ab0cadd5f666880ee413a29dc4fbcc431bc15d2f81",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/acm-amazon-n2-certificates/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/acm-amazon-n2-certificates/",
+  "title": "AWS Certificate Manager now supports Amazon N2 certificates for mTLS",
+  "summary": "Discover more about what's new at AWS with AWS Certificate Manager now supports Amazon N2 certificates for mTLS",
+  "body_markdown": "[AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) (ACM) now issues Amazon N2 certificates for mutual TLS (mTLS) and other authentication outside web browsers. ACM public certificates no longer include client authentication, in line with WebPKI requirements, so teams that needed client certificates had to define their own trust governance models and apply them to their private PKI. With Amazon N2 certificates, you can authenticate to partners and other organizations, such as a partner's client calling your API, without building and governing your own CA for them to rely on.\n\n\nAmazon N2 certificates come from the Amazon N2 certificate authorities (CAs), which are operated and governed by Amazon Trust Services, the same organization that operates the CAs issuing ACM public WebPKI certificates. Your peers add the[Amazon N2 roots](https://www.amazontrust.com/repository/) to their trust stores to verify your certificates. Certificates are valid for up to 395 days, and ACM renews them automatically: AWS integrated services use each renewed certificate, and you can also export them to your own clients and servers.\n\n\nYou pay for each domain name in an ACM-issued Amazon N2 certificate, including when you use it with AWS integrated services. For details, see[ACM pricing](https://aws.amazon.com/certificate-manager/pricing/) .\n\n\nAmazon N2 certificates are available in all commercial AWS Regions where ACM is available. To learn more, see Amazon N2 certificates in the[AWS Certificate Manager User Guide](https://docs.aws.amazon.com/acm/latest/userguide/acm-amazon-n2-certificates.html) .",
+  "published_at": "2026-11-21T04:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:d54a19eae7ae67d74046c65ab2542f0c6e915d366c8fd55ffb7f7c11c8b29181"
+}

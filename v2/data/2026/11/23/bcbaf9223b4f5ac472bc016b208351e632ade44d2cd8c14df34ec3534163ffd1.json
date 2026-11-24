@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bcbaf9223b4f5ac472bc016b208351e632ade44d2cd8c14df34ec3534163ffd1",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/bitbucket-pricing-2026-every-plan-and-its-cost",
+  "canonical_url": "https://www.activepieces.com/blog/bitbucket-pricing-2026-every-plan-and-its-cost",
+  "title": "Bitbucket Pricing 2026: Every Plan and Its Cost",
+  "summary": "Bitbucket pricing covers three tiers with increasing per-user costs, where the main differences are build minutes and large-file storage allowances.",
+  "body_markdown": "## What Activepieces does about this\n\n\nActivepieces goes after one slice of the bill: pipeline minutes spent on jobs that only send a message. A Bitbucket webhook triggers a flow in Activepieces, and the flow posts to Slack, opens a Jira ticket or sends an email.\n\n\nThe pipeline step that booted a build environment for one line of output can then be deleted, and those minutes go back to the allowance that decides your overage.\n\n\nThe cost of doing this is easy to predict. The pricing page lists unlimited flows on every plan from Free through Ultimate, and a run is 1 credit regardless of how many steps it has. The Free plan includes 1,000 credits a month.\n\n\nA team that splits notifications into one small flow per event pays nothing extra for the flows, only for the runs.\n\n\nThe core is open source under the MIT licence, so you can also run it on a machine you already pay for. That matters if you are weighing Bitbucket's per-seat model against your own hosting.\n\n\nThe notification layer then adds no per-seat or per-minute meter, only the server you already have.\n\n\nIt does not touch the rest of the bill. Seats, Git LFS storage, Marketplace add-ons and the jump from Standard to Premium are all set by Atlassian, and Activepieces changes none of them.\n\n\nUse it after the seat audit and the minute budget above, when you have confirmed that message-only steps are eating a measurable share of your minutes.",
+  "published_at": "2026-11-23T16:59:14+00:00",
+  "first_seen_at": "2026-11-23T20:09:49.474542+00:00",
+  "content_hash": "sha256:8ffa7ad0886ac31de13b1591e7c14bea451eaa32af5836225489d347bd93bf2f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3a2a17e04f00d370a695f63a945d00a712ab078ed911c0bf7cfa026ea4bb652c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/calendly-zendesk-integration-without-code-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/calendly-zendesk-integration-without-code-2026-guide",
+  "title": "Calendly Zendesk Integration Without Code (2026 Guide)",
+  "summary": "Calendly Zendesk integration automates ticket creation from new bookings. Set up this no-code workflow in Activepieces using just one trigger and one…",
+  "body_markdown": "## Frequently asked questions\n\n\nOnce the first trigger and action pass a real test, the questions left are mostly about the edges.\n\n\n### Do I need to write code to connect Zendesk and Calendly?\n\n\nNo. A trigger such as a new Calendly booking and an action such as creating a Zendesk ticket are both picked from menus. You map fields by clicking values from the test data into the form.\n\n\nIf you touch anything code-like, it will be a custom HTTP request, and that's a URL, a method and a JSON body, not a program.\n\n\n### Does the Calendly Zendesk integration work on free plans?\n\n\nIt depends on the two accounts, not on the automation tool. Calendly's webhook-based triggers used to be gated to paid Calendly plans, but webhooks are now available on the Free plan, so a free Calendly account can create the subscription that fires your trigger.\n\n\nCheck the plan first by running the trigger test with a real booking. If it errors, the plan is the cause, and you'll see it before building anything else. Check the current plan limits on each vendor's pricing page.\n\n\n### Can I self-host the workflow instead of using the cloud?\n\n\nYes, if the automation tool you are using offers a self-hosted edition. The workflow itself, one trigger and one action, doesn't change.\n\n\nWhat changes is that Calendly must be able to reach your server to deliver booking events, so a self-hosted instance needs a public HTTPS address. A server on a private network will build the flow fine and then never receive a single booking.\n\n\n### What if the step I need isn't listed for Zendesk or Calendly?\n\n\nUse an HTTP request step against the vendor's API, or a webhook trigger, instead of guessing at a similar-looking built-in step.\n\n\nSay you want to add a tag to an existing ticket and no listed action does it. Open Zendesk's API reference, find the ticket update endpoint, and send that call yourself.\n\n\nThen run the step and read the response. A real response, or a real error message, tells you more than a menu item that only looks right.\n\n\n### How do I stop duplicate Zendesk tickets from repeat bookings?\n\n\nLook up before you create. Calendly reschedules and cancellations can fire more events for the same invitee, so each run should search Zendesk for an existing ticket carrying that booking's unique identifier, for example in a custom field or the ticket's external ID.\n\n\nAdd a branch: if one is found, update it, and if none is found, create one. Test it by rescheduling a booking and confirming the ticket count stays at one.",
+  "published_at": "2026-11-23T12:22:26+00:00",
+  "first_seen_at": "2026-11-23T20:09:49.474542+00:00",
+  "content_hash": "sha256:7221301d11c3609b1949cefc0f352a5e990e1780493c1b67d29181acfc9e47c9"
+}

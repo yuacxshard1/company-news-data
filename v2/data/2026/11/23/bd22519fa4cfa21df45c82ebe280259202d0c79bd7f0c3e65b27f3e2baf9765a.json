@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "bd22519fa4cfa21df45c82ebe280259202d0c79bd7f0c3e65b27f3e2baf9765a",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
+  "title": "AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
+  "summary": "Discover more about what's new at AWS with AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
+  "body_markdown": "Amazon Bedrock AgentCore runtime instances are now available in the AWS GovCloud (US-West) Region. Runtime instances run your agents on Amazon EC2 instances in your own account, while AgentCore handles provisioning, patching, scaling, and lifecycle management.\n\n\nWith runtime instances, teams in AWS GovCloud (US) can choose GPU-accelerated, memory-optimized, or compute-optimized instance types for their agents and run agent sessions of up to 14 days. Agent instances, storage volumes, and session data stay in the AWS GovCloud (US-West) Region, which helps public sector organizations and their partners meet data residency and compliance requirements. Runtime instances work alongside the default serverless, microVM-based AgentCore runtime, so you can pick the right compute for each agent without changing how you deploy or invoke it.\n\n\nYou are charged for the management of the compute provisioned, in addition to your Amazon EC2 costs. To get started, visit[AWS News Blog](https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/) or[AgentCore documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-instances-how-it-works.html) . To learn about pricing, visit[AgentCore pricing](https://aws.amazon.com/bedrock/agentcore/pricing/) .",
+  "published_at": "2026-11-23T17:21:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:c771899d8ca69dfc487cc030b52ebab6cebd36a139ec3f4ff102ef0e15054f92"
+}

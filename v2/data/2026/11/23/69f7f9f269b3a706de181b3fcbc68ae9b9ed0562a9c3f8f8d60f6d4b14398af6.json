@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "69f7f9f269b3a706de181b3fcbc68ae9b9ed0562a9c3f8f8d60f6d4b14398af6",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/replit-missions-agent-swarms-and-pricing-status",
+  "canonical_url": "https://www.activepieces.com/blog/replit-missions-agent-swarms-and-pricing-status",
+  "title": "Replit Missions: Agent Swarms and Pricing Status",
+  "summary": "Replit Missions is Replit's new automation product. You'll learn where the official details are shared and what changes it brings to automations.",
+  "body_markdown": "## Replit Missions is a new release from Replit\n\n\n### Who released Replit Missions and when\n\n\nReplit, the company behind the browser-based coding and app-building platform, released it. The announcement is the post \"Introducing Replit Missions\" at replit.com/blog/introducing-replit-missions, with a product page at replit.com/missions. I read both on 2026-11-23.\n\n\nI found only one third-party write-up, from Mokaair, alongside them, so nearly every claim about the release traces to one author.\n\n\nThat makes the date on Replit's own post the only date available, and it can't be checked against anything else. If you plan around a launch timeline, treat it as the vendor's word.\n\n\n### What Replit says it is\n\n\nHere I use only the maker's framing: Replit presents Missions as a distinct product with its own page, not as a footnote to an existing feature.\n\n\nAn \"agent swarm\" is many AI agents working in parallel on one goal, instead of a single agent working through it step by step. In Replit's wording they plan, build, test and iterate toward the result.\n\n\nA single Mission, as the pages frame it, is one such goal handed to a swarm, with a budget and boundaries you set.\n\n\nI could not find a stated size, duration or unit of work for one Mission, so what counts as \"one\" is still open.\n\n\nBeyond that, I can't report from the pages alone how it behaves under load or what it does when a step fails. Those are the questions to answer by running it.\n\n\nBefore trusting any automation tool, check whether it leaves a record of who changed what.[Activepieces](https://www.activepieces.com/) keeps audit logs across projects, plus run history and a step-by-step trace of what an agent decided, and can stream logs into the tools a security team already watches.\n\n\nIn the example below, a named user creates a flow, updates a connection and then deletes it.\n\n\nWith that kind of record as the yardstick, the next step is to read what Replit's pages claim and mark which statements you can test yourself.",
+  "published_at": "2026-11-23T16:29:26+00:00",
+  "first_seen_at": "2026-11-23T20:09:49.474542+00:00",
+  "content_hash": "sha256:9a28b34f544ccb07c203b26f48da03e8a02c7c8791c488aaa7cdc6a4b5510824"
+}

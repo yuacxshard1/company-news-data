@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7f9b8fc918ed814eafb8ab8dfe231d1a38e66dd20d8e1988dc3966fad59fc966",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-http2-origins/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-http2-origins/",
+  "title": "Amazon CloudFront Announces HTTP/2 Support for Connections to Origins",
+  "summary": "Discover more about what's new at AWS with Amazon CloudFront Announces HTTP/2 Support for Connections to Origins",
+  "body_markdown": "Amazon CloudFront now supports HTTP/2 connections to custom origins and VPC origins. HTTP/2 lets CloudFront send many requests over fewer connections to your origin. This means fewer connections and TLS handshakes for your origin to handle, which improves performance for API and agentic workloads, such as AI agents calling MCP servers or mobile and web apps calling backend APIs.\n\n\nUntil now, CloudFront connected to origins only over HTTP/1.1, which handles one request at a time per connection. When traffic spiked, for example when an AI agent made many tool calls at once, CloudFront had to open more origin connections. Each new connection added latency and load. With HTTP/2, those requests share connections, so your origin does less work and responds faster. HTTP/2 is also supported for WebSocket connections that support extended CONNECT. If your origin doesn't support HTTP/2, CloudFront automatically falls back to HTTP/1.1, so you don't need to change anything on your origin.\n\n\nHTTP/2 to origins is available from all CloudFront edge locations. There is no additional cost for using HTTP/2 to origins. To learn more, visit[Origin HTTP version](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DownloadDistValuesOrigin.html#DownloadDistValuesOriginHttpVersion) in the CloudFront Developer Guide.",
+  "published_at": "2026-11-23T17:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:e88a8b0009a3799a2d6a48627ae26fe8ac308bdf957697e232bc85e8178f98cf"
+}

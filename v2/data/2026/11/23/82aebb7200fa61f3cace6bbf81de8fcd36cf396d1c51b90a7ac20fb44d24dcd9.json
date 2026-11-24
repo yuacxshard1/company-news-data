@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "82aebb7200fa61f3cace6bbf81de8fcd36cf396d1c51b90a7ac20fb44d24dcd9",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-multicloud-automation/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-multicloud-automation/",
+  "title": "AWS Systems Manager Automation now automates operational tasks in Azure and Google Cloud",
+  "summary": "Discover more about what's new at AWS with AWS Systems Manager Automation now automates operational tasks in Azure and Google Cloud",
+  "body_markdown": "AWS Systems Manager Automation now lets you create custom workflows (runbooks) that can automate operational tasks across Microsoft Azure, Google Cloud, and AWS resources. Automation helps you make changes safely at scale, such as remediating misconfigurations or cleaning up idle resources. Runbooks can roll out in controlled batches, pause for approval, and stop if errors pass a threshold. Instead of maintaining separate tools and credentials for each cloud, teams can now author and execute runbooks from a single place.\n\n\nSix new runbook actions call Azure and Google Cloud APIs, check a resource's state, and wait for operations to finish without custom code. You can target Azure resources by subscription, region, resource group, resource type, and tag. Google Cloud resources can be targeted by project, zone, asset type, and label. For more complex logic, aws:executeScript now includes Azure and Google Cloud Python SDKs and gets short-lived credentials from your Systems Manager Cloud Connector, so you don't store secrets in runbooks. For example, you can stop tagged development virtual machines outside business hours or fix storage buckets that don't meet your security policy. To get started, use the AWS-provided runbooks that install the SSM Agent or the Amazon Inspector agent on your Azure or Google Cloud virtual machines, or create your own custom workflow.\n\n\nThis capability is available in all AWS Regions where you can create a Systems Manager Cloud Connector. To learn more, see[Run automations on multicloud resources](https://docs.aws.amazon.com/systems-manager/latest/userguide/running-automations-cloud-connector.html) in the AWS Systems Manager User Guide, or visit the[AWS Systems Manager product page](https://aws.amazon.com/systems-manager/) .",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:8da4e803dfe15b438ecff31825f7563ae318f3078ef48f2bbdb4d2947cd171f1"
+}

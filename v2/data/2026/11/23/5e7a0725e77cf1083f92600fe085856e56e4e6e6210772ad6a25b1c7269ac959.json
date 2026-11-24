@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5e7a0725e77cf1083f92600fe085856e56e4e6e6210772ad6a25b1c7269ac959",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-metal-size/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-metal-size/",
+  "title": "Announcing metal size for Amazon EC2 G7 instances",
+  "summary": "Discover more about what's new at AWS with Announcing metal size for Amazon EC2 G7 instances",
+  "body_markdown": "Today, AWS announces the general availability of the metal size for Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphics performance compared to G6.\n\n\nCustomers can use the metal size of G7 instances to run physical AI simulations, deploy AI agent sandboxes, and accelerate graphics workloads that need direct access to bare metal infrastructure. G7 metal instances enable customers to run specialized workloads that require a custom virtualization stack, hypervisor-level GPU drivers, or licensing-restricted applications. The metal size of G7 instances feature 8 NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs with 32 GB of memory per GPU and custom Intel Xeon 6 processors. They support 192 virtual CPUs (vCPUs), 768 GiB of system memory, and 700 Gbps of Elastic Fabric Adapter (EFA) networking bandwidth.\n\n\nThe new metal size is available in the AWS US East (N. Virginia) Region. You can purchase G7 metal instances as On-Demand Instances, Spot Instances, or as part of Savings Plans.\n\n\nTo get started, use the[AWS Management Console](https://console.aws.amazon.com/) ,[AWS Command Line Interface](https://aws.amazon.com/cli/) (AWS CLI), or AWS SDKs. To learn more, visit the[G7 instance page](https://aws.amazon.com/ec2/instance-types/g7/) .",
+  "published_at": "2026-11-23T16:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:63b2134bfc38fbe9cc81c0a84f75567493e0bae54a3439dd0dcb9ff948f60b12"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "92cb9c06a8cf2e92e680af5f9d178973ce509887e3b693f8fc9d63d2cac664e8",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-hyperpod/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-hyperpod/",
+  "title": "Amazon SageMaker Studio now supports training job submission and model deployment for SageMaker HyperPod clusters",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker Studio now supports training job submission and model deployment for SageMaker HyperPod clusters",
+  "body_markdown": "Amazon SageMaker Studio now provides a native developer experience for Amazon SageMaker HyperPod, enabling data scientists to submit distributed training jobs, deploy models, and monitor workloads through a visual interface on HyperPod clusters orchestrated with Amazon Elastic Kubernetes Service (Amazon EKS). SageMaker HyperPod is a purpose-built infrastructure for distributed training and fine-tuning of foundation models at scale, designed to reduce infrastructure management overhead. Submitting training jobs and deploying custom models on HyperPod at scale requires familiarity with kubectl and authoring Kubernetes manifests, creating operational burden for data scientists who prefer to work in an interactive development environment.\n\n\nWith this launch, data scientists can now submit distributed PyTorch and Ray training jobs and deploy models from Amazon SageMaker JumpStart, Amazon S3, or Amazon FSx, through single-page forms with a live YAML preview in SageMaker Studio. Compute configurations in the forms provide reusable resource presets that data scientists select when submitting training jobs or deploying models, eliminating manual compute entry. Metrics and logs are embedded directly in the detail pages, powered by HyperPod Observability and Amazon Managed Service for Prometheus, surfacing Kubernetes conditions and events, CloudWatch logs, and embedded metrics so data scientists can diagnose workloads without leaving their environment. For teams managing multiple workloads and using HyperPod task governance, Studio provides a unified queue view where users can see all pending tasks across training jobs and inference services, and adjust a task's priority class directly to optimize cluster utilization.\n\n\nThese updates are available for HyperPod clusters orchestrated by Amazon EKS, in all AWS Regions where Amazon SageMaker HyperPod and Amazon SageMaker Studio are currently supported.\n\n\nTo learn more, visit the[Amazon SageMaker HyperPod in Studio documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-studio.html) .",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:351c750e0304a70ced503c855d86d582908cca4d1b4a098b72dbf240219d8b95"
+}

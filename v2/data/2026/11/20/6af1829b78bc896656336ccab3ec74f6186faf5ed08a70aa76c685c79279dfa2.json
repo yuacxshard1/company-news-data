@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6af1829b78bc896656336ccab3ec74f6186faf5ed08a70aa76c685c79279dfa2",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-compute-optimizer/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-compute-optimizer/",
+  "title": "AWS Compute Optimizer automation rules now support organizational units",
+  "summary": "Discover more about what's new at AWS with AWS Compute Optimizer automation rules now support organizational units",
+  "body_markdown": "AWS Compute Optimizer automation rules can now target the organizational units (OUs) you manage with AWS Organizations, making it easier for large organizations to scale optimization across their accounts. Previously, management accounts could target up to 50 member accounts per rule. Now, a single rule can cover every account in an OU, including accounts added later. You also have the flexibility to exclude specific child OUs or member accounts as needed.\n\n\nAutomation rules help you save cost and improve performance by applying recommended actions on a daily, weekly, or monthly schedule when they match your criteria. These actions include cleaning up unattached Amazon Elastic Block Store (Amazon EBS) volumes and upgrading volumes to the latest-generation volume types. For example, from your management account, you can create an automation rule to clean up unattached volumes across your entire organization, while allowing resource owners to tag and exclude volumes they want to keep.\n\n\nTo get started, turn on Automation for your selected OUs. Then, create rules that target them. Support for OUs is available in all AWS Regions where Compute Optimizer automation rules are available. To learn more, see[Enabling Automation for your organization](https://docs.aws.amazon.com/compute-optimizer/latest/ug/automation-org.html) in the *AWS Compute Optimizer User Guide* , or visit the[AWS Compute Optimizer](https://aws.amazon.com/compute-optimizer/) product page.",
+  "published_at": "2026-11-20T22:05:00+00:00",
+  "first_seen_at": "2026-11-23T20:12:00.677664+00:00",
+  "content_hash": "sha256:42aae232aaf57ee45ce230d7fd8a362dbd64a2f1f5d68fda6b1f782ba51a1f52"
+}
