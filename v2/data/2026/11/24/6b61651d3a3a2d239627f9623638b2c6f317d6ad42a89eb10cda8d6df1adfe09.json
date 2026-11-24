@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6b61651d3a3a2d239627f9623638b2c6f317d6ad42a89eb10cda8d6df1adfe09",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/litellm-self-hosted-setup-costs-and-risks-2026",
+  "canonical_url": "https://www.activepieces.com/blog/litellm-self-hosted-setup-costs-and-risks-2026",
+  "title": "LiteLLM Self Hosted: Setup, Costs and Risks (2026)",
+  "summary": "LiteLLM self hosted means running the proxy yourself. Setup requirements and real costs show whether self-hosting fits your situation and budget.",
+  "body_markdown": "## Stage-by-stage setup of a working LiteLLM proxy\n\n\nYou can build a working proxy in four stages, and each one leaves something you can test, so don't start the next until the current one answers a request.\n\n\n### Stage 1: Run the proxy and get one response\n\n\nWrite a` config.yaml` with a single entry under` model_list` . Give it a` model_name` your clients will use, and under` litellm_params` set` model: anthropic/claude-sonnet-5-5` and` api_key: os.environ/ANTHROPIC_API_KEY` .\n\n\n```text\ndocker run -v $(pwd)/config.yaml:/app/config.yaml \\\n-e ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY \\\n-p 4000:4000 \\\nghcr.io/berriai/litellm:main-stable \\\n--config /app/config.yaml\n```\n\n\nSend a chat completion to` /chat/completions` on that port with curl. A reply means routing works. Nothing is persisted yet, so this proves only the plumbing.\n\n\n### Stage 2: Add Postgres and lock the master key\n\n\nWithout a database there are no virtual keys, no spend tracking and no Admin UI, so this stage is where the proxy becomes a service.\n\n\nStart a Postgres container with its own volume, then pass` DATABASE_URL` to the proxy. Add` LITELLM_MASTER_KEY` as well, with a value beginning` sk-` .\n\n\nTreat the master key as an administrator credential. Use it to create other keys and sign in to the UI, and never hand it to an application.\n\n\nRestart and confirm the proxy applies its schema on first boot. Back up that volume now, because every key you issue later lives in it.\n\n\n### Stage 3: Issue a virtual key with a budget\n\n\nOpen the Admin UI at` /ui` and sign in with the master key. Create a key, attach it to the model name from stage one, and set a maximum budget. You can also call` /key/generate` with` max_budget` in the request body.\n\n\nTest the cap by using the key from a throwaway script. Once the budget is spent, the proxy should reject requests rather than let the provider bill continue. That behaviour's what you're paying operational effort to get, so check it rather than assume it.\n\n\nLast comes the fallback model. Add a second` model_list` entry that points at a different vendor, for example` gemini/gemini-2.5-flash` . Then declare the pairing under` router_settings` :\n\n\n```text\nrouter_settings:\nfallbacks: [{\"primary-name\": [\"backup-name\"]}]\n```\n\n\nRestart, then break the primary on purpose by supplying a bad provider key. The request should come back from the backup. Until you've seen that failover happen, you've configured a fallback but not verified one.",
+  "published_at": "2026-11-24T00:45:35+00:00",
+  "first_seen_at": "2026-11-24T04:57:21.190673+00:00",
+  "content_hash": "sha256:02e64a498fa8ac806f330442807c759a5f2319504021aa6b8c2361d02d4456ec"
+}

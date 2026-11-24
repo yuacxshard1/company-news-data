@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "25dc43b67bf4be29b63dd3241d2a612938e81dad877408eeea63317379bc74b0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/is-n8n-automation-free-what-self-hosting-costs",
+  "canonical_url": "https://www.activepieces.com/blog/is-n8n-automation-free-what-self-hosting-costs",
+  "title": "Is n8n Automation Free? What Self-Hosting Costs",
+  "summary": "n8n automation connects apps through visual workflows on your server or cloud. Find pricing details and free version information.",
+  "body_markdown": "## Frequently asked questions\n\n\nAnswers reflect the n8n documentation and pricing pages as read on 24 November 2026. Check them again before you sign anything.\n\n\n### Cost and licence\n\n\nIs n8n really free? The self-hosted Community Edition costs nothing to download and run, but you pay for the server, backups, upgrades and whoever is on call. Cloud is a paid, execution-based plan. Treat \"free\" as the licence price only.\n\n\nIs n8n open source? Not in the strict sense. n8n publishes its source under a fair-code licence, the Sustainable Use License. It lets you read, modify and self-host it for internal use but restricts selling it as a service.\n\n\nIf your policy says \"OSI-approved licences only\", this fails the check, so have legal read the licence text first.\n\n\n### Replacing other tools\n\n\nCan n8n replace Zapier or Make? For most workflows, yes, provided someone on your team will own it.\n\n\nThe constraint is operational, not functional: n8n gives you more control over branching, data handling and hosting, and in exchange you take on maintenance that a fully managed tool does for you.\n\n\nMigrate one low-risk workflow first and compare the real effort.\n\n\n### Skills and integrations\n\n\nDo I need to code to use n8n? No, but you'll be more effective if you can read code. The visual editor covers common work, and the Code node, which accepts JavaScript and Python, handles what it doesn't.\n\n\nExpect to meet expressions and JSON early, and plan for at least one person who is comfortable debugging them.\n\n\nHow many integrations does n8n have? It ships a large library of built-in nodes for common services, and the HTTP Request node reaches any service that exposes an API.\n\n\nThe library's size matters less than whether your specific systems are covered, so check the node list for each tool you depend on and test authentication before committing.",
+  "published_at": "2026-11-24T00:44:57+00:00",
+  "first_seen_at": "2026-11-24T04:57:21.190673+00:00",
+  "content_hash": "sha256:ed5cef02704fbf583f8680eb959a09d7ff54b5e248d1738bf6799323fcedd6d4"
+}

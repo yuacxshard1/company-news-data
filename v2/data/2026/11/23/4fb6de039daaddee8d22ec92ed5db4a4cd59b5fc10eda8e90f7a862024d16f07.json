@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4fb6de039daaddee8d22ec92ed5db4a4cd59b5fc10eda8e90f7a862024d16f07",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection/",
+  "title": "AWS WAF announces automated discovery and protection for LLM, MCP, and A2A endpoints using Amazon Bedrock Guardrails",
+  "summary": "Discover more about what's new at AWS with AWS WAF announces automated discovery and protection for LLM, MCP, and A2A endpoints using Amazon Bedrock Guardrails",
+  "body_markdown": "Automated AI endpoint discovery and protection are now generally available, enabling you to discover language model (LLM), Model Context Protocol (MCP), and Agent2Agent (A2A) endpoints behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS Organization and protect them using AWS WAF.\n\n\nDiscovery is available through the new API Gateway API Portal, which recognizes the AI endpoints among the APIs it discovers automatically from traffic logs and service configuration records, with no agents to deploy or logs to forward. An undocumented, public-facing MCP server appears as a shadow API. For unprotected AI endpoints, customers can enable protection using WAF.\n\n\nProtection is available through the new AWS WAF AI Security managed rule group, which protects your AI endpoints. AWS WAF implements protocol recognition and compliance checks to block malformed MCP and A2A messages. When you enable content inspection, the rule group calls Amazon Bedrock Guardrails InvokeGuardrailsCheck API to detect prompt injection, jailbreak attempts, harmful content in requests, and sensitive information in responses. You can use AI Security alongside other AWS Managed Rules or your own custom rules to protect your applications. Additional fees apply, and Amazon Bedrock charges separately for content inspection calls.\n\n\nTogether, API Portal and AI Security provide you a complete solution from discovery of all AI endpoints in your AWS environment to protecting them, without having to write any custom rules.\n\n\nAPI Portal is available in 32 AWS Regions. See the[Amazon API Gateway FAQ](https://aws.amazon.com/api-gateway/faqs/) for the list. AI Security is available in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (London), Europe (Stockholm), Asia Pacific (Tokyo), and Asia Pacific (Sydney).\n\n\nTo get started, see the following resources:\n\n\n[AWS WAF product page](https://aws.amazon.com/waf/features/ai-security/)\n\n\n[AWS WAF AI Security in the AWS WAF Developer Guide](https://docs.aws.amazon.com/waf/latest/developerguide/waf-ai-security.html)\n\n\n[API Portal Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/apiportal.html)\n\n\n[Introducing API and AI security on AWS, from discovery to protection blog post](https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/)",
+  "published_at": "2026-11-23T18:47:00+00:00",
+  "first_seen_at": "2026-11-24T04:59:05.105754+00:00",
+  "content_hash": "sha256:5167ff4c7175dd5561c01f9749eaa3c10dd06f0f7a51dd3f938b69f6a9468f28"
+}

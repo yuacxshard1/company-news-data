@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8d5b88a904319cd9314a45879ffcb2f9948bec38134ef231047ed3ffed95f5ef",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+  "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+  "body_markdown": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these features for you, and you keep lifecycle scripts and custom AMIs for your organization's own software.\n\n\nFor each extension, you declare a configuration. HyperPod validates it and applies it to every node, including nodes you add later. It then reports the extension's status and the health of each node. The observability extension collects node, GPU, Elastic Fabric Adapter (EFA), Slurm job, and Slurm cluster metrics. It sends them to Amazon CloudWatch or Amazon Managed Service for Prometheus, and you can add Amazon Managed Grafana dashboards. The user management extension creates users and groups with the same IDs on every node. It also controls who can sign in with SSH and use sudo on each node type, with local users, Active Directory, or both.\n\n\nCluster extensions are available at no additional charge in all AWS Regions where Amazon SageMaker HyperPod is available. You pay only for the AWS resources you use. To learn more, see[Cluster extensions](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-slurm-extensions.html) in the Amazon SageMaker AI Developer Guide, read the[launch blog](https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/) , or visit the[Amazon SageMaker HyperPod product page](https://aws.amazon.com/sagemaker/ai/hyperpod/) .",
+  "published_at": "2026-11-23T20:00:00+00:00",
+  "first_seen_at": "2026-11-24T04:59:05.105754+00:00",
+  "content_hash": "sha256:0936eec9d2cf1dafeeeb2b193d0856cd8786a6cf3bff4632ec1d74514a6218de"
+}

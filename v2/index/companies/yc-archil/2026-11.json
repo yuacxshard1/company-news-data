@@ -33,6 +33,16 @@
     {
       "company_key": "yc-archil",
       "company_name": "Archil",
+      "doc_id": "10d8b193cb06842db0ac233b59ee05499f91cee2aca2254623868bd3b5e68101",
+      "first_seen_at": "2026-11-24T08:47:44.397324+00:00",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "In April 2026, AWS announced the release of S3 Files, a way to interact with S3 as if it were a file system. AWS S3 which is an object storage solution before S3 Files could only be interacted with…",
+      "title": "What is S3 Files?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
       "doc_id": "1eb478b57a26742aba36e552a92eadaa997e506264d0be7bc4ba9a597d010ca4",
       "first_seen_at": "2026-11-05T04:54:37.631583+00:00",
       "published_at": "2026-11-05T00:00:00+00:00",
@@ -123,6 +133,26 @@
     {
       "company_key": "yc-archil",
       "company_name": "Archil",
+      "doc_id": "65d6d87477e2f89ef1debb5e446ecc6e650f82cd74d877cd1271391db233e83f",
+      "first_seen_at": "2026-11-24T08:47:44.397324+00:00",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "The naive setup for running multiple agents is to point them all at the same working directory. It feels efficient. But in reality, it doesn't tend to work out. Here's what usually happens. Two…",
+      "title": "How to run agents in parallel with filesystem branches"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "665122dbf2b8c2bd55890717c3a6e555c3eb7226264d2005587b0b254d793d16",
+      "first_seen_at": "2026-11-24T08:47:44.397324+00:00",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Agents like to interact with filesystems. Models trained on decades of data expect commands like open(), read(), and grep to just work. The industry has caught on and is heading in this direction.",
+      "title": "Mesa vs Archil: which filesystem is best for your agents?"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
       "doc_id": "6cddc516060743d40da80983b865791b6514ef49dbb57a82a1a9c3c41822bfb7",
       "first_seen_at": "2026-11-03T22:01:49.756726+00:00",
       "published_at": "2026-11-03T00:00:00+00:00",
@@ -159,6 +189,16 @@
       "source_kind": "html",
       "summary": "What survives an AI agent sandbox restart, and how durable disks, microVM isolation, egress rules and fast branching keep an agent’s work across sessions.",
       "title": "Persistent storage for AI agent sandboxes that survives restarts"
+    },
+    {
+      "company_key": "yc-archil",
+      "company_name": "Archil",
+      "doc_id": "b642965f2554d57cd5ef6fbbefb5dfe051e2f3a5193dcfae1332fe52e9afd2c2",
+      "first_seen_at": "2026-11-24T08:47:44.397324+00:00",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "An unglamorous part of building AI Agents in 2026 is that a lot of the models are essentially interchangeable. In most cases, swapping GPT for Claude for Gemini doesn’t produce a huge difference in…",
+      "title": "How do AI Agents connect to massive data sets?"
     },
     {
       "company_key": "yc-archil",

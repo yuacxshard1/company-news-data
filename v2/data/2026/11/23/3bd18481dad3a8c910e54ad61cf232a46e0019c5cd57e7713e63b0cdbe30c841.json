@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "3bd18481dad3a8c910e54ad61cf232a46e0019c5cd57e7713e63b0cdbe30c841",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/intercom-api-guide-endpoints-and-rate-limits-2026",
+  "canonical_url": "https://www.activepieces.com/blog/intercom-api-guide-endpoints-and-rate-limits-2026",
+  "title": "Intercom API Guide: Endpoints and Rate Limits (2026)",
+  "summary": "Intercom API uses tokens you generate in Developer Hub. You can then set up authentication and make your first REST request to retrieve data.",
+  "body_markdown": "## Stage 3: Handle rate limits and quotas in production\n\n\nBecause Intercom throttles by app and by workspace, a production integration has to read the rate-limit headers, back off before it's rejected, and replace polling with webhooks.\n\n\n### What the docs say the limits are\n\n\n**10,000 calls per minute per app** and 25,000 per workspace are the documented ceilings, shown in the chart below, with enforcement in 10-second windows.\n\n\nA burst can be rejected even when your minute total looks safe, because an even spread leaves only about 1,666 calls per app in each window.\n\n\nWhen several apps share one workspace, they also share the 25,000 ceiling, so one noisy integration can starve the others. Intercom publishes no per-plan tiers that I could confirm, so check the developer docs before sizing.\n\n\n### Read the rate-limit headers and back off\n\n\nIntercom returns rate-limit headers (` X-RateLimit-Limit` ,` X-RateLimit-Remaining` ,` X-RateLimit-Reset` ) on responses. Read them on every call rather than only after a 429, and pause when remaining calls run low.\n\n\nWhen a 429 does arrive, wait until the reset time, then retry with exponential backoff plus random jitter. Without jitter, every worker that was rejected retries in the same instant and trips the next window together.\n\n\n### Use webhooks and cursor pagination instead of polling\n\n\nBy default, pages are small.[List contacts returns 10 results per page](https://developers.intercom.com/docs/references/rest-api/api.intercom.io/contacts/listcontacts) , so reading 10,000 contacts takes 1,000 requests. List conversations returns 20 per page, which means 5,000 conversations still cost 250 calls.\n\n\nIntercom[Developers](https://developers.intercom.com/docs/references/rest-api/api.intercom.io/contacts/listcontacts) ' documentation shows search contacts returns 50 per page, so it's the cheapest of the three ways to pull a filtered set. Each of those calls draws on the same per-window budget as your writes.\n\n\nUse cursor pagination, following the cursor the response returns instead of calculating offsets, and request larger pages where the endpoint allows. For change detection, subscribe to webhooks. A poll that finds nothing still spends a call, while a webhook spends none until something changes.",
+  "published_at": "2026-11-23T22:16:21+00:00",
+  "first_seen_at": "2026-11-24T04:57:21.190673+00:00",
+  "content_hash": "sha256:138fd95ace6be71b37e8d3f89317faecae9f7bbf039b4d0e40512ac936614805"
+}

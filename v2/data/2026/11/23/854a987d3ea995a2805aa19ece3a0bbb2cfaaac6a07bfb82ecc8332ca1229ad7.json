@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "854a987d3ea995a2805aa19ece3a0bbb2cfaaac6a07bfb82ecc8332ca1229ad7",
+  "company_key": "yc-middesk",
+  "company_name": "Middesk",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.middesk.com/blog/how-fraudsters-create-fake-businesses-for-bank-accounts",
+  "canonical_url": "https://www.middesk.com/blog/how-fraudsters-create-fake-businesses-for-bank-accounts",
+  "title": "How fraudsters create fake businesses to open bank accounts",
+  "summary": "Learn how fraudsters construct synthetic business entities using state charters, tax IDs, and commercial mail drops to bypass automated bank onboarding.",
+  "body_markdown": "Business bank accounts opened under synthetic identities give fraud rings payment channels for moving stolen funds. Fraud rings target business accounts because commercial payment channels offer higher transfer limits, larger transaction velocity, and routine third-party disbursements that would trigger immediate scrutiny on personal consumer accounts.\n\n\nOnce an account is approved, operators route funds diverted through business email compromise (BEC), unauthorized invoice redirects, or merchant card schemes through the depository facility. Proceeds are rapidly disbursed through domestic wire transfers, international wires, or digital asset conversions, exposing financial institutions to chargeback liabilities, indemnification claims, and uncollectible negative balances once the diversion is uncovered.\n\n\nMitigating synthetic onboarding requires replacing disconnected data lookups with multi-source cross-verification. Confirming an active charter or a structurally valid tax identifier does not confirm authentic commercial activity or signer authorization. Depository institutions can query primary state corporate registries to inspect organizational standing, formation dates, and recent governance amendment histories.\n\n\nEligible payers and their authorized agents can use the IRS Taxpayer Identification Number (TIN) Matching Program to check payee names and TINs for information reporting, though TIN matching only confirms the legal name-to-number pairing rather than the applicant's authority to transact. In addition, checking addresses against USPS[Delivery Point Validation](https://postalpro.usps.com/address-quality/dpv) (DPV) identifies commercial mail drops and private mailboxes. DPV confirms postal deliverability and mail-drop classifications rather than physical operational activity. Detecting complex synthetic profiles requires evaluating these technical signals together during onboarding.",
+  "published_at": "2026-11-23T21:29:48.260+00:00",
+  "first_seen_at": "2026-11-24T05:56:44.158466+00:00",
+  "content_hash": "sha256:43e3e75c115917116bc29f019bd329331f7f7e60d51a23786761b56583dd69db"
+}

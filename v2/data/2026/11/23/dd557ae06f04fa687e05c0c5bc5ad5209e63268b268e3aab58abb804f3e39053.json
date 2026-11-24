@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "dd557ae06f04fa687e05c0c5bc5ad5209e63268b268e3aab58abb804f3e39053",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-introduces-simplified-pricing/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-introduces-simplified-pricing/",
+  "title": "AWS WAF introduces simplified pricing",
+  "summary": "Discover more about what's new at AWS with AWS WAF introduces simplified pricing",
+  "body_markdown": "AWS WAF now offers simplified pricing that follows what you protect instead of how you configure it. Previously, you paid separate charges for each web ACL, rule, rule group subscription, and capacity tier, making every security decision a billing calculation. Now, your bill follows three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply. This makes the cost-benefit trade-off easy to understand, and adding or changing rules no longer changes your rate.\n\n\nThe new model makes protection costs predictable before you deploy. Each web ACL now includes up to 2,500 WCU at no extra charge, up from 1,500, and you can add rules such as Bot Control common protections or the Anti-DDoS rule group without additional fees. You pay a resource fee for each protected resource, a base request fee for every request AWS WAF inspects, and a premium request fee only for traffic evaluated by advanced protections like Bot Control targeted protections, Fraud Control, API Security, and AI Security.\n\n\nAWS WAF's new pricing is available today in all AWS commercial Regions, including Cape Town, Hong Kong, Hyderabad, Jakarta, Malaysia, Melbourne, Mumbai, New Zealand, Osaka, Seoul, Singapore, Sydney, Taipei, Thailand, Tokyo, Calgary, Frankfurt, Ireland, London, Milan, Paris, Spain, Stockholm, Zurich, Tel Aviv, Sao Paulo, N. Virginia, Ohio, N. California, Oregon, as well as in AWS GovCloud, China Regions, and AWS Isolated Regions.\n\n\nTo learn more, visit the[AWS WAF pricing page](https://aws.amazon.com/waf/pricing/) and review the[AWS WAF Developer Guide](https://docs.aws.amazon.com/waf/) as well as the blog post[AWS WAF pricing now follows what you protect, not how you configure it](https://aws.amazon.com/blogs/security/introducing-aws-waf-simplified-pricing/) .",
+  "published_at": "2026-11-23T18:51:00+00:00",
+  "first_seen_at": "2026-11-24T04:59:05.105754+00:00",
+  "content_hash": "sha256:471d770668b71630832fb8cc7755655bbdde0232d7b1206ac17d6233eb133e0f"
+}

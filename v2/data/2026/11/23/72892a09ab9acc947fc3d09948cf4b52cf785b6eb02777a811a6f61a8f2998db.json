@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "72892a09ab9acc947fc3d09948cf4b52cf785b6eb02777a811a6f61a8f2998db",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/api-security-with-waf/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/api-security-with-waf/",
+  "title": "API security with WAF",
+  "summary": "Discover more about what's new at AWS with API security with WAF",
+  "body_markdown": "Automated API discovery and protection are now generally available, enabling you to discover every API behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS Organization and protect them using AWS WAF.\n\n\nDiscovery is available through the new API Gateway API Portal, which identifies the APIs automatically from traffic logs and service configuration records, with no agents to deploy or logs to forward. The API Portal classifies the APIs it finds, identifies zombie and shadow APIs, evaluates each API's security posture, and reports findings, including the ones that are missing WAF protections. For unprotected APIs, customers can enable protection using WAF.\n\n\nProtection is available through the new AWS WAF API Security managed rule group, which protects your APIs against the most exploited API attack categories: Broken Object Level Authorization (BOLA), where the attackers change record IDs in requests to read other users' data, Broken Authentication and Credential Stuffing, where the attackers forge tokens or try stolen passwords at scale, and API Reconnaissance and Enumeration, where the attackers map an API by guessing hidden routes and probing for exposed docs. The events detected by WAF are consolidated into the API Portal findings to provide a complete security picture of your APIs. You can use API Security alongside other AWS Managed Rules or your own custom rules to protect your applications.\n\n\nTogether, API Portal and API Security provide you a complete solution from discovery of all APIs in your AWS environment to protecting them, without having to write any custom rules.\n\n\nAPI Portal is available in 32 AWS Regions. See the[Amazon API Gateway FAQ](https://aws.amazon.com/api-gateway/faqs/) for the list. API Security is available in all AWS Regions where AWS WAF is available, except the AWS GovCloud (US) Regions, the China Regions, and the AWS European Sovereign Cloud.\n\n\nTo get started, see the following resources:\n\n\n[AWS WAF product page](https://aws.amazon.com/waf/)\n\n\n[AWS WAF API Security in the AWS WAF Developer Guide](https://docs.aws.amazon.com/waf/latest/developerguide/waf-api-security.html)\n\n\n[API Portal Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/apiportal.html)\n\n\n[Introducing API and AI security on AWS, from discovery to protection blog post](https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/)",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-24T04:59:05.105754+00:00",
+  "content_hash": "sha256:1fee398000d01c35ac049641728061a98e83180fd942e0dcd0f575ee2aa234e5"
+}

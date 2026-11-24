@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e3bca752f5a969517979ff6f6732843213d11ef45d14503e18efe370c620d58f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/clickhouse-pricing-plans-compute-and-storage-2026",
+  "canonical_url": "https://www.activepieces.com/blog/clickhouse-pricing-plans-compute-and-storage-2026",
+  "title": "ClickHouse Pricing: Plans, Compute and Storage (2026)",
+  "summary": "ClickHouse pricing uses tiered plans with metered charges for compute, storage, and data transfer. Your plan determines what features you can access.",
+  "body_markdown": "## What the incident cost on each ClickHouse plan\n\n\nOn every plan, the same runaway night burns the same unit-hours, and only the rate changes. Enterprise bills each hour at $0.3903 against Basic's $0.2181, **about 79% more for an identical mistake** , so operational errors on Enterprise carry substantially greater cost.\n\n\n> The lesson is that the culprit was a setting, not a price.\n\n\nThe setting decided how many hours burned, and the plan only multiplies them.\n\n\n### Monthly cost of the workload by plan\n\n\nOn each plan the formula is the same: the monthly minimum, plus compute unit-hours times the plan's rate, plus terabytes stored times $25.30, which means **storage pricing is uniform across all plans** .\n\n\nAccording to[Hypequery](https://hypequery.com/clickhouse-cloud-pricing) , ClickHouse meters compute at $0.2181 on Basic, $0.2985 on Scale and $0.3903 on Enterprise. Scale therefore costs about 37% more per unit-hour than Basic, so a workload that runs steadily all month pays that premium on every hour.\n\n\nWhichever plan you pick, storage is $25.30 per terabyte, so it never separates the plans. It only grows with your data.\n\n\nSwap in your own unit-hours and terabytes and the table recalculates by hand in a minute.\n\n\nThe baseline is settled. The incident is what separates the plans.\n\n\n### The cost of the one bad night\n\n\nWhen a night runs uncapped, it costs extra unit-hours times the plan rate, so the gap between plans widens in proportion to how far scaling ran.\n\n\nOn Basic the night is cheapest per hour, but nothing about Basic stops it from running as long as the others.\n\n\nIf your cluster scaled to its ceiling and stayed there until morning, you pay for every hour at the ceiling, whichever plan you chose. A cheaper rate narrows the bill, but it doesn't shorten the night.\n\n\n### ClickHouse Cloud maximum scaling limits and incident cost\n\n\nWith a maximum scaling limit in place, the extra unit-hours stop at the ceiling you chose. The incident cost becomes a figure you can calculate before the incident, not one you discover at month-end.\n\n\nThat's why the last column of the table matters more than the rate column.\n\n\nMoving from Scale to Enterprise raises every hour by the rate difference, while a ceiling cuts the number of hours the bad night can reach. **Set the cap first, then decide whether the plan's features justify its rate.**",
+  "published_at": "2026-11-23T21:05:05+00:00",
+  "first_seen_at": "2026-11-24T04:57:21.190673+00:00",
+  "content_hash": "sha256:0b2fc8a2ec8d7af7726be7cfe61bb73ac03dd401e9d760a7e4529a5fe09c55a0"
+}

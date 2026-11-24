@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2a32ba20a9b2227c025514535d767b5866c60214dce2a9a97b801ffd74b943fc",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://supabase.com/blog/introducing-supabase-knowledge-base",
+  "canonical_url": "https://supabase.com/blog/introducing-supabase-knowledge-base",
+  "title": "Introducing Supabase Knowledge Base",
+  "summary": "Migration guides, troubleshooting, FAQs, tutorials, and community guides for applied Supabase answers, all in one place your coding agent can read.",
+  "body_markdown": "Our docs explain how Supabase works: the APIs, the config, and the concepts. They're the source of truth for the product, so they need to stay focused and stable. But a lot of what you ask us about is related to *applied knowledge* . You want to know how Supabase works for your use case or your particular setup. Those answers used to be spread across different web properties and were sometimes hard to find, or simply didn't exist. So we gave all these applied answers their own dedicated space:[supabase.com/kb](https://supabase.com/kb) .\n\n\n## What you'll find\n\n\nSupabase Knowledge Base (let's call it \"/kb\" for short) is for you when you're comparing Supabase with other tools or moving an app over from another stack. It will also help you while you're already building and get stuck on something the docs don't cover.\n\n\n- **Migration guides:** move to Supabase from Amazon RDS, Auth0, Firebase, Heroku, MSSQL, MySQL, Neon, Postgres, Render, Vercel Postgres, and more.\n- **Troubleshooting:** hundreds of articles about specific errors and problems, often written by the experts on our Support team.\n- **FAQs:** short answers to common questions, like whether you can use Firebase Auth with Supabase. (Yes, you can.)\n- **Tutorials:** guides for a specific build, like using Better Auth with Supabase declarative schemas.\n- **Community guides:** Supabase guides that any community member can publish. We know you know Supabase, and we want to make it easier to share that knowledge across the ecosystem.\n\n\n## Made for agents, too\n\n\nIf you work with a coding agent, it can read /kb as well as you can. This matters because more and more of you ask an AI assistant first, and more coding agents pick tools on their own.\n\n\nEvery page has a Markdown version that agents can request. /kb is wired into places like our[llms.txt](https://supabase.com/llms.txt) and sitemap. And the knowledge base is open to search engines and AI crawlers, including the ones that train large language models.\n\n\nFor completeness' sake, /kb and our docs also link to each other for those important product facts we mentioned earlier.\n\n\n## Open to community contributions\n\n\nWe left one of the best bits for last: /kb is open source, just like our docs.\n\n\n- Spotted a gap? Tell us, or better yet, open a pull request.\n- Wrote a good Supabase guide of your own? Let's link to it.\n\n\nAll the source lives in[supabase/supabase](https://github.com/supabase/supabase/tree/master/apps/kb) , and the[README](https://github.com/supabase/supabase/blob/master/apps/kb/README.md) has more details.\n\n\n## Start here\n\n\n[Supabase Knowledge Base](https://supabase.com/kb)",
+  "published_at": "2026-11-23T07:00:00+00:00",
+  "first_seen_at": "2026-11-24T06:21:26.519779+00:00",
+  "content_hash": "sha256:74a4cc6df0fd55dadf6dbf3d02dd71829cd46a873109228495de892834e4412c"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "914992f9599726acf86ce632fbbb8344031ebdebd0e68eb621fcea567fcd3305",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+  "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+  "summary": "Discover more about what's new at AWS with AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+  "body_markdown": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure **Sign-in duration** , which controls how long an OAuth Sign-in session remains active, for individual IAM users and roles.\n\n\nThis capability reduces authentication interruptions for long-running workflows and provides a more secure alternative to static access keys by using short-lived, renewable credentials. Existing session duration limits remain unchanged unless administrators explicitly configure longer durations.\n\n\nSign-In Duration supports AWS CLI (aws login), AWS MCP Server, and other OAuth-enabled applications. It does not affect AWS Management Console sessions. Customers can configure the setting using the IAM console, AWS CLI, or IAM API in all AWS commercial Regions.\n\n\n**To learn more** , see the[AWS Sign-In session management User Guide](https://docs.aws.amazon.com/signin/latest/userguide/oauth-sign-in-session-management.html) ,[Configure Sign-In duration on Role User Guid](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_update-role-settings.html#id_roles_update-signin-duration) e,[Condition Key User Guide](https://docs.aws.amazon.com/signin/latest/userguide/reference-signin-condition-keys.html#reference-signin-condition-keys-oauth)",
+  "published_at": "2026-11-23T23:14:00+00:00",
+  "first_seen_at": "2026-11-24T04:59:05.105754+00:00",
+  "content_hash": "sha256:74745d291d690ca140f873c3aaf893bf3f1925ef759645118fbc5827d15c1f46"
+}
