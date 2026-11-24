@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "380ea3fe2963b4ec2d59184e2b40383b550ee80bdf0e0c5d7f39575e7ca5136c",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/daisyrose-27b-vs-gpt-54-mini-cost-and-speed",
+  "canonical_url": "https://www.activepieces.com/blog/daisyrose-27b-vs-gpt-54-mini-cost-and-speed",
+  "title": "DaisyRose 27B vs GPT-5.4 Mini: Cost and Speed",
+  "summary": "DaisyRose 27B uses reinforcement learning for multimodal reasoning. You can determine when this model is suitable for your automation projects.",
+  "body_markdown": "## Why DaisyRose 27B matters to automation teams\n\n\nIt matters because the model is one step in a workflow, and whoever owns that step owns its failures.\n\n\nYou can swap a model per step, host it where you choose and price it on its own, which gives a team control it doesn't have when one vendor sits behind every AI step.\n\n\n### Where a model sits inside an automation\n\n\nIn an app-to-app workflow, most steps are deterministic: a trigger fires, a step fetches a record, a step sends a message.\n\n\nThe AI step is the one place where output varies from run to run.\n\n\nIt's the step that wakes someone at 2am when a classification drifts or a summary comes back malformed. Choosing a model there is an operational decision as much as a quality one.\n\n\n### DaisyRose 27B as a step in workflows\n\n\nIn the illustration, four connected steps run in a row, with the third as an AI step, meaning there are other processing steps before and after the AI.\n\n\nThat step has a dropdown of three model cards, one of them DaisyRose 27B, and a toggle beside it for self-hosted or vendor-hosted.\n\n\nTake from it that the model and the place it runs are two separate settings on one step, and changing either leaves the other three steps untouched.\n\n\nThat separation is the case for caring. A team can try an open model on one low-risk step without rebuilding the workflow around it.\n\n\n### Who hosts and maintains DaisyRose 27B\n\n\nStart with ownership: if you self-host, your team carries uptime, upgrades and the pager, and if a vendor hosts it, you inherit their limits and terms instead.\n\n\nThen check what the maker's page actually states, and treat anything beyond it as unverified.\n\n\nRun your own inputs through both models, including the malformed ones, and compare how each fails, not only how each succeeds. Our three-task test against gpt-5.4-mini is a start on that, and its limits are part of the answer.",
+  "published_at": "2026-11-24T10:12:12+00:00",
+  "first_seen_at": "2026-11-23T06:23:48.905346+00:00",
+  "content_hash": "sha256:32a2aaf128de66854e3be206fa2455caac611c175f5cd71e9ddd29f43f92c361"
+}

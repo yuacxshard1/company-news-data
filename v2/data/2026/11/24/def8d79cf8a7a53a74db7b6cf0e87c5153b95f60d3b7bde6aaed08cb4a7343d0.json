@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "def8d79cf8a7a53a74db7b6cf0e87c5153b95f60d3b7bde6aaed08cb4a7343d0",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/firebase-studio-pricing-2026-explained-for-builders",
+  "canonical_url": "https://www.activepieces.com/blog/firebase-studio-pricing-2026-explained-for-builders",
+  "title": "Firebase Studio Pricing 2026 Explained for Builders",
+  "summary": "Firebase Studio pricing tiers range from free (3 workspaces) to 30 through Developer Program. Compare quotas and limits to pick the right tier.",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is Firebase Studio free to use?\n\n\nYes, the workspace itself has a free allowance, but the services your app calls are billed separately once you go past their own free usage. The free part covers the coding environment up to a workspace quota.\n\n\nGemini calls, Firebase products and Google Cloud resources each carry their own meter, so a free workspace can still produce a bill if the app is busy.\n\n\n**Do I need a credit card to deploy an app from Firebase Studio?** Generally yes, for production hosting. Deploying to Firebase's backend hosting typically requires a project on the pay-as-you-go Blaze plan, and that plan needs a billing account.\n\n\nYou can build and preview without one. Check the current Firebase pricing page for which products still run on the no-cost plan before you assume a prototype can go live without a card.\n\n\n### What happens when I hit my Gemini usage limit?\n\n\nExpect assistant features to slow down or stop until the limit resets or you move to a higher tier. Which of those two happens depends on whether you are using the built-in assistant or calling Gemini through your own API key or Google Cloud project.\n\n\nOn the built-in assistant, the plan's limits bound you. Calls from your own project are metered and billed, so there the risk is a larger invoice, not a stopped feature. Set budget alerts in the Google Cloud console so the second case doesn't surprise you.\n\n\n### Can I export my project and leave Firebase Studio?\n\n\nYes. Firebase Studio is built on the open-source Code OSS editor, and your project is ordinary code. You can push it to a Git repository or download it, then run it elsewhere.\n\n\nWhat doesn't move for free is the infrastructure. If the app depends on Firebase Authentication, Firestore or Cloud Functions, you either keep paying for those or rewrite against another backend. Count that rewrite as your real exit cost.\n\n\n**Has Firebase Studio pricing changed since launch?** Yes. It began as a no-cost preview, and Google has since tied workspace allowances to its developer program tiers.\n\n\nTreat any price you read in a blog post, this one included, as a snapshot. The Firebase and Google Developer Program pages are the source to check before you commit a budget.",
+  "published_at": "2026-11-24T09:59:32+00:00",
+  "first_seen_at": "2026-11-04T10:12:15.814223+00:00",
+  "content_hash": "sha256:d6f70a2123303f732458e3f745d5fe59794f08a1377154d029bedb7d8a0c0bcf"
+}

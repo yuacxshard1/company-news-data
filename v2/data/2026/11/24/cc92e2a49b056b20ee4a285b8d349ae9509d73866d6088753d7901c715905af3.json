@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cc92e2a49b056b20ee4a285b8d349ae9509d73866d6088753d7901c715905af3",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/gemini-4-neon-mcp-setup-guide-without-prod-risk-2026",
+  "canonical_url": "https://www.activepieces.com/blog/gemini-4-neon-mcp-setup-guide-without-prod-risk-2026",
+  "title": "Gemini 4 Neon MCP: Setup Guide Without Prod Risk (2026)",
+  "summary": "Gemini 4 Neon MCP links language models to your database to run SQL and manage schemas. Understand how to set it up, the costs, and mistakes to avoid.",
+  "body_markdown": "## Mistakes that put a Neon database at risk\n\n\nRead the tool split first and the pattern shows: **almost every mistake here is a scoping error** . Neon's MCP server exposes 16 read-only tools, 11 reversible writes and 2 irreversible ones, per[Marchward](https://marchward.ai/servers/neon) .\n\n\nMost prompts can't hurt you, but the two tools that can't be undone sit one loose sentence away from the other 27.\n\n\nRead the six mistakes that follow as settings to check before the first real prompt; each pairs an error with its consequence and the fix from Neon's docs.\n\n\nThe subsections group them by cause: where the connection points, who is allowed to approve, and what you actually read.\n\n\n### Connecting to production instead of a branch\n\n\nI typed \"clean up the unused columns on orders\" into a chat box once. The only thing between that sentence and a live table was which connection string I'd pasted.\n\n\nPoint the server at your production branch and that's a real command on real data. **Neon's docs describe the MCP server as a development tool, so point it at a branch and run migrations there first.** A migration run directly, with no branch, has no rehearsal.\n\n\nLeave an old connection string in your client settings and it keeps aiming at last quarter's target, the same harm stale config causes, so re-read it whenever a project changes.\n\n\n> ** A migration run directly, with no branch, has no rehearsal.\n\n\n### Over-broad credentials and auto-approved tool calls\n\n\nIf you use a full-access API key, any tool call can use everything the account can do, including the 2 irreversible ones. Use the narrowest key the docs allow, ideally one tied to a single project.\n\n\nThen leave manual approval on. Auto-approving tool calls removes the one moment you could've said no, and with 11 writes available, that moment is where a bad prompt gets caught.\n\n\nBecause plain language is vague and the assistant writes SQL from it, \"Remove the test users\" can become a delete with a loose filter. Read the statement before approving it, especially anything that writes.\n\n\nIgnoring the docs' dev-only guidance is the same habit at a larger scale, because it treats a convenience as permission.\n\n\nConfirm the connection string points at a branch, not production, and replace any full-access key with the narrowest one available. Switch auto-approval off for every tool.\n\n\nRun every migration on a branch before it goes anywhere else, and read each generated statement before you approve it. Re-check your client config after any project change.",
+  "published_at": "2026-11-24T09:57:19+00:00",
+  "first_seen_at": "2026-11-22T01:27:18.200495+00:00",
+  "content_hash": "sha256:1286eaa24a768f03dda729de08549efb2542ef1a588f15f46528f5ac7736f26b"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "37f5e65acc29797d7084e3793ff8a8904a64ec5e341519890e57a77f5ef4901c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-opensearch-3-9",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-opensearch-3-9",
+  "title": "Amazon OpenSearch Service now supports OpenSearch version 3.9",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Service now supports OpenSearch version 3.9",
+  "body_markdown": "You can now run OpenSearch version 3.9 on Amazon OpenSearch Service. OpenSearch 3.9 helps you reduce vector memory and storage, evaluate search quality with more large language model (LLM) providers, build more responsive AI agents, and control access to shared resources.\n\n\nThis release adds a new[half-float vector type](https://docs.opensearch.org/latest/mappings/supported-field-types/knn-memory-optimized/#half-float-vectors) and a bf16 encoder, which store each vector dimension in 16 bits to reduce the memory and storage your vector indexes need. New 2-bit and 4-bit scalar quantization lets you choose the right balance of compression and recall for each workload. Base64-encoded vector ingestion makes request payloads smaller, which speeds up bulk loading. In addition, radial search now uses a redesigned graph traversal to improve both recall and throughput. In Search Relevance Workbench,[LLM-as-a-Judge](https://docs.opensearch.org/latest/search-plugins/search-relevance/judgments/) now works with Amazon Bedrock and other LLM providers through ML Commons connectors. You can also retry failed documents, edit ratings, and reuse earlier judgments to reduce repeated LLM calls.\n\n\nOpenSearch 3.9 also adds gRPC streaming for model predictions and agent execution. Responses come back token by token, so your agentic applications can show answers as they’re generated. Finally, the new[resource sharing and access control](https://docs.opensearch.org/latest/security/access-control/resources/) framework allows you to share resources such as anomaly detectors and machine learning models with specific users and roles without granting broad access.\n\n\nOpenSearch 3.9 is available in all AWS Regions where Amazon OpenSearch Service is offered. To learn how to upgrade, see[Upgrading Amazon OpenSearch Service domains](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html) in the Amazon OpenSearch Service Developer Guide.",
+  "published_at": "2026-11-23T19:30:00+00:00",
+  "first_seen_at": "2026-11-24T12:07:59.132747+00:00",
+  "content_hash": "sha256:71554de8d41fd81d86ae4c50a21d6e13cd817d7d192182b4ce85e38c506dd0d1"
+}

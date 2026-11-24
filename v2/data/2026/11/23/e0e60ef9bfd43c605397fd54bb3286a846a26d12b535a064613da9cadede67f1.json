@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e0e60ef9bfd43c605397fd54bb3286a846a26d12b535a064613da9cadede67f1",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-device-connect/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-device-connect/",
+  "title": "AWS Device Farm launches Device Connect for local access to remote Android devices",
+  "summary": "Discover more about what's new at AWS with AWS Device Farm launches Device Connect for local access to remote Android devices",
+  "body_markdown": "[AWS Device Farm](https://aws.amazon.com/device-farm/) , a service for testing mobile and web apps, now offers Device Connect. With Device Connect, you and AI agents can use remote Android devices from your local machine in an IDE, terminal, or development environment of your choice, as if it were plugged into your laptop. You can attach a debugger, profile performance, preview builds, run ADB (Android Debug Bridge) commands, and interact manually with the devices. You also get live video along with device and test logs. Tools and test frameworks that work with ADB locally now run on a real device that Device Farm manages for you.\n\n\nPreviously, you used Device Farm devices manually in a web browser or for automated tests through APIs. You couldn't reach them from your local tools, such as Android Studio or a terminal. Device Connect closes that gap by connecting your local machine to a device hosted in AWS. Your existing ADB-based workflows run unchanged.\n\n\nTo get started, install the[Device Connect client](https://github.com/aws/device-connect-devicefarm) from GitHub, create a remote access session on Device Farm, and attach to the session's device with the 'devicefarm-connect' command. Device Connect supports Android OS versions nine and later. The client runs on macOS, Linux, and Windows with no additional cost. Device usage is billed at standard Device Farm rates.\n\n\nDevice Connect is available in the US West (Oregon) AWS Region.\n\n\nTo learn more, see the AWS Device Farm[Developer Guide](https://docs.aws.amazon.com/devicefarm/latest/developerguide/device-connect.html) .",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-24T12:07:59.132747+00:00",
+  "content_hash": "sha256:96a708fda942b79c64bddde6ba41475a9424b80ad1c3e4e285b515b39e2a53dd"
+}

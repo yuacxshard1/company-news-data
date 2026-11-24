@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "4fe82a38aca77e6c7d34c9f6ef6282b4f66ffa8674ea0134da56f891fcee08da",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/cursor-workflow-how-to-set-one-up-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/cursor-workflow-how-to-set-one-up-2026-guide",
+  "title": "Cursor Workflow: How to Set One Up (2026 Guide)",
+  "summary": "Cursor workflow involves five repeating steps: write rules, plan, run an agent task, review diffs, and commit. You can follow this process step by step.",
+  "body_markdown": "## Frequently asked questions\n\n\nWhen the loop stalls on a setup question, the fix is usually one setting or one file, not a new workflow.\n\n\nThe five answers below come from Cursor's docs and are the ones that tend to block a team before it commits to the loop. Each is short enough to settle the question in a single read.\n\n\nCan I use my own API key in Cursor? Yes. Cursor lets you add your own key for supported model providers in its settings.\n\n\nSome features, such as its tab completion, still run on Cursor's own models, so a key replaces only part of the setup.\n\n\nDoes Cursor train on my code? Not with Privacy Mode on. In that mode, Cursor says your code isn't used for training and isn't stored by its model providers.\n\n\nTurn it on before the first session, since the setting governs what happens to code you send from then on.\n\n\nCheck the current policy in the docs before you put proprietary code through it.\n\n\nDo my VS Code extensions work in Cursor? Mostly, yes. Cursor is built on VS Code, so it can import your extensions, themes and keybindings in one step.\n\n\nExtensions that depend on Microsoft-specific services may behave differently, so test the ones your team relies on before you drop your old editor.\n\n\n### How do I share Cursor rules across a team?\n\n\nCommit your project rules to the repository, in the` .cursor/rules` folder. Everyone who clones the repo gets the same rules, and changes to them go through the same review as code.\n\n\nCursor's team plans also have team-wide rules set from an admin dashboard. Use those for conventions that should apply across every repository, and keep repo-specific rules in the repo.\n\n\n### Does Cursor work offline?\n\n\nOnly partly. You can open, edit and search files without a connection because it's a local editor. The AI features need to reach a model over the network, so chat, the agent and completions stop working when you are offline.",
+  "published_at": "2026-11-24T06:16:42+00:00",
+  "first_seen_at": "2026-11-12T11:32:58.142530+00:00",
+  "content_hash": "sha256:9ce3b464ea2b171e235c88c8bad4bc782b8c240b36a3de60e24e04c02b9baf43"
+}

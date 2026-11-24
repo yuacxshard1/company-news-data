@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c0e881e0631c28a7c1f7ff4a1f4715d94ba5281b54600d370443fb93ff7a50ad",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-estimate-composio-pricing-from-your-tool-calls",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-estimate-composio-pricing-from-your-tool-calls",
+  "title": "How to Estimate Composio Pricing From Your Tool Calls",
+  "summary": "Composio pricing shows four plans with explicit credit limits and costs for each option. Choose the plan that fits your budget and integration volume.",
+  "body_markdown": "## Frequently asked questions\n\n\nBecause the pricing page, not this article, is the authority on each one, these answers are short. The point of each is to tell you what to check against your own call counts.\n\n\n### Is there a free Composio plan?\n\n\nComposio has offered a free entry tier, but its call allowance and feature limits are set on the pricing page, and they change. Treat it as a place to measure your real call volume, not as a plan to run production on.\n\n\nOnce your measured monthly calls pass its allowance, overage rules decide your bill, so read those before you rely on it.\n\n\n### Does Composio charge for failed tool calls?\n\n\nWhether a failed call counts depends on how the vendor defines a billable call, and I can't confirm that definition here.\n\n\nThe practical answer is to run a small batch that you know will fail, such as an expired token or a malformed request, and compare your usage dashboard before and after.\n\n\nIf failures count, retries multiply your metered volume, and your estimate needs a retry rate built in.\n\n\n### Can Composio be self-hosted, and does that change the price?\n\n\nSome of Composio's tooling is open source, but that doesn't mean the hosted platform's features can be run on your own infrastructure at no charge. Check the documentation for exactly which components you can run yourself.\n\n\nIf the managed layer you depend on is hosted-only, self-hosting doesn't remove the metered cost. It adds your own infrastructure and maintenance cost on top of the part you still pay for.\n\n\n### How do I cancel or downgrade a Composio plan?\n\n\nIf you're on a self-serve plan, you can usually change it from the account's billing settings, while contract plans are typically changed through the sales team.\n\n\nFind out which applies to you before you sign, because a plan you can't leave until the term ends turns a monthly estimate into a fixed commitment.\n\n\nCheck whether a downgrade removes gated features such as SSO, since losing them could force a security workaround.\n\n\n### Does Composio offer discounts for startups or annual billing?\n\n\nDiscounts may exist, but I can't confirm them, and they're usually negotiated or listed on the pricing page rather than applied automatically. Ask sales directly, and ask for the terms in writing.\n\n\nAn annual discount only helps if your call volume is stable enough to commit to, so compare the discounted annual total against your monthly estimate at both your expected volume and a pessimistic one.",
+  "published_at": "2026-11-24T09:16:22+00:00",
+  "first_seen_at": "2026-11-24T12:05:42.471471+00:00",
+  "content_hash": "sha256:17c4f6873422f5736f83adc8344a0f65726459745c5c35f1b40c331b789694eb"
+}

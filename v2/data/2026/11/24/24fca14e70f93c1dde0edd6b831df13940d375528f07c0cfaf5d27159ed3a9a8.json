@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "24fca14e70f93c1dde0edd6b831df13940d375528f07c0cfaf5d27159ed3a9a8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/google-analytics-pricing-in-2026-is-free-until-you-hit-360",
+  "canonical_url": "https://www.activepieces.com/blog/google-analytics-pricing-in-2026-is-free-until-you-hit-360",
+  "title": "Google Analytics Pricing in 2026 Is Free Until You Hit 360",
+  "summary": "Google Analytics pricing is free for GA4 but costs for 360; competitors charge $15–$42 for 100k pageviews. Find the right platform for your budget.",
+  "body_markdown": "## Data payment for free Google Analytics\n\n\nEven with a named owner and a workaround for every known limit, the sharpest critic argues the price was never zero, only paid in a currency the invoice doesn't list.\n\n\n### The data-as-payment objection\n\n\nBecause you hand over behavioral data, Google Analytics 4 costs nothing, and that trade carries three bills of its own.\n\n\n> Even with a named owner and a workaround for every known limit, the sharpest critic argues the price was never zero, only paid in a currency the invoice doesn't list.\n\n\nFirst, **sampling and thresholding degrade the numbers** you make decisions on. Sampled explorations return estimates, so a small conversion lift may be noise.\n\n\nThresholding withholds rows when a report could identify individual users, so the segment you most wanted to inspect may be the one that vanishes.\n\n\nSecond, the compliance paperwork lands on you, not on Google. Collecting analytics on EU visitors means consent banners, a lawful basis, and a defensible answer on cross-border transfers. European regulators have scrutinized these transfers, and the exposure sits with the site owner.\n\n\nThird, caps on retention, quotas and export push large sites toward Analytics 360, where the price is a negotiated contract rather than a rate card.\n\n\n### Why free Google Analytics still suits most teams\n\n\nA business with modest traffic rarely sees sampling distort a decision, because the standard reports are unsampled and the quotas are sized well above its needs. Thresholding mostly bites when you slice small audiences, which you can avoid by choosing coarser dimensions.\n\n\nAny analytics tool that sets identifiers or processes visitor data needs the same consent and transfer review, so compliance work is not unique to Google.\n\n\nWeigh that against a paid platform, whose recurring bill buys relief from limits this team may never reach.\n\n\nUnder two conditions the claim fails. At very high event volume, quotas and export limits become daily constraints, and 360 or a warehouse-first alternative is the rational purchase.\n\n\nWhere strict data residency is a legal requirement, a free tool whose processing you can't pin to a jurisdiction isn't a bargain at any price. Outside those two cases, free holds.",
+  "published_at": "2026-11-24T08:55:34+00:00",
+  "first_seen_at": "2026-11-24T12:05:42.471471+00:00",
+  "content_hash": "sha256:014e3f5043c11b006b99f2d1d8617ca388671d3ccf521bf6244140c58d476dde"
+}

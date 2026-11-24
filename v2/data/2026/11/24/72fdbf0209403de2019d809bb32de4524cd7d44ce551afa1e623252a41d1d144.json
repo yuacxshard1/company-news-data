@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "72fdbf0209403de2019d809bb32de4524cd7d44ce551afa1e623252a41d1d144",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/clay-api-pricing-rate-limits-and-access-in-2026",
+  "canonical_url": "https://www.activepieces.com/blog/clay-api-pricing-rate-limits-and-access-in-2026",
+  "title": "Clay API Pricing, Rate Limits and Access in 2026",
+  "summary": "Clay API sends data in and calls external services, not a general REST API for workspace control. Find entry points through automation platforms.",
+  "body_markdown": "## A Minimal Working Clay API Request\n\n\nMake the first request small: one JSON body sent to a Clay table's webhook URL, ending with a new row you can see. That holds whether the call comes from a workflow tool or your own terminal.\n\n\nSkip the big batch. If the first request is wrong, a small one costs you a few minutes, while a large one can fill a table with junk you then have to clear out.\n\n\n### Stage 1: create the table and copy the endpoint\n\n\nCreate a new table in Clay and add a webhook as its source. Clay then shows you a URL that belongs to that table alone.\n\n\nCopy it, and treat it like a password. Anyone holding it can push rows into your table, and rows can trigger enrichments that spend your credits.\n\n\nIf your workspace asks for an auth header on the webhook, copy that value too, and take the header's name from Clay's docs rather than from memory. Guessing here is the usual cause of a first failure.\n\n\n### Stage 2: send one request with curl\n\n\nUse curl, a plain command-line tool that sends a web request and prints what comes back.\n\n\nSend a POST to the webhook URL with a JSON body of two or three fields, such as a company name and a domain. Add the auth header if Clay gave you one.\n\n\nUse made-up but realistic values, because you'll be reading them back in the table.\n\n\nWhen a call succeeds, it looks the same in most tools. This completed workflow run shows one step that sent a POST with an Authorization header to an outside payment service.\n\n\nIts input panel holds the request, its output panel shows status 200 with the text \"OK,\" and both the trigger and the step carry green checks.\n\n\nYour curl output should read the same way, though the service is different. A 200 means Clay accepted the request. It doesn't yet tell you the data landed where you wanted.\n\n\nWith the request accepted, the table is the next place to check.\n\n\n### Reading the Clay API response and enriched row\n\n\nGo back to the table. A new row should appear with one column per field you sent. If it doesn't, check the status code first.\n\n\nAn error about authorization usually means the header is missing or misnamed. An error about the body usually means the JSON is malformed.\n\n\nOnce the row appears, add one enrichment column and run it on that single row. Watch what it returns and what it uses up.\n\n\nSeeing one row go through end to end is what tells you whether the later retry handling should be strict or relaxed.",
+  "published_at": "2026-11-24T10:34:11+00:00",
+  "first_seen_at": "2026-11-24T12:05:42.471471+00:00",
+  "content_hash": "sha256:f869645d43fa805298cdee05bd3284725c82c78791078070febc3d60800b037d"
+}
