@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "abe86e44534cd4e1745a7d1628d2b321f2fdc6d28c14e3a6959c811539c63f15",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/jotform-api-integration-in-2026-key-limits-first-request",
+  "canonical_url": "https://www.activepieces.com/blog/jotform-api-integration-in-2026-key-limits-first-request",
+  "title": "Jotform API Integration in 2026: Key, Limits, First Request",
+  "summary": "Jotform API uses key-based authentication. Link your key to a service account rather than an individual user to prevent integration breakage if staff…",
+  "body_markdown": "## Frequently asked questions\n\n\n### Is the Jotform API free to use?\n\n\nYes, there's no separate charge for API access; it comes with the account. The cost is in the plan's limits, which cap how many API calls you can make per day and how many submissions you can hold.\n\n\nRead the current limits on Jotform's pricing and API pages before you size a job, because a nightly reconciliation that pages through every submission can exhaust a small plan's allowance and leave the next morning's calls failing.\n\n\n### Can I use the Jotform API with a free account?\n\n\nYes. A free account can create an API key and call the endpoints, which is enough to build and test your first request. The catch is that the free tier's quotas are the tightest, so treat it as a development environment.\n\n\nIf production traffic runs on a free account, the person who owns that account owns your outage, and that should be a named person, not a shared login nobody remembers creating.\n\n\n### Does Jotform support OAuth instead of API keys?\n\n\nFor server-to-server work, the documented route is the API key, passed as a header or query parameter.\n\n\nJotform's docs also describe an OAuth-style authorisation flow for apps acting on behalf of other users, but check the current developer documentation for what your account type can use.\n\n\nFor an internal integration, create the key with the narrowest permission that works. A read-only key can't delete forms if it leaks.\n\n\n### How do I get submissions from the EU Jotform server?\n\n\nPoint your requests at the EU API host instead of the default one, and use a key created in the EU account.\n\n\nA key from one region won't authenticate against the other, so a request that works in testing can return authorisation errors once it meets an EU account.\n\n\nKeep the base URL in configuration, not scattered through code, so the region is a single setting someone can audit.\n\n\n### Does the Jotform API support webhooks for new submissions?\n\n\nYes. You can attach a webhook URL to a form, in the form's settings or through the API's form webhook endpoints, and Jotform sends an HTTP POST to it for each new submission.\n\n\nYour receiver should acknowledge quickly and do the real work afterwards, because a slow response invites retries and duplicates.\n\n\nIf your endpoint was down, nothing replays the gap for you, so webhooks are not a complete record. Pair them with a scheduled backfill that queries submissions by` created_at` , and alert when either path fails.",
+  "published_at": "2026-11-24T11:16:46+00:00",
+  "first_seen_at": "2026-11-24T18:30:31.439352+00:00",
+  "content_hash": "sha256:bd70f74c9a22a180363b8bc8e46369cf0d5a4599a62a6a9c5b791abc16944461"
+}

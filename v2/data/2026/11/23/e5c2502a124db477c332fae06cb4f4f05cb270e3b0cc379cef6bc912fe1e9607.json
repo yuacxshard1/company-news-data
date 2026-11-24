@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e5c2502a124db477c332fae06cb4f4f05cb270e3b0cc379cef6bc912fe1e9607",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/postgresql-19-amazon-rds-database-preview-environment/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/postgresql-19-amazon-rds-database-preview-environment/",
+  "title": "RDS PostgreSQL now supports PostgreSQL 19.0 in the Amazon RDS Database Preview Environment",
+  "summary": "Discover more about what's new at AWS with RDS PostgreSQL now supports PostgreSQL 19.0 in the Amazon RDS Database Preview Environment",
+  "body_markdown": "Starting today, Amazon RDS for PostgreSQL 19.0 is available in the[Amazon RDS Database Preview Environment](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html) , allowing you to evaluate PostgreSQL 19.0 on Amazon RDS PostgreSQL.\n\n\nPostgreSQL 19.0 introduces the REPACK command with a CONCURRENTLY option, which removes table and index bloat with minimal locking. You can now enable parallel autovacuum for faster index vacuuming, and logical replication to synchronize sequence values to the subscriber. Two new extensions, pg_plan_advice and pg_stash_advice, let you guide query planner decisions. Refer to the[PostgreSQL community announcement](https://www.postgresql.org/about/news/postgresql-19-released-3449/) for more details.\n\n\nAmazon RDS Database Preview Environment DB clusters are retained for a maximum period of 60 days and are automatically deleted after the retention period, along with their backups and snapshots. A snapshot created in the Preview Environment cannot be copied to a production environment. You can use the PostgreSQL dump and load functionality to import or export your databases from the Preview Environment. Amazon RDS Database Preview Environment DB clusters are priced as per the[pricing](https://aws.amazon.com/rds/postgresql/pricing/) in the US East (Ohio) Region.",
+  "published_at": "2026-11-23T17:00:00+00:00",
+  "first_seen_at": "2026-11-24T18:34:00.045537+00:00",
+  "content_hash": "sha256:8dfc349f8f07c94247ee1f765fc296b24a378d28b8ba2c62b2804b09d4308245"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6221b933c123aab4b776a279c1238f44baa56726792ce226a9f29e8312b0d125",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/pcs-supports-split-cost-data/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/pcs-supports-split-cost-data/",
+  "title": "AWS Parallel Computing Service now supports Split Cost Allocation Data",
+  "summary": "Discover more about what's new at AWS with AWS Parallel Computing Service now supports Split Cost Allocation Data",
+  "body_markdown": "Starting today, customers can receive granular cost visibility for AWS Parallel Computing Service (AWS PCS) in the[AWS Cost and Usage Reports](https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/) (CUR), enabling you to analyze, optimize, and chargeback costs for your Slurm jobs. With AWS Split Cost Allocation Data for AWS PCS, customers can now allocate costs to individual teams and projects based on how jobs request and consume shared EC2 CPU, GPU, and memory resources.\n\n\nAWS PCS is a managed service that makes it easier for you to run and scale your high performance computing (HPC) workloads and build scientific and engineering models on AWS using Slurm. With Split Cost Allocation Data for AWS PCS, you get granular visibility into job-level costs based on compute and memory utilization. You can attribute cost to an individual job and aggregate the cost by job, user, Slurm account, queue, compute node group, node, and cluster. You can also identify capacity that wasn't allocated to any job, such as idle cores or nodes waiting for work. This helps you find opportunities to right-size your clusters and minimize inefficiencies.\n\n\nThis feature is available in all AWS commercial regions where AWS PCS is available. It requires Slurm version 25.11 or later. To start receiving AWS PCS Slurm job level cost data in the AWS CUR, visit[AWS Cost and Usage Reports](https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/features/) ,[Understanding Split Cost Allocation Data](https://docs.aws.amazon.com/cur/latest/userguide/split-cost-allocation-data.html) and the[AWS PCS User Guide](https://docs.aws.amazon.com/pcs/latest/userguide/monitoring-cost-allocation.html) .",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-24T18:34:00.045537+00:00",
+  "content_hash": "sha256:b0526ce5e2d969fa66d779d18d449a8dab02d94511693e2667d62535cc15a94a"
+}

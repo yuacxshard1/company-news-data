@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9c6a08b1a0693bc72661aa50798ece45fee0f680f877018d991c4a063a34fa6c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-announces-api-portal/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-announces-api-portal/",
+  "title": "Amazon API Gateway announces API Portal",
+  "summary": "Discover more about what's new at AWS with Amazon API Gateway announces API Portal",
+  "body_markdown": "Today, Amazon API Gateway announces[API Portal](https://docs.aws.amazon.com/apigateway/latest/developerguide/apiportal.html) , a new feature that discovers, governs, and documents the APIs and AI endpoints behind Amazon API Gateway, Application Load Balancer, and Amazon CloudFront across your AWS organization.\n\n\nMany organizations can't see which APIs are running, which were never registered, which are no longer maintained, and which lack protection. API Portal builds a continuously updated inventory using AWS-side traffic logs and service configuration records, with nothing to install, no logs to forward, and no traffic to reroute, for a single account or your entire AWS organization.\n\n\nEvery discovered API starts as a shadow API until you choose to manage it. API Portal labels each API as public or private and identifies AI endpoints, including MCP servers, A2A servers, and LLM endpoints. For managed APIs, it flags those that stop receiving traffic or lose their owner and evaluates security posture against best practices such as authentication, throttling, and AWS WAF protection. With[AWS WAF API Security](https://aws.amazon.com/waf/features/api-security/) , it also shows the security events detected per API.\n\n\nYou can publish any managed API in a documentation portal for internal teams or external partners, with your branding, Amazon Cognito access control, and interactive Try it pages. If you already use API Gateway Portals, your portals continue to work and are now managed from the Documentation Portals section of API Portal.\n\n\nAPI Portal is available in 32 AWS Regions; see the Amazon API Gateway[FAQ](https://aws.amazon.com/api-gateway/faqs/) and[pricing](https://aws.amazon.com/api-gateway/pricing/) pages for details.\n\n\nTo get started, see the following resources:\n\n\n[Amazon API Gateway product page](https://aws.amazon.com/api-gateway/)\n\n\n[Introducing API and AI security on AWS blog](https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/)\n\n\n[API Portal documentation](https://docs.aws.amazon.com/apigateway/latest/developerguide/apiportal.html)\n\n\n[AWS WAF API Security documentation](https://docs.aws.amazon.com/waf/latest/developerguide/waf-api-security.html)",
+  "published_at": "2026-11-23T20:00:00+00:00",
+  "first_seen_at": "2026-11-24T18:34:00.045537+00:00",
+  "content_hash": "sha256:a216912037220102657c118522ed2bb93c81baa6be50d5744505adf719358329"
+}

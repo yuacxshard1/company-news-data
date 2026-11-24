@@ -103,6 +103,16 @@
     {
       "company_key": "rapid7-inc-common-stock",
       "company_name": "Rapid7 Inc.",
+      "doc_id": "9e008ce96a6adc7a1badb443b4738f428ca041e5f12b3e9317744dadab122b32",
+      "first_seen_at": "2026-11-24T20:08:26.161410+00:00",
+      "published_at": "2026-11-24T13:01:25+00:00",
+      "source_kind": "rss",
+      "summary": "An unauthenticated attacker can retrieve the session key for an in-progress administrator login to VMware vCenter's directory service. The attacker then uses that key to complete the login without knowing the account's password. The vulnerable interface is exposed through DCE/RPC on TCP port 2012.",
+      "title": "Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
       "doc_id": "a9ac3a9eb2a7517f2b528db5a0ee3b77ed3c3b7984ef148c9ec9d39d953a2269",
       "first_seen_at": "2026-11-18T18:42:58.074763+00:00",
       "published_at": "2026-11-18T13:56:42+00:00",
@@ -199,6 +209,16 @@
       "source_kind": "rss",
       "summary": "On November 17, 2026, public reports described CVE-2026-114938 as a memory corruption vulnerability in Java 17 and above that could allow a remote attacker to execute code without authentication. The reported severity is Critical, with a CVSSv4 score of 9.2. These CVE-specific details remain preliminary, pending confirmation in Oracle or OpenJDK advisories; Rapid7 is actively monitoring the situation and will update this blog as new information arrives.",
       "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17"
+    },
+    {
+      "company_key": "rapid7-inc-common-stock",
+      "company_name": "Rapid7 Inc.",
+      "doc_id": "ed3ca5556130be351c7cce8656decddde63222f2d127b354709f49372b7d831b",
+      "first_seen_at": "2026-11-24T20:08:26.161410+00:00",
+      "published_at": "2026-11-24T15:51:25+00:00",
+      "source_kind": "rss",
+      "summary": "Choosing a managed detection and response (MDR) provider means committing budget, connecting systems, and trusting another team to act when your organization is under pressure. Before choosing a provider or renewing your current agreement, consult Rapid7’s MDR Evaluation Scorecard: 18 checks to structure your conversation and record what still needs proving.",
+      "title": "How to compare MDR providers when every proposal looks promising"
     }
   ],
   "company_key": "rapid7-inc-common-stock",

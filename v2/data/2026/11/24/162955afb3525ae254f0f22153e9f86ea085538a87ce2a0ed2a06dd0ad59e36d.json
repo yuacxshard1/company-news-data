@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "162955afb3525ae254f0f22153e9f86ea085538a87ce2a0ed2a06dd0ad59e36d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-to-use-the-freshdesk-api-without-hitting-rate-limits",
+  "canonical_url": "https://www.activepieces.com/blog/how-to-use-the-freshdesk-api-without-hitting-rate-limits",
+  "title": "How to Use the Freshdesk API Without Hitting Rate Limits",
+  "summary": "Freshdesk API v2 uses your included API key for REST access. Set up integration, understand rate limits, and troubleshoot error responses.",
+  "body_markdown": "## Call the Freshdesk API without code using Activepieces\n\n\nFrom a scheduled or triggered workflow, Activepieces lets you run Freshdesk calls instead of a script. It doesn't lift any Freshdesk limit, and someone still has to own the flow when it fails at 2am.\n\n\nThat ownership question comes first. A no-code flow has no on-call engineer by default. **Name the person who receives the failure alert** before you build anything, because a retry loop with no owner is a quiet outage.\n\n\n### Use the Freshdesk integration\n\n\nTo create a ticket, update a contact, or start when something changes, a flow can use the Freshdesk integration, which covers ticket and contact actions and triggers.\n\n\nThe builder below shows the shape of it: a Schedule trigger labeled \"Every Hour\" is selected. The integration selector is open on the spreadsheet apps, and the settings panel shows the trigger with a successful sample-data test.\n\n\nTake from it that a polling schedule is a choice you make on the trigger, so the frequency you set there is the request volume you send to Freshdesk.\n\n\nAn hourly run that fetches a long list of tickets consumes your plan's allowance the same way a script would.\n\n\nNext, set the schedule to the slowest cadence your process tolerates, and use the sample-data test to confirm which fields come back before you map them.\n\n\n### Use the HTTP step for other endpoints\n\n\nWhen the integration lacks an endpoint you need, the HTTP step calls any Freshdesk URL directly. It uses the same Basic auth as your own code: your API key as the username, with a placeholder as the password.\n\n\nStore the key as a connection or secret, not pasted into the step.\n\n\nYou get no special treatment from the HTTP step. Rate limits, pagination caps and the cost of embedded resources apply exactly as they do elsewhere, and the run trace will show you which step received the error response.\n\n\nRead it there, then adjust frequency, page size or requested fields.\n\n\nWhen you need controlled backoff across many calls, large paginated exports, or tests under version control, direct code is the better choice. Use Activepieces where a visible, owned flow beats a repository.",
+  "published_at": "2026-11-24T16:27:51+00:00",
+  "first_seen_at": "2026-11-24T18:30:31.439352+00:00",
+  "content_hash": "sha256:4ff47459a417f69c54f298d2cc9d88e4ac07c5e5b72b99175be23a7c3fa2b3f4"
+}

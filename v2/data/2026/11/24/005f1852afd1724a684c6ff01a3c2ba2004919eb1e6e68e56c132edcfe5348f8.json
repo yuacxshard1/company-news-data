@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "005f1852afd1724a684c6ff01a3c2ba2004919eb1e6e68e56c132edcfe5348f8",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/inspector-pricing-plans-limits-and-costs-2026",
+  "canonical_url": "https://www.activepieces.com/blog/inspector-pricing-plans-limits-and-costs-2026",
+  "title": "Inspector Pricing: Plans, Limits and Costs (2026)",
+  "summary": "Inspector pricing is set by three limits: applications monitored, monthly transactions, and data retention. Calculate these to determine your costs.",
+  "body_markdown": "## Route Inspector alerts with Activepieces\n\n\nInspector's alerts need somewhere to go, and Activepieces, which connects to 750 integrations, decides where. It earns a place only if Inspector's own notification options leave you with a gap.\n\n\n**Treat it as plumbing, because it monitors nothing** . Inspector still finds the errors; Activepieces only moves the message, and its MIT-licensed core is free to self-host.\n\n\nEvery workflow you add is also another thing you pay for and maintain, so price it the way you priced Inspector: by your own alert volume, not the headline plan.\n\n\nActivepieces' published pricing page lists 1 credit per flow run however many steps the flow has, while Zapier's pricing page bills per task and Make's bills per module. The Free plan carries 1,000 credits a month with unlimited flows.\n\n\nA webhook, a filter and three branches therefore cost one credit per alert, and 1,000 alerts a month fit inside the free allowance.\n\n\n### When Inspector's built-in integrations are enough\n\n\nIf your alerts need to reach one chat channel or one email list, stop here. Inspector's built-in notification integrations already do that, at no extra line on your bill.\n\n\nAdding a second tool means a second place for alerts to fail silently, and you'd be paying to rebuild something you already have.\n\n\nReach for Activepieces only when you need a rule Inspector can't express, such as sending different severities to different people, or creating a ticket without anyone copying details by hand. Since every plan, including free, allows unlimited flows, each extra rule adds no per-flow charge.\n\n\n### Inspector alert webhook to ticket workflow\n\n\nStarting at an Inspector alert, the flow below passes through an Activepieces webhook trigger and a severity filter. It then splits into three destinations: a Slack channel, a ticket tracker and an on-call tool, all buildable on the Free plan's 1,000 monthly credits.\n\n\nThe point to take from it is that the filter is the only decision step, so noise is cut once, before it reaches any of the three.\n\n\nThe build is short:\n\n\n1. Create a flow in Activepieces with a webhook trigger and copy its URL.\n2. Point an Inspector alert at that URL.\n3. Add a filter step that passes only the severities you care about.\n4. Connect the branches: low severity to Slack, medium to a ticket, high to the on-call tool.",
+  "published_at": "2026-11-24T14:23:13+00:00",
+  "first_seen_at": "2026-11-24T18:30:31.439352+00:00",
+  "content_hash": "sha256:457383a72200c08236e8f3a165e32015638266828597b07249d858b38bef100a"
+}

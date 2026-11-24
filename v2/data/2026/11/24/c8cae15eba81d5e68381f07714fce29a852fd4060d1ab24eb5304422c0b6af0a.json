@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c8cae15eba81d5e68381f07714fce29a852fd4060d1ab24eb5304422c0b6af0a",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/zoho-crm-whatsapp-integration-without-code-2026",
+  "canonical_url": "https://www.activepieces.com/blog/zoho-crm-whatsapp-integration-without-code-2026",
+  "title": "Zoho CRM WhatsApp Integration Without Code (2026)",
+  "summary": "Zoho CRM WhatsApp integration connects the two platforms bidirectionally. WhatsApp messages update customer records and CRM changes send instant alerts.",
+  "body_markdown": "## Frequently asked questions\n\n\nDoes Zoho CRM have a built-in WhatsApp integration? Zoho has its own messaging channel for WhatsApp, but availability depends on your edition and region.\n\n\nIt's a fixed feature set, not a flow you control. The no-code route here is for when you want your own triggers, field mapping and routing. Check your edition before deciding which path you need.\n\n\n### Can I connect personal WhatsApp instead of WhatsApp Business?\n\n\nNo, not through the official business API, which is what the triggers and actions in this build rely on. Personal accounts have no webhook for incoming messages.\n\n\nIf you use a tool that bridges a personal number, you work around that, but you break WhatsApp's terms, so your number can be banned mid-conversation. Register a business number instead and keep personal chats on a different SIM.\n\n\nCan an open-source builder be self-hosted for this integration? Yes. The core is MIT-licensed and can run on your own server, and the same flow works there as on the hosted version.\n\n\nSelf-hosting means you own the uptime, upgrades and backups, so a stopped server means missed inbound WhatsApp messages. If your team has no one to watch that, the hosted version is the safer choice.\n\n\n### What if the action I need is not in the integration?\n\n\nUse a plain HTTP request step against the app's own API. Zoho CRM's REST API covers records, notes and tasks, and the WhatsApp Business Cloud API covers sending messages.\n\n\nAuthenticate with the same connection credentials or an OAuth token, send the JSON the API documentation specifies, and map the response into later steps.\n\n\nTest with one record first. A wrong field name usually comes back as a vague validation error, and you want to see it on a single contact, not a hundred.\n\n\nOne WhatsApp rule applies here. Free-form replies are only allowed inside the customer service window after the customer last messaged you.\n\n\nOutside it, the API accepts only pre-approved message templates. If your HTTP step sends plain text to a contact who went quiet days ago, expect a rejection, and build a template branch for those cases.\n\n\n### Do I need to write code to connect WhatsApp and Zoho CRM?\n\n\nNo. The trigger for a new WhatsApp message, the action to create or update a Zoho CRM record, and field mapping are all point-and-click.\n\n\nThe only technical part is the HTTP fallback, and that means filling in a URL, headers and a JSON body copied from the API docs.\n\n\nIf you can write a Gmail filter, you can build this. You are configuring requests, not programming.",
+  "published_at": "2026-11-24T12:43:32+00:00",
+  "first_seen_at": "2026-11-24T18:30:31.439352+00:00",
+  "content_hash": "sha256:96b574098599b3ed0707f59e673b3c7e43b56def17277d1e9b08e7d9c7453d79"
+}

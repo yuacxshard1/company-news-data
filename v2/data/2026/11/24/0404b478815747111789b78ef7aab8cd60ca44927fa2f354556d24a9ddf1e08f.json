@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0404b478815747111789b78ef7aab8cd60ca44927fa2f354556d24a9ddf1e08f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/composio-pricing-explained-for-small-agent-teams",
+  "canonical_url": "https://www.activepieces.com/blog/composio-pricing-explained-for-small-agent-teams",
+  "title": "Composio Pricing Explained for Small Agent Teams",
+  "summary": "Composio pricing charges by tool calls, not just plan tier. Calculate your real monthly cost based on agent usage and connected accounts.",
+  "body_markdown": "## Where Activepieces Fits Beside Composio\n\n\nIf your work's a fixed sequence of steps rather than per-user agent access,[Activepieces](https://www.activepieces.com/pricing) fits. Its[pricing page](https://www.activepieces.com/pricing) bills on credits, so you count credits, not seats or connected accounts.\n\n\nA run is 1 credit however many steps it has, so a ten-step flow costs the same as a two-step one, where Zapier's pricing page bills per task and Make's per module.\n\n\nOn the free plan you get 1,000 credits at $0 a month, which is enough to prove a workflow works but not to run one on a schedule all month.\n\n\nPlus raises the allowance to 10,000 credits for $20 a month, so ten times the volume costs $20 more.\n\n\nTeam gives 50,000 credits for $200 a month, which means a fivefold jump in allowance costs ten times as much.\n\n\nPer credit, Plus's $0.002 and Team's $0.004, so the bigger plan's the more expensive way to buy volume unless you need what else comes with it. Estimate your monthly credit use before you pick a plan name.\n\n\n### Unlimited workflows on every plan\n\n\nActivepieces meters the run rather than the flow, so it lets you build unlimited flows on every plan, including the free one, and four cases play to that.\n\n\nThe first's deterministic multi-step workflows, where the same trigger runs the same chain of actions every time and you can predict credit use per run.\n\n\nThe second's agent access through the Activepieces MCP server, which lets an agent call your workflows as tools instead of wiring each app itself.\n\n\nThe third's self-hosting, where data must stay on your own infrastructure and you'd rather run the software than rent a metered cloud allowance. The fourth's a team with a small set of known connections, such as one company's own accounts, not thousands of customers' accounts.\n\n\nThat last case marks the gap. Activepieces doesn't replace managed per-end-user auth.\n\n\nIf you ship a multi-tenant product where each customer connects their own accounts, you still need something that handles those logins, token refresh and isolation per user, and that's the job you came to Composio for.\n\n\nSo the choice's not which tool is cheaper in the abstract. It's whether your cost is driven by workflow runs, where credits are the right meter, or by how many customer accounts you must manage.",
+  "published_at": "2026-11-24T15:32:26+00:00",
+  "first_seen_at": "2026-11-24T18:30:31.439352+00:00",
+  "content_hash": "sha256:e1c00a3ef36f18e31d1226a69ef1d45ecccdd29466c613f74fcafcdbf63fb79a"
+}
