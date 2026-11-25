@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6a27e3c65baa8e144f607e5b32a954d7d364ff54fd78be014b66f5a70b7d6a0b",
+  "company_key": "yc-oneleet",
+  "company_name": "Oneleet",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.oneleet.com/blog/oneleet-mcp",
+  "canonical_url": "https://www.oneleet.com/blog/oneleet-mcp",
+  "title": "Oneleet MCP is Live in ChatGPT and Claude",
+  "summary": "Connect ChatGPT and Claude to Oneleet in one click. Your assistant signs in as you, stays inside your role, and every action lands in your audit log.",
+  "body_markdown": "What is the Oneleet MCP server? +\n\n\nIt's how AI assistants connect to your Oneleet workspace. MCP (Model Context Protocol) is an open standard that lets assistants like ChatGPT and Claude read from and act in other applications. Our MCP server calls the Oneleet public API, so your assistant works with your real controls, evidence, vendors, risks, and security findings.\n\n\nIs it safe to connect an AI assistant to Oneleet? +\n\n\nThe assistant acts as you and can never do more than your role allows. Access tokens expire after 15 minutes, and every action is attributed to you in the audit log. Only connect assistants you trust, and review changes when your assistant asks you to confirm them.\n\n\nCan the assistant change data in Oneleet? +\n\n\nYes, if your role allows it and you approved it at sign-in. It can upload evidence, update monitors, edit vendor assessments, and more. By default, ChatGPT and Claude ask you to confirm before any tool that changes data. Attack surface, application security, and code security results are read-only.\n\n\nDo I need an admin to set it up? +\n\n\nNot on the Oneleet side. Any workspace member can connect their own assistant. What it can do is limited by that member's role. On ChatGPT Business, Enterprise, and Edu, or Claude Team and Enterprise, an admin on that side may need to add or enable Oneleet first.\n\n\nWhich AI assistants work with Oneleet? +\n\n\nChatGPT, Claude (web, desktop, and mobile), Claude Code, Codex, Cursor, Devin, Google Antigravity, and Grok all work with Oneleet.\n\n\nWhat's the difference between signing in and using an API service key? +\n\n\nSigning in connects an assistant as you, for your own work. An API service key is a service account for scripts, CI pipelines, and shared automations. Its actions are attributed to the key, not to a person.\n\n\nCan I connect more than one workspace? +\n\n\nOne workspace at a time per assistant. To switch, disconnect and sign in again, then pick the other workspace.",
+  "published_at": "2026-11-24T17:00:00+00:00",
+  "first_seen_at": "2026-11-20T00:31:50.535095+00:00",
+  "content_hash": "sha256:66cac785226f3acbbdfcf9b59506d206c49f9211eebba94bfbee7da9e1c12769"
+}

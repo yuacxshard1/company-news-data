@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "8515c528f0df75f5355188cc8c78768365006bdf6982de003317d92f60f56505",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-ai-ready-existing-datasets/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-ai-ready-existing-datasets/",
+  "title": "AWS Quick brings AI-ready capabilities to your existing datasets",
+  "summary": "Discover more about what's new at AWS with AWS Quick brings AI-ready capabilities to your existing datasets",
+  "body_markdown": "Today, AWS Quick makes your legacy datasets AI ready through the new technology stack used by its improved visual data preparation experience. This stack powers Dataset Semantics, topics and semantic models, and Dataset Evaluation. Data curators can add business context through dataset descriptions, column descriptions, and custom instructions. They can then compare answer accuracy before and after semantic enrichment to assess how well AI answers reflect their business definitions.\n\n\nWhen authors edit a supported legacy dataset, AWS Quick automatically opens it in the visual data preparation experience, carrying over its existing data sources, joins, transformations, and calculated fields. Authors can then add semantics and evaluate answer accuracy without recreating the dataset.\n\n\nThe visual data preparation experience runs on a new technology stack for structured data, introduced in October 2025. It supports visual, multi-step transformations such as Append, Aggregate, and Pivot, faster ingestion for larger datasets, and up to 20 times higher cross-source join limits than the legacy experience. To make this architecture available to more legacy datasets, AWS Quick has expanded support for Google Sheets and Salesforce connectors, JODA date formats, incremental refresh, and preservation of existing unmaterialized calculated columns during legacy dataset upgrades.\n\n\nThis capability is available in all supported[AWS Quick Regions](https://docs.aws.amazon.com/quick/latest/userguide/regions.html) . To learn more, see the[documentation](https://docs.aws.amazon.com/quick/latest/userguide/data-prep-experience-new.html) .",
+  "published_at": "2026-11-23T17:00:00+00:00",
+  "first_seen_at": "2026-11-25T02:05:14.347626+00:00",
+  "content_hash": "sha256:dab02665f911d52fbadb254cf8e875b3768c3f4172161f8411dce24832bd873e"
+}

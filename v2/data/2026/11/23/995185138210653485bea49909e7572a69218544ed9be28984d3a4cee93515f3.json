@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "995185138210653485bea49909e7572a69218544ed9be28984d3a4cee93515f3",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-capacity-reservations/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-capacity-reservations/",
+  "title": "Amazon SageMaker AI now supports viewing capacity reservations",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker AI now supports viewing capacity reservations",
+  "body_markdown": "Amazon SageMaker AI now lets you view SageMaker Capacity Reservations in the SageMaker console, AWS CLI, and AWS SDKs. Previously, customers had no self-service way to see their reserved capacity, including reservation timelines and instance availability, and had to rely on AWS Support to plan their own workloads. Starting today, administrators can review the capacity they hold without leaving SageMaker AI. Administrators can list reservations with their status, instance type, availability zone, instance count, start time, and end time.\n\n\nCustomers can view their SageMaker Capacity Reservations under Reserved Capacity section in SageMaker Console. They can open a reservation to see its details, including the ML reservation ARN to use in a SageMaker Inference Endpoint configuration. Additionally, the details page lists the SageMaker AI resources that can use the reservation, such as Amazon SageMaker HyperPod clusters and SageMaker Inference endpoints, and shows the status of each association.\n\n\nThis capability is available in all AWS Regions where Amazon SageMaker HyperPod is available. To learn more, see[Amazon SageMaker HyperPod available regions](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod.html#sagemaker-hyperpod-available-regions) and the[Amazon SageMaker AI user guide](https://docs.aws.amazon.com/sagemaker/latest/dg/sm-capacity-reservations.html) .",
+  "published_at": "2026-11-23T08:00:00+00:00",
+  "first_seen_at": "2026-11-25T02:05:14.347626+00:00",
+  "content_hash": "sha256:6b77922acfefc67c7c0ca20c9c2141461e8a9ddd6e819b7ea6bc5c60e65989ea"
+}

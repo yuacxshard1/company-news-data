@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7ea8d232ead4735e6c56aa5c1419793416cb47e301ac678b5d38c049214387d5",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/clay-api-documentation-api-keys-and-webhooks-2026",
+  "canonical_url": "https://www.activepieces.com/blog/clay-api-documentation-api-keys-and-webhooks-2026",
+  "title": "Clay API: Documentation, API Keys, and Webhooks (2026)",
+  "summary": "Clay API lets you push data via webhooks and retrieve enriched results through HTTP columns. Connect these workflows directly or via automation platforms.",
+  "body_markdown": "## Get your API key and authenticate\n\n\nTo make the first authenticated request you need a Clay table with a webhook source, the URL that source generates, and the auth token sent in a request header.\n\n\nCreate all three under an account the named owner controls, not a contractor's login, because **the token lives and dies with that workspace** .\n\n\n### Create a table and add a webhook source\n\n\nYou can't call Clay cold. Every request lands in a table, so the table comes first. Create a table in the workspace the owner administers, then choose Add source and pick Webhook.\n\n\nIf Webhook is missing from that list, your plan is the likely reason. Settle that with whoever holds the billing relationship before anyone writes code, because the failure otherwise shows up as a missing feature, not an error message.\n\n\n### Copy your Clay webhook URL and token\n\n\nOnce the source exists, Clay shows its unique webhook URL and an authentication token in the webhook source panel. Copy both into your secrets store, not a ticket or a chat thread.\n\n\nThe URL identifies one table. A second table gets a second URL, so a pipeline feeding several tables carries several URLs.\n\n\nSend the token in the` x-clay-webhook-auth` header, with the token as the value and nothing prepended to it. If the panel shows a different header name in its own example, trust the panel. Post a small JSON body to the URL with that header.\n\n\nWhen the call succeeds, you get a success status, and the row appears in the table within moments.\n\n\nLook at the run record below: the input shows a POST carrying its authorization header, and the output returns a 200 with an OK status. Check for the same pairing on your own first request.\n\n\nDon't read a 200 as more than acceptance: the table took the row. **It doesn't mean enrichment has finished.** That result comes back later, through the webhook step that sends rows out.\n\n\n### Check workspace settings for Clay API keys\n\n\nNot every credential lives on the table. Some access is set at the workspace level. Open the workspace settings screen and look for an API or key section. What appears there depends on your plan, so record what you see and what you don't.\n\n\nIf a workspace-level key exists, note who can view and rotate it, and write that person's name beside the table's token in your runbook.",
+  "published_at": "2026-11-24T19:56:18+00:00",
+  "first_seen_at": "2026-11-25T02:01:23.564025+00:00",
+  "content_hash": "sha256:b23753542aa85a0a58866189d31d657b41c795bbe725f35271d18bc10150f078"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e19fd8dac496b37d710d9eaf07844c00ee14ff27330f31d8d4306e9de106613f",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/prefect-cloud-pricing-plans-and-costs-2026-guide",
+  "canonical_url": "https://www.activepieces.com/blog/prefect-cloud-pricing-plans-and-costs-2026-guide",
+  "title": "Prefect Cloud Pricing: Plans and Costs (2026 Guide)",
+  "summary": "Prefect Cloud pricing includes a free tier and paid plans (Starter, Team, Enterprise) so you can evaluate which option suits your workflow needs.",
+  "body_markdown": "## Pick Prefect if the job fits\n\n\nBuy Prefect if the work is Python code that data engineers write and schedule. If the work is app-to-app steps with a human approval, you're shopping in the wrong category, whatever the plan costs.\n\n\n### When Prefect is the right fit\n\n\nIf your pipelines already live in Python and you need scheduling, retries and run history, Prefect fits. Gates such as SSO, RBAC and audit logs matter once several engineers share that workspace. The market is crowded, though.\n\n\nIn the[DataTalks.Club](https://datatalks.club/) survey, **Airflow was used by 48% of respondents** , so it's the default you'll be compared against. Some 36% used no orchestrator at all, so your real competitor may be a cron job.\n\n\n12% used Step Functions, the AWS workflow service, meaning Step Functions was not the predominant choice. Mage and Prefect each sat at 7%, and Dagster at 5%. **Prefect is a small player** , so hiring and community answers will be thinner than for Airflow.\n\n\n### When the task is business workflow automation instead\n\n\nIf the requester is an operations or finance team wiring one SaaS app to another, with a manager approving a step, Prefect's the wrong tool. Nobody there writes Python, so you'd pay for RBAC and audit logs on a platform no one can operate.\n\n\nFor that business-workflow task only, Activepieces covers the app-to-app steps without Python, and it doesn't replace Prefect for pipeline code.\n\n\nIts MIT-licensed core, which is the LICENSE file in the Activepieces GitHub repository, is the self-hosted Community Edition, and its Team plan on cloud lists SSO at $200 a month flat with 25 users included, so you can set that beside Prefect's top-tier SSO gate.\n\n\nIts public pricing page lists \"unlimited flows\" on every plan from Free through Ultimate, so the meter is credits per run, where Zapier's own pricing page bills a task per action. Compare its remaining gates against the same checklist before you decide.",
+  "published_at": "2026-11-24T18:00:33+00:00",
+  "first_seen_at": "2026-11-25T02:01:23.564025+00:00",
+  "content_hash": "sha256:e79cdb2de9806ba9a130f44c911e22a052975ffae55a1df91e89fa12a413746c"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "f8e8c1201009be11514385d0fe88aa19e7ae6f86794390472f1ec23927451743",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-patching-slurm-eks-inference/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-patching-slurm-eks-inference/",
+  "title": "Amazon SageMaker HyperPod extends AMI auto-patching to Slurm and inference on EKS",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker HyperPod extends AMI auto-patching to Slurm and inference on EKS",
+  "body_markdown": "Amazon SageMaker HyperPod now automatically patches AMIs on Slurm clusters and introduces a new AMI patching strategy for Amazon EKS clusters that deploy inference workloads. SageMaker HyperPod is purpose-built infrastructure for training and deploying foundation models at scale. Previously, patching a Slurm cluster meant waiting for training runs to finish, scheduling downtime, and upgrading nodes by hand, which could take days of coordination between infrastructure admins and research scientists. Also, auto-patching on Amazon EKS waited for nodes to go idle, which suited training workloads but left nodes serving inference workloads, which rarely go idle, without critical AMI updates.\n\n\nNow, HyperPod patches both while jobs and models keep running:\n\n\n-\n\n\nAuto-patching (Slurm): HyperPod patches each node only when it is idle, so running jobs aren't disrupted. Teams no longer have to choose between training and security, and can keep clusters secure without coordination between infrastructure admins and research scientists. Each HyperPod AMI has an ImageReleaseVersion that follows semantic versioning (major.minor.patch) across the NVIDIA driver, CUDA, EFA, NCCL, and OS kernel. Auto-patching applies only patch-level updates to the version you select (for example, 1.4.x), so you get security fixes without upgrades that could break your training jobs.\n\n\n-\n\n\nDrainFirst patching strategy (Amazon EKS): HyperPod patches nodes that run inference workloads in rolling batches, draining pods while respecting your Pod Disruption Budgets, so your model keeps serving. If a drain times out, you choose whether HyperPod force-evicts the remaining pods for an urgent patch or skips the node to protect a critical model deployment.\n\n\nWhen a patch AMI is released, HyperPod schedules the patch 21 days out and notifies you through AWS Health. You can apply it earlier, defer it up to 60 days measured from the patch AMI release date, or turn it off.\n\n\nThese capabilities are available in all AWS Regions where SageMaker HyperPod is available. To learn more, see[Amazon SageMaker HyperPod AMI automatic patching](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-ami-auto-patching.html) in the user guide.",
+  "published_at": "2026-11-23T17:00:00+00:00",
+  "first_seen_at": "2026-11-25T02:05:14.347626+00:00",
+  "content_hash": "sha256:963355f515b50ec16b5ddd1d2b07e5c8c9603708c42550a4c03a375b61a1c0dd"
+}

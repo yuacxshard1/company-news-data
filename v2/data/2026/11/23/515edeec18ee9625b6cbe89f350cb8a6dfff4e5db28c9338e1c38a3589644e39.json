@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "515edeec18ee9625b6cbe89f350cb8a6dfff4e5db28c9338e1c38a3589644e39",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-training-validation/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-training-validation/",
+  "title": "Amazon SageMaker HyperPod deep health check now validates training correctness",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker HyperPod deep health check now validates training correctness",
+  "body_markdown": "Amazon SageMaker HyperPod clusters orchestrated by Amazon EKS now support MultiNodeTrainingValidation, a deep health check that validates nodes train correctly before your jobs run. SageMaker HyperPod is purpose-built infrastructure for AI/ML model development, with built-in fault tolerance and automated cluster recovery. Previously, a GPU with a subtle fault could pass hardware stress and connectivity tests and still compute wrong results, and the first sign was often NaN or infinite loss in a production training run.\n\n\nNow, The new MultiNodeTraining Validation check trains a fixed Megatron-LM workload on each instance and then across instances over Elastic Fabric Adapter (EFA), and fails any instance whose training loss is NaN, infinite, or diverging, or whose training doesn't finish in time. For example, you can run the check before a multi-week pre-training run, and with automatic node recovery, HyperPod reboots or replaces any instance that fails, so a faulty GPU doesn't surface days later with numerical faults in your training. You can also configure HyperPod to run the check whenever it adds instances, so new and replaced instances are validated before any jobs are scheduled on them.\n\n\nMultiNodeTrainingValidation deep health check is available for HyperPod clusters orchestrated by Amazon EKS in all AWS Regions where SageMaker HyperPod is available. To learn more about MultiNodeTrainingValidation, see[deep health checks](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-eks-resiliency-deep-health-checks.html) in the user guide and the[blog post](https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/) .",
+  "published_at": "2026-11-23T17:00:00+00:00",
+  "first_seen_at": "2026-11-25T02:05:14.347626+00:00",
+  "content_hash": "sha256:0a970da8051cf689e93640d59bf930f201bbeba4e9f8afbe54e224ce412b45d5"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "ba7c21c6120848acf57c7e6ef2ea940e7d71afb44bbc33cfdb91ac823b63b0a9",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/how-do-bamboohr-api-keys-and-rate-limits-work",
+  "canonical_url": "https://www.activepieces.com/blog/how-do-bamboohr-api-keys-and-rate-limits-work",
+  "title": "How Do BambooHR API Keys and Rate Limits Work?",
+  "summary": "BambooHR API access depends on your plan and pricing isn't published. Check what your subscription includes before building anything.",
+  "body_markdown": "## Call BambooHR time off endpoints without code in Activepieces\n\n\nIf you'd rather not host a script just to poll BambooHR, Activepieces can do it. The flow's a schedule trigger, the BambooHR integration or an HTTP step carrying the same API key, and a Slack or email step at the end.\n\n\nYour plan may not have webhooks, so a scheduled flow's the polling fallback, and running it once a day keeps the load on your throttling budget small.\n\n\n### Generate and secure your API key\n\n\nCreate the connection once and reuse it. You need your company subdomain and an API key. Generate the key under a dedicated user whose permissions you've deliberately limited.\n\n\nUnder an HR admin's login, a key carries the admin's reach into every flow that uses it, because the key inherits that user's access. If that person leaves, the connection breaks with them.\n\n\nFor an HTTP step, BambooHR expects the key as the basic-auth username, with any string as the password. Send an` Accept: application/json` header or you'll get XML back.\n\n\n### Build a daily who's-out workflow\n\n\nStart with a schedule trigger set to early morning in your own time zone. Add a BambooHR action, or an HTTP GET to the` time_off/whos_out` endpoint under your company's gateway URL, with` start` and` end` set to today.\n\n\nEach returned entry carries the employee name, the start and end dates, and the type of leave. Then add a Slack message or email step that lists them.\n\n\n### What the builder looks like\n\n\nA trigger, a few steps, and a Router splitting into branches that each end in a Slack \"Send Message\": that's the builder's shape in the screenshot. A side panel holds the Connection field.\n\n\nThat layout's a HubSpot ticket flow, not a BambooHR one, but yours uses the same integrations.\n\n\nThe trigger and connection're configured on the right, and Test Flow runs it before you press Publish.\n\n\n### Add a Router for quiet days\n\n\nAfter that comes a Router, if you want one. Route by leave type, or send an empty-day result to a different channel so a quiet Monday doesn't read as a broken flow.\n\n\nCheck the integration's action list in the builder before you commit. If the time off call you need isn't there, the HTTP step reaches the same endpoint.\n\n\n### When to use code for BambooHR API calls\n\n\nChoose code when you need to page through large result sets, back off and retry on throttling responses, or compare time off requests against your own database.\n\n\nA flow gives you a visible run history, which's worth a lot at 2am. It gives you less control over retry timing than a script you own.",
+  "published_at": "2026-11-24T18:52:26+00:00",
+  "first_seen_at": "2026-11-25T02:01:23.564025+00:00",
+  "content_hash": "sha256:0108e353d0161c725c0b72eaf7e3822a634b80c7af06d02939ffdc1fdfc8b261"
+}

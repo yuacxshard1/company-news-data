@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "5b399815701eaa0e436d5740d8dc8364e8721e50969d20d80ca7ccbe83ee27dd",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/keeper-pricing-plans-costs-and-extra-seats-2026",
+  "canonical_url": "https://www.activepieces.com/blog/keeper-pricing-plans-costs-and-extra-seats-2026",
+  "title": "Keeper Pricing: Plans, Costs and Extra Seats (2026)",
+  "summary": "Keeper pricing varies by customer segment, with individual and business plan tiers. You'll see what each plan costs and what a 12-person team would pay.",
+  "body_markdown": "## Seat-drift alerts built with Activepieces\n\n\nPer-seat pricing rations automation, and the tool that runs this audit shouldn't repeat the habit that caused the drift. Activepieces is credit-based: a run costs 1 credit however many steps it has, AI steps cost more, and every plan, including free, has unlimited flows.\n\n\nUser allowances differ by plan, so check the live pricing page for the tier a team of your size needs.\n\n\nAlan and Funding Societies run it in production, and each team works in its own project with only the apps an admin has allowed, credentials held centrally.\n\n\nA dashed path shows the manual monthly CSV that can feed the same comparison.\n\n\nTake from it that the automation is a convenience wrapped around the audit rule, not a replacement for it. What follows sets out what the comparison checks and where it stops.\n\n\n### What the Keeper seat-audit workflow checks\n\n\nTwo lists are read on a schedule. The first is the current roster from the HR system (or the identity provider, if that's the system of record for starters and leavers).\n\n\nThe second is the list of users holding Keeper seats. It matches them on work email address.\n\n\nAnyone who appears in Keeper but no longer appears on the roster is posted to a Slack channel, with their name and the date of the check.\n\n\nThat gives the signatory a named list before renewal, so each seat can be reclaimed or justified, and the renewal figure rests on the record rather than on last year's count.\n\n\n### What it cannot see\n\n\nIf your plan or administrator role gives no user export or API access to the seat list, the automated feed doesn't exist. The workflow can only compare what Keeper exposes.\n\n\nThe check then falls back to the dashed path: someone downloads the user list monthly and uploads it as a CSV. That works, and for a small team it may be the better choice, since it costs nothing to maintain.\n\n\nTwo further limits apply. A leaver whose email differs between the two systems will be missed or falsely flagged, so the matching key needs checking. And the alert only names people; reclaiming the seat remains a human decision with an owner.",
+  "published_at": "2026-11-24T19:29:22+00:00",
+  "first_seen_at": "2026-11-25T02:01:23.564025+00:00",
+  "content_hash": "sha256:c3837c80077ef4059d4e18ede2ff04e876e724f92e89fe6815ebd7a7742a9550"
+}

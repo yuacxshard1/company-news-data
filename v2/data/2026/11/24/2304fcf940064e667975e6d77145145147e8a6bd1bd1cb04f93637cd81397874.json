@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "2304fcf940064e667975e6d77145145147e8a6bd1bd1cb04f93637cd81397874",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/monday-api-rate-limits-queries-and-errors-2026",
+  "canonical_url": "https://www.activepieces.com/blog/monday-api-rate-limits-queries-and-errors-2026",
+  "title": "Monday API: Rate Limits, Queries and Errors (2026)",
+  "summary": "The monday API is a GraphQL service with a single endpoint. After reading, you'll be able to authenticate and execute your first API call.",
+  "body_markdown": "## Call the monday API without code using Activepieces\n\n\nActivepieces, whose MIT-licensed core ships 750 integrations, covers that notify-then-fetch loop without code: it has a monday.com integration for working with your boards, and a custom API call action for anything else.\n\n\nThe first question is who owns the flow once it's live, because a no-code step that fails at 2am still pages a person.\n\n\n### Connect monday.com and create an item\n\n\nStart a new flow, choose a monday.com trigger such as a change on a board, and create the connection under a service identity your team controls, not one person's login.\n\n\nIf that person leaves, the connection goes with them and every flow built on it stops.\n\n\nThen add a monday.com action and pick create item.\n\n\nBelow is the \"AI Blog Writer\" flow, which is not a monday flow. It shows the mechanics you'll use: a trigger, two Open AI steps, and a selected Wordpress step whose panel fills Title and Content from the outputs of earlier steps.\n\n\nConfigure a monday create-item step the same way, with board and fields filled from the trigger's output. Where the flow loses data is in those mappings, so test each one with a real event before you switch the flow on.\n\n\nAfter the mapping works, run the trigger and the action end to end and read the run history. That history is your first stop when something fails.\n\n\n### When to use the custom API call action\n\n\nWhen the prebuilt actions don't reach what you need, such as a narrow query that fetches only the fields you want, use the custom API call action.\n\n\nYou write the request yourself, so the complexity budget described earlier is still yours to manage. The integration doesn't shrink your queries for you, and a wide query will spend budget in a flow as quickly as in a script.\n\n\nStay with code when you need fine control over retries and backoff, bulk reads across many boards, or tests that run in version control. A flow canvas is a poor place to review a change to a query.\n\n\n### What to do on Monday morning\n\n\nName an owner for each flow and for the monday connection it uses, and write down who gets alerted on failure. Rebuild one existing script as a trigger plus create-item flow, and compare its run history with your current logs.\n\n\nReplace any wide query in a custom API call step with a narrow one. Keep the low-frequency reconciliation pass, whether it's a scheduled flow or a script. Decide in advance which tasks leave the canvas and move back into code.",
+  "published_at": "2026-11-24T20:45:17+00:00",
+  "first_seen_at": "2026-11-25T02:01:23.564025+00:00",
+  "content_hash": "sha256:3b2e335eb2d3db5dfc78aa03364cb8fd7891520339b1625cf421a53911b96e57"
+}

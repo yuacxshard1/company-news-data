@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "65bf7cd898ebd413ee33f728a3c7d604cd658f807b80aa1d0e40e5fc16052ca9",
+  "company_key": "yc-prembly",
+  "company_name": "Prembly (formerly Identitypass)",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://blog.prembly.com/injection-attacks-identity-verification/",
+  "canonical_url": "https://blog.prembly.com/injection-attacks-identity-verification/",
+  "title": "Injection Attacks in Identity Verification: How They Work and How Businesses Can Prevent Them",
+  "summary": "Learn how injection attacks exploit identity verification systems, the risks they pose to businesses, and how to detect and prevent biometric fraud.",
+  "body_markdown": "### **1. Can injection attacks target biometric systems beyond facial recognition?**\n\n\nYes. Although facial recognition is a common target, injection attacks can potentially affect other biometric systems, including fingerprint and voice recognition. The risk depends on how the system captures, processes and validates biometric data. Businesses should therefore assess the security of the entire biometric capture process, not just facial recognition.\n\n\n### **2. What should a business do if it suspects an injection attack?**\n\n\nThe business should investigate the affected verification session, review device and session information, and check for signs of virtual cameras, emulators or manipulated data. It should also apply additional identity checks where necessary, document the incident and review its security controls to identify how the attack occurred.\n\n\n### **3. Do injection attacks only affect remote identity verification?**\n\n\nNo. Remote identity verification is particularly exposed because biometric information is captured and transmitted through digital devices. However, any biometric system that processes digital data could be at risk if its capture process or data transmission can be manipulated.",
+  "published_at": "2026-11-24T18:01:38+00:00",
+  "first_seen_at": "2026-11-24T23:24:26.794459+00:00",
+  "content_hash": "sha256:fe4fcc9db72be571ea08789959a29acb2937aa67904e02801ce3db4c4daa9b22"
+}

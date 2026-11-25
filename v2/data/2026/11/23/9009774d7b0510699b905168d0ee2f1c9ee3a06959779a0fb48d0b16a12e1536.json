@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9009774d7b0510699b905168d0ee2f1c9ee3a06959779a0fb48d0b16a12e1536",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-slurm-hung-jobs/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-slurm-hung-jobs/",
+  "title": "Amazon SageMaker HyperPod now detects and recovers hung training jobs on Slurm clusters",
+  "summary": "Discover more about what's new at AWS with Amazon SageMaker HyperPod now detects and recovers hung training jobs on Slurm clusters",
+  "body_markdown": "Amazon SageMaker HyperPod now supports hung job detection for Slurm-orchestrated clusters, which finds training jobs that have stopped making progress and returns them to the job queue. SageMaker HyperPod helps you provision resilient clusters for training and deploying AI/ML models. Previously, a job that hung on an NCCL timeout, a stalled data pipeline, or a deadlock kept its GPUs while Slurm reported it as running, until you noticed that the job is not making progress.\n\n\nNow, if a training run hangs, HyperPod detects it within minutes from the job's output and GPU activity, or from log patterns that you define, such as your training step message or an NCCL error, and writes an event to Amazon CloudWatch. You can also have HyperPod cancel the hung job and let Slurm requeue it, so the job can restart from its last checkpoint instead of holding its GPUs idle. You turn on detection per job with an environment variable that points to a rules file, and it works with any framework, including PyTorch, TensorFlow, and JAX, without changes to your code or containers.\n\n\nHung job detection is available for HyperPod clusters orchestrated by Slurm in all AWS Regions where SageMaker HyperPod is available.To learn more, see[hung job detection](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-resiliency-slurm-hang-detection.html) in the user guide and the[blog post](https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/) .",
+  "published_at": "2026-11-23T17:00:00+00:00",
+  "first_seen_at": "2026-11-25T02:05:14.347626+00:00",
+  "content_hash": "sha256:53df42599ea55f038fa59fba8c31c4e4878999e41df7d0fefbccb38da613f35e"
+}

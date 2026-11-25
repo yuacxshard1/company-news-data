@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "0c77d3843195c9d6690977a369e2f39949200dc487132d793516382e34467c5d",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/mastodon-api-rate-limits-and-auth-for-developers",
+  "canonical_url": "https://www.activepieces.com/blog/mastodon-api-rate-limits-and-auth-for-developers",
+  "title": "Mastodon API Rate Limits and Auth for Developers",
+  "summary": "Mastodon API offers free, unrestricted access with OAuth 2 authentication. Manage rate limits and 429 errors to prevent breaking your bots.",
+  "body_markdown": "## Rate limits and 429 impact\n\n\nWhen a retry ignores the flat ceiling of **300 requests within 5 minutes** , where the 429 comes from, it only spends more of the same budget.\n\n\n### What the docs say the limits are, by scope\n\n\nThere are no tiers to buy your way out of the 3,600 requests per hour Mastodon allows, so the platform imposes this ceiling uniformly on every user.\n\n\nGitHub, by comparison, gives authenticated callers 5,000 requests an hour and unauthenticated ones just 60, per its[REST rate-limit docs](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api) , making authentication a critical choice for your GitHub API quota; without it, you're limited to one request per minute.\n\n\nSo Mastodon is more generous than an anonymous GitHub client and tighter than a signed-in one. Instance admins can change the numbers, so the figure you tested against may not be the one on the next server.\n\n\nOn every response you get` X-RateLimit-Limit` ,` X-RateLimit-Remaining` and` X-RateLimit-Reset` . Log them on every call. **When Remaining nears zero, sleep until Reset instead of waiting for the 429, because your retry logic then never spends budget it doesn't have.**\n\n\n### Reducing Mastodon API requests with page sizes\n\n\nStart with page size, the cheapest saving. Per the[timelines docs](https://docs.joinmastodon.org/methods/timelines/) , timelines and search return 20 items by default and cap at 40. Suggestions and the directory default to 40 and cap at 80.\n\n\nPaging 1,000 timeline items at the default takes 50 requests; at the maximum it takes 25, which means you can halve your request consumption by configuring maximum page size.\n\n\nThat halves your spend with one parameter, and the same holds for suggestions and the directory, where the 80 cap does it.\n\n\n### Cost of a Mastodon rate limit burst\n\n\nTreat these costs as coming from our scenario, not from a measured benchmark.\n\n\nA backfill job pulled timelines at the default page size and shared its hourly budget with the publishing job. The backfill drained the budget, the publisher started getting 429s, and scheduled posts went out late.\n\n\nWith no idempotency key in the first retry loop, some posts were created twice.\n\n\nThe cleanup meant finding the duplicates by hand, deleting them and apologizing to followers. It took hours that one` limit=40` parameter, a header check and a separate token for each job would've saved.",
+  "published_at": "2026-11-24T20:29:34+00:00",
+  "first_seen_at": "2026-11-25T02:01:23.564025+00:00",
+  "content_hash": "sha256:e3e38b3753395ce09771a285ca480426d9c00bdd4b1bee4743d0ab75dcdbea5e"
+}

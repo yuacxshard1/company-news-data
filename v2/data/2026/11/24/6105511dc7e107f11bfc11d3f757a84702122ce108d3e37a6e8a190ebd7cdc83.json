@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "6105511dc7e107f11bfc11d3f757a84702122ce108d3e37a6e8a190ebd7cdc83",
+  "company_key": "yc-activepieces",
+  "company_name": "Activepieces",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://www.activepieces.com/blog/jamf-pricing-plans-and-costs-per-device-2026",
+  "canonical_url": "https://www.activepieces.com/blog/jamf-pricing-plans-and-costs-per-device-2026",
+  "title": "Jamf Pricing: Plans and Costs Per Device (2026)",
+  "summary": "Jamf pricing in 2026 is structured per device across plans by platform and company size. Find the costs for each tier to match your IT budget needs.",
+  "body_markdown": "## Automating Jamf admin work with Activepieces\n\n\nCount Activepieces as an offset to labor, not a discount on licenses: it won't lower your Jamf bill, it only trims the staff time spent around the subscription.\n\n\nThat distinction matters when you price the bundle, because a tool that saves an hour of ticket handling is a different line item from a price hold on an add-on, and it shouldn't be used to justify a bigger plan.\n\n\nAs a workflow automation tool,[Activepieces](https://www.activepieces.com/) sits between the systems where requests start and the Jamf API where devices get assigned or retired.\n\n\nIts published pricing page lists 1 credit per flow run, any number of steps, so a ten-step onboarding flow costs what a two-step shortcut does; Zapier's pricing page bills per task and Make's pricing page per module, so the same ten steps add up to more on those meters.\n\n\nWhat to take from it is that the people asking never touch Jamf, and the flow does the repeatable part.\n\n\n*(diagram)*\n\n\nOnce the flow is in place, the work that used to be someone's afternoon becomes a trigger, which is why the two cases below are the ones worth checking first.\n\n\n### Automating Jamf device onboarding and offboarding\n\n\nWhen a new-hire record lands in the HR system, it can open a ticket and post to a chat channel, and the flow can then assign a device in Jamf. An exit record can do the reverse and mark the device for retirement.\n\n\nWhen retirement waits on someone remembering, devices stay counted after they've left, and you keep paying for them. That cost consequence is quieter than the labor one. Automated offboarding keeps your device count honest, which is the number the whole quote rests on.\n\n\nYou may not need any of this on a small fleet. If you handle a handful of changes a month, a manual step costs less than building and maintaining a flow, and someone has to own that flow.\n\n\n### What it needs from Jamf's API\n\n\nBefore you build anything, check Jamf's API documentation for the authentication method and the permissions each call requires, because the flow can only do what its Jamf credentials allow.\n\n\nGive the flow its own API account scoped to assigning and retiring devices, not a shared admin login. A shared login hides who changed what, and it lets one team's automation run with another team's access.\n\n\nConfirm too that API access is included in your plan rather than assuming it, since that's exactly the kind of thing the price comparison should surface.",
+  "published_at": "2026-11-24T17:25:33+00:00",
+  "first_seen_at": "2026-11-25T02:01:23.564025+00:00",
+  "content_hash": "sha256:1db800f7ac8d516da37e85baf770c1671722a71f0eebb5f10e94b440118c4125"
+}

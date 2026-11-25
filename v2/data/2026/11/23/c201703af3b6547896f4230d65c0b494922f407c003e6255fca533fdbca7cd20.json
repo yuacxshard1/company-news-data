@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c201703af3b6547896f4230d65c0b494922f407c003e6255fca533fdbca7cd20",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
+  "title": "AWS Quick adds identity-aware access via 3LO for Snowflake and Databricks structured data sources",
+  "summary": "Discover more about what's new at AWS with AWS Quick adds identity-aware access via 3LO for Snowflake and Databricks structured data sources",
+  "body_markdown": "AWS Quick now supports three-legged OAuth (3LO) with end-user permissions for Snowflake and Databricks. When end users in AWS Quick consume Chat, interactive dashboards, or Apps, queries run using their own Snowflake or Databricks identity. Governance policies configured in Snowflake or Databricks Unity Catalog, including applicable row- and column-level controls and access to tables and views, are enforced by the source platform without requiring teams to recreate those policies in Quick.\n\n\nTo get started, an administrator adds an OAuth client application in Quick account settings. Data curators then create a Snowflake or Databricks data source, choose 3LO, and turn on trusted identity propagation so each user's identity is passed to the source. End-user permissions through 3LO are supported only for DirectQuery datasets.\n\n\nThis feature is available in Quick regions[here](https://docs.aws.amazon.com/quick/latest/userguide/regions.html) . To learn more, see[Using Snowflake with AWS Quick](https://docs.aws.amazon.com/quick/latest/userguide/connecting-to-snowflake.html) and[Setting up identity enforcement with Databricks 3LO](https://docs.aws.amazon.com/quick/latest/userguide/catalog-integration-databricks-3lo.html) .",
+  "published_at": "2026-11-23T17:00:00+00:00",
+  "first_seen_at": "2026-11-25T02:05:14.347626+00:00",
+  "content_hash": "sha256:f95f966e412c3e67f31829c47b1b6ee78062b53bbf5260a6a481e51f2720f341"
+}
