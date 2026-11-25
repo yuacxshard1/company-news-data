@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "e51e2a4c53b96ab4e18a9fc271c5ba4d618935f375b493e56df0b93a98b55514",
+  "company_key": "yc-testrigor",
+  "company_name": "testRigor",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "rss",
+  "url": "https://testrigor.com/blog/qt-quick-controls-support-authentication-overrides-and-cli-test-suite-export/",
+  "canonical_url": "https://testrigor.com/blog/qt-quick-controls-support-authentication-overrides-and-cli-test-suite-export/",
+  "title": "testRigor Release: Qt Quick Controls Support, Authentication Overrides, and CLI Test Suite Export",
+  "summary": "Support for Qt Quick Controls We have added support for applications built with Qt Quick Controls in native desktop test suites. When creating a Native Desktop test suite, users can choose whether to enable Qt command recognition. This option can also be enabled or disabled in an existing test suite by navigating to Settings → ...",
+  "body_markdown": "Heather Brooks\n\n\n- [Releases](https://testrigor.com/blog/category/releases/)\n\n\n**Weekly Newsletter**\nReceive weekly testRigor newsletters packed with insights on test automation, codeless testing, and the latest advancements in AI.\n\n\n## Support for Qt Quick Controls\n\n\nWe have added support for applications built with Qt Quick Controls in native desktop test suites.\n\n\nWhen creating a Native Desktop test suite, users can choose whether to enable Qt command recognition. This option can also be enabled or disabled in an existing test suite by navigating to **Settings → Advanced** .\n\n\n## Overriding Authentication Credentials via the API and CLI\n\n\nUsers can now override a test suite’s authentication credentials using the Retest API or the CLI.\n\n\nTo override authentication credentials via the API, include the following structure in the request body:\n\n\n```text\n{\n\"authentication\": [\n{\n\"username\": \" [email protected]  \",\n\"password\": \"secret\",\n\"basicAuth\": { \"username\": \"staging\", \"password\": \"secret2\" },\n\"otpRegistrationCode\": \"JBSWY3DPEHPK3PXP\",\n\"phoneNumber\": \"+15551234567\",\n\"defaultClientCertificate\": \"qaCert\",\n\"defaultPasskey\": \"qaPasskey\"\n}\n]\n}\n```\n\n\nFor more information on how to use this feature, refer to the **CI/CD** section of your test suite.\n\n\n## Exporting Test Suites via the CLI\n\n\nWe have added a new command to the testRigor CLI that allows users to export test suites directly to their current working directory.\n\n\nThe command syntax is as follows:\n\n\n```text\ntestrigor forcepull [<suite>]\n```\n\n\nThe command first downloads the specified test suite to a temporary directory. If the download fails, the contents of the user’s working directory remain unchanged.",
+  "published_at": "2026-11-24T23:39:26+00:00",
+  "first_seen_at": "2026-11-25T07:19:25.675626+00:00",
+  "content_hash": "sha256:b44d1ee78bacefdadd370f0fb342bb5dbac989d6f77bae16cba11ffc1ea1c6b6"
+}
