@@ -9,6 +9,16 @@
       "source_kind": "html",
       "summary": "How I redesigned Autumn's site with Capy and Paper without reading a line of code, with the designs that made it and the ones that didn't.",
       "title": "Redesigning Autumn in 3 days"
+    },
+    {
+      "company_key": "yc-autumn",
+      "company_name": "Autumn",
+      "doc_id": "6f6462a9b57834e5d2c27af2123d481e3a7028c39026dda0e78c206e544f21b6",
+      "first_seen_at": "2026-11-26T02:36:56.632064+00:00",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "source_kind": "html",
+      "summary": "Our Redis write-behind cache kept losing writes, so we replaced it with an ordered log and one writer per customer. Track p99 went from 108 ms to 25 ms.",
+      "title": "We got rid of Redis and made our API 4x faster"
     }
   ],
   "company_key": "yc-autumn",

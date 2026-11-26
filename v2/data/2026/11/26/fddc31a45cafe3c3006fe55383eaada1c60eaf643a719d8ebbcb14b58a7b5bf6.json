@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fddc31a45cafe3c3006fe55383eaada1c60eaf643a719d8ebbcb14b58a7b5bf6",
+  "company_key": "yc-reactwise",
+  "company_name": "ReactWise",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://www.reactwise.com/news/you-need-less-data-for-a-kinetic-model-than-you-think-two-or-three-runs-is-usually-enough-to-start",
+  "canonical_url": "https://www.reactwise.com/news/you-need-less-data-for-a-kinetic-model-than-you-think-two-or-three-runs-is-usually-enough-to-start",
+  "title": "You need less data for a kinetic model than you think. Two or three runs is usually enough to start.",
+  "summary": "Read the latest news and updates from ReactWise about AI-driven chemistry and process optimization.",
+  "body_markdown": "You need less data for a kinetic model than you think. Two or three runs is usually enough to start.\n\n\nWe hear the same objection constantly: we don't have enough data for kinetics. Underneath it is an assumption that kinetic modeling needs its own campaign, designed up front and run properly. So it gets scheduled after optimization, which means it does not happen. By then the material is gone and the team has moved on.\n\n\nWhat you actually need for a first model is two or three runs with five to ten time points each.\n\n\nYou are identifying a mechanism and estimating rate parameters, and a handful of concentration-time trajectories.\n\n\nWhat it does not give you is confidence everywhere. So a first model is a hypothesis, and the useful output is not the fitted parameters. It is where the fit is weak.\n\n\nThat is why we built Kinetics360 at @ReactWise.\n\n\nIt proposes candidate mechanisms from scratch, ranks them on fit against complexity, tells you when your data cannot separate two competing models, and says what to run to break the tie. Then it iterates.\n\n\nOnce a model stands up, you can simulate new conditions you have never run, and find conditions that hold yield while keeping an impurity under spec.\n\n\nStart with three runs. Let the model tell you what to run next.\n\n\n‍",
+  "published_at": "2026-11-26T00:00:00+00:00",
+  "first_seen_at": "2026-11-25T01:44:05.681730+00:00",
+  "content_hash": "sha256:77359086cae6466ebaac68e656e8ed8071546101076326a0b6302906cfcc3d64"
+}
