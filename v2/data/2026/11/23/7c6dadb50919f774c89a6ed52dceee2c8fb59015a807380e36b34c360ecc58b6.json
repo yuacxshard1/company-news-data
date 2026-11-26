@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "7c6dadb50919f774c89a6ed52dceee2c8fb59015a807380e36b34c360ecc58b6",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/supabase-cli-config-jsonc-default",
+  "canonical_url": "https://supabase.com/changelog/supabase-cli-config-jsonc-default",
+  "title": "supabase init creates config.jsonc for new projects",
+  "summary": "supabase init creates config.jsonc for new projects",
+  "body_markdown": "Since Supabase CLI v3.4.0, released on 2026-11-24,` supabase init` creates` supabase/config.jsonc` for new projects instead of` supabase/config.toml` . It holds the same settings, written as JSON with comments, and a` $schema` line points at the hosted config schema, so editors that support JSON Schema validate and autocomplete it with no extension to install. The same schema lets coding agents and` supabase config validate` catch config mistakes before they reach` supabase start` or a deploy.\n\n\nExisting projects keep` config.toml` , and it stays fully supported. The CLI never converts a project unless you ask it to, and` supabase config convert` moves a project between the two formats whenever you like. Supabase CLI 3.1.0 and later and Branching preview branches already read` config.jsonc` .\n\n\n### A heads-up for tools that read config.toml\n\n\nMost projects don't need to do anything. The one thing to check is anything outside the CLI that reads` supabase/config.toml` directly, for example a third-party tool, script, CI step or Dockerfile that looks up` project_id` or a port. On a project created with CLI v3.4.0 or later, that file doesn't exist.\n\n\n- If you maintain a tool that reads the Supabase config, also look for` supabase/config.jsonc` and` supabase/config.json` . A JSON file takes precedence over` config.toml` , and having both` config.json` and` config.jsonc` is an error. Parse` config.jsonc` as JSON with comments and trailing commas. The keys are the same as in` config.toml` .\n- Use Supabase CLI 3.1.0 or later wherever a new project runs, including` supabase/setup-cli` in CI. Older versions don't read` config.jsonc` and run with default settings.\n- To keep TOML for a new project, run` supabase config convert --to toml` (CLI 3.3.0 or later) after` supabase init` . It writes` config.toml` and moves` config.jsonc` to` config.jsonc.bak` .\n\n\n### Timeline\n\n\nDate Release\n\n\n2026-11-09 CLI 3.1.0 reads` config.json` and` config.jsonc`\n\n\n2026-11-16 CLI 3.2.0 adds` supabase config validate` and` supabase config convert`\n\n\n2026-11-23 CLI 3.3.0 adds` supabase config convert --to toml`\n\n\n2026-11-24 CLI 3.4.0:` supabase init` creates` config.jsonc` for new projects\n\n\nWe're working on more guides and support content for` config.jsonc` , and more guidance will follow. Until then, the[Config file formats](https://supabase.com/docs/guides/local-development/cli/config-formats) guide covers both formats.\n\n\nIf something stops working, especially a tool, script or CI step that only reads` config.toml` , tell us by running` supabase issue bug` or[opening an issue](https://github.com/supabase/cli/issues) . Your reports show us which tools still need updating.",
+  "published_at": "2026-11-23T00:00:00+00:00",
+  "first_seen_at": "2026-11-26T13:36:03.264498+00:00",
+  "content_hash": "sha256:d2e89afb464a6008817081b5eee280e8798af382020681a2d8b0ce3906a491b0"
+}

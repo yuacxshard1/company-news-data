@@ -5,7 +5,7 @@
       "company_name": "Strac",
       "doc_id": "064e71223dadf8d15a9565027ca4185aed3bccc66ea30a4e7d58d57c90cbb372",
       "first_seen_at": "2026-11-25T03:50:51.925614+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Windsurf ships a hook layer and it is off by default, which is the single most important thing to know. What to enable, what to block, and how Windsurf fits a mixed-agent fleet.",
       "title": "Windsurf Security: Turn On the Hook Layer First"
@@ -15,7 +15,7 @@
       "company_name": "Strac",
       "doc_id": "0af8d06cbe813a6cee9b82694154190d722508cf5e8cded71f991c45de865e12",
       "first_seen_at": "2026-11-25T03:50:51.925614+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "The highest-value control for any AI coding agent is a hook that refuses reads of credential files. Here is the path list, the working script, the exit code that blocks, and the three gaps a path blocklist leaves open.",
       "title": "Stop AI Agents Reading Your Secrets: The One Hook"
@@ -35,7 +35,7 @@
       "company_name": "Strac",
       "doc_id": "16f518805e76900bab2d020a4178de36aac6e0c9dbbf42a77b77cc0991402024",
       "first_seen_at": "2026-11-25T03:50:51.925614+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "What Cursor actually sends off your machine, what codebase indexing stores, what Privacy Mode does and does not cover, and how to use Cursor's own hook layer to block secrets before the agent reads them.",
       "title": "Cursor Security: Stop Secrets Leaving Your Machine"
@@ -95,7 +95,7 @@
       "company_name": "Strac",
       "doc_id": "3c8d80082684036408bc448c97c83b591a238e460c43061571d9f2abd656ddbe",
       "first_seen_at": "2026-11-25T03:50:51.925614+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Codex runs with shell and filesystem access on your machine. What that actually reaches, how Codex's own hook layer blocks a tool call before it executes, and what its admin surface will not show you.",
       "title": "Codex Security: Block Secrets Before the Agent Runs"
@@ -135,7 +135,7 @@
       "company_name": "Strac",
       "doc_id": "4bb596cb88175b4f316a44e2ed5719fac0ebc7fa17b5bbe00c575343d31d399f",
       "first_seen_at": "2026-11-25T03:50:51.925614+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Gemini CLI reads files, runs commands and calls MCP servers on your machine. The paths worth blocking, how its hook layer works, and what Google Workspace admin visibility does not extend to.",
       "title": "Gemini CLI Security: What to Block and Why"
@@ -185,7 +185,7 @@
       "company_name": "Strac",
       "doc_id": "7c7564b3c0efea15f19eb5f354f76bb526b0898a034cb1e3786f444be6149f31",
       "first_seen_at": "2026-11-25T03:50:51.925614+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "GitHub Copilot CLI runs commands and reads files on your machine, which is a different risk surface from inline completions. What to block, how its hook layer works, and the repository blind spot.",
       "title": "GitHub Copilot CLI Security: Controls That Hold"
@@ -205,7 +205,7 @@
       "company_name": "Strac",
       "doc_id": "81dd43c842d192c843316dcdd99b1b31ed1008d2ae8146ec5a9c799f6191e33b",
       "first_seen_at": "2026-11-15T16:31:29.986931+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "MCP is the new AI data leak vector. Learn how to secure MCP servers, authentication, authorization, prompt injection, tool poisoning, and the Claude Cowork BAA gap, with a real data-layer playbook.",
       "title": "MCP Security: How to Secure MCP Servers, Connectors & Data"
@@ -255,7 +255,7 @@
       "company_name": "Strac",
       "doc_id": "a7037ae776003f0dc41dee9d58352e78b8b4c9b69f4142b096a07d75f5a27712",
       "first_seen_at": "2026-11-15T16:31:29.986931+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "Shadow AI is any AI tool or agent used at work without approval. The definition, seven risks, the shadow AI agents nobody registered, and how to govern them.",
       "title": "What Is Shadow AI? Risks, Examples and How to Stop It"
@@ -315,7 +315,7 @@
       "company_name": "Strac",
       "doc_id": "c6af0cca50a08ce111868d845be87c34a1c09b7c653b7ec32647b2419d218bf9",
       "first_seen_at": "2026-11-07T04:22:19.368657+00:00",
-      "published_at": "2026-11-25T00:00:00+00:00",
+      "published_at": "2026-11-26T00:00:00+00:00",
       "source_kind": "html",
       "summary": "AI governance is more than policy. It means knowing who is using what AI, what data goes into it, and what your agents are doing. Here is how to answer all three.",
       "title": "AI Governance: The Three Questions to Answer First"
