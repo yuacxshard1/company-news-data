@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "c8f82c66ca26c3916560f9653c5ed3bbd94151552ba76dae25041a9971c75a47",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/",
+  "title": "Amazon Transcribe Turbo: more accurate transcripts and natural turn-taking for voice agents, now in public preview",
+  "summary": "Discover more about what's new at AWS with Amazon Transcribe Turbo: more accurate transcripts and natural turn-taking for voice agents, now in public preview",
+  "body_markdown": "Amazon Transcribe Turbo, our next-generation speech-to-text model, is now in public preview in US East (Ohio) for batch and streaming. Turbo improves accuracy, supports custom vocabulary, and formats numbers, dates, currency, phone numbers and addresses following each locale's conventions.\n\n\n-\n\n\n**Streaming:** English, Portuguese, French, Italian, German and Spanish supported. Word Error Rate (WER) drops ~14% relative in English and 11% relative in the other languages versus the current production model, and formatting accuracy improves by more than 20 points.\n\n\n-\n\n\n**Batch:** English Turbo is generally available in most AWS Regions. Portuguese, French, Italian, German, Spanish, Chinese, Japanese, Korean and Arabic are now in preview, with ~16% lower word error rate.\n\n\nThe base model needs no API, code, or SDK changes.\n\n\nTurbo streaming also adds two new features for voice agents in English at launch and for other languages by the end of December 2026.\n\n\n**Semantic turn-taking** detects when a caller is done speaking from *what* they said and their *prosody* in speech, not silence alone. It won't cut callers off mid-sentence (\"I'd like to transfer… $250 to savings\") or make short answers like \"yes\", \"no\" wait on silence timeouts. It responds in about 615 ms with a 5% interruption rate, and you can tune it.\n\n\n**Runtime ASR hints** give your agent context at every turn. Unlike static custom vocabulary, set once per session, hints enable your client application to send menu options, expected names and the expected entity type (date, phone number, currency) before each turn. On English customer service data, hints raise menu-routing accuracy from 87% to 97%.\n\n\nBoth features come at no additional charge. To try them, turn on EndOfTurnDetection and send hints in a ConfigureEvent.\n\n\nLearn more in the[Builder Center blog](https://builder.aws.com/content/3MbnTQKvOMxTZQbm34D6XV7hv8q/getting-started-with-amazon-transcribe-turbo-and-voice-agent-features) and the[sample voice agent on GitHub](https://github.com/aws-samples/amazon-ai-samples/tree/main/speech-to-text/turbo/features/javascript) .",
+  "published_at": "2026-11-25T08:00:00+00:00",
+  "first_seen_at": "2026-11-26T03:40:50.191419+00:00",
+  "content_hash": "sha256:a225c36a9a2337d783c02e62709b962458a2f2d9b202ee223e5543e0a9958ac8"
+}

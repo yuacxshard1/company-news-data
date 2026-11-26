@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9d0c81cd73dd2d4ed25691837e7221dd0f5b02f0eed384c6bf15fb864f8cc5fc",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-virtual-devices/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-virtual-devices/",
+  "title": "AWS Device Farm now supports Android emulators and iOS simulators",
+  "summary": "Discover more about what's new at AWS with AWS Device Farm now supports Android emulators and iOS simulators",
+  "body_markdown": "[AWS Device Farm](https://aws.amazon.com/device-farm/) , a service for testing mobile and web apps, now supports Android emulators and iOS simulators alongside real devices for automated and manual testing, enabling faster testing at scale early in your development pipeline. With virtual devices, you can shift testing left to stages that need high speed and volume, such as pull requests, code merges, and smoke tests, and keep real devices for later stages that need high fidelity, such as regression and release testing. Virtual devices running the latest device and OS typically start in seconds, and others start in around a minute.\n\n\nPreviously, you could build and maintain your own Android emulator and iOS simulator infrastructure, which requires separate tooling and compute such as Mac hosts for iOS, or run every stage on real devices, which is slower, limited by device availability, and costs more than early-stage testing needs. Now you can use the same fully managed Device Farm APIs, test environment, private endpoint access, and test frameworks for both virtual and real devices. To switch, you change only the device type, so your pipeline and tests stay the same and you avoid maintaining two separate orchestration layers.\n\n\nVirtual devices use the existing metered[pricing](https://aws.amazon.com/device-farm/pricing/) . For Android, your existing unmetered slots now go further and run either a real or a virtual device at no additional charge.\n\n\nAndroid emulators and iOS simulators are available in all[AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AWS Device Farm is offered.\n\n\nTo get started, see the AWS Device Farm[Developer Guide](https://docs.aws.amazon.com/devicefarm/latest/developerguide/virtual-devices.html) .",
+  "published_at": "2026-11-25T08:00:00+00:00",
+  "first_seen_at": "2026-11-26T03:40:50.191419+00:00",
+  "content_hash": "sha256:58183e9b5b0e7227dead182eacc7545aec3c0a8f372fd44961dbb88c838f2c7a"
+}

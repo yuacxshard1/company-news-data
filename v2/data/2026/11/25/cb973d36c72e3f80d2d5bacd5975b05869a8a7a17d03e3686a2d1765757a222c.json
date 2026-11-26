@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "cb973d36c72e3f80d2d5bacd5975b05869a8a7a17d03e3686a2d1765757a222c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iot-core-quota-usage-monitoring/",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iot-core-quota-usage-monitoring/",
+  "title": "AWS IoT Core quotas and usage are now visible in AWS Service Quotas console",
+  "summary": "Discover more about what's new at AWS with AWS IoT Core quotas and usage are now visible in AWS Service Quotas console",
+  "body_markdown": "[AWS IoT Core](https://aws.amazon.com/iot-core/) now publishes its most used service quotas and your current usage against the quotas in[AWS Service Quotas console](https://us-east-1.console.aws.amazon.com/servicequotas/home/dashboard) , improving observability and monitoring of API limits and quotas. This launch enables you to monitor your service quota usage, set alarms before you are throttled, and request quota increases ahead of planned growth.\n\n\nAWS IoT Core is a fully managed service that securely connects IoT devices at scale to the AWS cloud and routes IoT device data to AWS and third-party services. As your device fleet grows, your applications depend on quotas for operations, such as connecting and authenticating devices, publishing and subscribing to messages. Previously, service quotas and usage were not visibile in AWS Service Quotas Console and you had to contact AWS Support to learn about your current utilization before throttling occured. Now you can view quotas and usage for both device messaging (data plane) and resource management (control plane) APIs. You can also use[Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) usage metrics to create alarms that notify you when your usage approaches a quota.\n\n\nTo get started, visit AWS Service Quotas console and choose AWS IoT Core. This capability is available at no additional cost. To learn more, see[AWS IoT Core quotas](https://docs.aws.amazon.com/general/latest/gr/iot-core.html) in the AWS General Reference and[Viewing service quotas](https://docs.aws.amazon.com/servicequotas/latest/userguide/gs-request-quota.html) in the Service Quotas User Guide.",
+  "published_at": "2026-11-25T08:00:00+00:00",
+  "first_seen_at": "2026-11-26T03:40:50.191419+00:00",
+  "content_hash": "sha256:5926177cced1ee16f8e6e3325e549c8134b10e15b41ad6a99b9f2ba9b6f70530"
+}
