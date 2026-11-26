@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "756547bf39bf947d76c67ba9645c6f237873857dbbdc06118fdc29e8df37c29c",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available",
+  "title": "Elastic Load Balancing for Envoy is now generally available",
+  "summary": "Discover more about what's new at AWS with Elastic Load Balancing for Envoy is now generally available",
+  "body_markdown": "Today, AWS announces the general availability of ELB for Envoy, a new load balancer type in Elastic Load Balancing (ELB) that runs open-source Envoy proxies. Platform teams that run Envoy themselves own upgrades, security patching, and capacity across Availability Zones (AZs). ELB for Envoy takes on that work. Each load balancer runs its proxies on dedicated Amazon Elastic Compute Cloud (Amazon EC2) instances with hardware isolation from the AWS Nitro System, so a zero-day in Envoy stays contained to your load balancer. ELB for Envoy also monitors for security vulnerabilities (CVEs) and applies Envoy and operating system patches automatically, so you can focus on your applications instead of your proxy fleet.\n\n\nYou can bring your existing Envoy configurations, extensions, and control planes as they are, and add AWS integrations such as AWS Certificate Manager (ACM) and AWS WAF with minimal configuration. If you run Envoy Gateway on Kubernetes, install the[ELB for Envoy remote infrastructure provider](https://github.com/aws/elb-envoy-remote-infra-provider) alongside Envoy Gateway to move your proxies to ELB for Envoy without rewriting your Gateway API resources.\n\n\nYou can add custom logic with WebAssembly, Lua scripting, or external processing. ELB for Envoy runs inside your VPC, integrates with Amazon Virtual Private Cloud (Amazon VPC) security groups, and supports VPC encryption. It's well suited to workloads that need Envoy's extensibility, such as custom authentication, request transformation, or advanced traffic routing, along with Kubernetes ingress and migrations from self-managed Envoy.\n\n\nAt general availability, ELB for Envoy is available in 14 AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (Ireland), Europe (Frankfurt), Europe (Stockholm), Europe (Spain), Asia Pacific (Sydney), Asia Pacific (Hong Kong), Asia Pacific (Tokyo), Asia Pacific (Singapore), Asia Pacific (Mumbai), Asia Pacific (Malaysia), and Asia Pacific (Thailand). To learn more, visit the[ELB for Envoy product page](https://aws.amazon.com/elasticloadbalancing/elbproxy) ,[ELB pricing page](https://aws.amazon.com/elasticloadbalancing/pricing/) , and[documentation](https://docs.aws.amazon.com/elasticloadbalancing/latest/elbproxy/what-is.html) . To get started, visit the[AWS Management Console](https://aws.amazon.com/elasticloadbalancing/getting-started/#Getting_started_with_the_AWS_Management_Console) .",
+  "published_at": "2026-11-25T16:00:00+00:00",
+  "first_seen_at": "2026-11-26T09:18:52.241427+00:00",
+  "content_hash": "sha256:fcb8dba544246daea65907249fe93575acab6e5d63f03b1fe80efdcc4811b4b9"
+}
