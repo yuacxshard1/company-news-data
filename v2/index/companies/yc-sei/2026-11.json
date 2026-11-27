@@ -23,6 +23,16 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
+      "doc_id": "1e22536d54fa99e303e3dcaa139835435c966b6d4b034fc9021a46c5f17344f1",
+      "first_seen_at": "2026-11-27T11:47:50.553776+00:00",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A mortgage servicer that escrows taxes and insurance has to pay each bill on or before the deadline to avoid a penalty, advance its own money when the account is short, and choose between installments and a lump sum by a rule most servicing teams have never read closely. The CFPB has found servicers sending payments that never arrived and leaving them unpaid for months. An account of the rule, the failure modes, and how our servicing agents read the bills and watch the dates.",
+      "title": "Paid on Time Means Paid Before the Penalty: Escrow Disbursement Under Reg X 1024.17(k) and 1024.34, and Where Servicers Actually Miss"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
       "doc_id": "2341d7f25d2796bccfe1b69c3bd7fe1eda60e9c0ee74b92ad80a4171334a00fc",
       "first_seen_at": "2026-11-06T07:44:43.224839+00:00",
       "published_at": "2026-11-05T00:00:00+00:00",
@@ -53,6 +63,26 @@
     {
       "company_key": "yc-sei",
       "company_name": "Sei",
+      "doc_id": "3b906aa37457328d5e11d40d49ef1058b67f9bc7471b9a8d7670544fbe88c821",
+      "first_seen_at": "2026-11-27T11:47:50.553776+00:00",
+      "published_at": "2026-11-21T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Since May 2025, a non-permanent resident cannot get an FHA loan, can still get a Fannie Mae loan on the same terms as a citizen, and gets different answers again from Freddie Mac and USDA depending on their documents. Regulation B lets a lender ask about immigration status, and the 2023 CFPB and DOJ statement on noncitizen borrowers was withdrawn in January 2026. How we designed the residency question in an AI point of sale so it routes a borrower to a program they qualify for instead of screening them out.",
+      "title": "One Borrower, Four Answers: Asking About Residency Status at an AI Mortgage Point of Sale After FHA Dropped Non-Permanent Residents"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "5d46c937614090647a473f5e27ab1c55ed9ae4d5623d27619225ada98f6620b5",
+      "first_seen_at": "2026-11-27T11:47:50.553776+00:00",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "Since November 2, 2026, new appraisal reports submitted to the UCDP must use UAD 3.6, unless the seller holds the GSEs' one-time exception, and UAD 2.6 is not fully retired until June 28, 2027. For the next seven months a pipeline will carry both formats, with different field names, rating rules and findings codes. A technical account of what changed in the data, where automated review breaks if it treats the new report as the old one, and the checks our agents run on each version.",
+      "title": "Two Appraisal Formats in One Pipeline: What UAD 3.6 and the Redesigned URAR Change for Automated Appraisal Review"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
       "doc_id": "6cca3f9abe4fc7d37b4e36ec167532fd8cfea5898dc678efb4c5da2e6618853f",
       "first_seen_at": "2026-11-20T07:02:47.256491+00:00",
       "published_at": "2026-11-15T00:00:00+00:00",
@@ -79,6 +109,16 @@
       "source_kind": "rss",
       "summary": "Mortgage operations already run on maker-checker: the underwriter decides, QC re-checks, a manager signs the exception. An AI agent that writes to the system of record should be held to the same separation, and a single model with a self-reported confidence score is not that. A technical account of how our three verification layers are built, what the checker is and is not allowed to see, why disagreements are never settled by a vote, and how the auto-clear threshold gets set.",
       "title": "Maker, Checker, Threshold: Why a Mortgage AI Agent Gets Three Independent Chances to Say No Before It Writes to the LOS"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "a470d9271268aeedbdd57621aa4cafe3bb46d86cc477a0fafcba31227af82377",
+      "first_seen_at": "2026-11-27T11:47:50.553776+00:00",
+      "published_at": "2026-11-22T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A borrower buying a new home while keeping or selling the old one carries a second housing payment, and how much of it counts in DTI depends on the investor. Fannie Mae's SEL-2026-08 moved its rental income rules to B3-3.8 and stopped accepting a lease for a departing residence. Freddie Mac still uses one. FHA ties rental income from a vacated home to a 100-mile relocation. A technical account of the three rules, the pending-sale exception, and how our agents compute qualifying income per investor.",
+      "title": "The Departing Residence: Why the Same Borrower Now Qualifies Differently at Fannie Mae, Freddie Mac and FHA, and How an Income Agent Keeps Them Apart"
     },
     {
       "company_key": "yc-sei",
@@ -159,6 +199,16 @@
       "source_kind": "rss",
       "summary": "Regulation B requires evidence, at the time of application, that each co-applicant intended to apply jointly, and it bars a creditor from requiring a spouse's signature on the note when the applicant qualifies alone. Both rules are old, both are among the findings examiners write most often, and both get harder when the application is a conversation instead of a form. How we capture joint intent at the point of sale, why it is a separate event from the accuracy attestation, and what the agent is not allowed to suggest.",
       "title": "Who Is Actually Applying? Joint Intent, Co-Applicants and Spousal Signatures When an AI Agent Runs the Mortgage Application"
+    },
+    {
+      "company_key": "yc-sei",
+      "company_name": "Sei",
+      "doc_id": "f942a2bd9baf39298e3fea20c2ac2bf3451522192e032ac23e9767f3bbfc5d33",
+      "first_seen_at": "2026-11-27T11:47:50.553776+00:00",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "source_kind": "rss",
+      "summary": "A dispute flag on a credit tradeline changes how Fannie Mae's DU runs the loan, can force an FHA loan to a manual underwrite at $1,000 in disputed derogatory balances, and puts the lender between a borrower's FCRA rights and the agency rules. A technical account of how our agents find disputes on a tri-merge report, run the program tests, and what they will not do, which is coach a borrower to remove a dispute or decide whether it is valid.",
+      "title": "The Disputed Tradeline: How DU, FHA TOTAL and a Manual Underwrite Each Treat a Consumer Dispute, and Where an AI Underwriting Agent Has to Stop"
     }
   ],
   "company_key": "yc-sei",

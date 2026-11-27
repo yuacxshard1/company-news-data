@@ -43,6 +43,16 @@
     {
       "company_key": "yc-blixo",
       "company_name": "Blixo",
+      "doc_id": "3e11fd2617e536f6f081ded91c01159505c7dfb2cc8b71373023102d11c58b8c",
+      "first_seen_at": "2026-11-27T10:32:47.868166+00:00",
+      "published_at": "2026-11-26T17:53:19+00:00",
+      "source_kind": "html",
+      "summary": "Stripe Billing can recover some failed subscription payments through native retries. Net-term invoicing creates different work: collections follow-up, dispute management, and cash application. Orb’s documented Stripe integration sets collection_behavior to charge_automatically for net-0 terms and send_invoice for net-30 or longer; the guide supports a billing handoff, not an end-to-end collections workflow. Post-invoice AR gaps include contract-to-invoice handoff, collections follow-up, dispute management, and reconciliation between Stripe and your ERP.",
+      "title": "Best AR Automation for Stripe Billing in B2B SaaS: Upflow, Churnkey, Orb, and Blixo"
+    },
+    {
+      "company_key": "yc-blixo",
+      "company_name": "Blixo",
       "doc_id": "4faa3e4b4ba52c13352bc6db02250b8e6e2ae81f817476684f91435b97e4c854",
       "first_seen_at": "2026-11-13T07:19:32.202892+00:00",
       "published_at": "2026-11-12T00:22:59+00:00",
