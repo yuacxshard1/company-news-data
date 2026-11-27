@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "b9783dcced71e33911fe0017d7f2f3b957d5049a9fe9cf7c3a81695a80375751",
+  "company_key": "yc-browser-use",
+  "company_name": "Browser Use",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://browser-use.com/changelog/27-11-2026",
+  "canonical_url": "https://browser-use.com/changelog/27-11-2026",
+  "title": "browser-use 1.0, BU 4.0 and Runs Judged by Default",
+  "summary": "browser-use 1.0 writes Python straight on CDP. BU 4.0 is now the default model, and runs get a verdict from your own model by default.",
+  "body_markdown": "## browser-use 1.0\n\n\n- We deleted 80% of the library. The agent now writes Python in one REPL, straight on Chrome DevTools Protocol. On the same models it scores up to 33 points higher, costs 2.7–5.2x less and runs 2–3x faster. Install with` uv add 'browser-use==1.0.8'` ; 0.x stays at` pip install 'browser-use<1'` .[Read the post](https://browser-use.com/posts/browser-use-1-0) .\n- Upgrading from 0.x:` Browser()` is now a Browser Use Cloud browser. Tasks on localhost or private IPs need` Browser('chromium')` .[MIGRATING.md](https://github.com/browser-use/browser-use/blob/main/MIGRATING.md) lists every 0.x option and its 1.0 answer.\n\n\n## BU 4.0 is the default model\n\n\n- Since 1.0.6,` Agent(task)` runs` bu-4.0` . Use` bu-4.0-mini` for simple tasks and` bu-4.0-pro` for the hardest ones.\n- BU 4.0 costs $1.80 / $9.00 per 1M input / output tokens, 15 times` bu-fast` . Pass` llm='bu-fast'` to keep the old model and price.[Model prices](https://docs.browser-use.com/open-source/models) .\n\n\n## Runs are judged by default\n\n\n- By default every run fills` result.judgement` : success, a failure reason, a description, prompt-injection and captcha flags, and gotchas such as \"The form requires phone numbers in (###) ###-#### format\". It uses your own model.` judge_context=` adds your criteria;` judge=False` turns it off.\n- Since 1.0.8 the judge reads the run from the provider's prompt cache, so the trace is no longer billed again at the full input price.\n\n\n## CLI and MCP\n\n\n- ` browser-use --cli-mcp` runs its own Chromium on servers, containers and CI, and when Chrome's remote debugging is off.\n- Long` browser_exec` calls reply within 50 s with the output so far, so clients with a 60 s limit no longer time out. The cell keeps running; call` browser_exec` again with empty code to get the rest.\n- No API key on a headless machine: the run prints a link and a code to approve on any device, then continues.\n- Send feedback with` browser-use feedback \"...\"` .",
+  "published_at": "2026-11-27T00:00:00+00:00",
+  "first_seen_at": "2026-11-27T20:40:29.799996+00:00",
+  "content_hash": "sha256:ac5c2329c1e96b70ff29e7b0ec9d5a48f5c9d8437a65b4385886a2830eaef90a"
+}

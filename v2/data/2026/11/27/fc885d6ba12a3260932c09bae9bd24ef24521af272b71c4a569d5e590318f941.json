@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "fc885d6ba12a3260932c09bae9bd24ef24521af272b71c4a569d5e590318f941",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
+  "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
+  "summary": "Discover more about what's new at AWS with Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
+  "body_markdown": "[Amazon Neptune](https://aws.amazon.com/neptune/) now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automatically and scales to zero when idle. You can give each agent, user or task its own graph without paying for the 16 m-NCU minimum of a provisioned graph. You choose a starting size of 4 s-NCU (sessions Neptune capacity units) or 8 s-NCU of working memory when you create a graph.\n\n\nApplications such as GraphRAG assistants, AI agents and per-user analytics improve accuracy when using a graph. These use cases often need a separate graph for each conversation or task, and the size of that graph is hard to predict. Each Graph Sessions graph starts at the size you choose and includes memory headroom up to twice that size for the data you load and the queries you run (a 4 s-NCU graph has up to 8 s-NCU of memory, and an 8 s-NCU graph has up to 16 s-NCU), so the starting size does not have to cover your largest graph. You are billed for the memory your graph uses, so a graph that fits in the smaller size is billed at the smaller size.\n\n\nWhen a graph is idle, Graph Sessions scales to zero automatically after 15 minutes, and the graph resumes in seconds when the next query arrives. Your graph and its data are kept, so you do not reload data for each session and pay for the running price.\n\n\nYou can create a Neptune Graph Sessions graph using the AWS Management Console, AWS CLI, or AWS SDKs, and query it with openCypher like any other Neptune Analytics graph. For more information, see the[Neptune Analytics User Guide](https://docs.aws.amazon.com/neptune-analytics/latest/userguide/gettingStarted.html) and the[Amazon Neptune pricing page](https://aws.amazon.com/neptune/pricing/) .",
+  "published_at": "2026-11-27T19:00:00+00:00",
+  "first_seen_at": "2026-11-27T22:30:57.047106+00:00",
+  "content_hash": "sha256:68054cc4d53fa7c148e896299a86915b3c50eb325c2363c78af49d82e81b4a1d"
+}

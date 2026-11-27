@@ -5,10 +5,10 @@
       "company_name": "Great Question",
       "doc_id": "77ba5f84fa611b6b1471ae03454f47802ffdba365ca84d98b2a1aae5734f2967",
       "first_seen_at": "2026-09-20T04:51:12.959065+00:00",
-      "published_at": "2026-09-01T17:17:10+00:00",
+      "published_at": "2026-09-01T17:19:43+00:00",
       "source_kind": "rss",
-      "summary": "GET /v1/studies/:id/participants now returns a moderator object (user_id, name, email) for each participant, so API and MCP consumers can see who is running a session without a second lookup. The field is nullable and returns null when no moderator is assigned. The user_id matches the id returned by GET /v1/interviews/:id/moderators, so you can join the two endpoints directly.",
-      "title": "August 25, 2026"
+      "summary": "New: keep multiple AI chats on one study and switch between them from the top bar; the study workspace adds dedicated Setup, Results, and Report tabs with a shareable report URL; report highlight reels can now stitch multiple clips into a single video; the researcher chat can read your study report. Improved: reports place charts and reels inline beside the findings they support, draw on your research plan, and are easier to scan with scaled headings, numbered citations, and an evidence carousel; AI-moderated sessions resume after a dropped connection; the sidebar remembers its collapsed state. Fixed: sub-steps can be removed from the workflow outline; moderation waits for prototypes to load; device-setup speech is kept out of transcripts; background moderation hiccups no longer mark sessions as no-shows; voice defaults off outside AI-moderated studies; report evidence slideouts focus the clicked theme; new chats show their title without a refresh; teammates' studies no longer replay the research goal as a first chat message.",
+      "title": "August 28, 2026"
     }
   ],
   "company_key": "yc-great-question",
