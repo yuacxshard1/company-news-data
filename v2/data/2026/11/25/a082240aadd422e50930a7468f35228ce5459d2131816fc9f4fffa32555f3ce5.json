@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "a082240aadd422e50930a7468f35228ce5459d2131816fc9f4fffa32555f3ce5",
+  "company_key": "yc-supabase",
+  "company_name": "Supabase",
+  "category_key": "uncategorized",
+  "category_name": "Uncategorized",
+  "source_kind": "html",
+  "url": "https://supabase.com/changelog/unified-logs-saved-views",
+  "canonical_url": "https://supabase.com/changelog/unified-logs-saved-views",
+  "title": "Saved views in Unified Logs",
+  "summary": "Saved views in Unified Logs",
+  "body_markdown": "## What's new\n\n\nUnified Logs now supports saved views from the filter sidebar. Click Saved views to open a dedicated Views panel, with built-in presets above your own saved views.\n\n\nThree built-in presets — Errors, Failed requests, and Database health — are available immediately, even for read-only project members. You can duplicate a preset into your own saved view, but presets themselves can't be renamed, edited, or deleted.\n\n\n## How to use it\n\n\n- Click **Saved views** in the filter sidebar to open the Views panel.\n- Select a preset or saved view to apply its filters.\n- Change a filter after applying a view, and a prompt lets you update the saved view instead of silently discarding your edits.\n- Use the **+** button in the Views panel, or **+ New view** in the filter sidebar, to save your current filters as a new view. Rename or delete saved views from the ⋮ menu.\n\n\n## Why we built this\n\n\nFinding errors, failed requests, or database health issues usually means rebuilding the same filter combination each time. Built-in presets give you a starting point for these common cases, and saved views let you capture filter combinations your team uses often so you don't have to rebuild them from scratch.",
+  "published_at": "2026-11-25T00:00:00+00:00",
+  "first_seen_at": "2026-11-27T14:30:02.912111+00:00",
+  "content_hash": "sha256:80e8cbd3da1fb23f562beb2d7f1398c03f64da6d6da321e0e47c916fac7f705c"
+}
