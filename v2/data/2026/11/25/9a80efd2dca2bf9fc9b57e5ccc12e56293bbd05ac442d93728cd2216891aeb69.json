@@ -1,0 +1,17 @@
+{
+  "schema": "article/v2",
+  "doc_id": "9a80efd2dca2bf9fc9b57e5ccc12e56293bbd05ac442d93728cd2216891aeb69",
+  "company_key": "amazon-com-inc-common-stock",
+  "company_name": "Amazon.com Inc.",
+  "category_key": "consumer-discretionary-c2ef8c5fb4379b89",
+  "category_name": "Consumer Discretionary",
+  "source_kind": "rss",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-publish-s3-tables",
+  "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-publish-s3-tables",
+  "title": "Amazon OpenSearch Service optimised engine now publishes data to Amazon S3 Tables",
+  "summary": "Discover more about what's new at AWS with Amazon OpenSearch Service optimised engine now publishes data to Amazon S3 Tables",
+  "body_markdown": "The optimized engine for observability in Amazon OpenSearch Service now lets customers who send observability data directly to OpenSearch publish that data to Amazon S3 Tables. These customers can search and analyze data in OpenSearch, but reusing it with other analytics and AI tools often requires a parallel ingestion or custom export pipeline. This integration provides an open-table reuse path without changing how data enters OpenSearch.\n\n\nPublish policies make selected indexes available as Apache Iceberg tables in your AWS account. Engineers and AI agents can query the same observability data with Amazon EMR Serverless, DuckDB, and other Iceberg-compatible tools without adding query load to OpenSearch. They can reuse it for historical investigations, cross-dataset analysis, audits, and long-term trend analysis while retaining it at lower cost.\n\n\nThis feature is available at no additional charge on the new engine for observability with OpenSearch 3.9 in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Canada (Central), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Frankfurt), Europe (Ireland), Europe (London), and Europe (Spain). Amazon S3 Tables storage and the services you use to query the data incur standard charges. To get started, add a publish policy to your[optimized domain](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/optimized-log-analytics.html) and see Publish indexes to Amazon S3 Tables in the[documentation](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/publishing-indices-s3-tables.html) .",
+  "published_at": "2026-11-25T17:00:00+00:00",
+  "first_seen_at": "2026-11-28T05:03:40.675597+00:00",
+  "content_hash": "sha256:7dc325f52c5c20b389ef47c95926d4fb10bbe3f058af638b089c341a22ec01da"
+}
